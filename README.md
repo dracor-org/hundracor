@@ -1,2 +1,2 @@
-# hundracor
+# HunDraCor
 Hungarian Drama Corpus
