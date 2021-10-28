@@ -1,31 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title type="main">A vasember</title>
-<title type="sub"/>
-<author>
-<persName>
-<surname>Csiky</surname>
-<forename>Gergely</forename>
-</persName>
-<idno type="wikidata">Q166952</idno>
-</author>
-</titleStmt>
-<editionStmt> <edition>digital edition</edition> <respStmt> <resp>project director</resp> <persName> <surname>Palkó</surname> <forename>Gábor</forename> </persName> </respStmt> <respStmt> <resp>TEI-specification</resp> <persName> <surname>Fellegi</surname> <forename>Zsófia</forename> </persName> </respStmt> <respStmt> <resp>XML-control</resp> <persName> <surname>Bajzát</surname> <forename>Tímea</forename> </persName> </respStmt> <respStmt> <resp>project coordinator</resp> <persName> <surname>Szemes</surname> <forename>Botond</forename> </persName> </respStmt> <respStmt> <resp>NLP expert</resp> <persName> <surname>Horváth</surname> <forename>Péter</forename> </persName> </respStmt>
-<respStmt>
-<resp>XML-editor</resp>
-<persName>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">A vasember</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <surname>Csiky</surname>
+            <forename>Gergely</forename>
+          </persName>
+          <idno type="wikidata">Q166952</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Bajzát</surname>
+            <forename>Tímea</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
             <surname>Sziráki</surname>
             <forename>Sarolta</forename>
           </persName>
-</respStmt>
-<respStmt> <resp>creator</resp> <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName> </respStmt> </editionStmt> <publicationStmt> <publisher>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
           <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
-        </publisher><pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref></pubPlace><date>2021</date><availability> <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p></availability> </publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
           <title type="main">Csiky Gergely válogatott munkái</title>
           <title type="sub">A nagymama ; A vasember</title>
           <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -39,7 +89,8 @@
             </persName>
             <persName>
               <surname>Szabó</surname>
-              <forename>Attila</forename></persName>
+              <forename>Attila</forename>
+            </persName>
             <persName>
               <surname>Kiss</surname>
               <forename>András</forename>
@@ -50,82 +101,88 @@
             </persName>
           </respStmt>
         </bibl>
-<bibl type="originalSource">
-<title type="main">Csiky Gergely válogatott munkái</title>
-<title type="sub">A nagymama ; A vasember</title>
-<author>
-<persName>
-<surname>Csiky</surname>
-<forename>Gergely</forename>
-</persName>
-<idno type="wikidata">Q166952</idno>
-</author>
-<date>1943</date>
-<pubPlace>Budapest</pubPlace>
-<publisher>Magyar Népművelők Társasága</publisher>
-</bibl>
-<bibl type="firstEdition">
-<title type="main">A vasember</title>
-<author>
-<persName>
-<surname>Csiky</surname>
-<forename>Gergely</forename>
-</persName>
-<idno type="wikidata">Q166952</idno>
-</author>
-<date type="print" when="1888">1888</date>
-<date type="premiere" when="1888">1888</date>
-<date type="written" when="1888">1888</date>
-<pubPlace>Budapest</pubPlace>
-<publisher>Athenaeum</publisher>
-</bibl>
-</sourceDesc>
-</fileDesc>
-<profileDesc>
-<langUsage>
-<language ident="hu"/>
-</langUsage>
-<particDesc>
-<listPerson>
-<person sex="MALE" xml:id="szentgali">
-<persName>SZENTGÁLI</persName>
-</person>
-<person sex="FEMALE" xml:id="edith">
-<persName>EDITH</persName>
-</person>
-<person sex="MALE" xml:id="bardi">
-<persName>BÁRDI</persName>
-</person>
-<person sex="MALE" xml:id="braz">
-<persName>BRÁZ</persName>
-</person>
-<person sex="FEMALE" xml:id="anna">
-<persName>ANNA</persName>
-</person>
-<person sex="MALE" xml:id="közszolga">
-<persName>KÖZSZOLGA</persName>
-</person>
-</listPerson>
-</particDesc>
-</profileDesc>
-</teiHeader>
-<text>
-<front>
-<!-- ehhez vissza kell térni -->
-<castList>
-<head type="title"><hi rend="underline"/></head>
-<castItem>
-<role/>
-</castItem>
-</castList>
-</front>
-<body>
-  <div type="act">
+        <bibl type="originalSource">
+          <title type="main">Csiky Gergely válogatott munkái</title>
+          <title type="sub">A nagymama ; A vasember</title>
+          <author>
+            <persName>
+              <surname>Csiky</surname>
+              <forename>Gergely</forename>
+            </persName>
+            <idno type="wikidata">Q166952</idno>
+          </author>
+          <date>1943</date>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Magyar Népművelők Társasága</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <title type="main">A vasember</title>
+          <author>
+            <persName>
+              <surname>Csiky</surname>
+              <forename>Gergely</forename>
+            </persName>
+            <idno type="wikidata">Q166952</idno>
+          </author>
+          <date type="print" when="1888">1888</date>
+          <date type="premiere" when="1888">1888</date>
+          <date type="written" when="1888">1888</date>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Athenaeum</publisher>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="szentgali">
+            <persName>SZENTGÁLI</persName>
+          </person>
+          <person sex="FEMALE" xml:id="edith">
+            <persName>EDITH</persName>
+          </person>
+          <person sex="MALE" xml:id="bardi">
+            <persName>BÁRDI</persName>
+          </person>
+          <person sex="MALE" xml:id="braz">
+            <persName>BRÁZ</persName>
+          </person>
+          <person sex="FEMALE" xml:id="anna">
+            <persName>ANNA</persName>
+          </person>
+          <person sex="MALE" xml:id="közszolga">
+            <persName>KÖZSZOLGA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <!-- ehhez vissza kell térni -->
+      <castList>
+        <head type="title">
+          <hi rend="underline"/>
+        </head>
+        <castItem>
+          <role/>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
         <head type="title">ELSŐ FELVONÁS</head>
-        <p><stage>Terem.</stage></p>
+        <p>
+          <stage>Terem.</stage>
+        </p>
         <div type="scene">
           <head type="title">Első jelenet</head>
-          <p><stage>EDITH az ablak mellett ül, olvasva; SZENTGÁLI jő</stage></p>
+          <p>
+            <stage>EDITH az ablak mellett ül, olvasva; SZENTGÁLI jő</stage>
+          </p>
           <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
@@ -280,7 +337,9 @@
         </div>
         <div type="scene">
           <head type="title">Második jelenet.</head>
-          <p><stage>ELŐBBIEK, BÁRDI.</stage></p>
+          <p>
+            <stage>ELŐBBIEK, BÁRDI.</stage>
+          </p>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <lg>
@@ -342,12 +401,16 @@
             </lg>
           </sp>
           <sp who="#edith">
-            <p><stage>(némán meghajtja fejét s el).</stage></p>
+            <p>
+              <stage>(némán meghajtja fejét s el).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">Harmadik jelenet.</head>
-          <p><stage>BÁRDI, SZENTGÁLI.</stage></p>
+          <p>
+            <stage>BÁRDI, SZENTGÁLI.</stage>
+          </p>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <lg>
@@ -557,7 +620,9 @@
         </div>
         <div type="scene">
           <head type="title">Negyedik jelenet</head>
-          <p><stage>ANDOR, BÁRDI.</stage></p>
+          <p>
+            <stage>ANDOR, BÁRDI.</stage>
+          </p>
           <sp who="#andor">
             <speaker>ANDOR</speaker>
             <lg>
@@ -761,7 +826,9 @@
         </div>
         <div type="scene">
           <head type="title">Ötödik jelenet.</head>
-          <p><stage>ELŐBBIEK, VÁRHELYI.</stage></p>
+          <p>
+            <stage>ELŐBBIEK, VÁRHELYI.</stage>
+          </p>
           <sp who="#varhelyi">
             <speaker>VÁRHELYI</speaker>
             <lg>
@@ -890,7 +957,9 @@
         </div>
         <div type="scene">
           <head type="title">Hatodik jelenet</head>
-          <p><stage>ELŐBBIEK, BRÁZ (nagy csomag levéllel).</stage></p>
+          <p>
+            <stage>ELŐBBIEK, BRÁZ (nagy csomag levéllel).</stage>
+          </p>
           <sp who="#braz">
             <speaker>BRÁZ</speaker>
             <lg>
@@ -967,7 +1036,9 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p><stage>ANDOR, EDITH.</stage></p>
+          <p>
+            <stage>ANDOR, EDITH.</stage>
+          </p>
           <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
@@ -1162,7 +1233,9 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p><stage>BÁRDI, ANNA, ANDOR.</stage></p>
+          <p>
+            <stage>BÁRDI, ANNA, ANDOR.</stage>
+          </p>
           <sp who="bardi">
             <speaker>BÁRDI</speaker>
             <stage>(kezében nyitott levéllel)</stage>
@@ -1480,7 +1553,9 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p><stage>BÁRDI, BRÁZ.</stage></p>
+          <p>
+            <stage>BÁRDI, BRÁZ.</stage>
+          </p>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(az asztalhoz siet s hevesen megüti a csengetyűt).</stage>
@@ -1539,7 +1614,9 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENET</head>
-          <p><stage>BÁRDI, SZENTGÁLI, EDITH.</stage></p>
+          <p>
+            <stage>BÁRDI, SZENTGÁLI, EDITH.</stage>
+          </p>
           <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
@@ -1757,7 +1834,9 @@
         </div>
         <div type="scene">
           <head type="title">Tizenegyedik jelenet.</head>
-          <p><stage>ELŐBBIEK, ANDOR, ANNA.</stage></p>
+          <p>
+            <stage>ELŐBBIEK, ANDOR, ANNA.</stage>
+          </p>
           <sp who="#andor">
             <speaker>ANDOR</speaker>
             <stage>a mellékajtón berohan, s látszik, amint Anna karjaiból kiragadja magát)</stage>
@@ -1793,255 +1872,262 @@
               <stage>(Gyorsan el Szentgálival.)</stage>
             </lg>
           </sp>
-          <p><stage>A függöny legördül.</stage></p>
+          <p>
+            <stage>A függöny legördül.</stage>
+          </p>
         </div>
       </div>
-                            <div type="act">
-<head type="title">MÁSODIK FELVONÁS</head>
-        <p><stage>Szoba.</stage></p>
-                              <div type="scene">
-<head type="title">Első jelenet</head>
-          <p><stage>BRÁZ, VÁRHELYI.</stage></p>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<stage>(az íróasztal mellett állva, leveleket és hírlapokat rendez)</stage>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<stage>(bedugja fejét az ajtón)</stage>
-<lg>
-<l>Szabad?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Legyen szerencsém.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Csak maga?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Csak én.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>És Bárdi?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Az idősb vagy ifjabb?</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELLYI</speaker>
-<lg>
-<l>Ördögbe az ifjabbal! Nincs közöm</l>
-<l>Hozzá, nagyon vérszomjas hajlamú.</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Szeret fület vagdosni.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Micsoda!</l>
-<l>Hát ezt is tudja?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Én mindent tudok.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Ugy azt is tudja tán, mikor lesz itt az</l>
-<l>Idősebb Bárdi?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Rögtön. A vasúton</l>
-<l>Ma reggel érkezett meg. Most pihen;</l>
-<l>De nem sokára itt lesz; asztalán</l>
-<l>Elrendezém már a leveleket.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Akkor megvárom.<stage>(Leül.)</stage></l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Meg se' bánja tán.</l>
-<l>Szerelméről jó hírt fog hallani.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<stage>(felugrik)</stage>
-<lg>
-<l>Mit! ezt is tudja?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Én mindent tudok,</l>
-<l>S többet teszek, mint gondolnák... Ha majd</l>
-<l>Keblén pihen bájos menyasszonya</l>
-<l>S hétágú koronával gyarapul</l>
-<l>Nemes családi törzse: ne feledje,</l>
-<l>Hogy boldogsága nagy részt a szerény</l>
-<l>Bráz Márton műve. És mint a hatalmas</l>
-<l>Oroszlán nem veté meg a kicsiny</l>
-<l>Egér szolgálatát, akként remélem,</l>
-<l>Hogy a nemes, dúsgazdag Várhelyi</l>
-<l>Nem fogja elfeledni a szerény</l>
-<l>Bráz Mártont, majd ha jutalmazni kell.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<stage>(leereszkedőleg megveregeti Bráz vállát)</stage>
-<lg>
-<l>Legyen nyugodt barátom, az oroszlán</l>
-<l>El nem felejti a kis egeret...</l>
-<l>Látom, mindent tud; megmutathatom</l>
-<l>E levelet...<stage>(zsebébe nyúl.)</stage></l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Ne fáradjon; tudom,</l>
-<l>Mi az. Két napja kapta Bárditól,</l>
-<l>A fővárosba hívja és reményt ad,</l>
-<l>Hogy teljesül legforróbb óhaja.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Bezárt levélből is olvasni tud.</l>
-<l>Megfoghatatlan! Egy ily semmi ember,</l>
-<l>Afféle titkár vagy levelező,</l>
-<l>Mindent tud, mindent ért, s én, a nemes,</l>
-<l>Előkelő, dúsgazdag Várhelyi</l>
-<l>Semmit sem értek. Ezt a levelet</l>
-<l>Sem értem: mondja meg hát, mit jelent?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Csak annyit mondhatok, hogy nemsokára</l>
-<l>Edith bárónő férjévé lehet.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Anélkül, hogy levágják a fülem?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Fülestül lesz a férje.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELIY</speaker>
-<lg>
-<l>Ah! ha tudná,</l>
-<l>Mint szeretem... Nem, ön nem tudja ezt</l>
-<l>Felfogni: egy szegény titkár nem érti,</l>
-<l>Miként lehet egy bárónőt szeretni.</l>
-<l>De hát valóban igazat beszél?</l>
-<l>Ah! mondja el, mint fordult e dolog?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Ép egy hónapja történt, az napon,</l>
-<l>Amelyen ön megkapta kosarát -</l>
-<l>Szentgáli és leánya elhagyák</l>
-<l>A Bárdi-házat...</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Mindezt jól tudom.</l>
-<l>Andor kicsinybe múlt, hogy főbe nem</l>
-<l>Lövé magát... Szerelmes volt Edithbe...</l>
-<l>Mindjárt sejtém, midőn fülemre célzott.</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Nagy jelenet volt a fiú s apa</l>
-<l>Között... az anya zokogott s könyörgött...</l>
-<l>Egyik sem engedett, s a vége az lett,</l>
-<l>Hogy Bárdi úr fiának egy havi</l>
-<l>Határidőt adott, melynek leteltén</l>
-<l>El kell a Solti céget vennie.</l>
-<l>Az úrfi ezzel eltünt s Bárdi úr</l>
-<l>Engem bízott meg, hogy Szentgáliékat</l>
-<l>Szemmel tartsam. Tüstén elútazám</l>
-<l>A fővárosba, és azóta itt</l>
-<l>Vagyok, Szentgáliékat mindenütt</l>
-<l>Nyomon kisérve.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Nos, nos, nos?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Bocsánat,</l>
-<l>Idáig terjed, amit mondhatok.</l>
-<l>A többit, amit tettem s téteték,</l>
-<l>Csak főnököm kezébe adhatom.</l>
-<l>Önnek csak annyit, hogy szerelmi lángja</l>
-<l>Vigan loboghat s fujtatója én</l>
-<l>Valék... Reménylem, nem felejti el...</l>
-<l>De most elég, ím itt van főnököm.</l>
-</lg>
-</sp>
-
-                              </div>
-                                                        <div type="scene">
+      <div type="act">
+        <head type="title">MÁSODIK FELVONÁS</head>
+        <p>
+          <stage>Szoba.</stage>
+        </p>
+        <div type="scene">
+          <head type="title">Első jelenet</head>
+          <p>
+            <stage>BRÁZ, VÁRHELYI.</stage>
+          </p>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <stage>(az íróasztal mellett állva, leveleket és hírlapokat rendez)</stage>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <stage>(bedugja fejét az ajtón)</stage>
+            <lg>
+              <l>Szabad?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Legyen szerencsém.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Csak maga?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Csak én.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>És Bárdi?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Az idősb vagy ifjabb?</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELLYI</speaker>
+            <lg>
+              <l>Ördögbe az ifjabbal! Nincs közöm</l>
+              <l>Hozzá, nagyon vérszomjas hajlamú.</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Szeret fület vagdosni.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Micsoda!</l>
+              <l>Hát ezt is tudja?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Én mindent tudok.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Ugy azt is tudja tán, mikor lesz itt az</l>
+              <l>Idősebb Bárdi?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Rögtön. A vasúton</l>
+              <l>Ma reggel érkezett meg. Most pihen;</l>
+              <l>De nem sokára itt lesz; asztalán</l>
+              <l>Elrendezém már a leveleket.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Akkor megvárom.<stage>(Leül.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Meg se' bánja tán.</l>
+              <l>Szerelméről jó hírt fog hallani.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <stage>(felugrik)</stage>
+            <lg>
+              <l>Mit! ezt is tudja?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Én mindent tudok,</l>
+              <l>S többet teszek, mint gondolnák... Ha majd</l>
+              <l>Keblén pihen bájos menyasszonya</l>
+              <l>S hétágú koronával gyarapul</l>
+              <l>Nemes családi törzse: ne feledje,</l>
+              <l>Hogy boldogsága nagy részt a szerény</l>
+              <l>Bráz Márton műve. És mint a hatalmas</l>
+              <l>Oroszlán nem veté meg a kicsiny</l>
+              <l>Egér szolgálatát, akként remélem,</l>
+              <l>Hogy a nemes, dúsgazdag Várhelyi</l>
+              <l>Nem fogja elfeledni a szerény</l>
+              <l>Bráz Mártont, majd ha jutalmazni kell.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <stage>(leereszkedőleg megveregeti Bráz vállát)</stage>
+            <lg>
+              <l>Legyen nyugodt barátom, az oroszlán</l>
+              <l>El nem felejti a kis egeret...</l>
+              <l>Látom, mindent tud; megmutathatom</l>
+              <l>E levelet...<stage>(zsebébe nyúl.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Ne fáradjon; tudom,</l>
+              <l>Mi az. Két napja kapta Bárditól,</l>
+              <l>A fővárosba hívja és reményt ad,</l>
+              <l>Hogy teljesül legforróbb óhaja.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Bezárt levélből is olvasni tud.</l>
+              <l>Megfoghatatlan! Egy ily semmi ember,</l>
+              <l>Afféle titkár vagy levelező,</l>
+              <l>Mindent tud, mindent ért, s én, a nemes,</l>
+              <l>Előkelő, dúsgazdag Várhelyi</l>
+              <l>Semmit sem értek. Ezt a levelet</l>
+              <l>Sem értem: mondja meg hát, mit jelent?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Csak annyit mondhatok, hogy nemsokára</l>
+              <l>Edith bárónő férjévé lehet.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Anélkül, hogy levágják a fülem?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Fülestül lesz a férje.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELIY</speaker>
+            <lg>
+              <l>Ah! ha tudná,</l>
+              <l>Mint szeretem... Nem, ön nem tudja ezt</l>
+              <l>Felfogni: egy szegény titkár nem érti,</l>
+              <l>Miként lehet egy bárónőt szeretni.</l>
+              <l>De hát valóban igazat beszél?</l>
+              <l>Ah! mondja el, mint fordult e dolog?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Ép egy hónapja történt, az napon,</l>
+              <l>Amelyen ön megkapta kosarát -</l>
+              <l>Szentgáli és leánya elhagyák</l>
+              <l>A Bárdi-házat...</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Mindezt jól tudom.</l>
+              <l>Andor kicsinybe múlt, hogy főbe nem</l>
+              <l>Lövé magát... Szerelmes volt Edithbe...</l>
+              <l>Mindjárt sejtém, midőn fülemre célzott.</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Nagy jelenet volt a fiú s apa</l>
+              <l>Között... az anya zokogott s könyörgött...</l>
+              <l>Egyik sem engedett, s a vége az lett,</l>
+              <l>Hogy Bárdi úr fiának egy havi</l>
+              <l>Határidőt adott, melynek leteltén</l>
+              <l>El kell a Solti céget vennie.</l>
+              <l>Az úrfi ezzel eltünt s Bárdi úr</l>
+              <l>Engem bízott meg, hogy Szentgáliékat</l>
+              <l>Szemmel tartsam. Tüstén elútazám</l>
+              <l>A fővárosba, és azóta itt</l>
+              <l>Vagyok, Szentgáliékat mindenütt</l>
+              <l>Nyomon kisérve.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Nos, nos, nos?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Bocsánat,</l>
+              <l>Idáig terjed, amit mondhatok.</l>
+              <l>A többit, amit tettem s téteték,</l>
+              <l>Csak főnököm kezébe adhatom.</l>
+              <l>Önnek csak annyit, hogy szerelmi lángja</l>
+              <l>Vigan loboghat s fujtatója én</l>
+              <l>Valék... Reménylem, nem felejti el...</l>
+              <l>De most elég, ím itt van főnököm.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p><stage>ELŐBBIEK, BÁRDI.</stage></p>
+          <p>
+            <stage>ELŐBBIEK, BÁRDI.</stage>
+          </p>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <lg>
@@ -2100,291 +2186,291 @@
             </lg>
           </sp>
         </div>
-                                                        <div type="scene"> 
-
- <head type="title">Harmadik jelenet</head>
-          <p><stage>BÁRDI, BRÁZ.</stage></p>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(az íróasztal elé ül)</stage>
-<lg>
-<l>Beszéljen gyorsan, röviden.</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<stage>(állva)</stage>
-<lg>
-<l>Mióta</l>
-<l>Parancsából a fővárosba jöttem,</l>
-<l>Egy percre sem bocsátám szem elől</l>
-<l>Szentgáliékat. S amiként levélben</l>
-<l>Tudósítám önt, minden léptöket</l>
-<l>Árnyék gyanánt kísértem.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Ép azért</l>
-<l>Bíztam meg önt ez üggyel, mert tudom,</l>
-<l>Hogy legfőbb tudománya, gyönyöre</l>
-<l>A leskelődés, kémkedés, s bizonnyal</l>
-<l>Inkább titkos rendőrnek született,</l>
-<l>Mint tisztes üzletembernek.</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Nagyon</l>
-<l>Hizelgő vélemény. E kémkedő</l>
-<l>Tehetségemnél fogva megtudám,</l>
-<l>Hogy a bárónő lankadatlanul</l>
-<l>Jár, kel, sürget, kér, levelez, hogy atyja</l>
-<l>Számára bármi hivatalt avagy</l>
-<l>Foglalkozást találjon, egyelőre</l>
-<l>Siker nélkül; míg ő maga nehány</l>
-<l>Gazdag polgárcsaládnál zongorából</l>
-<l>És nyelvekből leckét ad.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Mily erőssé</l>
-<l>Tevé lelkét a sértett büszkeség!...</l>
-<l>Találkozott fiam vele?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Soha.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Jó. Megtartá szavát... Az én fiam...</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Szentgáli ez alatt sétálgatott,</l>
-<l>Nagy csínnal öltözött, előkelő</l>
-<l>Vendéglők asztalánál étkezett,</l>
-<l>Kissé kártyázott, vesztett és a mellett</l>
-<l>Sóhajtozott és szidta a cudar</l>
-<l>Világot</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Léhűtő!</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>A pénz fogyott...</l>
-<l>Szentgáli kölcsön kezde venni itt-ott,</l>
-<l>Leánya tudta nélkül... Én is adtam</l>
-<l>Néhány forintot... azt hazudva, hogy</l>
-<l>Ön elcsapott magától engem is...</l>
-<l>Barátok lettünk s együtt szidtuk önt.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Valóban összeillő társaság.</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>De most jő mindezeknek koronája.</l>
-<l>Levélben célzást sem tevék reá,</l>
-<l>Oly kényes egy dolog. Csak annyit irtam,</l>
-<l>Hogy felviradt a diadalmi nap</l>
-<l>És jó lesz a szerelmes Várhelyit</l>
-<l>Azonnal fölrendelni.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Megtevém.</l>
-<l>Mindketten itt vagyunk. Most hát beszéljen.</l>
-<l>Nem látja, mily türelmetlen vagyok?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Szürcsölve szeretem felhajtani</l>
-<l>A diadal kelyhét. Nos, hallja hát:</l>
-<l>A pénz fogyott, a kölcsön elapadt,</l>
-<l>Szentgáli egyre sóhajtott, nem érté,</l>
-<l>Miért akarnak pénzt az emberek?</l>
-<l>Egy pár hitelező mozogni kezdett;</l>
-<l>Kártyán is vesztett és adós maradt,</l>
-<l>S ez - mondják - már a becsületbe vág:</l>
-<l>Szentgáli nem tudá, hol a feje.</l>
-<l>Lányának nem mert szólni, én valék</l>
-<l>Benső meghittje... titkos suttogás,</l>
-<l>Tanácskozás, nagy méltatlankodás,</l>
-<l>Majd egy kétségbeejtő pillanat,</l>
-<l>És meglett a hamis váltó.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(felugrik, erősen az asztalra ütve öklével)</stage>
-<lg>
-<l>Gazember!</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Gazember?... Gondolom, Szentgálihoz,</l>
-<l>S nem hozzám szólott.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Hol van az a váltó?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Természetes, hogy rögtön megszereztem.</l>
-<l>Kiváltám a sajátomból. Im,</l>
-<stage>(Kiveszi tárcájából a váltót s átadja Bárdinak.)</stage>
-<l>Csak holnap jár le... Tudtam, hogy azonnal</l>
-<l>Hasznát akarja venni... elhozám,</l>
-<l>Itt egy levél is: pénzt kér benne és a</l>
-<l>Váltót említi... teljes vallomás.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(az íróasztal fiókjából pénzt vesz ki és Bráz elé
+        <div type="scene">
+          <head type="title">Harmadik jelenet</head>
+          <p>
+            <stage>BÁRDI, BRÁZ.</stage>
+          </p>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(az íróasztal elé ül)</stage>
+            <lg>
+              <l>Beszéljen gyorsan, röviden.</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <stage>(állva)</stage>
+            <lg>
+              <l>Mióta</l>
+              <l>Parancsából a fővárosba jöttem,</l>
+              <l>Egy percre sem bocsátám szem elől</l>
+              <l>Szentgáliékat. S amiként levélben</l>
+              <l>Tudósítám önt, minden léptöket</l>
+              <l>Árnyék gyanánt kísértem.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Ép azért</l>
+              <l>Bíztam meg önt ez üggyel, mert tudom,</l>
+              <l>Hogy legfőbb tudománya, gyönyöre</l>
+              <l>A leskelődés, kémkedés, s bizonnyal</l>
+              <l>Inkább titkos rendőrnek született,</l>
+              <l>Mint tisztes üzletembernek.</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Nagyon</l>
+              <l>Hizelgő vélemény. E kémkedő</l>
+              <l>Tehetségemnél fogva megtudám,</l>
+              <l>Hogy a bárónő lankadatlanul</l>
+              <l>Jár, kel, sürget, kér, levelez, hogy atyja</l>
+              <l>Számára bármi hivatalt avagy</l>
+              <l>Foglalkozást találjon, egyelőre</l>
+              <l>Siker nélkül; míg ő maga nehány</l>
+              <l>Gazdag polgárcsaládnál zongorából</l>
+              <l>És nyelvekből leckét ad.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Mily erőssé</l>
+              <l>Tevé lelkét a sértett büszkeség!...</l>
+              <l>Találkozott fiam vele?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Soha.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Jó. Megtartá szavát... Az én fiam...</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Szentgáli ez alatt sétálgatott,</l>
+              <l>Nagy csínnal öltözött, előkelő</l>
+              <l>Vendéglők asztalánál étkezett,</l>
+              <l>Kissé kártyázott, vesztett és a mellett</l>
+              <l>Sóhajtozott és szidta a cudar</l>
+              <l>Világot</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Léhűtő!</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>A pénz fogyott...</l>
+              <l>Szentgáli kölcsön kezde venni itt-ott,</l>
+              <l>Leánya tudta nélkül... Én is adtam</l>
+              <l>Néhány forintot... azt hazudva, hogy</l>
+              <l>Ön elcsapott magától engem is...</l>
+              <l>Barátok lettünk s együtt szidtuk önt.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Valóban összeillő társaság.</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>De most jő mindezeknek koronája.</l>
+              <l>Levélben célzást sem tevék reá,</l>
+              <l>Oly kényes egy dolog. Csak annyit irtam,</l>
+              <l>Hogy felviradt a diadalmi nap</l>
+              <l>És jó lesz a szerelmes Várhelyit</l>
+              <l>Azonnal fölrendelni.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Megtevém.</l>
+              <l>Mindketten itt vagyunk. Most hát beszéljen.</l>
+              <l>Nem látja, mily türelmetlen vagyok?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Szürcsölve szeretem felhajtani</l>
+              <l>A diadal kelyhét. Nos, hallja hát:</l>
+              <l>A pénz fogyott, a kölcsön elapadt,</l>
+              <l>Szentgáli egyre sóhajtott, nem érté,</l>
+              <l>Miért akarnak pénzt az emberek?</l>
+              <l>Egy pár hitelező mozogni kezdett;</l>
+              <l>Kártyán is vesztett és adós maradt,</l>
+              <l>S ez - mondják - már a becsületbe vág:</l>
+              <l>Szentgáli nem tudá, hol a feje.</l>
+              <l>Lányának nem mert szólni, én valék</l>
+              <l>Benső meghittje... titkos suttogás,</l>
+              <l>Tanácskozás, nagy méltatlankodás,</l>
+              <l>Majd egy kétségbeejtő pillanat,</l>
+              <l>És meglett a hamis váltó.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(felugrik, erősen az asztalra ütve öklével)</stage>
+            <lg>
+              <l>Gazember!</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Gazember?... Gondolom, Szentgálihoz,</l>
+              <l>S nem hozzám szólott.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Hol van az a váltó?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Természetes, hogy rögtön megszereztem.</l>
+              <l>Kiváltám a sajátomból. Im,</l>
+              <stage>(Kiveszi tárcájából a váltót s átadja Bárdinak.)</stage>
+              <l>Csak holnap jár le... Tudtam, hogy azonnal</l>
+              <l>Hasznát akarja venni... elhozám,</l>
+              <l>Itt egy levél is: pénzt kér benne és a</l>
+              <l>Váltót említi... teljes vallomás.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(az íróasztal fiókjából pénzt vesz ki és Bráz elé
                                     számolja)</stage>
-<lg>
-<l>Im, itt a pénz, mit érte fizetett.</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Kérem, nem olyan sürgős, várhatok.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(más pénzt olvasva ki Bráz elé)</stage>
-<lg>
-<l>És itt egy évi bére... Tegye el,</l>
-<l>S többé ne lássam színét soha se.</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Hogyan? Jól hallok! Nem cseng a fülem?</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Szentgáli címét add át, nyomorult!</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
+            <lg>
+              <l>Im, itt a pénz, mit érte fizetett.</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Kérem, nem olyan sürgős, várhatok.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(más pénzt olvasva ki Bráz elé)</stage>
+            <lg>
+              <l>És itt egy évi bére... Tegye el,</l>
+              <l>S többé ne lássam színét soha se.</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Hogyan? Jól hallok! Nem cseng a fülem?</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Szentgáli címét add át, nyomorult!</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
               <l>Címét, lakását...? Itt van e levélben...</l>
               <l>De hát hová tegyem!... Úgy néz reám,</l>
               <l>Hogy közelébe lépni se merek.</l>
               <stage>(Félve, húzódva az asztalra teszi a levelet s gyorsan elugrik Bárdi
                 mellől.)</stage>
             </lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>S most vegye pénzét s hordja el magát.</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Tehát valóban? Elcsap! Komolyan?</l>
-<l>És épen most, midőn külön díjat</l>
-<l>Reméltem, s fizetésem emelését?</l>
-<l>Ez lett jutalma hű szolgálatomnak?</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Szolgálatodnak? Hallgass nyomorult,</l>
-<l>S ne mondd, hogy ezt az én szolgálatomban</l>
-<l>Tevéd... Csak szemtelennek ismerélek,</l>
-<l>De gaznak nem... Most már tudom, ki vagy...</l>
-<l>Ily szolga nem kell nékem... Elmehetsz!</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Nagyon jó! Mondhatom, hogy nagyszerű!</l>
-<l>Elvégzém megbizását fényesen,</l>
-<l>És oly sikert vívtam ki, aminőt</l>
-<l>Álmodni sem mert: menthetetlenűl</l>
-<l>Kezébe adtam ellenségeit,</l>
-<l>S ez a jutalmam...</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Megbízásomat</l>
-<l>Tevéd? Hazudsz! Én aljas, becstelen</l>
-<l>Dologgal meg nem biztalak soha.</l>
-<l>Igen, megbíztalak: vigyázz, ügyelj</l>
-<l>Ez emberekre, add tudtomra, mit</l>
-<l>Művelnek; ehhez volt jogom, fiam</l>
-<l>Boldogságáért... És te mit tevél?</l>
-<l>Szolgálatomban, értem, hasznomért,</l>
-<l>Talán az én nevemben csábítád</l>
-<l>Ily aljas bűnre e boldogtalant...</l>
-<l>Ki vagyok én? Nem ismersz engemet?</l>
-<l>Nem becsületben őszült meg e fej?</l>
-<l>S e kéz, mely munkájával fölemelt,</l>
-<l>Használt-e szennyes eszközt valaha?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Hát úgy vagyunk? No jó! Hol az a pénz?</l>
-<stage>(Felmarkolja az asztalról a pénzt és zsebre teszi)
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>S most vegye pénzét s hordja el magát.</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Tehát valóban? Elcsap! Komolyan?</l>
+              <l>És épen most, midőn külön díjat</l>
+              <l>Reméltem, s fizetésem emelését?</l>
+              <l>Ez lett jutalma hű szolgálatomnak?</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Szolgálatodnak? Hallgass nyomorult,</l>
+              <l>S ne mondd, hogy ezt az én szolgálatomban</l>
+              <l>Tevéd... Csak szemtelennek ismerélek,</l>
+              <l>De gaznak nem... Most már tudom, ki vagy...</l>
+              <l>Ily szolga nem kell nékem... Elmehetsz!</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Nagyon jó! Mondhatom, hogy nagyszerű!</l>
+              <l>Elvégzém megbizását fényesen,</l>
+              <l>És oly sikert vívtam ki, aminőt</l>
+              <l>Álmodni sem mert: menthetetlenűl</l>
+              <l>Kezébe adtam ellenségeit,</l>
+              <l>S ez a jutalmam...</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Megbízásomat</l>
+              <l>Tevéd? Hazudsz! Én aljas, becstelen</l>
+              <l>Dologgal meg nem biztalak soha.</l>
+              <l>Igen, megbíztalak: vigyázz, ügyelj</l>
+              <l>Ez emberekre, add tudtomra, mit</l>
+              <l>Művelnek; ehhez volt jogom, fiam</l>
+              <l>Boldogságáért... És te mit tevél?</l>
+              <l>Szolgálatomban, értem, hasznomért,</l>
+              <l>Talán az én nevemben csábítád</l>
+              <l>Ily aljas bűnre e boldogtalant...</l>
+              <l>Ki vagyok én? Nem ismersz engemet?</l>
+              <l>Nem becsületben őszült meg e fej?</l>
+              <l>S e kéz, mely munkájával fölemelt,</l>
+              <l>Használt-e szennyes eszközt valaha?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Hát úgy vagyunk? No jó! Hol az a pénz?</l>
+              <stage>(Felmarkolja az asztalról a pénzt és zsebre teszi)
     (El.)</stage>
-</lg>
-</sp>
-                            
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Negyedik jelenet</head>
-<sp who="#bardi">
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik jelenet</head>
+          <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(egyedül, a vasvonalzót az íróasztalra dobja s az asztal előtt álló székre veti
               magát):</stage>
@@ -2417,11 +2503,12 @@
               <stage>(Gyorsan az íróasztal fiókjába zárja a váltót.)</stage>
             </lg>
           </sp>
-                            
-                                                        </div>
-                                                        <div type="scene">
+        </div>
+        <div type="scene">
           <head type="title">Ötödik jelenet.</head>
-          <p><stage>BÁRDI, ANDOR.</stage></p>
+          <p>
+            <stage>BÁRDI, ANDOR.</stage>
+          </p>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(fölkel)</stage>
@@ -2620,9 +2707,11 @@
             </lg>
           </sp>
         </div>
-                                                        <div type="scene">
+        <div type="scene">
           <head type="title">Hatodik jelenet</head>
-          <p><stage>BÁRDI, majd ANNA.</stage></p>
+          <p>
+            <stage>BÁRDI, majd ANNA.</stage>
+          </p>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(legnagyobb indulattal a csengetyűhöz siet, hevesen megüti, egy inas belép s
@@ -2713,9 +2802,11 @@
             </lg>
           </sp>
         </div>
-                                                        <div type="scene">
+        <div type="scene">
           <head type="title">Hetedik jelenet</head>
-          <p><stage>BÁRDI, EDITH.</stage></p>
+          <p>
+            <stage>BÁRDI, EDITH.</stage>
+          </p>
           <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
@@ -3020,10 +3111,12 @@
             </lg>
           </sp>
         </div>
-                                                        <div type="scene">
-<head type="title">Nyolcadik jelenet</head>
-          <p><stage>ELŐBBIEK, VÁRHELYI.</stage></p>
-<sp who="#varhelyi">
+        <div type="scene">
+          <head type="title">Nyolcadik jelenet</head>
+          <p>
+            <stage>ELŐBBIEK, VÁRHELYI.</stage>
+          </p>
+          <sp who="#varhelyi">
             <speaker>VÁRHELYI</speaker>
             <stage>(sietve jő, kezében a nyitott levéllel, mialatt az inas, ki ajtót nyitott előtte,
               Bárdi intésére állva marad az ajtóban):</stage>
@@ -3037,769 +3130,784 @@
               <l>"Jőjjön minél előbb"... Im itt vagyok.</l>
             </lg>
           </sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(halkan az inashoz)</stage>
-<lg>
-  <l>Keresd fel Andort s rögtön küldd ide.Keresd fel Andort s rögtön küldd ide. (Az inas el.)</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Nem szól... s én félni kezdek... nem tudok</l>
-<l>Elhinni ily szerencsét, nem merek...</l>
-<l>Még a papirnak sem hiszek, amíg</l>
-<l>Az élő hang meg nem pecsétli, hogy</l>
-<l>Minden szavát készpénzül vehetem...</l>
-<l>Szeret hát s nőmmé lesz?</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Neje leszek.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Oh boldogság!... Kimondta... Istenem!</l>
-<l>Az Isten áldja meg jóságáért!<stage>(Térdre esik Edith előtt.)</stage></l>
-</lg>
-</sp>
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Kilencedik jelenet</head>
-          <p><stage>ELŐBBIEK, ANDOR.</stage></p>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Nagy ég! Edith!</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<stage>(magában)</stage>
-<lg>
-<l>Oh Isten, adj erőt!</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<stage>(felugrik, magában)</stage>
-<lg>
-<l>Győztes vagyok, de szánom a szegényt.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Edith atyámnál! És ez ember itt</l>
-<l>Lábánál térdel... Mint merészlé...?</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Szánlak barátom, mást nem mondhatok.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Edith! Atyám! feleljetek, mi ez?</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Nem értem, mért e nagy csodálkozás?</l>
-<l>Amit láttál, nagyon természetes:</l>
-<l>Edith kisasszony most mutatta be,</l>
-<l>Mint régi ismerősnek, jegyesét...</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Edith! jegyesét...</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Engem, Várhelyit.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Edith ez emberé! Nem, nem lehet!</l>
-<l>Őrült káprázat játszik csak velem...</l>
-<l>Tán csúfolódnak vagy próbára tesznek...</l>
-<l>Kegyetlen játék... Oh Edith, ne tűrje...</l>
-<l>Ne tűrje, hogy így visszaéljenek</l>
-<l>Nevével... Szóljon... vessen véget e</l>
-<l>Gyilkos tréfának.</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Atyja igazat</l>
-<l>Mondott...</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Nem mondott...! Nem lehet igaz,</l>
-<l>Mi rút arculcsapása az igaznak.</l>
-<l>Szentnek, jogosnak... Jobban ismerem</l>
-<l>Én önt Edith... Tudom, hogy önmagától</l>
-<l>Nem nyujtaná az embernek kezét...</l>
-<l>S ha mégis megtevé, csak iszonyú</l>
-<l>Ármány, rút cselszövény lehet, mi szívén,</l>
-<l>Lelkén s igaz nyelvén erőszakot tett...</l>
-<l>Oh bízzék bennem, mondja meg, mivel</l>
-<l>Verték bilincsre...? Szóljon, s széttöröm,</l>
-<l>Bámily erős a lánc, bármily hatalmas</l>
-<l>A kéz, mely fűzte.</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Mást nem mondhatok,</l>
-<l>Mint a valót: ez úrnak jegyese</l>
-<l>Vagyok, s mihelyt kivánja, hitvese.</l>
-<l>Kimondtam ezt, s amit egyszer kimondtam,</l>
-<l>Megtartom híven, Isten a tanúm!</l>
-<l>Itt ketté válnak a mi útaink,</l>
-<l>E szó örök, mély örvényt von közénk...</l>
-<l>Ha szeretett egykor, tisztelje meg</l>
-<l>Szerelme tárgyát azzal, hogy szavát</l>
-<l>Fogadja, és ne lássa őt soha.</l>
-<l>Többé soha...! Nincs önhöz több szavam...</l>
-<l>Örökre hát... örökre... Isten önnel!<stage>(Gyorsan el.)</stage></l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Nekem sincs több szavam... Menyasszonyom</l>
-<l>Világosan megmondta... Utaink</l>
-<l>Örökre ketté válnak, nem fogunk</l>
-<l>Sem itt, sem másutt szemközt állani...</l>
-<l>Megyek s nem látlak többé... Ég veled!<stage>(El.)</stage></l>
-</lg>
-</sp>
-                            
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Tizedik jelenet</head>
-<p><stage>ANDOR, BÁRDI.</stage></p>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<stage>(székre roskad)</stage>
-<lg>
-<l>Edith! Edith!</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(lassan Andorhoz megy s vállára teszi kezét).</stage>
-<lg>
-<l>Érzed kezem súlyát?</l>
-<l>Megismeréd, hogy amit akarok,</l>
-<l>Azt végrehajtom ég s föld ellenére?</l>
-<l>Megértéd már, hogy nem lehet velem</l>
-<l>Dacolni? S visszajösz keblemre, mint</l>
-<l>A bűnbánó gyermekhez illik...?</l>
-<l>Karom még mindig tárva áll előtted,</l>
-<l>Jer hát fiam, atyád keblén keresd</l>
-<l>A legjobb pihenőt... Hozzád való</l>
-<l>Szeretetből tevém, amit tevék,</l>
-<l>E szeretet legyen vigasztalód...</l>
-<l>Anyádat küldöm hozzád, - az anya</l>
-<l>Legjobb vigasztaló a fájdalomban...</l>
-<l>Megyek anyádért... várj itt rá, fiam.<stage>(El.)</stage></l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<stage>(szünet után)</stage>
-<lg>
-<l>Mi történt? Oh, ki mondja meg nekem?</l>
-<l>Mily iszonyú erő törhette meg</l>
-<l>E leány erős szivét? Homály, homály!</l>
-</lg>
-</sp>
-                            
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Tizenegyedik jelenet</head>
-          <p><stage>ANDOR, BRÁZ.</stage></p>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<stage>(óvatosan belopózik)</stage>
-<lg>
-<l>Nagyságos ifjú úr!</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Ki az? Ki szólít?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Én, a szerény Bráz, Bárdi néhai</l>
-<l>Titkára... Elbúcsúzni jöttem öntől,</l>
-<l>S egyszersmind kérni, hogyha valami</l>
-<l>Helyet szerezne... Atyja, Bárdi úr,</l>
-<l>Még bizonyítványt sem adott nekem,</l>
-<l>Csak kurtán elcsapott.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Mit bánom én!</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>De bánom én! S ön is bánná talán,</l>
-<l>Ha megtudná okát.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Mi oka volt?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Hogy híven teljesítém megbízását.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Minő megbízás volt az?</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Rávevém</l>
-<l>Titkon Szentgáli bárót, hogy hamis</l>
-<l>Váltót készítsen.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<stage>(torkon ragadja Brázt)</stage>
-<lg>
-<l>Nyomorult! Hazudsz!</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Oh bár hazugság volna... Hagyja el</l>
-<l>A torkomat... megfojt... Ha nem hiszi,</l>
-<l>Kérdezze atyját, nála van a váltó.</l>
-</lg>
-</sp>
-                            
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Tizenkettedik jelenet</head>
-          <p><stage>ELŐBBIEK, BÁRDI, ANNA.</stage></p>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Mi ez?</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Nagy ég! fiam!</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<stage>(kiszakítja magát Andor kezei közül)</stage>
-<lg>
-<l>Itt van maga.</l>
-<l>Kérdezze tőle meg, hazudtam-e?</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Atyám, atyám, mondd, hogy cudar hazugság,</l>
-<l>Az aljas bosszu műve volt, mivel</l>
-<l>Ez ember vádolt.</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Mondja, ha meri!</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Ismét házamba jöttél nyomorult?</l>
-<l>El innen, vagy bezáratlak!</l>
-</lg>
-</sp>
-<sp who="#braz">
-<speaker>BRÁZ</speaker>
-<lg>
-<l>Megyek!</l>
-<l>Amit beadtam, azt eméssze meg!<stage>(El.)</stage></l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Atyám! Atyám! Tehát igaz? Felelj!</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(dacosan)</stage>
-<lg>
-<l>Feleljek! én! Kérdőre vonsz talán?</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Oh most tudom, mivel győzéd le a</l>
-<l>Szegény leány szivét! Győztél atyám!</l>
-<l>De győzedelmed ára én vagyok.</l>
-<l>Isten veled!</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Megállj! Parancsolom!</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Nem vádollak, nem ítélek fölötted,</l>
-<l>Csak fájó, megtört szívvel távozom.</l>
-<l>Remegtem tőled, tisztelém hatalmad',</l>
-<l>S bár súlyos volt fölöttem vaskezed,</l>
-<l>Ráhajtám fejemet s megcsókolám,</l>
-<l>Mert tiszta volt... Most vége, vége már...</l>
-<l>E megdöbbentő óriás alak,</l>
-<l>A becsület eszménye összeomlott,</l>
-<l>E tiszta kéz a bűnnel cimborált</l>
-<l>És becstelen fegyverrel harcola.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(sikoltva)</stage>
-<lg>
-<l>Fiu! Atyáddal szólsz így? Térdre tüstént,</l>
-<l>Ugy kérj bocsánatot, térden fogadd</l>
-<l>Parancsomat...</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Lemondál e jogodról,</l>
-<l>Midőn kitetted annak fiadat, hogy</l>
-<l>Pirulni lássa atyját... Ég veled!</l>
-<l>Egy kötelesség vár még rám, Edithet</l>
-<l>Vagy megmentem vagy meghalok vele!<stage>(El.)</stage></l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Isten veled!<stage>(Indul.)</stage></l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Te is szégyelsz? Te is</l>
-<l>Elfordulsz tőlem?</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Ha választanom</l>
-<l>Kell férjem és fiam közt: fiamat</l>
-<l>Választom, több szüksége van reám.</l>
-<l>Isten veled!<stage>(El.)</stage></l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(egyedül.)</stage>
-<lg>
-<l>Megálljatok! Fiú!</l>
-<l>Asszony! Ne merjetek velem dacolni...</l>
-<stage>(Az ajtó felé megy, kiáltva.)</stage>
-<l>Hej! szolgák, zárjatok be minden ajtót!</l>
-<l>Megálljatok... hallgassatok meg...! Én</l>
-<l>Becsületes ember vagyok!...</l>
-<l>No hagyjatok magamra... Levegőt...!</l>
-<stage>(Feltépi mellényét, lerántja nyakkendőjét.)</stage>
-<l>Megfojtanak!... Segítség! Hol a csengetyű...?</l>
-<stage>(Tántorogva az asztal felé megy.)</stage>
-<l>Fiam... ne hidd... Fiam ne hagyj el!...</l>
-<stage>(Megüti a csengetyűt s arccal az asztalra esik.)</stage>
-                            </lg>
-                            </sp>
-<p><stage>A függöny legördül.</stage></p>
-</div>
-</div>
-                            <div type="act">
-                            <head type="title">HARMADIK FELVONÁS</head>
-        <p><stage>Szoba.</stage></p>
-<div type="scene">
-<head type="title">Első jelenet</head>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<stage>(egyedül, asztalnál ül, kezében nyitott levéllel)</stage>
-<lg>
-<l>Ez is, miként a többi... mind ilyen</l>
-<l>A jó barát... Sajnálja... szívesen</l>
-<l>Szolgálna, ámde most nem teheti...</l>
-<stage>(Bosszusan széttépi a levelet.)</stage>
-<l>Szavak... szavak... segítség senkitől...</l>
-<l>S holnap lejár a váltó... mit tegyek?</l>
-<l>E Brázt sem látom már nehány nap óta...</l>
-<l>Az ő kötelessége, hogy segítsen...</l>
-<l>Oh Istenem! ha megtudná leányom...</l>
-</lg>
-</sp>
-</div>
-                                                        <div type="scene">
-<head type="title">Második jelenet</head>
-          <p><stage>EDITH, VÁRHELYI, SZENTGÁLI.</stage></p>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<stage>(karonfogva jő Várhelyivel)</stage>
-<lg>
-<l>Atyám!</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Papánk!</l>
-</lg>
-</sp>
-<sp who="#szentgáli">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Leányom, mit jelent ez?</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Ez azt jelenti, szeretett papánk,</l>
-<l>Hogy én Edith bárónő vőlegénye</l>
-<l>Vagyok... Meg van lepve? Mi?</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Edith!</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Valót mondott, atyám.</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>No látja, nem</l>
-<l>Hazudtam. Ejnye! mit csodálkozik?</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Tehát való?</l>
-</lg>
-</sp>
-<sp who="#varhelyi">
-<speaker>VÁRHELYI</speaker>
-<lg>
-<l>Ej! hát még sem hiszi?</l>
-<l>Ha nem volnék lányának vőlegénye,</l>
-<l>Csak nem vezettem volna karomon</l>
-<l>Az utcán végig... No ez csak világos...</l>
-<l>De most mennem kell... sürget az idő,</l>
-<stage>(Kezet csókol Edithnek.)</stage>
-<l>Viszontlátásra! - Oh! e drága kéz...</l>
-<l>Hát még az ajka mily édes lehet!</l>
-<l>De nem merem... majd később... Addig is</l>
-<l>Kárpótlásúl elég a papa csókja.</l>
-<stage>(Megöleli Szentgálit.)</stage>
-<l>Szeressenek... én jó fiú vagyok.<stage>(El.)</stage></l>
-</lg>
-</sp>
-                            
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Harmadik jelenet</head>
-          <p><stage>SZENTGÁLI, EDITH.</stage></p>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Dermedten állok a meglepetéstől...</l>
-<l>Te és ez ember...! Te az ő neje...</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Miért ne? Meggondoltam magamat...</l>
-<l>Érzem, nyugodt s boldog leszek vele.</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Boldog! Te, ki szivedben olthatatlan</l>
-<l>Szerelmi lánggal égsz egy másikért?</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Mit szívem érzett, el van már temetve,</l>
-<l>S nem fog kitörni sírjából soha.</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Leány, ne ámíts! Arcod bár nyugodt</l>
-<l>S szemedből tiszta fény mosolyg reám:</l>
-<l>Én nem hiszek neked... e jéghideg</l>
-<l>Kéz meghazudtol, ennek nem parancsol</l>
-<l>Akaratod... Mily titkot rejtegetsz?</l>
-<l>Tán hallottál felőlem valamit?</l>
-</lg>
-</sp>
-<sp who="edith#">
-<speaker>EDITH</speaker>
-<lg>
-<l>Nem, semmit, légy nyugodt, szegény atyám!</l>
-<l>Mit hallanék mást, mint hogy lányodat</l>
-<l>Szivedből szereted... s leányod is</l>
-<l>Téged szeret legjobban, mindenek</l>
-<l>Fölött...? Ez az egész titok... nyugodt</l>
-<l>Lehetsz, hisz ez rég nem titok</l>
-<l>Közöttünk, úgy-e? Mondom, légy nyugodt.</l>
-<l>Boldog leszek, meglátod, és te is</l>
-<l>Boldog léssz bennem... együtt éldegélünk</l>
-<l>Csendes magányunkban, s majd nevetünk</l>
-<l>Szegény jó férjem furcsaságain...</l>
-<l>Aztán majd lassan elszoktatjuk őt</l>
-<l>Hibáitól... ez is foglalkozás lesz,</l>
-<l>De sikerülni fog, hisz úgy szeret,</l>
-<l>Oly jó fiú, s már érzem, mintha én is</l>
-<l>Szeretni kezdeném... Úgy, légy nyugodt,</l>
-<l>Atyám, s többé ne tarts már semmitől. -</l>
-<l>Jól értsd meg, semmitől... sem a jövőben,</l>
-<l>Sem a jelenben... nincs mitől remegj...</l>
-<stage>(Homlokon csókolja Szentgálit, hirtelen kitörő könyekkel.)</stage>
-<l>Szegény! hiszen te arról nem tehetsz.</l>
-<stage>(Gyorsan el oldalt.)</stage>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<stage>(magában)</stage>
-<lg>
-<l>Mi volt ez? Csókja, biztatásai,</l>
-<l>E könny, mely itt ég homlokom fölött -</l>
-<l>Villámsugár a rémes éjszakában.</l>
-<l>Tudná? S érettem hozná áldozatját?</l>
-<l>Oh úgy nem alkuszunk, leány! De honnan,</l>
-<l>Honnan tudhatná? Ki árulta el?</l>
-<stage>(Arcát kezeibe temetve, az asztal mellé roskad.)</stage>
-</lg>
-</sp>
-                                                        </div>
-                                                        <div type="scene">  
-
-<head type="title">Negyedik jelenet</head>
-          <p><stage>ANDOR, SZENTGÁLI.</stage></p>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Edith! Edith!</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Ki az? Ah! jó napot,</l>
-<l>Ifjú barátom.<stage>(Fölemelkedik.)</stage></l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Megjött már Edith?</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<stage>(összeszedve magát, hideg méltósággal)</stage>
-<lg>
-<l>A bárónő nincs itt.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Hol van?</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Szabad</l>
-<l>Talán kérdeznem, mért kívánja látni?</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Miért? S ön kérdi? Nem találja ki?</l>
-<l>Nem súgja meg bűnének érzete?</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Nagy ég!</l>
-<stage>(Megragadja Andor kezét, fojtott hangon.)</stage>
-<l>A váltó!</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>A váltó atyám</l>
-<l>Kezébe' van.</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Mindent értek.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>S Edith</l>
-<l>Boldogságával fizetett meg érte.</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Úgy van! Jól sejtém...</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Sejté és nyugodtan</l>
-<l>Ült asztalánál, tán a nyereséget</l>
-<l>Számlálva, mely lányának tört szivéből</l>
-<l>Apjára jut? Sejté, s nem lázadott fel</l>
-<l>Minden csepp vére e rút cselszövény,</l>
-<l>E vad erőszak láttán? Engedé</l>
-<l>Hogy így lakoljon apja bűneért</l>
-<l>Az ártatlan gyermek? Jól van, tegye!</l>
-<l>De én - én meg nem engedem soha.</l>
-<l>Megmentem lányát, és ha nem lehet,</l>
-<l>Együtt halunk apáink bűneiért.</l>
-</lg>
-</sp>
-<sp who="#szentgali">
-<speaker>SZENTGÁLI</speaker>
-<lg>
-<l>Csak iledelmesen... Hogy mit tevék,</l>
-<l>Arról igaz birám előtt fogok</l>
-<l>Számolni. És hogy mit kell tennem, abban</l>
-<l>Nem kérek senkitől sem oktatást.</l>
-<l>Sok van, mit nem tudok, mit nem tanultam,</l>
-<l>Azért valék oly érthetetlen ebben</l>
-<l>Az új világban; ámde őseimtől</l>
-<l>Egyet tanultam és azt jól tudom,</l>
-<l>Meg fogja látni s jussak majd eszébe...</l>
-<stage>(Előveszi kalapját, pálcáját, felöltőjét. Kesztyűjét húzva, udvarias meghajlással.)</stage>
-<l>Megengedi?... Egy percre távozom...</l>
-<l>A bárónő majd elfogadja itt,</l>
-<l>Várjon rá, tüstént bejelentetem.</l>
-<l>Csak arra kérem még, előtte ne</l>
-<l>Említse, hogy találkozott velem.</l>
-<stage>(Ez alatt felhúzta kesztyűjét. A tükör előtt megigazítja nyakkendőjét, karjára veszi felöltőjét, kezébe fogja
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(halkan az inashoz)</stage>
+            <lg>
+              <l>Keresd fel Andort s rögtön küldd ide.Keresd fel Andort s rögtön küldd ide. (Az inas el.)</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Nem szól... s én félni kezdek... nem tudok</l>
+              <l>Elhinni ily szerencsét, nem merek...</l>
+              <l>Még a papirnak sem hiszek, amíg</l>
+              <l>Az élő hang meg nem pecsétli, hogy</l>
+              <l>Minden szavát készpénzül vehetem...</l>
+              <l>Szeret hát s nőmmé lesz?</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Neje leszek.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Oh boldogság!... Kimondta... Istenem!</l>
+              <l>Az Isten áldja meg jóságáért!<stage>(Térdre esik Edith előtt.)</stage></l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Kilencedik jelenet</head>
+          <p>
+            <stage>ELŐBBIEK, ANDOR.</stage>
+          </p>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Nagy ég! Edith!</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <stage>(magában)</stage>
+            <lg>
+              <l>Oh Isten, adj erőt!</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <stage>(felugrik, magában)</stage>
+            <lg>
+              <l>Győztes vagyok, de szánom a szegényt.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Edith atyámnál! És ez ember itt</l>
+              <l>Lábánál térdel... Mint merészlé...?</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Szánlak barátom, mást nem mondhatok.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Edith! Atyám! feleljetek, mi ez?</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Nem értem, mért e nagy csodálkozás?</l>
+              <l>Amit láttál, nagyon természetes:</l>
+              <l>Edith kisasszony most mutatta be,</l>
+              <l>Mint régi ismerősnek, jegyesét...</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Edith! jegyesét...</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Engem, Várhelyit.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Edith ez emberé! Nem, nem lehet!</l>
+              <l>Őrült káprázat játszik csak velem...</l>
+              <l>Tán csúfolódnak vagy próbára tesznek...</l>
+              <l>Kegyetlen játék... Oh Edith, ne tűrje...</l>
+              <l>Ne tűrje, hogy így visszaéljenek</l>
+              <l>Nevével... Szóljon... vessen véget e</l>
+              <l>Gyilkos tréfának.</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Atyja igazat</l>
+              <l>Mondott...</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Nem mondott...! Nem lehet igaz,</l>
+              <l>Mi rút arculcsapása az igaznak.</l>
+              <l>Szentnek, jogosnak... Jobban ismerem</l>
+              <l>Én önt Edith... Tudom, hogy önmagától</l>
+              <l>Nem nyujtaná az embernek kezét...</l>
+              <l>S ha mégis megtevé, csak iszonyú</l>
+              <l>Ármány, rút cselszövény lehet, mi szívén,</l>
+              <l>Lelkén s igaz nyelvén erőszakot tett...</l>
+              <l>Oh bízzék bennem, mondja meg, mivel</l>
+              <l>Verték bilincsre...? Szóljon, s széttöröm,</l>
+              <l>Bámily erős a lánc, bármily hatalmas</l>
+              <l>A kéz, mely fűzte.</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Mást nem mondhatok,</l>
+              <l>Mint a valót: ez úrnak jegyese</l>
+              <l>Vagyok, s mihelyt kivánja, hitvese.</l>
+              <l>Kimondtam ezt, s amit egyszer kimondtam,</l>
+              <l>Megtartom híven, Isten a tanúm!</l>
+              <l>Itt ketté válnak a mi útaink,</l>
+              <l>E szó örök, mély örvényt von közénk...</l>
+              <l>Ha szeretett egykor, tisztelje meg</l>
+              <l>Szerelme tárgyát azzal, hogy szavát</l>
+              <l>Fogadja, és ne lássa őt soha.</l>
+              <l>Többé soha...! Nincs önhöz több szavam...</l>
+              <l>Örökre hát... örökre... Isten önnel!<stage>(Gyorsan el.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Nekem sincs több szavam... Menyasszonyom</l>
+              <l>Világosan megmondta... Utaink</l>
+              <l>Örökre ketté válnak, nem fogunk</l>
+              <l>Sem itt, sem másutt szemközt állani...</l>
+              <l>Megyek s nem látlak többé... Ég veled!<stage>(El.)</stage></l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Tizedik jelenet</head>
+          <p>
+            <stage>ANDOR, BÁRDI.</stage>
+          </p>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <stage>(székre roskad)</stage>
+            <lg>
+              <l>Edith! Edith!</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(lassan Andorhoz megy s vállára teszi kezét).</stage>
+            <lg>
+              <l>Érzed kezem súlyát?</l>
+              <l>Megismeréd, hogy amit akarok,</l>
+              <l>Azt végrehajtom ég s föld ellenére?</l>
+              <l>Megértéd már, hogy nem lehet velem</l>
+              <l>Dacolni? S visszajösz keblemre, mint</l>
+              <l>A bűnbánó gyermekhez illik...?</l>
+              <l>Karom még mindig tárva áll előtted,</l>
+              <l>Jer hát fiam, atyád keblén keresd</l>
+              <l>A legjobb pihenőt... Hozzád való</l>
+              <l>Szeretetből tevém, amit tevék,</l>
+              <l>E szeretet legyen vigasztalód...</l>
+              <l>Anyádat küldöm hozzád, - az anya</l>
+              <l>Legjobb vigasztaló a fájdalomban...</l>
+              <l>Megyek anyádért... várj itt rá, fiam.<stage>(El.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <stage>(szünet után)</stage>
+            <lg>
+              <l>Mi történt? Oh, ki mondja meg nekem?</l>
+              <l>Mily iszonyú erő törhette meg</l>
+              <l>E leány erős szivét? Homály, homály!</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Tizenegyedik jelenet</head>
+          <p>
+            <stage>ANDOR, BRÁZ.</stage>
+          </p>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <stage>(óvatosan belopózik)</stage>
+            <lg>
+              <l>Nagyságos ifjú úr!</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Ki az? Ki szólít?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Én, a szerény Bráz, Bárdi néhai</l>
+              <l>Titkára... Elbúcsúzni jöttem öntől,</l>
+              <l>S egyszersmind kérni, hogyha valami</l>
+              <l>Helyet szerezne... Atyja, Bárdi úr,</l>
+              <l>Még bizonyítványt sem adott nekem,</l>
+              <l>Csak kurtán elcsapott.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Mit bánom én!</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>De bánom én! S ön is bánná talán,</l>
+              <l>Ha megtudná okát.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Mi oka volt?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Hogy híven teljesítém megbízását.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Minő megbízás volt az?</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Rávevém</l>
+              <l>Titkon Szentgáli bárót, hogy hamis</l>
+              <l>Váltót készítsen.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <stage>(torkon ragadja Brázt)</stage>
+            <lg>
+              <l>Nyomorult! Hazudsz!</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Oh bár hazugság volna... Hagyja el</l>
+              <l>A torkomat... megfojt... Ha nem hiszi,</l>
+              <l>Kérdezze atyját, nála van a váltó.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Tizenkettedik jelenet</head>
+          <p>
+            <stage>ELŐBBIEK, BÁRDI, ANNA.</stage>
+          </p>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Mi ez?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Nagy ég! fiam!</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <stage>(kiszakítja magát Andor kezei közül)</stage>
+            <lg>
+              <l>Itt van maga.</l>
+              <l>Kérdezze tőle meg, hazudtam-e?</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Atyám, atyám, mondd, hogy cudar hazugság,</l>
+              <l>Az aljas bosszu műve volt, mivel</l>
+              <l>Ez ember vádolt.</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Mondja, ha meri!</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Ismét házamba jöttél nyomorult?</l>
+              <l>El innen, vagy bezáratlak!</l>
+            </lg>
+          </sp>
+          <sp who="#braz">
+            <speaker>BRÁZ</speaker>
+            <lg>
+              <l>Megyek!</l>
+              <l>Amit beadtam, azt eméssze meg!<stage>(El.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Atyám! Atyám! Tehát igaz? Felelj!</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(dacosan)</stage>
+            <lg>
+              <l>Feleljek! én! Kérdőre vonsz talán?</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Oh most tudom, mivel győzéd le a</l>
+              <l>Szegény leány szivét! Győztél atyám!</l>
+              <l>De győzedelmed ára én vagyok.</l>
+              <l>Isten veled!</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Megállj! Parancsolom!</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Nem vádollak, nem ítélek fölötted,</l>
+              <l>Csak fájó, megtört szívvel távozom.</l>
+              <l>Remegtem tőled, tisztelém hatalmad',</l>
+              <l>S bár súlyos volt fölöttem vaskezed,</l>
+              <l>Ráhajtám fejemet s megcsókolám,</l>
+              <l>Mert tiszta volt... Most vége, vége már...</l>
+              <l>E megdöbbentő óriás alak,</l>
+              <l>A becsület eszménye összeomlott,</l>
+              <l>E tiszta kéz a bűnnel cimborált</l>
+              <l>És becstelen fegyverrel harcola.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(sikoltva)</stage>
+            <lg>
+              <l>Fiu! Atyáddal szólsz így? Térdre tüstént,</l>
+              <l>Ugy kérj bocsánatot, térden fogadd</l>
+              <l>Parancsomat...</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Lemondál e jogodról,</l>
+              <l>Midőn kitetted annak fiadat, hogy</l>
+              <l>Pirulni lássa atyját... Ég veled!</l>
+              <l>Egy kötelesség vár még rám, Edithet</l>
+              <l>Vagy megmentem vagy meghalok vele!<stage>(El.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Isten veled!<stage>(Indul.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Te is szégyelsz? Te is</l>
+              <l>Elfordulsz tőlem?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Ha választanom</l>
+              <l>Kell férjem és fiam közt: fiamat</l>
+              <l>Választom, több szüksége van reám.</l>
+              <l>Isten veled!<stage>(El.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(egyedül.)</stage>
+            <lg>
+              <l>Megálljatok! Fiú!</l>
+              <l>Asszony! Ne merjetek velem dacolni...</l>
+              <stage>(Az ajtó felé megy, kiáltva.)</stage>
+              <l>Hej! szolgák, zárjatok be minden ajtót!</l>
+              <l>Megálljatok... hallgassatok meg...! Én</l>
+              <l>Becsületes ember vagyok!...</l>
+              <l>No hagyjatok magamra... Levegőt...!</l>
+              <stage>(Feltépi mellényét, lerántja nyakkendőjét.)</stage>
+              <l>Megfojtanak!... Segítség! Hol a csengetyű...?</l>
+              <stage>(Tántorogva az asztal felé megy.)</stage>
+              <l>Fiam... ne hidd... Fiam ne hagyj el!...</l>
+              <stage>(Megüti a csengetyűt s arccal az asztalra esik.)</stage>
+            </lg>
+          </sp>
+          <p>
+            <stage>A függöny legördül.</stage>
+          </p>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">HARMADIK FELVONÁS</head>
+        <p>
+          <stage>Szoba.</stage>
+        </p>
+        <div type="scene">
+          <head type="title">Első jelenet</head>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <stage>(egyedül, asztalnál ül, kezében nyitott levéllel)</stage>
+            <lg>
+              <l>Ez is, miként a többi... mind ilyen</l>
+              <l>A jó barát... Sajnálja... szívesen</l>
+              <l>Szolgálna, ámde most nem teheti...</l>
+              <stage>(Bosszusan széttépi a levelet.)</stage>
+              <l>Szavak... szavak... segítség senkitől...</l>
+              <l>S holnap lejár a váltó... mit tegyek?</l>
+              <l>E Brázt sem látom már nehány nap óta...</l>
+              <l>Az ő kötelessége, hogy segítsen...</l>
+              <l>Oh Istenem! ha megtudná leányom...</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második jelenet</head>
+          <p>
+            <stage>EDITH, VÁRHELYI, SZENTGÁLI.</stage>
+          </p>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <stage>(karonfogva jő Várhelyivel)</stage>
+            <lg>
+              <l>Atyám!</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Papánk!</l>
+            </lg>
+          </sp>
+          <sp who="#szentgáli">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Leányom, mit jelent ez?</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Ez azt jelenti, szeretett papánk,</l>
+              <l>Hogy én Edith bárónő vőlegénye</l>
+              <l>Vagyok... Meg van lepve? Mi?</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Edith!</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Valót mondott, atyám.</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>No látja, nem</l>
+              <l>Hazudtam. Ejnye! mit csodálkozik?</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Tehát való?</l>
+            </lg>
+          </sp>
+          <sp who="#varhelyi">
+            <speaker>VÁRHELYI</speaker>
+            <lg>
+              <l>Ej! hát még sem hiszi?</l>
+              <l>Ha nem volnék lányának vőlegénye,</l>
+              <l>Csak nem vezettem volna karomon</l>
+              <l>Az utcán végig... No ez csak világos...</l>
+              <l>De most mennem kell... sürget az idő,</l>
+              <stage>(Kezet csókol Edithnek.)</stage>
+              <l>Viszontlátásra! - Oh! e drága kéz...</l>
+              <l>Hát még az ajka mily édes lehet!</l>
+              <l>De nem merem... majd később... Addig is</l>
+              <l>Kárpótlásúl elég a papa csókja.</l>
+              <stage>(Megöleli Szentgálit.)</stage>
+              <l>Szeressenek... én jó fiú vagyok.<stage>(El.)</stage></l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik jelenet</head>
+          <p>
+            <stage>SZENTGÁLI, EDITH.</stage>
+          </p>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Dermedten állok a meglepetéstől...</l>
+              <l>Te és ez ember...! Te az ő neje...</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Miért ne? Meggondoltam magamat...</l>
+              <l>Érzem, nyugodt s boldog leszek vele.</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Boldog! Te, ki szivedben olthatatlan</l>
+              <l>Szerelmi lánggal égsz egy másikért?</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Mit szívem érzett, el van már temetve,</l>
+              <l>S nem fog kitörni sírjából soha.</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Leány, ne ámíts! Arcod bár nyugodt</l>
+              <l>S szemedből tiszta fény mosolyg reám:</l>
+              <l>Én nem hiszek neked... e jéghideg</l>
+              <l>Kéz meghazudtol, ennek nem parancsol</l>
+              <l>Akaratod... Mily titkot rejtegetsz?</l>
+              <l>Tán hallottál felőlem valamit?</l>
+            </lg>
+          </sp>
+          <sp who="edith#">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Nem, semmit, légy nyugodt, szegény atyám!</l>
+              <l>Mit hallanék mást, mint hogy lányodat</l>
+              <l>Szivedből szereted... s leányod is</l>
+              <l>Téged szeret legjobban, mindenek</l>
+              <l>Fölött...? Ez az egész titok... nyugodt</l>
+              <l>Lehetsz, hisz ez rég nem titok</l>
+              <l>Közöttünk, úgy-e? Mondom, légy nyugodt.</l>
+              <l>Boldog leszek, meglátod, és te is</l>
+              <l>Boldog léssz bennem... együtt éldegélünk</l>
+              <l>Csendes magányunkban, s majd nevetünk</l>
+              <l>Szegény jó férjem furcsaságain...</l>
+              <l>Aztán majd lassan elszoktatjuk őt</l>
+              <l>Hibáitól... ez is foglalkozás lesz,</l>
+              <l>De sikerülni fog, hisz úgy szeret,</l>
+              <l>Oly jó fiú, s már érzem, mintha én is</l>
+              <l>Szeretni kezdeném... Úgy, légy nyugodt,</l>
+              <l>Atyám, s többé ne tarts már semmitől. -</l>
+              <l>Jól értsd meg, semmitől... sem a jövőben,</l>
+              <l>Sem a jelenben... nincs mitől remegj...</l>
+              <stage>(Homlokon csókolja Szentgálit, hirtelen kitörő könyekkel.)</stage>
+              <l>Szegény! hiszen te arról nem tehetsz.</l>
+              <stage>(Gyorsan el oldalt.)</stage>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <stage>(magában)</stage>
+            <lg>
+              <l>Mi volt ez? Csókja, biztatásai,</l>
+              <l>E könny, mely itt ég homlokom fölött -</l>
+              <l>Villámsugár a rémes éjszakában.</l>
+              <l>Tudná? S érettem hozná áldozatját?</l>
+              <l>Oh úgy nem alkuszunk, leány! De honnan,</l>
+              <l>Honnan tudhatná? Ki árulta el?</l>
+              <stage>(Arcát kezeibe temetve, az asztal mellé roskad.)</stage>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik jelenet</head>
+          <p>
+            <stage>ANDOR, SZENTGÁLI.</stage>
+          </p>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Edith! Edith!</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Ki az? Ah! jó napot,</l>
+              <l>Ifjú barátom.<stage>(Fölemelkedik.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Megjött már Edith?</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <stage>(összeszedve magát, hideg méltósággal)</stage>
+            <lg>
+              <l>A bárónő nincs itt.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Hol van?</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Szabad</l>
+              <l>Talán kérdeznem, mért kívánja látni?</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Miért? S ön kérdi? Nem találja ki?</l>
+              <l>Nem súgja meg bűnének érzete?</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Nagy ég!</l>
+              <stage>(Megragadja Andor kezét, fojtott hangon.)</stage>
+              <l>A váltó!</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>A váltó atyám</l>
+              <l>Kezébe' van.</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Mindent értek.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>S Edith</l>
+              <l>Boldogságával fizetett meg érte.</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Úgy van! Jól sejtém...</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Sejté és nyugodtan</l>
+              <l>Ült asztalánál, tán a nyereséget</l>
+              <l>Számlálva, mely lányának tört szivéből</l>
+              <l>Apjára jut? Sejté, s nem lázadott fel</l>
+              <l>Minden csepp vére e rút cselszövény,</l>
+              <l>E vad erőszak láttán? Engedé</l>
+              <l>Hogy így lakoljon apja bűneért</l>
+              <l>Az ártatlan gyermek? Jól van, tegye!</l>
+              <l>De én - én meg nem engedem soha.</l>
+              <l>Megmentem lányát, és ha nem lehet,</l>
+              <l>Együtt halunk apáink bűneiért.</l>
+            </lg>
+          </sp>
+          <sp who="#szentgali">
+            <speaker>SZENTGÁLI</speaker>
+            <lg>
+              <l>Csak iledelmesen... Hogy mit tevék,</l>
+              <l>Arról igaz birám előtt fogok</l>
+              <l>Számolni. És hogy mit kell tennem, abban</l>
+              <l>Nem kérek senkitől sem oktatást.</l>
+              <l>Sok van, mit nem tudok, mit nem tanultam,</l>
+              <l>Azért valék oly érthetetlen ebben</l>
+              <l>Az új világban; ámde őseimtől</l>
+              <l>Egyet tanultam és azt jól tudom,</l>
+              <l>Meg fogja látni s jussak majd eszébe...</l>
+              <stage>(Előveszi kalapját, pálcáját, felöltőjét. Kesztyűjét húzva, udvarias meghajlással.)</stage>
+              <l>Megengedi?... Egy percre távozom...</l>
+              <l>A bárónő majd elfogadja itt,</l>
+              <l>Várjon rá, tüstént bejelentetem.</l>
+              <l>Csak arra kérem még, előtte ne</l>
+              <l>Említse, hogy találkozott velem.</l>
+              <stage>(Ez alatt felhúzta kesztyűjét. A tükör előtt megigazítja nyakkendőjét, karjára veszi felöltőjét, kezébe fogja
     kalapját.)</stage>
-<l>Készen vagyok már, semmi sem hiányzik...</l>
-<l>Bocsánat, hogy ily hirtelen</l>
-<l>Megfosztom társaságától magam.</l>
-<l>A kötelesség szólít, vannak oly</l>
-<l>Kötelességek, melyeket még én is</l>
-<l>Híven be szoktam tölteni... Uram!</l>
-<stage>(Fejével búcsút intve Andornak, el.)</stage>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<stage>(magában)</stage>
-<lg>
-<l>Heves valék, megsértettem szivét,</l>
-<l>Meghatva távozott... Talán atyámhoz?</l>
-<l>Talán fellázitám önérzetét</l>
-<l>S most számonkéri a történteket?...</l>
-<l>Ah! szikla ellen harcol gyönge náddal...</l>
-<l>Más nem segíthet itt, csak én... Edith!</l>
-</lg>
-</sp>
-                            </div>
-<div type="scene">
+              <l>Készen vagyok már, semmi sem hiányzik...</l>
+              <l>Bocsánat, hogy ily hirtelen</l>
+              <l>Megfosztom társaságától magam.</l>
+              <l>A kötelesség szólít, vannak oly</l>
+              <l>Kötelességek, melyeket még én is</l>
+              <l>Híven be szoktam tölteni... Uram!</l>
+              <stage>(Fejével búcsút intve Andornak, el.)</stage>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <stage>(magában)</stage>
+            <lg>
+              <l>Heves valék, megsértettem szivét,</l>
+              <l>Meghatva távozott... Talán atyámhoz?</l>
+              <l>Talán fellázitám önérzetét</l>
+              <l>S most számonkéri a történteket?...</l>
+              <l>Ah! szikla ellen harcol gyönge náddal...</l>
+              <l>Más nem segíthet itt, csak én... Edith!</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
           <head type="title">Ötödik jelenet</head>
-          <p><stage>EDITH, ANDOR.</stage></p>
+          <p>
+            <stage>EDITH, ANDOR.</stage>
+          </p>
           <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
@@ -3942,758 +4050,768 @@
             </lg>
           </sp>
         </div>
-                                                        <div type="scene">
-<head type="title">Hatodik jelenet</head>
-          <p><stage>EDITH, ANNA.</stage></p>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<stage>(megragadja Anna kezét):</stage>
-<lg>
-<l>Atyám! Nem látta? Szóljon asszonyom!</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Nagy ég! mi történt?</l>
-</lg>
-</sp>                          
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Szóljon, látta-e?</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Nem láttam, gyermekem; csak most jövék,</l>
-<l>Hivén, önnél találom fiamat.</l>
-</lg>
-</sp>                      
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Fiát! Itt volt... Talán ő kergeté</l>
-<l>Szegény atyámat a kétségbeesésbe.</l>
-</lg>
-</sp>               
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Mit mond? Fiam?</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Oh Istenem! hová</l>
-<l>Forduljak, hol keressem?... Ah! ki jő?</l>
-</lg>
-</sp>            
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Hetedik jelenet</head>
-          <p><stage>ELŐBBIEK, KÖZSZOLGA.</stage></p>
-<sp who="#közszolga">
-<speaker>KÖZSZOLGA</speaker>
-<lg>
-<l>Szentgáli Edith bárónő.</l>
-</lg>
-</sp>      
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Én vagyok.</l>
-<l>Gyorsan, gyorsan! ki küldte?</l>
-</lg>
-</sp>                        
-<sp who="#közszolga">
-<speaker>KÖZSZSOLGA</speaker>
-<lg>
-<l>Levelet</l>
-<l>Hoztam számára...</l>
-</lg>
-</sp>                         
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Adja! adja hát!</l>
-<stage>(Kikapja a közszolga kezéből a levelet, lázas
+        <div type="scene">
+          <head type="title">Hatodik jelenet</head>
+          <p>
+            <stage>EDITH, ANNA.</stage>
+          </p>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <stage>(megragadja Anna kezét):</stage>
+            <lg>
+              <l>Atyám! Nem látta? Szóljon asszonyom!</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Nagy ég! mi történt?</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Szóljon, látta-e?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Nem láttam, gyermekem; csak most jövék,</l>
+              <l>Hivén, önnél találom fiamat.</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Fiát! Itt volt... Talán ő kergeté</l>
+              <l>Szegény atyámat a kétségbeesésbe.</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Mit mond? Fiam?</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Oh Istenem! hová</l>
+              <l>Forduljak, hol keressem?... Ah! ki jő?</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hetedik jelenet</head>
+          <p>
+            <stage>ELŐBBIEK, KÖZSZOLGA.</stage>
+          </p>
+          <sp who="#közszolga">
+            <speaker>KÖZSZOLGA</speaker>
+            <lg>
+              <l>Szentgáli Edith bárónő.</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Én vagyok.</l>
+              <l>Gyorsan, gyorsan! ki küldte?</l>
+            </lg>
+          </sp>
+          <sp who="#közszolga">
+            <speaker>KÖZSZSOLGA</speaker>
+            <lg>
+              <l>Levelet</l>
+              <l>Hoztam számára...</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Adja! adja hát!</l>
+              <stage>(Kikapja a közszolga kezéből a levelet, lázas
     sietséggel feltöri, átfutja s rémült sikoltással a
     földre ejti. A közszolgához rohan.)</stage>
-<l>Hol kapta ezt a levelet?</l>
-</lg>
-</sp>                       
-<sp who="#kozszolga">
-<speaker>KÖZSZOLGA</speaker>
-<lg>
-<l>Az utca sarkán egy előkelő</l>
-<l>Úrtól vevém...</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Hová ment?</l>
-</lg>
-</sp>
-<sp who="#kozszolga">
-<speaker>KÖZSZOLGA</speaker>
-<lg>
-<l>Bérkocsit</l>
-<l>Hivott s beléült.</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Látta, merre hajtott?</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Igen.</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Vezessen... Oh atyám! atyám!</l>
-<stage>(Elrohan, a közszolga utána el.)</stage>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<stage>(magában)</stage>
-<lg>
-<l>Mi volt ez? Mintha a halál hideg</l>
-<l>Lehelletét érezném... E levél</l>
-<l>Világosságot adhat... Földre ejté...</l>
-<l>Ki venné az anyától rossz néven?</l>
-<stage>(Fölveszi a földről a levelet és olvassa.)</stage>
-</lg>
-<p>"Mindent tudok. Te hű és önfeláldozó gyermekem maradtál mindvégig, s én gondatlan és könnyelmű atyád voltam. Nem volt annyi erőm, hogy élni tudjak, de lesz erőm meghalni boldogságodért. Bocsáss meg szegény atyádnak."</p>
-<stage>(A levelet az asztalra teszi.)</stage>
-<lg>
-<l>Az első áldozat... Isten, ne hagyd</l>
-<l>Hogy mások jőjjenek utána!</l>
-</lg>
-</sp>
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Nyolcadik jelenet</head>
-          <p><stage>BÁRDI, ANNA.</stage></p>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(állva marad a középajtóban. Sápadtan, dúlt arccal,
+              <l>Hol kapta ezt a levelet?</l>
+            </lg>
+          </sp>
+          <sp who="#kozszolga">
+            <speaker>KÖZSZOLGA</speaker>
+            <lg>
+              <l>Az utca sarkán egy előkelő</l>
+              <l>Úrtól vevém...</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Hová ment?</l>
+            </lg>
+          </sp>
+          <sp who="#kozszolga">
+            <speaker>KÖZSZOLGA</speaker>
+            <lg>
+              <l>Bérkocsit</l>
+              <l>Hivott s beléült.</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Látta, merre hajtott?</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Igen.</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Vezessen... Oh atyám! atyám!</l>
+              <stage>(Elrohan, a közszolga utána el.)</stage>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <stage>(magában)</stage>
+            <lg>
+              <l>Mi volt ez? Mintha a halál hideg</l>
+              <l>Lehelletét érezném... E levél</l>
+              <l>Világosságot adhat... Földre ejté...</l>
+              <l>Ki venné az anyától rossz néven?</l>
+              <stage>(Fölveszi a földről a levelet és olvassa.)</stage>
+            </lg>
+            <p>"Mindent tudok. Te hű és önfeláldozó gyermekem maradtál mindvégig, s én gondatlan és könnyelmű atyád voltam. Nem volt annyi erőm, hogy élni tudjak, de lesz erőm meghalni boldogságodért. Bocsáss meg szegény atyádnak."</p>
+            <stage>(A levelet az asztalra teszi.)</stage>
+            <lg>
+              <l>Az első áldozat... Isten, ne hagyd</l>
+              <l>Hogy mások jőjjenek utána!</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Nyolcadik jelenet</head>
+          <p>
+            <stage>BÁRDI, ANNA.</stage>
+          </p>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(állva marad a középajtóban. Sápadtan, dúlt arccal,
                                         öltözetén rendetlenség látszik)</stage>
-<lg>
-<l>Anna!</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Te vagy? Miért jövél? Ne közelíts...</l>
-<l>Félek tőled... nyomodban a halál...</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Jól mondod, a halál... Láttam sötét</l>
-<l>Arcát, éreztem jéghideg kezét...</l>
-<l>Bérelt kezek térítének magamhoz.</l>
-<l>Mert akiket szerettem, akikért volt</l>
-<l>Egész éltem munkája, fáradalma,</l>
-<l>Egy idegen leány után szaladtak,</l>
-<l>S magamra hagytak, mint a rossz ebet,</l>
-<l>Mint a bélpoklost.</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Elűztél magadtól,</l>
-<l>Makacs kegyetlenséged űze el.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Én űztelek ki házamból? Ha azt</l>
-<l>Tevém, jogommal éltem... már nem is</l>
-<l>Emlékszem tisztán, mint volt... megzavart</l>
-<l>E szédülés... de bármi volt, ez egyre</l>
-<l>Jól emlékszem, hogy jogomat tevém.</l>
-<l>Nőmmel, fiammal bármit tehetek:</l>
-<l>Elűzhetem vagy visszahívhatom;</l>
-<l>És ha való az, hogy kiűztelek,</l>
-<l>Ép olyan joggal hivlak vissza most.</l>
-<stage>(Belép a szobába.)</stage>
-<l>Tudtam, hogy itt talállak: e leány</l>
-<l>Után futott fiad, te meg utána.</l>
-<l>Érettetek jövék, nem e leányhoz,</l>
-<l>Oly mélyen nem alázom meg magam.</l>
-<l>Készülj, hivd fiadat s kövessetek.</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Előbb olvasd el ezt a levelet.</l>
-<stage>(Fölveszi az asztalról és Bárdinak odanyújtja.)</stage>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Mi ez?</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Csak olvasd.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>No hát - olvasom.</l>
-<stage>(A levelet elolvassa s aztán lassan összehajtva,
+            <lg>
+              <l>Anna!</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Te vagy? Miért jövél? Ne közelíts...</l>
+              <l>Félek tőled... nyomodban a halál...</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Jól mondod, a halál... Láttam sötét</l>
+              <l>Arcát, éreztem jéghideg kezét...</l>
+              <l>Bérelt kezek térítének magamhoz.</l>
+              <l>Mert akiket szerettem, akikért volt</l>
+              <l>Egész éltem munkája, fáradalma,</l>
+              <l>Egy idegen leány után szaladtak,</l>
+              <l>S magamra hagytak, mint a rossz ebet,</l>
+              <l>Mint a bélpoklost.</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Elűztél magadtól,</l>
+              <l>Makacs kegyetlenséged űze el.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Én űztelek ki házamból? Ha azt</l>
+              <l>Tevém, jogommal éltem... már nem is</l>
+              <l>Emlékszem tisztán, mint volt... megzavart</l>
+              <l>E szédülés... de bármi volt, ez egyre</l>
+              <l>Jól emlékszem, hogy jogomat tevém.</l>
+              <l>Nőmmel, fiammal bármit tehetek:</l>
+              <l>Elűzhetem vagy visszahívhatom;</l>
+              <l>És ha való az, hogy kiűztelek,</l>
+              <l>Ép olyan joggal hivlak vissza most.</l>
+              <stage>(Belép a szobába.)</stage>
+              <l>Tudtam, hogy itt talállak: e leány</l>
+              <l>Után futott fiad, te meg utána.</l>
+              <l>Érettetek jövék, nem e leányhoz,</l>
+              <l>Oly mélyen nem alázom meg magam.</l>
+              <l>Készülj, hivd fiadat s kövessetek.</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Előbb olvasd el ezt a levelet.</l>
+              <stage>(Fölveszi az asztalról és Bárdinak odanyújtja.)</stage>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Mi ez?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Csak olvasd.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>No hát - olvasom.</l>
+              <stage>(A levelet elolvassa s aztán lassan összehajtva,
                                                 visszateszi az asztalra.)</stage>
-<l>Meghalt... Sajnálom... Nem volt szándokom...</l>
-<l>Mondom, sajnálom... Léha, gyönge volt,</l>
-<l>De nem rossz ember... Nos, mért nézesz így</l>
-<l>Rám? Én nem valék oka...</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Tekints</l>
-<l>Szemembe, Gábor... Te, ki életedben</l>
-<l>Soh' sem hazudtál: mondd ki, ha mered,</l>
-<l>Hogy e szegény ember halála nem</l>
-<l>A te lelkedre súlyosul; tagadd, hogy</l>
-<l>Nem érzed kezeden vércseppjeit.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(önkénytelenül háta mögé rejtve kezeit, zavartan,
+              <l>Meghalt... Sajnálom... Nem volt szándokom...</l>
+              <l>Mondom, sajnálom... Léha, gyönge volt,</l>
+              <l>De nem rossz ember... Nos, mért nézesz így</l>
+              <l>Rám? Én nem valék oka...</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Tekints</l>
+              <l>Szemembe, Gábor... Te, ki életedben</l>
+              <l>Soh' sem hazudtál: mondd ki, ha mered,</l>
+              <l>Hogy e szegény ember halála nem</l>
+              <l>A te lelkedre súlyosul; tagadd, hogy</l>
+              <l>Nem érzed kezeden vércseppjeit.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(önkénytelenül háta mögé rejtve kezeit, zavartan,
                                         mogorván)</stage>
-<lg>
-<l>Mily hang ez? Engem vallatsz? Elfeledted,</l>
-<l>Hogy én urad, parancsolód vagyok?</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Egész éltem bizonyságom reá,</l>
-<l>Hogy én nem feledtem. Szolgálód valék,</l>
-<l>Remegtem tőled, egy tekinteted</l>
-<l>Elnémitott minden szót ajkamon.</l>
-<l>Szemeddel láttam az egész világot.</l>
-<l>Csak általad gondolkozott agyam...</l>
-<l>Nem ilyen voltam? Szólj!</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Nem tagadom.</l>
-<l>Kötelességed híven megtevéd,</l>
-<l>Mint én is az enyémet. Ez a rend.</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Ajkamra zúgolódás vagy panasz</l>
-<l>Soh'sem jött. Elfogadtam sorsomat.</l>
-<l>Hitves valék, többé nem magamé.</l>
-<l>Amint az oltárnál megesküvém,</l>
-<l>Férjemnek adtam teljesen magam,</l>
-<l>S mi bennem élt, hit, érzés, gondolat,</l>
-<l>Övé lett mind, feláldozám neki.</l>
-<l>Mindent feláldozék, mindent... csak egyet</l>
-<l>Nem áldoztam fel, egyet: az anyát.</l>
-<l>Az anya lázad fel most ellened,</l>
-<l>Az anya mondja: eddig s nem tovább.</l>
-<l>Én nem tudom, mi történt, mit tevél,</l>
-<l>Csak félig látok, félig sejtenem kell;</l>
-<l>De amit látok, abból is tudom,</l>
-<l>Hogy a halál szegődött társaul</l>
-<l>Gyilkos makacsságodnak. Itt az egyik</l>
-<l>Halott, kinek reád kiált a vére;</l>
-<l>Talán utána hullt már lánya is,</l>
-<l>Utána vész fiam, a te fiad!</l>
-<l>És mind azért, mert a te vasfejed</l>
-<l>Nem enged, mert egyszer nem teljesül</l>
-<l>A te akaratod!...</l>
-<l>Hát Isten vagy te, a Mindenható,</l>
-<l>Hogy akaratod mindenek fölött áll?</l>
-<l>Sőt Istennél is több, mert az igaz</l>
-<l>Isten jó és kegyes és könyörülő,</l>
-<l>S az esdeklésre meghajol szive...</l>
-<l>Ha ezt hivéd magadról, úgy csalódtál;</l>
-<l>S ha eddig senki sem akadt, aki</l>
-<l>Szemedbe mondja: én, a gyönge asszony,</l>
-<l>Fiadnak anyja, korlátot vetek</l>
-<l>Zsarnokságodnak... És most üss meg, ölj meg:</l>
-<l>Mást én nem mondhatok, nem tehetek.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(a legnagyobb indulattal)</stage>
-<lg>
-<l>Asszony... Te...!</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<stage>(eléje áll, nyugodtan)</stage>
-<lg>
-<l>Mondtam, ölj meg, itt vagyok:</l>
-<l>Három halotthoz negyedik halott.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(megrázkódva, elfordítja fejét, hátrál néhány lépést.
+            <lg>
+              <l>Mily hang ez? Engem vallatsz? Elfeledted,</l>
+              <l>Hogy én urad, parancsolód vagyok?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Egész éltem bizonyságom reá,</l>
+              <l>Hogy én nem feledtem. Szolgálód valék,</l>
+              <l>Remegtem tőled, egy tekinteted</l>
+              <l>Elnémitott minden szót ajkamon.</l>
+              <l>Szemeddel láttam az egész világot.</l>
+              <l>Csak általad gondolkozott agyam...</l>
+              <l>Nem ilyen voltam? Szólj!</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Nem tagadom.</l>
+              <l>Kötelességed híven megtevéd,</l>
+              <l>Mint én is az enyémet. Ez a rend.</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Ajkamra zúgolódás vagy panasz</l>
+              <l>Soh'sem jött. Elfogadtam sorsomat.</l>
+              <l>Hitves valék, többé nem magamé.</l>
+              <l>Amint az oltárnál megesküvém,</l>
+              <l>Férjemnek adtam teljesen magam,</l>
+              <l>S mi bennem élt, hit, érzés, gondolat,</l>
+              <l>Övé lett mind, feláldozám neki.</l>
+              <l>Mindent feláldozék, mindent... csak egyet</l>
+              <l>Nem áldoztam fel, egyet: az anyát.</l>
+              <l>Az anya lázad fel most ellened,</l>
+              <l>Az anya mondja: eddig s nem tovább.</l>
+              <l>Én nem tudom, mi történt, mit tevél,</l>
+              <l>Csak félig látok, félig sejtenem kell;</l>
+              <l>De amit látok, abból is tudom,</l>
+              <l>Hogy a halál szegődött társaul</l>
+              <l>Gyilkos makacsságodnak. Itt az egyik</l>
+              <l>Halott, kinek reád kiált a vére;</l>
+              <l>Talán utána hullt már lánya is,</l>
+              <l>Utána vész fiam, a te fiad!</l>
+              <l>És mind azért, mert a te vasfejed</l>
+              <l>Nem enged, mert egyszer nem teljesül</l>
+              <l>A te akaratod!...</l>
+              <l>Hát Isten vagy te, a Mindenható,</l>
+              <l>Hogy akaratod mindenek fölött áll?</l>
+              <l>Sőt Istennél is több, mert az igaz</l>
+              <l>Isten jó és kegyes és könyörülő,</l>
+              <l>S az esdeklésre meghajol szive...</l>
+              <l>Ha ezt hivéd magadról, úgy csalódtál;</l>
+              <l>S ha eddig senki sem akadt, aki</l>
+              <l>Szemedbe mondja: én, a gyönge asszony,</l>
+              <l>Fiadnak anyja, korlátot vetek</l>
+              <l>Zsarnokságodnak... És most üss meg, ölj meg:</l>
+              <l>Mást én nem mondhatok, nem tehetek.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(a legnagyobb indulattal)</stage>
+            <lg>
+              <l>Asszony... Te...!</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <stage>(eléje áll, nyugodtan)</stage>
+            <lg>
+              <l>Mondtam, ölj meg, itt vagyok:</l>
+              <l>Három halotthoz negyedik halott.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(megrázkódva, elfordítja fejét, hátrál néhány lépést.
                                         Mogorván)</stage>
-<lg>
-<l>No hát, mit kívánsz? Azt csak tudhatod.</l>
-<l>Hogy gyilkos nem vagyok... No hát, mi kell?</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Csak azt kivánom, hogy fiam tovább</l>
-<l>Éljen s ne hulljon vére tenfejedre.</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>A vére... Az én fiamnak vére...! Hát</l>
-<l>Gyermekgyilkosnak mondasz engemet...?</l>
-<l>Ez a fiú... mily vasfejű! miért nem</l>
-<l>Veted szemére, ép úgy, mint nekem?</l>
-<l>Meghal...? Kitelnék tőle...</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Én tudom...</l>
-<l>Fiam meghal, te léssz a gyilkosa.</l>
-<l> </l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Gyilkos? Hallgass, ne merd többé e szót</l>
-<l>Arcomba vágni... Asszony, visszaélsz</l>
-<l>Betegségemmel... Látod, szenvedek;</l>
-<l>Megtört ez ájulás, kábult vagyok,</l>
-<l>S te azt hiszed, nincs többé már erőm?</l>
-<l>Vigyázz, még összetörhetlek... Miért sirsz?</l>
-<stage>(Megérinti a siró Anna karját.)</stage>
-<l>Ne félj no, nem vagyok gyilkos... Beszélj</l>
-<l>Fiaddal, jertek vissza hozzám,</l>
-<l>És majd meglátom... Várj, mit mosolyogsz?</l>
-<l>De jó, nevess ki, győztél férjeden...</l>
-<l>Lásd, szeretem fiúnkat... Mondd neki,</l>
-<l>Azt akarom, hogy éljen és szeressen...</l>
-<stage>(Az ajtó felé megy.)</stage>
-<l>Mily gyönge lettem, szégyelem magam...</l>
-<stage>(Visszafordul az ajtóból.)</stage>
-<l>Várlak fiammal... asszony, ne feledd!<stage>(El.)</stage></l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<stage>(magában)</stage>
-<lg>
-<l>Oh köszönöm, nagy Isten, köszönöm,</l>
-<l>Hogy meghajlítád végre e kemény</l>
-<l>Szivet... De hátha késő? Borzalom</l>
-<l>Fut át e gondolatra véremen...</l>
-</lg>
-</sp>
-                            
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Kilencedik jelenet</head>
-          <p><stage>ANDOR, ANNA.</stage></p>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<stage>(egy oldalajtón jő)</stage>
-<lg>
-<l>Szobájában kerestem Edithet...</l>
-<l>Mi ez anyám... téged talállak itt?</l>
-</lg>
-</sp>           
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Oh csakhogy látlak, drága gyermekem.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>De hol van hát Edith? Jó hirt hozok</l>
-<l>Számára... Megmentém... Nem tilthatá meg...</l>
-<l>Ha tőlem elszakítja végzetünk,</l>
-<l>Megmentém legalább ez esztelen</l>
-<l>Frigytől... Meglátogattam Várhelyit...</l>
-<l>Megmutattam e tőrt neki...</l>
-<stage>(Zsebéből tőrt vesz ki és aztán az asztalra teszi.)</stage>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Fiam!</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Ne félj, nem történt semmi... Várhelyi</l>
-<l>Jobban megrémült, mint te most, e tőr</l>
-<l>Láttára: könnyen végezék vele.</l>
-<l>Lemondott mindenről, elútazott,</l>
-<l>S Edith számára ezt a levelet</l>
-<l>Küldé, feloldva őt adott szavától.</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Felesleges fáradság volt, fiam;</l>
-<l>Nagyobb dolog történt azóta itt.</l>
-<l>Majd megtudod atyádtól... Most keressük</l>
-<l>Edithet... oh csak késő ne legyen.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Az égre! hol van?</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Atyját keresi.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Atyját! Hogyan?</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Csitt! Hallod ezt a zajt?</l>
-<l>Az utcán hangzik... Mily baljóslatú</l>
-<l>Moraj... nem hallod? egyre közelebb jő...</l>
-<l>Talán...! Maradj... Én nézem meg... az én</l>
-<l>Szivem többet bir el...</l>
-<stage>(Az ablakhoz siet és kitekint.)</stage>
-<l>A ház előtt</l>
-<l>Állnak meg... Hallod ezt a tompa zúgást?</l>
-<l>Most emberek sietnek a szekérhez...</l>
-<l>Nagy terhet vesznek le... ne jöjj ide...</l>
-<l>Holttest... tépett ruháját vér fedi...</l>
-<l>Nem látom arcát... Ah! nagy ég... segíts!</l>
-<l>Szentgáli...</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Mit mondasz? Szentgáli halva?...</l>
-<l>Az nem lehet, nem jól látott szemed.</l>
-<stage>(Az ablakhoz akar sietni.)</stage>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Maradj, maradj, beléptek a kapun...</l>
-<l>Feljönnek... A halottvivők nyomán</l>
-<l>Edith megy sápadt, mozdulatlan arccal...</l>
-<l>Nem jó ez arcot látnod, gyermekem...</l>
-<stage>(A középajtóhoz siet és hallgatózik.)</stage>
-<l>Már jönnek, hallom a lépcsőn nehéz</l>
-<l>Lépéseik dübörgését... Uram</l>
-<l>Irgalmazz!<stage>(Térdre borul, imára kulcsolva kezeit.)</stage></l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Meghalt! meghalt! Oh anyám,</l>
-<l>Én űztem a halálba...</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<stage>(felugrik)</stage>
-<lg>
-<l>Mit beszélsz?</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Az én kiméletlen szavam, kegyetlen</l>
-<l>Vádam...! Szemére hánytam azt a bűnt,</l>
-<l>Melyért leánya lett az áldozat...</l>
-<l>Vak voltam, őrült voltam, meg nem értém</l>
-<l>Bucsúszavából, hogy halálba megy.</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Csitt! csendesen! feljöttek már... a szomszéd</l>
-<l>Szobában hallom lépteik zaját.</l>
-<stage>(Az oldalajtóhoz siet és hallgatózik.)</stage>
-<l>Itt vannak... elnémult már a moraj...</l>
-<l>Csak tompa suttogás, halk zokogás</l>
-<l>Hangzik fülembe... Csendesen, fiam!</l>
-<l>Ne háborítsuk a halott nyugalmát.</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Anyám, őrültté tesz e tompa zaj...</l>
-<l>Nem állom ki... bocsáss... nem maradok...</l>
-<l>Edith lábához borulok, vegye</l>
-<l>Engesztelésül az én éltemet.</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Hallgass! az ajtó nyílik... félre innen...</l>
-<l>Ne lásson tüstént... Sirja ki előbb</l>
-<l>Fájdalmát keblemen... Vigyázz... Edith...</l>
-</lg>
-</sp>
-<stage>(Andor kissé félrevonul.)</stage>
-                            
-                                                        </div>
-                                                        <div type="scene">
-<head type="title">Tizedik jelenet</head>
-          <p><stage>ELŐBBIEK, EDITH.</stage></p>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Kiküldtek, nem szabad kedves halottam</l>
-<l>Mellett maradnom... Itt van asszonyom?</l>
-<l>Atyám... ott fekszik halva... Különös...!</l>
-<l>Nem régen még oly ép, kedves, derült...</l>
-<l>És most... Oh Istenem!<stage>(Anna keblére borul.)</stage></l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Pihenjen itt,</l>
-<l>Én édes gyermekem! Vigasztaló</l>
-<l>Szavam nincs, én csak könnyet adhatok.</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Nem engednének oda benn maradnom,</l>
-<l>Kiragadák rendőrök, orvosok</l>
-<l>A drága holtat karjaim közűl...</l>
-<l>Itt nem látom már többé; nemsokára</l>
-<l>Meglátom máshol... ott el nem veszik...</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Mit mond? Az égre! Mit tett gyermekem...?</l>
-<l>E sápadt arc... E tévelygő tekintet...</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<stage>(hozzájuk rohan)</stage>
-<lg>
-<l>Edith! Edith!</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Ki szólt? Jól ismerem</l>
-<l>Hangját, de arcát nem látom... vegyék le</l>
-<l>E fátyolt róla... Ah! megismerém...</l>
-<l>Kissé zavart vagyok... fáradt is...</l>
-<stage>(Bágyadtan a pamlagra dől.)</stage>
-<l>Andor...</l>
-<l>Megismerém... Atyjának levelet</l>
-<l>Akartam írni... Mondja meg neki,</l>
-<l>Hogy mindvégig megtartám szavamat...</l>
-<l>Jobban kitérek útjából, miként</l>
-<l>Ha más nejévé lennék...</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Mit beszél?</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Nem kell kitérni... nincs több akadály...</l>
-<l>Öné lesz Andor... hallja gyermekem?</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Hallom, de késő... Tartsa föl fejem...</l>
-<l>Szeretném Andort látni még... miért</l>
-<l>Áll olyan messze...?</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<lg>
-<l>Melletted vagyok</l>
-<l>Szerelmem... ah! anyám... nem hallja... nézd!</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Nagy ég! szivének dobogása elhal...</l>
-<l>Edith... ébredjen...! Felnyitá szemét...</l>
-<l>Feleljen...! Méreg...? Ez a méreg!</l>
-<l>Segítség!</l>
-</lg>
-</sp>
-<sp who="#edith">
-<speaker>EDITH</speaker>
-<lg>
-<l>Késő, nincs segítség.</l>
-<l>Szivemben érzem már a zsibbadást...</l>
-<l>Legjobb igy... Andor, adja a kezét...</l>
-<l>A mi szerelmünk nem volt e világba</l>
-<l>Való... Mi cseng ott kinn? Lélekharang? Engem</l>
-<l>Hív... megyek...<stage>(Meghal.)</stage></l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<stage>(Edithre borul)</stage>
-<lg>
-<l>Edith! Edith! -</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<lg>
-<l>Meghalt! Oh Istenem!</l>
-</lg>
-</sp>
-                                                        </div>
-                                                        <div type="scene"> 
-<head type="title">Tizenegyedik jelenet</head>
-          <p><stage>ELŐBBIEK, BÁRDI megjelen az ajtóban.</stage></p>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<stage>(felugrik)</stage>
-<lg>
-<l>Gyilkos! gyilkos te! Meghalt!</l>
-<l>Hallod-e?</l>
-</lg>
-</sp>
-<sp who="#andor">
-<speaker>ANDOR</speaker>
-<stage>(fölemelkedik)</stage>
-<lg>
-<l>Hagyd őt, anyám, ne hangozzék e szent</l>
-<l>Helyen panasz, vád... Meghalt... vége van,</l>
-<l>Mindennek vége...</l>
-<stage>(Lassan az ajtóhoz hátrál s kezével hátra nyúlva, keresi a tőrt.)</stage>
-<l>Szótartók valánk</l>
-<l>Mindketten, amint illik férfiakhoz:</l>
-<l>Atyám kimondá: nem lesz ő enyém,</l>
-<l>És én kimondám: akkor meghalok...</l>
-<stage>(Megfogja, a tőrt.)</stage>
-<l>Amit atyám kimondott, teljesült,</l>
-<l>S én igy váltom be szavamat.</l>
-<stage>(Keblébe szúrja a tőrt, Edith mellé esik, meghal.)</stage>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<stage>(rémes sikoltással Andorhoz szökik, hogy tőrét visszarántsa. Azután reá roskad)</stage>
-<lg>
-<l>Meghalt!</l>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<lg>
-<l>Meghalt? Hazugság...! Látni akarom.</l>
-</lg>
-</sp>
-<sp who="#anna">
-<speaker>ANNA</speaker>
-<stage>(fölemelkedik, kezét kinyujtva)</stage>
-<lg>
-<l>El innen! Gyilkos! áldozatjaid</l>
-<l>Holttesteit ne érintsd... Oh fiam!</l>
-<stage>(Andor mellé térdel.)</stage>
-</lg>
-</sp>
-<sp who="#bardi">
-<speaker>BÁRDI</speaker>
-<stage>(vadul körültekint)</stage>
-<lg>
-<l>Mit mond ez asszony? Gyilkos? Hazudik...</l>
-<l>Az én szivembe döfték a hegyes tőrt...</l>
-<l>Rablók elvitték minden kincsemet,</l>
-<l>Koldus vagyok... e holttest sem enyém...</l>
-<stage>(Felordítva):</stage>
-<l>Asszony! fiam holttestét akarom,</l>
-<l>S vedd érte mindenem!</l>
-<stage>(Feléjök akar rohanni, roskadozik, s kezébe temeti arcát.)</stage>
-<l>Fiam! fiam!</l>
-</lg>
-</sp>
-<p><stage>VÉGE</stage></p>
-  </div>
-                                                        
-                            </div>
-
-</body>
-</text>
+            <lg>
+              <l>No hát, mit kívánsz? Azt csak tudhatod.</l>
+              <l>Hogy gyilkos nem vagyok... No hát, mi kell?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Csak azt kivánom, hogy fiam tovább</l>
+              <l>Éljen s ne hulljon vére tenfejedre.</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>A vére... Az én fiamnak vére...! Hát</l>
+              <l>Gyermekgyilkosnak mondasz engemet...?</l>
+              <l>Ez a fiú... mily vasfejű! miért nem</l>
+              <l>Veted szemére, ép úgy, mint nekem?</l>
+              <l>Meghal...? Kitelnék tőle...</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Én tudom...</l>
+              <l>Fiam meghal, te léssz a gyilkosa.</l>
+              <l> </l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Gyilkos? Hallgass, ne merd többé e szót</l>
+              <l>Arcomba vágni... Asszony, visszaélsz</l>
+              <l>Betegségemmel... Látod, szenvedek;</l>
+              <l>Megtört ez ájulás, kábult vagyok,</l>
+              <l>S te azt hiszed, nincs többé már erőm?</l>
+              <l>Vigyázz, még összetörhetlek... Miért sirsz?</l>
+              <stage>(Megérinti a siró Anna karját.)</stage>
+              <l>Ne félj no, nem vagyok gyilkos... Beszélj</l>
+              <l>Fiaddal, jertek vissza hozzám,</l>
+              <l>És majd meglátom... Várj, mit mosolyogsz?</l>
+              <l>De jó, nevess ki, győztél férjeden...</l>
+              <l>Lásd, szeretem fiúnkat... Mondd neki,</l>
+              <l>Azt akarom, hogy éljen és szeressen...</l>
+              <stage>(Az ajtó felé megy.)</stage>
+              <l>Mily gyönge lettem, szégyelem magam...</l>
+              <stage>(Visszafordul az ajtóból.)</stage>
+              <l>Várlak fiammal... asszony, ne feledd!<stage>(El.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <stage>(magában)</stage>
+            <lg>
+              <l>Oh köszönöm, nagy Isten, köszönöm,</l>
+              <l>Hogy meghajlítád végre e kemény</l>
+              <l>Szivet... De hátha késő? Borzalom</l>
+              <l>Fut át e gondolatra véremen...</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Kilencedik jelenet</head>
+          <p>
+            <stage>ANDOR, ANNA.</stage>
+          </p>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <stage>(egy oldalajtón jő)</stage>
+            <lg>
+              <l>Szobájában kerestem Edithet...</l>
+              <l>Mi ez anyám... téged talállak itt?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Oh csakhogy látlak, drága gyermekem.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>De hol van hát Edith? Jó hirt hozok</l>
+              <l>Számára... Megmentém... Nem tilthatá meg...</l>
+              <l>Ha tőlem elszakítja végzetünk,</l>
+              <l>Megmentém legalább ez esztelen</l>
+              <l>Frigytől... Meglátogattam Várhelyit...</l>
+              <l>Megmutattam e tőrt neki...</l>
+              <stage>(Zsebéből tőrt vesz ki és aztán az asztalra teszi.)</stage>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Fiam!</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Ne félj, nem történt semmi... Várhelyi</l>
+              <l>Jobban megrémült, mint te most, e tőr</l>
+              <l>Láttára: könnyen végezék vele.</l>
+              <l>Lemondott mindenről, elútazott,</l>
+              <l>S Edith számára ezt a levelet</l>
+              <l>Küldé, feloldva őt adott szavától.</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Felesleges fáradság volt, fiam;</l>
+              <l>Nagyobb dolog történt azóta itt.</l>
+              <l>Majd megtudod atyádtól... Most keressük</l>
+              <l>Edithet... oh csak késő ne legyen.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Az égre! hol van?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Atyját keresi.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Atyját! Hogyan?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Csitt! Hallod ezt a zajt?</l>
+              <l>Az utcán hangzik... Mily baljóslatú</l>
+              <l>Moraj... nem hallod? egyre közelebb jő...</l>
+              <l>Talán...! Maradj... Én nézem meg... az én</l>
+              <l>Szivem többet bir el...</l>
+              <stage>(Az ablakhoz siet és kitekint.)</stage>
+              <l>A ház előtt</l>
+              <l>Állnak meg... Hallod ezt a tompa zúgást?</l>
+              <l>Most emberek sietnek a szekérhez...</l>
+              <l>Nagy terhet vesznek le... ne jöjj ide...</l>
+              <l>Holttest... tépett ruháját vér fedi...</l>
+              <l>Nem látom arcát... Ah! nagy ég... segíts!</l>
+              <l>Szentgáli...</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Mit mondasz? Szentgáli halva?...</l>
+              <l>Az nem lehet, nem jól látott szemed.</l>
+              <stage>(Az ablakhoz akar sietni.)</stage>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Maradj, maradj, beléptek a kapun...</l>
+              <l>Feljönnek... A halottvivők nyomán</l>
+              <l>Edith megy sápadt, mozdulatlan arccal...</l>
+              <l>Nem jó ez arcot látnod, gyermekem...</l>
+              <stage>(A középajtóhoz siet és hallgatózik.)</stage>
+              <l>Már jönnek, hallom a lépcsőn nehéz</l>
+              <l>Lépéseik dübörgését... Uram</l>
+              <l>Irgalmazz!<stage>(Térdre borul, imára kulcsolva kezeit.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Meghalt! meghalt! Oh anyám,</l>
+              <l>Én űztem a halálba...</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <stage>(felugrik)</stage>
+            <lg>
+              <l>Mit beszélsz?</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Az én kiméletlen szavam, kegyetlen</l>
+              <l>Vádam...! Szemére hánytam azt a bűnt,</l>
+              <l>Melyért leánya lett az áldozat...</l>
+              <l>Vak voltam, őrült voltam, meg nem értém</l>
+              <l>Bucsúszavából, hogy halálba megy.</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Csitt! csendesen! feljöttek már... a szomszéd</l>
+              <l>Szobában hallom lépteik zaját.</l>
+              <stage>(Az oldalajtóhoz siet és hallgatózik.)</stage>
+              <l>Itt vannak... elnémult már a moraj...</l>
+              <l>Csak tompa suttogás, halk zokogás</l>
+              <l>Hangzik fülembe... Csendesen, fiam!</l>
+              <l>Ne háborítsuk a halott nyugalmát.</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Anyám, őrültté tesz e tompa zaj...</l>
+              <l>Nem állom ki... bocsáss... nem maradok...</l>
+              <l>Edith lábához borulok, vegye</l>
+              <l>Engesztelésül az én éltemet.</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Hallgass! az ajtó nyílik... félre innen...</l>
+              <l>Ne lásson tüstént... Sirja ki előbb</l>
+              <l>Fájdalmát keblemen... Vigyázz... Edith...</l>
+            </lg>
+          </sp>
+          <stage>(Andor kissé félrevonul.)</stage>
+        </div>
+        <div type="scene">
+          <head type="title">Tizedik jelenet</head>
+          <p>
+            <stage>ELŐBBIEK, EDITH.</stage>
+          </p>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Kiküldtek, nem szabad kedves halottam</l>
+              <l>Mellett maradnom... Itt van asszonyom?</l>
+              <l>Atyám... ott fekszik halva... Különös...!</l>
+              <l>Nem régen még oly ép, kedves, derült...</l>
+              <l>És most... Oh Istenem!<stage>(Anna keblére borul.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Pihenjen itt,</l>
+              <l>Én édes gyermekem! Vigasztaló</l>
+              <l>Szavam nincs, én csak könnyet adhatok.</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Nem engednének oda benn maradnom,</l>
+              <l>Kiragadák rendőrök, orvosok</l>
+              <l>A drága holtat karjaim közűl...</l>
+              <l>Itt nem látom már többé; nemsokára</l>
+              <l>Meglátom máshol... ott el nem veszik...</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Mit mond? Az égre! Mit tett gyermekem...?</l>
+              <l>E sápadt arc... E tévelygő tekintet...</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <stage>(hozzájuk rohan)</stage>
+            <lg>
+              <l>Edith! Edith!</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Ki szólt? Jól ismerem</l>
+              <l>Hangját, de arcát nem látom... vegyék le</l>
+              <l>E fátyolt róla... Ah! megismerém...</l>
+              <l>Kissé zavart vagyok... fáradt is...</l>
+              <stage>(Bágyadtan a pamlagra dől.)</stage>
+              <l>Andor...</l>
+              <l>Megismerém... Atyjának levelet</l>
+              <l>Akartam írni... Mondja meg neki,</l>
+              <l>Hogy mindvégig megtartám szavamat...</l>
+              <l>Jobban kitérek útjából, miként</l>
+              <l>Ha más nejévé lennék...</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Mit beszél?</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Nem kell kitérni... nincs több akadály...</l>
+              <l>Öné lesz Andor... hallja gyermekem?</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Hallom, de késő... Tartsa föl fejem...</l>
+              <l>Szeretném Andort látni még... miért</l>
+              <l>Áll olyan messze...?</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <lg>
+              <l>Melletted vagyok</l>
+              <l>Szerelmem... ah! anyám... nem hallja... nézd!</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Nagy ég! szivének dobogása elhal...</l>
+              <l>Edith... ébredjen...! Felnyitá szemét...</l>
+              <l>Feleljen...! Méreg...? Ez a méreg!</l>
+              <l>Segítség!</l>
+            </lg>
+          </sp>
+          <sp who="#edith">
+            <speaker>EDITH</speaker>
+            <lg>
+              <l>Késő, nincs segítség.</l>
+              <l>Szivemben érzem már a zsibbadást...</l>
+              <l>Legjobb igy... Andor, adja a kezét...</l>
+              <l>A mi szerelmünk nem volt e világba</l>
+              <l>Való... Mi cseng ott kinn? Lélekharang? Engem</l>
+              <l>Hív... megyek...<stage>(Meghal.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <stage>(Edithre borul)</stage>
+            <lg>
+              <l>Edith! Edith! -</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <lg>
+              <l>Meghalt! Oh Istenem!</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Tizenegyedik jelenet</head>
+          <p>
+            <stage>ELŐBBIEK, BÁRDI megjelen az ajtóban.</stage>
+          </p>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <stage>(felugrik)</stage>
+            <lg>
+              <l>Gyilkos! gyilkos te! Meghalt!</l>
+              <l>Hallod-e?</l>
+            </lg>
+          </sp>
+          <sp who="#andor">
+            <speaker>ANDOR</speaker>
+            <stage>(fölemelkedik)</stage>
+            <lg>
+              <l>Hagyd őt, anyám, ne hangozzék e szent</l>
+              <l>Helyen panasz, vád... Meghalt... vége van,</l>
+              <l>Mindennek vége...</l>
+              <stage>(Lassan az ajtóhoz hátrál s kezével hátra nyúlva, keresi a tőrt.)</stage>
+              <l>Szótartók valánk</l>
+              <l>Mindketten, amint illik férfiakhoz:</l>
+              <l>Atyám kimondá: nem lesz ő enyém,</l>
+              <l>És én kimondám: akkor meghalok...</l>
+              <stage>(Megfogja, a tőrt.)</stage>
+              <l>Amit atyám kimondott, teljesült,</l>
+              <l>S én igy váltom be szavamat.</l>
+              <stage>(Keblébe szúrja a tőrt, Edith mellé esik, meghal.)</stage>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <stage>(rémes sikoltással Andorhoz szökik, hogy tőrét visszarántsa. Azután reá roskad)</stage>
+            <lg>
+              <l>Meghalt!</l>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <lg>
+              <l>Meghalt? Hazugság...! Látni akarom.</l>
+            </lg>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA</speaker>
+            <stage>(fölemelkedik, kezét kinyujtva)</stage>
+            <lg>
+              <l>El innen! Gyilkos! áldozatjaid</l>
+              <l>Holttesteit ne érintsd... Oh fiam!</l>
+              <stage>(Andor mellé térdel.)</stage>
+            </lg>
+          </sp>
+          <sp who="#bardi">
+            <speaker>BÁRDI</speaker>
+            <stage>(vadul körültekint)</stage>
+            <lg>
+              <l>Mit mond ez asszony? Gyilkos? Hazudik...</l>
+              <l>Az én szivembe döfték a hegyes tőrt...</l>
+              <l>Rablók elvitték minden kincsemet,</l>
+              <l>Koldus vagyok... e holttest sem enyém...</l>
+              <stage>(Felordítva):</stage>
+              <l>Asszony! fiam holttestét akarom,</l>
+              <l>S vedd érte mindenem!</l>
+              <stage>(Feléjök akar rohanni, roskadozik, s kezébe temeti arcát.)</stage>
+              <l>Fiam! fiam!</l>
+            </lg>
+          </sp>
+          <p>
+            <stage>VÉGE</stage>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

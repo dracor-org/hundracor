@@ -1,126 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title type="main">Tragoedia magyar nyelven, az Sophocles Electrájából</title>
-<title type="sub">Nagyobb részre fordíttatott, és az keresztényeknek erkölcsöknek
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Tragoedia magyar nyelven, az Sophocles Electrájából</title>
+        <title type="sub">Nagyobb részre fordíttatott, és az keresztényeknek erkölcsöknek
                     jobbításokra például szépen játéknak módja szerint rendeltetett</title>
-<author>
-<persName>
-<surname>Bornemisza</surname>
-<forename>Péter</forename>
-</persName>
-<idno type="wikidata">Q835071</idno>
-</author>
-</titleStmt>
-<editionStmt> <edition>digital edition</edition> <respStmt> <resp>project director</resp> <persName> <surname>Palkó</surname> <forename>Gábor</forename> </persName> </respStmt> <respStmt> <resp>TEI-specification</resp> <persName> <surname>Fellegi</surname> <forename>Zsófia</forename> </persName> </respStmt> <respStmt> <resp>XML-control</resp> <persName> <surname>Bajzát</surname> <forename>Tímea</forename> </persName> </respStmt> <respStmt> <resp>project coordinator</resp> <persName> <surname>Szemes</surname> <forename>Botond</forename> </persName> </respStmt> <respStmt> <resp>NLP expert</resp> <persName> <surname>Horváth</surname> <forename>Péter</forename> </persName> </respStmt>
-<respStmt>
-<resp>XML-editor</resp>
-<persName>
-<surname>Hegedüs</surname>
-<forename>Fanni</forename>
-</persName>
-</respStmt>
-<respStmt> <resp>creator</resp> <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName></respStmt></editionStmt><publicationStmt><publisher> <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName></publisher><pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref></pubPlace><date>2021</date><availability> <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p></availability></publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
-<title type="main">Tragoedia magyar nyelven, az Sophocles Electrájából</title>
-<title type="sub">Nagyobb részre fordíttatott, és az keresztényeknek
+        <author>
+          <persName>
+            <surname>Bornemisza</surname>
+            <forename>Péter</forename>
+          </persName>
+          <idno type="wikidata">Q835071</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Bajzát</surname>
+            <forename>Tímea</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Hegedüs</surname>
+            <forename>Fanni</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">Tragoedia magyar nyelven, az Sophocles Electrájából</title>
+          <title type="sub">Nagyobb részre fordíttatott, és az keresztényeknek
                         erkölcsöknek jobbításokra például szépen játéknak módja szerint
                         rendeltetett</title>
-<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-<ref target="https://mek.oszk.hu/00600/00625"/>
-<date when="2003-03-26">2003-03-26</date>
-<respStmt>
-<resp>Original Electronic Edition</resp>
-<persName>
-<surname>Pétery</surname>
-<forename>Kristóf</forename>
-</persName>
-<persName>
-<surname>Kiss</surname>
-<forename>András</forename></persName>
-<persName>
-<surname>Ollé</surname>
-<forename>Krisztián</forename>
-</persName>
-</respStmt>
-</bibl>
-<bibl type="originalSource">
-<title type="main">Tragoedia magyar nyelven, az Sophocles Electrájából</title>
-<title type="sub">Nagyobb részre fordíttatott, és az keresztényeknek
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+          <ref target="https://mek.oszk.hu/00600/00625"/>
+          <date when="2003-03-26">2003-03-26</date>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname>Pétery</surname>
+              <forename>Kristóf</forename>
+            </persName>
+            <persName>
+              <surname>Kiss</surname>
+              <forename>András</forename>
+            </persName>
+            <persName>
+              <surname>Ollé</surname>
+              <forename>Krisztián</forename>
+            </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">Tragoedia magyar nyelven, az Sophocles Electrájából</title>
+          <title type="sub">Nagyobb részre fordíttatott, és az keresztényeknek
                         erkölcsöknek jobbításokra például szépen játéknak módja szerint
                         rendeltetett</title>
-<author>
-<persName>
-<surname>Bornemisza</surname>
-<forename>Péter</forename>
-</persName>
-<idno type="wikidata">Q835071</idno>
-</author>
-<date when="1993">1993</date>
-<pubPlace>Szentendre</pubPlace>
-<publisher>Interpopulart</publisher>
-</bibl>
-<bibl type="firstEdition">
-<title type="main">Tragoedia magyar nyelven, az Sophocles Electrájából</title>
-<title type="sub">Nagyobb részre fordíttatott, és az keresztényeknek
+          <author>
+            <persName>
+              <surname>Bornemisza</surname>
+              <forename>Péter</forename>
+            </persName>
+            <idno type="wikidata">Q835071</idno>
+          </author>
+          <date when="1993">1993</date>
+          <pubPlace>Szentendre</pubPlace>
+          <publisher>Interpopulart</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <title type="main">Tragoedia magyar nyelven, az Sophocles Electrájából</title>
+          <title type="sub">Nagyobb részre fordíttatott, és az keresztényeknek
                         erkölcsöknek jobbításokra például szépen játéknak módja szerint
                         rendeltetett</title>
-<author>
-<persName>
-<surname>Bornemisza</surname>
-<forename>Péter</forename>
-</persName>
-<idno type="wikidata">Q835071</idno>
-</author>
-<date type="print" when="1558">1558</date>
-<date type="premiere" when="1931-03-02">1931-03-02</date>
-<date type="written" when="1558">1558</date>
-<pubPlace>Bécs</pubPlace>
-<publisher/>
-</bibl>
-</sourceDesc>
-</fileDesc>
-<profileDesc>
-<langUsage>
-<language ident="hu"/>
-</langUsage>
-<particDesc>
-<listPerson>
-<person sex="MALE" xml:id="aegistus">
-<persName>AEGISTUS</persName>
-</person>
-<person sex="MALE" xml:id="parasitus">
-<persName>PARASITUS</persName>
-</person>
-<person sex="FEMALE" xml:id="clitemnestra">
-      <persName>CLITEMNESTRA</persName>
-     </person>
-<person sex="FEMALE" xml:id="electra">
-      <persName>ELECTRA</persName>
-     </person>
-<person sex="MALE" xml:id="chrisothemis">
-<persName>CHRISOTHEMIS</persName>
-</person>
-<person sex="UNKNOWN" xml:id="chorus">
-      <persName>CHORUS</persName>
-     </person>
-<person sex="MALE" xml:id="orestes">
-<persName>ORESTES</persName>
-</person>
-<person sex="MALE" xml:id="mester">
-<persName>MESTER</persName>
-</person>
-</listPerson>
-</particDesc>
-</profileDesc>
-</teiHeader>
-<text>
-<front>
-   <head>AZ JÁTÉKBA ELÖLJÁRÓ BESZÉD</head>
-   <p>Nem ok nélkül, tisztelendő uraim, az ily mulatságot a régi bölcs jámborok gondolták, kit a
+          <author>
+            <persName>
+              <surname>Bornemisza</surname>
+              <forename>Péter</forename>
+            </persName>
+            <idno type="wikidata">Q835071</idno>
+          </author>
+          <date type="print" when="1558">1558</date>
+          <date type="premiere" when="1931-03-02">1931-03-02</date>
+          <date type="written" when="1558">1558</date>
+          <pubPlace>Bécs</pubPlace>
+          <publisher/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="aegistus">
+            <persName>AEGISTUS</persName>
+          </person>
+          <person sex="MALE" xml:id="parasitus">
+            <persName>PARASITUS</persName>
+          </person>
+          <person sex="FEMALE" xml:id="clitemnestra">
+            <persName>CLITEMNESTRA</persName>
+          </person>
+          <person sex="FEMALE" xml:id="electra">
+            <persName>ELECTRA</persName>
+          </person>
+          <person sex="MALE" xml:id="chrisothemis">
+            <persName>CHRISOTHEMIS</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="chorus">
+            <persName>CHORUS</persName>
+          </person>
+          <person sex="MALE" xml:id="orestes">
+            <persName>ORESTES</persName>
+          </person>
+          <person sex="MALE" xml:id="mester">
+            <persName>MESTER</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head>AZ JÁTÉKBA ELÖLJÁRÓ BESZÉD</head>
+      <p>Nem ok nélkül, tisztelendő uraim, az ily mulatságot a régi bölcs jámborok gondolták, kit a
     pogányok is igen gyakoroltak. Mert ők is esmérték Istennek bűn ellen való haragját és az
     gonoszokon való átkát. Mikor azért az pogány bölcsek látnák embereknek jóra való tunya voltukat
     és szófogadatlanságukat, ez játékszín alatt őket oktaták, és Istennek haragjából kivonták. Azért
@@ -138,50 +191,52 @@
     ennek is rövideden idvösséges summáját vegye kigyelmetek eszébe, hogy mennél inkább késik az
     Úristen az büntetéssel, annál inkább nehezebben és keservesebben ostoroz. Kiről ez játékbeli
     király és királyné asszony példa leszen.</p>
-   <head>EGÉSZ JÁTÉKNAK DERÉK SUMMÁJA:</head>
-   <p>Mikoron Clitemnestra az ő jámbor férjét, Agamemnon királyt, ketten Aegistusszal álnoksággal
+      <head>EGÉSZ JÁTÉKNAK DERÉK SUMMÁJA:</head>
+      <p>Mikoron Clitemnestra az ő jámbor férjét, Agamemnon királyt, ketten Aegistusszal álnoksággal
     megölték volna, nagy sok ideig vígan laktak az királyságban, de az király fia, Orestes, kit az
     nénje, Electra, jámbor oktató Mestertűl bölcsőbeli korában más országba küldött volt, emberkort
     érvén titkon hazajőve, és atyja halálát mind az kettőn megtorolja.</p>
-   <castList>
-    <head type="title"><hi rend="underline">AZ JÁTÉKBA SZÓLÓ SZEMÉLYEK</hi></head>
-    <castItem>
-     <role><roleName>AEGISTUS</roleName>, király</role>
-    </castItem>
-    <castItem>
-     <role><roleName>PARASITUS</roleName>, a király szolgája</role>
-    </castItem>
-    <castItem>
-     <role><roleName>CLITEMNESTRA</roleName>, királyné asszony</role>
-    </castItem>
-    <castItem>
-     <role><roleName>ELECTRA</roleName>, Agamemnon király leánya</role>
-    </castItem>
-    <castItem>
-     <role><roleName>CHRISOTHEMIS</roleName>, Electrának öccse</role>
-    </castItem>
-    <castItem>
-     <role><roleName>CHORUS</roleName>, vénasszony</role>
-    </castItem>
-    <castItem>
-     <role><roleName>ORESTES</roleName>, királyfi, Electrának ara</role>
-    </castItem>
-    <castItem>
-     <role><roleName>MESTER</roleName>, Orestes oktatója</role>
-    </castItem>
-   </castList>
-  </front>
-<body>
-<div type="act">
-<head type="title">ACTUS PRIMI</head>
-<div type="scene">
-<head type="title">SCENA PRIMA</head>
-
- <p><stage>Aegistus, Parasitus.</stage></p>
-
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Kicsoda hitte volna, hogy Agamemnonnak gazdag királysága ily hirtelen
+      <castList>
+        <head type="title">
+          <hi rend="underline">AZ JÁTÉKBA SZÓLÓ SZEMÉLYEK</hi>
+        </head>
+        <castItem>
+          <role><roleName>AEGISTUS</roleName>, király</role>
+        </castItem>
+        <castItem>
+          <role><roleName>PARASITUS</roleName>, a király szolgája</role>
+        </castItem>
+        <castItem>
+          <role><roleName>CLITEMNESTRA</roleName>, királyné asszony</role>
+        </castItem>
+        <castItem>
+          <role><roleName>ELECTRA</roleName>, Agamemnon király leánya</role>
+        </castItem>
+        <castItem>
+          <role><roleName>CHRISOTHEMIS</roleName>, Electrának öccse</role>
+        </castItem>
+        <castItem>
+          <role><roleName>CHORUS</roleName>, vénasszony</role>
+        </castItem>
+        <castItem>
+          <role><roleName>ORESTES</roleName>, királyfi, Electrának ara</role>
+        </castItem>
+        <castItem>
+          <role><roleName>MESTER</roleName>, Orestes oktatója</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head type="title">ACTUS PRIMI</head>
+        <div type="scene">
+          <head type="title">SCENA PRIMA</head>
+          <p>
+            <stage>Aegistus, Parasitus.</stage>
+          </p>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Kicsoda hitte volna, hogy Agamemnonnak gazdag királysága ily hirtelen
                                 reám maradna! Ó, boldog szerencse, mely áldott vagy te, hogy ez mai
                                 nap ily nagy gyönyörűséget és örömet énnekem hoztál, mert ím, egész
                                 Görögországot Agamemnonnak mind feleségével egyetemben bírom, gazdag
@@ -191,14 +246,14 @@
                                 kincsem torkig vagyon, kiket sem fegyverrel, sem véremmel, sem
                                 verítékemmel, sem nagy fáradsággal nem kerestem, de csak könnyen
                                 találtam, könnyen ismég elköltöm.</p>
-</sp>
-<sp who="#parasitus">
-      <speaker>PARASITUS.</speaker>
-      <p>Úgy, felséges uram, úgy, lakjunk, meddig lakhatunk.</p>
-     </sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Ezentúl újudvart tétetek, mindeneket behirdettetek. Első gondom is
+          </sp>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>Úgy, felséges uram, úgy, lakjunk, meddig lakhatunk.</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Ezentúl újudvart tétetek, mindeneket behirdettetek. Első gondom is
                                 az, hogy lantos, hegedűs, sípos, dobos, trombitás számtalan legyen,
                                 mindenek vigadjanak, ifjak örvendjenek, úgy szép személyek előttem
                                 táncoljanak. Mindeneket megvítatok, királyságom ezzel megmutatom,
@@ -206,22 +261,22 @@
                                 arannyal, drága kárpitokkal, aranyos bársonyokkal mind bevonatom.
                                 Ezt akarom: minden úgy féljen, úgy tiszteljen mint királyt. Ha
                                 Agamemnon nem tudott belőle élni: tudok én!</p>
-</sp>
-<sp who="#parasitus">
-<speaker>PARASITUS.</speaker>
-<p>Az nagy Istenre mondom, felséges uram, eszes ember vagy, egész tanács
+          </sp>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>Az nagy Istenre mondom, felséges uram, eszes ember vagy, egész tanács
                                 sem tudta volna ezt meggondolni. Azmint látom, nem Agamemnon ez, fel
                                 tudja süvölteni az másét.</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA SECUNDA</head>
-<p>
-<stage>Clitemnestra.</stage>
-</p>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Legyen Istennek hála penig, megmenekedhettem az Agamemnontúl, az
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA SECUNDA</head>
+          <p>
+            <stage>Clitemnestra.</stage>
+          </p>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Legyen Istennek hála penig, megmenekedhettem az Agamemnontúl, az
                                     én aggeb férjemtűl, ki zabolán akar vala tartani. Annyira
                                     regnált vala rajtam, ingyen embernek sem tudom vala magam, egy
                                     pohár bort kedvemre meg nem ihattam, híre nélkül csak ki sem
@@ -246,74 +301,74 @@
                                     parancsoljanak. Ne gondolj vele, bár Simon bírónak mondjanak,
                                     csak legyen neked kedvedre. De ahon látom Aegistust, hozzá
                                     megyek.</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA TERTIA</head>
-<p>
-<stage>Clitemnestra, Aegistus.</stage>
-</p>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Kévánom felségednek jó szerencséjét és egészségét látnom.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Isten fogadja, jó Clitemnestra.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Éltesse az Úristen felségedet nagyon sok esztendeig
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA TERTIA</head>
+          <p>
+            <stage>Clitemnestra, Aegistus.</stage>
+          </p>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Kévánom felségednek jó szerencséjét és egészségét látnom.</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Isten fogadja, jó Clitemnestra.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Éltesse az Úristen felségedet nagyon sok esztendeig
                                         békességbe.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Mind veled egyetemben.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Én eltétetém Agamemnonnak testét az koporsóba, kitűl Istennek
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Mind veled egyetemben.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Én eltétetém Agamemnonnak testét az koporsóba, kitűl Istennek
                                         hála mindketten megmenekedtünk, immár tefelségednél több
                                         gyönyörűségem énnekem nincsen, én mindent tefelségednek
                                         kezébe ajánlok, úgy bír mindent, mint tulajdonát, úgy él
                                         mint király, én csak felségedet szeretem, tudom, felséged is
                                         semmiben kedvem nem szegi.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Köszönöm, jó Clitemnestra, ily nagy hozzám való szerelmed,
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Köszönöm, jó Clitemnestra, ily nagy hozzám való szerelmed,
                                         kiért viszontag szeretettel leszek hozzád. Te is úgy lakjál,
                                         mint királyné asszony, bírjad országodat, mint szereted,
                                         parancsolj mindennek szabad akaratod szerint, ott járj, ahol
                                         tetszik, azt míveld, azmi kedves. Senki semmitűl meg nem
                                         tilt, én tied vagyok, te enyim vagy, minden, ami enyim, az
                                         tied, örülj, vígadj, asszonykodjál!</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Felségedbe nincs semmi kétségem, régen megesmértem
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Felségedbe nincs semmi kétségem, régen megesmértem
                                         felségednek hozzám való szerelmét. De ha felségednek
                                         tetszenék, fogatnánk étket, mert az urak mind fejenként
                                         begyűltek felséged parancsolatjára, ott benn várják
                                         felségedet.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Valamint neked tetszik, jó Clitemnestra. Menj elöl.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Ó, áldott nap!</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA QUARTA</head>
-<p>
-<stage>Parasitus.</stage>
-</p>
-<sp who="#parasitus">
-<speaker>PARASITUS.</speaker>
-<p>Haja, haja, jóllakom ma, víg uram, víg az szolgája is!
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Valamint neked tetszik, jó Clitemnestra. Menj elöl.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Ó, áldott nap!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA QUARTA</head>
+          <p>
+            <stage>Parasitus.</stage>
+          </p>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>Haja, haja, jóllakom ma, víg uram, víg az szolgája is!
                                             Most tizenkét király, hatvan zászlós úr udvarol előtte,
                                             pohárszéket gazdagon megrakatta, kincsét hordatja
                                             erősen, ajándékoz urakat. Nagy örömébe, vigasságába
@@ -322,25 +377,25 @@
                                             amaz négy sing színarany láncot adná; mely frissen
                                             hágnék benne. De elfutok, elhívom az lantosokat,
                                             trombitásokat, dobosokat, mindent, valakit találok.</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA QUINTA</head>
-<p>
-<stage>Chorus, Electra.</stage>
-</p>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ím, hatalmas Isten, az királyné asszony,
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA QUINTA</head>
+          <p>
+            <stage>Chorus, Electra.</stage>
+          </p>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ím, hatalmas Isten, az királyné asszony,
                                                 Clitemnestra, mint dőzsől ott benn, latrával,
                                                 Aegistusszal, tombol, vígad, örül erősen. Az ő
                                                 szülötte penig, szegény Electra, csak meg nem hal
                                                 mérgébe és nagy keserűségébe. De ihon jő, nagy
                                                 könnyes szemmel.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, nagy Isten, Úristen ne hagyj, tekints reám,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, nagy Isten, Úristen ne hagyj, tekints reám,
                                                 mennyország, hogy hagysz ily méltatlanságot,
                                                 Úristen. Az én anyám elveszte engemet, elveszté
                                                 nemzetségemet, ó, veszett asszonyállat, megölé
@@ -352,66 +407,62 @@
                                                 atyám, én édesatyám, mint veszel te két förtelmes
                                                 hitvány lator miatt, jaj, jaj, én is mint
                                                 veszek!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Elkeseríte az szegín leány.</p>
-</sp>
-
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, én eggyem, atyám. Senki nem kesereg terajtad,
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Elkeseríte az szegín leány.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, én eggyem, atyám. Senki nem kesereg terajtad,
                                                   hanem csak a te elveszett leányod jajgat tégedet,
                                                   jaj, jaj énnekem, éjjel-nappal könnyez az én
                                                   szemem.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Szerelmes asszonyom, Electra, édes asszonyom, mit
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Szerelmes asszonyom, Electra, édes asszonyom, mit
                                                   gyötröd magad, mit keseregsz ily igen?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, atyám, szívem atyám!</p>
-</sp>
-
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Szűnjél meg, édes asszonyom!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, hagyjatok békét, nem kell nekem semmi
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, atyám, szívem atyám!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Szűnjél meg, édes asszonyom!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, hagyjatok békét, nem kell nekem semmi
                                                   vigasztalás.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ne hagyd el magad, jó leányom, Electra!</p>
-</sp>
-
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, ki keserű az én atyám halála!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Vajh, nagy Isten, szakasztanád nyakát ez gonosz
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ne hagyd el magad, jó leányom, Electra!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, ki keserű az én atyám halála!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Vajh, nagy Isten, szakasztanád nyakát ez gonosz
                                                   embernek, ki miatt elvesze. Ne sírj, jó Electra.
                                                   Ezzel meg nem hozod szegint.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, ki keserves életem vagyon nekem.</p>
-</sp>
-
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Vedd jó néven, édes asszonyom, az Úristentűl, adj
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, ki keserves életem vagyon nekem.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Vedd jó néven, édes asszonyom, az Úristentűl, adj
                                                 hálát őfölsége akaratjárul.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, ki nagy méreg ez énnekem, hogy az szegin atyám
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, ki nagy méreg ez énnekem, hogy az szegin atyám
                                                 keresztjét az lator emészti meg, ki őtet elveszté,
                                                 ó, ki nehéz ez énnekem, hogy az hitvány ember atyám
                                                 királyi ruháiba öltözik, királyi pálcáját bírja,
@@ -427,78 +478,78 @@
                                                 sírásba szakassza Isten nyakamat, ebbe veszessen
                                                 Isten. Vajh, vesztené Isten azt, az ki engem ily
                                                 keserűségemben nem szán!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Hadd járjanak ezek, jó Electra, hagyd az Istenre az
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Hadd járjanak ezek, jó Electra, hagyd az Istenre az
                                                 bosszúállást, megládd, meg tudja büntetni, őfölsége
                                                 sem siet, sem késik, de mihent akarja, mindjárt
                                                 meglöli.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Vajh, lölné meg hamarébb, vesztené el őket, mert
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Vajh, lölné meg hamarébb, vesztené el őket, mert
                                                 énnekem hajadon fővel kell megaggnom.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Veszteg, az Istenért, ha meghallják, ennél is inkább
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Veszteg, az Istenért, ha meghallják, ennél is inkább
                                                 el kell veszned.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nem szánom halálom az én édesatyámért.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Jobb neked, ha szót fogadsz.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nemde igazat kérek-e, hogy az Isten azokat megtörje,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nem szánom halálom az én édesatyámért.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Jobb neked, ha szót fogadsz.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nemde igazat kérek-e, hogy az Isten azokat megtörje,
                                                 megrontsa, kik árvákat nyomorgatnak?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Igen félek rajt, hogy még ma valami veszedelembe ne
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Igen félek rajt, hogy még ma valami veszedelembe ne
                                                 essél, ha meglát amaz haragos Aegistus, de kérlek,
                                                 az Istenért, jerünk be, jó asszonyom, az házba.</p>
-</sp>
-</div>
-</div>
-<div type="act">
-<head >ACTUS SECUNDI</head>
-<div type="scene">
-                        <head type="title">SCENA PRIMA</head>
-<p>
-<stage>Mester, Orestes.</stage>
-</p>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Az Úristennek, édes fiam, Orestes, te nagy hálaadással tartozol, hogy
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ACTUS SECUNDI</head>
+        <div type="scene">
+          <head type="title">SCENA PRIMA</head>
+          <p>
+            <stage>Mester, Orestes.</stage>
+          </p>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Az Úristennek, édes fiam, Orestes, te nagy hálaadással tartozol, hogy
                                 árvaságodban csudaképpen, az ő jóvoltából tereád gondot viselt, és
                                 immár emberkorba nevelt, szép ajándékival szeretett, híred-neved ez
                                 világon kiterjedt, szép termeted, jó vitézséged, tökéletes
                                 emberséged, urak közt és királyok közt kedves életed. Erről és sok
                                 egyéb ajándékiról illik, jó fiam, gyakorta megemlékezned.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Őfelségének mint uramnak, teremtőmnek nagy hálát adok minden velem
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Őfelségének mint uramnak, teremtőmnek nagy hálát adok minden velem
                                 való jótéteményéről. De, édes Mesterem, miért tőn most kegyelmed
                                 erről emlékezetet?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Azért, hogy megértenéd, minemű kegyelmessége volt őneki tehozzád.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Minemű volt, édes Mesterem?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Majd megérted, jó fiam. A te atyád, Agamemnon király volt, nagy
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Azért, hogy megértenéd, minemű kegyelmessége volt őneki tehozzád.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Minemű volt, édes Mesterem?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Majd megérted, jó fiam. A te atyád, Agamemnon király volt, nagy
                                 hatalommal bírt, igen jámbor ember, nagy eszes ember, nagy tökéletes
                                 és nagy kegyelmes volt. Immár jó korbeli ember vala, hogy Trója alá
                                 hadat hirdetnének, oda nagy tisztességgel, mint királynak illik,
@@ -507,30 +558,30 @@
                                 összeadja magát. Ez két lator, hogy így szóljak, szegín uramra,
                                 atyádra tanácskoznak, hogy mihent megjőne Trója alól, mindjárt
                                 elvesztenék.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Ezt, édes Mesterem, hallottam ezelőtt is, de soha nem értettem íly
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Ezt, édes Mesterem, hallottam ezelőtt is, de soha nem értettem íly
                                 nyilván. No, osztán?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Halld meg csak, jó fiam: arra kezdem elöl, hogy jól megértsed. Atyád
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Halld meg csak, jó fiam: arra kezdem elöl, hogy jól megértsed. Atyád
                                 mihent megjüve, nagy lakodalmat szereznek, estve, vacsorán jól
                                 megrészegítik, önnönmaga anyád egy bárddal fejét vötte. Immár húsz
                                 esztendeje, hogy Aegistushoz adta magát, az atyádét mind
                                 eltékozlották, az községet eldúlták. Elnyomorodtak, elkeseredtek
                                 szegények, csak tebenned egyedül Isten által vagyon minden
                                 bizodalmuk.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Bezzeg, kegyetlen asszony az én anyám, hogy azt merte mívelni. Engem
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Bezzeg, kegyetlen asszony az én anyám, hogy azt merte mívelni. Engem
                                 ki küldött volt ide Strophiusnak, hogy feltartson?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Ím, megbeszélem azt is. Az te kegyetlen anyád, hogy szegín atyádat
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Ím, megbeszélem azt is. Az te kegyetlen anyád, hogy szegín atyádat
                                 elveszté, téged is el akart rökkenteni. Mert mind félt ezen, hogyha
                                 te felnőnél, atyád haláláért bosszút állanál. De az te nénéd, az
                                 Electra, kiről gyakorta emlékeztem teneked, mikor eszébe vötte volna
@@ -540,32 +591,32 @@
                                 általsieték Strophiushoz, itt őnála mely szorgalmatossággal, mely
                                 nagy szeretettel viseltem az te gondod, te magad, jó fiam,
                                 bizonyságom lehetsz.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Úgy vagyon, édes Mesterem: kitől, ha az hatalmas Isten éltet,
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Úgy vagyon, édes Mesterem: kitől, ha az hatalmas Isten éltet,
                                 mindörökké meg akarok emlékezni.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>De hogy rövideden megértsed, ezt azért mondám, hogy megemlékeznél a
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>De hogy rövideden megértsed, ezt azért mondám, hogy megemlékeznél a
                                 te szegín, nyomorult népeidről, immár igaz ideje volna az te atyád
                                 halálát megtorlanod, igaz eléggé sípolának az máséból.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Erről, édes Mesterem, én magam is nagy sokat gondolkodtam, de egyebet
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Erről, édes Mesterem, én magam is nagy sokat gondolkodtam, de egyebet
                                 rajta nem találtam, hanem hogy te magad előszőr kémlenéd meg atyám
                                 házát. Tudom, hogy ennyi időtűl fogva nem láttak, meg sem esmérnek.
                                 Azért, ha neked tetszik, menjél.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Csak mit használjak, jó fiam. Kész vagyok mindenre.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Ha jóváhagynád, ezt adnám tanácsul: hogy magad meg ne jelentenéd, de
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Csak mit használjak, jó fiam. Kész vagyok mindenre.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Ha jóváhagynád, ezt adnám tanácsul: hogy magad meg ne jelentenéd, de
                                 tettetnéd, hogy már Phoceus-beli tartományból Phanoteus küldött
                                 volna követségül; most vélek nagy barátságot tartanak, könnyen
                                 meghiszik követséged. Azmint szebben, jobban tudod, édes Mesterem,
@@ -575,29 +626,29 @@
                                 temetni, és téged elöl elbocsátottak volna örömet mondani. Ezt ha
                                 hallják, örömökbe semmit nem vigyáznak, avagy igen keveset, inkább
                                 őket osztán megtapasztalhatjuk.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Bizony, jól gondoltad, édes fiam, ez énnekem is igen tetszik, hiszem
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Bizony, jól gondoltad, édes fiam, ez énnekem is igen tetszik, hiszem
                                 ugyan, az Isten vezérlett téged erre, hogy teáltalad az
                                 förtelmeseket megbüntesse. De én elmegyek, azmint én tudom,
                                 szorgalmatoson gondot viselek reá, te járj az te dolgodba.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Menjél, édes Mesterem. Isten viseljen meg békességgel, járj jó
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Menjél, édes Mesterem. Isten viseljen meg békességgel, járj jó
                                 szerencsével. Én addig az társasággal edényeket szerzek, kibe hogy
                                 már az tagokat visszük utánad.</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA SECUNDA</head>
-<p>
-<stage>Orestes.</stage>
-</p>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Ugyan érzem szívembe, hogy az Úristen jól adja az mi
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA SECUNDA</head>
+          <p>
+            <stage>Orestes.</stage>
+          </p>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Ugyan érzem szívembe, hogy az Úristen jól adja az mi
                                     igyekezetünket. De minthogy ennek előtte őbenne volt bizodalmam,
                                     most is csak őhozzá folyamodok. Örök, mindenható Úristen, kinek
                                     irgalmas szeme vagyon minden nyomorultakon és rettenetes ostora
@@ -609,82 +660,82 @@
                                     hatalmas királyt, kiért én tégedet mindörökké tisztellek és
                                     szolgállak, mint uramat Istenemet. Halljátok-e, ti jertek
                                     utánam, majd megmondom, mit kell mívelnetek.</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA TERTIA</head>
-<p>
-<stage>Clitemnestra, Chrisothemis.</stage>
-</p>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Immár húsz esztendeje, hogy bánat az én szívembe nem esett
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA TERTIA</head>
+          <p>
+            <stage>Clitemnestra, Chrisothemis.</stage>
+          </p>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Immár húsz esztendeje, hogy bánat az én szívembe nem esett
                                         volt, nagy kedvemre, nagy gyönyörűségemre éltem. Ím, ez
                                         éjjel annyira elröttenek álmomba, nem tudok hova lenni,
                                         ugyan reszketek ijedtembe, csak valami veszedelmet ne
                                         jelentene, kitül Isten oltalmazzon. Elküldöm Chrisothemist
                                         az atyja koporsójához, az mi szokásunk szerint áldozzon
                                         nékie, netalán megkönnyebbülök. Chrisothemis!</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Hallom, asszonyom.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Jöszte, édes leányom, vidd el ezeket atyád koporsójához,
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Hallom, asszonyom.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Jöszte, édes leányom, vidd el ezeket atyád koporsójához,
                                         áldozzál vele, mert én azfelé sem kévánom mentem. Hallod-e?
                                         Mit sietsz? Electrát is lásd mentedbe, mit csinál.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Bizony megijedt most anyám, mely igen elsárgult, egyébkor nem
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Bizony megijedt most anyám, mely igen elsárgult, egyébkor nem
                                         volt neki szokása, hogy szegín atyámnak áldoztatna, de
                                         vélem, fúrják most neki az fejét. De kicsoda jő ihon?</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA QUARTA</head>
-<p>
-<stage>Chorus, Chrisothemis, Electra.</stage>
-</p>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Úristen, könyörülj az szegín nyomorult leányon, hallgasd
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA QUARTA</head>
+          <p>
+            <stage>Chorus, Chrisothemis, Electra.</stage>
+          </p>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Úristen, könyörülj az szegín nyomorult leányon, hallgasd
                                             meg kiáltását. Mert az ő szeme éjjel-nappal meg nem szűn
                                             nagy könnyhullatástul.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Mit beszélsz, Chorus, magadba?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Lám, itt voltál, nem vöttem kigyelmedet eszembe. Ím,
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Mit beszélsz, Chorus, magadba?</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Lám, itt voltál, nem vöttem kigyelmedet eszembe. Ím,
                                             búsulgok Electrárúl, elveszti nagy sírásba magát.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Mit sírsz, édes néném mindörökké, mit jajgatsz, mit
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Mit sírsz, édes néném mindörökké, mit jajgatsz, mit
                                             kesergesz íly igen?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Vajh, te bolond leány, bizony jobb volna, ha te is
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Vajh, te bolond leány, bizony jobb volna, ha te is
                                             kesergenél.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Csak mit használnék vele? Látja az Úristen szívem
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Csak mit használnék vele? Látja az Úristen szívem
                                             állását, mely keserűségbe vagyok, hiszed-e, hogy én is
                                             nem sírhatnék, nem kiálthatnék? De többet vesztenék
                                             vele, hogynem mint nyernék. Nem ké-kénytelen annak kell
                                             engednem, azki kezébe vagyok? Isten ne adta volna,
                                             lehetném bátor!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, ki nagy bűn édesatyádrúl elfeledkezned, és a te dögös
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, ki nagy bűn édesatyádrúl elfeledkezned, és a te dögös
                                             anyádnak szolgálnod! Nem ezt fogadtad vala énnekem,
                                             hanem mindenbe együtt kesergenél velem; de nemhogy
                                             kesergenél, de engem is meg akarnál tiltani; nemhogy
@@ -693,77 +744,77 @@
                                             latrokkal, és úgy mint asszony, különb-különb étkekbe
                                             gyönyörködöl, énnekem meg csak az kinyérben sincs, azki
                                             vagyon, az is keserű méreg.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Veszteg, az Istenért, mit tött ez teneked?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Édes néném, ezből nem illik pirongatnod. Mert én
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Veszteg, az Istenért, mit tött ez teneked?</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Édes néném, ezből nem illik pirongatnod. Mert én
                                             kicsinységemtűl fogva anyámhoz szoktam, azt kell
                                             mívelnem, azmit parancsol.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Meglölte zsák foltját, elmehetsz anyáddal, költs te is
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Meglölte zsák foltját, elmehetsz anyáddal, költs te is
                                             nevet reád, hogy atyádnak árultatója voltál.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Csudálkozom, jó asszonyom, rajtad, hogy nem hagysz békét
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Csudálkozom, jó asszonyom, rajtad, hogy nem hagysz békét
                                             efféle szónak. Nem ládd-e, jódat akarja ez neked?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Ha tudtam volna, hogy megharagudjék, feléje sem jöttem
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Ha tudtam volna, hogy megharagudjék, feléje sem jöttem
                                             volna. Látja Isten, szánom. Jószándékból jüvék hozzá,
                                             hogy jól gondolna magára, mert bizony gonoszul jár.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Gonoszul? Ne gondolj te énreám!</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Én nem gondolok, de Aegistus gondol együld, jobb volna,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Gonoszul? Ne gondolj te énreám!</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Én nem gondolok, de Aegistus gondol együld, jobb volna,
                                             ha felserkennél. Mert gonosz szándékba hozád.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Isten vesztené ez hitván latrot, kigondolá szegín atyámat
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Isten vesztené ez hitván latrot, kigondolá szegín atyámat
                                             ez világból, tudom, hogy engem sem szeret.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>No, jó tanácsot adnék, ha eszedbe vennéd magad.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Micsoda az nagy jó tanács?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Csak Isten mentett ma téged, hogy a király mind el nem
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>No, jó tanácsot adnék, ha eszedbe vennéd magad.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Micsoda az nagy jó tanács?</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Csak Isten mentett ma téged, hogy a király mind el nem
                                             vagdalt.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Miért?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Mert anyád igen reád haragította, de elejbe esett, hogy
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Miért?</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Mert anyád igen reád haragította, de elejbe esett, hogy
                                             itthon ne bántson, hanem vigyen el ki szeme elől oly
                                             helyre, hol soha napfényt ne láthass. Azért Istenre
                                             esküvék, mihent az ebéd felkel, mindjárt vadászat
                                             örvével kimegyen, hogy teneked keressen helyet. Azért
                                             meddig ő megjő, csak addig leszen az te életed, ha
                                             magadra nem gondolsz.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hogy hagyál el, Úristen? Hova tetted az én reménységemet,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hogy hagyál el, Úristen? Hova tetted az én reménységemet,
                                             az Orestest? Addig íra, addig izene, ím, ma, ím, holnap
                                             megyek, lám, Isten soha nem hozhatá, énnekem immár el
                                             kell vesznem. Ha erre költ immár, nem gondolnék
@@ -773,156 +824,156 @@
                                             bizodalmam. Vajh, Orestes, Orestes, hogy nem tudál
                                             megjőni? Mit tettem én az latornak, hogy az én véremet
                                             is ki akarja színi?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Ő nem bántana, de az nagy kiáltásodat nem tűrheti.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nehéz az békának az dér. Ha én nem kiáltanám ez nagy
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Ő nem bántana, de az nagy kiáltásodat nem tűrheti.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nehéz az békának az dér. Ha én nem kiáltanám ez nagy
                                             méltatlanságot, még az föld is kiáltana, de nem szánom
                                             az én atyámért halálomat. Jaj, nem feledkezhetem
                                             Orestesrűl, bizony elfeledkezett ő énfelőlem. Ó, arám,
                                             édes arám, elkésel.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Hagyd el azt, édes asszonyom, meghozza az Úristen.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Késő dolog, nem bízom immár benne.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Nem siet, nem késik az Isten.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Meghalok én addig.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Megtart az Isten.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Csuda nagy bizalma vagyon neki az Orestesben. Nem tudja
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Hagyd el azt, édes asszonyom, meghozza az Úristen.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Késő dolog, nem bízom immár benne.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Nem siet, nem késik az Isten.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Meghalok én addig.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Megtart az Isten.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Csuda nagy bizalma vagyon neki az Orestesben. Nem tudja
                                             meggondolni, hogy nehéz neki, szegénynek íly hatalmas
                                             királlyal szembeállani, hanemha az Úristen csudaképpen
                                             cselekszik vele. Az ajtót zördíti valaki, álljatok el
                                             innét, mert ihon jű az király.</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA QUINTA</head>
-<p>
-<stage>Aegistus, Parasitus.</stage>
-</p>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Nyergeljenek lovat, hallod-e, Parasite!</p>
-</sp>
-<sp who="#parasitus">
-<speaker>PARASITUS.</speaker>
-<p>Ezentül, felséges uram.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Elveszek az gonosz leány miatt, az anyja untalan reám
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA QUINTA</head>
+          <p>
+            <stage>Aegistus, Parasitus.</stage>
+          </p>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Nyergeljenek lovat, hallod-e, Parasite!</p>
+          </sp>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>Ezentül, felséges uram.</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Elveszek az gonosz leány miatt, az anyja untalan reám
                                                 fut, hogy nem tud neki mit tenni. Azt értem:
                                                 éjjel-nappal átkoz atyja haláláért. Nem tudja ez
                                                 bolond leány, nemhogy bátyámat, de még atyámat is
                                                 megölném íly uraságért. Megmeném az atyjátúl, de ha
                                                 meg nem szűnik, még ma tűle is megmenem.</p>
-</sp>
-<sp who="#parasitus">
-<speaker>PARASITUS.</speaker>
-<p>Megnyergelték, felséges uram, az lovat. Fúdd pecér az
+          </sp>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>Megnyergelték, felséges uram, az lovat. Fúdd pecér az
                                                 kürtöt, gyűljenek össze az ebek.</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA SEXTA</head>
-<p>
-<stage>Chorus, Chrisothemis, Electra.</stage>
-</p>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ez átkozott ember bizony az szegín leány
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA SEXTA</head>
+          <p>
+            <stage>Chorus, Chrisothemis, Electra.</stage>
+          </p>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ez átkozott ember bizony az szegín leány
                                                   veszedelmére mene. Hallád-e, asszonyom, mint
                                                   feddik vala magába?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Nám mondám ezelőtt is, hogy ennek veszedelmét
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Nám mondám ezelőtt is, hogy ennek veszedelmét
                                                   eltökéllette magában.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Mit sírsz, édes asszonyom, jobban adja az
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Mit sírsz, édes asszonyom, jobban adja az
                                                   Isten.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ezen én nem sírok, de siratom Orestest.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Bizony jobb volna, ha erre gondolnál. Kérlek, az
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ezen én nem sírok, de siratom Orestest.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Bizony jobb volna, ha erre gondolnál. Kérlek, az
                                                   Istenért, jó néném, vakmerőségre ne vesd magad, de
                                                   fogadjad szavokat, jobb lesz neked. Ez te nagy
                                                   sírásoddal magadnak ártasz, nem nekik.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Mégis az én szegín megholt atyámat tisztelem
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Mégis az én szegín megholt atyámat tisztelem
                                                   ezzel, és az ő kegyetlen ellenségit bosszontom,
                                                   meddig bosszonthatom.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>No, amint látom, Isten tehet tebenned jót, csak
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>No, amint látom, Isten tehet tebenned jót, csak
                                                   bánom, hogy megkéslelél, elmegyek, megszerzem
                                                   anyám parancsolatját.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hova mégy? Mit vissz ebbe?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Anyám külde áldozatot szegín atyám
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hova mégy? Mit vissz ebbe?</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Anyám külde áldozatot szegín atyám
                                                   koporsójához.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Anyád? Áldozatot! Vajh, gyűlölséges áldozat. Ki
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Anyád? Áldozatot! Vajh, gyűlölséges áldozat. Ki
                                                   adta ezt ez jóasszonynak tanácsul?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Senki nem, de álmában megröttent, azt velem
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Senki nem, de álmában megröttent, azt velem
                                                   ijedtében míveli.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, nagy Isten, hozd jóra ezt! Micsoda álmában, jó
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, nagy Isten, hozd jóra ezt! Micsoda álmában, jó
                                                   Chrisothemis?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Mindenestül nem tudom, csak valami részét
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Mindenestül nem tudom, csak valami részét
                                                   értöttem.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jó öcsém, beszéld meg, azmit tudsz.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Hallám fülheggyel, hogy ily álmot látott volna:
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jó öcsém, beszéld meg, azmit tudsz.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Hallám fülheggyel, hogy ily álmot látott volna:
                                                   mintha az mi édesatyánk az másvilágról megjött
                                                   volna, és az ő királyi pálcáját, kit most Aegistus
                                                   hordoz, az földbe függesztette volna, és az pálca
@@ -931,10 +982,10 @@
                                                   hallottam, ki közel állott hozzá, mikor ő magába
                                                   dörgölődve beszéllette, hiszem, ettül való
                                                   féltében küldi ezt atyám koporsójához áldozni.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Édes öcsém, Chrisothemis, kérlek az Istenért,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Édes öcsém, Chrisothemis, kérlek az Istenért,
                                                   fogadd szómat. Kérlek, jó öcsém, ez utálatos
                                                   áldozatot ne vidd az én édesatyám koporsójához,
                                                   mert ez őneki nem könynyebbségére, de bosszúságára
@@ -954,33 +1005,33 @@
                                                   hasznos mind teneked, mind énnekem, ezzel szegín
                                                   atyánkat is megkönnyebbíted, minket is nagy
                                                   nyavajából megmentesz.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Édes asszonyom, Chrisothemis asszony, bizony
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Édes asszonyom, Chrisothemis asszony, bizony
                                                   méltó dolgot kéván nénéd tűled.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Megszerzem, mert látja Isten szívemet,
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Megszerzem, mert látja Isten szívemet,
                                                   elkeseredtem szegín nyomorulton. De kérlek az
                                                   Istenért benneteket, anyám valahogy meg ne tudja,
                                                   mert örökké el kell miatta vesznem. Én
                                                   elmegyek.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Menjél, legyen isten veled.</p>
-</sp>
-</div>
-<div type="scene">
-<head type="title">SCENA SEPTIMA</head>
-<p>
-<stage>Chorus.</stage>
-</p>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Lám, nem feledékeny volt az Isten, látom, immár
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Menjél, legyen isten veled.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA SEPTIMA</head>
+          <p>
+            <stage>Chorus.</stage>
+          </p>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Lám, nem feledékeny volt az Isten, látom, immár
                                                   elközelgett az óra, kibe az Istennek bűn ellen
                                                   való ostora megjelenik. Jele ennek az királyné
                                                   asszony álma, ki őneki örök veszedelmére lészen.
@@ -995,27 +1046,27 @@
                                                   vele. Az önnön lelkeesméreti gyötri most. Érzi az
                                                   órát, azért kesereg. De el bemegyek Electrához.
                                                   Mert ha itt meglát, el kell miatta vesznem.</p>
-</sp>
-</div>
-</div>
-<div type="act">
- <head type="title">ACTUS TERTII</head>
-<div type="scene">
-<head type="title">SCENA PRIMA</head>
-<p>
-<stage>Electra, Clitemnestra.</stage>
-</p>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Legyen hála az Úristennek, ugyan megkönnyebbülék szívemben, hogy ez
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">ACTUS TERTII</head>
+        <div type="scene">
+          <head type="title">SCENA PRIMA</head>
+          <p>
+            <stage>Electra, Clitemnestra.</stage>
+          </p>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Legyen hála az Úristennek, ugyan megkönnyebbülék szívemben, hogy ez
                                 fertelmes asszonyi állatnak félelmét hallám, kit nem méltó, hogy
                                 anyámnak mondjak, mert lám, ez volt minden undokságnak,
                                 förtelmességnek kútfeje, kinek bizonnyal hiszem, el kell immár
                                 veszni.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Azmint eszembe veszem, olyha szádra érettél esmég, asszonyom. Tudom
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Azmint eszembe veszem, olyha szádra érettél esmég, asszonyom. Tudom
                                 mi marja beledet, nincsen most honn Aegistus, szabadon mórálsz alá s
                                 fel, ha honn volna, bizony veszteg ülnél, mint egyébkor. Látom, nem
                                 gondolsz semmit énvelem, de ha megjű, megkötöm koszorúdat. Bizony
@@ -1035,19 +1086,19 @@
                                 szólhatna is, ezt mondaná. Azért nem kellene hátam mögött
                                 rágalmaznod, ha ember volnál, de ihon szembe vagyok, szólj szembe,
                                 ha mit akarsz.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Csak meg ne haragudjál, szólok én szembe is, mind atyám képében, mind
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Csak meg ne haragudjál, szólok én szembe is, mind atyám képében, mind
                                 az leányka képében.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Mondd el, meghallgatlak.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ím, értem, nem tagadod, hogy nem te voltál volna atyámnak hóhéra, de
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Mondd el, meghallgatlak.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ím, értem, nem tagadod, hogy nem te voltál volna atyámnak hóhéra, de
                                 mented magad, hogy méltán mívelted. Mert elvesztette gyermekedet. De
                                 eredsze, jóasszony, kérdezd meg Dianát, miért áldozék az én atyám az
                                 kis leánykával? Vajh, mely igen jól tudod, oly nagy ok kényszeríté
@@ -1095,32 +1146,32 @@
                                 az Úristen! Vajha megjőne, bosszút állana az rajtad! Ha éntűlem
                                 lehetne, kész volnék még ma ezen kezemmel az nyakadat kitekerni, ha
                                 immár szívem titkait érteni kévánod.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Ó, Isten veszted, ördög leány, lám nagyobb az nyelved az fejednél,
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Ó, Isten veszted, ördög leány, lám nagyobb az nyelved az fejednél,
                                 vesztegj csak, kurvanő leánya, Szent Asszony úgy segítsen, fizetsz
                                 ezért, mihent Aegistus megjő! Ó, szegín fejemmel nyomorult vagyok,
                                 hogy ily leányt szültem ez világra, ha emberségem nem nézném,
                                 tudnám, mit kellene mívelni.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ne nézd bár emberséged, mert régen elvesztetted.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Vesztegj, nagy kabola, ereggy, cobe innét, Isten-vesztet!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ez ám, ha igazat mondok is, bánja. Lám, te magad mondád, hogy
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ne nézd bár emberséged, mert régen elvesztetted.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Vesztegj, nagy kabola, ereggy, cobe innét, Isten-vesztet!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ez ám, ha igazat mondok is, bánja. Lám, te magad mondád, hogy
                                 szemedbe szóljak; ha nehéz, ne jöjj máskor hosszám igazságot
                                 kérdeni.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Mégis szólsz-e? Jobb, ha dolgod tartod. Lám, átkozott nap volt ez,
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Mégis szólsz-e? Jobb, ha dolgod tartod. Lám, átkozott nap volt ez,
                                 Isten bár ne adta volna, hogy szememmel láthattam volna ez mai nap
                                 ez gonosz leányt, mert azmit tuda, ím, mindent reám kiálta, hiszem,
                                 hogy az többit tudta volna, azt is kicsácsogta volna, de hála
@@ -1141,127 +1192,128 @@
                                 minden jószágomat bírjam békességbe, és az én urammal, Aegistusszal
                                 mégis lakhassam sok esztendeig nagy gyönyörűségemre. Ezt ha nekem
                                 megadod, téged hatalmas Istennek tartlak.</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA SECUNDA</head>
-<p>
-<stage>Mester, Clitemnestra, Chorus.</stage>
-</p>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Halljátok-e szép leányok, az Agamemnon király házát tudjátok-e
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA SECUNDA</head>
+          <p>
+            <stage>Mester, Clitemnestra, Chorus.</stage>
+          </p>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Halljátok-e szép leányok, az Agamemnon király házát tudjátok-e
                                     melyik?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ím, ez az, jó uram.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Honn-e az királyné asszony?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ihon jő, elejbe mehet kigyelmed.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Adjon Isten jó napot felségednek.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Fogadj Isten, jó atyámfia, mi járatban vagy?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Felségednek hívséges barátja, Phocensis-beli Phanoteus minden
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ím, ez az, jó uram.</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Honn-e az királyné asszony?</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ihon jő, elejbe mehet kigyelmed.</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Adjon Isten jó napot felségednek.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Fogadj Isten, jó atyámfia, mi járatban vagy?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Felségednek hívséges barátja, Phocensis-beli Phanoteus minden
                                     atyafiságát és szomszédbarátságát ajánlja.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Fogadj Isten őkigyelmének; mit parancsol őkigyelme?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Semmit nem parancsol, de felségednek, ím levelet külde, nagy
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Fogadj Isten őkigyelmének; mit parancsol őkigyelme?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Semmit nem parancsol, de felségednek, ím levelet külde, nagy
                                     örömet is izene felségednek.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Merthogy az Phanoteus énnekem régi bízott barátom, hiszem, hogy
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Merthogy az Phanoteus énnekem régi bízott barátom, hiszem, hogy
                                     valami jeles dolgot izent.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Azt értem uramtúl is, hogy felségednek ennél nagyobb öröm nem
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Azt értem uramtúl is, hogy felségednek ennél nagyobb öröm nem
                                     lehet.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>De no beszéld el, jó atyámfia.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Egy szóval megmondhatom felségednek. Orestes megholt.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Kicsoda?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Orestes.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Megholt?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Meg.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Az Orestes?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Így vagyon, felséges asszonyom, azmint mondom.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Az én fiam?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Azt értem, felséged fia volt.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Igazat mondasz-e?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Mint engem látsz, úgy higgye felséged.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Isten embere voltál te; de édes atyámfia, ha tudod beszéld meg,
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>De no beszéld el, jó atyámfia.</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Egy szóval megmondhatom felségednek. Orestes megholt.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Kicsoda?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Orestes.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Megholt?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Meg.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Az Orestes?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Így vagyon, felséges asszonyom, azmint mondom.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Az én fiam?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Azt értem, felséged fia volt.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Igazat mondasz-e?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Mint engem látsz, úgy higgye felséged.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Isten embere voltál te; de édes atyámfia, ha tudod beszéld meg,
                                     mint lött halála.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Jól tudom, mert szememmel láttam, engem azért is külde uram
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Jól tudom, mert szememmel láttam, engem azért is külde uram
                                     felségedhez, hogy megbeszélleném felségednek.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Most látom, jó barátom volt urad nekem, kit én neki soha meg nem
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Most látom, jó barátom volt urad nekem, kit én neki soha meg nem
                                     szolgálhatok. De no, ne hallgass!</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Mikor, felséges asszonyom, az görög vitézek Delphusba játékot
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Mikor, felséges asszonyom, az görög vitézek Delphusba játékot
                                     hirdettek volna, Orestes is nagy frissen, mint vitéznek szokott
                                     lenni, felkészüle, kinek minden vitézlő szerszáma csudálatos
                                     ékes volt, ő maga is termetével, öltözetivel, vitézségével
@@ -1309,33 +1361,33 @@
                                     Uramnak fő-fő szolgái nagy tisztességgel hozzák, hogy az atyja
                                     koporsójába temettesse felséged, azt hiszem, immár nem messze
                                     vannak vele, még ma itt lesznek.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Jaj, nagy Isten, mint szakada magva ez nagy királyságnak!</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Örülök is, keserűlöm is ez szegín ifjat.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Mit keseregsz, felséges asszonyom?</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Ah, szerelmes atyámfia, noha gyűlöltem, de testemből szakadt
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Jaj, nagy Isten, mint szakada magva ez nagy királyságnak!</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Örülök is, keserűlöm is ez szegín ifjat.</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Mit keseregsz, felséges asszonyom?</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Ah, szerelmes atyámfia, noha gyűlöltem, de testemből szakadt
                                     azért. Ezt ládd, az anyának keserű az gyermek, akármely lator
                                     legyen is.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Tehát hiába járunk mi, mert amint eszembe veszem, nincs ezen
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Tehát hiába járunk mi, mert amint eszembe veszem, nincs ezen
                                     felségednek semmi öröme.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Ho-hó, atyámfia, noha szánom, de nagy kedves azért. Mert ez
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Ho-hó, atyámfia, noha szánom, de nagy kedves azért. Mert ez
                                     gonosz faj, mióta kikelt házamból, soha meg nem tuda látni, de
                                     még onnat is szidalmazott, és szörnyű halállal fenyegetett, ki
                                     miatt sem nappal, sem éjjel nem nyughattam, egy édes álmom
@@ -1344,15 +1396,16 @@
                                     megmenekedtem, immár nem röttegek többet tűle. De jer be, jó
                                     atyámfia, velem. Illik, hogy íly örömmondásodért nagy ajándékot
                                     végy tűlem.</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA TERTIA</head>
-<p>
-<stage>Chorus, Electra.</stage>
-</p>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Vajh, álnok asszonyi állat, ím, mint tettei vala az idegen
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA TERTIA</head>
+          <p>
+            <stage>Chorus, Electra.</stage>
+          </p>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Vajh, álnok asszonyi állat, ím, mint tettei vala az idegen
                                         ember előtt keserűségét fia halálán, maga örömébe nem tud
                                         mit tenni. Ezentűl ennél is gonoszb és fajtalanb fog ez
                                         lenni. Elálmélkodom az Istennek nagy tűrhetőségén,
@@ -1366,84 +1419,85 @@
                                         látom Electrát, ezt neki meg nem kell mondani, mert ha
                                         hallja, hogy Orestes megholt, megöli magát keserűségébe.
                                         El-bemegyek innét előle, hogy meg ne lásson.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Chorus, Chorus, hova mégy Chorus?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Kicsoda kiált? Kigyelmed volt-e, asszonyom?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hova sietsz vala?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Oda be indulék.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Mit csinálsz vala itt kinn?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Semmit nem.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hallám én, hogy beszélsz vala valamit.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Szekfüvet keresek vala az leányasszonyoknak, arról
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Chorus, Chorus, hova mégy Chorus?</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Kicsoda kiált? Kigyelmed volt-e, asszonyom?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hova sietsz vala?</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Oda be indulék.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Mit csinálsz vala itt kinn?</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Semmit nem.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hallám én, hogy beszélsz vala valamit.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Szekfüvet keresek vala az leányasszonyoknak, arról
                                         beszélgetek vala magamba.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>De más vala bezzeg: Orestest is említéd itt. Kérlek az
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>De más vala bezzeg: Orestest is említéd itt. Kérlek az
                                         Istenért, jó Chorus, ha mit hallottál, beszéld meg.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Nem hallottam, asszonyom, semmit.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, vagyon valami, mert igen változik a színed. Édes Chorusom,
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Nem hallottam, asszonyom, semmit.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, vagyon valami, mert igen változik a színed. Édes Chorusom,
                                         ne tagadd meg!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Mit?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ha engem szeretsz, Chorus, szólj, Chorus szívem, talán megjő
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Mit?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ha engem szeretsz, Chorus, szólj, Chorus szívem, talán megjő
                                         Orestes.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Vajha.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Mi dolog? Ne ijegess, mondd meg!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Jerünk be innet, mert ahon jő anyád, ott benn megbeszélem,
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Vajha.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Mi dolog? Ne ijegess, mondd meg!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Jerünk be innet, mert ahon jő anyád, ott benn megbeszélem,
                                         amit értöttem.</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA QUARTA</head>
-<p>
-<stage>Clitemnestra, Mester.</stage>
-</p>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Leány, nesze ez levél, vidd az porkolábnak, igen hamar
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA QUARTA</head>
+          <p>
+            <stage>Clitemnestra, Mester.</stage>
+          </p>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Leány, nesze ez levél, vidd az porkolábnak, igen hamar
                                             küldje uram után, szóval is mondják meg, mentül hamarébb
                                             lehet, siessen haza! Legyen hála Istennek, penig meghala
                                             ellenségem, nincs immár kitűl röttegjek. Vagy éltem
@@ -1458,99 +1512,100 @@
                                             kegyelmes legyen, bizony ennél is vígabban laktam volna,
                                             de hadd járjon, azkit elmúlattam, betöltöm immár. De
                                             ihon jő az követ, elbocsátom haza, urához.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Vajon hová lőn el az királyné asszony?</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Hallod-e? Jöszte!</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Én elmennék immár felséged hírével.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Hová? Hazamégy-e uradhoz?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Nem megyek még, felséges asszonyom. Hanem az uram
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Vajon hová lőn el az királyné asszony?</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Hallod-e? Jöszte!</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Én elmennék immár felséged hírével.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Hová? Hazamégy-e uradhoz?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Nem megyek még, felséges asszonyom. Hanem az uram
                                             főemberei eleibe megyek, kik az Orestes tetemit hozzák,
                                             megmondom nekik, hogy felséged jó szemmel látja.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Jó atyámfia, menjél, bátor, megmondhadd, vígan, jókedvvel
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Jó atyámfia, menjél, bátor, megmondhadd, vígan, jókedvvel
                                             fogadom őket. Na, ez aranylánc és ím, ez erszénybe való
                                             aranyak és ím, ez ruhák, legyen örömmondásodért. Jó
                                             atyámfia, ezután is bízzál hozzám, megládd, mindenkor
                                             kegyelmes asszonyod leszek.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Megszolgálom felségednek, mint kegyelmes asszonyomnak.
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Megszolgálom felségednek, mint kegyelmes asszonyomnak.
                                             Isten maradjon felségedhez.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Jó atyámfia, Isten viseljen nagy békével.</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA QUINTA</head>
-<p>
-<stage>Mester, Chorus, Electra.</stage>
-</p>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Az Úristen jól adja itt az mi járásunkat. Ez gonosz
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Jó atyámfia, Isten viseljen nagy békével.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA QUINTA</head>
+          <p>
+            <stage>Mester, Chorus, Electra.</stage>
+          </p>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Az Úristen jól adja itt az mi járásunkat. Ez gonosz
                                                 asszonyi állat nem látja a vermet, mint az vak, kibe
                                                 beesik. Igen keserves öröm ez neked, mert ez leszen
                                                 az te örök veszedelmedre. Elmegyek Oresteshez, ideje
                                                 immár dolgunkhoz látnunk.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ahon, asszonyom, az követ, az beszélé a hírt.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hallod-e, uram.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Mi dolog?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Vársza meg.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Siető dolgom vagyon.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Csak két szóra, jó uram.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Mondd el.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hol az Orestes?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Nyaka szakadt az kocsirúl. Majd ide hozzuk, az porát
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ahon, asszonyom, az követ, az beszélé a hírt.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hallod-e, uram.</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Mi dolog?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Vársza meg.</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Siető dolgom vagyon.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Csak két szóra, jó uram.</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Mondd el.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hol az Orestes?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Nyaka szakadt az kocsirúl. Majd ide hozzuk, az porát
                                                 megláthadd.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, nagy Isten, mint veszek! Lám, igaz volt, Chorus
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, nagy Isten, mint veszek! Lám, igaz volt, Chorus
                                                 az te beszéded. Jaj, arám, arám, Orestes, mint
                                                 csalál engem, ó, szívem, lelkem, Orestes, hova lűl
                                                 el! Jaj, csak tebenned vala reménységem, ím, te is
@@ -1558,179 +1613,179 @@
                                                 elhagyál, szerelmem, Orestes. Jaj, jaj, én édes
                                                 egyetlenem, hova hagyád az te szegín nénédet íly
                                                 nagy árvaságba.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Hagyd el azt, édes asszonyom, ne sír, jerünk be.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, meghalok az én arámért.</p>
-</sp>
-</div>
-</div>
-<div type="act">
-                        <head type="title">ACTUS QUARTI</head>
-<div type="scene">
-<head type="title">SCENA PRIMA</head>
-<p>
-<stage>Chorus, Electra, Chrisothemis.</stage>
-</p>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Nem tarthatom az szegín leányt, elgyötri magát, hol asztalra borul,
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Hagyd el azt, édes asszonyom, ne sír, jerünk be.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, meghalok az én arámért.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">ACTUS QUARTI</head>
+        <div type="scene">
+          <head type="title">SCENA PRIMA</head>
+          <p>
+            <stage>Chorus, Electra, Chrisothemis.</stage>
+          </p>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Nem tarthatom az szegín leányt, elgyötri magát, hol asztalra borul,
                                 hol székre, hol földre esik, úgy siratja erősen szegín arát. Ihon
                                 jő, itt is kesereg, látja Isten, nem tudok neki mit tenni.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, jaj, jaj!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Mi dolog, fiam, Electra, mi dolog? Ne hadd el magad, jó
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, jaj, jaj!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Mi dolog, fiam, Electra, mi dolog? Ne hadd el magad, jó
                                 asszonyom.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, jaj!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ne sírj, kérlek, az Istenért!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, megölsz, hagyj békét!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Miért?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Azt kérded, miért? Látod, nincs immár kibe reménylenem, elvesze az én
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, jaj!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ne sírj, kérlek, az Istenért!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, megölsz, hagyj békét!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Miért?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Azt kérded, miért? Látod, nincs immár kibe reménylenem, elvesze az én
                                 egyetlenegy remínségem.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Hallod-e, jó asszonyom, jól adhatja még az Isten. Ha Orestes megholt,
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Hallod-e, jó asszonyom, jól adhatja még az Isten. Ha Orestes megholt,
                                 más eszköze is vagyon neki, kivel bosszút állhat. Nem tudd-é, amaz
                                 hatalmas Amphiraon király mint jára, csak egy asszonyi állat miatt
                                 hala meg, kit aranylánccal megfojta.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, elveszek.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Azonképpen Isten neked is erőt adhat, noha leány vagy, kivel
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, elveszek.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Azonképpen Isten neked is erőt adhat, noha leány vagy, kivel
                                 bosszúdat állhasd.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, jaj, hova legyek?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ne jajgass, édes fiam.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Megholt az én segítőm.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Mit mondhatok, elég veszett ember vagy. Ne sírj!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, nagy Isten!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Meg kell halnunk mindnyájunknak.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ha meghalunk is, nem oly szörnyűképpen, mint Orestes beszéled, hogy
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, jaj, hova legyek?</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ne jajgass, édes fiam.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Megholt az én segítőm.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Mit mondhatok, elég veszett ember vagy. Ne sírj!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, nagy Isten!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Meg kell halnunk mindnyájunknak.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ha meghalunk is, nem oly szörnyűképpen, mint Orestes beszéled, hogy
                                 megholt.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ki tudja, jó asszonyom, kinek mire jut még ügye.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, egyetlenem, Orestes, elveszek!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Én nem tudok neki mit tenni, engem is elkeseríte. Vajon midolog, igen
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ki tudja, jó asszonyom, kinek mire jut még ügye.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, egyetlenem, Orestes, elveszek!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Én nem tudok neki mit tenni, engem is elkeseríte. Vajon midolog, igen
                                 fut Chrisothemis nagy örömmel.</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA SECUNDA</head>
-<p>
-<stage>Chrisothemis, Electra, Chorus.</stage>
-</p>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Ha, ha, ha, örömömbe mind futottam. Semmit, édes néném, ne
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA SECUNDA</head>
+          <p>
+            <stage>Chrisothemis, Electra, Chorus.</stage>
+          </p>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Ha, ha, ha, örömömbe mind futottam. Semmit, édes néném, ne
                                     bánkódjál, jól adja az Úristen az mi kévánságunkat.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hagyj békét, az Istenért, vesszél előlem, ne gyötörj.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Mi lölé ezt, hogy csak szómat sem akarja meghallgatni.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Gonosz hírt hallott.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Édes néném, senkinek semmit ne higgy, mert megtekinti immár az
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hagyj békét, az Istenért, vesszél előlem, ne gyötörj.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Mi lölé ezt, hogy csak szómat sem akarja meghallgatni.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Gonosz hírt hallott.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Édes néném, senkinek semmit ne higgy, mert megtekinti immár az
                                     Isten az mi nyomorúságunkat. Oly bizonnyal higgyed, mint engem
                                     látsz, megjő az Orestes!</p>
-</sp>
-
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, veszteg, megbolondultál-e? Tartsd dolgod, ne kesergess, jó
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, veszteg, megbolondultál-e? Tartsd dolgod, ne kesergess, jó
                                 Chrisothemis.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Bizony, igazat mondok, édes néném.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ki mondá, hogy ily igen elhitted?</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Szememmel láttam az atyám koporsójánál nagy bizonyjelet.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Csak álmodozol, te most.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Halld meg csak, te magad is igaznak mondod.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Mondd el, ha egyebet nem akarsz benne.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Mihent szegín atyánk koporsójához juték, az áldozatot megszerzém,
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Bizony, igazat mondok, édes néném.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ki mondá, hogy ily igen elhitted?</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Szememmel láttam az atyám koporsójánál nagy bizonyjelet.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Csak álmodozol, te most.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Halld meg csak, te magad is igaznak mondod.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Mondd el, ha egyebet nem akarsz benne.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Mihent szegín atyánk koporsójához juték, az áldozatot megszerzém,
                                 amint parancsolád, és minekutána hanyatt borulván könyörögtem volna,
                                 az koporsót megkerülém, tehát egy ifjú ember áldozatja vagyon rajta,
                                 szép gyenge férfiú hajait felül reárakta, és az áldozattal mind
@@ -1739,96 +1794,96 @@
                                 messze vagyon. Azért, édes néném, semmit ne keseregj, mert nem
                                 mindétig egy állapotban az szerencse, egy szempillantásban mind
                                 örömre fordulhat szomorúságunk.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, ki bolond vagy, jó öcsém, hamar elhissz te mindent.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Jaj, édes néném, semminek véled-e te ezt?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Még azt sem tudod, hol vagy most, mit beszélsz, te magad sem
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, ki bolond vagy, jó öcsém, hamar elhissz te mindent.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Jaj, édes néném, semminek véled-e te ezt?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Még azt sem tudod, hol vagy most, mit beszélsz, te magad sem
                                 érted.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Ó, nagy Isten, azkit szememmel láttam, azt nem tudom-e?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ne bolondoskodjál, csak hiába vagyon látásod, mert megholt, jaj
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Ó, nagy Isten, azkit szememmel láttam, azt nem tudom-e?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ne bolondoskodjál, csak hiába vagyon látásod, mert megholt, jaj
                                 szívem, az én édes arám, Orestes.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Jaj, veszek, jó néném, ki mondá?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Az, ki szemével látta halálát. Ím, Chorus jól hallotta, hogy ezt
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Jaj, veszek, jó néném, ki mondá?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Az, ki szemével látta halálát. Ím, Chorus jól hallotta, hogy ezt
                                 mondá, még ma az hamvát is elhozzák.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Ugyan igaz-e?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, jaj, megholt.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Ó, szerelmes bátyám, hogy soha nem láthatálak, jaj, egyetlenem,
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Ugyan igaz-e?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, jaj, megholt.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Ó, szerelmes bátyám, hogy soha nem láthatálak, jaj, egyetlenem,
                                 bátyám, hogy sohasem tudál az te véreidhez jőni!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, jaj, szegín fejünk, hova legyünk? Nagy árvaságra jutánk immár,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, jaj, szegín fejünk, hova legyünk? Nagy árvaságra jutánk immár,
                                 jó öcsém, Chrisothemis, nincs kibe bíznunk, mert megholt az Orestes.
                                 El kell vesznünk, ha más módon reá nem gondolunk.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Ha megholt, jó néném, nehéz arra gondolni.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nem arról szólok.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Mit akarsz tehát?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Vajha azt mívelnéd, amit én akarnék.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Azmi éntűlem lehet, kész vagyok mindenre.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jól esmérlek én téged.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Mondd el csak, édes néném, mit akarsz.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ha szómat fogadod, megmondom.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Megfogadom.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Tudod, jó húgom, mióta szegín atyánkat elveszték az árulók, azóta
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Ha megholt, jó néném, nehéz arra gondolni.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nem arról szólok.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Mit akarsz tehát?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Vajha azt mívelnéd, amit én akarnék.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Azmi éntűlem lehet, kész vagyok mindenre.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jól esmérlek én téged.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Mondd el csak, édes néném, mit akarsz.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ha szómat fogadod, megmondom.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Megfogadom.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Tudod, jó húgom, mióta szegín atyánkat elveszték az árulók, azóta
                                 csak egy barátunk sem volt, sem segítőnk, sem oltalmazónk.
                                 Egyetlenegy remínségünk vala, az Orestes. Mert éltében, szegín,
                                 gyakorta izent, jól tudod, hogy megszabadítana az farkasok kezéből,
@@ -1837,14 +1892,14 @@
                                 leszen. Kérlek azért, édes öcsém, kérlek, jó Chrisothemis, az
                                 Istenért, az te édes nénéd kedvét ne szegjed. Nem kévánok tőled
                                 lehetetlen dolgot.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Mi dolog, jó néném? Mondd el immár!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jó húgom, lám együtt lakol velek, ezt könnyen megszörözheted, kérlek,
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Mi dolog, jó néném? Mondd el immár!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jó húgom, lám együtt lakol velek, ezt könnyen megszörözheted, kérlek,
                                 az tolvaj latort, az Aegistust, veszesd el valamiképpen, vagy öld
                                 meg, vagy fojtsd meg. Mert ha te azt el nem veszted, az miá kell
                                 nekünk elvesznünk. Bizony addig férjhez sem eggying, sem másink nem
@@ -1861,24 +1916,24 @@
                                 megholt atyánkat, mind szegín atyánkfiát, Orestest megkönnyebbíted.
                                 Szánjad azért, jó Chrisothemis akárcsak ezeket, ha engem nem
                                 szánsz!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Tisztes beszéd ez tetűled, ez illik-e hozzád?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Állj elő, ugyanis neked szólnak, nem kértenek téged erre!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ugyan se kérj, mert ha kérnél is, nem telnék kedved benne! Azt
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Tisztes beszéd ez tetűled, ez illik-e hozzád?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Állj elő, ugyanis neked szólnak, nem kértenek téged erre!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ugyan se kérj, mert ha kérnél is, nem telnék kedved benne! Azt
                                 fogadjad csak, asszonyom, amit ő beszél, látod, keserűségébe nem
                                 tudja, mit mond.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Édes néném, nem szégyenled-e mondani, nem ládd-e, tiszta bolondság,
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Édes néném, nem szégyenled-e mondani, nem ládd-e, tiszta bolondság,
                                 amit beszélsz. Mihez való bíztodba miveltetnéd ezt; leányok vagyunk
                                 mi, nincs nekünk arra erőnk. Csak hozzákezdenénk, hamarébb
                                 megölnének bennünk, hogynem mint mi ölnők őket. Ki mentene meg
@@ -1888,78 +1943,79 @@
                                 békéljél meg velek, engedj nekiek, mert ám jól tudod, mi szándékba
                                 ment Aegistus ki. Még most kedvét találhadd jelesben örömében. Talán
                                 az Isten idő múlva más módon fordítja.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Igazat mond, jobb, ha ezt míveled. Embernek nagy bölcsesség időhöz
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Igazat mond, jobb, ha ezt míveled. Embernek nagy bölcsesség időhöz
                                 magát szabni.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, nagy Isten, lám, sehol senki egy mákszemnyit nem könyörül rajtam,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, nagy Isten, lám, sehol senki egy mákszemnyit nem könyörül rajtam,
                                 ím, mindnyájan elhagytak, de én magamnak kell reá gondolnom.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Nem hagylak, édes néném, csak bolondságot ne beszélj.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nem bolondság az, mi megmaradásunkra való tanács.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Sőt, ez volna veszedelmünkre.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Tartsd dolgod, ne prózsmálj, ugyan tudtam, hogy semmi hasznod nem
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Nem hagylak, édes néném, csak bolondságot ne beszélj.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nem bolondság az, mi megmaradásunkra való tanács.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Sőt, ez volna veszedelmünkre.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Tartsd dolgod, ne prózsmálj, ugyan tudtam, hogy semmi hasznod nem
                                 vehetem, ezért nem akarok vala szólni.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Hasznom vennéd, ha szómat fogadnád.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nem akarok az én atyámnak vérszopóival együtt tobzódnom.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Nem akarnád te, de kényszeríttetel.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, nagy Isten, lám még bosszantasz.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Elmegyek, el be anyámhoz, mert én teveled meg nem alkudhatom.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nem alkudhatol, mert az szúnyogból tevét akarsz csinálni. Az hitvány
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Hasznom vennéd, ha szómat fogadnád.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nem akarok az én atyámnak vérszopóival együtt tobzódnom.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Nem akarnád te, de kényszeríttetel.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, nagy Isten, lám még bosszantasz.</p>
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Elmegyek, el be anyámhoz, mert én teveled meg nem alkudhatom.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nem alkudhatol, mert az szúnyogból tevét akarsz csinálni. Az hitvány
                                 huszárt királynak akarod tartani, atyámnak árulóit akarod
                                 tiszteltetni. De jobb nekem meghalnom, hogynem mint azt míveljem.
                                 Azért elmehetsz nagy békével anyádhoz, szolgálj nekie.</p>
-</sp>
-<sp who="#chrisothemis">
-<speaker>CHRISOTHEMIS.</speaker>
-<p>Énnékem ké-kénytelen szolgálnom kell. Bizony, te is, ha lehetne,
+          </sp>
+          <sp who="#chrisothemis">
+            <speaker>CHRISOTHEMIS.</speaker>
+            <p>Énnékem ké-kénytelen szolgálnom kell. Bizony, te is, ha lehetne,
                                 szolgálnád még, de félek rajta, együld későn fogsz eszeskedni.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Eredj, eredj, tartsd dolgod!</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA TERTIA</head>
-<p>
-<stage>Electra.</stage>
-</p>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, nyomorult ember, kicsoda boldogtalanb énnálamnál, kinek sehol
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Eredj, eredj, tartsd dolgod!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA TERTIA</head>
+          <p>
+            <stage>Electra.</stage>
+          </p>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, nyomorult ember, kicsoda boldogtalanb énnálamnál, kinek sehol
                                     semmi gyámola nincs. Nagy keserűségre, árvaságra szült volt az
                                     én anyám. Sem atyám, sem anyám, sem atyámfia, sem barátom, sehol
                                     senki nincs, ki velem jól tenne. Szegín atyámat elveszték az
@@ -1971,19 +2027,19 @@
                                     volna az Isten is, mind apróra koncolnám őket. De mindennyi
                                     erővel is nem szánom az én halálomat az én szívem atyámért.
                                     Elmegyek, el be, gondolkodom rajta, mit kell mívelnem.</p>
-</sp>
-</div>
-</div>
-<div type="act">
-                        <head type="title">ACTUS QUINTI</head>
-<div type="scene">
-<head type="title">SCENA PRIMA</head>
-<p>
-<stage>Chorus.</stage>
-</p>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Nagy dolog, hatalmas Isten, még az oktalan állat is sokban
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">ACTUS QUINTI</head>
+        <div type="scene">
+          <head type="title">SCENA PRIMA</head>
+          <p>
+            <stage>Chorus.</stage>
+          </p>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Nagy dolog, hatalmas Isten, még az oktalan állat is sokban
                                 felülhaladja némely embert! Ím az égi madarak oly nagy
                                 szorgalmatossággal viselnek az ő fiókra gondot, hogy semmibe nem
                                 hagyják megfogyatkozni. Azonképpen az vadak is. De némely ember,
@@ -1998,74 +2054,75 @@
                                 örül felette igen Orestes halálán. Ez szegín leányról csak meg sem
                                 emlékezik penig. De kicsodák jűnek ihon terhekkel? Asszonyom,
                                 Electra, jöszte ki, vajon kicsodák ezek?</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA SECUNDA</head>
-<p>
-<stage>Orestes, Chorus, Electra.</stage>
-</p>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Vajon jó helyre találkoztunk-e mi, asszonyok?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Mit keres kigyelmetek?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Az Agamemnon király házát.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Igaz, megtalálta kigyelmetek, mert ez az.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Menjetek be tehát, jó asszonyok, mondjátok meg, hogy szembe
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA SECUNDA</head>
+          <p>
+            <stage>Orestes, Chorus, Electra.</stage>
+          </p>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Vajon jó helyre találkoztunk-e mi, asszonyok?</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Mit keres kigyelmetek?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Az Agamemnon király házát.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Igaz, megtalálta kigyelmetek, mert ez az.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Menjetek be tehát, jó asszonyok, mondjátok meg, hogy szembe
                                     lennénk az királyné asszonnyal és Aegistusszal.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Honnan jött kigyelmetek?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Phoceus-beli tartományból, Phanotheus házátúl.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, mennybeli Isten, bizony ezek az szegín Orestes hamvát
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Honnan jött kigyelmetek?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Phoceus-beli tartományból, Phanotheus házátúl.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, mennybeli Isten, bizony ezek az szegín Orestes hamvát
                                     hozzák. Mit hoztok, jó uraim?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Az Agamemnon király fiának megégett testét hozzuk ím, az
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Az Agamemnon király fiának megégett testét hozzuk ím, az
                                     edényekbe, kit be kellene mutatnunk királynak és királyné
                                     asszonynak.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, nyavajás fejem, mint veszek. Ez edényekbe vagynak-e, jó
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, nyavajás fejem, mint veszek. Ez edényekbe vagynak-e, jó
                                     uram?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Mind az vagyon ezekbe, jó leány.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Kérlek, jó uram, az Istenért, ha ezekbe vagynak, add ide kezembe,
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Mind az vagyon ezekbe, jó leány.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Kérlek, jó uram, az Istenért, ha ezekbe vagynak, add ide kezembe,
                                     hadd csókolgassam, apolgassam ezen egyetlenemnek hamvát.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Adjátok oda neki. Mert nagy szeretetit mutatja hozzá, és hiszem,
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Adjátok oda neki. Mert nagy szeretetit mutatja hozzá, és hiszem,
                                     jó esmerője volt.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Orestes, Orestes, miért hagyál el engem? Ó, szívem, lelkem,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Orestes, Orestes, miért hagyál el engem? Ó, szívem, lelkem,
                                     Orestes, mint család az te édes nénédet! Mely sokszor biztattál
                                     leveledbe engemet, hogy megmentenéd az én árva fejemet, de
                                     lámcsak, hiába bíztam tebenned. Mert soha nem sietél hozzám, ím
@@ -2096,599 +2153,602 @@
                                     te anyád miatt, még itt is kesergenél énrajtam. De lám, nem
                                     szólsz énnekem, nem vigasztalsz engem, elhagyál teljességgel.
                                     Jaj, elveszek immár, jaj, jaj lelkem, Orestes!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Veszteg, szerelmes asszonyom, mind meghallják odabe nagy
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Veszteg, szerelmes asszonyom, mind meghallják odabe nagy
                                     kiáltásodat, ennek meg kellett lenni, mert ő is ember volt, mi
                                     is tartozunk egyszer vele. Ott benn valék az királyné
                                     asszonnyal, egyike kigyelmeteknek bemehet hozzája.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Menjél el, Mester uram, mondd meg, hogy itt vagyunk.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Szólj, édes vérem, Orestes! az te szerelmes nénédnek. Jaj, ne
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Menjél el, Mester uram, mondd meg, hogy itt vagyunk.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Szólj, édes vérem, Orestes! az te szerelmes nénédnek. Jaj, ne
                                     hagyj el, ne hagyj el, édes arám, ó, szívem, ki hiába esedezem
                                     teneked!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Elkeseríte szegín, nyomorodott leány.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, mint veszek, Orestes, jaj, mely keserű énnekem, hogy csak
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Elkeseríte szegín, nyomorodott leány.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, mint veszek, Orestes, jaj, mely keserű énnekem, hogy csak
                                     holt tetemid feküsznek előttem.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Ne jajgass, jó leány.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Méltó, uram, az én jajgatásom, meddig élek, ez lesz az én
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Ne jajgass, jó leány.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Méltó, uram, az én jajgatásom, meddig élek, ez lesz az én
                                     kínom.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Nem tudom, mit tegyek, nem tartóztathatom magam.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Mit könyvez, jó uram, talán te is Orestest siratod?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Szánom őtet is szegínt.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Kit egyebet, engem keserülsz-e?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Téged is, jó leány.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Az Úristen jót adjon teneked, mert vagyon húsz esztendeje, hogy
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Nem tudom, mit tegyek, nem tartóztathatom magam.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Mit könyvez, jó uram, talán te is Orestest siratod?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Szánom őtet is szegínt.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Kit egyebet, engem keserülsz-e?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Téged is, jó leány.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Az Úristen jót adjon teneked, mert vagyon húsz esztendeje, hogy
                                     senki nem könyörült énrajtam.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Micsoda nyavalyád vagyon?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Csak az Isten tudná az én sok nyavalyámat megmondani. Itt ez
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Micsoda nyavalyád vagyon?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Csak az Isten tudná az én sok nyavalyámat megmondani. Itt ez
                                     háznál még az eb is kedvesb énnálamnál.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Jaj, szegín nyavalyás!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, veszett ember vagyok én!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Mi dolog?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Az én atyám öldöklői és árulói örülnek az én egyetlenem,
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Jaj, szegín nyavalyás!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, veszett ember vagyok én!</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Mi dolog?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Az én atyám öldöklői és árulói örülnek az én egyetlenem,
                                     Orestesem halálán, engem is immár örökkévaló fogsággal
                                     fenyegetnek. Nincs édes uram, ki megszabadítana kezekből. Jaj,
                                     jaj, jaj, el kell vesznem immáran!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Nem hagy az Isten!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ideje volt volna immár, de azkibe bíztam, azt is nem hozá
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Nem hagy az Isten!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ideje volt volna immár, de azkibe bíztam, azt is nem hozá
                                     meg.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Meghozza őfelsége, ne bánkódjál azon.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ha megholt, ihon kezembe vagyon az pora hogy hozhatja meg?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Nincs semmi gondja.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Tudom, mert elveszett.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Isten oltalmazza attúl.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Mitűl, édes uram?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Hogy Orestes elveszett volna.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Tehát?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Jó egészsége vagyon, legyen hála Istennek!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ki vagy te, jó uram?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Megtudod még ma!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>De mondd meg, szerelmes uram. Ezek előtt megmodhadd, mert mind
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Meghozza őfelsége, ne bánkódjál azon.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ha megholt, ihon kezembe vagyon az pora hogy hozhatja meg?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Nincs semmi gondja.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Tudom, mert elveszett.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Isten oltalmazza attúl.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Mitűl, édes uram?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Hogy Orestes elveszett volna.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Tehát?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Jó egészsége vagyon, legyen hála Istennek!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ki vagy te, jó uram?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Megtudod még ma!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>De mondd meg, szerelmes uram. Ezek előtt megmodhadd, mert mind
                                     híveim énnekem.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Tedd le tehát az edényt kezedből.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hadd járjon ez, édes uram, meghallgathatom azért.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>De add oda nekiek.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, nem adom.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Bocsásd.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Az Istenért, kérlek, ne vödd el, édes uram.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Mit tész vele?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, nem szakadhatok el az én egyetlenemtűl.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Ereszd, mert semmi az.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, nagy Isten, lám, átkozott voltam én, ím, még csak hamujával
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Tedd le tehát az edényt kezedből.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hadd járjon ez, édes uram, meghallgathatom azért.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>De add oda nekiek.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, nem adom.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Bocsásd.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Az Istenért, kérlek, ne vödd el, édes uram.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Mit tész vele?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, nem szakadhatok el az én egyetlenemtűl.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Ereszd, mert semmi az.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, nagy Isten, lám, átkozott voltam én, ím, még csak hamujával
                                     is nem bírhatok az én édes arámnak. Jaj, nagy Isten, mit
                                     tegyek!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Ne jajgass, jó leány, csak hiába sírsz.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, nyavalyás fejem, könnyű nektek, de nemhiába sírok én az édes
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Ne jajgass, jó leány, csak hiába sírsz.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, nyavalyás fejem, könnyű nektek, de nemhiába sírok én az édes
                                     segítőm halálán.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Lám, mondám, nincs semmi nyavalyája.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Kinek?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Az te arádnak, Orestesnek.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hogy tudod, édes uram?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Mert láttam.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, elveszett szegín!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Megládd, még ma, te is.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ne csalogass, jó uram!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Ihon, ha nem hiszed, nézz e gyűrűre. Ezt te küldted jelül neki,
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Lám, mondám, nincs semmi nyavalyája.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Kinek?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Az te arádnak, Orestesnek.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hogy tudod, édes uram?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Mert láttam.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, elveszett szegín!</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Megládd, még ma, te is.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ne csalogass, jó uram!</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Ihon, ha nem hiszed, nézz e gyűrűre. Ezt te küldted jelül neki,
                                     erről megesméred.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Mit kesergetsz, édes lelkem, hogy nem szólsz. Ó, én édes vérem,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Mit kesergetsz, édes lelkem, hogy nem szólsz. Ó, én édes vérem,
                                     te vagy az én gyönyörűségem! Te vagy az Orestes, jól esmérlek,
                                     ez bélyegről is megesmérem. Ó, nagy örömömbe hova legyek, most
                                     születtem ez világra. Kész vagyok immár meghalni, penig Isten
                                     elhozott, édes arám.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Veszteg immár, jó néném, ím megjöttem immár.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Látlak, nagy szerelmem, örül az én lelkem tebenned! Téged egyedül
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Veszteg immár, jó néném, ím megjöttem immár.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Látlak, nagy szerelmem, örül az én lelkem tebenned! Téged egyedül
                                     óhajtottalak. Legyen hála az Istennek, hogy megkönnyebbítél
                                     engemet. Ó, nagy gyönyörűségembe hova legyek, örömömbe lecsordul
                                     az könnyű szememről. Chorus, látod-e, ez az én egyetlenem, az
                                     Orestes! Leányasszonyok, nézzetek erre, ez az, ki megholt vala,
                                     ím feltámasztotta az Isten.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Látom, édes asszonyom, penig meghozta az Úristen őfelsége, örülök
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Látom, édes asszonyom, penig meghozta az Úristen őfelsége, örülök
                                     és kévánom őkigyelmének minden jó szerencséjét!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, szívem, édes arám, Orestes, jókor hozott az Úristen, mert ez
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, szívem, édes arám, Orestes, jókor hozott az Úristen, mert ez
                                     mai nap kellett volna nekem elvesznem! Aegistus ma ment ki, hogy
                                     az én veszedelmemre helyet keressen.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Megértöttem mindent, gondot visel az Úristen reánk. Azt értem,
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Megértöttem mindent, gondot visel az Úristen reánk. Azt értem,
                                     ezentúl megjő, de ha Isten segít, két óráig minden sáfárságoktúl
                                     mind az kettőt megmentem.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ó, Isten, Isten, áldd meg ennek kezét! Jaj, egyetlenem, meghalok
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ó, Isten, Isten, áldd meg ennek kezét! Jaj, egyetlenem, meghalok
                                     érted örömömbe.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Veszteg, jó néném, senkinek semmit ne szólj!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Kitűl félsz, édes arám?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Jobb csendességbe lenni.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Anyámmal egy cseppet se kofitálj, mert senki nincs vele, csak
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Veszteg, jó néném, senkinek semmit ne szólj!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Kitűl félsz, édes arám?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Jobb csendességbe lenni.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Anyámmal egy cseppet se kofitálj, mert senki nincs vele, csak
                                     egynéhány asszonyember.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Hallod-e, noha nincs az asszonyemberbe erősség, de nagy okosság
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Hallod-e, noha nincs az asszonyemberbe erősség, de nagy okosság
                                     benne, jobb azért addig félni, meddig nem esik rajtunk.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jaj, nem feledkezhetem el rólad nagy gyönyörűségembe.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Igen félek, hogy az te nagy gyönyörűségeddel nekem veszedelmet
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jaj, nem feledkezhetem el rólad nagy gyönyörűségembe.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Igen félek, hogy az te nagy gyönyörűségeddel nekem veszedelmet
                                     csinálsz.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Kérlek, az Istenért, ha immár ennyi időtűl fogva nem láthattalak,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Kérlek, az Istenért, ha immár ennyi időtűl fogva nem láthattalak,
                                     hadd nézzelek kedvemre!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Mind meglehet még az, most más dolgunkhoz kell látnunk! Kérlek
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Mind meglehet még az, most más dolgunkhoz kell látnunk! Kérlek
                                     azért, jó néném, hagyd másszorra azt, viselj te is erre gondot.
                                     Ha anyád eleibe akadsz, kérlek, megőrizd magad, hogy eszébe ne
                                     vegye örömödet, avagy inkább be se menj hozzá, de maradj itt
                                     kinn. Mikor az Úristen jó végre adja igyekezetünket, osztán mi
                                     is bátran és örömmel szólhatunk mindenről.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Valamint kigyelmednek tetszik, édes arám, úgy legyen. Én csak
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Valamint kigyelmednek tetszik, édes arám, úgy legyen. Én csak
                                     kigyelmedtűl vártam segítséget, azért most is mindent reád
                                     hagyok.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Elég immár, vesztegj, mert ám az kapun vagyon valaki!</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA TERTIA</head>
-<p>
-<stage>Mester, Orestes, Electra.</stage>
-</p>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Vajh, bolond emberek, csak Isten oltalmazott, hogy el nem
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Elég immár, vesztegj, mert ám az kapun vagyon valaki!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA TERTIA</head>
+          <p>
+            <stage>Mester, Orestes, Electra.</stage>
+          </p>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Vajh, bolond emberek, csak Isten oltalmazott, hogy el nem
                                         vesztettétek magatokat. Az ti nagy örömmel való
                                         zenebonátokat mind meghallják az várba. Ha bennetek nem
                                         mentettelek volna, szinte gonoszul járatok volna, azért
                                         hagyjatok békét az sok beszédnek. Azmivel sietni kell, nem
                                         kell azt halogatni.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Mint esméred ott benn az dolgot?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Legyen Istennek hála, az mi részünkre jól vagyon.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Azt alítják-e, hogy megholtam?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Úgy hiszik, mint egy angyal szavát.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Örülnek-e igen? Hogy mondnak?</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Hagyj békét ennek, azután is meglehet ez, jobb volna más
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Mint esméred ott benn az dolgot?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Legyen Istennek hála, az mi részünkre jól vagyon.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Azt alítják-e, hogy megholtam?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Úgy hiszik, mint egy angyal szavát.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Örülnek-e igen? Hogy mondnak?</p>
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Hagyj békét ennek, azután is meglehet ez, jobb volna más
                                         dologhoz látnál.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Kicsoda az, édes arám?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Nem esmered-é?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nem jut eszembe.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Ez az, ki kezébe bíztál volt, ez tartott fel engem.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ez-e az, édes arám? Egészséggel kigyelmednek, édes atyám,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Kicsoda az, édes arám?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Nem esmered-é?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nem jut eszembe.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Ez az, ki kezébe bíztál volt, ez tartott fel engem.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ez-e az, édes arám? Egészséggel kigyelmednek, édes atyám,
                                         áldjon meg az Úristen. Nemkülönben látlak, mint egy
                                         édesatyámat, mert lámcsak, te voltál ennyi ezer ember közül
                                         az én atyámnak hűséges szolgája. Ó, istenes ember, ó, nagy
                                         hívséges szolga! Az Úristen fizesse meg az te nagy
                                         kegyelmességedet, mert én soha meg nem fizethetem!
                                         Háládatlan azért, megládd, soha nem akarok lenni.</p>
-</sp>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Az én hűséges szolgálatom, jó asszonyom, megjelenik ezután,
+          </sp>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Az én hűséges szolgálatom, jó asszonyom, megjelenik ezután,
                                         most arról nem illik szólnunk, mert az sok szólásba sok idő
                                         múlik. De jobb, ha dolgunkhoz látunk. Az Clitemnestrát jókor
                                         találjuk, mert csak ő maga az kisebbik palotába.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Maradjatok ti itt kinn. No, mi Isten hírével menjünk be.</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA QUARTA</head>
-<p>
-<stage>Electra, Chorus, Clitemnestra.</stage>
-</p>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hatalmas Isten, könyörgök teneked, ez mai nap mutasd meg
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Maradjatok ti itt kinn. No, mi Isten hírével menjünk be.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA QUARTA</head>
+          <p>
+            <stage>Electra, Chorus, Clitemnestra.</stage>
+          </p>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hatalmas Isten, könyörgök teneked, ez mai nap mutasd meg
                                             az én arám keze által, hogy te volnál röttenetes
                                             bosszúállója ez bűnnek, és csak te volnál az tebenned
                                             bízóknak kegyelmes szabadítója! Majd csuda dolgot
                                             hallasz, Chorus.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Hová menének, édes asszonyom?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Megöli arám az gonosz asszonyt.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Kit! Anyádat-e?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ne mondd az förtelmest anyámnak. Az Clitemnestrát!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Megöli?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Meg.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Orestes?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Bezzeg ő.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Ó! Nagy Isten, hanem nagy csuda, ím az önnön szülőjét nem
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Hová menének, édes asszonyom?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Megöli arám az gonosz asszonyt.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Kit! Anyádat-e?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ne mondd az förtelmest anyámnak. Az Clitemnestrát!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Megöli?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Meg.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Orestes?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Bezzeg ő.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Ó! Nagy Isten, hanem nagy csuda, ím az önnön szülőjét nem
                                             szánja. De ezt én jól tudtam, hogy nem szenvedheti az
                                             sokat az Úristen, hanem valamely későre kijelenti
                                             magát.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Tolvaj, tolvaj! Hol attok? Lám, senki nincs az én
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Tolvaj, tolvaj! Hol attok? Lám, senki nincs az én
                                             szolgáimba! Jaj, jaj, jaj!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hallod-e, Chorus, hogy kiált valaki?</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Hallom, édes szívem, asszonyom, talán szinte most üték,
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hallod-e, Chorus, hogy kiált valaki?</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Hallom, édes szívem, asszonyom, talán szinte most üték,
                                             mint dobbana.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hallgassza!</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Jaj, mint veszek! Hol vagy, uram, Aegistus?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ismég erősen kiálta.</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Jaj, szegín! Ez ám, hogy soha szót nem fogada, mint
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hallgassza!</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Jaj, mint veszek! Hol vagy, uram, Aegistus?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ismég erősen kiálta.</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Jaj, szegín! Ez ám, hogy soha szót nem fogada, mint
                                             intettem, mint kértem az Istenért, térne már meg immár
                                             gonoszságából, soha semmit nem fogada, ám lássa immár,
                                             mit nyert vele.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Ó, fiam, fiam, Orestes, könyörülj rajtam!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nem könyörülsz vala te sem énrajtam, sem szegín atyámon,
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Ó, fiam, fiam, Orestes, könyörülj rajtam!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nem könyörülsz vala te sem énrajtam, sem szegín atyámon,
                                             mikor szegínt ártatlanul elvesztéd.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Orestes, az édes szülédet.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Jó-e neked most az halál? Ily nehéz volt az én atyámnak
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Orestes, az édes szülédet.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Jó-e neked most az halál? Ily nehéz volt az én atyámnak
                                             is.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Jaj, jaj!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Édes keserűvel jó, emészd meg immár az gyenge lakást.</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Jaj, meghalok!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>De csak halnál hamarébb!</p>
-</sp>
-<sp who="#clitemnestra">
-<speaker>CLITEMNESTRA.</speaker>
-<p>Jaj!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>No, azmint eszembe veszem, lakék ez, eztűl többet nem
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Jaj, jaj!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Édes keserűvel jó, emészd meg immár az gyenge lakást.</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Jaj, meghalok!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>De csak halnál hamarébb!</p>
+          </sp>
+          <sp who="#clitemnestra">
+            <speaker>CLITEMNESTRA.</speaker>
+            <p>Jaj!</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>No, azmint eszembe veszem, lakék ez, eztűl többet nem
                                             félek. Ihon jűnek immár. Mely véres az arám szablyája.
                                             No, mint járátok?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Így jól, amint szinte kévánád. Nem parancsol immár
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Így jól, amint szinte kévánád. Nem parancsol immár
                                             többet.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Hála Istennek!</p>
-</sp>
-<sp who="#chorus">
-<speaker>CHORUS.</speaker>
-<p>Jaj, veszek, ahon jő az király is nagy örömmel, még ő
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Hála Istennek!</p>
+          </sp>
+          <sp who="#chorus">
+            <speaker>CHORUS.</speaker>
+            <p>Jaj, veszek, ahon jő az király is nagy örömmel, még ő
                                             semmit sem értett az királyné asszony halálába.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Orestes, Orestes, bújjatok el Aegistus elől, mert ihon
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Orestes, Orestes, bújjatok el Aegistus elől, mert ihon
                                             jő! Ingyen eszébe se vegyen bennetek, de mihent az ajtón
                                             belépik, sarkaljátok meg! Ilyenkor nem szokása, hogy sok
                                             nép menjen utána. Szaladjatok hamar be, én addig itt
                                             kinn leszek, szép szót mutatok hozzá. Most örömében
                                             könnyen elhiszi.</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA QUINTA</head>
-<p>
-<stage>Aegistus, Electra, Orestes, Parasitus.</stage>
-</p>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Hol vagynak az Phoceus-beli követek, kik az Orestes
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA QUINTA</head>
+          <p>
+            <stage>Aegistus, Electra, Orestes, Parasitus.</stage>
+          </p>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Hol vagynak az Phoceus-beli követek, kik az Orestes
                                                 testét hozták? Neked szólok, barom. Bű, hogy nem
                                                 szólsz, mert tudom, erre neked nagy gondod
                                                 vagyon!</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Igen kicsiny haszna vagyon immár, felséges uram, az
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Igen kicsiny haszna vagyon immár, felséges uram, az
                                                 én nagy gondomnak. Ám ott benn vagynak, kik
                                                 felségednek nagy gyönyörűség, de énnekem örökké való
                                                 keserűség.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Ugyan igaz-e, hogy megholt Orestes?</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Ah, felséges uram, bár ne adta volna Isten, hogy igaz
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Ugyan igaz-e, hogy megholt Orestes?</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Ah, felséges uram, bár ne adta volna Isten, hogy igaz
                                                 lött volna, ám ott benn fekszik az teste,
                                                 megláthatja felséged.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Legyen hála Istennek, ettűl tartok vala, ettűl is
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Legyen hála Istennek, ettűl tartok vala, ettűl is
                                                 megmenem, egyéb ellenségimmel semmit nem gondolok.
                                                 Én is immár mindent bátrabban szerezhetek. Országot
                                                 építtetek, várakat rakattatok, sok kéncset
@@ -2706,151 +2766,151 @@
                                                 módon gondot viselek, hogy az királyok is csak engem
                                                 hallgassanak. Olyha te is visszát vonsz vala, de ha
                                                 eszedbe nem veszed magad, gonoszul jársz.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Nem ké-kénytelen felséges uram, hozzád kell immár
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Nem ké-kénytelen felséges uram, hozzád kell immár
                                                 hallgatnom.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Jobb lesz neked.</p>
-</sp>
-<sp who="#electra">
-<speaker>ELECTRA.</speaker>
-<p>Felséged ne késsék itt kinn, de lássa felséged az
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Jobb lesz neked.</p>
+          </sp>
+          <sp who="#electra">
+            <speaker>ELECTRA.</speaker>
+            <p>Felséged ne késsék itt kinn, de lássa felséged az
                                                 holttestet. Osztán az Úristenért, temettesse el
                                                 felséged szegín arámat.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Bemegyek, meglátom szegín atyámfiát. Ti jöttetek-e
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Bemegyek, meglátom szegín atyámfiát. Ti jöttetek-e
                                                 Stropheustúl?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Mi jöttünk.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Ez-e az Orestes?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Lásd meg!</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Meg sem esmérem szegínt.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Nyúlj hozzá csak, talán megesméred.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Parasite, hívjad csak az királyné asszonyt, nézzen ő
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Mi jöttünk.</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Ez-e az Orestes?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Lásd meg!</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Meg sem esmérem szegínt.</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Nyúlj hozzá csak, talán megesméred.</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Parasite, hívjad csak az királyné asszonyt, nézzen ő
                                                 is a fiára.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Közel állasz hozzá.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Jaj, jaj, mi dolog ez?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Mit röttegsz? Kitűl félsz?</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Árulók a házba!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Ne siess, király, mert lerántom majd az koronád!</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Te vagy-e az, Orestes?</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Jó próféta voltál, de nem tudtál magadra
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Közel állasz hozzá.</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Jaj, jaj, mi dolog ez?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Mit röttegsz? Kitűl félsz?</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Árulók a házba!</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Ne siess, király, mert lerántom majd az koronád!</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Te vagy-e az, Orestes?</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Jó próféta voltál, de nem tudtál magadra
                                                 gondolni.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Jaj, elveszek!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Nosza, te fogjad az koronát! Nem latrot illet ez!
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Jaj, elveszek!</p>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Nosza, te fogjad az koronát! Nem latrot illet ez!
                                                 Nosza az pálca. Ó, édesatyám pálcája! Vond le az
                                                 köntöst róla, jöszte te, hű szolga, fogjad az urad
                                                 üstökét!</p>
-</sp>
-<sp who="#parasitus">
-<speaker>PARASITUS.</speaker>
-<p>Felséges uram, én magam fejét veszem az árulónak,
+          </sp>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>Felséges uram, én magam fejét veszem az árulónak,
                                                 mondtam én, hogy megsiratja még az királyságot.
                                                 Jöszte!</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Ne ölj meg, édes uram, Orestes, meddig élek,
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Ne ölj meg, édes uram, Orestes, meddig élek,
                                                 mindörökké szolgállak.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Nem szűkös vagyok szolga nélkül.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Az Istenért, könyörülj rajtam, lám, atyád is
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Nem szűkös vagyok szolga nélkül.</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Az Istenért, könyörülj rajtam, lám, atyád is
                                                 kegyelmes ember volt teneked!</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>De te nem voltál neki kegyelmes. Nem szánád, áruló,
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>De te nem voltál neki kegyelmes. Nem szánád, áruló,
                                                 ártatlanul elvesztened? Azért fizess te is azon
                                                 mértékkel!</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Büntess tehát törvénnyel, miért rökkentesz idebe?</p>
-</sp>
-<sp who="#parasitus">
-<speaker>PARASITUS.</speaker>
-<p>Amint látom, elköltél az parancsolásról.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Szolga, te is rám vagy-e?</p>
-</sp>
-<sp who="#parasitus">
-<speaker>PARASITUS.</speaker>
-<p>Felséges uram, ha hagyod, mind elprózsmitál ő, de
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Büntess tehát törvénnyel, miért rökkentesz idebe?</p>
+          </sp>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>Amint látom, elköltél az parancsolásról.</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Szolga, te is rám vagy-e?</p>
+          </sp>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>Felséges uram, ha hagyod, mind elprózsmitál ő, de
                                                 járj el dolgodba.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Cobe, cobe.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Csak egy szót szólok kigyelmednek.</p>
-</sp>
-<sp who="#parasitus">
-<speaker>PARASITUS.</speaker>
-<p>De jere, hadd el azt, mit használsz vele, ha meg kell
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Cobe, cobe.</p>
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Csak egy szót szólok kigyelmednek.</p>
+          </sp>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>De jere, hadd el azt, mit használsz vele, ha meg kell
                                                 halnod, menjél meg tűle.</p>
-</sp>
-<sp who="#aegistus">
-<speaker>AEGISTUS.</speaker>
-<p>Ó, nyomorult ember, ó, mint veszek! Bár Isten ne adta
+          </sp>
+          <sp who="#aegistus">
+            <speaker>AEGISTUS.</speaker>
+            <p>Ó, nyomorult ember, ó, mint veszek! Bár Isten ne adta
                                                 volna, hogy csak hírrel hallhattam volna is ez
                                                 királyságot! Lám, mind méreggé fordult minden
                                                 gyönyörűségem. Átkozott az nap, átkozott az óra,
@@ -2859,27 +2919,28 @@
                                                 lészen az én dolgom, mert még ez világon
                                                 megemésztettem minden vígasságomat! Ó, ki, iszonyú,
                                                 ki röttenetes halálom!</p>
-</sp>
-<sp who="#parasitus">
-<speaker>PARASITUS.</speaker>
-<p>Hallod-e, az ki ebül keresi, ebül veszi hasznát.
+          </sp>
+          <sp who="#parasitus">
+            <speaker>PARASITUS.</speaker>
+            <p>Hallod-e, az ki ebül keresi, ebül veszi hasznát.
                                                 Tartsd a nyakad, hozszja az üstököd, vágjad
                                                 uram.</p>
-</sp>
-<sp who="#orestes">
-<speaker>ORESTES.</speaker>
-<p>Fizess, lator, atyám haláláért, fizess
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <p>Fizess, lator, atyám haláláért, fizess
                                                 gyönyörűségedért, legyen ez jutalma
                                                 királyságodnak!</p>
-</sp></div>
-<div type="scene">
-<head type="title">SCENA SEXTA</head>
-<p>
-<stage>Mester.</stage>
-</p>
-<sp who="#mester">
-<speaker>MESTER.</speaker>
-<p>Az szegény árvát, im, behozám jószágába, igaz,
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">SCENA SEXTA</head>
+          <p>
+            <stage>Mester.</stage>
+          </p>
+          <sp who="#mester">
+            <speaker>MESTER.</speaker>
+            <p>Az szegény árvát, im, behozám jószágába, igaz,
                                                   elég munkával, elég fáradsággal. Ő is minden
                                                   igyekezetit elvégezte: országába immár szabadon
                                                   uralkodhatik, csak hogy tudja magát forgatni, de
@@ -2913,11 +2974,12 @@
                                                   kegyelmesen éljen, ha úgy nem akar járni, mint az
                                                   ő elei. Ideje már elmennem, egyéb dolgaimhoz is
                                                   látnom, tihozzátok maradjon az Úristen!</p>
-</sp></div>
- <div type="scene">
-<head type="title">AZ JÁTÉK UTÁN VALÓ HÁLAADÁS ÉS
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">AZ JÁTÉK UTÁN VALÓ HÁLAADÁS ÉS
                                                   INTÉS</head>
-<p>Ti kigyelmeteknek mind fejenként nagy hálákat
+          <p>Ti kigyelmeteknek mind fejenként nagy hálákat
                                                   adunk, hogy ez mi mulatságunkat meg nem útáltátok,
                                                   de nagy csendességgel meghallgattátok. Azért
                                                   hiszem, hogy meg is tanulta kigyelmetek ez
@@ -2938,9 +3000,11 @@
                                                   Úristen vigye kigyelmeteket haza nagy békességgel.
                                                   És tartsa meg kigyelmeteket nagy sok esztendeig jó
                                                   életben, örökkévaló idvességtekre.</p>
-<p><stage>AZ JÁTÉKNAK VÉGE</stage></p>
-                        </div>
-</div>
-</body>
-</text>
+          <p>
+            <stage>AZ JÁTÉKNAK VÉGE</stage>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

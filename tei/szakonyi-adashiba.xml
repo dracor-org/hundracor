@@ -1,61 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title type="main">Adáshiba</title>
-<title type="sub">Komédia 2 részben</title>
-<author>
-<persName>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Adáshiba</title>
+        <title type="sub">Komédia 2 részben</title>
+        <author>
+          <persName>
             <surname>Szakonyi</surname>
             <forename>Károly</forename>
           </persName>
-<idno type="wikidata">Q1294062</idno>
-</author>
-</titleStmt>
-<editionStmt> <edition>digital edition</edition>
-<respStmt>
-<resp>project director</resp>
-<persName>
-<surname>Palkó</surname>
-<forename>Gábor</forename>
-</persName>
-</respStmt>
-<respStmt>
-<resp>XML-editor</resp>
-<persName>
-<surname>Dióssy</surname>
-<forename>Anna Laura</forename>
-</persName>
-</respStmt>
-<respStmt>
-<resp>TEI-specification</resp>
-<persName>
-<surname>Fellegi</surname>
-<forename>Zsófia</forename>
-</persName>
-</respStmt>
-<respStmt>
-<resp>creator</resp>
-<orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
-
-</respStmt>
-<respStmt> <resp>creator</resp> <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName></respStmt></editionStmt> 
-<publicationStmt>
-<publisher>
-<orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
-
-</publisher>
-<pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
-
-<date>2021</date>
-<availability>
-<p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p></availability>
-
-
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+          <idno type="wikidata">Q1294062</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Dióssy</surname>
+            <forename>Anna Laura</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
           <title type="main">-</title>
           <title type="sub">-</title>
           <publisher>-</publisher>
@@ -68,7 +71,8 @@
             </persName>
             <persName>
               <surname/>
-              <forename/></persName>
+              <forename/>
+            </persName>
             <persName>
               <surname/>
               <forename/>
@@ -79,7 +83,7 @@
             </persName>
           </respStmt>
         </bibl>
-<bibl type="originalSource">
+        <bibl type="originalSource">
           <title type="main">Harmincnégy ember</title>
           <title type="sub">Adáshiba</title>
           <author>
@@ -93,7 +97,7 @@
           <pubPlace>Budapest</pubPlace>
           <publisher>Szépirodalmi Könyvkiadó</publisher>
         </bibl>
-<bibl type="firstEdition">
+        <bibl type="firstEdition">
           <title type="main">Adáshiba</title>
           <author>
             <persName>
@@ -108,7 +112,6 @@
               <surname>Görög</surname>
               <forename>Lívia</forename>
             </persName>
-           
             <persName>
               <surname>Pólya</surname>
               <forename>Lajosné</forename>
@@ -120,84 +123,85 @@
           <pubPlace>Budapest</pubPlace>
           <publisher>Szépirodalmi Könyvkiadó</publisher>
         </bibl>
-</sourceDesc>
-</fileDesc>
-<profileDesc>
-<langUsage>
-<language ident="hu"/>
-</langUsage>
-<particDesc>
-<listPerson>
-<person sex="MALE" xml:id="bodog">
-                                                  <persName>BÓDOG</persName>
-                                                  </person>
-                                                  <person xml:id="bodogne" sex="FEMALE">
-                                                  <persName>BÓDOGNÉ</persName>
-                                                  </person>
-                                                  <person xml:id="vanda" sex="FEMALE">
-                                                  <persName>VANDA</persName>
-                                                  </person>
-                                                  <person xml:id="donci" sex="MALE">
-                                                  <persName>DÖNCI</persName>
-                                                  </person>
-                                                  <person xml:id="saci" sex="FEMALE">
-                                                  <persName>SACI</persName>
-                                                  </person>
-                                                  <person xml:id="imrus" sex="MALE">
-                                                  <persName>IMRUS</persName>
-                                                  </person>
-                                                  <person xml:id="emberfi" sex="MALE">
-                                                  <persName>EMBERFI</persName>
-                                                  </person>
-                                                  <person xml:id="szucs_ur" sex="MALE">
-                                                  <persName>SZŰCS ÚR</persName>
-                                                  </person>
-
-</listPerson>
-</particDesc>
-</profileDesc>
-</teiHeader>
-<text>
-<front>
-<castList>
-<castItem>
-                        <role><roleName>BÓDOG</roleName>, hatvan fölött</role>
-</castItem>
-                        <castItem>
-                                                <role><roleName>BÓDOGNÉ</roleName>, ötven fölött</role>
-                        </castItem>
-                        <castItem>
-                                                <role><roleName>VANDA</roleName>, Bódogék lánya,
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="bodog">
+            <persName>BÓDOG</persName>
+          </person>
+          <person xml:id="bodogne" sex="FEMALE">
+            <persName>BÓDOGNÉ</persName>
+          </person>
+          <person xml:id="vanda" sex="FEMALE">
+            <persName>VANDA</persName>
+          </person>
+          <person xml:id="donci" sex="MALE">
+            <persName>DÖNCI</persName>
+          </person>
+          <person xml:id="saci" sex="FEMALE">
+            <persName>SACI</persName>
+          </person>
+          <person xml:id="imrus" sex="MALE">
+            <persName>IMRUS</persName>
+          </person>
+          <person xml:id="emberfi" sex="MALE">
+            <persName>EMBERFI</persName>
+          </person>
+          <person xml:id="szucs_ur" sex="MALE">
+            <persName>SZŰCS ÚR</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <castItem>
+          <role><roleName>BÓDOG</roleName>, hatvan fölött</role>
+        </castItem>
+        <castItem>
+          <role><roleName>BÓDOGNÉ</roleName>, ötven fölött</role>
+        </castItem>
+        <castItem>
+          <role><roleName>VANDA</roleName>, Bódogék lánya,
                                                   harmincéves</role>
-                        </castItem>
-                        <castItem>
-                                                <role><roleName>DÖNCI</roleName>, a fiuk, harminc
+        </castItem>
+        <castItem>
+          <role><roleName>DÖNCI</roleName>, a fiuk, harminc
                                                   fölött</role>
-                        </castItem>
-                        <castItem>
-                                                <role><roleName>SACI</roleName>, Dönci felesége,
+        </castItem>
+        <castItem>
+          <role><roleName>SACI</roleName>, Dönci felesége,
                                                   huszonhat éves</role>
-                        </castItem>
-                        <castItem>
-                                                <role><roleName>IMRUS</roleName>, Bódogék fia,
+        </castItem>
+        <castItem>
+          <role><roleName>IMRUS</roleName>, Bódogék fia,
                                                   tizenkilenc éves</role>
-                        </castItem>
-                        <castItem>
-                                                <role><roleName>EMBERFI</roleName>, albérlő
+        </castItem>
+        <castItem>
+          <role><roleName>EMBERFI</roleName>, albérlő
                                                   Bódogéknál, harminchárom éves</role>
-                        </castItem>
-                        <castItem>
-                                                <role><roleName>SZŰCS ÚR</roleName>, Bódogék
+        </castItem>
+        <castItem>
+          <role><roleName>SZŰCS ÚR</roleName>, Bódogék
                                                   szomszédja, ötvenéves</role>
-                        </castItem>
-</castList>
-                        <p><stage>Történik napjainkban, sajnos</stage></p>                     
-                        
-</front>
-<body>
-<div type="act">
-                                                  <head type="title">Első rész</head>
-                                                  <p><stage>Szín: kis családi ház nappali szobája
+        </castItem>
+      </castList>
+      <p>
+        <stage>Történik napjainkban, sajnos</stage>
+      </p>
+    </front>
+    <body>
+      <div type="act">
+        <head type="title">Első rész</head>
+        <p>
+          <stage>Szín: kis családi ház nappali szobája
                                                  (ebédlője?) valahol Budapest olcsóbb
                                                   zöldövezetében. A berendezést nem írom le:
                                                   utazásaim során láttam, hogy többé-kevésbé azonos
@@ -212,9 +216,13 @@
                                                   berende­ zése vegyes, és semmifélejó ízlésről nem
                                                   tanúskodik. Az egyik sarokban lemezjátszó,
                                                   könyvespolc sehol. Helyette vitrin,
-                                                  csecsebecsékkel.</stage> </p>
-                                                  <p><stage>És a tévé!</stage></p>
-                                                  <p><stage>A tévé a legfontosabb. Pedig nincs is a
+                                                  csecsebecsékkel.</stage>
+        </p>
+        <p>
+          <stage>És a tévé!</stage>
+        </p>
+        <p>
+          <stage>A tévé a legfontosabb. Pedig nincs is a
                                                   színpadon, még­ is ott van, de mennyire! Hiszen a
                                                   darab kezdetén már be van kapcsolva, s ki sem
                                                   kapcsolják az előadás végéig. Itt, a színpadon a
@@ -229,264 +237,275 @@
                                                   se hang; hogy Bódogék mit látnak, azt csak
                                                   reagálásaikból tudjuk. A játékteret úgy kell
                                                   beren­ dezni, hogy tágas is legyen a játékra meg
-                                                  szűk is - mi­ ként a valóságban.</stage></p>
-                                                  <p><stage>A szobába jobbról és balról egy-egy ajtó
+                                                  szűk is - mi­ ként a valóságban.</stage>
+        </p>
+        <p>
+          <stage>A szobába jobbról és balról egy-egy ajtó
                                                   nyílik. A hátsó falon ablak a kertre; látszanak a
                                                   csupaszfák; ősz van, nyirkos, esős
-                                                  idő.</stage></p>
-                                                  <p><stage>Délután öt és hat óra között kezdődik a
-                                                  játék.</stage></p>
-                                                  <p><stage>Amikor a függöny felmegy, Bódog egy
+                                                  idő.</stage>
+        </p>
+        <p>
+          <stage>Délután öt és hat óra között kezdődik a
+                                                  játék.</stage>
+        </p>
+        <p>
+          <stage>Amikor a függöny felmegy, Bódog egy
                                                   fotelban ül, papucsban, házikabátban.
                                                   Szivarozgatva nézi a tévét. Kintről zajok:
                                                   ajtónyitódás; egy férfihang: ,Jó estét,
-                                                  asszonyom!”</stage></p>
-                                                  <p><stage>Női hang:</stage></p>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Kurtán.)</stage> Jó estét...</p>
-                                                  </sp>
-                        <p><stage>Ismét ajtónyitódás, -csukódás, majd
+                                                  asszonyom!”</stage>
+        </p>
+        <p>
+          <stage>Női hang:</stage>
+        </p>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Kurtán.)</stage> Jó estét...</p>
+        </sp>
+        <p>
+          <stage>Ismét ajtónyitódás, -csukódás, majd
                                                   kitárul a jobb olda­ li ajtó, és belép Bódogné.
                                                   Tálcán evőeszközöket hoz be, lerakja, a
                                                   konyharuhával egyenként törölgeti a késeket,
-                                                  villákat.</stage></p>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p><stage>(A tévét nézve, mellékesen.)</stage> Ki
+                                                  villákat.</stage>
+        </p>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p><stage>(A tévét nézve, mellékesen.)</stage> Ki
                                                   volt az?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Megint valami pasas. Valami horgász vagy
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Megint valami pasas. Valami horgász vagy
                                                   micsoda.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Honnan tudod, hogy horgász vagy micsoda?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Olyan halszaga volt. És látszik is rajta. Ez is
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Honnan tudod, hogy horgász vagy micsoda?</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Olyan halszaga volt. És látszik is rajta. Ez is
                                                   szakállas. Kerek fejű, szakállas... Mi megy a
                                                   tévében?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Tudományos magazin.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Megint ez a bemondónő! Fántásztikus! Ilyen
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Tudományos magazin.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Megint ez a bemondónő! Fántásztikus! Ilyen
                                                   frizurával odaengedni! <stage>(Felfújja az arcát,
                                                   mintha utánozná.)</stage> Be-be-beh!... Nem is tud
                                                   beszélni!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Ez már a tizenkettedik.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Ez a nő?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Nem. A horgász vagy kicsoda. Egy hónapja van
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Ez már a tizenkettedik.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Ez a nő?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Nem. A horgász vagy kicsoda. Egy hónapja van
                                                   nálunk ez a... mi is a neve?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Én is mindig elfelejtem. Várjál csak...
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Én is mindig elfelejtem. Várjál csak...
                                                   Emberfi!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Emberfi! Ez is egy név? Ipszilonnal írja?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Csak i-vel. Egy ef és i. - Mik ezek, cápák?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Delfinek. Delfinek, ahogy játszanak.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Nahát! Undorító!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Senki sem mondta, hogy nézd...</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Vanda még nem jött haza...</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Biztosan túlórázik. <stage>(Nevet.)</stage>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Emberfi! Ez is egy név? Ipszilonnal írja?</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Csak i-vel. Egy ef és i. - Mik ezek, cápák?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Delfinek. Delfinek, ahogy játszanak.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Nahát! Undorító!</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Senki sem mondta, hogy nézd...</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Vanda még nem jött haza...</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Biztosan túlórázik. <stage>(Nevet.)</stage>
                                                   Ahogy ezek labdáznak! Azt mondják, a delfin
                                                   okosabb, mint az ember!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Akkor is undorító! Az a sima hátuk! Böhhh!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>A tizenkettedik pasas egy hónap alatt.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Hát tiltsuk meg neki? A barátai. Azt mondja, a
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Akkor is undorító! Az a sima hátuk! Böhhh!</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>A tizenkettedik pasas egy hónap alatt.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Hát tiltsuk meg neki? A barátai. Azt mondja, a
                                                   barátai.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Nem szeretem ezt a nagy jövés-menést!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Te akartál albérlőt. Nem te akartál albérlőt?
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Nem szeretem ezt a nagy jövés-menést!</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Te akartál albérlőt. Nem te akartál albérlőt?
                                                   Nahát!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Jól jön az a havi hatszáz! Mihez kezdhetünk a
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Jól jön az a havi hatszáz! Mihez kezdhetünk a
                                                   nyugdíjból?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Külön bejárat - nem tilthatod meg neki, hogy a
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Külön bejárat - nem tilthatod meg neki, hogy a
                                                   barátai feljárjanak hozzá. Eddig még mindegyik
                                                   nagyon udvarias volt. „Kézit csókolom, jó estét!”
                                                   És csendben vannak, igazán nem csapnak lármát. Se
                                                   magnózás, se nők, se bulizás...</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Na, ezek oroszok! Oroszok, mi? Mondtam!
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Na, ezek oroszok! Oroszok, mi? Mondtam!
                                                   Villanyerőmű meg vaskohászat. Naponta kétszer!
                                                   Szerintem ott már nincs is más, csak villanyerőmű
                                                   meg kohó! - Tizenkét barát! Kicsit sok, nem?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Jobb lenne, ha nőket hordana ide? Mindenféle
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Jobb lenne, ha nőket hordana ide? Mindenféle
                                                   frincfrancos nőket?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Tényleg, nő még nem is volt nála!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Na látod!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Te, nem gondolod, hogy ez talán...</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Micsoda?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Tudod. Hogy ez olyan, hogy is mondjam...</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Olyan? Milyen? Mire gondolsz, apa?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Hát olyan micsoda! Aki a fiúkat szereti.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Ó, apa! Csak nem gondolod?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Nem gondolod, nem gondolod! Semmit nem
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Tényleg, nő még nem is volt nála!</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Na látod!</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Te, nem gondolod, hogy ez talán...</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Micsoda?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Tudod. Hogy ez olyan, hogy is mondjam...</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Olyan? Milyen? Mire gondolsz, apa?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Hát olyan micsoda! Aki a fiúkat szereti.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Ó, apa! Csak nem gondolod?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Nem gondolod, nem gondolod! Semmit nem
                                                   gondolok, csak szeretek óvatos lenni! Tizenkét
                                                   barát... hm... - Nézd csak azt a... azt az izét
                                                   ott!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Mit, apa?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p><stage>(Türelmetlenül legyint.)</stage> Már
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Mit, apa?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p><stage>(Türelmetlenül legyint.)</stage> Már
                                                   semmit!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Arra a nagy micsodára mondtad? Mi volt az?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Semmi! Mondom, hogy már nem érdekes! Mindig úgy
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Arra a nagy micsodára mondtad? Mi volt az?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Semmi! Mondom, hogy már nem érdekes! Mindig úgy
                                                   kapkodják a képeket!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>De mi volt az a nagy micsoda?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Semmi! Hagyjál, mert nem értek az egészből
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>De mi volt az a nagy micsoda?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Semmi! Hagyjál, mert nem értek az egészből
                                                   semmit!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Elgondolkodva.)</stage> Nekem a
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Elgondolkodva.)</stage> Nekem a
                                                   foglalkozása is gyanús. Olvastad a bejelentőlapon
                                                   a foglalkozását? Mester! De milyen mester?
                                                   Milyen?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Hát mester, és kész! Valamilyen mester.
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Hát mester, és kész! Valamilyen mester.
                                                   <stage>(Mérgelődve.)</stage> Ilyenkor mindig
                                                   homályos a kép! Ha csinos nőket mutatnak, mindig
                                                   homályos! Még soha nem volt adáshiba, amikor a
                                                   kohókat mutatták.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Mindenesetre egyszerű ember. És ezek a haverok
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Mindenesetre egyszerű ember. És ezek a haverok
                                                   is, vagy kik... ezek is olyan egyszerűfélék.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Egyszerű vagy nem egyszerű, nekem mindegy, csak
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Egyszerű vagy nem egyszerű, nekem mindegy, csak
                                                   pontosan fizesse a havi hatszázat.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Megvárjuk Vandát meg a többieket, és csak akkor
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Megvárjuk Vandát meg a többieket, és csak akkor
                                                   vacsorázunk, vagy...</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Megvárjuk! Ma lett Imrus tizennyolc éves, ma
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Megvárjuk! Ma lett Imrus tizennyolc éves, ma
                                                   igazán együtt vacsorázhatunk!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Halkan.)</stage> Én is így gondoltam,
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Halkan.)</stage> Én is így gondoltam,
                                                   csak azt hittem, már nagyon éhes vagy...
                                                   esetleg...</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Éhes! Persze hogy éhes vagyok! Egész nap a
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Éhes! Persze hogy éhes vagyok! Egész nap a
                                                   kerítést javítottam, persze hogy éhes vagyok! De
                                                   ez most nem érdekes! Kibírtam én már többet is,
                                                   hajaj! Amikor katona voltam, meg minden, hajaj! Ma
@@ -494,588 +513,594 @@
                                                   ünnepélyességet. .. Mindennek megvan a maga módja!
                                                   Amikor én tizennyolc éves lettem, sohasem felejtem
                                                   el, az apám megkínált cigarettával.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Te is meg akarod őt kínálni?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Én is! Az apám szegény... soha nem felejtem el
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Te is meg akarod őt kínálni?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Én is! Az apám szegény... soha nem felejtem el
                                                   azt a gesztust, azt az ünnepélyes gesztust! Az
                                                   ilyesmi örök időkre emlék... mélységes... hogy is
                                                   mondjam... Egy gesztus, ami elkísér...</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>De Imrus nem is cigarettázik.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>...ami megmarad az emberben... az embernek. ..
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>De Imrus nem is cigarettázik.</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>...ami megmarad az emberben... az embernek. ..
                                                   Apám megkínált, és azt mondta: „Fiam, tizennyolc
                                                   éves lettél, és...”</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>És?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p><stage>(Türelmetlenül.)</stage> Mit tudom én
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>És?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p><stage>(Türelmetlenül.)</stage> Mit tudom én
                                                   már, hogy mit mondott?! Negyvenhárom éve!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Aggodalmasan.)</stage> Nem kell hogy
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Aggodalmasan.)</stage> Nem kell hogy
                                                   rászoktasd a dohányzásra.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Na, megint ezek a négerek! Ez egy tábornok?!
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Na, megint ezek a négerek! Ez egy tábornok?!
                                                   Nevetnem kell! Láttál te már ilyen suvickos képű
                                                   tábornokot?! - A fene akarja rászoktatni a
                                                   dohányzásra! Csak megkínálom. Hogy érezze, hogy...
                                                   Szóval, hogy érezze! Nahát! És ez egy
                                                   tábornok?!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Aggódva.)</stage> Csssss! Még
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Aggódva.)</stage> Csssss! Még
                                                   meghallja!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Kicsoda?!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Ő! A lakónk! Lehet, hogy ő is éppen egy
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Kicsoda?!</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Ő! A lakónk! Lehet, hogy ő is éppen egy
                                                   fajüldöző.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Hogy micsoda?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Vagy fajvédő, vagy hogy mondják?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Fajüldöző? Fajvédő?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Szóval olyan négerpárti vagy mi a csuda!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Jaj, anya, csak te ne politizálj! Mire
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Hogy micsoda?</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Vagy fajvédő, vagy hogy mondják?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Fajüldöző? Fajvédő?</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Szóval olyan négerpárti vagy mi a csuda!</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Jaj, anya, csak te ne politizálj! Mire
                                                   figyelmeztettelek egész életemben? Hogy ne
                                                   politizálj! - És különben sem mondtam rájuk semmi
                                                   rosszat!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Azt mondtad: suvickos képű! A végén még
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Azt mondtad: suvickos képű! A végén még
                                                   feljelenthet! Tudod jól, hogy rögtön gyomorgörcsöt
                                                   kapok az izgalomtól, ha így beleártod magad a
                                                   politikába.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Ha én beleártottam volna magam a politikába úgy
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Ha én beleártottam volna magam a politikába úgy
                                                   istenigazában! Hajaj! Már régen rend lenne itt! De
                                                   mennyire!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Jaj, ne lovaid bele magad, apa, légy rám
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Jaj, ne lovaid bele magad, apa, légy rám
                                                   tekintettel, és ne lovaid bele magad! <stage>(Más
                                                   hangon.)</stage> Tortát is csináltam, meg egy kis
                                                   halat rántottam ki, krumplipürévei.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Halat! Figyeljek a szálkára is, meg nézzem a
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Halat! Figyeljek a szálkára is, meg nézzem a
                                                   tévét!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Tudod, hogy Imrus mennyire szereti a halat.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Halat! - Na, tessék! Most meg a Szuezi-csa-
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Tudod, hogy Imrus mennyire szereti a halat.</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Halat! - Na, tessék! Most meg a Szuezi-csa-
                                                   torna!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Istenem! Amikor kislány voltam, milyen nagy
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Istenem! Amikor kislány voltam, milyen nagy
                                                   szenzáció volt, hogy Lindbergh átrepülte!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Blériot. Vagyis az óceánt. Vagyis az Lindbergh
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Blériot. Vagyis az óceánt. Vagyis az Lindbergh
                                                   volt.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Lindbergh, Lindbergh. Én is azt mondom. Nem
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Lindbergh, Lindbergh. Én is azt mondom. Nem
                                                   kell folyton kijavítani engem.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>A Csatornát repülte át, azt mondom!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Lindbergh, Lindbergh. Én is azt mondom. Nem
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>A Csatornát repülte át, azt mondom!</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Lindbergh, Lindbergh. Én is azt mondom. Nem
                                                   kell folyton kijavítani engem.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>A Csatornát, persze!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Azt az izét... Azt a csatornát ott, a két part
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>A Csatornát, persze!</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Azt az izét... Azt a csatornát ott, a két part
                                                   között, na!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Pontosan emlékszem, hogy a
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Pontosan emlékszem, hogy a
                                                   Szuezi-csatornát.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Fehér ruhában vannak! A katonák fehér ruhában
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Fehér ruhában vannak! A katonák fehér ruhában
                                                   vannak! Micsoda marhaság! Csupa piszok lesz. Egy
                                                   katona nem vigyázhat a ruhájára! - Mondom, hogy
                                                   nem a Szuezi volt!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Hát kislány koromban... pontosan emlék­ szem.
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Hát kislány koromban... pontosan emlék­ szem.
                                                   ..</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>A La... Na! A La... micsoda volt... Nem. jut
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>A La... Na! A La... micsoda volt... Nem. jut
                                                   eszembe, mert folyton zavarsz!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Dehogy akarlak zavarni, apa! Tudod, hogy egész
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Dehogy akarlak zavarni, apa! Tudod, hogy egész
                                                   életemben csak arra vigyáztam, hogy ne
                                                   zavarjalak... - Jaj, de szép az a pálmafa!</p>
-                                                  
-                                                  </sp>
-                        <p><stage>Nyílik a bal oldali ajtó, belép Vanda.
+        </sp>
+        <p>
+          <stage>Nyílik a bal oldali ajtó, belép Vanda.
                                                   Harmincéves, csinosnak mondható nő, esőkabátban
-                                                  van, kezében nyitott ernyő.</stage></p>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p><stage>(Kis ingerültséggel.)</stage> Micsoda
+                                                  van, kezében nyitott ernyő.</stage>
+        </p>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p><stage>(Kis ingerültséggel.)</stage> Micsoda
                                                   idő! És ez a sár itt a kertben! <stage>(Gépiesen
                                                   megcsókolja a szüleit.)</stage> Csók, anya, csók,
                                                   apa!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Óvatosan.)</stage> Esik?</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Egy vacak lámpát már fel lehetne szerelni oda a
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Óvatosan.)</stage> Esik?</p>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Egy vacak lámpát már fel lehetne szerelni oda a
                                                   ház sarkára. Az ember csak botorkál!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Annyi kiadásunk van úgyis! - Túlóráztál?</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Nem. <stage>(Megpergeti az
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Annyi kiadásunk van úgyis! - Túlóráztál?</p>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Nem. <stage>(Megpergeti az
                                                   ernyőjét.)</stage></p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Kislányom, a szőnyegre!</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Csak víz. Mondtam, hogy esik.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Szerinted Lindbergh mit repült át?</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Lindbergh? Melyik újságban volt?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Hogyan emlékezhetne rá Vanda? Hiszen ő még
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Kislányom, a szőnyegre!</p>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Csak víz. Mondtam, hogy esik.</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Szerinted Lindbergh mit repült át?</p>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Lindbergh? Melyik újságban volt?</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Hogyan emlékezhetne rá Vanda? Hiszen ő még
                                                   olyan fiatal. <stage>(Elveszi Vandától az ernyőt,
                                                   összecsukja.)</stage> Túlóráztál?</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Nem. <stage>(Leveti magát egyfotelba, a
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Nem. <stage>(Leveti magát egyfotelba, a
                                                   halántékát masszírozza, unottan nézi a
                                                   képernyőt.)</stage> Nézitek ezt a borzalmat,
                                                   mi?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Hogyhogy borzalmat? Ez a sivatag. Út is van
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Hogyhogy borzalmat? Ez a sivatag. Út is van
                                                   ott...</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Sebtiben kiviszi az ernyőt az
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Sebtiben kiviszi az ernyőt az
                                                   előszobá­ba.)</stage> Dönciék nem hívtak fel
                                                   telefonon?</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p><stage>(Ül mereven, nézi a tévét.)</stage>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p><stage>(Ül mereven, nézi a tévét.)</stage>
                                                   Nem.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Az ajtóból.)</stage> De jönnek?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Persze hogy jönnek! Saci megígérte. Egy csomó
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Az ajtóból.)</stage> De jönnek?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Persze hogy jönnek! Saci megígérte. Egy csomó
                                                   fontos dolgot meg kell beszélnem velük...
                                                   <stage>(Vandához.)</stage> Állandóan
                                                   túlóráztok?</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Nem.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Hirtelen felderült arccal tér
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Nem.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Hirtelen felderült arccal tér
                                                   vissza.)</stage> Hát persze hogy az óceánt repülte
                                                   át, hát persze!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p><stage>(Nézi a tévét.)</stage> Ki az a pasi,
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p><stage>(Nézi a tévét.)</stage> Ki az a pasi,
                                                   aki ennyire érti ezeket a puccsokat meg az afrikai
                                                   háborúkat meg mindent? Ki ez a pasi?!</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p><stage>(Tekintete a képernyőn.)</stage> Be
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p><stage>(Tekintete a képernyőn.)</stage> Be
                                                   lehet menni a fürdőszobába?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Miért, megint elromlott a kilincs?</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Csak azért kérdem, mert szeretném tudni, hogy
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Miért, megint elromlott a kilincs?</p>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Csak azért kérdem, mert szeretném tudni, hogy
                                                   ez az albérlő, ez a...</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Emberfi?</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Szóval, hogy az a szakállas, vézna fickó nem
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Emberfi?</p>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Szóval, hogy az a szakállas, vézna fickó nem
                                                   zuhanyozik-e éppen?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Nem zuhanyozik.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Megengedtem neki, hogy napjában egyszer
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Nem zuhanyozik.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Megengedtem neki, hogy napjában egyszer
                                                   zuhanyozhat.</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Nem szeretnék véletlenül rányitni.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Ez nem zuhanyozik.</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Pedig elég gyakran csoszog mezítláb. Még a
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Nem szeretnék véletlenül rányitni.</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Ez nem zuhanyozik.</p>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Pedig elég gyakran csoszog mezítláb. Még a
                                                   konyhában is. Tegnap is: teát forralt, és ott állt
                                                   mezítláb. De rám se nézett.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Na, éppen ezért kérdeztem.</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Mit?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Mit, apa?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Amit az előbb mondtam. A fiúkkal
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Na, éppen ezért kérdeztem.</p>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Mit?</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Mit, apa?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Amit az előbb mondtam. A fiúkkal
                                                   kapcsolatban.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>A fiúkkal kapcsolatban? Már nem emlékszem.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Hát hallod! Rá sem nézett Vandára.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Mit nézegesse? Csak nem akarod, hogy
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>A fiúkkal kapcsolatban? Már nem emlékszem.</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Hát hallod! Rá sem nézett Vandára.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Mit nézegesse? Csak nem akarod, hogy
                                                   nézegesse?</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Miért ne nézegessen?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Vanda, te elváltál, neked most egy jó partit
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Miért ne nézegessen?</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Vanda, te elváltál, neked most egy jó partit
                                                   kell csinálni!</p>
-                                                  
-                                                  </sp>
-                        <p><stage>Vanda felnevet.</stage></p>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Ezen ő nevet! Apa!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Én már nem szólok semmit.</p>
-                                                  
-                                                  </sp>
-                        <p><stage>Kintről hangos autódudálás.</stage></p>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Na, ezek Dönciék!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>És te még fel sem öltöztél!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Hozd ki a zakómat. Azt a csíkosat. Csak a
+        </sp>
+        <p>
+          <stage>Vanda felnevet.</stage>
+        </p>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Ezen ő nevet! Apa!</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Én már nem szólok semmit.</p>
+        </sp>
+        <p>
+          <stage>Kintről hangos autódudálás.</stage>
+        </p>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Na, ezek Dönciék!</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>És te még fel sem öltöztél!</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Hozd ki a zakómat. Azt a csíkosat. Csak a
                                                   zakómat kell felvennem.</p>
-                                                  
-                                                  </sp>
-                        <p><stage>Bódogné kisiet a másik szobába,
-                                                  jobbra.</stage></p>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>De ne a kockásat hozd! A csíkosat!</p>
-                                                  </sp>
-                                                  <sp who="#vanda">
-                                                  <speaker>VANDA</speaker>
-                                                  <p>Hát akkor én bevonulok a fürdőszobába.
+        </sp>
+        <p>
+          <stage>Bódogné kisiet a másik szobába,
+                                                  jobbra.</stage>
+        </p>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>De ne a kockásat hozd! A csíkosat!</p>
+        </sp>
+        <sp who="#vanda">
+          <speaker>VANDA</speaker>
+          <p>Hát akkor én bevonulok a fürdőszobába.
                                                   <stage>(Indul balra.)</stage></p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(A szobaajtóból.)</stage> De ma még
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(A szobaajtóból.)</stage> De ma még
                                                   lássunk, jó?</p>
-                                                  
-                                                  </sp><p><stage>Vanda int, hogy jó, jó!... Bódog nem
+        </sp>
+        <p>
+          <stage>Vanda int, hogy jó, jó!... Bódog nem
                                                   mozdul a tévé elől. A nyitva hagyott ajtó mögül
                                                   lábdobogás. Dönci és Saci hangja: „Nem Vanda ment
                                                   be a fürdőszobába?”- „Lehet, hogy Vanda volt... ”
                                                   - „Hallotta, hogy jövünk, minek tűnik el? Nem is
-                                                  köszönt... ”.</stage></p>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p><stage>(A tévét nézve.)</stage> Gyertek csak,
+                                                  köszönt... ”.</stage>
+        </p>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p><stage>(A tévét nézve.)</stage> Gyertek csak,
                                                   gyertek, gyertek!... <stage>(Dönci lép be elegáns
                                                   öltönyben, mögötte Saci divatos
                                                   ruhában.)</stage></p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Á, de jó meleg van itt! Szervusz, apa!
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Á, de jó meleg van itt! Szervusz, apa!
                                                   <stage>(Kézdörzsölve.)</stage> Jó kis otthonszag!
                                                   Á, á... Megy már az elődöntő?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Ma nem az elődöntő megy, hanem a gálaest
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Ma nem az elődöntő megy, hanem a gálaest
                                                   Brüsszelből. Hol álltái meg a kocsival?</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>A kapu előtt parkolunk... - Ugye, mondtam
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>A kapu előtt parkolunk... - Ugye, mondtam
                                                   neked, hogy ma nem az elődöntő megy!
                                                   <stage>(Bódoghoz lép, megpuszilja a
                                                   homlokát.)</stage> Csók, apuka! Anyuka? <stage>(A
                                                   tévérepillant.)</stage> Nahát, ki ez a
                                                   nyeszlett?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Nektek mindenki nyeszlett!
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Nektek mindenki nyeszlett!
                                                   <stage>(Döncihez.)</stage> De nem hajtottál rá a
                                                   virágágyásra? Csináltam a kapu elé egy kis
                                                   ágyást... Tavaszra... Liliomot akarok,
                                                   liliombokrokat.</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Á, jól kinn álltam meg... - Gálaest
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Á, jól kinn álltam meg... - Gálaest
                                                   Brüsszelből? Na, jól kifogtuk! Szerintem dög
                                                   unalmas lesz. Anya?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Jön a másik szobából a csíkos
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Jön a másik szobából a csíkos
                                                   zakóval.)</stage> Itt vagyok, itt vagyok!
                                                   Szervusztok, puszi, puszi... <stage>(Megpuszilják
                                                   egymást.)</stage> Nem hívtátok fel Vandát.</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Pusz-pusz! Kétszer is hívtam... <stage>(A tévét
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Pusz-pusz! Kétszer is hívtam... <stage>(A tévét
                                                   nézve.)</stage> Tényleg nem nyeszlett! A nőknek
                                                   minden más nő nyeszlett vagy tehén.</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Igenis, nyeszlett! Csak te ne bámuld úgy! -
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Igenis, nyeszlett! Csak te ne bámuld úgy! -
                                                   Jaj, anyuka, fodrásznál tetszett lenni?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Miközben leveszi a férjéről a
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Miközben leveszi a férjéről a
                                                   házikabátot, s feladja rá nagy vesződséggel a
                                                   zakót.)</stage> Meg a piacon is, meg a
                                                   szemfelszedőnél!... Te! Hogy az a szemfelszedő!
                                                   Nahát! Húsz forintot kér, és itthon megnézem: két
                                                   csík benne maradt!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p><stage>(Nézi a tévét.)</stage> Egészen jól
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p><stage>(Nézi a tévét.)</stage> Egészen jól
                                                   mozog.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Felpillant.)</stage> Nah! Ezek a lábak!
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Felpillant.)</stage> Nah! Ezek a lábak!
                                                   Láttad volna, ahogy én cserlsztonoztam!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Én láttam.</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Igaz, hogy Vanda kilépett a vállalattól?</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p><stage>(Leül, szemben a tévével, nézi.)</stage>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Én láttam.</p>
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Igaz, hogy Vanda kilépett a vállalattól?</p>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p><stage>(Leül, szemben a tévével, nézi.)</stage>
                                                   Hívtam kétszer is, azt mondták, kilépett.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p><stage>(A feleségéhez.)</stage> Anya! A gallér!
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p><stage>(A feleségéhez.)</stage> Anya! A gallér!
                                                   A kabátom gallérja!</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Megigazítja.)</stage> Begyurődik, mert
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Megigazítja.)</stage> Begyurődik, mert
                                                   meg se mozdulsz!</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Valami indiai táncosnő, nem?</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Indiai vagy arab.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Sürög-forog köztük.)</stage> Halat
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Valami indiai táncosnő, nem?</p>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Indiai vagy arab.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Sürög-forog köztük.)</stage> Halat
                                                   rántottam ki. Meglepetés.</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p><stage>(Bódogné helyére ül a fotelbe.)</stage>
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p><stage>(Bódogné helyére ül a fotelbe.)</stage>
                                                   Nem tudom, Dönci ehet-e halat? Dönci? Ehetsz
                                                   halat?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Mért ne ehetne halat?</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>De lehet, hogy burmai. Azok is ilyenek. És most
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Mért ne ehetne halat?</p>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>De lehet, hogy burmai. Azok is ilyenek. És most
                                                   hol fog elhelyezkedni? Van valami terve?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Kétségbeesve.)</stage> Nem ehetsz
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Kétségbeesve.)</stage> Nem ehetsz
                                                   halat? Mióta nem ehetsz halat?</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Éppen, hogy halat ehetek! Abban sok a
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Éppen, hogy halat ehetek! Abban sok a
                                                   foszfor.</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Ja, persze, persze! <stage>(Más
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Ja, persze, persze! <stage>(Más
                                                   hangon.)</stage> Imrus?</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Valami szeminárium.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Az egyetemen! Képzeld, az egyetemen még
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Valami szeminárium.</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Az egyetemen! Képzeld, az egyetemen még
                                                   tartanak szemináriumot! Még manapság is! Remélem,
                                                   nálatok már nincs ilyesmi?</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Ma már nem sokat adnak rá...</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p><stage>(Sacihoz.)</stage> Édes ez a kis
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Ma már nem sokat adnak rá...</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p><stage>(Sacihoz.)</stage> Édes ez a kis
                                                   ruhád.</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Á, elszabták! Tessék! A dereka két centivel
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Á, elszabták! Tessék! A dereka két centivel
                                                   rövidebb jobboldalt...</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Jaj, képzeld, a szomszédasszony meg azt
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Jaj, képzeld, a szomszédasszony meg azt
                                                   mondja... Az ura rendőr, tudod, a közlekedésnél,
                                                   azt mondja, képzeld, azt mondja nekem tegnap, hogy
                                                   valami borzasztó nagy összeütközés... három autó
@@ -1085,189 +1110,190 @@
                                                   de hol? - kérdezem. Hát, azt mondja Cegléd
                                                   mellett. Na, erre egy kicsit megnyugodtam, mert ti
                                                   úgysem jártok arrafelé.</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Á, csak itt furikázunk, Pesten.</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Azt hiszem, lassan megterítek... <stage>(Elkezd
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Á, csak itt furikázunk, Pesten.</p>
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Azt hiszem, lassan megterítek... <stage>(Elkezd
                                                   rakosgatni az asztalon.)</stage></p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p><stage>(Nézi a tévét az apja mellett.)</stage>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p><stage>(Nézi a tévét az apja mellett.)</stage>
                                                   És most hol fog elhelyezkedni?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Kicsoda?</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Vanda. Valami munka kellene neki, nem?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Ott dolgozik a trösztnél. Még a barátom vitte
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Kicsoda?</p>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Vanda. Valami munka kellene neki, nem?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Ott dolgozik a trösztnél. Még a barátom vitte
                                                   be, tudod, a Vili bácsi...</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Döncinek azt mondták, kilépett. Hogy rumlizott
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Döncinek azt mondták, kilépett. Hogy rumlizott
                                                   valakivel, vagy micsoda...</p>
-                                                  </sp>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Sacikám, megkérnélek, szedd le az asztalról ezt
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Sacikám, megkérnélek, szedd le az asztalról ezt
                                                   a sok mindent, hozom az abroszt, terítek...
                                                   <stage>(Kimegy.)</stage></p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p><stage>(Leszedi az asztalról a virágvázát,
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p><stage>(Leszedi az asztalról a virágvázát,
                                                   hamutartót, csipkét stb.)</stage> Mit is mondtak
                                                   neked a telefonba? Hogy a maga hisztis nővére,
                                                   vagy hogy is fejezték ki magukat?</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Tudom is én már! Várj egy kicsit! Ez Róma!
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Tudom is én már! Várj egy kicsit! Ez Róma!
                                                   Isten bizony, Róma!</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Tényleg! Róma! Nahát!
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Tényleg! Róma! Nahát!
                                                   <stage>(Bódognak.)</stage> Mi voltunk Rómában!</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Na, ugye, megismerem! Mindjárt megismertem! A
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Na, ugye, megismerem! Mindjárt megismertem! A
                                                   Via Veneto! Emlékszel azokra a kék meg vörös
                                                   abroszokra?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Hol voltak itt kék meg vörös abroszok?</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Sacinak mondom... azok a kék meg vörös
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Hol voltak itt kék meg vörös abroszok?</p>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Sacinak mondom... azok a kék meg vörös
                                                   abroszok, a Cinzano-reklám színe...
                                                   <stage>(Nevet.)</stage> Meg azok a gyönyörű
                                                   szifonok az asztalokon! Ott voltak csak úgy
                                                   szabadon, az utcán... a teraszokon... Róma! Nyár!
                                                   Azok a színek!</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>A Via Veneto! <stage>(Közben rakosgat, nézi a
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>A Via Veneto! <stage>(Közben rakosgat, nézi a
                                                   tévét.)</stage> Nézd csak! Ez meg az az utca, ahol
                                                   a vécé volt!</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p><stage>(Nevet.)</stage> Az a vécé! Csak úgy egy
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p><stage>(Nevet.)</stage> Az a vécé! Csak úgy egy
                                                   palánkkal elkerítve! A piszuár!</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Még te mondtad, mi? <stage>(Nevet.)</stage>
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Még te mondtad, mi? <stage>(Nevet.)</stage>
                                                   Hogy ott csak úgy...</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Ez Róma?</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>A Ponté Vecchio!</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>A Ponté Vecchio Firenzében van.</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Ki mondta, hogy nincs Firenzében?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Akkor ez most Róma vagy Firenze?</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Ez Firenze!</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Ki mondta, hogy nem Firenze?</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Á, úgy kapkodják a képeket! Kimennek ezek a
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Ez Róma?</p>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>A Ponté Vecchio!</p>
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>A Ponté Vecchio Firenzében van.</p>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Ki mondta, hogy nincs Firenzében?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Akkor ez most Róma vagy Firenze?</p>
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Ez Firenze!</p>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Ki mondta, hogy nem Firenze?</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Á, úgy kapkodják a képeket! Kimennek ezek a
                                                   filmesek, ott passzióznak hetekig, de a képeket
                                                   úgy kapkodják, mintha más nem is lenne kíváncsi
                                                   semmire, csak ők!</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Beszéltem Lalával. Tudod, a mélyépítőktől.
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Beszéltem Lalával. Tudod, a mélyépítőktől.
                                                   Szerez nekem ötezer darab téglát. Használtat.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Majd le kell kaparni róluk a maltert.</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Le, de az semmi. Irtó olcsón tudja szerezni,
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Majd le kell kaparni róluk a maltert.</p>
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Le, de az semmi. Irtó olcsón tudja szerezni,
                                                   nem is túl hibás, bontási anyag, de elég épek.
                                                   Garázsnak megteszi.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Még háznak is! Majd aztán a cement. Az is
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Még háznak is! Majd aztán a cement. Az is
                                                   kell.</p>
-                                                  </sp>
-                                                  <sp who="#donci">
-                                                  <speaker>DÖNCI</speaker>
-                                                  <p>Hát persze. Egy-á cement.</p>
-                                                  </sp>
-                                                  <sp who="#bodog">
-                                                  <speaker>BÓDOG</speaker>
-                                                  <p>Azt majd Vili bácsi. Vili bácsi mindent elin­
+        </sp>
+        <sp who="#donci">
+          <speaker>DÖNCI</speaker>
+          <p>Hát persze. Egy-á cement.</p>
+        </sp>
+        <sp who="#bodog">
+          <speaker>BÓDOG</speaker>
+          <p>Azt majd Vili bácsi. Vili bácsi mindent elin­
                                                   téz nekem.</p>
-                                                  
-                                                  </sp>
-                        <p><stage>Bódogné bejön a tányérokkal, abrosszal.
+        </sp>
+        <p>
+          <stage>Bódogné bejön a tányérokkal, abrosszal.
                                                   Saci segít neki teríteni. De a tévét nézik, beszéd
-                                                  és terítés közben is.</stage></p>
-                                                  <sp who="#bodogne">
-                                                  <speaker>BÓDOGNÉ</speaker>
-                                                  <p>Na, még ennyi maradt a készletből. Tudod, hogy
+                                                  és terítés közben is.</stage>
+        </p>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Na, még ennyi maradt a készletből. Tudod, hogy
                                                   az a nagy herendi tál is eltört? Én nem is értem.
                                                   Kicsúszott a kezemből. Mostanában olyan ügyetlen
                                                   vagyok.</p>
-                                                  </sp>
-                                                  <sp who="#saci">
-                                                  <speaker>SACI</speaker>
-                                                  <p>Én jénaira rendezkedtem be. Tál, tányér,
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p>Én jénaira rendezkedtem be. Tál, tányér,
                                                   minden.</p>
-                                                  </sp>
-                        <sp who="#bodogne">
-                                                <speaker>BÓDOGNÉ</speaker>
-                                                <p>Meg is sirattam. Apátok szidott, hogy mit siratok
+        </sp>
+        <sp who="#bodogne">
+          <speaker>BÓDOGNÉ</speaker>
+          <p>Meg is sirattam. Apátok szidott, hogy mit siratok
             azon a tálon? Az még a nagymamáé volt. A nagymama harminc éven át vigyázott rá. Nem,
             dehogyis! Negyven évig. Nekem meg kicsúszott a kezemből. Mintha valaki meghalt volna. Ő
             meg azt kérdi, mit siratok azon a tálon.</p>
-                        </sp>
-                        <sp who="#saci">
-                                                <speaker>SACI</speaker>
-                                                <p><stage>(A férfiakhoz.)</stage> Ki ez a szemüveges
+        </sp>
+        <sp who="#saci">
+          <speaker>SACI</speaker>
+          <p><stage>(A férfiakhoz.)</stage> Ki ez a szemüveges
             bemondó?</p>
-                        </sp>
+        </sp>
         <sp who="#donci">
           <speaker>DÖNCI</speaker>
           <p>Bánkúti.</p>
@@ -1416,9 +1442,11 @@
         <sp who="#donci">
           <speaker>DÖNCI</speaker>
           <p><stage>(Erélyesen.)</stage> A nyolc sem!</p>
-          
-        </sp><p><stage>Vanda lép be, kicsit felfrissülve, sárga frottírköntösben. Mosolyogva áll meg az
-              ajtóban.</stage></p>
+        </sp>
+        <p>
+          <stage>Vanda lép be, kicsit felfrissülve, sárga frottírköntösben. Mosolyogva áll meg az
+              ajtóban.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p>Ni csak! Összejött a család!</p>
@@ -1526,8 +1554,11 @@
         <sp who="#donci">
           <speaker>DÖNCI</speaker>
           <p>Na, képzelem, mit írtak be a munkakönyvedbe! És most mi lesz?</p>
-          </sp><p><stage>Vanda vállat von, titokzatos arccal, szórakozva fújja ki a
-              cigarettafüstöt.</stage></p>
+        </sp>
+        <p>
+          <stage>Vanda vállat von, titokzatos arccal, szórakozva fújja ki a
+              cigarettafüstöt.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Velem aztán nem mert pimaszkodni soha senki! Igaz, anya? Csak odaálltam az illető elé,
@@ -1733,14 +1764,18 @@
           <speaker>BÓDOG</speaker>
           <p><stage>(Szívja a szivart.)</stage> Egészen jó ez a Csongor. Egy darabig Dózsát szívtam,
             de ez a Csongor egészen zamatos...</p>
-          
-        </sp><p><stage>Kint ajtónyitás, lábdobogás.</stage></p>
+        </sp>
+        <p>
+          <stage>Kint ajtónyitás, lábdobogás.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Na végre!</p>
-          
-        </sp><p><stage>Nyílik az ajtó, Imrus lép be, szőke, kicsit hosszú hajúfiú, magas nyakú pulóvert
-              és farmernadrágot visel. Szolid, álmodozó.</stage></p>
+        </sp>
+        <p>
+          <stage>Nyílik az ajtó, Imrus lép be, szőke, kicsit hosszú hajúfiú, magas nyakú pulóvert
+              és farmernadrágot visel. Szolid, álmodozó.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p>Az ünnepelt!</p>
@@ -1809,8 +1844,10 @@
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p><stage>(Utánakiált)</stage> Most jut eszedbe?!</p>
-          
-        </sp><p><stage>Közben Imrus és Bódogné kimennek balra.</stage></p>
+        </sp>
+        <p>
+          <stage>Közben Imrus és Bódogné kimennek balra.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Na! így néz ki egy ünnepi vacsora! Eh! <stage>(Hirtelen a tévére tekint, átszellemült
@@ -1912,14 +1949,18 @@
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Csak mollyal. A régi rongyaid miatt.</p>
-          
-        </sp><p><stage>Bejön Vanda, élénk színű ruhában, a haja kibontva.</stage></p>
+        </sp>
+        <p>
+          <stage>Bejön Vanda, élénk színű ruhában, a haja kibontva.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Miért nem lehet időben elkészülni a vacsorához, Vanda? Miért kell mindig
             különcködni?</p>
         </sp>
-        <p><stage>Vanda szó nélkül leül, nézi a tálat.</stage></p>
+        <p>
+          <stage>Vanda szó nélkül leül, nézi a tálat.</stage>
+        </p>
         <sp who="#donci">
           <speaker>DÖNCI</speaker>
           <p>Ez folyami ponty vagy tavi?</p>
@@ -1988,7 +2029,9 @@
           <speaker>BÓDOG</speaker>
           <p>Ez már a vérünkben van! Ez már ilyen fajta!</p>
         </sp>
-        <p><stage>Imrus jön be, megáll mögöttük az asztalnál.</stage></p>
+        <p>
+          <stage>Imrus jön be, megáll mögöttük az asztalnál.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Na, tessék! Hát te hol voltál?</p>
@@ -2104,7 +2147,9 @@
           <speaker>VANDA</speaker>
           <p>Bors nélkül.</p>
         </sp>
-        <p><stage>Imrus kuncog.</stage></p>
+        <p>
+          <stage>Imrus kuncog.</stage>
+        </p>
         <sp who="#bodogne">
           <speaker>BÓDOGNÉ</speaker>
           <p>Istenem, most jön ezzel a szmokinggal! Most keresi a szmokingot! Amikor közben volt egy
@@ -2293,7 +2338,9 @@
         </sp>
         <sp who="#imrus">
           <speaker>IMRUS</speaker>
-          <p><stage>(Tekintete a tévén, hátrál, kinyitja az ajtót, rálép a cserepekre.)</stage></p>
+          <p>
+            <stage>(Tekintete a tévén, hátrál, kinyitja az ajtót, rálép a cserepekre.)</stage>
+          </p>
         </sp>
         <sp who="#bodogne">
           <speaker>BÓDOGNÉ</speaker>
@@ -2387,8 +2434,10 @@
           <speaker>IMRUS</speaker>
           <p><stage>(Felugrik.)</stage> Oda nézzetek! Köveket szednek fel a talajról!</p>
         </sp>
-        <p><stage>Éppen nyílik az ajtó. Bódogné jön be a tortával, Imrus hadonászó karjával
-            nekiütközik a nyíló ajtónak.</stage></p>
+        <p>
+          <stage>Éppen nyílik az ajtó. Bódogné jön be a tortával, Imrus hadonászó karjával
+            nekiütközik a nyíló ajtónak.</stage>
+        </p>
         <sp who="#bodogne">
           <speaker>BÓDOGNÉ</speaker>
           <p><stage>(Egyensúlyát vesztve.)</stage> A torta, fiam! A torta, amit neked csináltam!</p>
@@ -2611,7 +2660,9 @@
         <sp who="#donci">
           <speaker>DÖNCI</speaker>
           <p><stage>(Kényszeredetten.)</stage> Nem...</p>
-          <p><stage>Saci elégedetten visszafészkelődik a helyére.</stage></p>
+          <p>
+            <stage>Saci elégedetten visszafészkelődik a helyére.</stage>
+          </p>
         </sp>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
@@ -2629,7 +2680,9 @@
               tag...<stage>(Meglátja a szivarosdobozt a komódon.)</stage> Anya, add ide a
             szivarosdobozomat!</p>
         </sp>
-        <p><stage>Bódognéfeláll, viszi a dobozt meg a szivarvágót.</stage></p>
+        <p>
+          <stage>Bódognéfeláll, viszi a dobozt meg a szivarvágót.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Itt vagyok például én! Ha belegondolok, hogy hol kezdtem! <stage>(Választ egy szivart,
@@ -2857,7 +2910,9 @@
           <p>Akkor a kisebbik főzőben... Imrus, gyere, én ahhoz a konnektorhoz nem nyúlok, ráz,
             gyere, fiacskám...</p>
         </sp>
-        <p><stage>Imrus és Bódogné kimennek.</stage></p>
+        <p>
+          <stage>Imrus és Bódogné kimennek.</stage>
+        </p>
         <sp who="#donci">
           <speaker>DÖNCI</speaker>
           <p>Hogy a fenébe. Vanda, hát egyáltalán nem mondtad meg az öregeknek, hogy kiléptél a
@@ -3033,8 +3088,10 @@
           <speaker>DÖNCI</speaker>
           <p>Ha nincs az a hiszti a gázzal ott a konyhában, akkor el sem mentek volna.</p>
         </sp>
-        <p><stage>Vanda kicsit előbbre sétál, enyhe mosollyal nézi a tévét, lassan leül a földre,
-            maga alá húzza a lábát.</stage></p>
+        <p>
+          <stage>Vanda kicsit előbbre sétál, enyhe mosollyal nézi a tévét, lassan leül a földre,
+            maga alá húzza a lábát.</stage>
+        </p>
         <sp who="#saci">
           <speaker>SACI</speaker>
           <p>Ugyan, ne is említsd azt a gázügyet, Dönci! <stage>(Vandához.)</stage> Amikor rád
@@ -3264,7 +3321,9 @@
           <speaker>SACI</speaker>
           <p><stage>(Riadtan.)</stage> Mit vettél be?</p>
         </sp>
-        <p><stage>Vanda nem válaszol.</stage></p>
+        <p>
+          <stage>Vanda nem válaszol.</stage>
+        </p>
         <sp who="#saci">
           <speaker>SACI</speaker>
           <p>Te! Dönci! Istenem! Ez valami mérget vett be!</p>
@@ -3426,7 +3485,9 @@
           <p><stage>(Megrettenve.)</stage> De nekem az nem úgy kell! Nekem egészen kell a másik...
             Valaki teljesen... <stage>(Sír.)</stage> Nem tudok meglenni egyedül...</p>
         </sp>
-        <p><stage>Kis csend.</stage></p>
+        <p>
+          <stage>Kis csend.</stage>
+        </p>
         <sp who="#saci">
           <speaker>SACI</speaker>
           <p><stage>(Sóhajtva.)</stage> Hát igen... <stage>(A tévére néz, erről eszébe jut.)</stage>
@@ -3444,13 +3505,17 @@
           <speaker>DÖNCI</speaker>
           <p>Ha gyapjú, akkor szúr.</p>
         </sp>
-        <p><stage>Vanda a háttérbe húzódik, leül, a halántékát nyomkodja.</stage></p>
+        <p>
+          <stage>Vanda a háttérbe húzódik, leül, a halántékát nyomkodja.</stage>
+        </p>
         <sp who="#saci">
           <speaker>SACI</speaker>
           <p>Nem szúr. Megnéztem, finom, puha...</p>
         </sp>
-        <p><stage>Nagy zajjal nyílik az ajtó. Bódogné csészékbe öntve hoz­ za a kávét, utána Bódog
-            jön hangoskodva.</stage></p>
+        <p>
+          <stage>Nagy zajjal nyílik az ajtó. Bódogné csészékbe öntve hoz­ za a kávét, utána Bódog
+            jön hangoskodva.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p><stage>(A feleségének.)</stage> ...Akkor sem kell, hogy annyira beszokjon hozzá!</p>
@@ -3545,7 +3610,9 @@
           <p>Én nem tudom, de Imrus azt mondta, hogy egy bizonyos ügyben... - Vanda! A kávé! Nem
             kérsz kávét, Vanda?</p>
         </sp>
-        <p><stage>Vanda lassan feltekint, mintha nem is értené.</stage></p>
+        <p>
+          <stage>Vanda lassan feltekint, mintha nem is értené.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Végre együtt van a család, Imrusban lehetne annyi illem...</p>
@@ -3602,26 +3669,30 @@
               kiáltják: „A krimi!” - Izgatottan a készülék elé telepszenek, és mereven bámulják a
               képernyőt)</stage></p>
         </sp>
-        <p><stage>Függöny</stage></p>
-  
-             
-          
-        
-                                                 
-                                                  </div>
+        <p>
+          <stage>Függöny</stage>
+        </p>
+      </div>
       <div type="act">
         <head type="title">Második rész</head>
-        <p><stage>A szín ugyanaz, mint az első részben. Az asztalon még néhány edény: tányérok a
-          tortának, borosüveg, szifon, poharak, csészék. Tízperc telhetett el.</stage></p>
-            
-            <p><stage>Vanda nincs a szobában.</stage></p>
-        <p><stage>Amikor afüggönyfelmegy, Bódog afőhelyen ül, mellette Dönci, kicsit arrább
-            Saci.</stage></p>
-        <p><stage>Valamennyien velünk szemben - hiszen a tévét nézik - izgatottan. A bal oldali
+        <p>
+          <stage>A szín ugyanaz, mint az első részben. Az asztalon még néhány edény: tányérok a
+          tortának, borosüveg, szifon, poharak, csészék. Tízperc telhetett el.</stage>
+        </p>
+        <p>
+          <stage>Vanda nincs a szobában.</stage>
+        </p>
+        <p>
+          <stage>Amikor afüggönyfelmegy, Bódog afőhelyen ül, mellette Dönci, kicsit arrább
+            Saci.</stage>
+        </p>
+        <p>
+          <stage>Valamennyien velünk szemben - hiszen a tévét nézik - izgatottan. A bal oldali
             ajtónál kis nyüzsgés: Szűcs úr, a szomszéd igyekezne befelé háromkerekű, önhajtós
             tolókocsiján, de a masina beleakadt a fél ajtószárnyba: Bódogné és Imrus segédkeznek, de
             alig tudják kiszabadítani, s kitárni az ajtót. Szűcs úr mindkét lábára béna, fején
-            kötött sísapka, vállán pokróc, kezében esernyő.</stage></p>
+            kötött sísapka, vállán pokróc, kezében esernyő.</stage>
+        </p>
         <sp who="#imrus">
           <speaker>IMRUS</speaker>
           <p><stage>(Görnyedten, a tolószékkel bíbelődve.)</stage> Hát ez így nem megy...</p>
@@ -3961,15 +4032,19 @@
           <p>Nem kell elhagynia magát az embernek! Ennyi az egész! Jól néztem volna ki, ha elhagytam
             volna magam! Hm! Szerettem volna látni! Ajaj! Fejfájás! Meg szívfájás!...</p>
         </sp>
-        <p><stage>Kopognak a bal oldali ajtón.</stage></p>
+        <p>
+          <stage>Kopognak a bal oldali ajtón.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Na, ez meg ki lehet? Tessék! Tessék, kérem! ...</p>
         </sp>
-        <p><stage>Nyílik az ajtó - magas, sovány, szőke szakállas férfi lép be: Emberfi. Csillogó
+        <p>
+          <stage>Nyílik az ajtó - magas, sovány, szőke szakállas férfi lép be: Emberfi. Csillogó
             kék szeme, szelíd arca az orosz ikonok Krisztusára emlékeztet. Bő, fehér, gallértalan
             inget visel, szűk nadrágot, és mezítelen lábán pántos sarut. Imrus jön mögötte, szinte
-            betuszkolja: Emberfi mintha nem akarna zavarni, megáll az ajtóban, meghajol.</stage></p>
+            betuszkolja: Emberfi mintha nem akarna zavarni, megáll az ajtóban, meghajol.</stage>
+        </p>
         <sp who="#emberfi">
           <speaker>EMBERFI</speaker>
           <p>Békesség e háznak és gazdájának!</p>
@@ -4212,15 +4287,19 @@
           <speaker>SACI</speaker>
           <p><stage>(Felsikolt.)</stage> Jaj! A lépcsőn az az árnyék!</p>
         </sp>
-        <p><stage>Egypillanatnyi csend, majd lassú ajtónyikordulás- mintha a krimihez tartozna - a
+        <p>
+          <stage>Egypillanatnyi csend, majd lassú ajtónyikordulás- mintha a krimihez tartozna - a
             jobb felőli ajtó nyílik, s megjelenik Vanda áttetsző nylonköntösben; alatta csak bugyi
-            van és melltartó; maga elé tartott kézzeljön, mint egy szellem.</stage></p>
+            van és melltartó; maga elé tartott kézzeljön, mint egy szellem.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p><stage>(Csúfondárosan.)</stage> Huhu!</p>
         </sp>
-        <p><stage>Összerezzennek, csak Emberfi néz nyugodtan Vandára. Imrus
-          megrökönyödik.</stage></p>
+        <p>
+          <stage>Összerezzennek, csak Emberfi néz nyugodtan Vandára. Imrus
+          megrökönyödik.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p>Huhu!...</p>
@@ -4574,7 +4653,9 @@
           <speaker>EMBERFI</speaker>
           <p><stage>(Hosszan nézi Vandát.)</stage> Hogy beteljesül, amit várunk.</p>
         </sp>
-        <p><stage>Imrus bizakodva figyeli Emberfit.</stage></p>
+        <p>
+          <stage>Imrus bizakodva figyeli Emberfit.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p><stage>(Halkan felnevet.)</stage> Ezt komolyan hiszi? <stage>(Közelebb megy
@@ -4611,17 +4692,23 @@
           <speaker>EMBERFI</speaker>
           <p>Talán egy kortyot...</p>
         </sp>
-        <p><stage>Vanda az asztalhoz megy, tölt.</stage></p>
+        <p>
+          <stage>Vanda az asztalhoz megy, tölt.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Ha már itt vagy, tölts az én poharamba is... hadd koccintsunk!</p>
         </sp>
-        <p><stage>Vanda tölt neki is, átadja a poharat, a másikat Emberfinek nyújtja.</stage></p>
+        <p>
+          <stage>Vanda tölt neki is, átadja a poharat, a másikat Emberfinek nyújtja.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p><stage>(Csendesen.)</stage> Szép keze van.</p>
         </sp>
-        <p><stage>Emberfi értetlenül nézi.</stage></p>
+        <p>
+          <stage>Emberfi értetlenül nézi.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p>Mondom a keze... nagyon tetszik... <stage>(Az öccséhez.)</stage> Imrus, te nem
@@ -4703,8 +4790,10 @@
             akkor hozd be azt, amit Dönciék vettek... eldiskurálunk itt... Krisztosz úr is inna
             még...</p>
         </sp>
-        <p><stage>Közben Vanda a sarokban bekapcsolja a lemezjátszót, feltesz egy lassú
-            táncszámot.</stage></p>
+        <p>
+          <stage>Közben Vanda a sarokban bekapcsolja a lemezjátszót, feltesz egy lassú
+            táncszámot.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Vanda, mit csinálsz?</p>
@@ -5073,7 +5162,9 @@
             egymás iránt szeretettel, s cselekednétek a jót, s ne legyen öldöklés és háború, és
             harag és megvetés, hogy ne legyen gazdag és szegény...</p>
         </sp>
-        <p><stage>Vanda érdeklődése lohad.</stage></p>
+        <p>
+          <stage>Vanda érdeklődése lohad.</stage>
+        </p>
         <sp who="#szucs_ur">
           <speaker>SZŰCS</speaker>
           <p><stage>(Kuncogva felnevet.)</stage> Az a kövér pasi! Nem tud kimászni a kocsiból! Ki az
@@ -5156,7 +5247,9 @@
             felemelte az embert az állati sorból, az értelem, ami gazdaggá teszi az életet és
             szabaddá a lelket, a hit világossága...</p>
         </sp>
-        <p><stage>Elhallgat, fáradtan a szakállába túr.</stage></p>
+        <p>
+          <stage>Elhallgat, fáradtan a szakállába túr.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p><stage>(A lemezjátszó mellől, csalódott hangon.)</stage> A hit világossága! Nem erre
@@ -5177,7 +5270,9 @@
               <stage>(Emberfihez.)</stage> Én meg ilyeneket tudok, na? Mondhatjuk felváltva, ha
             jobbat nem tudunk!</p>
         </sp>
-        <p><stage>Emberfi zavartan, kéztördelve leül.</stage></p>
+        <p>
+          <stage>Emberfi zavartan, kéztördelve leül.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Én nem is értem, hogy ez most hogy került szóba? Diskurálunk itt meg tévézünk, de hogy
@@ -5231,7 +5326,9 @@
             tudom megmondani, ha olyan messze van. Miért nem jön egy kicsit ide, hozzám? Na, jöjjön
             ide!</p>
         </sp>
-        <p><stage>Emberfi zavartan körültekint, majd hozzálép.</stage></p>
+        <p>
+          <stage>Emberfi zavartan körültekint, majd hozzálép.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p>Vannak dolgok, amiket nehéz kimondani egy nőnek, de egy férfinak ki kell találni, hogy
@@ -5372,10 +5469,14 @@
           <p><stage>(Türelmét vesztve.)</stage> Akarja, hogy szűnjön meg! Akarja, hogy szűnjön
             meg!</p>
         </sp>
-        <p><stage>Emberfi gyámoltalanul rátekint, kényszeredetten a tévé  felé tárja a karját, arcán
-          keserűgyötrelem. Hirtelen visszarántja a karját, hátralép.</stage></p>
-            <p><stage>Valamennyienfelhördülnek, egypillanatig hitetlenkedve bámulják a képernyőt,
-                aztán egymás szavába vágvafel­ ugrálnak, kiabálnak.</stage></p>
+        <p>
+          <stage>Emberfi gyámoltalanul rátekint, kényszeredetten a tévé  felé tárja a karját, arcán
+          keserűgyötrelem. Hirtelen visszarántja a karját, hátralép.</stage>
+        </p>
+        <p>
+          <stage>Valamennyienfelhördülnek, egypillanatig hitetlenkedve bámulják a képernyőt,
+                aztán egymás szavába vágvafel­ ugrálnak, kiabálnak.</stage>
+        </p>
         <sp who="#saci">
           <speaker>SACI</speaker>
           <p>Jézusom, mi történt a tévével?!</p>
@@ -5409,8 +5510,10 @@
           <speaker>SACI</speaker>
           <p>Megüti az embert a guta! A legjobb résznél...</p>
         </sp>
-        <p><stage>Emberfi bűntudatosan hátrál, egy mozdulattal mutatja Imrusnak, hogy lám, ez lett
-            belőle.</stage></p>
+        <p>
+          <stage>Emberfi bűntudatosan hátrál, egy mozdulattal mutatja Imrusnak, hogy lám, ez lett
+            belőle.</stage>
+        </p>
         <sp who="#imrus">
           <speaker>IMRUS</speaker>
           <p>Figyeljetek ide! Most legalább figyeljetek ide!</p>
@@ -5488,9 +5591,11 @@
           <speaker>SACI</speaker>
           <p>Tessék újra! Nem kell leszállni róla!</p>
         </sp>
-        <p><stage>Miközben Bódog motyogva tárcsáz „Három-három-három:... három-három-három... ” a
+        <p>
+          <stage>Miközben Bódog motyogva tárcsáz „Három-három-három:... három-három-három... ” a
             többiek ott tolonganak körötte, és vele mondják. S közben kérdik: - „Jelent­ kezik?”
-            Bódog ingatja a fejét, újra tárcsáz, motyogva.</stage></p>
+            Bódog ingatja a fejét, újra tárcsáz, motyogva.</stage>
+        </p>
         <sp who="#emberfi">
           <speaker>EMBERFI</speaker>
           <p><stage>(Imrushoz.)</stage> Látod... látod, hiába.</p>
@@ -5508,13 +5613,17 @@
           <speaker>IMRUS</speaker>
           <p><stage>(Gúnyosan.)</stage> Csak tessék! Csak tessék, ha magának mindegy!</p>
         </sp>
-        <p><stage>Vanda mozdulatlanul nézi őket.</stage></p>
+        <p>
+          <stage>Vanda mozdulatlanul nézi őket.</stage>
+        </p>
         <sp who="#emberfi">
           <speaker>EMBERFI</speaker>
           <p><stage>(Feszélyezetten.)</stage> Nem mindegy... de ma... ma nem kellett volna erre
             vállalkoznom. Indiszponált vagyok... Azt hiszem, jobb, ha most elindítjuk a tévét...</p>
         </sp>
-        <p><stage>Imrus nem válaszol, megbántottan, csalódottan elfordul.</stage></p>
+        <p>
+          <stage>Imrus nem válaszol, megbántottan, csalódottan elfordul.</stage>
+        </p>
         <sp who="#emberfi">
           <speaker>EMBERFI</speaker>
           <p>Ne érts félre... nincs semmi baj, csak ma... <stage>(Türelmetlenül a tévé felé fordul,
@@ -5546,8 +5655,10 @@
           <speaker>SACI</speaker>
           <p>Tényleg, Dönci neked olyan szerencsés kezed van...</p>
         </sp>
-        <p><stage>Emberfi végre kínlódva beindítja a tévét. Sóhajtva, megkönnyebbülten
-            hátrál.</stage></p>
+        <p>
+          <stage>Emberfi végre kínlódva beindítja a tévét. Sóhajtva, megkönnyebbülten
+            hátrál.</stage>
+        </p>
         <sp who="#donci">
           <speaker>DÖNCI</speaker>
           <p><stage>(Tárcsáz.)</stage> Lassan kell... és végig a tárcsát. .. nem kapkodni...</p>
@@ -5557,7 +5668,9 @@
           <p><stage>(Véletlenül a tévére pillant, felkiált.)</stage> De hiszen ez megjavult! Megy az
             adás!</p>
         </sp>
-        <p><stage>Mind visszafutnak a tévéhez. Dönci leteszi a kagylót.</stage></p>
+        <p>
+          <stage>Mind visszafutnak a tévéhez. Dönci leteszi a kagylót.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Hát ez még nem fordult elő egyszer sem, amikor a miniszterek beszélnek, vagy a kohókat
@@ -5576,7 +5689,9 @@
           <speaker>DÖNCI</speaker>
           <p>Á, ki tudja, milyen fontos dolgokat hagytunk ki!</p>
         </sp>
-        <p><stage>Ismét belezuhannak az áhítatos izgalomba.</stage></p>
+        <p>
+          <stage>Ismét belezuhannak az áhítatos izgalomba.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p><stage>(Lassan Emberfihez megy.)</stage> Csak nézem magát, nézem magát, hogy miket
@@ -5661,7 +5776,9 @@
           <p>Én azért születtem, hogy feloldjam az emberek szenvedését! Hogy ne legyen se testi, se
             lelki nyomorúság...</p>
         </sp>
-        <p><stage>Vanda meglepetten nézi, Emberfi kiegyenesedve, lelkesen folytatja.</stage></p>
+        <p>
+          <stage>Vanda meglepetten nézi, Emberfi kiegyenesedve, lelkesen folytatja.</stage>
+        </p>
         <sp who="#emberfi">
           <speaker>EMBERFI</speaker>
           <p>...azt akarom, hogy felemeljétek a fejeteket, és elhagyjátok a közömbösség igáját
@@ -5720,9 +5837,11 @@
           <speaker>VANDA</speaker>
           <p>Mit szólnak? Hogy ők mit szólnak, ez még érdekli magát?</p>
         </sp>
-        <p><stage>Feltesz egy lemezt: az „Ave Maria ” című spanyol táncszámot. Magával cipeli
+        <p>
+          <stage>Feltesz egy lemezt: az „Ave Maria ” című spanyol táncszámot. Magával cipeli
             Emberfit, az félszegen vonakodik, s egypillanatra meg is döbben, amikor a kezdő motívum
-            utánfelcsendül a dal, de végül is táncol.</stage></p>
+            utánfelcsendül a dal, de végül is táncol.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p>Ó, és még maga mondja, hogy nem tud táncolni!</p>
@@ -5763,14 +5882,18 @@
             tudnám venni, hogy feleségül vegyen. De nem, nem. Minek? Ha eljön velem!... Amióta
             benyitott hozzám a fürdőszobába, csak erre gondolok.</p>
         </sp>
-        <p><stage>Bódogné az asztalnál szunyókál. Bódog is elalszik lassan. A többiek a tévét nézik,
+        <p>
+          <stage>Bódogné az asztalnál szunyókál. Bódog is elalszik lassan. A többiek a tévét nézik,
             izgulnak: a fenti beszélgetés alatt fel-felkiáltanak, ilyesmit: „Bekerítették!” „Jaj,
             kés van nála!” „Ó, hála isten, észrevette!” „A kocsi a ház előtt!”„Most, most lecsapni
             rájuk!”stb. Mindezt rendszertelenül, hol egyikük, hol másikuk. És némán is reagálnak,
             vagy csak egy-egy nevetés, sikoly erejéig. A jelenet végén Bódog Dönci halk kiáltására
-            felrezzen, pislogva nézi a krimi végét.</stage></p>
-        <p><stage>Imrus a háttérből lassan elindul a táncolokfelé, megáll, szemrehányóan nézi
-            Emberfit, aztán megfordul, és sietve bemegy a másik szobába.</stage></p>
+            felrezzen, pislogva nézi a krimi végét.</stage>
+        </p>
+        <p>
+          <stage>Imrus a háttérből lassan elindul a táncolokfelé, megáll, szemrehányóan nézi
+            Emberfit, aztán megfordul, és sietve bemegy a másik szobába.</stage>
+        </p>
         <sp who="#saci">
           <speaker>SACI</speaker>
           <p>Ó, ez lett a vége?</p>
@@ -5950,7 +6073,9 @@
           <speaker>EMBERFI</speaker>
           <p>Bizonyára önkéntelenül...</p>
         </sp>
-        <p><stage>Vanda iszik.</stage></p>
+        <p>
+          <stage>Vanda iszik.</stage>
+        </p>
         <sp who="#emberfi">
           <speaker>EMBERFI</speaker>
           <p>Sok lesz már, ne igyon annyit!</p>
@@ -5959,8 +6084,12 @@
           <speaker>VANDA</speaker>
           <p>Mert nem akart rám nézni, ugye? Miért nem akart rám nézni?...</p>
         </sp>
-        <p><stage>Emberfi zavartan félrepillant.</stage></p>
-        <p><stage>Vanda simogatja a pohara szélét, tekintetét le nem venné Emberfiről.</stage></p>
+        <p>
+          <stage>Emberfi zavartan félrepillant.</stage>
+        </p>
+        <p>
+          <stage>Vanda simogatja a pohara szélét, tekintetét le nem venné Emberfiről.</stage>
+        </p>
         <sp who="#szucs_ur">
           <speaker>SZŰCS</speaker>
           <p>Hát én nem is nézem ezt a híradót... <stage>(Visszaül a kocsijába.)</stage>
@@ -5978,7 +6107,9 @@
           <speaker>SZŰCS</speaker>
           <p>Ígérik, ígérik, de tudja, hogy van ez! A kormányfők utaznak, ki törődik velem?</p>
         </sp>
-        <p><stage>Bódogné bólogatva kimegy az előszobába.</stage></p>
+        <p>
+          <stage>Bódogné bólogatva kimegy az előszobába.</stage>
+        </p>
         <sp who="#donci">
           <speaker>DÖNCI</speaker>
           <p>Na, Saci, mi is megyünk, szedd a cuccot!</p>
@@ -6008,7 +6139,9 @@
           <p><stage>(Emberfihez.)</stage> Vasárnap... Most vasárnap elmehetnénk abba a
             menedékházba...</p>
         </sp>
-        <p><stage>Emberfi rátekint, aztán mindjárt Bódogra.</stage></p>
+        <p>
+          <stage>Emberfi rátekint, aztán mindjárt Bódogra.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p><stage>(Bontogatja a csomagot, legyint.)</stage> Elmegyünk, elmegyünk!
@@ -6079,9 +6212,11 @@
           <p>Kettőharminc, persze! Semmi több! <stage>(A tévére mutat.)</stage> Na, tessék, megint
             ez a beatricsaj!</p>
         </sp>
-        <p><stage>Mindannyian a tévét nézik. Imrus jön be jobbról, nagykabátban, hajadonfőit, egy
+        <p>
+          <stage>Mindannyian a tévét nézik. Imrus jön be jobbról, nagykabátban, hajadonfőit, egy
             lakkbőrönddel. Kezében sál. Átmegy előttük, de nem veszik észre. A tévé előtt kicsúszik
-            kezéből a sál. A kijárathoz megy, megáll, visszafordul.</stage></p>
+            kezéből a sál. A kijárathoz megy, megáll, visszafordul.</stage>
+        </p>
         <sp who="#imrus">
           <speaker>IMRUS</speaker>
           <p>Elmegyek... <stage>(Köhint.)</stage> Elmegyek innen... Én nem akarom ezt... ezt a... Én
@@ -6104,7 +6239,9 @@
           <speaker>EMBERFI</speaker>
           <p><stage>(Meglátja Imrust.)</stage> Imrus. Hát te?!</p>
         </sp>
-        <p><stage>Imrus szemrehányóan nézi.</stage></p>
+        <p>
+          <stage>Imrus szemrehányóan nézi.</stage>
+        </p>
         <sp who="#szucs_ur">
           <speaker>SZŰCS</speaker>
           <p>Igaza van, szomszéd úr! Nekünk még voltak ideáink! Nagy ideák!...</p>
@@ -6211,7 +6348,9 @@
           <speaker>BÓDOG</speaker>
           <p>A hetvenötösöknél szolgáltam, de azért ismerem a nagyobb kaliberűeket is.</p>
         </sp>
-        <p><stage>Vanda nézi Emberfit, tölt egy pohárba, odaviszi neki.</stage></p>
+        <p>
+          <stage>Vanda nézi Emberfit, tölt egy pohárba, odaviszi neki.</stage>
+        </p>
         <sp who="#vanda">
           <speaker>VANDA</speaker>
           <p><stage>(Emberfinek.)</stage> Igyon még egy kicsit, meglátja, ez jót tesz.</p>
@@ -6238,7 +6377,9 @@
           <p><stage>(Udvariasan.)</stage> Búcsúzom... búcsúznom kell most... <stage>(Bódoghoz
               lép.)</stage> Elnézést! Búcsúzom. ..</p>
         </sp>
-        <p><stage>Vanda ott marad egyedül.</stage></p>
+        <p>
+          <stage>Vanda ott marad egyedül.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p><stage>(Emberfihez.)</stage> Micsoda? Búcsúzik? Csak így, ilyen hamar?</p>
@@ -6384,22 +6525,28 @@
             már, hogy mindig az évszaknak megfelelően kell öltözni! És sapkát is! Sapka és sál! Vagy
             kalap! Kalap, sál, ilyenkor már így illik!</p>
         </sp>
-        <p><stage>Vanda egyre hangosabban nevet. Emberfi zavartan, lehajtottfővel áll.</stage></p>
+        <p>
+          <stage>Vanda egyre hangosabban nevet. Emberfi zavartan, lehajtottfővel áll.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Vanda! Mit nevetsz megint? Mi az isten csu­ dáján nevetsz már megint?!</p>
         </sp>
-        <p><stage>Vanda meggörnyed, nevetése zokogásba csuklik.</stage></p>
+        <p>
+          <stage>Vanda meggörnyed, nevetése zokogásba csuklik.</stage>
+        </p>
         <sp who="#bodog">
           <speaker>BÓDOG</speaker>
           <p>Vanda! Csak azt érteném meg egyszer, hogy mi olyan nevetséges itt mindig?! Mi olyan
             nevetséges?!...</p>
         </sp>
-        <p><stage>A többiek ülve, állva, mind a tévét nézik, merev arccal.</stage></p>
-        <p><stage>Vége</stage></p>
-          
+        <p>
+          <stage>A többiek ülve, állva, mind a tévét nézik, merev arccal.</stage>
+        </p>
+        <p>
+          <stage>Vége</stage>
+        </p>
       </div>
-                                                  
-</body>
-</text>
+    </body>
+  </text>
 </TEI>

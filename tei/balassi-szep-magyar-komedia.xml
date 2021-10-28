@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -205,11 +207,12 @@
     </front>
     <body>
       <div type="act">
-        
         <head type="title">ELSŐ SZÍN</head>
         <div type="scene">
           <head type="title">ACTUS I. SCENA I.</head>
-          <p><stage>Credulus szól őmagában az Hajnalnak.</stage></p>
+          <p>
+            <stage>Credulus szól őmagában az Hajnalnak.</stage>
+          </p>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
             <p>Ó, én veszett fejem! Medgyek immár, ha még piros hajnal is öregbéti, gerjeszti az én
@@ -243,7 +246,9 @@
         </div>
         <div type="scene">
           <head type="title">ACTUS I. SCENA II.</head>
-          <p><stage>Credulus szól egy barátjával, Licidával.</stage></p>
+          <p>
+            <stage>Credulus szól egy barátjával, Licidával.</stage>
+          </p>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
             <p>Mi dolog, társ, Credule, hogy itten keröl mind az te siralmiddal zengenek széllyel az
@@ -432,7 +437,9 @@
         </div>
         <div type="scene">
           <head type="title">ACTUS I. SCENA III.</head>
-          <p><stage>Dienes, az Sylvanus juhásza szól Credulussal.</stage></p>
+          <p>
+            <stage>Dienes, az Sylvanus juhásza szól Credulussal.</stage>
+          </p>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
             <p>Bestyéje, lám ugyan jő az sok veszél fejemre, mint az sok légy az jungátára. Oly nap
@@ -576,7 +583,9 @@
         </div>
         <div type="scene">
           <head type="title">ACTUS I. SCENA IV.</head>
-          <p><stage>Sylvanus szól őmagában, nézvén széllyel Juliát.</stage></p>
+          <p>
+            <stage>Sylvanus szól őmagában, nézvén széllyel Juliát.</stage>
+          </p>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
             <p>Csak egy ösvényen sem tudom az én szerelmes szép Juliámnak kisded nyomát! Ej, jól
@@ -698,7 +707,9 @@
       <div type="act">
         <div type="scene">
           <head type="title">ACTUS II. SCENA I.</head>
-          <p><stage>Julia magában szól, elmélkedvén régi szerelméről.</stage></p>
+          <p>
+            <stage>Julia magában szól, elmélkedvén régi szerelméről.</stage>
+          </p>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
             <p>Nem hiszem, hogy ég alatt, föld kerekségében asszonyállat énnálamnál nyavalyásb,
@@ -717,9 +728,11 @@
               miattam nyomorultan ez világ kerekségében gében széllyel, szegén nyavalyás!</p>
           </sp>
         </div>
-          <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS II. SCENA II.</head>
-          <p><stage>Briseida s Julia szól egymással.</stage></p>
+          <p>
+            <stage>Briseida s Julia szól egymással.</stage>
+          </p>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
             <p>Isten ádjon jó napot, Julia, meg hozzád jüvék!</p>
@@ -854,9 +867,11 @@
               kegyetlenke, ha talám nem tudom, mint kerölnél is!</p>
           </sp>
         </div>
-            <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS II. SCENA III.</head>
-          <p><stage>Sylvanussal az régi szeretője, Galatea szól.</stage></p>
+          <p>
+            <stage>Sylvanussal az régi szeretője, Galatea szól.</stage>
+          </p>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
             <p>Ó, siralmas nap, hogy sohol nem találhatok az én édes, szerelmes Juliámot!</p>
@@ -935,9 +950,11 @@
               nem nyelnék ennyi keserő sok bút!</p>
           </sp>
         </div>
-              <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS II. SCENA IV.</head>
-          <p><stage>Briseida szól Credulussal.</stage></p>
+          <p>
+            <stage>Briseida szól Credulussal.</stage>
+          </p>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
             <p>Ám lásd, ám, ha ilyen rossz ember hazugságához képest kell kétséget s gyanóságot
@@ -1192,9 +1209,11 @@
               állom bosszúmot meg rajtad!</p>
           </sp>
         </div>
-          <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS III. SCENA II.</head>
-          <p><stage>Sylvanus énekelve beszél az tündérasszonnal, Echóval.</stage></p>
+          <p>
+            <stage>Sylvanus énekelve beszél az tündérasszonnal, Echóval.</stage>
+          </p>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
             <p>Nappal vagyon az féléken nyulaknak az agarak, vizslák miatt bántások, s az halaknak
@@ -1411,9 +1430,11 @@
             <p>AMEN.</p>
           </sp>
         </div>
-            <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS III. SCENA III.</head>
-          <p><stage>Briseida szól Sylvanussal.</stage></p>
+          <p>
+            <stage>Briseida szól Sylvanussal.</stage>
+          </p>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
             <p>Azmint Juliátúl értem, nem ok nélkül panaszolkodott azért az szegén Credulus, mert
@@ -1471,9 +1492,11 @@
               jutottam, noha bú előtt futottam.</p>
           </sp>
         </div>
-              <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS III. SCENA IV.</head>
-          <p><stage>Dienes szól Galateával.</stage></p>
+          <p>
+            <stage>Dienes szól Galateával.</stage>
+          </p>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
             <p>Hála Istennek, hogy mégis könnyebb, hogy noha éntőlem fut, de azért ugyan nem
@@ -1560,7 +1583,9 @@
       <div type="act">
         <div type="scene">
           <head type="title">ACTUS IV. SCENA I.</head>
-          <p><stage>Credulus beszél Sylvanussal.</stage></p>
+          <p>
+            <stage>Credulus beszél Sylvanussal.</stage>
+          </p>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
             <p>Csak kár, nem mesterkedhettél úgy, Sylvane, hogy dolgodot elfedezhetted volna
@@ -1675,9 +1700,11 @@
               ha engem szán-é inkább vagy Sylvanust?</p>
           </sp>
         </div>
-          <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS IV. SCENA II.</head>
-          <p><stage>Briseida szól Juliával, Credulus egy bokor megett hallgatja.</stage></p>
+          <p>
+            <stage>Briseida szól Juliával, Credulus egy bokor megett hallgatja.</stage>
+          </p>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
             <p>Nagy ok ádja tennem, hogy ismét megpróbáljam, micsoda akarattal vagy az szegén
@@ -1727,9 +1754,11 @@
               soha el nem szakadok.</p>
           </sp>
         </div>
-            <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS IV. SCENA III.</head>
-          <p><stage>Dienes szól Sylvanussal.</stage></p>
+          <p>
+            <stage>Dienes szól Sylvanussal.</stage>
+          </p>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
             <p>Vedd el, uram! Végye el uraságod, ha egyébért nem is, ottan csak azért, hadd légyen
@@ -1816,10 +1845,12 @@
               volna immár!</p>
           </sp>
         </div>
-              <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS IV. SCENA IV.</head>
-          <p><stage>Credulus, mint reméntelen, elbúsult ember, magában szól egyedül, meg akarván
-              bújában magát ölni.</stage></p>
+          <p>
+            <stage>Credulus, mint reméntelen, elbúsult ember, magában szól egyedül, meg akarván
+              bújában magát ölni.</stage>
+          </p>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
             <p>Mi szükség énnékem (tudván, hogy Julia mást szeret) tovább ez világban vajúdnom? Csak
@@ -1868,8 +1899,10 @@
       <div type="act">
         <div type="scene">
           <head type="title">ACTUS V. SCENA I.</head>
-          <p><stage>Sylvanus szól Credulussal, megragadván az kést kezében, hogy meg ne ölje
-              magát.</stage></p>
+          <p>
+            <stage>Sylvanus szól Credulussal, megragadván az kést kezében, hogy meg ne ölje
+              magát.</stage>
+          </p>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
             <p>Mi dolog, mit csinálsz? Ereszd az kést! Bocsásd, mondok, felséges Istenért, kell-é
@@ -1921,10 +1954,12 @@
               ember, azki gonosz szándékját jóra fordítja.</p>
           </sp>
         </div>
-          <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS V. SCENA lI.</head>
-          <p><stage>Julia szól magában, látván az Credulus nagy kését, kivel magát meg akarta ölni,
-              s az fiatalon is az jegyzést elolvasván, kit Credulus felmetszett.</stage></p>
+          <p>
+            <stage>Julia szól magában, látván az Credulus nagy kését, kivel magát meg akarta ölni,
+              s az fiatalon is az jegyzést elolvasván, kit Credulus felmetszett.</stage>
+          </p>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
             <p>Micsoda nagy kés amaz, azkit ahol az fa mellett látok? Micsoda jegyzés imez fiatalon?
@@ -1945,9 +1980,11 @@
               elhalad ezen!</p>
           </sp>
         </div>
-            <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS V. SCENA III.</head>
-          <p><stage>Dienes magában szól.</stage></p>
+          <p>
+            <stage>Dienes magában szól.</stage>
+          </p>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
             <p>Nincsen annyi hajszál az uramon, azmennyi szitkot, átkot szólok az rossz bestyére, ha
@@ -2091,9 +2128,11 @@
               lészesz!</p>
           </sp>
         </div>
-              <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS V. SCENA IV.</head>
-          <p><stage>Julia szól Credulussal.</stage></p>
+          <p>
+            <stage>Julia szól Credulussal.</stage>
+          </p>
           <sp who="#julia">
             <speaker>JULIA</speaker>
             <p>Elhalad az pór, immár senki nem lát, hanem majd én is kimetélem ez hamis írást az
@@ -2389,9 +2428,11 @@
               beszélnek!</p>
           </sp>
         </div>
-                <div type="scene">
+        <div type="scene">
           <head type="title">ACTUS V. SCENA V.</head>
-          <p><stage>Sylvanus, Credulus, Galatea, Julia.</stage></p>
+          <p>
+            <stage>Sylvanus, Credulus, Galatea, Julia.</stage>
+          </p>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
             <p>Bocsásd meg, lelkem, hogy azt tettettem, mint hamis, hogy ezt szerettem volna inkább
@@ -2488,16 +2529,20 @@
               szállásra!</p>
           </sp>
         </div>
-                  <div type="scene">
+        <div type="scene">
           <head type="title">CONCLUSIO</head>
-          <p><stage>Dienes szól az komédiahallgatóknak.</stage></p>
+          <p>
+            <stage>Dienes szól az komédiahallgatóknak.</stage>
+          </p>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
             <p>Halljátok, jó uraim, örömest vacsorára hínálak titeket is, ha az vacsorálóház igen
               kicsiny nem volna. De nem fértek bé, mert igen szoros. Ti is penig, szép asszonyok,
               itt bár az bokrok közt ne várakozzatok az vacsorára, mert együld estvére kélve
               megragad benneteket valami kétlábú farkas vagy medve!</p>
-            <p><stage>FINIS</stage></p>
+            <p>
+              <stage>FINIS</stage>
+            </p>
           </sp>
         </div>
       </div>
