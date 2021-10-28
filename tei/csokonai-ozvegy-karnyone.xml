@@ -1,0 +1,2197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Az özvegy Karnyóné s két szeleburdiak</title>
+                <title type="sub">Vígjáték 3 felvonásban</title>
+                <author>
+                    <persName>
+                        <surname>Csokonai Vitéz</surname>
+                        <forename>Mihály</forename>
+                    </persName>
+                    <idno type="wikidata">Q713545</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                        <surname>Fellegi</surname>
+                        <forename>Zsófia</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-control</resp>
+                    <persName>
+                        <surname>Bajzát</surname>
+                        <forename>Tímea</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>project coordinator</resp>
+                    <persName>
+                        <surname>Szemes</surname>
+                        <forename>Botond</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>NLP expert</resp>
+                    <persName>
+                        <surname>Horváth</surname>
+                        <forename>Péter</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Pantyelejev</surname>
+                        <forename>Natali Andrea</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref>
+                    </orgName>
+                </publisher>
+                <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2021</date>
+                <availability>
+                    <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title type="main">Csokonai Vitéz Mihály minden munkája</title>
+                    <title type="sub"/>
+                    <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+                    <ref target="https://mek.oszk.hu/06300/06302/"/>
+                    <date when="2008-09-24">2008-09-24</date>
+                    <respStmt>
+                        <resp>Original Electronic Edition</resp>
+                        <persName>
+                            <surname>Szever</surname>
+                            <forename>Pál</forename>
+                        </persName>
+                        <persName>
+                            <surname>Csige</surname>
+                            <forename>Mónika</forename></persName>
+                        <persName>
+                            <surname/>
+                            <forename/>
+                        </persName>
+                    </respStmt>
+                </bibl>
+                <bibl type="originalSource">
+                    <title type="main">Csokonai Vitéz Mihály minden munkája</title>
+                    <title type="sub"/>
+                    <author>
+                        <persName>
+                            <surname>Csokonai Vitéz</surname>
+                            <forename>Mihály</forename>
+                        </persName>
+                        <idno type="wikidata">Q713545</idno>
+                    </author>
+                    <date when="1980">1980</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Szépirodalmi Könyvkiadó</publisher>
+                </bibl>
+                <bibl type="firstEdition">
+                    <author>
+                        <persName>
+                            <surname>Csokonai Vitéz</surname>
+                            <forename>Mihály</forename>
+                        </persName>
+                        <idno type="wikidata">Q713545</idno>
+                    </author>
+                    <date type="print" when="1911">1911</date>
+                    <date type="premiere" when="1911-01-29">1911-01-29</date>
+                    <date type="written" when="1799">1799</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Nyugat: Nyugat Könyvtár</publisher>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu"/>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person sex="MALE" xml:id="karnyo">
+                        <persName>KARNYÓ</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="karnyone">
+                        <persName>KARNYÓNÉ</persName>
+                    </person>
+                    <person sex="MALE" xml:id="samu">
+                        <persName>SAMU</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="boris">
+                        <persName>BORIS</persName>
+                    </person>
+                    <person sex="MALE" xml:id="lazar">
+                        <persName>LÁZÁR</persName>
+                    </person>
+                    <person sex="MALE" xml:id="tipptopp">
+                        <persName>LIPPTOPP</persName>
+                    </person>
+                    <person sex="MALE" xml:id="lipittlotty">
+                        <persName>LIPITTLOTTY</persName>
+                    </person>
+                    <person sex="MALE" xml:id="kuruzs">
+                        <persName>KURUZS</persName>
+                    </person>
+                    <person xml:id="tunder" sex="FEMALE">
+                        <persName>TÜNDÉR</persName>
+                    </person>
+                    <person xml:id="tunderfi" sex="MALE">
+                        <persName>TÜNDÉRFI</persName>
+                    </person>
+                </listPerson>
+                <!--Sajtóhiba: Lipptopp: Tipptopp  -->
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <head type="title"><hi rend="underline">JÁTSZÓ SZEMÉLLYEK</hi></head>
+                <castItem>
+                    <role><roleName>KARNYÓ</roleName>egy idős kalmár</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>KARNYÓNÉ</roleName>felesége</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>SAMU</roleName>ezeknek fiok, ki bolondos</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>BORIS</roleName>szobaleány</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>LÁZÁR</roleName>boltos legény</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>LIPPTOPP</roleName>szelepurdi</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>LIPITTLOTTY</roleName>szelepurdi</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>KURUZS</roleName>egy személyben doctor, borbély, alchimista,
+                        kéznéző chiromantista, zsibvásáros, drótvonó, poéta, kosárkötő</role>
+                </castItem>
+            </castList>
+            <p><stage>A játék esik Kanizsán, a Karnyóné boltjában.</stage></p>
+        </front>
+        <body>
+            <div type="act">
+                <head type="title">ELSŐ FELVONÁS</head>
+                
+<div type="scene">
+                    <head type="title">ELSŐ JELENÉS</head>
+                    <p><stage>Samu és Lázár.</stage></p>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <stage>Lassan belopódzván a boltba, a Lázár háta megé, és a kalapja tele
+                            lévén körtvéllyel, eggyel hátba üti Lázárt, s azt mondja:</stage>
+                        <p>Lázár Deák vigyázzon!</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Üm, vigyázon az illen bolond ember, hogy vigyázon, csag mindég ezed
+                            nincs, csak Samu, no Samu, menyen pokol zsegibe, én csak olan bolond,
+                            mint ked nem bolond.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>No no, Lázár, isz az oskolába is csak így teszek én, egye meg Ked ezt a
+                            körtét, én nem haragszom.<stage>Nyújtja neki a körtét.</stage></p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Én pedig haragszom, Samu csak mindég Samu, eszed nincs, kitákarodzon a
+                            botyábol, virga a gyereknek, osztán meg meg más</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Kennek kezték, - a maga fiának mongya azt. - Azt mondta asszonyám, hogy
+                            adgyon a boltbúl cihát a kocsisnak, meg annak az úrnak, aki hozzánk jár.
+                            -</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Melik az a hozzánkjár, - zördeg tugya azis hozánkjár, másik is hozánkjár,
+                            mind a világ csak hozzánk jár, mellik az a hozzánkjár zúr?</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Ha tudja, mér kérdi. - Azt mondta asszonyám, hogy a kocsisnak adjon 2
+                            muselin köpegenyet, nyakra való keszkenőnek 8 rőf pukovai posztót,
+                            kalapra 20 rőf arany sujtást, nadrágra 1 bokor structollat, 1 pár
+                            nádmézet, 2 süveg narancsot. - Annak az úrnak pedig, aki hozzánk jár,
+                            adjon egy pár gatyára való béllést, ujjas pruszlinak való házi vásznat.
+                            Ezeket írja fel a jedzőkönyvbe. - Ezen kívül nékem adjon kantusnak való
+                            patyolatot; asszonyámnak pedig, minthogy kevés esze van, küldjön egy
+                            fabábot, meg egy magába felállót, hadd játszék vele a bolond.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Ha, ha, ha, Samu, mi a menkü, magába felálló, ha, ha, ha, az asszonnak,
+                            ha, ha, ha, fabáb kell, azzal lehet kicsin jádszani, hogy adhassam én
+                            neked, csak meny visza, meny visza, te kicsiny bolond, én nem
+                            kicsiny.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Nem vagyok én olyan bolond, mint asszonyám - jön!<stage>Akkor jön az
+                                Anyja kapcát kötögetvén.</stage></p>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">MÁSODIK JELENÉS</head>
+                    <p><stage>Karnyóné és az elébbiek.</stage></p>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Júj bizon, tán a Kolompár Nánival mulatott a Lázár hogy olyan jó kedve
+                            van? Csoeto Lázár?</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Csoeto, biz a tatár látott 8 réf posztobol nyakravalót. - A Samuka olan
+                            comisiót parancsolt az Asszonnak, hogy a’ bizon senem láttam, senem
+                            halottam, ha, ha, ha, csak kérdezed az asszony.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ</speaker>
+                        <p>Ej, te kis bohócska, most megint elment az eszecskéd, azt a kis
+                            commisiócskát se tudtad megmondani a Lázárocskának, micsoda az Istenért?
+                            egy nyakravalócskának 8 rőf posztócska. - Eredj fel, kis bohócska, a
+                            szobácskába, egyél, egyél almácskát, szilvácskát, könyvecskét, ha, ha,
+                            ha, bizony majd magamnak is félremegy az eszecském, - a könyvecskédet ne
+                            edd meg, hanem vedd a kezecskédbe, menj tanulni a több
+                                gyermecskékkel.<stage>Samu elmegy.</stage>Hát Lázár, annak az
+                            Uracskának?</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Mellik zuracskának, a’ csak mind uracska, gazdagnak, szegénynek, ifjúnak,
+                            eregnek, idegennek, városinak, a’ csak mind uracska.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Ejnye, eb a lelke Lázárja! bizon még gazdává lesz a nyakamon, csak mérjen
+                            ki és írja fel a Lipittlotty úr számára.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Isdenem Uram! má megmeg a Lebettlotty úr számára. - Isdenutseg, majd mid
+                            is mondok, az a Lebettlotty egyszer az Aszonak lebettlotty. - Istenem
+                            Uram, csak a hordani, csak hordani, drága minden, soha pínz nem látni,
+                            se nem halani, most se pénz, mi lesz már ebből?</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Mi lesz? Kontócska. Kennek csak mindég jár a szája, írja be Ked a
+                            jedzőkönyvbe, mikor egyéb dolga nem lesz Kendnek, tegye fel a
+                            kontócskára.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Van itt már conto, lássad az Asszony, arra is csak a papirost
+                            vesztegetjük - több a conto, mint a netto; csak a tavalit olvasom
+                            el.</p>
+                        <p>Konto azon bordikákrol, mellyeket Her Volfgang Lebettlotty de
+                            Gölöntsérdelek az Karnyóné Asszonyság botyábol elhordatott, come
+                            siéque.</p>
+                        <p>Brimo Januarij farsangi maskarás bálba, egy ökör habitushoz, mindöszve
+                            Rhforint 63 xr. Idejött 2 ökörszarv, nad mind zenim, röhögésnek okáért
+                            Rhforint 1-1 1 /2 xr. Egy fél viseltes ökörbika farka, a boldogult úré
+                            féle 7 xron. - Zekunda Februarii. Táncra egy pár porcellán sarkantyút 1
+                            Rhforint - Detto: Egy mancseszter csizma grongoltt steklire, a legujjabb
+                            amsterdami múdi zerént 14 forint 6 xr. Harmadik Martii: Egy varópárna,
+                            melybe elöl egy fortepiano van becsinálva, varópárna facit 1.45 forint
+                            és 1 /2 xr. a fortepiano, amint szokott 20 xr. 1mo Aprili: Világ szerént
+                            és mások mulatságára áprilisi bolond lévén az úr, eltört a boltba 7 pár
+                            Chinai porcelán findsát és egy kaposi vizes korsót, az úr elnevette
+                            magát, de azért csak feltetette 37 forint 59 xr.</p>
+                        <p>19a Maji: Elvitt egy silkrod francia kalapot, a hozzá tartozó
+                            conductorral edgyütt (hogy a ménkű meg ne üsse) 16 forint 16 xr s a
+                            többi. Hiszen lássad az Asszony, csak magad lássad, így bizon, így
+                            bizon, nem győzi az ember csak konto, csak konto, osztán semmi sincs a
+                            netto.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Ah, édes Lázárocskám! ha az az én szegény férjem, szép férjem, jó Férjem
+                            élne, az Isten nyugossza meg, most én nem így vólnék, Lázár! most a
+                            boltunkba sem férne a portéka, magam is az ölembe hordoznék egy kis
+                            portékácskát. De látja Isten, ember, a szegény asszonyka, vagy kell vagy
+                            nem, mindenhez támaszkodik, de hiszen bizon nem a legényecske után
+                            esenkedem ám, távol legyen, az Isten mentsen meg, hanem csak azért nos,
+                            hogy mégis a világ nyelve ne legyen az emberen, azt mondják, hogy a
+                            férjfi csak annyicska legyen ni<stage>Mutatja vastője hegyét,</stage>,
+                            csak férjfi az a háznál, csak Isten áldásocskája.<stage>Látja, hogy jön
+                                Lipittlotty.</stage>De piszt, piszt, az Isten hozza, ah, majd
+                            kiugrom a bőröcskémböl, csak csendesen legyünk, mint a hal a varsába,
+                            juj, majd kiugrom a bőröcskémből, nézze csak, nézze, édes Lázárocskám
+                            jön a Lipittlottyocska. Ó, édes lelkem férjem, ha te most élnél, az
+                            Isten nyugosszon meg.</p>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">HARMADIK JELENÉS</head>
+                    <p><stage>Lipittlotty s Karnyóné.</stage></p>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Jó reggelt kívánok az Asszonynak, én az Asszonyt szeretem, csak azt
+                            sajnállom, hogy ily félig-meddig való öltözetbe van ollyan félig-meddig
+                            szerencsém tisztelni. - Lássa az Asszony én csak első vagyok úgy-é? a
+                            legujabb pesti módik felvételébe, és pedig egyedül csak az Asszonyért,
+                            sőt, hogy kevesebbet mondjak, csak az Asszony szívéért.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Jó reggelecskét kivánok, de még nem is láttam az Uracskát illyen furcsán
+                            öltözve, bizony szintúgy nevethetném, ha, ha, ha, de hol a menkőcskébe
+                            is vette azt a furcsa libériácskát, igazán hogy mi fiatalocskák csak
+                            akkor látjuk meg, mikor már az uracskák bele is bolondulnak, hogy ezzel
+                            a szócskával éljek.</p>
+                    </sp>
+                    <sp who="lipittlotty#">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Fránya kis szócska, de csak úgy van az, aki az újabb pesti módit nem
+                            esmeri, Asszonyságtok gustusa igazgatja pedig még azt is, hogy hogy
+                            álljon a nadrág; de legalább a zsinórozást nem bizzuk rájuk. - Ez a
+                            legújabb pesti módi, már ebbe az Asszony csak becsülhet engem, az illyen
+                            ruha alatt szerelmes szív szokott lappangani.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Az Úr a maga legújjabb módija szerént vezérli az én tapasztalatlan
+                            szívemet a legújabb módikra. A’ bizon szép ruhácska, először a’ moldont
+                            is nevettük hogy kétszínű volt, de most már hozzászoktunk, s aki ellene
+                            szóll azt nevetjük, és azt mondjuk rólla: Az moldonabb aki a moldont
+                            megesméri. Az uracskák már most nem csak a színben, hanem a viseletben
+                            is kettőt mutatnak.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>A’ mind jól van - de van-é most az Asszonynál valami jóféle thea?</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Van, igenis, legjobb pedig, van császár thea, originális lapponiai.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Megengedjen az Asszony magának, tám japponiai?</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Már, édes Lelkecském, mi özvegyecskék csak ollyan terminusocskával élünk,
+                            az Uracskák jobban tudhatják. -</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Most csak itt hagyom, hanem tétessen félre az Asszony valami fél
+                            felöntőre valót; mert tegnap, úgy tetszik, mintha egy bolhát vettem
+                            volna észre a szobámba, majd meglocsoltatom véle mindenütt, talám
+                                megöli.<stage>Veszi a kalapját</stage></p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>De ne menjen el még, Uracskám, bizony, ha az Úr nincs velem, olyan vagyok
+                            mint a szedetlen szöllő vagy szöllőcske. - Én nem tudom, mi Isten
+                            csudája, ha az Úr itt nincs, olyan nagy viszketegség van az egész
+                            testembe, hogy no, nem is gondolhatom, - de tám az idő okozza vagy
+                            mi.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>El kell mennem, édes, hallja, azt ugyan tudom, hogy nállam nélkül nem
+                            lehet el; de csak mégis el kell mennem, mert hijjába, úriember mindég
+                            bótba nem lehet.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>De vissza fog jönni az Úr, mert bizon - bizon csak visszajőjjön ám, úgy-é
+                            szívecském?</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Amint kedvem tartja</p>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">NEGYEDIK JELENÉS</head>
+                    <p><stage>Tipptopp és Lipittlotty.</stage></p>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Ah! alázatos szolgája az Úrnak, örvendek, hogy tisztelhetem az Urat
+                            éspedig vidám orcával, s éppen igen szép habitusba tisztelhetem az
+                            Urat.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Jó szerencsét kivánok az Úrnak. - Mi a tatár? hol vette az Úr ennek a
+                            rendes módinak ideáléját, utseg ollyan, mint a Travestialt Virgilius,
+                            vagy amillyen világot az olasz mercatimagok hordoznak.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Az igaz, hogy a legújjabb párizsi modi éppen ollyan. De nem is csuda;
+                            mert most az egész Paris csupa il mündo inverso. - Ez valóságos párizsi
+                            újj modi. - Lássa az Úr, már most illetlenségnek tartanák elöl
+                            begombolni a kaputrokot, hanem hátul szokás.<stage>Hátul volt a
+                                kaputrokja begombolva.</stage>A púderrel való hajfejérítés kiment a
+                            modiból, minthogy különben is szűk a gabona, hanem a fekete haj, a
+                            kinrusz púder kedves a párizsiak előtt, mert persze, a korom csak
+                            olcsóbb, mint a búza.<stage>Kinrusszal volt a haja
+                            meghintve.</stage></p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>De hát azt a csizmát fótozni viszi a vargához, vagy mi?<stage>Fél
+                                csizmája a hóna alatt volt s mezitláb volt fél lábával.</stage></p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Ah! Talám hát még az Úr nem tudja? - A németek a kalapjokat a hónok alatt
+                            hordozzák, s hajadon fővel járnak, a franciák erre reáuntak, már
+                            mezitláb járván a csizmájukat így hordozzák.<stage>Mutatja a hóna
+                                alól.</stage>Más példa. A bécsiek csak az állokig szokták bétekerni
+                            a nyakokat, ez csekélység, noha a magyarok ezt is soknak tartják; a
+                            párizsi ujj modi nyakravalókötéshez egész lepedők
+                                kívántatnak.<stage>Abrosz volt a nyakravalója.</stage>Más példa. A
+                            németek az orrok környékét tubákozzák be; de a mai franciáknak csak a
+                            szemek csillámlik ki a tubák közül.<stage>Az ábrázatja be volt
+                                tubákolva.</stage></p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>No, az ugyan rendes modi - ami engemet illet, én fél Versáliáért sem
+                            vállalnám fel a mai modi szerént a párizsi gavallérságot. - De hát ez a
+                            nagy átkozott kép mit keres az Úr mellyén, hiszen lám a járást is alig
+                            teheti tölle, tán amuletum vagy micsoda?</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Ördög sem amuletum, járatlan az Úr a párizsi ujj modiba. - A németek
+                            elkapták a galant franciáktol, hogy kedveseiknek mellyképét nyakokon és
+                            kebelekbe hordozzák. - De a franciák most már többre mentek. Kedveseik
+                            képét egész regálokra festetik, rámába csináltatják, s úgy hordozzák.
+                            Más példa. A franciák közt a férfiak is szoktak apró arany karikát a
+                            fülökön hordozni; de már most, ni, micsoda nagyokat hordoznak.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Rendeseket kell hallani az embernek. Mi is csak modizunk, hányjuk-vetjük,
+                            egyfelé-másfelé ürgetjük-forgatjuk, de tán a párizsiak az agyvelejeket
+                            is fonákul fordították.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Dehát még a dámákat látná az Úr, akkor csudálkozna és nevetne ám. Nem az
+                            a dáma, akinek legparányibb zsebbeli kutyája van, hanem akit legtöbb
+                            anglus szelindek kísér, ollyanok mint egy borjú. - Most etuis helyett
+                            egész sublatokat, toalettéhez való ainrittungokat hurcoltatnak magok
+                            után - ott már most minden órában újj köntösbe kell öltözni, ha az ember
+                            magát szóba kevertetni nem akarja.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>A’ mind meglehet, ha egyéb dolgok nincs. Hanem most már nekem is dolgom
+                            lévén, és igen fontos dolgom, hosszasabb professziót a párizsi újj
+                            modirol nem hallgathatok, magamat recomendálom.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>No de, kérem alássan, ha szabad kérdeznem, hova, hova?</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Majd megnézetem az inasommal, ha nem jöttek-é ki a számjaim a
+                            lotterián.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Ugyan úgy-é? S az Úr is szokott játszani a lotterián?</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Külömben sem. - Volt is már rajta aprólékos nyereségem, de most feltettem
+                            már magamba, hogy vagy sokat, vagy semmit sem. -</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Azt tartom, az utolsót legkönnyebben megkapja az Úr, jobb biz, ami kis
+                            pénzecskéje van, megkímélli, s szükségeit pótolja véle.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Úgy csak az urak beszélnek, de higgye el az Úr, hogy most ollyan bizonyos
+                            vagyok a 25 ezer forintok nyereségébe, mint ha már a tenyerembe
+                            volna.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Isten szavával tudja az Úr?</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Gondolnám, mert amely számokat most feltettem, azokat úgy álmodtam meg,
+                            az álom pedig, kivált a lotteriára nézve, csalhatatlan. Ezeket a
+                            számokat álmodtam meg: 1, 2, 3, 20, 23.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Már azok ugyan kuriózus számok. Lesz szerencsém hallani az álomlátást,
+                            mellybe azok a számok bejőnek?</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>In compendio elmondom. - Azt álmodtam a mai éjjel, hogy én 2 macskát
+                            árultam. 3 dáma majd megveszett érte, úgy kérte 20 krajcáron. Valami
+                            vénasszony odajött, 23-at igért érte; már éppen neki akartam adni, de
+                            csak 1 poltra volt nálla. A macskákat felvetettem a vállamra.<stage>Itt
+                                félbe szakasztja.</stage>Dejszen a többi nem is tartozik a
+                            lotteriára, csak azt akartam mondani, hogy én a számokat így álmodtam
+                            meg: 1 poltra 2 macska 3 dáma 20 krajcáron és ismét 23 krajcáron. - A
+                            macskákat csak cirokáltam csak cirokáltam, s egyszer felserkentem.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Uram! a párizsi legújjabb álmoskönyvek is azt mondják: a macska
+                            paráznaságot jegyez.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Eh! - Magamat rekomendálom.<stage>Megharagszik.</stage></p>
+                    </sp>
+                </div>
+<div type="scene">
+                                    <head type="title">ÖTÖDIK JELENÉS</head>
+                                    <sp who="#tipptopp">
+                                        <speaker>TIPPTOPP.</speaker>
+                                        <p>Jó reggelt kívánok Lázár Deák!</p>
+                                    </sp>
+                                    <sp who="#lazar">
+                                        <speaker>LÁZÁR.</speaker>
+                                        <p>Isten hozta az Urat, Isten hozta, kérem alásan, tessék
+                                            leülni, tessék.</p>
+                                    </sp>
+                                    <sp who="#tipptopp">
+                                        <speaker>TIPPTOPP.</speaker>
+                                        <p>Köszönöm, Lázár Deák, köszönöm, hát mi újság van
+                                            mostanába?</p>
+                                    </sp>
+                                    <sp who="#lazar">
+                                        <speaker>LÁZÁR.</speaker>
+                                        <p>Az bizon most avelevel kevesel udvarolhadok, hanem
+                                            inzsbicie most vala nállunk az a vasaros úr, kinek itt
+                                            általelenbe van a botya, derek afelé úri ember,
+                                            beszélle, hogy az a hires francia vezér, generál Laschi
+                                            visszahozta a maga táborát, Málta városáig, és így már a
+                                            franciak tul nyomattattak a Pisegri vizen, és hogy a
+                                            török basa, Nelson a helvetiai hajós sereget egészen
+                                            semmivé tette, neki privát levélbe irták, hogy a három
+                                            hatalmas császár mellé társul állott a burkus császár
+                                            is, és hogy már csak a genevai király tart frigyet a
+                                            franciákkal.</p>
+                                    </sp>
+                                    <sp who="#tipptopp">
+                                        <speaker>TIPPTOPP.</speaker>
+                                        <p>Hát Bonapartéról nem hallott-é valamit. Lázár?</p>
+                                    </sp>
+                                    <sp who="#lazar">
+                                        <speaker>LÁZÁR.</speaker>
+                                        <p>Egyébként semmit sem, hanem egy francia katona beszéllé
+                                            tegnap a botunkba, hogy már igen öreg ember lévén,
+                                            letette a szolgálatot és bároságot kapott.</p>
+                                    </sp>
+                                    <sp who="#tipptopp">
+                                        <speaker>TIPPTOPP.</speaker>
+                                        <p>Ha, ha, ha, a’ bizon rendes, még azt nem
+                                                hallottam.<stage>Félbe szakasztja Lázár.</stage></p>
+                                    </sp>
+                                    <sp who="#lazar">
+                                        <speaker>LÁZÁR.</speaker>
+                                        <p>Az a hír is foly, kedves Úr, nállunk, hogy a francia
+                                            admirális, Tepocajab, Valentiára éjtszakának idején
+                                            ráütött, de a várhoz a nagy kősziklák miatt nem
+                                            férhetett. A’ bizony, kedves Úr, ránk nézve nem igen
+                                            hasznos ujság, mert határos lévén Driestel Niderlandal
+                                            és Greccel, ahonnan a császári fabrikákbol kapjuk a
+                                            bordikákat, a kereskedésünk szenvedni fog, és még sokkal
+                                            drágább lesz minden. Hanem ellenbe a török császár
+                                            vezére Paszavandoglub, nyolcadfél száz lovas spahival a
+                                            Rajna mellett Szant Domingoba beütött és 1200 francia
+                                            képviselőt hadifogolyá tett. - Egy pesti corespondensem
+                                            azt írja, hogy ott a kávéházakba...<stage>Félbeszakad,
+                                                mivel jön Karnyóné.</stage></p>
+                                    </sp>
+                                    </div>
+<div type="scene">
+                    <head type="title">HATODIK JELENÉS</head>
+                    <p><stage>Karnyóné s az elébbiek.</stage></p>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>De azt bizon nem köszönöm meg az Úrnak, hogy még csak fel sem jön hozzám,
+                            már egészen el is felejtettem az Úrnak a formáját.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Legtisztább szívű szolgája az Asszonynak, énnekem az Asszonyt látni
+                            mindenkor fő szerencsém van, de az az egy világi baj ránk nézve, hogy
+                            gyakran a legkedvesebb szerencsénkkel nem lehet élni. - Édes Kedves
+                            Asszonyság, szívem többet szóll, mint szám mondhatná.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Alázatosan köszönöm! az Úr mindég vidám jeles és udvarias, mi ketten
+                            megegyezünk. - A Lipittlotty úrral nem jött öszve valahol az Úr, mi
+                            ketten könnyen megegyezünk.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Másra kevés gondom szokott lenni, mi ketten könnyen megegyezünk.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Lázár, az oberster úr most izent ide, hogy azt a kis kontócskát kifizeti,
+                            vigye el hozzája és becsülettel szóljon, s tisztelje nevecskémmel.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Ihen, Ihen, van alázatos szolgája.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Igaz biz az, sajnálom, kedves Asszonyság, hogy kurta szerencsémet
+                            szívemnek nem kis fájdalmával félbe kell szakasztanom. - Parolám van a
+                            kastélyba. - Reménylem, két órára ismét gyönyörködhetem nagyon becsült
+                            személyében Kedves Asszonyságomnak. - Addig is csókolom kezeit.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Tehát visszavárom ám az Urat, alázza meg magát nállam egy kis
+                            ebédecskére.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Az ebédet nagyra becsülöm, mivel azáltal hosszasabban legeltethetem
+                            repeső szemeimet az én kedves tárgyamon, adiő.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>S Boris!<stage>Boris felel a palotából:</stage></p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Parancsoljon! Jöszte, légy itt a bótba, míg a Lázár megjön.<stage>Ezzel a
+                                vénasszony felmegy a házba, Tipptopp is elmegy félre a bót mellé,
+                                hogy hallja, hogy Boriska lejön, s megvárja, s
+                            hozzámegyen.</stage></p>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">HETEDIK JELENÉS</head>
+                    <p><stage>Boris és Tipptopp.</stage></p>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Boriskám, jöszte, jöszte, valamit mondok.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Jaj, be régen nem láttam az Urat, egész újság nállunk.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Dejszen nem lennék én nállatok újság, édes Boriskám, csak te engem abba
+                            segítenél, amit már másszor is említettem néked, hogy csak az
+                            asszonyodat hozzám hajlandóbbá tennéd.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Ő hajlandó az Úrhoz, de igy vegye fel az Úr: ő egy férjfit nem adna az
+                            egész világért, az Urat nem adná valamennyi férjfiért, Lipittlottyot nem
+                            adná 1000 ollyanért, mint az Úr.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Hisz az a bezegje a dolognak, édes Boriskám, azt kellene éppen érettem
+                            véghezvinned, hogy én az asszonynál nagyobb gráciába jöhetnék, mint az a
+                            kótyomfitty Lipittlotty, azt te legjobban ki tudnád jádszani, ha engem
+                            igazán szeretnél, igazán szeretsz-é hát, édes Boriskám?</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Ah! bizony rendes, az Úr azt kívánja éntőllem, hogy szeressem, pedig
+                            éppen előttem vallja meg, hogy más szeret, sőt még engem kíván a más
+                            szeretetébe is eszközül felvenni.<stage>Kettőt lépvén
+                            hátra:</stage>Kisebb vagyok én, mintsem a Karnyóné asszonyság kedvesét
+                            bátorkodjam szeretni.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Ah, be furcsa gyermek vagy te, édes Boriskám, be furcsa gyermek vagy, hát
+                            gondoltad-é, hogy én azt a vén bolondot szerethetném, átkozott szem
+                            volna az, aki azon kapna, arrol már elénekelhetnéd ám, édes Boriskám,
+                            hogy:</p>
+                        <lg>
+                            <l>Szeme nem sír, mégis nedves;</l>
+                            <l>Képe ráncos; foga redves;</l>
+                            <l>Horgas lába tittyen-tottyan;</l>
+                            <l>Sovány fara egyet lottyan.</l>
+                        </lg>
+                        <lg>
+                            <l>Mégis, noha hidegvette,</l>
+                            <l>Legényes a szettevette:</l>
+                            <l>Ó Uram! őrizz meg ettől</l>
+                            <l>A vasórú kísértettől.</l>
+                        </lg>
+                        <lg>
+                            <l>Vén ugyan, vén a kurvanyja,</l>
+                            <l>De van ezüstje aranyja</l>
+                            <l>Amellybe ha markolhatnék,</l>
+                            <l>Hozzá jobb kedvet mutatnék.</l>
+                        </lg>
+                        <lg>
+                            <l>Csak pénzébe lennék vice,</l>
+                            <l>Megölelném historice.</l>
+                            <l>Férje lennék az erszénynek,</l>
+                            <l>S a’ kén’ a szegény legénynek.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>De hol a manóba tudta az Úr ezt a furcsa nótát tanulni? Ugyan szépen
+                            kimegy!</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Régi párizsi nóta. - De féretévén a tréfát, az egész dolog arra megy ki,
+                            hogy én örömest el szeretném venni Karnyóné asszonyomat, de nem az
+                            őkegyelme becsületes személyéért ám; mert az a kankalékos ludvérc kapna
+                            az ollyan vázon, hanem azért az egy-két ezer forintocskáért, amit
+                            toldásba kapna az ember vele; mert amint egy elmés poétánk mondja: három
+                            a szükséges dolog: pénz, pénz, pénz.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Tehát az Úr alkuba bocsátja a szerelmet, és az Úr szíve rá van nyomtatva
+                            a bankócédulákra.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Szív! Szeretet! a mai világba ezt a kettőt mindennek árulják szóval, de a
+                            valóság csak ollyan kettővel köz, mint én és te, édes Boriskám.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Az Úr csak mindég rávesz engem a szeretetre, az Úrért mindent megteszek
+                            az asszonynál, de annak a’ lesz a jutalma, hogy az Úr a mi asszonyunkkal
+                            öszvekelvén, meg fog, meg is tartozik vetni, és én akkor, szegény
+                            jószívű leányka, én akkor ah, kedves együgyű!!</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Ne félj, édes Boriskám, te leszel Karnyóné asszonyságnak, vagyis már
+                            akkori időhöz szólván madám Tipptoppnénak és így mosziő Tipptoppnak is
+                            belső szobaleánya, naturaliter az öregasszony sokat benn ül, sokat
+                            alszik, sokat betegeskedik, ki él akkor boldogabban, mint mi ketten? Hát
+                            még ha egyet mondok; vén már az asszonyod, mint a bűn, egyszer az Isten
+                            megkönnyebbíti ágya szalmáját, s miért ne lehetne az ő szobaleánya az ő
+                            férjének feleségévé.</p>
+                        <p>No most, édes Boriskám, mit gondolsz?</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Ah, édes remények! parancsoljon velem az Úr mindent, Lipittlotytyot még
+                            ma legnagyobb ellenségévé teszem az
+                            asszonyunknak.</p>
+                    </sp>
+                    <p><stage>Duetto</stage></p>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <lg>
+                            <l>Semmi, csak rá tudjak ülni a banyára,</l>
+                            <l>Ő mag nélkül fog kidűlni nemsokára.</l>
+                            <l>Bezzeg úr lesz ám Tipptopp</l>
+                            <l>És Tipptoppné hopp, hopp, hopp</l>
+                            <l>Akkorára, akkorára.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <lg>
+                            <l>Akkor ám a cifra tálba igy piszkálok.</l>
+                            <l>És az utszán módi sálba sérikálok.</l>
+                            <l>Úriasszony lesz Boris,</l>
+                            <l>És az Úrnak százszor is</l>
+                            <l>Gratulálok, gratulálok.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Ej de míg ráhűlne bőre, vigadozzunk.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Házaspárképpen előre játszadozzunk.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Én elveszlek, eb legyek<stage>Veri a mellyét.</stage></p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Én az Úrhoz
+                            elmegyek<stage>Alázatosan.</stage></p>
+                    </sp>
+                    <p><stage>Repetitio.</stage></p>
+                    <sp who="tipptopp#">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Alkudozzunk, alkudozzunk.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p><stage>Egymás karjánál fogva kimennek.</stage></p>
+                    </sp>
+                </div>
+            </div>
+            <div type="act">
+                <head type="title">MÁSODIK FELVONÁS</head>
+<div type="scene">
+                    <head type="title">ELSŐ JELENÉS</head>
+                    <p><stage>Lipittlotty magába.</stage></p>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Ha, ha, ha, csak látom én, hogy én szerencse fia vagyok, ihol míg szegény
+                            legény karakterrel kellett parádéznom, ez a vén bolond Karnyóné a
+                            bőségig tartott ruhával, pénzzel; azt gondolta a nyomorult vén banya,
+                            hogy én őtet szeretem, szerette pedig a lidérc, - egy illyen legény, aki
+                            az ifjába is válogathat, én egy ollyan világrúgtát, ha, ha, ha, boldog
+                            Isten! De meg tud az ember bolondulni a szeretet miatt, már hiszen ha
+                            valami érzékeny, virágjába lévő leánykán esne, annyira csak nem
+                            csudálnám, de a vén bolond Karnyóné, csak gondolja el már az ember, hisz
+                            egyidős a postaúttal, melegsége is csak annyi van, mint a nyári
+                            kályhának. - Hányan csalták meg már csak tudtomra is, mégis hitt nékem
+                            is a bolond, azt gondolta, hogy fenékig téjfel vagyok, pedig szakállamra
+                            mondom, inkább venném feleségül a kanizsai csonka tornyot. - De hiszen
+                            most megtanulhatja az én példámból, mennyit hihet akármely legénynek. -
+                            Ó, édes számjaim! 25 ezer forintot érő, édes, kedves számjaim! ti
+                            szabadítottatok meg engemet attól az alacsonyságtól, hogy én a vén
+                            Karnyónénak pénzéért hizelkedjem! - Áldott lottéria! áldott volt, aki
+                            fel is találta, nyugodjon békével még a haló földjében is. Ó, édes
+                            számjaim! Kedves számjaim! most mindjárt postára ülök, s megyek Budára,
+                            de hova megyek és miért? Ó, áldott szerencse! azért a szép 25 ezer
+                            forintért! De hát az a szép, az az édes kedves Karnyóné? - Ott üsse a
+                            guta, mostmár tyúkpásztoromnak sem venném be, ha, ha, ha, még előre
+                            nevetem, majd perel magában a vén tátos, de kukkanni sem mér a 25 ezer
+                            forintos Lipittlotty úr előtt.</p>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">MÁSODIK JELENÉS</head>
+                    <p><stage>Lipittlotty, Lázár és Samu.</stage></p>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Jó napot, Lázár!</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Isten hozta az Urat, Isten hozta, tessék leülni, most épen szép újságot
+                            halodám.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Mit, Lázár?</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Gibraltár fővezére Sampiónét várát ostrommal megvette, és hogy mi
+                            mostanába igen nagyon megvertük az anglusokat.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Az elég örvendetes újság, hanem Lázár, itthon van-é az asszony?</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Szolgalatjára az Úrnak, meg most ebédnél is frissen volt, hanem ebéd után
+                            valami nehézségét érzette - a szokott nyavalyája jött rá.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Micsoda szokott nyavalyája?</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Aval nem szolgálhatok, aztartom aranyér.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Bizony, nagyon sajnálom. <stage>Félreszóllal:</stage>Eb sajnálja a vén
+                            dögöt, hanem Samuka ezt a levelet vinnéd el Boriskának, hanem meg ne
+                            mutasd asszonyádnak. Asszonyádnak pedig mondd meg, hogy én egy kevéssé
+                            felfordulok Budára, mihelyt onnét megjövök, így mondd, mindjárt gyűrűt
+                            váltok vele.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Értem, értem, az Úr mindjárt gyűrűt ád ezért a levélért?</p>
+                    </sp>
+                    <sp who="lipittlotty#">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Nem, nem, szegény Samuka, a levelet vidd a Boriskának, én meg
+                            asszonyádnak gyűrűt hozok.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Értem, értem, de hát nekem mit hoz az Úr?</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Ej, csak eredj sietve, mert én nem késhetem - neked fa pénzt hozok.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Jó lesz biz a’, köszönöm az Úrnak, mindjárt visszajövök érte.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Siess hamar.<stage>Samu elmegy.</stage></p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Akarom mondani, hogy az anglusokat igen megvertük, 600 fregat elesett,
+                            másik 600 rabbá esett, minden órán várjuk őket ide Kanizsára, reménylem
+                            az Úr többet hallott felőle.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Azt tudom hogy mostanába sok fogoly francia tiszteket hoztak erre lefelé,
+                            Istennek légyen hálá, és hogy még többeket is küldenek győzedelmes
+                            seregeink; de hogy anglus fregatákat is hoznának Kanizsára, az még
+                            előttem esmeretlen újság. Hanem Lázár, énnekem most el kell sietnem, az
+                            asszonyságot tisztelje nevemmel, most annyi időm nincs, hogy elbucsuzzam
+                            tőlle, ha Budáról hazajövök, fogok neki újsággal kedveskedni és pedig
+                            ollyannal, millyet nem látott, nem is hallott.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Magam is kikérem, kedves Úr, ha valami újságot méltóztatik halani, legyen
+                            szerencsém magamnak is, ott inkább van szerencséje az embernek
+                            afélékhez, inspecie ben van-é meg Egyiptomba generál Telegrafus, és hogy
+                            igaz-é, hogy a franciák csakugyan feltalálták már azt a meszi lüvö
+                            levelet, mely szerént a levelet, ha postán küldik, mikor az ellenség
+                            felszakasztja a kopertabol, egymást éri, úgy omlik ki a sok bombi...
+                                <stage>Félbeszakasztja.</stage></p>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">HARMADIK JELENÉS</head>
+                    <p><stage>Karnyóné és az elébbiek.</stage></p>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Ezt érdemlettem én az Úrtól? Ezzel jutalmaztatja meg az én sok
+                            szívességemet? el kell-é hinnem, hogy az Úr csalárd, álnok és hitetlen
+                            lelkű?</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Mit?</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Azt, hogy az Úr színnel-mézzel angyal, valósággal pedig egy megtestesült
+                            kan ördög, ezt érdemlettem én az Úrtól, ezt? Az Úr majd mit is
+                            mondok.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Mi háboríttotta úgy meg az Asszonyt, nem illik az egy ollyan személyhez,
+                            az Asszony akar engem vádolni és azáltal érdemtelenné tészi magát arra,
+                            hogy én szerettem, mégpedig olly igen szerettem, mint most.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Mit keres hát ez a levél?</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Levél? az a levél? hogy mit keres már, hogy az a levél mit keres? Isz az
+                            a levél csak levél.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>De még elfelejtettem mondani, hogy a franciákra a gallusok is rátámadtak,
+                            aminthogy már szinte...<stage>Félbeszakasztja Karnyóné.</stage></p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Ördög vigye el a Kend franciáit, Lázár! Lipittlotty! így kellett engem a
+                            magam szolgálói előtt gyalázatba keverni, szolgáló előtt, phü szégyen,
+                            gyalázat, szép ember osztán az Úr, félig magyar, félig német, mégis
+                            tetszik, hogy kívánhatja azt tőllem hogy azt elszenvedjem? Az Úr
+                            embertelen, érti-é? Ah! mert ha most valamit nem néznék... fizesse le az
+                            Úr a kontóját, fizesse, most mindjárt, egyszeribe, ebbe a nyomba,
+                            huncfuttság nem emberség, fizesse le az Úr, és ha nem, majd tudom, mit
+                            csinálok, disznóság, az Úr egy cudar ember volt, én tenyeremen
+                            hordoztam, most mutatja meg, micsoda levél ez? Az Úr nem szóll, szóllok
+                            hát én, fizesse le az Úr a kontót, térjen vissza a maga cudarságába, és
+                            ne merje olly vakmerő lenni, hogy megcsúfolt nevemről többé emlékezzen.
+                            Lázár! hol az a kontó?</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZAR.</speaker>
+                        <p>Idd van, nad mint 8 curens, bizon jobb is fizetni.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Hisz az a kontó csak hadd maradjon, nállam mindég megtalálni, amivel
+                            tartozom, hiszen csak nem szököm el, de hogy is szökném én el, egy olly
+                            kedves személytől, mint amillyenért az Asszonyságba élni és halni
+                            szerencsém van.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Előttem az ollyan csapodár szók még elárulják az embert. Csak a kontót
+                            fizesse ki, Lipittlotty, és azután se éljen, se haljon érettem. Én az
+                            Urat mindég szerettem, azt nem tagadhatja, szeretem még most is, ah!
+                            jobban szeretem mindeneknél, de hogy az én szeretetemnek hasznát vegye,
+                            már arra magát érdemetlenné tette.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Kedves Asszony! - Az Asszonynak a szobaleánya hűségtelen, és azt régen
+                            észre vettem, és nagyon sajnálom, mert olybá tartottam, mint ha magamat
+                            sértett volna meg, régen is akartam már mondani az Asszonynak; de hogy
+                            meghitt cselédjét fundamentum nélkül gyanúba ne ejtsem, alkalmatosságra
+                            várakoztam. - Tudja-é az Asszony, hogy ő azzal a mézesmázos Tipptoppal
+                            nagyon öszveszűrte a levet, ha nem tudta, tudja meg most, - észrevettem,
+                            hogy a leány kész akármelly legényért az Asszonyt elárulni, hogy ezt
+                            saját próbám által tapasztaljam, azért küldöttem hozzá ezt a levelet. -
+                            Legyen az Asszony nyugodtan, és higgye el, hogy az Asszonyt jobban
+                            Lipittlottynál senki nem szereti, és hogy az ő ígéretei szentek az
+                            Asszony eránt, mégis az Asszony a kontóról beszéll. Eb az anyja kontója!
+                            hát a mi szeretetünk tiszta napfényét kontó fellegek is ködösíthetik?
+                            Én, ha az Asszonynak volnék, most elszégyenleném magamat.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Édes Angyalom! megengedj gondolatlan bosszúságomnak, megbántottalak
+                            goromba gyanúmmal. Egy huncut leány! Ah! a méreg is forr bennem. De
+                            hiszen ha nem szerettelek volna, nem is aggódtam volna érted, a szerelem
+                            aggsággal jár, megengedj, szeretlek, ah! igen nagyon szeretlek, és ha te
+                            is szeretsz, vedd kedvesen tőllem ezt a 3 xxx-et.<stage>Kitörli a
+                                kontót.</stage>Neked többé nincs kontód, nincs nállam egyéb kontód a
+                            szerelem édes kontóján kívül.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>De mit is csinál az Aszony, zeb a lelke, ki fizeti, meg kell vizetni,
+                            magunk is adosak vagyunk a Becsbe.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Hallgasson, Lázár, az Úrnak többé nincs contója.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>És tehát többé nekem nincs contóm - köszönöm az Asszonynak, egy szó hát
+                            annyi, mint száz, én felmegyek Budára, és azontúl engemet soha nem
+                            lát.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Isten őrizzen! én soha se látnám az Urat - ojje mit gondol az Úr?</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Igenis, én azt gondolom, hogy én az Asszony kontójára semmi számot nem
+                            tartok már, az asszony se tartson már semmit az én szívem kontójára.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>És én szegény özvegy...<stage>Félbeszakasztja Lipittlotty:</stage></p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>És a szegény özvegy marad özvegy, mint eddig volt, gondolkodjon a
+                            koporsóról s menjen idvezült férje után az örökkévalóságra: mi, ifjak
+                            még egy kevéssé itt akarunk mulatni a siralom völgyén, adiő.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Igen érzékenyen tréfál az Úr - ebbe a materiába nem örömest hallom a
+                            tréfát.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Ne csalja meg magát Asszonyságod, én nem tréfálok. - Értse meg a tréfát.
+                            - Én 25 ezer forintnak a lottéria által urává lettem; Asszonyságod pedig
+                            egy köz kalmárné. Én egy fiatal gavallér vagyok, akin minden kap,
+                            asszonyságod pedig egy ollyan 60 esztendős ütött-kopott vén hasadt
+                            hegedű, akit a sátán se tudna már kanforiázni, én eszemmel tudok élni,
+                            az Asszony pedig egy vén bolond.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Hitetlen bestia! még azon feljül csúfolódsz is. - Ó, édes szegény férjem!
+                            ha te most élnél, az Isten nyugosszon meg! boldog Egek! miket is kell
+                            szenvedni az embernek és kiktől és mikor. Te koldus kutya! aki az én
+                            korpámon tanultál meg ugatni, te hetyke kakas! ki az én szemetemen
+                            taréjodtál meg. -</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Kukorékó!</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Te hitetlen! Te kényes disznó! Te világ sepredékje! Te cigány! úh, Lázár
+                            Deák, adja azt a vas rőfőt, hadd verjem ki még a fogát is a
+                            kurvakergetőnek, - uh, te akasztófára való, ki a
+                                bótómból.<stage>Elesik.</stage></p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Ej, kérem az Asszonyt, moderálja magát, csak illyen az, aki az
+                            indulatoktol megrészegedik, az Asszony a harag miatt is elesik [a
+                            szerelem miatt is elesik], én megmondom egy szóval, hogy az Asszonynak
+                            valamint eddig sem volt esze, úgy ezután se lesz - nem várom vissza a
+                            komplimentet, adiő!</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Jaj jaj, te ördögök edénye, jaj, férjem! jaj vékonyom! jaj, jaj, szegény
+                            férjem, az Isten nyugosszon meg, akasztófáravaló.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Lám megmondtam! no most kontó, jaj fejem! jaj vállam! a kontó! sem
+                            egesség, sem pénz, se legény, se kontó, lássad most az Asszony, pedig én
+                            is elmegyek a botyábol.<stage>Elmegy.</stage></p>
+                    </sp>
+                </div>
+<div type="scene">
+                                <head type="title">NEGYEDIK JELENÉS</head>
+                                <sp who="#karnyone">
+                                    <speaker>KARNYÓNÉ</speaker>
+                                    <stage>magába</stage>
+                                    <p>Jaj, átkozottak! bizony mind elhagynak, bizony kétségbe kell
+                                        esnem. - Ó! édes, szegény férjem, ha te most élnél, az Isten
+                                        nyugosszon meg, ehol biz úgy maradok, mint a felmagzott
+                                        soláta közt az ijjesztő. - Én nem tudom, mit néznek bennem,
+                                        hogy ollyan vénnek tartanak. - Isz az Isten sokakat megáld
+                                        tartós ifjúsággal, én legalább nem vagyok olyan megvetésre
+                                        méltó, iszen ha nem hiszik, próbálnák meg, de a világ tele
+                                        van balítélettel. - Ó, te állhatatlan hitszegő! be nem
+                                        tettem volna fel felőled, jól van jól! az özvegyek édes
+                                        gyámola bészedi az én könyhullatásimat a maga tömlőjébe, és
+                                        te, környülmetéletlen szívű, elnyered még méltó jutalmadat,
+                                        engemet elhagytál, engemet megcsúfoltál, az Ég büntessen meg
+                                        tégedet és kellete korán vágjon ki az élők sorából! De mit
+                                        mondok hirtelen, élj te, élj! mert én téged most is
+                                        szeretlek, én inkább meghalok, - meg, vesszek el, ha meg nem
+                                        halok. Ó, Uram! Hozd el az én utolsó órámat, ennyire meg
+                                        vagyok csúfolva, és én
+                                            mégis...<stage>Félbeszakasztja.</stage></p>
+                                </sp>
+                                </div>
+<div type="scene">
+                    <head type="title">ÖTÖDIK JELENÉS</head>
+                    <p><stage>Samu és Karnyóné.</stage></p>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Asszonyám! lovazzunk, lovazzunk Asszonyám, nó!</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Eredj, te kis bohócska! hogy lovazzak én?</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Ejnye, azt se tudja Asszonyám, vegye a lába közé azt a vasrőföt, osztán
+                            csak így ni!</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Ah, édes fiam! csak te ne volnál, majd lovaznék én messze, messze, a
+                            másvilág mellé.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Elmegy asszonyám az Óperenciás tengerig, jaj, vigyen el engemet is, majd
+                            úgy meglovazzunk a tengeren, hogy!</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Gyermek! gyermek! jobb volna biz, az árvák édes Attyához fohászkodnál, én
+                            úgyis meghalok! -</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Jaj, édes asszonyám, ne haljon meg, - ha meghal, bizon maga is
+                            megbánja.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Az igaz, fiam, hogy megbánom, de hogy élek, még jobban bánom, azt pedig,
+                            hogy éltem, mindenek felett bánom. Lásd, a szegény atyád is mindég
+                            ollyan beteges vólt. - Ó Istenem! ami legkeservesebb, menyecske koromba
+                            ollyan petyhüdt vólt a szegényke, ó, édes, szegény férjem hát ha most is
+                            élnél! az Isten nyugosszon meg!</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Én is sírok, édes Asszonyám, én is siratom az én szegény petyhüdt
+                            férjemet, ó, édes, szegény petyhüdt férjem, ó, ó, ó!</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Ó, kis bohó, ó, ó! - édes szülöttem magzatom, menj a patikába, mintha
+                            rosszul érezném magamat, aminthogy rosszul is érzem, hozzál egy kis
+                            alkörmöst, osztán meg egy kis - dejszen csak ezt a papirost mutasd -
+                            csak Gotliktól, a legénytől kérj, ha pedig a gazda be talál jönni, és
+                            kérdeni találja, minek? csak azt mondd, fiam, hogy az egereket vesztjük
+                            el vele - érted?</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Értem, értem.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Mit mondasz hát?</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Azt hogy: Adjon Isten jó napot a Patikás Uramnak: asszonyám kotylik, az
+                            egerek pedig rosszul vannak, ha a gazda nem talál jönni, el akarjuk
+                            veszteni, adjon nekem az állomra körmöst; osztán ezt a papirost mutassa
+                            meg.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Jaj, bolond csinálta kis fattya! <stage>Félre szollal:</stage>Nem merem
+                            másra bizni, nesze, csak vidd el azt a papirost - semmit se szóllj. -
+                            Amit adnak, hozd el.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU</speaker>
+                        <p>Adjon hát asszonyám egy krajcárt, hadd vegyek siflit ott a
+                            patikásnál.</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>No, azt is megadom, csak siess. Samu elmegy. Egek, sohase hittem, hogy az
+                            ember reáunhasson az életre, most érzem, hogy terhemre van az élet, ó,
+                            te hitetlen! csak a fiamnak volna, ennek az egy rossz kölöknek, csak
+                            ennek volna elégséges elélni való esze, úgy tetszik, könnyebben válnék
+                            meg a világtól!!!</p>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">HATODIK JELENÉS</head>
+                    <p><stage>Tipptopp és Samu.</stage></p>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Hova, hova Samu?</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>A patikáshoz. - Asszonyám rosszul érzi magát, mert körmöstől evesztek az
+                            egerek, azt nézem meg, otthon van-é a gazda vagy pedig csak kotylik,
+                            papirost küld néki asszonyám.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Had lám azt a papirost!</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>De othon van-é hát a gazda?, mert ha otthon nincs, azt mondta asszonyám,
+                            hogy ne is mutassam.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Otthon van, otthon, no, csak adsza. - Mordiő, mit látok! csupa arzenikum,
+                            valóságos egérkő, ez nem jónak a jele, no csak eredj Samu. -</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Adjon hát az úr 1 krajcárt medvecukorra.</p>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">HETEDIK JELENÉS</head>
+                    <p><stage>Kuruzs, Tipptopp és Boris.</stage></p>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP</speaker>
+                        <stage>magába.</stage>
+                        <p>Már gyanítom, mibe van az egész dolog, bizonyosan Lipittlotty rútul bánt
+                            a kalmárnéval, ő, a bolond, Budára ment, az asszony pedig kétségbe
+                            esett. Bizonyosan úgy kell lenni. - Lipittlotty meglátta a kitett
+                            számokat és elhitte, hogy valósággal azok jöttek ki a lottérián, igaz,
+                            hogy mondta is az expeditor, hogy jó szómért és pénzemért éppen azokat
+                            tette ki a táblára, és azután, mintha csak tévedésből esett volna, úgy
+                            rakta ki ismét a valósággal kijött számokat. - Csakugyan elértem hát
+                            célomat, és Lipittlotty bolonddá lett, eddig Veszprém fele jár és amint
+                            az ő kevély lelkét esmérem, rútul vált meg a kalmárnétól, melly miatt a’
+                            talán ámborába is jött. - Könnyen meglehet, most nékem vigyáznom kell,
+                            ha az asszony magát megölné, odalenne minden plánumom. - Majd megyek
+                            cirkálni, valamit tán kitanulhatok. - A Boriskát is majd körülveszem,
+                            tanácsokat adok néki, és veszek tőlle. - De ha! ha! éppen Boriska.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <stage>Danol.</stage>
+                        <lg>
+                            <l>Csurgói kincsem, hallod-é?</l>
+                            <l>Kanizsán lakom, tudod-é?</l>
+                            <l>Hajts Kanizsára, gyere be,</l>
+                            <l>Csókba feresztlek idebe</l>
+                        </lg>
+                        <lg>
+                            <l>Öszvehoz tán még Szent Egyed</l>
+                            <l>Hogy fejed ölembe tegyed.</l>
+                            <l>Béfogad engem a major</l>
+                            <l>Majd mikor érik a bajor.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Otthon-é az asszony, Boriska?</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>A bótba van.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Teveled akarok szóllani.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Tessék ide feljönni, csak magam vagyok.</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <p>Sok ezerjókkal, mint megannyi karbunkulusokkal körülkoszorúzott jó
+                            napokat kívánok és komprekálok úri kegyes gráciájának. Nincsen-é valami
+                            belső nyavalyája az Úrnak? vagy nem akar-é eret vágatni? vagy mostanába
+                            köppölyt hányatni úri tagjaira? vagy magát trepanáltatni? vagy akármijét
+                            arannyá változtatni, inspecie azt a botját? vagy nem akarja-é jövendő
+                            sorsát hallani? mikor házasodik meg, lesz-é szép felesége? hány fia
+                            lesz, hány leánya, mellyik szabóval varrat legszebb nadrágot? makk
+                            adutba nyér-é többet vagy a tökbe? elvész-é az a szümölcs az orráról,
+                            vagy több is nő hozzá s a többi. Akar-é valami avult ruhát adni vagy
+                            venni, ezüst gombot, félviseltes gatyamadzagot, elvásott lakatot,
+                            beírott papirossat, maradék gánicát, vagy akar-é az Úr fazékat
+                            drótoztatni, pipát köttetni, rostát korrigáltatni, vagy pedig, ami ehez
+                            hasonló mesterség, névnapi köszöntőt, halotti búcsúztatót, paszit vagy
+                            lakodalombeli salutatiot, vagy más ehez hasonló kupec poézist
+                            parancsolni, vagy, nó, kosarat is köttetni s több aféle eius modi?</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Ki tudna már olyan sok közzül választani? Csak egy szóval mondja meg
+                            Kend, micsoda ember? mi a Ked mestersége?</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>Ó édes dominatiom,</l>
+                            <l>Nagysok az én professiom</l>
+                            <l>Professiom hat, hét féle,</l>
+                            <l>Melly kell, szolgálhatok véle.</l>
+                            <l>Pénzért mindennek szolgálok,</l>
+                            <l>Sok s nagy csudát produkálok.</l>
+                            <l>Esmernek kicsinyek nagyok,</l>
+                            <l>Hallja meg az Úr, ki vagyok.</l>
+                            <l>Doktor, borbély, alchimista,</l>
+                            <l>Kéznéző chiromantista,</l>
+                            <l>Zsibvásáros és drótvonó,</l>
+                            <l>Poéta és kosárfonó.</l>
+                            <l>Ez már mind egyre megyen ki,</l>
+                            <l>Hozzá jobban nem tud senki.</l>
+                            <l>Exclusive, inclusive,</l>
+                            <l>Úr is vagyok respective.</l>
+                            <l>Mit tetszik hát demandálni,</l>
+                            <l>Nálam mindent feltalálni.</l>
+                            <l>S megmutatom, hogy bolondok,</l>
+                            <l>Akik engem... majd mit mondok.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Bizony, sokféle tudomány egy caputba, de mégis, miért hogy ollyan
+                            rongyos?</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>Jaj lássa az Úr ezeket</l>
+                            <l>A méla mesterségeket</l>
+                            <l>Noha rongyba mutogatják,</l>
+                            <l>Még az ebek sem ugatják.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Nohát, produkáljon belőlök egyet, valamellyiket, tőllem is kap Kend tán
+                            valamit.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Csak verset mondasson az Úr vele, már én hallottam tőlle, ollyan szépen
+                            kimegy, mintha tőre szednék.</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <p>Az is meglehet, mért nem? Éppen ma írtam egyet Szent Egyed napjára,
+                            hiszen ha tetszik, elolvasom.</p>
+                    </sp>
+                    <sp who="#tipptopp #boris">
+                        <speaker>TIPPTOPP, BORIS.</speaker>
+                        <stage>Egyszerre,</stage>
+                        <p>Halljuk, Kuruzs Uram, halljuk.</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <stage>Keresi a csizma szárába.</stage>
+                        <p>S ejnye, nó, ha ráakadnék, no, mi a tatár. Köszöntő versek komma mellyek
+                            punctum írattattak nagy B. Becsületes, Bizodalmas az is nagy B. Jámbor
+                            NB. a bor csak kis b Keresztyén tény-é? vagy tyén? - régen pörölnek
+                            rajta. Felebarátunknak Goráblás Martiny Jánosnak, helységünknek már sok
+                            időktől fogva közjóban fáradozó nagy G. Gonosz bírájának, nékem különös
+                            jóakaró Kedves Komám Uramnak. A capite. Tisztességes és nagyra
+                            becsülendő nevének tiszteletére, és egyúttal az én Komámnak, az ő hites
+                            élete párjának s kedves csimotáinak e jeles napon származandó
+                            örvendezésére, nékem pedig egy kis collatio végett való áldomási
+                            béfordulásra írattattak. Nemes Somogy Vármegyébe helyheztetett Csurgó
+                            mezővárosban 1ső szeptemberbe. Anno itt csak úgy irtam, hogy Ao de ez
+                            ellipsis, és azt teszi, hogy anno sietve édes Komám Uramnak a Darunál
+                            lévő vendégfogadóba írtam K. R. Kuruzs Péter.</p>
+                        <lg>
+                            <l><stage>1ső vers.</stage> Szomorúság, háborúság tőlem távol állnak</l>
+                            <l>Mert víg napra, úgy mint mára</l>
+                            <l>Hajnalkorra, víg órára</l>
+                            <l>Eljutottunk, felvirradtunk Szent Egyed napjára.</l>
+                        </lg>
+                        <lg>
+                            <l><stage>2dik vers.</stage> Azért nékem zengő nyelvem ékes nótával
+                                zeng,</l>
+                            <l>Párnázusnak Héliconnak hegye vígsággal reng.</l>
+                            <l>Piros hajnalnak szépsége,</l>
+                            <l>Hajnalcsillag ékessége,</l>
+                            <l>Mosolygással, pirossággal derült fényessége.</l>
+                        </lg>
+                        <lg>
+                            <l><stage>3dik vers.</stage> Gondolkodna, ha szólhatna Orveus
+                                nótája.</l>
+                            <l>Ha pénghetne és zenghetne Clio muzsikája.</l>
+                            <l>Most vidámságát mutatná,</l>
+                            <l>Hárfáján újját futtatná,</l>
+                            <l>Úgy mint a Szent Egyed napját hogy vígan mulatná</l>
+                        </lg>
+                        <lg>
+                            <l><stage>4dik vers.</stage> Múljanak el, húljanak el bánátid
+                                napjai,</l>
+                            <l>Derüljenek, terüljenek rád áldás árjai,</l>
+                            <l>Ellenségid hátráljanak</l>
+                            <l>Szent angyalok vigyázzanak,</l>
+                            <l>Az Úr Isten úgy éltessen, hogy sok számos Egyed napját</l>
+                            <l>Ked, Komám tölthessen.</l>
+                        </lg>
+                        <lg>
+                            <l><stage>5dik vers.</stage> A kerék ég örömmel ég emberek vígságán,</l>
+                            <l>A szép csillag vígan villog az ég karikáján,</l>
+                            <l>Mennyi fűszál a földön áll,</l>
+                            <l>Kedvet annál többet talál,</l>
+                            <l>Kit a halál le nem kaszál, ez nap illy rendbe áll.</l>
+                            <l>Dixi, duxi, Darótzi,</l>
+                            <l>Boris Húgom, kapard ki.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Ejnye, Kuruzs Uram de szép, ejnye no, de furcsa no: dehát nekem tudna-é
+                            valami szép rigmust írni, ollyan leánynak valót?</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <p>Már mér ne tudnék, tudom én már, millyen kell az ollyan leányoknak, éppen
+                            pünköstkor vittek el tőlem egyet a compactorok, azt tartom a’ legjobb
+                            lesz, így megy ki a teketoriája.</p>
+                        <lg>
+                            <l>1. Hármat ellett a fürjecske fű rendén csipke,</l>
+                            <l>Ó, te csók gyérére nyenyenye retyetye<stage>repetitio</stage></l>
+                        </lg>
+                        <lg>
+                            <l>2. Gyűjj be hozzám, rózsám, feküdj az ágyamba,</l>
+                            <l>Oldozgasd meg csecsfűződet, kösd a dolmányomra,</l>
+                            <l>Ó, te csók<stage>s a többi, repetitio</stage></l>
+                        </lg>
+                        <lg>
+                            <l>3. Gyűj bé hozzám, rózsám, egy tál borsos lére,</l>
+                            <l>Megborsoltam, sáfrányoltam, készen vagyok véle.</l>
+                            <l>Ó, te csók gyerere<stage>s a többi, repetitio</stage></l>
+                        </lg>
+                        <lg>
+                            <l>4. Akit adtam jeggyűrűcskét, tédd a kisujjodba,</l>
+                            <l>Ha kimégy is, ha bemégy is,</l>
+                            <l>Megemlegetsz rolla.</l>
+                            <l>Ó, te csók...<stage>repetitio</stage></l>
+                            <l>Ó, be szép teketoria!</l>
+                            <l>Csak legyen kanaforia.</l>
+                            <l>Ez egy pótrás istoria</l>
+                            <l>Hozott a compactoria.</l>
+                        </lg>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">NYOLCADIK JELENÉS</head>
+                    <p><stage>Samu és Tipptopp.</stage></p>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Hallya az Úr! hallya az Úr!</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>No, ki az?</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Vettem ám medvecúkort, vettem bizony, meg siflit is.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Te vagy, Samu, gyöszte csak gyöszte, hát egyebet vettél-é?</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Vettem ám asszonyámnak egy katuját, meg egy üveget ni.</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Hadd lám, Samu, hadd lám - tökélletes arzenikum, valóságos egérkő, ejnye,
+                            ejnye, mire nem megy az ember, no.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>De meg ne egye ám az Úr, mert azután hogy veszi be asszonyám?</p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP</speaker>
+                        <stage>félre szóllal</stage>
+                        <p>Elcserélem, ne, Samu, vidd el asszonyádnak.<stage>Samu elmegy</stage> -
+                            Most már örülök, csak jó vége lenne ezen cserének, majd a Lipittlotty
+                            szállására megyek, megnézem, s megtudakozom, micsoda móddal ment el
+                            Kanizsáról, visszajön-é? vagy csak Budán fog élni abból a 20-25 ezer
+                            forintból, ha, ha, ha.</p>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">KILENCEDIK JELENÉS</head>
+                    <p><stage>Karnyóné és Samu.</stage></p>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Samu! mit csinálsz? Siess, nékem most minden minuta egy esztendőt
+                            tesz</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>No, Asszonyám! van ám orvosság, csak egér legyen, úgy-e, egérrel eszi meg
+                            Asszonyám? nekem is adjon ám belőle, sülve lesz-é vagy főzve?</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Adce, édes fiam! Ah! csak téged ne látnálak, könnyebben venném bé ezt a
+                            halálos port, de hiszen az Isten gondot visel rólad, édes fiacskám,
+                            veszne inkább a jószágom csak az eszemet hagyhatnám neked testamentumba
+                            - édes fiam, te már engemet holnap nem látsz!</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Hát osztán hónap mit eszem én?</p>
+                    </sp>
+                    <sp who="#karnyone">
+                        <speaker>KARNYÓNÉ.</speaker>
+                        <p>Toros kábosztát, édes fiam! azt is az anyád torjába eredj csak, végy
+                            magadnak egy pár vajas kiflit.<stage>Samu elmegy.</stage>Fiam! Fiam!
+                            Isten hozzád, már te engemet többet nem látsz, Isten hozzád!!!</p>
+                        <p>Én nem tudom, mi az oka... <stage>Keservesen danol</stage></p>
+                        <lg>
+                            <l>Ó, dugába dült remények!</l>
+                            <l>Ó, Legények ó, Legények!</l>
+                            <l>Ó Lipittlotty! szívem kínja</l>
+                            <l>Gonosz mindnyájatok csínja.</l>
+                        </lg>
+                        <lg>
+                            <l>Én meghalok, hitetlenek!</l>
+                            <l>Mindjárt Karnyóm után menek,</l>
+                            <l>Mindjárt nem lesz most egy dáma</l>
+                            <l>S hibít rabjaitok száma.</l>
+                            <l>Nem szántok-e? hitetlenek!</l>
+                            <l>Mindjárt Karnyóm után menek.</l>
+                        </lg>
+                        <lg>
+                            <l>Gyertek, még egy kicsit várok,</l>
+                            <l>Míg a bótajtóig járok.<stage>Integet legényeket.</stage></l>
+                            <l>Jaj, nem jön szavamra senki,</l>
+                            <l>Nohát lelkem, csak innen ki</l>
+                            <l>Mégis egy-két percet várok,</l>
+                            <l>Míg a nyoszolyáig járok.<stage>Integet legényeket</stage></l>
+                        </lg>
+                        <lg>
+                            <l>Jaj, nem jön szavamra senki</l>
+                            <l>No hát lelkem, csak innen ki.</l>
+                            <l>Majd jó szívvel látnak mára</l>
+                            <l>Pilátushoz vacsorára.</l>
+                        </lg>
+                        <stage>A mérget kezébe veszi</stage>
+                        <lg>
+                            <l>Ó, irtóztató nagy kétség!</l>
+                            <l>Ó, másvilági setétség!</l>
+                            <l>Hunyjatok el, szép csillagok!</l>
+                            <l>Én csak setétbe ballagok</l>
+                            <l>Párkák! Lidércek! Fúriák!</l>
+                            <l>Republicanus franciák!</l>
+                            <l>Megtestesült kan angyalok!</l>
+                            <l>Fogjatok el, mert meghalok!<stage>Megitta.</stage></l>
+                        </lg>
+                        <p><stage>Repetálja ez utolsó sort rekedezve</stage></p>
+                        <p><stage>Következik a némajáték.</stage></p>
+                        <p><stage>Itt megiván Karnyóné a mérget s azzal a nyoszolya fele botorkázván
+                                megholt elnyujtózva. - A fia, Samu, egy tálba tejet evett s azzal
+                                kínálta megholt anyját. Boriska, Lázár körülfogták NB. Lázár nem
+                                hagyta el örökösen a Karnyónét, mikor mondta, hogy otthagyja, csak
+                                ijjesztette az asszonyát. - Bemegy Tipptopp, s kérdi intve, mi baja
+                                az asszonynak, s Boris int, hogy mérget vett bé, s megholt. Lázár
+                                mindjárt a Kuruzsért megy, kit nagy sokára előhozott egy vén ludverc
+                                formába. Lámpással kísértetett Kuruzs, aminthogy setét is volt.
+                                Kuruzs egész borbélyt készülettel jött, és ugy is, mint egy
+                                élhetetlen borbély, aki is mindig kuruzsolta a vén dögöt; de
+                                csakugyan későre lett reménység feltámadása felöl. Ezen idő alatt
+                                sem tudta feltámasztani az asszonyt. Ezenbe jön Lipittlotty a
+                                némajátékosokhoz s sírókhoz.</stage>
+                        </p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY</speaker>
+                        <stage>nagy fúriával.</stage>
+                        <p>Itt van, csakugyan itt van az a huncfut, halál és bosszúállás, a te
+                            tökélletlen vén kurvádnak vérén keresztül akarnék rohanni utolsó
+                            veszedelmedre. Te voltál, aki engemet gyalázatba, kárba és kéttségbe
+                            dűtöttél? Te hamisítottad meg azt a lottériát? Szólj, reszkess, halj
+                                meg!<stage>Mellybe lövi. A mellybe lövés így esett meg: Lipittlotty
+                                nagy méreggel beszélt, s nagy hangon, melly a más szobába
+                                általhallott, s mikor azt mondta, hogy halj meg, Lipittlotty egy
+                                pisztolyt tartott a Tipptopp mellyének, mely csak porozva volt fel,
+                                s abba a szempillantásba, más házból, más személy valósággal
+                                megtöltött pisztolyt lőtt el, s éppen azt gondolták volna, hogy
+                                Lipittlotty lőtte agyon Tipptoppot.</stage></p>
+                    </sp>
+                    <sp who="#tipptopp">
+                        <speaker>TIPPTOPP.</speaker>
+                        <p>Uram irgalmazz, oda vagyok, ó, jaj!<stage>Ledől.</stage></p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Ah, Jézus!</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Jaj tejem, jaj tálam!<stage>Mert készakarva el kellett törni egy
+                                személynek ráhágással a tejes tálat.</stage></p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>De a’ bizon rútságos dolog!</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>Rettenetes gyilkosság!</l>
+                            <l>Merő azon pihóság.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Megérdemelte a gazember, csak gondoljátok meg: az expeditort
+                            megvesztegette, hogy az én elámíttatásomra tegye ki két óráig az én
+                            számjaimat, azután mintha csak confusioból esett volna, a valósággal
+                            kijött számokat rakja ki, és így, lássátok, engemet millyen rettenetes
+                            galibába kevert, mind magamra, mind erre az asszonyságra nézve. -
+                            Sümegen vettem észre megcsalattatásomat, ott a statión ujj póstalovakat
+                            akartam váltani, - s hát látom, hogy egészen más számok vagynak kitéve,
+                            azonnal visszafordultam, s hát látom, hogy itthon is már azok a számok
+                            vagynak kitéve. Már minden tudva van előttem, megérdemlette a halált -
+                            mégegyszer agyon lövöm. - De hát az asszony aluszik vagy csak
+                            tetteti?</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Az egereket akarja elveszteni</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Jaj, Uram, a mi asszonyunk oda van, az Úr ölte meg. -</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Micsoda? én öltem meg?</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Az Úr bizon, de az Isten meg is veri az Urat, mert az Úr gyilkos, az
+                            asszonyunkkal is úgy bánt, szegény, az Isten irgalmazzon bűnös lelkének,
+                            mérget vett bé; már most az is halva fekszik, az Isten megveri az Urat,
+                            verje is meg.</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <p>Uram! hadd nézzek az Úr tenyerébe, én probált ember vagyok. Ez az ér erre
+                            megy, ez a szív ere, ez a vége itt így megy, a másik meg erre megy. Én,
+                            Uram, sok ember tenyerét néztem már, jártas-költés chiromantista vagyok,
+                            de az Úr - hanem meg ne haragudjon ezért - titkos mesterségemre
+                            esküszöm, soha el nem kerüli, - bocsánatot kérek - az akasztófát. -</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Eh! - -</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <p>Kérem, kérem, mindjárt megmutatom: ez a húzás középbe az Urat jelenti, ez
+                            a hosszan nyúló húzás mi volna egyéb egy kötélnél, ez pedig mathematice
+                            is egy valóságos akasztófa. No, most mit tud rá az Úr felelni.</p>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Bolond!</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>Illy szép úrral virágzó fa</l>
+                            <l>Lön egyszer az akasztófa, (dejszen semmi)</l>
+                        </lg>
+                        <lg>
+                            <l>Terád pedig, édes lányom,</l>
+                            <l>A sorsvetést ím így hányom,</l>
+                            <l>Hogy a szíved igen ledér,</l>
+                            <l>Magad pedig hasadt vedér.</l>
+                            <l>Róllad rosszat mond csizió</l>
+                            <l>Jeled vagy bak vagy skorpió,</l>
+                            <l>S amint mutatja a tenyér</l>
+                            <l>Nállad mindennapi kenyér.</l>
+                            <l>A te utad [nem] kövecses,</l>
+                            <l>Nállad a szép legény becses, (de megálljunk).</l>
+                        </lg>
+                        <lg>
+                            <l>Látja, édes Lipittlotty Úr,</l>
+                            <l>Az asszony már tajtékot túr,</l>
+                            <l>S ha más bele kristélyt nem szúr,</l>
+                            <l>Elszakad benne a bélhúr.</l>
+                            <l>Májját a méreg ellepte,</l>
+                            <l>Melly ellen hasznos recepte:</l>
+                            <l>Keresetlen fát találni</l>
+                            <l>S azzal a talpát piszkálni.</l>
+                            <l>Az is jeles historia</l>
+                            <l>Hogy a vesicatoria,</l>
+                            <l>Ha rá teszik az orrára,</l>
+                            <l>Feltámasztja két órára</l>
+                            <l>De ez az úr, ki itt fekszik,</l>
+                            <l>Már a sírtól nem menekszik.</l>
+                            <l>Már ennek a praescriptió</l>
+                            <l>Csak az egy végső adió.</l>
+                        </lg>
+                        <lg>
+                            <l>Hanem annyit mégis teszek</l>
+                            <l>Adják ide, ha van eszek,</l>
+                            <l>Egyetmássa nem vész kárba,</l>
+                            <l>Eladom a zsibvásárba.</l>
+                            <l>Úgyis sok úri személlyek,</l>
+                            <l>Kik szegények de kevélyek,</l>
+                            <l>Ősök javát utoljára</l>
+                            <l>Küldik hezzám zsibvásárra.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#lipittlotty">
+                        <speaker>LIPITTLOTTY.</speaker>
+                        <p>Százezer ördögök! Iszonyodjam-é magamtól? szerencsétlen asszony!
+                            szerencsétlen ifjú! kegyetlen áldozatim! Itt a bűnös, itt a bíró, itt a
+                            bosszúálló, elégedjetek meg, ez az óra, másvilág, fogadj be
+                                engemet.<stage>Mellybe lövi magát, az [a] megírt mód szerént
+                                esett.</stage></p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>No felsültél, akasztófa,</l>
+                            <l>Hazudott a másik strófa</l>
+                        </lg>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>De már a’ bizon sok, a’ is puff, e’ is puff.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Osztán Lázár megmeg puff?</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Puff bizony Sámuka, másik is puff.</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Ah, Jézus! én itthagyom ezt a házat - a világért sem mernék az éjtszaka
+                            itt hálni, ó, Jézus!</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>Ah, per Deum immortalem!</l>
+                            <l>Jerusálem! Jerusálem!</l>
+                        </lg>
+                    </sp>
+                </div>
+<div type="scene">
+                    <head type="title">TIZEDIK JELENÉS</head>
+                    <p><stage>Karnyó és az elébbiek.</stage></p>
+                    <sp who="#karnyo">
+                        <speaker>KARNYÓ.</speaker>
+                        <p>Jó estét, édes gyerekeim! hát hogy vagytok, az Isten áldjon meg
+                            benneteket - jaj, bizony azt gondoltam, sohasem érkezek el idáig,
+                            sohasem juthatok el, azt gondoltam, hogy csak nem láthatom meg már
+                            Kanizsát. - De hát ti nem is szóltok, fiaim! talám bizony nem is
+                            esmertek.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Micsoda zember ked zillen zeste, bazus?</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Csak menjen Ked ki, istenadta, beteg van a háznál.</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>De nékem mintha rémlene,</l>
+                            <l>Hogy ez az úr ki a fene.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Jaj, édes Atyám Uram! édes Atyám Uram! be régen nem láttam édes Uram
+                            Atyámat. Ni, édes asszonyám beteg - hozott-é nekem valamit a
+                            vásárról?</p>
+                    </sp>
+                    <sp who="#karnyo">
+                        <speaker>KARNYÓ.</speaker>
+                        <p>Hoztam, édes fiam, nesze, ez az utolsó kenyeremnek a maradéka - ezt
+                            megbecsüld, mert a te apádnak az aranyaknál is becsesebb volt - piskóta
+                            gyanánt edd azt - - -. Édes fiam! te valál, aki legelőször megesmértél,
+                            te, ki magadat is alig esmered, mások pedig okosabb létekre, ehol, három
+                            esztendők alatt egészen elfelejtettek. - Csak édes fiam! nem tagadhatja
+                            meg magát a Természet! - A’ vagyok én, akinek te gondolsz, ennek a
+                            háznak ura - én, én, a szerencsétlen Karnyó!!!</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Ó, Jézus! hol jára mi jó Urunk, bizony talán az égből szállott le erre a
+                            szomorú napra!</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>Igaz, hogy ez szomorú nap</l>
+                            <l>Im kell doktor, hóhér és pap.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#karnyo">
+                        <speaker>KARNYÓ.</speaker>
+                        <p>Az igaz, édes Boriskám, az égből szállottam hozzátok, mert az vezérlett
+                            engem minden útaimba. Jól tudhatjátok, hogy én most három esztendeje
+                            lesz, kereskedés végett Grécbe kimentem, és akkor Gréc és Triest közt az
+                            akkori időbe az ottan kóborló franciáktól (ó! még most is előttem a vért
+                            szopó tigrisek képe) elfogattattam! Mindenemet feldúlták, még a
+                            rajtamvalót is lehúzták; csak egy fillért sem hagytak nállam. Én mint
+                            aféle kereskedő eleget protestálgattam nekiek, de azokba az emberiségét
+                            levetkezett emberekbe semmi indulat, semmi indulat nem találkozik, én a
+                            kétségbeesés miatt öszve találtam [kapni] tisztesekkel aki csak annyiba
+                            külömbözött a tartományt pusztító harambasátol, hogy selyem posztóból
+                            volt a kaputja; szóról szóra ment a dolog, már akkor bilincsre voltam
+                            téve, úgy bánnak ezek a hatalmokba esett jámborral, engemet a
+                            kétségbeesés és a méltatlan velem való bánás sokra vitt, nemzetjeket,
+                            vad erkölcsöket, sőt neveket is kárhoztattam. Mit nyertem vele, a vezér
+                            quartelyára behurcoltak, engem anarchistának, arisztokratának,
+                            rojalistának, a köz csendesség megháborítójának, emigránsok barátjának,
+                            az egyenlőség ellenségének, a nemzeti jussok felforgatójának, az
+                            emberiség mocskának, és még Isten tudná előszámlálni, minek is neveztek,
+                            és engemet minden mentségem nélkül fogságba Mantuaba küldöttek, abba a
+                            várba, amellyet ők az ő kevély lelkekhez képest győzhetetlennek
+                            tartottak.</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>S Mantujába volt az Úr, Brincibalis Uram! halotam ez erös város, od
+                            szakad a Nilus a Mozelaba, de nem tudom melik országba van, azt bizon
+                            nem tudom.</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>Hüm, Mantuja az Mantuja,</l>
+                            <l>Non procul a Genuja,</l>
+                            <l>Scit jam Dominatio tuja,</l>
+                            <l>Mere nyílik kapuja.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Hahaha, alleluja!!!</p>
+                    </sp>
+                    <sp who="#karnyo">
+                        <speaker>KARNYÓ</speaker>
+                        <p>Itt voltam én fogva, édes fiaim, sok ollyan érdemes emberekkel, akik az
+                            ott uralkodó eszelősségnek baráti nem voltak, sok józan életű, józan
+                            erkölcsű emberekkel szenvedtem én együtt, akiket a világgal játszó
+                            franciák az emberiség pártfogása mellett az emberiség ellen üldöznek és
+                            sanyargatnak. - De hálá légyen a mindeneket bölcsen vezérlő Istennek,
+                            eljött valahára az az idő, amellybe a világnak három hatalmas császárja
+                            az Oceanusnak megtántoríthatatlan monarchájával felkölt az emberiségnek
+                            köz ügye mellett, a neki-bizakodott gonoszságot valahára megtanította a
+                            hadnak, az igazságnak s emberiségnek erejét, hatalmát, méltóságát
+                            rettegni, tisztelni és istenleni.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Kuruzs Uram, ni, találja ki! mit eszem én ma?</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS</speaker>
+                        <lg>
+                            <l>Halgass gyerek, mert rádverek,</l>
+                            <l>Kukkert eszel, halgass gyerek,</l>
+                            <l>Samuka légy kuka.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#karnyo">
+                        <speaker>KARNYÓ.</speaker>
+                        <p>Eljött valahára az az idő, hogy a mi hatalmas seregeink megreszkettették
+                            a franciák alatt az Alpeseket és a Padus partjait, és Szuvarov Mantuát
+                            megvette. Szuvarov - ama hadban őszült vitéz vezér, ki csak a
+                            szótárokból esméri a félelmet. Ez a történet nekünk olly kedves volt,
+                            olly örvendetes, mint amillyen szomorú a franciáknak. Mi mindnyájan
+                            kiszabadultunk, passust nyertünk, magam pedig útiköltséget is némely
+                            jószivü hadi tisztektől, kik itt Kanizsán szegény házamnál megfordultak.
+                            Az Isten éltesse Kedves Fejedelmünket a több hatalmasságokkal. Éljen a
+                            vitéz Szuvarov, Mantua meggyőzője. Éljenek - mindnyájan legyenek
+                            szerencsések. - - - De édes fiaim! a sok szóbeszéd közbe majd el is
+                            felejtkezem az öreg anyátokról, hát az él-é, vagy hal az istenadta?</p>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Megholt!!</p>
+                    </sp>
+                    <sp who="#karnyo">
+                        <speaker>KARNYÓ.</speaker>
+                        <p>Meg! - - az Isten nyugossza meg; hány hónapja vagy esztendeje?</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Most hal epen az asszony, éppen most van halott.</p>
+                    </sp>
+                    <sp who="#kuruzs">
+                        <speaker>KURUZS.</speaker>
+                        <lg>
+                            <l>Megholt, megholt, és miatta</l>
+                            <l>Már az ördög elragadta</l>
+                            <l>E két urat is magához,</l>
+                            <l>Jó lábot a stafétához.</l>
+                        </lg>
+                    </sp>
+                    <sp who="#boris">
+                        <speaker>BORIS.</speaker>
+                        <p>Az asszony arzenikumot vett bé!!</p>
+                    </sp>
+                    <sp who="#lazar">
+                        <speaker>LÁZÁR.</speaker>
+                        <p>Ez az úr agyonlüte a másikat, nagy harag volt, egyéb zsemi zsem.</p>
+                    </sp>
+                    <sp who="#samu">
+                        <speaker>SAMU.</speaker>
+                        <p>Dejszen nem haragudt, mert magát is agyonlőtte.</p>
+                    </sp>
+                    <sp who="#karnyo">
+                        <speaker>KARNYÓ.</speaker>
+                        <p>Istenem, Uram! Miért is vezérlettél haza? Tömlöcből kriptába jöttem, ó
+                            szomorú este! ó halálos padimentom!.<stage>Elájul.</stage></p>
+                    </sp>
+                </div>
+<div type="scene">
+                                                  <head type="title">TIZENEGYEDIK JELENÉS</head>
+                                                  <sp who="#tunder">
+                        <speaker>TÜNDÉR.</speaker>
+                        <lg>
+                            <l>A János pap országába, hol nincs semmi aggodalom</l>
+                            <l>Tündérek szép királynéja, gyémánt palotába lakom.</l>
+                            <l>Legtöbb csudát, karakallát az éjjeli ágyba teszek -</l>
+                            <l>Bámul az emberi szem. Példa ez a furcsa gyerek.</l>
+                        </lg>
+                    </sp>
+                                                  <sp who="#tunderfi">
+                        <speaker>TÜNDÉRFI</speaker>
+                        <lg>
+                            <l>Tündérek szép királynéja</l>
+                            <l>Imé léteit szerze nekem</l>
+                        </lg>
+                    </sp>
+                                                  <sp who="#tunder">
+                        <speaker>TÜNDÉR.</speaker>
+                        <lg>
+                            <l>A szem látja, de nem tudja</l>
+                            <l>Hogy származtál szép gyermekem.</l>
+                        </lg>
+                    </sp>
+                                                  <sp who="#tunderfi">
+                        <speaker>TÜNDÉRFI</speaker>
+                        <lg>
+                            <l>Mit parancsolsz?</l>
+                        </lg>
+                    </sp>
+                                                  <sp who="#tunder">
+                        <speaker>TÜNDÉR.</speaker>
+                        <lg>
+                            <l>Minek is szólsz?</l>
+                            <l>Már tudhatod mit cselekedj,</l>
+                            <l>Ha tündér vagy, tudnod kell</l>
+                            <l>Mégis itt állsz, huncfut, eredj.</l>
+                        </lg>
+                    </sp>
+                                                  <sp who="#tunderfi">
+                        <speaker>TÜNDÉRFI.</speaker>
+                        <lg>
+                            <l>Mit parancsolsz?</l>
+                        </lg>
+                    </sp>
+                                                  <sp who="#tunder">
+                        <speaker>TÜNDÉR.</speaker>
+                        <lg>
+                            <l>Minek is szólsz?</l>
+                            <l>Már tudhatod, mit cselekedj.</l>
+                        </lg>
+                    </sp>
+                                                  <sp who="#tunderfi">
+                        <speaker>TÜNDÉRFI.</speaker>
+                        <p>Hogy azt a négy?</p>
+                    </sp>
+                                                  <sp who="#tunder">
+                        <speaker>TÜNDÉR.</speaker>
+                        <p>Fantasztákat.</p>
+                    </sp>
+                                                  <sp who="#tunderfi">
+                        <speaker>TÜNDÉRFI.</speaker>
+                        <p>Észre hozzam?</p>
+                    </sp>
+                                                  <sp who="#tunder">
+                        <speaker>TÜNDÉR.</speaker>
+                        <p>Észre hozzad, huncfut, eredj.</p>
+                    </sp>
+                                                  <sp who="#tunderfi">
+                        <speaker>TÜNDÉRFI.</speaker>
+                        <stage>Az asszonyhoz a varázsló vesszővel hozzáüt</stage>
+                        <lg>
+                            <l>Vén lant! még meg nem gebedtél,</l>
+                            <l>Álompor volt, amit ettél,</l>
+                            <l>Kelj fel frissen, mert majd adnak,</l>
+                            <l>Főzz vacsorát az uradnak</l>
+                            <l>Fálelilela - Fálelilela.</l>
+                        </lg>
+                        <p><stage>Tipptopphoz.</stage> Be bolond vagy, hogy megholtál!</p>
+                        <p><stage>Lipittlottyhoz</stage> De te még bolondabb vóltál.</p>
+                        <p><stage>Kettőjükhöz</stage></p>
+                        <lg>
+                            <l>Kopófing, majd mit is mondok,</l>
+                            <l>Keljetek fel, vén bolondok</l>
+                            <l>Fálelilela - Fálelilela.</l>
+                        </lg>
+                        <p><stage>Kamyóhoz</stage>
+                        </p>
+                        <lg>
+                            <l>Kelj fel verj rá a banyára</l>
+                            <l>Mért nem várt jó vacsorára.</l>
+                        </lg>
+                        <p><stage>A többiekhez</stage></p>
+                        <lg>
+                            <l>Ti is itten mit strázsáltok,</l>
+                            <l>Sertifurti kurvanyátok</l>
+                            <l>Fálelilela Fálelilela.</l>
+                        </lg>
+                        <p><stage>Egyszerre felugranak és öszvefogóznak. Karnyó Karnyónéval,
+                                Lipittlotty Tipptoppal, Boris Lázárral, Samu Kuruzzsal, s illyen
+                                nótával mennek ki a theatrumból.</stage></p>
+                    </sp>
+                                                  <sp who="#karnyo">
+                                                  <speaker>KARNYÓ.</speaker>
+                                                  <p>Ehetném ám, kincsem!</p>
+                                                  </sp>
+                                                  <sp who="#karnyone">
+                                                  <speaker>KARNYÓNÉ.</speaker>
+                                                  <p>Van egy izé.</p>
+                                                  </sp>
+                                                  <sp who="#lipittlotty">
+                                                  <speaker>LIPITTLOTTY.</speaker>
+                                                  <p>Haragszik-é az Úr?</p>
+                                                  </sp>
+                                                  <sp who="#tipptopp">
+                                                  <speaker>TIPPTOPP.</speaker>
+                                                  <p>Haragszom-é?</p>
+                                                  </sp>
+                                                  <sp who="#boris">
+                                                  <speaker>BORIS.</speaker>
+                                                  <p>Légyünk mi egy testek</p>
+                                                  </sp>
+                                                  <sp who="#lazar">
+                                                  <speaker>LÁZÁR.</speaker>
+                                                  <p>Viat, viat, fiat, fiat.</p>
+                                                  </sp>
+                                                  <sp who="#samu">
+                                                  <speaker>SAMU.</speaker>
+                                                  <p>Jóllakjunk lencsével</p>
+                                                  </sp>
+                                                  <sp who="#kuruzs">
+                                                  <speaker>KURUZS.</speaker>
+                                                  <p>De lesz-é hát?</p>
+                                                  </sp>
+                                                  
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

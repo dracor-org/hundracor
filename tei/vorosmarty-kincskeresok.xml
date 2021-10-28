@@ -1,0 +1,3553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Kincskeresők</title>
+                <author>
+                    <persName>
+                        <surname>Vörösmarty</surname>
+                        <forename>Mihály</forename>
+                    </persName>
+                    <idno type="wikidata">Q332484</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Fellegi</surname>
+                        <forename>Zsófia</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                        <surname>Fellegi</surname>
+                        <forename>Zsófia</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref>
+                    </orgName>
+                </publisher>
+                <pubPlace> Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2021</date>
+                <availability>
+                    <p> CC BY-SA 4.0 <ref type="url"
+                            >https://creativecommons.org/licenses/by-sa/4.0/</ref>
+                    </p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl type="originalSource">
+                    <title type="main">Vörösmarty Mihály Összes Művei 9.</title>
+                    <title type="sub">Drámák IV.</title>
+                    <author>
+                        <persName>
+                            <surname>Vörösmarty</surname>
+                            <forename>Mihály</forename>
+                        </persName>
+                        <idno type="wikidata">Q332484</idno>
+                    </author>
+                    <respStmt>
+                        <resp>Sajtó alá rendezők</resp>
+                        <persName>
+                            <surname>Fehér</surname>
+                            <forename>Géza</forename>
+                        </persName>
+                        <persName>
+                            <surname>Staud</surname>
+                            <forename>Géza</forename>
+                        </persName>
+                        <persName>
+                            <surname>Taxner-Tóth</surname>
+                            <forename>Ernő</forename>
+                        </persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Lektorálta</resp>
+                        <persName>
+                            <surname>Lukácsy</surname>
+                            <forename>Sándor</forename>
+                        </persName>
+                    </respStmt>
+                    <date when="1989">1989</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <bibl type="firstEdition">
+                    <title type="main">Aurora hazai almanach. Alapitá Kisfaludy Károly. Folytatja Bajza.
+                        1833. Pesten, Trattner és Károlyi' költségén. </title>
+                    <author>
+                        <persName>
+                            <surname>Vörösmarty</surname>
+                            <forename>Mihály</forename>
+                        </persName>
+                        <idno type="wikidata">Q332484</idno>
+                    </author>
+                    <date type="print" when="1832">1832 ősze</date>
+                    <date type="premiere" when="1834-09-16">1834. szeptember 16.</date>
+                    <date from="1831-12" to="1832" type="written">1831. decembere és
+                        1832. ősze között</date>
+                    <pubPlace>Pest</pubPlace>
+                    <publisher>Kisfaludy Károly</publisher>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">Hungarian</language>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person sex="MALE" xml:id="zagony">
+                        <persName>ZÁGONY</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="jolan">
+                        <persName>JOLÁN</persName>
+                    </person>
+                    <person sex="MALE" xml:id="szilagy_endre">
+                        <persName>SZILÁGY ENDRE</persName>
+                    </person>
+                    <person sex="MALE" xml:id="vari">
+                        <persName>VÁRI</persName>
+                    </person>
+                    <person sex="MALE" xml:id="haris">
+                        <persName>HARIS</persName>
+                    </person>
+                    <person sex="MALE" xml:id="vig_bandi">
+                        <persName>VÍG BANDI</persName>
+                    </person>
+                    <person sex="MALE" xml:id="kiliti">
+                        <persName>KILITI</persName>
+                    </person>
+                    <person sex="MALE" xml:id="filler">
+                        <persName>FILLÉR</persName>
+                    </person>
+                    <person sex="UNKNOWN" xml:id="ifjak">
+                        <persName>IFJAK</persName>
+                    </person>
+                    <person sex="UNKNOWN" xml:id="elso_paraszt">
+                        <persName>ELSŐ PARASZT</persName>
+                    </person>
+                    <person sex="UNKNOWN" xml:id="masodik_paraszt">
+                        <persName>MÁSODIK PARASZT</persName>
+                    </person>
+                    <person sex="UNKNOWN" xml:id="egyik_vadasz">
+                        <persName>EGYIK VADÁSZ</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <head type="title">SZEMÉLYEK</head>
+                <castItem>
+                    <role>
+                        <roleName>ZÁGONY</roleName>, öreg kincsásó</role>
+                </castItem>
+                <castItem>
+                    <role>
+                        <roleName>JOLÁN</roleName>, leánya</role>
+                </castItem>
+                <castItem>
+                    <role>
+                        <roleName>SZILÁGY ENDRE</roleName>, Jolán’ kedvese</role>
+                </castItem>
+                <castItem>
+                    <role>
+                        <roleName>VÁRI</roleName>, pénzes gazdag, titkon haramiavezér, Jolán’
+                        kérője</role>
+                </castItem>
+
+                <castGroup>
+                    <roleDesc>haramiák</roleDesc>
+                    <castItem>
+                        <role>
+                            <roleName>HARIS</roleName>,</role></castItem>
+                    <castItem><role>
+                            <roleName>VÍG BANDI</roleName>,</role></castItem>
+                    <castItem><role>
+                            <roleName>KILITI</roleName>,</role></castItem>
+                    <castItem><role>
+                            <roleName>FILLÉR</roleName>,</role></castItem>
+                </castGroup>
+                <castItem>
+                    <role>
+                        <roleName>IFJAK</roleName></role>
+                </castItem>
+                <castItem>
+                    <role>
+                        <roleName>PARASZTOK</roleName></role>
+                </castItem>
+            </castList>
+            <p>A’ tizennyolczadik században.</p>
+        </front>
+        <body>
+
+
+            <div type="act">
+
+                <head type="title">ELSŐ FELVONÁS</head>
+                <stage>
+                    <hi rend="expanded">(Zágony’ háza)</hi>
+                </stage>
+                <stage>SZILÁGY és JOLÁN</stage>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Hiába, kedves, melly ház’ ajtaját</l>
+                        <l>Keményszivű fukarság zárta el,</l>
+                        <l>Annak csak egy, csak gyémánt kulcsa van,</l>
+                        <l>Fáj mondanom; de agg apám’ szive</l>
+
+                        <l>Egy illyen ház, melly mostohán lezár</l>
+                        <l>Minden szerencsét, mellynek küszöbén</l>
+                        <l>Reményeink’ bájtűkre megtörik,</l>
+                        <l>’S ezer darabban rémeket mutat:</l>
+                        <l>Mind bús jövendőnk’ gyászos képeit,</l>
+
+                        <l>Hiába vínód őt lágy kérelemmel,</l>
+                        <l>Az csak haragját rögzi ellened;</l>
+                        <l>Hiában a’ jövendő’ napjait</l>
+                        <l>Fel-felruháznod új reményeiddel:</l>
+                        <l>Csak megvetését nyerted általa.</l>
+
+                        <l>Kincs, kincs az, mellyel ébred, álmodik,</l>
+                        <l>’S megfoghatatlan szomjában felejti,</l>
+                        <l>Hogy háza ekkép vég inségre jut.</l>
+                        <l>Így tölt el vágyban évet év után,</l>
+                        <l>’S ’tatárnak inkább, mint értéktelennek</l>
+
+                        <l>Szegény Jolánt od’ adták volna már,</l>
+                        <l>Ha szíve-rajta megszakadna is.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>A’ mit busítót és gonoszt tudál,</l>
+                        <l>Elmondtad; immár azt hagyd értenem,</l>
+                        <l>’S világosan, mit kelljen tenni most,</l>
+
+                        <l>Vagy inkább, mit kivánsz, hogy én tegyek:</l>
+                        <l>Mert így maradnom nem lehet — pokol!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Épen az, a’ mi aggódásba ejt:</l>
+                        <l>Tanácsot adni ’s venni nem tudok,</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Ha úgy akarnád, mint én, messze volnánk,</l>
+
+                        <l>’S a’ gond utánunk, mint a’ sánta eb,</l>
+                        <l>Hiába marná a’ meghűlt nyomot.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Nem, jó Szilágy, azt nem kivánhatod.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Mit hát, az isten’ szent nevére, mit? <stage>(szünet után)</stage></l>
+                        <l>Mint gondolod, ha ezt a’ frígykötést,</l>
+
+                        <l>Melly téged engem kínnal fogva tart,</l>
+                        <l>Elbontanók és lennénk szabadok?</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Mi ez, Szilágy, melly kérdéssel gyötörsz?</l>
+                        <l>’S ez a’ szokatlan láng mért arczodon?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Felelj csak arra, a’ mit kérdezék.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>De így, Szilágy, így nem felelhetek.</l>
+                        <l>Hogy szóltam, csendesebbnek hittelek;</l>
+                        <l>Most látom, a’ tűz, melly szemedben ég,</l>
+                        <l>Csak rejtve volt; de benned dúla már,</l>
+                        <l>Az istenért, szólj, mit határozál?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Azt megtudod még jókor; most felelj;</l>
+                        <l>A’ frígy közöttünk megmaradjon-e,</l>
+                        <l>Mellyik szülődnek sírján esküvénk,</l>
+                        <l>Vagy —</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Csillapodjál, aztán felelek,</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Jolán. ha még szeretsz, ’s a’ nőszokásként</l>
+
+                        <l>’Nem ’báb szerelmed és nem tréfaság,</l>
+                        <l>Nem játszi hullám véred’ torlatán,</l>
+                        <l>Melly változik, miként a’ vér kereng:</l>
+                        <l>Azon napokra, kikben még reméltünk,</l>
+                        <l>Azon boszúra, melly ér hitszegőt,</l>
+
+                        <l>Könyörgök, kényszérítlek, szólj, beszélj,</l>
+                        <l>’S őszinie légy, mert isten a’ tanú,</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Szilágy, valóban, azt nem érdemeltem,</l>
+                        <l>Hogy így szorongass, és így elijeszsz;</l>
+                        <l>Hiszen ma olly vad, ollyan szörnyü vagy,</l>
+
+                        <l>Millyé lehetni nem képzeltelek,</l>
+                        <l>De már, ha arra emlékeztetél,</l>
+                        <l>Mit borzadással tart titkúl szivem,</l>
+                        <l>Ámbár tudom, hogy roszkor, elbeszélem,</l>
+                        <l>Szövetségünkről a’ mit gondolok.</l>
+
+                        <l>Tudod, Szilágy, hogy az nem jó lehet.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Valóban, azt már én is hinni kezdem.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ha áttekintem elmúlt napjainkat,</l>
+                        <l>Kemény atyámnak őr tilalmait,</l>
+                        <l>Parányi kéj közt annyi szenvedést,</l>
+
+                        <l>Olly mondhatatlan lelki kínokat;</l>
+                        <l>’S hogyan gyötörjük egymást hasztalan,</l>
+                        <l>’S találkozásunk millyen keserű,</l>
+                        <l>Mert a’ reménytől távolabb esünk,</l>
+                        <l>Minél gyakortább összejuthatánk:</l>
+
+                        <l>Mind ezt, ha megtekintem, úgy hiszem,</l>
+                        <l>Gyötrelmeimben úgy kell hinnem: ott fenn</l>
+                        <l>Nincs áldva frígyünk.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Úgy van, áldva nincs!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Azért tanácsosb olly találkozást,</l>
+                        <l>Melly kínt szerez csak és nem nyujt reményt,</l>
+
+                        <l>Bár milly nehéz is, megszüntetni most,</l>
+                        <l>’S időtől várni a’ baj’ orvosát.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Oh, ez dicső, felséges gondolat!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Te csúfolódol? szánj inkább, ha rám nézsz,</l>
+                        <l>Te a’ világban járhatsz tétova,</l>
+
+                        <l>Mulathatsz társaid közt —</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Oh igen,</l>
+                        <l>Csak meg ne hallják fogcsikorgatásom’.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Neked vadászat, helyváltoztatás,</l>
+                        <l>’S a’ férfiak’ szép kincse, a’ szabadság —</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Mellynek szerelmem törte szárnyait —</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>És minden, a’ mi ahhoz kötve van,</l>
+                        <l>Pótlékot adnak társaságomért:</l>
+                        <l>De én lekötve, mint elátkozott</l>
+                        <l>Várában a’ gonosznak szelleme,</l>
+                        <l>Itt űlök, egy mogorva, bús öregnek</l>
+
+                        <l>Aggságait hallgatni kénytelen,</l>
+                        <l>’S tisztelni tartozó őt, mert atyám.</l>
+                        <l>’S ha elmaradsz, nincs semmim, semmim, Endre:</l>
+                        <l>Élő alakban, holt, temetett vagyok.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>’S még is Jolán, még is távozzarn el?</l>
+
+                        <l>’S ha jó időig elmaradtam innen?</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Atyám szelídebb lesz talán irántam.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Oh, már e’ kímélettel tartozom.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>’S azonban a’ szerencse folsegít,</l>
+                        <l>Ha a’ szerencsét jobban keresed.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Igen! ha felsegít, ’s én megjövök,</l>
+                        <l>És itt talállak Vári’ karja közt,</l>
+                        <l>A’ gaz, de pénzes Vári’ karja közt,</l>
+                        <l>Kit senki sem tud, honnan jött ide —</l>
+                        <l>Halványodol, lány? nemde eltaláltam?</l>
+
+                        <l>Oh, most megértem már beszédidet.</l>
+                        <l>’S szent isten! én jutottam ennyire!</l>
+                        <l>Ezért adám el ifjuságomat,</l>
+                        <l>Ezért kötém le délczeg lelkemet,</l>
+                        <l>És számkiűzve álom s’ nyúgalomtól</l>
+
+                        <l>Ezért csikorgok mint a’ rosz szekér,</l>
+                        <l>Mellyet nyomornak terhel bútora;</l>
+                        <l>’S ezért vagyok hű minden gondolattal,</l>
+                        <l>’S egyébre bennem nincs is gondolat,</l>
+                        <l>Ezért kivűle nincsen életem,</l>
+
+                        <l>És életemnek gondja, mint csak ő,</l>
+                        <l>Hogy végre illyen csúfosan csalódjam!</l>
+                        <l>Ledér teremtmény a’ leány’ neve,</l>
+                        <l>’S a’ férfiaknak átok, hogy szerencsét</l>
+                        <l>Alkhatni vélnek lenge szíveken,</l>
+
+                        <l>Mellyekben a’ hitlenség’ fészke van.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Boldogtalan! hát kell-e még ez is,</l>
+                        <l>Hogy annyi kínt e’ legfőbbel tetézz,</l>
+                        <l>Hogy felriaszd a’ féltés’ ördögét?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Tagadd tehát, tagadd, ha merheted,</l>
+
+                        <l>Tagadd, ha annyi lelked van!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Szilágy,</l>
+                        <l>Nem szóltam eddig; mert kíméltelek.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Oh, azt ne mondd, csak e’ rovásra ne,</l>
+                        <l>Akárhogy’ inkább, így ne mentsd magad’.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Új kínomat titkoltam, hogy te is</l>
+
+                        <l>Velem ne szenvedj, majd ha megtudod,</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Ha megtudom! ’s hajh, úgy van, mint tudom,</l>
+                        <l>’S ez a’ vigasztás hallgatásodért,</l>
+                        <l>Hogy úgy van, a’ mint végre megtudám!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Igaztalan, szivetlen férfi te,</l>
+
+                        <l>Hogy így gyötörsz, gyötröttet annyikép;</l>
+                        <l>De látja isten, bűntelen vagyok,</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Ha szinte jobbot adsz is Várinak.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Nem azt, Szilágy, azt nem fogok soha.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>De még is őt megbiztatád vele?</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ha jó vagy, ollyat hinned nem szabad.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Hát csalfa hír az, mellyet én tudok?</l>
+                        <l>Jolán, te őtet meg nem biztatád?</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Mióta van, hogy nem hiszesz szavamnak?</l>
+                        <l>Még egyszer mondom, ’s végszer: nem!</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Jolán!</l>
+
+                        <l>Te megbocsátasz, úgy-e meg, nekem?</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Szegény Szilágy!</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Hogy olly méltatlanúl</l>
+                        <l>Kétségeimmel bántám lelkedet,</l>
+                        <l>Hogy úgy jövök, mint gyötrő angyalod,</l>
+                        <l>’S öröm’ hozója nem vagyok soha,</l>
+
+                        <l>Te megbocsátsz, jó lélek, úgy-e meg?</l>
+                        <l>Oh, én kimondhatatlant szenvedék,</l>
+                        <l>’S kín szólt belőlem, hogy bántottalak.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Feledd azt, kedves; én már nem tudom.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Te mindig olly szelíd, olly jó valál.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Oh Endre, ha még mink is elleneskedünk,</l>
+                        <l>Ki lesz barátunk a’ nagy ég alatt?</l>
+                        <l>Légy nyúgton, édesem; bár elszakaszt</l>
+                        <l>Atyám tilalma tőled, nincs hatalma</l>
+                        <l>Hogy kényszerítsen más’ kezét fogadnom:</l>
+
+                        <l>Ha csak tiéd nem, másé nem leszek.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Jolán, Jolán, te édes ajku jós!</l>
+                        <l>Az ég megáld az illy hűségedért.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>És látogass meg, Endre, többször is,</l>
+                        <l>Ne hallgass arra, mit most csevegék:</l>
+
+                        <l>Hiszen szivemnek ellenére szóltam.</l>
+                        <l>Szegény Jolánt ne hagyd el így magát;</l>
+                        <l>Egyedűl atyámnak fusd tekintetét;</l>
+                        <l>De less időt, és jőj, ha távozik,</l>
+                        <l>Siralmat ont bár jöttöd ’s távozásod;</l>
+
+                        <l>De ollyan az, mint jóltevő eső,</l>
+                        <l>Mellytől megenyhűl a’ lángszomju föld.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Nem angyal, így nem gyötrelek tovább.</l>
+                        <l>Látnom naponként szenvedésedet,</l>
+                        <l>És nem segítnem rajta, kárhozat,</l>
+
+                        <l>Melly e’ kebelnek kínját százszorozza.</l>
+                        <l>Nem, a’ szerelmet sassá nem teszem,</l>
+                        <l>Hogy szíveinket marja untalan;</l>
+                        <l>Csak azt kivántam, a'’mit már tudok.</l>
+                        <l>Kincscsel jövök, ha még egyszer jövök,</l>
+
+                        <l>Ha bár pokollal volna is határos,</l>
+                        <l>Felvájom azt a’ bérczek’ mélyiből;</l>
+                        <l>’S ha a’ nagy éghez van büvölve fenn,</l>
+                        <l>Letépem azt a’ csillagok közől.</l>
+                        <l>Én sem hiába hallgaték regét,</l>
+
+                        <l>És nem hiába jártam a’ hegyet;</l>
+                        <l>Minden zugát nem ingyen ösmerem.</l>
+                        <l>Tudom, hol a’ <hi rend="expanded">kút, a’ pokolkapu,</hi></l>
+                        <l>És a’ <hi rend="expanded">törött kád’</hi> szirte; mindezekhez</l>
+                        <l>Kincset rakának hajdan őseink,</l>
+
+                        <l>’S a’ kincs leszállott, mint a’ múlt idő,</l>
+                        <l>És senki eddig föl nem vette még.</l>
+                        <l>De én magamnak ott verek tanyát;</l>
+                        <l>Ott élek mint szerelmi remete,</l>
+                        <l>’S az isten’ földét addig forgatom,</l>
+
+                        <l>Míg föl nem adja, a’ mi rejtve van;</l>
+                        <l>Vagy én is a’ kövekhez fekszem ott,</l>
+                        <l>’S örökre kincsről, rólad álmodom.</l>
+                        <l>Isten veled most! ott közelg atyád,</l>
+                        <l>’S a’ csákányt hozza fáradt vállain.</l>
+
+                        <l>Úgy, úgy fogok majd én is járni ott,</l>
+                        <l>’S tán boldogabb, ha jól imádkozol.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ah Endre, mit beszélsz az istenért!</l>
+                        <l>Gondolj atyámra, nézd meg a’ nyomort,</l>
+                        <l>Mellyet magára és reám hozott;</l>
+
+                        <l>Ha ez csekély, úgy nincs mit szólanom,</l>
+                        <l>Akkor barátom nem lesz a’ világon</l>
+                        <l>Búmon kivűl, melly végre eltemet.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(félre)</stage>
+                        <l>Mit szóltam gondolatlan? — Légy.nyugott,</l>
+                        <l>Ábrándom elragad. Ne hidd Jolán,</l>
+
+                        <l>Hogy a’ mit szóltam, tenni szándokom,</l>
+                        <l>Ah, jól tudom, hogy a' föld háladatlan:</l>
+                        <l>Nem annak ád termést, ki míveli;</l>
+                        <l>Nem annak ád ád kincset, ki benne túr,</l>
+                        <l>Nem annak ád nyugtot, ki fáradott,</l>
+
+                        <l>’S ha keblén a’ szegény nyugonni vágy,</l>
+                        <l>Megrázkodik, hogy felriaszsza őt.</l>
+                        <l>’S kopogj be bár rémséges ajtaján,</l>
+                        <l>Ha csüggedésed’ bús árnyéka hajt,</l>
+                        <l>Meg nem nyilandik fáradt csontaidnak;</l>
+
+                        <l>De légy rokon, barát, vagy szerető,</l>
+                        <l>Váratlanúl lesűlyed lábaidnál,</l>
+                        <l>Vagy elnyelendi, a’ kit szeretél.</l>
+                        <l>Más mód, merészebb az, mit gondolok,</l>
+                        <l>Melly egy vetéssel gazdaggá teszen,</l>
+
+                        <l>’S ha nem, nyugalmat ád. De már</l>
+                        <l>Nem késhetem; mert ’a kaján’ szeme,</l>
+                        <l>Ha itt talál, új kínt szerez neked.</l>
+                        <l>Nézz jól szemembe, és megemlegess,</l>
+                        <l>Ha egykorig nem látnál. <stage>(el)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Endre. Endre,</l>
+
+                        <l>Így hagysz-e el, ’s illy.félelem között? —</l>
+                        <l>Már elsuhant, ’s ki tudja, látom-e?</l>
+                    </lg>
+                </sp>
+                <stage>(Leül ’s elfedi arczait. ZÁGONY köhécselve jő, ’s ásó szereit egy sarokba
+                    leteszi)</stage>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Még egy nap, ’s Béla’ kincse fenn vagyon,</l>
+                        <l>A’ drága kincs, mellyet tar kő megé</l>
+                        <l>Futásakor letett az üldözött,</l>
+
+                        <l>’S fölvenni nem tudák; mert hétszeres</l>
+                        <l>Átokkal ült rá a’ rőt morkoláb.</l>
+                        <l>De a’ javos könyv, mellynek hátradőlt</l>
+                        <l>Arany betűkkel írtak lapjai,</l>
+                        <l>Arany szegettel fénylők szélei,</l>
+
+                        <l>Azt mondja: ,,hét évet, hét hónapot,</l>
+                        <l>És hét napot ki ás a’ tar kövön,</l>
+                        <l>Az felveendő Béla’ kincseit.”</l>
+                        <l>’S hét éve múlt és hét hónapja már,</l>
+                        <l>Hogy túrom a’ föld’ átok-zárta kérgét,</l>
+
+                        <l>És a’ napok’ végsője itt vagyon.</l>
+                        <l>Holnap kezemben a’ világi kincs,</l>
+                        <l>’S dúsabb leszek, mint — hah, de hol vagyok?</l>
+                        <l>Hol vagy te rosz heány? hol rejtezel,</l>
+                        <l>Te napjaimnak súlya!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ah atyám!</l>
+
+                        <l>Hisz’ én nem vétek semmit is neked.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Nem vétesz? oh, azt én jobban tudom.</l>
+                        <l>Nem vétek a’ fejesség, úgy-e nem?</l>
+                        <l>Én mint ohajtom boldogságodat,</l>
+                        <l>És napjaim’ nyugalmát, ’s dús, deli</l>
+
+                        <l>Férjet hozok, dőlt házam’ támaszát,</l>
+                        <l>’S te báb, te kényes czifraság, daczolsz</l>
+                        <l>És elveted sárként a’ vőlegényt,</l>
+                        <l>Hitvány virághoz nyúlsz gyümölcs helyett,</l>
+                        <l>Koldús-fiúnak adsz kezet, szivet,</l>
+
+                        <l>Kinek csak az az egy isten-adta lelke van,</l>
+                        <l>Ki egy sohajtást sem tud megfizetni,</l>
+                        <l>Áhá! hogy illyen gyerek is vagyon!</l>
+                        <l>’S mikor jövök megtörten, lankadottan,</l>
+                        <l>Mutatsz-e víg, derűlt ábrázatot,</l>
+
+                        <l>Hogy felvidúljak fáradásimért?</l>
+                        <l>Nem! sírt szemekkel jősz apád elé,</l>
+                        <l>Hogy agg fejemnek még több bút okozz.</l>
+                        <l>Hadd lássalak! hah, ismét könyben ázál.</l>
+                        <l>Tán rég nem láttad azt a’ szép madárt?</l>
+
+                        <l>Rég nem panaszlál ellenem neki,</l>
+                        <l>’S ő hogy vidítson, rég nem átkozódott,</l>
+                        <l>’S nem biztatott, hogy asszonynyá teszen?</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Atyám, az istenért! ha én hibáztam;</l>
+                        <l>De illyen vádat ő nem érdemel.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Ne szólj, ne szólj; mert őrületbe hozsz.</l>
+                        <l>Adj enni! — vagy talán ne adj, hiszen</l>
+                        <l>Egy éjjel étlen el nem vész az ember,</l>
+                        <l>’S aztán te arról nem gondoskodol,</l>
+                        <l>Mert más van, a’ mi bírja gondodat.</l>
+
+                        <l>Nem, semmi nem kell! Hagyj nyugonni ’s menj!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Oh nem, ne hajts el így, atyám, magadtól,</l>
+                        <l>Hiszen naponként csökken ’s vész erőd.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Oh, azt te tán nem bánnád olly nagyon.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(magában)</stage>
+                        <l>Ah, jaj nekem! mint órdemeltem ezt? —</l>
+
+                        <l>Tudtam, hogy elfáradva jősz haza,</l>
+                        <l>’S ím, egy kis estebédre vártalak,</l>
+                        <l>’S felhoztam a’ bort, mellyet Vári küldött.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <stage>(csillapodva)</stage>
+                        <l>Ugyan? — no lássuk, mid van.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(az asztalhoz megy, ’s egy pár tálat feltakar)</stage>
+                        <l>Itt, atyám.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Millyen pazarlás. Átok és halál!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ne légy magadhoz olly kemény, atyám:</l>
+                        <l>Van, a’ miből eléldegelhetünk.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>De ez zabálás, duska! — és ma van,</l>
+                        <l>Ma bőven is van, holnap koplalunk.</l>
+                        <l>Oh, én hiába aggok és tünődöm:</l>
+
+                        <l>Vén napjaimra tenkre tétetem.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>’S aztán atyámnak szűletése’ napja</l>
+                        <l>Holnap vagyon: de holnap sem leszen honn;</l>
+                        <l>Azért kivántam még ma tartani:</l>
+                        <l>Atyám, az isten éltessen soká!</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Mit mondasz? — Úgy van, holnap a’ heted nap,</l>
+                        <l>És szűletésem’ napja! — Jól vagyon.</l>
+                        <l>Adj széket; úgy van, úgy van, a' heted nap. <stage>(leül)</stage></l>
+                        <l>Ah, összeroskadok. Vén csontaim!</l>
+                        <l>Csak holnapig még el ne hulljatok. —</l>
+
+                        <l>Adj bort inkább, add azt a’ bort ide.</l>
+                        <l>És holnap szűletésem’ napja van. — Jolán,</l>
+                        <l>Te nem volnál rosz gyermek, nem, hiszen</l>
+                        <l>Anyádra üttél, ’s az jó volt, szegény.</l>
+                        <l>Csak azt ne látnám, hogy te sírsz, leány!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Atyám, feledd, ha megbántottalak,</l>
+                        <l>Ezen napért feledd és megbocsáss.</l>
+                        <l>’S légy olly szives, nyúlj étkeimhez is;</l>
+                        <l>Neked valának szánva: meg ne vesd.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Oh nem, leány, megvetni nem fogom. <stage>(enni kezd)</stage></l>
+
+                        <l>Te jó sütő vagy. Mint kis gyermeket</l>
+                        <l>Taníta még anyád, a’ boldogúlt,</l>
+                        <l>’S te jól tanúltál, értesz a’ dologhoz.</l>
+
+                        <stage>(Hirtelen felkél)</stage>
+
+                        <l>De sírsz, leány, te sírsz és hervadozsz,</l>
+                        <l>És ifjuságod búban hamvad el.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Szent isten! merre most e’ kín elől?</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>’S mikor könyezni látlak ’s hervadozni,</l>
+                        <l>Akkor megátkozom, hogy születém,</l>
+                        <l>Meg, hogy születtél, gyermekem, ki vagy!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Az istenért, atyám!</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <stage>(leül)</stage>
+                        <l>De jól vagyon.</l>
+
+                        <l>Holnap van a’ heted nap, ’s meglehet,</l>
+                        <l>Érted, Jolán? az könnyen meglehet,</l>
+                        <l>Hogy sírni nem fogunk. — Adj bort ide,</l>
+                        <l>Hol a’ borod, ki küldte ezt neked,</l>
+                        <l>Hogy is mondád, szólj.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Vári.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Vári-e?</l>
+
+                        <l>Nem, most nem, ebből inni nem fogunk.</l>
+                        <l>Tudd meg, leány, e’ jószág, mellyen itt</l>
+                        <l>Szegényül tengünk, mellyen agg fejem’</l>
+                        <l>Letenni véltem őseim’ porához,</l>
+                        <l>Mihelyt akarja, a’ dús Várié.</l>
+
+                        <l>Nem tudtam eddig, ám de úgy vagyon:</l>
+                        <l>Irást mutat, ’s azt mondják, van joga.</l>
+                        <l>Még is ma e’ borból nem ihatom.</l>
+                        <l>Úgy tetszik, mintha tenger volna mély,</l>
+                        <l>Mint a’ halál’ örvénye, mellyen a’</l>
+
+                        <l>Reménytelennek gondolatja csügg. <stage>(kivűl zaj hallik)</stage></l>
+                        <l>Nem holnapig. — Ki az, ki vagy, felelj.</l>
+
+                        <stage>(Vári szembetűnő zavarodással hirtelen bejő, 's 'nyugtalanul
+                            körbetekint)</stage>
+                        <l>Hah, Vári! vagy csalódnak szemeim?</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Zágony, megengedj, én vagyok. — Vadászat</l>
+                        <l>Késleltetett az erdőn, ’s bármiért</l>
+
+                        <l>El nem mulatnám, hogy meglássalak,</l>
+                        <l>Midőn lakodhoz illy közel juték.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Köszönjük a’ hű ránk emlékezést.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(folyvást zavarban)</stage>
+                        <l>Későcske van; de nem késem soká.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Az semmi baj, tégy úgy, mint honn ha vagy;</l>
+
+                        <l>Pihend ki nálunk fáradásidat.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Ha engeded, letenném e’ gunyát,</l>
+                        <l>Melly hajnal óta nyomja vállamat.</l>
+                    </lg>
+                    <stage>(Felsőruháját egy zugba veti)</stage>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <stage>(magában)</stage>
+                        <l>Ez embert én ma meg nem ösmerem.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(magában)</stage>
+                        <l>Ah, milly vad, melly ijesztő ember ez.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Mióta lelkem’ nyugta elhagyott,</l>
+                        <l>Csak a’ vadászat tölti kedvemet:</l>
+                        <l>Abban van éltem’ minden öröme.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>És abban olly erősnek tartatol,</l>
+                        <l>Hogy messze földön lelni párodat.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Megvallom, értem mesterségemet;</l>
+                        <l>De még is a’ sebzett vad én vagyok,</l>
+                        <l>És űzni látszván, vérig űzetem,</l>
+                        <l>Mert üldözőmben nincs több irgalom,</l>
+                        <l>Mint a’ repűlő ónban, melly talál.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Trétálsz, uram; de légy nyugodt; idővel</l>
+                        <l>Derűre változik még a’ ború.</l>
+                        <l>Foglalj helyet, mint látom fáradott vagy;</l>
+                        <l>Pihenj ki nálunk.</l>
+
+                        <stage>(Kivűl zaj hallik, mellyre Vári nagy nyugtalansággal ügyel)</stage>
+                        <l>Ez nem ért ma szót.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(eszmélve, magában)</stage>
+                        <l>Úgy tetszik, megkinált. — Ah, engedelmet!</l>
+                    </lg>
+                    <stage>(Leül a’ terített asztalhoz)</stage>
+
+                    <l>Vadászgyomor nem vár kinálgatást.</l>
+
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <stage>(csodálkozva, félre)</stage>
+                        <l>Valóban? — már csak hozzá kell szegődnöm.</l>
+                        <l>Megfoghatatlan! <stage>(leül)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(félre)</stage>
+                        <l>Így nem sejtenek rám.</l>
+
+                        <stage>(Poharat tölt, ’s Jolánra köszönti)</stage>
+                        <l>Kedves kisasszony, engedd, e’ pohárt</l>
+                        <l>Ürítnem érted ’s boldogságodért,</l>
+
+                        <l>Mellyet, szivemből, tartandót ohajtok.</l>
+                        <l>Bár mind az, a’ mi választ két szivet,</l>
+                        <l>Gyanú ’s okatlan idegenkedés,</l>
+                        <l>Ezen pohárba volna fojtva most,</l>
+                        <l>Felhajtanám azt, bár milly keserű,</l>
+
+                        <l>Csakhogy kegyedhez jussak közelebb.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Köszönöm; de arra méltatlan vagyok.</l>
+                    </lg>
+                    <stage><hi rend="italic">(Az alatt</hi> SZILÁGY <hi rend="italic">hevűlten jő,
+                            ’s midőn Várit megpillantja, hirtelen megáll)</hi></stage>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(Várinak fordultan, magában)</stage>
+                        <l>Hah! hogy te volnál a’ futó zsivány,</l>
+                        <l>’S e’ kard kezemben hóhérpallosod.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(magában)</stage>
+                        <l>Nem távozom, ha ön bajomra is;</l>
+
+                        <l>Gyanútalan már nem távozhatom.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Mit látok? Hallod, vakmerő fiú!</l>
+                        <l>De nem, nem így kell. Hallod, jó legény —</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Oh istenem, mi vésznek napja ez?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Zágony, megengedj, önkényt nem jövék;</l>
+
+                        <l>Mert jól tudom, jól érzem, hogy gyülölsz,</l>
+                        <l>De kénytelenség hajta; emberi</l>
+                        <l>Tisztből kereslek most fel —</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Hagyjuk azt;</l>
+                        <l>Térj a’ dologra.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Mint parancsolod,</l>
+
+                        <l>A’ bérczi ösvényt, mint kurtább utat</l>
+                        <l>Választva, hogy hamarb eljussanak</l>
+                        <l>Czéljok’ helyéhez, ’S ím, egy gaz csoport,</l>
+
+                        <stage>(Vári nevekedő nyugtalansággal fölkél)</stage>
+                        <l>Haramja nép rajtok megy, ’s pénzöket,</l>
+                        <l>Azt a’ keserves és szűk munkabért,</l>
+
+                        <l>Mellyért szegények vérrel izzadának,</l>
+                        <l>Fölkéri tőlök fegyveres kezekkel,</l>
+                        <l>A’ fegyveretlen néptől; és ezek</l>
+                        <l>Már engedők, kis gyüjteményöket</l>
+                        <l>Halomra rakták, akkor — akkor én</l>
+
+                        <l>Előjövék. —</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(kitörő haraggal)</stage>
+                        <l>Hah, átkozott fiű! <stage>(mindnyájan rá bámulnak)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Uram?</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(magát igazítva)</stage>
+                        <l>A’ hitvány gaz csoport!</l>
+                        <l>És nem zavartad őket poklokig?</l>
+                        <l>Miért veled, melletted nem valék!</l>
+                        <l>Nem tetted a’ gaz népet semmivé?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Megtettem, a’ mi telt. A’ gaz csoport</l>
+                        <l>Talán gyanítva, többen is vagyunk,</l>
+                        <l>Futásnák indúlt és elszéledett.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(félre)</stage>
+                        <l>Hah, ródd fel ezt, ezért még számot adsz.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(félre)</stage>
+                        <l>Oh Endre, Endre, vakmerőködöl,</l>
+
+                        <l>De nem szabad vádolnom tettedet.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>’S végtére is mi baj hozott ide?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Légy tűredelmes, végzem a’ mesét.</l>
+                        <l>Hogy a’ szegény nép vérszemet kapott,</l>
+                        <l>Üldözni kezdtük a’ zsiványokat,</l>
+
+                        <l>’S csak nem lenyomtunk egy rideg futót,</l>
+                        <l>Midőn az itt hallatlan vakmerőn</l>
+                        <l>A’ vízmosáson által ugratott,</l>
+                        <l>’S lakodba menté (úgy látszék) magát.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>’S ha még is itten nem találkozik?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Akkor tovább kell mennem, ’s megbocsáss,</l>
+                        <l>Ha tán zavartam házi csendedet.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Egyedűl vagyunk, mint látod: én, leányom</l>
+                        <l>És Vári szomszéd és jóakarónk.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(magában)</stage>
+                        <l>Kételkedem; de hallgatok ’s megyek.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>’S a’ vakmerő, ki méltatlan gyanút</l>
+                        <l>Csak fél szemével hárít is reám,</l>
+                        <l>Meg fog lakolni, meg, keservesen.</l>
+                        <l>Becsűletemben csorbát nem türök.</l>
+                        <l>E’ házat, a’ ki bántja, engemet bánt.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>A’ mit beszélsz, nem vártam hallani,</l>
+                        <l>Mert hogy beszéld, nem adtam rá okot.</l>
+                        <l>Azonban jó barátok nem vagyunk,</l>
+                        <l>’S ha, a’ mit mondál, engem érdekel,</l>
+                        <l>Rendelj időt ’s helyet, ’s akármikor</l>
+
+                        <l>Szilágy magáért megfelelni kész. <stage>(el)</stage></l>
+                    </lg>
+                    <stage>(Jolán aléltan egy székre rogy)</stage>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Mi lelt, leány, te elhalványodol?</l>
+                        <l>Eszmélj, ne hozz rám szégyent ’s kárt; hiszen</l>
+                        <l>Mint a; fehér fal, ollyak arczaid.</l>
+                        <l>Eredj, eredj, nincs semmi dolgod itt.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(félre)</stage>
+
+                        <l>A’ rosz fiú még itt is útban áll:</l>
+                        <l>Érette halványodnak arczai.</l>
+                        <l>De ennyi bántást nem visz szárazon.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(felkel)</stage>
+                        <l>Csak szédülék, atyám; ne légy boszús;</l>
+                        <l>Fejem gyakorta szenved illy bajokban.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Eredj, leány, eredj; nyugonni menj;</l>
+                        <l>Megárt a’ hosszu virrasztás. Eredj,</l>
+                        <l>És hagyj magunkra: bizvást nyughatol.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(magában)</stage>
+                        <l>Nyugodjam? ah, elment az a’ kiért</l>
+                        <l>Nyugonni nem fog e’ szív még soká:</l>
+
+                        <l>Őrizze isten minden útain. <stage>(el)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Atyám, ha így nevezni nem tilos,</l>
+                        <l>Kit mint atyámat tisztelek, mivel</l>
+                        <l>Egyedül vagyunk, engedd meg, kérdenem,</l>
+                        <l>Mint áll ügyem, ’s mikor remélhetek?</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Magad leginkább láthatd sorsodat.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>’S úgy látva, én nem látok kedvezőt,</l>
+                        <l>Nem avval, a’ mit igértél, rokont.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Leánysziv’ titka nem nyilik hamar;</l>
+                        <l>Talán megérjük, a’ mi most halad.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Ezt többször is mondottad, jó öreg.</l>
+                        <l>De várva várni, ’s nem remélni, kín.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Nagyobb, atyának kényszedtve lenni,</l>
+                        <l>Hogy ön leánya’ szívét fojtsa meg.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>’S így a’ barátság köztünk megszakad.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Nem úgy; ne légy olly szerfelett mohó.</l>
+                        <l>’S kímélj, ha e’ leányt, ez egyemet</l>
+                        <l>El nem hajítom mint a’ rosz kovát;</l>
+                        <l>Ha tőle végszer válnom olly nehéz,</l>
+                        <l>Mint drága gyöngyétől a’ kór csigának.</l>
+
+                        <l>Csak egy napot még, még csak egy napot,</l>
+                        <l>Igenre, nemre aztán eljőhetsz,</l>
+                        <l>És lelkemet, ha kéred, elvihetd,</l>
+                        <l>A’ mit kivánsz; csak most nyugonni hagyj.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Holnap tehát? Remegve várom azt;</l>
+
+                        <l>Mert nem tudom, mint végzed sorsomat.</l>
+                        <l>Csak még egy szót. — Minthogy köröskörül</l>
+                        <l>Haramja nép mutatja itt magát,</l>
+                        <l>Erszényemet, mellyét véletlenűl</l>
+                        <l>Magammal hoztam, lennél oly szives,</l>
+
+                        <l>Vennéd magadhoz, míg majd eljövök.</l>
+
+                        <stage>(Erszényét az asztalra teszi)</stage>
+                        <l>Személvemet megvédni bizhatom;</l>
+                        <l>De ennyi pénzzel járni nem tanácsos,</l>
+                        <l>’S igen becsűltnek érzeném magam’,</l>
+                        <l>Ha úgy tekintnéd e’ pénzt, mint tiédet,</l>
+
+                        <l>És alkalmonként élnél is vele:</l>
+                        <l>Előttem az nevelné értekét.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>’S én ennyi pénzt itt nálam rejtsek el?</l>
+                        <l>Ha megtudják, feldúlják házamat.</l>
+                        <l>Azonban, mert magaddal nem vihetd,</l>
+
+                        <l>Maradjon, bár, mig érte jőni fogsz.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Vedd érte hálámat. Jó éjszakát. <stage>(el)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Mi ember ez, ki nem tanulhatom,</l>
+                        <l>Angyal vagy ördög? Titkos borzadásom,</l>
+                        <l>Jelenti ördögömnek, a’ ki rám</l>
+
+                        <l>Mohón kinyujtja kárhozó kezét.</l>
+
+                        <stage>(Az erszényt megnyitja ’s nézegeti)</stage>
+                        <l>’S ez mind arany, ’s hah, mennyi egy halomban?</l>
+                        <l>De féllre innen, nem nézek reá;</l>
+                        <l>Mert mintha köny villogna pénzein,</l>
+                        <l>’S halvány szegény leányom’ arczai</l>
+
+                        <l>Ijesztenek, ha hozzá nyúlni vágynék.</l>
+                        <l>Azt mondta, úgy tekintsem, mint enyémet.</l>
+                        <l>Ördög, ne kísérts, még csak holnapig ne:</l>
+                        <l>Holnap lesz a’ nap, mellyen mért időm</l>
+                        <l>A’ teljesűlet' perczét megütni.</l>
+
+                        <l>Hét éve, hét hónap ’s hét napja lesz,</l>
+                        <l>Hogy felvevém a’ tar kő’ fedelét;</l>
+                        <l>És ástam fáradatlan egyedűl</l>
+                        <l>A’ nap’ hevétől tikkasztott karokkal,</l>
+                        <l>’S a’ holdvilágos éjek’ réme közt.</l>
+
+                        <l>Holnap bevégezem napszámomat,</l>
+                        <l>És elhalasztott béremet kamattal</l>
+                        <l>Veszem meg a’ földtől, melly olly soká</l>
+                        <l>Szenvedni látott. Holnap úr leszek,</l>
+                        <l>’S ha alkuszunk, feltételt én szabok;</l>
+
+                        <l>Holnap királyi kincsnek birtokában</l>
+                        <l>Független úr leszek, vagy Várinak</l>
+                        <l>Gazdag jegyért elszánom lányomat,</l>
+                        <l>’S agg napjaimnak nyugtát meghozom.</l>
+                    </lg>
+                </sp>
+
+            </div>
+            <!-- 2. felvonás hiányzik -->
+            <div type="act">
+
+                <head type="title">HARMADIK FELVONÁS</head>
+                <stage>
+                    <hi rend="expanded">(Zágony’ háza)</hi>
+                </stage>
+                <stage>(ZÁGONY egyedűl setét ábrándozással űl egy asztalnál, mellyen a’ koponya
+                    van)</stage>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Mit szólsz, te néma bölcs, a’ semmiből lett,</l>
+                        <l>És semmivé leendő emberek’</l>
+                        <l>Legrégibb oktatója? Melly titok</l>
+                        <l>Vigyorg felém fehér fogaid közől,</l>
+
+                        <l>Mi van felírva puszta homlokodra,</l>
+                        <l>Koponyád alatt mi gondolat kereng,</l>
+                        <l>Üres szemed mi érzelmet lobog ki?</l>
+                        <l>Oh semmit, semmit, és ez a’ titok!</l>
+                        <l>Buvárkodás ’s képzelgés’ álmai,</l>
+
+                        <l>Minek nekünk hit ’s büszke tudomány!</l>
+                        <l>Itt minden meg van fejtve. A’ halál,</l>
+                        <l>E’ telhetetlen éhü szörnyeteg,</l>
+                        <l>Nem nyelt-e el még mindent, a’ mi élt?</l>
+                        <l>’S mi fáradunk, bolondok’ nemzedéke,</l>
+
+                        <l>’S hasonló nemzedéknek atyjai;</l>
+                        <l>Mi még hiszünk, képzelgünk és fejünket</l>
+                        <l>Törjük, hogy azt elérjük, a’ mi ez!</l>
+                        <l>Szép látomány! Im régiség’ buvára,</l>
+                        <l>Itt egy kis romladékot mutatok.</l>
+
+                        <l>Hol rajta a’ teremtésnek keze?</l>
+                        <l>Hol a’ müvészet’ drága rongyai?</l>
+                        <l>Hölgyecske volt, hol vannak fürteid,</l>
+                        <l>Nemes kisasszony, a’ kaczér szemek,</l>
+                        <l>Hol a’ mosolygó ajkak’ csábjai?</l>
+
+                        <l>Hős volt talán, vagy jámbor, jótevő,</l>
+                        <l>Világhirü bölcs, vagy hatalmas úr?</l>
+                        <l>Hol a’ kegyesség’ ’s bátorság’ jele,</l>
+                        <l>A’ homlok’ büszke méltósága, hol</l>
+                        <l>Csak egy vonás az élet’ fényszakából?</l>
+
+                        <l>Mindent lerágott a’ halál’ foga;</l>
+                        <l>A’ szép hazugság’ máza oda van;</l>
+                        <l>Csak az maradt meg, a’ mi rút ’s való</l>
+                        <l>Ki jő? leányom? Ez ne lásson így,</l>
+                        <l>Ne tudja meg szándékomat. Maga</l>
+
+                        <l>Titkon-kivánta tán halálomat:</l>
+                        <l>Ez az egy öröm lesz, a’ mit rá hagyok.</l>
+                    </lg>
+                    <stage>(Zágony félrevonúl. Jolán virágokkal jő, ’s egy függő képhez
+                        megyen)</stage>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Szülőmnek sírján termett e’ virág;</l>
+                        <l>Nem egyszer öntözék bús könyeim,</l>
+                        <l>És még is olly szép, ollyan illatos:</l>
+
+                        <l>Nem látszik rajta gyászos eredet,</l>
+                        <l>Mikor jön a’ nap, hol sok bánatom</l>
+                        <l>Megtermi végre várt öröm’ vitágát;</l>
+                        <l>Hiába vártam eddig, ’s kín között,</l>
+
+                        <stage>(A’ virágokat a’ kép mellé tűzve)</stage>
+                        <l>Itt álljanak bús emlékűl. — Atyám</l>
+
+                        <l>El nem fogadja üdvözlésimet;</l>
+                        <l>Azért anyámnak tartom ünnepét,</l>
+                        <l>Hajh, kétszer árva, mert atyám gyülöl.</l>
+                    </lg>
+                    <stage>(A’ kép előtt térdre hull)</stage>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Igen! sokáig éltem. Elmegyek.</l>
+                        <l>Hadd éljen, a’ kinek még kedve van:</l>
+
+                        <l>Koczkám megállt; én már nem játszhatom. <stage>(el)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(fölkel)</stage>
+                        <l>Ő ment-e el, vagy szellem jára itt?</l>
+                        <l>Soká marad ma ismét, ’s vajha egyszer</l>
+                        <l>Nyugottan térne meg; de bajt szerez</l>
+                        <l>Magának, ’s mondhatatlan kínt nekem,</l>
+
+                        <l>Hogy nem deríthetem vég napjait.</l>
+                        <l>Szent isten! add meg egyszer nyugtomat;</l>
+                        <l>Szerencsét nem kivánok, Ah, mi az?</l>
+                        <l>Szilágynak mintha hallanám szavát!</l>
+                        <l>’S a’ csalfa Váriét. Hová legyek!</l>
+
+                        <l>Ki kell sietnem, mert veszélyt gyanitok. <stage>(el)</stage></l>
+                    </lg>
+                    <stage>
+                        <hi rend="expanded">(Kert)</hi>
+                    </stage>
+                    <stage>(Egyfelől VÁRI, másfelől SZILÁGY jőnek)</stage>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Ez a’ Zágony végképen megvadult.</l>
+                        <l>Határnapot ma rendelt válaszúl,</l>
+                        <l>S’ hogy eljövök, némán erszényemet</l>
+                        <l>Kezembe nyomja, és tovább rohan,</l>
+
+                        <l>Mint a’ kinek tűz bántja sarkait.</l>
+                        <l>De így vagy úgy! én már nem veszthetek.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Kit látok itt? a’ gyűlölt Vári jő.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Roszkor találkozom; de ám legyen;</l>
+                        <l>Nem bántom, mert kezemre dolgozik.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Miért a’ hegyben nem találtam őt!</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Alkalmasint a’ lányt kémlelni jött,</l>
+                        <l>Szerencse hozzá! ő hadd fogja meg;</l>
+                        <l>De a’ madár majd másnak énekel.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Úgy látom, egy nyomot sem távozik.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Most nem tanácsos elvonulnom,innen:</l>
+                        <l>Szem közt megyek szép nyájasan vele.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Épen nem úgy tesz, mintha menni vágyna</l>
+                        <l>’S most semmikép nem tűrhetem meg itt.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Boszúsnak látom; kétlem, mit tegyek.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Előbb utóbb a’ kard leszen biránk;</l>
+                        <l>’S inkább, mint későn, vagy soha, <stage>(Várihoz)</stage></l>
+                        <l>Egy szóra, jó uram!</l>
+                    </lg>
+                    <stage>(Vári menni akar, Szilágy elébe áll)</stage>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(félre)</stage>
+                        <l>Szeretném elseperni őt!</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Uram. —</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(félre)</stage>
+                        <l>Valóban, ez nem tréfát. — Engedelmet,</l>
+
+                        <l>Szilágy barátom — egy szó annyi, mint száz,</l>
+                        <l>És száznak ismét vége is csak egy:</l>
+                        <l>Azért talán most jobb, ha szét megyünk.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Csak egy nyommá sem, míg nem végezünk.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Sőt veszteg inkább, hogy végezzünk, menni kell.</l>
+
+                        <l>Ki veszteg áll, nem végez semmit sem is.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Te ellenem megbántó szózatot</l>
+                        <l>Mondál, holott azt rád nem foghatám.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Ha nem fogád fel, úgy már elröpült,</l>
+                        <l>És a’ mi nincs, az bántó nem lehet.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Szópengető! de hogy te gyáva vagy,</l>
+                        <l>Az, mert valóság, bántó is lehet.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(félre)</stage>
+                        <l>Mért barlangomban nem mondottad ezt!</l>
+                        <l>De csendesen. — Valóban, ifju társ,</l>
+                        <l>Vitézségem nem a’ legjobb aczél,</l>
+
+                        <l>Vagy szerfölött is hajló, vagy törik.</l>
+                        <l>’S ma épen kis lábujjom’ körme fáj</l>
+                        <l>És szarvasodni kezd a’ hold. — Hanem</l>
+                        <l>El nem marad, még nap van holnap is,</l>
+                        <l>És a’ behorpadt hold majd megtelik.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(magában)</stage>
+
+                        <l>És ez a’ czadar még gúnyolódni mer?</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(indúlva)</stage>
+                        <l>Isten velünk.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Rántsd kardodat, lator!</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(kardjához kapva)</stage>
+                        <l>Lator? — pokolra hitvány rosz fiú!</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Hah, eltaláltam, a’ mit nem szeretsz?</l>
+                        <l>Most, most vagy emberem; mert sápadó</l>
+
+                        <l>Arczod gunyolja bátorságodat.</l>
+                        <l>Rég hordozom fejemben a’ gyanút,</l>
+                        <l>’S kinomba telt azt fogva tartanom;</l>
+                        <l>De most kimondom ég és föld előtt,</l>
+                        <l>Hogy minden hallja meg: haramja vagy,</l>
+
+                        <l>És annyi titkos bűnnek mestere,</l>
+                        <l>A’ mennyit ördög számlálhat csak el;</l>
+                        <l>’S tetőtől talpig, a’ milly nagy tetem vagy,</l>
+                        <l>Becsűlet benned egy morzsányi sincs.</l>
+                        <l>’S ezt ellened, kit vérig gyűlölök,</l>
+
+                        <l>És minden ellen a’ ki nem hiszi,</l>
+                        <l>Bajvívó kardom megmutatni kész.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>És hogy hazug vagy, átkozott, tüdődig,</l>
+                        <l>Kardommal azt fejedre felrovom.</l>
+                        <l>Elég a’ szó! jer gyermek, és lakolj.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(jő)</stage>
+
+                        <l>Melly vad viszály? milly rémítő zaj ez?</l>
+                        <l>Nagy isten! — Endre, Endre, mit cselekszel?</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Bocsánat, szép Jolánka, e’ zajért,</l>
+                        <l>Mellynek valóban nem valék oka;</l>
+                        <l>Mert bűn előttem csendedet zavarni.</l>
+
+                        <l>De nem leszek mentője enmagamnak;</l>
+                        <l>Ez ifJu társ majd mindent elbeszél,</l>
+                        <l>Mi köztünk történt, ’s híven, úgy hiszem.</l>
+
+                        <stage>(Szilágyhoz)</stage>
+                        <l>’S mi mint barátok válunk.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Oh igen!</l>
+
+                        <stage>(titkon Várihoz)</stage>
+                        <l>Ha majd tüdődbe mártom tőrömet.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(titkon Szilágyhoz)</stage>
+
+                        <l>Vagy én kiűzöm útált lelkedet. <stage>(magában)</stage></l>
+                        <l>Nyugottan távozom; mert gondomat</l>
+                        <l>Az fogja nyögni, a’ ki most örűl,</l>
+                        <l>Serényen! vőfél! várom a’ menyasszonyt. <stage>(el)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Mi volt ez, Endre? ah, olly rémület</l>
+
+                        <l>Fogott el, ’s reszket lelkem is belé.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Légy nvugton, édes, nincs már semmi baj,</l>
+                        <l>És a’ mit láttál, csaknem tréfa volt.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Kegyetlen tréfa! nektek minden az,</l>
+                        <l>’S ez hát ama’ szent férfi szenvedély,</l>
+
+                        <l>Az annyiszor kihírlelt szerelem,</l>
+                        <l>Hogy olly okért, mint hajszál’ lebbenése,</l>
+                        <l>Vad harczra tesztek sorsot, életet,</l>
+                        <l>Bár ahhoz szívünk’ üdve kötve van?</l>
+                        <l>Oh, férfi lánykát nem szeret soha;</l>
+
+                        <l>Magát imádja csak ’s nyers kéjeit.</l>
+                        <l>’S a’ férfi szívnek bármelly szenvedély,</l>
+                        <l>Harag, szerelm ’s hír mindegy érdekű.</l>
+                        <l>Csupán szeretni únalom nekik;</l>
+                        <l>Azért meg is kell víni, ’s az teszi</l>
+
+                        <l>Kapóssá a’ szerelmet és leányt,</l>
+                        <l>Mert délczeg bajvivásra tárgy lehet.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Nem érdemeltem vádadat, Jolán,</l>
+                        <l>’S most legkevesbbé van reá idő.</l>
+                        <l>Szünjék meg aggodalmad, vége már</l>
+
+                        <l>Minden bajunknak, minden gyötrelemnek.</l>
+                        <l>Deríts örömre arczot és szivet,</l>
+                        <l>Mert a’ melly választott olly mostohán,</l>
+                        <l>Be van már töltve a’ hiú gödör,</l>
+                        <l>És a szegenység óriási árnya</l>
+
+                        <l>Az arany’ tüzénél tűnedezni kezd.</l>
+                        <l>Enyém, enyém vagy, és csak most vagy az,</l>
+                        <l>Csak most ölellek kéjjel 's biztosan.</l>
+                        <l>Kivíttalak sok szenvedéseidből,</l>
+                        <l>És a’ szerencsét hoztam násznagyúl.</l>
+
+                        <l>Melly ünnepünket boldoggá tegye.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Nem értelek; szólj, mit jelentenek</l>
+                        <l>Ez új öröm, ’s ez ékes szózatok,</l>
+                        <l>’S a’ rég nem érzett, rég elhúnyt remény?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Megáldta isten hűségünk’ ügyét:</l>
+
+                        <l>Kincset találtam.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ah, ne csald magad!</l>
+                        <l>Szegény atyám mióta jár oda,</l>
+                        <l>’S a’ drága kincs, mellyet magának ás,</l>
+                        <l>Komor tünődés, életgyűlölet,</l>
+                        <l>’S a’ félelem, hogy koldúsbotra jut.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Jolán! te nem tudod most mit beszélsz.</l>
+                        <l>Vagy álmot hímzek én? nem mondom-e:</l>
+                        <l>Kincset találtam, ollyan drága kincset,</l>
+                        <l>Melly agg apádnak szomját elveri,</l>
+                        <l>Melly gondot oszlat, ’s minden akadályt.</l>
+
+                        <l>De rajtad a’ sor, megmutatni most:</l>
+                        <l>Szerelmed olly való-e mint hiszem?</l>
+                        <l>A’ kincs terád vár, csak te bírhatod fel,</l>
+                        <l>Ha majd az éjfél’ csendórája üt.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Milly foghatatlan rémes dolgokat szólsz!</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Jer, jer, vonuljunk félre. Lépteket</l>
+                        <l>Hallék. Atyádnak tudni nem szabad,</l>
+                        <l>Hová megyünk; különben megzavarna.</l>
+                        <l>Elég, ha egyszer gazdaggá tehetjük:</l>
+                        <l>Legyen miénk a’ gond és fáradás.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Oh, jó Szilágy! tudod, hogy kedvedért</l>
+                        <l>Mindent teszek. Vigyázz reám, Szilágy;</l>
+                        <l>Oltalmam a’ világon csak te vagy. <stage>(el)</stage></l>
+                    </lg>
+                    <stage>(ZÁGONY ásó szereivel ’s a’ koponyával jő, ’s egy fa alatt
+                        megállapodik)</stage>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Jobb napjaimban itt ez almatő</l>
+                        <l>Árnyékkal és gyümölcscsel ápolóm,</l>
+
+                        <l>Gyönyört adott és enyhet; most kora’</l>
+                        <l>Súlyától elgörbedve, mint magam,</l>
+                        <l>Kiaszva, meddőn, lombitól taron,</l>
+                        <l>A’ megromoltnak vég nyugalmat ád.</l>
+                        <l>Ki győzze végig várni a’ misét?</l>
+
+                        <l>Az élettréfát végig játszani?</l>
+                        <l>Holott a’ vég előbb utóbb csak egy!</l>
+                        <l>Uralkodik itt gond, baj és nyomor,</l>
+                        <l>De útat nem találnak föld alá. <stage>(ás)</stage></l>
+                        <l>Kalmár nagy útnak ’s tengernek hiszen,</l>
+
+                        <l>’S gyakorta értekével oda vész;</l>
+                        <l>Erőben bizik a’ hős, ’s porba dől</l>
+                        <l>Előbb, mint a’ hírpályát végzené;</l>
+                        <l>Áldást esőtől vár a’ földmives,</l>
+                        <l>És zöld reményit jég tarolja le.</l>
+
+                        <l>Én elhivém a’ bérczek’ belsejének,</l>
+                        <l>A’ mit felőlök tart ős hagyomány;</l>
+                        <l>És tűrtem hőt, fagyot hét éven át,</l>
+                        <l>Verítékemben mosdott szikla ’s rög:</l>
+                        <l>És mit találtam? puszta koponyát!</l>
+
+                        <l>Intő jelűl, hogy napszámom kivan. <stage>(ismét ás)</stage></l>
+                        <l>Vagy tán eladjam önnön véremet</l>
+                        <l>A’ pénzes, a’ csapongó Várinak?</l>
+                        <l>’S kéjelmeim közt, mellyeket talán ad,</l>
+                        <l>’S minden falatnál, melly tán jutni fog.</l>
+
+                        <l>Lássam leányom’ könyhullásait,</l>
+                        <l>És titkos hervadása’ bús telét,</l>
+                        <l>Melly még előttem sírba fekteti?</l>
+                        <l>Vagy lássam őt Szilágynak karjain,</l>
+                        <l>Rideg szegényből mint lesz többszörös,</l>
+
+                        <l>Minden nyomornak ’s kínnak ágyasa?</l>
+                        <l>’S ezt látva, rajtok még élődjem is,</l>
+                        <l>Dologtalan vén, ’s szíjam éltöket</l>
+                        <l>A’ gombaként, melly élhetetlenűl</l>
+                        <l>Teng a’ fa’ derkán, ’s elsorvasztja azt?</l>
+
+                        <l>Hogy végre únjanak, ’s vén lelkemet</l>
+                        <l>Titkos fohászszal föld alá kivánják?</l>
+                        <l>Oh én csalódott! kincset kergeték,</l>
+                        <l>Mellyet csak a’ szerencsés visz haza,</l>
+                        <l>’S a’ kincset, mellyet mindenik talál,</l>
+
+                        <l>Keresni elmulattam; most teszem,</l>
+                        <l>’S örökre megkészítem házamat.</l>
+
+                        <stage>(Ismét ás, majd leül a’ gödör’ szélére)</stage>
+                        <l>Hah, szinte jó, hogy mélyebben vagyok,</l>
+                        <l>Most jőjetek, ti karvalyszívüek!</l>
+                        <l>Szilágy és Vári, nászszatok leányért:</l>
+
+                        <l>Azé legyen, ki engem bétemet.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(jő)</stage>
+                        <l>Még sem jön. Istenem ha nem bizott</l>
+                        <l>’S kétségeimmel, elvesztettem őt.</l>
+                        <l>Szilágy, Szilágy, hol késel olly soká? —</l>
+                        <l>Egek, ki az? ki ül ott egyedűl</l>
+
+                        <l>Egy félig ásott sírnak szélein?</l>
+                        <l>Óh, én korán és szörnyen bünhödöm.</l>
+                        <l>Atyám, atyám! <stage>(Zágony ele borul)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Téged nem vártalak,</l>
+                        <l>Miért hagyád el ágyadat, leány?</l>
+                        <l>Nem nyughatol? fölvernek álmaid?</l>
+
+                        <l>Ne álmodozzál, — úgy majd jobban alszol.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Atyám, bocsásd meg ezt az egy hibát.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Én mindent megbocsátok,</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Jaj nekem,</l>
+                        <l>Csak az beszél igy, a’ ki halni tér.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Te útra készülsz? menni, szökni nemde,</l>
+
+                        <l>Elhagyni agg apádat, mint ki vén</l>
+                        <l>Megúnt ruháját, melly elveszni nem tud,</l>
+                        <l>Az ágon hagyja végre ’s elszalad,</l>
+                        <l>Hogy tőle ment legyen?</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Bocsánat, ah,</l>
+                        <l>Bocsánat! ím, én már nem távozom:</l>
+
+                        <l>Te lészsz az oltár, mellyhez járulok.</l>
+                    </lg>
+                    <stage>(SZILÁGY jő, ’s hallgatózva megáll)</stage>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Sőt menj, ha menni vágysz. Én nem fogok</l>
+                        <l>Élődni rajtatok, nem húzom el</l>
+                        <l>Az ételt szájatokból, nem teszem</l>
+                        <l>Italtokat bú’ ürmétől fanyarrá:</l>
+
+                        <l>Én nem fogok tengődni rajtatok,</l>
+                        <l>Hogy átkozzátok hosszu éltemet.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(félre)</stage>
+                        <l>’S atyától kell ezt lánynak hallani.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Atyám, mi szörnyü, sujtó szózat ez!</l>
+                        <l>A’ szent egekre! hagyd el e’ helyet,</l>
+
+                        <l>És jőj nyugonni. Ím, én esküszöm,</l>
+                        <l>Ha szívedet csak az nyugtatja meg,</l>
+                        <l>Hogy a’ szerelmet, melly hozzá csatol,</l>
+                        <l>’S minden szövődést. <stage>(Szilágyot meglátva)</stage></l>
+                        <l>Oh ég, Szilágy.</l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Menj, menj, ne háboríts, ha nem akarod</l>
+
+                        <l>Fejedre vonni átkomat. Szabad vagy,</l>
+                        <l>Én kincset ások, és te érzelegsz,</l>
+                        <l>Tégy a’ mi tetszik. Semmi esküvést!</l>
+                        <l>Én nem kivánok semmit hallani. <stage>(magában)</stage></l>
+                        <l>Fülem’ bezárom a’ hazug beszédnek,</l>
+
+                        <l>És ajkam nem sokára néma lesz.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(magában)</stage>
+                        <l>Milly élet ez? nagy isten, mit tegyek?</l>
+                        <l>Elhagyjam éjjel éi-illy egyedül?</l>
+                        <l>De így virraszt ő hét év óta már,</l>
+                        <l>’S nekem van érte kínos éjjelem.</l>
+
+                        <l>Szilágy, jövök, Ha kedvez a’ szerencse,</l>
+                        <l>Atyámat e’ kíntól megválthatom,</l>
+                        <l>’S tán felderítem végső napjait, <stage>(csüggedten el)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Elment; magam vagyok, magam ’s az éj,</l>
+                        <l>Mellv hold szemével gyász munkamta nez,</l>
+
+                        <l>Fél ember nagyság még, ’s alant.vagyok,</l>
+                        <l>’S fejem folött a'sírhant összehull,</l>
+
+                        <stage>(Ás, ’s ásója egy szekrénybe ütközik)</stage>
+                        <l>Mi ez? Megint az ördög czimborál?</l>
+                        <l>Új szemfényvesztés’ csábja fon körűl?</l>
+                        <l>Szekrény megint, ’s talán egy új halálfej?</l>
+
+                        <l>Mindegy: legyen bár minden koponya</l>
+                        <l>Itt egy rakásban mint a’ Mátrabércz,</l>
+                        <l>Nem rettegem.</l>
+
+                        <stage>(Felveszi, ’s kiteszi a’ gödör’ szélére)</stage>
+                        <l>Nehéz, mint tagjaim.</l>
+                        <l>Nyugottan jó öreg, légy eszeden;</l>
+                        <l>Ne várd a’ jót, ne rettegj a’ gonosztól:</l>
+
+                        <l>Jó rosz között neked már nincs különbség.</l>
+
+                        <stage>(Fölnyitja a’ szekrényt, ’s kivesz egy marok aranyat)</stage>
+                        <l>Arany! arany! arany!</l>
+
+                        <stage>(Lerogy a’ szekrényre, majd lassan fölemelkedik, ’s körülnéz)</stage>
+                        <l>Eszem megállj, ne szédűlj, vén fejem!</l>
+                        <l>Nem új csalódás’ káprázatja ez?</l>
+                        <l>Nem! a’ heted nap most telik be még;</l>
+
+                        <l>A’ régen várt kincs itt előttem áll.</l>
+
+                        <stage>(A’ szekrénybe nyúl)</stage>
+                        <l>Pénz, kincs, arany, fenékig mind arany!</l>
+                        <l>Bocsánat, oh egek! <stage>(aggodalmasan körülnéz)</stage></l>
+                        <l>Nincs senki itt?</l>
+                        <l>Magam vagyok. De most e’ kincseket</l>
+                        <l>Be, és fejem alatt kell pihenniök.</l>
+
+                        <stage>(Fölemeli, ’s vagy négy lépést viszi)</stage>
+
+                        <l>Hah! nem birom; roskadnak tagjaim.</l>
+                        <l>Jolán, Jolán! Nem hallja senki is</l>
+                        <l>Szilágy, Jolán, hol vagytok, gyermekim?</l>
+                        <l>Nem, nem! ha zajt ütök, meghallanák.</l>
+                        <l>’S ha Vári leskelődnék? Csak ne ő!</l>
+
+                        <l>Besietek, és kihívom lányomat.</l>
+                        <l>Tüstént, legitt. Hold, légy kegyes,</l>
+                        <l>Őrizd meg kincsemet, mit juttatál.</l>
+                        <l>Tüstént jövök. <stage>(elindúl, meg’ visszajő)</stage></l>
+                        <l>Nincs senki itt közel.</l>
+                        <l>Minden nyugodt, csendes mint a’ halál.</l>
+
+                        <stage>(Megy, ’s többször visszanéz)</stage>
+
+                        <l>Megyek, futok; nincs senki itt; megyek. <stage>(el)</stage></l>
+                    </lg>
+                    <stage>(Kevés váratra KÉT PARASZT jő)</stage>
+                </sp>
+                <sp who="#elso_paraszt">
+                    <speaker>ELSŐ PARASZT</speaker>
+                    <lg>
+                        <l>Bizony, János koma, úgy maradtam én, mint a’ szedett</l>
+                        <l>tőke. Minden keresményem haramiakézben. Még ruháim-</l>
+                        <l>ból is kifosztottak az átkozottak, ’s ezt a’ rongyot vetették</l>
+                        <l>nyakamba.</l>
+                    </lg>
+                </sp>
+                <sp who="#masodik_paraszt">
+                    <speaker>MÁSODIK PARASZT</speaker>
+                    <lg>
+                        <l>Hát én? mindenem oda van. Utósó értékemet ragadták</l>
+                        <l>el, ’s azonfelül úgy halántékon ütött egy gaz kölyök, hogy</l>
+                        <l>eszmélet nélkül rogytam le az úton. Verje meg az isten</l>
+                        <l>valamennyi gazember van a’ világon, ’s ki még a’ szegény-</l>
+                        <l>nek véres-veritékkel szerzett vagyonát is elveszi, pokolban</l>
+
+                        <l>ébredjen fel az itélet’ napján.</l>
+                    </lg>
+                </sp>
+                <sp who="#elso_paraszt">
+                    <speaker>ELSŐ PARASZT</speaker>
+                    <lg>
+                        <l>Ej ej! János koma, azért, ha szerencsétlenül jártunk is, ne</l>
+                        <l>káromkodjunk. Az isten megsegít, ha iparkodunk, ’s a’</l>
+                        <l>zsiványnak utójára is akasztfán a’ helye.</l>
+                    </lg>
+                </sp>
+                <sp who="#masodik_paraszt">
+                    <speaker>MÁSODIK PARASZT</speaker>
+                    <lg>
+                        <l>Hiszen koma, nem is káromkodom én, mert csak azt</l>
+
+                        <l>mondom, a’ mi igaz. Ha a’ becsűletes ember fáradsága után</l>
+                        <l>istentől várhat jót, úgy a’ haramiának csak az ördög’ körme</l>
+                        <l>közé kell jutni, ’s égni és jajgatni az örök kárhozatban.</l>
+                        <l>Dejszen, csak el ne szédűltem volna, majd meg is lapítottam</l>
+                        <l>volna a’ gaz czimbotának fejét. — De ni ni! koma, mi van</l>
+
+                        <l>itt a’ földön? <stage>(megbotlik a’ szekrényben)</stage></l>
+                        <l>Arany!</l>
+                    </lg>
+                </sp>
+                <sp who="#elso_paraszt">
+                    <speaker>ELSŐ PARASZT</speaker>
+                    <lg>
+                        <l>Arany! lehetetlen.</l>
+                    </lg>
+                </sp>
+                <sp who="#masodik_paraszt">
+                    <speaker>MÁSODIK PARASZT</speaker>
+                    <lg>
+                        <l>Már akár lehetetlen, akár nem, ez még is arany, még</l>
+                        <l>pedig annyi, hogy akár disznót hizlaljunk vele, ha vaczkorrá</l>
+
+                        <l>válik.</l>
+                    </lg>
+                </sp>
+                <sp who="#elso_paraszt">
+                    <speaker>ELSŐ PARASZT</speaker>
+                    <lg>
+                        <l>De azt már ne tegye. Inkább zsebeljünk fel belőle dere-</l>
+                        <l>kasan, aztán álljunk tovább. Legalább szegény cselédeinket</l>
+                        <l>megmentjük az éhenhalástól.</l>
+                    </lg>
+                </sp>
+                <sp who="#masodik_paraszt">
+                    <speaker>MÁSODIK PARASZT</speaker>
+                    <lg>
+                        <l>Mit zsebelni? Elviszszük koma, így a’ mint van, ’s</l>
+
+                        <l>megosztozunk emberségesen.</l>
+                    </lg>
+                </sp>
+                <sp who="#elso_paraszt">
+                    <speaker>ELSŐ PARASZT</speaker>
+                    <lg>
+                        <l>Hisz az mind jó volna, János koma, de talán nem is</l>
+                        <l>számunkra tették ide ezt a’ drága kincset, mi?</l>
+                    </lg>
+                </sp>
+                <sp who="#masodik_paraszt">
+                    <speaker>MÁSODIK PARASZT</speaker>
+                    <lg>
+                        <l>Nem-e? Hát ki’ számára, ha nem a’ kárvallottakéra?</l>
+                        <l>Aztán nem is úgy tették ezt ide, hanem a’ föld vetette fel;</l>
+
+                        <l>mert kitelt az ideje. Csak fogja kee fülön, koma, aztán</l>
+                        <l>vigyük.</l>
+                    </lg>
+                </sp>
+                <sp who="#elso_paraszt">
+                    <speaker>ELSŐ PARASZT</speaker>
+                    <lg>
+                        <l>Megálljon keed egy kicsint. Hát ha ez a’ sátán’ ajándéka?</l>
+                    </lg>
+                </sp>
+                <sp who="#masodik_paraszt">
+                    <speaker>MÁSODIK PARASZT</speaker>
+                    <lg>
+                        <l>Bánom is én, ha mindjárt a’ sánta ördögé is, csakhogy</l>
+                        <l>itt van. Fogja kee, mert mindjárt magam viszem el.</l>
+                    </lg>
+                </sp>
+                <sp who="#elso_paraszt">
+                    <speaker>ELSŐ PARASZT</speaker>
+                    <lg>
+                        <l>No no, csak ne hirtelenkedjünk, Látja keed, itt ollyan</l>
+                        <l>kertféle helyen járunk. Igazság szerint a’ kert’ gazdájának</l>
+                        <l>kéne valamit juttatni.</l>
+                    </lg>
+                </sp>
+                <sp who="#masodik_paraszt">
+                    <speaker>MÁSODIK PARASZT</speaker>
+                    <lg>
+                        <l>Isten neki! csakhogy egyszer már szabadulhassunk innen.</l>
+                        <l>Döntsünk ide ebbe gödörbe vagy egy süvegre valót; de</l>
+
+                        <l>aztán illa berek!</l>
+                    </lg>
+                </sp>
+                <sp who="#elso_paraszt">
+                    <speaker>ELSŐ PARASZT</speaker>
+                    <lg>
+                        <l>Annyi mint az: legalább becsülettel megosztozunk.</l>
+                    </lg>
+                    <stage>(A’ szekrényt a’ gödör’ szélére viszik, ’s pénzt kotornak bele)</stage>
+                </sp>
+                <sp who="#masodik_paraszt">
+                    <speaker>MÁSODIK PARASZT</speaker>
+                    <lg>
+                        <l>Elég! <stage>(Felfogják a’ szekrényt, ’s indulnak)</stage></l>
+                        <l>Már most isten őrizz meg bennünket; a’ pénznek majd</l>
+                        <l>gondját viseljük.</l>
+                    </lg>
+                </sp>
+                <sp who="#elso_paraszt">
+                    <speaker>ELSŐ PARASZT</speaker>
+                    <lg>
+                        <l>Valaki jön. Fussunk.</l>
+                    </lg>
+                    <stage>(Elsietnek a’ szekrénynyel. Nem sokára ZÁGONY jő)</stage>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>A’ ház üres! leányom elszökött,</l>
+                        <l>Egyetlen lányom! Kergesd őt, vihar,</l>
+                        <l>A’ merre jár. De nem! hiszen magam</l>
+                        <l>Űzém el egy setét órában őt.</l>
+
+                        <l>De jó. Legyen szabad. Házam közel:</l>
+                        <l>Kiürítem a’ szekrényt, míg tart az éj.</l>
+                        <l>Itt hagytam a’ szekrényt hohó! nem itt,</l>
+                        <l>A’ másik oldalon. <stage>(tovább megy)</stage></l>
+                        <l>Ne vedd el eszemet,</l>
+                        <l>Mindenható! a’ kincset nem lelem. <stage>(kutatva körülmegy)</stage></l>
+
+                        <l>Csak lassan, lassan, itt kell lennie. <stage>(lehajol)</stage></l>
+                        <l>Mit látok itt? A’ szekrény itt feküdt,</l>
+                        <l>’S mellette lábnyom.</l>
+
+                        <stage>(Felsikoltva térdre rogy, és haját megragadja)</stage>
+                        <l>Elraboltatott.</l>
+                        <l>A’ drága szép kincs elraboltatott!</l>
+
+                        <stage>(Szünet után a’ csákányt megragadja)</stage>
+                        <l>De hallga! nem beszédet hallok-e?</l>
+
+                        <l>Talán nem késő, még itt érem őket.</l>
+                        <l>Jaj annak, a’ kit csákányom megér.</l>
+                        <l>Megálljatok, tolvaj gaz emberek!</l>
+                        <l>Égesd meg őket, hold, temesd el, éj!</l>
+                        <l>De csitt! ne hallja senki szavamat.</l>
+
+                        <l>Utánok indulok, mint a’ halál,</l>
+                        <l>Halkan lopózva, észrevétlenűl. <stage>(indúl 's megáll)</stage></l>
+                        <l>Hah, ördög-sugta gondolat! Talán</l>
+                        <l>Leányom és Szilágy a’ tolvajok.</l>
+                        <l>Ki volna más? Itt nem jár senki más.</l>
+
+                        <l>Ne hozd előmbe őket, oh nagy ég!</l>
+                        <l>Ne hozz előmbe embert! Féktelen</l>
+                        <l>Harag foganzik lelkemben. Halál</l>
+                        <l>És gyilkolás most minden elemem.</l>
+                        <l>Reszkessetek, szerencsém’ tolvaji,</l>
+
+                        <l>Vén Zágony vért kiván a’ kincsekért.</l>
+                        <l>Tolvaj, zsivány, rabló! megálljatok. <stage>(bőszülten el)</stage></l>
+                    </lg>
+                </sp>
+
+            </div>
+            <div type="act">
+                <head type="title">NEGYEDIK FELVONÁS</head>
+                <stage>
+                    <hi rend="expanded">(Barlang)</hi>
+                </stage>
+                <stage>(VÍG BANDI, KILITI, FILLÉR, közöttük HARIS teli kulacscsal)</stage>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Halljunk szót!</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Halljuk Harist!</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Halljuk a’ vén Harist, az ivó Harist, az erdők’ és harasz-</l>
+                        <l>tok’ madarát!</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Böcsülettel szóljatok Harisról; szaván fogjátok.</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Halljuk Harist: Haris szólni akar.</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Meg akar szólamlani mint Bálám’ szamara. Halljuk!</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Böcsülettel legyetek, vagy fejetekhez vágom a’ kulacsot,</l>
+                        <l>száz és milliom —</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Korty!</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>A’ ki engem meg nem becsűl —</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Becsüld meg magadat, mond az írás.</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Halljuk Harist!</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi #filler #kiliti">
+                    <speaker>MINDNYÁJAN</speaker>
+                    <lg>
+                        <l>Halljuk.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>No hát hallgassatok, vagy fonnyadjatok el, mint a’ gom-</l>
+                        <l>ba a’ madzagon. — Hallgassatok fiaim, annyi félelemmel, a’</l>
+                        <l>mennyi csak rettenthetetlen szíveitektől kitelhetik, és a’ bor-</l>
+                        <l>tól, mellyet ittatok. Legelőször is tehát bátorságnak okáért</l>
+                        <l>— éljenek a’ kik meg nem haltak! <stage>(iszik)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Azaz: igyunk másokért, mert magunknak igen jól esik.</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Koldúsbocskor legyek, ha ez az ember nem csap alatt</l>
+                        <l>született. Legelső lélekzését is iváson kezdette. Szeretnék</l>
+                        <l>csapot ütni kobakjába, ’s fölébe írni: Vendégfogadó a’ csap-</l>
+                        <l>hoz!</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Éljen Haris, a’ kulacs’ fejedelme!</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Éljen és uralkodjék, mint sáritök a’ gyepün.</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Éljen, a’ mig csak ihatik.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Köszönöm, de száz és milliom! hallgassatok, vagy —</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi #filler #kiliti">
+                    <speaker>MINDNYÁJAN</speaker>
+                    <lg>
+                        <l>Halljuk! halljuk!</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Ne hagyjátok Harist méregbe jőni. — Igyál, ne szólj és</l>
+                        <l>halljuk. Idd le vitéz mérgedet, Haris, azután halljuk!</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Veszszek el, ha szót nem fogad.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <stage>(iszik)</stage>
+                        <l>Száz és milliom! hol is hagytam el?</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>A’ hol kezdted, az ivásnál.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Igen tehát! Azt mondom vala: éljenek a’ kik meg nem</l>
+                        <l>haltak.</l>
+                    </lg>
+                    <stage>(Inni akar, de a’ többiek megragadják a’ kalacsot, ’s nem engedik
+                        szájához vinni)</stage>
+                </sp>
+                <sp who="#vig_bandi #filler #kiliti">
+                    <speaker>MINDNYÁJAN</speaker>
+                    <lg>
+                        <l>Halljuk Harist!</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Ne hagyjátok inni, mig Vári’ halálát el nem beszéli.</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Egy mondásra egy korty, mint az írás mondja. — Mondj</l>
+
+                        <l>nekünk valamit Vári’ haláláról.</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Halljuk Harist!</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Ha a’ kulacsot el nem eresztitek —</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Kivel harczolt a’ mi vitéz hadnagyunk?</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Ki vágta agyon?</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Hol szúrták meg? Halljuk Harist, ő látta, mikor elesett.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Addig sem láttam sem hallottam, míg a’ kulacsot el nem</l>
+                        <l>eresztitek.</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Született és megholt, mint az irás bizonyítja.</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Döfést kapott-e vagy szúrást?</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Elől-e vagy hátúl?</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Tarkón-e vagy homlokon?</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Megverték-e, vagy csak megütötték?</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Haris látta, mikor mellbe szúrták. — Halljuk Harist!</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Hová temetteték?</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Beszélj, hogy ihassál.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <stage>(Elereszti a’ kulacsot, ’s baltájához kap)</stage>
+                        <l>Száz és milliom! én ütök mint isten’ nyila, ha méregbe</l>
+                        <l>hoztok.</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Hozzátok méregbe! akaszszátok föl lábainál fogva.</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Hagy’ lógjon, úgy is bajosan áll.</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Akaszszuk fel, hogy lábai az ég felé álljanak, mint a’</l>
+                        <l>szegény ember’ lőcse.</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Álljon tót ágast.</l>
+                    </lg>
+                </sp>
+                <sp who="#filler #kiliti #haris">
+                    <speaker>MINDNYÁJAN</speaker>
+                    <lg>
+                        <l>Álljon tót ágast! Álljon tót ágast!</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Száz és milliom! összeaprítalak. <stage>(kürszó hallik)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>A’ hadnagy!</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Mondom, hogy a’ vén kobak rászedett bennünket.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <stage>(Fölveszi az elejtett kulacsot, ’s keblébe dugja)</stage>
+                        <l>Bátorságnak okáért ezt jó lesz elrejteni.</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <l>Ezért csillagot rúgsz, Haris.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(jő)</stage>
+                        <l>Itt vagytok épen, mint látom; de szint’ olly</l>
+
+                        <l>üres kezekkel.</l>
+                    </lg>
+                </sp>
+                <sp who="#filler">
+                    <speaker>FILLÉR</speaker>
+                    <lg>
+                        <stage>(félre Kilitihez)</stage>
+                        <l>És jó fejjel, kivált Haris koma, ’s annak keze nem üres;</l>
+                        <l>olly vitézűl forgatja a’ kulacsot, mint Nagy Sándor az apja’</l>
+                        <l>dárdáját, csakhogy szüntelen magát veri pofon.</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Azért is örök pirongásban van, mintha minduntalan</l>
+
+                        <l>elszégyenlené magát.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(Harishoz)</stage>
+                        <l>Hah, vén szipoly, te ismét a’ kulacs’</l>
+                        <l>Szájával csókolódál? jobb szeretném,</l>
+                        <l>Máskorra hagynád lakzidat. Vigyázó</l>
+                        <l>És józan ember kell a’ gátra ma.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Uram, én ittam is, iszom is; de azért még is helyén van</l>
+                        <l>az eszem.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Csak lábad volna úgy, de tántorogsz,</l>
+                        <l>’S fejedbe szállott a’ földindulás.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Száz és milliom! akár kanásztánczot járjak.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Inkább hiszem, mint megmutasd. — De hol</l>
+                        <l>Maradt zsidótok? vagy nem jött nyilásra?</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Uram, csak egy rosz zsidókölyök volt, öregapja’ bár-</l>
+                        <l>sonynadrágában, mellyet a’ tizparancsolattal épen nyakánál</l>
+                        <l>kötött meg, hogy inába ne szakadjon. Kezei a’ két oldalzse-</l>
+
+                        <l>ben lógtak ki, mint valami veszedelmes horog, melly min-</l>
+                        <l>dent magához húz. Haris azt gondolta eleinte, hogy medve-</l>
+                        <l>bocs; de én megfogtam nyakán a’ tizparancsolatot.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Mit nyeggetőztök olly hitvány kölyökkel!</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi">
+                    <speaker>VÍG BANDI</speaker>
+                    <lg>
+                        <l>Kikérdeztem, uram, aztán utnak eresztém; hadd nőjön,</l>
+
+                        <l>míg csalni megtanúl. Most még nagyon sovány piócza volt;</l>
+                        <l>nem volt nála több másfél gerezd hajmánál, ’s két pénznél.</l>
+                        <l>Hárommal indult meg Budáról az eszéki vásárra, ’s még</l>
+                        <l>pénzzel ér oda, ha így gazdálkodik. — Azt mondta: a’ két vén</l>
+                        <l>zsidó csak harmad nap múlva jön erre.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(tűrtelenűl)</stage>
+
+                        <l>Jegyezd meg a’ napot — ’s most társaim,</l>
+                        <l>Nagy munka vár reánk: vtgyázzatok.</l>
+                    </lg>
+                </sp>
+                <sp who="#vig_bandi #filler #kiliti #haris">
+                    <speaker>MINDNYÁJAN</speaker>
+                    <lg>
+                        <l>Parancsolj! mindent megteszünk.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Kettő a’ más tanyának útjain</l>
+                        <l>Vigyázzon; kettő itt marad velem.</l>
+
+                        <l>Az elmenők hírt hozzanak, ha tán</l>
+                        <l>Nem ment az út. Kik megmaradtok itt,</l>
+                        <l>Vonuljatok meg e’ kőszál megett,</l>
+                        <l>És várakozva lesben álljatok.</l>
+                        <l>Egy ifju és egy lányka fog lejőni:</l>
+
+                        <l>Lopőzzatok ki majd, ha már lejött,</l>
+                        <l>’S midőn az égő fáklyát fellököm,</l>
+                        <l>Rohanjatok, ’s fogjátok a’ leányt,</l>
+                        <l>’S kímélve bár, de minden gyorsasággal</l>
+                        <l>Vigyétek félre. ’S míg én végezek</l>
+
+                        <l>Az ifjuval, tartsátok fogva őt.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Isten éltesse a’ mi hadnagyunk’ szeretőjét!</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Hallgass öreg, még nincs meg a’ madár,</l>
+                        <l>’S mádárfogónak nem szabad zajogni.</l>
+                        <l>Csak tőletek függ, hogy vesszőnkre szálljon.</l>
+
+                        <l>Azért hát csendesen, ’s ha jól sül el,</l>
+                        <l>Vár hétszeres díj ’s hála. — Menjetek.</l>
+                    </lg>
+                    <stage>(A’ haramiák rendelt helyeikre mennek. Vári előhozza a’ kincset ’s
+                        felfedi, majd két szövétneket gyújt, ’s a’ kőszálak mögé tűzi, melly által
+                        a’ barlang egy kevéssé földerűl)</stage>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Derűlj, sötétség’ puszta temploma,</l>
+                        <l>Pillants ki éjed’ kormos fátyolából,</l>
+                        <l>’S mutasd meg ismeretlen arczodat</l>
+
+                        <l>Eddig szilaj, vad férfiak’ tanyáját</l>
+                        <l>Félénk menyasszony látogat ma meg,</l>
+                        <l>Nem sejtve, hogy menyekző vár reá.</l>
+                        <l>Való, hogy a’ menyekző nem szelíd,</l>
+                        <l>’S tán félörömmel csonkább mint lehetne;</l>
+
+                        <l>De mit nem ád a’ sors, azt venni kell;</l>
+                        <l>Különben a’ várónak élete,</l>
+                        <l>Mint szép virágok közt a’ bérczpatak,</l>
+                        <l>Lefoly ’s kietlen pusztaságba vész.</l>
+                    </lg>
+                    <stage>(Kivül Jolán’ neve kiáltatik, mellyre megnyílik az ajtó,SZILÁGY és JOLÁN
+                        jőnek)</stage>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Jőnek! Szerencse, légy velem. <stage>(elvonúl)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ah, millyen rémületnek háza ez!</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Kedves, ne ítélj, nem érhet itt veszély,</l>
+                        <l>’S ha érne, megvéd híved és az ég.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ki számot tart az égi ótalomra,</l>
+                        <l>Nem kísért istent, ’s nem jár illy helyen.</l>
+
+                        <l>Oh, hagyj pihennem, Endre, olly igen</l>
+                        <l>Bágyadt vagyok.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(magában)</stage>
+                        <l>Csak most ne hagyd el őt,</l>
+                        <l>Oh szent erő. — Pihenj hát, kedvesem,</l>
+                        <l>Pihenj ki keblemen, jer.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ah Szilágy!</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Mit kívánsz, oh Jolán?</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Hová megyünk?</l>
+
+                        <l>Vagy ah!</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Nyugodjál, ’s végy erőt, Jolán.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Oh, itt csak szenvedélyek’ malma van:</l>
+                        <l>Ez a’ te kebled nem nyugvás’ helye;</l>
+                        <l>Olly szertelen dobog.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Kiirtanám,</l>
+                        <l>Ha nem dobogna most, midőn örül,</l>
+
+                        <l>Hogy boldosága rajta megpihen.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Mi az? mi nyúl fel ott olly rémalakban,</l>
+                        <l>Mint egy temérdek óriási szörny?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Kő az, Jolán, lelketlen néma kő,</l>
+                        <l>Kit durván a’ természet képze ki,</l>
+
+                        <l>’S titkos termének oszlopúl adott.</l>
+                        <l>Máshol ha látnók, szépnek mondanád.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>De ott alant a’ barlang’ fenekén</l>
+                        <l>Nem szellemeknek mécse pillog ott?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>A’ kincs világít, a’ kincs’ lánga az.</l>
+
+                        <l>Időnk halad; jer, már közel vagyunk.</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(megállapodva)</stage>
+                        <l>Melly szózat, millyen tompa suttogás?</l>
+                        <l>Olly szókat hallék, mint az emberé,</l>
+                        <l>De titkos hangjok borzadásba hoz.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Csalódol: rettegésed súgja azt.</l>
+
+                        <stage>(Lemennek a’ barlang’ közepéig)</stage>
+
+                        <l>Most bátorodjál, pillanatra csak,</l>
+                        <l>Hogy hosszan élő üdvhöz nyiss utat.</l>
+                        <l>Szerelmünk’ esküjére késztelek,</l>
+                        <l>’S mindenre, a' mi frígyet szentesít,</l>
+                        <l>Menj bátran, csüggedetlen menj elő,</l>
+
+                        <l>’S vedd a’ mit a’ szerencse’ jobbja nyujt. <stage>(mennek)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Szilágy, megengedj késedelmemért.</l>
+                        <l>Rettegtem, és midőn már itt vagyok,</l>
+                        <l>’S a’ titkos házzal megbarátkozám,</l>
+                        <l>Félelmem oszlik. Íme, indulok,</l>
+
+                        <l>’S rövid bucsúra nyujtom ajkamat.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(megöleli)</stage>
+                        <l>Jolán, Jolán. — De menj, az édeset</l>
+                        <l>Idő előtt ne lopjuk el magunktól.</l>
+                        <l>Menj, e’ helyen bevárlak. — Hah, mi ez!</l>
+                    </lg>
+                    <stage>(Jolán a’ kincs felé megy. Vári fellöki az égő szövétneket, mellyre Haris
+                        és Kiliti kirohannak, ’s Jolánt félre ragadják, Szilágy utána rohan, de Vári
+                        utját állja)</stage>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Megállj, fiú, egy nyommá se tovább.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Hatalmas ég! mi rettentő csalódás!</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Bámulj! Jolánnal többé nem beszélsz.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Hah ördög, csak most ismerek reád!</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Reszkess, ha ismersz, Rég elölhetélek;</l>
+                        <l>De mára tartám büntetésedet.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Jolán, Jolán, szólj, merre vagy? megyek,</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Ha e’ vas nem szakasztja útadat.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Alávaló! oh ördög’ czimborája,</l>
+                        <l>Illy bűn csak a’ te kézmüved lehet;</l>
+                        <l>Tágulj, vagy által rontok lelkeden.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <stage>(hátrálva)</stage>
+                        <l>Hejh társak! a’ leányt vigyétek el</l>
+                        <l>A’ más tanyára, ’s várjatok be ott. <stage>(Szilágyhoz)</stage></l>
+                        <l>’S most jer, ha bátorságod nem hazug.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(kardját lebocsátva)</stage>
+                        <l>Megállj, a’ szent egekre! — Oh Jolán,</l>
+                        <l>Mi síratandó sorsra hoztalak!</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>No’s úrfi, alkuszunk?</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Megösmerem,</l>
+                        <l>Úr vagy fölöttem ’s boldogságomon.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Add által önként, ’s gazdagon mehetsz el.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Nem úgy, nem úgy!</l>
+                        <l>Ne vidd el innen őt;</l>
+                        <l>Hagyd a’ helyen, hol fölnevelkedett,</l>
+
+                        <l>’S minden jogom szivéhez veszszen el.</l>
+                        <l>Eltépek önként mindent, a’ mi köt:</l>
+                        <l>Korhely leszek, csapongó, részeges;</l>
+                        <l>Káromkodással undok és hazug,</l>
+                        <l>’S minden gonoszba torkig elmerűlt,</l>
+
+                        <l>Hogy meggyülöljön végre ’s elfelejtsen,</l>
+                        <l>’S önként kivánja társaságodat.</l>
+                        <l>De mit beszélek. Nincs bűn, nincs gonoszság,</l>
+                        <l>Melly olly utálttá tenne, mint te vagy.</l>
+                        <l>Rabló!</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Ez a’ mi téged most megöl,</l>
+
+                        <l>’S halálod' óráján kétségbe ejt. <stage>(társaihoz)</stage></l>
+                        <l>Ne késsetek, vigyétek a’ leányt.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Előbb te halj meg, poklok’ czimborája.</l>
+                    </lg>
+                </sp>
+                <stage>(Összecsapnak. Az alatt Jolán, kire a’ harcz’ kimenetelét vigyázó haramiák
+                    nem igen ügyelnek, föleszmél)</stage>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <l>Ah, melly ijesztő zajra ébredek!</l>
+                        <l>Ott küzdenek; nagy isten!</l>
+
+                        <stage>(A’ vivók közé rohan, hol megsebesítve lerogy, miután a’ viadal
+                            megszünik)</stage>
+                        <l>Oh Szilágy!</l>
+
+                        <l>Te jól találtál.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Átok! mit tevék!</l>
+                    </lg>
+                </sp>
+                <sp who="#jolan">
+                    <speaker>JOLÁN</speaker>
+                    <lg>
+                        <stage>(haldokolva)</stage>
+                        <l>Én meghalok, Szilágy; itt balfelűl</l>
+                        <l>Kardod hideg — hideg, mint a' halál,</l>
+                        <l>Atyám — Szilágy — segíts — én meghalok. <stage>(meghal)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(Jolánhoz térdepelve)</stage>
+                        <l>Jolán, a’ szent egekre! szólj, beszélj,</l>
+
+                        <l>Csak egy kis szót még, mint vagy, mit tegyek?</l>
+                        <l>Vagy bár a’ legszörnyebbet mondd ki rám,</l>
+                        <l>Hogy nem szeretsz, csak élni tudjalak,</l>
+                        <l>Ébredj, Jolán; ne zárd el a’ szemet,</l>
+                        <l>Melly ifjuságom’ napja volt; Jolán</l>
+
+                        <l>Csak egyszer is még pillants föl reám,</l>
+                        <l>Jelűl, hogy megbocsátasz bűnömért,</l>
+                        <l>Hogy el nem átkozsz a’ más életen,</l>
+                        <l>Hogy gyilkosoddal megbékülsz örökre,</l>
+                        <l>Nem szólsz, nem intesz — én elkárhozom. <stage>(reáborúl)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Uram, ledöfjük ezt a’ gyermeket?</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Távozzatok, ti hitvány czimborák!</l>
+                        <l>Távozzatok, mondom, ne lássalak.</l>
+                    </lg>
+                </sp>
+                <sp who="#kiliti">
+                    <speaker>KILITI</speaker>
+                    <lg>
+                        <l>Jer, öreg; hadnagyunknak rosz lakodalma történt, ily-</l>
+                        <l>lyenkor nem jó késedezni. Adjunk hírt a’ többinek.</l>
+                    </lg>
+                </sp>
+                <sp who="#haris">
+                    <speaker>HARIS</speaker>
+                    <lg>
+                        <l>Száz és milliom! gyerünk. <stage>(Kiliti és Haris el)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Jolánom! ah korán vesztettelek.</l>
+                        <l>Ez a’ hideg csók, mellyet ajkad ád,</l>
+                        <l>Csekély a’ szomjnak, melly éretted ég,</l>
+                        <l>’S éretted égni fogna lángolón,</l>
+
+                        <l>Ha századokra nyúlnék életem.</l>
+                        <l>Mért nem lehet cserélnünk, oh Jolán?</l>
+                        <l>Leszállnék érted a’ mély földközépig,</l>
+                        <l>Csakhogy te élj, és rólam emlekezzél.</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Fel onnan, gyermek, pompás bánatodból!</l>
+
+                        <l>Nem tűröm el, hogy csak magad kesergj.</l>
+                        <l>Én hallgaték; de érzem káromat.</l>
+                        <l>’S ha szertelenség a’ gyász illy halotton,</l>
+                        <l>Versenybe hílak égre átkozódni,</l>
+                        <l>És káromolni mindent a’ mi szent.</l>
+
+                        <l>Én is szerettem őt!</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Oh szörnyeteg!</l>
+                        <l>Nézd, gyilkos, ezt az arczot! Nézd hogyan</l>
+                        <l>Halványodott el rózsahajnalából.</l>
+                        <l>Nézd a’ legédesb szózat’ ajkait,</l>
+                        <l>És e’ lezárt szem’ párját, melly imént</l>
+
+                        <l>Legszebb sugárból szőtte csillagát,</l>
+                        <l>’S egy életüdvnek mennyét foglalá;</l>
+                        <l>Nézd itt ez összeomlott termetet,</l>
+                        <l>Mind ez hogyan lőn néma és setét,</l>
+                        <l>És mozdulatlan renyhe, mint a’ föld:</l>
+
+                        <l>Te műved ez mind ’s ördög lelkedé!</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Ne káromolj, a’ sors akarta úgy.</l>
+                        <l>De én nem állok többé pört veled.</l>
+                        <l>Élj boldogúl, ha élhetsz, ’s menj tova:</l>
+                        <l>Én nem kivánom már halálodat.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>De én kivánom, gyilkos, lelkedet,</l>
+                        <l>És semmit nem kivánok, mint csak azt.</l>
+                        <l>Oh, vajha minden elhúnyt kellemét</l>
+                        <l>Egy egy halállal tudnám vissza venni,</l>
+                        <l>Mind szíved’ vérén váltanám meg azt.</l>
+
+                        <l>’S te tartanád meg éltedet, lator,</l>
+                        <l>Hogy a’ világnak még több átka légy,</l>
+                        <l>’S kétségbe hozd az istenben hivőt?</l>
+                    </lg>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Ne ingerelj, elég egy áldozat.</l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Egy égnek! egy pokolnak, ’s ez te légy.</l>
+                    </lg>
+                    <stage>(Vínak; Vári elesik)</stage>
+                </sp>
+                <sp who="#vari">
+                    <speaker>VÁRI</speaker>
+                    <lg>
+                        <l>Meggyőzhetlennek hittem kardomat,</l>
+                        <l>’S most porba száll velem. — Ha eltemetsz</l>
+                        <l>Szilágy, bírd ott a’ kincseket, ’s fölém</l>
+                        <l>Jolán’ hajából egy kis fürtöt adj,</l>
+                        <l>Csak egy kis fürtöt lelkem’ nyugtaért;</l>
+
+                        <l>De nem, ne tedd; nehezb lesz az nekem,</l>
+                        <l>Mint a’ kerek föld’ minden halmai:</l>
+                        <l>Megtértem volna — s elvesztettem őt.</l>
+                        <l>Kemény az ágy, a’ mellybe fektetél,</l>
+                        <l>’S fejem nehéz és lelkem — lelkem is. <stage>(ábrándozva)</stage></l>
+
+                        <l>Szilágy merítsd mélyebben a’ vasat.</l>
+                        <l>Úgy úgy! no most már alhatunk reá.</l>
+                        <l>Születni nem méltó illy életért,</l>
+                        <l>’S meghalni átkozott kin. <stage>(meghal)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <stage>(Jolán’ holtteste mellett térdepelve)</stage>
+                        <l>Rút halál!</l>
+                        <l>Korán kelél a’ vőlegény’ jogába.</l>
+
+                        <l>Undok kerítő! ennyi kellemet,</l>
+                        <l>Az ifuság’ virító tagjait</l>
+                        <l>A’ pornak ’s éhes férgeid’ fogának,</l>
+                        <l>’S e’ szózatokkal zengő ajkakat</l>
+                        <l>A’ tompa némaságnak jegyzed el.</l>
+
+                        <l>’S én, a’ ki mind eddig fukarkodám</l>
+                        <l>Szerelmeimmel, a’ ki kéjeit</l>
+                        <l>Csak félve izelém, hogy egykoron,</l>
+                        <l>Mint annak, a’ ki pénzét bérbe adta,</l>
+                        <l>Kamattal 's százszorozva térjenek meg</l>
+
+                        <l>Kifogyhatatlan drága kincs gyanánt;</l>
+                        <l>Én, a’ ki vártam, most lemondjak-e?</l>
+                        <l>Ezen gyönyörnek ékes hajlakát,</l>
+                        <l>E’ csaknem illetetlen ajkakat</l>
+                        <l>A’ semmiségnek szomjan adjam át?</l>
+
+                        <l>Ah kedvesem, te alszol csendesen,</l>
+                        <l>De mondhatatlan kín maradt nekem!</l>
+                        <l>Megbánthatatlan bűnöm, hogy reád</l>
+                        <l>Én hoztam e’ veszélyt, utánad int.</l>
+                        <l>Hogy állanék meg a’ világ előtt?</l>
+
+                        <l>Őrült, ki tündérségnek hittem azt,</l>
+                        <l>Mit a’ zsiványnak durva szája szólt!</l>
+                        <l>Őrűlt, botor! kaczagnom kellene,</l>
+                        <l>Ha nem volnék olly minden szer felett</l>
+                        <l>Boldogtalan. De elmegyek,</l>
+
+                        <l>Oh drága lélek, várj meg, én megyek, <stage>(fölkél)</stage></l>
+                        <l>Magam vagyok, mint éjszakán az árny.</l>
+                        <l>A’ mit szerettem, ’s gyűlölék, megöltem,</l>
+                        <l>És tettim’ száma egy hián betelt;</l>
+                        <l>Ez egyre, a’ végsőre most török.</l>
+
+                        <l>A gyáva retteg egy kis tőr’ hegyétől,</l>
+                        <l>’S a’ kárhozat, mint rém, elébe áll;</l>
+                        <l>De kárhozat csak ott van, a’ hol ő nincs,</l>
+                        <l>Itt lenni több mint kárhozat nekem.</l>
+                    </lg>
+                    <stage>(Fölülről Szilágy’ és Jolán’ neveik kiáltatnak. Nem ’sokára ZÁGONY égő
+                        fáklyával jő, utóbb IFJU VADÁSZOK)</stage>
+                </sp>
+                <sp who="#szilagy_endre">
+                    <speaker>SZILÁGY</speaker>
+                    <lg>
+                        <l>Még éltek ott fenn? szinte megfeledtem,</l>
+
+                        <l>Hogy félvilág is van; de nem kacsingatok</l>
+                        <l>Én már a’ nappal, a’ hizelkedő</l>
+                        <l>Életnek többé nem hiszem szavát. <stage>(kiáltva)</stage></l>
+                        <l>Jőj Zágony! a’ kincs ’s lányod itt vagyon.</l>
+                        <l>És itt van a’ ki elvesztette őt. <stage>(kardjába dől)</stage></l>
+
+                        <l>Jolán — szerelmünk — a’ halálban egy.</l>
+                    </lg>
+                    <stage>(Jolán mellett összerogy ’s meghal)</stage>
+                </sp>
+                <sp who="#zagony">
+                    <speaker>ZÁGONY</speaker>
+                    <lg>
+                        <l>Kincs ’s lányom itt van, jól hallottam-e?</l>
+                        <l>Hah, mily halálnak tartománya ez?</l>
+                        <l>Itt Vári fekszik vérben, ott Szilágy,</l>
+                        <l>’S itt lányom — oh szemfényvesztő pokol!</l>
+
+                        <l>És itt a’ kincs, a’ mellyért fáradék.</l>
+                        <l>Légy átkozott világ! <stage>(összerogy)</stage></l>
+                    </lg>
+                </sp>
+                <sp who="#egyik_vadasz">
+                    <speaker>EGYIK VADÁSZ</speaker>
+                    <lg>
+                        <l>Méltán kesergesz, sors-üldözte agg,</l>
+                        <l>Kincset vadásztál, ’s kettős gyászt lelél:</l>
+                        <l>Vőd a’ halál lőn. Hajh, de minket is</l>
+
+                        <l>Ért sajnos veszteség; egy ifju társ</l>
+                        <l>Hagyott el, a’ ki lelkünk volt, kinek</l>
+                        <l>Szép csillagáról sorsot jósolánk,</l>
+                        <l>Melly illy korán ’s illy gyászosan lehúnyt.</l>
+                        <l>Jertek! vigyük fel a’ holttesteket.</l>
+
+                        <l>Tegyünk föléjök büszke ravatalt:</l>
+                        <l>De zászlajoknak színe vér legyen;</l>
+                        <l>Mert vérben estek el!</l>
+                    </lg>
+                </sp>
+
+            </div>
+        </body>
+    </text>
+</TEI>

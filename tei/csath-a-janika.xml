@@ -1,0 +1,2279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">A Janika</title>
+<title type="sub">Színmű két felvonásban</title>
+<author>
+<persName>
+<surname>Csáth</surname>
+<forename>Géza</forename>
+</persName>
+<idno type="wikidata">Q469956</idno>
+</author>
+</titleStmt>
+<editionStmt> <edition>digital edition</edition> <respStmt> <resp>project director</resp> <persName> <surname>Palkó</surname> <forename>Gábor</forename> </persName> </respStmt> <respStmt> <resp>TEI-specification</resp> <persName> <surname>Fellegi</surname> <forename>Zsófia</forename> </persName> </respStmt> <respStmt> <resp>XML-control</resp> <persName> <surname>Bajzát</surname> <forename>Tímea</forename> </persName> </respStmt> <respStmt> <resp>project coordinator</resp> <persName> <surname>Szemes</surname> <forename>Botond</forename> </persName> </respStmt> <respStmt> <resp>NLP expert</resp> <persName> <surname>Horváth</surname> <forename>Péter</forename> </persName> </respStmt> <respStmt> <resp>XML-editor</resp>
+<persName>
+<surname>Kalmár</surname>
+<forename>Balázs</forename>
+</persName>
+</respStmt>
+</editionStmt> <publicationStmt> <publisher> <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName> </publisher> <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace> <date>2021</date> <availability> <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p> </availability> </publicationStmt>
+<sourceDesc>
+<bibl type="digitalSource">
+<title type="main">A Janika</title>
+<title type="sub">Színmű két felvonásban</title>
+<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+<ref target="https://mek.oszk.hu/00600/00632"/>
+<date when="2006-12-11">2006-12-11</date>
+<respStmt>
+<resp>Original Electronic Edition</resp>
+<persName>
+<surname>Drótos</surname>
+<forename>László</forename>
+</persName>
+<persName>
+<surname>Németh</surname>
+<forename>Ibolya</forename>
+</persName>
+</respStmt>
+</bibl>
+<bibl type="originalSource">
+                    <title type="main">A varázsló halála</title>
+                    <title type="sub"/>
+                    <author>
+                        <persName>
+                            <surname>Csáth</surname>
+                            <forename>Géza</forename>
+                        </persName>
+                        <idno type="wikidata">Q469956</idno>
+                    </author>
+                    <date when="1987">1987</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Szépirodalmi Könyvkiadó</publisher>
+                    <idno>Q469956</idno>
+                </bibl>
+<bibl type="firstEdition">
+<title type="main">A Janika</title>
+<title type="sub">tragikomédia</title>
+<author>
+<persName>
+<surname>Csáth</surname>
+<forename>Géza</forename>
+</persName>
+<idno type="wikidata">Q469956</idno>
+</author>
+<date type="print" when="1911">1911</date>
+<date type="premiere" when="1911-05-20">1911-05-20</date>
+<date type="written" when="1911">1911</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Nyugat</publisher>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="hu"/>
+</langUsage>
+<particDesc>
+<listPerson>
+<person sex="MALE" xml:id="pertics">
+                        <persName>Pertics Jenő</persName>
+                    </person>
+<person sex="FEMALE" xml:id="perticsne">
+                        <persName>Pertics Jenőné</persName>
+                    </person>
+<person sex="FEMALE" xml:id="telkesyne">
+                        <persName>Özv. Telkesyné, Perticsné anyja</persName>
+                    </person>
+<person sex="MALE" xml:id="boer">
+                        <persName>Boér Kálmán</persName>
+                    </person>
+<person sex="MALE" xml:id="tolnay">
+                        <persName>Tolnay, háziorvos</persName>
+                    </person>
+<person sex="MALE" xml:id="sebesztanar">
+                        <persName>Pataky, sebésztanár</persName>
+                    </person>
+<person sex="MALE" xml:id="schwarz">
+                        <persName>Schwarz, tanár</persName>
+                    </person>
+<person sex="FEMALE" xml:id="szakacsno">
+<persName>Szakácsnő</persName>
+</person>
+<person sex="FEMALE" xml:id="szobalany">
+<persName>Szobalány</persName>
+</person>
+<person sex="FEMALE" xml:id="egy_idegen_cseled">
+<persName>Egy idegen cseléd</persName>
+</person>
+<person sex="MALE" xml:id="temetkezesi_szolga">
+<persName>Temetkezési szolga</persName>
+</person>
+<person sex="MALE" xml:id="a_postas">
+                        <persName>Levélhordó</persName>
+                    </person>
+</listPerson>
+</particDesc>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<castList>
+                <head type="title"><hi rend="underline">SZEMÉLYEK</hi></head>
+                <castItem>
+                    <role><roleName>Az asszony. Pertics Jenőné Telkesy
+                        Aranka.</roleName>Negyvenéves. A haját valószínűleg festi. Divatos,
+                        szőkés-vörös a haja. Erős, mély hangja van, de a mozdulatai nőiesek. Magas
+                        termetű, jól öltözik. Nagy soppos frizurát hord, a füle elé is fésül egy
+                        kevés hajat. Gyakran babrál a kontyán. Az arca kissé megviselt, de általában
+                        a korához képest elég jó kondícióban van. Nem rossz, de nem is jó ez a nő,
+                        nem kicsinyes, de nem is intelligens; sok van ilyen, és végeredményében
+                        inkább az értékes nők közé sorolják őket.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>A férj. Pertics Jenő.</roleName>Ötvenéves, alacsony, kopasz,
+                        kajla bajszú, elhízásra hajlamos. Jó és udvarias ember, könnyen
+                        elérzékenyülő. Túl gyengéd apa és férj. Dolgozik reggeltől estig, hogy
+                        ellássa a gyerekeit. Szereti a hivatalát, és bizonyos állati örömmel végzi a
+                        szokásos munkát. Alacsony gallért és megvarrt, színes nyakkendőt visel, a
+                        nadrágjának állásáról látszik, hogy nem jó szabónál dolgoztat, talán kész
+                        ruhát vásárol.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>Boér Kálmán</roleName> Harminchat éves. Cvikkeres. Sötétszőke
+                        haj, angol bajusz. Neuraszténiás arc, egy érzékeny emberé, aki az
+                        érzékenységet saját maga előtt is titkolja. Az első felvonás végéig megőrzi
+                        az önuralmát, akkor hirtelen tör ki az elfojtott indulatossága. Járásában
+                        van valami úri karakter, előkelőség, ami itt, ebben a sötét pesti polgári
+                        miliőben is megmaradt.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>A szakácsnő. Boris.</roleName>Elhízott, sápadt nőszemély, öreg
+                        és ellenszenves, de nyílt szemű, kitanult, és ismeri az életet.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>A szobalány.</roleName>Fiatal, de rossz arcú. (Az asszony nem
+                        fogad csinos cselédet.) Sápadt. Zsidós hangsúllyal beszél, modorosan, mint a
+                        boltokban a pesti szolgálók a segéddel.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>A háziorvos.</roleName>Negyvenéves, enyhén kopasz, udvarias
+                        ember. Olyan orvos, aki már túl van minden orvosi ambíción. Dolgozik, mert
+                        öröme telik az érdeklődésben, amely munkájában körülveszi, de legjobban
+                        szeret kártyázni. Az a pesti háziorvostípus, amely csak a tanárok
+                        impresszáriója. Az első felvonásban a ritka és komplikált diagnózis kissé
+                        felizgatja.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>A sebész.</roleName>Nagystílű szélhámosok típusa. Roppantul az
+                        előtérbe tudja magát tolni. Magas, szép ember, kis kecskeszakállal és
+                        vékony, éles hanggal. Kegyetlen, közömbös hóhértermészet.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>Schwarcz tanár.</roleName>A bécsi iskola. Fontoskodó,
+                        magyarázgató, könyvember. Inkább tudós, mint orvos. Mosolyog, és mindig
+                        magyarázó pózokba helyezkedik el.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>Telkesyné.</roleName>A Perticsné anyja. Molett asszony. Erősen
+                        púderezi és fűzi magát. Bizonyos vén kokottjellege van, de kedves
+                        asszony.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>Temetkezési szolga.</roleName> Sápadt, rosszul borotvált,
+                        penészes kis ember.</role>
+                </castItem>
+                <castItem>
+                    <role><roleName>Az idegen cseléd.</roleName> Fiatal, szép hangú, fess lány. A
+                        legkülönb nő az egész társaságban.</role>
+                </castItem>
+            </castList>
+    <p><stage>Történik Budapesten. Ma.</stage></p>
+    <p><stage>Először adták a Magyar Színházban 1911. május 20.-án.</stage></p>
+</front>
+<body>
+<div type="act">
+    <head type="title">ELSŐ FELVONÁS</head>
+                  <p>  <stage>Nagy, de nem világos, és stílus nélkül bútorozott polgári ebédlő.
+                        Reggelihez terített asztal, findzsákkal, tejeslábassal, vizesüveggel. Az
+                        asztal kissé már szét van dúlva, egy asztalkendő az egyik széken, a másik
+                        összegyűrve az abroszon. Már hárman vagy többen is reggeliztek itten.
+                        Perticsné jobboldalt összekuporodva, slafrokban újságot olvas. Csak
+                        hevenyében van megfésülve, a kontya részben lóg, de az arca már erősen
+                        púderezett. Nagy termetű, jó alakú asszony. Azt a benyomást kelti, hogy
+                        minden pillanatban érzi a termetének szépségét. A színpadon körülbelül fél
+                        percig egyedül van. Lapoz az újságban, babrálja a haját, ülési módot
+                        változtat. A közönségnek érezni kell, hogy ni, ez a nő, milyen jól és
+                        biztosan érzi magát, kissé öreg már, és most reggel gusztustalan is, de este
+                        mutatós lehet. Ha a színésznő azt érzi, hogy ezt az impressziósorozatot nem
+                        tudja ennyi idő alatt a közönségben felkelteni, akkor ezt a némajátékot ki
+                        kell nyújtani tovább.</stage></p>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<stage>(megjelenik a jobb hátsó ajtóban, halkan mondja):</stage>
+<p>Nagysága kérem, a Janika azt mondta, híjam a nagyságát.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Az a gyerek csak most kel fel, mondja meg neki, hogy siessen,
+                            öltözzön.</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<p>Igenis!</p>
+<stage>(Eltűnik.)</stage>
+</sp>
+    <p><stage>Kis szünet.</stage></p>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>újságolvasásba merül. Csengetés. A szobalány áthalad a szobán, és látni, amint beereszti a postást.</stage>
+        </sp>
+<sp who="#a_postas">
+<speaker>A POSTÁS</speaker>
+<p>Jó reggelt kívánok! Ajánlott van, kérem! Boér Kálmán miniszteri titkár
+                            úrnak.</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<p>A nagysága majd átveszi, menjen csak be.</p>
+</sp>
+<sp who="#a_postas">
+<speaker>A POSTÁS</speaker>
+<p>Nincs itthon Boér úr?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Nincs.</p>
+</sp>
+<sp who="#a_postas">
+<speaker>A POSTÁS</speaker>
+<p>És van a nagyságának írott meghatalmazása?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Van hát. Ejnye, hát maga nem tudja: ez az úr nálunk lakik, és
+    meghatalmazás van tőle.<stage>(Felkel, és a pohárszék egyik fiókjából kiveszi az ívet.)</stage>Itt van ni!</p>
+</sp>
+<sp who="#a_postas">
+<speaker>A POSTÁS</speaker>
+<stage>(megnézi)</stage>
+<p>Tessék kérem aláírni.</p>
+</sp>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>ír.</stage>
+        </sp>
+<sp who="#a_postas">
+<speaker>A POSTÁS</speaker>
+<p>Új ember vagyok, kérem, csak elseje óta kézbesítek ebbe a kerületbe.
+                            Kezeit csókolom.</p>
+</sp>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>leül az asztalhoz újra. A szobalány kiereszti a levélhordót, azután visszajön az oldalszobába, nyilván tisztogatni. Az asszony egy ideig némán nézi a levelet, azután felbontja egy hajtűvel, átfutja, borítékba visszateszi. Tovább olvassa az újságot.</stage>
+        </sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<stage>(újra megjelenik a jobb hátsó ajtónál):</stage>
+<p>Kérem, a Janika nagyon sír, és azt mondta, hogy rögtön híjam a
+    nagyságát.<stage>(Csakugyan hallani valami gyereksírást.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Mi baja már megint ennek a gyereknek?!<stage>(Lassan kimegy, mint aki már megszokta a kicsi szeszélyeit.)</stage></p>
+</sp>
+    <p><stage>Kis szünet.</stage></p>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<stage>(az asztalon rakosgat, egyet és mást a pohárszékhez visz, és a polcra meg
+                        a fiókba rak, közben kiáll az előszobaajtóba):</stage>
+<p>Boris!</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <stage>(hangja)</stage>
+<p>Mit akar?</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<p>Mondok magának valamit. Nekem úgy jön, hogy ebben a házban máma valami
+    nagy hecc lesz...<stage>(A szakácsnőnek egy pillanatra hallatszik a hangja, de nem érteni, hogy
+        mit mond).</stage>Majd meglátja!<stage>(Leszedi az asztalt, összehajtogatja az abroszt, dúdol.)</stage>Szebb vagy, mint az anyád, az ég szakadjon rád...</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(belép a jobb hátsó ajtón)</stage>
+<p>Lujza, magának rögtön fel kell menni a mamához, siessen, mondja meg neki,
+                            hogy a Janika beteg, és kéretem, mindjárt jöjjön le.</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+    <p>Igenis!<stage>(Kimegy, látni a nyitva hagyott előszobaajtón át, hogy mindjárt elmegy,
+        csak egy kendőt vesz előbb a hátára.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(a telefonhoz lép, vár)</stage>
+<p>Halló, halló. Kérem házfelügyelő úr, legyen szíves a központot. Halló,
+    központ, a 38-79-et. A 38-79-et.<stage>(Rövid szünet.)</stage>A belügyminisztérium? 
+    Halló! Kérem sürgősen Boér Kálmán urat! Igen?<stage>(Rövid szünet.)</stage>Maga az, Kálmán? Kérem, jöjjön haza mindjárt, Janika nagyon beteg. Igen,
+    lázas. Éppen most tettem neki be a hőmérőt. Egészen magán kívül van ez a
+    gyerek. Félek, hogy nagyon beteg lesz. Hozza mindjárt a kocsiján dr.
+    Tolnayt is. Még otthon találja... No jó, de akkor elmegy hazulról, és
+    akkor csak estefelé kapjuk meg... Nem, mindjárt kell! Kemény utca 12.,
+    II. emelet. Siessen!<stage>(A kagylót leteszi, háromszor megnyomja a csillárról lógó
+        csengettyűt.)</stage></p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <p>Tetszik parancsolni?<stage>(A fenékajtóban megjelenik.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Húzza át Boris az én ágyamat, a lepedőt, a paplant, a vánkosokat, mind
+                            cserélje ki tisztával. Siessen, mert mindjárt jön az orvos. A Janikát
+                            azután át fogjuk fektetni. A többi ágyakat vesse fel, és rakja rendbe a
+                            szobát. Ha az ebéd késik, nem baj.</p>
+</sp>
+    <sp who="#szakacsno">
+        <speaker>SZAKÁCSNŐ</speaker>
+        <stage>a jobb hátsó ajtón kimegy.</stage>
+    </sp>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>pár percig keresi a levelet, azután megtalálja a pohárszéken, és elzárja, majd a tükör 
+            elé áll, és a fésűvel próbálja igazítani a rendetlen kontyát. Csengetés. Kimegy az előszobába, 
+            kinéz a kémlelőlyukon, és beereszti a szobalányt.</stage>
+        </sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<p>Azt izeni, kérem, a nagysága, hogy rögtön jönni fog.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Mit csinált?</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<p>A konyhában volt, de készült valahová, mert utcára volt öltözve.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Jól van, menjen be, és segítsen Borisnak az ágyat áthúzni.<stage>(Szobalány a jobb elülső ajtón ki akar menni.)</stage>De siessenek!</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <stage>(a jobb elülső ajtó bejön, s egy feltűnően piszkos vánkos van a
+                        kezében)</stage>
+<p>Nagysága, kérem, erre a vánkosra nem tetszett adni huzatot.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Ágyazza csak be az úr ágyába.<stage>(A hátsó ajtón el.)</stage></p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Igenis!</p>
+</sp>
+    <p><stage>Kis szünet.</stage></p>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Már telefonált is.</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<p>Kinek!?</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Kinek, hát a "Kálmánnak"!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(hangja)</stage>
+    <p>Lujza! Lujza! Jöjjenek!<stage>(Gyermeksírás hallatszik.)</stage>Én nem értem magukat!<stage>(A szakácsnő és a szobalány a jobb hátsó ajtón sietve el. Körülbelül
+        öt-hat másodpercig a szín üres, azután csengetés, ismételt
+        csengetés.)</stage></p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZOBALÁNY</speaker>
+    <stage>(a jobb elülső ajtóból jön, átmegy a szobán, és kinyitja az
+                        ajtót)</stage>
+<p>Kezét csókolom!</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Jó reggelt!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(a jobb elülső ajtóban megjelenik)</stage>
+    <p>Kisztihand, mama!<stage>(Összecsókolóznak.)</stage></p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>No mondd már, mi van a Janikával?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Nagy láza van, éppen most tettem be neki a hőmérőt. Kérem, menjen be
+                            hozzá, mama, nekem sietnem kell magamat rendbe hozni, mert mindjárt itt
+                            lesz az orvos.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Tolnaynak telefonáltál?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Nem! Kálmánnak a minisztériumba!</p>
+<stage>(A szakácsnő átmegy, ki az előszoba felé, a beszélgetés pár pillanatra
+                        megakad.)</stage>
+<p>Hiszen tudja a mama, hogy megígértem neki, hogy akármi történik ezzel a
+                            gyerekkel, rögtön értesítem.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Mégis értesíteni kell Jenőt is!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Telefonáljon neki, mama!</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Jó, de azt fogom neki mondani, hogy az előbb én telefonáltam
+                            Kálmánnak.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Köszönöm, mama, mindegy.<stage>(Jobb hátsó ajtón el.)</stage></p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+    <stage>(telefonál)</stage>
+<p>Halló! Kérem a 80-15-öt. Igen, 80-15! Halló! Kérem, a számvevőség?
+                            Igen?... Akkor kérem sürgősen Pertics urat. Az anyósa. Halló! Te vagy
+                            az, Jenő? Azt akarom veled tudatni, hogy a kisfiad, a Janika beteg. Nagy
+                            láza van... Csak az elébb... Már gondoskodtunk orvosról... Telefonáltam
+                            Kálmánnak, hogy hozza Tolnayt. Reméljük, nem lesz semmi nagyobb baj...
+                            Már minek jönnél haza?... Most méri a lázát. Még nem tudni. Isten
+                            veled.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(a jobb hátsó ajtón jön be, otthoni reformruhát húzott. A ruha
+                        vörösesbordó, igen egyszerű, de jó szabású, és anyaga finomnak látszik.
+                        Hátul még nincs begombolva. A kezében hőmérő)</stage>
+<p>Nézze, mama, az istenért, jól látom-e, harminckilenc hattized?!... Csupa
+                            láz annak a gyereknek az arca, és egészen zavarosak a szemei.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+    <stage>(az ablakhoz megy, megnézi)</stage>
+    <p>Ez, fiam, harminckilenc hattized!<stage>(Némán, komolyán néznek egymásra.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Nohát, éppen csak ez kellett nekem!...</p>
+<stage>(Megfordul, hogy az anyja hátul bekapcsolja a ruháját. Az inge kilátszik
+                        és a meztelen háta is. Dúsan csipkézett, de nem egészen tiszta ing, vörös
+                        szalag van belefűzve. Fésülködik.)</stage>
+                        </sp>
+    <sp who="#telkesyne">
+        <speaker>TELKESYNÉ</speaker>
+        <stage>fésülni kezdi.</stage>
+        </sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Ha ez a gyerek meghal, én megölöm magamat!<stage>(Szenvedélyesen mondja, de nem túl hangosan.)</stage></p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Ejnye, már miért halna meg; én nem értelek, hogy ennyire meg vagy
+                            ijedve!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Jól tudja a mama, hogy miért vagyok megijedve, és nem ért?</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Már én azt mondom, hogy nem jó anya az, aki nem egyformán szereti a
+                            gyermekeit, és ezt megmondtam neked máskor is, és most is mondom.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Jó, jó, mama, jó, de én nem tehetek róla!</p>
+<stage>(Befejezi frizuráját, amely divatos, szép, de mégsem ízléses, mert a haj
+                        festett voltát a pompázatos volta miatt elárulja. Csengetnek. A szobalány
+                        kisiet ajtót nyitni. Tolnay és Boér lépnek be.)</stage>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>Tessék!<stage>(Előrebocsátja az orvost. Az előszobában leteszik a felöltőiket, azután
+        bejönnek az ebédlőbe.)</stage>Tessék!</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <p>Kezeit csókolom, kisztihand!<stage>(Mélyen meghajlik, és kezet fog a hölgyekkel.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Az istenért, doktor úr, nézze, milyen óriási láza van a fiamnak, és
+    nyugtasson meg bennünket, iszonyúan meg vagyunk ijedve.<stage>(Átadja a hőmérőt.)</stage></p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <p>Ne tessék kérem aggódni.<stage>(Megnézi a hőmérőt.)</stage>Egy kis gyermekbetegség lesz; nagyságos asszonyomnak nem kell ezt
+        magyarázni. Jó ez a hőmérő?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Azt hiszem.</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>No, majd én is megmérem. Mióta panaszkodik a Janika?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Az este még semmit sem vettünk észre. Tegnap délután egy kis barátjánál
+                            volt fent a második emeleten. Este ugyan keveset vacsorált, úgy
+                            emlékszem...<stage>(Az orvos és az asszony a jobb elülső ajtón kimennek.)</stage></p>
+</sp>
+    <sp who="#boer">
+        <speaker>BOÉR</speaker>
+        <stage>idegesen járkál a szobában.</stage>
+        </sp>
+    <sp who="#telkesyne">
+        <speaker>TELKESYNÉ</speaker>
+        <stage>leül az ablak melletti karosszékbe.</stage>
+    </sp>
+    <p><stage>Kis szünet.</stage></p>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Soha se tudja az ember ezekkel a gyerekekkel!</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Parancsol!?</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Mondom, hogy sohase tudja az ember, ezekkel a gyerekekkel mikor van
+                            baj.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Igaz!</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Gondolom, Janika egyszer egy torokfájást leszámítva, nem is volt még
+                            beteg!</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Nem, soha semmi baja se volt.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>No, én bízom Tolnay doktorban.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Nagyságos asszonyom mikor jött át?</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Mindjárt reggeli után. Aranka küldött értem. Akkor én "telefonáltam
+                            magának", hogy hozza a doktort, és megtelefonáltam Jenőnek is, hogy
+                            beteg a gyerek.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>Igen.<stage>(Szórakozottan maga elé néz.)</stage>Most emlékszem, mintha este láttam volna a gyerek szemein, hogy lázas.
+        Egy pillanatra, emlékszem, ránéztem és úgy keresztülment rajtam, no,
+        ennek valami baja lesz... és csendesebb is volt a vacsoránál, hiszen
+        tudja a nagyságos asszony, mennyit szokott beszélni.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Igazán borzasztó, hogy ennek az Arankának hogy kijut a betegápolásból.
+                            Hát Istenem, minden anyának kötelessége, és szívesen áldozza oda az
+                            idejét és a szépségét is, de mégis, a múlt évben a Jenőke difteritisze
+                            meg a Palika sarlachja, azelőtti évben megint a Palika kanyarója. Ez egy
+                            kicsit sok volt.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Aranka nagyon meg van ijedve.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Inkább elég nyugodt.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Maga nem ismeri őt e tekintetben. Borzasztó izgatott. Csak erőlködik,
+                            hogy nyugodtnak látszassék, és sikerül is, de én észreveszem. Rendkívüli
+                            lelkiereje van.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Igen, páratlan lelkierő van benne.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+    <p><stage>Három rövid csengetés, ajtócsapás.</stage></p>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Ugyan ki jöhetett?</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>Ez Jenő lesz!<stage>(Feláll).</stage>Ő szokott így csengetni.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Jenő?</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(megjelenik az ajtóban)</stage>
+    <p>Kisztihand, mama!<stage>(Kezet csókol cuppantva, azután megcsókolja jobbról és balról.)</stage>Szervusz!<stage>(A férfiak kezet fognak.)</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Hát mi történt?</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>A doktor benn van a gyereknél Arankával, még nem tudunk semmit.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Szent Isten!<stage>(Összecsapja a kezeit. A felkiáltás és a gesztus fontoskodó. Olyan,
+        mintha előre elhatározta volna, hogy ezt mondja, mert el volt készülve rá,
+        hogy valami súlyos diagnózist mondanak.)</stage></p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Lehet, hogy csak egy kis influenza. Ne légy annyira megijedve!</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Hiszen ismer a mama, mennyire féltem a gyermekeimet...<stage>(Ide-oda járkál.)</stage>Egy órai szabadságot kértem, hogy körülnézzek itthon... Te elhoztad a
+        doktort, ugye?</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Igen!</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Nagy szerencse, hogy a hivatalod olyan közel van hozzá, másképp talán már
+                            nem is találtad volna otthon.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>A doktor, úgy látszik, azt gondolja, hogy Aranka nem jól mérte a lázat,
+                            vagy hogy rossz a hőmérő, mert újból megméri.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Aranka mérte?</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Igen.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Mennyi volt?</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Harminckilenc és hattized.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Akkor annyi is az! Szent Isten!<stage>(Most már hangosan.)</stage>Harminckilenc és hattized, és az a gyerek tegnap este még teljesen
+        egészséges volt!<stage>(Kissé exponáltan érzi magát a jó apa szerepében, és természetszerűleg
+            túloz, mint ilyenkor az emberek szoktak. Le-fel sétál, majd hirtelen
+            megáll.)</stage>Ha Aranka mérte, akkor annyi is volt. És tegnap ennek a gyereknek semmi
+        baja nem volt. Erre pozitíve emlékszem. Pozitíve emlékszem. Te is
+        emlékszel, ugye?<stage>(Boér felé fordul.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Én egy pillanatra mintha lázasnak láttam volna a szemeit, de ez csak most
+                            utólag jutott eszembe.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>No, hát én bemegyek.<stage>(Kimegy a bal hátsó ajtón. Az orvos és az asszony az elülső ajtón jönnek
+        ki.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(a férj után kiált)</stage>
+<p>Jenő! Jenő!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Jenő is megérkezett?</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Igen!</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(visszatér a férjjel)</stage>
+<p>A másik szobába fektették?...</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Legyen szíves, mama, menjen be addig a gyerekhez!</p>
+</sp>
+    <sp who="#telkesyne">
+        <speaker>TELKESYNÉ</speaker>
+        <stage>némán kimegy.</stage>
+        </sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Alázatos szolgája, doktor úr!<stage>(Kezet fog.)</stage>Hát, kérem, hogy áll a dolog?</p>
+</sp>
+    <p><stage>Kis szünet.</stage></p>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Hát én kérem, elő fogom adni a véleményemet. Tessenek talán helyet
+    foglalni.<stage>(Csend, elhelyezkednek.)</stage>A vizsgálat nyomán, amelyet az imént megejtettem, arra a következtetésre
+    jutottam, hogy a kisfiúnak csontvelőgyulladása van. A baj infekciózus
+    természetű, igen heves, úgyhogy itt sürgősen tenni kell.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Jézus, Istenem!</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Elsősorban és kizárólag az operatív beavatkozás jön itt szóba. Ennek
+                            módozatait azonban egy konzílium van hivatva megbeszélni, amelynek
+                            összehívását sürgősen, még ebben az órában szükségesnek tartom.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Csak siessen, doktor úr, az istenért, tessék, itt a telefon. Tanárt
+    hívjon rögtön.<stage>(Mindannyian felkelnek, mozgolódnak.)</stage></p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <p>Pataky és Schwarcz professzorokat fogom hívni.<stage>(Megnézi az óráját.)</stage>Talán még otthon vannak. Addig, nagyságos asszonyom, tessék hideg
+        borogatásokat rakni a fájós lábra, tíz percenként váltogatva, és tessék
+        leküldeni jégért.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICSNÉ</speaker>
+    <p>Igen.<stage>(Kimegy a konyha felé.)</stage></p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <stage>(telefonál, a többiek izgatottan figyelik)</stage>
+    <p>Halló!<stage>(Vár, leteszi a kagylót, újra felveszi, újra leteszi, végre türelmét
+        veszti és kopog).</stage>Halló, kérem 72-22-t! Igen, 22-t! Halló! Kérem Schwarcz tanár urat. Te
+        magad vagy? Szervusz. Egy sürgős konzíliumra akarlak felkérni. Igen,
+        rögtön kellene. Osteomyelitis acutissima. Harminckilenc és hattized
+        temperatúra. Most diagnosztizáltam. Tehát rögtön jössz. Hozd magaddal
+        Patakyt, vagy értesítsd előbb telefonon, ha nincs otthon, akkor
+        Horváthot.<stage>(Az asszony keresztülmegy a szobán, utána a szakácsnő mosdótálat visz
+            tele vízzel.)</stage>>Tehát rögtön indulsz, Pertics Jenő úr fia, József utca 17., II. emelet.
+        Hányas szám, kérem?...</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Nyolc.</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <p>II. emelet 8. ... 17. Igen.<stage>(Leteszi a kagylót.)</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Hol fogják operálni, kérem, doktor úr?</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Pataky professzor a Major-szanatóriumban operál legszívesebben. Horváth -
+                            szintén. Ha a konzílium csatlakozik a véleményemhez, és a sürgős
+                            operációt kívánja, akkor egy óra múlva beszállítjuk, és az operációt
+                            rögtön megcsináljuk.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Engedje meg doktor úr a kérdést, hiszen legjobb ezt mindjárt tisztázni,
+                            mennyibe fog kerülni az operáció és a szanatórium előreláthatólag?</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Hát, kérem, ezt így egyszerre nagyon bajos megmondani. Úgy körülbelül
+                            hét-nyolcszáz korona körül lehet az egész. Egészen ezerig.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Igen.</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+    <stage>(egy fazékban jeget hoz)</stage>
+<p>Itt a jég, nagyságos úr!</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Adja csak ide.<stage>(Átveszi a fazekat, és a betegszobába viszi.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(aki eddig mozdulatlanul állt, a bal oldali ajtó fejfájának
+                        támaszkodik)</stage>
+<p>Mit csinálnak vele, doktor úr, mi lesz az operáció, legyen szíves ezt
+                            elmondani.</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Hát, kérem, felvágjuk a beteg lábat, felvéssük a beteg csontot, ahol a
+                            fertőző anyag lerakódott, és kitisztítjuk, kikaparjuk, mert ez okozta a
+                            mérgezést.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(visszajön)</stage>
+    <p>Szegény kisfiamnak rettenetes fájdalmai vannak.<stage>(Sírva fakad, leül, zsebkendőt vesz elő.)</stage></p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Legyen erős kérem, Pertics úr. A kisfiának az állapota ugyan rendkívül
+                            súlyos, de még az operációval minden valószínűség szerint sikerülni fog
+                            őt megmenteni. És meg kell még önt forma szerint kérdeznem, ami ugyan
+                            felesleges, hogy beleegyezik-e az operációba?</p>
+</sp>
+    <p><stage>Rövid szünet.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Természetesen.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(hirtelen előlép)</stage>
+<p>Tudniillik, ugyebár, ha a konzílium az operáció mellett dönt?</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Nem lehet szó másról itt kérem, nem lehet szó.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>És mondja, doktor úr, a lábát az operáció után is használhatni fogja? Nem
+                            lesz szükség mankóra vagy effélére?</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Nem, nem, ha felgyógyul, akkor minden valószínűség szerint teljesen
+                            egészséges ember lesz.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(megjelenik az ajtóban)</stage>
+<p>Kérem, doktor úr, a gyerek vizet kért inni, adhatok neki?</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <p>Igen, tessék neki adni. Hanem nézzük meg a beteget.<stage>(Perticsné a konyhába megy. Az orvos és Pertics a jobb oldali elülső
+        ajtón ki a betegszobába. A színpadon pár pillanatig egyedül marad Boér,
+        csakhamar azonban visszajön az asszony egy pohár vízzel.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(fojtottan)</stage>
+    <p>Aranka!<stage>(A jobb elülső ajtóban, mint valami őr vagy kém megjelenik
+        Telkesyné.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Mit akar?</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Borzasztó ez!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Borzasztó!<stage>(Ránéz. Átadja az anyjának a vizet, aki eltűnik vele.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>Soha életemben nem hittem, hogy ilyen rettenetes helyzetbe kerülök.<stage>(Kezet csókol az asszonynak, megcsuklik a hangja.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Uralkodjék magán, még nincsen elveszve semmi!</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Az a gyerek meg fog halni.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(rémülten)</stage>
+<p>Ne beszéljen ilyeneket.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Az én gyerekem!...</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Az istenért, fogja be a száját.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Most látom be, amit eddig soha, hogy ezt a gyereket el kellett volna
+                            innen vinni. Nem lett volna szabad nekem itt hagyni egy idegen ember
+                            házában. El kellett volna innen vinni.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Menjen a szobájába, zárkózzék be, és sírja ki magát, ha már ilyen gyenge
+    ember.<stage>(Mereven egy helyben áll.)</stage>Ne csináljon itt komédiákat, legyen férfi.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Alig várom már, hogy a gyereket a szanatóriumba vigyék.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Mit akar maga csinálni?</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Nem tudom, de így nem maradhat tovább.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>De hát, Kálmán, legyen esze! Nyugodjék meg, barátom.<stage>(Hevesen megszorítja a kezét.)</stage>A gyerek meg fog menekülni, néhány nap múlva túl lesz minden
+        veszélyen.<stage>(Csengetés.)</stage>Itt vannak a tanárok. Szóljon Jenőnek.<stage>(Kinyitja az előszobába nyíló ajtót. A tanárok már vetkőznek, a szobalány
+            lesegíti a bundáikat.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(kimegy az orvosok elé. Meggyújtja a sötét előszoba gázlámpáját. Az egyik
+                        tanár zsebkendőt vesz elő, hangosan kifújja az orrát)</stage>
+<p>Alázatos szolgája.</p>
+</sp>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>kezet fog az orvosokkal.</stage>
+        </sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(bemutatkozik)</stage>
+    <p>Boér Kálmán vagyok.<stage>(Pár pillanatig az orvosok még kint maradnak az előszobában, mintegy
+        információkat szerezni.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Tessék, erre!<stage>(A két tanár előremegy a szobában.)</stage></p>
+</sp>
+<sp who="#sebesztanar">
+<speaker>SEBÉSZTANÁR</speaker>
+    <stage>(már magyaráz)</stage>
+<p>Bizony, kérem, ilyen esetekben a sürgős operáció az egyetlen gyógyszer.
+                            Mindenekelőtt azonban látnunk kell a beteget.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(előremegy)</stage>
+<p>Erre tessék!</p>
+<stage>(Kinyitja a jobb elülső ajtót, a tanárok belépnek.)</stage>
+</sp>
+    <p><stage>A szobalány és
+        szakácsnő besettenkednek az ebédlőbe, de Boér rájuk szól.</stage></p>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Csukják be az ajtót, kérem!</p>
+</sp>
+    <p><stage>A két cseléd kimegy. Néhány másodperc múlva.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(kitámolyog a betegszobából)</stage>
+    <p>Nem tudom nézni ennek a szegény kisgyereknek a szenvedéseit.<stage>(Leül és zokog.)</stage>Én 
+        már nem bízom semmit sem. Én láttam, a szegény első kislányom éppen
+        ilyen volt a halála előtt. Te akkor még nem laktál nálunk. Agybaja volt,
+        négy nap alatt pusztult el.<stage>(Zokog.)</stage>Ilyen nehéz pillanatokban 
+        igazán jólesik az igazi barát.<stage>(Megöleli. Boér idegesen elhúzódik, de Pertics nem veszi észre.)</stage>Tudom, Kálmánkám, hogy te is úgy szeretted a Janikát, mintha csak a saját
+        gyereked lett volna<stage>(a kezeit szorongatja)</stage>, és éppen ezért kérdezlek meg, mert nézd, most, ha ma délelőtt
+        szanatóriumba szállítjuk, akkor utána kell nézni, hogy honnan szedem azt
+        a hét-nyolcszáz koronát. Ennyit mondott Tolnay. Nekem készpénzem
+        nincsen, talán mindössze kétszáz korona, az is kell még erre a hónapra.
+        Fel kell venni a bankból. Ha volnál szíves zsirálni nekem egy
+        ezerkoronás váltót. Ugye megteheted, Kálmánkám?</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Hogy lehet erről beszélni is, ez természetes.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Rád ismerek, rád ismerek. Igazi úr vagy és jó barát. Nem hagysz el
+                            bennünket a bajban és veszedelemben.</p>
+</sp>
+    <sp who="#sebesztanar">
+<speaker>A SEBÉSZ</speaker>
+    <stage>(hangja hallatszik, mert az ajtó is nyílik)</stage>
+<p>Teljes világosságra van itt, kérem, szükség a vizsgálathoz.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+    <stage>(az ajtóból)</stage>
+<p>Jöjjön, Kálmán, gyújtsa fel a lámpákat.</p>
+</sp>
+    <sp who="#boer">
+        <speaker>BOÉR</speaker>
+    <stage>bemegy.</stage>
+    </sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <stage>(a következő pillanatban már kijön)</stage>
+<p>Kedves Pertics úr, legjobb volna, ha kegyed személyesen hozná el ezt a
+                            receptet most mindjárt.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Igen, igen.<stage>(Átveszi.)</stage></p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Messze van itt a patika?</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Második ház!</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Menjen, kérem, menjen. Rá van írva különben is, hogy sietve meg kell
+                            csinálni a patikárusnak.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Igen, igen.<stage>(Kicsit boldog, hogy tehet valamit.)</stage>Megmentik, ugye, doktor úr?<stage>(Szalad.)</stage></p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <p>Tessék sietni!<stage>(Visszamegy, de előbb kiereszti a színre a hölgyeket.)</stage></p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+    <stage>(zsebkendőt vesz elő, törülgeti a szemeit)</stage>
+    <p>Szegény Arankám!<stage>(Megöleli Perticsnét.)</stage>Reád hirtelen jön ez a nehéz csapás.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(kibontakozik)</stage>
+    <p>Ugyan, mama, miért izgat fel?<stage>(Nagyon hangos.)</stage>Meg fogják operálni, és egészséges lesz.<stage>(Hirtelen leül az asztal mellé, és görcsösen sírni kezd. Nem takarja el
+        az arcát, csaknem egyenesen ül; egész felső teste rángatódzik.)</stage>Akkor siratott volna a mama, amikor férjhez adott.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+    <p>Ne vádolj engem fiam, az Isten akarta így.<stage>(Megsimogatja a fejét.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Ha ez a kisgyerek meghal, öregasszony leszek néhány nap alatt.<stage>(Dadogja a szavakat sírás közben és rángatódzik.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(visszajön, amint megpillantja a vonagló asszonyt, rögtön határozottan
+                        rászól)</stage>
+    <p>Magának le kell feküdni!<stage>(Erélyes, de mégis rekedt a hangja.)</stage></p>
+<stage>(Erélyes, de mégis rekedt a hangja.)</stage>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Feküdj le, Arankám!</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>Jöjjön!<stage>(Gyengéden támogatni akarja.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(feláll, nagyon hangosan)</stage>
+    <p>Hagyjon!<stage>(A jobb hátsó ajtón sietve kimegy, azután kívülről kiált.)</stage>Mama! Jöjjön, mama!</p>
+</sp>
+    <sp who="#telkesyne">
+        <speaker>TELKESYNÉ</speaker>
+        <stage>utánamegy.</stage>
+        </sp>
+<sp who="#sebesztanar">
+<speaker>SEBÉSZTANÁR</speaker>
+    <stage>(hangja hallatszik)</stage>
+    <p>Igen, igen!<stage>(Két tanár belép.)</stage>Talán lenne szíves kérem a beteg mellé bemenni!</p>
+</sp>
+    <sp who="#boer">
+        <speaker>BOÉR</speaker>
+        <stage>némán bemegy.</stage>
+        </sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#schwarz">
+<speaker>SCHWARCZ</speaker>
+    <stage>(felhúzza a szemöldökeit)</stage>
+<p>Casus valde malum!</p>
+</sp>
+<sp who="#sebesztanar">
+<speaker>SEBÉSZTANÁR</speaker>
+<p>Az operatív beavatkozás mindenesetre nagyon is kétséges, mondjuk tíz
+                            percent valószínűség, de nézetem szerint meg kell kísérelni.</p>
+</sp>
+<sp who="#schwarz">
+<speaker>SCHWARCZ</speaker>
+    <p>Non putarem.<stage>(Ugyanaz a póz.)</stage>Non est auxilium. A beteg az asztalon hal meg. A szívgyengeség nagyon is
+        kifejezett... Casus gravis!</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <stage>(belép)</stage>
+<p>Nincs pulzus! Azt hiszem, itt az exitus csak pár perc kérdése.</p>
+</sp>
+<sp who="#sebesztanar">
+<speaker>SEBÉSZTANÁR</speaker>
+<p>Eszerint kérem az operatív beavatkozásról le kell tenni. Egy esetre
+    emlékszem a praxisomból<stage>(igen ruganyos, értelmes)</stage>, egy hasonló fudroyáns osteomyelitishez hívtak ilyen gyors konzíliumra.
+    A beteget, egy húszéves fiút, gyorsan beszállítottuk, és megoperáltam. A
+    láz úgyszólván momentán leszállt, a beteg meggyógyult. Abban az esetben
+    azonban a szív teljesen érintetlen volt. Hát eszerint a kolléga úr itt
+    marad, és közli a konzílium szomorú eredményét a házbeliekkel. Talán még
+    próbál egy kámforinjekciót. Igen? Ut aliquid!<stage>(Kifelé indulnak.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(hirtelen előlép)</stage>
+<p>Nincsen segítség, tanár urak?...</p>
+</sp>
+<sp who="#sebesztanar">
+<speaker>SEBÉSZTANÁR</speaker>
+<p>Sajnos, itt emberi erő semmit sem tehet.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Talán mégis be lehetne szállítani a szanatóriumba.</p>
+</sp>
+<sp who="#sebesztanar">
+<speaker>SEBÉSZTANÁR</speaker>
+<p>A szíve nem bírja ki az altatást. Önnek ugyebár, a család rokona...</p>
+</sp>
+    <sp who="#boer">
+        <speaker>BOÉR</speaker>
+        <stage>bólint.</stage>
+        </sp>
+<sp who="#sebesztanar">
+<speaker>SEBÉSZTANÁR</speaker>
+<p>Önnek nyíltan megmondom, én a legkétségbeesettebb eseteket is
+                            megoperálom, de kérem, csak a sikernek legalább egy ezredrésznyi
+                            valószínűségével. Itt azonban a valószínűségről többé szó sem lehet. A
+                            betegnek nincs pulzusa. Ez, kérem, a szomorú valóság.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>Igen, igen.<stage>(Rövid szünet. Kiveszi a tárcáját.)</stage>Engedjék meg kérem, hogy a honoráriumot rögtön átadjam.<stage>(Nagyon nehezére esik a beszéd. Húszkoronást ad a sebésznek.)</stage></p>
+<p>Engedjék meg kérem, hogy a honoráriumot rögtön átadjam.</p>
+</sp>
+<sp who="#sebesztanar">
+<speaker>SEBÉSZTANÁR</speaker>
+<p>Bocsánat, én konzíliumért negyven koronát szoktam kapni.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>Pardon! Bocsásson meg. Az ember gyakorlatlan az ilyesmiben.<stage>(Még egy bankjegyet ad.)</stage>Parancsoljon!<stage>(A háziorvos a jobb elülső ajtón észrevétlenül kimegy. Schwarcz tanárnak
+        mindjárt két bankjegyet ad.)</stage>Tessék!<stage>(Az orvosok zsebre gyűrik a pénzt. Boér kikíséri őket, a szobalány
+            segítségével feladja rájuk a kabátot, közben a jobb hátsó ajtóban megjelenik
+            Telkesyné, vörösre sírt szemekkel, de az orvosok nem veszik észre. Telkesyné
+            visszafordul, mintha a belső szobába, a lányához beszélne. Int a kezével,
+            hogy maradjon.)</stage></p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(visszajön)</stage>
+    <p>Menjen be a gyerekhez.<stage>(Telkesyné mellett beszól az ajtón.)</stage>Mindjárt meg fog halni, jöjjön csak be.<stage>(Telkesyné keresztet vet, eddig nem jutott eszébe.)</stage></p>
+</sp>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>kibotorkál, és Boérral kézen fogva bemennek a betegszobába. Közben kijő az
+            orvos.</stage>
+        </sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+    <p>Nincs még itt a Pertics úr?<stage>(Perticsné és Boér nem hallgatnak rá, bemennek.)</stage></p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+    <p>Nincs, még nem jött meg!<stage>(Siránkozik.)</stage>Ugye, még segíthet az orvosság?</p>
+</sp>
+<sp who="#tolnay">
+<speaker>TOLNAY</speaker>
+<p>Nem valószínű, nagyságos asszonyom, nem valószínű, de kötelességünk az
+                            utolsót is megpróbálni, és a beteg életét, ha csak pár perccel is,
+                            meghosszabbítani.<stage>(Kis fecskendőt szed elő a zsebéből, kiveszi a skatulyából, és
+                                próbálgatja.)</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(künn idegesen csenget. Az ajtót a szobalány sietve nyitja. A férfi
+                        lélekszakadva rohan be)</stage>
+    <p>Tessék!<stage>(Az asztalra teszi az üveget. Azután visszamegy az előszobába levetkőzni.
+        Az orvos azalatt kibontja az üvegcsét, megtölti a fecskendőt és a
+        betegszobába megy. Pertics visszajön. Meglátta az előszoba fogasáról, hogy a
+        tanárok elmentek.)</stage>Elmentek a professzorok?</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+    <p>El. Azt mondták, hogy nincs segítség.<stage>(Zokog.)</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(nekilát a sírásnak)</stage>
+<p>Ki gondolta még... volna... kedves... mama, mikor... ma... reggel...
+    elmentem hazulról, hogy délre<stage>(megöleli az anyósát)</stage>ilyen borzasztó csapás fog érni... Az orvosokat... majd... ki... kell...
+    fizetni... majd... felírjuk a címüket... és... elküldjük a pénzt. Majd
+    Tolnay megmondja, mennyit.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Kálmán már kifizette őket.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Milyen igazi derék, jó barát ez a Kálmán.<stage>(Tovább sír.)</stage></p>
+</sp>
+    <sp who="#tolnay">
+        <speaker>TOLNAY</speaker>
+        <stage>megjelenik az ajtóban. Perticsné sikoltása
+            hallatszik.</stage>
+        </sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Meghalt?</p>
+</sp>
+    <sp who="#tolnay">
+        <speaker>TOLNAY</speaker>
+        <stage>bólint.</stage>
+        </sp>
+    <sp who="#telkesyne">
+        <speaker>TELKESYNÉ</speaker>
+        <stage>sikolt, és teljes erővel sírni kezd. Pertics is
+            erősen zokog. Az orvos összerakja a fecskendősskatulyát, zsebre vágja és
+            kimegy. Igyekszik meghatottnak lenni és lábujjhegyen jár, amire persze nincs
+            semmi szükség, mert a jelenlevők meglehetős zajt csapnak.</stage>
+        </sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Hol van szegény Arankám?</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>Benn van!</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Majd megkérem Kálmánt, hogy telefonáljon, kérjen nekem két napi
+                            szabadságot a főnökömtől.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+<p>A gyerekek is nemsokára jönnek az iskolából.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Nem is sejtik még szegények, hogy a kisöccsüket elvesztették. Majd mama
+                            lesz olyan szíves nekik megmondani.</p>
+</sp>
+<sp who="#telkesyne">
+<speaker>TELKESYNÉ</speaker>
+    <p>Igen, Jenőkém, igen!</p>
+</sp>
+    <p><stage>A jobb elülső ajtóban megjelenik először Perticsné, azután Boér. Az
+        asszony nem sír, mintegy dermedt a fájdalomtól és a félelemtől.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(hozzámegy)</stage>
+    <p>Drága Arankám! Édes feleségem, elvesztettük...<stage>(Át akarja ölelni, de az asszony kibontakozik, és leül az asztal mellé
+        egy székre.)</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Kálmánkám, ugye leszel szíves telefonálni Wiznernek, és nekem két napi
+    szabadságot kérni.<stage>(Meg akarja ölelni őt is, hogy a keblén egy verset sírjon.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(egy pillanatig némán a levegőbe néz, azután megrázkódik, visszatartja
+                        Perticset, aki a halottas szobába akar menni)</stage>
+    <p>Eridj ki innen, az istenért<stage>(felemeli az öklét)</stage>, és ne bőgj annyit, mert megőrülök. Ez a halott az én gyerekem!</p>
+</sp>
+    <p><stage>Sikoltások. Boér most sírni kezd, Pertics arcát nem látni, mert háttal
+        áll a közönségnek, oldalra görnyed, hátul a cúgos cipőjének a szalagjába fel
+        van akadva a nadrágja. Nyilván a patikába futás közben csúszott fel. Pertics
+        sziluettje egészen az előtérben. Komikus, szomorú figura.</stage></p>
+    <p>Függöny</p>
+</div>
+<div type="act">
+<head type="title">MÁSODIK FELVONÁS</head>
+    <p><stage>Ugyanaz a szoba. A temetés után való nap, estefelé. Az előszobaajtó nyitva. A lámpa ott is ég, a többi ajtók is nyitva. A szakácsnő a kályhát rakja, kendőben van, nyilván a nagy léghuzat miatt, amely a lakást átjárja.</stage></p> 
+<sp who="#temetkezesi_szolga">
+<speaker>TEMETKEZÉSI SZOLGA</speaker>
+    <stage>(lemászik a létráról. A létra a jobb elülső ajtófélfához van támasztva. Összehajtogatja a nehéz fekete drapériákat, amiket leszedett):</stage>
+    <p>No, már csak egy van!<stage>(Leteszi az összehajtott szövetet egy székre, amely egészen az előtérben áll, s amelyen sorban egymásra rakva egész csomó ilyen fekete, ezüstrojtos drapéria áll. A létrát a fenékajtó félfájának támasztja, felmászik és az utolsó drapériát szedi le.)</stage></p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>No, maga hamar elkészült.</p>
+</sp>
+<sp who="#temetkezesi_szolga">
+<speaker>SZOLGA</speaker>
+<p>Nem először csinálom.</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Jó seft ez a maguké. Elhozzák ezeket a fekete rongyokat, kiakasszák, leakasszák, és szedik be a kétszáz forintokat. Hanem nem szeretnék ilyen pénzből élni.</p>
+</sp>
+<sp who="#temetkezesi_szolga">
+<speaker>SZOLGA</speaker>
+<p>Pedig jól meg lehet élni. A főnökömnek van egy-kettő-kilenc emeletes háza.</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Ne meséljen!</p>
+</sp>
+<sp who="#temetkezesi_szolga">
+<speaker>SZOLGA</speaker>
+    <p>Nem mesélek, ez igaz. No!<stage>(Összeolvassa a darabokat.)</stage>Cvá, drá, fiá, finef, 
+        zehsz, zibn, aht, nájn, cén, ölf, cvölf ... Kész! No, Isten áldja meg.<stage>(Szalutál.)</stage></p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Jó éjt. Hajja, hé, hagyja csak itt azt a létrát!</p>
+</sp>
+<sp who="#temetkezesi_szolga">
+<speaker>SZOLGA</speaker>
+<p>Le akartam vinni a házmesternek.</p>
+</sp>
+<sp who="#szakacsno">
+<stage>SZAKÁCSNŐ</stage>
+<p>Levisszük majd mink.</p>
+</sp>
+    <sp who="#temetkezesi_szolga">
+        <speaker>SZOLGA</speaker>
+        <stage>vállat von. Az előszobában hagyja a létrát. Nem köszön.</stage>
+        </sp>
+    <sp who="#szakacsno">
+        <speaker>SZAKÁCSNŐ</speaker>
+        <stage>kimegy a jobb elülső ajtón. 
+            Hallatszik, hogy az ablakot becsukja. Azután visszajön, becsukja az összes ajtókat és teríteni kezd. 
+            A pohárszék fiókjából kiszedi az abroszt és összehajtva már az asztalra teszi, amikor csengetnek. 
+            Kimegy ajtót nyitni.</stage>
+        </sp>
+    <sp who="#egy_idegen_cseled">
+        <speaker>EGY IDEGEN CSELÉD</speaker>
+        <stage>lép be kendővel a vállain. Hajadonfővel. Jó cipői, formás bokái vannak.</stage>
+    </sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Jó estét, Helén!</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+    <p>Jó estét.<stage>(Leül, körülnéz.)</stage></p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <p>Éppen jókor jön.<stage>(Terít.)</stage></p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+<p>No mondja, mondja, drágám. De mindent mondjon el, megígérte... De várjon, előbb kérdezek valamit. 
+    Az én nagyságámnak mondtam, hogy maga mondta, hogy a maguk nagyságos ura nem tudta, hogy a Janika 
+    nem az ő gyereke volt. Az én nagyságám azt mondta, hogy ez lehetetlen, ezt kérdezzem még egyszer utána magától.</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Pedig úgy volt. Én se hinném, ha nekem mondaná valaki. A mi nagyságos urunk nem tudta, hogy a gyerek nem volt az övé.</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+<p>Hát ezt alig lehet elhinni. Mert nézze. Az a kisfiú annyira hasonlított a maguk szobaurához, hogy az én nagyságám 
+    sokszor mondta, amikor elmentek a gangon az ablakunk előtt: "No, itt nem nehéz megmondani, hogy melyik gyerek kihöz tartozik."</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Mink is azt hittük, hogy tudta. Azt hittük, hogy meg vannak alkudva, és a Kálmán nagyságos úr azért fizet olyan sokat. 
+    Mit gondol: százötven forint! Az ő ellátása nem kerülhetett többe, mint havonként, sokat mondok, hatvan forintba. 
+    De tegnap meglátszott a mi nagyságos urunkon, hogy soha eszébe se jutott, hogy a kisfiú a másiktól lehet. 
+    Annyira jajgatott. Mink csak néztük a Lujzával, de azután, tudja, mikor az orvos már megmondta, hogy meghalt 
+    a Janika, erre megszólalt a Kálmán nagyságos úr is. Azt mondta neki. "Ne bőgj már annyit, az Isten áldjon meg, hiszen ez az én gyerekem!"</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+<p>Hogy mondta?</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Ne bőgj már annyit, hiszen ez az én gyerekem.</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+<p>Ne bőgj már annyit, hiszen ez az én gyerekem. No, jót fog nevetni a nagyságám, ha ezt elmondom neki. 
+    És mondja, maga már itt volt, amikor a másik úr ide jött lakni?</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <p>Én másfél évvel később jöttem, de aki itt előttem szakácsnő volt, azt mondta, hogy addig 
+        nem volt semmi.<stage>(Kézmozdulat.)</stage>Pedig ő lesett rájuk.</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+<p>Hát aztán?</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Én is lestem rájuk!</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+<p>Mondja el, mondja csak, drágám, mondja!</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <p>Várjon, kimék, megnézem, nem jönnek-e?<stage>(Kimegy, kinéz az előszoba ajtaján, azután visszajön. Ezalatt a másik cseléd 
+        jól körülnéz a szobában. Okos, élénk lánynak látszik. A szakácsnő visszajön és folytatja.)</stage>Tudja, az embernek 
+        eleinte nem tetszett az asszony. Legalábbis tíz évvel idősebb.<stage>(Kézmozdulat.)</stage>De azután egyszerre csak 
+        kezdett hazajárni délutánonként.<stage>(Kacsint.)</stage>Az asszony férjének délután is hivatala van, de Kálmán nagyságos úr kettőkor hazajön a 
+        minisztériumból, és a délutánja szabad. Többet nincs semmi dolga.<stage>(Terít.)</stage>Eleinte délutánonként valami kaszinóba ment, de 
+        egyszerre csak kezdett itthon maradni.<stage>(Kacsint.)</stage>Eljátszott a gyerekekkel, felolvasott a nagyságának, együtt mentek sétálni. Elmentek moziba, 
+        bevásárolni. Akkor már gondoltam én magamban: ebből lesz valami. És lett is. A Janika lett. 
+        De soha nem sikerült rajtaérni őket. Nagyon vigyáztak, talán elmentek hazulról, valahová 
+        fürdőbe vagy szállodába, nem tudom. De azt már le nem tagadhatta senki, hogy Janika apja 
+        fia, a másik kettő csúnya, pisze, két fekete kisgyerek, ez meg szőke volt, kék szeme volt. 
+        Borzasztóan szerették ezt a kicsit, és nagy kivételt tettek vele. A másik két gyereket például 
+        gyakran megverte, pofon ütötte az asszony, ezt sohasem. Egy ujjal soha nem bántották. Micsoda 
+        karácsonyi ajándékokat kapott. Arról magának nincs fogalma. A karácsonyfát mindig Kálmán 
+        nagyságos úr rendezte, és nem sajnálta a pénzt. Most karácsonykor ezt a gyűrűt kaptam tőle. 
+        Nézze meg, legalább nyolc-tíz forint volt.</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+    <p>Mutassa.<stage>(Nézi.)</stage>Nagyon csinos gyűrű!</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Szép fizetése van, nem kártyázik, nem iszik, egy gálánt ember. Én azért sokszor bosszankodtam magamban, 
+    hogy szép fiatal ember létire hogy tud megmaradni e mellett az asszony mellett. Hogy nem unta meg!... 
+    Nem csúnya asszony, de jóval idősebb, és nem nagyon tiszta asszony.</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+<p>Maga nem próbált kikezdeni ezzel az úrral?</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Nem. De nem is lehetne, rendkívül büszke ember, rá nem néz az emberre. Egy szobalány volt itt. Az próbált 
+    mindent. Egyszer késő este ingben vizet vitt be hozzá. Úgy tette az úr, mintha észre sem venné. Pedig 
+    szép lány volt, nagyon gusztusos lány volt. Ezt a szobalányt az asszony két hét múlva elküldte, kifizette 
+    és elküldte. Biztos, hogy Kálmán nagyságos úr megmondta az asszonynak az ingben való bemenést.</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+<p>No de ilyet?!</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Nem kell neki más, csak ez az asszony.</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+<p>No, az igaz, hogy ez furcsa, a legszebb orfeumi dámákkal és színésznőkkel mulathatna, ha egyszer 
+    pénze van, és a legszebb fiatalságában megelégszik ezzel az asszonnyal. A mi nagyságánk mindig mondja: "Micsoda utálatos asszony!"</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Azt nem lehet mondani, jó asszony, velünk nagyon jól bánik.</p>
+</sp>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+    <p>Nyilván fél maguktól.<stage>(Szünet. Kimennek az előszobába, az idegen körülnéz.)</stage>Maguk máma nem főznek itthon?</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Nem. Hozatunk vendéglőből. A gyerekek pedig az öreg nagyságánál vacsoráznak. Ott is alszanak, mert a 
+    gyerekszobában, ahol a ravatal volt, egész éjjel nyitva kell állani az ablakoknak.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+    <sp who="#egy_idegen_cseled">
+<speaker>AZ IDEGEN</speaker>
+    <p>Nohát pá magának.<stage>(Divatosan kezet nyújt.)</stage></p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <p>Jóccakát.<stage>(Kikíséri, nyitva hagyja az ajtót, látni a lépcsőház kar fáját. Integet. Kiált is valamit, 
+        de nem érteni. Néhány pillanat múlva a szobalány megjelenik ételhordóval az ajtóban. Be van bugyolálva a nagykendőbe.)</stage></p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<p>Iszonyúan fúj a szél, csukja be az ajtót. Itt vannak már.</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Itt vannak?</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<p>Éppen most állt meg két kocsi.</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Hogy gyüttek?</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+    <p>Az egyikbe az ember meg az asszony, a másikba a Kálmán úr meg a két fiú. Iszonyúan esik az eső.<stage>(Leveti a 
+        kendőt. Szakácsnő az ételhordóban vizsgálódik.)</stage>És meg fogja látni<stage>(a szobalány a frizuráját 
+            igazgatja és a melles kötényét)</stage>, hogy micsoda skandalum lesz itten máma.<stage>(Dörzsöli a kezeit.)</stage></p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Ha eddig nem volt semmi, ezután se lesz semmi.</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+    <p>Várjon csak, majd meg fogja látni!<stage>(Csengetés. A szobalány eltakarodik, a szakácsnő ajtót nyit.)</stage></p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <p>Kezüket csókolom.<stage>(Az ajtóban megjelenik Perticsné, utána a férje jő, majd Boér. Az asszony lefátyolozva, nagyon sápadt. 
+        Amint átmegy a szobán, hátrahajtja a fátyolt. Az arca megviseltnek, vénnek, kisírtnak látszik, a frizurája 
+        nagy és kifogástalan. A férfiak az előszobában hagyják felöltőiket. Perticsné a jobb elülső ajtón kimegy. 
+        Boér balra, a szobájába vonul.)</stage></p>
+</sp>
+    <sp who="#pertics">
+        <speaker>PERTICS</speaker>
+        <stage>leül az asztal mellé, végiglapozza az újságot, azután felkel, 
+            körüljárja a szobát, kifújja az orrát, a pohárszékhez megy és két pohárka konyakot iszik egymás után, 
+            de nem siet, azután kimegy a jobb hátsó ajtón. Kis szünet.</stage>
+        </sp>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>az elülső ajtón bejő. A fekete ruha 
+            kitűnően áll rajta. Kiemeli termetének szépségét. Végigsimítja az arcát két kezével, mintegy nyújtózkodásszerűen. Csenget.</stage>
+        </sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+    <stage>(megjelenik a fenékajtóban):</stage>
+<p>Tetszik parancsolni?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Hozza a vacsorát.</p>
+</sp>
+<sp who="#szobalany">
+<speaker>SZOBALÁNY</speaker>
+<p>Igenis.</p>
+<stage>(El.)</stage>
+</sp>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>a kályhához megy és rak rá, azután visszaindul a szobájába.</stage>
+        </sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(bejő bátortalanul):</stage>
+<p>Aranka!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(ijedten, halkan):</stage>
+<p>Tessék!</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Kérlek, ülj ide, szeretnék veled egyet-mást megbeszélni.<stage>Perticsné leül.</stage></p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Azt hiszem, ma este tisztáznunk kell ezt a dolgot. Igen?</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Igen.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Jól ismersz engem...<stage>(Az ajtó kinyílik, a szakácsnő tálcán behozza a vacsorát.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Jól van, kimehet. Ha valami kell, majd csengetek.</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <p>Igenis.<stage>(El.)</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Csak azt akarom mondani, hogy el fogunk válni.<stage>(Le-fel sétál.)</stage></p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>El akarsz válni?</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(ordítva):</stage>
+    <p>El!<stage>(Az asztalra csap.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Ne csinálj skandalumot, kérlek, Jenő. Ne kiabálj, az istenre kérlek.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Ne kiabáljak? Amikor megcsaltak, kijátszottak. Tönkretették a becsületem, akkor ne kiabáljak? 
+        Hát mit csináljak? Nevessek?<stage>(Ordít, üti az asztalt.)</stage>Hát mi a fenét csináljak?</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>De hát hogy gondolsz a válásra? A gyerekekkel mi lenne? Hogy gondolhatsz a válásra.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Hiszen igaz.<stage>(Csendes hangon.)</stage>Tudom, a válást én és ők sínylenék 
+        meg a legjobban, de temiattad.<stage>(Kiabál.)</stage>Temiattad!<stage>(Kis 
+            szünet. Újra csendes hangon.)</stage>Ők hozzád pártolnának, veled tartanának, 
+        mert mindig jó anyjuk voltál, nem lehet tagadni, én pedig elveszteném őket is.<stage>(Siránkozva.)</stage>Ötvenéves 
+        korban!<stage>(Csuklik.)</stage>Mivel érdemeltem én meg, hogy ilyen piszkos<stage>(sír)</stage>helyzetbe kerültem. 
+        Igen, piszkos helyzetbe, nem lehet mást mondani.<stage>Szünet.</stage>Mivel érdemeltem meg? Dolgoztam érted és a gyerekekért, 
+        szerettelek téged, te tudod, hogy igazán szerettelek, és boldog voltam, és most egyszerre meghal az a gyerek, és 
+        egyik legjobb barátom szemembe mondja, hogy a gyerek az övé, hogy évek óta viszonya van a feleségemmel, amiről nem is álmodtam.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Nem is álmodtál? Úgy?</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Nem!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>És nem te híttad ide lakni Kálmánt?<stage>(Olyan hangon, mint aki ezt az érvet kitűnőnek tartja.)</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Én híttam, de abból az következik, hogy megcsalj vele?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Nem, de tudhattad volna, gondolnod kellett volna erre. Megmondom őszintén: ahol a férj és 
+    feleség között ekkora korkülönbség van, ott nem szabad engedni a nőt veszélyeknek kitenni.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Várjunk csak. Emlékezz kérlek vissza, mikor nyolc év előtt ki akartuk venni ezt a lakást, 
+    azt mondtam neked, ez a lakás kilencszáz forint, ez nekünk drága, ha idejövünk, muszáj 
+    lesz az egyik szobát kiadni teljes ellátással. Te azt mondtad: nem bánom, de én itt akarok 
+    lakni. Én arra azt mondtam: Ha te akarod fiam, én is beleegyezem. Igaz-e ez?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Nem igaz!</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Mi, mi, mi nem igaz?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Te mondtad, hogy Kálmán szeretne hozzánk jönni lakni, és akkor a szobák elrendezése egészen megfelel, és te akartad, hogy idejöjjön.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>No jó, mondjuk, hogy én akartam, bár én nem emlékszem reá, de érts meg az istenért, hogy nem akarok én 
+    itt veszekedni veled, én csak azt akarom, hogy megtudjam az igazságot. Ha nem is válunk el, ha nem 
+    akarsz elválni, végre nem tehetlek ki egy botrányos válópernek, gyermekeim anyja vagy, mindenesetre 
+    új életet kell kezdenünk. Olcsóbb lakásba kell menni. Kálmánnak fel kell mondani az ellátást. És el 
+    kell nekem mondanod mindent őszintén. Én nem akarok gorombáskodni veled, hiszen tegnap vesztetted el 
+    egy kis fiadat, de ha már együtt maradunk, akkor tisztázni kell ezt a helyzetet. Mondd meg, hogy mikor kezdődött a viszony köztetek?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Öt év előtt!<stage>(Dacos, nem tudja miért.)</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Mondd meg a napot is!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(gépiesen):</stage>
+<p>1904. november 7-én.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Szóval a harminchetedik születésed napján.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Igen.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Aznap én ki voltam küldve Kassára, és sürgönyben gratuláltam neked.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Igen.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>És hol?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Itt a lakásban. És soha azelőtt még meg se csókolt!</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Soha azelőtt?...</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Akkor először.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Délután.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(halkan):</stage>
+<p>Fél négykor.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>A gyerekek iskolában voltak?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Igen. Iskolában voltak és a cselédek a mosópincében mángoroltak. De én nem küldtem őket, esküszöm neked, minden összejött.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Biztos vagy te, hogy ezen a napon volt?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Egészen biztos vagyok.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(felkel, kopog, beszól Boér szobájának ajtaján.)</stage>
+<p>Kérlek, Kálmán!</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(hangja):</stage>
+<p>Parancsolsz?</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Légy szíves kérlek bejönni.</p>
+</sp>
+    <sp who="#boer">
+        <speaker>BOÉR</speaker>
+        <stage>belép.</stage>
+        </sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Nézd kérlek szépen...<stage>(Köhög.)</stage>...ennek a dolognak a tisztázásáról van szó. Aranka most elmondta nekem, hogy mióta van viszony köztetek. 
+        Szeretném tudni, hogy az igazságot mondta-e. Emlékszel te is a dátumra?</p>
+<stage>(Köhög.)</stage>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Igen. De mit akarsz ezzel?</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Tisztázni akarom a helyzetet, amelybe belejutottam, bocsáss meg, ez csak természetes.<stage>Boér nem felel.</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Hát mondd meg kérlek!</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Mondja meg!</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>1904. november 7.</p>
+</sp>
+    <p><stage>A helyzet ez: a nő a középen ül, a két férfi áll.</stage></p>
+    <p><stage>Szünet.</stage></p>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(észreveszi, hogy most itt az idő, amikor erőt nyerhet, hirtelen egész más hangon beszél):</stage>
+    <p>No most már láthatja, hogy igazat mondtam. Majd azután folytathatjuk ezt.<stage>A helyzet ez: a nő a középen ül, a két férfi áll.</stage></p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Hát menjünk enni, a vacsora kihűl.<stage>(Keserves hangon mondja ezt, mintha bizonyítani akarná, hogy ő nem éhes. A férfiak is leülnek; 
+        a férj jobb oldalra, Boér bal oldalra. Pertics előbb még iszik egy pohárka konyakot. Az evőeszközök 
+        csörömpölnek, a vacsora gőzölög. Mind esznek. Mind jó étvágyú emberek. Egy pillanatra úgy tűnik fel, 
+        mintha nagy részben ezek a fokozott táplálkozási igények volnának a legfőbb rugói ennek a sajátságos 
+        helyzetnek, amelybe ez a három ember került.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Én arra kérlek csak, hogy legyél meggyőződve Jenő, hogy...</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Miről legyek meggyőződve?<stage>(Ránéz.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Nem, semmi!</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Mit akartál mondani?</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Semmi fontos.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Megkövetelem tőled, és azt hiszem joggal, hogy most teljesen őszinte légy velem szemben.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Majd később.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(bort tölt és iszik):</stage>
+<p>Nekem ki kell kerülnöm ebből a helyzetből. Ezt kívánja becsületem, ezt kívánja gyermekeim 
+    jövője. Elsősorban is (megtörli a száját) vissza fogunk neked adni mindent, amit tőled 
+    kaptunk. Összeírtam.<stage>(Kivesz a zsebéből egy ívet.)</stage>Az ezüst cukortartót, azt 
+    a két képet<stage>(a falon lógó két nagy olajnyomatra mutat)</stage>, amiket részletfizetésre 
+    vettél. Visszaadjuk a kanapépárnát, a nagy levélszekrényt, a tíz-tíz forintot, amit betettél 
+    a gyerekek születésnapján a takarékba. Máma kivettem a pénzt. Íme, átadom.<stage>(Tárcát 
+        vesz elő.)</stage>>Húsz, negyven, hatvan korona.<stage>(Kiteszi a bankókat az asztal 
+            közepére.)</stage>Vissza fogjuk adni<stage>(tovább olvas)</stage>a lábszőnyeget, 
+    az ezüst diótörőt és a pálinkáskészletet is.<stage>(Iszik.)</stage>Visszaadjuk, amit a 
+    gyerekeknek vettél, a könyveket és a Janika játékait is. Ezeket összeszedtem és össze is 
+    raktam.<stage>(Kimegy a jobb hátsó ajtón, csakhamar óriási papírskatulyával tér vissza.)</stage>Itt 
+    van mind. Nem akarom, hogy a gyerekek játsszanak vele. Itt van.<stage>(Egy székre teszi a 
+        skatulyát.)</stage>A kis gőzhajó<stage>(kiteszi az asztalra)</stage>, az automobil, a 
+    kis csacsi. Hogy eljátszott ezekkel szegényke még néhány nap előtt. Itt vannak a képeskönyvek, 
+    itt vannak az építőszekrények, itt két kő hiányzik, ott vannak valahol a szekrény alatt. Majd 
+    a lány holnap megkeresi. Szóval itt van minden.<stage>(Leül. A kis csacsi, az automobil és a 
+        gőzhajó az asztalon maradnak.)</stage>Azok is, miket már eltört. Vissza fogom neked adni a 
+    bundát is, amit tavaly télen nekem vettél névnapomra. Már ma rendeltem új télikabátot. Csak 
+    addig hordom ezt, amíg elkészül. Holnap estére készen lesz az új kabát. A szabó expresszmunkának vállalta.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Bocsáss meg, de ezt már nem engedhetem. Végre is úriember vagyok.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Pardon! Én is az vagyok! Legalább azt hiszem, és az is szeretnék maradni. Neked kötelességed, 
+    hogy figyelmeztess, ha valami kimaradt volna, és neked is, Aranka, kötelességed ez.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Semmi sem maradt ki.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Én kimondom, Kálmán, nem lehet kerülgetni soká, neked magadnak is el kell tőlünk menni. 
+    Négy év óta ez a nő, akit szerelemből vettem el, nem volt az én feleségem. A tied volt. 
+    Végre is jogom van hozzá.<stage>(Az asztalra üt, mintegy bátorítsa magát, akadozik, az 
+        alkohol már nagyon hat.)</stage>Jogom van. Nem tudok ugyan vele délután sétálni menni, 
+    mert késő estig hivatalban kell görnyednem, hogy legyen mit enni a gyerekeimnek, nem marad 
+    felesleges pénzem ajándékokra, hogy kedveskedhessek a feleségemnek valami ékszerrel vagy 
+    drága ruhával... és mégis jogom van a feleségemhez, mert szerelemből vettem el. Már nem 
+    szeretem ugyan, de neked, Kálmán, mégis el kell menni tőlünk. Sajnálom, hogy kényszerítve 
+    vagyok rá, hogy ezt kimondjam, de a becsületem kívánja és a gyermekeim jövője. Majd 
+    elsejéig nézz magadnak valami más lakást. Beláthatod, nem maradhat így.<stage>(Iszik.)</stage></p>
+</sp>
+    <p><stage>Szünet</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(félénken, mintha a szünet alatt a csendben elpárolgott volna a bátorsága):</stage>
+<p>Belátod?</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Belátom.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Most már meghalt a gyereked, semmi se köt hozzánk. Ezt a vén asszonyt is bizonyosan meguntad már.<stage>(nevet.)</stage></p>
+</sp>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>feláll, komoly; némán kimegy.</stage>
+        </sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>A régi barátságot azért nem felejtjük el, és legyél meggyőződve, hogy mindig 
+    örömmel fogok veled találkozni. Nem vagyok az az ember, aki gyűlölni fog. 
+    Abban a korban vagyok már, amikor a nő hűtlensége nem tűnik fel olyan szörnyű 
+    dolognak. Bántja az embert<stage>(iszik)</stage>, bántja, az embert eszi egy 
+    kicsit a fene<stage>(nevet)</stage>, de azután belátja, hogy semmi különös. 
+    Azért az én gyerekeimből lehetnek egészen derék gyerekek. És él mind a kettő, 
+    hála Istennek, egészségesek, mint a makk, mit törődöm az anyjukkal? Megszülte 
+    nekem őket, az enyémek, ezekről biztos vagyok, hogy az enyémek. Az ember drukkol, 
+    tördeli a kezét, hogy meghalt a gyereke, és akkor kiderül, hogy csak a felesége 
+    csalta meg - tudja fene, ez sokkal kisebb baj. Legalább én úgy találom. Azt hiszem, te is. Nem?</p>
+</sp>
+    <sp who="#boer">
+        <speaker>BOÉR</speaker>
+        <stage>igent int.</stage>
+        </sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Nohát! De biztos vagyok, hogy a másik kettő tőlem való; ejnye, de 
+        igyál te is.<stage>(Tölt, koccint, iszik.)</stage>Biztos vagyok, 
+        hogy akkor még nem csalt meg a feleségem. Az anyjára ugyanazt mondta 
+        boldogult jó apám, hogy olyan, mint egy vén...<stage>(Súg valamit.)</stage>Nem 
+        fért szegény apámnak a gyomrába.<stage>(Nevet.)</stage>Utóbb beláttam, 
+        hogy ebben igaza volt. De Arankára nem lehetett panasz. Ha te nem kerülsz 
+        hozzánk, nincs alkalom, élete végéig hű feleség marad. De hát szerette a 
+        puccot, a jó lakást, megtettem a kedvéért, ide jöttem.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Nem olyan nagy baj az, barátom, neked sokkal rosszabb a helyzeted, 
+    mert neked egy gyereked halt meg, és nincs több gyereked. Pardon!<stage>(Felkel, 
+        nadrágzsebéből pénzt vesz elő, fenékajtóhoz kiszól.)</stage>Hozzon két liter 
+    barna sört a kancsóba. Siessen!... Egy kis sört hozattam, ez a bor sehogy sem 
+    ízlik. Látom, neked se.<stage>(Szivart vesz elő, levágja, rágyújt.)</stage>Ne hidd, 
+    hogy én örülök azon, hogy az a kisgyerek elpusztult. Magad tudod, hogy mennyire 
+    szerettem. Jóformán azt mondhatnám, hogy az a kisgyerek volt az oka, hogy semmit 
+    sem vettem észre abból, hogy itt a fejemen hogy nőnek a nagy szarvak. Jól elmulattam, 
+    elhemperegtem vele, eszembe se jutott, hogy a feleségemmel törődjek. Tudod, eljön az 
+    idő, mikor az ember nem is veszi észre, hogy nő alszik mellette. És más efféle dolgokra 
+    sem gondol. Például hogy gondoltam volna én, amikor te nekem vettél tavaly egy bundát, 
+    hogy ez cserében van a feleségemért. Ilyen buta az ember!... Igaz, hogy egy más ember 
+    az én helyemben gondolkodóba esik. Miért vesz ez az ember nekem egy bundát? Elvégre 
+    jó barát ide, jó barát oda, de ez a bunda kétszáz forint is lehetett. Egy kétszáz 
+    forintos bunda! Más ember az én helyemben töri a fejét. Érted?...<stage>(Szünet, 
+        kint ajtócsapkodás.)</stage>Ahá, itt a sör!<stage>(Kimegy az ajtóig.)</stage>Adja 
+    csak ide!<stage>(Beveszi a cselédtől, aki még megtörli az edény talpát.)</stage>Ez 
+    lám egészen más, ez igen!<stage>(Poharat vesz le a pohárszékről, tölt.)</stage>Tessék!<stage>(Boér 
+        elé teszi. Egy másikat is teletölt, kiissza a poharat, és jól megnézi.)</stage>A fenébe!<stage>(Nevet.)</stage>Ezt 
+    elfelejtettem. Ezt is te vetted! Nohát majd ezt is elviszed. Felírom ezt is. 
+    Ezeknek a poharaknak széle kerekre csiszolt, kitűnő. Nagyon megszoktam őket.<stage>(Nevet.)</stage>Ezeket 
+    a dolgokat, meg a bundát és egyebet, mondom, mind észre sem vettem. Pedig erre gondolni 
+    kellett volna. Igen, de nem értem rá. Éjjel alszik az ember - hála Istennek, jól alszom. 
+    Reggel sietek a hivatalba. Délben egykor hazajövök, ebédelek, újságot olvasok. Fél háromkor 
+    újra el kell indulni, és nyolcnál hamarabb nem kerülök haza. Akkor hazajön az ember, örül, 
+    ha pár szót beszélhet a gyerekeivel, fáradt, éhes, megvacsorázik, elszí egy szivart, olvas 
+    még egy kis újságot, lefekszik. Mikor gondolkodjék azon, hogy megcsalják-e, vagy mekkora 
+    szarvai vannak? Erre nem jut idő. Nem is lehet róla szó, hogy jusson idő. Nem jut. Mert 
+    biztos, hogy ha én időt vettem volna magamnak ezen törni a fejemet, rájöttem volna, de 
+    így - egyik nap múlt a másik után, és nem jutott eszembe. Ha valaki nekem szól egy szót<stage>(iszik)</stage>, szól 
+    egy szót: "Nézd, Jenő, mi van a feleségeddel, meg a Kálmán barátoddal", valószínű, nem biztos, 
+    de valószínű, hogy kisütöm az egészet.<stage>(Sört tölt, magasra emeli a kancsót, hogy 
+        sok hab képződjék. Ülve ágaskodik a széken.)</stage>Kisütöm, és rájövök, hogy "ez a 
+    Kálmán nem jóban jár!" De nekem soha senki egy árva szót sem szólt, és nem is szólhatott, 
+    az igazat megvallva, nem is szólhatott, mert ahogy ti magatokat viseltétek, abból senki 
+    sem következtethetett semmit. Abszolúte semmit.<stage>(Kézmozdulat.)</stage>Ki 
+    van zárva. Nem csináltátok feltűnően, és ez természetes.<stage>(Iszik. Krákog, letörli 
+        zsebkendőjével a habot a bajszáról. Hátradől a székében, nagyot szív a szivarjából, 
+        magyaráz.)</stage>Öt év előtt, november hanyadikán is?...<stage>(Elmereng.)</stage>Hanyadikán? Mondd, kérlek, november...</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <stage>(köszörüli a torkát, halkan):</stage>
+<p>Hetedikén.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+<p>Akkor barátom... Akkor már... Nekem úgyszólván nem is kellett az asszony. 
+    Nem, nem kellett. Mi a fenének!<stage>(Nevet.)</stage>Hanem a kisfiad 
+    nagyszerű gyerek volt. Igazán nagyon sajnálom<stage>(roppant őszinte, 
+        kedves hangon)</stage>, hogy nem volt az enyém. Még jobban sajnálom 
+    azonban, hogy meghalt... szegény.<stage>(Elcsuklik a hangja.)</stage>Szegény kis 
+    Janika!...<stage>(Rázza a fejét, és lehajtja az asztalra.)</stage></p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(kisírta magát, a hangja egészen az előbbi):</stage>
+<p>Az asszonyt csodálom, hogy nem sír. Nagyon erős fából van faragva. 
+    Hiszen igaz - mindentől eltekintve - jól megvoltunk hármasban, 
+    hozzánk szoktál, szerettük egymást, legalább én őszinte barátsággal 
+    szerettelek, elbeszélgettünk, elpolitizáltunk, nem lehetett rád panasz. 
+    De most már, belátod, el kell menni tőlünk. A cselédek és a házbeliek 
+    miatt, erre is kell gondolni végre, és a gyermekek jövője miatt. Nem 
+    most... egyszerre... ezt nem kívánhatom, de elsején, esetleg segítek 
+    neked lakást keresni.<stage>(Iszik, hosszan nézi Boért.)</stage>Igazán nem hittem volna, olyan jó emberem voltál mindig, hogy így kell 
+    elválnunk, de muszáj, muszáj...<stage>(Szünet. Csend. A férj, aki már az utolsó szavakat egészen szakadozottan 
+        motyogta, lehajtja a fejét a könyökére, majd elalszik. Azután hirtelen feltápászkodik.)</stage>Aranka! 
+    Aranka!<stage>(Feláll, ingadozva.)</stage>Hol van ez az asszony?<stage>(Kinéz 
+        a jobb elülső ajtón.)</stage>Aranka! Gyere ki, kérlek.<stage>(Várakozás. A nő kijön, 
+            de nem szól. Pertics tántorogva leül az egyik karosszékbe, és hátramutat az 
+            asztalra.)</stage>Magatokra hagylak benneteket. Elvesztettétek a gyereketeket, a kis Janikát, 
+    akit szívemből én is szerettem, bár semmi közöm se volt hozzá.<stage>(Csuklik, sír.)</stage>A bánat 
+    nagyobb része azonban titeket illet. Magatokra hagylak. Beszélgessetek róla.<stage>(Lehajtja a fejét, 
+        szuszogva alszik a kis dohányzóasztalon, majd később végigfekszik a kanapén.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Kérem, Kálmán (körülnéz, hogy csakugyan alszik-e a férj), előbb Jenő azt az ajánlatot tette 
+    nekem, hogy váljak el tőle. Én egyelőre visszautasítottam. Azt mondtam, hogy ne beszéljünk 
+    erről, de el vagyok határozva, hogy elválok tőle és magához megyek.</p>
+</sp>
+    <sp who="#boer">
+        <speaker>BOÉR</speaker>
+        <stage>hallgat.</stage>
+        </sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(izgatott hangon):</stage>
+<p>Miért nem felel, nem akarja?</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Adjon kérem meggondolási időt.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Minek magának meggondolási idő? Tönkretette a családi boldogságomat, s azután meggondolási időt kér! Engedje meg, ezt nem értem.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Nem érti?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(remeg a hangja):</stage>
+<p>Azaz értem, persze hogy értem, szóval nem szeret már. Csodálatos hamar kiábrándult belőlem.</p>
+</sp>
+    <p><stage>Szünet.</stage></p>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Nézze Aranka, én épp úgy szeretem magát, mint azelőtt, de meg kell mondanom magának: 
+    gondolkodtam ezen a dolgon; nem lehet. Maga is be fogja látni.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Különös. Tegnap délelőtt, mikor a kisfiunk haldoklott, maga szükségét érezte, hogy véget vessen az együttélésnek, és most nem.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Nem tudom, hogy értette maga azt, amit én tegnap mondtam.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Úgy értettem, hogy elválok az uramtól, és magával elmegyünk meg a kis Janival.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>És a másik két gyermeket itt akarta hagyni az urának?</p>
+</sp>
+    <sp who="#perticsne">
+        <speaker>PERTICSNÉ</speaker>
+        <stage>hallgat.</stage>
+        </sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Nos, hát találjon ki valamit.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(türelmetlen hangon):</stage>
+<p>Nem tudom, nem tudom, egy azonban bizonyos, hogy magát elveszteni nem akarom. 
+    Ha maga csakugyan szeret engem, mint ahogy az előbb mondta, akkor be fogja ezt látni.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Mert nézzük csak, mi lenne, ha most maga Jenőtől elválna, és hozzám jönne. Mi lenne Jenővel? Mi lenne a gyerekekkel?</p>
+</sp>
+    <p><stage>Szünet. Horkolás.</stage></p>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Mit csinálna Jenő a gyerekek nélkül? Inna! Most csak minden vasárnap rúg be egy kicsit. 
+    Akkor minden este sörözni menne. Ez bizonyos. Iszákos lenne. Tönkremenne.</p>
+</sp>
+    <p><stage>Szünet. Horkolás.</stage></p>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>És mi lenne a gyerekekből? A fizetésem nem olyan nagy, ezt maga is tudja -, hogy a régi életet, 
+    amit megszoktam, azután is folytatni lehetne, ha magunkhoz vennénk a gyerekeket. Magának sem 
+    tudnám megadni azt a kényelmet, amihez szokva van. Gondolkoztam arról is, hogy mi lenne, ha 
+    én most elmennék maguktól. Nem tudnék mit csinálni, hova menni. Azután se magának, se Jenőnek 
+    nem volna jó, ha egyedül együtt maradnának. A gyerekek elhanyagolnák a tanulást, Jenő nem ér rá foglalkozni velük. Ugye ezt belátja?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(meggyőződéssel):</stage>
+<p>Igen!</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Itt kell maradnom maguknál és Jenő is be fogja ezt látni.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Be kell látnia.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Nem lehet jobb megoldást találni.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Nem!</p>
+</sp>
+    <p><stage>Szünet. Horkolás.</stage></p>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+    <stage>(kopog, belép):</stage>
+<p>Nagysága kérem, a holnapi ebéd.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>A holnapi ebéd?<stage>(Szünet.)</stage>Talán csináljon holnap borjúszeletet, hamislevest, azután diós metéltet. 
+        A hús mellé piré és kompót legyen. Előételnek gombáspaprikás.</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Az ifiurak holnap itthon esznek már?</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Igen! Ötre kell teríteni.</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>De már nincs pénzem, nagyságos asszonyom.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <p>Igaz, magának pénz kell. Majd holnap elszámol.<stage>(Felkel, ki akar menni.)</stage></p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Ne fáradjon kérem. Majd kölcsönzöm.</p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Adjon húsz koronát.</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>Tessék.<stage>(Átadja.)</stage></p>
+</sp>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+    <stage>(átadja):</stage>
+<p>Itt van!</p>
+</sp>
+<sp who="#szakacsno">
+<speaker>SZAKÁCSNŐ</speaker>
+<p>Kezét csókolom. Jó éjt kívánok.</p>
+</sp>
+    <p><stage>Szünet. Horkolás.</stage></p>
+<sp who="#perticsne">
+<speaker>PERTICSNÉ</speaker>
+<p>Fel kell kelteni Jenőt! Ideje, hogy lefeküdjön. Holnap hivatalba kell mennie. 
+    Kérem, keltse fel, és küldje aludni. Én lefekszem. Jó éjt.<stage>(Megcsókolja a száján.)</stage></p>
+</sp>
+    <p><stage>A csók a nő részéről igen mohó. A férfi passzívabb, nem ölel.</stage></p>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+    <p>Jó éjt.</p>
+</sp>
+    <p><stage>A hang megilletődött. Az asszony el. A házibarát magára marad az alvóval. Kis szünet.</stage></p>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Jenő, Jenő, kérlek, kelj fel, és feküdj le.</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(nagyot horkol és felébred. Felül):</stage>
+    <p>Jujj, de hideg van itt. Ki hagytátok aludni a tüzet.<stage>(Visszafekszik.)</stage>Kérlek, 
+        takarj be valamivel. Nagyon fázom.<stage>(Összekuporodik, már újra alszik, sóhajt, Boér kimegy az előszobába, 
+            és behozza a bundát, betakarja Perticset, aki megfordul.)</stage></p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Köszönöm.<stage>(Simogatja a prémet.)</stage></p>
+</sp>
+    <sp who="#boer">
+        <speaker>BOÉR</speaker>
+        <stage>nézi az alvót.</stage>
+        </sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(félálomban):</stage>
+<p>Kálmán! Kálmán!</p>
+</sp>
+<sp who="#boer">
+<speaker>BOÉR</speaker>
+<p>Parancsolsz?</p>
+</sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <p>Tétess, kérlek, a tűzre!<stage>(Alig érteni.)</stage></p>
+</sp>
+    <sp who="#boer">
+        <speaker>BOÉR</speaker>
+        <stage>leguggol, kinyitja a kályhaajtót. Még pislákol egy parázs.Papírt dob rá és fát. 
+            Fújja. A láng fellobban, a kályha dübörög. Még megnézi az alvót, aztán kimegy.</stage>
+        </sp>
+<sp who="#pertics">
+<speaker>PERTICS</speaker>
+    <stage>(szuszogva, szepegve alszik. Nyög álmában és felzokog):</stage>
+<p>Szegény kis Jani, szegény!</p>
+</sp>
+    <p><stage>A kályha dübörög.</stage></p>
+    <p><stage>Függöny</stage></p>
+</div>
+</body>
+</text>
+</TEI>
