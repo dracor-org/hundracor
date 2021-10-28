@@ -67,15 +67,12 @@
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref>
-                    </orgName>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <pubPlace> Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
-                </pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
         <date>2021</date>
         <availability>
-          <p> CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
-                    </p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
