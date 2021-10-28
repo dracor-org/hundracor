@@ -64,6 +64,8 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">hun000006</idno>
         <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
         <date>2021</date>
         <availability>
