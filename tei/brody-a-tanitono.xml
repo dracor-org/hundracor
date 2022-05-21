@@ -61,8 +61,7 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref>
-                    </orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -71,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000005</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -236,119 +237,73 @@
       <castList>
         <head>SZEREPLŐK</head>
         <castItem>
-          <role>
-            <roleName>TANÍTÓNŐ</roleName>
-          </role>
+          <role><roleName>TANÍTÓNŐ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ÖREG NAGY ISTVÁN</roleName>
-          </role>
+          <role><roleName>ÖREG NAGY ISTVÁN</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>IFJ. NAGY ISTVÁN</roleName>
-          </role>
+          <role><roleName>IFJ. NAGY ISTVÁN</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>NAGYASSZONY</roleName>
-          </role>
+          <role><roleName>NAGYASSZONY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>TANÍTÓ</roleName>
-          </role>
+          <role><roleName>TANÍTÓ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KÁNTOR</roleName>
-          </role>
+          <role><roleName>KÁNTOR</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KÁNTORKISASSZONY</roleName>
-          </role>
+          <role><roleName>KÁNTORKISASSZONY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>FŐÚR</roleName>
-          </role>
+          <role><roleName>FŐÚR</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KÁPLÁN</roleName>
-          </role>
+          <role><roleName>KÁPLÁN</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>SZOLGABÍRÓ</roleName>
-          </role>
+          <role><roleName>SZOLGABÍRÓ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>JÁRÁSORVOS</roleName>
-          </role>
+          <role><roleName>JÁRÁSORVOS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>TÖRVÉNYBÍRÓ</roleName>
-          </role>
+          <role><roleName>TÖRVÉNYBÍRÓ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>BÉRLŐ</roleName>
-          </role>
+          <role><roleName>BÉRLŐ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>GYÓGYSZERÉSZ</roleName>
-          </role>
+          <role><roleName>GYÓGYSZERÉSZ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>LOVÁSZINAS</roleName>
-          </role>
+          <role><roleName>LOVÁSZINAS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>POSTÁS</roleName>
-          </role>
+          <role><roleName>POSTÁS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KOMORNYIK</roleName>
-          </role>
+          <role><roleName>KOMORNYIK</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>HRAY IDA</roleName>
-          </role>
+          <role><roleName>HRAY IDA</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>PRÍMÁS</roleName>
-          </role>
+          <role><roleName>PRÍMÁS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KÉT KENŐASSZONY</roleName>
-          </role>
+          <role><roleName>KÉT KENŐASSZONY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>HARMADIK KENŐASSZONY</roleName>
-          </role>
+          <role><roleName>HARMADIK KENŐASSZONY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ISKOLÁSLÁNYOK</roleName>
-          </role>
+          <role><roleName>ISKOLÁSLÁNYOK</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>GRATULÁNSOK</roleName>
-          </role>
+          <role><roleName>GRATULÁNSOK</roleName></role>
         </castItem>
       </castList>
       <p>
@@ -525,7 +480,8 @@
             <speaker>TANÍTÓ:</speaker>
             <p>Nyomorult egy falu. Közkönyvtár, az nincs, de enni, azt tudnak. Éhezni
                             inkább, de fent, fent! Ott délben tej... Itt hajnalban
-                                hús!<stage>(Mérgesen megeszi. Kutyaugatás hallatszik.)</stage></p>
+                                hús!<stage>(Mérgesen megeszi. Kutyaugatás hallatszik.)</stage>
+            </p>
           </sp>
           <sp who="#kantorkisasszony">
             <speaker>KÁNTORKISASSZONY:</speaker>
@@ -634,9 +590,11 @@
           <sp who="#postas">
             <speaker>POSTÁS:</speaker>
             <p>A hetedik. Beosztom. Az erősebb italú helyekre a végén megyek. A
-                                kastély...<stage>(Erős köteg levelet vesz fel, mutatja.)</stage></p>
+                                kastély...<stage>(Erős köteg levelet vesz fel, mutatja.)</stage>
+            </p>
             <p>Ez a kastélyba megy. A fiatal Nagy nagyságos úrnak. Szagos, mint a
-                            muskotály, tessen csak.<stage>(Megszagoltatja.)</stage></p>
+                            muskotály, tessen csak.<stage>(Megszagoltatja.)</stage>
+            </p>
           </sp>
           <sp who="#kantorkisasszony">
             <speaker>KÁNTORKISASSZONY</speaker>
@@ -795,7 +753,8 @@
           </sp>
           <sp who="#kantorkisasszony">
             <speaker>KÁNTORKISASSZONY:</speaker>
-            <p>Szerbusz!<stage>(Kezelnek, csókolódznak.)</stage></p>
+            <p>Szerbusz!<stage>(Kezelnek, csókolódznak.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
@@ -837,7 +796,8 @@
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
-            <p>Még nem.<stage>(Nagyon komolyan.)</stage></p>
+            <p>Még nem.<stage>(Nagyon komolyan.)</stage>
+            </p>
             <p>Ha az ember utazik, mindig eszik.</p>
           </sp>
           <sp who="#kantorkisasszony">
@@ -850,14 +810,16 @@
                             semmi. Cukros mandulát, csokoládét. Kölnivizet, gyufát, savanyú bombont
                             vettem. Három forintom maradt mégis. Ebben a ruhában nincs zsebem...
                             Kató, tegyed ezt nekem el. Van víz a lavórban?<stage>(A zsebkendőjébe
-                                becsomagolt pénzt átadja.)</stage></p>
+                                becsomagolt pénzt átadja.)</stage>
+            </p>
           </sp>
           <sp who="#kantorkisasszony">
             <speaker>KÁNTORKISASSZONY</speaker>
             <stage>(átveszi. Az almáriumba elzárja):</stage>
             <p>Enni kell, itt enni kell! Egy kis bélest sütöttem, egy kis íróstésztát.
                             Mindjárt. Szép batiszt ez!<stage>(Megtapogatja Flóra
-                            blúzát.)</stage></p>
+                            blúzát.)</stage>
+            </p>
             <p>Hány korona méterje?</p>
           </sp>
           <sp who="#tanitono">
@@ -1010,7 +972,8 @@
           <sp who="#four">
             <speaker>FŐÚR:</speaker>
             <p>Még három... azalatt nyerje agyonra magát.<stage>(Fölkel, közeledik
-                                Flórához. Az is.)</stage></p>
+                                Flórához. Az is.)</stage>
+            </p>
             <stage>(Flóra kezet akar csókolni.)</stage>
           </sp>
           <sp who="#four">
@@ -1705,7 +1668,8 @@
           <sp who="#kaplan">
             <speaker>KÁPLÁN:</speaker>
             <p>Mi kell a spektábilisnak?<stage>(Mind körülveszik és elfödik. A kör
-                                egyszerre szétnyílik.)</stage></p>
+                                egyszerre szétnyílik.)</stage>
+            </p>
           </sp>
           <sp who="#szolgabiro">
             <speaker>SZOLGABÍRÓ:</speaker>
@@ -1799,7 +1763,8 @@
             <speaker>FLÓRA:</speaker>
             <p>Ezen nincs mit vitatkozni. Ezeket én mind elvégeztem magammal. Melyik
                             lesz az én sifonom? Ez? El akarom rakni a holmimat. Az urak talán
-                            segíthetnének. Három fehér blúz. Három...<stage>(Elharapja.)</stage></p>
+                            segíthetnének. Három fehér blúz. Három...<stage>(Elharapja.)</stage>
+            </p>
             <p>Három...<stage>(uú.)</stage>Mégsem segíthetnek. Háromszor három. A többi
                                 jön.<stage>(Grimasz.)</stage>Ha az az úr csakugyan igénybe akarja
                             venni munkásságomat a népoktatás terén, jöjjön el, kérjen meg, és ha az
@@ -1820,7 +1785,8 @@
           <sp who="#szolgalo">
             <speaker>SZOLGÁLÓ</speaker>
             <stage>(bedugja a fejét):</stage>
-            <p>A Nagy Pista nagyságos úr idegyön<stage>(El.)</stage></p>
+            <p>A Nagy Pista nagyságos úr idegyön<stage>(El.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1830,7 +1796,8 @@
             <speaker>IFJ. NAGY</speaker>
             <stage>(belép, nagyvárosi eleganciában):</stage>
             <p>Van szerencsém!<stage>(Mind felpattannak, feléje rohannak, körülveszik az
-                                ajtóban, mint előbb Johnt.)</stage></p>
+                                ajtóban, mint előbb Johnt.)</stage>
+            </p>
           </sp>
           <sp who="#szolgabiro">
             <speaker>SZOLGABÍRÓ:</speaker>
@@ -2292,7 +2259,8 @@
           </sp>
           <sp who="#kantor">
             <speaker>KÁNTOR:</speaker>
-            <p>Izmaeliták! Pompás!<stage>(Integet.)</stage></p>
+            <p>Izmaeliták! Pompás!<stage>(Integet.)</stage>
+            </p>
           </sp>
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY:</speaker>
@@ -2318,7 +2286,8 @@
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY</speaker>
             <stage>(zsebébe gyűri):</stage>
-            <p>Tiszteltetem, mindjárt... Siessen, öreg!<stage>(Kántor el.)</stage></p>
+            <p>Tiszteltetem, mindjárt... Siessen, öreg!<stage>(Kántor el.)</stage>
+            </p>
           </sp>
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY:</speaker>
@@ -2362,7 +2331,8 @@
             <speaker>FLÓRA:</speaker>
             <p>Ez finomabb, de ennek is száma van. Menjen már, én vagyok ideges a
                             színésznő helyett.<stage>(A férfi kalapját annak fejére teszi, eközben a
-                                feje közel ér a férfi arcához.)</stage></p>
+                                feje közel ér a férfi arcához.)</stage>
+            </p>
           </sp>
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY:</speaker>
@@ -2391,7 +2361,8 @@
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY:</speaker>
             <p>Feltöretek magának egy egész szántóföldet virágágynak...<stage>(Közel
-                                férkőzik a lányhoz, a keze majdnem a kezéhez ér.)</stage></p>
+                                férkőzik a lányhoz, a keze majdnem a kezéhez ér.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
@@ -2400,7 +2371,8 @@
                             szemeszterben, és az iskolatársnőimnek összesen hatvanegy, naplót
                             vezettem és rendszert csináltam belőlük. Házi iskolai dolgozat. A férfi,
                             aki a hódítás szenvedélyének hullámaiba jutott, bizonyos ponton
-                            kancsalítani kezd... Így ni.<stage>(Mutatja.)</stage></p>
+                            kancsalítani kezd... Így ni.<stage>(Mutatja.)</stage>
+            </p>
             <p>Dadog is egy kissé. Ilyenkor, ha a nőnek öntudata van, fekete tussal akár
                             egy ábrát festhet a férfi arcára. Tetszik?</p>
           </sp>
@@ -2411,7 +2383,8 @@
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
             <p>Nem, ez még csak később következik. Csak ajánlom, ne ugorja át a
-                                számjaimat.<stage>(Figyel. Lódobogás hallatszik.)</stage></p>
+                                számjaimat.<stage>(Figyel. Lódobogás hallatszik.)</stage>
+            </p>
             <p>Hanem most már csakugyan menjen. A művésznője alkalmasint idejött, a ház
                             elé hajtatott. A tanyára pedig nem megyek. Hozasson magának külön
                             tanítónét, vagyunk elegen.</p>
@@ -2505,7 +2478,8 @@
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY</speaker>
             <stage>(hátrál előtte. Játék, színész egyénisége szerint):</stage>
-            <p>Úúgy!<stage>(Megbiccenti a fejét, némán köszön. El.)</stage></p>
+            <p>Úúgy!<stage>(Megbiccenti a fejét, némán köszön. El.)</stage>
+            </p>
             <stage>(Flóra utánamegy fenyegető módon, aztán fejét gondolkodva lehajtja,
                             majd kis szünet után dacosan felemeli.)</stage>
             <stage>(Függöny gyorsan le.)</stage>
@@ -2531,7 +2505,8 @@
           <sp who="#tanitono">
             <speaker>FLÓRA</speaker>
             <stage>(ír):</stage>
-            <p>Úr-ír-ír-úr!<stage>(Kántorkisasszonyhoz.)</stage></p>
+            <p>Úr-ír-ír-úr!<stage>(Kántorkisasszonyhoz.)</stage>
+            </p>
             <p>Írt?</p>
           </sp>
           <sp who="#kantorkisasszony">
@@ -2706,7 +2681,8 @@
           <sp who="#szalgabiro">
             <speaker>SZOLGABÍRÓ:</speaker>
             <p>Egy kis iskolát látogatok.<stage>(Hivatalos komolysággal a padsorok elé
-                                lép.)</stage></p>
+                                lép.)</stage>
+            </p>
           </sp>
           <sp who="#iskolaslanyok">
             <speaker>LEÁNYOK</speaker>
@@ -2717,7 +2693,8 @@
             <speaker>SZOLGABÍRÓ:</speaker>
             <p>Üljetek csak le! Üljetek le! Hallom, szorgalmasak vagytok. Ez
                             kötelességetek. Igyekezzetek, hogy majdan derék magyar anyák legyetek.
-                                Tireátok<stage>(a nagylányok felé fordul)</stage></p>
+                                Tireátok<stage>(a nagylányok felé fordul)</stage>
+            </p>
             <p>vár a hivatás, hogy visszatartsátok a férfiakat a
                                 kivándorlástól.<stage>(Flóra felé.)</stage>A népben nincs semmi
                             hazafiasság, munkaerejét idegen világrészbe viszi, és itthagyja ezt az
@@ -2829,7 +2806,8 @@
           </sp>
           <sp who="#szalgabiro">
             <speaker>SZOLGABÍRÓ:</speaker>
-            <p>Viszontlátásra!<stage>(El.)</stage></p>
+            <p>Viszontlátásra!<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
@@ -2973,12 +2951,14 @@
             <speaker>KÁPLÁN:</speaker>
             <p>Nekem van. Amióta itt van, elemészt a vágy, hogy lelkeink megértsék
                             egymást egy nagy, tiszta harmóniában.<stage>(A keze után
-                            nyúl.)</stage></p>
+                            nyúl.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
             <p>Én pedig utálom az erkölcsöt, ha az vizes és puha, mint az ön keze.
-                            Mondja meg ezt az iskolaszéknek!<stage>(Csönget.)</stage></p>
+                            Mondja meg ezt az iskolaszéknek!<stage>(Csönget.)</stage>
+            </p>
             <stage>(Lányok beszaladnak.)</stage>
           </sp>
           <sp who="#tanitono">
@@ -2995,7 +2975,8 @@
           </sp>
           <sp who="#kaplan">
             <speaker>KÁPLÁN:</speaker>
-            <p>Ámen!<stage>(El.)</stage></p>
+            <p>Ámen!<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
@@ -3088,7 +3069,8 @@
           </sp>
           <sp who="#oreg_nagy_istvan">
             <speaker>ÖREG NAGY:</speaker>
-            <p>Nagy István.<stage>(Kezet fog, a többi nem. Hátra fordul.)</stage></p>
+            <p>Nagy István.<stage>(Kezet fog, a többi nem. Hátra fordul.)</stage>
+            </p>
           </sp>
           <sp who="#kaplan">
             <speaker>KÁPLÁN:</speaker>
@@ -3122,7 +3104,8 @@
           <sp who="#iskolaslanyok">
             <speaker>LÁNYOK:</speaker>
             <p>Kezét csókolom!<stage>(Flórának rohannak, csókolják, ahol érik, aztán
-                                neki az: ajtónak.)</stage></p>
+                                neki az: ajtónak.)</stage>
+            </p>
           </sp>
           <sp who="#oreg_nagy_istvan">
             <speaker>ÖREG NAGY:</speaker>
@@ -3147,7 +3130,8 @@
           </sp>
           <sp who="#szolgabiro">
             <speaker>SZOLGABÍRÓ:</speaker>
-            <p>Helyes, éljen, éljen!<stage>(Elhelyezkednek.)</stage></p>
+            <p>Helyes, éljen, éljen!<stage>(Elhelyezkednek.)</stage>
+            </p>
             <stage>(Elhelyezkednek.)</stage>
             <stage>(Öreg Nagy kinyitja a bőrtárcát, leveleket kezd olvasni. Flóra lemegy
                             a katedráról, de előbb tollat, tintát ad az öregnek. Kölcsönös
@@ -3334,7 +3318,8 @@
           <sp who="#kaplan">
             <speaker>KÁPLÁN:</speaker>
             <p>Joga van, de mi elzárjuk magunkat tőle. Mi, és nem más. Ez a könyv pedig
-                            piszok zsidó munka és hazug!<stage>(Eldobja a könyvet.)</stage></p>
+                            piszok zsidó munka és hazug!<stage>(Eldobja a könyvet.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA</speaker>
@@ -3460,7 +3445,8 @@
             <speaker>KÁNTOR</speaker>
             <stage>(belép, kenyérkosár, pálinkás üveg poharakkal, utána Kató egy tál
                             hurka és pecsenyével.):</stage>
-            <p>Csak én! Az első disznó!<stage>(Kínálja.)</stage></p>
+            <p>Csak én! Az első disznó!<stage>(Kínálja.)</stage>
+            </p>
           </sp>
           <sp who="#oreg_nagy_istvan">
             <speaker>ÖREG NAGY:</speaker>
@@ -3501,7 +3487,8 @@
             <speaker>KÁNTOR:</speaker>
             <p>Meg kellene a kisasszonyt is kínálni azért, hogy az esze másképp jár, a
                             gyomra éppúgy korog, mint a miénk.<stage>(Káplán szigorú nézésére
-                                összepakol és Katóval el.)</stage></p>
+                                összepakol és Katóval el.)</stage>
+            </p>
           </sp>
           <sp who="#kaplan">
             <speaker>KÁPLÁN:</speaker>
@@ -3567,7 +3554,8 @@
           </sp>
           <sp who="#primas">
             <speaker>PRÍMÁS:</speaker>
-            <p>Kérdezzed meg az anyádat.<stage>(Ezt franciául mondja.)</stage></p>
+            <p>Kérdezzed meg az anyádat.<stage>(Ezt franciául mondja.)</stage>
+            </p>
           </sp>
           <sp who="#szolgabiro">
             <speaker>SZOLGABÍRÓ:</speaker>
@@ -3636,7 +3624,8 @@
           </sp>
           <sp who="#primas">
             <speaker>PRÍMÁS:</speaker>
-            <p>Kisasszony! Urak! Hierarchia! Bibastok!<stage>(El.)</stage></p>
+            <p>Kisasszony! Urak! Hierarchia! Bibastok!<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#kaplan">
             <speaker>KÁPLÁN:</speaker>
@@ -3920,7 +3909,8 @@
           </sp>
           <sp who="#tanito">
             <speaker>TANÍTÓ:</speaker>
-            <p>Én is.<stage>(Odamegy, kezet fog Flórával. Iskolaszék el.)</stage></p>
+            <p>Én is.<stage>(Odamegy, kezet fog Flórával. Iskolaszék el.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3956,7 +3946,8 @@
           <sp who="#tanito">
             <speaker>TANÍTÓ:</speaker>
             <p>Láza van, kartárs, jöjjön haza. Kató főz teát...<stage>(Mókákkal akarja
-                                mulattatni, a próbán elválik, hogy mivel.)</stage></p>
+                                mulattatni, a próbán elválik, hogy mivel.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA</speaker>
@@ -4090,7 +4081,8 @@
           <sp who="#tanito">
             <speaker>TANÍTÓ:</speaker>
             <p>Nekem ott magával a mennyország lesz.<stage>(Meg akarja csókolni a
-                                kezét.)</stage></p>
+                                kezét.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA</speaker>
@@ -4104,7 +4096,8 @@
                                 szenvedelemmel, majd gyengédséggel nézi.)</stage> Na, menjen...
                                 <stage>(Figyel.)</stage> Fogatdobogás... az ötlovas cúg... Az
                             ötlovas egyember, ezt se látom többet... erre vágtat.<stage>(Az ablakhoz
-                                szalad, majd elfordul, nem néz ki rajta.)</stage></p>
+                                szalad, majd elfordul, nem néz ki rajta.)</stage>
+            </p>
           </sp>
           <sp who="#tanito">
             <speaker>TANÍTÓ:</speaker>
@@ -4180,7 +4173,8 @@
             <speaker>IFJ. NAGY:</speaker>
             <p>Hát akkor, amikor a nagy kidobás után először kerültem a színe elé, nem
                             adja ide kegyelemből a kezét, akkor csakugyan megteszem, amit mondtam:
-                            szíven lövöm magam. <stage>(Kezét nyújtja.)</stage></p>
+                            szíven lövöm magam. <stage>(Kezét nyújtja.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA</speaker>
@@ -4382,13 +4376,15 @@
                             diadalmaskodunk és sírunk, de mindenekelőtt már leloptunk egy szálat a
                             kidobott virágból, az ajkunkkal illetjük magányos éjjel és beletesszük
                             Úrjézus evangéliumába, Mária szentképe mellé.<stage>(Kinyitja az
-                                evangéliumot, amivel már előbb babrált.)</stage></p>
+                                evangéliumot, amivel már előbb babrált.)</stage>
+            </p>
           </sp>
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY</speaker>
             <stage>(belenéz):</stage>
             <p>Az én virágom, ez az én virágom volt!<stage>(A keze után
-                            nyúl.)</stage></p>
+                            nyúl.)</stage>
+            </p>
           </sp>
           <stage>(Flóra nem vonja vissza.)</stage>
           <sp who="#ifj_nagy_istvan">
@@ -4456,7 +4452,8 @@
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY:</speaker>
             <p>Az iskola... ezek a padok megfélemlítenek.<stage>(Gyengéden
-                                megöleli.)</stage></p>
+                                megöleli.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
@@ -4472,7 +4469,8 @@
                                 összeüti a bokáját. Meghajol. Katonásan el. Amíg kifelé megy, a lány
                                 hátulról néz utána, és kinyújtja utána a karját. Felocsúdik,
                                 megsimítja a homlokát, megigazítja a haját. Aztán a lakás felőli
-                                ajtón, szinte futva, el.)</stage></p>
+                                ajtón, szinte futva, el.)</stage>
+            </p>
             <p>
               <stage>(Függöny.)</stage>
             </p>
@@ -4543,7 +4541,8 @@
           </sp>
           <sp who="#tanito">
             <speaker>TANÍTÓ</speaker>
-            <p>Tisztel!<stage>(Kínjában elneveti magát.)</stage></p>
+            <p>Tisztel!<stage>(Kínjában elneveti magát.)</stage>
+            </p>
           </sp>
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY:</speaker>
@@ -4618,11 +4617,13 @@
           <sp who="#tanito">
             <speaker>TANÍTÓ:</speaker>
             <p>Természettudományi alapon állok. Azt mondom: nincs, csak erő és
-                                anyag.<stage>(A fogát vicsorítja.)</stage></p>
+                                anyag.<stage>(A fogát vicsorítja.)</stage>
+            </p>
           </sp>
           <sp who="#ifj_nagy_istvan">
             <speaker>IFJ. NAGY:</speaker>
-            <p>Barátom!<stage>(Megfogja a kezét.)</stage></p>
+            <p>Barátom!<stage>(Megfogja a kezét.)</stage>
+            </p>
           </sp>
           <sp who="#tanito">
             <speaker>TANÍTÓ</speaker>
@@ -4690,7 +4691,8 @@
             <speaker>IFJ. NAGY:</speaker>
             <p>Rendben van! Tehát itt maradsz, könyvtárt rendezünk be az új kastélyban.
                             Könyvtárnok leszel. Jelentsd ezt a kisasszonynak. És hogy az apám, anyám
-                            tíz perc múlva itt lesz. <stage>(El.)</stage></p>
+                            tíz perc múlva itt lesz. <stage>(El.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4852,7 +4854,8 @@
                         FÉL-MESTERASSZONYOK</stage>
           <sp who="#tanito">
             <speaker>TANÍTÓ:</speaker>
-            <p>Bátorság!<stage>(El.)</stage></p>
+            <p>Bátorság!<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#oreg_nagy_istvan">
             <speaker>ÖREG NAGY</speaker>
@@ -4923,7 +4926,8 @@
           <sp who="#nagyasszony">
             <speaker>NAGYASSZONY:</speaker>
             <p>És a nőd... Én is megkérem.<stage>(Keményen, éles pózba vágja
-                                magát.)</stage></p>
+                                magát.)</stage>
+            </p>
           </sp>
           <sp who="#oreg_nagy_istvan">
             <speaker>ÖREG NAGY:</speaker>
@@ -5075,7 +5079,8 @@
             <speaker>ÖREG NAGY:</speaker>
             <p>A nagyságos Solom. Mondjuk, hogy a nagyságos úr az én fiam, ha meg nem
                             sértem. Mintha a másik fiam volna. Volt nekem másik fiam
-                                is!<stage>(Elkomorodik.)</stage></p>
+                                is!<stage>(Elkomorodik.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
@@ -5174,7 +5179,8 @@
           </sp>
           <sp who="#szolgabiro">
             <speaker>SZOLGABÍRÓ:</speaker>
-            <p>Ha szükség lesz rám, én kint sétálok.<stage>(El.)</stage></p>
+            <p>Ha szükség lesz rám, én kint sétálok.<stage>(El.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5233,7 +5239,8 @@
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
-            <p>Csakugyan, szinte süt.<stage>(Kikapja a kezét.)</stage></p>
+            <p>Csakugyan, szinte süt.<stage>(Kikapja a kezét.)</stage>
+            </p>
           </sp>
           <sp who="#oreg_nagy_istvan">
             <speaker>ÖREG NAGY:</speaker>
@@ -5252,7 +5259,8 @@
             <p>Pénz! Sok pénz! Sok nyomorúság, sok öröm: étel az éhezőnek, otthon,
                             barátság, szerelem!<stage>(Szinte magának mondja; szavainak halk pátosza
                                 van. A jelenlévők föl vannak izgatva, úgyszólván
-                                forsigálva.)</stage></p>
+                                forsigálva.)</stage>
+            </p>
           </sp>
           <sp who="#oreg_nagy_istvan">
             <speaker>ÖREG NAGY:</speaker>
@@ -5334,7 +5342,8 @@
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>
-            <p>Nagyasszony! <stage>(Kiereszti karjából az asszonyt.)</stage></p>
+            <p>Nagyasszony! <stage>(Kiereszti karjából az asszonyt.)</stage>
+            </p>
           </sp>
           <sp who="#nagyasszony">
             <speaker>NAGYASSZONY</speaker>
@@ -5417,7 +5426,8 @@
             <speaker>KÁNTOR</speaker>
             <stage>(berohan):</stage>
             <p>Hamar, hamar! Jönnek már, pálinkát, pogácsát, még a főúr is idevezettette
-                            magát. <stage>(El a boltba, Kató utána.)</stage></p>
+                            magát. <stage>(El a boltba, Kató utána.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5603,7 +5613,8 @@
           <sp who="#nagyasszony">
             <speaker>NAGYASSZONY</speaker>
             <stage>(az orrát fújja):</stage>
-            <p>No, no!<stage>(Jelenlevők játéka.)</stage></p>
+            <p>No, no!<stage>(Jelenlevők játéka.)</stage>
+            </p>
           </sp>
           <sp who="#tanitono">
             <speaker>FLÓRA:</speaker>

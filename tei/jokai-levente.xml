@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000019</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -423,24 +425,16 @@
         <castGroup>
           <roleDesc>Marót leányai</roleDesc>
           <castItem>
-            <role>
-              <roleName>Büvellő</roleName>
-            </role>
+            <role><roleName>Büvellő</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Illangó</roleName>
-            </role>
+            <role><roleName>Illangó</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Szemőke</roleName>
-            </role>
+            <role><roleName>Szemőke</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Délibáb</roleName>
-            </role>
+            <role><roleName>Délibáb</roleName></role>
           </castItem>
           <castItem>
             <role><roleName>Estilla</roleName>4 éves</role>
@@ -450,9 +444,7 @@
           <role><roleName>Gönczöl</roleName>kincsúr Árpádnál</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Táltos</roleName>
-          </role>
+          <role><roleName>Táltos</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Halvaél</roleName>leánya</role>
@@ -460,34 +452,22 @@
         <castGroup>
           <roleDesc>Árpád vezérei</roleDesc>
           <castItem>
-            <role>
-              <roleName>Tas</roleName>
-            </role>
+            <role><roleName>Tas</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Szabolcs</roleName>
-            </role>
+            <role><roleName>Szabolcs</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Gyula</roleName>
-            </role>
+            <role><roleName>Gyula</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Kund</roleName>
-            </role>
+            <role><roleName>Kund</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Örs</roleName>
-            </role>
+            <role><roleName>Örs</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Töhötöm</roleName>
-            </role>
+            <role><roleName>Töhötöm</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
@@ -496,52 +476,34 @@
         <castGroup>
           <roleDesc>székely rabonbánok</roleDesc>
           <castItem>
-            <role>
-              <roleName>Upolet</roleName>
-            </role>
+            <role><roleName>Upolet</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Apor</roleName>
-            </role>
+            <role><roleName>Apor</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Ugron</roleName>
-            </role>
+            <role><roleName>Ugron</roleName></role>
           </castItem>
         </castGroup>
         <castGroup>
           <roleDesc>magyar hadnagyok</roleDesc>
           <castItem>
-            <role>
-              <roleName>Tana</roleName>
-            </role>
+            <role><roleName>Tana</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Zila</roleName>
-            </role>
+            <role><roleName>Zila</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Tahó</roleName>
-            </role>
+            <role><roleName>Tahó</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Kerencs</roleName>
-            </role>
+            <role><roleName>Kerencs</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Sudár</roleName>
-            </role>
+            <role><roleName>Sudár</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Dancs</roleName>
-            </role>
+            <role><roleName>Dancs</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
@@ -554,29 +516,21 @@
           <role><roleName>Privina</roleName>Szvatopluk követe</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Főbokálábrás Marót udvaránál</roleName>
-          </role>
+          <role><roleName>Főbokálábrás Marót udvaránál</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Kurut</roleName>Marót bohócza</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Tivatulus</roleName>
-          </role>
+          <role><roleName>Tivatulus</roleName></role>
         </castItem>
         <castGroup>
           <roleDesc>kazár őrök</roleDesc>
           <castItem>
-            <role>
-              <roleName>Bagó</roleName>
-            </role>
+            <role><roleName>Bagó</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Czikás</roleName>
-            </role>
+            <role><roleName>Czikás</roleName></role>
           </castItem>
         </castGroup>
       </castList>
@@ -974,7 +928,8 @@
           </sp>
           <sp who="#taltos">
             <speaker>TÁLTOS<note type="editorial">Nincs pont a név mögött.
-                                    sh.</note></speaker>
+                                    sh.</note>
+            </speaker>
             <stage>(felmegy az oltárhoz, kancsóval eloltja a parazsat.)</stage>
           </sp>
           <sp who="#tivatulus">
@@ -1040,7 +995,8 @@
           </p>
           <sp who="#levente">
             <speaker>Levente.<note type="editorial">Nem nagykapitális.
-                                sh.</note></speaker>
+                                sh.</note>
+            </speaker>
             <stage>(Öltözete vászon és darócz, mellén aczélvért, sugárküllős arany
                                 nappal, fején aczélsisak, rárótollal, derekán aczélöv, melyről
                                 hosszú egyenes kard függ alá; hátul csákány függ le övéről, vállán
@@ -1051,7 +1007,8 @@
           </sp>
           <sp who="#jutocs">
             <speaker>Jutócs.<note type="editorial">Nem nagykapitális.
-                                sh.</note></speaker>
+                                sh.</note>
+            </speaker>
             <stage>(Fiatalabb Leventénél, fején sastollas vidrabőr süveg, hasonló
                                 irhából készült ködmen, a fölött pánczéling, szűk nadrág, bakancs,
                                 átkötött sarkantyúval, oldalán görbe kard, hátul az övéről lecsüggő
@@ -1060,7 +1017,8 @@
           </sp>
           <sp who="#tarkocz">
             <speaker>Tarkócz.<note type="editorial">Nem nagykapitális.
-                                sh.</note></speaker>
+                                sh.</note>
+            </speaker>
             <stage>(Legfiatalabb a három közt, gyermek arcz; viselete bő redős,
                                 virágokkal himzett kantus, feje födetlen, hosszú szőke haját félkörü
                                 arany fésü szorítja hátra, a honnan vállára omlik; fegyvert nem
@@ -1068,7 +1026,8 @@
           </sp>
           <sp who="#vezerek">
             <speaker>Vezérek.<note type="editorial">Nem nagykapitális.
-                                sh.</note></speaker>
+                                sh.</note>
+            </speaker>
             <stage>(Fejükön három varkocs, melyek közül kettő hátra vetve, a sisak
                                 két szárnya által fedeztetik, harmadik, az üstök, a homlokra csügg;
                                 viseletük bársony és selyem, arany boglárokkal ékesítve.)</stage>
@@ -1081,7 +1040,8 @@
           </p>
           <sp who="#arpad">
             <speaker>Árpád.<note type="editorial">Nem nagykapitális.
-                                sh.</note></speaker>
+                                sh.</note>
+            </speaker>
             <stage>(Viselete ezüst sisak, kiterjesztett szárnyú napmadárral, vállán
                                 párduczbőr kaczagány, termetén ezüst pikkelypánczél, az alatt selyem
                                 öltöny; csizmája sárga szattyán, arany sarkantyúval, kardja görbe,
@@ -1205,9 +1165,7 @@
               <l>Magammal hoztam e kalászokat,</l>
             </lg>
             <lg>
-              <l>
-                <stage>(Buzakalászokat vesz elő iszákjából.)</stage>
-              </l>
+              <l><stage>(Buzakalászokat vesz elő iszákjából.)</stage></l>
             </lg>
             <lg>
               <l>Olyan fű ez, melyen kenyér terem,</l>
@@ -1215,26 +1173,20 @@
               <l>Az édes álmot hozza meg szemünkre.</l>
             </lg>
             <lg>
-              <l>
-                <stage>(Máktokot vesz elő.)</stage>
-              </l>
+              <l><stage>(Máktokot vesz elő.)</stage></l>
             </lg>
             <lg>
               <l>Meg egy aszu fürtöt, melynek leve</l>
               <l>Kis istenné teszi azt, a ki iszsza.</l>
             </lg>
             <lg>
-              <l>
-                <stage>(Aszu szőlőfürtöt mutat fel.)</stage>
-              </l>
+              <l><stage>(Aszu szőlőfürtöt mutat fel.)</stage></l>
             </lg>
             <lg>
               <l>S ez áldott földnek messze nincs határa.</l>
             </lg>
             <lg>
-              <l>
-                <stage>(Hátra lép.)</stage>
-              </l>
+              <l><stage>(Hátra lép.)</stage></l>
             </lg>
           </sp>
           <sp who="#kerencs">
@@ -1360,7 +1312,8 @@
           </p>
           <sp who="#jahel">
             <speaker>Jahel.<note type="editorial">Nem nagykapitális.
-                                sh.</note></speaker>
+                                sh.</note>
+            </speaker>
             <stage>(Első rendbeli viselete, feje aranynyal áttört veres szövettel
                                 átkötve, melynek arany rojtjai válláig lecsüggnek, az alól varkocsai
                                 tünnek elő, két rétben felkötve, öltözete körülcsavart veres és
@@ -1421,7 +1374,8 @@
           </sp>
           <sp who="#jutocs">
             <speaker>JUTÓCS<note type="editorial">Nincs pont a neve mögött.
-                                    sh.</note></speaker>
+                                    sh.</note>
+            </speaker>
             <stage>(Jahelhoz).</stage>
             <lg>
               <l>Mit beszélsz Mózesről, Izraëlről nékünk?</l>
@@ -1818,8 +1772,7 @@
               <l>Onnan jövök, dicső nap-mezejéről,</l>
               <l>A véghetetlen szép zöld rónatájról,</l>
               <l>Határa nincs annak köröskörül.</l>
-              <l>A messzeségben <hi rend="italic">bábabukra</hi><note type="critic">Szivárvány.</note>
-                                    <hi rend="italic">déli</hi><note type="critic">Tündöklő.</note></l>
+              <l>A messzeségben <hi rend="italic">bábabukra</hi><note type="critic">Szivárvány.</note><hi rend="italic">déli</hi><note type="critic">Tündöklő.</note></l>
               <l>Fényében <hi rend="italic">sályog</hi><note type="critic">Ragyog,
                                         régi magyar szavak Ipolyinál.</note> s égbe olvad át.</l>
               <l>Az ég nem kék ott, hanem hófehér,</l>
@@ -1832,11 +1785,8 @@
               <l>Hősök alakja száll a napmezőre, -</l>
               <l>Olyankor felhőnyiláson keresztül</l>
               <l>A földre látni: megkivánt hazára.</l>
-              <l>
-                <hi rend="italic">A hétvizek és hét erdők honára</hi>
-                <note type="critic">Magyarország és Erdély neve az
-                                        ősmagyaroknál. Ipolyi.</note>
-              </l>
+              <l><hi rend="italic">A hétvizek és hét erdők honára</hi><note type="critic">Magyarország és Erdély neve az
+                                        ősmagyaroknál. Ipolyi.</note></l>
               <l>- Az illatoktól terhes zöld mezőn</l>
               <l>Ott száguldoznak boldog őseink,</l>
               <l>Alakjukról én mind megismerém.</l>
@@ -2663,9 +2613,7 @@
             <speaker>JAHEL.</speaker>
             <lg>
               <l>Az a kard jó helyen van az én kezemben.</l>
-              <l>
-                <stage>(Jellekhez fordul.)</stage>
-              </l>
+              <l><stage>(Jellekhez fordul.)</stage></l>
               <l>Azért, hogy megcsaltál, hogy így elárultál,</l>
               <l>Megvert a Jehova, - én meg nem átkozlak,</l>
               <l>De átkozom azt, ki ily csúful meggyilkolt.</l>
@@ -2766,7 +2714,8 @@
           </p>
           <p>Tájrajz: Háttérben a hegytetőn az ujonépült Munkács vár, tuskó építmény,
                         körülpalánkolva, oldalt síkság, elől szekérsáncz, a lőcsök végére ökörfejek
-                        tűzve. Baloldalon tábori kovácsműhely, jobbon szárazmalom, mögötte <hi rend="italic">dogány.</hi><note type="critic">Mészárszék. Szinnyei Táj
+                        tűzve. Baloldalon tábori kovácsműhely, jobbon szárazmalom, mögötte <hi rend="italic">dogány.</hi>
+            <note type="critic">Mészárszék. Szinnyei Táj
                             Sz.</note> Elébb jobbról-balról vezéri sátorok, melyeknek bejáratát
                         kézíjasok őrzik.</p>
         </div>
@@ -3190,11 +3139,9 @@
               <l>Rád gondoltam akkor: egyet el is hoztam,</l>
               <l>Itten hordom azt a kaczagányom alatt,</l>
               <l>Szólítsd meg, rikasd meg a hegedőd véle.</l>
-              <l>
-                <stage>(Elővesz a kaczagánya alól egy íj formára hajtott
+              <l><stage>(Elővesz a kaczagánya alól egy íj formára hajtott
                                         nyirettyűt, melynek a fája két újjnyi széles, Tarkócznak
-                                        adja.)</stage>
-              </l>
+                                        adja.)</stage></l>
             </lg>
           </sp>
           <sp who="#tarkocz">
@@ -3384,9 +3331,7 @@
             <lg>
               <l>Pihentesd meg fájós anyai szivedet,</l>
               <l>Itt leszek mellette én s megoltalmazom.</l>
-              <l>
-                <stage>(Tarkóczhoz megy, a ki duzzogva félrevonult.)</stage>
-              </l>
+              <l><stage>(Tarkóczhoz megy, a ki duzzogva félrevonult.)</stage></l>
               <l>Vedd fel, édes öcsém, azt a hímzett köntöst.</l>
               <l>Látod, ennek szárnya alá eldughatod</l>
               <l>Azt a jó nyirettyűt, a mit neked hoztam.</l>
@@ -3398,9 +3343,7 @@
               <l>Bátyám! Te engem az újjad körül csavarsz.</l>
               <l>Hadd mondja hát ez a köntös: gyerek vagy még!</l>
               <l>Ez a vas melegít, azt mondja: férfi vagy!</l>
-              <l>
-                <stage>(Odamegy anyjához, keblére borul.)</stage>
-              </l>
+              <l><stage>(Odamegy anyjához, keblére borul.)</stage></l>
             </lg>
           </sp>
           <sp who="#regehu">
@@ -3657,9 +3600,7 @@
               <l>Harsogtak a kürtök.</l>
               <l>Hirdették a világ mind a négy sarkának,</l>
               <l>Hogy a magyar győzött véres diadallal.</l>
-              <l>
-                <stage>(Kürtök szólnak a szekérvárból.)</stage>
-              </l>
+              <l><stage>(Kürtök szólnak a szekérvárból.)</stage></l>
               <l>Hanem Laborcz vezér maga elmenekült,</l>
               <l>Föld alatti úton, rejtett folyosón át,</l>
               <l>Mire észrevettük, már a mezőn porzott</l>
@@ -3998,13 +3939,8 @@
               <l>Parázsszénnel ójtott vizzel.</l>
               <l>Hess el innen az útjából,</l>
               <l>Hess messzire te hét ördög!</l>
-              <l>
-                <hi rend="italic">Guta, Mirigy, Csoma, Fene,</hi>
-              </l>
-              <l>
-                <hi rend="italic">Döbröcz, Patvar, Kék-kelevény!</hi>
-                <note type="critic">Ipolyinál.</note>
-              </l>
+              <l><hi rend="italic">Guta, Mirigy, Csoma, Fene,</hi></l>
+              <l><hi rend="italic">Döbröcz, Patvar, Kék-kelevény!</hi><note type="critic">Ipolyinál.</note></l>
               <l>Pusztuljatok a szomszédba,</l>
               <l>De a magyart ne bántsátok.</l>
               <l>Ha elsöpörtük az utat,</l>
@@ -5019,17 +4955,13 @@
               <l>A ki Árpád törzsét tovább örökíti,</l>
               <l>Ha a mi vérünket mind feliszsza e föld,</l>
               <l>Lesz, a ki folytatja fejedelmek sorát.</l>
-              <l>
-                <hi rend="italic">(Délibábhoz fordul.)</hi>
-              </l>
+              <l><hi rend="italic">(Délibábhoz fordul.)</hi></l>
               <l>Oh te tündér leány, örömhír hozója!</l>
               <l>Napból szálltál volna, úgy nem szeretnélek,</l>
               <l>Arany szájad volna, úgy meg nem csókolnám.</l>
-              <l>
-                <stage>(Elragadtatásában Délibábhoz rohan, átöleli, megcsókolja
+              <l><stage>(Elragadtatásában Délibábhoz rohan, átöleli, megcsókolja
                                     ajkát. Mindenki elbámul rajta. Maga is csak akkor ijed meg, hogy
-                                    mit tett?)</stage>
-              </l>
+                                    mit tett?)</stage></l>
               <l>Bocsáss meg tündérlány, hogy megbántottalak!</l>
               <l>Soha ajkam nőnek ajkát nem érinté,</l>
               <l>Még az anyámét sem, ajkad volt az első</l>
@@ -5066,9 +4998,7 @@
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Akkor a kezedbe adom ezt a <hi rend="italic">ratánt</hi><note type="critic">Zászló régi magyar neve. Ipolyi.</note></l>
-              <l>
-                <stage>(Levente kezébe adja a turulos lobogót.)</stage>
-              </l>
+              <l><stage>(Levente kezébe adja a turulos lobogót.)</stage></l>
               <l>Turulos lobogót. A kik ezt meglátják,</l>
               <l>Megtudják, hogy ki vagy. S hogy a mi szót mondasz,</l>
               <l>Annak egész tábor adja meg a súlyát.</l>
@@ -5186,9 +5116,7 @@
               <l>Mit én adok neked, a varázsgyűrű lesz.</l>
               <l>Elkérem bátyámtól, nekem ide adja.</l>
               <l>Te viszont én nekem adod e vas gyűrűt,</l>
-              <l>
-                <stage>(Levente kis ujján levő vas gyűrűre mutat.)</stage>
-              </l>
+              <l><stage>(Levente kis ujján levő vas gyűrűre mutat.)</stage></l>
               <l>A mibe hited van, becsületed vésve,</l>
               <l>S aztán megfogadod, hogy ezt a te kardod</l>
               <l>Soha az én bátyám ellen ki nem húzod.</l>
@@ -5261,9 +5189,7 @@
               <l>S lovak kantárjára tarka kendőt aggass,</l>
               <l>- S hogy ha árát kérik, khalil szokás szerint</l>
               <l>Az eladó lánynak, kettőzd meg, úgy add meg.</l>
-              <l>
-                <stage>(A három leányhoz fordul.)</stage>
-              </l>
+              <l><stage>(A három leányhoz fordul.)</stage></l>
               <l>Marót leányai, előre bocsátlak,</l>
               <l>Haza apátokhoz, jó Isten hirével.</l>
               <l>Férfi szó, durva hang meg ne szégyenítsen.</l>
@@ -5300,13 +5226,8 @@
               <l>Lovakat áldozunk, <hi rend="italic">vatolát</hi><note type="critic">Nagy ivóedény. Ipolyi.</note> ürítünk,</l>
               <l>S újszülött fiamnak elküldjük a kardom,</l>
               <l>Piczi kis öt újja azt hadd markolja meg.</l>
-              <l>
-                <hi rend="italic">- Az apja kardjának a markolatától</hi>
-              </l>
-              <l>
-                <hi rend="italic">Lesz erős a gyermek; minket is az tett meg.</hi>
-                <note type="critic">Ipolyinál.</note>
-              </l>
+              <l><hi rend="italic">- Az apja kardjának a markolatától</hi></l>
+              <l><hi rend="italic">Lesz erős a gyermek; minket is az tett meg.</hi><note type="critic">Ipolyinál.</note></l>
             </lg>
           </sp>
           <p>
@@ -5814,7 +5735,8 @@
           </sp>
           <sp who="#paszkonczak">
             <speaker>PASZKONCZÁK<note type="critic">Eunuch.
-                                Ipolyinál.</note></speaker>
+                                Ipolyinál.</note>
+            </speaker>
             <stage>(Szakálltalan férfiak, asszonyos szoknyákban.)</stage>
           </sp>
           <sp who="#kurut">
@@ -5979,7 +5901,8 @@
                                 Czimborák.</stage>
           </p>
           <sp who="#marot">
-            <speaker>Marót.<note type="editorial">sh.</note></speaker>
+            <speaker>Marót.<note type="editorial">sh.</note>
+            </speaker>
             <stage>(Viselete: öreg ember, hosszú ősz szakállal, mely közé
                                 gyöngysorok vannak fonva, fején asztrakán süveg, arany abroncsokkal,
                                 elől egy fényes átlátszó fehér kővel, melynek forgójából nagy
@@ -5990,7 +5913,8 @@
                                 bécsi császári muzeumban.)</stage>
           </sp>
           <sp who="#csombord">
-            <speaker>Csombord.<note type="editorial">sh.</note></speaker>
+            <speaker>Csombord.<note type="editorial">sh.</note>
+            </speaker>
             <stage>(Viselete: magyar szabású testhez álló ködmön, tele aggatva
                                 boglárokkal, hosszú szoknya, felgörbült orrú czipők, derekán széles
                                 tüsző, abba dugva görbe kés tokban, hátul a görbe orrú fokos; fején
@@ -6033,10 +5957,8 @@
               <l>Ott is kell maradnom: én vagyok a szeme,</l>
               <l>Rosszul lát az öreg. Beteljesült rajta</l>
               <l>A régi közmondás a nagyon jó ménről.</l>
-              <l>
-                <stage>(A tömlőshöz megy, átveszi tőle a serleget, abba bort
-                                        csordíttat a tömlő csapján át, odaviszi Maróthoz.)</stage>
-              </l>
+              <l><stage>(A tömlőshöz megy, átveszi tőle a serleget, abba bort
+                                        csordíttat a tömlő csapján át, odaviszi Maróthoz.)</stage></l>
               <l>Halhatatlan csakán! Kazár nemzet ura!</l>
               <l>Engedd meg a napnak, hogy alkonyra szálljon.</l>
               <l>Arra vár, hogy esti poharad ürítsed.</l>
@@ -6209,9 +6131,7 @@
         <div type="scene">
           <head type="title">V. JELENÉS</head>
           <p>
-            <stage>
-              <note type="editorial">sh.</note>
-            </stage>
+            <stage><note type="editorial">sh.</note></stage>
           </p>
           <p>
             <stage>Elébbiek. Bűvellő, Illangó, Szemőke,
@@ -6244,36 +6164,26 @@
               <l>Én tudok olvasni leányok szeméből.</l>
               <l>Majd kiválasztom én a négy tündér közül,</l>
               <l>Melyik hí majd engem «kisebbik uramnak»?</l>
-              <l>
-                <stage>(Bűvellőhöz megy, szemébe néz.)</stage>
-              </l>
+              <l><stage>(Bűvellőhöz megy, szemébe néz.)</stage></l>
               <l>Ez a zöldes fényű szem</l>
               <l>Nem nézett rád sohasem.</l>
               <l>Másnak égett, nem neked,</l>
               <l>Ez csalta el Jelleket.</l>
-              <l>
-                <stage>(Egy akkordot hangoztat hegedűjén. Szemőkéhez
-                                        lép.)</stage>
-              </l>
+              <l><stage>(Egy akkordot hangoztat hegedűjén. Szemőkéhez
+                                        lép.)</stage></l>
               <l>Mint tengerszem, olyan kék,</l>
               <l>Tekintete, mint a jég.</l>
               <l>Ennek szívét nem nyered,</l>
               <l>Ez csak halottat szeret.</l>
-              <l>
-                <stage>(Hegedűjáték, Illangóhoz lép.)</stage>
-              </l>
+              <l><stage>(Hegedűjáték, Illangóhoz lép.)</stage></l>
               <l>Ah e parázstüzű szem!</l>
               <l>Erre én emlékezem.</l>
               <l>Pille volnék, belehullnék,</l>
               <l>Szárnyam mind elégetem.</l>
-              <l>
-                <stage>(Hegedűjáték, Délibábhoz lép.)</stage>
-              </l>
+              <l><stage>(Hegedűjáték, Délibábhoz lép.)</stage></l>
               <l>Ennek szeme lehunyva,</l>
               <l>Hosszú pillák lecsukva.</l>
-              <l>
-                <stage>(Hegedűz.)</stage>
-              </l>
+              <l><stage>(Hegedűz.)</stage></l>
             </lg>
           </sp>
           <sp who="#levente">
@@ -6287,9 +6197,7 @@
             <speaker>DÉLIBÁB.</speaker>
             <lg>
               <l>... Erről ismerhetsz reám.</l>
-              <l>
-                <stage>(Fátyolát felveti fejéről.)</stage>
-              </l>
+              <l><stage>(Fátyolát felveti fejéről.)</stage></l>
             </lg>
           </sp>
           <sp who="#igreczesek">
@@ -6357,17 +6265,13 @@
               <l>Hoztunk a menyasszony számára kelengyét.</l>
               <l>Itt van az istifán,<note type="critic">Diadém, párta.</note>
                                     fátyoltartó párta,</l>
-              <l>
-                <stage>(Felteszi a pártát Délibáb fejére.)</stage>
-              </l>
+              <l><stage>(Felteszi a pártát Délibáb fejére.)</stage></l>
               <l>Tiszta színaranyból, gyöngyökkel kirakva.</l>
               <l>Nyakára van szánva bábabukrás kővel</l>
               <l>Felczifrázott násfa. Kővé vált parázsok</l>
               <l>Villognak övében, derekára fonva.</l>
-              <l>
-                <stage>(Násfát a nyakára, övet a derekára köríti
-                                        Délibábnak.)</stage>
-              </l>
+              <l><stage>(Násfát a nyakára, övet a derekára köríti
+                                        Délibábnak.)</stage></l>
               <l>Aztán költő pénznek hét erszényt ezüsttel,</l>
               <l>Csupa jó burgundi oroszlántallérok.</l>
               <l>Három erszényt görög kózon aranyakkal.</l>
@@ -6598,19 +6502,13 @@
             <lg>
               <l>Hát én meg is adom, a mit megigértem.</l>
               <l>Nézd: itten van a völgy, a tenyerem völgye.</l>
-              <l>
-                <stage>(Tenyerébe tesz egy tallért.)</stage>
-              </l>
+              <l><stage>(Tenyerébe tesz egy tallért.)</stage></l>
               <l>Benne van az ezüst, tele is van véle.</l>
               <l>A hegyet is lássad: im az újjam hegye,</l>
               <l>Az egy arany pénzzel jól meg van tetézve.</l>
-              <l>
-                <stage>(Középső újja hegyére egy aranyat tesz.)</stage>
-              </l>
+              <l><stage>(Középső újja hegyére egy aranyat tesz.)</stage></l>
               <l>Ez a te apai béred, tartsd a markod.</l>
-              <l>
-                <stage>(Az ezüst és arany pénzt Marót kezébe teszi.)</stage>
-              </l>
+              <l><stage>(Az ezüst és arany pénzt Marót kezébe teszi.)</stage></l>
             </lg>
           </sp>
           <sp who="#marot">
@@ -6772,9 +6670,7 @@
             <speaker>TARKÓCZ.</speaker>
             <lg>
               <l>Majd én szétválasztom őket hegedümmel.</l>
-              <l>
-                <stage>(Levente és Csombord közé lép.)</stage>
-              </l>
+              <l><stage>(Levente és Csombord közé lép.)</stage></l>
               <l>Bátyáim, hegedüszóra hallgassatok.</l>
               <l>Hegedüszó nélkül nincsen lakodalom.</l>
             </lg>
@@ -6794,10 +6690,7 @@
                                         Mihály.</note></l>
               <l>Messze rónaföldön, honnan a nap támad,</l>
               <l>Úgy mondják: ég anya szüli a nap fiát,</l>
-              <l>
-                <hi rend="italic">S minden este megint szépen eltemeti;</hi>
-                <note type="footnote">Ipolyinál.</note>
-              </l>
+              <l><hi rend="italic">S minden este megint szépen eltemeti;</hi><note type="footnote">Ipolyinál.</note></l>
               <l>Honnan fecske, gólya tavasz hirét hozza</l>
               <l><hi rend="italic">Mély-tó-viz</hi><note type="footnote">Mæotis
                                         tava. J. M.</note> pusztáján tanyáztak ükeink,</l>
@@ -6871,9 +6764,7 @@
             <lg>
               <l>Akkor hát szeretünk, kedves czimboránk vagy,</l>
               <l>Nem vikotilódunk,[171] nem rongáljuk egymást.</l>
-              <l>
-                <stage>(A leányokhoz fordul.)</stage>
-              </l>
+              <l><stage>(A leányokhoz fordul.)</stage></l>
               <l>No lányok! A dalnok jutalma hol marad?</l>
             </lg>
           </sp>
@@ -6899,9 +6790,7 @@
             <lg>
               <l>No ha kitaláltad szemmel szembe nézve,</l>
               <l>Találd ki most sunyva, ajaktól kérdezve.</l>
-              <l>
-                <stage>(Befogja két kezével Tarkócz szemét.)</stage>
-              </l>
+              <l><stage>(Befogja két kezével Tarkócz szemét.)</stage></l>
             </lg>
           </sp>
           <sp who="#delibab">
@@ -6982,10 +6871,7 @@
               <l>Nap ragyog a lapján, hegyén villám szikráz,</l>
               <l>Markolata csillag. Ha egyedül vagyok,</l>
               <l>Elbeszélget velem. <hi rend="italic">Ezt hétféle vasból,</hi></l>
-              <l>
-                <hi rend="italic">Hétszer kovácsoltam, hétszer aczéloztam;</hi>
-                <note type="critic">Ipolyinál.</note>
-              </l>
+              <l><hi rend="italic">Hétszer kovácsoltam, hétszer aczéloztam;</hi><note type="critic">Ipolyinál.</note></l>
               <l>Másnak halál, nekem életem ez a kard.</l>
               <l>De te ne tarts tőle. A kinek én egyszer</l>
               <l>Jobb kezemet adtam, öklömben e kardot</l>
@@ -7023,24 +6909,20 @@
             <stage>(A baloldali tornácz lóczáira ülnek, középett asztal helyett egy
                                 gömbölyü bőr párnazsák ezüst billikomokkal.)</stage>
           </sp>
-          <stage>
-            <p>A lakoma.</p>
-            <p>A zenészek két oldalt elhelyezve, felváltva játszanak. Egyik banda a
+          <stage><p>A lakoma.</p><p>A zenészek két oldalt elhelyezve, felváltva játszanak. Egyik banda a
                                 csengő-bongó verő hangszerekkel, a másik a kürtösöké. Ezek a földre
                                 telepesznek karikába, lábaikat keresztbe szedve; mindegyiknek van
                                 egy fuvószere, a hosszú pásztorkürtön kezdve a legkisebb sipocskáig
-                                minden sipos csak egy hangot fúj, abból kerül ki a dallam.</p>
-            <p>Középett a Czifrák járják a králicza-tánczot. A leányok félkörben
-                                összefogóznak. A karéj egyik végén levő leány kezében <hi rend="italic">ájas</hi><note type="critic">Fecskefarkú. Szinnyei
+                                minden sipos csak egy hangot fúj, abból kerül ki a dallam.</p><p>Középett a Czifrák járják a králicza-tánczot. A leányok félkörben
+                                összefogóznak. A karéj egyik végén levő leány kezében <hi rend="italic">ájas</hi>
+              <note type="critic">Fecskefarkú. Szinnyei
                                     T. Sz.</note> zászló van, a tulsó végén levőében kard. Amaz a
                                     barjaktár,<note type="critic">Rég bevett török szó.</note> emez
-                                a «králicza».</p>
-            <p>A králicza és a barjaktár egymáshoz közelít, karddal, zászlóval
+                                a «králicza».</p><p>A králicza és a barjaktár egymáshoz közelít, karddal, zászlóval
                                 hadakozva, karéjt formálnak, körülfordulnak, míg elébbi helyeikre
                                 jutnak, akkor felbontják a félkört, csengős dobot vernek, sarkon
                                 forognak, barjaktár letérdel, zászlaját lehajtva, králicza<note type="footnote">Szintoly régi délszláv szó, meghonosulva. J.
-                                    M.</note> barjaktár térdére teszi lábát, kardját felemelve.</p>
-          </stage>
+                                    M.</note> barjaktár térdére teszi lábát, kardját felemelve.</p></stage>
           <sp who="#orpatak">
             <speaker>ŐRPATÁK.</speaker>
             <stage>(E táncz alatt énekelnek.)</stage>
@@ -7051,22 +6933,18 @@
               <l>Mi agyonitatunk és agyonölelünk.»</l>
             </lg>
           </sp>
-          <stage>
-            <p>Ez alatt étekhordók nagy tálakon hordják körül a fogásokat, egész
+          <stage><p>Ez alatt étekhordók nagy tálakon hordják körül a fogásokat, egész
                                 pávát tolldíszével együtt, fajdkakast, fáczánt, nyársra húzott egész
                                 bárányt sülve, nagy halakat czintálakon, süteményeket, dorongos
                                 fánkot, csörögét, mákos patkókat. Mások meg rúdra akasztott
                                 bográcsban hozzák a tokányt, lapos cseréptálakban a lakodalmas
-                                kását, aszúszőlővel behintve, nagy kanállal a közepén.</p>
-            <p>Minden fogást elébb Maróthoz visznek, annak a tálára vesz ki Kurut,
+                                kását, aszúszőlővel behintve, nagy kanállal a közepén.</p><p>Minden fogást elébb Maróthoz visznek, annak a tálára vesz ki Kurut,
                                 maga megizleli elébb. Marót széke előtt két leány térdel, a tálat
                                 fogja, ez képezi az asztalt. Az étekhordók azután viszik a fogásokat
                                 a vendégekhez; a nagyobb sülteket, a bográcsot a férfiakhoz, a
                                 kisebbeket, süteményeket, körömfaladékokat<note type="footnote">Apró
-                                    torta. Régi szó. J. M.</note> a leányokhoz.</p>
-            <p>A czimborák görbe késeikkel szúrják ki a konczot a bográcsból s azt
-                                kezükből falatozzák, szelnek darabokat a nyárson sültből.</p>
-          </stage>
+                                    torta. Régi szó. J. M.</note> a leányokhoz.</p><p>A czimborák görbe késeikkel szúrják ki a konczot a bográcsból s azt
+                                kezükből falatozzák, szelnek darabokat a nyárson sültből.</p></stage>
           <sp who="#kurut">
             <speaker>KURUT.</speaker>
             <stage>(Az ételekhez rigmusokat darál. A bográcsosnál.)</stage>
@@ -7173,9 +7051,7 @@
               <l>Mikor ezt felhajtom az én selyemángyom,</l>
               <l>Tündérszép Délibáb jó egészségére,</l>
               <l>Annyi baj érje őt világ-életében!</l>
-              <l>
-                <stage>(Felhajtja a kancsót s aztán lefelé fordítja.)</stage>
-              </l>
+              <l><stage>(Felhajtja a kancsót s aztán lefelé fordítja.)</stage></l>
               <l>Egy csepp kevés, annyi sem maradt hát benne.</l>
             </lg>
           </sp>
@@ -7449,9 +7325,7 @@
               <l>Megérti a leány, akármely idegen.</l>
               <l>Ha te meghallod az én hegedűm szavát</l>
               <l>Majd te is megérted, a mit még nem tudtál.</l>
-              <l>
-                <stage>(Hegedűjén méla dallamot húz. Dalol.)</stage>
-              </l>
+              <l><stage>(Hegedűjén méla dallamot húz. Dalol.)</stage></l>
               <l>«Fáj a szívem, sir a szemem</l>
               <l>Te érted fáj drága kincsem.</l>
               <l>Ha kő volna, meghasadna,</l>
@@ -7476,17 +7350,13 @@
             <speaker>TARKÓCZ.</speaker>
             <lg>
               <l>Mondani nem mondom; de megadni tudnám.</l>
-              <l>
-                <stage>(Hegedűjén játszik, aztán dalol.)</stage>
-              </l>
+              <l><stage>(Hegedűjén játszik, aztán dalol.)</stage></l>
               <l>«Mikor én még gyerek voltam,</l>
               <l>Kis madárért majd megholtam.</l>
               <l>De mostan már legény vagyok,</l>
               <l>Kis leányért majd meghalok.</l>
               <l>- A csókjáért majd meghalok.»<note type="critic">Népdal.</note></l>
-              <l>
-                <stage>(Átöleli Illangót.)</stage>
-              </l>
+              <l><stage>(Átöleli Illangót.)</stage></l>
             </lg>
           </sp>
           <sp who="#illango">
@@ -7541,7 +7411,7 @@
             <lg>
               <l>Fogd be a szád púpos! Eredj a zugolyba!</l>
               <l>Ne irigyeld el a más gyönyörüségét!</l>
-              <l> </l>
+              <l></l>
             </lg>
           </sp>
           <sp who="#kurut">
@@ -7556,9 +7426,7 @@
               <l>Mikor elkacsintok utánok,</l>
               <l>Neveznek förtelmes varangynak,</l>
               <l>De azért utánam szaladnak.»</l>
-              <l>
-                <stage>(Marót felé fordul.)</stage>
-              </l>
+              <l><stage>(Marót felé fordul.)</stage></l>
             </lg>
           </sp>
           <sp who="#marot">
@@ -7572,9 +7440,7 @@
               <l>Elnyomta a csakánt immár a buzgóság.</l>
               <l>Nehezen uszik már Kőrösön körösztül,</l>
               <l>De még nehezebben borvedren körösztül.</l>
-              <l>
-                <stage>(A czimborák tornácza felé tekint.)</stage>
-              </l>
+              <l><stage>(A czimborák tornácza felé tekint.)</stage></l>
               <l>Ezek a magyarok még ebben is győznek,</l>
               <l>A kupa mellett is ők maradnak hősök.</l>
               <l>A mi Csombordunk már laposakat pillant</l>
@@ -7638,9 +7504,7 @@
               <l>Azt is nem a testét, csak lelkét veszem ki</l>
               <l>Gyönyör tóba fojtom, buborékját fogom.</l>
               <l>Mint a sellők, a kit víz alá lehúztak.</l>
-              <l>
-                <stage>(Tarkóczhoz.)</stage>
-              </l>
+              <l><stage>(Tarkóczhoz.)</stage></l>
               <l>No hát Tarkócz, kinek kancsójából iszol?</l>
               <l>Enyimből-e, vagy a selyem ángyódébol?</l>
             </lg>
@@ -7649,9 +7513,7 @@
             <speaker>TARKÓCZ.</speaker>
             <lg>
               <l>A tiedből iszom, ha mingyárt meghalok.</l>
-              <l>
-                <stage>(Iszik Illangó kancsójából.)</stage>
-              </l>
+              <l><stage>(Iszik Illangó kancsójából.)</stage></l>
             </lg>
           </sp>
           <sp who="#csombord">
@@ -7687,9 +7549,7 @@
             <speaker>CSOMBORD.</speaker>
             <lg>
               <l>Mondtam ugy-e, itt lesz az első szavamra.</l>
-              <l>
-                <stage>(Büvellőhöz.)</stage>
-              </l>
+              <l><stage>(Büvellőhöz.)</stage></l>
               <l>De ne jöjj hát hozzám most másod magaddal!</l>
             </lg>
           </sp>
@@ -7885,9 +7745,7 @@
             <stage>(Előrohan a bal oszlopcsarnokból, két kezében a hegedű és
                             nyirettyű.)</stage>
             <lg>
-              <l>
-                <stage>(Rémlátó, tűzben égő szemekkel.)</stage>
-              </l>
+              <l><stage>(Rémlátó, tűzben égő szemekkel.)</stage></l>
               <l>Kiszívtam a lelkét, - csókkal megfojtottam,</l>
               <l>Most itten él bennem! Hogy <hi rend="italic">csiklik a
                                     vérem,</hi><note type="critic">Szinnyei T. Sz.</note></l>
@@ -7909,10 +7767,8 @@
               <l>Vakarcs alakodat jobban, mint engemet,</l>
               <l>A bolondot jobban, mint a dalos legényt!</l>
               <l>Mondtam: adok neked majd a nyirettyűmből.</l>
-              <l>
-                <stage>(Félrecsapja a nyirettyűjével Kurut dárdáját s aztán Kurut
-                                    fejére vág vele.)</stage>
-              </l>
+              <l><stage>(Félrecsapja a nyirettyűjével Kurut dárdáját s aztán Kurut
+                                    fejére vág vele.)</stage></l>
             </lg>
           </sp>
           <sp who="#kurut">
@@ -7928,10 +7784,8 @@
             <lg>
               <l>Hahahá! Nyirettyű! Szétkergetem véle</l>
               <l>Az egész sereget, éles nyirettyűvel.</l>
-              <l>
-                <stage>(Maga körül csapkod a nyirettyűvel; megint egy-egy akkordot
-                                    húz vele a hegedű húrjain, ugrál, hadar és hegedűl.)</stage>
-              </l>
+              <l><stage>(Maga körül csapkod a nyirettyűvel; megint egy-egy akkordot
+                                    húz vele a hegedű húrjain, ugrál, hadar és hegedűl.)</stage></l>
             </lg>
           </sp>
           <sp who="#?">
@@ -7973,13 +7827,8 @@
               <l>- Most mind a kettőnek belém szállt a lelke,</l>
               <l>Itt marnak, csiklandnak, szivem szorongatják,</l>
               <l>Jövel édes halál, szabadíts meg tőlük!</l>
-              <l>
-                <stage>(Lerogy a földre, megcsókolja a földet.)</stage>
-              </l>
-              <l>
-                <hi rend="italic">Édes anyám föld, neked mondom: szivem fáj.</hi>
-                <note type="critic">Pogány korbeli hagyomány. Ipolyi.</note>
-              </l>
+              <l><stage>(Lerogy a földre, megcsókolja a földet.)</stage></l>
+              <l><hi rend="italic">Édes anyám föld, neked mondom: szivem fáj.</hi><note type="critic">Pogány korbeli hagyomány. Ipolyi.</note></l>
             </lg>
           </sp>
           <sp who="#gonczol">
@@ -8116,9 +7965,7 @@
               <l>Valahány szem van ezerbe,</l>
               <l>Annyiszor jussak eszedbe!<note type="critic">Régi népdal. Erdélyi
                                         János.</note></l>
-              <l>
-                <stage>(Kimennek.)</stage>
-              </l>
+              <l><stage>(Kimennek.)</stage></l>
             </lg>
           </sp>
           <sp who="#delibab">
@@ -8231,12 +8078,10 @@
               <l>Mint hogy Jahel asszony jön látogatóba.</l>
               <l>Ez a rémtündérek főfő barjaktára,</l>
               <l>Én sietek lisztet hinteni a szélbe.</l>
-              <l>
-                <stage>(Bemegy a vadászlakba, szakajtót hoz ki s abból lisztet
+              <l><stage>(Bemegy a vadászlakba, szakajtót hoz ki s abból lisztet
                                         szór a levegőbe.<note type="critic">Régi babona a szélanya
                                             megengesztelésére. Ipolyi.</note> Künn kürtszó hallik,
-                                        paripadobogás, kutyaugatás, ostorpattogás.)</stage>
-              </l>
+                                        paripadobogás, kutyaugatás, ostorpattogás.)</stage></l>
             </lg>
           </sp>
           <sp who="#delibab">
@@ -8271,9 +8116,7 @@
             <speaker>DÉLIBÁB.</speaker>
             <lg>
               <l>Hozott Isten, Jahel. Ez Levente laka.</l>
-              <l>
-                <stage>(Kezét nyújtja Jahelnek.)</stage>
-              </l>
+              <l><stage>(Kezét nyújtja Jahelnek.)</stage></l>
             </lg>
           </sp>
           <sp who="#jahel">
@@ -8427,9 +8270,7 @@
             <speaker>LEVENTE.</speaker>
             <lg>
               <l>Mikor te vagy itten, akkor mást nem látok.</l>
-              <l>
-                <stage>(Jahelhez megy, két kezét megfogja.)</stage>
-              </l>
+              <l><stage>(Jahelhez megy, két kezét megfogja.)</stage></l>
               <l>Hozott Isten ángyom! Mi jót hoztál nékünk?</l>
             </lg>
           </sp>
@@ -8585,9 +8426,7 @@
             <speaker>LEVENTE.</speaker>
             <lg>
               <l>A bundám, süvegem talán ne hallgassák.</l>
-              <l>
-                <stage>(Délibábnak adja kaczagányát, süvegét.)</stage>
-              </l>
+              <l><stage>(Délibábnak adja kaczagányát, süvegét.)</stage></l>
             </lg>
           </sp>
           <sp who="#delibab">
@@ -8866,9 +8705,7 @@
             <speaker>JAHEL.</speaker>
             <lg>
               <l>Csak a portul van az. Letörlöm, nincs többet.</l>
-              <l>
-                <stage>(Kezével megtörli szemeit.)</stage>
-              </l>
+              <l><stage>(Kezével megtörli szemeit.)</stage></l>
               <l>Hajnal hasadtával Árpád fejedelem</l>
               <l>Megadatá a jelt: Lehel vezér kürtje<note type="critic">Horváth
                                         Mihály.</note></l>
@@ -8989,10 +8826,8 @@
               <l>Hogy vőlegényének kézfogót nyujthatott.</l>
               <l>- Elhoztam az övét: nézd, Délibáb ángyom!</l>
               <l>Ráismersz-e benne Szemőke övére?</l>
-              <l>
-                <stage>(Kaczagánya alól kihúzza az arab betükkel himzett
-                                        övet.)</stage>
-              </l>
+              <l><stage>(Kaczagánya alól kihúzza az arab betükkel himzett
+                                        övet.)</stage></l>
             </lg>
           </sp>
           <sp who="#delibab">
@@ -9063,9 +8898,7 @@
               <l>Itt az őrtoronyban, hol senki sem segít.</l>
               <l>- Ma én őt megmentém szörnyű rút haláltól,</l>
               <l>Itt vagyok: szebb halált kinálgatok néki!</l>
-              <l>
-                <stage>(Elsiet a vadászlak ajtaján át.)</stage>
-              </l>
+              <l><stage>(Elsiet a vadászlak ajtaján át.)</stage></l>
             </lg>
           </sp>
           <sp who="#taho">
@@ -9142,9 +8975,7 @@
             <lg>
               <l>Ahá! Megérkeztél varázstevő hattyú!</l>
               <l>Várj! várj! várj! kiáltod? ugyan régen várlak.</l>
-              <l>
-                <stage>(Czéloz, a hattyú után lő.)</stage>
-              </l>
+              <l><stage>(Czéloz, a hattyú után lő.)</stage></l>
               <l>Csak a szárnyát verte a nyilam körösztül.</l>
               <l>Ez is elég rá, hogy ne röpüljön többet.</l>
             </lg>
@@ -9160,7 +8991,8 @@
             <stage>Elébbiek. Levente.</stage>
           </p>
           <sp who="#levente">
-            <speaker>Levente.<note type="editorial">sh.</note></speaker>
+            <speaker>Levente.<note type="editorial">sh.</note>
+            </speaker>
             <stage>(Kijön a vadászlakból, harcznak öltözve, fején ezüst sisak,
                                 rárómadár szárnynyal, elől arczvédővel, vállán veres farkas
                                 kaczagány, oldalán kard, balkarján teknő alakú paizs, azon a
@@ -9196,9 +9028,7 @@
             <speaker>LEVENTE.</speaker>
             <lg>
               <l>Majd lesz a másiknak.</l>
-              <l>
-                <stage>(Indul a torony lépcsőin fölfelé.)</stage>
-              </l>
+              <l><stage>(Indul a torony lépcsőin fölfelé.)</stage></l>
             </lg>
           </sp>
           <sp who="#delibab">
@@ -9318,10 +9148,8 @@
             <speaker>LEVENTE.</speaker>
             <lg>
               <l>De én nem öllek meg saját fegyvereddel.</l>
-              <l>
-                <stage>(A három kelevézt lehajítja a torony tulsó
-                                        oldalán.)</stage>
-              </l>
+              <l><stage>(A három kelevézt lehajítja a torony tulsó
+                                        oldalán.)</stage></l>
               <l>Kardot sem huzok rád. Fogadásom tartja.</l>
             </lg>
           </sp>
@@ -9416,9 +9244,7 @@
             <speaker>JAHEL.</speaker>
             <lg>
               <l>Végre előttem vagy hát! Hogy megölhetlek!</l>
-              <l>
-                <stage>(Tegzére nyilat tesz.)</stage>
-              </l>
+              <l><stage>(Tegzére nyilat tesz.)</stage></l>
             </lg>
           </sp>
           <sp who="#delibab">
@@ -9481,10 +9307,8 @@
               <l>Itt fogadd a boszúm! Most már te is meghalsz!</l>
               <l>Halálos méreggel van tőröm itatva.</l>
               <l>Én megyek Csomborddal, te sietsz utánunk!</l>
-              <l>
-                <stage>(Elrohan a torony párkányához, hol Csombord lebukott s
-                                        leveti magát a mélységbe.)</stage>
-              </l>
+              <l><stage>(Elrohan a torony párkányához, hol Csombord lebukott s
+                                        leveti magát a mélységbe.)</stage></l>
             </lg>
           </sp>
           <sp who="#delibab">
@@ -9510,10 +9334,8 @@
             <speaker>DÉLIBÁB.</speaker>
             <lg>
               <l>Futok a férjemhez, a mérget kiszívom.</l>
-              <l>
-                <stage>(Felfut a hágcsón az őrtoronyba, megragadja Levente kezét
-                                        s a mérget kiszívja sebéből.)</stage>
-              </l>
+              <l><stage>(Felfut a hágcsón az őrtoronyba, megragadja Levente kezét
+                                        s a mérget kiszívja sebéből.)</stage></l>
             </lg>
           </sp>
           <sp who="#levente">
@@ -9538,9 +9360,7 @@
             <stage>(Felsiet Délibáb után a hágcsón a toronyba.)</stage>
             <lg>
               <l>Levente! Délibáb! Támaszkodjatok rám.</l>
-              <l>
-                <stage>(Két karjával átöleli Leventét, Délibábot.)</stage>
-              </l>
+              <l><stage>(Két karjával átöleli Leventét, Délibábot.)</stage></l>
             </lg>
           </sp>
           <sp who="#levente">
@@ -9645,9 +9465,7 @@
               <l>Betemetik sírunk diófalevéllel,</l>
               <l>Nagy halmot emelve, virágos pázsittal,</l>
               <l>- Anyámnak mondd meg, hogy végső szavam ő volt.</l>
-              <l>
-                <stage>(Jahel térdére hanyatlik, meghal.)</stage>
-              </l>
+              <l><stage>(Jahel térdére hanyatlik, meghal.)</stage></l>
             </lg>
           </sp>
           <sp who="#delibab">
@@ -9660,9 +9478,7 @@
             <lg>
               <l>Így kell elmúlniok, kik nagyon szerettek,</l>
               <l>Kik oly hivek voltak, a kik oly jók voltak!</l>
-              <l>
-                <stage>(Kitörő indulattal.)</stage>
-              </l>
+              <l><stage>(Kitörő indulattal.)</stage></l>
               <l>Rettenetes haza! Mennyi áldozatot</l>
               <l>Követelsz még tőlünk, legnemesebb vérből?</l>
               <l>Rettenetes haza szörnyeteg szerelme!</l>
@@ -9873,9 +9689,7 @@
               <l>Ellenséged voltam, ellened harczoltam.</l>
               <l>Te az én véremben, én tiedben dúltam.</l>
               <l>Mostan vak koldús vagy: add kezed, vezetlek.</l>
-              <l>
-                <stage>(Megfogja Marót jobb kezét.)</stage>
-              </l>
+              <l><stage>(Megfogja Marót jobb kezét.)</stage></l>
               <l>Majd én mondom neked, mit szemed nem láthat.</l>
               <l>De várj: e kis lánynak nem való e látás.</l>
               <l>Agyonrémítenék e szörnyű szokások,</l>
@@ -9988,9 +9802,7 @@
             <stage>(Hátán párduczbőr, melynek feje az ő fejére van húzva, kezében
                                 rúd, melyre egy kardfogó kéz van tűzve.)</stage>
             <lg>
-              <l>
-                <stage>(A jobboldali sátorok előtt megáll.)</stage>
-              </l>
+              <l><stage>(A jobboldali sátorok előtt megáll.)</stage></l>
               <l>A nagy hős Levente búcsúzik tőletek,</l>
               <l>Vezérek, hadnagyok, vitézi bajtársak,</l>
               <l>Botond, Zoárd, Bulcsú, Csák, Bór, Ugod, Csaba,</l>
@@ -10062,10 +9874,8 @@
             <lg>
               <l>Vigyétek a sírba legkedvesebb fiam.</l>
               <l>Adjátok kezébe levágott hajfürtöm.</l>
-              <l>
-                <stage>(Egy fürtöt hajából levág s ezt Levente kezére
-                                        köti.)</stage>
-              </l>
+              <l><stage>(Egy fürtöt hajából levág s ezt Levente kezére
+                                        köti.)</stage></l>
             </lg>
           </sp>
           <sp who="#csatlosok">

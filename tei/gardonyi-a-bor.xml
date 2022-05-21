@@ -61,19 +61,21 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref> </orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref> </orgName>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000015</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref> </pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref> </p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -208,9 +210,7 @@
           <hi rend="underline"/>
         </head>
         <castItem>
-          <role>
-            <roleName>BARACS IMRE</roleName>
-          </role>
+          <role><roleName>BARACS IMRE</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>BARACS MATYI</roleName>Imrének az öccse</role>
@@ -237,9 +237,7 @@
           <role><roleName>GÖRE GÁBOR</roleName>bíró</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>GÖRE GÁBORNÉ</roleName>
-          </role>
+          <role><roleName>GÖRE GÁBORNÉ</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>DURBINTS PÁL</roleName>esküdt</role>
@@ -254,24 +252,16 @@
           <role><roleName>ZSUZSI</roleName>Eszternek a cselédje</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>EGY FIÚ</roleName>
-          </role>
+          <role><roleName>EGY FIÚ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KOCSIS</roleName>
-          </role>
+          <role><roleName>KOCSIS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KISBÍRÓ</roleName>
-          </role>
+          <role><roleName>KISBÍRÓ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>NÉP, FŐKÉPPEN ASSZONYOK ÉS GYERMEKEK</roleName>
-          </role>
+          <role><roleName>NÉP, FŐKÉPPEN ASSZONYOK ÉS GYERMEKEK</roleName></role>
         </castItem>
       </castList>
     </front>
@@ -381,7 +371,8 @@
         <sp who="#cegledi">
           <speaker>CEGLÉDI:</speaker>
           <p>Hiszen maga akkor gazdag asszony!<stage>Egy fiu jön futva az
-                        utcán.</stage></p>
+                        utcán.</stage>
+          </p>
         </sp>
         <sp who="#eszter">
           <speaker>ESZTER:</speaker>
@@ -596,7 +587,8 @@
           <p>Még most se iszik az urad?[1]<stage>Ezt egykedvű, beszélgető hangon kell kérdezni, nem pedig
                                                   olyan hangsúlylyal, mintha azt kérdezné: Hát
                                                   holnap akasztják az uradat? - És a folytatás is
-                                                  csak csevegés.</stage></p>
+                                                  csak csevegés.</stage>
+          </p>
         </sp>
         <sp who="#juli">
           <speaker>JULI:</speaker>
@@ -1131,7 +1123,8 @@
                                                   mög a fene" hangsúly nélkül mondandó, leheletszerű
                                                   beszédfarka. Parasztnál gondolatpótló vagy
                                                   gondolatvégző ártatlan valami. A "fene" szóból
-                                                  csak alighogy az f hallatszik.</stage></p>
+                                                  csak alighogy az f hallatszik.</stage>
+          </p>
         </sp>
         <sp who="#mihaly">
           <speaker>MIHÁLY:</speaker>
@@ -1228,13 +1221,15 @@
           <p>Nem iszok száz forintér se![4]<stage>Tehát ne
                                                   olyan tragikus hangon mondja, mintha azt mondaná,
                                                   hogy nem rakja le a fegyvert
-                                                  Világoson.</stage></p>
+                                                  Világoson.</stage>
+          </p>
         </sp>
         <sp who="#juli">
           <speaker>JULI:</speaker>
           <stage>(Az ura vállára teszi a kezét.)</stage>
           <p>Dehát mér nem iszik kend? Igyék,
-                                                  lelköm![5]<stage>Egyszerű biztatás.</stage></p>
+                                                  lelköm![5]<stage>Egyszerű biztatás.</stage>
+          </p>
         </sp>
         <sp who="#baracs_imre">
           <speaker>BARACS:</speaker>
@@ -1285,7 +1280,8 @@
                                                   ennyire ragaszkodjék a fogadáshoz, szinte
                                                   gyermekesnek tünik fel az asszonynak, mondjuk ki:
                                                   ostobának. De a vendégek előtt nem beszélhet vele
-                                                  kereken.</stage>  </p>
+                                                  kereken.</stage>
+          </p>
         </sp>
         <sp who="#szunyogne">
           <speaker>SZUNYOGNÉ:</speaker>
@@ -1308,7 +1304,8 @@
           <p>Igyál hát velünk, mit gyerökösködöl!
                                                   <stage>(Kocintani akar.)[8]Ez a kinálgatási
                                                   jelenet egyszerű, gyorsan folyó legyen, tehát ne
-                                                  lassu kínos, mint a rabvallatás.</stage></p>
+                                                  lassu kínos, mint a rabvallatás.</stage>
+          </p>
         </sp>
         <sp who="#baracs_imre">
           <speaker>BARACS:</speaker>
@@ -1338,7 +1335,8 @@
           <speaker>BARACS:</speaker>
           <stage>(Maga elé.)</stage>
           <p>Hét esztendeje, hogy nem ittam![9]<stage>Kérem a színészt, ne sötét arccal mondja ezt, hanem
-                                                  könnyedén, inkább csodálkozva.</stage></p>
+                                                  könnyedén, inkább csodálkozva.</stage>
+          </p>
         </sp>
         <sp who="#gabor">
           <speaker>GÖRE:</speaker>
@@ -1965,7 +1963,8 @@ Mer őneki fogadtam mög, hogy nem iszok.</p>
           <speaker>ROZI:</speaker>
           <p>Csak a búcsúra jöttünk. Hónapután mán hazamögyünk.[10]<stage>Rozi eleven leány, de valahányszor
                                                   Matyival beszél, szemérmetes és
-                                                  elfogult.</stage></p>
+                                                  elfogult.</stage>
+          </p>
         </sp>
         <sp who="#baracs_matyi">
           <speaker>MATYI:</speaker>
@@ -2150,7 +2149,8 @@ Mer őneki fogadtam mög, hogy nem iszok.</p>
           <p>A bort! A bort hamar tödd el![14]<stage>Ez a
                                                   mondás ne legyen olyan élénk kiáltás, mint a III.
                                                   felvonásban, csak közönséges rendelkező
-                                                  hangon!</stage></p>
+                                                  hangon!</stage>
+          </p>
         </sp>
         <sp who="#juli">
           <speaker>JULI</speaker>
@@ -2462,7 +2462,8 @@ Mer őneki fogadtam mög, hogy nem iszok.</p>
                                                   csinálták. Külön figyelmeztetem tehát a szereplőt
                                                   a részegségnek arra a nagy skálájára, amelyet
                                                   ebben a felvonásban végig kell
-                                                  művészkednie.</stage></p>
+                                                  művészkednie.</stage>
+          </p>
         </sp>
         <sp who="#juli">
           <speaker>JULI</speaker>
@@ -2504,7 +2505,8 @@ Mer őneki fogadtam mög, hogy nem iszok.</p>
           <p>Ja-ja-jaj! Huzsódjunk ide a zsivatar
                                                   elől.[16]<stage>A cigányok a jelenet alatt
                                                   mozogjanak és kiabáljanak, hogy a jelenet ne
-                                                  legyen kedvetlenítő hatású a nézőkre.</stage></p>
+                                                  legyen kedvetlenítő hatású a nézőkre.</stage>
+          </p>
         </sp>
         <sp who="#tepsi">
           <speaker>TEPSI:</speaker>
@@ -2579,7 +2581,8 @@ Mer őneki fogadtam mög, hogy nem iszok.</p>
                     Mikor már a pipa ég, részeg módon (tehát ismét nem énekművészettel!) olykor
                     dünnyögő hangon dalol):</stage>
           <p>Tisza mellett (hej) nem jó lefekünni,[17]<stage>Kótája Bartalus Magyar Népdalok egyet. gyüjt. V.
-                                                  kötet, 41. lap.</stage></p>
+                                                  kötet, 41. lap.</stage>
+          </p>
           <stage>(Egyet-kettőt szippant és folytatja:)</stage>
           <p>Mer az árvíz</p>
           <stage>(lélekzetvétel)</stage>
@@ -2635,7 +2638,8 @@ Mer őneki fogadtam mög, hogy nem iszok.</p>
           <speaker>BARACS:</speaker>
           <stage>(Elhallgat. Pipázik s míg a cigányok a nótát folytatják, ő más nótába vág
                     bele.)</stage>
-          <p>(Hej.) Elveszött a lovam<stage>Dallam Limbay Dal-Albuma. V. köt. 25. lap.</stage></p>
+          <p>(Hej.) Elveszött a lovam<stage>Dallam Limbay Dal-Albuma. V. köt. 25. lap.</stage>
+          </p>
           <stage>(Lélekzik.)</stage>
           <p>ciprusfajerdőbe.</p>
           <stage>(Mutatóujját emeli.)</stage>
@@ -3570,7 +3574,8 @@ Mer őneki fogadtam mög, hogy nem iszok.</p>
                                                   még a hasznos jószágnál is hasznosabb! ö. m. a f.
                                                   <stage>Kocsi áll meg a kapu előtt. Jön: Göre,
                                                   Mihály, Rozi, kisbiró, Kátsa, kocsis, bámészkodó
-                                                  falusiak.[22]De nem ünneplő ruhában!</stage></p>
+                                                  falusiak.[22]De nem ünneplő ruhában!</stage>
+          </p>
         </sp>
         <sp who="#gabor">
           <speaker>GÖRE:</speaker>
@@ -3808,7 +3813,8 @@ Mer őneki fogadtam mög, hogy nem iszok.</p>
         </sp>
         <sp who="#durbints">
           <speaker>DURBINTS:</speaker>
-          <p>Ott, ö. m. a f.[23]<stage>Suly nélkül, könnyed ráhagyón.</stage></p>
+          <p>Ott, ö. m. a f.[23]<stage>Suly nélkül, könnyed ráhagyón.</stage>
+          </p>
         </sp>
         <sp who="#baracs_imre">
           <speaker>BARACS:</speaker>
@@ -4099,7 +4105,8 @@ Mer őneki fogadtam mög, hogy nem iszok.</p>
           <speaker>ROZI:</speaker>
           <stage>(Sóhajtva.)</stage>
           <p>Vége a farsangnak![24]<stage>Ezt nem Matyinak
-                                                  mondja, hanem csak maga elé.</stage></p>
+                                                  mondja, hanem csak maga elé.</stage>
+          </p>
           <stage>(El jobbra a ház mögé.) Göréné jön. (Kocsis
                                                   és kisbiró egy virágos ágyat hoztak már előbb,
                                                   most egy kevésbé díszes ágyat hoznak ki a
@@ -5016,7 +5023,8 @@ Egészségös?</p>
           <p>Mer a leány éretlen, tudatlan, esetlen. Nem érti a forgást úgy, mint az, aki már
                                                   beletanult...[25]<stage>Én itt sürgést-forgást
                                                   értek, házi munkásságot. Nem szabad a színésznek a
-                                                  hangsullyal más értelemre színeznie.</stage></p>
+                                                  hangsullyal más értelemre színeznie.</stage>
+          </p>
         </sp>
         <sp who="#baracs_imre">
           <speaker>BARACS:</speaker>
@@ -7224,7 +7232,8 @@ Nem folyik belülem vér, mégis vérzök én szüntelen. De mibül is van az
                                                   meg kell oktatni, hogy mosolygó arccal játsszék, s
                                                   ne hadarjon. Még eddig ahány gyermeket láttam, az
                                                   mind úgy beszélt, hogy érezni lehetett mögötte a
-                                                  spanyolnádat.</stage></p>
+                                                  spanyolnádat.</stage>
+          </p>
         </sp>
         <sp who="#baracs_imre">
           <speaker>BARACS:</speaker>
@@ -7328,7 +7337,8 @@ Nem folyik belülem vér, mégis vérzök én szüntelen. De mibül is van az
                                                   paraszt nem szereti, ha a falu róla beszél.
                                                   Baracsnak is ki kell fejeznie arcában, feje
                                                   fordításában, hogy a falu szeme előtt ülni
-                                                  nyugtalanító gondolat.</stage></p>
+                                                  nyugtalanító gondolat.</stage>
+          </p>
         </sp>
         <sp who="#baracs_imre">
           <speaker>BARACS</speaker>
@@ -7394,7 +7404,8 @@ Nem folyik belülem vér, mégis vérzök én szüntelen. De mibül is van az
           <stage>(A szűrt rángatva.)</stage>
           <p>A szűrt!... A szép szűrt! A szép szűrre akarok
                                                   feküdni![32]<stage>A gyermek a szép szót sulylyal
-                                                  és hosszan ejtse.</stage></p>
+                                                  és hosszan ejtse.</stage>
+          </p>
         </sp>
         <sp who="#baracs_imre">
           <speaker>BARACS:</speaker>

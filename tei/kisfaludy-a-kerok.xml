@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000021</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -190,20 +192,14 @@
         <castGroup>
           <roleDesc>Máli fogadott gyermekei</roleDesc>
           <castItem>
-            <role>
-              <roleName>Károly</roleName>
-            </role>
+            <role><roleName>Károly</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Lidi</roleName>
-            </role>
+            <role><roleName>Lidi</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
-          <role>
-            <roleName>Báró Szélházy</roleName>
-          </role>
+          <role><roleName>Báró Szélházy</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Perföldy</roleName>ügyész</role>
@@ -225,9 +221,7 @@
         </castItem>
         <castGroup>
           <castItem>
-            <role>
-              <roleName>Kertészek</roleName>
-            </role>
+            <role><roleName>Kertészek</roleName></role>
           </castItem>
         </castGroup>
       </castList>
@@ -281,12 +275,16 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p>Talán háborgatlak, inkább<stage>El akar menni.</stage></p>
+            <p>Talán háborgatlak, inkább<stage>El akar menni.</stage>
+            </p>
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>Hirtelen</stage>Maradj!<stage>Félre</stage></p>
-            <p>Szívtelen ember.<stage>Károlyhoz.</stage></p>
+            <p>
+              <stage>Hirtelen</stage>Maradj!<stage>Félre</stage>
+            </p>
+            <p>Szívtelen ember.<stage>Károlyhoz.</stage>
+            </p>
             <p>Maradj, ha éppen jobbat nem tudnál cselekedni; úgy is elvétve
                             láthatlak.</p>
           </sp>
@@ -324,12 +322,14 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>megilletődve.</stage>Bocsásd meg vad indulatomnak ezen megbántást.
+            <p>
+              <stage>megilletődve.</stage>Bocsásd meg vad indulatomnak ezen megbántást.
                             Máli, hallgasd; miért jöttem - én - én elhagylak.</p>
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>megijedve.</stage>Mit hallok! mi ösztönöz arra? tudja már atyám?</p>
+            <p>
+              <stage>megijedve.</stage>Mit hallok! mi ösztönöz arra? tudja már atyám?</p>
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
@@ -350,7 +350,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>indulattal.</stage>Máli! Máli!<stage>Félre.</stage>Nem! félre
+            <p>
+              <stage>indulattal.</stage>Máli! Máli!<stage>Félre.</stage>Nem! félre
                             csalárd remény! többé nem kecsegtetsz.</p>
           </sp>
           <sp who="#mali">
@@ -404,7 +405,8 @@
           <stage>Lidi, az előbbiek.</stage>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
-            <p><stage>sietve.</stage>Az öregúr megjött a városból. - Te itt, bátyám! a
+            <p>
+              <stage>sietve.</stage>Az öregúr megjött a városból. - Te itt, bátyám! a
                             szobádban kerestelek. Mit látok? mi történt? Ez a szegletbe néz, ez az
                             ujját számlálja - valóban szép társalkodás.<stage>A könyvet felveszi az
                                 asztalról.</stage>Himfy Szerelmei! most tudom már!</p>
@@ -535,12 +537,14 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>félre Lidihez.</stage>Nem hallottad tegnap estve bátyánkat -
+            <p>
+              <stage>félre Lidihez.</stage>Nem hallottad tegnap estve bátyánkat -
                             férjhez akarja adni.</p>
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>félre Lidihez.</stage>Nem hallottad, hogyan ellenkeztem az
+            <p>
+              <stage>félre Lidihez.</stage>Nem hallottad, hogyan ellenkeztem az
                             atyámmal, és ő mégis ellenem dúl.</p>
           </sp>
           <sp who="#karoly">
@@ -579,7 +583,8 @@
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
-            <p><stage>Károlyhoz.</stage>Nem kedves, mert velem lesz dolgod; csak készülj
+            <p>
+              <stage>Károlyhoz.</stage>Nem kedves, mert velem lesz dolgod; csak készülj
                             a viadalra. Mit írtál az asszonyok felől?<stage>Málihoz.</stage>Gondold
                             el, mely rútul festé ő le szegény nemünket -</p>
           </sp>
@@ -663,7 +668,8 @@
           <stage>Baltafy és az előbbiek.</stage>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>elébe megy, kezét megcsókolja.</stage>Hamar megjött,
+            <p>
+              <stage>elébe megy, kezét megcsókolja.</stage>Hamar megjött,
                             édesatyám.</p>
           </sp>
           <sp who="#baltafy">
@@ -716,7 +722,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>magában tűzzel.</stage> Hah! ezt hallani! -</p>
+            <p>
+              <stage>magában tűzzel.</stage> Hah! ezt hallani! -</p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
@@ -794,7 +801,8 @@
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>hirtelen.</stage> Szabad hát szívemet követnem? óh, édes drága
+            <p>
+              <stage>hirtelen.</stage> Szabad hát szívemet követnem? óh, édes drága
                             kedves atyám!</p>
           </sp>
           <sp who="#baltafy">
@@ -828,7 +836,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>félre.</stage> Én őt porrá töröm - kihívom - összevágom.</p>
+            <p>
+              <stage>félre.</stage> Én őt porrá töröm - kihívom - összevágom.</p>
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
@@ -890,7 +899,8 @@
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
             <p>Igaz - mennydörgő-rázta! a másik még a zsebemben van. <stage>Zsebjét
-                                keresi.</stage></p>
+                                keresi.</stage>
+            </p>
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
@@ -898,11 +908,13 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>kihúz egy levelet.</stage> Itt van! olvassátok.</p>
+            <p>
+              <stage>kihúz egy levelet.</stage> Itt van! olvassátok.</p>
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
-            <p><stage>elkapja.</stage> Én, én olvasom! <stage>Olvas.</stage> "Minthogy
+            <p>
+              <stage>elkapja.</stage> Én, én olvasom! <stage>Olvas.</stage> "Minthogy
                             házi circumstanciák - úgy hoz -</p>
           </sp>
           <sp who="#baltafy">
@@ -911,7 +923,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>félre.</stage> Még ezt is!<stage>Elveszi a levelet és
+            <p>
+              <stage>félre.</stage> Még ezt is!<stage>Elveszi a levelet és
                                 olvas.</stage>"Spektábilis kapitány úr! Minthogy a házi
                             circumstanciák úgy hozzák magokkal, hogy a házassági vinculumba lépjek,
                             tehát voluntarie szemeimet a spektábilis úr kisasszonyára vetettem, és
@@ -931,7 +944,8 @@
                                 okmányokat mindjárt ünnepélyesíteni és hitelesíteni fogom. Különben
                                 úri tetszésébe magamat ajánlván, vagyok tekintetes úrnak alázatos
                                 szolgája Perföldy Tóbiás Jakab, mindkét jog és a filozófia doktora
-                                és felesküdt ügyész."</note></p>
+                                és felesküdt ügyész."</note>
+            </p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
@@ -960,11 +974,13 @@
             <speaker>KÁROLY.</speaker>
             <p>Igen - én - én örvendek - de mégis úgy vélem, hogy sem tudomány, sem
                             érték nem elegendő mindenkor a szerencsére - különben - én
-                                <stage>akadoz.</stage></p>
+                                <stage>akadoz.</stage>
+            </p>
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
-            <p><stage>félre.</stage> Kisegítem - <stage>Baltafyhoz.</stage> Azt véli
+            <p>
+              <stage>félre.</stage> Kisegítem - <stage>Baltafyhoz.</stage> Azt véli
                             bátyám, hogy Máli minderről legigazabb ítéletet hozhat.</p>
           </sp>
           <sp who="#mali">
@@ -989,7 +1005,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>hirtelen.</stage> Ne is jöjjön, csak reám bízza, bátyám, én mind
+            <p>
+              <stage>hirtelen.</stage> Ne is jöjjön, csak reám bízza, bátyám, én mind
                             eligazítom.</p>
           </sp>
           <sp who="#lidi">
@@ -1036,7 +1053,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>indulattal.</stage> Máli! Máli!</p>
+            <p>
+              <stage>indulattal.</stage> Máli! Máli!</p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
@@ -1052,7 +1070,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>megilletődve.</stage> Kedves bátyám! azt a szolgálatot már
+            <p>
+              <stage>megilletődve.</stage> Kedves bátyám! azt a szolgálatot már
                             kétszerezve meghálálta rajtunk; fiúi szívvel azt megismerjük.</p>
           </sp>
           <sp who="#baltafy">
@@ -1104,7 +1123,8 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>megszorulva.</stage> Hm! úgy - úgy - mennydörgő-rázta! bíz én
+            <p>
+              <stage>megszorulva.</stage> Hm! úgy - úgy - mennydörgő-rázta! bíz én
                             érette nem hazudok - nekem nem tetszik - azonban más a fiatalság
                             ízlése.</p>
           </sp>
@@ -1176,7 +1196,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>félre.</stage>Kezdődik a fergeteg.</p>
+            <p>
+              <stage>félre.</stage>Kezdődik a fergeteg.</p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
@@ -1188,7 +1209,8 @@
           <stage>János, Tamás és az előbbiek.</stage>
           <sp who="#janos">
             <speaker>János.</speaker>
-            <p><stage>Baltafyra mutat.</stage> Itt a mi urunk!</p>
+            <p>
+              <stage>Baltafyra mutat.</stage> Itt a mi urunk!</p>
           </sp>
           <sp who="#tamas">
             <speaker>TAMÁS.</speaker>
@@ -1200,7 +1222,8 @@
           </sp>
           <sp who="#tamas">
             <speaker>TAMÁS.</speaker>
-            <p><stage>magában.</stage> Nem tud ám deákul. <stage>Baltafyhoz.</stage> Az
+            <p>
+              <stage>magában.</stage> Nem tud ám deákul. <stage>Baltafyhoz.</stage> Az
                             annyit tesz, mint az én uram magát az úr kegyelmébe ajánlja és
                             udvarlására jött.</p>
           </sp>
@@ -1247,7 +1270,8 @@
                                 visszafordul,</stage> vagy csak maradj - ide vezetem őket. Ne
                             búsulj, édes leányom, egyszer meg kell lennie, vagy előbb, vagy utóbb -
                             de ne makacskodjál! hallod-e? ne makacskodjál.
-                            <stage>Elmegyen.</stage></p>
+                            <stage>Elmegyen.</stage>
+            </p>
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
@@ -1274,11 +1298,13 @@
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
             <p>Máli! Máli! tőled el nem állok - teljék bár életembe - és jaj annak, aki
-                            tőlem el akar ragadni. <stage>El.</stage></p>
+                            tőlem el akar ragadni. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
-            <p><stage>Málihoz.</stage> Hehehe! amint látom, a kisasszonyért jönnek! ej,
+            <p>
+              <stage>Málihoz.</stage> Hehehe! amint látom, a kisasszonyért jönnek! ej,
                             ej, nem is szólt.</p>
           </sp>
           <sp who="#lidi">
@@ -1325,7 +1351,8 @@
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
-            <p><stage>hízelkedve.</stage> Ferenc! ugye megteszi kend? dupla porciót
+            <p>
+              <stage>hízelkedve.</stage> Ferenc! ugye megteszi kend? dupla porciót
                             hozok.</p>
           </sp>
           <sp who="#ferenc">
@@ -1339,11 +1366,13 @@
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
             <p>Ha úgy van, nem bánom - hehehe! az öreg Ferkó megteszi a magáét.
-                                <stage>El.</stage></p>
+                                <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
-            <p><stage>utána.</stage> Ferenc! számot tartok kendre -</p>
+            <p>
+              <stage>utána.</stage> Ferenc! számot tartok kendre -</p>
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
@@ -1359,7 +1388,8 @@
           <stage>Margit, az előbbiek.</stage>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
-            <p><stage>sietve</stage> - Ah, gyermekek! az Istenért! vendégek jönnek -
+            <p>
+              <stage>sietve</stage> - Ah, gyermekek! az Istenért! vendégek jönnek -
                             pedig két kocsival - ah, mit tegyek? mihez nyúljak? merre forduljak?
                             hová rejtsem magamat? így nem mutathatom magamat. Nagy Isten! mit
                             míveljek? még a reggeli öltözetben vagyok, pedig majd mind rám néz, én
@@ -1426,7 +1456,8 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
-            <p><stage>keresztülfutva a szobán, vizsgálja mind őket.</stage> Bon jour!
+            <p>
+              <stage>keresztülfutva a szobán, vizsgálja mind őket.</stage> Bon jour!
                             örvendek, hogy szerencsém vagyon tisztelni ezen úri famíliát.</p>
           </sp>
           <sp who="#perföldy">
@@ -1435,13 +1466,15 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>Margitra mutat.</stage> Ez Margit, az öreg néném!
+            <p>
+              <stage>Margitra mutat.</stage> Ez Margit, az öreg néném!
                                 <stage>Málira.</stage> Egyetlen leányom! <stage>Lidire.</stage>
                             Kedves kis húgom.</p>
           </sp>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
-            <p><stage>magában.</stage> Öreg - öreg - mintha nálamnál nem volna öregebb.
+            <p>
+              <stage>magában.</stage> Öreg - öreg - mintha nálamnál nem volna öregebb.
                                 <stage>A vendégekhez.</stage> Alázatos szolgálója az uraknak! én
                             boldogult tekintetes nemes nemzetes és vitézlő Kukoróczy úrnak, több
                             nemes vármegyéknek az elsők közül való táblabírájának hátramaradt
@@ -1450,12 +1483,14 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>titkon Margithoz.</stage> A fejkötőd félre áll - igazítsad
+            <p>
+              <stage>titkon Margithoz.</stage> A fejkötőd félre áll - igazítsad
                             helyre.</p>
           </sp>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
-            <p><stage>megijedve.</stage> Mit szólasz! az Isten bocsáj! Kegyes urak! egy
+            <p>
+              <stage>megijedve.</stage> Mit szólasz! az Isten bocsáj! Kegyes urak! egy
                             kis házi foglalatosság miatt el kell távoznom, mindjárt megjelenek - óh,
                             érdemes azt kihallgatni - valóban igen példás életet viseltünk mi
                             szegény urammal - most megyek, de tüstént meg fogok jelenni - majd azt
@@ -1469,7 +1504,8 @@
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
             <p>Megyek - hát eddig is alázatos szolgálója - mindjárt ezen pillanatban
-                            jövök. <stage>El.</stage></p>
+                            jövök. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
@@ -1497,7 +1533,8 @@
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
-            <p><stage>félre Málihoz.</stage> Ezen kiadunk.</p>
+            <p>
+              <stage>félre Málihoz.</stage> Ezen kiadunk.</p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
@@ -1539,7 +1576,8 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
-            <p><stage>félre.</stage> Ach! mely hátra vagyunk!</p>
+            <p>
+              <stage>félre.</stage> Ach! mely hátra vagyunk!</p>
           </sp>
           <sp>
             <stage>El mindnyájan.</stage>
@@ -1568,7 +1606,8 @@
           <sp who="#tamas">
             <speaker>TAMÁS.</speaker>
             <p>A Princis Pálnak.<note type="footnote">[2]szójáték a
-                                    principális: főnök szóval.</note></p>
+                                    principális: főnök szóval.</note>
+            </p>
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
@@ -1640,7 +1679,8 @@
           </sp>
           <sp who="#tamas">
             <speaker>TAMÁS.</speaker>
-            <p><stage>fontosan.</stage>Házasodni.</p>
+            <p>
+              <stage>fontosan.</stage>Házasodni.</p>
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
@@ -1685,7 +1725,8 @@
           </sp>
           <sp who="#tamas">
             <speaker>TAMÁS.</speaker>
-            <p>Én uramnak mindjárt rerendálom. <stage>El.</stage></p>
+            <p>Én uramnak mindjárt rerendálom. <stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1727,7 +1768,8 @@
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
-            <p>Ha elvégeztem dolgomat. <stage>El.</stage></p>
+            <p>Ha elvégeztem dolgomat. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
@@ -1746,11 +1788,13 @@
           </sp>
           <sp who="#vilehlm">
             <speaker>VILHELM.</speaker>
-            <p>Magyar peszit, nehez emper. <stage>El.</stage></p>
+            <p>Magyar peszit, nehez emper. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
-            <p><stage>egyedül.</stage> Minden oly titokban megyen ezen háznál, senki sem
+            <p>
+              <stage>egyedül.</stage> Minden oly titokban megyen ezen háznál, senki sem
                             felel, mint illik, már a lakodalomról kellene gondoskodni, sütni, főzni
                             és semmi -</p>
           </sp>
@@ -1807,7 +1851,8 @@
           <sp who="#margit">
             <speaker>MARGIT:</speaker>
             <p>Igaz, Isten bocsáj! az az én öcsém mindenben úgy siet.
-                            <stage>El.</stage></p>
+                            <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
@@ -1844,7 +1889,8 @@
             <speaker>KÁROLY.</speaker>
             <p>Nem titkolom tovább, bátran megvallom, hogy téged szeretlek, úgyis
                             terhemre van titkos érzésem. Én mindjárt - <stage>El akar
-                            menni.</stage></p>
+                            menni.</stage>
+            </p>
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
@@ -1896,7 +1942,8 @@
           <stage>Szélházy, az előbbiek.</stage>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
-            <p><stage>magában.</stage> Hahaha! csak igaz! a szép embernek mindenkor
+            <p>
+              <stage>magában.</stage> Hahaha! csak igaz! a szép embernek mindenkor
                             kedvez a szerencse. Szegény, szerelmes leány! atyjának titkát elárulja,
                             hogy részesüljön szerelmemben. Sohasem véltem, hogy ezen öreg katonába
                             annyi finom érzés szorult, hogy a kérőket ily próbára tegye; ha leánya
@@ -1904,7 +1951,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>titkon Málihoz.</stage> Ez Lidi munkája.</p>
+            <p>
+              <stage>titkon Málihoz.</stage> Ez Lidi munkája.</p>
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
@@ -1941,7 +1989,8 @@
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>félre.</stage> Maga sem érti ez magát. Óh, párducos Árpád! ha
+            <p>
+              <stage>félre.</stage> Maga sem érti ez magát. Óh, párducos Árpád! ha
                             ilyen az unokád!</p>
           </sp>
           <sp who="#szelhazy">
@@ -1958,7 +2007,8 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
-            <p><stage>hirtelen.</stage> Az atyja! <stage>Félre.</stage> Szegény! erővel
+            <p>
+              <stage>hirtelen.</stage> Az atyja! <stage>Félre.</stage> Szegény! erővel
                             atyjának fogadja, hogy engemet elnyerjen. <stage>Málihoz.</stage> Ezen
                             úrhoz volt már szerencsém, de nevét nem tudom.</p>
           </sp>
@@ -1968,9 +2018,11 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
-            <p><stage>félre.</stage> Tulajdon bátyja! ezt is megtagadja.
+            <p>
+              <stage>félre.</stage> Tulajdon bátyja! ezt is megtagadja.
                                 <stage>Károlyhoz.</stage> Hm, úgy! haha! örvendek. <stage>Csengetés
-                                hallik.</stage></p>
+                                hallik.</stage>
+            </p>
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
@@ -2112,11 +2164,13 @@
                             atyafiságos szövetségbe nem léphetünk is. Nekem az úr húga, Máli
                             kisasszony, tetszik, felette tetszik, jobban, mint a kapitány leánya, de
                             a sors - ach, legyen elég. He, Vilhelm, Vilhelm!
-                                <stage>Eltáncol.</stage></p>
+                                <stage>Eltáncol.</stage>
+            </p>
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
-            <p><stage>egyedül.</stage> Ki érti ezt? és mégis ő a szerencsés! gondtalan
+            <p>
+              <stage>egyedül.</stage> Ki érti ezt? és mégis ő a szerencsés! gondtalan
                             éli világát, minden szavát arannyal fontolja, külsejét a község bámulja
                             és a majmolásban számos követőket talál; nemesebb érzeményt nem ismer,
                             az állatok életét éli csak. Valóban! ha a gazdagság ily útra vezet,
@@ -2124,7 +2178,8 @@
                             ügyész! igaz, az is egyetlen nemében, de tisztelni kell sok szép
                             tulajdonit. Most megyek kikémlelni a dolgot; mire a nap leszáll,
                             megtudom, mi tárja fel inkább az emberi szívet, az arany-e, vagy a hív
-                            szerelem. <stage>El.</stage></p>
+                            szerelem. <stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2227,7 +2282,8 @@
           <stage>Tamás, előbbiek.</stage>
           <sp who="#tamas">
             <speaker>TAMÁS.</speaker>
-            <p><stage>borzasan besiet.</stage> Tekintetes uram! oda vagyunk!</p>
+            <p>
+              <stage>borzasan besiet.</stage> Tekintetes uram! oda vagyunk!</p>
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
@@ -2264,11 +2320,13 @@
           <sp who="#perfoldy">
             <speaker>PERFÖLDY.</speaker>
             <p>Mindjárt megvizsgálom a dolgot. Kisasszony, addig is recommendálom
-                            magamat, tüstént compareálok. <stage>El Tamással.</stage></p>
+                            magamat, tüstént compareálok. <stage>El Tamással.</stage>
+            </p>
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
-            <p><stage>egyedül.</stage> Veszedelmes játékba kaptam! Málit akarám
+            <p>
+              <stage>egyedül.</stage> Veszedelmes játékba kaptam! Málit akarám
                             megmenteni, utóbb önnön szívemet kell őriznem; mást akartam csalni és
                             magamat csaltam meg. Ez a Perföldy szegletessége mellett szerelemre
                             méltó, mert ritka embersége s nemes tulajdoni elfelejtetik azon
@@ -2301,7 +2359,8 @@
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>örömmel.</stage> Hála Isten! Lidi! mely angyal szóla belőled?
+            <p>
+              <stage>örömmel.</stage> Hála Isten! Lidi! mely angyal szóla belőled?
                             Igaz? nem kellek nekik? szólottál velök?</p>
           </sp>
           <sp who="#lidi">
@@ -2416,7 +2475,8 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>Károlyhoz.</stage> Hát te min gondolkodol? talán menyegzős
+            <p>
+              <stage>Károlyhoz.</stage> Hát te min gondolkodol? talán menyegzős
                             verseket csinálsz?</p>
           </sp>
           <sp who="#karoly">
@@ -2475,7 +2535,8 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>szavába esik.</stage> Aki süket és téged nem kénytelen
+            <p>
+              <stage>szavába esik.</stage> Aki süket és téged nem kénytelen
                             hallgatni.</p>
           </sp>
         </div>
@@ -2484,7 +2545,8 @@
           <stage>Szélházy, Perföldy és az előbbiek.</stage>
           <sp who="#perfoldy">
             <speaker>PERFÖLDY.</speaker>
-            <p><stage>Szélházyhoz.</stage> Amint mondám! a kölcsönös kék foltokat kell
+            <p>
+              <stage>Szélházyhoz.</stage> Amint mondám! a kölcsönös kék foltokat kell
                             nékik büntetésül imputálni; mert ha a dolgot megponderáljuk és
                             invesztigáljuk, tehát azon fundamentomot találjuk benne, hogy a szolgák
                             urokhoz való hűségöket demonstrálni akarván, egymást aggrediálták et sic
@@ -2513,7 +2575,8 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
-            <p><stage>félre.</stage> Még szólani mer, holott tudja szándékomat.
+            <p>
+              <stage>félre.</stage> Még szólani mer, holott tudja szándékomat.
                                 <stage>Baltafyhoz.</stage> Mon capitaine! tehát én is -</p>
           </sp>
           <sp who="#baltafy">
@@ -2533,19 +2596,23 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p>Ha úgy tetszik. <stage>Perföldyvel el.</stage></p>
+            <p>Ha úgy tetszik. <stage>Perföldyvel el.</stage>
+            </p>
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
-            <p><stage>Lidihez.</stage> Nemsokára üt az óra, mely szerencsémet zengi.
+            <p>
+              <stage>Lidihez.</stage> Nemsokára üt az óra, mely szerencsémet zengi.
                                 <stage>Málihoz.</stage> Sajnálom! vigasztalja magát.
-                                <stage>El.</stage></p>
+                                <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
             <p>Mennek, nem is szólnak, pedig jelen kell lennem! Máli, mondd meg
                             szándékodat, majd én beszélek helyetted, tudod, majd én ékesen adom elő.
-                                <stage>El.</stage></p>
+                                <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
@@ -2557,7 +2624,8 @@
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
-            <p>Mi lesz mindebből? <stage>El mindnyájan.</stage></p>
+            <p>Mi lesz mindebből? <stage>El mindnyájan.</stage>
+            </p>
           </sp>
         </div>
       </div>
@@ -2601,7 +2669,8 @@
           <stage>Máli, az előbbiek.</stage>
           <sp who="#mali">
             <speaker>MÁLI</speaker>
-            <p><stage>magában.</stage> Mely szomorú a mi sorsunk, ha a durvább férfiúi
+            <p>
+              <stage>magában.</stage> Mely szomorú a mi sorsunk, ha a durvább férfiúi
                             ész intézi e földi pályánkat, ha hideg feltételek letiporják a szív édes
                             gerjedelmét, nincs akkor támasza éltünknek, nincs semmi malasztja. Mit
                             ér a magában élő asszonyi érzésnek a méltóság, mit a dicsőség, ha annak
@@ -2622,7 +2691,8 @@
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
-            <p><stage>félre.</stage> Én nem nézhetem, mint szomorog, mindent
+            <p>
+              <stage>félre.</stage> Én nem nézhetem, mint szomorog, mindent
                             megvallok.</p>
           </sp>
           <sp who="#lidi">
@@ -2641,7 +2711,8 @@
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
-            <p>Hát megyek. <stage>El.</stage></p>
+            <p>Hát megyek. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
@@ -2668,7 +2739,8 @@
           <stage>Margit, az előbbiek.</stage>
           <sp who="#margit">
             <speaker>MARGIT</speaker>
-            <p><stage>nagy bokrétával.</stage> Megvan, estvére kézfogás, öröm, vígság,
+            <p>
+              <stage>nagy bokrétával.</stage> Megvan, estvére kézfogás, öröm, vígság,
                             tánc - mindent elintéztem. Máli, az atyád valamit akar, a kertbe zárta
                             el magát; de én a kisajtón beszöktem, meglesém, ah! nem szabad szólanom,
                             nagy ünnep lesz. Ím! vedd ezt a szép bokrétát, tulajdon kezemmel
@@ -2706,7 +2778,8 @@
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>félre.</stage> Sehol sincs nyugtom. <stage>Margithoz.</stage>
+            <p>
+              <stage>félre.</stage> Sehol sincs nyugtom. <stage>Margithoz.</stage>
                             Mindjárt megyek.</p>
           </sp>
           <sp who="#margit">
@@ -2729,7 +2802,9 @@
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>félre.</stage> Így megmenekszem. <stage>El.</stage></p>
+            <p>
+              <stage>félre.</stage> Így megmenekszem. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
@@ -2740,7 +2815,8 @@
             <p>Mint van, báró úr? éppen most küszködöm húgommal.
                                 <stage>Hátranéz.</stage> Máli! elment - bocsánatot, kedves úr! de
                             tovább nem lehet szerencsém, óh, annyi a bajom. Lidi! mulasd e drága
-                            urat, sajnálom - Máli! gonosz leány. <stage>El.</stage></p>
+                            urat, sajnálom - Máli! gonosz leány. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
@@ -2748,7 +2824,8 @@
           </sp>
           <sp who="#lidi">
             <speaker>LIDI</speaker>
-            <p><stage>ásítozva.</stage> Mely boldogság!</p>
+            <p>
+              <stage>ásítozva.</stage> Mely boldogság!</p>
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
@@ -2777,7 +2854,8 @@
           </sp>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
-            <p>Valóban, egészen el vagyok ragadtatva. <stage>Ásítozik.</stage></p>
+            <p>Valóban, egészen el vagyok ragadtatva. <stage>Ásítozik.</stage>
+            </p>
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
@@ -2829,7 +2907,8 @@
                             nem kapaszkodhatnám. Hah! mellem csatázik, fejem tétováz, elmém
                             szaladgál. Hah! tőrt döfnék mellembe, ha nem szeretne, és piros vérem
                             ezt a helyet mosná - Íme! lábához borulok - <stage>Lábához
-                            esik.</stage></p>
+                            esik.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2839,7 +2918,8 @@
           </sp>
           <sp who="#perfoldy">
             <speaker>PERFÖLDI</speaker>
-            <p><stage>az ajtónál megáll.</stage> Mit látok! mit hallok! levátát tartanak
+            <p>
+              <stage>az ajtónál megáll.</stage> Mit látok! mit hallok! levátát tartanak
                             -</p>
           </sp>
           <sp who="#szelhazy">
@@ -2891,7 +2971,8 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
-            <p><stage>félre.</stage> Nem érti: nem kell a leánynak.
+            <p>
+              <stage>félre.</stage> Nem érti: nem kell a leánynak.
                                 <stage>Perföldihez.</stage> Ezen dologban talán -</p>
           </sp>
           <sp who="#perfoldy">
@@ -2935,11 +3016,13 @@
           </sp>
           <sp who="#lidi">
             <speaker>LIDI</speaker>
-            <p><stage>Perföldyhez.</stage> Ha úgy tetszik.</p>
+            <p>
+              <stage>Perföldyhez.</stage> Ha úgy tetszik.</p>
           </sp>
           <sp who="#perfoldy">
             <speaker>PERFÖLDY.</speaker>
-            <p><stage>Méltóztassék.</stage> Elvezeti Lidit.</p>
+            <p>
+              <stage>Méltóztassék.</stage> Elvezeti Lidit.</p>
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
@@ -2954,11 +3037,14 @@
             <speaker>SZÉLHÁZY.</speaker>
             <p>Hah! engem elragad, jer karjaimba! mely szép kezecske! <stage>Amint
                                 szájához viszi János kezét, megfordul.</stage> Parbleu! mi volt ez?
-                            menjünk. <stage>El.</stage></p>
+                            menjünk. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#janos">
             <speaker>JÁNOS.</speaker>
-            <p><stage>homlokára mutat.</stage> Itt hibázik! <stage>El.</stage></p>
+            <p>
+              <stage>homlokára mutat.</stage> Itt hibázik! <stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2966,7 +3052,8 @@
           <stage>Kert, egy lugosban három ülés. Baltafy, Ferenc, kertészek.</stage>
           <sp who="#baltafy">
             <speaker>BALTAFY</speaker>
-            <p><stage>a kertészekhez, kik a lugost virágokkal ékesítik.</stage> Így!
+            <p>
+              <stage>a kertészekhez, kik a lugost virágokkal ékesítik.</stage> Így!
                             kész minden, Ferkó! ládd, az embernek öreg napjaira is marad öröm hátra;
                             én oly szerencsés vagyok, mintha az ellenséget megszalasztottuk
                             volna.</p>
@@ -2996,7 +3083,8 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>a kertészekhez.</stage> Ti most elmehettek.</p>
+            <p>
+              <stage>a kertészekhez.</stage> Ti most elmehettek.</p>
           </sp>
           <sp>
             <stage>Kertészek el.</stage>
@@ -3123,16 +3211,19 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>Ferenchez.</stage> Menj a mozsarakhoz.</p>
+            <p>
+              <stage>Ferenchez.</stage> Menj a mozsarakhoz.</p>
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
             <p>Nem jól megy a dolog! Szegény kisasszony. <stage>Fejcsóválva
-                            el.</stage></p>
+                            el.</stage>
+            </p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>Málihoz.</stage> Leány! még egyszer mondom, ne ingerelj!</p>
+            <p>
+              <stage>Málihoz.</stage> Leány! még egyszer mondom, ne ingerelj!</p>
           </sp>
         </div>
         <div type="scene">
@@ -3150,7 +3241,8 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>Margithoz.</stage> Hallgass! állva szokás kérni.
+            <p>
+              <stage>Margithoz.</stage> Hallgass! állva szokás kérni.
                                 <stage>Málihoz.</stage> Jer, Máli. Leülnek. Itt ül mellettem
                             leányom! amint értém, az urak közül mindegyik óhajtja őt feleségül; én
                             neki szabad választást engedtem, azért, ha egyik hátramarad, harag ne
@@ -3158,7 +3250,8 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
-            <p><stage>félre.</stage> Jól játszik az öreg, de okosabb emberekre
+            <p>
+              <stage>félre.</stage> Jól játszik az öreg, de okosabb emberekre
                             talált.</p>
           </sp>
           <sp who="#baltafy">
@@ -3189,13 +3282,16 @@
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>felugrik.</stage> Hála Isten!</p>
+            <p>
+              <stage>felugrik.</stage> Hála Isten!</p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>hevesen.</stage> Hah! mely szégyen! Jól van, jól, találok én
+            <p>
+              <stage>hevesen.</stage> Hah! mely szégyen! Jól van, jól, találok én
                             férjet leányomnak. Mennydörgő-rázta! mely megvetés. Jól van! Hé! Ferkó!
-                            Ferkó! - Még nagy a világ - még - <stage>Mozsár durran.</stage></p>
+                            Ferkó! - Még nagy a világ - még - <stage>Mozsár durran.</stage>
+            </p>
           </sp>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
@@ -3203,7 +3299,8 @@
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>integet.</stage> Megállj! Jancsi! fuss, ne lőjenek többé! fordítsd
+            <p>
+              <stage>integet.</stage> Megállj! Jancsi! fuss, ne lőjenek többé! fordítsd
                             fel a mozsarakat. <stage>Jancsi el.</stage> Mennydörgő-rázta! a méreg
                             megemészt, minden visszára megy.</p>
           </sp>
@@ -3213,7 +3310,8 @@
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
-            <p><stage>előjön.</stage> Mi történt?</p>
+            <p>
+              <stage>előjön.</stage> Mi történt?</p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
@@ -3252,11 +3350,13 @@
           </sp>
           <sp who="#mali">
             <speaker>MÁLI.</speaker>
-            <p><stage>Lidi karjába.</stage> Lidi! kedves barátném!</p>
+            <p>
+              <stage>Lidi karjába.</stage> Lidi! kedves barátném!</p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
-            <p><stage>megszorulva.</stage> Hm, mennydörgő-rázta! mit tegyek? Ha
+            <p>
+              <stage>megszorulva.</stage> Hm, mennydörgő-rázta! mit tegyek? Ha
                             meggondolom - valóban Lidi! jer mellemhez! több eszed volt, mint
                             nekem.</p>
           </sp>
@@ -3267,7 +3367,8 @@
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
             <p>Nem haragszom, és hogy lásd - mely robajt hallok! a kertajtó nyílik,
-                            Jancsi nézd meg. <stage>Jancsi el.</stage></p>
+                            Jancsi nézd meg. <stage>Jancsi el.</stage>
+            </p>
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
@@ -3287,11 +3388,13 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY</speaker>
-            <p><stage>félre.</stage> Hah! keserű sors!</p>
+            <p>
+              <stage>félre.</stage> Hah! keserű sors!</p>
           </sp>
           <sp who="#perfoldy">
             <speaker>PERFÖLDY</speaker>
-            <p><stage>félre.</stage> Hogy konzekvens maradjak és kollégáim ne
+            <p>
+              <stage>félre.</stage> Hogy konzekvens maradjak és kollégáim ne
                             vegzáljanak <stage>Lidire tekinget</stage> a leány szép, a nagyobb
                             szállás megvan, ergo meg kell lenni. <stage>Baltafyhoz.</stage>
                             Spektábilis! én szavamnak ura vagyok, Lidi kisasszonyt kérem
@@ -3338,7 +3441,8 @@
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
             <p>Vége már; itt gondolom, lesz egy pár! <stage>Perföldyre és Lidire
-                                mutat.</stage></p>
+                                mutat.</stage>
+            </p>
           </sp>
           <sp who="#perfoldy">
             <speaker>PERFÖLDY</speaker>
@@ -3363,7 +3467,8 @@
           </sp>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
-            <p>Durrongás lesz ennek a vége. <stage>El.</stage></p>
+            <p>Durrongás lesz ennek a vége. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#hosvary">
             <speaker>HŐSVÁRY.</speaker>
@@ -3375,7 +3480,8 @@
           <stage>Károly, az előbbiek.</stage>
           <sp who="#karoly">
             <speaker>KÁROLY</speaker>
-            <p><stage>huszárruhában.</stage> Atyám!</p>
+            <p>
+              <stage>huszárruhában.</stage> Atyám!</p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
@@ -3401,7 +3507,8 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY</speaker>
-            <p><stage>félre.</stage> Mely unalmas érzékenységek!
+            <p>
+              <stage>félre.</stage> Mely unalmas érzékenységek!
                                 <stage>Baltafyhoz.</stage> Magamat ajánlom, köszönöm barátságát.</p>
           </sp>
           <sp who="#baltafy">
@@ -3410,7 +3517,8 @@
           </sp>
           <sp who="#szelhazy">
             <speaker>SZÉLHÁZY</speaker>
-            <p>Ach! mely hátra vagyunk. <stage>El.</stage></p>
+            <p>Ach! mely hátra vagyunk. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
@@ -3430,7 +3538,8 @@
             <p>Barátim és ti kedvesim, ez a nap tehát gyönyörűen végződött.
                                 <stage>Mozsarak durrognak.</stage> Vegyétek egymást és éljetek a
                             haza javára, díszére, dicsőségére. <stage>Károly és Máli az öreg mellére
-                                borulnak; a kárpit lefordul.</stage></p>
+                                borulnak; a kárpit lefordul.</stage>
+            </p>
           </sp>
         </div>
       </div>

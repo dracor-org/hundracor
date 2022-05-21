@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000027</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -226,92 +228,60 @@
           <hi rend="underline">Személyek</hi>
         </head>
         <castItem>
-          <role>
-            <roleName>JEHOVA</roleName>
-          </role>
+          <role><roleName>JEHOVA</roleName></role>
         </castItem>
         <castGroup>
           <roleDesc>ZSIDÓK</roleDesc>
           <castItem>
-            <role>
-              <roleName>MÓZES</roleName>
-            </role>
+            <role><roleName>MÓZES</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>ÁRON</roleName>
-            </role>
+            <role><roleName>ÁRON</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>HÚR</roleName>
-            </role>
+            <role><roleName>HÚR</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>KÁLEB</roleName>
-            </role>
+            <role><roleName>KÁLEB</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>JÓZSUÉ</roleName>
-            </role>
+            <role><roleName>JÓZSUÉ</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>ABIRAM</roleName>
-            </role>
+            <role><roleName>ABIRAM</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>DÁTÁN</roleName>
-            </role>
+            <role><roleName>DÁTÁN</roleName></role>
           </castItem>
           <castItem>
             <role><roleName>GERZÓN</roleName>MÓZES fiacskája</role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>NÉP</roleName>
-            </role>
+            <role><roleName>NÉP</roleName></role>
           </castItem>
         </castGroup>
         <castGroup>
           <roleDesc>EGYIPTOMBELIEK</roleDesc>
           <castItem>
-            <role>
-              <roleName>FÁRAÓ</roleName>
-            </role>
+            <role><roleName>FÁRAÓ</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>FŐPAP</roleName>
-            </role>
+            <role><roleName>FŐPAP</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>ORSZÁGLÁR</roleName>
-            </role>
+            <role><roleName>ORSZÁGLÁR</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>TISZTTARTÓ</roleName>
-            </role>
+            <role><roleName>TISZTTARTÓ</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>RENDŐRFŐ</roleName>
-            </role>
+            <role><roleName>RENDŐRFŐ</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>HÍRNÖK</roleName>
-            </role>
+            <role><roleName>HÍRNÖK</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>POROSZLÓK</roleName>
-            </role>
+            <role><roleName>POROSZLÓK</roleName></role>
           </castItem>
           <castItem>
             <role><roleName>JETHRO</roleName>midianita főpap</role>
@@ -332,9 +302,7 @@
             <role><roleName>KOZBI</roleName>Mária szolgálója</role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>NÉHÁNY SZOLGÁLÓ</roleName>
-            </role>
+            <role><roleName>NÉHÁNY SZOLGÁLÓ</roleName></role>
           </castItem>
         </castGroup>
       </castList>
@@ -1401,9 +1369,7 @@
               <l>Hajtsátok a marhát tovább, fiúk!</l>
               <l>És a zsákmánnyal megterhelt tevéket;</l>
               <l>Míg én e rejtélyt kissé megvigyázom.</l>
-              <l>
-                <stage>(A poroszlók el.)</stage>
-              </l>
+              <l><stage>(A poroszlók el.)</stage></l>
               <l>Az ajtó zárva. – Senki nem felel.</l>
               <l>Majd enged e bárd megpróbált fokának.</l>
               <l>Mit jó szó nem tesz, az erő kivívja,</l>
@@ -1840,9 +1806,7 @@
               <l>Menj, gyáva szolga, menj, siess feladni.</l>
               <l>Nem írigyellek és nem is remeglek. –</l>
               <l>El a szememből.</l>
-              <l>
-                <stage>(ABIRAM, KÁLEB s társaik el.)</stage>
-              </l>
+              <l><stage>(ABIRAM, KÁLEB s társaik el.)</stage></l>
               <l>Áron, nincs időnk,</l>
               <l>Hogy vesztegeljünk. Óh, én megcsalódtam.</l>
               <l>E nép nem érett még, nem szenvedett még</l>
@@ -2250,9 +2214,7 @@
             <l>Nincs nőm, nincs gyermekem, nincs otthonom -</l>
             <l>Te egyedül csak harcok Istene,</l>
             <l>Te egyedül nép - ameddig szabad léssz. -</l>
-            <l>
-              <stage>(Áron, Húr, Józsué jőnek.)</stage>
-            </l>
+            <l><stage>(Áron, Húr, Józsué jőnek.)</stage></l>
             <l>Üdvöz légy, testvér - üdvöz légy, barát!</l>
             <l>Te is, kit még mint gyermeket hagyék el,</l>
             <l>S kettős örömmel látlak férfiúnak! -</l>
@@ -2624,9 +2586,7 @@
           <lg>
             <l>Fiam, siess - én már mindent tudok,</l>
             <l>Áldásom véled - ismét látlak egykor.</l>
-            <l>
-              <stage>(Mind el.)</stage>
-            </l>
+            <l><stage>(Mind el.)</stage></l>
           </lg>
         </sp>
         <div type="scene">
@@ -3249,18 +3209,14 @@
             <lg>
               <l>Nem hozhat rosszat, aki úgy megyen</l>
               <l>Könyörgeni, hogy mostan jár utószor.</l>
-              <l>
-                <stage>(El.)</stage>
-              </l>
+              <l><stage>(El.)</stage></l>
             </lg>
           </sp>
           <sp who="#aron">
             <speaker>ÁRON</speaker>
             <lg>
               <l>Imádkozzunk! - Nagy perc köszön reánk.</l>
-              <l>
-                <stage>(Csendes imádság.)</stage>
-              </l>
+              <l><stage>(Csendes imádság.)</stage></l>
             </lg>
           </sp>
           <sp who="#jokhebed">
@@ -3750,9 +3706,7 @@
           <speaker>MÓZES</speaker>
           <lg>
             <l>Megállj őrült nép, hó! - Lépést se többet! -</l>
-            <l>
-              <stage>(A díszmenet megáll, a zene elnémul.)</stage>
-            </l>
+            <l><stage>(A díszmenet megáll, a zene elnémul.)</stage></l>
             <l>Ki alkotá e bálványt? - Nos, ki volt</l>
             <l>Elég merész felkelni Isten ellen? -</l>
             <l>Siket vagy-é nép, hogy felelni nem tudsz? -</l>
@@ -4131,16 +4085,12 @@
           <speaker>MÓZES</speaker>
           <lg>
             <l>Mégis itt fecsegtek? -</l>
-            <l>
-              <stage>(Húr és Káleb el.)</stage>
-            </l>
+            <l><stage>(Húr és Káleb el.)</stage></l>
             <l>Ti, Áron s Mária, száműzve vagytok</l>
             <l>A táborból, mindaddig, míg az ég</l>
             <l>Meg nem sokallja büntetésteket,</l>
             <l>S én azt nem mondom: jőjetek, elég volt.</l>
-            <l>
-              <stage>(Áron s Mária elmennek.)</stage>
-            </l>
+            <l><stage>(Áron s Mária elmennek.)</stage></l>
             <l>Most el, mindnyájan! Hagyjatok magamra.</l>
             <l>Szükségem van rá, hogy magam legyek.</l>
             <l>A nép kegyelmet nyert, s törvénye itt</l>
@@ -4484,9 +4434,7 @@
             <l>Oly áldásdús erőt, védd meg tovább is</l>
             <l>Én népemet. Mert szolgád izmai</l>
             <l>Csak emberizmok. - Nem birom tovább.</l>
-            <l>
-              <stage>(Kezeit lebocsátja.)</stage>
-            </l>
+            <l><stage>(Kezeit lebocsátja.)</stage></l>
           </lg>
         </sp>
         <sp who="#kaleb">
@@ -5009,9 +4957,7 @@
             <l>Mint tompa mennydörgés a felleget? -</l>
             <l>Ilyenkor a nép máskor még pihen,</l>
             <l>Tekintsd meg, Józsué. - Ah, már maradhatsz.</l>
-            <l>
-              <stage>(Áron, Káleb és Húr jőnek.)</stage>
-            </l>
+            <l><stage>(Áron, Káleb és Húr jőnek.)</stage></l>
             <l>Itt kémeim! - Káleb, mi jót hozasz?</l>
             <l>Nos, Húr mi újság? - Áron, már te is</l>
             <l>Fel vagy, mi űzte úgy el álmodat?</l>
@@ -5555,9 +5501,7 @@
             <l>Vonulni, majd vezéreket keres:</l>
             <l>Üres helyök döbbentse vissza őt. -</l>
             <l>Menj Józsué - a léviták barátink. -</l>
-            <l>
-              <stage>(Józsué el.)</stage>
-            </l>
+            <l><stage>(Józsué el.)</stage></l>
             <l>No, Cipporám, most már enyelghetünk</l>
             <l>Megint. - De mondd, mért sápadsz, mit remegsz? -</l>
           </lg>
@@ -6711,10 +6655,8 @@
               <l>Ha érdemem volt, azt is elvevéd,</l>
               <l>Mert eltörpíted a jutalmazással. - -</l>
               <l>Szent föld! E csókkal, íme, eljegyezlek! -</l>
-              <l>
-                <stage>(Leborul, hogy a bokrok s sziklák eltakarják. Jehova
-                                    eltűnik.)</stage>
-              </l>
+              <l><stage>(Leborul, hogy a bokrok s sziklák eltakarják. Jehova
+                                    eltűnik.)</stage></l>
             </lg>
           </sp>
         </div>

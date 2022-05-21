@@ -61,8 +61,7 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref>
-                    </orgName>
+          <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -71,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000013</idno>
-        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -167,7 +168,7 @@
             <persName>TÜNDÉRFI</persName>
           </person>
         </listPerson>
-        <!--Sajtóhiba: Lipptopp: Tipptopp  -->
+<!--Sajtóhiba: Lipptopp: Tipptopp  -->
       </particDesc>
     </profileDesc>
   </teiHeader>
@@ -230,7 +231,8 @@
           <sp who="#samu">
             <speaker>SAMU.</speaker>
             <p>No no, Lázár, isz az oskolába is csak így teszek én, egye meg Ked ezt a
-                            körtét, én nem haragszom.<stage>Nyújtja neki a körtét.</stage></p>
+                            körtét, én nem haragszom.<stage>Nyújtja neki a körtét.</stage>
+            </p>
           </sp>
           <sp who="#lazar">
             <speaker>LÁZÁR.</speaker>
@@ -269,7 +271,8 @@
           <sp who="#samu">
             <speaker>SAMU.</speaker>
             <p>Nem vagyok én olyan bolond, mint asszonyám - jön!<stage>Akkor jön az
-                                Anyja kapcát kötögetvén.</stage></p>
+                                Anyja kapcát kötögetvén.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -425,7 +428,8 @@
             <p>Most csak itt hagyom, hanem tétessen félre az Asszony valami fél
                             felöntőre valót; mert tegnap, úgy tetszik, mintha egy bolhát vettem
                             volna észre a szobámba, majd meglocsoltatom véle mindenütt, talám
-                                megöli.<stage>Veszi a kalapját</stage></p>
+                                megöli.<stage>Veszi a kalapját</stage>
+            </p>
           </sp>
           <sp who="#karnyone">
             <speaker>KARNYÓNÉ.</speaker>
@@ -478,12 +482,14 @@
                             modiból, minthogy különben is szűk a gabona, hanem a fekete haj, a
                             kinrusz púder kedves a párizsiak előtt, mert persze, a korom csak
                             olcsóbb, mint a búza.<stage>Kinrusszal volt a haja
-                            meghintve.</stage></p>
+                            meghintve.</stage>
+            </p>
           </sp>
           <sp who="#lipittlotty">
             <speaker>LIPITTLOTTY.</speaker>
             <p>De hát azt a csizmát fótozni viszi a vargához, vagy mi?<stage>Fél
-                                csizmája a hóna alatt volt s mezitláb volt fél lábával.</stage></p>
+                                csizmája a hóna alatt volt s mezitláb volt fél lábával.</stage>
+            </p>
           </sp>
           <sp who="#tipptopp">
             <speaker>TIPPTOPP.</speaker>
@@ -496,7 +502,8 @@
                                 kívántatnak.<stage>Abrosz volt a nyakravalója.</stage>Más példa. A
                             németek az orrok környékét tubákozzák be; de a mai franciáknak csak a
                             szemek csillámlik ki a tubák közül.<stage>Az ábrázatja be volt
-                                tubákolva.</stage></p>
+                                tubákolva.</stage>
+            </p>
           </sp>
           <sp who="#lipittlotty">
             <speaker>LIPITTLOTTY.</speaker>
@@ -597,7 +604,8 @@
           </sp>
           <sp who="#lipittlotty">
             <speaker>LIPITTLOTTY.</speaker>
-            <p>Eh! - Magamat rekomendálom.<stage>Megharagszik.</stage></p>
+            <p>Eh! - Magamat rekomendálom.<stage>Megharagszik.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -643,7 +651,8 @@
           <sp who="#tipptopp">
             <speaker>TIPPTOPP.</speaker>
             <p>Ha, ha, ha, a’ bizon rendes, még azt nem
-                                                hallottam.<stage>Félbe szakasztja Lázár.</stage></p>
+                                                hallottam.<stage>Félbe szakasztja Lázár.</stage>
+            </p>
           </sp>
           <sp who="#lazar">
             <speaker>LÁZÁR.</speaker>
@@ -659,7 +668,8 @@
                                             Rajna mellett Szant Domingoba beütött és 1200 francia
                                             képviselőt hadifogolyá tett. - Egy pesti corespondensem
                                             azt írja, hogy ott a kávéházakba...<stage>Félbeszakad,
-                                                mivel jön Karnyóné.</stage></p>
+                                                mivel jön Karnyóné.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -717,14 +727,16 @@
           </sp>
           <sp who="#karnyone">
             <speaker>KARNYÓNÉ.</speaker>
-            <p>S Boris!<stage>Boris felel a palotából:</stage></p>
+            <p>S Boris!<stage>Boris felel a palotából:</stage>
+            </p>
           </sp>
           <sp who="#boris">
             <speaker>BORIS.</speaker>
             <p>Parancsoljon! Jöszte, légy itt a bótba, míg a Lázár megjön.<stage>Ezzel a
                                 vénasszony felmegy a házba, Tipptopp is elmegy félre a bót mellé,
                                 hogy hallja, hogy Boriska lejön, s megvárja, s
-                            hozzámegyen.</stage></p>
+                            hozzámegyen.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -879,12 +891,14 @@
           </sp>
           <sp who="#tipptopp">
             <speaker>TIPPTOPP.</speaker>
-            <p>Én elveszlek, eb legyek<stage>Veri a mellyét.</stage></p>
+            <p>Én elveszlek, eb legyek<stage>Veri a mellyét.</stage>
+            </p>
           </sp>
           <sp who="#boris">
             <speaker>BORIS.</speaker>
             <p>Én az Úrhoz
-                            elmegyek<stage>Alázatosan.</stage></p>
+                            elmegyek<stage>Alázatosan.</stage>
+            </p>
           </sp>
           <p>
             <stage>Repetitio.</stage>
@@ -1006,7 +1020,8 @@
           </sp>
           <sp who="#lipittlotty">
             <speaker>LIPITTLOTTY.</speaker>
-            <p>Siess hamar.<stage>Samu elmegy.</stage></p>
+            <p>Siess hamar.<stage>Samu elmegy.</stage>
+            </p>
           </sp>
           <sp who="#lazar">
             <speaker>LÁZÁR.</speaker>
@@ -1032,7 +1047,8 @@
                             igaz-é, hogy a franciák csakugyan feltalálták már azt a meszi lüvö
                             levelet, mely szerént a levelet, ha postán küldik, mikor az ellenség
                             felszakasztja a kopertabol, egymást éri, úgy omlik ki a sok bombi...
-                                <stage>Félbeszakasztja.</stage></p>
+                                <stage>Félbeszakasztja.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1074,7 +1090,8 @@
           <sp who="#lazar">
             <speaker>LÁZÁR.</speaker>
             <p>De még elfelejtettem mondani, hogy a franciákra a gallusok is rátámadtak,
-                            aminthogy már szinte...<stage>Félbeszakasztja Karnyóné.</stage></p>
+                            aminthogy már szinte...<stage>Félbeszakasztja Karnyóné.</stage>
+            </p>
           </sp>
           <sp who="#karnyone">
             <speaker>KARNYÓNÉ.</speaker>
@@ -1162,7 +1179,8 @@
           </sp>
           <sp who="#karnyone">
             <speaker>KARNYÓNÉ.</speaker>
-            <p>És én szegény özvegy...<stage>Félbeszakasztja Lipittlotty:</stage></p>
+            <p>És én szegény özvegy...<stage>Félbeszakasztja Lipittlotty:</stage>
+            </p>
           </sp>
           <sp who="#lipittlotty">
             <speaker>LIPITTLOTTY.</speaker>
@@ -1201,7 +1219,8 @@
             <p>Te hitetlen! Te kényes disznó! Te világ sepredékje! Te cigány! úh, Lázár
                             Deák, adja azt a vas rőfőt, hadd verjem ki még a fogát is a
                             kurvakergetőnek, - uh, te akasztófára való, ki a
-                                bótómból.<stage>Elesik.</stage></p>
+                                bótómból.<stage>Elesik.</stage>
+            </p>
           </sp>
           <sp who="#lipittlotty">
             <speaker>LIPITTLOTTY.</speaker>
@@ -1220,7 +1239,8 @@
             <speaker>LÁZÁR.</speaker>
             <p>Lám megmondtam! no most kontó, jaj fejem! jaj vállam! a kontó! sem
                             egesség, sem pénz, se legény, se kontó, lássad most az Asszony, pedig én
-                            is elmegyek a botyábol.<stage>Elmegy.</stage></p>
+                            is elmegyek a botyábol.<stage>Elmegy.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1245,7 +1265,8 @@
                                         szeretlek, én inkább meghalok, - meg, vesszek el, ha meg nem
                                         halok. Ó, Uram! Hozd el az én utolsó órámat, ennyire meg
                                         vagyok csúfolva, és én
-                                            mégis...<stage>Félbeszakasztja.</stage></p>
+                                            mégis...<stage>Félbeszakasztja.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1681,7 +1702,8 @@
             <p>Toros kábosztát, édes fiam! azt is az anyád torjába eredj csak, végy
                             magadnak egy pár vajas kiflit.<stage>Samu elmegy.</stage>Fiam! Fiam!
                             Isten hozzád, már te engemet többet nem látsz, Isten hozzád!!!</p>
-            <p>Én nem tudom, mi az oka... <stage>Keservesen danol</stage></p>
+            <p>Én nem tudom, mi az oka... <stage>Keservesen danol</stage>
+            </p>
             <lg>
               <l>Ó, dugába dült remények!</l>
               <l>Ó, Legények ó, Legények!</l>
@@ -1756,11 +1778,13 @@
                                 pisztolyt tartott a Tipptopp mellyének, mely csak porozva volt fel,
                                 s abba a szempillantásba, más házból, más személy valósággal
                                 megtöltött pisztolyt lőtt el, s éppen azt gondolták volna, hogy
-                                Lipittlotty lőtte agyon Tipptoppot.</stage></p>
+                                Lipittlotty lőtte agyon Tipptoppot.</stage>
+            </p>
           </sp>
           <sp who="#tipptopp">
             <speaker>TIPPTOPP.</speaker>
-            <p>Uram irgalmazz, oda vagyok, ó, jaj!<stage>Ledől.</stage></p>
+            <p>Uram irgalmazz, oda vagyok, ó, jaj!<stage>Ledől.</stage>
+            </p>
           </sp>
           <sp who="#boris">
             <speaker>BORIS.</speaker>
@@ -1769,7 +1793,8 @@
           <sp who="#samu">
             <speaker>SAMU.</speaker>
             <p>Jaj tejem, jaj tálam!<stage>Mert készakarva el kellett törni egy
-                                személynek ráhágással a tejes tálat.</stage></p>
+                                személynek ráhágással a tejes tálat.</stage>
+            </p>
           </sp>
           <sp who="#lazar">
             <speaker>LÁZÁR.</speaker>
@@ -1890,7 +1915,8 @@
                             szerencsétlen ifjú! kegyetlen áldozatim! Itt a bűnös, itt a bíró, itt a
                             bosszúálló, elégedjetek meg, ez az óra, másvilág, fogadj be
                                 engemet.<stage>Mellybe lövi magát, az [a] megírt mód szerént
-                                esett.</stage></p>
+                                esett.</stage>
+            </p>
           </sp>
           <sp who="#kuruzs">
             <speaker>KURUZS.</speaker>
@@ -2098,7 +2124,8 @@
           <sp who="#karnyo">
             <speaker>KARNYÓ.</speaker>
             <p>Istenem, Uram! Miért is vezérlettél haza? Tömlöcből kriptába jöttem, ó
-                            szomorú este! ó halálos padimentom!.<stage>Elájul.</stage></p>
+                            szomorú este! ó halálos padimentom!.<stage>Elájul.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2180,8 +2207,10 @@
               <l>Főzz vacsorát az uradnak</l>
               <l>Fálelilela - Fálelilela.</l>
             </lg>
-            <p><stage>Tipptopphoz.</stage> Be bolond vagy, hogy megholtál!</p>
-            <p><stage>Lipittlottyhoz</stage> De te még bolondabb vóltál.</p>
+            <p>
+              <stage>Tipptopphoz.</stage> Be bolond vagy, hogy megholtál!</p>
+            <p>
+              <stage>Lipittlottyhoz</stage> De te még bolondabb vóltál.</p>
             <p>
               <stage>Kettőjükhöz</stage>
             </p>

@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000007</idno>
-        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -291,209 +293,127 @@
           <hi rend="underline"/>
         </head>
         <castItem>
-          <role>
-            <roleName>Az utolsó vendég</roleName>
-          </role>
+          <role><roleName>Az utolsó vendég</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Az Apa</roleName>
-          </role>
+          <role><roleName>Az Apa</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Az Anya</roleName>
-          </role>
+          <role><roleName>Az Anya</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Nagymama</roleName>
-          </role>
+          <role><roleName>A Nagymama</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Főpincér</roleName>
-          </role>
+          <role><roleName>A Főpincér</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Borfiú</roleName>
-          </role>
+          <role><roleName>A Borfiú</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Leányka</roleName>
-          </role>
+          <role><roleName>A Leányka</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Pierrette</roleName>
-          </role>
+          <role><roleName>Pierrette</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Tanácsos</roleName>
-          </role>
+          <role><roleName>A Tanácsos</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Az Abbé</roleName>
-          </role>
+          <role><roleName>Az Abbé</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Fiatal Költő</roleName>
-          </role>
+          <role><roleName>A Fiatal Költő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Tanár</roleName>
-          </role>
+          <role><roleName>A Tanár</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Egy Úr</roleName>
-          </role>
+          <role><roleName>Egy Úr</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Sárga Hajú Hölgy</roleName>
-          </role>
+          <role><roleName>A Sárga Hajú Hölgy</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Egy Hölgy</roleName>
-          </role>
+          <role><roleName>Egy Hölgy</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Egy Másik Hölgy</roleName>
-          </role>
+          <role><roleName>Egy Másik Hölgy</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Vállalkozó</roleName>
-          </role>
+          <role><roleName>A Vállalkozó</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A Takarítónő</roleName>
-          </role>
+          <role><roleName>A Takarítónő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Első Nő</roleName>
-          </role>
+          <role><roleName>Első Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Második Nő</roleName>
-          </role>
+          <role><roleName>Második Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Harmadik Nő</roleName>
-          </role>
+          <role><roleName>Harmadik Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Negyedik Nő</roleName>
-          </role>
+          <role><roleName>Negyedik Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Ötödik Nő</roleName>
-          </role>
+          <role><roleName>Ötödik Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Hatodik Nő</roleName>
-          </role>
+          <role><roleName>Hatodik Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Hetedik Nő</roleName>
-          </role>
+          <role><roleName>Hetedik Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Nyolcadik Nő</roleName>
-          </role>
+          <role><roleName>Nyolcadik Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Kilencedik Nő</roleName>
-          </role>
+          <role><roleName>Kilencedik Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Tizedik Nő</roleName>
-          </role>
+          <role><roleName>Tizedik Nő</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Munkások</roleName>
-          </role>
+          <role><roleName>Munkások</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Vendégek</roleName>
-          </role>
+          <role><roleName>Vendégek</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Egy Hang</roleName>
-          </role>
+          <role><roleName>Egy Hang</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Barátok</roleName>
-          </role>
+          <role><roleName>Barátok</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Rokonok</roleName>
-          </role>
+          <role><roleName>Rokonok</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Hordárok</roleName>
-          </role>
+          <role><roleName>Hordárok</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Pincérek</roleName>
-          </role>
+          <role><roleName>Pincérek</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Pierrette-ek</roleName>
-          </role>
+          <role><roleName>Pierrette-ek</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Kéményseprők</roleName>
-          </role>
+          <role><roleName>Kéményseprők</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Lovag</roleName>
-          </role>
+          <role><roleName>Lovag</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Bíró</roleName>
-          </role>
+          <role><roleName>Bíró</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Pap</roleName>
-          </role>
+          <role><roleName>Pap</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Kántor</roleName>
-          </role>
+          <role><roleName>Kántor</roleName></role>
         </castItem>
       </castList>
     </front>
@@ -516,16 +436,14 @@
                                                   megismétli a dal másik felét, a többiek újra
                                                   kezdik:</stage>
         </p>
-        <stage>
-          <lg>
+        <stage><lg>
             <l>Végigmentem az ormódi temetőn,</l>
             <l>Elvesztettem, elvesztettem,</l>
             <l>Elvesztettem piros bársony keszkenőm.</l>
             <l>Piros bársony keszkenőmet nem bánom,</l>
             <l>Csak a régi, csak a régi,</l>
             <l>Csak a régi szeretőmet sajnálom...</l>
-          </lg>
-        </stage>
+          </lg></stage>
         <p>
           <stage>Koccintanak. Ölelkeznek. Pincérek ételeket
                                                   hordanak fel. Egy apró Pierrette felugrik az
@@ -534,13 +452,15 @@
         <sp who="#pierrette">
           <speaker>PIERRETTE</speaker>
           <p>Kedves barátaim, nem hallottuk még szólóban énekelni a tanácsost!<stage>Leül az Abbé
-       ölébe.</stage></p>
+       ölébe.</stage>
+          </p>
         </sp>
         <sp who="#a_tarsasag">
           <speaker>A TÁRSASÁG</speaker>
           <p>Még nem hallottuk! Kedves tanácsos úr, énekelj! Légy szíves, énekelj nekünk
             valamit!</p>
-          <p><stage>Egyesek ordítanak.</stage>Énekelni! Énekelni!<stage>Mások belekezdenek a
+          <p>
+            <stage>Egyesek ordítanak.</stage>Énekelni! Énekelni!<stage>Mások belekezdenek a
               nótába.</stage>Halljuk! Halljuk!</p>
         </sp>
         <p>
@@ -565,11 +485,13 @@
           <p>"Én elmegyek, úgy akarta az ég..."<stage>Lassan az egész társaság vele énekel. Sokan sírnak,
        isznak, poharakat vagdosnak a földhöz, ütik az asztalt.</stage>"Könyörtelen szavaid
       tovaűznek. Tudom, hogy vissza..."<stage>Ebben a pillanatban óraütések. Az ének abbamarad. Az
-       Abbé az ablakhoz tántorog, és félrehúzza a függönyt. Kék téli szürkület.</stage></p>
+       Abbé az ablakhoz tántorog, és félrehúzza a függönyt. Kék téli szürkület.</stage>
+          </p>
         </sp>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
-          <p><stage>az egyházi énekek stílusát utánozva, de tréfálkozás nélkül</stage>Hölgyeim és uraim!
+          <p>
+            <stage>az egyházi énekek stílusát utánozva, de tréfálkozás nélkül</stage>Hölgyeim és uraim!
       Szerda reggel van. Hintsetek hamut a fejetekre, és menjetek az Úr házába. Ámen.</p>
         </sp>
         <p>
@@ -579,7 +501,8 @@
         </p>
         <sp who="#egy_hang">
           <speaker>EGY HANG</speaker>
-          <p>Gyújtsátok már fel a lámpákat!<stage>A csillár kigyullad.</stage></p>
+          <p>Gyújtsátok már fel a lámpákat!<stage>A csillár kigyullad.</stage>
+          </p>
         </sp>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
@@ -588,7 +511,8 @@
         </sp>
         <sp who="#pierrette">
           <speaker>PIERRETTE</speaker>
-          <p><stage>az Abbé nyakába csimpaszkodik</stage>Én csak veled megyek! Elkísérlek a
+          <p>
+            <stage>az Abbé nyakába csimpaszkodik</stage>Én csak veled megyek! Elkísérlek a
       parókiáig.</p>
         </sp>
         <sp who="#egy_holgy #a_masik_holgy">
@@ -597,9 +521,11 @@
         </sp>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
-          <p><stage>fenyegetően</stage>Leányaim, hagyjátok el a termet, mert miként Jézus a kalmárokat,
+          <p>
+            <stage>fenyegetően</stage>Leányaim, hagyjátok el a termet, mert miként Jézus a kalmárokat,
       korbáccsal kergetlek ki benneteket!<stage>Fölveszi a kabátját, amelyet egy pincér segít föl
-       rá, cilindert rak a fejére, és botjával hadonászik.</stage></p>
+       rá, cilindert rak a fejére, és botjával hadonászik.</stage>
+          </p>
         </sp>
         <p>
           <stage>PIERRETTE sír.</stage>
@@ -611,7 +537,8 @@
         </sp>
         <sp who="#egy_ur">
           <speaker>EGY ÚR</speaker>
-          <p><stage>kiabálva</stage>Hozzátok a hölgyek bundáit! Magunk akarunk maradni!</p>
+          <p>
+            <stage>kiabálva</stage>Hozzátok a hölgyek bundáit! Magunk akarunk maradni!</p>
         </sp>
         <sp who="#az_abbe #egy_ur #a_fiatal_kolto #a_tanacsos">
           <speaker>A FÉRFIAK</speaker>
@@ -622,7 +549,8 @@
         </p>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
-          <p><stage>kifütyül az ablakon</stage>Ide jöjjenek!</p>
+          <p>
+            <stage>kifütyül az ablakon</stage>Ide jöjjenek!</p>
         </sp>
         <p>
           <stage>Kocsirobogás hallatszik. A hölgyek
@@ -635,7 +563,8 @@
         </sp>
         <sp who="#a_sarga_haju_holgy">
           <speaker>A SÁRGA HAJÚ HÖLGY</speaker>
-          <p><stage>hatalmas kalapban, a tanácsoshoz</stage> Adj, fiam, kocsiravalót!</p>
+          <p>
+            <stage>hatalmas kalapban, a tanácsoshoz</stage> Adj, fiam, kocsiravalót!</p>
         </sp>
         <sp who="#a_tanacsos">
           <speaker>A TANÁCSOS</speaker>
@@ -650,15 +579,18 @@
         </p>
         <sp who="#egy_hang">
           <speaker>EGY HANG</speaker>
-          <p><stage>bátortalanul</stage> Valóban hajnal van már?</p>
+          <p>
+            <stage>bátortalanul</stage> Valóban hajnal van már?</p>
         </sp>
         <sp who="#a_tanar">
           <speaker>A TANÁR</speaker>
-          <p><stage>fontoskodva</stage>Hajnal van. Igen.</p>
+          <p>
+            <stage>fontoskodva</stage>Hajnal van. Igen.</p>
         </sp>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
-          <p><stage>szertartásosan</stage> Uraim! Búcsút hirdetek minden vezekelőnek. A Szent Margit
+          <p>
+            <stage>szertartásosan</stage> Uraim! Búcsút hirdetek minden vezekelőnek. A Szent Margit
       Egyházban most kezdődik a hamvazás. Aki ájtatosan számot vet magával, és elimádkozza az Úr
       imádságát, annak megbocsátatnak a bűnei. Én fogom a hamut hinteni vén, boros, kótyagos, gaz
       fejetekre!</p>
@@ -669,7 +601,8 @@
         </sp>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
-          <p><stage>felöltözködik, s mint a keresztet, feltartja a botját</stage> Indulás!</p>
+          <p>
+            <stage>felöltözködik, s mint a keresztet, feltartja a botját</stage> Indulás!</p>
         </sp>
         <p>
           <stage>Az urak sebtében fizetnek, a pincérek
@@ -687,7 +620,8 @@
         </sp>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
-          <p><stage>nemsokára belép</stage> Parancsol, nagyságos úr?</p>
+          <p>
+            <stage>nemsokára belép</stage> Parancsol, nagyságos úr?</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
@@ -699,15 +633,18 @@
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p>Igen, egy tükröt.<stage>Ezt már állva mondja, idegenül, szárazon.</stage></p>
+          <p>Igen, egy tükröt.<stage>Ezt már állva mondja, idegenül, szárazon.</stage>
+          </p>
         </sp>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
-          <p>Igenis.<stage>El.</stage></p>
+          <p>Igenis.<stage>El.</stage>
+          </p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p><stage>végigmegy a szobán, azután halálos fáradtsággal leül. A tükör megérkezik. Átveszi.
+          <p>
+            <stage>végigmegy a szobán, azután halálos fáradtsággal leül. A tükör megérkezik. Átveszi.
        Int a pincérnek, hogy elmehet. Kinéz az ajtón, hogy nem lesik-e. A szoba közepére
        jön:</stage> Csakugyan igaz, hogy most már meg kell halnom?<stage>Lassan felemeli a tükröt,
        és sokáig belenéz. Megdöbbenve, elszomorodva és bizonyos csüggedt elhatározással csenget.
@@ -717,7 +654,8 @@
       ide, nézze ezeket a ráncokat az arcomon. Pedig csak huszonnyolc éves vagyok. Ha nem lenne
       szégyen, esetleg sírnék maga előtt, Béla! De már úgy rendeztem be az életemet, hogy sohase
       sírjak. Nem volna illendő, hogy magamat megsirassam. Egyszerűen lefekszem, és kivonulok az
-       életből.<stage>Rágyújt, fizet.</stage></p>
+       életből.<stage>Rágyújt, fizet.</stage>
+          </p>
         </sp>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
@@ -746,12 +684,15 @@
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p><stage>felül</stage>Telefonáljon egy koporsóért! Hozzák ide! Abban vigyenek el.</p>
+          <p>
+            <stage>felül</stage>Telefonáljon egy koporsóért! Hozzák ide! Abban vigyenek el.</p>
         </sp>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
-          <p><stage>fejét csóválja, nevetve</stage>Igenis, igenis, nagyságos
-      úr!<stage>Lefekteti.</stage></p>
+          <p>
+            <stage>fejét csóválja, nevetve</stage>Igenis, igenis, nagyságos
+      úr!<stage>Lefekteti.</stage>
+          </p>
         </sp>
         <p>
           <stage>Csend. A Főpincér kioson. A
@@ -761,7 +702,8 @@
         </p>
         <sp who="#az_apa">
           <speaker>AZ APA</speaker>
-          <p><stage>erős, széles vállú ember, szakállas, magyar bajsza van. Téli bunda, sétapálca.
+          <p>
+            <stage>erős, széles vállú ember, szakállas, magyar bajsza van. Téli bunda, sétapálca.
        Erélyes mozdulatok. Köszön:</stage>Jó napot!</p>
         </sp>
         <sp who="#a_fopincer">
@@ -794,15 +736,18 @@
       tenni. Nézz meg engem. Ötvenéves vagyok, de másképp is éltem. Szomorúan. Egészen
        másképp.<stage>Körüljár. Kinyit egy ablakot. Lecsavarja az egyik gázlángot. Eközben hirtelen
        ott terem a szobában egy alacsony, kövér, fekete ember. A temetkezési vállalkozó. Köszön az
-       Apának. Meghajlik. Az Apa nem veszi észre. Sóhajt. A Vállalkozó némán áll.</stage></p>
+       Apának. Meghajlik. Az Apa nem veszi észre. Sóhajt. A Vállalkozó némán áll.</stage>
+          </p>
         </sp>
         <sp who="#az_apa">
           <speaker>AZ APA</speaker>
-          <p><stage>megfordul:</stage> Kicsoda maga?</p>
+          <p>
+            <stage>megfordul:</stage> Kicsoda maga?</p>
         </sp>
         <sp who="#a_vallalkozo">
           <speaker>A VÁLLALKOZÓ</speaker>
-          <p><stage>kézmozdulattal jelzi, hogy menjenek messzebb a haldoklótól. Elvonulnak egy
+          <p>
+            <stage>kézmozdulattal jelzi, hogy menjenek messzebb a haldoklótól. Elvonulnak egy
        sarokba:</stage> Érckoporsót parancsol a nagyságos úr?</p>
         </sp>
         <sp who="#az_apa">
@@ -832,7 +777,8 @@
         </sp>
         <sp who="#az_apa">
           <speaker>AZ APA</speaker>
-          <p>Várjon, megnézem mégis.<stage>Balra elmennek.</stage></p>
+          <p>Várjon, megnézem mégis.<stage>Balra elmennek.</stage>
+          </p>
         </sp>
         <p>
           <stage>Most az Utolsó Vendég anyja
@@ -842,11 +788,13 @@
         </p>
         <sp who="#az_anya">
           <speaker>AZ ANYA</speaker>
-          <p><stage>mereven megáll, és bal kezét a fia homlokára teszi:</stage>Eljöttem, fiam!</p>
+          <p>
+            <stage>mereven megáll, és bal kezét a fia homlokára teszi:</stage>Eljöttem, fiam!</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p><stage>hízelegve simogatja a kezét:</stage>Anyácskám! Amikor temettünk, éreztem, hogy látni
+          <p>
+            <stage>hízelegve simogatja a kezét:</stage>Anyácskám! Amikor temettünk, éreztem, hogy látni
       foglak még.</p>
         </sp>
         <sp who="#az_anya">
@@ -857,7 +805,8 @@
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p><stage>átöleli:</stage>Én nem szerettem egyiküket sem. Különben is csak az kellene még, hogy
+          <p>
+            <stage>átöleli:</stage>Én nem szerettem egyiküket sem. Különben is csak az kellene még, hogy
       előttük haldokoljak.</p>
         </sp>
         <sp who="#az_anya">
@@ -874,7 +823,8 @@
           <speaker>AZ ANYA</speaker>
           <p>Nem tudtad megbecsülni a jó lányokat, fiam. Pedig ilyen nők tudnak gyermeket nevelni és
       életet adni. Benned másodszor és utoljára meghalok.<stage>Künn kakaskukorékolás.</stage>
-      Viszontlátásra, fiacskám!<stage>Megcsókolja.</stage></p>
+      Viszontlátásra, fiacskám!<stage>Megcsókolja.</stage>
+          </p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
@@ -882,7 +832,8 @@
         </sp>
         <sp who="#az_anya">
           <speaker>AZ ANYA</speaker>
-          <p>Mennem kell.<stage>Némán int. Elvonul, mint egy árnyék. Künn kakaskukorékolás.</stage></p>
+          <p>Mennem kell.<stage>Némán int. Elvonul, mint egy árnyék. Künn kakaskukorékolás.</stage>
+          </p>
         </sp>
         <p>
           <stage>A NAGYMAMA jobbról jön, kanárikalitka a kezében. Leteszi a kanárit, és
@@ -921,7 +872,8 @@
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p><stage>észreveszi, hogy nők lopódznak a szobába. Magasak, alacsonyak, szőkék, barnák,
+          <p>
+            <stage>észreveszi, hogy nők lopódznak a szobába. Magasak, alacsonyak, szőkék, barnák,
        vörösek. Úrilányok, cselédek, kokottok, a legkülönbözőbb toalettben</stage>De sietned kell
       ám, kedves nagymama, a harisnyával. Nagyon kell sietned.<stage>Tessékeli.</stage>Mert kevés
       idő van már hátra. Ugye, nyugodt lehetek?</p>
@@ -929,17 +881,21 @@
         <sp who="#a_nagymama">
           <speaker>A NAGYMAMA</speaker>
           <p>Igen, fiam, a harisnya kész lesz.<stage>Megcsókolja, felszedi a kalitkát és
-      eltopog.</stage></p>
+      eltopog.</stage>
+          </p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p><stage>csenget. A Főpincér megjelenik</stage>Kérem, hozasson nekem tiszta gallért és
+          <p>
+            <stage>csenget. A Főpincér megjelenik</stage>Kérem, hozasson nekem tiszta gallért és
       kézelőket. Ilyeneket. De várjon! Pont ilyenek legyenek.<stage>Lekapcsolja a kézelőit, és pénzt
-       ad.</stage></p>
+       ad.</stage>
+          </p>
         </sp>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
-          <p>Igenis.<stage>El.</stage></p>
+          <p>Igenis.<stage>El.</stage>
+          </p>
         </sp>
         <p>
           <stage>Az Utolsó Vendég a középre ül, és maga
@@ -989,7 +945,8 @@
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p><stage>indulatosan:</stage> Menjetek innen! <stage>Lecsendesülve.</stage>Legyetek szívesek
+          <p>
+            <stage>indulatosan:</stage> Menjetek innen! <stage>Lecsendesülve.</stage>Legyetek szívesek
       elmenni. Öreg az arcotok.</p>
           <p>
             <stage>A nők lassan kitakarodnak. Néhányan meg vannak sértve. Sokan csókkal szeretnének
@@ -1004,7 +961,8 @@
         </sp>
         <sp who="#munkasok">
           <speaker>AZ EGYIK MUNKÁS</speaker>
-          <p>Most festik rá, kérem, a nevét. Mihelyst kész lesz, hozzuk.<stage>A munkások el.</stage></p>
+          <p>Most festik rá, kérem, a nevét. Mihelyst kész lesz, hozzuk.<stage>A munkások el.</stage>
+          </p>
         </sp>
         <p>
           <stage>Az Utolsó Vendég lehajol,
@@ -1015,7 +973,9 @@
         </p>
         <sp who="#a_borfiu">
           <speaker>A BORFIÚ</speaker>
-          <p><stage>sietve jön jobbról:</stage>Tessék, nagyságos úr.<stage>Csomagot ad át.</stage></p>
+          <p>
+            <stage>sietve jön jobbról:</stage>Tessék, nagyságos úr.<stage>Csomagot ad át.</stage>
+          </p>
         </sp>
         <p>
           <stage>AZ UTOLSÓ VENDÉG kibontja
@@ -1062,14 +1022,16 @@
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p><stage>nem figyel rá:</stage>Belátom, hogy a sok rossz csók helyett jobb lett volna téged
+          <p>
+            <stage>nem figyel rá:</stage>Belátom, hogy a sok rossz csók helyett jobb lett volna téged
       feleségül venni. <stage>Erőltetetten mosolyog.</stage> Meg is tenném, ha a koporsóm nem volna
       már kifizetve.</p>
         </sp>
         <sp who="#a_leanyka">
           <speaker>A LEÁNYKA</speaker>
           <p>Indulni kell! Érti?<stage>Lerántja a szemfedőt az Utolsó Vendégről, kihúzza feje alól a
-       párnát, és kifordítja a koporsóból. Azután fel akarja emelni, de nem tudja.</stage></p>
+       párnát, és kifordítja a koporsóból. Azután fel akarja emelni, de nem tudja.</stage>
+          </p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
@@ -1079,7 +1041,8 @@
         </sp>
         <sp who="#a_leanyka">
           <speaker>A LEÁNYKA</speaker>
-          <p><stage>csüggedten:</stage>Igen.</p>
+          <p>
+            <stage>csüggedten:</stage>Igen.</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
@@ -1097,7 +1060,8 @@
         </p>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
-          <p><stage>fekete kesztyűben:</stage>A nagyságos úr apja és a rokonság.</p>
+          <p>
+            <stage>fekete kesztyűben:</stage>A nagyságos úr apja és a rokonság.</p>
         </sp>
         <sp who="#a_leanyka">
           <speaker>A LEÁNYKA</speaker>
@@ -1130,10 +1094,12 @@
         </p>
         <sp who="#a_takaritono">
           <speaker>A TAKARÍTÓNŐ</speaker>
-          <p><stage>balról jön, télikabát, színes szoknya, öreg arc. Csukott szájjal dúdol. Kezében
+          <p>
+            <stage>balról jön, télikabát, színes szoknya, öreg arc. Csukott szájjal dúdol. Kezében
        lapát, seprő. Kinyitja az ablakot, söpörni kezd. Egyszerre leteszi a seprőt, és
        lehajol:</stage>No, ez itt maradt!<stage>Lehúzza az asztalról az abroszt, és költögeti az
-       alvó vendéget.</stage></p>
+       alvó vendéget.</stage>
+          </p>
           <p>Kérem szépen, tessék felkelni. Reggel van. Meg tetszik fázni. Pista, Pista!</p>
         </sp>
         <p>
@@ -1141,10 +1107,12 @@
         </p>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p><stage>feltápászkodik, bambán néz maga elé:</stage>Az ám, elaludtam egy
+          <p>
+            <stage>feltápászkodik, bambán néz maga elé:</stage>Az ám, elaludtam egy
        kicsit...<stage>Tapogatja a derekát. Az asszony segíti a fölkelésben, egy kefével
        letisztítja. A Borfiú hozza a télikabátot, és feladja rá.</stage>Köszönöm,
-       köszönöm...<stage>Borravalókat ad.</stage></p>
+       köszönöm...<stage>Borravalókat ad.</stage>
+          </p>
         </sp>
         <sp who="#a_takaritono">
           <speaker>A TAKARÍTÓNŐ</speaker>
@@ -1157,7 +1125,8 @@
         </sp>
         <sp who="#a_takaritono">
           <speaker>A TAKARÍTÓNŐ</speaker>
-          <p><stage>nevet, kinyitja a nagy ablakot, és a beözönlő napfényben kitárja a
+          <p>
+            <stage>nevet, kinyitja a nagy ablakot, és a beözönlő napfényben kitárja a
       karjait:</stage>Jaj de szép idő van!</p>
         </sp>
         <p>

@@ -52,10 +52,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000040</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -193,14 +195,10 @@
           </castItem>
         </castGroup>
         <castItem>
-          <role>
-            <roleName>IFJAK</roleName>
-          </role>
+          <role><roleName>IFJAK</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>PARASZTOK</roleName>
-          </role>
+          <role><roleName>PARASZTOK</roleName></role>
         </castItem>
       </castList>
       <p>A’ tizennyolczadik században.</p>
@@ -208,9 +206,7 @@
     <body>
       <div type="act">
         <head type="title">ELSŐ FELVONÁS</head>
-        <stage>
-          <hi rend="expanded">(Zágony’ háza)</hi>
-        </stage>
+        <stage><hi rend="expanded">(Zágony’ háza)</hi></stage>
         <stage>SZILÁGY és JOLÁN</stage>
         <sp who="#jolan">
           <speaker>JOLÁN</speaker>
@@ -1439,12 +1435,10 @@
           </lg>
         </sp>
       </div>
-      <!-- 2. felvonás hiányzik -->
+<!-- 2. felvonás hiányzik -->
       <div type="act">
         <head type="title">HARMADIK FELVONÁS</head>
-        <stage>
-          <hi rend="expanded">(Zágony’ háza)</hi>
-        </stage>
+        <stage><hi rend="expanded">(Zágony’ háza)</hi></stage>
         <stage>(ZÁGONY egyedűl setét ábrándozással űl egy asztalnál, mellyen a’ koponya
                     van)</stage>
         <sp who="#zagony">
@@ -1531,9 +1525,7 @@
             <l>’S a’ csalfa Váriét. Hová legyek!</l>
             <l>Ki kell sietnem, mert veszélyt gyanitok. <stage>(el)</stage></l>
           </lg>
-          <stage>
-            <hi rend="expanded">(Kert)</hi>
-          </stage>
+          <stage><hi rend="expanded">(Kert)</hi></stage>
           <stage>(Egyfelől VÁRI, másfelől SZILÁGY jőnek)</stage>
         </sp>
         <sp who="#vari">
@@ -2288,9 +2280,7 @@
       </div>
       <div type="act">
         <head type="title">NEGYEDIK FELVONÁS</head>
-        <stage>
-          <hi rend="expanded">(Barlang)</hi>
-        </stage>
+        <stage><hi rend="expanded">(Barlang)</hi></stage>
         <stage>(VÍG BANDI, KILITI, FILLÉR, közöttük HARIS teli kulacscsal)</stage>
         <sp who="#haris">
           <speaker>HARIS</speaker>

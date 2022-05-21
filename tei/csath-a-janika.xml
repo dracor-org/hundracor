@@ -66,10 +66,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000006</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -340,11 +342,13 @@
           <speaker>SZOBALÁNY</speaker>
           <stage>(újra megjelenik a jobb hátsó ajtónál):</stage>
           <p>Kérem, a Janika nagyon sír, és azt mondta, hogy rögtön híjam a
-    nagyságát.<stage>(Csakugyan hallani valami gyereksírást.)</stage></p>
+    nagyságát.<stage>(Csakugyan hallani valami gyereksírást.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>Mi baja már megint ennek a gyereknek?!<stage>(Lassan kimegy, mint aki már megszokta a kicsi szeszélyeit.)</stage></p>
+          <p>Mi baja már megint ennek a gyereknek?!<stage>(Lassan kimegy, mint aki már megszokta a kicsi szeszélyeit.)</stage>
+          </p>
         </sp>
         <p>
           <stage>Kis szünet.</stage>
@@ -375,7 +379,8 @@
         <sp who="#szobalany">
           <speaker>SZOBALÁNY</speaker>
           <p>Igenis!<stage>(Kimegy, látni a nyitva hagyott előszobaajtón át, hogy mindjárt elmegy,
-        csak egy kendőt vesz előbb a hátára.)</stage></p>
+        csak egy kendőt vesz előbb a hátára.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -388,11 +393,13 @@
     Tolnayt is. Még otthon találja... No jó, de akkor elmegy hazulról, és
     akkor csak estefelé kapjuk meg... Nem, mindjárt kell! Kemény utca 12.,
     II. emelet. Siessen!<stage>(A kagylót leteszi, háromszor megnyomja a csillárról lógó
-        csengettyűt.)</stage></p>
+        csengettyűt.)</stage>
+          </p>
         </sp>
         <sp who="#szakacsno">
           <speaker>SZAKÁCSNŐ</speaker>
-          <p>Tetszik parancsolni?<stage>(A fenékajtóban megjelenik.)</stage></p>
+          <p>Tetszik parancsolni?<stage>(A fenékajtóban megjelenik.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -435,7 +442,8 @@
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>Ágyazza csak be az úr ágyába.<stage>(A hátsó ajtón el.)</stage></p>
+          <p>Ágyazza csak be az úr ágyába.<stage>(A hátsó ajtón el.)</stage>
+          </p>
         </sp>
         <sp who="#szakacsno">
           <speaker>SZAKÁCSNŐ</speaker>
@@ -461,7 +469,8 @@
           <stage>(hangja)</stage>
           <p>Lujza! Lujza! Jöjjenek!<stage>(Gyermeksírás hallatszik.)</stage>Én nem értem magukat!<stage>(A szakácsnő és a szobalány a jobb hátsó ajtón sietve el. Körülbelül
         öt-hat másodpercig a szín üres, azután csengetés, ismételt
-        csengetés.)</stage></p>
+        csengetés.)</stage>
+          </p>
         </sp>
         <sp who="#szakacsno">
           <speaker>SZOBALÁNY</speaker>
@@ -476,7 +485,8 @@
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
           <stage>(a jobb elülső ajtóban megjelenik)</stage>
-          <p>Kisztihand, mama!<stage>(Összecsókolóznak.)</stage></p>
+          <p>Kisztihand, mama!<stage>(Összecsókolóznak.)</stage>
+          </p>
         </sp>
         <sp who="#telkesyne">
           <speaker>TELKESYNÉ</speaker>
@@ -515,7 +525,8 @@
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>Köszönöm, mama, mindegy.<stage>(Jobb hátsó ajtón el.)</stage></p>
+          <p>Köszönöm, mama, mindegy.<stage>(Jobb hátsó ajtón el.)</stage>
+          </p>
         </sp>
         <sp who="#telkesyne">
           <speaker>TELKESYNÉ</speaker>
@@ -539,7 +550,8 @@
         <sp who="#telkesyne">
           <speaker>TELKESYNÉ</speaker>
           <stage>(az ablakhoz megy, megnézi)</stage>
-          <p>Ez, fiam, harminckilenc hattized!<stage>(Némán, komolyán néznek egymásra.)</stage></p>
+          <p>Ez, fiam, harminckilenc hattized!<stage>(Némán, komolyán néznek egymásra.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -557,7 +569,8 @@
         </p>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>Ha ez a gyerek meghal, én megölöm magamat!<stage>(Szenvedélyesen mondja, de nem túl hangosan.)</stage></p>
+          <p>Ha ez a gyerek meghal, én megölöm magamat!<stage>(Szenvedélyesen mondja, de nem túl hangosan.)</stage>
+          </p>
         </sp>
         <sp who="#telkesyne">
           <speaker>TELKESYNÉ</speaker>
@@ -587,12 +600,14 @@
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
-          <p>Kezeit csókolom, kisztihand!<stage>(Mélyen meghajlik, és kezet fog a hölgyekkel.)</stage></p>
+          <p>Kezeit csókolom, kisztihand!<stage>(Mélyen meghajlik, és kezet fog a hölgyekkel.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
           <p>Az istenért, doktor úr, nézze, milyen óriási láza van a fiamnak, és
-    nyugtasson meg bennünket, iszonyúan meg vagyunk ijedve.<stage>(Átadja a hőmérőt.)</stage></p>
+    nyugtasson meg bennünket, iszonyúan meg vagyunk ijedve.<stage>(Átadja a hőmérőt.)</stage>
+          </p>
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
@@ -611,7 +626,8 @@
           <speaker>PERTICSNÉ</speaker>
           <p>Az este még semmit sem vettünk észre. Tegnap délután egy kis barátjánál
                             volt fent a második emeleten. Este ugyan keveset vacsorált, úgy
-                            emlékszem...<stage>(Az orvos és az asszony a jobb elülső ajtón kimennek.)</stage></p>
+                            emlékszem...<stage>(Az orvos és az asszony a jobb elülső ajtón kimennek.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -727,7 +743,8 @@
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
           <stage>(megjelenik az ajtóban)</stage>
-          <p>Kisztihand, mama!<stage>(Kezet csókol cuppantva, azután megcsókolja jobbról és balról.)</stage>Szervusz!<stage>(A férfiak kezet fognak.)</stage></p>
+          <p>Kisztihand, mama!<stage>(Kezet csókol cuppantva, azután megcsókolja jobbról és balról.)</stage>Szervusz!<stage>(A férfiak kezet fognak.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
@@ -741,7 +758,8 @@
           <speaker>PERTICS</speaker>
           <p>Szent Isten!<stage>(Összecsapja a kezeit. A felkiáltás és a gesztus fontoskodó. Olyan,
         mintha előre elhatározta volna, hogy ezt mondja, mert el volt készülve rá,
-        hogy valami súlyos diagnózist mondanak.)</stage></p>
+        hogy valami súlyos diagnózist mondanak.)</stage>
+          </p>
         </sp>
         <sp who="#telkesyne">
           <speaker>TELKESYNÉ</speaker>
@@ -789,7 +807,8 @@
             túloz, mint ilyenkor az emberek szoktak. Le-fel sétál, majd hirtelen
             megáll.)</stage>Ha Aranka mérte, akkor annyi is volt. És tegnap ennek a gyereknek semmi
         baja nem volt. Erre pozitíve emlékszem. Pozitíve emlékszem. Te is
-        emlékszel, ugye?<stage>(Boér felé fordul.)</stage></p>
+        emlékszel, ugye?<stage>(Boér felé fordul.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -802,7 +821,8 @@
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
           <p>No, hát én bemegyek.<stage>(Kimegy a bal hátsó ajtón. Az orvos és az asszony az elülső ajtón jönnek
-        ki.)</stage></p>
+        ki.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -857,7 +877,8 @@
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
           <p>Csak siessen, doktor úr, az istenért, tessék, itt a telefon. Tanárt
-    hívjon rögtön.<stage>(Mindannyian felkelnek, mozgolódnak.)</stage></p>
+    hívjon rögtön.<stage>(Mindannyian felkelnek, mozgolódnak.)</stage>
+          </p>
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
@@ -867,7 +888,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICSNÉ</speaker>
-          <p>Igen.<stage>(Kimegy a konyha felé.)</stage></p>
+          <p>Igen.<stage>(Kimegy a konyha felé.)</stage>
+          </p>
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
@@ -888,7 +910,8 @@
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
-          <p>II. emelet 8. ... 17. Igen.<stage>(Leteszi a kagylót.)</stage></p>
+          <p>II. emelet 8. ... 17. Igen.<stage>(Leteszi a kagylót.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
@@ -922,7 +945,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Adja csak ide.<stage>(Átveszi a fazekat, és a betegszobába viszi.)</stage></p>
+          <p>Adja csak ide.<stage>(Átveszi a fazekat, és a betegszobába viszi.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -940,7 +964,8 @@
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
           <stage>(visszajön)</stage>
-          <p>Szegény kisfiamnak rettenetes fájdalmai vannak.<stage>(Sírva fakad, leül, zsebkendőt vesz elő.)</stage></p>
+          <p>Szegény kisfiamnak rettenetes fájdalmai vannak.<stage>(Sírva fakad, leül, zsebkendőt vesz elő.)</stage>
+          </p>
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
@@ -984,13 +1009,15 @@
           <speaker>TOLNAY</speaker>
           <p>Igen, tessék neki adni. Hanem nézzük meg a beteget.<stage>(Perticsné a konyhába megy. Az orvos és Pertics a jobb oldali elülső
         ajtón ki a betegszobába. A színpadon pár pillanatig egyedül marad Boér,
-        csakhamar azonban visszajön az asszony egy pohár vízzel.)</stage></p>
+        csakhamar azonban visszajön az asszony egy pohár vízzel.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
           <stage>(fojtottan)</stage>
           <p>Aranka!<stage>(A jobb elülső ajtóban, mint valami őr vagy kém megjelenik
-        Telkesyné.)</stage></p>
+        Telkesyné.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -1002,11 +1029,13 @@
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>Borzasztó!<stage>(Ránéz. Átadja az anyjának a vizet, aki eltűnik vele.)</stage></p>
+          <p>Borzasztó!<stage>(Ránéz. Átadja az anyjának a vizet, aki eltűnik vele.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
-          <p>Soha életemben nem hittem, hogy ilyen rettenetes helyzetbe kerülök.<stage>(Kezet csókol az asszonynak, megcsuklik a hangja.)</stage></p>
+          <p>Soha életemben nem hittem, hogy ilyen rettenetes helyzetbe kerülök.<stage>(Kezet csókol az asszonynak, megcsuklik a hangja.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -1056,7 +1085,8 @@
           <speaker>PERTICSNÉ</speaker>
           <p>De hát, Kálmán, legyen esze! Nyugodjék meg, barátom.<stage>(Hevesen megszorítja a kezét.)</stage>A gyerek meg fog menekülni, néhány nap múlva túl lesz minden
         veszélyen.<stage>(Csengetés.)</stage>Itt vannak a tanárok. Szóljon Jenőnek.<stage>(Kinyitja az előszobába nyíló ajtót. A tanárok már vetkőznek, a szobalány
-            lesegíti a bundáikat.)</stage></p>
+            lesegíti a bundáikat.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -1072,11 +1102,13 @@
           <speaker>BOÉR</speaker>
           <stage>(bemutatkozik)</stage>
           <p>Boér Kálmán vagyok.<stage>(Pár pillanatig az orvosok még kint maradnak az előszobában, mintegy
-        információkat szerezni.)</stage></p>
+        információkat szerezni.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>Tessék, erre!<stage>(A két tanár előremegy a szobában.)</stage></p>
+          <p>Tessék, erre!<stage>(A két tanár előremegy a szobában.)</stage>
+          </p>
         </sp>
         <sp who="#sebesztanar">
           <speaker>SEBÉSZTANÁR</speaker>
@@ -1147,7 +1179,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Igen, igen.<stage>(Átveszi.)</stage></p>
+          <p>Igen, igen.<stage>(Átveszi.)</stage>
+          </p>
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
@@ -1164,11 +1197,13 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Igen, igen.<stage>(Kicsit boldog, hogy tehet valamit.)</stage>Megmentik, ugye, doktor úr?<stage>(Szalad.)</stage></p>
+          <p>Igen, igen.<stage>(Kicsit boldog, hogy tehet valamit.)</stage>Megmentik, ugye, doktor úr?<stage>(Szalad.)</stage>
+          </p>
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
-          <p>Tessék sietni!<stage>(Visszamegy, de előbb kiereszti a színre a hölgyeket.)</stage></p>
+          <p>Tessék sietni!<stage>(Visszamegy, de előbb kiereszti a színre a hölgyeket.)</stage>
+          </p>
         </sp>
         <sp who="#telkesyne">
           <speaker>TELKESYNÉ</speaker>
@@ -1183,17 +1218,20 @@
         </sp>
         <sp who="#telkesyne">
           <speaker>TELKESYNÉ</speaker>
-          <p>Ne vádolj engem fiam, az Isten akarta így.<stage>(Megsimogatja a fejét.)</stage></p>
+          <p>Ne vádolj engem fiam, az Isten akarta így.<stage>(Megsimogatja a fejét.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>Ha ez a kisgyerek meghal, öregasszony leszek néhány nap alatt.<stage>(Dadogja a szavakat sírás közben és rángatódzik.)</stage></p>
+          <p>Ha ez a kisgyerek meghal, öregasszony leszek néhány nap alatt.<stage>(Dadogja a szavakat sírás közben és rángatódzik.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
           <stage>(visszajön, amint megpillantja a vonagló asszonyt, rögtön határozottan
                         rászól)</stage>
-          <p>Magának le kell feküdni!<stage>(Erélyes, de mégis rekedt a hangja.)</stage></p>
+          <p>Magának le kell feküdni!<stage>(Erélyes, de mégis rekedt a hangja.)</stage>
+          </p>
           <stage>(Erélyes, de mégis rekedt a hangja.)</stage>
         </sp>
         <sp who="#telkesyne">
@@ -1202,7 +1240,8 @@
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
-          <p>Jöjjön!<stage>(Gyengéden támogatni akarja.)</stage></p>
+          <p>Jöjjön!<stage>(Gyengéden támogatni akarja.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -1253,7 +1292,8 @@
     láz úgyszólván momentán leszállt, a beteg meggyógyult. Abban az esetben
     azonban a szív teljesen érintetlen volt. Hát eszerint a kolléga úr itt
     marad, és közli a konzílium szomorú eredményét a házbeliekkel. Talán még
-    próbál egy kámforinjekciót. Igen? Ut aliquid!<stage>(Kifelé indulnak.)</stage></p>
+    próbál egy kámforinjekciót. Igen? Ut aliquid!<stage>(Kifelé indulnak.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -1285,7 +1325,8 @@
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
-          <p>Igen, igen.<stage>(Rövid szünet. Kiveszi a tárcáját.)</stage>Engedjék meg kérem, hogy a honoráriumot rögtön átadjam.<stage>(Nagyon nehezére esik a beszéd. Húszkoronást ad a sebésznek.)</stage></p>
+          <p>Igen, igen.<stage>(Rövid szünet. Kiveszi a tárcáját.)</stage>Engedjék meg kérem, hogy a honoráriumot rögtön átadjam.<stage>(Nagyon nehezére esik a beszéd. Húszkoronást ad a sebésznek.)</stage>
+          </p>
           <p>Engedjék meg kérem, hogy a honoráriumot rögtön átadjam.</p>
         </sp>
         <sp who="#sebesztanar">
@@ -1299,7 +1340,8 @@
             segítségével feladja rájuk a kabátot, közben a jobb hátsó ajtóban megjelenik
             Telkesyné, vörösre sírt szemekkel, de az orvosok nem veszik észre. Telkesyné
             visszafordul, mintha a belső szobába, a lányához beszélne. Int a kezével,
-            hogy maradjon.)</stage></p>
+            hogy maradjon.)</stage>
+          </p>
         </sp>
         <p>
           <stage>Szünet.</stage>
@@ -1307,7 +1349,8 @@
         <sp who="#boer">
           <speaker>BOÉR</speaker>
           <stage>(visszajön)</stage>
-          <p>Menjen be a gyerekhez.<stage>(Telkesyné mellett beszól az ajtón.)</stage>Mindjárt meg fog halni, jöjjön csak be.<stage>(Telkesyné keresztet vet, eddig nem jutott eszébe.)</stage></p>
+          <p>Menjen be a gyerekhez.<stage>(Telkesyné mellett beszól az ajtón.)</stage>Mindjárt meg fog halni, jöjjön csak be.<stage>(Telkesyné keresztet vet, eddig nem jutott eszébe.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -1316,7 +1359,8 @@
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
-          <p>Nincs még itt a Pertics úr?<stage>(Perticsné és Boér nem hallgatnak rá, bemennek.)</stage></p>
+          <p>Nincs még itt a Pertics úr?<stage>(Perticsné és Boér nem hallgatnak rá, bemennek.)</stage>
+          </p>
         </sp>
         <sp who="#telkesyne">
           <speaker>TELKESYNÉ</speaker>
@@ -1327,7 +1371,8 @@
           <p>Nem valószínű, nagyságos asszonyom, nem valószínű, de kötelességünk az
                             utolsót is megpróbálni, és a beteg életét, ha csak pár perccel is,
                             meghosszabbítani.<stage>(Kis fecskendőt szed elő a zsebéből, kiveszi a skatulyából, és
-                                próbálgatja.)</stage></p>
+                                próbálgatja.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
@@ -1340,7 +1385,8 @@
         </sp>
         <sp who="#telkesyne">
           <speaker>TELKESYNÉ</speaker>
-          <p>El. Azt mondták, hogy nincs segítség.<stage>(Zokog.)</stage></p>
+          <p>El. Azt mondták, hogy nincs segítség.<stage>(Zokog.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
@@ -1356,7 +1402,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Milyen igazi derék, jó barát ez a Kálmán.<stage>(Tovább sír.)</stage></p>
+          <p>Milyen igazi derék, jó barát ez a Kálmán.<stage>(Tovább sír.)</stage>
+          </p>
         </sp>
         <sp who="#tolnay">
           <speaker>TOLNAY</speaker>
@@ -1412,12 +1459,14 @@
           <speaker>PERTICS</speaker>
           <stage>(hozzámegy)</stage>
           <p>Drága Arankám! Édes feleségem, elvesztettük...<stage>(Át akarja ölelni, de az asszony kibontakozik, és leül az asztal mellé
-        egy székre.)</stage></p>
+        egy székre.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
           <p>Kálmánkám, ugye leszel szíves telefonálni Wiznernek, és nekem két napi
-    szabadságot kérni.<stage>(Meg akarja ölelni őt is, hogy a keblén egy verset sírjon.)</stage></p>
+    szabadságot kérni.<stage>(Meg akarja ölelni őt is, hogy a keblén egy verset sírjon.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -1441,7 +1490,8 @@
         <sp who="#temetkezesi_szolga">
           <speaker>TEMETKEZÉSI SZOLGA</speaker>
           <stage>(lemászik a létráról. A létra a jobb elülső ajtófélfához van támasztva. Összehajtogatja a nehéz fekete drapériákat, amiket leszedett):</stage>
-          <p>No, már csak egy van!<stage>(Leteszi az összehajtott szövetet egy székre, amely egészen az előtérben áll, s amelyen sorban egymásra rakva egész csomó ilyen fekete, ezüstrojtos drapéria áll. A létrát a fenékajtó félfájának támasztja, felmászik és az utolsó drapériát szedi le.)</stage></p>
+          <p>No, már csak egy van!<stage>(Leteszi az összehajtott szövetet egy székre, amely egészen az előtérben áll, s amelyen sorban egymásra rakva egész csomó ilyen fekete, ezüstrojtos drapéria áll. A létrát a fenékajtó félfájának támasztja, felmászik és az utolsó drapériát szedi le.)</stage>
+          </p>
         </sp>
         <sp who="#szakacsno">
           <speaker>SZAKÁCSNŐ</speaker>
@@ -1466,7 +1516,8 @@
         <sp who="#temetkezesi_szolga">
           <speaker>SZOLGA</speaker>
           <p>Nem mesélek, ez igaz. No!<stage>(Összeolvassa a darabokat.)</stage>Cvá, drá, fiá, finef, 
-        zehsz, zibn, aht, nájn, cén, ölf, cvölf ... Kész! No, Isten áldja meg.<stage>(Szalutál.)</stage></p>
+        zehsz, zibn, aht, nájn, cén, ölf, cvölf ... Kész! No, Isten áldja meg.<stage>(Szalutál.)</stage>
+          </p>
         </sp>
         <sp who="#szakacsno">
           <speaker>SZAKÁCSNŐ</speaker>
@@ -1501,11 +1552,13 @@
         </sp>
         <sp who="#egy_idegen_cseled">
           <speaker>AZ IDEGEN</speaker>
-          <p>Jó estét.<stage>(Leül, körülnéz.)</stage></p>
+          <p>Jó estét.<stage>(Leül, körülnéz.)</stage>
+          </p>
         </sp>
         <sp who="#szakacsno">
           <speaker>SZAKÁCSNŐ</speaker>
-          <p>Éppen jókor jön.<stage>(Terít.)</stage></p>
+          <p>Éppen jókor jön.<stage>(Terít.)</stage>
+          </p>
         </sp>
         <sp who="#egy_idegen_cseled">
           <speaker>AZ IDEGEN</speaker>
@@ -1630,12 +1683,14 @@
         </p>
         <sp who="#egy_idegen_cseled">
           <speaker>AZ IDEGEN</speaker>
-          <p>Nohát pá magának.<stage>(Divatosan kezet nyújt.)</stage></p>
+          <p>Nohát pá magának.<stage>(Divatosan kezet nyújt.)</stage>
+          </p>
         </sp>
         <sp who="#szakacsno">
           <speaker>SZAKÁCSNŐ</speaker>
           <p>Jóccakát.<stage>(Kikíséri, nyitva hagyja az ajtót, látni a lépcsőház kar fáját. Integet. Kiált is valamit, 
-        de nem érteni. Néhány pillanat múlva a szobalány megjelenik ételhordóval az ajtóban. Be van bugyolálva a nagykendőbe.)</stage></p>
+        de nem érteni. Néhány pillanat múlva a szobalány megjelenik ételhordóval az ajtóban. Be van bugyolálva a nagykendőbe.)</stage>
+          </p>
         </sp>
         <sp who="#szobalany">
           <speaker>SZOBALÁNY</speaker>
@@ -1657,7 +1712,8 @@
           <speaker>SZOBALÁNY</speaker>
           <p>Az egyikbe az ember meg az asszony, a másikba a Kálmán úr meg a két fiú. Iszonyúan esik az eső.<stage>(Leveti a 
         kendőt. Szakácsnő az ételhordóban vizsgálódik.)</stage>És meg fogja látni<stage>(a szobalány a frizuráját 
-            igazgatja és a melles kötényét)</stage>, hogy micsoda skandalum lesz itten máma.<stage>(Dörzsöli a kezeit.)</stage></p>
+            igazgatja és a melles kötényét)</stage>, hogy micsoda skandalum lesz itten máma.<stage>(Dörzsöli a kezeit.)</stage>
+          </p>
         </sp>
         <sp who="#szakacsno">
           <speaker>SZAKÁCSNŐ</speaker>
@@ -1665,14 +1721,16 @@
         </sp>
         <sp who="#szobalany">
           <speaker>SZOBALÁNY</speaker>
-          <p>Várjon csak, majd meg fogja látni!<stage>(Csengetés. A szobalány eltakarodik, a szakácsnő ajtót nyit.)</stage></p>
+          <p>Várjon csak, majd meg fogja látni!<stage>(Csengetés. A szobalány eltakarodik, a szakácsnő ajtót nyit.)</stage>
+          </p>
         </sp>
         <sp who="#szakacsno">
           <speaker>SZAKÁCSNŐ</speaker>
           <p>Kezüket csókolom.<stage>(Az ajtóban megjelenik Perticsné, utána a férje jő, majd Boér. Az asszony lefátyolozva, nagyon sápadt. 
         Amint átmegy a szobán, hátrahajtja a fátyolt. Az arca megviseltnek, vénnek, kisírtnak látszik, a frizurája 
         nagy és kifogástalan. A férfiak az előszobában hagyják felöltőiket. Perticsné a jobb elülső ajtón kimegy. 
-        Boér balra, a szobájába vonul.)</stage></p>
+        Boér balra, a szobájába vonul.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
@@ -1715,7 +1773,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Kérlek, ülj ide, szeretnék veled egyet-mást megbeszélni.<stage>Perticsné leül.</stage></p>
+          <p>Kérlek, ülj ide, szeretnék veled egyet-mást megbeszélni.<stage>Perticsné leül.</stage>
+          </p>
         </sp>
         <p>
           <stage>Szünet.</stage>
@@ -1733,7 +1792,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Jól ismersz engem...<stage>(Az ajtó kinyílik, a szakácsnő tálcán behozza a vacsorát.)</stage></p>
+          <p>Jól ismersz engem...<stage>(Az ajtó kinyílik, a szakácsnő tálcán behozza a vacsorát.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -1741,11 +1801,13 @@
         </sp>
         <sp who="#szakacsno">
           <speaker>SZAKÁCSNŐ</speaker>
-          <p>Igenis.<stage>(El.)</stage></p>
+          <p>Igenis.<stage>(El.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Csak azt akarom mondani, hogy el fogunk válni.<stage>(Le-fel sétál.)</stage></p>
+          <p>Csak azt akarom mondani, hogy el fogunk válni.<stage>(Le-fel sétál.)</stage>
+          </p>
         </sp>
         <p>
           <stage>Szünet.</stage>
@@ -1757,7 +1819,8 @@
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
           <stage>(ordítva):</stage>
-          <p>El!<stage>(Az asztalra csap.)</stage></p>
+          <p>El!<stage>(Az asztalra csap.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -1796,7 +1859,8 @@
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>És nem te híttad ide lakni Kálmánt?<stage>(Olyan hangon, mint aki ezt az érvet kitűnőnek tartja.)</stage></p>
+          <p>És nem te híttad ide lakni Kálmánt?<stage>(Olyan hangon, mint aki ezt az érvet kitűnőnek tartja.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
@@ -1837,7 +1901,8 @@
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>Öt év előtt!<stage>(Dacos, nem tudja miért.)</stage></p>
+          <p>Öt év előtt!<stage>(Dacos, nem tudja miért.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
@@ -1944,7 +2009,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Tisztázni akarom a helyzetet, amelybe belejutottam, bocsáss meg, ez csak természetes.<stage>Boér nem felel.</stage></p>
+          <p>Tisztázni akarom a helyzetet, amelybe belejutottam, bocsáss meg, ez csak természetes.<stage>Boér nem felel.</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
@@ -1967,7 +2033,8 @@
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
           <stage>(észreveszi, hogy most itt az idő, amikor erőt nyerhet, hirtelen egész más hangon beszél):</stage>
-          <p>No most már láthatja, hogy igazat mondtam. Majd azután folytathatjuk ezt.<stage>A helyzet ez: a nő a középen ül, a két férfi áll.</stage></p>
+          <p>No most már láthatja, hogy igazat mondtam. Majd azután folytathatjuk ezt.<stage>A helyzet ez: a nő a középen ül, a két férfi áll.</stage>
+          </p>
         </sp>
         <p>
           <stage>Szünet.</stage>
@@ -1978,7 +2045,8 @@
         a férj jobb oldalra, Boér bal oldalra. Pertics előbb még iszik egy pohárka konyakot. Az evőeszközök 
         csörömpölnek, a vacsora gőzölög. Mind esznek. Mind jó étvágyú emberek. Egy pillanatra úgy tűnik fel, 
         mintha nagy részben ezek a fokozott táplálkozási igények volnának a legfőbb rugói ennek a sajátságos 
-        helyzetnek, amelybe ez a három ember került.)</stage></p>
+        helyzetnek, amelybe ez a három ember került.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -1986,7 +2054,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Miről legyek meggyőződve?<stage>(Ránéz.)</stage></p>
+          <p>Miről legyek meggyőződve?<stage>(Ránéz.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -2058,7 +2127,8 @@
     drága ruhával... és mégis jogom van a feleségemhez, mert szerelemből vettem el. Már nem 
     szeretem ugyan, de neked, Kálmán, mégis el kell menni tőlünk. Sajnálom, hogy kényszerítve 
     vagyok rá, hogy ezt kimondjam, de a becsületem kívánja és a gyermekeim jövője. Majd 
-    elsejéig nézz magadnak valami más lakást. Beláthatod, nem maradhat így.<stage>(Iszik.)</stage></p>
+    elsejéig nézz magadnak valami más lakást. Beláthatod, nem maradhat így.<stage>(Iszik.)</stage>
+          </p>
         </sp>
         <p>
           <stage>Szünet</stage>
@@ -2074,7 +2144,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Most már meghalt a gyereked, semmi se köt hozzánk. Ezt a vén asszonyt is bizonyosan meguntad már.<stage>(nevet.)</stage></p>
+          <p>Most már meghalt a gyereked, semmi se köt hozzánk. Ezt a vén asszonyt is bizonyosan meguntad már.<stage>(nevet.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -2165,7 +2236,8 @@
     nagyszerű gyerek volt. Igazán nagyon sajnálom<stage>(roppant őszinte, 
         kedves hangon)</stage>, hogy nem volt az enyém. Még jobban sajnálom 
     azonban, hogy meghalt... szegény.<stage>(Elcsuklik a hangja.)</stage>Szegény kis 
-    Janika!...<stage>(Rázza a fejét, és lehajtja az asztalra.)</stage></p>
+    Janika!...<stage>(Rázza a fejét, és lehajtja az asztalra.)</stage>
+          </p>
         </sp>
         <p>
           <stage>Szünet.</stage>
@@ -2189,7 +2261,8 @@
             asztalra.)</stage>Magatokra hagylak benneteket. Elvesztettétek a gyereketeket, a kis Janikát, 
     akit szívemből én is szerettem, bár semmi közöm se volt hozzá.<stage>(Csuklik, sír.)</stage>A bánat 
     nagyobb része azonban titeket illet. Magatokra hagylak. Beszélgessetek róla.<stage>(Lehajtja a fejét, 
-        szuszogva alszik a kis dohányzóasztalon, majd később végigfekszik a kanapén.)</stage></p>
+        szuszogva alszik a kis dohányzóasztalon, majd később végigfekszik a kanapén.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -2332,7 +2405,8 @@
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
-          <p>Igaz, magának pénz kell. Majd holnap elszámol.<stage>(Felkel, ki akar menni.)</stage></p>
+          <p>Igaz, magának pénz kell. Majd holnap elszámol.<stage>(Felkel, ki akar menni.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -2344,7 +2418,8 @@
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
-          <p>Tessék.<stage>(Átadja.)</stage></p>
+          <p>Tessék.<stage>(Átadja.)</stage>
+          </p>
         </sp>
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
@@ -2361,7 +2436,8 @@
         <sp who="#perticsne">
           <speaker>PERTICSNÉ</speaker>
           <p>Fel kell kelteni Jenőt! Ideje, hogy lefeküdjön. Holnap hivatalba kell mennie. 
-    Kérem, keltse fel, és küldje aludni. Én lefekszem. Jó éjt.<stage>(Megcsókolja a száján.)</stage></p>
+    Kérem, keltse fel, és küldje aludni. Én lefekszem. Jó éjt.<stage>(Megcsókolja a száján.)</stage>
+          </p>
         </sp>
         <p>
           <stage>A csók a nő részéről igen mohó. A férfi passzívabb, nem ölel.</stage>
@@ -2382,11 +2458,13 @@
           <stage>(nagyot horkol és felébred. Felül):</stage>
           <p>Jujj, de hideg van itt. Ki hagytátok aludni a tüzet.<stage>(Visszafekszik.)</stage>Kérlek, 
         takarj be valamivel. Nagyon fázom.<stage>(Összekuporodik, már újra alszik, sóhajt, Boér kimegy az előszobába, 
-            és behozza a bundát, betakarja Perticset, aki megfordul.)</stage></p>
+            és behozza a bundát, betakarja Perticset, aki megfordul.)</stage>
+          </p>
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Köszönöm.<stage>(Simogatja a prémet.)</stage></p>
+          <p>Köszönöm.<stage>(Simogatja a prémet.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>
@@ -2403,7 +2481,8 @@
         </sp>
         <sp who="#pertics">
           <speaker>PERTICS</speaker>
-          <p>Tétess, kérlek, a tűzre!<stage>(Alig érteni.)</stage></p>
+          <p>Tétess, kérlek, a tűzre!<stage>(Alig érteni.)</stage>
+          </p>
         </sp>
         <sp who="#boer">
           <speaker>BOÉR</speaker>

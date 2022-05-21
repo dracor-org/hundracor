@@ -44,7 +44,7 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref> </orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -53,10 +53,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000024</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -939,9 +941,7 @@
         <sp who="#kar">
           <speaker>KAR</speaker>
           <lg>
-            <l>
-              <hi rend="italic">Strófa</hi>
-            </l>
+            <l><hi rend="italic">Strófa</hi></l>
             <l>Dicsérünk, mester, aki nékünk</l>
             <l>Ma ismét új házat szereztél!</l>
             <l>Hiven járunk el ügyeidben,</l>
@@ -950,9 +950,7 @@
             <l>Ellentállhatlan hordozói.</l>
           </lg>
           <lg>
-            <l>
-              <hi rend="italic">Antistrófa</hi>
-            </l>
+            <l><hi rend="italic">Antistrófa</hi></l>
             <l>Mi csak erény a házi körben,</l>
             <l>Mind a mi művünk. Éberségre</l>
             <l>Szoktatjuk a hanyag gazdasszonyt,</l>
@@ -961,9 +959,7 @@
             <l>A készlet, híven felfaljuk mind.</l>
           </lg>
           <lg>
-            <l>
-              <hi rend="italic">Második strófa</hi>
-            </l>
+            <l><hi rend="italic">Második strófa</hi></l>
             <l>Hiába üldöz, pusztít a sors,</l>
             <l>Százezren kelnek fel utánunk,</l>
             <l>A végzet szentelt eszközéül</l>
@@ -972,9 +968,7 @@
             <l>Ma ismét új házat szereztél.</l>
           </lg>
           <lg>
-            <l>
-              <hi rend="italic">Második antistrófa</hi>
-            </l>
+            <l><hi rend="italic">Második antistrófa</hi></l>
             <l>Óh, háládatlan az emberfaj!</l>
             <l>Pusztít és útál, ahová csak</l>
             <l>A civilizációt vittük.</l>
@@ -1472,9 +1466,7 @@
           <speaker>KAR</speaker>
           <stage>(az ablakon)</stage>
           <lg>
-            <l>
-              <hi rend="italic">Strófa</hi>
-            </l>
+            <l><hi rend="italic">Strófa</hi></l>
             <l>Óh mester! Kérlek mindenekre,</l>
             <l>Mi szent előtted, sérthetetlen</l>
             <l>A császárnak fogadására</l>
@@ -1483,9 +1475,7 @@
             <l>Spenátra és sárga répára.</l>
           </lg>
           <lg>
-            <l>
-              <hi rend="italic">Antistrófa</hi>
-            </l>
+            <l><hi rend="italic">Antistrófa</hi></l>
             <l>Ne kezdj, ne kezdj polgári pört el,</l>
             <l>Tudod az a pedáns görög kor,</l>
             <l>Pogányos klasszicitásával,</l>
@@ -1494,9 +1484,7 @@
             <l>S milyen nagyot helyez a szépben.</l>
           </lg>
           <lg>
-            <l>
-              <hi rend="italic">Második strófa</hi>
-            </l>
+            <l><hi rend="italic">Második strófa</hi></l>
             <l>Hogy fér belé két emberélet,</l>
             <l>Hogy járjuk Ponciust, Pilátust,</l>
             <l>Midőn még fel sem is találtuk</l>
@@ -1505,9 +1493,7 @@
             <l>Népünk későbbi hívatását.</l>
           </lg>
           <lg>
-            <l>
-              <hi rend="italic">Második antistrófa</hi>
-            </l>
+            <l><hi rend="italic">Második antistrófa</hi></l>
             <l>Kérünk hát, mester, hadd el, hadd el,</l>
             <l>Ki jőne komédiát nézni,</l>
             <l>Hogy végét unokája lássa,</l>
@@ -1769,9 +1755,7 @@
             <l>Imé, minek e fityegő ruha? <stage>(Leveszi a mentét.)</stage></l>
             <l>Esernyő is tesz ily szolgálatot.</l>
             <l>Mi haszna e szárnyaknak itt, le vélök!</l>
-            <l>
-              <stage>(Levágja az atilla végeit.)</stage>
-            </l>
+            <l><stage>(Levágja az atilla végeit.)</stage></l>
             <l>E paszománt, - pénzül fog kamatozni.</l>
             <l>Lám mennyi van csak itt meggazdálkodva.</l>
             <l>Minek sarkantyu?</l>
@@ -2185,9 +2169,7 @@
           <speaker>MÜRZL</speaker>
           <lg>
             <l>Lássuk már az enyémet is. Im, itt van:</l>
-            <l>
-              <stage>(Olvas.)</stage>
-            </l>
+            <l><stage>(Olvas.)</stage></l>
             <l>"Willst du dich gut unterhalten,</l>
             <l>Werde ich gut aufgelegt sein."</l>
             <l>Jőj, kérlek, gazdám, végünk van különben.</l>
@@ -2376,9 +2358,7 @@
             <l>Mi szép adó és mennyi hivatal,</l>
             <l>Hát még a sok mellékes sportula!</l>
             <l>No lány, meglágyulsz majd egy hét alatt.</l>
-            <l>
-              <stage>(Bemegy a házba, István dühösen előbúj.)</stage>
-            </l>
+            <l><stage>(Bemegy a házba, István dühösen előbúj.)</stage></l>
           </lg>
         </sp>
         <sp who="#istvan">
@@ -2486,9 +2466,7 @@
         <sp who="#kar">
           <speaker>KAR</speaker>
           <lg>
-            <l>
-              <hi rend="italic">Strófa</hi>
-            </l>
+            <l><hi rend="italic">Strófa</hi></l>
             <l>Óh mester, látod, milyen hitvány</l>
             <l>Mi nyomorult a büszke ember,</l>
             <l>Ki kebelében az egeknek</l>
@@ -2499,9 +2477,7 @@
             <l>Mert mint titán zúdúl az égre.</l>
           </lg>
           <lg>
-            <l>
-              <hi rend="italic">Antistrófa</hi>
-            </l>
+            <l><hi rend="italic">Antistrófa</hi></l>
             <l>Fel társak, új csatára bátran,</l>
             <l>Írjunk zászlónkra minden szépet,</l>
             <l>Hazát, erényt és szabadságot,</l>
@@ -2588,9 +2564,7 @@
         <sp who="#kar">
           <speaker>KAR</speaker>
           <lg>
-            <l>
-              <hi rend="italic">Strófa</hi>
-            </l>
+            <l><hi rend="italic">Strófa</hi></l>
             <l>Jaj néked, föld, kesergj, jajdulj fel,</l>
             <l>Elesett Svábia, a szent vár</l>
             <l>És Európa, melyet mink oly</l>
@@ -2601,9 +2575,7 @@
             <l>S megint ő ül fel az ökörre.</l>
           </lg>
           <lg>
-            <l>
-              <hi rend="italic">Antistrófa</hi>
-            </l>
+            <l><hi rend="italic">Antistrófa</hi></l>
             <l>Erdő nő a szép síma állon,</l>
             <l>Mint elhagyott kultúrán a gaz</l>
             <l>S csak erről ismer rá az ember,</l>
@@ -2612,9 +2584,7 @@
             <l>Örökké megmarad a régi.</l>
           </lg>
           <lg>
-            <l>
-              <hi rend="italic">Befejezés</hi>
-            </l>
+            <l><hi rend="italic">Befejezés</hi></l>
             <l>Jaj néked, szép halványra éhült</l>
             <l>Aszkétikus képed leöltöd,</l>
             <l>Le azt az ékes salavárit,</l>

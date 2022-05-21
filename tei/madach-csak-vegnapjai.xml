@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000025</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -262,45 +264,29 @@
           <roleDesc>Omodénak, Róbert Károly Nádorának
                                                   fiai</roleDesc>
           <castItem>
-            <role>
-              <roleName>János</roleName>
-            </role>
+            <role><roleName>János</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>László</roleName>
-            </role>
+            <role><roleName>László</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Miklós</roleName>
-            </role>
+            <role><roleName>Miklós</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Domos</roleName>
-            </role>
+            <role><roleName>Domos</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Dávid</roleName>
-            </role>
+            <role><roleName>Dávid</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Aba</roleName>
-            </role>
+            <role><roleName>Aba</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
-          <role>
-            <roleName>Srót Késmárki Polgár</roleName>
-          </role>
+          <role><roleName>Srót Késmárki Polgár</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Fekete Hadnagy</roleName>
-          </role>
+          <role><roleName>Fekete Hadnagy</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Simon</roleName>Csák’ fegyvernöke</role>
@@ -308,19 +294,13 @@
         <castGroup>
           <roleDesc>Köz-vitézek</roleDesc>
           <castItem>
-            <role>
-              <roleName>Jakab</roleName>
-            </role>
+            <role><roleName>Jakab</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Tamás</roleName>
-            </role>
+            <role><roleName>Tamás</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Petúr</roleName>
-            </role>
+            <role><roleName>Petúr</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
@@ -329,24 +309,16 @@
         <castGroup>
           <roleDesc>Nemesek Csák pártján</roleDesc>
           <castItem>
-            <role>
-              <roleName>Zách</roleName>
-            </role>
+            <role><roleName>Zách</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Zsámbokréti</roleName>
-            </role>
+            <role><roleName>Zsámbokréti</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Berende</roleName>
-            </role>
+            <role><roleName>Berende</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Druget</roleName>
-            </role>
+            <role><roleName>Druget</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
@@ -362,19 +334,13 @@
           <role><roleName>Egy apáca</roleName>Boris Klára’ dajkája</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Két Pór</roleName>
-          </role>
+          <role><roleName>Két Pór</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Két Gyilkos</roleName>
-          </role>
+          <role><roleName>Két Gyilkos</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Apácák, Károly’ és Csák’ hadai, Udvaroncok Nép</roleName>
-          </role>
+          <role><roleName>Apácák, Károly’ és Csák’ hadai, Udvaroncok Nép</roleName></role>
         </castItem>
       </castList>
     </front>
@@ -385,7 +351,8 @@
         <div type="scene">
           <head type="title">1ső Szin<stage>(Nyitott csarnok
                                                   az Omodéknál, oszlopain fegyverzetek függnek. -
-                                                  Kívül zaj.)</stage></head>
+                                                  Kívül zaj.)</stage>
+          </head>
           <sp who="#domos">
             <speaker>DOMOS</speaker>
             <stage>jő</stage>
@@ -426,7 +393,8 @@
             </lg>
           </sp>
           <sp who="#domos">
-            <speaker>DOM<note type="editorial">sh.</note></speaker>
+            <speaker>DOM<note type="editorial">sh.</note>
+            </speaker>
             <lg>
               <l>Öcsém!</l>
             </lg>
@@ -438,7 +406,8 @@
             </lg>
           </sp>
           <sp who="#domos">
-            <speaker>DOM<note type="editorial">sh.</note></speaker>
+            <speaker>DOM<note type="editorial">sh.</note>
+            </speaker>
             <lg>
               <l>Hol anyánk?</l>
             </lg>
@@ -550,9 +519,7 @@
             <lg>
               <l>Mit mondjak testvéridnek. Csák hadába</l>
               <l>Állok. Mond jó Anyámnak hogy köszöntöm</l>
-              <l>
-                <stage>(megindulva)</stage>
-              </l>
+              <l><stage>(megindulva)</stage></l>
               <l>Ah! mond áldását adja rám.</l>
             </lg>
           </sp>
@@ -590,9 +557,7 @@
             <lg>
               <l>El gyermekjáték már találtam</l>
               <l>Nyilamra érdemesb vadat.Gyerünk</l>
-              <l>
-                <stage>(mindketten el)</stage>
-              </l>
+              <l><stage>(mindketten el)</stage></l>
             </lg>
           </sp>
         </div>
@@ -782,10 +747,8 @@
               <l>Isten veled később a’ többiről <stage>(kürtöt
                                                   fúj meg)</stage></l>
               <l>Fel fel dologra, megviradt vitézek!</l>
-              <l>
-                <stage>(Simon eltávozik, a’ királyné a’
-                                                  sátorból kijön)</stage>
-              </l>
+              <l><stage>(Simon eltávozik, a’ királyné a’
+                                                  sátorból kijön)</stage></l>
               <l>Üdvözlek asszonyom, már fölverénk</l>
               <l>Átkos zajunkal ismét!</l>
             </lg>
@@ -866,10 +829,8 @@
             <speaker>ERSÉBET</speaker>
             <lg>
               <l>Isten veled.</l>
-              <l>
-                <stage>(mind ketten elmennek ez alatt megvirad
-                                                  néhány vitézek kijőnek sátraikból)</stage>
-              </l>
+              <l><stage>(mind ketten elmennek ez alatt megvirad
+                                                  néhány vitézek kijőnek sátraikból)</stage></l>
             </lg>
           </sp>
           <sp who="#fekete_hadnagy">
@@ -1237,9 +1198,7 @@
               <l>Mostan halgatás,</l>
               <l>Ha a’ tevés órája megjövend,</l>
               <l>Akkor kitűnik az okos ‘s barát.</l>
-              <l>
-                <stage>(kezet ád nekik. Indulnak)</stage>
-              </l>
+              <l><stage>(kezet ád nekik. Indulnak)</stage></l>
             </lg>
           </sp>
           <sp who="#simon">
@@ -1477,9 +1436,7 @@
               <l>Vér szerzett alkotmányunknak jelét,</l>
               <l>‘S szeplőtlenül az átkos sír felett</l>
               <l>Mint nap ragyog fel: nép jog és magyar.</l>
-              <l>
-                <stage>(kardját általadja)</stage>
-              </l>
+              <l><stage>(kardját általadja)</stage></l>
             </lg>
           </sp>
           <sp who="#aba">
@@ -1931,7 +1888,8 @@
         <div type="scene">
           <head type="title">Szin: <stage>(Rozgony terén két
                                                   pór halmot rak, mellette egy kissebb síron Dávid
-                                                  merengni látszik)</stage></head>
+                                                  merengni látszik)</stage>
+          </head>
           <sp who="#elso_por">
             <speaker>ELSŐ PÓR</speaker>
             <lg>
@@ -2192,9 +2150,7 @@
               <l>Magasra</l>
               <l>Rakátok a’ sírt. Jó hogy vándorok</l>
               <l>Veremnek el ne ösmerjék: jegyet rá</l>
-              <l>
-                <stage>(Dárdáját bele szúrja)</stage>
-              </l>
+              <l><stage>(Dárdáját bele szúrja)</stage></l>
               <l>Mulassatok holt bajtársim vele.</l>
             </lg>
           </sp>
@@ -2753,9 +2709,7 @@
               <l>Az ifjú mell, szerelmet lángolót</l>
               <l>Minő enyém ‘s ha illyet érteni</l>
               <l>Nem birna kebled nos, tehát mit akkor?</l>
-              <l>
-                <stage>(dühössen)</stage>
-              </l>
+              <l><stage>(dühössen)</stage></l>
               <l>Akkor jéggé teszem. Jól látok-e?</l>
               <l>Ezrek porán térdel oh vajha köztök</l>
               <l>Lehetnék én is élve hogy nyomát</l>
@@ -2985,10 +2939,8 @@
             <lg>
               <l>Balját lövesd hát csak a’ potrohának</l>
               <l>‘S másutt ha éri is nyil, mit sem ér</l>
-              <l>
-                <stage>(Domos a’ bérc alatt jő
-                                                  sereggel)</stage>
-              </l>
+              <l><stage>(Domos a’ bérc alatt jő
+                                                  sereggel)</stage></l>
               <l>Ha hó! ki az?</l>
             </lg>
           </sp>
@@ -3421,10 +3373,8 @@
               <l>‘S lankasztva inaikat elpuhít.</l>
               <l>Vad tárogató a’ férfi hang szere,</l>
               <l>Melly behat a’ csont belsejéig. Add!</l>
-              <l>
-                <stage>(a’ lantot öszve zúzza. Dávid el
-                                                  győzelmi zaj.)</stage>
-              </l>
+              <l><stage>(a’ lantot öszve zúzza. Dávid el
+                                                  győzelmi zaj.)</stage></l>
             </lg>
           </sp>
           <sp who="#miklos">
@@ -3594,9 +3544,7 @@
               <l>Akkor mi is pórok megkisérendjük,</l>
               <l>Tudunk zengni úgy hogy az egeknek</l>
               <l>Essőzni kelljen.- Jöjjön a’ követ!</l>
-              <l>
-                <stage>(Zsámbokréti belép)</stage>
-              </l>
+              <l><stage>(Zsámbokréti belép)</stage></l>
               <l>Idább levente, mit sem félj idább,</l>
               <l>Ne reszkess vérem lázba jő ha látok Reszketni
                                                   férfit!</l>
@@ -3770,9 +3718,7 @@
               <l>Alatta el, ez képed óh hazám!</l>
               <l>A’ tűz melly jó tevő melegjeért</l>
               <l>Teremték im mi szörnyű! szörnyű lett!</l>
-              <l>
-                <stage>(Csákhoz kit észre vesz)</stage>
-              </l>
+              <l><stage>(Csákhoz kit észre vesz)</stage></l>
               <l>Téged kereslek Csák! de úgy talállak</l>
               <l>Mint sast, melly zordon martalékra vár;</l>
               <l>‘S ha látlak igy sötét hadistenűl</l>
@@ -4323,7 +4269,8 @@
         <head type="title">A’ HONFI ÉS AZ UDVARONC</head>
         <div type="scene">
           <head type="title">Szin: <stage>Budán. Terem Zách
-                                                  Bódog lakában</stage></head>
+                                                  Bódog lakában</stage>
+          </head>
           <sp who="#klara">
             <speaker>KLÁRA</speaker>
             <stage>(Tükör előtt Boris segitségével
@@ -4535,9 +4482,7 @@
             <lg>
               <l>Sajátjában pihen csak, mond meg ezt.</l>
               <l>‘S hogy én szolgája lábát csókolom.</l>
-              <l>
-                <stage>(olvas, Zsámbokréti el)</stage>
-              </l>
+              <l><stage>(olvas, Zsámbokréti el)</stage></l>
               <l>Jól mondtam, ő mint Isten ott is áld</l>
               <l>Hol vétkezénk.</l>
             </lg>
@@ -4664,9 +4609,7 @@
                                                   (Kürt)</l>
               <l>Hah a’ király! eltéptem iratát,</l>
               <l>Óh jaj! kábult agg!- a’ vén csak gyerek.</l>
-              <l>
-                <stage>(Csák belép)</stage>
-              </l>
+              <l><stage>(Csák belép)</stage></l>
               <l>Kísérteni jössz-e’ szömyű ember, - vagy</l>
               <l>Megölni?</l>
             </lg>
@@ -4962,9 +4905,7 @@
             <speaker>CSÁK</speaker>
             <lg>
               <l>Kölyök! gúnyolni vágysz?</l>
-              <l>
-                <stage>(üti őt)</stage>
-              </l>
+              <l><stage>(üti őt)</stage></l>
             </lg>
           </sp>
           <sp who="#bohoc">
@@ -5763,9 +5704,7 @@
               <l>Mind elhagyott erőm, Miklós vezess!</l>
               <l>E’ kardot mellyel győzni birtam ím</l>
               <l>Alig birom széttörni, el vele!</l>
-              <l>
-                <stage>(kardját szét töré)</stage>
-              </l>
+              <l><stage>(kardját szét töré)</stage></l>
             </lg>
           </sp>
           <sp who="#miklos">
@@ -5872,9 +5811,7 @@
             <speaker>CSÁK</speaker>
             <lg>
               <l>Őrjöngsz bolond! tudod jól, messze ment!</l>
-              <l>
-                <stage>(el Miklóssal)</stage>
-              </l>
+              <l><stage>(el Miklóssal)</stage></l>
             </lg>
           </sp>
           <sp who="#david">
@@ -6365,9 +6302,7 @@
               <l>Miklós fiad siess eléred őt. -</l>
               <l>A’ gyilkostól nefélj már messze van</l>
               <l>‘S fiad ezentúl megvéd. Ég veled!</l>
-              <l>
-                <stage>(Margitot elvezeti)</stage>
-              </l>
+              <l><stage>(Margitot elvezeti)</stage></l>
               <l>Attól remegtél nemzet hogy kiirtlak</l>
               <l>Van már kapás ki megteszi helyettem!!!</l>
             </lg>
@@ -6387,7 +6322,8 @@
         <head type="title">KÉT ZARÁNDOK</head>
         <div type="scene">
           <head type="title">1ső Szin:<stage>Mező, messziről
-                                                  egy zárda látszik</stage></head>
+                                                  egy zárda látszik</stage>
+          </head>
           <sp who="#elso_gyilkos">
             <speaker>1ső GYILKOS</speaker>
             <lg>
@@ -6811,7 +6747,8 @@
         <div type="scene">
           <head type="title">IIdik Szin<stage>(A zárdában
                                                   sötét szoba. Az apátzák ‘soltárja hallik. Ersébet
-                                                  kis oltár előtt térdel)</stage></head>
+                                                  kis oltár előtt térdel)</stage>
+          </head>
           <sp who="#ersebet">
             <speaker>ERSÉBET</speaker>
             <stage>(felkél)</stage>
@@ -6842,9 +6779,7 @@
               <l>Csak el ne veszd üdő elött, csak éljen</l>
               <l>A’ még te vagy még föld golyóbisod</l>
               <l>Forogni engeded! mert megtagadlak -</l>
-              <l>
-                <stage>(kint csengetnek)</stage>
-              </l>
+              <l><stage>(kint csengetnek)</stage></l>
               <l>Nézd meg ki csenget ottkint?</l>
             </lg>
           </sp>
@@ -7083,10 +7018,8 @@
               <l>Szemű kesely mindég égnek repülök</l>
               <l>Még vagy felérek a’ csillag lakig</l>
               <l>Vagy szárnyam elszakadva szét esem.</l>
-              <l>
-                <stage>(Kiindul, az ajtóban a 2dik Gyilkos
-                                                  leszúrja)</stage>
-              </l>
+              <l><stage>(Kiindul, az ajtóban a 2dik Gyilkos
+                                                  leszúrja)</stage></l>
               <l>Bolond mért bántasz? <stage>(Csák és Miklós
                                                   jő)</stage></l>
             </lg>
@@ -7095,10 +7028,8 @@
             <speaker>MIKLÓS</speaker>
             <lg>
               <l>Hah megálj ne mozdúlj</l>
-              <l>
-                <stage>(megragadja a’ gyilkost ‘s földre
-                                                  veti)</stage>
-              </l>
+              <l><stage>(megragadja a’ gyilkost ‘s földre
+                                                  veti)</stage></l>
               <l>Kit öltetek meg rókák?</l>
             </lg>
           </sp>
@@ -7266,9 +7197,7 @@
             <lg>
               <l>Itt véled kihalni?</l>
               <l>Én nemzetéhez hordom végszavát.</l>
-              <l>
-                <stage>(melléje térdelnek)</stage>
-              </l>
+              <l><stage>(melléje térdelnek)</stage></l>
             </lg>
           </sp>
           <sp who="#trencsenyi_csak_mate">
@@ -7356,9 +7285,7 @@
               <l>A’ zsarnok! Ez siromban is</l>
               <l>Gyötör, - hah, én még meg nem halhatok</l>
               <l>Mert még egyetsem öltem el közűlök!</l>
-              <l>
-                <stage>(fájdalommal visszarogy)</stage>
-              </l>
+              <l><stage>(fájdalommal visszarogy)</stage></l>
               <l>Vagy hát hijába éltem, óh hijába,</l>
               <l>Vallyon királyném siromon fog-e’</l>
               <l>Virasztni nemtő! Vagy csak puszta lessz</l>
@@ -7446,15 +7373,11 @@
               <l>Mosódjék vérfördőt szokott halotja.</l>
               <l>Nemondj felettem zúgó requiemt</l>
               <l>Csáknak halálán bércek csapnak öszve.</l>
-              <l>
-                <stage>(szeliden)</stage>
-              </l>
+              <l><stage>(szeliden)</stage></l>
               <l>Vezessetek most az ablak felé</l>
               <l>Vég pillantásom szenthazám határin</l>
               <l>Had andalogjon, - süllyedjen belé.</l>
-              <l>
-                <stage>(megtörten)</stage>
-              </l>
+              <l><stage>(megtörten)</stage></l>
               <l>Le áldozott a’ nap, óh! bár legyen</l>
               <l>Ismét utánna boldog virradás</l>
               <l>Csúcscsán, arany de búcsúzó arany! -</l>
@@ -7468,10 +7391,8 @@
               <l>Viharrá nő a’ szellő, és üvölt</l>
               <l>Hogy megrázkódik rajta a’ világ</l>
               <l>Mert halva is üld még Csák zsarnokot</l>
-              <l>
-                <stage>(feje Er’sébet ölébe
-                                                  hanyatlik)</stage>
-              </l>
+              <l><stage>(feje Er’sébet ölébe
+                                                  hanyatlik)</stage></l>
               <l>Öledben édes a’ nyugvás királyné -</l>
               <l>Öledben az Árpádok alszanak!
                                                   <stage>(meghal)</stage></l>

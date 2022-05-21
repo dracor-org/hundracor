@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000014</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -191,43 +193,31 @@
           <role><roleName>KELENDI ENDRE</roleName>, tengerészhadnagy</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ÁRTHUR</roleName>
-          </role>
+          <role><roleName>ÁRTHUR</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>MARGIT</roleName>, testvérhúga</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>BILSENNÉ</roleName>
-          </role>
+          <role><roleName>BILSENNÉ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>FELDNER LOUISE</roleName>
-          </role>
+          <role><roleName>FELDNER LOUISE</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>FERENC</roleName>, a hadnagy legénye</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>RENDŐRTISZT</roleName>
-          </role>
+          <role><roleName>RENDŐRTISZT</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>VILMOS</roleName>, szolga</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>INAS</roleName>
-          </role>
+          <role><roleName>INAS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Cselédek, katonák</roleName>
-          </role>
+          <role><roleName>Cselédek, katonák</roleName></role>
         </castItem>
       </castList>
       <p>
@@ -472,7 +462,8 @@
                             oly szabad mező, mint a miénk, és egy elhibázott lépésnek esés lehet
                             következménye. Azért rakja rendbe könyveimet, számadásaimat, s a
                             bilánxra tartozó minden irományokat. Egy óra múlva kocsiba
-                                ülök.<stage>El.</stage></p>
+                                ülök.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#arthur">
             <speaker>ÁRTHUR</speaker>
@@ -549,7 +540,8 @@
             <p>Kedves Árthurom, hozza el legyezőmet.<stage>Míg Árthur a másik
                                         asztalhoz megyen legyezőért, Hermina egy pamlag oldala
                                         mellett álló tükörbe nézdegél, s a pamlagon ideális ülést
-                                        keres.</stage></p>
+                                        keres.</stage>
+            </p>
           </sp>
           <p>
             <stage>Árthur elhozza a legyezőt, s bókkal átadja.</stage>
@@ -572,7 +564,8 @@
           </sp>
           <sp who="#hermina">
             <speaker>HERMINA</speaker>
-            <p><stage>a pamlag mellé intve - Árthur arcát legyezőjével
+            <p>
+              <stage>a pamlag mellé intve - Árthur arcát legyezőjével
                                     érinti.</stage>Hűtlen lovagom! Új meglepetésre számoltam, s ön ma nem tevé.</p>
           </sp>
           <sp who="#arthur">
@@ -852,7 +845,8 @@
             <stage>félre.</stage>
             <p>Ezt nem viszed el szárazon.<stage>Fent.</stage>Engem kötelességem hív.<stage>Endréhez.</stage>Ha az út valamiképpen elveszne Grönlandba<stage>gúnyos
                                         mosollyal,</stage>nehogy az ön honszeretete feltalálja számomra, hadnagy
-                                        úr.<stage>El.</stage></p>
+                                        úr.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
@@ -1015,7 +1009,8 @@
                                                 távollétemben, ne feledje bizalmamat. Isten
                                                   veletek.<stage>El. Endre, Hermina és Árthur
                                                   követik. Hermina az ajtónál Árthurnak maradást
-                                                  int.</stage></p>
+                                                  int.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1057,7 +1052,8 @@
           </sp>
           <sp who="#vilmos">
             <speaker>VILMOS.</speaker>
-            <p>Értem, nagyságos uram.<stage>El.</stage></p>
+            <p>Értem, nagyságos uram.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#arthur">
             <speaker>ÁRTHUR.</speaker>
@@ -1091,7 +1087,8 @@
                             pedig lehetetlen anélkül, hogy álarcomat továbbra is megtarthassam, s
                             akkor végem volna.<note type="footnote">2. helyesen: ez pedig lehetetlen
                                 anélkül, hogy álarcomat el ne vessem, s akkor végem
-                                volna.</note><stage>Gondolkodik.</stage>Hogy a húszezres kölcsönt hatvanezeresre fogom emelhetni ez valószínűbb,
+                                volna.</note>
+              <stage>Gondolkodik.</stage>Hogy a húszezres kölcsönt hatvanezeresre fogom emelhetni ez valószínűbb,
                             mert a szenvedélyt a legfelsőbb fokra csigáztam; verjük hát a vasat, míg
                             meleg. - Jövel te egykori fény, kényelem és élvezet, melyekre lelkem
                             jogosítva van! Hol és miként? Szerencsémre bízom. Míg a tényező kezem
@@ -1242,7 +1239,8 @@
             <speaker>BILSENNÉ.</speaker>
             <p>Semmi sem szolgálhat. Én ön helyében inkább magamat áldoztam volna
                                 fel, mintsem testvéremet elevenen eltemessem. - Térjen istenhez, még
-                                nem késő.<stage>Könyvet veszen elő, s olvas.</stage></p>
+                                nem késő.<stage>Könyvet veszen elő, s olvas.</stage>
+            </p>
           </sp>
           <sp who="#arthur">
             <speaker>ÁRTHUR</speaker>
@@ -1252,7 +1250,8 @@
                                 fogamzott. Kétségbeesni ugyan még nincs okom, de a bizonyos való itt
                                 rám nézve fentebb állni látszik, hogysem számomra érettnek hihessem.
                                 - Jövel azért te, hatvanezer forint!<stage>Fent.</stage>Az ég segítse az olvasásában épületes tanulságra, Bilsenné
-                                asszony.<stage>El.</stage></p>
+                                asszony.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#bilsenne">
             <speaker>BILSENNÉ.</speaker>
@@ -1270,7 +1269,8 @@
                                     nyelvével ajándékozott meg, és szép arcot eszközlött orgyilokul
                                     neked, hogy hozzáférhess mindahhoz, ami szent. Vessz el, s
                                     utolsó napon a véghetetlen kegyelem se találjon mentséget
-                                        számodra!<stage>Tovább olvas.</stage></p>
+                                        számodra!<stage>Tovább olvas.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1664,7 +1664,8 @@
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
-            <p>Végre értjük egymást!<stage>Szünet.</stage></p>
+            <p>Végre értjük egymást!<stage>Szünet.</stage>
+            </p>
           </sp>
           <sp who="#margit">
             <speaker>MARGIT</speaker>
@@ -1769,7 +1770,8 @@
             <speaker>MARGIT.</speaker>
             <p>Feledjen el. Én ígérem, hogy sohasem feledem, és
                                             imádkozni fogok ön nyugalmáért a
-                                            -<stage>elakad.</stage></p>
+                                            -<stage>elakad.</stage>
+            </p>
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
@@ -1876,7 +1878,8 @@
                                             lény, kinek könnyűi ön által forróbbakká levének, mint
                                             az ön verejték cseppei a halál óráiban. - És most,
                                             anyám, örökre tiéd vagyok!<stage>Bilsennére borul -
-                                                szünet.</stage></p>
+                                                szünet.</stage>
+            </p>
           </sp>
           <sp who="#bilsenne">
             <speaker>BILSENNÉ.</speaker>
@@ -1908,7 +1911,8 @@
           </sp>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
-            <p>Endre!<stage>Endre karjaiba szalad, s elalél.</stage></p>
+            <p>Endre!<stage>Endre karjaiba szalad, s elalél.</stage>
+            </p>
           </sp>
           <sp who="#bilsenne">
             <speaker>BILSENNÉ</speaker>
@@ -2118,17 +2122,20 @@
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Mindent - mindent
-                                                  elkövetek.<stage>Felemeli.</stage></p>
+                                                  elkövetek.<stage>Felemeli.</stage>
+            </p>
           </sp>
           <sp who="#feldner_louise">
             <speaker>LOUISE.</speaker>
             <p>Tehát remélhetek, ó, ez felette nemes öntől, s az
                                                   ég nem feledi el jutalmát. Engedje kezét
-                                                  csókolnom.<stage>Meg akarja csókolni.</stage></p>
+                                                  csókolnom.<stage>Meg akarja csókolni.</stage>
+            </p>
           </sp>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
-            <p>Hah!<stage>Visszaretten.</stage></p>
+            <p>Hah!<stage>Visszaretten.</stage>
+            </p>
           </sp>
           <sp who="#feldner_louise">
             <speaker>LOUISE.</speaker>
@@ -2156,7 +2163,8 @@
             <speaker>HERMINA.</speaker>
             <p>Szerelmemmel kérkedett - és nevetség tárgyának
                                                   használta - ah, gyalázatos!<stage>Kis
-                                                  szünet.</stage></p>
+                                                  szünet.</stage>
+            </p>
           </sp>
           <sp who="#feldner_louise">
             <speaker>LOUISE.</speaker>
@@ -2201,7 +2209,8 @@
           </sp>
           <sp who="#feldner_louise">
             <speaker>LOUISE.</speaker>
-            <p>Fogadja hálám - örök hálám!<stage>El.</stage></p>
+            <p>Fogadja hálám - örök hálám!<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2220,7 +2229,8 @@
                                                   midőn e gaz kalandor szavaiban érdeket lelék, hova
                                                   aljasítám lelkemet? Ó, istenem csak percnyi erőt
                                                   még, hogy bosszúm előtt meg ne őrüljek.<stage>A
-                                                  pamlagra veti magát. Kívül zaj.</stage></p>
+                                                  pamlagra veti magát. Kívül zaj.</stage>
+            </p>
             <p>Minő lárma, zaj - talán a leány bántotott
                                                   valaki által - ah, figyelmem is elveszett már!</p>
           </sp>
@@ -2273,7 +2283,8 @@
                                                   percét éltének, e nemes férfit, ki talán most is
                                                   jólétemen fárasztja agyát. Csendesedjél, szívem -
                                                   csendesedjél, e percben nyugalomra van
-                                                  szükséged.<stage>Férjéhez.</stage></p>
+                                                  szükséged.<stage>Férjéhez.</stage>
+            </p>
             <p>Édes férjem, úgy látszik, e papírok nagyon
                                                   bírják figyelmedet.</p>
           </sp>
@@ -2460,7 +2471,8 @@
             <speaker>HERMINA</speaker>
             <stage>elkél - férje elébe tántorog, lábaihoz
                                                   borul.</stage>
-            <p>Férjem!<stage>Szót keres - elakad.</stage></p>
+            <p>Férjem!<stage>Szót keres - elakad.</stage>
+            </p>
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
@@ -2489,7 +2501,8 @@
                                                   nyomor - nincs ínség. Jer, foglald el ismét azon
                                                   helyet keblemben, mely bírásod óta mindig tiéd
                                                   volt, és lesz
-                                                  végpercemig.<stage>Felemeli.</stage></p>
+                                                  végpercemig.<stage>Felemeli.</stage>
+            </p>
           </sp>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
@@ -2743,7 +2756,8 @@
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
-            <p>Semmi - mindent elkövettem.<stage>Szünet.</stage></p>
+            <p>Semmi - mindent elkövettem.<stage>Szünet.</stage>
+            </p>
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
@@ -2887,7 +2901,8 @@
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
-            <p>Nem - írj magad.<stage>Feláll.</stage></p>
+            <p>Nem - írj magad.<stage>Feláll.</stage>
+            </p>
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
@@ -3013,7 +3028,8 @@
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
-            <p>Akkor e levélre sincs szükség.<stage>El akarja szakítni.</stage></p>
+            <p>Akkor e levélre sincs szükség.<stage>El akarja szakítni.</stage>
+            </p>
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE</speaker>
@@ -3043,7 +3059,8 @@
             <speaker>KELENDI.</speaker>
             <p>Megnyugodva távozom. Engedje az ég, hogy nehány pillanat múlva a
                             legbensőbb boldogság és megelégedés környezzen
-                                mindnyájunkat.<stage>El.</stage></p>
+                                mindnyájunkat.<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3051,7 +3068,8 @@
           <sp who="#kelendi_endre">
             <speaker>ENDRE</speaker>
             <stage>szemeivel kíséri.</stage>
-            <p>Engedje az ég!<stage>A pamlaghoz tántorog.</stage></p>
+            <p>Engedje az ég!<stage>A pamlaghoz tántorog.</stage>
+            </p>
             <p>Most tudom csak, mint szerettem őt - ah, mily boldog valék pár
                                     perccel ezelőtt, oda örökre - isten hozzád, életem
                                     virága!<stage>A pamlagra borul - szünet.</stage>Köszönöm neked, Istenem, hogy ennyi erőt adál semmivé tenni egy
@@ -3061,7 +3079,8 @@
                                     özönébe fúlok! Csendesedj keblem - hol azon férfierő, mely az ég
                                     villámival dacolt, mely az elemek harcát nyugalommal kereste?
                                     Átok reátok, hogy ki nem oltátok e nyomorú életet, melyre most
-                                    már szükségem van.<stage>Fájdalmába mélyed.</stage></p>
+                                    már szükségem van.<stage>Fájdalmába mélyed.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3112,7 +3131,8 @@
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Azt hiszem, hogy e főfájás tökéletes eloszlatására a legjobb
-                                        gyógyszert ajánlhatom.<stage>Louise-ra mutat.</stage></p>
+                                        gyógyszert ajánlhatom.<stage>Louise-ra mutat.</stage>
+            </p>
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
@@ -3133,7 +3153,8 @@
                                         tartózkodásukat, kölcsönös érzelmet támaszt
                                         bennök.<stage>Fent.</stage>Most pedig legyen szabad rövid időre távoznom, férjem e
                                         pillanatban útra indul, s részemre némi foglalkozás
-                                        maradt.<stage>El.</stage></p>
+                                        maradt.<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3369,7 +3390,8 @@
                                             egy ily nyomorú életre, mint öné, szüksége van, és ez a
                                             szív - enyém. Keljen fel, s köszönje sorsának, hogy oly
                                             bíró elébe állítá önt, mely előtt az igazság pirulni
-                                                kénytelen.<stage>Felemeli.</stage></p>
+                                                kénytelen.<stage>Felemeli.</stage>
+            </p>
           </sp>
           <sp who="#feldner_louise">
             <speaker>LOUISE.</speaker>
@@ -3432,7 +3454,8 @@
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
-            <p>Isten önnel.<stage>Sebesen el.</stage></p>
+            <p>Isten önnel.<stage>Sebesen el.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3454,7 +3477,8 @@
                                                 melyben legalább a megnyugvás bizonyos. Ez által
                                                 megérend, s áldozatáról megismerve az oly
                                                 közönségesnek tartott lelket - porait talán becsülni
-                                                  fogja.<stage>Ingadozva el.</stage></p>
+                                                  fogja.<stage>Ingadozva el.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3503,7 +3527,8 @@
                                                     férfira érdemessé tenni. Mintha álom fogná el
                                                     szemeim; nem csoda, a múlt éjeken sokat szenvedtem
                                                     - megkísértem az álom balzsamát -<stage>ledől s
-                                                        majd elalszik.</stage></p>
+                                                        majd elalszik.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3533,7 +3558,8 @@
                                                   dologra hát hamar, nincs elveszteni való
                                                   időm.<stage>A kárpit felé megyen
                                                       meglátja.</stage>Mit látok? A pamlagon, még nem feküdt le,
-                                                      megkísértem.<stage>Kezével érinti.</stage></p>
+                                                      megkísértem.<stage>Kezével érinti.</stage>
+            </p>
           </sp>
           <sp who="#hermina">
             <speaker>HERMINA</speaker>
@@ -3566,7 +3592,8 @@
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Távozzék mondom, vagy segélyért
-                                                  kiáltok.<stage>A csengettyű után nyúl.</stage></p>
+                                                  kiáltok.<stage>A csengettyű után nyúl.</stage>
+            </p>
           </sp>
           <p>
             <stage>Árthur elkapja előle.</stage>
@@ -3873,7 +3900,8 @@
             <speaker>KELENDI</speaker>
             <stage>kívül.</stage>
             <p>Hermina, nyisd fel az
-                                                  ajtót!<stage>Kopog.</stage></p>
+                                                  ajtót!<stage>Kopog.</stage>
+            </p>
           </sp>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
@@ -3888,20 +3916,23 @@
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Hah - isten irgalmazz
-                                                  -<stage>összerogy.</stage></p>
+                                                  -<stage>összerogy.</stage>
+            </p>
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI</speaker>
             <stage>kívül.</stage>
             <p>Mi az - mi történik itt - nyisd ki.<stage>Verik
-                                                  az ajtót.</stage></p>
+                                                  az ajtót.</stage>
+            </p>
           </sp>
           <sp who="#hermina">
             <speaker>ÁRTHUR.</speaker>
             <p>Merre meneküljek.<stage>Az ajtókra szalad,
                                                   zárva találja - visszafut, az ajtót folyvást
                                                   verik, s azon pillanatban törik be, midőn az
-                                                  ablakon kiugrik.</stage></p>
+                                                  ablakon kiugrik.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3925,7 +3956,8 @@
           </sp>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
-            <p>Ah - férjem -<stage>meghal.</stage></p>
+            <p>Ah - férjem -<stage>meghal.</stage>
+            </p>
           </sp>
           <p>
             <stage>A kárpit legördül.</stage>
@@ -4177,7 +4209,8 @@
           </p>
           <sp who="#arthur">
             <speaker>ÁRTHUR.</speaker>
-            <p>Kárhozat, ez a te köszöntésed!<stage>A zene közeledik.</stage></p>
+            <p>Kárhozat, ez a te köszöntésed!<stage>A zene közeledik.</stage>
+            </p>
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
@@ -4197,7 +4230,8 @@
           <sp who="#arthur">
             <speaker>ÁRTHUR.</speaker>
             <stage>az ablakhoz megyen, olvas.</stage>
-            <p>"Feldner Louise"!<stage>Elborzadva visszatántorog.</stage></p>
+            <p>"Feldner Louise"!<stage>Elborzadva visszatántorog.</stage>
+            </p>
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
@@ -4218,7 +4252,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ÁRTHUR.</speaker>
-            <p>Mit - kérdezett ön?<stage>Elveszi kezét füleiről.</stage></p>
+            <p>Mit - kérdezett ön?<stage>Elveszi kezét füleiről.</stage>
+            </p>
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
@@ -4282,7 +4317,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ÁRTHUR.</speaker>
-            <p>Vajha tehetném!<stage>Oldalra tántorog.</stage></p>
+            <p>Vajha tehetném!<stage>Oldalra tántorog.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4488,7 +4524,8 @@
             <speaker>KELENDI.</speaker>
             <p>Tehát a dologra. Azon lény, kinek arca e csonton van, egykor
                                         életem tartá meg, most képe testvéremet adja
-                                            vissza!<stage>El.</stage></p>
+                                            vissza!<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4713,7 +4750,8 @@
             <speaker>BILSENNÉ.</speaker>
             <p>Hanem emléke itt marad, s átokkal ül lelkedre. Jer, lásd, és számláld ki
                             perceit haláláig - nem kell sok fejtörés hozzá - jer -<stage>karon
-                                fogja.</stage></p>
+                                fogja.</stage>
+            </p>
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
@@ -4735,7 +4773,8 @@
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
-            <p>Ah, szívem - repedj meg!<stage>Pamlagra borul.</stage></p>
+            <p>Ah, szívem - repedj meg!<stage>Pamlagra borul.</stage>
+            </p>
           </sp>
           <sp who="#bilsenne">
             <speaker>BILSENNÉ.</speaker>
@@ -4776,7 +4815,8 @@
             <p>Egy kis számadás lelkiismereteddel. Kerültél engem - kerülted a leányt,
                             kerülted - adott szavad és kerülted a becsület esküjét; - nyomodban
                             vagyok, és ha tekervényes utad földről a csillagokba viendett,
-                            követtelek volna azon árnnyal, kitől szaladtál.<stage>El.</stage></p>
+                            követtelek volna azon árnnyal, kitől szaladtál.<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4906,7 +4946,9 @@
           </sp>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
-            <p><stage>a fájdalom legfensőbb fokán.</stage>Menjünk, anyám.<stage>Bilsenné vezetni akarja, karjaiba dől.</stage></p>
+            <p>
+              <stage>a fájdalom legfensőbb fokán.</stage>Menjünk, anyám.<stage>Bilsenné vezetni akarja, karjaiba dől.</stage>
+            </p>
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
@@ -4914,7 +4956,8 @@
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
-            <p><stage>felkél.</stage>Bátyám!</p>
+            <p>
+              <stage>felkél.</stage>Bátyám!</p>
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
@@ -4941,7 +4984,8 @@
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
             <p>Olvasd e levelet - most vevém át legényedtől<stage>egy feltört levelet
-                                átnyújt.</stage></p>
+                                átnyújt.</stage>
+            </p>
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
@@ -4998,7 +5042,8 @@
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
-            <p>Mi az? Mi történik itt?<stage>Az ajtón át katonák láthatók.</stage></p>
+            <p>Mi az? Mi történik itt?<stage>Az ajtón át katonák láthatók.</stage>
+            </p>
           </sp>
           <sp who="#rendortiszt">
             <speaker>RENDŐRTISZT.</speaker>
@@ -5081,7 +5126,8 @@
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
-            <p>Mit mondasz nyomorú?<stage>Feléje megy.</stage></p>
+            <p>Mit mondasz nyomorú?<stage>Feléje megy.</stage>
+            </p>
           </sp>
           <sp who="#kelendi">
             <speaker>KELENDI</speaker>
@@ -5104,7 +5150,8 @@
           </sp>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
-            <p>Anyám, meghalok.<stage>Keblére borul.</stage></p>
+            <p>Anyám, meghalok.<stage>Keblére borul.</stage>
+            </p>
           </sp>
           <sp who="#bilsenne">
             <speaker>BILSENNÉ</speaker>
@@ -5126,7 +5173,8 @@
             <speaker>ÁRTHUR.</speaker>
             <p>Anyám - értelek! Szellemed a sírhangok zúgásában szól hozzám. - Igen -
                             megyek - megyek!<stage>Középen eltántorog, a rendőrök követik. Nagy
-                                szünet, mely alatt Endre és Kelendi egymást szembenézik.</stage></p>
+                                szünet, mely alatt Endre és Kelendi egymást szembenézik.</stage>
+            </p>
           </sp>
           <sp who="#kelendi_endre">
             <speaker>ENDRE</speaker>

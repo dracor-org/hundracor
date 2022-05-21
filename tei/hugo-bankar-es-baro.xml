@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000017</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -165,9 +167,7 @@
           <role><roleName>MIRMONT ARTHUR</roleName> báró</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>INASOK</roleName>
-          </role>
+          <role><roleName>INASOK</roleName></role>
         </castItem>
       </castList>
       <p>
@@ -245,7 +245,8 @@
           </p>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>lehajtott fővel lép be; midőn Adélt
+            <p>
+              <stage>lehajtott fővel lép be; midőn Adélt
                                                   megpillantja, fölegyenesedik.</stage>Jó estét,
                                                   Adél!<stage>Megöleli.</stage>Soká várakoztattalak
                                                   - de nekem is soká kelle várakoznom és -
@@ -298,7 +299,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>miután leült, Adél széke mellett
+            <p>
+              <stage>miután leült, Adél széke mellett
                                                   áll.</stage>Ha valaha derült, gondtalan kereskedőt
                                                   láttál, úgy csalatkozál, vagy - mi valószínűbb - ő
                                                   csalt meg téged, mosolyogva, mert a világ színe
@@ -377,7 +379,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>kényszerített mosollyal.</stage>Ha
+            <p>
+              <stage>kényszerített mosollyal.</stage>Ha
                                                   ügyeimben minden zavart elmondanom, minden
                                                   számadást előtted felmutatnom s minden lánctörést
                                                   veled feloldatnom kellene, mert mármost kereskedő
@@ -395,7 +398,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>fölkel.</stage>Nem, kedves Adélom!
+            <p>
+              <stage>fölkel.</stage>Nem, kedves Adélom!
                                                   sokkal inkább szeretlek, mintsem tettleg is kalmár
                                                   nejének tekintenélek. Te kedves nőm vagy, s én
                                                   reád nézve csak szerető férj vagyok, de nem
@@ -461,7 +465,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>meglepetéssel, gyorsan.</stage>Miért
+            <p>
+              <stage>meglepetéssel, gyorsan.</stage>Miért
                                                   éppen ma és holnap? Talán értésedre esett már?
                                                   -</p>
           </sp>
@@ -471,7 +476,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>nyugodtabban.</stage>Vagy úgy!</p>
+            <p>
+              <stage>nyugodtabban.</stage>Vagy úgy!</p>
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
@@ -480,7 +486,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>komoran.</stage>Születésem napjára nem
+            <p>
+              <stage>komoran.</stage>Születésem napjára nem
                                                   kellett volna engem emlékeztetned; örülök, ha róla
                                                   megfeledkezem.</p>
           </sp>
@@ -629,7 +636,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>gyorsan.</stage>A posta megérkezett-e
+            <p>
+              <stage>gyorsan.</stage>A posta megérkezett-e
                                                   már?</p>
           </sp>
           <sp who="#granville">
@@ -673,14 +681,16 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>enyelgve.</stage>Fogadjunk hát.</p>
+            <p>
+              <stage>enyelgve.</stage>Fogadjunk hát.</p>
             <p>
               <stage>Szolga jő levelekkel.</stage>
             </p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>elébe rohan.</stage>Valahára!</p>
+            <p>
+              <stage>elébe rohan.</stage>Valahára!</p>
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
@@ -688,7 +698,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>színlelt nyugalommal,
+            <p>
+              <stage>színlelt nyugalommal,
                                                   mosolyogva.</stage>Mint a farkas a mesében - ó,
                                                   bár sejtelmem is csak mese volna!<stage>A
                                                   leveleket nézvén.</stage>Már csaknem fél százada,
@@ -709,7 +720,8 @@
                                                   Adél felé fordulván.</stage>Kérlek, hagyj magamra!
                                                   Tudod, hogy e küszöb választja el tőled a
                                                   kereskedőt, s én még most kereskedő
-                                                  vagyok.<stage>El.</stage></p>
+                                                  vagyok.<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -739,7 +751,8 @@
                                                   sem! Ó, Istenem! Azt mondá ő mindig, hogy jobban
                                                   szeretné a halált, mintsem háza bukását megélné.
                                                   Ha tán -<stage>midőn az ajtó felé akar rohanni,
-                                                  belép.</stage></p>
+                                                  belép.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -749,9 +762,11 @@
           </p>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>fagyos nyugalommal.</stage>Végy erőt,
+            <p>
+              <stage>fagyos nyugalommal.</stage>Végy erőt,
                                                   mindennek vége.<stage>Szünet.</stage>Előre mondám:
-                                                  meg kell buknom.<stage>Székre dől.</stage></p>
+                                                  meg kell buknom.<stage>Székre dől.</stage>
+            </p>
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
@@ -789,7 +804,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>felpattan.</stage> Asszony! Azt
+            <p>
+              <stage>felpattan.</stage> Asszony! Azt
                                                   hiszed-e, hogy Peru minden kincseiért jajgatni
                                                   tudnék? Én megvetem a pénzt, noha tudom, hogy ez
                                                   aranyhíd, mely a nyugalom s élvek viruló partjához
@@ -977,7 +993,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>gondolkozva.</stage>Hm! Ma reggel még
+            <p>
+              <stage>gondolkozva.</stage>Hm! Ma reggel még
                                                   nagy reményem volt! Ó, e remény szép volt, mint a
                                                   tavasz fényes napja, nemcsak ragyogó arany, hanem
                                                   örvendetes meglepetés hajnalával is szürkülő
@@ -1011,7 +1028,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>feszülten.</stage>És? -</p>
+            <p>
+              <stage>feszülten.</stage>És? -</p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
@@ -1041,7 +1059,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>komoran.</stage>Már nem jő el, vagy
+            <p>
+              <stage>komoran.</stage>Már nem jő el, vagy
                                                   pedig igen későn jő. Ezen embereknek, kik a
                                                   kényelem aranyhímzetű bársonypárnáin születtek s
                                                   neveltettek, fogalmuk sincs a kereskedő eldöntő
@@ -1056,7 +1075,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>gyorsan szavába vág.</stage>Idegen?! -
+            <p>
+              <stage>gyorsan szavába vág.</stage>Idegen?! -
                                                   Minő volt külseje? Fiatal, szép, nemes? - Istenem!
                                                   Ez ő! Irgalmas ég, ha ő volna ez! Mondd meg, minő
                                                   volt külseje?</p>
@@ -1081,7 +1101,8 @@
             <speaker>GRANVILLE.</speaker>
             <p>Bocsáss csak! Minden emberemet kiküldöm őt
                                                   felkeresni, tüstént ide kell jőnie - ő
-                                                  az!<stage>Elrohan.</stage></p>
+                                                  az!<stage>Elrohan.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1148,7 +1169,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>bágyadt hangon.</stage> Ülj mellém; most
+            <p>
+              <stage>bágyadt hangon.</stage> Ülj mellém; most
                                                   mindent meg fogsz tudni. Láttam őt, életem gonosz
                                                   szellemét, ki gonoszra akart csábítani.</p>
           </sp>
@@ -1193,7 +1215,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>indulatosan.</stage> Ki mondja ezt?
+            <p>
+              <stage>indulatosan.</stage> Ki mondja ezt?
                                                   Látom, hogy te is kemény bírsz lenni, igen kemény
                                                   - de csak ma ne vitázzunk. Lásd, én éppen hajdani
                                                   szerelmi viszonyod iránti közömbösségem által
@@ -1352,7 +1375,8 @@
           </p>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>felkiált.</stage>Báró Mirmont!</p>
+            <p>
+              <stage>felkiált.</stage>Báró Mirmont!</p>
             <p>
               <stage>A báró Adél utolsó szavainál belépett, s
                                                   Granville felé akar sietni - de Adélt
@@ -1406,7 +1430,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>szórakozottan elviszi a poharat.</stage>
+            <p>
+              <stage>szórakozottan elviszi a poharat.</stage>
                                                   Hallom! -</p>
           </sp>
           <sp who="#granville">
@@ -1443,7 +1468,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>Adélra pillantva.</stage> Ó - igen!</p>
+            <p>
+              <stage>Adélra pillantva.</stage> Ó - igen!</p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
@@ -1487,7 +1513,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>tárcáját odanyújtja.</stage> Itt
+            <p>
+              <stage>tárcáját odanyújtja.</stage> Itt
                                                   van!</p>
           </sp>
           <sp who="#granville">
@@ -1500,7 +1527,8 @@
                                                   bukott házam omladékival a magukét szaporítni
                                                   fogják. Hah, hah! Csak
                                                   diadalmaskodjatok.<stage>Mentében.</stage> Fennáll még
-                                                                        Granville háza. <stage>El szobájába.</stage></p>
+                                                                        Granville háza. <stage>El szobájába.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1510,7 +1538,8 @@
           </p>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
-            <p><stage>szünet után.</stage> Adél! - Tehát így
+            <p>
+              <stage>szünet után.</stage> Adél! - Tehát így
                                                   kell ismét találkoznunk! - Adél!</p>
           </sp>
           <sp who="#adel">
@@ -1540,7 +1569,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
-            <p><stage>keserű gúnnyal.</stage> Igen, az öreg,
+            <p>
+              <stage>keserű gúnnyal.</stage> Igen, az öreg,
                                                   gazdag kereskedő fiatal, szép nejével. Tehát ezen
                                                   díjért hagytál el engem? Gazdagsága mi olyassal
                                                   kínálhatá hiúságodat, mit én is megadni képes nem
@@ -2003,19 +2033,22 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>félre.</stage> Már ismét
+            <p>
+              <stage>félre.</stage> Már ismét
                                                   nőm!<stage>Hangosan.</stage> Hisz én -</p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>félre.</stage> Azt hiszed tán, hogy
+            <p>
+              <stage>félre.</stage> Azt hiszed tán, hogy
                                                   mindezt nem tudom, mert utazásodbóli hazatérted
                                                   óta nem írtál nekem? - megtudtam én mindent, mi
                                                   veled történt.</p>
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>meglepetve.</stage> Mindent?! -</p>
+            <p>
+              <stage>meglepetve.</stage> Mindent?! -</p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
@@ -2025,7 +2058,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>sóhajtva.</stage> Én soha házas nem
+            <p>
+              <stage>sóhajtva.</stage> Én soha házas nem
                                                   voltam.</p>
           </sp>
           <sp who="#granville">
@@ -2069,7 +2103,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>ki már előbb a pamlagra dőlt,
+            <p>
+              <stage>ki már előbb a pamlagra dőlt,
                                                   szórakozottan fölegyenesedik.</stage> Mit
                                                   kívánsz?</p>
           </sp>
@@ -2092,11 +2127,13 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
-            <p><stage>félre.</stage> Ó, pokolbeli kín!</p>
+            <p>
+              <stage>félre.</stage> Ó, pokolbeli kín!</p>
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>szorultan.</stage> Tehát még nem nevezém
+            <p>
+              <stage>szorultan.</stage> Tehát még nem nevezém
                                                   meg őt?</p>
           </sp>
           <sp who="#granville">
@@ -2117,7 +2154,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>gyorsan.</stage> Arthur?!</p>
+            <p>
+              <stage>gyorsan.</stage> Arthur?!</p>
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
@@ -2135,7 +2173,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
-            <p><stage>színlelt egykedvűséggel.</stage>
+            <p>
+              <stage>színlelt egykedvűséggel.</stage>
                                                   Ismerem. -</p>
           </sp>
           <sp who="#granville">
@@ -2144,7 +2183,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
-            <p><stage>hevesen.</stage> Kicsoda? - Nem. - Ő nem
+            <p>
+              <stage>hevesen.</stage> Kicsoda? - Nem. - Ő nem
                                                   az - ő...</p>
           </sp>
           <sp who="#granville">
@@ -2160,7 +2200,8 @@
           <head type="title">NEGYEDIK JELENET</head>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>egyedül. Utánok néz.</stage> Ott távozik
+            <p>
+              <stage>egyedül. Utánok néz.</stage> Ott távozik
                                                   el vele. El, el életem börtönéből, melybe csak
                                                   azért hatolnak a nap sugarai, hogy aszott testemet
                                                   megégessék! El innen, hol hálás barátság és
@@ -2216,7 +2257,8 @@
           </p>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>belép.</stage> Valóban, nem ismered
+            <p>
+              <stage>belép.</stage> Valóban, nem ismered
                                                   gonosznak? Ő valóban -</p>
           </sp>
           <sp who="#arthur">
@@ -2288,7 +2330,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
-            <p><stage>növekvő hévvel.</stage> Ez nem igaz!</p>
+            <p>
+              <stage>növekvő hévvel.</stage> Ez nem igaz!</p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
@@ -2325,7 +2368,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
-            <p><stage>gúnnyal.</stage> Karjaid közé.</p>
+            <p>
+              <stage>gúnnyal.</stage> Karjaid közé.</p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
@@ -2408,7 +2452,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>indulatosan.</stage> Hogy annál
+            <p>
+              <stage>indulatosan.</stage> Hogy annál
                                                   biztosabban s gyorsabban nyerhessed részedre -
                                                   sóvár vággyal ragadván magadhoz gyöngéjét, s hogy
                                                   szegény boldogtalan lényt még boldogtalanabbá
@@ -2435,7 +2480,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>könnyeit letörli.</stage> Arthur! Én
+            <p>
+              <stage>könnyeit letörli.</stage> Arthur! Én
                                                   soha nem szerettem! Egész életemet csak komoly
                                                   ügyeim viselése vette igénybe, s éltem lapjait a
                                                   fekete vonásokkal számlakönyv gyanánt látom
@@ -2472,14 +2518,16 @@
                                                   legbecsesebb kincset szerelem által láncolá
                                                   kebléhez, de ő porba hullatta azt - de én becsülni
                                                   tudám, fölvevém, s ezért hálával tartozom
-                                                  neki.<stage>El szobájába.</stage></p>
+                                                  neki.<stage>El szobájába.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>egyedül.</stage> Igen, én
+            <p>
+              <stage>egyedül.</stage> Igen, én
                                                   legboldogtalanabb ember vagyok e földön! És ő - ő
                                                   a legbecsesebb kincs - de én nem taszítám el
                                                   magamtól. Ó, ádáz végzet! Mit vétettem, hogy ily
@@ -2526,14 +2574,16 @@
                                                   ezen kerítőnője, a legtisztább szándokot
                                                   elcsábítja, hogy az idő, az akaraterő ezen
                                                   kínpadja hosszúra ne nyújtsa a kivitelt - azért
-                                                  el, gyorsan el.<stage>El.</stage></p>
+                                                  el, gyorsan el.<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>egyedül.</stage> Hiába minden küzdelmem!
+            <p>
+              <stage>egyedül.</stage> Hiába minden küzdelmem!
                                                   A béke sohse térend vissza a remény nélküli kebel
                                                   kietlen hajlékába - mert ah, e ködfátyol
                                                   fellebbenti tiszta képéről, s mégsem szabad ezt
@@ -2578,7 +2628,8 @@
           </p>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>a szünet alatt belépett, útiköpenyben s
+            <p>
+              <stage>a szünet alatt belépett, útiköpenyben s
                                                   mélyen fejébe szorított kalappal, lassan előlép.
                                                   Adélt észre nem vevén, levelet tesz le az asztal
                                                   másik oldalán. Adél szavai után kiált.</stage>
@@ -2586,7 +2637,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>felriad.</stage> Arthur, te itt?</p>
+            <p>
+              <stage>felriad.</stage> Arthur, te itt?</p>
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
@@ -2612,7 +2664,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>gyorsan.</stage> Mi szándékod?</p>
+            <p>
+              <stage>gyorsan.</stage> Mi szándékod?</p>
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
@@ -2659,11 +2712,13 @@
                                                   szokás mélységét, téged átölelni, hogy egyesülten
                                                   siessünk az üdv tetőpontjához, vagy egyesülten
                                                   zuhanjunk a
-                                                  mélységbe?!<stage>Megöleli.</stage></p>
+                                                  mélységbe?!<stage>Megöleli.</stage>
+            </p>
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>felkiált.</stage> Arthur! Ó, Istenre
+            <p>
+              <stage>felkiált.</stage> Arthur! Ó, Istenre
                                                   kérlek, bocsáss el!</p>
           </sp>
           <sp who="#arthur">
@@ -2676,7 +2731,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>karjai közül kibontakozván.</stage>
+            <p>
+              <stage>karjai közül kibontakozván.</stage>
                                                   Boldogtalan! Pillanatnyi gyöngeségem tévelyített
                                                   el téged, de elegendő erővel bírok még arra, hogy
                                                   mindenkor szemed elébe tartsam azon szent
@@ -2703,7 +2759,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>lábaihoz borul.</stage> Nem, Adél, nem!
+            <p>
+              <stage>lábaihoz borul.</stage> Nem, Adél, nem!
                                                   Nálad nélkül nem élhetek - csak téged tudlak
                                                   imádni. Érzem, hogy már nem bírlak elhagyni. Ha
                                                   lábbal tiporsz, én eltűröm, de ne kívánd azt, hogy
@@ -2764,7 +2821,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>felugorván.</stage> Férfi?! Igen, én
+            <p>
+              <stage>felugorván.</stage> Férfi?! Igen, én
                                                   férfi vagyok, erős férfi, miként te gyönge nő
                                                   vagy, ki a természetes élethevet a mesterkélt
                                                   álfénykoszorúval akarja eltakarni, s engemet
@@ -2837,7 +2895,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>lábaihoz rogy le.</stage> Arthur!
+            <p>
+              <stage>lábaihoz rogy le.</stage> Arthur!
                                                   Mindenre kérlek, esküszöm -</p>
           </sp>
           <sp who="#arthur">
@@ -2846,7 +2905,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>hirtelen előlép.</stage> Házamból e
+            <p>
+              <stage>hirtelen előlép.</stage> Házamból e
                                                   percben távozni kell!</p>
           </sp>
           <p>
@@ -2917,14 +2977,16 @@
                                                   orvosnak nem, majd legalább a férjednek, ki most
                                                   először kénytelen tőled engedelmességet
                                                   követelni.<stage>Adél rövid vonakodás után
-                                                  el.</stage></p>
+                                                  el.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>egyedül.</stage> Keményen kell vele
+            <p>
+              <stage>egyedül.</stage> Keményen kell vele
                                                   bánnom, hogy szíve az új fájdalom miatt a régi
                                                   megszokott búról megfelejtkezzék - irántami
                                                   félelme elűzendi aggodalmát, míg nyugalmát újra
@@ -2945,12 +3007,14 @@
           </p>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>Granville utolsó szavainál
+            <p>
+              <stage>Granville utolsó szavainál
                                                   belépett.</stage> Granville!</p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>gyorsan fölkel.</stage> Báró úr!
+            <p>
+              <stage>gyorsan fölkel.</stage> Báró úr!
                                                   Kénytelen valék önt még néhány szóra visszahívni.
                                                   Ön valamit itt hagyott, mit öntulajdona s az én
                                                   becsületem biztosítására saját kezűleg kell önnek
@@ -3012,7 +3076,8 @@
             <speaker>ARTHUR.</speaker>
             <p>Uram, ne több ilyen sérelmet, vagy -<stage>Adél
                                                   az ajtó küszöbén megjelenik, s esdve emeli kezeit
-                                                  Arthur felé.</stage></p>
+                                                  Arthur felé.</stage>
+            </p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
@@ -3107,7 +3172,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
-            <p><stage>Granville lábaihoz akarván
+            <p>
+              <stage>Granville lábaihoz akarván
                                                   borulni.</stage> Ó, nemes férfi!</p>
           </sp>
           <sp who="#granville">
@@ -3212,7 +3278,8 @@
           </p>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>közéjük rohan.</stage> Granville!
+            <p>
+              <stage>közéjük rohan.</stage> Granville!
                                                   Arthur!</p>
           </sp>
           <sp who="#granville">
@@ -3249,7 +3316,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>lábaihoz borul.</stage> Nem távozom, bár
+            <p>
+              <stage>lábaihoz borul.</stage> Nem távozom, bár
                                                   összetaposnál; - ha vétkes vagyok, ítélj el, s ölj
                                                   meg.</p>
           </sp>
@@ -3259,11 +3327,13 @@
                                                   illő hely. S hogy önt soha többé ilyen
                                                   megaláztatás ne érje, ennek okát örökre el akarom
                                                   távolítani, vétkem öntudatát is magammal
-                                                  elvivén.<stage>Távozni készül.</stage></p>
+                                                  elvivén.<stage>Távozni készül.</stage>
+            </p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>a tárcára mutat.</stage> Az én
+            <p>
+              <stage>a tárcára mutat.</stage> Az én
                                                   megaláztatásom okát is távolítsa el - akkor vétke
                                                   öntudatát is bátran viheti el magával.</p>
           </sp>
@@ -3273,7 +3343,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>karon ragadja.</stage> Vegye vissza,
+            <p>
+              <stage>karon ragadja.</stage> Vegye vissza,
                                                   vagy nekem kellend öntől elégtételt
                                                   követelnem.</p>
           </sp>
@@ -3287,7 +3358,8 @@
                                                   cselekedni, különben koldussá lesz - ön akaratja
                                                   ellenére is megmentem önt e vakságtól - akkor ön
                                                   tisztán s világosan fog engem
-                                                  láthatni.<stage>El.</stage></p>
+                                                  láthatni.<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3297,7 +3369,8 @@
           </p>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>magában.</stage> Mint érti ezt? Mitevő
+            <p>
+              <stage>magában.</stage> Mint érti ezt? Mitevő
                                                   lesz? Egész valójában bizonyos elhatározottság
                                                   van, melyhez vétkes öntudatú ember emelkedni soha
                                                   nem bírna! Hm, holnap! De mit lehetne még
@@ -3427,14 +3500,16 @@
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
             <p>Magam készítem tüstént, kedves
-                                                  férjem.<stage>El.</stage></p>
+                                                  férjem.<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>egyedül.</stage> Életereim mind mellemen
+            <p>
+              <stage>egyedül.</stage> Életereim mind mellemen
                                                   keresztül fejem felé rohannak, oly sebes tűzzel,
                                                   minőt még soha nem éreztem! Öreg Granville! - mi
                                                   haszna a bölcsebb öregkor fényes jegének? A fagy
@@ -3465,14 +3540,16 @@
                                                   tüntesse elő. Nincs kijárás e sötét tömkelegből!
                                                   Ó, Istenem, küldj egy sugarat, mely biztos ösvényt
                                                   mutasson, hogy azt
-                                                  követhessem!<stage>El.</stage></p>
+                                                  követhessem!<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>egyedül.</stage> Hová ment? Alkalmasint
+            <p>
+              <stage>egyedül.</stage> Hová ment? Alkalmasint
                                                   nemsoká ismét kijő. - Tudom, hogy belépnem nem
                                                   szabad, s mégis kínos sejtelem arra ösztönöz, hogy
                                                   ezen küszöbön és parancsán túlhágjak - de erre sem
@@ -3488,7 +3565,8 @@
                                                   megtörtént!<stage>Erejét összeszedvén az oldalajtó
                                                   felé fut, melyből Arthur füstfellegek közt,
                                                   kétcsövű pisztollyal kezében kirohan, s a
-                                                  leroskadó Adélt karjaiba fogadja.</stage></p>
+                                                  leroskadó Adélt karjaiba fogadja.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3498,7 +3576,8 @@
           </p>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>Arthur karjaiba
+            <p>
+              <stage>Arthur karjaiba
                                                   dőlve.</stage>Gyilkos!</p>
           </sp>
           <sp who="#arthur">
@@ -3508,7 +3587,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>miután a pamlagra fektették.</stage>
+            <p>
+              <stage>miután a pamlagra fektették.</stage>
                                                   Gyilkos, fuss!</p>
           </sp>
           <sp who="#arthur">
@@ -3553,7 +3633,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>felugrik.</stage> Ó, istenem! Ő él.</p>
+            <p>
+              <stage>felugrik.</stage> Ó, istenem! Ő él.</p>
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
@@ -3562,7 +3643,8 @@
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
             <p>Granville! Granville! <stage>A nyílt ajtó felé
-                                                  rohan.</stage></p>
+                                                  rohan.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3572,12 +3654,14 @@
           </p>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>a belépő Granville nyakába
+            <p>
+              <stage>a belépő Granville nyakába
                                                   borul.</stage> Őrjöngő! - mit akartál? -</p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>nyugodtan.</stage> Nyugalmat.</p>
+            <p>
+              <stage>nyugodtan.</stage> Nyugalmat.</p>
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
@@ -3596,7 +3680,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>kibontakozván.</stage> Bocsáss el!</p>
+            <p>
+              <stage>kibontakozván.</stage> Bocsáss el!</p>
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
@@ -3662,7 +3747,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL</speaker>
-            <p><stage>elhozza a levelet, felbontja, és
+            <p>
+              <stage>elhozza a levelet, felbontja, és
                                                   Granville elébe tartja.</stage> Itt van,
                                                   olvasd!</p>
           </sp>
@@ -3681,7 +3767,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>a levelet elveszi.</stage> Mit
+            <p>
+              <stage>a levelet elveszi.</stage> Mit
                                                   olvassak?</p>
           </sp>
           <sp who="#arthur">
@@ -3695,7 +3782,8 @@
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
             <p>Arthur! Igen, te ismét Arthurom vagy <stage>meg
-                                                  akarja ölelni.</stage></p>
+                                                  akarja ölelni.</stage>
+            </p>
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
@@ -3706,7 +3794,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>a pénzt veszi.</stage> Arthurom,
+            <p>
+              <stage>a pénzt veszi.</stage> Arthurom,
                                                   megmentőm!</p>
           </sp>
           <sp who="#adel">
@@ -3744,13 +3833,15 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>ki mozdulatlanul az ajtóra nézett,
+            <p>
+              <stage>ki mozdulatlanul az ajtóra nézett,
                                                   mintegy álomból ébredezvén.</stage> Mit
                                                   akarsz?</p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>búsan.</stage> Semmit, semmit sem akarok
+            <p>
+              <stage>búsan.</stage> Semmit, semmit sem akarok
                                                   már; szívedet elvitte, és szellemed szívedet
                                                   követte. Többé mit sem akarok tőled kívánni; te
                                                   még most is szereted őt, igen, érzem, örökké fogod
@@ -3759,7 +3850,8 @@
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
-            <p><stage>gondolatokba merülve.</stage> Igen, ő
+            <p>
+              <stage>gondolatokba merülve.</stage> Igen, ő
                                                   megérdemli!</p>
           </sp>
           <sp who="#granville">
@@ -3785,7 +3877,8 @@
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE</speaker>
-            <p><stage>az ingadozó Adélt az ajtóig
+            <p>
+              <stage>az ingadozó Adélt az ajtóig
                                                   elkíséri.</stage> Jó éjt!</p>
           </sp>
         </div>
@@ -3793,7 +3886,8 @@
           <head type="title">TIZENEGYEDIK JELENET</head>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
-            <p><stage>egyedül, az ajtó mellett.</stage> Ó,
+            <p>
+              <stage>egyedül, az ajtó mellett.</stage> Ó,
                                                   bárcsak mindig gyermekem maradtál volna! Bár soha
                                                   ne lettél volna nőmmé! Mi boldog volnék most, két
                                                   nemes szívet boldogíthatván. Miért szorítám a
@@ -3817,7 +3911,8 @@
           </p>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>bágyadt hangon.</stage> Nem ide - nem
+            <p>
+              <stage>bágyadt hangon.</stage> Nem ide - nem
                                                   ide!</p>
           </sp>
           <sp who="#granville">
@@ -3827,7 +3922,8 @@
           </sp>
           <sp who="#arthur">
             <speaker>ARTHUR</speaker>
-            <p><stage>mindinkább gyöngülő hangon.</stage>
+            <p>
+              <stage>mindinkább gyöngülő hangon.</stage>
                                                   Midőn ablakodon át beugortam szobádba, az
                                                   erőlködéstől régi sebem ismét feltört; ama látvány
                                                   úgy megindított, hogy a sebet bekötni felejtém -
@@ -3870,12 +3966,14 @@
           <sp who="#arthur">
             <speaker>ARTHUR.</speaker>
             <p>Igen - igen - Isten
-                                                  veled.<stage>Meghal.</stage></p>
+                                                  veled.<stage>Meghal.</stage>
+            </p>
           </sp>
           <sp who="#adel">
             <speaker>ADÉL.</speaker>
             <p>Arthur!<stage>Élet nélkül ledől Arthur
-                                                  holttestére.</stage></p>
+                                                  holttestére.</stage>
+            </p>
           </sp>
           <sp who="#granville">
             <speaker>GRANVILLE.</speaker>
@@ -3887,7 +3985,8 @@
                                                   hatvanéves súlyos munkádtól. Engedd, ó, ég, hogy
                                                   tisztelve hunyjak el, s csendesen pihenjek
                                                   kedvesim oldala mellett.<stage>A két halott
-                                                  mellett térdre hull.</stage></p>
+                                                  mellett térdre hull.</stage>
+            </p>
           </sp>
           <p>
             <stage>A függöny lefordul.</stage>

@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000008</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -329,12 +331,14 @@
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
-            <p>Jól van, elmegyek, de a halálba.<stage>(Indul.)</stage></p>
+            <p>Jól van, elmegyek, de a halálba.<stage>(Indul.)</stage>
+            </p>
           </sp>
           <sp who="#todorka">
             <speaker>TÓDORKA</speaker>
             <stage>(ijedten)</stage>
-            <p>Ernő, ne bolondozzék!<stage>(Megfogja a kezét.)</stage></p>
+            <p>Ernő, ne bolondozzék!<stage>(Megfogja a kezét.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
@@ -387,7 +391,8 @@
                             szemmel)</stage>
             <p>Bárány Ernő, tanárjelölt. Bizonyítványaimat átnézte a tanár úr
                                 skívánatra bemutatja nagyságodnak. <stage>(Kezet csókol
-                                    Karolinnak.)</stage></p>
+                                    Karolinnak.)</stage>
+            </p>
           </sp>
           <sp who="#karolin">
             <speaker>KAROLIN</speaker>
@@ -480,7 +485,8 @@
           <sp who="#erno">
             <speaker>ERNŐ</speaker>
             <p>A kisasszony édessé fogja tenni a kötelesség teljesítésének munkáját.
-                                    <stage>(Megcsókolja Seraphine kezét.)</stage></p>
+                                    <stage>(Megcsókolja Seraphine kezét.)</stage>
+            </p>
           </sp>
           <sp who="#seraphine">
             <speaker>SERAPHINE</speaker>
@@ -503,8 +509,10 @@
           </sp>
           <sp who="#seraphine">
             <speaker>SERAPHINE</speaker>
-            <p>Rögtön itt leszünk.<stage>(El jobbra.)</stage><stage>(Tódorka és Ernő
-                                    ezalatt hevesen suttognak egymással a háttérben.)</stage></p>
+            <p>Rögtön itt leszünk.<stage>(El jobbra.)</stage>
+              <stage>(Tódorka és Ernő
+                                    ezalatt hevesen suttognak egymással a háttérben.)</stage>
+            </p>
           </sp>
           <sp who="#karolin">
             <speaker>KAROLIN</speaker>
@@ -556,7 +564,8 @@
             <p>Ime, a negyedik osztály növendékei, a haladók, kiket szíves gondjára
                                 bízunk, kedves Bárány úr! - Kisasszonyok, bemutatom önöknek az új
                                 francia tanárt, Bárány Ernő urat.<stage>(A leányok egyszerre, mélyen
-                                    bókolnak.)</stage></p>
+                                    bókolnak.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ</speaker>
@@ -596,7 +605,8 @@
           <sp who="#seraphine">
             <speaker>SERAPHINE:</speaker>
             <p>És mindenben szavát fogadják!<stage>(A leányok ismét egyszerre és
-                                    mélyen bókolnak.)</stage></p>
+                                    mélyen bókolnak.)</stage>
+            </p>
           </sp>
           <sp who="#karolin">
             <speaker>KAROLIN:</speaker>
@@ -606,7 +616,8 @@
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
             <p>Nagyságod kegyessége végtelen boldoggá tesz.<stage>(Lopva a leányok
-                                    felé tekint.)</stage></p>
+                                    felé tekint.)</stage>
+            </p>
           </sp>
           <sp who="#karolin">
             <speaker>KAROLIN</speaker>
@@ -690,8 +701,10 @@
             <speaker>SERAPHINE:</speaker>
             <p>Mily szép stíl! Mily szükséges ez fiatal leányoknak! Csak
                                     tanuljanak!<stage>(Könyvet vesz ki zsebéből, a háttérben
-                                    olvas.)</stage><stage>(A leányok az előtérben összebújva állnak,
-                                    mindegyik könyvébe szegezve szemét, halkan, gyorsan suttognak.)</stage></p>
+                                    olvas.)</stage>
+              <stage>(A leányok az előtérben összebújva állnak,
+                                    mindegyik könyvébe szegezve szemét, halkan, gyorsan suttognak.)</stage>
+            </p>
           </sp>
           <sp who="#janka">
             <speaker>JANKA:</speaker>
@@ -716,7 +729,8 @@
           <sp who="#berta">
             <speaker>BERTA:</speaker>
             <p>Tudod a nevét?<stage>(Seraphine lassan a beszélgetők felé
-                                    közeledik.)</stage></p>
+                                    közeledik.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
@@ -757,7 +771,8 @@
           <sp who="#flora">
             <speaker>FLÓRA:</speaker>
             <p>Mindnyájunkra nézett.<stage>(Seraphine ismét feléjük
-                                    közeledik.)</stage></p>
+                                    közeledik.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
@@ -770,12 +785,14 @@
                                 napok, a napokból nem lennének évek és az ifjúság megmaradna... Csak
                                 tanuljanak tovább is ily szorgalmasan, addig megnézem a többi
                                     osztályt...<stage>(Sóhajt.</stage>Ah, ha a föld nem
-                                    forogna!<stage>(El jobbra.)</stage></p>
+                                    forogna!<stage>(El jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA:</speaker>
             <p>Elment a macska! Táncoljunk,<stage>(A leányok mind egyszerre
-                                    becsukják könyveiket.)</stage></p>
+                                    becsukják könyveiket.)</stage>
+            </p>
           </sp>
           <sp who="#janka">
             <speaker>JANKA:</speaker>
@@ -877,7 +894,8 @@
                                 hogy csókoltam, hogy borultam az ölébe! Oh hogy tudnám szeretni,
                                 ölelni, dédelgetni, ha még élne! Oh hogy eped szívem a szeretet után
                                 és nincs, akit szeressek, nincs, aki szeressen!<stage>(Kezébe temeti
-                                    arcát.)</stage></p>
+                                    arcát.)</stage>
+            </p>
           </sp>
           <sp who="#janka">
             <speaker>JANKA</speaker>
@@ -912,7 +930,8 @@
             <speaker>KATICA</speaker>
             <stage>(viaszafordul az ajtóból és Mártára
                                 bámészkodik):</stage>
-            <p>Jaj, be érdekes! <stage>(Mind visszakergetik.)</stage></p>
+            <p>Jaj, be érdekes! <stage>(Mind visszakergetik.)</stage>
+            </p>
           </sp>
           <sp who="#janka">
             <speaker>JANKA:</speaker>
@@ -933,7 +952,8 @@
                                     taps!<stage>(Türelmetlenül a lányokhoz.)</stage>Tapsoljatok
                                     hát!<stage>(A leányok tapsolnak, mialatt Márta poseban áll.
                                     Seraphine megáll a jobbajtóban és megbotránkozva nézi a
-                                    jelenetet.)</stage></p>
+                                    jelenetet.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
@@ -967,7 +987,8 @@
                                 szól.)</stage>Egyelőre én szabok fejére büntetést. A csengetyű éppen
                                 uzsonnára szól: a kisasszony itt marad és uzsonna helyett betanulja
                                 az arany számokat és epaktákat a Gergely-féle naptár szerint.
-                                    <stage>(Kinyitja Márta könyvét s egy lapra mutat.)</stage></p>
+                                    <stage>(Kinyitja Márta könyvét s egy lapra mutat.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
@@ -979,7 +1000,8 @@
             <stage>(maga előtt tereli a leányokat):</stage>
             <p>Előre kisasszonyok!<stage>(Összecsapja kezeit.)</stage>Balett az
                                 intézetben! Hová jutunk! hová jutunk! <stage>(El a leányokkal
-                                    jobbra.</stage></p>
+                                    jobbra.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1146,7 +1168,8 @@
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
             <stage>(bókolva, magában):</stage>
-            <p>Vajon mit akart még kérdezni?<stage>(El jobbra.)</stage></p>
+            <p>Vajon mit akart még kérdezni?<stage>(El jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#seraphine">
             <speaker>SERAPHINE:</speaker>
@@ -1166,7 +1189,8 @@
             <speaker>KÁLMÁN:</speaker>
             <p>Sietek hozzá a jó hírrel. Kezeit
                                     csókolom!<stage>(Lelkesülten.)</stage>Végre beszéltem vele.
-                                    <stage>(El középen.)</stage></p>
+                                    <stage>(El középen.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1294,7 +1318,8 @@
                                     -<stage>Seraphine elfordított arccal kezét nyujtja, melyet
                                     Tódorka ajkához emel; lelkesülten.)</stage>E szűzi csók
                                 lelkesítsen harcomon! Isten önnel, kisasszony! Vagy tisztán fog
-                                viszontlátni, vagy soha!<stage>(Elrohan a középen.)</stage></p>
+                                viszontlátni, vagy soha!<stage>(Elrohan a középen.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1310,7 +1335,8 @@
                                 nagymamához? Neki már régóta nincs nagymamája... Vagy talán megőrült
                                 a türelmetlen szerelemtől? Ah! miért vártunk huszonnégy
                                     évig...?<stage>(Örkényi, Koszta, Piroska jönnek a
-                                    középajtón.)</stage></p>
+                                    középajtón.)</stage>
+            </p>
           </sp>
           <sp who="#koszta">
             <speaker>KOSZTA:</speaker>
@@ -1333,7 +1359,8 @@
             <p>Rögtön értesítem a főnöknőt. A fiatal báró Örkényi már bejelenté
                                 méltóságod becses látogatását. <stage>(Magában, szívére szorítva
                                     kezét.)</stage>Hív a kötelesség, némúlj el szív!<stage>(Bókol,
-                                    el balra.)</stage></p>
+                                    el balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1409,7 +1436,8 @@
           <sp who="#koszta">
             <speaker>KOSZTA</speaker>
             <stage>(dühösen):</stage>
-            <p>Alásszolgája!<stage>(Az ajtó felé indul.)</stage></p>
+            <p>Alásszolgája!<stage>(Az ajtó felé indul.)</stage>
+            </p>
           </sp>
           <sp who="#piroska">
             <speaker>PIROSKA</speaker>
@@ -1614,7 +1642,8 @@
           <sp who="#orkenyi">
             <speaker>ÖRKÉNYI</speaker>
             <stage>(felugrik, felindultan):</stage>
-            <p>Szerémi grófné!<stage>(Mind fölkelnek.)</stage></p>
+            <p>Szerémi grófné!<stage>(Mind fölkelnek.)</stage>
+            </p>
           </sp>
           <sp who="#karolin">
             <speaker>KAROLIN:</speaker>
@@ -1663,7 +1692,8 @@
             <speaker>KOSZTA</speaker>
             <stage>(meghajolva Karolin előtt):</stage>
             <p>Hogy dühös, azt látom, hogy miért dühös, az fülülmúlja
-                                    tudásomat!<stage>(El Örkényi után.)</stage></p>
+                                    tudásomat!<stage>(El Örkényi után.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1784,7 +1814,8 @@
             <speaker>GRÓFNÉ:</speaker>
             <p>Köszönöm, kedveseim! Valóban megifjúl a lelkem, ha közétek
                                     lépek.<stage>(Karosszékbe ül, melyet Seraphine hozzá tol.
-                                    Galambosné a szék háta mögé áll.)</stage></p>
+                                    Galambosné a szék háta mögé áll.)</stage>
+            </p>
           </sp>
           <sp who="#karolin">
             <speaker>KAROLIN:</speaker>
@@ -1880,7 +1911,8 @@
           <sp who="#karolin">
             <speaker>KAROLIN:</speaker>
             <p>Semmit sem szólok neki, hivatalosan vezetem ide. <stage>(El
-                                    balra.)</stage></p>
+                                    balra.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ:</speaker>
@@ -1893,7 +1925,8 @@
             <stage>(mély bókkal):</stage>
             <p>A kegyelmes grófné látogatása ünnep e házban, s mint ünnepet fogjuk
                                     megülni...<stage>(A leányok mélyen bókolnak a grófné előtt s
-                                    párosan csendesen jobbfelé indulnak.)</stage></p>
+                                    párosan csendesen jobbfelé indulnak.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ:</speaker>
@@ -1905,7 +1938,8 @@
             <p>Éljen a grófné! <stage>(Hozzá szalad, megcsókolja a kezét. Néhányan a
                                     leányok közül szintén megcsókolják a grófné kezét, aztán
                                     tolongva, vidáman elfutnak. Seraphine és a nevelőnők
-                                    utánok.)</stage></p>
+                                    utánok.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ:</speaker>
@@ -1951,7 +1985,8 @@
           </sp>
           <sp who="#karolin">
             <speaker>KAROLIN:</speaker>
-            <p>Amint parancsolni méltóztatik.<stage>(El balra).</stage></p>
+            <p>Amint parancsolni méltóztatik.<stage>(El balra).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2051,7 +2086,8 @@
                                 dédelgetlek többé! És hogy néz rám avval az ártatlan szemével!
                                 Mintha szegény apját látnám! Hiába nézel így, nem szeretlek, nem
                                 bocsátok meg, te! te!<stage>Könnyekre fakad, magához öleli Ernőt és
-                                    megcsókolja homlokát.)</stage></p>
+                                    megcsókolja homlokát.)</stage>
+            </p>
           </sp>
           <sp who="#galambosne">
             <speaker>GALAMBOSNÉ:</speaker>
@@ -2074,7 +2110,8 @@
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
-            <p>Hogy-hogy, nagymama? <stage>(Fölkel.)</stage></p>
+            <p>Hogy-hogy, nagymama? <stage>(Fölkel.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ:</speaker>
@@ -2129,7 +2166,8 @@
           <sp who="#todorka">
             <speaker>TÓDORKA</speaker>
             <stage>(félre):</stage>
-            <p>Hála Istennek, mehetek már.<stage>(El balra.)</stage></p>
+            <p>Hála Istennek, mehetek már.<stage>(El balra.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
@@ -2145,7 +2183,8 @@
             <speaker>ERNŐ</speaker>
             <stage>(kezet csókol):</stage>
             <p>Szaladok, nagymama; látod, milyen szófogadó vagyok.
-                                    <stage>(Indul.)</stage></p>
+                                    <stage>(Indul.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ:</speaker>
@@ -2156,7 +2195,8 @@
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
             <p>Megyek, nagymama!<stage>(Félre.)</stage>Ugyan mi lesz ebből?
-                                    <stage>(El.)</stage></p>
+                                    <stage>(El.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2378,7 +2418,8 @@
           <sp who="#karolin">
             <speaker>KAROLIN:</speaker>
             <p>Parancsára grófné.<stage>(Félre.)</stage>Mit jelent ez?<stage>(El
-                                    jobbra.)</stage></p>
+                                    jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ:</speaker>
@@ -2400,7 +2441,8 @@
             <p>Megyek, csak vigyázzon, nehogy elájuljon... <stage>(A távolabbi
                                     asztalról csengetyűt vesz föl s a grófnéhoz közeli asztalra
                                     teszi.)</stage>Ha rosszúl talál lenni, itt a
-                                    csengetyű.<stage>(El a középen.)</stage></p>
+                                    csengetyű.<stage>(El a középen.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ</speaker>
@@ -2593,7 +2635,8 @@
                                 a madárka - sárga volt a színe - a haragos öreg úrnak fehér haja
                                 volt - az inasnak narancsszínű ruhája volt... Hiszen akkor én nem
                                 vagyok árva! Nagymama! nagymama!<stage>(Szenvedélyesen sírva és
-                                    nevetve átöleli a grófnét.)</stage></p>
+                                    nevetve átöleli a grófnét.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2626,7 +2669,9 @@
             <p>Én vagyok az unokája! Halljátok leányok? Nem irígyellek többé! Nekem
                                 is van már, akit szerethetek, aki szeret! Oh édes
                                     nagymama!<stage>(Leborul a grófné előtt és átkarolja
-                                    térdeit.)</stage><stage>(Függöny.)</stage></p>
+                                    térdeit.)</stage>
+              <stage>(Függöny.)</stage>
+            </p>
           </sp>
         </div>
       </div>
@@ -2728,7 +2773,8 @@
           <sp who="#kalman">
             <speaker>KÁLMÁN:</speaker>
             <p>Ah...! Ezt örömmel hallom. Viszontlátásra hölgyeim!<stage>(Elsiet
-                                        a bal középajtón.)</stage></p>
+                                        a bal középajtón.)</stage>
+            </p>
           </sp>
           <sp who="#galambosne">
             <speaker>GALAMBOSNÉ:</speaker>
@@ -2815,7 +2861,8 @@
             <speaker>KOSZTA:</speaker>
             <p>Ez esetben nem kockáztatok sokat, ha e szóval távozom:
                                         Viszontlátásra! <stage>(Bókol, el a bal
-                                        középajtón.)</stage></p>
+                                        középajtón.)</stage>
+            </p>
           </sp>
           <sp who="#galambosne">
             <speaker>GALAMBOSNÉ:</speaker>
@@ -2884,7 +2931,8 @@
             <stage>(megcsókolja a grófné
                                         kezét):</stage>
             <p>Pá édes nagymama!<stage>(A grófné homlokon csókolja.
-                                                Márta Seraphinenal el a bal középajtón.)</stage></p>
+                                                Márta Seraphinenal el a bal középajtón.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2966,7 +3014,8 @@
                                                   kalapot jobbra-balra eldobva magától):</stage>
             <p>Itt vagyok nagymama!<stage>(Kezét, arcát csókolja
                                                   és fél térdre ereszkedik széke
-                                                  mellett.)</stage></p>
+                                                  mellett.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ:</speaker>
@@ -2984,7 +3033,8 @@
                                                   hosszan arcába néz):</stage>
             <p>Megbarnultál, megférfiasodtál, remélem, meg is
                                                   okosodtál.<stage>(Megcsókolja
-                                                  homlokát.)</stage></p>
+                                                  homlokát.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
@@ -3016,7 +3066,8 @@
           <sp who="#galambosne">
             <speaker>GALAMBOSNÉ:</speaker>
             <p>Ugyan jőjjön már! <stage>(Elvonja Tódorkát
-                                                  balra.)</stage></p>
+                                                  balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3141,7 +3192,8 @@
             <p>Igaz, amit ott lenn mondtak? Megjött? Hol van?
                                                   Miért nem mondták előre, hogy ma jön meg?... Ah!
                                                   itt van... Ernő! isten hozott édes
-                                                  Ernő!<stage>(Kitárt karokkal feléje megy.)</stage></p>
+                                                  Ernő!<stage>(Kitárt karokkal feléje megy.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
@@ -3162,7 +3214,8 @@
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
             <p>Ettől bizony nem ijedünk
-                                                  meg.<stage>(Megcsókolja Mártát.)</stage></p>
+                                                  meg.<stage>(Megcsókolja Mártát.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA:</speaker>
@@ -3234,7 +3287,8 @@
                                                   nemcsak egy drága nagymamát adott, hanem ráadásul
                                                   egy kis unokatestvért is... Oh édes Ernő, ha mi
                                                   azt akkor tudtuk volna!<stage>(Ernő vállára
-                                                  borul.)</stage></p>
+                                                  borul.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ</speaker>
@@ -3272,14 +3326,16 @@
                                                   megcsókol)</stage> Nos, az úri hölgytől
                                                   elbucsuztál, most jön a Márta...
                                                   Nesze!<stage>(Homlokát nyújtja, melyet Ernő
-                                                  megcsókol.)</stage></p>
+                                                  megcsókol.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ</speaker>
             <stage>(sugva, elragadtatva a
                                                   grófnéhoz):</stage>
             <p>Nagymama! fülig szerelmes belém.<stage>(El
-                                                  balra.)</stage></p>
+                                                  balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3417,7 +3473,8 @@
             <p>Nem csalódtál, nagymama, hogy is gondolhatsz
                                                   olyant? Nem csalódtál, nem fogsz bennem csalódni
                                                   soha!<stage>(Szenvedélyesen átkarolja a
-                                                  grófnét.)</stage></p>
+                                                  grófnét.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3488,7 +3545,8 @@
                                                   fiatal vagyok.<stage>(Megcsókolja Mártát.)</stage>
                                                   Drága gyermekem, te adtad vissza
                                                   ifjúságomat!<stage>(Gyorsan el a középen
-                                                  Galambosnéval.)</stage></p>
+                                                  Galambosnéval.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3505,7 +3563,8 @@
                                                   ma vallotta meg szerelmét, épen ma ismertem meg
                                                   szivemet, hogy csak érette dobog, egyedül
                                                   érette... Oh Kálmán! Vége! mindennek vége!<stage>(Lassan széttépi s elszórja a
-                                                  levelet.)</stage></p>
+                                                  levelet.)</stage>
+            </p>
           </sp>
           <sp who="#seraphine">
             <speaker>SERAPHINE</speaker>
@@ -3553,7 +3612,8 @@
                                                   szorítva kezét):</stage>
             <p>Oh édes nagymama! a te Mártád nem fog
                                                   boldogtalanná tenni téged.<stage>(Lassan el
-                                                  balra.)</stage></p>
+                                                  balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3600,7 +3660,8 @@
           <sp who="#seraphine">
             <speaker>SERAPHINE:</speaker>
             <p>Ám legyen!<stage>(Elfordított arccal kezét
-                                                  nyújtja.)</stage></p>
+                                                  nyújtja.)</stage>
+            </p>
           </sp>
           <sp who="#todorka">
             <speaker>TÓDORKA</speaker>
@@ -3711,7 +3772,8 @@
             <stage>(szintén egy lépést tesz
                                                   előre):</stage>
             <p>Oh Tódorka!<stage>(Megölelik
-                                                  egymást.)</stage></p>
+                                                  egymást.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3727,11 +3789,13 @@
             <p>Bocsánat... azt vélem, alkalmatlan időben
                                                   léptem be.<stage>(Tódorka és Seraphine szétugranak
                                                   egymástól s mindketten szégyenlősen, elfordított
-                                                  fejjel állnak.)</stage></p>
+                                                  fejjel állnak.)</stage>
+            </p>
           </sp>
           <sp who="#koszta">
             <speaker>KOSZTA:</speaker>
-            <p>Megyek már... tessék folytatni.<stage>Indul.)</stage></p>
+            <p>Megyek már... tessék folytatni.<stage>Indul.)</stage>
+            </p>
           </sp>
           <sp who="#seraphine">
             <speaker>SERAPHINE:</speaker>
@@ -3863,7 +3927,8 @@
           <sp who="#seraphine">
             <speaker>SERAPHINE:</speaker>
             <p>Vulkánon állunk! El innen! <stage>(Elvonja
-                                                  Tódorkát balra.)</stage></p>
+                                                  Tódorkát balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3932,7 +3997,8 @@
             <p>Nem tartozván megbizatásom körébe, hogy
                                                   udvariatlanságra kényszerítsem az ifjú báró urat,
                                                   egyedül indulok a postára<stage>(El a
-                                                  középen.)</stage></p>
+                                                  középen.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3973,7 +4039,8 @@
             <speaker>MÁRTA</speaker>
             <stage>(síró hangon):</stage>
             <p>Feledjen el. <stage>(Az ajtó felé
-                                                  indul.)</stage></p>
+                                                  indul.)</stage>
+            </p>
           </sp>
           <sp who="#kalman">
             <speaker>KÁLMÁN</speaker>
@@ -4032,7 +4099,8 @@
                                                   magamra bánatommal és ne tegye még súlyosabbá
                                                   szivem terhét, hiszen nem tehetek
                                                   máskép!<stage>(Arcára borítja kezét és sírva
-                                                  fakad.)</stage></p>
+                                                  fakad.)</stage>
+            </p>
           </sp>
           <sp who="#kalman">
             <speaker>KÁLMÁN:</speaker>
@@ -4056,7 +4124,8 @@
             <p>Nem hagyom el! Ha megtenném, nem szeretném
                                                   igazán, s joga volna megvetnie engem. Nem hagyom
                                                   el Márta és küzdeni fogok birásáért!
-                                                  <stage>(Megragadja kezét.)</stage></p>
+                                                  <stage>(Megragadja kezét.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA:</speaker>
@@ -4111,7 +4180,8 @@
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
             <p>Isten önnel, uram, örökre isten
-                                                  önnel!<stage>(El Ernővel balra.)</stage></p>
+                                                  önnel!<stage>(El Ernővel balra.)</stage>
+            </p>
           </sp>
           <sp who="#kalman">
             <speaker>KÁLMÁN</speaker>
@@ -4208,7 +4278,8 @@
           </sp>
           <sp who="#kalman">
             <speaker>KÁLMÁN:</speaker>
-            <p>Köszönöm tiszteletes úr! Ott leszek.<stage>(Gyorsan el a középen.)</stage></p>
+            <p>Köszönöm tiszteletes úr! Ott leszek.<stage>(Gyorsan el a középen.)</stage>
+            </p>
           </sp>
           <sp who="#koszta">
             <speaker>KOSZTA</speaker>
@@ -4243,7 +4314,8 @@
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
-            <p>Jó. <stage>(Indul.)</stage></p>
+            <p>Jó. <stage>(Indul.)</stage>
+            </p>
           </sp>
           <sp who="#koszta">
             <speaker>KOSZTA</speaker>
@@ -4262,19 +4334,22 @@
             <speaker>TÓDORKA</speaker>
             <stage>(ijedten):</stage>
             <p>Micsoda magános séta?<stage>(Megfogja
-                                                  Ernőt.)</stage></p>
+                                                  Ernőt.)</stage>
+            </p>
           </sp>
           <sp who="#koszta">
             <speaker>KOSZTA:</speaker>
             <p>Az én növendékemmel!<stage>(Megfogja Ernő másik
-                                                  kezét.)</stage></p>
+                                                  kezét.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ</speaker>
             <stage>(mindkettőt eltaszítja):</stage>
             <p>Szót se! Ha valamelyikök bármit elárul abból,
                                                   amit most hallott, irgalom nélkül
-                                                  lelövöm.<stage>(El gyorsan balra.)</stage></p>
+                                                  lelövöm.<stage>(El gyorsan balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4422,7 +4497,8 @@
           <sp who="#koszta">
             <speaker>KOSZTA:</speaker>
             <p>Előre! tudom a helyet! nincs veszteni való
-                                                  időnk!<stage>(Elrohan Tódorkával.)</stage></p>
+                                                  időnk!<stage>(Elrohan Tódorkával.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4480,7 +4556,8 @@
             <p>Oda rohanok! Nem, engem is lelőnének! Ah! ezt
                                                   az eszmét az isten adta! Van még rendőrség! Oda,
                                                   oda! gyorsan!<stage>(Elrohan a
-                                                  középen.)</stage></p>
+                                                  középen.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
@@ -4492,7 +4569,8 @@
                                                   Ernő visszatért ide... oly gúnyos, sértő
                                                   tekintettel néztek egymásra...! És én itt állok
                                                   tehetetlenül... Oh istenem!
-                                                  istenem!<stage>(Pamlagra roskad.)</stage></p>
+                                                  istenem!<stage>(Pamlagra roskad.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4606,7 +4684,8 @@
             <speaker>ÖRKÉNYI</speaker>
             <stage>(dühösen):</stage>
             <p>Érted? Siessen lecsillapítni!
-                                                  Előre!<stage>(Mindhárman el jobbra.)</stage></p>
+                                                  Előre!<stage>(Mindhárman el jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
@@ -4658,7 +4737,8 @@
           <sp who="#pincer">
             <speaker>PINCÉR:</speaker>
             <p>Ki tudna ellenállni ily kérésnek?<stage>(El
-                                                  jobbra.)</stage></p>
+                                                  jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
@@ -4672,7 +4752,8 @@
             <stage>(futva
                                                   jő):</stage>
             <p>Pofon ütött, de mindjárt itt lesz.<stage>(El a
-                                                  középen.)</stage></p>
+                                                  középen.)</stage>
+            </p>
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA</speaker>
@@ -4886,7 +4967,8 @@
             <stage>(méltósággal):</stage>
             <p>El is hagyom! Semmi közünk többé egymáshoz...
                                                   Majd megmondom a nagymamának, és akkor reszkessen!
-                                                  <stage>(Indul.)</stage></p>
+                                                  <stage>(Indul.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4921,7 +5003,8 @@
             <speaker>MÁRTA:</speaker>
             <p>Oh hála, hála neked istenem! Édes nagymama, nem
                                                   fog megtörni a szived... Isten önnel,
-                                                  Kálmán!<stage>(Indul.)</stage></p>
+                                                  Kálmán!<stage>(Indul.)</stage>
+            </p>
           </sp>
           <sp who="#kalman">
             <speaker>KÁLMÁN</speaker>
@@ -5008,7 +5091,8 @@
                                                   leroskad a grófné előtt, Galambosné gyorsan
                                                   melléje térdel és felemeli fejét, Kálmán hozzá
                                                   akar lépni, Örkényi parancsoló mozdulattal
-                                                  elrántja onnan.)</stage></p>
+                                                  elrántja onnan.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ</speaker>
@@ -5135,7 +5219,8 @@
                                 édes nagymama, hiszem, hogy igazán szeretsz!
                                     <stage>(Fölemelkedik.)</stage> De te is hidd, hogy a te Mártád
                                 szeret téged... Téged... érted, nagymama? téged, legjobban a
-                                    világon!<stage>(El balra.)</stage></p>
+                                    világon!<stage>(El balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5356,7 +5441,8 @@
           <sp who="#galambosne">
             <speaker>GALAMBOSNÉ:</speaker>
             <p>Ugyan menjen, kinek jutna eszébe, elvágatni a torkát
-                                    magáért?<stage>(El a grófnéval balra.)</stage></p>
+                                    magáért?<stage>(El a grófnéval balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5385,7 +5471,8 @@
           <sp who="#seraphine">
             <speaker>SERAPHINE</speaker>
             <stage>(magában):</stage>
-            <p>A báró! Régi ismerős!<stage>(Bókol, mit Örkényi nem vesz észre.)</stage></p>
+            <p>A báró! Régi ismerős!<stage>(Bókol, mit Örkényi nem vesz észre.)</stage>
+            </p>
           </sp>
           <sp who="#orkenyi">
             <speaker>ÖRKÉNYI:</speaker>
@@ -5439,7 +5526,8 @@
                                 önre, Koszta Sámuel, s ha még egyszer vőlegényemre emelné ádáz
                                 fegyverét, reszkessen! Nézze meg az ember! Az én nevem Seraphine, és
                                 nem Sára, nem Rebeka és a párbaj azért is miattam volt! azért
-                                    is!<stage>(El gyorsan balra.)</stage></p>
+                                    is!<stage>(El gyorsan balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5578,7 +5666,8 @@
             <stage>(elkeseredve):</stage>
             <p>Ezredes úr! hagyjon már békén azzal a szeráffal! A mennyország se
                                 kell ilyen cherubok és szeráfok társaságában! Megyek lakást
-                                    keresni!<stage>(Elrohan a középen.)</stage></p>
+                                    keresni!<stage>(Elrohan a középen.)</stage>
+            </p>
           </sp>
           <sp who="#piroska">
             <speaker>PIROSKA:</speaker>
@@ -5586,7 +5675,8 @@
           </sp>
           <sp who="#orkenyi">
             <speaker>ÖRKÉNYI:</speaker>
-            <p>Semmi közöd hozzá! Gyere pakolni! <stage>(El jobbra.)</stage></p>
+            <p>Semmi közöd hozzá! Gyere pakolni! <stage>(El jobbra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5744,7 +5834,8 @@
             <p>Nem? Ez hát eredménye minden könyörgésemnek? Jó! Most majd más húrokat
                             pengetünk. Itt lakik nagymamája. Ismerem híréből, milyen jó és okos
                             asszony, majd őt teszem becsületbíróvá. Megyek hozzá, s akkor majd
-                            meglátjuk, kié lesz az utolsó szó.<stage>(El balra.)</stage></p>
+                            meglátjuk, kié lesz az utolsó szó.<stage>(El balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5762,7 +5853,8 @@
                             Akad azért elég, aki bolondul utánam... Enni való leány! Hogy beszélt,
                             hogy nézett, milyen jól emlékezett rám...! Jaj! a nagymama...
                                 Meneküljünk!<stage>(A középajtóban összeütközik
-                            Tódorkával.)</stage></p>
+                            Tódorkával.)</stage>
+            </p>
           </sp>
           <sp who="#todorka">
             <speaker>TÓDORKA</speaker>
@@ -5819,7 +5911,8 @@
           </sp>
           <sp who="#todorka">
             <speaker>TÓDORKA:</speaker>
-            <p>Leszek olyan bátor.<stage>(El balra.)</stage></p>
+            <p>Leszek olyan bátor.<stage>(El balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5872,7 +5965,8 @@
                                 te könnyelműséged tegyen ily boldoggá. Hiszen én azt hittem, valami
                                 mély örök szerelem él benned, és rettegtem tudtodra adni a valót...
                                 Gyere, hadd csókoljalak meg, te, te kis haszontalan!<stage>(Magához
-                                    öleli Ernőt.)</stage></p>
+                                    öleli Ernőt.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
@@ -5928,7 +6022,8 @@
                                 tudom azt, hogy a lovagi becsületnek eleget kell tenni. Ne féljetek,
                                 én nem fogom közétek vetni magamat. Hanem mielőtt újra kiálltok,
                                 engedjétek meg, hogy az is bele szóljon, aki legilletékesebb rá.
-                                Trézsi, szólítsd ki.<stage>(Galambosné el.)</stage></p>
+                                Trézsi, szólítsd ki.<stage>(Galambosné el.)</stage>
+            </p>
           </sp>
           <sp who="#erno">
             <speaker>ERNŐ:</speaker>
@@ -6035,7 +6130,8 @@
           <sp who="#galambosne">
             <speaker>GALAMBOSNÉ:</speaker>
             <p>Ne féljen grófné! Ölben hozom el, ha máskép nem akar jönni.<stage>(El
-                                    jobbra.)</stage></p>
+                                    jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ:</speaker>
@@ -6077,7 +6173,8 @@
             <p>Eh! Ki gondol most fázásra? Vedd le... nagyon őregít... Hát ez a
                                 kendő a vállamon...? vidd el... nagyon vénít... El! el! siess
                                 Trézsi! hallom már a lépteit.<stage>(Galambosné el
-                                balra.)</stage></p>
+                                balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -6106,7 +6203,8 @@
             <p>De hát jőjjön közelebb, kedves báró, ne beszélgessünk így a terem két
                                 végéről... Nem jön? Látja, én nem vagyok olyan makacs; ha nem jön,
                                 én megyek önhöz.<stage>(A báróhoz megy s közelében egy karszékbe
-                                    ül.)</stage></p>
+                                    ül.)</stage>
+            </p>
           </sp>
           <sp who="#orkenyi">
             <speaker>ÖRKÉNYI</speaker>
@@ -6155,7 +6253,8 @@
           <sp who="#orkenyi">
             <speaker>ÖRKÉNYI</speaker>
             <stage>(magában):</stage>
-            <p>Behálóz! Behálóz!<stage>(Kezét nyujtja.)</stage></p>
+            <p>Behálóz! Behálóz!<stage>(Kezét nyujtja.)</stage>
+            </p>
           </sp>
           <sp who="#grofne">
             <speaker>GRÓFNÉ</speaker>
@@ -6231,7 +6330,8 @@
             <p>Ki tilthatta volna el? Ezzel nem sértettem meg senki jogát, és
                                 szivemnek meg volt az a fájó öröme, hogy hírt hallottam róla.
                                 Boldogtalanságáról szólt a hír, de legalább róla
-                                    szólt.<stage>(Könnyekre fakad.)</stage></p>
+                                    szólt.<stage>(Könnyekre fakad.)</stage>
+            </p>
           </sp>
           <sp who="#orkenyi">
             <speaker>ÖRKÉNYI</speaker>
@@ -6244,7 +6344,8 @@
                                 fájtak és égettek, mert titkolnom kellett, de most édesek és jól
                                 esnek, hiszen az előtt hullatom, aki velem együtt siratta egykor
                                 elvesztett boldogságunkat...<stage>(Örkényi kezére hajtja
-                                    arcát.)</stage></p>
+                                    arcát.)</stage>
+            </p>
           </sp>
           <sp who="#orkenyi">
             <speaker>ÖRKÉNYI</speaker>
@@ -6301,7 +6402,8 @@
             <speaker>ÖRKÉNYI</speaker>
             <stage>(lelkesülten):</stage>
             <p>A nagyanyja... Igaza van, megadom magamat.<stage>(Megcsókolja a
-                                    grófné kezét.)</stage></p>
+                                    grófné kezét.)</stage>
+            </p>
           </sp>
           <sp who="#kalman">
             <speaker>KÁLMÁN</speaker>
@@ -6316,7 +6418,8 @@
           </sp>
           <sp who="#marta">
             <speaker>MÁRTA:</speaker>
-            <p>Oh te csodatevő nagymama!<stage>(Reá borul.)</stage></p>
+            <p>Oh te csodatevő nagymama!<stage>(Reá borul.)</stage>
+            </p>
           </sp>
           <sp who="#koszta">
             <speaker>KOSZTA</speaker>

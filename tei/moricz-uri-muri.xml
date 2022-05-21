@@ -53,10 +53,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000029</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -217,9 +219,7 @@
       <castList>
         <castGroup>
           <castItem>
-            <role>
-              <roleName>SZAKHMÁRY ZOLTÁN</roleName>
-            </role>
+            <role><roleName>SZAKHMÁRY ZOLTÁN</roleName></role>
           </castItem>
           <castItem>
             <role><roleName>RHÉDEY ESZTER</roleName>, a felesége</role>
@@ -230,59 +230,37 @@
                     ezredes</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>CSÖRGHEŐ CSULI</roleName>
-          </role>
+          <role><roleName>CSÖRGHEŐ CSULI</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ROZIKA</roleName>
-          </role>
+          <role><roleName>ROZIKA</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>LEKENCZEY</roleName>
-          </role>
+          <role><roleName>LEKENCZEY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>BORBÍRÓ</roleName>
-          </role>
+          <role><roleName>BORBÍRÓ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>GOSZTONYI BANDI</roleName>
-          </role>
+          <role><roleName>GOSZTONYI BANDI</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KUDORA</roleName>
-          </role>
+          <role><roleName>KUDORA</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>MALMOSSY</roleName>
-          </role>
+          <role><roleName>MALMOSSY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>PARRAGH</roleName>
-          </role>
+          <role><roleName>PARRAGH</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>TURGONYI</roleName>
-          </role>
+          <role><roleName>TURGONYI</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ÜGYVÉD</roleName>
-          </role>
+          <role><roleName>ÜGYVÉD</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>TANYÁSGAZDA</roleName>
-          </role>
+          <role><roleName>TANYÁSGAZDA</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>KÖDMÖN ANDRÁS</roleName>, munkás</role>
@@ -297,44 +275,28 @@
           <role><roleName>JASZOM</roleName>, közhuszár</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>PISTA</roleName>
-          </role>
+          <role><roleName>PISTA</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>VÉNASSZONY</roleName>
-          </role>
+          <role><roleName>VÉNASSZONY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ELSŐ SUMMÁSLÁNY</roleName>
-          </role>
+          <role><roleName>ELSŐ SUMMÁSLÁNY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>MÁSODIK SUMMÁSLÁNY</roleName>
-          </role>
+          <role><roleName>MÁSODIK SUMMÁSLÁNY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KONDÁS</roleName>
-          </role>
+          <role><roleName>KONDÁS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>FRÄULEIN</roleName>
-          </role>
+          <role><roleName>FRÄULEIN</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KISFIÚ</roleName>
-          </role>
+          <role><roleName>KISFIÚ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KISLÁNY</roleName>
-          </role>
+          <role><roleName>KISLÁNY</roleName></role>
         </castItem>
       </castList>
       <p>
@@ -365,7 +327,8 @@
           <speaker>BORBÍRÓ</speaker>
           <stage>kövér kun úr, csizmás, magyar nadrág, fakó kabát. Izzad.</stage>
           <p>Hopp!<stage>Elkap egy legyet, s azt a vaskos markából kiszedi, és a lábánál
-                            fekvő kutyának dobja. A kutya elkapja a legyet.</stage></p>
+                            fekvő kutyának dobja. A kutya elkapja a legyet.</stage>
+          </p>
         </sp>
         <sp who="#abel">
           <speaker>ÁBEL</speaker>
@@ -376,7 +339,8 @@
         <sp who="#borbiro">
           <speaker>BORBÍRÓ.</speaker>
           <p>Igazad van, ezredes uram. Ebbe a kuttya melegbe tejjesen elígsíges seritallal
-                        foglalkozni. <stage>Poharát az asztalhoz koccintja, s iszik.</stage></p>
+                        foglalkozni. <stage>Poharát az asztalhoz koccintja, s iszik.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI</speaker>
@@ -384,7 +348,8 @@
                         bajusza van, felpederve.</stage>
           <p>Hát Tisza Pista győzött. <stage>Előveszi vastag szivartárcáját, és mintha ő
                             győzött volna, nagy megelégedéssel vesz ki egy vastag
-                            britannikát.</stage></p>
+                            britannikát.</stage>
+          </p>
         </sp>
         <sp who="#borbiro">
           <speaker>BORBÍRÓ.</speaker>
@@ -395,7 +360,8 @@
           <stage>csak az ezredesnek beszél, Borbírónak csak éppen oda-oda vet egy
                         szót.</stage>
           <p>Szőr Jóska mondja, a mai újságba van. <stage>Ropogtatja a
-                        szivart.</stage></p>
+                        szivart.</stage>
+          </p>
         </sp>
         <sp who="#abel">
           <speaker>ÁBEL.</speaker>
@@ -543,7 +509,8 @@
           <speaker>ZOLTÁN.</speaker>
           <p>Hát igaz. Van vagy két esztendeje, hogy nem voltam idebe. <stage>Leül, háttal
                             a közönségnek. De úgy ül, hogy a széket hátraveti, s az egész asztalt
-                            elfoglalja.</stage></p>
+                            elfoglalja.</stage>
+          </p>
         </sp>
         <sp who="#pincer">
           <speaker>PINCÉR</speaker>
@@ -562,7 +529,8 @@
         <sp who="#borbiro">
           <speaker>BORBÍRÓ.</speaker>
           <p>Azír szípnek szíp... a búzád... ritka szíp... <stage>De lesi a szemével, hogy
-                            meg ne sértse a világért se.</stage></p>
+                            meg ne sértse a világért se.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -605,7 +573,8 @@
         </sp>
         <sp who="#abel">
           <speaker>ÁBEL.</speaker>
-          <p>No, mennyi? <stage>A sógora érdekében szólal meg.</stage></p>
+          <p>No, mennyi? <stage>A sógora érdekében szólal meg.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
@@ -707,7 +676,8 @@
                         ára?... Azt mondja szegény édesapám: a bion elmászott, lelkem... De nem baj,
                         angyalom, vettem rajta valamit, aminek én is örülök, mert nem kell neki
                         takarmány, meg maga is örül, mer igen kedvére való lesz: egy nótát, édes
-                        tubicám... hallgassa csak... dalolni kezdte <stage>dúdolja:</stage></p>
+                        tubicám... hallgassa csak... dalolni kezdte <stage>dúdolja:</stage>
+          </p>
           <lg>
             <l>Nincsen nékem egyebem,</l>
             <l>Csak egy kurta bekecsem,</l>
@@ -756,7 +726,8 @@
         <sp who="#borbiro">
           <speaker>BORBÍRÓ.</speaker>
           <stage>kinéz az ablakon.</stage>
-          <p>Mennek a vadlibák. <stage>Kint elborul a kép.</stage></p>
+          <p>Mennek a vadlibák. <stage>Kint elborul a kép.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
@@ -779,7 +750,8 @@
         </sp>
         <sp who="#borbiro">
           <speaker>BORBÍRÓ.</speaker>
-          <p>Szegín halott ember. <stage>Legyint, minden szó után.</stage></p>
+          <p>Szegín halott ember. <stage>Legyint, minden szó után.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
@@ -866,7 +838,8 @@
         </sp>
         <sp who="#pincer">
           <speaker>PINCÉR.</speaker>
-          <p>Húsz tojás? <stage>Nagyon meg van döbbenve.</stage></p>
+          <p>Húsz tojás? <stage>Nagyon meg van döbbenve.</stage>
+          </p>
         </sp>
         <sp who="#grof">
           <speaker>A GRÓF.</speaker>
@@ -874,7 +847,8 @@
         </sp>
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
-          <p>A jó vér lehet. <stage>Tovább nézi az idegent.</stage></p>
+          <p>A jó vér lehet. <stage>Tovább nézi az idegent.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
@@ -989,7 +963,8 @@
                             nézi, s nekikészül, hogy késsel-villával belefogjon. Csuli feláll,
                             kényelmesen odasétál.</stage> Most jön a megismerkedés! <stage>Ahogy
                             odaér, kinyújtja a kezét és belemarkol a rántottába. Általános
-                            konsternáció. Megeszi, amit a tenyerébe vett.</stage></p>
+                            konsternáció. Megeszi, amit a tenyerébe vett.</stage>
+          </p>
         </sp>
         <sp who="#grof">
           <speaker>A GRÓF</speaker>
@@ -1155,7 +1130,8 @@
         </sp>
         <sp who="#pista">
           <speaker>PISTA.</speaker>
-          <p>Egenis, tekintetes uram. <stage>El.</stage></p>
+          <p>Egenis, tekintetes uram. <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
@@ -1172,7 +1148,8 @@
         </sp>
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
-          <p>Kend is megszólalt? <stage>Koccint vele.</stage></p>
+          <p>Kend is megszólalt? <stage>Koccint vele.</stage>
+          </p>
         </sp>
         <sp who="#grof">
           <speaker>A GRÓF</speaker>
@@ -1403,7 +1380,8 @@
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
-          <p>Vissza? <stage>Visszanéz, s elfut a korsóval.</stage></p>
+          <p>Vissza? <stage>Visszanéz, s elfut a korsóval.</stage>
+          </p>
         </sp>
         <sp who="#pista">
           <speaker>PISTA</speaker>
@@ -1783,7 +1761,8 @@
         </sp>
         <sp who="#pista">
           <speaker>Pista.</speaker>
-          <p>Genis. <stage>El.</stage></p>
+          <p>Genis. <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -1819,7 +1798,8 @@
           <speaker>ZOLTÁN</speaker>
           <stage>rekedten.</stage>
           <p>No, menjen szépen haza. Én is mindjárt megyek... Csak még nekem rendelkezni
-                        kell... Dolgom van... <stage>Elakad a hangja.</stage></p>
+                        kell... Dolgom van... <stage>Elakad a hangja.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA</speaker>
@@ -1930,7 +1910,8 @@
         </sp>
         <sp who="#makos">
           <speaker>MÁKOS.</speaker>
-          <p>Igenis. <stage>El.</stage></p>
+          <p>Igenis. <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA</speaker>
@@ -1985,7 +1966,8 @@
                         a drága időt, s még nyelvel. Ha adós maradok neked tíz krajcárral, akkor
                         persze nem futrikálsz, hanem képes volnál itt ülni étlen-szomjan esztendeig,
                         míg meg nem kapod... Lóf... Menj a korsóddal s vidd azt a vizet.
-                            <stage>Meglátja, hogy jönnek a csugariak.</stage></p>
+                            <stage>Meglátja, hogy jönnek a csugariak.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
@@ -1997,7 +1979,8 @@
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
-          <p>Mán viszem. <stage>El.</stage></p>
+          <p>Mán viszem. <stage>El.</stage>
+          </p>
           <p>
             <stage>Csugariak jönnek. Félelmes szegényemberek, tarisznyával, bottal.
                             Mákos is velük jön.</stage>
@@ -2095,7 +2078,8 @@
         </sp>
         <sp who="#makos">
           <speaker>MÁKOS.</speaker>
-          <p>Hát ha mondta a tekintetes úr, a más. <stage>El.</stage></p>
+          <p>Hát ha mondta a tekintetes úr, a más. <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -2204,7 +2188,8 @@
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
-          <p>Nesze. <stage>Odaadja a zsebéből a cukorkát.</stage></p>
+          <p>Nesze. <stage>Odaadja a zsebéből a cukorkát.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
@@ -2274,12 +2259,14 @@
           <speaker>ZOLTÁN</speaker>
           <stage>megáll előtte.</stage>
           <p>Már megint kezdi? Szóval azt hiszi, hogy én áldozat vagyok.
-                            <stage>Megcirógatja.</stage></p>
+                            <stage>Megcirógatja.</stage>
+          </p>
         </sp>
         <sp who="#eszter">
           <speaker>ESZTER</speaker>
           <stage>elkapja magát az érintés elől.</stage>
-          <p>Én nem értek hozzá. <stage>Elhárítja kézzel a kezét.</stage></p>
+          <p>Én nem értek hozzá. <stage>Elhárítja kézzel a kezét.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
@@ -2417,7 +2404,8 @@
         <sp who="#fraulein">
           <speaker>FRÄULEIN</speaker>
           <stage>jön.</stage>
-          <p>Gnädiger Herr, bitte schön, der Herr Lefkovits ist da. <stage>El.</stage></p>
+          <p>Gnädiger Herr, bitte schön, der Herr Lefkovits ist da. <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -2472,7 +2460,8 @@
         <sp who="#ugyved">
           <speaker>ÜGYVÉD.</speaker>
           <p>Köszönöm szépen, kérem, nem élek vele, nekem a fejemre időközben szükségem
-                        van, nagyon szépen köszönöm. <stage>Leül.</stage></p>
+                        van, nagyon szépen köszönöm. <stage>Leül.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
@@ -2500,7 +2489,8 @@
         <sp who="#ugyved">
           <speaker>ÜGYVÉD.</speaker>
           <p>Én nagyon szívesen. Parancsol. <stage>De nem nyúl a zsebéhez, inkább
-                            visszahúzódik.</stage></p>
+                            visszahúzódik.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
@@ -2511,12 +2501,14 @@
         <sp who="#ugyved">
           <speaker>ÜGYVÉD.</speaker>
           <p>Egy hét az egész, Szakhmáry úr, egy hét, kedves uram. <stage>Megsimogatja a
-                            Zoltán kabátgallérját, bizalmaskodva.</stage></p>
+                            Zoltán kabátgallérját, bizalmaskodva.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
           <stage>elkedvetlenedve visszahúzódik.</stage>
-          <p>Hiszen nekem mindegy... Várjanak... <stage>Legyint.</stage></p>
+          <p>Hiszen nekem mindegy... Várjanak... <stage>Legyint.</stage>
+          </p>
           <p>
             <stage>Két kisgyerek befut, egy kislány meg egy kisfiú.</stage>
           </p>
@@ -2529,9 +2521,11 @@
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN,<note type="editorial">Pont helyett vessző a név mögött.
-                            sh.</note></speaker>
+                            sh.</note>
+          </speaker>
           <p>Jól van, kislányom, jól van, öcskös. <stage>A fiát megsimogatja, barackot ad
-                            neki.</stage></p>
+                            neki.</stage>
+          </p>
         </sp>
         <sp who="#ugyved">
           <speaker>ÜGYVÉD.</speaker>
@@ -2590,7 +2584,8 @@
                         hányan vannak... Tudja, kedves Szakhmáry <stage>előveszi a tárcáját,</stage>
                         hogy milyen szegény ember voltam én... Kérem, voltak napok, mit napok,
                         hetek, hónapok, hogy tökmagot vacsoráztam. Ebéd volt, de vacsora?...
-                            <stage>Kibont egy csomó pénzt, s letesz egy százast.</stage></p>
+                            <stage>Kibont egy csomó pénzt, s letesz egy százast.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -2607,7 +2602,8 @@
         </sp>
         <sp who="#eszter">
           <speaker>ESZTER,<note type="editorial">Pont helyett vessző a név
-                            mögött.sh.</note></speaker>
+                            mögött.sh.</note>
+          </speaker>
           <p>Fräulein, bitte, Fräulein, nehmen Sie die Kinder. <stage>Fräulein elviszi a
                             gyerekeket.</stage> Na, ne makacskodj, kicsikém, szépen, szépen.</p>
         </sp>
@@ -2625,7 +2621,8 @@
         </sp>
         <sp who="#fraulein">
           <speaker>FRÄULEIN.</speaker>
-          <p>Pubi ist brav, Pubika ist brav... <stage>Elmennek.</stage></p>
+          <p>Pubi ist brav, Pubika ist brav... <stage>Elmennek.</stage>
+          </p>
         </sp>
         <sp who="#ugyved">
           <speaker>ÜGYVÉD</speaker>
@@ -2700,7 +2697,8 @@
         <sp who="#ugyved">
           <speaker>ÜGYVÉD.</speaker>
           <p>Méltóztassék elkezdeni. Kis névaláírási gyakorlatot rendezünk...
-                            <stage>Nevet.</stage></p>
+                            <stage>Nevet.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -2747,7 +2745,8 @@
                         táskába teszi, s indul.</stage>
           <p>Magamat ajánlom, legmélyebb sajnálatom, ajánlom magamat, kezét csókolom,
                         nagyságos asszony, no legközelebb jobban vigyázunk, magamat ajánlom...
-                            <stage>El.</stage></p>
+                            <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -2805,7 +2804,8 @@
           <stage>fogja a palackot, s iszik belőle.</stage>
           <p>Ez ellen nincs kifogása! Újra iszik. Menjen hát minden a maga útján.
                             <stage>Leül a fotelbe, s hanyattveti magát, úgy érzi a pálinka
-                            hatását.</stage></p>
+                            hatását.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI</speaker>
@@ -2835,7 +2835,8 @@
           <speaker>CSULI.</speaker>
           <p>Úgy is kell. No, majd én kimegyek a tanyádra, kell is egy kis előkészület.
                         Iszik a palackból kicsit. De biztosan ott legyél, koma...
-                        <stage>El.</stage></p>
+                        <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -2874,7 +2875,8 @@
         <sp who="#szeplegeny">
           <speaker>SZÉPLEGÉNY.</speaker>
           <p>Ihes a. <stage>Csönd, előveszi a tarisznyáját, s abból kendőt, ebből
-                            kenyeret, szalonnát vesz nagykényelmesen elő.</stage></p>
+                            kenyeret, szalonnát vesz nagykényelmesen elő.</stage>
+          </p>
         </sp>
         <sp who="#kodmon">
           <speaker>KÖDMÖN.</speaker>
@@ -2882,7 +2884,8 @@
         </sp>
         <sp who="#hulla">
           <speaker>HULLA.</speaker>
-          <p>Hát együnk, no. <stage>Előszedik az elemózsiát.</stage></p>
+          <p>Hát együnk, no. <stage>Előszedik az elemózsiát.</stage>
+          </p>
         </sp>
         <sp who="#kodmon">
           <speaker>KÖDMÖN</speaker>
@@ -2983,12 +2986,14 @@
         <sp who="#kodmon">
           <speaker>KÖDMÖN.</speaker>
           <p>Jó mondod, Szíplegény! Csak a szegínyí! Mi koplalunk itt. <stage>Még egy nagy
-                            falatot a szájába töm.</stage></p>
+                            falatot a szájába töm.</stage>
+          </p>
         </sp>
         <sp who="#hulla">
           <speaker>HULLA.</speaker>
           <p>Hát bizony. <stage>Beszélni se tud, mert libacombbal van tele a szája
-                            éppen.</stage></p>
+                            éppen.</stage>
+          </p>
         </sp>
         <sp who="#szeplegeny">
           <speaker>SZÉPLEGÉNY.</speaker>
@@ -3125,7 +3130,8 @@
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
           <p>Tán maguk csugariak? Aj, szegény emberek. Akkor szaladjanak haza.
-                            <stage>El.</stage></p>
+                            <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#kodmon">
           <speaker>KÖDMÖN</speaker>
@@ -3149,7 +3155,8 @@
           <speaker>SZÉPLEGÉNY.</speaker>
           <p>Gyerünk, gyerünk. Én ugyan csak zsellérségbe lakok, de nagyon kíváncsi
                         vagyok, hogy hogy ugyan nem ígett-i bele az én rossz felesígem. Hej, ha a
-                        jóisten úgy szeretne éngem... <stage>Futva elmennek.</stage></p>
+                        jóisten úgy szeretne éngem... <stage>Futva elmennek.</stage>
+          </p>
         </sp>
         <sp who="#makos">
           <speaker>MÁKOS.</speaker>
@@ -3196,7 +3203,8 @@
         </sp>
         <sp who="#masodik_summaslany">
           <speaker>MÁSIK LÁNY.</speaker>
-          <p>Majd elküldjük hozzá Rozikát, akkor ű kapja. <stage>Vihogás.</stage></p>
+          <p>Majd elküldjük hozzá Rozikát, akkor ű kapja. <stage>Vihogás.</stage>
+          </p>
         </sp>
         <sp who="#venasszony">
           <speaker>VÉNASSZONY.</speaker>
@@ -3276,7 +3284,8 @@
           <speaker>MÁKOS.</speaker>
           <p>Meg, tekintetes uram. <stage>Látja, hogy itt nincs rá szükség.</stage> Ejnye,
                         mit hajkurássza ez a gyerek azt a bornyúkat? Hej, te, összetöröm a
-                        csontodat... <stage>El.</stage></p>
+                        csontodat... <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -3405,7 +3414,8 @@
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
           <p>Nem. <stage>Egy lány benéz, de mikor meglátja őket, visszahúzódik, s
-                            elmegy.</stage></p>
+                            elmegy.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
@@ -3633,7 +3643,8 @@
           <speaker>ZOLTÁN</speaker>
           <stage>az égre néz. Kifeszített karokkal nyújtózva.</stage>
           <p>Hűj, de betyár kislány ez... Mi ez?... Meg kell veszni érte?
-                            <stage>Kitör.</stage></p>
+                            <stage>Kitör.</stage>
+          </p>
           <lg>
             <l>Hej, élet, élet, betyárélet,</l>
             <l>Ez ám a gyöngy élet...</l>
@@ -3702,7 +3713,8 @@
                         Mint a legjobb vadászkutya... Ha bedobtam egy darab fát a Berettyóba, -
                         kihozta!... <stage>Csend.</stage> Kenyíren szoktattam... Löktem neki
                         kenyeret a vízbe, utánament... Danoljatok, az apátok istenit... <stage>Kezdi
-                            a dalt.</stage></p>
+                            a dalt.</stage>
+          </p>
           <lg>
             <l>Hej, ílet, ílet, betyárílet, ez ám a gyöngyílet...</l>
             <l>Ha megúnom magamat, magam is így ílek...</l>
@@ -3769,7 +3781,8 @@
         </sp>
         <sp who="#kondas">
           <speaker>KONDÁS.</speaker>
-          <p>Egenis! <stage>Elvágtat.</stage></p>
+          <p>Egenis! <stage>Elvágtat.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI</speaker>
@@ -3869,7 +3882,8 @@
         <sp who="#borbiro">
           <speaker>BORBÍRÓ.</speaker>
           <p>No, az apád lelkit? <stage>Gyere no! Nekigyürkőznek, s oldalt állnak ujjat
-                            húzni.</stage></p>
+                            húzni.</stage>
+          </p>
         </sp>
         <sp who="#grof">
           <speaker>LEKENCZEY.</speaker>
@@ -3916,7 +3930,8 @@
           <speaker>BORBÍRÓ</speaker>
           <stage>győztesen.</stage>
           <p>Igyál, még nincs elég virtus benned! <stage>Üvegből isznak, locsolják a
-                            bort.</stage></p>
+                            bort.</stage>
+          </p>
         </sp>
         <sp who="#gosztonyi">
           <speaker>GOSZTONYI BANDI.</speaker>
@@ -3970,7 +3985,8 @@
           <p>De jól adja. Én se eresztem be többet a fajtádat!... Gyün hozzám a minap is
                         egy ilyen úriemberféle: éppen mosdottam. Mennyík, mondok, adja ide azt az
                         ívet, inkább aláírom, csak ne zavarjík a beretválkozásban... Így kaptam húsz
-                        kötet Gyémánt-könyvtárat. <stage>Nevetés.</stage></p>
+                        kötet Gyémánt-könyvtárat. <stage>Nevetés.</stage>
+          </p>
         </sp>
         <sp who="#grof">
           <speaker>LEKENCZEY.</speaker>
@@ -3987,7 +4003,8 @@
             <l>Hej, ílet, ílet, betyárílet, ez ám a gyöngyílet...</l>
             <l>Ha megúnom magamat, magam is így ílek...</l>
           </lg>
-          <p><stage>Félrehúzza Lekenczeyt. </stage>Gyere csak, gyerekem! Van egy gyűjtőív
+          <p>
+            <stage>Félrehúzza Lekenczeyt. </stage>Gyere csak, gyerekem! Van egy gyűjtőív
                         nálad?</p>
         </sp>
         <sp who="#grof">
@@ -4036,7 +4053,8 @@
         <sp who="#abel">
           <speaker>ÁBEL.</speaker>
           <p>Értem én... az egészet... huszár vótam tán, vagy mi a fene, közös huszár...
-                            <stage>Németül mondja a regement nevet.</stage></p>
+                            <stage>Németül mondja a regement nevet.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
@@ -4044,7 +4062,8 @@
         </sp>
         <sp who="#abel">
           <speaker>ÁBEL.</speaker>
-          <p>Valami disznóság? <stage>Aláírja.</stage></p>
+          <p>Valami disznóság? <stage>Aláírja.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
@@ -4137,7 +4156,8 @@
           <speaker>LEKENCZEY.</speaker>
           <p>Ki megy a pusztára fegyver nélkül? <stage>Elkattantva a játékot, az kilő egy
                             fehér cigarettát. Mind nevetnek, s mind meg akarja nézni a
-                            szerszámocskát.</stage></p>
+                            szerszámocskát.</stage>
+          </p>
         </sp>
         <sp who="#parragh">
           <speaker>PARRAGH.</speaker>
@@ -4178,7 +4198,8 @@
         </sp>
         <sp who="#jaszom">
           <speaker>JASZOM.</speaker>
-          <p>Igenizs. <stage>El. Nagy ugrással le a tornácról a sötétbe.</stage></p>
+          <p>Igenizs. <stage>El. Nagy ugrással le a tornácról a sötétbe.</stage>
+          </p>
         </sp>
         <sp who="#gosztonyi">
           <speaker>GOSZTONYI BANDI</speaker>
@@ -4214,7 +4235,8 @@
           <speaker>ZOLTÁN</speaker>
           <stage>egyedül jön.</stage>
           <p>Nem is hiszem, hogy ez van... csak egy éjszakai álom... <stage>Leül jobbra a
-                            fonott karszékbe, dúdol álmodozva.</stage></p>
+                            fonott karszékbe, dúdol álmodozva.</stage>
+          </p>
           <lg>
             <l>Kék a szeme göndör haja</l>
             <l>de gyönyörű kislány maga...</l>
@@ -4225,9 +4247,7 @@
             <l>a szerelem szívfájdalom...</l>
           </lg>
           <lg>
-            <l>
-              <stage>Távol: a kórus, hogy</stage>
-            </l>
+            <l><stage>Távol: a kórus, hogy</stage></l>
           </lg>
           <lg>
             <l>Hej, ílet, ílet, betyárílet...</l>
@@ -4331,7 +4351,8 @@
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
-          <p>Mondjad csak, mondjad... <stage>Ölébe veszi.</stage></p>
+          <p>Mondjad csak, mondjad... <stage>Ölébe veszi.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
@@ -4460,7 +4481,8 @@
           <p>Akkor el kell hagyni.</p>
         </sp>
         <sp who="#zoltan">
-          <speaker>ZOLTÁN,<note type="editorial">sh.</note></speaker>
+          <speaker>ZOLTÁN,<note type="editorial">sh.</note>
+          </speaker>
           <p>Mit? Az életet? Az állapotot?</p>
         </sp>
         <sp who="#rozika">
@@ -4586,7 +4608,8 @@
                         elment. Nem akarták elereszteni. Azt mondta: "De megyek, kedves néni, mert
                         elkések..." Az utcán tanálkozott a bátyámmal: "Szervusz, Feri, nemsokára
                         hallotok rólam." Éjfélkor zörgetik az ablakot, Ferinek kiáltják: "Feri, a
-                        Lajit elvágta a vonat." <stage>Kiissza a poharat.</stage></p>
+                        Lajit elvágta a vonat." <stage>Kiissza a poharat.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -4713,7 +4736,8 @@
         <sp who="#csuli">
           <speaker>CSULI.</speaker>
           <p>Jó... E még nekem is gusztusos... <stage>Megcsípi a kislány állát.</stage> A
-                        munka nemesít, te. <stage>Pofoncsapja kicsit, szerelemből.</stage></p>
+                        munka nemesít, te. <stage>Pofoncsapja kicsit, szerelemből.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
@@ -4782,7 +4806,8 @@
           <speaker>CSULI.</speaker>
           <p>Gyerekek, nem ér semmit! Beteg a nagy kan. Hej, azt a keserves mindenit, de
                         boldog tudnék én lenni, csak beteg ne volna... De sebaj: meggyógyul, mert...
-                            <stage>Dal.</stage></p>
+                            <stage>Dal.</stage>
+          </p>
           <lg>
             <l>Én vagyok a, én vagyok a kúnsági fi,</l>
             <l>Nékem nem parancsol senki.</l>
@@ -4793,13 +4818,15 @@
         <sp who="#abel">
           <speaker>ÁBEL.</speaker>
           <p>Ma még tizenhat kilót letáncolok a pocakomból. <stage>Táncra viszi
-                            Rozikát.</stage></p>
+                            Rozikát.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
           <p>Fontot, Ábel bátyám! Mondjuk csak ki úgy, ahogy van. Pokolba minden
                         mintagazdaság! Csináljuk, ahogy tanultuk fiatalkorunkba, Mária Terézia
-                        mamánk idejibe! <stage>Dalol, vele mindenki.</stage></p>
+                        mamánk idejibe! <stage>Dalol, vele mindenki.</stage>
+          </p>
           <lg>
             <l>Rózsabokorba jöttem a világra,</l>
             <l>Nem dajkált az édesanyám hiába.</l>
@@ -4842,7 +4869,8 @@
         <sp who="#borbiro">
           <speaker>BORBÍRÓ.</speaker>
           <p>Én vagyok a Juhtartó Társaság elnöke, én erre nem iszok! Szítrázom ezt a
-                        házat! <stage>Poharát odavágja a földhöz.</stage></p>
+                        házat! <stage>Poharát odavágja a földhöz.</stage>
+          </p>
         </sp>
         <sp who="#gosztonyi">
           <speaker>GOSZTONYI BANDI.</speaker>
@@ -5047,7 +5075,8 @@
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
-          <p>Ha nincs pénze! <stage>Iszik.</stage></p>
+          <p>Ha nincs pénze! <stage>Iszik.</stage>
+          </p>
         </sp>
         <sp who="#grof">
           <speaker>LEKENCZEY.</speaker>
@@ -5083,7 +5112,8 @@
         <sp who="#grof">
           <speaker>LEKENCZEY.</speaker>
           <p>Az semmi, befog, akit akarok! Mirevaló ez! <stage>Előveszi a revolverét, és
-                            kilő vele egy cigarettát.</stage></p>
+                            kilő vele egy cigarettát.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA</speaker>
@@ -5093,7 +5123,8 @@
         <sp who="#grof">
           <speaker>LEKENCZEY.</speaker>
           <p>Az is van. <stage>Előveszi az előfizetőgyűjtő blokkját, és abból tép ki egy
-                            lapot, odaadja és elsiet.</stage></p>
+                            lapot, odaadja és elsiet.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA</speaker>
@@ -5121,7 +5152,8 @@
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
-          <p>Akkor aludni! Te! <stage>Öleli.</stage></p>
+          <p>Akkor aludni! Te! <stage>Öleli.</stage>
+          </p>
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA</speaker>
@@ -5154,7 +5186,8 @@
         <sp who="#rozika">
           <speaker>ROZIKA</speaker>
           <stage>kihúzza magát.</stage>
-          <p>Itt eltanyáztam egy kicsit... <stage>El akar menni.</stage></p>
+          <p>Itt eltanyáztam egy kicsit... <stage>El akar menni.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -5163,7 +5196,8 @@
         </sp>
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
-          <p>Álmodni... a csillagok alá... <stage>Dalol.</stage></p>
+          <p>Álmodni... a csillagok alá... <stage>Dalol.</stage>
+          </p>
           <lg>
             <l>Bár sohase hajtott vóna,</l>
             <l>Maradtam vóna bimbóba...</l>
@@ -5199,7 +5233,8 @@
         <sp who="#rozika">
           <speaker>ROZIKA.</speaker>
           <p>Igen, megyek... Mint a kis lepkemadár... Köszönöm a hozzámvaló
-                        szívességüket... Isten megáldja... <stage>El.</stage></p>
+                        szívességüket... Isten megáldja... <stage>El.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN</speaker>
@@ -5341,7 +5376,8 @@
                             beront, bandaszóval. A cigány húzza, tánc. A férfiak egyedül, csak
                             férfiak. Fáklyások a sarokban. Férfi férfival táncol. Körültáncolják az
                             asztalt, Esztert és Zoltánt. Táncdal, amit közben zúgnak, a banda tompán
-                            húzza.</stage></p>
+                            húzza.</stage>
+          </p>
         </sp>
         <sp who="#csuli">
           <speaker>CSULI</speaker>
@@ -5382,7 +5418,8 @@
         </sp>
         <sp who="#eszter">
           <speaker>ESZTER.</speaker>
-          <p>Kis béreslány? <stage>Felsikolt.</stage></p>
+          <p>Kis béreslány? <stage>Felsikolt.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
@@ -5426,7 +5463,8 @@
         </sp>
         <sp who="#eszter">
           <speaker>ESZTER.</speaker>
-          <p>Tőled szöktették meg? <stage>Már nem táncol.</stage></p>
+          <p>Tőled szöktették meg? <stage>Már nem táncol.</stage>
+          </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
@@ -5586,7 +5624,8 @@
         <sp who="#csuli">
           <speaker>CSULI</speaker>
           <stage>felnevet.</stage>
-          <p>Dehogy nincs! <stage>Dalol.</stage></p>
+          <p>Dehogy nincs! <stage>Dalol.</stage>
+          </p>
           <lg>
             <l>Es az eső, fúja szél,</l>
             <l>Hull a fáról a levél!</l>
@@ -5669,7 +5708,8 @@
                         bírom ki így magamba! Kedves feleségem... megdöglött a nagy kan, erisszetek,
                         mer ezt nem lehet kibírni csak otthon az én angyali jóságú feleségem
                         mellett. Ágnes, kedves Ágnesem! Hozass cimbalmost, megdöglött a nagy kan!
-                            <stage>Eltámolyog.</stage></p>
+                            <stage>Eltámolyog.</stage>
+          </p>
         </sp>
         <sp who="#">
           <speaker>MIND</speaker>
@@ -5731,7 +5771,8 @@
         <sp who="#eszter">
           <speaker>ESZTER.</speaker>
           <p>Nem tudnak egyebet, csak sírni és vigadni és üvölteni! Hát ha magának ez
-                        kell, csinálja! <stage>Elrohan.</stage></p>
+                        kell, csinálja! <stage>Elrohan.</stage>
+          </p>
         </sp>
         <sp who="#">
           <speaker>MIND</speaker>
@@ -5774,7 +5815,8 @@
           <speaker>ZOLTÁN</speaker>
           <stage>nevet.</stage>
           <p>Gyáva ez ahhoz... gyáva ez ahhoz! <stage>Középre áll, úgy nézi a tomboló
-                            táncolókat, akik egyre dalolják, hogy</stage></p>
+                            táncolókat, akik egyre dalolják, hogy</stage>
+          </p>
           <lg>
             <l>Míg a barnát szorongatom,</l>
             <l>Azt a szőkét elszalasztom!</l>
@@ -5803,14 +5845,16 @@
           <speaker>ZOLTÁN</speaker>
           <stage>nevet, szinte ordít.</stage>
           <p>Ábel bátyám, ez ám a muri!... jó kis muri!... Úri muri! <stage>Magára
-                            fordítja a revolvert.</stage></p>
+                            fordítja a revolvert.</stage>
+          </p>
           <p>
             <stage>Tizen is rohannak rá, Eszter sikoltva.</stage>
           </p>
         </sp>
         <sp who="#zoltan">
           <speaker>ZOLTÁN.</speaker>
-          <p>Gyáva ez ahhoz?! <stage>Szívenlövi magát.</stage></p>
+          <p>Gyáva ez ahhoz?! <stage>Szívenlövi magát.</stage>
+          </p>
           <p>
             <stage>A tűz ropog, az emberek veszettül bőgnek, ordítanak. A tűz, a tűz, a
                             szent tűz, amely minden rosszat megemészt...</stage>

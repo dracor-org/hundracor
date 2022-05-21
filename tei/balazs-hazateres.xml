@@ -61,19 +61,21 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref> </orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref> </orgName>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000002</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref> </pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref> </p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -266,77 +268,49 @@
         <castGroup>
           <roleDesc>magyar internaciaonalisták</roleDesc>
           <castItem>
-            <role>
-              <roleName>LIGETI</roleName>
-            </role>
+            <role><roleName>LIGETI</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
-          <role>
-            <roleName>BURA</roleName>
-          </role>
+          <role><roleName>BURA</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KOVÁCS</roleName>
-          </role>
+          <role><roleName>KOVÁCS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>SZILASI</roleName>
-          </role>
+          <role><roleName>SZILASI</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>VEREBÉLY</roleName>
-          </role>
+          <role><roleName>VEREBÉLY</roleName></role>
         </castItem>
         <castGroup>
           <roleDesc>hangok</roleDesc>
           <castItem>
-            <role>
-              <roleName>EGY HANG</roleName>
-            </role>
+            <role><roleName>EGY HANG</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>2. HANG</roleName>
-            </role>
+            <role><roleName>2. HANG</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>3. HANG</roleName>
-            </role>
+            <role><roleName>3. HANG</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>4. HANG</roleName>
-            </role>
+            <role><roleName>4. HANG</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>5. HANG</roleName>
-            </role>
+            <role><roleName>5. HANG</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>6. HANG</roleName>
-            </role>
+            <role><roleName>6. HANG</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>7. HANG</roleName>
-            </role>
+            <role><roleName>7. HANG</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>9. HANG</roleName>
-            </role>
+            <role><roleName>9. HANG</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>10. HANG</roleName>
-            </role>
+            <role><roleName>10. HANG</roleName></role>
           </castItem>
         </castGroup>
         <castGroup>
@@ -345,42 +319,28 @@
             <role>EGY ASSZONY</role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>1. ASSZONY</roleName>
-            </role>
+            <role><roleName>1. ASSZONY</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>2. ASSZONY</roleName>
-            </role>
+            <role><roleName>2. ASSZONY</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>3. ASSZONY</roleName>
-            </role>
+            <role><roleName>3. ASSZONY</roleName></role>
           </castItem>
         </castGroup>
         <castGroup>
           <roleDesc>internacionalisták</roleDesc>
           <castItem>
-            <role>
-              <roleName>1. INTERNACIONALISTA</roleName>
-            </role>
+            <role><roleName>1. INTERNACIONALISTA</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>2. INTERNACIONALISTA</roleName>
-            </role>
+            <role><roleName>2. INTERNACIONALISTA</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>3. INTERNACIONALISTA</roleName>
-            </role>
+            <role><roleName>3. INTERNACIONALISTA</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>4. INTERNACIONALISTA</roleName>
-            </role>
+            <role><roleName>4. INTERNACIONALISTA</roleName></role>
           </castItem>
         </castGroup>
       </castList>
@@ -434,7 +394,8 @@
           <speaker>LIGETI</speaker>
           <stage>(meglepetve):</stage>
           <p>Sándor! Mi lelt?<stage>(Nem kap feleletet. Jüttgen
-                                    megfordul.)</stage></p>
+                                    megfordul.)</stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -619,7 +580,8 @@
         </sp>
         <sp who="#juttgen">
           <speaker>JÜTTGEN:</speaker>
-          <p>De mondok én a magyarokra, Ligeti elvtárs. Idestova két esztendeje, hogy a mi ötödik interregimentünk a vörös hadseregben verekszik. Odesszától Asztrahánig. Eddig egyikőtöknek se jutott eszébe, hogy hazája után rijjon. Most pedig egyszerre ez a borjubőgés járja szakadatlanul. Igazán utálat!<stage>(Kedvetlenül elfordul.)</stage></p>
+          <p>De mondok én a magyarokra, Ligeti elvtárs. Idestova két esztendeje, hogy a mi ötödik interregimentünk a vörös hadseregben verekszik. Odesszától Asztrahánig. Eddig egyikőtöknek se jutott eszébe, hogy hazája után rijjon. Most pedig egyszerre ez a borjubőgés járja szakadatlanul. Igazán utálat!<stage>(Kedvetlenül elfordul.)</stage>
+          </p>
           <p>Meghülyültetek valamennyien!</p>
         </sp>
         <sp who="#ligeti">
@@ -646,7 +608,8 @@
         <sp who="#juttgen">
           <speaker>JÜTTGEN</speaker>
           <stage>(váratlan izgalommal):</stage>
-          <p>Ostobaság.<stage>(Elfordul.)</stage></p>
+          <p>Ostobaság.<stage>(Elfordul.)</stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI:</speaker>
@@ -684,7 +647,8 @@
         <sp who="#juttgen">
           <speaker>JÜTTGEN</speaker>
           <stage>(dühösen):</stage>
-          <p>Hagyjatok nekem békét! Hülyék ti! Elég!<stage>! (Elfordul és néhány lépést tesz a kulisszák felé.)</stage></p>
+          <p>Hagyjatok nekem békét! Hülyék ti! Elég!<stage>! (Elfordul és néhány lépést tesz a kulisszák felé.)</stage>
+          </p>
           <p>Állj! Hova, tel</p>
           <p>
             <stage>Balról PJÓTR, IS—20 év körüli parasztfiu lép be. Köteg szögesdrótot cipel vállán, övében kézigránátok.</stage>
@@ -699,7 +663,8 @@
         <sp who="#pjotr">
           <speaker>PJÓTR</speaker>
           <stage>(fáradtan liheg, jóindulatúan):</stage>
-          <p>Engem nem jár golyó. Antipovna nagyanyó békazsirral kent be.<stage>(A kivilágított ablakra mutat.)</stage></p>
+          <p>Engem nem jár golyó. Antipovna nagyanyó békazsirral kent be.<stage>(A kivilágított ablakra mutat.)</stage>
+          </p>
           <p>Ébren van az öreg?<stage>(A sövénydrótot és kézigránátokat lerakja a lépcsőnél.)</stage>Ébren van még az öreg?</p>
         </sp>
         <sp who="#juttgen">
@@ -749,7 +714,8 @@
         <sp who="#pjotr">
           <speaker>PJÓTR</speaker>
           <stage>(hirtelen másra terelve a szót):</stage>
-          <p>A városban most angol csizmákat lehet vásárolni. Már, akinek pénze van, vehet... Meg ilyen skatulyákat.<stage>( Zsebéből három puderdobozt vesz elő.)</stage></p>
+          <p>A városban most angol csizmákat lehet vásárolni. Már, akinek pénze van, vehet... Meg ilyen skatulyákat.<stage>( Zsebéből három puderdobozt vesz elő.)</stage>
+          </p>
           <p>Ebben belül tükör van ám! No, az öreghez kell mennem.</p>
         </sp>
         <sp who="#ligeti">
@@ -767,7 +733,8 @@
         </sp>
         <sp who="#pjotr">
           <speaker>PJÓTR:</speaker>
-          <p>De megéri! Hidd el. Isten bizony megéri. Sietek az öreghez.<stage>(Felmegy a lépcsőn.)</stage></p>
+          <p>De megéri! Hidd el. Isten bizony megéri. Sietek az öreghez.<stage>(Felmegy a lépcsőn.)</stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -779,7 +746,8 @@
           <speaker>PJÓTR</speaker>
           <stage>(elképed a buta kérdésen):</stage>
           <p>
-        Hogy-hogy? Hát három lánynak három doboz!<stage>(Bemegy a házba.)</stage></p>
+        Hogy-hogy? Hát három lánynak három doboz!<stage>(Bemegy a házba.)</stage>
+          </p>
         </sp>
         <sp who="#juttgen">
           <speaker>JÜTTGEN</speaker>
@@ -860,7 +828,8 @@
         </sp>
         <sp who="#juttgen">
           <speaker>JÜTTGEN:</speaker>
-          <p>Hát igy változik néha a hadihelyzet, öregapám. Eredj, eredj.<stage>(Kiösztökéli az öreget a színpadról.)</stage></p>
+          <p>Hát igy változik néha a hadihelyzet, öregapám. Eredj, eredj.<stage>(Kiösztökéli az öreget a színpadról.)</stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -976,7 +945,8 @@
         <sp who="#timar">
           <speaker>TÍMÁR</speaker>
           <stage>(elgondolkozva):</stage>
-          <p>Nagyon nagy csönd van... nagy csönd...<stage>(Magyar népdalt fütyölve, lassan visszamegy a házba.)</stage></p>
+          <p>Nagyon nagy csönd van... nagy csönd...<stage>(Magyar népdalt fütyölve, lassan visszamegy a házba.)</stage>
+          </p>
         </sp>
         <sp who="#juttgen">
           <speaker>JÜTTGEN</speaker>
@@ -1017,7 +987,8 @@
                                 bajusszal, kemény tekintettel. Szavaiban, mozdulataiban tempós
                                 paraszt méltóság. Letörli az izzadtságot
                                 homlokáról):</stage>
-          <p>Jó estét.<stage>(A lépcső felé tart.)</stage></p>
+          <p>Jó estét.<stage>(A lépcső felé tart.)</stage>
+          </p>
         </sp>
         <sp who="#juttgen">
           <speaker>JÜTTGEN</speaker>
@@ -1115,7 +1086,8 @@
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS:</speaker>
-          <p>Igen. Szives üdvözletemet.<stage>(Bemegy a házba.)</stage></p>
+          <p>Igen. Szives üdvözletemet.<stage>(Bemegy a házba.)</stage>
+          </p>
         </sp>
         <sp who="#juttgen">
           <speaker>JÜTTGEN</speaker>
@@ -1248,16 +1220,19 @@
         <sp who="#juttgen">
           <speaker>JÜTTGEN</speaker>
           <stage>(fenyegetően közeledik Burához):</stage>
-          <p>Te! Nem mennél-e kicsit sétálni ebben a szép holdfényes időben?<stage>(Csaknem lábára lép, úgy hogy Bura hátrálni kénytelen.)</stage></p>
+          <p>Te! Nem mennél-e kicsit sétálni ebben a szép holdfényes időben?<stage>(Csaknem lábára lép, úgy hogy Bura hátrálni kénytelen.)</stage>
+          </p>
           <p>A mezők is olyan szépen illatoznak. Nem lódulnál innen? De mindjárt!</p>
         </sp>
         <sp who="#bura">
           <speaker>BURA:</speaker>
-          <p>Mi közöd hozzá? Odamegyek, ahová nekem tetszik.<stage>(Hátrál.)</stage></p>
+          <p>Mi közöd hozzá? Odamegyek, ahová nekem tetszik.<stage>(Hátrál.)</stage>
+          </p>
         </sp>
         <sp who="#juttgen">
           <speaker>JÜTTGEN:</speaker>
-          <p>De hiszen neked tetszik! Te sétálni akarsz. ..<stage>(Kituszkolja. Az internacionalisták dalolva elmennek.)</stage></p>
+          <p>De hiszen neked tetszik! Te sétálni akarsz. ..<stage>(Kituszkolja. Az internacionalisták dalolva elmennek.)</stage>
+          </p>
         </sp>
         <sp who="#antipovna">
           <speaker>ANTIPOVNA</speaker>
@@ -1315,7 +1290,8 @@
         <sp who="#timar">
           <speaker>TÍMÁR</speaker>
           <stage>(megjelenik az ajtóban):</stage>
-          <p>Hé, Antipovna! Hát nem röstelkedsz? Ilyen késő éjjel künn tekeregni? Elcsavarod a katonáim fejét, mi?!<stage>(Közben lejött a lépcsőn és  derékon kapja az öregasszonyt.)</stage></p>
+          <p>Hé, Antipovna! Hát nem röstelkedsz? Ilyen késő éjjel künn tekeregni? Elcsavarod a katonáim fejét, mi?!<stage>(Közben lejött a lépcsőn és  derékon kapja az öregasszonyt.)</stage>
+          </p>
         </sp>
         <sp who="#antipovna">
           <speaker>ANTIPOVNA</speaker>
@@ -1332,7 +1308,8 @@
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR:</speaker>
-          <p>Hát akkor várj itt egy kicsit és állj fel szépen vigyázzba! Hiszen te úgyis már félig internacionalista volnál, vagy mi!<stage>!  (Megfordul)</stage></p>
+          <p>Hát akkor várj itt egy kicsit és állj fel szépen vigyázzba! Hiszen te úgyis már félig internacionalista volnál, vagy mi!<stage>!  (Megfordul)</stage>
+          </p>
           <p>Pjótr!</p>
         </sp>
         <sp who="#pjotr">
@@ -1342,13 +1319,15 @@
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR:</speaker>
-          <p>Gyere csak!<stage>(Vállát átkarolja és suttogva távozik vele a háttérbe.)</stage></p>
+          <p>Gyere csak!<stage>(Vállát átkarolja és suttogva távozik vele a háttérbe.)</stage>
+          </p>
         </sp>
         <sp who="#antipovna">
           <speaker>ANTIPOVNA</speaker>
           <stage>(katonásan felállt, Ligeti mellé.
         Susogva.)</stage>
-          <p>Látod-e, hogy beszél velem? Azt hitted te, hogy Antipovnának talán a te engedelmedre van szüksége? No lásd-e! Most meg kivel beszél? Megint csak az én unokámmal.<stage>. (Tím ár és Pjótr, halkan beszélgetve ismét előre jönnek.)</stage></p>
+          <p>Látod-e, hogy beszél velem? Azt hitted te, hogy Antipovnának talán a te engedelmedre van szüksége? No lásd-e! Most meg kivel beszél? Megint csak az én unokámmal.<stage>. (Tím ár és Pjótr, halkan beszélgetve ismét előre jönnek.)</stage>
+          </p>
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR:</speaker>
@@ -1356,7 +1335,8 @@
         </sp>
         <sp who="#pjotr">
           <speaker>PJÓTR:</speaker>
-          <p>Értem.<stage>(Gyorsan Jánoshoz lép, halkan)</stage></p>
+          <p>Értem.<stage>(Gyorsan Jánoshoz lép, halkan)</stage>
+          </p>
           <p>Add ide a lovadat, János!</p>
         </sp>
         <sp who="#janos">
@@ -1397,7 +1377,8 @@
         <sp who="#timar">
           <speaker>TÍMÁR</speaker>
           <stage>(mosolyogva):</stage>
-          <p>Majd megkérded aztán a lovadat.<stage>(Elgondolkodva mered maga elé. János megfordul és távozni készül.)</stage></p>
+          <p>Majd megkérded aztán a lovadat.<stage>(Elgondolkodva mered maga elé. János megfordul és távozni készül.)</stage>
+          </p>
           <p>Maradj még! Még egy kicsit beszélni akarok veled.<stage>(Belékarol.)</stage> Gondolkozz csak kicsit, János. Igazán semmi különöset nem vettél észre útközben?</p>
         </sp>
         <sp who="#janos">
@@ -1440,7 +1421,8 @@
         <sp who="#timar">
           <speaker>TÍMÁR</speaker>
           <stage>(elgondolkozik):</stage>
-          <p>Attól függ mi a szándékuk.<stage>(Vidám nóta fütyülésébe fog, de abbahagyja.)</stage> Nohát János, menj most haza Gánjádhoz. Mondd neki, hogy tiszteltetem.De aludd ki jól magad az éjjel.<stage>(János elindul, de megáll, hogy meghallgassa, mit beszél Tímár az öregasszonnyal.)</stage></p>
+          <p>Attól függ mi a szándékuk.<stage>(Vidám nóta fütyülésébe fog, de abbahagyja.)</stage> Nohát János, menj most haza Gánjádhoz. Mondd neki, hogy tiszteltetem.De aludd ki jól magad az éjjel.<stage>(János elindul, de megáll, hogy meghallgassa, mit beszél Tímár az öregasszonnyal.)</stage>
+          </p>
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR</speaker>
@@ -1449,7 +1431,8 @@
         </sp>
         <sp who="#antipovna">
           <speaker>ANTIPOVNA:</speaker>
-          <p>Jelen, parancsnok galambom.<stage>(Feszesen eléje áll.)</stage></p>
+          <p>Jelen, parancsnok galambom.<stage>(Feszesen eléje áll.)</stage>
+          </p>
           <p>Jelentem, hogy lányom, Szonja Nikolájevna pár órával ezelőtt fiút szült.</p>
         </sp>
         <sp who="#timar">
@@ -1491,7 +1474,8 @@
         </sp>
         <sp who="#antipovna">
           <speaker>ANTIPOVNA:</speaker>
-          <p>No, szaladok ... köszönöm szépen! Holnapután hát eljövök érted, aranyom, jó?<stage>(Elindul.)</stage></p>
+          <p>No, szaladok ... köszönöm szépen! Holnapután hát eljövök érted, aranyom, jó?<stage>(Elindul.)</stage>
+          </p>
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR</speaker>
@@ -1504,12 +1488,14 @@
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR:</speaker>
-          <p>Ha én valamit megígérek, te tudod, azt meg is tartom. De hogy hol leszek én holnapután, azt ma igazán nem tudom megmondani.<stage>(Ligeti felfigyel és János füléhez hajol.)</stage></p>
+          <p>Ha én valamit megígérek, te tudod, azt meg is tartom. De hogy hol leszek én holnapután, azt ma igazán nem tudom megmondani.<stage>(Ligeti felfigyel és János füléhez hajol.)</stage>
+          </p>
         </sp>
         <sp who="#antipovna">
           <speaker>ANTIPOVNA</speaker>
           <stage>(leverten):</stage>
-          <p>Hát akkor holnapután majd utánad nézek.<stage>( Jobbra el.)</stage></p>
+          <p>Hát akkor holnapután majd utánad nézek.<stage>( Jobbra el.)</stage>
+          </p>
         </sp>
         <sp who="#liszenko">
           <speaker>LISZENKÓ</speaker>
@@ -1518,7 +1504,8 @@
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR:</speaker>
-          <p>Liszenkó szomszéd! Hát te hogy kerülsz ide?<stage>(Kezelnek.)</stage></p>
+          <p>Liszenkó szomszéd! Hát te hogy kerülsz ide?<stage>(Kezelnek.)</stage>
+          </p>
         </sp>
         <sp who="#liszenko">
           <speaker>LISZENKÓ:</speaker>
@@ -1538,7 +1525,8 @@
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR:</speaker>
-          <p>Gyere csak, mesélek neked én is mulatságos egyetmást.<stage>(Hátra vezeti. János és Ligeti összedugják fejüket.)</stage></p>
+          <p>Gyere csak, mesélek neked én is mulatságos egyetmást.<stage>(Hátra vezeti. János és Ligeti összedugják fejüket.)</stage>
+          </p>
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS:</speaker>
@@ -1550,7 +1538,8 @@
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS:</speaker>
-          <p>Holnap haza.<stage>(Lassú tánclépésben el jobbra,énekelve.)</stage></p>
+          <p>Holnap haza.<stage>(Lassú tánclépésben el jobbra,énekelve.)</stage>
+          </p>
           <lg>
             <l>Felkötöm a rézsarkantyum,</l>
             <l>Már én innen elmegyek.</l>
@@ -1568,7 +1557,8 @@
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR:</speaker>
-          <p>Nicsevó!<stage>(Tapsol és énekel.)</stage></p>
+          <p>Nicsevó!<stage>(Tapsol és énekel.)</stage>
+          </p>
         </sp>
         <sp who="#liszenko">
           <speaker>LISZENKÓ:</speaker>
@@ -1580,7 +1570,8 @@
         </sp>
         <sp who="#liszenko">
           <speaker>LISZENKÓ:</speaker>
-          <p>Hát akkor csak őt kell még megvárnunk.<stage>(Pipára gyújt.)</stage></p>
+          <p>Hát akkor csak őt kell még megvárnunk.<stage>(Pipára gyújt.)</stage>
+          </p>
           <p>De úgy látom a te magyarjaid még mindig azt hiszik, hogy hamarosan hazamasiroznak?</p>
         </sp>
         <sp who="#timar">
@@ -1594,7 +1585,8 @@
         <sp who="#timar">
           <speaker>TÍMÁR</speaker>
           <stage>(átöleli Liszenkó nyakát):</stage>
-          <p>Oh, te vén, jó ukrán, te! Tudod is te, hogy nektek milyen jó dolgotok van. Ha ti csak hazafiak vagytok, akkor minden rendben van! Szereted a népedet? Hát azért vagy forradalmár. Hazádat akarod megmenteni? Hát azért álltái a bolsevikokhoz. Nem két dolog ez nálatok, hanem egy és ugyanaz. A te ukránpartizánjaid saját falujokat védik vörös zászlóval a kezükben, mert ti otthon vagytok! Otthon! Ez a szép föld, amelyen állassz, amelyet gyermekkorod óta ismersz, a te hazád. Ásóval se lehetne benneteket kiásni ebből a földből. Bizony, ha ma egy falat kenyeretek se volna, akkor is a világ leggazdagabb emberei volnátok. De látod, mi más földről valók vagyunk. Ezek a szegény magyar fiuk éppen azért nincsenek otthon, mert hogy a bolsevikokhoz álltak. Minálunk ez két dolog. Ezek itt becsülettel küzdenek a vörös zászlóért, de nem a szülőfalujukért. Az messze van innen.<stage>(Merengve néz oda, ahonnan a magyarok dalolása  hallatszik.)</stage></p>
+          <p>Oh, te vén, jó ukrán, te! Tudod is te, hogy nektek milyen jó dolgotok van. Ha ti csak hazafiak vagytok, akkor minden rendben van! Szereted a népedet? Hát azért vagy forradalmár. Hazádat akarod megmenteni? Hát azért álltái a bolsevikokhoz. Nem két dolog ez nálatok, hanem egy és ugyanaz. A te ukránpartizánjaid saját falujokat védik vörös zászlóval a kezükben, mert ti otthon vagytok! Otthon! Ez a szép föld, amelyen állassz, amelyet gyermekkorod óta ismersz, a te hazád. Ásóval se lehetne benneteket kiásni ebből a földből. Bizony, ha ma egy falat kenyeretek se volna, akkor is a világ leggazdagabb emberei volnátok. De látod, mi más földről valók vagyunk. Ezek a szegény magyar fiuk éppen azért nincsenek otthon, mert hogy a bolsevikokhoz álltak. Minálunk ez két dolog. Ezek itt becsülettel küzdenek a vörös zászlóért, de nem a szülőfalujukért. Az messze van innen.<stage>(Merengve néz oda, ahonnan a magyarok dalolása  hallatszik.)</stage>
+          </p>
           <p>Az meszsze van.</p>
         </sp>
         <sp who="#liszenko">
@@ -1619,7 +1611,8 @@
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR:</speaker>
-          <p>Meg. A fejükkel. Igen, de a szív bizony nagyon buta néha. Istenem, milyen buta is néha az a szív.<stage>(Ismét az énekre figyel és  halkan vele dudol.)</stage></p>
+          <p>Meg. A fejükkel. Igen, de a szív bizony nagyon buta néha. Istenem, milyen buta is néha az a szív.<stage>(Ismét az énekre figyel és  halkan vele dudol.)</stage>
+          </p>
         </sp>
         <sp who="#liszenko">
           <speaker>LISZENKÓ:</speaker>
@@ -1706,13 +1699,15 @@
         </sp>
         <sp who="#liszenko">
           <speaker>LISZENKÓ:</speaker>
-          <p>Meg.<stage>(Balra el.)</stage></p>
+          <p>Meg.<stage>(Balra el.)</stage>
+          </p>
         </sp>
         <sp who="#timar">
           <speaker>TÍMÁR</speaker>
           <stage>(utánanéz. A falu felől a katonák nótája
         hullik.)</stage>
-          <p>Daloljatok, fiuk, daloljatok. Buta nagyon a szív! Hej, de nagyon buta!<stage>(Halkan énekel.)</stage></p>
+          <p>Daloljatok, fiuk, daloljatok. Buta nagyon a szív! Hej, de nagyon buta!<stage>(Halkan énekel.)</stage>
+          </p>
           <lg>
             <l>Adjon az ég oly szeretőt,</l>
             <l>Aki téged el is vesz,</l>
@@ -1807,7 +1802,8 @@
         <sp who="#egy_asszony">
           <speaker>EGY ASSZONY</speaker>
           <stage>(az ablakban):</stage>
-          <p>Jönnek a magyarok!<stage>(Kívül szétrebbenö asszonysereg zsibongása. Susogás, kacarászás.)</stage></p>
+          <p>Jönnek a magyarok!<stage>(Kívül szétrebbenö asszonysereg zsibongása. Susogás, kacarászás.)</stage>
+          </p>
         </sp>
         <sp who="#egy_hang">
           <speaker>EGY HANG:</speaker>
@@ -1863,7 +1859,8 @@
           <speaker>GÁNJA</speaker>
           <stage>(nyugodtan és határozottan. Alig érezhető fojtott
         izgalommal):</stage>
-          <p>Lóduljatok innen.<stage>(Becsukja az ablakokat és behúzza a kis,  hímzett függönyöket. Még hallatszik az asszonyok kacarászása.)</stage></p>
+          <p>Lóduljatok innen.<stage>(Becsukja az ablakokat és behúzza a kis,  hímzett függönyöket. Még hallatszik az asszonyok kacarászása.)</stage>
+          </p>
           <p>Eredj haza, Antipovna. Holnap este varrhatunk megint.</p>
         </sp>
         <sp who="#antipovna">
@@ -1885,7 +1882,8 @@
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
           <stage>(elkísérte az ajtóig):</stage>
-          <p>Jó éjszakát!<stage>(Kicsit még hallgatódzik a nyitott ajtóban, aztán körültekint a szobában és kimegy.)</stage></p>
+          <p>Jó éjszakát!<stage>(Kicsit még hallgatódzik a nyitott ajtóban, aztán körültekint a szobában és kimegy.)</stage>
+          </p>
           <p>
             <stage>Rövid ideig üres a szoba. A magyarok éneke egész közelről haitik már.
                             Kinyílik az ajtó és JÁNOS lép be nyugodt, derült arccal. Gyöngéd
@@ -1993,13 +1991,16 @@
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
           <stage>(mély sóhajjal, kacérság nélkül):</stage>
-          <p>Pávelnél mindig minden rendben volt. Pável volt a legjobb gazda az egész környéken. Egy se ér föl vele a faluban.<stage>(Elmerülve maga elé néz.)</stage></p>
+          <p>Pávelnél mindig minden rendben volt. Pável volt a legjobb gazda az egész környéken. Egy se ér föl vele a faluban.<stage>(Elmerülve maga elé néz.)</stage>
+          </p>
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS</speaker>
           <stage>(int fent):</stage>
-          <p>Az én Ilus feleségem két gyerekkel ül otthon.<stage>(János simogatja Gánja kezét az asztalon.)</stage></p>
-          <p>Ezeknek télen csizmácska köll. Nálunk Mezöladányban hideg a tél... Mégis jó volna látni, mekkorát nőtt az én Pistukám ... Idestova hétesztendős lesz már . .. <stage>(Halkan maga elé nevet.)</stage></p>
+          <p>Az én Ilus feleségem két gyerekkel ül otthon.<stage>(János simogatja Gánja kezét az asztalon.)</stage>
+          </p>
+          <p>Ezeknek télen csizmácska köll. Nálunk Mezöladányban hideg a tél... Mégis jó volna látni, mekkorát nőtt az én Pistukám ... Idestova hétesztendős lesz már . .. <stage>(Halkan maga elé nevet.)</stage>
+          </p>
           <p>A kis huncut betyár!</p>
         </sp>
         <sp who="#ganja">
@@ -2009,8 +2010,10 @@
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS:</speaker>
-          <p>Esténként Ilussal mindig az eperfa alatt ültünk és néztük, hogy csipegetik a tyúkok az epret.<stage>(Nagy sóhajjal)</stage></p>
-          <p>Ha aztán az ember ugy megszokta mindig együtt ülni este az asszonnyal, akkor bizony húzza az az embert.<stage>(Karját Gánja derekára fűzi.)</stage></p>
+          <p>Esténként Ilussal mindig az eperfa alatt ültünk és néztük, hogy csipegetik a tyúkok az epret.<stage>(Nagy sóhajjal)</stage>
+          </p>
+          <p>Ha aztán az ember ugy megszokta mindig együtt ülni este az asszonnyal, akkor bizony húzza az az embert.<stage>(Karját Gánja derekára fűzi.)</stage>
+          </p>
         </sp>
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
@@ -2021,18 +2024,21 @@
           <speaker>JÁNOS</speaker>
           <stage>(gyöngéden magához vonja. Simogatja az
         arcát):</stage>
-          <p>Ilusnak is ilyen síri szemöldöke van.<stage>(Ujjával végigsimit Gánja szemöldökén.)</stage></p>
+          <p>Ilusnak is ilyen síri szemöldöke van.<stage>(Ujjával végigsimit Gánja szemöldökén.)</stage>
+          </p>
         </sp>
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
           <stage>(gyöngéden mosolyog):</stage>
           <p>Pávelnek éppen ilyen van. Sokan mondják, hogy ugy hasonlítunk egymásra, akár az édes testvérek.<stage>( Fejét János vállára
-                                    hajtja.)</stage></p>
+                                    hajtja.)</stage>
+          </p>
           <p>Gyerekkorunkban is olyanok voltunk, akár csak a testvérek.</p>
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS:</speaker>
-          <p>Én már két év előtt hazautazhattam volna a fogolytáborból. Mégis itt maradtam a bolsevikoknál. Aztán most meg, mikor két hét múlva otthon leszek .. . Óh, Gánja, Gánjinka!<stage>(Túláradó örömében átkarolja és megcsókolja Gánját)</stage></p>
+          <p>Én már két év előtt hazautazhattam volna a fogolytáborból. Mégis itt maradtam a bolsevikoknál. Aztán most meg, mikor két hét múlva otthon leszek .. . Óh, Gánja, Gánjinka!<stage>(Túláradó örömében átkarolja és megcsókolja Gánját)</stage>
+          </p>
           <p>Gánja!</p>
         </sp>
         <sp who="#ganja">
@@ -2057,7 +2063,8 @@
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
           <stage>(átkarolja, arcát mellére szorítva):</stage>
-          <p>Nem akarok újra egyedül maradni!<stage>(Felzokog)</stage> Nem eresztlek! Nem akarok!<stage>Az uccáról trombitajel riad.</stage></p>
+          <p>Nem akarok újra egyedül maradni!<stage>(Felzokog)</stage> Nem eresztlek! Nem akarok!<stage>Az uccáról trombitajel riad.</stage>
+          </p>
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS</speaker>
@@ -2079,7 +2086,8 @@
           <stage>( egy pillanatig kábultan ülve marad, aztán felugrik,
         az ajtóhoz fut, ököllel veri az ajtót):</stage>
           <p>Nem akarom!<stage>(Elfedi arcát, sírva visszajön és az asztalra
-                                    borul.)</stage></p>
+                                    borul.)</stage>
+          </p>
         </sp>
         <sp who="#szasa">
           <speaker>SZÁSA</speaker>
@@ -2147,11 +2155,13 @@
         </sp>
         <sp who="#ganja">
           <speaker>GÁNJA:</speaker>
-          <p>Szása! Ha te...<stage>(megfenyegeti).</stage></p>
+          <p>Szása! Ha te...<stage>(megfenyegeti).</stage>
+          </p>
         </sp>
         <sp who="#szasa">
           <speaker>SZÁSA:</speaker>
-          <p>Mást nem tudok és nem is akarok tudni. És legjobb is volna már a sirban feküdni!<stage>(Eltakarja arcát.)</stage></p>
+          <p>Mást nem tudok és nem is akarok tudni. És legjobb is volna már a sirban feküdni!<stage>(Eltakarja arcát.)</stage>
+          </p>
         </sp>
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
@@ -2202,7 +2212,8 @@
         <sp who="#nikita">
           <speaker>NIKITA:</speaker>
           <p>Dolgom volt. Meg aztán olyan könnyű nekem bejönni a faluba? Most
-                                örülj, liogv itt vagyok.<stage>(Meg akarja csókolni.)</stage></p>
+                                örülj, liogv itt vagyok.<stage>(Meg akarja csókolni.)</stage>
+          </p>
         </sp>
         <sp who="#szasa">
           <speaker>SZÁSA</speaker>
@@ -2227,7 +2238,8 @@
         </sp>
         <sp who="#nikita">
           <speaker>NIKITA:</speaker>
-          <p>Bolondság! Miért volnék én a fehéreknél? A városban vagyok. De mi közöm a fehérekhez? És mi közöd neked a vörösökhöz?<stage>(Nyersen, erőszakosan magához vonja.)</stage></p>
+          <p>Bolondság! Miért volnék én a fehéreknél? A városban vagyok. De mi közöm a fehérekhez? És mi közöd neked a vörösökhöz?<stage>(Nyersen, erőszakosan magához vonja.)</stage>
+          </p>
         </sp>
         <sp who="#szasa">
           <speaker>SZÁSA</speaker>
@@ -2247,18 +2259,21 @@
         <sp who="#nikita">
           <speaker>NIKITA</speaker>
           <stage>(elhárítja)</stage>
-          <p>Mindegy. Gyere!<stage>(Magához szorítja.)</stage></p>
+          <p>Mindegy. Gyere!<stage>(Magához szorítja.)</stage>
+          </p>
         </sp>
         <sp who="#szasa">
           <speaker>SZÁSA</speaker>
           <stage>( már nem tud ellenállni. Rabja a
     férfinak):</stage>
-          <p>Óh. Nikita. Ha te a fehéreknél vagy ... Nem, nem!<stage>(Felzokog)</stage></p>
+          <p>Óh. Nikita. Ha te a fehéreknél vagy ... Nem, nem!<stage>(Felzokog)</stage>
+          </p>
           <p>Nem bírom itt Jovább. Vigyél magaddal a városba.</p>
         </sp>
         <sp who="#nikita">
           <speaker>NIKITA:</speaker>
-          <p>Most nem lehet.<stage>(Az ablak felé néz.)</stage></p>
+          <p>Most nem lehet.<stage>(Az ablak felé néz.)</stage>
+          </p>
           <p>Ennek a Pjótrnak itt kell valahol lennie ebben az uccában.</p>
         </sp>
         <sp who="#szasa">
@@ -2318,7 +2333,8 @@
         <sp who="#nikita">
           <speaker>NIKITA</speaker>
           <stage>(nyersen):</stage>
-          <p>Semmi közöd hozzá! Oltsd el a világot!<stage>(Maga ugrik az  asztalhoz, kioltja a gyertyát. A sötétben küzdelem hallatszik.)</stage></p>
+          <p>Semmi közöd hozzá! Oltsd el a világot!<stage>(Maga ugrik az  asztalhoz, kioltja a gyertyát. A sötétben küzdelem hallatszik.)</stage>
+          </p>
         </sp>
         <sp who="#nikita">
           <speaker>NIKITA:</speaker>
@@ -2330,17 +2346,20 @@
         </sp>
         <sp who="#nikita">
           <speaker>NIKITA:</speaker>
-          <p>Eressz! Buta tehén!<stage>(Egy test zuhanása hallatszik. Azután ismét  füttyszó kívülről.)</stage></p>
+          <p>Eressz! Buta tehén!<stage>(Egy test zuhanása hallatszik. Azután ismét  füttyszó kívülről.)</stage>
+          </p>
         </sp>
         <sp who="#szasa">
           <speaker>SZÁSA</speaker>
           <stage>(felnyög):</stage>
-          <p>Óh!<stage>(Felkel, a komódhoz tapogatódzik, gyertyát gyújt.)</stage></p>
+          <p>Óh!<stage>(Felkel, a komódhoz tapogatódzik, gyertyát gyújt.)</stage>
+          </p>
         </sp>
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
           <stage>(belép, nyugodt és derült):</stage>
-          <p>Hallottad Szása? A magyarokat nem komandirozzák el. Éppen most adta ki nekik az Öreg parancsban. Hát itt ki verekedett?<stage>(Két felfordult széket emel föl és csodálkozva néz Szására. Most veszi csak észre, micsoda állapotban van.)</stage></p>
+          <p>Hallottad Szása? A magyarokat nem komandirozzák el. Éppen most adta ki nekik az Öreg parancsban. Hát itt ki verekedett?<stage>(Két felfordult széket emel föl és csodálkozva néz Szására. Most veszi csak észre, micsoda állapotban van.)</stage>
+          </p>
           <p>Szása? Mit csinálsz te? Mi történt itt?</p>
         </sp>
         <sp who="#szasa">
@@ -2402,7 +2421,8 @@
         <sp who="#szasa">
           <speaker>SZÁSA</speaker>
           <stage>(az ajthoz fut):</stage>
-          <p>Nem, nem! Pjótrt nem szabad!...<stage>(El.)</stage></p>
+          <p>Nem, nem! Pjótrt nem szabad!...<stage>(El.)</stage>
+          </p>
           <p>
             <stage>Rövid szünet. Gánja felsóhajt. Majd felfigyel, feláll és a szoba sarkába húzódik. Szemét az ajtóra szegezi. JÁNOS és JÜTTGEN lépnek be.</stage>
           </p>
@@ -2415,8 +2435,10 @@
         </sp>
         <sp who="#juttgen">
           <speaker>JÜTTGEN:</speaker>
-          <p>Jó estét, Gánja.<stage>. (Jelentős pillantást vet Jánosra. Felemeli a sapkát és felakasztja. Aztán leül az asztal mellé.)</stage></p>
-          <p>Tudod-e már Gánja, hogy a magyarok csak néhény hónap múlva indulnak haza?<stage>(Ravaszul Gánja felé kacsint és János vállára teszi kezét.)</stage></p>
+          <p>Jó estét, Gánja.<stage>. (Jelentős pillantást vet Jánosra. Felemeli a sapkát és felakasztja. Aztán leül az asztal mellé.)</stage>
+          </p>
+          <p>Tudod-e már Gánja, hogy a magyarok csak néhény hónap múlva indulnak haza?<stage>(Ravaszul Gánja felé kacsint és János vállára teszi kezét.)</stage>
+          </p>
           <p>Kis kerülőt csinálunk. Aztán majd mind együtt masírozunk Budapestre. Igaz-e? Aztán meg Hamburgba, mi? Aztán pedig együtt Párizsba.  Egyszer csak elkészülünk ezzel a kis Európával, vagy mi a szösz?!</p>
           <p>
             <stage>János és Gánja hallgatnak és nem mozdulnak. János az asztallapra mered. Gánja nem veszi le róla szemét, túláradó részvéttel és szeretettel nézi.</stage>
@@ -2434,7 +2456,8 @@
         </sp>
         <sp who="#juttgen">
           <speaker>JÜTTGEN:</speaker>
-          <p>Hej, János! Öreg internacionalista. Hát kérdeztük mi ezt eddig? Hát nem mindegy volt, hogy hol kaparnak el bennünket? Mi a világforradalom katonái vagyunk. Mi mind útközben hullunk el. Fontos csak az, hogy az ut a jó ut legyen. Az irányi Az legyen helyes. Akkor mi otthon vagyunk mindenütt. Nem igaz, János?<stage>(Megrázza.)</stage></p>
+          <p>Hej, János! Öreg internacionalista. Hát kérdeztük mi ezt eddig? Hát nem mindegy volt, hogy hol kaparnak el bennünket? Mi a világforradalom katonái vagyunk. Mi mind útközben hullunk el. Fontos csak az, hogy az ut a jó ut legyen. Az irányi Az legyen helyes. Akkor mi otthon vagyunk mindenütt. Nem igaz, János?<stage>(Megrázza.)</stage>
+          </p>
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS</speaker>
@@ -2453,7 +2476,8 @@
         <sp who="#juttgen">
           <speaker>JÜTTGEN</speaker>
           <stage>(feláll):</stage>
-          <p>Akkor hát minden rendben van, öreg János.<stage>(Vállára vereget.)</stage> Te csak nem fogsz sopánkodni, mint az a hülye Ligeti, aki nem tudja,melyik pályaudvar után vágyódjék haza? Jó éjszakát, Gánja. Iparkodj az éjjel megvigasztalni ezt az embert.<stage>(El.)</stage></p>
+          <p>Akkor hát minden rendben van, öreg János.<stage>(Vállára vereget.)</stage> Te csak nem fogsz sopánkodni, mint az a hülye Ligeti, aki nem tudja,melyik pályaudvar után vágyódjék haza? Jó éjszakát, Gánja. Iparkodj az éjjel megvigasztalni ezt az embert.<stage>(El.)</stage>
+          </p>
           <p>
             <stage>Szünet. János és Gánja mozdulatlanul hallgatnak</stage>
           </p>
@@ -2517,7 +2541,8 @@
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
           <stage>(felnyitja szemét. Arcán most már bizalom ül. Megragadja János karját):</stage>
-          <p>Semmit!... Semmit!... Semmi rosszat se szólnának. Nem tudnak és nem  hisznek el semmi rosszat. Hiszen ismernek téged...<stage>(Miközben mindketten visszajönnek az asztalhoz és János megint leül.)</stage></p>
+          <p>Semmit!... Semmit!... Semmi rosszat se szólnának. Nem tudnak és nem  hisznek el semmi rosszat. Hiszen ismernek téged...<stage>(Miközben mindketten visszajönnek az asztalhoz és János megint leül.)</stage>
+          </p>
           <p>Azt fogom mondani, hogy az éjjel banditák vertek agyon. Nekem  mindenki el fogja hinni.</p>
         </sp>
         <sp who="#janos">
@@ -2546,7 +2571,8 @@
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
           <stage>(arcát a férfiéhez szorítja):</stage>
-          <p>Két hét múlva ott ültök Mezőladányban az eperfa alatt... Húsoddal ...<stage>(könnyes szemmel suttog)</stage>Telt piros orcái vannak, fehér, dombos melle... te mesélted nekem... Jó dolgod lesz nála...<stage>( Szava elakad, szemét elfutja a könny.)</stage></p>
+          <p>Két hét múlva ott ültök Mezőladányban az eperfa alatt... Húsoddal ...<stage>(könnyes szemmel suttog)</stage>Telt piros orcái vannak, fehér, dombos melle... te mesélted nekem... Jó dolgod lesz nála...<stage>( Szava elakad, szemét elfutja a könny.)</stage>
+          </p>
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS</speaker>
@@ -2599,7 +2625,8 @@
         </sp>
         <sp who="#ganja">
           <speaker>GÁNJA:</speaker>
-          <p>Hamar!<stage>(A ládához fut, nagy sietséggel parasztsubát és süveget vesz ki, Jánoshoz lép vele.)</stage></p>
+          <p>Hamar!<stage>(A ládához fut, nagy sietséggel parasztsubát és süveget vesz ki, Jánoshoz lép vele.)</stage>
+          </p>
         </sp>
         <sp who="#janos">
           <speaker>JÁNOS</speaker>
@@ -2608,13 +2635,15 @@
         <sp who="#ganja">
           <speaker>GÁNJA</speaker>
           <stage>(forró fájdalommal):</stage>
-          <p>Gyere hát, gyere gyorsan, aranyom. Kedvesem. Gyere!<stage>(El fujja a gyertyát.)</stage></p>
+          <p>Gyere hát, gyere gyorsan, aranyom. Kedvesem. Gyere!<stage>(El fujja a gyertyát.)</stage>
+          </p>
           <stage>Mozgás a sötétben. Szünet. Kívül lövés dördül. Zaj. Azután újra több ember mozgása hallik a szobában. Gyertyát gyújtanak. Három asszony sebesülten hozza PJÓTR-f. ANTIPOVNA is velük jön. Pjótr visszahanyatlik. Antipovna felemeli fejét.</stage>
         </sp>
         <sp who="#antipovna">
           <speaker>ANTIPOVNA</speaker>
           <stage>(teljesen megváltozott. Merev az arca és hangja kemény, mint a kő):</stage>
-          <p>Ide az ágyra. Hozd ide a komódról a kosarat. A gyerekpöndölyöket. Add ide!<stage>(P jótr fölé hajol, felnyitja ingét és igyekszik a vérzést elállitani.)</stage></p>
+          <p>Ide az ágyra. Hozd ide a komódról a kosarat. A gyerekpöndölyöket. Add ide!<stage>(P jótr fölé hajol, felnyitja ingét és igyekszik a vérzést elállitani.)</stage>
+          </p>
           <p>Pjótr! Élsz még?</p>
         </sp>
         <sp who="#asszony_1">
@@ -2673,20 +2702,24 @@
         </sp>
         <sp who="#antipovna">
           <speaker>ANTIPOVNA:</speaker>
-          <p>Muszáj neki... meddig? ... Igen. Megértettem. Még mit? Mondd! Három skatulya. Három . .. Kinek? Hová?<stage>(Visszafekteti fejét.)</stage></p>
-          <p>Meghalt.<stage>(Az asszonyok keresztet vetnek. Egyikük zokogva térdre borul).</stage></p>
+          <p>Muszáj neki... meddig? ... Igen. Megértettem. Még mit? Mondd! Három skatulya. Három . .. Kinek? Hová?<stage>(Visszafekteti fejét.)</stage>
+          </p>
+          <p>Meghalt.<stage>(Az asszonyok keresztet vetnek. Egyikük zokogva térdre borul).</stage>
+          </p>
         </sp>
         <sp who="#antipovna">
           <speaker>ANTIPOVNA</speaker>
           <stage>(nézi Pjótrt):</stage>
-          <p>Tizet... érted ... tizet! Légy nyugodt. Egy perc múlva az öreg mindent tudni fog.<stage>(Megigazítja fejkendőjét és kimegy. Kis szünet múltán az ajtóban Szása jelenik meg.)</stage></p>
+          <p>Tizet... érted ... tizet! Légy nyugodt. Egy perc múlva az öreg mindent tudni fog.<stage>(Megigazítja fejkendőjét és kimegy. Kis szünet múltán az ajtóban Szása jelenik meg.)</stage>
+          </p>
         </sp>
         <sp who="#szasa">
           <speaker>SZÁSA</speaker>
           <stage>(az ágyra mutat):</stage>
           <p>Pjótr?<stage>(Senki sem felel.)</stage>
 Meghalt?<stage>(Senki sem felel.)</stage>
-<stage>Szása a sarokba megy, felveszi János fegyverét, fagyos nyugalommal megnézi, töltve van-e és kimegy.</stage></p>
+            <stage>Szása a sarokba megy, felveszi János fegyverét, fagyos nyugalommal megnézi, töltve van-e és kimegy.</stage>
+          </p>
           <p>
             <stage>Harsány trombitaszó hallatszik az uccáról</stage>
           </p>

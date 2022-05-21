@@ -61,8 +61,7 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref>
-                    </orgName>
+          <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -71,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000003</idno>
-        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -259,14 +260,10 @@
         <castGroup>
           <roleDesc>gyermekei</roleDesc>
           <castItem>
-            <role>
-              <roleName>WOLFGANG</roleName>
-            </role>
+            <role><roleName>WOLFGANG</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>NANNERL</roleName>
-            </role>
+            <role><roleName>NANNERL</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
@@ -288,24 +285,16 @@
           <role><roleName>SCHAUCHER</roleName>— Colloredo komornyikja</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ELSŐ LAKÁJ</roleName>
-          </role>
+          <role><roleName>ELSŐ LAKÁJ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>MÁSODIK LAKÁJ</roleName>
-          </role>
+          <role><roleName>MÁSODIK LAKÁJ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>EGY LAKÁJ</roleName>
-          </role>
+          <role><roleName>EGY LAKÁJ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>VAK KOLDUS</roleName>
-          </role>
+          <role><roleName>VAK KOLDUS</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>JOSEPH</roleName>— vendéglői szolga</role>
@@ -317,86 +306,54 @@
           <role><roleName>WEBERNÉ</roleName>— bécsi polgárasszony</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>SZENÁTOR</roleName>
-          </role>
+          <role><roleName>SZENÁTOR</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>POLGÁRMESTER</roleName>
-          </role>
+          <role><roleName>POLGÁRMESTER</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A KÖVET</roleName>
-          </role>
+          <role><roleName>A KÖVET</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>SÜSSMEIER</roleName>
-          </role>
+          <role><roleName>SÜSSMEIER</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A VARRÓNŐ</roleName>
-          </role>
+          <role><roleName>A VARRÓNŐ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>SZINÉSZEK</roleName>
-          </role>
+          <role><roleName>SZINÉSZEK</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ÉNEKESEK</roleName>
-          </role>
+          <role><roleName>ÉNEKESEK</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>JÁRÓKELŐK</roleName>
-          </role>
+          <role><roleName>JÁRÓKELŐK</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KISÉRŐK</roleName>
-          </role>
+          <role><roleName>KISÉRŐK</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>1. SZÍNÉSZNŐ</roleName>
-          </role>
+          <role><roleName>1. SZÍNÉSZNŐ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>SZÍNÉSZNŐ</roleName>
-          </role>
+          <role><roleName>SZÍNÉSZNŐ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>A FÉRFI</roleName>
-          </role>
+          <role><roleName>A FÉRFI</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KIÁLTÁS</roleName>
-          </role>
+          <role><roleName>KIÁLTÁS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ELSŐ ÉNEKES</roleName>
-          </role>
+          <role><roleName>ELSŐ ÉNEKES</roleName></role>
         </castItem>
         <castGroup>
           <roleDesc>leányai</roleDesc>
           <castItem>
-            <role>
-              <roleName>KONSTANZIA</roleName>
-            </role>
+            <role><roleName>KONSTANZIA</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>ALOYZIA</roleName>
-            </role>
+            <role><roleName>ALOYZIA</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
@@ -405,19 +362,13 @@
         <castGroup>
           <roleDesc>járókelők</roleDesc>
           <castItem>
-            <role>
-              <roleName>1. JÁRÓKELŐ</roleName>
-            </role>
+            <role><roleName>1. JÁRÓKELŐ</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>2. JÁRÓKELŐ</roleName>
-            </role>
+            <role><roleName>2. JÁRÓKELŐ</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>3. JÁRÓKELŐ</roleName>
-            </role>
+            <role><roleName>3. JÁRÓKELŐ</roleName></role>
           </castItem>
         </castGroup>
       </castList>
@@ -482,7 +433,8 @@
         <sp who="#nannerl">
           <speaker>NANNERL:</speaker>
           <p>Az éjjel még elkészülök evvel a csipkével. Baronessz Marianna akurát szokott
-                            fizetni.<stage>(Szemét törli.)</stage></p>
+                            fizetni.<stage>(Szemét törli.)</stage>
+          </p>
         </sp>
         <sp who="#leopold_mozart">
           <speaker>LEOPOLD</speaker>
@@ -506,7 +458,8 @@
           <speaker>NANNERL</speaker>
           <stage>(megrezzenve tekint fel és akaratlanul fakad ki):</stage>
           <p>Te jóságos Isten!<stage>(Elfordul és a földre mered. Szünet. A mozdulatlan
-                            csendbe tompán hullanak a toronyóra ütései.)</stage></p>
+                            csendbe tompán hullanak a toronyóra ütései.)</stage>
+          </p>
         </sp>
         <sp who="#nannerl">
           <speaker>NANNERL</speaker>
@@ -553,7 +506,8 @@
           <p>Nyilvánvalóan az utolsó órában még elgáncsolta valaki ellenese.</p>
         </sp>
         <sp who="#nannerl">
-          <speaker>NENNERL:<note type="editorial">NANNERL</note></speaker>
+          <speaker>NENNERL:<note type="editorial">NANNERL</note>
+          </speaker>
           <p>Mért véled ezt?</p>
         </sp>
         <sp who="#leopold_mozart">
@@ -599,7 +553,8 @@
                         ember tarsolyában. Ha az ember nem szorult rá éhbér után kapni éhesen.
                         Bizony mondom, Nannerl, az a keserves pénz, melyet Wolfgangnak küldünk,
                         meghozandja kamatait.<stage>(Az uccáról póstakürt hallik be és egy nehéz
-                            kocsi zörgése.)</stage></p>
+                            kocsi zörgése.)</stage>
+          </p>
         </sp>
         <sp who="#nannerl">
           <speaker>NANNERL:</speaker>
@@ -710,7 +665,8 @@
                         egészen, mindjárt...<stage>(Heves, szinte vad gesztussal, mely
                             visszafojtott temperamentumát elárulja)</stage>így!... Megtennem!...
                         Isten engem úgy segéljen!... És ez volna a legjobb vég az én számomra
-                            is.<stage>(Homlokát apja vállára hajtja.)</stage></p>
+                            is.<stage>(Homlokát apja vállára hajtja.)</stage>
+          </p>
         </sp>
         <sp who="#leopold_mozart">
           <speaker>LEOPOLD:</speaker>
@@ -788,7 +744,8 @@
           <stage>(meghajol):</stage>
           <p>Legtiszteletteljesebb reverendámat kegyednek.<stage>(Meglepetve áll meg az
                             ajtóban a zongorajáték hallatán és csodálkozó gyönyörűséggel
-                            figyeli.)</stage></p>
+                            figyeli.)</stage>
+          </p>
         </sp>
         <sp who="#hagenauer">
           <speaker>HAGENAUER:</speaker>
@@ -801,7 +758,8 @@
           <p>Legtiszteletteljesebb reverenciámat.<stage>(Kezet nyújtva Hagenauernek,
                             tartózkodón.)</stage>A háziúrnak mindenkoron joga énhozzám betérnie. De
                         milyen szerencsés véletlennek köszönhetem ezt az örömöt?<stage>(Rosszat
-                            sejtve figyeli Hagenauert és az idegent.)</stage></p>
+                            sejtve figyeli Hagenauert és az idegent.)</stage>
+          </p>
         </sp>
         <sp who="#hagenauer">
           <speaker>HAGENAUER</speaker>
@@ -879,7 +837,8 @@
           <p>Holott kevés érkezése van a művészet gyakorlására. Az ő talentumát fel kell
                             áldoznunk.<stage>(A zongora elhallgat.)</stage>Tehát minek köszönhetem
                         ezt a rendkívüli megtiszteltetést?<stage>(Gyanakodva figyeli
-                            vendégeit.)</stage></p>
+                            vendégeit.)</stage>
+          </p>
         </sp>
         <sp who="#leitzenmeier">
           <speaker>LIETZENMEIER:</speaker>
@@ -972,7 +931,8 @@
           <speaker>HAGENAUER</speaker>
           <stage>(pislogva):</stage>
           <p>Kh ... kh ...<stage>(Rövid, kínos szünet. A szomszéd szobában újra megszólal
-                            a zongora.)</stage></p>
+                            a zongora.)</stage>
+          </p>
         </sp>
         <sp who="#leitzenmeier">
           <speaker>LIETZENMEIER</speaker>
@@ -1089,7 +1049,8 @@
           <speaker>HAGENAUER:</speaker>
           <p>Kh ... kh ... Éppenhogy az ő familiája... És ha neki magának leszen famíliája
                             Bécsben?<stage>(Maga is megijedvén a mondottaktól, köhögési rohamot
-                            kap.)</stage></p>
+                            kap.)</stage>
+          </p>
         </sp>
         <sp who="#leopold_mozart">
           <speaker>LEOPOLD</speaker>
@@ -1109,7 +1070,8 @@
           <stage>(hirtelen fordulással a jobboldali ajtó felé siet és felrántja.
                         Szárazon):</stage>
           <p>Moszjő Lietzenmeier, kérem egy szóra.<stage>(A zongorajáték
-                            elhallgat.)</stage></p>
+                            elhallgat.)</stage>
+          </p>
         </sp>
         <sp who="#leitzenmeier">
           <speaker>LIETZENMEIER</speaker>
@@ -1318,21 +1280,24 @@
           <stage>(a másik szobából):</stage>
           <p>Én irom alá a köteleslevelet.<stage>(Mindkét férfi szégyenkezve süti le a
                             fejét és néma mozdulatlanságban állnak, mig Nannerl bejön a megrakott
-                            útitáskával.)</stage></p>
+                            útitáskával.)</stage>
+          </p>
         </sp>
         <sp who="#nannerl">
           <speaker>NANNERL:</speaker>
           <p>Két napra valót rakék bele édesapám. Én irom alá a köteles-levelet. Én
                         mátka-kelengyémmel kezeskedhetem.<stage>(Apjára segíti az utköpenyeget,
                             kezébe adja az ernyőt meg a kalapot, aztán tisztelettel kezet csókol
-                            neki.)</stage></p>
+                            neki.)</stage>
+          </p>
         </sp>
         <sp who="#leopold_mozart">
           <speaker>LEOPOLD</speaker>
           <stage>(hallgat, hogy el ne sírja magát):</stage>
           <p>A jó Isten áldjon meg érte, lányom. Bizony, hogy nem hiába cselekedted,...
                         Nem hiába!<stage>(Megcsókolja Nannerlt és kimegy. Utána Nannerl viszi a
-                            táskát. Mögöttük Hagenauer megy lehorgasztott fejjel.)</stage></p>
+                            táskát. Mögöttük Hagenauer megy lehorgasztott fejjel.)</stage>
+          </p>
         </sp>
         <p>
           <stage>FÜGGÖNY</stage>
@@ -1562,7 +1527,8 @@
           <sp who="#weberne">
             <speaker>WEBERNÉ</speaker>
             <stage>(már kinyitotta a boros palackot és tölt magának):</stage>
-            <p>Felette nagy pillanat ez, gyermekeim!<stage>(Iszik.)</stage></p>
+            <p>Felette nagy pillanat ez, gyermekeim!<stage>(Iszik.)</stage>
+            </p>
           </sp>
           <sp who="#wolfgang">
             <speaker>WOLFGANG:</speaker>
@@ -1582,7 +1548,8 @@
             <speaker>WOLFGANG</speaker>
             <stage>(gyöngéden kezet csókol neki):</stage>
             <p>Ha szived dobog, akkor énekelsz legszebben, kedvest Mégegyszer
-                            elénekeljük áriánkat.<stage>(A zongorához ül.)</stage></p>
+                            elénekeljük áriánkat.<stage>(A zongorához ül.)</stage>
+            </p>
           </sp>
           <sp who="#aloyzia">
             <speaker>ALOYZIA</speaker>
@@ -1602,7 +1569,8 @@
             <p>Nem akarom szégyenben marasztalni mesteremet, Mozartot.<stage>(Visszamegy
                                 a zongorához és magával húzza Webernét, a varrónőt és Konstanziát,
                                 akik térden csúszkálva tűzdelik a csipkét Aloyzia
-                                krinolinjára.)</stage></p>
+                                krinolinjára.)</stage>
+            </p>
           </sp>
           <sp who="#wolfgang">
             <speaker>WOLFGANG</speaker>
@@ -1639,7 +1607,8 @@
             <speaker>WOLFGANG</speaker>
             <stage>(könnyes szemekkel):</stage>
             <p>És mindent, mindent, mindent teérted!<stage>(Indulatait nem bírja tovább
-                                szóval, zongorázni kezd.</stage></p>
+                                szóval, zongorázni kezd.</stage>
+            </p>
           </sp>
           <sp who="#aloyzia">
             <speaker>ALOYZIA</speaker>
@@ -1756,7 +1725,8 @@
             <speaker>WEBERNÉ:</speaker>
             <p>Mit tud maga, ártatlanság!<stage>(Valamennyi nőt kituszkol a szobából,
                                 aztán maga visszarohan és hebehurgyán, találomra felkap egyetmást a
-                                körülheverő holmiból a hóna alá.)</stage></p>
+                                körülheverő holmiból a hóna alá.)</stage>
+            </p>
           </sp>
           <sp who="#wolfgang">
             <speaker>WOLFGANG</speaker>
@@ -1800,7 +1770,8 @@
             <stage>(hinterlen megszontyolodva):</stage>
             <p>Kérem, kedves apám, foglaljon helyet. Talán itt ülne
                                 le.<stage>(Szalagokat, csipkéket takarít el az egyik székről és
-                                szemmelláthatóan röstelli a rendetlenséget.)</stage></p>
+                                szemmelláthatóan röstelli a rendetlenséget.)</stage>
+            </p>
           </sp>
           <sp who="#leopold_mozart">
             <speaker>LEOPOLD</speaker>
@@ -2184,7 +2155,8 @@
             <p>Én úgy számítottam, hogy ha téged majd elláttalak, avval magamnak is
                             biztosítom nyugodalmas öregségemet és Istennek számot adván gyermekeim
                             felneveléséről, nyugodt lélekkel nézek majd a halál elé ... Hát...
-                            máskép fordult.<stage>(Felteszi kalapját.)</stage></p>
+                            máskép fordult.<stage>(Felteszi kalapját.)</stage>
+            </p>
           </sp>
           <sp who="#wolfgang">
             <speaker>WOLFGANG</speaker>
@@ -2195,7 +2167,8 @@
             <speaker>LEOPOLD:</speaker>
             <p>Szerencsénk avagy szerencsétlenségünk . .. tartósabb életem, avagy rövid
                             halálom ... a te kezedbe vagyon letéve, fiam.<stage>( Az ajtó felé
-                                indul.)</stage></p>
+                                indul.)</stage>
+            </p>
           </sp>
           <sp who="#wolfgang">
             <speaker>WOLFGANG:</speaker>
@@ -2205,12 +2178,14 @@
             <speaker>LEOPOLD</speaker>
             <stage>(visszanéz)</stage>
             <p>Agyő, Wolfgang! Jó keresztényként éljél, hogy ha többé nem látnálak,
-                            mégis halálom órája rettegéssel ne teljék.<stage>(El.)</stage></p>
+                            mégis halálom órája rettegéssel ne teljék.<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#wolfgang">
             <speaker>WOLFGANG</speaker>
             <stage>(felzokogva):</stage>
-            <p>Apám!<stage>(A zongoraszékre rogy és eltakarja arcát.)</stage></p>
+            <p>Apám!<stage>(A zongoraszékre rogy és eltakarja arcát.)</stage>
+            </p>
           </sp>
           <p>
             <stage>WEBERNÉ óvatosan kinyitja a baloldali ajtót és beles. Mögötte ALOYZIA
@@ -2414,7 +2389,8 @@
             <stage>(el nem fordítja szemét a fülkéről. Elszorult torokkal):</stage>
             <p>Hiszen én keresek szolgálatot Bécsben. Hiszen tudja azt kegyed. Hiszen
                             ankamék én itt maradni.<stage>(Megint kísérletet tesz, hogy a fülkéhez
-                                közeledjék.)</stage></p>
+                                közeledjék.)</stage>
+            </p>
           </sp>
           <sp who="#weberne">
             <speaker>WEBERNÉ</speaker>
@@ -2478,7 +2454,8 @@
                                 is.<stage>(Közben kitolta az ajtón a teljesen bódult Mozartot.
                                 Aloyzia ezt észrevette, feláll és szinte akaratlan, néhány lépést
                                 tesz utána. De Weberné gyorsan szembe jön vele és
-                                visszatolja.)</stage></p>
+                                visszatolja.)</stage>
+            </p>
           </sp>
           <sp who="#weberne">
             <speaker>WEBERNÉ</speaker>
@@ -2497,7 +2474,8 @@
             <speaker>ALOYZIA:</speaker>
             <p>Én meg sem mondhatom kegyednek, mit érezek ... Az én kebelem oly telve
                             van. Egész életemet rá akarom tenni! Köszönöm! Köszönöm
-                                kegyednek!<stage>(Kezet nyújt neki.)</stage></p>
+                                kegyednek!<stage>(Kezet nyújt neki.)</stage>
+            </p>
           </sp>
           <sp who="#schikaneder">
             <speaker>SCHIKANEDER:</speaker>
@@ -2583,7 +2561,8 @@
             <speaker>EGY LAKÁJ</speaker>
             <stage>(egy nagy tállal jön ki a baloldali teremből):</stage>
             <p>Jöjjék gyorsan velem, Mozart ur. A nyulpecsenye felét a tálon hagyák.
-                            Abból magának is jut.<stage>(El jobbra.)</stage></p>
+                            Abból magának is jut.<stage>(El jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#schlaucher">
             <speaker>SCHLAUCHER</speaker>
@@ -2599,13 +2578,15 @@
             <speaker>SCHLAUCHER</speaker>
             <stage>(egy pillantással a szomszéd szobába):</stage>
             <p>A gróf ur, úgy látszik, már szemre vette kegyedet. Ide
-                                jön.<stage>(Schlaucher már előre meghajol.)</stage></p>
+                                jön.<stage>(Schlaucher már előre meghajol.)</stage>
+            </p>
           </sp>
           <sp who="#arco_grof">
             <speaker>ARCO GRÓF</speaker>
             <stage>(balról belép. Barátságos leereszkedéssel):</stage>
             <p>Mozart! Mi hozta ide?<stage>(Arco hatalmas nagy termetű és negédesen
-                                affektáló piperkőc. Rutinos udvari modora fölényes.)</stage></p>
+                                affektáló piperkőc. Rutinos udvari modora fölényes.)</stage>
+            </p>
           </sp>
           <sp who="#leopold_mozart">
             <speaker>MOZART</speaker>
@@ -2637,7 +2618,8 @@
           </sp>
           <sp who="#arco_grof">
             <speaker>ARCO GRÓF:</speaker>
-            <p>Parancs!<stage>(sarkon fordul és visszaindul.)</stage></p>
+            <p>Parancs!<stage>(sarkon fordul és visszaindul.)</stage>
+            </p>
           </sp>
           <sp who="#wolfgang">
             <speaker>WOLFGANG</speaker>
@@ -2684,7 +2666,8 @@
           <sp who="#arco_grof">
             <speaker>ARCO GRÓF</speaker>
             <stage>(végigméri):</stage>
-            <p>En ezt nem hallottam, Mozart.<stage>(Bemegy a másik szobába.)</stage></p>
+            <p>En ezt nem hallottam, Mozart.<stage>(Bemegy a másik szobába.)</stage>
+            </p>
           </sp>
           <sp who="#wolfgang">
             <speaker>WOLFGANG</speaker>
@@ -2764,7 +2747,8 @@
                             muzsikájának hangzatiban elmerül és kenyér után járni, tülekedni nem
                             tud. Azért hát, ha semmikép Bécsből elutazni nem kíván, mondjon
                             kifogást. Mondja, hogy „a postakocsiban már minden hely elfoglaltaték“
-                            .. . Pszt! . .. <stage>(Felugrik és mélyen meghajol.)</stage></p>
+                            .. . Pszt! . .. <stage>(Felugrik és mélyen meghajol.)</stage>
+            </p>
           </sp>
           <p>
             <stage>Az ajtóban megjelenik ARCO, félrehúzza a függönyöket és bókkal
@@ -2861,7 +2845,8 @@
             <stage>(hirtelen fagyosan és zárkózotton):</stage>
             <p>A fiú még fiatal és ostoba és enmagát nem esméri. Mivelhogy nem ért, hát
                             engedelmeskedni fog. Az első dilizsánsszal útra kelend.<stage>(A
-                                jobboldali ajtó felé megy. Arco követi.)</stage></p>
+                                jobboldali ajtó felé megy. Arco követi.)</stage>
+            </p>
           </sp>
           <sp who="#wolfgang">
             <speaker>WOLFGANG</speaker>
@@ -2901,7 +2886,8 @@
           <sp who="#colloredo">
             <speaker>AZ ÉRSEK</speaker>
             <stage>(egy pillanatig rámered):</stage>
-            <p>De hisz ... hisz ez szabadkőművesség! Ez egy volteriánus! Ateista!...<stage>(Hevesen elfordul és kisiet.)</stage></p>
+            <p>De hisz ... hisz ez szabadkőművesség! Ez egy volteriánus! Ateista!...<stage>(Hevesen elfordul és kisiet.)</stage>
+            </p>
           </sp>
           <p>
             <stage>Arco gyorsan utána.</stage>
@@ -2914,7 +2900,8 @@
           <sp who="#arco_grof">
             <speaker>ARCO</speaker>
             <stage>(mosolyogva):</stage>
-            <p>Én majd észretéritem.<stage>(Tartja a függönyt, mig az érsek kimegy . . .aztán követi.)</stage></p>
+            <p>Én majd észretéritem.<stage>(Tartja a függönyt, mig az érsek kimegy . . .aztán követi.)</stage>
+            </p>
           </sp>
           <p>
             <stage>Wolfgang egg székbe rogyott és eltakarja arcát. Hirtelen felugrik és
@@ -3230,7 +3217,8 @@
             <speaker>SCHIKANEDER</speaker>
             <stage>(egy nagy csokorral a kezében jő, rohanva):</stage>
             <p>Aloyzia! Aloyzia! Gyorsan! Siess! Vár a hintó.<stage>(Karját nyújtja
-                                Aloyziának.)</stage></p>
+                                Aloyziának.)</stage>
+            </p>
           </sp>
           <sp who="#aloyzia">
             <speaker>ALOYZIA</speaker>
@@ -3478,7 +3466,8 @@
                             Mozart úri Siessen, Puchberg ur, mert megint pénzt talál kölcsön kérni.
                             Joseph! Fizetni 1... Mint vélekedik, Puchberg ur, ha Mozart ide bort
                             inni jön, nem lesz-e ártalmára?<stage>(Mind a hárman balra
-                            el.)</stage></p>
+                            el.)</stage>
+            </p>
           </sp>
           <p>
             <stage>Kis vártatva MOZART jön jobbról. Megöregedett, beteges, fáradt
@@ -3504,7 +3493,8 @@
                             elé.)</stage>
             <p>Most biztosan megint kifundál valamit. Igaz-e? Csak rajta, csinálja csak
                             tovább, muzikmeiszter ur. Már mindent elhoztam, ami kell
-                                hozzá.<stage>(Gyöngéd gonddal tisztítja le az asztalt.)</stage></p>
+                                hozzá.<stage>(Gyöngéd gonddal tisztítja le az asztalt.)</stage>
+            </p>
           </sp>
           <sp who="#leopold_mozart">
             <speaker>MOZART</speaker>
@@ -3585,7 +3575,8 @@
                             kedve is mindjárt kiderül, ha elkezdi a kótákat írni. Tudom én már azt.
                             Itt a tintája és pennákat is faragtam magának. Ide nézzen! Legjobb, ha
                             mindjárt el is kezdi. Ma békessége lesz itten, ha csak a szinésznépség
-                            nem jön még át a theatrumból. Én is megyek már.<stage>(El.)</stage></p>
+                            nem jön még át a theatrumból. Én is megyek már.<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#leopold_mozart">
             <speaker>MOZART</speaker>
@@ -3595,7 +3586,8 @@
                             harmadikkal nem tudok elkészülni... Hát lehet-e igy dolgozni? ... Hiszen
                             agyonnyomja az embert!<stage>(A kóták fölé hajol, de mihamar behunyja
                                 szemét elgyötört kifejezéssel és az asztalra borul. A penna kihull
-                                kezéből. Esteledik.)</stage></p>
+                                kezéből. Esteledik.)</stage>
+            </p>
           </sp>
           <p>
             <stage>A háttérben jobbfelöl megjelenik SCHIKANEDER és mosolyogva figyeli
@@ -3634,7 +3626,8 @@
             <stage>(kórusban):</stage>
             <p>Jo-o-o-seph!<stage>(Egyrészük leült az asztalokhoz, másrészük a tarka
                                 lampiónok meggyújtásához látott. A most következő dialógus alatt
-                                folytatják, halkan, zümmögve, szöveg nélkül éneküket.)</stage></p>
+                                folytatják, halkan, zümmögve, szöveg nélkül éneküket.)</stage>
+            </p>
           </sp>
           <sp who="#schikaneder">
             <speaker>SCHIKANEDER</speaker>
@@ -3851,7 +3844,8 @@
                                 emlékeztetni.<stage>(Jobbra magával vonja Puchberget.)</stage>Amikor
                             vándoitársulatommal egyszer Klagenfurtban voltam és az Arany Szarvasban
                             játszottunk, hát odajött hozzám egy asszony. Fiatal, jóképű menyecske
-                                ...<stage>(El).</stage></p>
+                                ...<stage>(El).</stage>
+            </p>
           </sp>
           <p>
             <stage>Ezenközben egészen besötétedett. A sötét gályák alatt égnek a
@@ -3884,7 +3878,8 @@
           <sp who="#leopold_mozart">
             <speaker>MOZART</speaker>
             <stage>(elnézi a táncotokat):</stage>
-            <p>És nem is játszanak rosszul a fickók!<stage>(Dudol.)</stage></p>
+            <p>És nem is játszanak rosszul a fickók!<stage>(Dudol.)</stage>
+            </p>
           </sp>
           <sp who="#gretl">
             <speaker>GRETL:</speaker>
@@ -3933,7 +3928,8 @@
                             mindnyájatokat!... Gyere Gretl!<stage>(Magával táncba vonja Gretlt.
                                 Szenvedélyes odaadással táncol, könnyen, graciózusan, mintha a
                                 muzsika sodra emelné, ringatná. Eltévedt mosoly - lyal dúdolja a
-                                dallamot.)</stage></p>
+                                dallamot.)</stage>
+            </p>
           </sp>
           <sp who="#gretl">
             <speaker>GRETL</speaker>
@@ -3962,7 +3958,8 @@
             <speaker>GRETL:</speaker>
             <p>Mozart! Az Istenért!<stage>(Az asztalhoz vezeti.)</stage>Hát nem
                             megmondtam? Nem szabadna táncolnia!<stage>(A zene elhallgatott. A
-                                színészek aggódva, némán közelednek Mozarthoz.)</stage></p>
+                                színészek aggódva, némán közelednek Mozarthoz.)</stage>
+            </p>
           </sp>
           <sp who="#leopold_mozart">
             <speaker>MOZART</speaker>
@@ -4010,7 +4007,8 @@
                             hideg van.<stage>(Mozarthoz lép, aggódva szemléli, aztán megsimogatja
                                 haját.)</stage>Hoztam neked még egy
                                 kendőt,-Wolfgang.<stage>(Becsavarja Mozart lábait, miközben leguggol
-                                előtte.)</stage></p>
+                                előtte.)</stage>
+            </p>
           </sp>
           <sp who="#leopold_mozart">
             <speaker>MOZART</speaker>
@@ -4165,7 +4163,8 @@
                             ... No, adjon isten jóéjszakát!... feküdjön nyugalomra, muzikmeiszter
                             ur. Nagyon szép volt, bizonyisten! ... Nem akarok már tovább
                                 alkalmatlankodni...<stage>(Elmenőben.)</stage>Hát mégsem lehet
-                            megfagyatni egy embert, csak azért, mert muzsikus.<stage>(El.)</stage></p>
+                            megfagyatni egy embert, csak azért, mert muzsikus.<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#konstanzia">
             <speaker>KONSTANZIA</speaker>
@@ -4261,7 +4260,8 @@
                                 asztalra. Mozart és Konstanzia megdermedve merednek rá.)</stage>Négy
                             hét múlva eljövök a partitúráért.<stage>(Mélyen és körülményesen
                                 hajbókol.)</stage>Tiszteletem és hódolatomat a muzsika nagy
-                                mesterének.<stage>(Eltűnik a szomszéd szoba sötétjében.)</stage></p>
+                                mesterének.<stage>(Eltűnik a szomszéd szoba sötétjében.)</stage>
+            </p>
           </sp>
           <sp who="#leopold_mozart">
             <speaker>MOZART</speaker>
@@ -4317,7 +4317,8 @@
             <speaker>MOZART</speaker>
             <stage>(szórakozottan):</stage>
             <p>Hogyan beszélek, kicsikém?<stage>(Megcsókolja Konstanzia
-                            kezét.)</stage></p>
+                            kezét.)</stage>
+            </p>
           </sp>
           <sp who="#konstanzia">
             <speaker>KONSTANZIA</speaker>
@@ -4331,7 +4332,8 @@
           <sp who="#konstanzia">
             <speaker>KONSTANZIA</speaker>
             <stage>(elmenőben):</stage>
-            <p>De nemsokára!<stage>(El.)</stage></p>
+            <p>De nemsokára!<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#leopold_mozart">
             <speaker>MOZART</speaker>
@@ -4485,7 +4487,8 @@
           </sp>
           <sp who="#a_ferfi">
             <speaker>A FÉRFI:</speaker>
-            <p>Mert hát sok pénzébe is kerül!<stage>(E l.)</stage></p>
+            <p>Mert hát sok pénzébe is kerül!<stage>(E l.)</stage>
+            </p>
           </sp>
           <p>
             <stage>ALOYZIA lép ki a kapun. Jobbról vidám zajongás és nevetés
@@ -4522,7 +4525,8 @@
                             a szomszéd szobából):</stage>
             <p>Mozart ur, az Istenért! Hiszen kegyednek nem szabad dolgoznia. Az orvos
                                 megtiltotta.<stage>(összeszedi a szerteheverő kótákat és
-                                figyelmesen rendezi.)</stage></p>
+                                figyelmesen rendezi.)</stage>
+            </p>
           </sp>
           <sp who="#leopold_mozart">
             <speaker>MOZART</speaker>
@@ -4539,7 +4543,8 @@
             <p>Hála a jó égnek!<stage>(Kótákat tol oda Süssmeyernek.)</stage>Fogja,
                             Süssmeyer! Itt majd még kegyednek kell hozzáírni a generálbasszust. Én
                             már nem tudom. Az én időmből már nem futja.<stage>(Tovább
-                            ir.)</stage></p>
+                            ir.)</stage>
+            </p>
           </sp>
           <sp who="#sussmeier">
             <speaker>SÜSSMEYER</speaker>
@@ -4571,7 +4576,8 @@
                             vele. De harag nélkül birkózom ... Csak úgy, ahogy fiuk a mezőn játszva
                             bírókra kelnek. Véghez is viszem ... Véghez én !...<stage>(Megint odadob
                                 egy lapot Süssmeyernek.)</stage>Itt majd még írja be tovább a
-                                kürtöket.<stage>(Lihegve hanyatlik vissza a párnára.)</stage></p>
+                                kürtöket.<stage>(Lihegve hanyatlik vissza a párnára.)</stage>
+            </p>
           </sp>
           <sp who="#sussmeier">
             <speaker>SÜSSMEYER</speaker>
@@ -4681,7 +4687,8 @@
                             muzsika! Hiszen muzsika volt minden! Mégis szép volt... az
                                 élet!...<stage>(Szemei becsukódnak. Feje oldalt hajlik. Süssmeyer és
                                 a többi énekesek az ágyhoz sietnek és eltakarják
-                            Mozartot.)</stage></p>
+                            Mozartot.)</stage>
+            </p>
           </sp>
           <p>
             <stage>Akkor halkan kinyílik az ajtó és a KÖVET, a nagykarikás pápaszemmel

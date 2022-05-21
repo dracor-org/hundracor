@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000011</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -228,19 +230,13 @@
                                                   neje</role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Róbert</roleName>
-            </role>
+            <role><roleName>Róbert</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Gizella</roleName>
-            </role>
+            <role><roleName>Gizella</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Aranka</roleName>
-            </role>
+            <role><roleName>Aranka</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
@@ -248,28 +244,20 @@
                                                   osztálytanácsos</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Morosán Demeter</roleName>
-          </role>
+          <role><roleName>Morosán Demeter</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Tamás</roleName>, fia</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Özvegy
-                                                  Sereczkyné</roleName>
-          </role>
+          <role><roleName>Özvegy
+                                                  Sereczkyné</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Chupor Aladár</roleName>
-          </role>
+          <role><roleName>Chupor Aladár</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Hámor</roleName>
-          </role>
+          <role><roleName>Hámor</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Malvin</roleName>, neje</role>
@@ -301,9 +289,7 @@
                                                   szobaleány</role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Vendégek</roleName>
-            </role>
+            <role><roleName>Vendégek</roleName></role>
           </castItem>
         </castGroup>
         <p>
@@ -339,7 +325,8 @@
             <speaker>RELLI</speaker>
             <stage>(futva jő a középről)</stage>
             <p>A nagyságos asszony és a kisasszonyok
-                                                                              öltözködnek a mai estélyre.<stage>(El balra)</stage></p>
+                                                                              öltözködnek a mai estélyre.<stage>(El balra)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -348,7 +335,8 @@
                                                   legszebb, legmagasztosabb, legszentebb pillanata,
                                                   mint a feleségem szokta mondani.<stage>(Balról Szidónia szava hallatszik:
                                                                               „Relli, a csipkéimet!”)</stage>A feleségem hangja! Akkor is üldöz, ha nem
-                                                                              látom. Mikor lesz már pihenésem?<stage>(A pamlagra veti magát)</stage></p>
+                                                                              látom. Mikor lesz már pihenésem?<stage>(A pamlagra veti magát)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -380,7 +368,8 @@
                                                   mindig az utolsó volt, becsületemre, a legutolsó.
                                                   Pedig fogadtam rá - de még mennyit, és vesztettem,
                                                   de még mennyit!<stage>(Adolf megáll hátuk mögött,
-                                                  és a beszélgetést hallgatja)</stage></p>
+                                                  és a beszélgetést hallgatja)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -389,7 +378,8 @@
           </sp>
           <sp who="#adolf">
             <speaker>ADOLF</speaker>
-            <p>Nagyságod óhajtása számomra parancs.<stage>(El.)</stage></p>
+            <p>Nagyságod óhajtása számomra parancs.<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#robert">
             <speaker>RÓBERT</speaker>
@@ -411,7 +401,8 @@
                                                                               fiaik adósságait.<stage>(Megöleli Solmayt)</stage>Aztán úgyis csak kölcsönkérem. Visszafizetem,
                                                                               minden rendkívüli kiadást megtérítek, mihelyt
                                                                               megcsinálom a fényes partit.<stage>(Béla kinyitja a középajtót, s állva
-                                                                                                          marad)</stage></p>
+                                                                                                          marad)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -496,12 +487,14 @@
                                                   mint országgyűlési képviselő szuverén jogokat
                                                   gyakorlok. A mai estélyen kihirdetjük az
                                                   eljegyzést. Tedd hát magad illő apósi hangulatba.
-                                                  Viszontlátásra!<stage>(El.)</stage></p>
+                                                  Viszontlátásra!<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#robert">
             <speaker>RÓBERT</speaker>
             <p>Ölelj meg, papa, én mégis többet érek, mint ez
-                                                                              a komoly, józan fiad.<stage>(Megöleli Solmayt)</stage></p>
+                                                                              a komoly, józan fiad.<stage>(Megöleli Solmayt)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -531,12 +524,14 @@
                                                   viselem, hogy mintát mutassak nekik... Ah! ha
                                                   saját hajlamaimat követhetném!<stage>(Solmayhoz)</stage>Adósság! Oh! Náci, hogy tudod ezt a csúf szót
                                                                               fennhangon kiejteni? Mily közönséges! Ha adósságot
-                                                                              csinált, ki kell fizetni - voilá.<stage>(Tovább nézi magát a tükörben)</stage></p>
+                                                                              csinált, ki kell fizetni - voilá.<stage>(Tovább nézi magát a tükörben)</stage>
+            </p>
           </sp>
           <sp who="#robert">
             <speaker>RÓBERT</speaker>
             <p>Ez ellen nincs föllebbezés, papa.<stage>(Solmaynak adja az írott ívet, melyet
-                                                                                                          az mérgesen zsebébe tesz)</stage></p>
+                                                                                                          az mérgesen zsebébe tesz)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -671,7 +666,8 @@
             <speaker>ADOLF</speaker>
             <stage>(belép)</stage>
             <p>A divatárus segédje az előszobában várakozik a
-                                                                              számlával.<stage>(El.)</stage></p>
+                                                                              számlával.<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -681,7 +677,8 @@
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
-            <p>Most már én is el lehetek ragadtatva.<stage>(El a középen)</stage></p>
+            <p>Most már én is el lehetek ragadtatva.<stage>(El a középen)</stage>
+            </p>
           </sp>
           <sp who="#robert">
             <speaker>RÓBERT</speaker>
@@ -713,7 +710,8 @@
             <speaker>RÓBERT</speaker>
             <p>Ugye borzasztó hír? Mama, vigasztald meg
                                                   szegény Gizellát! Viszontlátásra! Megyek
-                                                  öltözni.<stage>(Nevetve el)</stage></p>
+                                                  öltözni.<stage>(Nevetve el)</stage>
+            </p>
           </sp>
           <sp who="#gizella">
             <speaker>GIZELLA</speaker>
@@ -754,7 +752,8 @@
                                                                               feleségét.<stage>(Szerafin megcsókolja Gizellát és
                                                                                                           Arankát. Rábay kedvetlenül oldalt megy, és a
                                                                                                           pamlagra ül. Solmay hozzá megy, s némán, hosszasan
-                                                                                                          rázza kezét)</stage></p>
+                                                                                                          rázza kezét)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
@@ -860,7 +859,8 @@
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
-            <p>És folytonosan féltékenységével gyötör.<stage>(Sírva fakad)</stage></p>
+            <p>És folytonosan féltékenységével gyötör.<stage>(Sírva fakad)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -916,7 +916,8 @@
                                                   lássátok, mily gyorsan beváltja férjem ígéretét...<stage>(Solmay szólni akar, Szidónia befogja
                                                                               száját)</stage>Nem, nem, édesem, több ajándékot nem fogadunk
                                                                               el, elég egyszerre ennyi... Vendégeinket kell
-                                                                              fogadnom! Pá, Nácikám, pá!<stage>(El.)</stage></p>
+                                                                              fogadnom! Pá, Nácikám, pá!<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
@@ -1094,7 +1095,8 @@
             <p>Véleményem szerint azt vélem, hogy egyelőre ne
                                                   tudósítsuk a nagyságos sógorasszonyt
                                                   jelenlétemről. Élvezni akarom kellemes
-                                                  meglepetését.<stage>(El jobbra Rábay után)</stage></p>
+                                                  meglepetését.<stage>(El jobbra Rábay után)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1130,8 +1132,10 @@
                                                   Nem, azért sem sajnálom, nagy tökfilkó, megérdemli
                                                   a sorsát... És ez csinál törvényeket az
                                                   országnak!... Az igaz, hogy meg is látszik az
-                                                  országon.<stage>(A terem felé néz)</stage></p>
-            <p><stage>(A terem felé néz)</stage>A feleségem és a jövendő menyem. Erre tartanak.
+                                                  országon.<stage>(A terem felé néz)</stage>
+            </p>
+            <p>
+              <stage>(A terem felé néz)</stage>A feleségem és a jövendő menyem. Erre tartanak.
                                                                                                           Tatárjárás egyesülve sáskapusztítással.</p>
           </sp>
         </div>
@@ -1212,7 +1216,8 @@
             <speaker>SOLMAY</speaker>
             <stage>(félre)</stage>
             <p>Még ez is!<stage>(Megcsókolja Sereczkyné
-                                                                                                          homlokát)</stage></p>
+                                                                                                          homlokát)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -1222,7 +1227,8 @@
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
             <stage>(félre)</stage>
-            <p>Ma rossz napom van.<stage>(Megcsókolja Szidóniát. Félre)</stage>Nem bírom tovább, megüt a guta.<stage>(El.)</stage></p>
+            <p>Ma rossz napom van.<stage>(Megcsókolja Szidóniát. Félre)</stage>Nem bírom tovább, megüt a guta.<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -1244,7 +1250,8 @@
           <sp who="#gizella">
             <speaker>GIZELLA</speaker>
             <stage>(a terem ajtajában)</stage>
-            <p>Mit látok!<stage>(Hátraszól)</stage>Jertek csak, nagyszerű meglepetés!<stage>(Bejő, utána a többiek)</stage></p>
+            <p>Mit látok!<stage>(Hátraszól)</stage>Jertek csak, nagyszerű meglepetés!<stage>(Bejő, utána a többiek)</stage>
+            </p>
           </sp>
           <sp who="#sereczkyne">
             <speaker>SERECZKYNÉ</speaker>
@@ -1258,12 +1265,14 @@
             <speaker>SERECZKYNÉ</speaker>
             <stage>(szemérmesen)</stage>
             <p>Azt hiszed? Utoljára kénytelen leszek magam is
-                                                                              elhinni.<stage>(Kezet nyújt Bélának)</stage></p>
+                                                                              elhinni.<stage>(Kezet nyújt Bélának)</stage>
+            </p>
           </sp>
           <sp who="#bela">
             <speaker>BÉLA</speaker>
             <p>Uraim, hölgyeim! Íme, menyasszonyom.<stage>(Sereczkynével körüljár, s a vendégek
-                                                                                                          üdvözletét fogadja)</stage></p>
+                                                                                                          üdvözletét fogadja)</stage>
+            </p>
           </sp>
           <sp who="#robert">
             <speaker>RÓBERT</speaker>
@@ -1288,7 +1297,8 @@
           </sp>
           <sp who="#robert">
             <speaker>RÓBERT</speaker>
-            <p>Na, most már végezzétek magatok a többit.<stage>(Félre húzódik)</stage></p>
+            <p>Na, most már végezzétek magatok a többit.<stage>(Félre húzódik)</stage>
+            </p>
           </sp>
           <sp who="#tamas">
             <speaker>TAMÁS</speaker>
@@ -1321,13 +1331,15 @@
           </sp>
           <sp who="#gizella">
             <speaker>GIZELLA</speaker>
-            <p>Viszontlátásra, Tamás!<stage>(Sereczkyné felé megy)</stage></p>
+            <p>Viszontlátásra, Tamás!<stage>(Sereczkyné felé megy)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
             <p>Nem tartóztatom, Tamás, talán kedve lesz
                                                   szivarozni... Róbert, vidd szobádba a derék
-                                                  Tamást.<stage>(Elfordul)</stage></p>
+                                                  Tamást.<stage>(Elfordul)</stage>
+            </p>
           </sp>
           <sp who="#bela">
             <speaker>BÉLA</speaker>
@@ -1337,7 +1349,8 @@
           <sp who="#sereczkyne">
             <speaker>SERECZKYNÉ</speaker>
             <p>Legyen meg az ön akarata, borzasztó ember!<stage>(El a másik terembe, Gizella és a többi
-                                                                                                          vendég utánuk)</stage></p>
+                                                                                                          vendég utánuk)</stage>
+            </p>
           </sp>
           <sp who="#aranka">
             <speaker>ARANKA</speaker>
@@ -1347,7 +1360,8 @@
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
             <p>Ah! mily borzalom! Ennek is ez a szörnyű Tamás
-                                                                              az oka. Jer velem, igazítsuk meg hamar.<stage>(El Arankával balra)</stage></p>
+                                                                              az oka. Jer velem, igazítsuk meg hamar.<stage>(El Arankával balra)</stage>
+            </p>
           </sp>
           <sp who="#robert">
             <speaker>RÓBERT</speaker>
@@ -1363,7 +1377,8 @@
                                                   uralkodó csillaga... Hogy tetszik leendő sógorném?
                                                   Én már kezdek kigyógyulni a fényes parti
                                                   vágyból... No, hát jerünk! Mit bámulsz abba a
-                                                  terembe? Ugyan mit látsz ott?<stage>(El Tamással a középen)</stage></p>
+                                                  terembe? Ugyan mit látsz ott?<stage>(El Tamással a középen)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1402,7 +1417,8 @@
             <p>Engedek a felsőbb parancsnak, de csak rövid
                                                                               időre.<stage>(Szerafinhoz)</stage>Ne feledje, nagysád, hogy az első táncot nekem
                                                                               ígérte. Itt leszek, kérlelhetetlenül behajtom
-                                                                              követelésemet.<stage>(El.)</stage></p>
+                                                                              követelésemet.<stage>(El.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1500,7 +1516,8 @@
             <speaker>SZERAFIN</speaker>
             <p>Miből fizessem vissza? Mikor nem merek
                                                   férjemnek szólni! Nem, Malvin, lemondok mindenről,
-                                                  zsákruhában járok, szakácsné leszek.<stage>(Sírva fakad)</stage></p>
+                                                  zsákruhában járok, szakácsné leszek.<stage>(Sírva fakad)</stage>
+            </p>
           </sp>
           <sp who="#malvin">
             <speaker>MALVIN</speaker>
@@ -1545,7 +1562,8 @@
           <sp who="#malvin">
             <speaker>MALVIN</speaker>
             <p>Csak szeretlek, és nem akarom, hogy
-                                                                              rabszolgája légy férjednek.<stage>(Megcsókolja.)</stage></p>
+                                                                              rabszolgája légy férjednek.<stage>(Megcsókolja.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1580,7 +1598,8 @@
           <sp who="#malvin">
             <speaker>MALVIN</speaker>
             <stage>(súgva Szerafinhoz)</stage>
-            <p>Sakk a férjeknek!<stage>(El.)</stage></p>
+            <p>Sakk a férjeknek!<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#chupor">
             <speaker>CHUPOR</speaker>
@@ -1592,7 +1611,8 @@
             <speaker>SZERAFIN</speaker>
             <p>Nagyon követelő.<stage>(Észreveszi a belépő Rábayt. Elkapja
                                                                                                           fejét, mintha nem venné észre; dacos mozdulattal,
-                                                                                                          félre)</stage>Azért is!<stage>(Fenn)</stage>Menjünk!<stage>(El Chuporral)</stage></p>
+                                                                                                          félre)</stage>Azért is!<stage>(Fenn)</stage>Menjünk!<stage>(El Chuporral)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1637,7 +1657,8 @@
             <speaker>RÁBAY</speaker>
             <p>Nagyon sajnálom...<stage>(A terem felé néz)</stage>Még mindig 
                                                                                                           táncolnak...<stage>(A terem felé néz)</stage>Nem 
-                                                                                                          bírom tovább!<stage>(Demeterhez)</stage>Bocsánat!<stage>(El a terembe)</stage></p>
+                                                                                                          bírom tovább!<stage>(Demeterhez)</stage>Bocsánat!<stage>(El a terembe)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1685,7 +1706,8 @@
                                                   a múlt héten meghalt agylágyulásban.<stage>(Megcsókolja Szidónia kezét)</stage>Hát ez a kis Aranka? Megnőtt és megszépült. A
                                                                               nyáron még akár ölbe vehettem volna, s most már
                                                                               kezet is csókolhatnék neki.<stage>(Kezével titkon távozásra inti
-                                                                                                          Arankát)</stage></p>
+                                                                                                          Arankát)</stage>
+            </p>
           </sp>
           <sp who="#aranka">
             <speaker>ARANKA</speaker>
@@ -1727,7 +1749,8 @@
             <p>Menj, kedvesem, és vigyázz, hogy Sereczkyné ide
                                                   ne jöjjön, amíg ez iszonyú embert biztos helyre
                                                   nem teszem. Képes volna neki is sottisokat
-                                                  mondani. Siess!<stage>(Aranka el)</stage></p>
+                                                  mondani. Siess!<stage>(Aranka el)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1907,11 +1930,13 @@
             <p>Kinevetnek, mikor én azt gondoltam, hogy örömet
                                                   szerzek nekik! Ez a család, melyet annyira
                                                   imádok... Ez fáj!... No jó! hát kinevetnek...
-                                                  Menjünk, fiam!<stage>(El Tamással a középen)</stage></p>
+                                                  Menjünk, fiam!<stage>(El Tamással a középen)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
-            <p>Demeter!<stage>(Utána akar sietni</stage></p>
+            <p>Demeter!<stage>(Utána akar sietni</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -1922,7 +1947,8 @@
             <speaker>SOLMAY</speaker>
             <stage>(visszafordul dühösen)</stage>
             <p>Holnap magunk leszünk, akkor elájulhatsz -
-                                                                              érted? Holnap beszélek Demeterrel!<stage>(El jobbra)</stage></p>
+                                                                              érted? Holnap beszélek Demeterrel!<stage>(El jobbra)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -1950,7 +1976,8 @@
             <p>Ha tudnátok, mennyit kell gyermekeimért
                                                   szenvednem... Most is mily veszélytől mentettelek
                                                   meg mindnyájatokat! Igazán, én vagyok a család
-                                                  villámhárítója.<stage>(El)</stage></p>
+                                                  villámhárítója.<stage>(El)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1993,7 +2020,8 @@
             <stage>(duzzogva)</stage>
             <p>Mit feleljek?<stage>(Hirtelen visszatérő
                                                                                                           gyengédséggel)</stage>De nem - nem duzzogok -, szeretlek. Ugye nem
-                                                                                                          lész többé olyan rossz?<stage>(Vállára hajtja fejét)</stage></p>
+                                                                                                          lész többé olyan rossz?<stage>(Vállára hajtja fejét)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -2092,7 +2120,8 @@
                                                   csináltam, most meg azért kínzasz, mert
                                                   kifizettem... Ez hát a te szerelmed? Ezért áldozom
                                                   fel magamat legapróbb szeszélyeidnek is? Menj,
-                                                  menj! Te sohasem szerettél engem.<stage>(Haragosan a terem felé indul)</stage></p>
+                                                  menj! Te sohasem szerettél engem.<stage>(Haragosan a terem felé indul)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -2186,7 +2215,8 @@
             <speaker>RÁBAY</speaker>
             <stage>(Szidónia felé fordul)</stage>
             <p>Semmi, semmi, hála Istennek! minden rendbe
-                                                                              jött.<stage>(Halkan beszél vele)</stage></p>
+                                                                              jött.<stage>(Halkan beszél vele)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
@@ -2201,7 +2231,8 @@
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
             <p>Mutassa, hogy mindent tud, vagy meghalok.<stage>(Elsiet, és Rábay háta mögé
-                                                                                                          áll)</stage></p>
+                                                                                                          áll)</stage>
+            </p>
           </sp>
           <sp who="#szidónia">
             <speaker>SZIDÓNIA</speaker>
@@ -2303,7 +2334,8 @@
             <p>El ne áruljon, papa, mert leugrom a harmadik
                                                                               emeletről.<stage>(Dacos pillantást vetve Rábayra, kezét
                                                                                                           nyújtja Chupornak, s vele el a
-                                                                                                          terembe)</stage></p>
+                                                                                                          terembe)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -2312,12 +2344,14 @@
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
-            <p>Hát így vagyunk! Jó!<stage>(Solmayhoz, bosszúsan)</stage>Ezentúl kikérem, hogy elősegítsd pazarlását!<stage>(El)</stage></p>
+            <p>Hát így vagyunk! Jó!<stage>(Solmayhoz, bosszúsan)</stage>Ezentúl kikérem, hogy elősegítsd pazarlását!<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
             <p>Itt van a szép eredmény, ha saját leányod ellen
-                                                                              lázítod férjét. Holnap elvárom ékszereinket.<stage>(El.)</stage></p>
+                                                                              lázítod férjét. Holnap elvárom ékszereinket.<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -2349,11 +2383,13 @@
           <sp who="#betti">
             <speaker>BETTI</speaker>
             <stage>(középről jő a reggelivel, edényekkel tálcán)</stage>
-            <p>Éppen ezt rendelte a nagyságos asszony is.<stage>(Az asztalra teszi a tálcát)</stage></p>
+            <p>Éppen ezt rendelte a nagyságos asszony is.<stage>(Az asztalra teszi a tálcát)</stage>
+            </p>
           </sp>
           <sp who="#andras">
             <speaker>ANDRÁS</speaker>
-            <p>Már megint?<stage>(Kezével hajbakapást mutat)</stage></p>
+            <p>Már megint?<stage>(Kezével hajbakapást mutat)</stage>
+            </p>
           </sp>
           <sp who="#betti">
             <speaker>BETTI</speaker>
@@ -2394,7 +2430,8 @@
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
             <stage>(félre)</stage>
-            <p>Még ő dacol!<stage>(Fenn, Andráshoz, ki fölvette az edényeket)</stage>Maradj, itt fogok reggelizni.<stage>(Asztalhoz ül)</stage></p>
+            <p>Még ő dacol!<stage>(Fenn, Andráshoz, ki fölvette az edényeket)</stage>Maradj, itt fogok reggelizni.<stage>(Asztalhoz ül)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2426,20 +2463,25 @@
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
             <stage>(tele szájjal)</stage>
-            <p>András, a mai lapokat!<stage>(András el)</stage></p>
+            <p>András, a mai lapokat!<stage>(András el)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
             <stage>(félre)</stage>
-            <p>Azért sem vonulok vissza előle.<stage>(Bettihez, ki az edényekkel meg akar indulni)</stage></p>
-            <p><stage>(Bettihez, ki az edényekkel meg akar indulni)</stage>Maradjon, itt fogok reggelizni.<stage>(Az asztalhoz ül, s indulatosan tölt magának)</stage></p>
+            <p>Azért sem vonulok vissza előle.<stage>(Bettihez, ki az edényekkel meg akar indulni)</stage>
+            </p>
+            <p>
+              <stage>(Bettihez, ki az edényekkel meg akar indulni)</stage>Maradjon, itt fogok reggelizni.<stage>(Az asztalhoz ül, s indulatosan tölt magának)</stage>
+            </p>
             <p>Maradjon, itt fogok reggelizni.</p>
           </sp>
           <sp who="#andras">
             <speaker>ANDRÁS</speaker>
             <stage>(jő, lapokat tesz Rábay elé)</stage>
             <p>Méltóztassék! A mai újságok...<stage>(El a középen Bettivel, kinek az ajtóban némajátékkal ismét
-                                                        hajbakapást mutat)</stage></p>
+                                                        hajbakapást mutat)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2504,7 +2546,8 @@
             <speaker>SZERAFIN</speaker>
             <stage>(csenget. A belépő Bettihez)</stage>
             <p>Cukrot a nagyságos úrnak.<stage>(Betti a szekrényből cukrot tesz a szelencébe, az asztalhoz viszi,
-                                                        és el)</stage></p>
+                                                        és el)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -2531,7 +2574,8 @@
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
-            <p>Hívja be Andrást is, mindkettőjükkel lesz beszélnivalóm.<stage>(Betti el)</stage></p>
+            <p>Hívja be Andrást is, mindkettőjükkel lesz beszélnivalóm.<stage>(Betti el)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -2566,11 +2610,13 @@
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
-            <p>Semmit. Elmehetnek.<stage>(Betti, András el)</stage></p>
+            <p>Semmit. Elmehetnek.<stage>(Betti, András el)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
-            <p>Hanem engem lehet a cselédek előtt kompromittálni, ugye?<stage>(Zsebkendőjét indulatosan tépi)</stage></p>
+            <p>Hanem engem lehet a cselédek előtt kompromittálni, ugye?<stage>(Zsebkendőjét indulatosan tépi)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -2590,7 +2636,8 @@
             <stage>(zsebkendőjét tépve)</stage>
             <p>Ezt mondani nekem! Aki példánya voltam az önfeláldozó hűségnek! Amiért
                             táncolni mertem... Azért is fogok táncolni!<stage>(Sírva)</stage>Oh, milyen boldogtalan vagyok!<stage>(Indulatosan leül, s amint az edényekhez nyúl, findzsáját nagy
-                                                        robajjal a földre dobja)</stage></p>
+                                                        robajjal a földre dobja)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2617,7 +2664,8 @@
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
             <stage>(fölkel, magához véve az újságokat)</stage>
-            <p>Nagyon szívesen.<stage>(Hangsúlyozva)</stage>Nagyon szívesen - akármeddig.<stage>(El jobbra)</stage></p>
+            <p>Nagyon szívesen.<stage>(Hangsúlyozva)</stage>Nagyon szívesen - akármeddig.<stage>(El jobbra)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2628,7 +2676,8 @@
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
             <p>No, hallja, papa! nagyon szívesen elhagy.<stage>(Rábayt utánozva)</stage>Nagyon szívesen! És még azt szeretné elhitetni, hogy én vagyok a hibás...
-                                                        Oh, miért is mentem férjhez!<stage>(Sírva fakad, s kendőjét tépi)</stage></p>
+                                                        Oh, miért is mentem férjhez!<stage>(Sírva fakad, s kendőjét tépi)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -2696,7 +2745,8 @@
                             az élet csillogó buborékjaival, melyek addig tartanak csak, amíg
                             hozzájok nyúltok! És én bolond! Láttam mindezt, s nem mertem
                             közbekiáltani, gyávaságból, lustaságból, nyugalmam szeretetéből. Oh,
-                            mily kötnivaló voltam! Oh, mint szeretném kitépni a hajamat!<stage>(Hajába markol)</stage></p>
+                            mily kötnivaló voltam! Oh, mint szeretném kitépni a hajamat!<stage>(Hajába markol)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
@@ -2768,7 +2818,8 @@
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
-            <p>Nekem nincs, talán Szerafinnak lesz...<stage>(egy szék mögé vonul, s jelentősen köhög)</stage></p>
+            <p>Nekem nincs, talán Szerafinnak lesz...<stage>(egy szék mögé vonul, s jelentősen köhög)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -2805,7 +2856,8 @@
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
             <stage>(kitörő szerelemmel)</stage>
-            <p>Miklós, édes Miklós, ne haragudjál.<stage>(Rábay nyakába ugrik)</stage></p>
+            <p>Miklós, édes Miklós, ne haragudjál.<stage>(Rábay nyakába ugrik)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -2845,7 +2897,8 @@
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
             <p>No, össze ne vesszetek megint azon, hogy ki volt a bolond. Öleljétek meg
-                            egymást, szeretem ezt látni - másoknál.<stage>(Rábay és Szerafin megölelik egymást)</stage></p>
+                            egymást, szeretem ezt látni - másoknál.<stage>(Rábay és Szerafin megölelik egymást)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2922,7 +2975,8 @@
             <speaker>RÁBAY</speaker>
             <p>Ne féljetek, nem fogok meggyőződésem ellen tenni; de ha az ajánlatok
                             egyformák, akkor nyugodt lélekkel választhatom azt, amivel nőmnek örömet
-                            szerzek.<stage>(Megcsókolja Szerafint)</stage>Viszontlátásra, kedvesem!<stage>(El jobbra)</stage></p>
+                            szerzek.<stage>(Megcsókolja Szerafint)</stage>Viszontlátásra, kedvesem!<stage>(El jobbra)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3005,7 +3059,8 @@
                                 Féltékeny! Micsoda ízléstelenség! Mondd neki, hogy én hoztam ide, az
                                 én felelősségemre - anyád védszárnyai alatt csak nem fog félteni...
                                 Elég! szót se erről! Menj, leányom, készülj fel, kocsim a kapu előtt
-                                vár, tüstént indulunk.<stage>(Szerafin el)</stage></p>
+                                vár, tüstént indulunk.<stage>(Szerafin el)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3046,7 +3101,8 @@
             <speaker>SZIDÓNIA</speaker>
             <stage>(elvonva Szerafint)</stage>
             <p>Semmi suttogás! Jer, kedvesem! Pá, Nácikám, pá! Mulass jól, míg
-                            visszatérünk.<stage>(El Szerafinnal)</stage></p>
+                            visszatérünk.<stage>(El Szerafinnal)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3104,7 +3160,8 @@
           <sp who="#tamas">
             <speaker>TAMÁS</speaker>
             <stage>(meghajolva)</stage>
-            <p>Köszönöm nagyságod kegyességét.<stage>(El jobbra)</stage></p>
+            <p>Köszönöm nagyságod kegyességét.<stage>(El jobbra)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -3113,7 +3170,8 @@
                                     embereket, s most én iszom meg a levét. Hányszor segített
                                     pénzzavaraimon a jó Demeter, milyen kegyelettel volt családom
                                     iránt, s ez az őrült asszonyi állat így arcul üti. Oh, Szidónia,
-                                    Szidónia! be jól fog neked esni a bukás!<stage>(Pamlagra veti magát)</stage></p>
+                                    Szidónia! be jól fog neked esni a bukás!<stage>(Pamlagra veti magát)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3188,7 +3246,8 @@
                             részed tenne 40 000 forintot, eszerint még te tartozol nekem
                             8840 forint 60 krajcárral. És jó lenne, ha minél előbb megadnád,
                             mert éppen most nagy szükségem van pénzre. A krajcárokat
-                            elengedem. Szervusz!<stage>(El)</stage></p>
+                            elengedem. Szervusz!<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#bela">
             <speaker>BÉLA</speaker>
@@ -3227,7 +3286,8 @@
           <sp who="#bela">
             <speaker>BÉLA</speaker>
             <stage>(kalapját véve)</stage>
-            <p>Bánom is én, ha a fejeteken táncoltok is.<stage>(El)</stage></p>
+            <p>Bánom is én, ha a fejeteken táncoltok is.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#gizella">
             <speaker>GIZELLA</speaker>
@@ -3235,7 +3295,8 @@
             <p>Ugyancsak udvarias ember az én kedves bátyám. Bizonyosan
                                         pénzt kért a papától, s helyette jó tanácsot kapott, azért
                                         oly haragos. Ismerjük már ezeket a szcénákat. Ah!
-                                        Tamás...<stage>((Fölkel, a belépő Tamást meglátva))</stage></p>
+                                        Tamás...<stage>((Fölkel, a belépő Tamást meglátva))</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3256,7 +3317,8 @@
           <sp who="#tamas">
             <speaker>TAMÁS</speaker>
             <stage>(hidegen)</stage>
-            <p>Éreztem, hogy nem vagyok e fényes légkörbe való.<stage>(Búcsúzva)</stage>Kisasszony!...<stage>(Az ajtó felé megy)</stage></p>
+            <p>Éreztem, hogy nem vagyok e fényes légkörbe való.<stage>(Búcsúzva)</stage>Kisasszony!...<stage>(Az ajtó felé megy)</stage>
+            </p>
           </sp>
           <sp who="#gizella">
             <speaker>GIZELLA</speaker>
@@ -3293,7 +3355,8 @@
                                         vissza valódi helyemre! Nevetség! Hiszen még nem jött meg a
                                         nyári ruha szezonja. Köszönöm, kisasszony, erre a szerepre
                                         nem vagyok elég jó. Isten önnel télre - nyárra,
-                                        mindörökre!<stage>(El)</stage></p>
+                                        mindörökre!<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#gizella">
             <speaker>GIZELLA</speaker>
@@ -3363,7 +3426,8 @@
                                             ezek a divatos majmok...<stage>(Sírva fakad, indulatosan tépve
                                                                         zsebkendőjét)</stage>Igaza van a papának, hogy mindig oly rosszkedvű - oh! én is
                                                                                                     olyan boldogtalan vagyok, hogy kedvem volna leugrani a
-                                                                                                    harmadik emeletről.<stage>(El balra)</stage></p>
+                                                                                                    harmadik emeletről.<stage>(El balra)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -3378,7 +3442,8 @@
           </sp>
           <sp who="#aranka">
             <speaker>ARANKA</speaker>
-            <p>Gizella! Gizella! megállj!<stage>(Elfut Gizella után)</stage></p>
+            <p>Gizella! Gizella! megállj!<stage>(Elfut Gizella után)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3432,7 +3497,8 @@
             <p>Jó, jó, nem akarom elrontani ezt a szép napot, hanem azt
                                             nem tagadhatom, hogy mindig elmegy a kedvem, ha erre a
                                             Sereczkynére és fajtájára gondolok.<stage>(Észreveszi Sereczkynét)</stage>Ah, nagysád, éppen most emlegettük, bocsánat - hivatalos
-                            kötelességem -, viszontlátásra.<stage>(El)</stage></p>
+                            kötelességem -, viszontlátásra.<stage>(El)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3463,7 +3529,8 @@
                             kiválasztott kelméket.<stage>(Az egyik csomagot a középen álló asztalra, a
                                                         másikat oldalt, a pamlagra teszi. A nők a középre
                                                         sietnek, s az asztalon levő csomagot
-                                                        vizsgálják)</stage></p>
+                                                        vizsgálják)</stage>
+            </p>
           </sp>
           <sp who="#sereczkyne">
             <speaker>SERECZKYNÉ</speaker>
@@ -3620,7 +3687,8 @@
             <speaker>BANGÓ</speaker>
             <p>Kezeit csókolom, nagysád!<stage>(A csomagot fölvéve a pamlagról,
                                                         Sereczkynéhez)</stage>Ezt azonnal nagyságod lakására viszem.<stage>(Bókolva kihátrál az ajtón, a belépő Solmay lábára
-                                                                                    hágva)</stage></p>
+                                                                                    hágva)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3664,7 +3732,8 @@
             <speaker>SZERAFIN</speaker>
             <p>A mama elvette, és kifizette ezeket a kelméket. Azt mondta,
                             hogy majd ő fog a papával számolni.<stage>(Sereczkynéhez megy, s vele együtt a kelmék
-                                                        szemléletébe merül)</stage></p>
+                                                        szemléletébe merül)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -3677,7 +3746,8 @@
                                         férje köteles gondoskodni. Tegnap ezer forint, ma ötezer
                                         forint! Ha így folytatod, gondnokság alá tétetlek, mint
                                         pazarlót... Elég! köszönd Sereczkynének, hogy nem lépek fel
-                                        erélyesebben.<stage>(Sereczkynéhez megy)</stage></p>
+                                        erélyesebben.<stage>(Sereczkynéhez megy)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -3719,7 +3789,8 @@
                                         hogy nem fáj még most is, de hát igaza lehet a nagyságos
                                         sógorasszonynak, ő tudja legjobban, kinek nevelte a leányát.
                                         Azért én mégis imádom a Solmay családot, és ha nem köthetünk
-                                        is vele híment, azért mégis távoli rokonok maradunk.<stage>(Kezet csókol Szidóniának)</stage></p>
+                                        is vele híment, azért mégis távoli rokonok maradunk.<stage>(Kezet csókol Szidóniának)</stage>
+            </p>
           </sp>
           <sp who="#sereczkyne">
             <speaker>SERECZKYNÉ</speaker>
@@ -3747,7 +3818,8 @@
           <sp who="#sereczkyne">
             <speaker>SERECZKYNÉ</speaker>
             <stage>(bókolva)</stage>
-            <p>Jó napot, Morosán úr, jó napot...<stage>(Bókolás közben folyton hátrál)</stage></p>
+            <p>Jó napot, Morosán úr, jó napot...<stage>(Bókolás közben folyton hátrál)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -3807,7 +3879,8 @@
           </sp>
           <sp who="#sereczkyne">
             <speaker>SERECZKYNÉ</speaker>
-            <p>Jó napot, Demeter úr, jó napot!<stage>(Bókolva az ajtó felé hátrál)</stage></p>
+            <p>Jó napot, Demeter úr, jó napot!<stage>(Bókolva az ajtó felé hátrál)</stage>
+            </p>
           </sp>
           <sp who="#demeter">
             <speaker>DEMETER</speaker>
@@ -3818,7 +3891,8 @@
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
             <p>Menjünk, menjünk!<stage>(Halkan Solmayhoz)</stage>Megkeserülöd ezt, Náci!<stage>(Elvonja magával Sereczkynét, s Szerafinnal mind
-                                                        el balra)</stage></p>
+                                                        el balra)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3896,7 +3970,8 @@
             <speaker>DEMETER</speaker>
             <stage>(kiveszi tárcáját)</stage>
             <p>Most úgyis sok pénzt hordok magamnál, nem árt, ha egy
-                            részét elhelyezem...<stage>(Bankjegyeket ad Solmaynak)</stage>Tessék! majd aztán a többihez írjuk ezt is!<stage>(Hámor belép a középajtón)</stage></p>
+                            részét elhelyezem...<stage>(Bankjegyeket ad Solmaynak)</stage>Tessék! majd aztán a többihez írjuk ezt is!<stage>(Hámor belép a középajtón)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -3935,7 +4010,8 @@
           </sp>
           <sp who="#hamor">
             <speaker>HÁMOR</speaker>
-            <p>Rendelkezésére állok, barátom uram.<stage>(El Solmayval jobbra)</stage></p>
+            <p>Rendelkezésére állok, barátom uram.<stage>(El Solmayval jobbra)</stage>
+            </p>
           </sp>
           <sp who="#demeter">
             <speaker>DEMETER</speaker>
@@ -4016,7 +4092,8 @@
                             mondtam, visszavonom...<stage>(Mindenfelé bókolva)</stage>Magamat 
                             ajánlom, uraim...<stage>(Demeterhez rohan, súgva)</stage>Részeg voltam, 
                             mindent visszavonok... Ah! ah! ki hitte volna?<stage>(Rábayhoz)</stage>Kezeit 
-                            csókolom, nagyságos úr, azaz ajánlom magamat<stage>(El középen)</stage></p>
+                            csókolom, nagyságos úr, azaz ajánlom magamat<stage>(El középen)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -4031,7 +4108,8 @@
                                         melyről annyit írtak a politikai és napilapok? Hát már az
                                         újságoknak sem lehet hinni? Halálba mentem volna a tiszta
                                         kezéért. És most! Pedig ő is tagja a Solmay családnak... ez
-                                        fáj, jobban fáj, mint a tegnapi kosár... Alászolgája!<stage>(Gyorsan el)</stage></p>
+                                        fáj, jobban fáj, mint a tegnapi kosár... Alászolgája!<stage>(Gyorsan el)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4042,7 +4120,8 @@
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
             <p>Mi ez? Mit beszélt ez az ember? Gyanúsítani mert engem?
-                            Ah! ez nem maradhat annyiban...<stage>(Demeter után akar sietni)</stage></p>
+                            Ah! ez nem maradhat annyiban...<stage>(Demeter után akar sietni)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -4120,7 +4199,8 @@
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
             <stage>(halkan)</stage>
-            <p>Istenem! hiszen a mama hozta ide.<stage>(Elfordul)</stage></p>
+            <p>Istenem! hiszen a mama hozta ide.<stage>(Elfordul)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -4146,7 +4226,8 @@
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
             <p>Ah! ah! Chupor, ön valóban rettenetes ember!<stage>(Sereczkyné belép a jobb ajtón, s állva
-                                                        marad)</stage></p>
+                                                        marad)</stage>
+            </p>
           </sp>
           <sp who="#chupor">
             <speaker>CHUPOR</speaker>
@@ -4169,12 +4250,14 @@
             <stage>(nagy zavarban)</stage>
             <p>Ellenkezőleg... az élőképek... nagysád művészete... 
                             jó napot!<stage>(Észreveszi magát)</stage>Azaz, kezeit csókolom! viszontlátásra!<stage>(Az ajtó felé megy, s a belépő Bélával
-                                                                                    találkozik)</stage></p>
+                                                                                    találkozik)</stage>
+            </p>
           </sp>
           <sp who="#bela">
             <speaker>BÉLA</speaker>
             <stage>(megfogja)</stage>
-            <p>Hova akarsz menni? Hiszen csak most kezdjük a próbát.<stage>(Visszahozza)</stage></p>
+            <p>Hova akarsz menni? Hiszen csak most kezdjük a próbát.<stage>(Visszahozza)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -4227,7 +4310,8 @@
           <sp who="#chupor">
             <speaker>CHUPOR</speaker>
             <p>Malvin azt mondta, hogy Rábaynak nem szabad tudni róla. Most
-                            idenéz...<stage>(Elugrik Szerafin mellől)</stage></p>
+                            idenéz...<stage>(Elugrik Szerafin mellől)</stage>
+            </p>
           </sp>
           <sp who="#sereczkyne">
             <speaker>SERECZKYNÉ</speaker>
@@ -4239,7 +4323,8 @@
             <p>Egész életemen át.<stage>(Sereczkyné a szoba közepén büszke, uralkodói
                                                         tartással áll, egyik kezét csípőjére helyezve,
                                                         másikat parancsolólag kinyújtva. Béla lehajtott
-                                                        fővel lábai előtt térdel)</stage></p>
+                                                        fővel lábai előtt térdel)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -4260,7 +4345,8 @@
             <speaker>CHUPOR</speaker>
             <stage>(végigmenve a csoport előtt)</stage>
             <p>Nagyszerű! festői!<stage>(Szerafin mellé megy. Rábay megfordul és
-                                                        utánanéz)</stage></p>
+                                                        utánanéz)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
@@ -4272,7 +4358,8 @@
             <stage>(zsebébe nyúl, hátrapillantva, Rábayhoz fut)</stage>
             <p>Ej! Rábay úr, nem szabad állást változtatni.<stage>(Ismét háttal fordítja Szerafinnak)</stage>Gizella és Aranka kisasszonyok a mama mellett, mint a báj és
                                                         a kellem képviselői.<stage>(Hozzájuk fut, s Szidónia mellé
-                                                                                    állítja)</stage>Szerafin nagysám, a kart kissé fölemelni...<stage>(hirtelen kezébe adja a levelet)</stage></p>
+                                                                                    állítja)</stage>Szerafin nagysám, a kart kissé fölemelni...<stage>(hirtelen kezébe adja a levelet)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -4327,12 +4414,14 @@
             <stage>(nagy zavarban, Rábay tekintete elől az ajtó felé
                                             hátrálva)</stage>
             <p>Bocsánat, sürgős dolgaim hívnak, elég ennyi mára - nagyon is
-                            elég -, ajánlom magamat.<stage>(El)</stage></p>
+                            elég -, ajánlom magamat.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#sereczkyne">
             <speaker>SERECZKYNÉ</speaker>
             <p>Úgy hát én is megyek. Holnap folytatjuk. (Bélához) Rabszolga,
-                            keljen fel, és nyújtsa karját...<stage>(Bélát karonfogva)</stage>Pá, kedveseim, pá!<stage>(El Bélával)</stage></p>
+                            keljen fel, és nyújtsa karját...<stage>(Bélát karonfogva)</stage>Pá, kedveseim, pá!<stage>(El Bélával)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -4353,7 +4442,8 @@
           </sp>
           <sp who="#gizella">
             <speaker>GIZELLA</speaker>
-            <p>Megyünk, megyünk, azért nem kell úgy haragudni.<stage>(el Arankával)</stage></p>
+            <p>Megyünk, megyünk, azért nem kell úgy haragudni.<stage>(el Arankával)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4368,7 +4458,8 @@
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
-            <p>Micsoda levelet?<stage>(Szerafin mellé megy)</stage></p>
+            <p>Micsoda levelet?<stage>(Szerafin mellé megy)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
@@ -4407,7 +4498,8 @@
             <speaker>SZERAFIN</speaker>
             <stage>(hebegve)</stage>
             <p>Én nem tudom... nem értem...<stage>(Titkon Solmay kezébe csúsztatja a
-                                                        levelet)</stage></p>
+                                                        levelet)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -4418,7 +4510,8 @@
             <speaker>SOLMAY</speaker>
             <stage>(ráordít)</stage>
             <p>Hallgass!<stage>(a levelet háta mögött tartja, s a kandalló felé
-                                                        közeleg)</stage></p>
+                                                        közeleg)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -4436,7 +4529,8 @@
             <p>Csak csendesen! Meg vagyok győződve, hogy félreértés van a
                                         dologban, s te alaptalanul gyanúsítod Szerafint. Ezt a
                                         levelet én mint anyja joggal bonthatom fel, s reménylem, meg
-                                        foglak nyugtatni.<stage>(Feltöri a levelet)</stage></p>
+                                        foglak nyugtatni.<stage>(Feltöri a levelet)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -4478,7 +4572,8 @@
                                         mindent. Nem volt rágalom, amit itt előbb, saját lakásomon
                                         szemem közé dobtak! Nyomorult vagyok, meg vagyok
                                         becstelenítve a világ előtt, saját öntudatom előtt! El
-                                        tőlem!<stage>(Eldobja Szerafin kezét)</stage></p>
+                                        tőlem!<stage>(Eldobja Szerafin kezét)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -4516,11 +4611,13 @@
             <stage>(eltolva maga elől Szerafint)</stage>
             <p>Félre innen! Nincs most idő könnyekre, magyarázatokra!
                                         Becsületemet kell megmentenem... Bármily módon - de meg
-                                        fogom tenni.<stage>(El)</stage></p>
+                                        fogom tenni.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
-            <p>Vége! Vége!<stage>(A pamlagra roskad)</stage></p>
+            <p>Vége! Vége!<stage>(A pamlagra roskad)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -4531,13 +4628,15 @@
             <speaker>SZIDÓNIA</speaker>
             <stage>(félre)</stage>
             <p>Itt csak gyors ájulás segíthet.<stage>(Fenn, 
-                                                        sikoltva)</stage>Ignác, szörnyeteg!<stage>(Solmay karjai közé ájul)</stage></p>
+                                                        sikoltva)</stage>Ignác, szörnyeteg!<stage>(Solmay karjai közé ájul)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
             <p>Tessék csak a földre ájulni.<stage>(Elbocsátja Szidóniát, ki a pamlaghoz ugrik, és
                                                         Szerafin mellé ájul. Solmay elrohan Rábay
-                                                        után)</stage></p>
+                                                        után)</stage>
+            </p>
           </sp>
           <p>
             <stage>A függöny legördül</stage>
@@ -4615,7 +4714,8 @@
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
             <p>Ah! úgy? Elment?<stage>(A jobb oldalajtóhoz siet, s betekint) Valóban nincs
-                                                        itt...</stage></p>
+                                                        itt...</stage>
+            </p>
           </sp>
           <sp who="#adolf">
             <speaker>ADOLF</speaker>
@@ -4687,7 +4787,8 @@
           </sp>
           <sp who="#aranka">
             <speaker>ARANKA</speaker>
-            <p>A mama is olyankor küld el, mikor az érdekes dolgok következnek.<stage>(El Gizellával balra)</stage></p>
+            <p>A mama is olyankor küld el, mikor az érdekes dolgok következnek.<stage>(El Gizellával balra)</stage>
+            </p>
           </sp>
           <sp who="#adolf">
             <speaker>ADOLF</speaker>
@@ -4702,7 +4803,8 @@
             <speaker>ADOLF</speaker>
             <stage>(méltósággal)</stage>
             <p>Őnagysága fel fogja önt világosítani, uram, hogy ezen hanglejtés
-                            használatára nincs többé feljogosítva.<stage>(El)</stage></p>
+                            használatára nincs többé feljogosítva.<stage>(El)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4765,7 +4867,8 @@
                                                         hogy ez is nagyon elvette a kedvemet ettől a mi örökös
                                                         farsangunktól. A becsület mégiscsak becsület - még ránk nézve is,
                                                         akik eddig nem sokat tettünk érette, hát még Miklósra! Megyek,
-                                                        felkeresem, talán ráakadok valahára.<stage>(El)</stage></p>
+                                                        felkeresem, talán ráakadok valahára.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -4858,7 +4961,8 @@
                                 szerezhet senki. Oh, mama! nem szabónál készítik a boldogságot! Add
                                 vissza lelkem nyugalmát, add vissza férjem szerelmét és becsülését -
                                 megtanultam már, hogy ez az igazi boldogság, oh! hogy olyan későn
-                                tanultam meg!<stage>(El balra)</stage></p>
+                                tanultam meg!<stage>(El balra)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -4916,7 +5020,8 @@
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
-            <p>Akaratod mindig parancs reám nézve.<stage>Félre)</stage>Megkeserülöd még ezt!<stage>(El balra)</stage></p>
+            <p>Akaratod mindig parancs reám nézve.<stage>Félre)</stage>Megkeserülöd még ezt!<stage>(El balra)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5069,7 +5174,8 @@
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
-            <p>Ignác! te már nem szeretsz engem.<stage>(Feléje megy)</stage></p>
+            <p>Ignác! te már nem szeretsz engem.<stage>(Feléje megy)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -5093,7 +5199,8 @@
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
-            <p>Menj pakolni!<stage>(Ujjával dobol az ablakon)</stage></p>
+            <p>Menj pakolni!<stage>(Ujjával dobol az ablakon)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -5160,7 +5267,8 @@
                                 akar rád bízni. Ne feledd, hogy egészen az én akaratommal történik,
                                 s azt kívánom, hogy minél előbb meglegyen. A honoráriumot én
                                 fizetem, szívesen fizetek akármennyit.<stage>(Szidóniához)</stage>Úgy! Legyen egészen a te akaratod szerint, én nem gátollak. Addig Isten
-                            veled, kedves - ha szabad mondanom - néhai feleségem!<stage>(El jobbra)</stage></p>
+                            veled, kedves - ha szabad mondanom - néhai feleségem!<stage>(El jobbra)</stage>
+            </p>
           </sp>
           <sp who="#gombos">
             <speaker>GOMBOS</speaker>
@@ -5184,7 +5292,8 @@
           </sp>
           <sp who="#gombos">
             <speaker>GOMBOS</speaker>
-            <p>Ezt a pert ugyan sommásan végeztük el.<stage>(El jobbra)</stage></p>
+            <p>Ezt a pert ugyan sommásan végeztük el.<stage>(El jobbra)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5231,14 +5340,16 @@
           </sp>
           <sp who="#adolf">
             <speaker>ADOLF</speaker>
-            <p>Ha nagyságod kívánja, örökre keblem mélyébe temetem e titkot.<stage>(El)</stage></p>
+            <p>Ha nagyságod kívánja, örökre keblem mélyébe temetem e titkot.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
             <stage>(magában)</stage>
             <p>Azt írtam neki, hogy az élőképek ügyében óhajtok vele beszélni...
                                 Udvarias, finom ember, rögtön itt fog teremni - és akkor... akkor,
-                                Ignác, meglátjuk, ki szereti jobban gyermekeit...<stage>(Leül a pamlagra, elgondolkozva)</stage></p>
+                                Ignác, meglátjuk, ki szereti jobban gyermekeit...<stage>(Leül a pamlagra, elgondolkozva)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5256,7 +5367,8 @@
             <speaker>SZIDÓNIA</speaker>
             <stage>felugrik, félre)</stage>
             <p>És ilyen emberek társaságában töltsem életemet? 
-                            Soha!<stage>(fenn)</stage>Férjemet keresi, Demeter? Szobájában van.<stage>(Jobbra mutat)</stage></p>
+                            Soha!<stage>(fenn)</stage>Férjemet keresi, Demeter? Szobájában van.<stage>(Jobbra mutat)</stage>
+            </p>
           </sp>
           <sp who="#demeter">
             <speaker>DEMETER</speaker>
@@ -5307,7 +5419,8 @@
           <sp who="#demeter">
             <speaker>DEMETER</speaker>
             <p>Na, tudja, azokról az ajándékokról, melyeket Szerafin elfogadott; őt
-                            is csak a gondatlanság vitte bele - itt van a levélben.<stage>(Tenyerével a levélre üt)</stage></p>
+                            is csak a gondatlanság vitte bele - itt van a levélben.<stage>(Tenyerével a levélre üt)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
@@ -5410,7 +5523,8 @@
                                 mondhatja, hogy gonosz lelkű!... Megyek, tudom már, mit teszek!
                                 Bízzék bennem, Solmay sógor!<stage>(Megöleli Solmayt)</stage>Ne 
                             tüsszögjön, nagyságos asszony!<stage>(Megöleli Szidóniát)</stage>Bocsánat! - nem gusztusból történt; azt sem tudom, mit teszek már, de
-                            egyet tudok, és azt meg fogom tenni!<stage>(Elrohan, Tamás utána)</stage></p>
+                            egyet tudok, és azt meg fogom tenni!<stage>(Elrohan, Tamás utána)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -5421,7 +5535,8 @@
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
             <p>Mindig én voltam az áldozat - hadd legyek most is... Sújts le, tiporj
-                            el, szörnyeteg; nekem csak könnyeim vannak.<stage>(Sírva a pamlagra esik)</stage></p>
+                            el, szörnyeteg; nekem csak könnyeim vannak.<stage>(Sírva a pamlagra esik)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5514,7 +5629,8 @@
             <stage>(Szidóniához)</stage>
             <p>Megint szétpattant egy buborék.<stage>(Sereczkynéhez)</stage>Kezeit csókolom, nagysád, bocsásson meg, hogy távozom; ügyvédem itt a
                                                         mellékszobában rendezi irataimat.<stage>(Bélát maga előtt betolva az ajtón)</stage>Gyere, segíts neki, írnoknak talán mégis használhatunk, te -
-                                                        államférfi!<stage>(El Béla után jobbra)</stage></p>
+                                                        államférfi!<stage>(El Béla után jobbra)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5570,12 +5686,14 @@
           <sp who="#sereczkyne">
             <speaker>SERECZKYNÉ</speaker>
             <p>Ah! Szerafin is itt van? Sietek, képzelem, hogy meg lesz lepetve a nagy
-                            újságtól. Kétnapi menyasszonyság - nagyszerű!<stage>(el balra)</stage></p>
+                            újságtól. Kétnapi menyasszonyság - nagyszerű!<stage>(el balra)</stage>
+            </p>
           </sp>
           <sp who="#szidonia">
             <speaker>SZIDÓNIA</speaker>
             <stage>(Adolfhoz)</stage>
-            <p>Bocsássa be!<stage>(Adolf kitárja az ajtót és el)</stage></p>
+            <p>Bocsássa be!<stage>(Adolf kitárja az ajtót és el)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5677,7 +5795,8 @@
             <stage>(észrevéve Szerafint, félre)</stage>
             <p>Látom, minden el van készítve, nincs menekvés.<stage>(Szerafinhoz lép)</stage>Nagysád, én lovagias ember vagyok, s amit hibáztam, azt jóvá is tudom
                                                         tenni.<stage>(Letérdel Szerafin előtt, s meg akarja fogni
-                                                                                    kezét)</stage></p>
+                                                                                    kezét)</stage>
+            </p>
           </sp>
           <sp who="#szerafin">
             <speaker>SZERAFIN</speaker>
@@ -5719,7 +5838,8 @@
                             ember! Más az én bánatom, nem segíthet azon az ön jóvátétele... Ah! és
                             még nőül is akarna venni? Bocsásson meg, Chupor, de ez olyan furcsa,
                             hogy nem állhatom meg nevetés nélkül!<stage>Kitör elfojtott nevetése, s hangos kacagásba megy
-                                                        át)</stage></p>
+                                                        át)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5740,7 +5860,8 @@
             <speaker>SZERAFIN</speaker>
             <stage>(örömmel)</stage>
             <p>Miklós!<stage>(Feléje akar sietni, zavartan és félve megáll, s lesüti
-                                                        szemét)</stage></p>
+                                                        szemét)</stage>
+            </p>
           </sp>
           <sp who="#chupor">
             <speaker>CHUPOR</speaker>
@@ -5749,11 +5870,13 @@
                             Rendelkezzék velem, kész vagyok minden elégtételre; ámbár a legfényesebb
                             elégtételt éppen most adtam meg, midőn (meghajolva Szerafin előtt)
                             őnagysága úgy kinevetett, hogy egész életemre elég lehet. De ha ön mégis
-                            elégtételt kíván, én lovagias ember vagyok.<stage>(Demeter és Tamás jönnek)</stage></p>
+                            elégtételt kíván, én lovagias ember vagyok.<stage>(Demeter és Tamás jönnek)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
-            <p>Félreértés volt, Chupor, nincs öntől semmi kívánnivalóm.<stage>(Kezet nyújt neki)</stage></p>
+            <p>Félreértés volt, Chupor, nincs öntől semmi kívánnivalóm.<stage>(Kezet nyújt neki)</stage>
+            </p>
           </sp>
           <sp who="#chupor">
             <speaker>CHUPOR</speaker>
@@ -5780,7 +5903,8 @@
           <sp who="#chupor">
             <speaker>CHUPOR</speaker>
             <stage>(legnagyobb zavarban)</stage>
-            <p>Rendelkezésére állok, uram!<stage>(El)</stage></p>
+            <p>Rendelkezésére állok, uram!<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#solmay">
             <speaker>SOLMAY</speaker>
@@ -5819,7 +5943,8 @@
                             Nem vagyok rá méltó - oh, engedd, hadd tegyem rá méltóvá magamat, hadd
                             legyek hű és igaz társad balsorsodban -, férjem, drága, szeretett
                             férjem!<stage>(Kitörnek könnyei, s Rábay lábai elé esik, átkarolva
-                                                        térdeit)</stage></p>
+                                                        térdeit)</stage>
+            </p>
           </sp>
           <sp who="#rabay">
             <speaker>RÁBAY</speaker>
@@ -5865,7 +5990,8 @@
           <sp who="#gizella">
             <speaker>GIZELLA</speaker>
             <stage>(halkan)</stage>
-            <p>Igen.<stage>Kezét nyújtja Tamásnak)</stage></p>
+            <p>Igen.<stage>Kezét nyújtja Tamásnak)</stage>
+            </p>
           </sp>
           <sp who="#demeter">
             <speaker>DEMETER</speaker>

@@ -52,10 +52,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000041</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -227,9 +229,7 @@
     <body>
       <div type="act">
         <head type="title">ELSŐ FELVONÁS</head>
-        <stage>
-          <hi rend="expanded">(mezei lak’ tája)</hi>
-        </stage>
+        <stage><hi rend="expanded">(mezei lak’ tája)</hi></stage>
         <stage>REMETE, DORA, LENKE</stage>
         <sp who="#remete">
           <speaker>REMETE</speaker>
@@ -886,9 +886,7 @@
             <l>Belé nem mennék minden kincsekért. <stage>(el)</stage></l>
           </lg>
         </sp>
-        <stage>
-          <hi rend="expanded">(Vár)</hi>
-        </stage>
+        <stage><hi rend="expanded">(Vár)</hi></stage>
         <stage>TELEGDI utóbb GERŐ</stage>
         <sp who="#telegdi">
           <speaker>TELEGDI</speaker>
@@ -1854,9 +1852,7 @@
       </div>
       <div type="act">
         <head type="title">MÁSODIK FELVONÁS</head>
-        <stage>
-          <hi rend="expanded">(Mezei lak)</hi>
-        </stage>
+        <stage><hi rend="expanded">(Mezei lak)</hi></stage>
         <stage>LENKE var, BANÓ egy időig hallgatva néz rá</stage>
         <sp who="#bano">
           <speaker>BANÓ</speaker>
@@ -2764,9 +2760,7 @@
             <l>De eddig bujdosám, most honn vagyok. <stage>(el)</stage></l>
           </lg>
         </sp>
-        <stage>
-          <hi rend="expanded">(Erdő)</hi>
-        </stage>
+        <stage><hi rend="expanded">(Erdő)</hi></stage>
         <sp who="#bano">
           <speaker>BANÓ</speaker>
           <lg>
@@ -3389,9 +3383,7 @@
       </div>
       <div type="act">
         <head type="title">HARMADIK FELVONÁS</head>
-        <stage>
-          <hi rend="expanded">(Mezei lak)</hi>
-        </stage>
+        <stage><hi rend="expanded">(Mezei lak)</hi></stage>
         <sp who="#remete">
           <speaker>REMETE</speaker>
           <lg>
@@ -3681,9 +3673,7 @@
             <l>’S mint a’ tükörbe néző szörnyeteg,</l>
             <l>Önnön szemével ölje meg magát. <stage>(el)</stage></l>
           </lg>
-          <stage>
-            <hi rend="expanded">(vár)</hi>
-          </stage>
+          <stage><hi rend="expanded">(vár)</hi></stage>
           <stage>TELEGDI, LENKE</stage>
         </sp>
         <sp who="#telegdi">
@@ -4151,9 +4141,7 @@
           <lg>
             <l>A’ sír’ nyugalma háboríthatatlan. <stage>(el)</stage></l>
           </lg>
-          <stage>
-            <hi rend="expanded">(Erdő)</hi>
-          </stage>
+          <stage><hi rend="expanded">(Erdő)</hi></stage>
           <stage>(Bokrok között remetelak ’s vasrostély ajtajú kápolna látszik, mellette egy mély
                 vizárok megy el, rajta keskeny bürü van, a’ remete ’s Lenke által jőnek. A’ remete
                 a’ bürüt áthúzza, s leereszti)</stage>
@@ -4584,9 +4572,7 @@
       </div>
       <div type="act">
         <head type="title">NEGYEDIK FELVONÁS</head>
-        <stage>
-          <hi rend="expanded">(Vár)</hi>
-        </stage>
+        <stage><hi rend="expanded">(Vár)</hi></stage>
         <sp who="#telegdi">
           <speaker>TELEGDI</speaker>
           <lg>
@@ -5022,9 +5008,7 @@
             <l>Miként a’ sors hozandja, új örömre,</l>
             <l>Vagy vérontással rettentő boszúra.</l>
           </lg>
-          <stage>
-            <hi rend="expanded">(Erdő)</hi>
-          </stage>
+          <stage><hi rend="expanded">(Erdő)</hi></stage>
           <stage>Egy felől a’ kápolna látszik, Lenke rostélyába fogózva ’s fejét arra támasztva,
                 térdepel, más felől Banó gondolkodva áll</stage>
         </sp>
@@ -5560,9 +5544,7 @@
       </div>
       <div type="act">
         <head type="title">ÖTÖDIK FELVONÁS</head>
-        <stage>
-          <hi rend="expanded">(Remetelak’ tája)</hi>
-        </stage>
+        <stage><hi rend="expanded">(Remetelak’ tája)</hi></stage>
         <sp who="#remete">
           <speaker>REMETE</speaker>
           <lg>
@@ -6034,9 +6016,7 @@
             <l>Hamar tanultam által évidet,</l>
             <l>’S a’ mit tudok hajh gyötrelmemre van! <stage>(el)</stage></l>
           </lg>
-          <stage>
-            <hi rend="expanded">(Vár)</hi>
-          </stage>
+          <stage><hi rend="expanded">(Vár)</hi></stage>
           <stage>TELEGDI, GERŐ</stage>
         </sp>
         <sp who="#telegdi">
@@ -6564,9 +6544,7 @@
             <l>Irtóztató lesz érte haragom.</l>
             <l>Irtóztató! <stage>(elrohan)</stage></l>
           </lg>
-          <stage>
-            <hi rend="expanded">(Erdő)</hi>
-          </stage>
+          <stage><hi rend="expanded">(Erdő)</hi></stage>
           <stage>(Remetelak’ tája. Szabad téren egy új sírhalom, mellynél egyfelül Lenke térdepel
                 leborulva, mögötte Brigitta áll társnéival, másfelül Vid gyászlobogós kopjára
                 támaszkodva; hátrább mind két felül fegyveres nép, távolabb Telegdi)</stage>

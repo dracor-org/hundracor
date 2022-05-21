@@ -61,8 +61,7 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref>
-          </orgName>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -75,7 +74,8 @@
         </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -2474,7 +2474,8 @@
             <speaker>CREDULUS.</speaker>
             <p>Ó, áldott Úristen, ki mindnyájunkhoz ilyen kegyelmes vagy! Ezelőtt itt az
               hegyeken-völgyeken mind csak síttam-ríttam, de légyen hála Istennek, ezután kiáltok,
-              szólok s nevetek!<stage>Dienes közikben szól.</stage></p>
+              szólok s nevetek!<stage>Dienes közikben szól.</stage>
+            </p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>

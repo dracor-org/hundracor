@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000020</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -228,7 +230,8 @@
   <text>
     <front>
       <castList>
-        <head type="title"><hi rend="underline"/>SZEMÉLYEK</head>
+        <head type="title">
+          <hi rend="underline"/>SZEMÉLYEK</head>
         <castItem>
           <role><roleName>II. Endre</roleName>a magyarok királya</role>
         </castItem>
@@ -238,19 +241,13 @@
         <castGroup>
           <roleDesc>Endre és Gertrudis gyermekei</roleDesc>
           <castItem>
-            <role>
-              <roleName>Béla</roleName>
-            </role>
+            <role><roleName>Béla</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Endre</roleName>
-            </role>
+            <role><roleName>Endre</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Mária</roleName>
-            </role>
+            <role><roleName>Mária</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
@@ -268,20 +265,14 @@
         <castGroup>
           <roleDesc>Melinda bátyjai</roleDesc>
           <castItem>
-            <role>
-              <roleName>Mikhál bán</roleName>
-            </role>
+            <role><roleName>Mikhál bán</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>Simon bán</roleName>
-            </role>
+            <role><roleName>Simon bán</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
-          <role>
-            <roleName>Egy zászlósúr</roleName>
-          </role>
+          <role><roleName>Egy zászlósúr</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Petúr bán</roleName>a bihari főispán</role>
@@ -302,9 +293,7 @@
           <role><roleName>Tiborc</roleName>paraszt</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Zászlósurak, Vendégek, Udvornikok, Udvari asszonyok, Ritterek, Békételenek, Katonák, Jobbágyok</roleName>
-          </role>
+          <role><roleName>Zászlósurak, Vendégek, Udvornikok, Udvari asszonyok, Ritterek, Békételenek, Katonák, Jobbágyok</roleName></role>
         </castItem>
       </castList>
       <p>
@@ -450,18 +439,12 @@
             <l>Szerelmet érzek én, s csak az meríthet</l>
             <l>Vég nélkül édes Elysiumba, hol</l>
             <l>Önnön szerelmünk önkirálynénk,</l>
-            <l>
-              <hi rend="italic">Szép életünk világa, valódi
-                                                  jó,</hi>
-            </l>
-            <l>
-              <hi rend="italic">Forrása annak, a mi nagy,
-                                                  koporsó</hi>
-            </l>
-            <l>
-              <hi rend="italic">Üregében élet, és kivánt
-                                                  jövendőnk</hi>
-            </l>
+            <l><hi rend="italic">Szép életünk világa, valódi
+                                                  jó,</hi></l>
+            <l><hi rend="italic">Forrása annak, a mi nagy,
+                                                  koporsó</hi></l>
+            <l><hi rend="italic">Üregében élet, és kivánt
+                                                  jövendőnk</hi></l>
             <l><hi rend="italic">Egyetlen egy kezesse</hi> -
                                                   az, de az! -</l>
           </lg>
@@ -524,9 +507,7 @@
           <lg>
             <l>Csak célomat</l>
             <l>Érjem - ha a pokolba is - megyek.</l>
-            <l>
-              <stage>(El, Gertruddal.)</stage>
-            </l>
+            <l><stage>(El, Gertruddal.)</stage></l>
           </lg>
         </sp>
         <sp who="#biberach">
@@ -536,9 +517,7 @@
                                                   mert</l>
             <l>Egy ily keszeg, sovány fiút az izmos</l>
             <l>Bánk bán - bajúsza egy végére tűz.</l>
-            <l>
-              <stage>(Utánok ballag.)</stage>
-            </l>
+            <l><stage>(Utánok ballag.)</stage></l>
           </lg>
         </sp>
       </div>
@@ -581,8 +560,7 @@
               <l>De mégis, én-</l>
               <l>Velem csak fogsz ürítni egy pohárt?</l>
               <l>No - <hi rend="italic">a bojóthi
-                                                  Mortundorfok!</hi>
-                                                  <stage>(Pohárt emel.)</stage></l>
+                                                  Mortundorfok!</hi><stage>(Pohárt emel.)</stage></l>
             </lg>
           </sp>
           <sp who="#mikhal_ban">
@@ -593,9 +571,7 @@
               <l>Ah!</l>
               <l>Hazám! szerette jó hazám, <hi rend="italic">Bojóth!</hi></l>
               <l>De vége! Már nekik is - jó éjtszakát!</l>
-              <l>
-                <stage>(Felkapván az ezüstpohárt.)</stage>
-              </l>
+              <l><stage>(Felkapván az ezüstpohárt.)</stage></l>
               <l>No, éljetek fenn ott, bojóthiak!</l>
               <l>Ott, ott van élet; itt csak éjtszaka.
                                                   <stage>(Iszik.)</stage></l>
@@ -653,14 +629,10 @@
             <lg>
               <l>Vagy Magyarországban. Magam</l>
               <l>Is gondolám már s elvégeztem azt,</l>
-              <l>
-                <hi rend="italic">Hogy minden országból
-                                                  Bojóthra vinném;</hi>
-              </l>
-              <l>
-                <hi rend="italic">De itt nem aljasúl el a
-                                                  spanyol -</hi>
-              </l>
+              <l><hi rend="italic">Hogy minden országból
+                                                  Bojóthra vinném;</hi></l>
+              <l><hi rend="italic">De itt nem aljasúl el a
+                                                  spanyol -</hi></l>
               <l>Elég ha mindmegannyi jó magyar</l>
               <l>Háznépnek ők lehetnek törzsöki.</l>
             </lg>
@@ -773,8 +745,7 @@
               <l>Ott cimbalom, síp, hárfa zengenek:</l>
               <l>Ott azt hiszik, hogy ők örvendenek -</l>
               <l>Nem, nem csak egy az, aki itten örvend,</l>
-              <l>Mikhál az, a <hi rend="italic">bojóthi.</hi>
-                                                  <stage>(Iszik.)</stage></l>
+              <l>Mikhál az, a <hi rend="italic">bojóthi.</hi><stage>(Iszik.)</stage></l>
             </lg>
           </sp>
           <sp who="#simon_ban">
@@ -1432,14 +1403,10 @@
           <sp who="#bank_ban">
             <speaker>BÁNK</speaker>
             <lg>
-              <l>
-                <hi rend="italic">A szerelme-féltő</hi>
-              </l>
+              <l><hi rend="italic">A szerelme-féltő</hi></l>
               <l><hi rend="italic">Bánk bán!</hi><stage>(kacag)</stage> Tüdő, hazudsz! hazudsz!</l>
-              <l>
-                <stage>(Fájdalommal fejét kezei közé
-                                                  szorítja.)</stage>
-              </l>
+              <l><stage>(Fájdalommal fejét kezei közé
+                                                  szorítja.)</stage></l>
               <l>Mit nyughatatlanítsz setétes álom-</l>
               <l>Kép! mit gyötörsz incselkedő chimaera!?</l>
               <l>Hát a világnak egyik pólusától a</l>
@@ -1462,10 +1429,8 @@
               <l>Ah, mintha jönnének - jönnek - csak el! -</l>
               <l>Éhezzetek szegény férgek: nem ért</l>
               <l>Még a lopáshoz ősz Tiborc apátok.</l>
-              <l>
-                <stage>(Rettegve Bánk bán után
-                                                  siet.)</stage>
-              </l>
+              <l><stage>(Rettegve Bánk bán után
+                                                  siet.)</stage></l>
             </lg>
           </sp>
         </div>
@@ -1526,10 +1491,8 @@
                                                   veti szemeit, melyen Bánk elment).</stage>
             <lg>
               <l>Maga.</l>
-              <l>
-                <stage>(Hangosan, vélvén, hogy Bánk
-                                                  hallgatózhat.)</stage>
-              </l>
+              <l><stage>(Hangosan, vélvén, hogy Bánk
+                                                  hallgatózhat.)</stage></l>
               <l>Germanciust, ki elrejté magát,</l>
               <l>Hogy majd kilesse, mit beszéllenek</l>
               <l>Felőle, nem jó ám követni mindég,</l>
@@ -1753,9 +1716,7 @@
               <l>Ha <hi rend="italic">félelem s reménység</hi>
                                                   mindenik</l>
               <l>Kereket helyén maradni kényszerít.</l>
-              <l>
-                <stage>(Gondolkozik.)</stage>
-              </l>
+              <l><stage>(Gondolkozik.)</stage></l>
               <l>Itthon vagyon tehát - <hi rend="italic">Melinda</hi> a jel -</l>
               <l>Jó, jó - - de csak vigyázva. Meglehet,</l>
               <l>Bánkhoz szegődök. <hi rend="italic">Ott van a
@@ -1913,9 +1874,7 @@
             <stage>(könnyű vállvonyítással).</stage>
             <lg>
               <l>Szegényke!</l>
-              <l>
-                <stage>(Szünet után.)</stage>
-              </l>
+              <l><stage>(Szünet után.)</stage></l>
               <l>Kár ilyen csinos főért, hogy a</l>
               <l>Velő hibáz belőle! Benne van</l>
               <l>Szép két szem, amely hódítón beszél;</l>
@@ -2074,14 +2033,10 @@
             <speaker>OTTÓ</speaker>
             <lg>
               <l>Oh bizonnyal az ő - egy boldog ember!</l>
-              <l>
-                <stage>(Sóhajtva, Melinda lecsüggő keze után
-                                                  hajol,</stage>
-              </l>
-              <l>
-                <stage>s azt hosszasan homlokához
-                                                  nyomja.)</stage>
-              </l>
+              <l><stage>(Sóhajtva, Melinda lecsüggő keze után
+                                                  hajol,</stage></l>
+              <l><stage>s azt hosszasan homlokához
+                                                  nyomja.)</stage></l>
             </lg>
           </sp>
         </div>
@@ -2092,15 +2047,11 @@
             <stage>(az ajtócskán ismét visszajön).</stage>
             <lg>
               <l>Vad indulat, mért kergetsz vissza ismét?</l>
-              <l>
-                <stage>(Meglátván őket, tenyerét szemeire
-                                                  csapja.)</stage>
-              </l>
+              <l><stage>(Meglátván őket, tenyerét szemeire
+                                                  csapja.)</stage></l>
               <l>Oh véghetetlen, szent könyörületesség!</l>
-              <l>
-                <stage>(Erős muzsika; Bánk megijedve szédeleg
-                                                  ki, vissza az ajtón.)</stage>
-              </l>
+              <l><stage>(Erős muzsika; Bánk megijedve szédeleg
+                                                  ki, vissza az ajtón.)</stage></l>
             </lg>
           </sp>
           <sp who="#melinda">
@@ -2146,10 +2097,7 @@
               <l>Világot álmod őrültségiben,</l>
               <l>Melynek csak <hi rend="italic">Ottó</hi> a
                                                   lakossa és -</l>
-              <l>
-                <hi rend="italic">Melinda.</hi>
-                <stage>(Letérdel.)</stage>
-              </l>
+              <l><hi rend="italic">Melinda.</hi><stage>(Letérdel.)</stage></l>
             </lg>
           </sp>
           <sp who="#melinda">
@@ -2196,10 +2144,8 @@
               <l>Letérdel, az vagy imádkozik, vagy ámít."</l>
               <l>Ő mondta ezt, ámító! és bizony</l>
               <l>Bánk nem hazud: s ezért megvet Melinda.</l>
-              <l>
-                <stage>(Egész bosszúval el akar sietni; de
-                                                  szemközt jön Gertrudis.)</stage>
-              </l>
+              <l><stage>(Egész bosszúval el akar sietni; de
+                                                  szemközt jön Gertrudis.)</stage></l>
             </lg>
           </sp>
         </div>
@@ -2236,21 +2182,15 @@
             <lg>
               <l>Mindent lehet. Köszönöm, nagyasszonyom,</l>
               <l>Hogy oly kegyes valál s átláttad azt,</l>
-              <l>
-                <hi rend="italic">Hogy a bojóthi Melindának nem
-                                                  illik</hi>
-              </l>
-              <l>
-                <hi rend="italic">Falun magányban lakni, mert
-                                                  nagyúrné,</hi>
-              </l>
+              <l><hi rend="italic">Hogy a bojóthi Melindának nem
+                                                  illik</hi></l>
+              <l><hi rend="italic">Falun magányban lakni, mert
+                                                  nagyúrné,</hi></l>
               <l>S alkalmatosságot szerzél nekem</l>
               <l><hi rend="italic">Ezzel</hi><stage>(Ottóra mutat)</stage> sok édes múlatságra
                                                   is -</l>
               <l>Oh, mert hiszen Melinda együgyű!</l>
-              <l>
-                <stage>(Szinte illetlenül elsiet.)</stage>
-              </l>
+              <l><stage>(Szinte illetlenül elsiet.)</stage></l>
             </lg>
           </sp>
           <sp who="#gertrudis">
@@ -2450,9 +2390,7 @@
             <stage>(elkomorodik).</stage>
             <lg>
               <l>Sír is!</l>
-              <l>
-                <stage>(Keserűen elmosolyodik.)</stage>
-              </l>
+              <l><stage>(Keserűen elmosolyodik.)</stage></l>
               <l>És</l>
               <l>Te róla mégis le akarsz mondani?</l>
               <l>Nem ösmered tehát az asszonyi</l>
@@ -2484,10 +2422,8 @@
               <l>Országaimból - és mégis, ha azt</l>
               <l>Megérni kellene, hogy reám mutatva</l>
               <l>Susogni hallanám: ni itt megyen</l>
-              <l>
-                <hi rend="italic">Gertrúd, az öccse kinek
-                                                  kontár vala</hi>
-              </l>
+              <l><hi rend="italic">Gertrúd, az öccse kinek
+                                                  kontár vala</hi></l>
               <l><hi rend="italic">Melinda elszédítésében</hi> -
                                                   Ottó!</l>
             </lg>
@@ -2511,10 +2447,8 @@
             <lg>
               <l>Csak te, oh</l>
               <l>Gertrudis! add tanácsodat nekem.</l>
-              <l>
-                <hi rend="italic">Hogyan lehessen enyim Melinda
-                                                  szíve?</hi>
-              </l>
+              <l><hi rend="italic">Hogyan lehessen enyim Melinda
+                                                  szíve?</hi></l>
             </lg>
           </sp>
           <sp who="#gertrudis">
@@ -2548,10 +2482,8 @@
             <speaker>OTTÓ</speaker>
             <lg>
               <l>Hah!</l>
-              <l>
-                <stage>(A bosszúság és a szégyen közt habozván,
-                                                  végre kikiált.)</stage>
-              </l>
+              <l><stage>(A bosszúság és a szégyen közt habozván,
+                                                  végre kikiált.)</stage></l>
               <l>Bíberach!</l>
             </lg>
           </sp>
@@ -2585,15 +2517,11 @@
                                                   üríteni.</l>
               <l>Ott leszek én majd a pohárnok; a-</l>
               <l>Vagy légy magad - ne, itt egy kis hevítő;</l>
-              <l>
-                <stage>(Porokat ád által.)</stage>
-              </l>
+              <l><stage>(Porokat ád által.)</stage></l>
               <l>Emez pedig nénédnek altató.</l>
               <l>Ha ezt az álom elszólítja onnan</l>
               <l>Te vissza is mehetsz Melindához megént -</l>
-              <l>
-                <stage>(Elmosolyodik.)</stage>
-              </l>
+              <l><stage>(Elmosolyodik.)</stage></l>
             </lg>
           </sp>
           <sp who="#otto">
@@ -2613,12 +2541,10 @@
               <l>Lettél s fizettél volna, jobb tanácsot</l>
               <l>Is adhaték. Most jobb lesz tartani,</l>
               <l>Jó herceg, a magyarsággal. - No csak menj!</l>
-              <l>
-                <stage>(Le akar egy székre ereszkedni, de
+              <l><stage>(Le akar egy székre ereszkedni, de
                                                   mintha valami jobb jutott volna eszébe, halkkal
                                                   felemelkedik, és a belépő Izidórának, Ottó után
-                                                  mutatván, a másik oldalon elmegy.)</stage>
-              </l>
+                                                  mutatván, a másik oldalon elmegy.)</stage></l>
             </lg>
           </sp>
         </div>
@@ -2815,10 +2741,8 @@
               <l>Zárt néki, míg nekünk nem adja ő.</l>
               <l>Tű asszonyok kezében, nem királyi</l>
               <l>Pálcánk - le onnan édes asszonyom!</l>
-              <l>
-                <stage>(A felette lévő képet
-                                                  ellöki.)</stage>
-              </l>
+              <l><stage>(A felette lévő képet
+                                                  ellöki.)</stage></l>
               <l>Egy olyan teremtés, akinek nem ez</l>
               <l>Hazája, - cinteremjeinkben a-</l>
               <l>Kinek lenyúgodott szülői nem</l>
@@ -2841,21 +2765,17 @@
               <l>Az, ami játékon forog, hogy a</l>
               <l>Kockák vetésén kissé karjaink</l>
               <l>Fárasszuk?</l>
-              <l>
-                <stage>(Felkapván a mellette levő paizst, arról
+              <l><stage>(Felkapván a mellette levő paizst, arról
                                                   a takarót lerántja és a címer rajta egy a trónus
-                                                  alatt vérében fetrengő asszony.)</stage>
-              </l>
+                                                  alatt vérében fetrengő asszony.)</stage></l>
               <l>Im csak ide tekéntsetek!</l>
               <l>Nem érdemes mászásra e derék</l>
               <l>Szőlőgerezd? Nem érdemes, hogy a</l>
               <l>Király megént király legyen? s nyakunkra</l>
               <l>Ne hágjon a dölyfös Meránia?</l>
-              <l>
-                <stage>(Mind bámulva vonják le mellettük levő
+              <l><stage>(Mind bámulva vonják le mellettük levő
                                                   paizsaikról a takarót s mindeniken az előbbeni
-                                                  címer látszik.)</stage>
-              </l>
+                                                  címer látszik.)</stage></l>
               <l>Egy véres asszony a királyi szék alatt. - -
                                                   -</l>
               <l>Nincs senki is? - no menjetek haza</l>
@@ -2942,9 +2862,7 @@
               <l>Petur - ti - emberek! - Irtóztató</l>
               <l>Álomba rengettetek el engemet.</l>
               <l>Mikhál - öreg! mi lett belőled? - ébredj!</l>
-              <l>
-                <stage>(Magát mellénél rázza.)</stage>
-              </l>
+              <l><stage>(Magát mellénél rázza.)</stage></l>
             </lg>
           </sp>
           <sp who="#petur_ban">
@@ -2982,9 +2900,7 @@
               <l>Jutottam? <stage>(Térdreesik.)</stage> Irgalom
                                                   meg irgalom,</l>
               <l>Irgalmas Isten! Ah, hová jutottam!</l>
-              <l>
-                <stage>(Elhanyatlik.)</stage>
-              </l>
+              <l><stage>(Elhanyatlik.)</stage></l>
             </lg>
           </sp>
           <sp who="#simon_ban">
@@ -3146,10 +3062,8 @@
                                                   elhagyatnak.</l>
               <l>Azonban képzelhedd érzésimet</l>
               <l>Midőn felébredék s kiáltani hallom:</l>
-              <l>
-                <hi rend="italic">Le a királyi székből! -
-                                                  Pártütés!</hi>
-              </l>
+              <l><hi rend="italic">Le a királyi székből! -
+                                                  Pártütés!</hi></l>
             </lg>
           </sp>
           <sp who="#bank_ban">
@@ -3287,18 +3201,12 @@
               <l>Nyelvén lebegni láttatott: <hi rend="italic">"Köszöntöm</hi></l>
               <l><hi rend="italic">Uratokat</hi> (így szólt),
                                                   <hi rend="italic">mondjátok neki,</hi></l>
-              <l>
-                <hi rend="italic">Hogy ezen csekélységgel
-                                                  elégedne meg;</hi>
-              </l>
-              <l>
-                <hi rend="italic">Ha Isten éltet, még idővel a
-                                                  leg-</hi>
-              </l>
-              <l>
-                <hi rend="italic">Több drágaságokkal fogom
-                                                  tetézni," -</hi>
-              </l>
+              <l><hi rend="italic">Hogy ezen csekélységgel
+                                                  elégedne meg;</hi></l>
+              <l><hi rend="italic">Ha Isten éltet, még idővel a
+                                                  leg-</hi></l>
+              <l><hi rend="italic">Több drágaságokkal fogom
+                                                  tetézni," -</hi></l>
               <l>S kirakta a szörnyű sok kincseket,</l>
               <l>Amelyeken Thüringia elvakult.</l>
               <l>Hogy álla ottan Endre, hátul egy</l>
@@ -3344,10 +3252,8 @@
               <l>Elnyerte Újfalun, mert szorgalommal</l>
               <l>Töltötte a királyné kancsóit. - Sokáig
                                                   éljen!</l>
-              <l>
-                <stage>(Egy kancsót magasan felemel, azután
-                                                  kiönti a földre.)</stage>
-              </l>
+              <l><stage>(Egy kancsót magasan felemel, azután
+                                                  kiönti a földre.)</stage></l>
             </lg>
           </sp>
           <sp who="#mikhal_ban">
@@ -3573,10 +3479,8 @@
               <l>Mely őrülésre hoz: de félre ezt</l>
               <l>Most egyszer! - Emberek, jertek velem!</l>
               <l>Előbb való a hit parancsolatja;</l>
-              <l>
-                <hi rend="italic">Istennek a kenettje egy
-                                                  király felség.</hi>
-              </l>
+              <l><hi rend="italic">Istennek a kenettje egy
+                                                  király felség.</hi></l>
             </lg>
           </sp>
           <sp who="#beketlenek">
@@ -3809,9 +3713,7 @@
             <speaker>BIBERACH</speaker>
             <lg>
               <l>No hadd beszéljem hát magam ki; de -</l>
-              <l>
-                <stage>(Igazán megszeppenve).</stage>
-              </l>
+              <l><stage>(Igazán megszeppenve).</stage></l>
               <l>Ördögbe is! valóban most eszem'</l>
               <l>Fel kell tekerni - átkozott hajón evez
                                                   szerencsém,</l>
@@ -4040,10 +3942,8 @@
               <l>Lelkem menyasszonyi ágynak gondolá;</l>
               <l>Pedig becsűletünknek egy koporsót</l>
               <l>Szegeztek, Oh Melinda!</l>
-              <l>
-                <stage>(Bánatosan lehajtja fejét s végre
-                                                  elszunnyad.)</stage>
-              </l>
+              <l><stage>(Bánatosan lehajtja fejét s végre
+                                                  elszunnyad.)</stage></l>
             </lg>
           </sp>
           <sp who="#simon_ban">
@@ -4100,10 +4000,8 @@
             <lg>
               <l>Aludj,</l>
               <l>Mohón kilobbant hazafiság! -</l>
-              <l>
-                <stage>(Elragadtatva néz ki a
-                                                  hajnalcsillagra.)</stage>
-              </l>
+              <l><stage>(Elragadtatva néz ki a
+                                                  hajnalcsillagra.)</stage></l>
               <l>Dicső fény-</l>
               <l>Csillag! <stage>(Hirtelen
                                                   gúnyolva.)</stage></l>
@@ -4145,10 +4043,8 @@
               <l>Mit térdepelsz? az Isten nincsen itt -</l>
               <l>Állj fel! beléphet egy meráni állat,</l>
               <l>És azt hihetné: őtet illeti.</l>
-              <l>
-                <stage>(El akar menni, de ismét
-                                                  visszajön.)</stage>
-              </l>
+              <l><stage>(El akar menni, de ismét
+                                                  visszajön.)</stage></l>
               <l>Hát nem cselekszed?</l>
             </lg>
           </sp>
@@ -4185,9 +4081,7 @@
               <l>Nem, azt ne mondja az udvar, mert hazud</l>
               <l>Mindenkor - ez ne mondjon engem annak,</l>
               <l>Ah, én szerencsétlen személy vagyok!</l>
-              <l>
-                <stage>(Lerogy a földre.)</stage>
-              </l>
+              <l><stage>(Lerogy a földre.)</stage></l>
             </lg>
           </sp>
           <sp who="#bank_ban">
@@ -4195,9 +4089,7 @@
             <stage>(felemeli).</stage>
             <lg>
               <l>Szegény, szerencsétlen Melinda!</l>
-              <l>
-                <stage>(Merően néznek egymásra.)</stage>
-              </l>
+              <l><stage>(Merően néznek egymásra.)</stage></l>
               <l>Mit</l>
               <l>Akarsz? Mi kell? tehát engemet, mint</l>
               <l>Egy Tantalust az el nem érhető</l>
@@ -4269,9 +4161,7 @@
               <l>Tűz ége csontjaimban s a királyné</l>
               <l>Aludni ment - álmos volt. Ébredezz!</l>
               <l>Add vissza gyermekem, te nagy királyné!</l>
-              <l>
-                <stage>(Elsiet.)</stage>
-              </l>
+              <l><stage>(Elsiet.)</stage></l>
             </lg>
           </sp>
           <sp who="#bank_ban">
@@ -4288,10 +4178,8 @@
               <l>Szív, s a kimérhetetlen irgalom</l>
               <l>Által susogja azt a jó reménység</l>
               <l>Lelkembe: nem lehet. - Setét remény!</l>
-              <l>
-                <stage>(Karjait kinyújtja az ablakon,
-                                                  ölelve.)</stage>
-              </l>
+              <l><stage>(Karjait kinyújtja az ablakon,
+                                                  ölelve.)</stage></l>
               <l>Ne rontsa ezt el a világod, oh</l>
               <l>Auróra!</l>
               <l>Hiszen Melinda úgyse tudja, mit</l>
@@ -4367,9 +4255,7 @@
             <speaker>IZIDÓRA</speaker>
             <lg>
               <l>Megengedek, mert meg vagy háborodva.</l>
-              <l>
-                <stage>(El akar.)</stage>
-              </l>
+              <l><stage>(El akar.)</stage></l>
             </lg>
           </sp>
           <sp who="#bank_ban">
@@ -4619,10 +4505,8 @@
             <lg>
               <l>Van más kigázolás? - vitézkedést</l>
               <l>Ugyan ne várjanak tőlem; de hisz'</l>
-              <l>
-                <hi rend="italic">A háborúban szabad
-                                                  fosztani.</hi>
-              </l>
+              <l><hi rend="italic">A háborúban szabad
+                                                  fosztani.</hi></l>
               <l>E gondolat legjobbnak látszatott.</l>
             </lg>
           </sp>
@@ -4648,10 +4532,8 @@
               <l>Igaz, hogy a metéltetett sikolt; de</l>
               <l>Hisz' arra nem szükség hallgatni, csak</l>
               <l>Haszon lehessen. - S a nagyasszony -?</l>
-              <l>
-                <stage>(Keserű megvetéssel lódítja el a
-                                                  kezét.)</stage>
-              </l>
+              <l><stage>(Keserű megvetéssel lódítja el a
+                                                  kezét.)</stage></l>
             </lg>
           </sp>
           <sp who="#bank_ban">
@@ -4799,10 +4681,8 @@
               <l>Kirontjuk a korlátokat, lezúzzuk</l>
               <l>A jó barátot, ellenséget; és</l>
               <l>Aztán ha célra értünk, sírni kell csak:</l>
-              <l>
-                <hi rend="italic">Szánom keserveiteket,
-                                                  emberek!</hi>
-              </l>
+              <l><hi rend="italic">Szánom keserveiteket,
+                                                  emberek!</hi></l>
             </lg>
           </sp>
           <sp who="#tiborc">
@@ -4813,10 +4693,8 @@
               <l>Már oly sokat velünk, ha zsebe</l>
               <l>Tele van - hisz' a természet a szegényt</l>
               <l>Maga arra szánta, hogy szülessen, éljen.</l>
-              <l>
-                <hi rend="italic">Dolgozzon, éhezzen,
-                                                  sanyarogjon és -</hi>
-              </l>
+              <l><hi rend="italic">Dolgozzon, éhezzen,
+                                                  sanyarogjon és -</hi></l>
               <l><hi rend="italic">Meghaljon.</hi> Úgy van, úgy!
                                                   ismérni kell</l>
               <l>Az élhetetlenek sorsát, minek-</l>
@@ -4895,9 +4773,7 @@
             <lg>
               <l>Igen - kedves szomszédok! él</l>
               <l>Még Bánk, atyánk - fogom kiáltani.</l>
-              <l>
-                <stage>(Sírva elmegy.)</stage>
-              </l>
+              <l><stage>(Sírva elmegy.)</stage></l>
             </lg>
           </sp>
           <sp who="#bank_ban">
@@ -4905,9 +4781,7 @@
             <lg>
               <l><hi rend="italic">Atya?</hi> - úgy - ez is még
                                                   hátra van -</l>
-              <l>
-                <stage>(Megáll a belökött ajtónál.)</stage>
-              </l>
+              <l><stage>(Megáll a belökött ajtónál.)</stage></l>
               <l>Hah! fel,</l>
               <l>Fel puha ágyadból gyermek, nehogy</l>
               <l>Megvesztegessen udvarunk szele.
@@ -4922,12 +4796,10 @@
             <stage>(jön).</stage>
             <lg>
               <l>Bán! Asszonyod magánkívül futott el.</l>
-              <l>
-                <stage>(Az oldalszobába besiető Bánk után néz;
+              <l><stage>(Az oldalszobába besiető Bánk után néz;
                                                   azután egész maga alkalmatosságával le akar ülni,
                                                   de a visszajövő Bánk tekéntete
-                                                  visszatartóztatja).</stage>
-              </l>
+                                                  visszatartóztatja).</stage></l>
             </lg>
           </sp>
           <sp who="#bank_ban">
@@ -4965,15 +4837,11 @@
             <speaker>BIBERACH</speaker>
             <lg>
               <l>És magam maradjak itt!</l>
-              <l>
-                <stage>(Utána néz, azután
-                                                  járdogál.)</stage>
-              </l>
+              <l><stage>(Utána néz, azután
+                                                  járdogál.)</stage></l>
               <l>De nem hiszem biz' én, a gyáva herceg</l>
               <l>Hogy boldogult. - Gyanú kinozza Bánkot.</l>
-              <l>
-                <stage>(Leül.)</stage>
-              </l>
+              <l><stage>(Leül.)</stage></l>
               <l>Egy sincsen a sok emberi indulat</l>
               <l>Közt, melynek oly kevésbe kerüljön a</l>
               <l>Képzelt lehetség általöltözése</l>
@@ -5187,18 +5055,14 @@
                                                   <stage>(magát érti)</stage></l>
               <l>Vessződdel el tudsz széjjel ütni?... mit? -</l>
               <l>No, nézd ezen kevés hajat.</l>
-              <l>
-                <stage>(Maga hajából igen keveset morzsol ujjai
-                                                  közé.)</stage>
-              </l>
+              <l><stage>(Maga hajából igen keveset morzsol ujjai
+                                                  közé.)</stage></l>
               <l>Nem is</l>
               <l>Méltó azon kis fáradságra, mellyel</l>
               <l>Ki lehetne rántani - ha most ennyivel meg</l>
               <l>Tudnám szerencséd váltni, hidd el azt</l>
               <l>Nem tartanám méltónak e csekély erőre.</l>
-              <l>
-                <stage>(A legnagyobb hidegséggel.)</stage>
-              </l>
+              <l><stage>(A legnagyobb hidegséggel.)</stage></l>
               <l>Még gyermekekhez nem bocsájtkozék le,</l>
               <l>Mióta csak megszűntem hinni azt,</l>
               <l>Hogy a tanítómnak vesszőitől</l>
@@ -5364,15 +5228,11 @@
             <speaker>BIBERACH</speaker>
             <lg>
               <l>Ne szólj - uram!</l>
-              <l>
-                <stage>(Hidegen visszatér.)</stage>
-              </l>
+              <l><stage>(Hidegen visszatér.)</stage></l>
               <l>Én elmegyek. Te megfogathatol:</l>
               <l>De jól tudod, hogy én egyedül tudom:</l>
               <l>Ki volt Fülöp királynak gyilkolója! - -</l>
-              <l>
-                <stage>(Megy.)</stage>
-              </l>
+              <l><stage>(Megy.)</stage></l>
             </lg>
           </sp>
           <sp who="#otto">
@@ -5437,10 +5297,8 @@
             <lg>
               <l>Hazámat? oh</l>
               <l>Hozzátok őtet frissen hát utánam!</l>
-              <l>
-                <stage>(Felemelik Bíberachot, ki a kezük közé
-                                                  hanyatlik.)</stage>
-              </l>
+              <l><stage>(Felemelik Bíberachot, ki a kezük közé
+                                                  hanyatlik.)</stage></l>
             </lg>
           </sp>
           <p>
@@ -5513,9 +5371,7 @@
             <lg>
               <l>Leány! szerencse, hogy</l>
               <l>Te vagy - megént büntetnem kellene.</l>
-              <l>
-                <stage>(Kezét nyújtja.)</stage>
-              </l>
+              <l><stage>(Kezét nyújtja.)</stage></l>
             </lg>
           </sp>
           <sp who="#izidora">
@@ -5859,9 +5715,7 @@
               <l>Minden keserveinket</l>
               <l>Elűzi, és a sírban a sebek</l>
               <l>Is mind begyógyulnak. - Mosolyogj remény!</l>
-              <l>
-                <stage>(El)</stage>
-              </l>
+              <l><stage>(El)</stage></l>
             </lg>
           </sp>
         </div>
@@ -5906,16 +5760,12 @@
               <l>Szédülsz? - pirúlj! ha egyszer annyira</l>
               <l>Segítne Endre fegyvere, semmivel</l>
               <l>Se lenne szédítőbb, mint mostan ez.</l>
-              <l>
-                <stage>(Elevenebben.)</stage>
-              </l>
+              <l><stage>(Elevenebben.)</stage></l>
               <l>Törvényt kiszabni, és úgy lenni e felett,</l>
               <l>Miképpen a nap sok világokon! Csak ez</l>
               <l>Is elfelejtetheti velünk rövid</l>
               <l>Éltünknek álmatlan sok éjtszakáit.</l>
-              <l>
-                <stage>(Az udvornikhoz.)</stage>
-              </l>
+              <l><stage>(Az udvornikhoz.)</stage></l>
               <l>Hah! mégis itt?</l>
             </lg>
           </sp>
@@ -6045,9 +5895,7 @@
               <l>Bánkom se jött utánam - szegény!</l>
               <l>Azt vélte tán, hogy nála nélkül is</l>
               <l>Elmenni tudnék lakodalomba. - Oh jaj!</l>
-              <l>
-                <stage>(Fejét kezei közé szorítja.)</stage>
-              </l>
+              <l><stage>(Fejét kezei közé szorítja.)</stage></l>
             </lg>
           </sp>
           <sp who="#gertrudis">
@@ -6251,10 +6099,8 @@
             <speaker>MELINDA</speaker>
             <lg>
               <l>Félre! Félre! eresszetek!</l>
-              <l>
-                <stage>(Kiszalad. Az asszonyok
-                                                  követik.)</stage>
-              </l>
+              <l><stage>(Kiszalad. Az asszonyok
+                                                  követik.)</stage></l>
             </lg>
           </sp>
           <sp who="#mikhal_ban">
@@ -6319,9 +6165,7 @@
               <l>Mint éjtszakáim, felzavarva van</l>
               <l>A környülállások boldogtalan</l>
               <l>Örvényin.</l>
-              <l>
-                <stage>(Hirtelen.)</stage>
-              </l>
+              <l><stage>(Hirtelen.)</stage></l>
               <l>Óráim kiszabva vannak!</l>
               <l>Csak egy szavadba fog kerülni és az</l>
               <l>Irtóztatón megindult sors golyóbisa</l>
@@ -6527,9 +6371,7 @@
             <lg>
               <l>Úgy - elbeszélem, mért őszült meg így:</l>
               <l>Itt van az előljáró beszéd -</l>
-              <l>
-                <stage>(Áradó könnyeit törölgeti.)</stage>
-              </l>
+              <l><stage>(Áradó könnyeit törölgeti.)</stage></l>
               <l>No már</l>
               <l>Jó éjtszakát szivem végnyúgodalma! -</l>
               <l>Nem hinni látszol s tántoríthatatlan</l>
@@ -6591,10 +6433,8 @@
             <speaker>MIKHÁL</speaker>
             <lg>
               <l>Majd - igen.</l>
-              <l>
-                <stage>(Tenyerével mázolgatván legörgő
-                                                  könnyeit.)</stage>
-              </l>
+              <l><stage>(Tenyerével mázolgatván legörgő
+                                                  könnyeit.)</stage></l>
               <l>Fájdalma meghaladta a saját</l>
               <l>Fájdalmamat, - kezével véste a</l>
               <l>Sírt, mintha csak maga akart volna abba</l>
@@ -6730,9 +6570,7 @@
               <l>Fájdalmamat. Jó éjtszakát! Te nagy</l>
               <l>Sorsodban elvakult, kevély eszű,</l>
               <l>Reszkess szerencsédtől - jó éjtszakát.</l>
-              <l>
-                <stage>(Az őrizet közt ellézeng.)</stage>
-              </l>
+              <l><stage>(Az őrizet közt ellézeng.)</stage></l>
             </lg>
           </sp>
           <sp who="#gertrudis">
@@ -6765,9 +6603,7 @@
             <speaker>GERTRUDIS</speaker>
             <lg>
               <l>Szerencsémtől - -?</l>
-              <l>
-                <stage>(Kinéz az ablakon.)</stage>
-              </l>
+              <l><stage>(Kinéz az ablakon.)</stage></l>
               <l>Vitézi módra méssz</l>
               <l>Le szép nap! Ah, hol ily halál? Eredj,</l>
               <l>Eredj! utól nem érlek - én csak asszony</l>
@@ -6982,10 +6818,8 @@
             <stage>(eliszonyodva).</stage>
             <lg>
               <l>Hiénaszívet vélni az atyában?!</l>
-              <l>
-                <stage>(Hirtelen kimutat az
-                                                  ablakon.)</stage>
-              </l>
+              <l><stage>(Hirtelen kimutat az
+                                                  ablakon.)</stage></l>
               <l>Látjátok azt az ősz embert?</l>
             </lg>
           </sp>
@@ -7039,10 +6873,8 @@
             <speaker>BÁNK</speaker>
             <lg>
               <l>Jobbágyaid vagyunk.</l>
-              <l>
-                <stage>(Meghajtván magát,
-                                                  elindulnak.)</stage>
-              </l>
+              <l><stage>(Meghajtván magát,
+                                                  elindulnak.)</stage></l>
             </lg>
           </sp>
           <sp who="#gertrudis">
@@ -7400,10 +7232,8 @@
               <l>Hírül hozá, hogy itt mik esnek. Ál-</l>
               <l>Köntösben visszajöttem és találtam -
                                                   <stage>(nyögve)</stage></l>
-              <l>
-                <hi rend="italic">Oh többet is, mintsem
-                                                  reménylheték!</hi>
-              </l>
+              <l><hi rend="italic">Oh többet is, mintsem
+                                                  reménylheték!</hi></l>
               <l>Azt, büszke lélek, fel nem érted ésszel,</l>
               <l>Hogy gyermekem' miért adám amaz</l>
               <l>Öregnek? Asszonyom! Ha útam innen</l>
@@ -7573,10 +7403,8 @@
               <l>Néném! Az istenért! -
                                                   <stage>(megijedve).</stage></l>
               <l>Bánk bán!</l>
-              <l>
-                <stage>(Visszaszalad s becsapja maga után az
-                                                  ajtót.)</stage>
-              </l>
+              <l><stage>(Visszaszalad s becsapja maga után az
+                                                  ajtót.)</stage></l>
             </lg>
           </sp>
           <sp who="#bank_ban">
@@ -7616,10 +7444,8 @@
             <speaker>BÁNK</speaker>
             <lg>
               <l>Én? - Kerítő!</l>
-              <l>
-                <stage>(Megfordúlván, kitekeri kezéből a
-                                                  gyilkot.)</stage>
-              </l>
+              <l><stage>(Megfordúlván, kitekeri kezéből a
+                                                  gyilkot.)</stage></l>
             </lg>
           </sp>
           <sp who="#gertrudis">
@@ -7722,9 +7548,7 @@
             <speaker>GERTRUDIS</speaker>
             <lg>
               <l>Ottó!</l>
-              <l>
-                <stage>(Kívül lárma, verekedés.)</stage>
-              </l>
+              <l><stage>(Kívül lárma, verekedés.)</stage></l>
             </lg>
           </sp>
           <sp who="#myska_ban">
@@ -7738,10 +7562,8 @@
             <stage>(berohan).</stage>
             <lg>
               <l>Gertrudis - oltalmazz, megölnek! Oh jaj!</l>
-              <l>
-                <stage>(Ordítva rogy mellé, midőn
-                                                  meglátja.)</stage>
-              </l>
+              <l><stage>(Ordítva rogy mellé, midőn
+                                                  meglátja.)</stage></l>
               <l>Gertrudis!</l>
             </lg>
           </sp>
@@ -7775,9 +7597,7 @@
             <speaker>GERTRUDIS</speaker>
             <lg>
               <l>Igy - ártatlanul...</l>
-              <l>
-                <stage>(Meghal.)</stage>
-              </l>
+              <l><stage>(Meghal.)</stage></l>
             </lg>
           </sp>
           <sp who="#petur_ban">
@@ -7804,10 +7624,8 @@
             <lg>
               <l>Vígy magaddal, Gertrud! - Bíberach!</l>
               <l>Mért nem követtelek?</l>
-              <l>
-                <stage>(El akar szaladni; de szembejönnek Petur
-                                                  bán, Simon bán, békételenek.)</stage>
-              </l>
+              <l><stage>(El akar szaladni; de szembejönnek Petur
+                                                  bán, Simon bán, békételenek.)</stage></l>
             </lg>
           </sp>
         </div>
@@ -7840,10 +7658,8 @@
               <l>Tenger magát örömmel engedi</l>
               <l>Egy kis gödörbe elszorítani,</l>
               <l>Csak ottan is zúzhassa a hajókat.</l>
-              <l>
-                <stage>(Ottót megragadván, felrántja, s egy
-                                                  békételenhez lódítja.)</stage>
-              </l>
+              <l><stage>(Ottót megragadván, felrántja, s egy
+                                                  békételenhez lódítja.)</stage></l>
               <l>Fel innen, ördög! úgyis számtalanszor</l>
               <l>Térdeple sírva itt az emberi</l>
               <l>Szeretet; de senki sem nyitott neki</l>
@@ -7852,9 +7668,7 @@
               <l>Imádtatott keresztre - látni, hogy</l>
               <l>Ők is mikép feszegethessék az embert,</l>
               <l>Először elrabolván mindenét.</l>
-              <l>
-                <stage>(Kívül kürtölés, lárma.)</stage>
-              </l>
+              <l><stage>(Kívül kürtölés, lárma.)</stage></l>
             </lg>
           </sp>
           <sp who="#simon_ban">
@@ -7898,10 +7712,8 @@
               <l>Szánt törekvéstek önvédelmetekre</l>
               <l>Olyan siker nélkül való legyen,</l>
               <l>Mint kínozásom után esenkedéstek.</l>
-              <l>
-                <stage>(A Bánk által elejtett tőrt felkapja, s
-                                                  magába akarja ütni.)</stage>
-              </l>
+              <l><stage>(A Bánk által elejtett tőrt felkapja, s
+                                                  magába akarja ütni.)</stage></l>
             </lg>
           </sp>
           <sp who="#petur_ban">
@@ -8090,9 +7902,7 @@
               <l>Szegény, midőn királya; s a király</l>
               <l>Nem látja azt meg a könnyek miatt. -</l>
               <l>Gertrudis! így kellett találni meg!</l>
-              <l>
-                <stage>(Székbe váncorog s lebókol.)</stage>
-              </l>
+              <l><stage>(Székbe váncorog s lebókol.)</stage></l>
             </lg>
           </sp>
         </div>
@@ -8193,9 +8003,7 @@
               <l>Kegyelmed Kormányozásban más szabásokat -</l>
               <l>Itt pártütéstől félhetünk. - Igaz</l>
               <l>Ember tanácsol -</l>
-              <l>
-                <hi rend="italic">Pontió di Cruce,</hi>
-              </l>
+              <l><hi rend="italic">Pontió di Cruce,</hi></l>
               <l>Templomvitézitek nagymestere,</l>
               <l>S jóvoltotokból itt az illirok</l>
               <l>Között királyi helytartótok."</l>
@@ -8243,10 +8051,8 @@
             <speaker>SOLOM</speaker>
             <lg>
               <l>Engedj!</l>
-              <l>
-                <stage>(Elsiet, majd bevezeti Simon
-                                                  bánt.)</stage>
-              </l>
+              <l><stage>(Elsiet, majd bevezeti Simon
+                                                  bánt.)</stage></l>
             </lg>
           </sp>
         </div>
@@ -8497,9 +8303,7 @@
               <l>Nincs e világon. Átok fekszik a</l>
               <l>Bojóthi Mortundorf fajon! - Minek-</l>
               <l>Előtte mennék: király! ne ez!</l>
-              <l>
-                <stage>(Somát elébe vezeti.)</stage>
-              </l>
+              <l><stage>(Somát elébe vezeti.)</stage></l>
               <l>Melinda gyermeke. Atyja adá ide;</l>
               <l>Csak Endre az, kinek kezére bízni</l>
               <l>Bátorkodok. <stage>(Megöleli a
@@ -8507,9 +8311,7 @@
               <l>Ha az anyád kérdezi,</l>
               <l>Hogy hol vagyon Mikhál? mondd meg, hogy ő</l>
               <l>Simonnal elment számkivetésbe. Élj.</l>
-              <l>
-                <stage>(El akarnak.)</stage>
-              </l>
+              <l><stage>(El akarnak.)</stage></l>
             </lg>
           </sp>
         </div>
@@ -8535,9 +8337,7 @@
             <speaker>BÁNK</speaker>
             <lg>
               <l>Gyermekem! Szerette gyermekem!</l>
-              <l>
-                <stage>(Körülnézi magát)</stage>
-              </l>
+              <l><stage>(Körülnézi magát)</stage></l>
               <l>Mi bennem ilyen bámulásra méltó?</l>
               <l>Zavart eszem? Nem. Borzadó hajam?</l>
               <l>Király! Magyarság! Jól emlékezem,</l>
@@ -8558,13 +8358,9 @@
             <lg>
               <l>Király! Gertrúdisod koporsó-</l>
               <l>Aljára vágom a hatalom jelét -</l>
-              <l>
-                <stage>(Nyakláncát odaveti.)</stage>
-              </l>
+              <l><stage>(Nyakláncát odaveti.)</stage></l>
               <l>Ott van. Vereslik is még vére rajta.</l>
-              <l>
-                <stage>(Nagy zúgás van.)</stage>
-              </l>
+              <l><stage>(Nagy zúgás van.)</stage></l>
             </lg>
           </sp>
           <sp who="#izidora">
@@ -8671,9 +8467,7 @@
               <l>Gertrudis, ennyit érdemeltem én,</l>
               <l>Hogy győzedelmes jöttöm ünnepén</l>
               <l>Romlásodat könnyeznem sem lehet!? - -</l>
-              <l>
-                <stage>(Nagyon.)</stage>
-              </l>
+              <l><stage>(Nagyon.)</stage></l>
               <l>Vigyétek el míg el nem érkezik</l>
               <l>Bírája!</l>
             </lg>
@@ -8813,10 +8607,8 @@
               <l>Azt hittem: a jobbágynak csak legyen;</l>
               <l>Ugy addig a király se lesz szegény!</l>
               <l>Szegény, szegény király! be megcsalatkozál.</l>
-              <l>
-                <stage>(Könnyes szemekkel
-                                                  elfordul.)</stage>
-              </l>
+              <l><stage>(Könnyes szemekkel
+                                                  elfordul.)</stage></l>
             </lg>
           </sp>
           <sp who="#izidora">
@@ -8844,9 +8636,7 @@
               <l>Nincs, egy sincs. Jobban remeg</l>
               <l>Előtte minden, mint előttem. - Endre!</l>
               <l>Te gyenge Endre!</l>
-              <l>
-                <stage>(Egy kardot kap.)</stage>
-              </l>
+              <l><stage>(Egy kardot kap.)</stage></l>
               <l>Magyarok! Második Endrét tehát lássátok vívni
                                                   meg-</l>
               <l>Holt hitvesének jónevére.</l>
@@ -8859,10 +8649,8 @@
               <l>Királyom! én veled nem harcolok!</l>
               <l>Szent vagy te énelőttem - Istenem,</l>
               <l>S hazám után a legszentebb.</l>
-              <l>
-                <stage>(Kardját leoldván, elébe
-                                                  teszi.)</stage>
-              </l>
+              <l><stage>(Kardját leoldván, elébe
+                                                  teszi.)</stage></l>
               <l>Megölhetsz.</l>
             </lg>
           </sp>
@@ -8911,9 +8699,7 @@
             <speaker>BÁNK</speaker>
             <lg>
               <l>Gyerünk szegény buzgólkodó!</l>
-              <l>
-                <stage>(Kiindulnak.)</stage>
-              </l>
+              <l><stage>(Kiindulnak.)</stage></l>
             </lg>
           </sp>
           <sp who="#myska_ban">
@@ -9117,11 +8903,9 @@
             <speaker>KIRÁLY</speaker>
             <lg>
               <l>Gertrúdisén!</l>
-              <l>
-                <stage>(Mintegy magát elfelejtve, siet a
+              <l><stage>(Mintegy magát elfelejtve, siet a
                                                   holttest felé; de szemébe akad
-                                                  Tiborc).</stage>
-              </l>
+                                                  Tiborc).</stage></l>
             </lg>
           </sp>
         </div>
@@ -9244,10 +9028,8 @@
             <speaker>MIKHÁL és SIMON</speaker>
             <lg>
               <l>Melinda!</l>
-              <l>
-                <stage>(Odafutnak és mögötte térdre esvén,
-                                                  reáborulnak.)</stage>
-              </l>
+              <l><stage>(Odafutnak és mögötte térdre esvén,
+                                                  reáborulnak.)</stage></l>
             </lg>
           </sp>
           <sp who="#ii_endre">
@@ -9299,10 +9081,8 @@
               <l>Fel tud olvasztani? Szaggassatok</l>
               <l>Homlokotokon sebeket s vért sírjatok;</l>
               <l>Letépetett az Istennek remekje.</l>
-              <l>
-                <stage>(Somát, ki anyja fejénél térdel, magához
-                                                  vonja.)</stage>
-              </l>
+              <l><stage>(Somát, ki anyja fejénél térdel, magához
+                                                  vonja.)</stage></l>
               <l>Gyermek! te is sírsz? - könnyű a te
                                                   könnyed,</l>
               <l>Mint egy határtalanságban repülő</l>
@@ -9427,12 +9207,10 @@
               <l>Fájdalmatokban is királyi széktek</l>
               <l>Előtt jelenjen meg tekintetem,</l>
               <l>És intsen emberi uralkodásra."</l>
-              <l>
-                <stage>(Nyájasan visszafordul, de Gertrúdis
+              <l><stage>(Nyájasan visszafordul, de Gertrúdis
                                                   látásán fellobban, midőn Izidóra a lépcsőkön félig
                                                   lejött, mintegy könyörögve a
-                                                  királyfiakkal.)</stage>
-              </l>
+                                                  királyfiakkal.)</stage></l>
               <l>Ottan hever meggyilkolt hitvesem,</l>
               <l>És gyilkolója azon törvényeket</l>
               <l>Tapodta, melyek édes tartományimat</l>
@@ -9440,9 +9218,7 @@
               <l>Szív, árva gyermekeid kiáltanak!</l>
               <l>Serkenj fel összerontatott igazság;</l>
               <l>De én elégtételt veszek. - Vigyétek.</l>
-              <l>
-                <stage>(Merően néz maga elébe.)</stage>
-              </l>
+              <l><stage>(Merően néz maga elébe.)</stage></l>
             </lg>
           </sp>
           <sp who="#tiborc">
@@ -9514,11 +9290,9 @@
               <l>Magyarok! Igen jól esmérem - szeretnek,</l>
               <l>Enyimek! - Hogy ily nemes szívekkel egybe</l>
               <l>Férkezni nem tudtál, Gertrúdisom!</l>
-              <l>
-                <stage>(Fel akar sietni a holthoz; de eleibe
+              <l><stage>(Fel akar sietni a holthoz; de eleibe
                                                   akadván a lépcsőkön álló gyermekei, azokhoz,
-                                                  általölelve, letérdepel.)</stage>
-              </l>
+                                                  általölelve, letérdepel.)</stage></l>
             </lg>
           </sp>
           <p>

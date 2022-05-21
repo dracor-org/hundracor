@@ -52,10 +52,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000038</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -168,26 +170,18 @@
           <role><roleName>VILMA,</roleName> leánya</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>HANGAI</roleName>
-          </role>
+          <role><roleName>HANGAI</roleName></role>
         </castItem>
         <castGroup>
           <roleDesc>távolról jött ifjak</roleDesc>
           <castItem>
-            <role>
-              <roleName>RIGÓ,</roleName>
-            </role>
+            <role><roleName>RIGÓ,</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>&gt;GUTA,</roleName>
-            </role>
+            <role><roleName>&gt;GUTA,</roleName></role>
           </castItem>
           <castItem>
-            <role>
-              <roleName>KACZOR,</roleName>
-            </role>
+            <role><roleName>KACZOR,</roleName></role>
           </castItem>
         </castGroup>
         <castItem>
@@ -197,24 +191,16 @@
           <role><roleName>LIDI,</roleName> Vilma’ szobalánya</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>CSÍSZÁR</roleName>
-          </role>
+          <role><roleName>CSÍSZÁR</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>EGY INAS</roleName>
-          </role>
+          <role><roleName>EGY INAS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>PARASZTOK,</roleName>
-          </role>
+          <role><roleName>PARASZTOK,</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>NÉP</roleName>
-          </role>
+          <role><roleName>NÉP</roleName></role>
         </castItem>
       </castList>
       <p>Történethely: Pest és környéke</p>
@@ -365,7 +351,8 @@
         </sp>
         <sp who="#vilma">
           <speaker>VILMA</speaker>
-          <p>Jer, jer, ne csevegj: mert itt érnek<stage>(El.)</stage></p>
+          <p>Jer, jer, ne csevegj: mert itt érnek<stage>(El.)</stage>
+          </p>
         </sp>
         <stage>GUTA, RIGÓ, KACZOR <hi rend="italic">(jőnek egymás után)</hi></stage>
         <sp who="#rigo">
@@ -842,16 +829,19 @@
           <speaker>GUTA</speaker>
           <p>Mindent, mindent! de most szót se többet. Én a’ lánczhídhoz állok, ’s minden
                         szépség, melly rajta át és vissza megy, vámot fog adni
-                            szemeimnek.<stage>(El)</stage></p>
+                            szemeimnek.<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
           <p>Én a’ fogadó’ csarnokába ülök ’s egy pohár ártatlan tej mellett
-                        szerződésünket irásba foglalom ’s leányokat nézek.<stage>(El)</stage></p>
+                        szerződésünket irásba foglalom ’s leányokat nézek.<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
-          <p>Én pedig oda megyek, a’hol ti nem lesztek.<stage>(El)</stage></p>
+          <p>Én pedig oda megyek, a’hol ti nem lesztek.<stage>(El)</stage>
+          </p>
         </sp>
         <stage>VILMA ’S LIDI <hi rend="italic">(előjőnek)</hi></stage>
         <sp who="#vilma">
@@ -1096,7 +1086,7 @@
           <p>Különös. Előbb az nem tetszett a' kisasszonynak, hogy amazok házasodni
                         akarnak; most meg az nem tetszik, hogy ez még csak szeretni sem
                             akar.<stage>(Szünet</stage>
-                        <stage>után)</stage>Kisasszonykám! megyünk?</p>
+            <stage>után)</stage>Kisasszonykám! megyünk?</p>
         </sp>
         <sp who="#vilma">
           <speaker>VILMA</speaker>
@@ -1113,7 +1103,7 @@
           <p>Már látom, csint kell tennem, különben itt veszünk. <stage>(Elsikoltja
                             magát)</stage> Ah! átkozom tüskéje! jaj lábam! <stage>(Hangai
                             fölébred, Vilma ’s Lidi ijedve távoznak)</stage>
-                    </p>
+          </p>
         </sp>
         <sp who="#hangai">
           <speaker>HANGAI</speaker>
@@ -1122,9 +1112,7 @@
             <l>Ugy tetszik egy pityergő asszonyé,</l>
             <l>Kinek parányi lábát tüske szúrja?</l>
             <l>Mért hág belé. – De isten! milly zavar!</l>
-            <l>
-              <stage>(Fölveszi a könyvet)</stage>
-            </l>
+            <l><stage>(Fölveszi a könyvet)</stage></l>
             <l>A’ drága könyv, e’ villám-elszedője</l>
             <l>Minden szerelmes égi háborúnak,</l>
             <l>Ez a’ szerelmi koppantó, imez</l>
@@ -1280,7 +1268,8 @@
         <sp who="#lidi">
           <speaker>LIDI</speaker>
           <p>A’ többek között azt nem szabad tundi. ’S asszonyom a’ többek között is igen
-                        gyönyörű kisasszony.<stage>(Elszalad)</stage></p>
+                        gyönyörű kisasszony.<stage>(Elszalad)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
@@ -1308,7 +1297,8 @@
         <sp who="#lidi">
           <speaker>LIDI</speaker>
           <p>No most talán beszélhetek vele. – Ihol la! megint egy a’ jó madarak közűl.
-                            <stage>(Megy. Guta jő)</stage></p>
+                            <stage>(Megy. Guta jő)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -1317,7 +1307,8 @@
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
-          <p>Repülnöm kell.<stage>(El)</stage></p>
+          <p>Repülnöm kell.<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -1360,7 +1351,8 @@
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
-          <p>Nem hallok.<stage>(El)</stage></p>
+          <p>Nem hallok.<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
@@ -1415,7 +1407,8 @@
           <speaker>KACZOR</speaker>
           <p>Mennykőbe is! a’ víznek, a’ tó’ közepébe?<stage>(Félre)</stage> Már csak
                         magamnak kell végére járnom.<stage>(Hangaihoz)</stage> Uram, kalapja ferdén
-                        áll; igazítása meg!<stage>(El)</stage></p>
+                        áll; igazítása meg!<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#hangai">
           <speaker>HANGAI</speaker>
@@ -1667,7 +1660,8 @@
         <sp who="#vilma">
           <speaker>VILMA</speaker>
           <p>Oktalan! – <stage>(Félre)</stage>Azt súgja valami,hogy még látni fogom. –
-                        Jer utánam!<stage>(El)</stage></p>
+                        Jer utánam!<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
@@ -1678,7 +1672,8 @@
                         szomorún állt magában a’ fa alatt, mintha csak a’ szélvész törte volna le
                         onnan gyümölcsös ág’ képében. De most Vilma kisasszony után sietek, ’s hogy
                         megengeszteljem, egész úton a’ barna ifjúról beszélgetek
-                            neki.<stage>(El)</stage></p>
+                            neki.<stage>(El)</stage>
+          </p>
         </sp>
         <stage>(Halom)</stage>
         <sp who="#rigo">
@@ -1694,7 +1689,8 @@
                         varjú a’ száraz ágon: énekem is magam is szomorú. ’S ha észreveszik rajtam,
                         ments isten! a’ világból is kicsúfolnak. Mi mennykőt tegyek már most! de
                         ím jőnek. Nem fog ártani, ha egy kissé megvigyázom őket, Legalább lesz mihez
-                        tartanom magamat.<stage>(Elrejtezik)</stage></p>
+                        tartanom magamat.<stage>(Elrejtezik)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -1711,7 +1707,8 @@
                         zsebében maradt: tehát a’ tépelődés- nek, gondnak, szerelemnek ’s a’ tb.
                         mindössze úgy kell állani a’ jó kedvhez, mint egy áll a’ kilenczhez. Hah!
                         Kaczor! jó hogy előbb jöttem, kikémlem, mennyire tartja meg egykedvűségét.
-                        Nevetném, ha úgy járt volna mint én.<stage>(El)</stage></p>
+                        Nevetném, ha úgy járt volna mint én.<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
@@ -1739,7 +1736,8 @@
                         szabja verseit, hosszabbat vagy rövi- debbet a’ mint kivántatott, ’s
                         gondolatjai ollyanok voltak mint a’ medvebocs, mellyet anyja még ki nem
                         nyalogatott; de ideje, hogy csúffá tegyem elpuhulásá- ért. Nem! még szólni
-                        akar. Oh Muzsák!<stage>(Visszavonúl)</stage></p>
+                        akar. Oh Muzsák!<stage>(Visszavonúl)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
@@ -1806,7 +1804,8 @@
           <speaker>RIGÓ</speaker>
           <p>Érdemes is veletek valamihez fogni! Tudjátok meg, én most egyenesen
                         Jelenkorhoz megyek, ’s vasárnap aztán elolvashatjátok az
-                            újságot.<stage>(Indúl)</stage></p>
+                            újságot.<stage>(Indúl)</stage>
+          </p>
         </sp>
         <stage>Guta és Kaczor egymásra néznek</stage>
         <sp who="#guta">
@@ -1981,7 +1980,8 @@
                         hangok, annak idejében elé áll a’ hős, ’s érző szivre talál. – Hanem mi a’
                         tartozást illeti, tudod, legelőször magamnak tarto- zom; a szívességet?
                         légy olly szíves most egyszer nem kivánni. Kiki magáért! Guta pajtás;
-                        mához egy hétre bizonyosan látjuk egymást.<stage>(El)</stage></p>
+                        mához egy hétre bizonyosan látjuk egymást.<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -2018,14 +2018,16 @@
           <speaker>GUTA</speaker>
           <stage>(mentében)</stage>
           <p>Illyen a’ barátság! addig tart, míg szükségünk nincs reá. Se’ baj Guta!
-                        audaces fortuna juvat!<stage>(El)</stage></p>
+                        audaces fortuna juvat!<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
           <p>Az esti zene nem rosz gondolat. Utána kell látnom, míg az időben
                                 tart.<stage>(<hi rend="italic">Tárczáját kiveszi ’s
                         ír</hi>)</stage>„Ma tíz órakor muzsikával fogok tisztelkedni Nro...a’ jobb
-                        sarkon. NB. a’ muzsika szívreható legyen!"<stage>(El)</stage></p>
+                        sarkon. NB. a’ muzsika szívreható legyen!"<stage>(El)</stage>
+          </p>
         </sp>
       </div>
       <div type="act">
@@ -2201,7 +2203,8 @@
         </sp>
         <sp who="#katicza">
           <speaker>KATICZA</speaker>
-          <p>Szolgája édes szép barátném.<stage>(El)</stage></p>
+          <p>Szolgája édes szép barátném.<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#vilma">
           <speaker>VILMA</speaker>
@@ -2251,7 +2254,8 @@
         <sp who="#lidi">
           <speaker>LIDI</speaker>
           <p>Ne legyen rá gondod? ez azt jelenti, hogy egy vala- kinek annál nagyobb
-                        gondja lesz reá.<stage>(El)</stage></p>
+                        gondja lesz reá.<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#vilma">
           <speaker>VILMA</speaker>
@@ -2532,7 +2536,8 @@
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
-          <p>Sibilla néném! szép jó éjszakát. <stage>(El)</stage></p>
+          <p>Sibilla néném! szép jó éjszakát. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#vilma">
           <speaker>VILMA, LIDI</speaker>
@@ -2582,7 +2587,8 @@
         <sp who="#vilma">
           <speaker>VILMA</speaker>
           <p>Szegény! darvait keresi, mellyek álmából felverték Menjünk utjából; mert
-                        most halálra beszélne. <stage>(El)</stage></p>
+                        most halálra beszélne. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#katicza">
           <speaker>KATICZA</speaker>
@@ -2596,7 +2602,8 @@
                         égők, értem küzködők? Ha tudnák szenvedésimet! De fel! gonosz ’S rágalmazó
                         az ember. Jaj nekem, Ha itt találnak, hírem oda 1esz. Fel, álmodozni édes
                         álmokat, Kiről ’s miről? ne tudja senki is. Jó éjszakát ti éj, ti
-                            csillagok.<stage>(El)</stage></p>
+                            csillagok.<stage>(El)</stage>
+          </p>
         </sp>
         <stage>VILMA, LIDI <hi rend="italic">(jőnek)</hi></stage>
         <sp who="#vilma">
@@ -2608,7 +2615,8 @@
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
-          <p><stage>(jőnek)</stage> Sőt igen; mert azt mi rendeltük úgy.</p>
+          <p>
+            <stage>(jőnek)</stage> Sőt igen; mert azt mi rendeltük úgy.</p>
         </sp>
         <sp who="#vilma">
           <speaker>VILMA</speaker>
@@ -2689,8 +2697,7 @@
                                                     hogy eljövend</l>
             <l> Az éji vándor rajta megpihenni </l>
             <l>Az édes kínnak
-                            fáradalmitól.<stage>(Leül)</stage>
-                    </l>
+                            fáradalmitól.<stage>(Leül)</stage></l>
           </lg>
         </sp>
         <stage>(Vilma, ’s Lidi jőnek)</stage>
@@ -2903,12 +2910,14 @@
         </sp>
         <sp who="#vilma">
           <speaker>VILMA</speaker>
-          <p>Maradj el egy kevéssé. <stage>(El)</stage></p>
+          <p>Maradj el egy kevéssé. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#hangai">
           <speaker>HANGAI</speaker>
           <p>Nem hagyhatom! Beszélnem kell vele, A’ jégszívűhöz ő legyen vezérem; ’S hogy
-                        lesz, reményt nyujt érzékeny beszéde. <stage>(El)</stage></p>
+                        lesz, reményt nyujt érzékeny beszéde. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
@@ -3018,13 +3027,15 @@
         <sp who="#csiszar">
           <speaker>CSÍSZÁR</speaker>
           <p>Üvölts, üvölts! hogy megfakadj belé! Már menni kell. Lidikém, holnapig
-                        isten veled. <stage>(El)</stage></p>
+                        isten veled. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
           <p>Jó éjszakát. – Szegény Péter, ennek is meggyűlt a’ baja. De épen jól hozta a’
                         sors, hogy ő szolgál mind a' három úrnál; tőle kitudom minden mozgásaikat.
-                        De most kisasszonyom után kell sietnem. <stage>(Menni akar)</stage></p>
+                        De most kisasszonyom után kell sietnem. <stage>(Menni akar)</stage>
+          </p>
         </sp>
         <stage>KACZOR, GUTA, RIGÓ <hi rend="italic">jőnek</hi></stage>
         <sp who="#kaczor">
@@ -3035,7 +3046,9 @@
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
           <p>Megállj! <stage>(Lidi másfelé akar szabadulni ’s Guta
-                            áll</stage><stage>elébe)</stage></p>
+                            áll</stage>
+            <stage>elébe)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -3080,7 +3093,9 @@
                         a’ mekkora kell, tudja? sem kisebb sem nagyobb. Még harcsa-számat ha az úrfi
                         szebbet nem tanult az iskolában, evvel jobb el sem kezdette volna. Lássa meg
                         az ember. <stage>(Sírni kezd)</stage>Harcsa- száj! Nekem azt férfi még soha
-                        sem mondotta. <stage>(Menni</stage><stage>akar)</stage></p>
+                        sem mondotta. <stage>(Menni</stage>
+            <stage>akar)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -3186,11 +3201,13 @@
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
-          <p>Jól van; megkérdezem, de addig el ne bocsássatok. <stage>(El)</stage></p>
+          <p>Jól van; megkérdezem, de addig el ne bocsássatok. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA, RIGÓ</speaker>
-          <p>Megfogjuk. <stage>(Két felől karon fogják)</stage></p>
+          <p>Megfogjuk. <stage>(Két felől karon fogják)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
@@ -3341,7 +3358,8 @@
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
-          <p>Arany! – kész szolgálója. Ez hamis egy úr!<stage>(El)</stage></p>
+          <p>Arany! – kész szolgálója. Ez hamis egy úr!<stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
@@ -3801,7 +3819,8 @@
         <sp who="#guta">
           <speaker>GUTA</speaker>
           <p>Kitaláltam! Abban maradok. <stage>(Guta és Rigó merengésök kőzben
-                            ősszeütköznek ’s egymás’ kalapját leverik)</stage></p>
+                            ősszeütköznek ’s egymás’ kalapját leverik)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -3815,7 +3834,8 @@
         <sp who="#guta">
           <speaker>GUTA</speaker>
           <p>Igen! de hol van hát? <stage>(Midőn mindketten körűl bámulnak, Kaczor jő a’
-                            két kalappal)</stage></p>
+                            két kalappal)</stage>
+          </p>
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
@@ -3848,7 +3868,8 @@
         <sp who="#guta">
           <speaker>GUTA</speaker>
           <p>Nono! csak nem lehet mindennek ollyan cseresnyemag feje, mint neked! Add
-                        ide! <stage>(Elcserélik a’ kalapot)</stage></p>
+                        ide! <stage>(Elcserélik a’ kalapot)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
@@ -3899,9 +3920,10 @@
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
           <p>Az könnyen meglehet. De mi több, egyik válla maga- sabb, mint a’ másik.
-                            <stage>(Félre)</stage><?oxy_comment_start author="User" timestamp="20181224T204638+0100" comment="A pont gondolom hiba. "?>
+                            <stage>(Félre)</stage>
+<?oxy_comment_start author="User" timestamp="20181224T204638+0100" comment="A pont gondolom hiba. "?>
                         Oh bár elhinnék.!<?oxy_comment_end?>
-                    </p>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -4301,7 +4323,8 @@
           <speaker>VILMA</speaker>
           <p>Most vonulj el, Lidi; én itt e’ padon fogom őt várni epedő bánattal mert
                         hajművészi számolataidat csak nem akarnám szégyenben hagyni. <stage>(Lidi
-                            el)</stage></p>
+                            el)</stage>
+          </p>
         </sp>
         <sp who="#hangai">
           <speaker>HANGAI</speaker>
@@ -4342,8 +4365,10 @@
         </sp>
         <sp who="#vilma">
           <speaker>VILMA</speaker>
-          <p><?oxy_comment_start author="User" timestamp="20181230T204911+0100" comment="jobbra zárva"?>’S
-                        még is lehetne hát?<?oxy_comment_end?></p>
+          <p>
+<?oxy_comment_start author="User" timestamp="20181230T204911+0100" comment="jobbra zárva"?>’S
+                        még is lehetne hát?<?oxy_comment_end?>
+          </p>
         </sp>
         <sp who="#hangai">
           <speaker>HANGAI</speaker>
@@ -4812,9 +4837,7 @@
           <speaker>VILMA</speaker>
           <lg>
             <l><?oxy_comment_start author="User" timestamp="20190101T192645+0100" comment="jobbra zárva"?>Igen!<?oxy_comment_end?></l>
-            <l>
-              <stage>(Mintha megbánná hogy elfedé magát)</stage>
-            </l>
+            <l><stage>(Mintha megbánná hogy elfedé magát)</stage></l>
             <l>De nem, nem, én azt nem kivánhatom: <stage>(Töredezve)</stage></l>
             <l>Menjen hozzá, és boldogítsa őt.</l>
           </lg>
@@ -4903,7 +4926,7 @@
             <l>’S tündérkedem, hogy vissza csaljam őt.</l>
             <l>’S ha végre Vilma nyer, ’s a’ fátyolos lány</l>
             <l>Ismét feledve? Az sem veszteség</l>
-            <l> </l>
+            <l></l>
             <l>Akkor megint csak birtokomba jő.</l>
             <l>De nem! ha Vilmához tér újolag,</l>
             <l>’S kétélü nyelve szenvedélyt hazud,</l>
@@ -5081,12 +5104,14 @@
           <speaker>VILMA</speaker>
           <stage>(félre)</stage>
           <p>Vigyázni kell magamra; mert különben Idő előtt elárúl ’s vége lesz
-                        Játékomnak, melly hasznosan mulat. <stage>(El)</stage></p>
+                        Játékomnak, melly hasznosan mulat. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
           <p>Vigyáznom kell, különben hírem, tudtom ’s közben- járásom nélkül belé szeret
-                        valakibe. Ez pedig komorná- nak iszonyú gyalázat. <stage>(El)</stage></p>
+                        valakibe. Ez pedig komorná- nak iszonyú gyalázat. <stage>(El)</stage>
+          </p>
         </sp>
         <stage>(Kaczor’ szállása)</stage>
         <sp who="#kaczor">
@@ -5228,7 +5253,8 @@
           <speaker>KACZOR</speaker>
           <p>Kell bot? – De most lehetetlen haragunnom, midőn szerencsém illy kedvezőn
                         szolgál. Tudod mit, jó barátom? én a’ levelet majd magam adom át.
-                            <stage>(Pénzt ád neki)</stage></p>
+                            <stage>(Pénzt ád neki)</stage>
+          </p>
         </sp>
         <sp who="#paraszt">
           <speaker>PARASZT</speaker>
@@ -5246,7 +5272,8 @@
         <sp who="#paraszt">
           <speaker>PARASZT</speaker>
           <p>Köszönön igen szépen. Isten áldja meg a’ tekintetes urat.
-                        <stage>(El)</stage></p>
+                        <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
@@ -5270,7 +5297,8 @@
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
           <p>Dolgaim voltak. – Többek közt, hogy tetszik neked ez a’ tajték? <stage>(Guta
-                            nézi)</stage></p>
+                            nézi)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
@@ -5380,11 +5408,13 @@
                         vi!ág levélnek nevez,’s avval én még ma, de minél előbb bekopogtatok.
                             <stage>(Fenn)</stage> Én nem sietek, még némelly dolgaimat végzem; de
                         jó ajánlásaim vannak. Hanem, az idő eljár. Isten áldjon, Kaczor.
-                            <stage>(El)</stage></p>
+                            <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
-          <p>Megállj, én is megyek. Kaczor, viszontlátásig! <stage>(El)</stage></p>
+          <p>Megállj, én is megyek. Kaczor, viszontlátásig! <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
@@ -5392,7 +5422,8 @@
                         árva ficzók De ki tehet róla, hogy a’ szerencse engem rnindig különösen
                         kedvelt? Most még csak széles lobogó szalagú kalapot veszék, ’s fölteszem
                         új öltözetemnek mintegy koronáját; azután Ligeti Vilma kisasszony’ tős
-                        gyökeres magyar bátyjának udvarlására megyek. <stage>(El)</stage></p>
+                        gyökeres magyar bátyjának udvarlására megyek. <stage>(El)</stage>
+          </p>
         </sp>
       </div>
       <div type="act">
@@ -5425,7 +5456,8 @@
                         rosszúl pengő ízetlen hízelgéseket, mely- lyekkel hihetőleg ostromlanának.
                         Azonban siessünk el, bátyám épen reggeli újságait jő ide olvasni. Boszús
                         lesz, ha háborgatni fogják, különben is, mint beszéli, roszúl áll a’ világ’
-                        dolga. El velünk, Lidi <stage>(El)</stage></p>
+                        dolga. El velünk, Lidi <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -5440,7 +5472,8 @@
                         nagy hazafi 1élek, ki napszámosává szegődtél hazádnak, bocsáss meg a’
                         megrögzött panasz- kodónak! gyors hajóid, mint jobb jövőnek hirdetői, már
                         szegdelik Dunánkat, ’s a’ kofán elkiáltott hajnal tán már hasadni fog.
-                            (Kopognak)<stage> Szabad!</stage></p>
+                            (Kopognak)<stage> Szabad!</stage>
+          </p>
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
@@ -5629,7 +5662,8 @@
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
           <p>Köszönöm, az magamtól is kitelik. Rosz pipás az, a’ ki tűzszerszámot nem
-                        hordoz magával. <stage>(Kiüt és rágyújt)</stage></p>
+                        hordoz magával. <stage>(Kiüt és rágyújt)</stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -5797,7 +5831,7 @@
           <speaker>RIGÓ</speaker>
           <p>Ezen véletlenség nekem alkalmul szolgál azon szeren- cséhez, hogy érdemes
                         házával ismeretségbe juthassak. <stage>(Átadja a levelet)</stage>
-                    </p>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -5818,7 +5852,8 @@
           <speaker>LIGETI</speaker>
           <stage>(félre)</stage>
           <p>Ez különös! Bolondot járnak ezek, vagy engem akar- nak avvá tenni?
-                            <stage>(Olvas)</stage></p>
+                            <stage>(Olvas)</stage>
+          </p>
         </sp>
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
@@ -5892,7 +5927,8 @@
           <p>Már én csak kaczagom az egész dolgot! <stage>(Kopogás.
                             <?oxy_comment_start author="User" timestamp="20190108T054409+0100" comment="Ezt most nem tudom, miért nagybetű, a Marót bánban lesz fele-fele arányban következetlenül hol nagybetű a név az utasításban, hol nem."?>GUTA<?oxy_comment_end?>
                             bejő Kaczor és Rigó ijedve felszoknek, ’s félre fordulnak. Guta
-                            egyenesen Ligetinek megy) </stage></p>
+                            egyenesen Ligetinek megy) </stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -5901,7 +5937,7 @@
                         minden könyvszag-ismerő orrnak czimpáját olly kellemesen illeti, üdvözli a’
                         Muzsák- nak legkisebb szolgája, törvények’ doctora, ’s a’ bölcsel- kedés’ és
                         szépmüvészetek baka... <stage>(Meglátván Kaczort</stage>
-                        <stage>’s Rigót, meghökkenve)</stage>...laurusa. <stage>(Csökkent hangon)
+            <stage>’s Rigót, meghökkenve)</stage>...laurusa. <stage>(Csökkent hangon)
                         </stage>Mi a’ villám!</p>
         </sp>
         <sp who="#ligeti">
@@ -5993,7 +6029,8 @@
           <speaker>GUTA</speaker>
           <p>Igen különösen. <stage>(Félre)</stage> - de nem szólhatok ezektől a’ vad
                         emberektől. <stage>(Ligeti olvas, az alatt Guta társaihoz megy ’s titkon
-                            perel, velök, mintha őket ki akarná hajtani) </stage></p>
+                            perel, velök, mintha őket ki akarná hajtani) </stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -6028,7 +6065,7 @@
           <speaker>LIGETI</speaker>
           <p>Most tizenkettedikszer olvassa a’ Bibliát. <stage>( Kaczor és Rigó majd
                             nevetkeznek, majd boszonkodni látszanak )</stage>
-                    </p>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -6089,9 +6126,10 @@
           <p>Ej! maga magát csak meg nem üti az úr. Azután a’ levél szerint nekünk még
                         egy igen nagy dolgunk van.– Tessék leülni, üljenek le uraságtok is.
                             <stage>(Leülnek egymást</stage>
-                        <stage>bámulva)</stage> Mi, úgy hiszem, ezentúl is jó barátok leszünk.
+            <stage>bámulva)</stage> Mi, úgy hiszem, ezentúl is jó barátok leszünk.
                             <stage>(Bekiált) </stage>Vilma, Vilma! <stage>(Mindnyájan ijedve
-                            felszöknek üléseikből)</stage></p>
+                            felszöknek üléseikből)</stage>
+          </p>
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
@@ -6106,7 +6144,8 @@
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
           <stage>(félre)</stage>
-          <p>Oda vagyunk! <stage>(Lidi jő)</stage></p>
+          <p>Oda vagyunk! <stage>(Lidi jő)</stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -6119,7 +6158,8 @@
           <stage>(félre)</stage>
           <p>Most, merevenség! ne hagyj el bennünket! <stage>(Ligeti fel, ’s alá
                             elmerülten jár, azalatt ajtó nyilik, ’s Katicza belép, de meglepve némán
-                            rnegállapodik, ’s rneghajtja magát) </stage></p>
+                            rnegállapodik, ’s rneghajtja magát) </stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -6138,7 +6178,7 @@
           <speaker>LIGETI</speaker>
           <p>Ezen leveleikben Kaczor úr <stage>(Rámutat)</stage>, Rigó úr ’s Guta úr, szép
                         kezedet kérik. <stage>(A’ vélt Vilmához fordulva,</stage>
-                        <stage>midőn Katicztát látja, visszahökken)</stage> Ah Katicza kisasz- szony! <stage>(Félre)</stage> Mi a’ veszedelem hozza most ezt ide?</p>
+            <stage>midőn Katicztát látja, visszahökken)</stage> Ah Katicza kisasz- szony! <stage>(Félre)</stage> Mi a’ veszedelem hozza most ezt ide?</p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA, RIGÓ és KACZOR</speaker>
@@ -6155,7 +6195,8 @@
           <stage>(félre)</stage>
           <p>Hogy ezt is most hozza a’ sárkány! <stage>(Katiczához)</stage> Tessék
                         leülni, Vilmát mindjárt ide hozom. <stage>(Félre) </stage>Bizony még zavarba
-                        hoznak; de hol is marad az a’ leány, olly soká! <stage>(El)</stage></p>
+                        hoznak; de hol is marad az a’ leány, olly soká! <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
@@ -6255,7 +6296,8 @@
                         dolgaltoknak. Azonban kérőid’ leveleit áltáladom, mulasd magad’ velök. ’S
                         most isten veletek! nekem szórakozásra van szükségem; mert ez a’ bohó
                         társaság egészen megzavart. Még egyszer mondom, illyen kérők ne jőjenek
-                        többé; mert klastromba viszlek. <stage>(El)</stage></p>
+                        többé; mert klastromba viszlek. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#katicza">
           <speaker>KATICZA</speaker>
@@ -6294,7 +6336,8 @@
                         tagadni a’ fehérszemélyt, ha máskép nern férhetnek hozzá. Ah gyön- gyöm! ne
                         hagyja magát elragadni; de ha aztán még is elragadják, ájuljon el, mert ez
                         a’ könyvekben is így van. Ah! ha engem ragadnának el, én karjak között
-                        ájulnék el. Pá angyalom, mindjárt vissza jövök. <stage>(El.)</stage></p>
+                        ájulnék el. Pá angyalom, mindjárt vissza jövök. <stage>(El.)</stage>
+          </p>
         </sp>
         <sp who="#vilma">
           <speaker>VILMA</speaker>
@@ -6411,14 +6454,16 @@
           <speaker>VILMA</speaker>
           <p>Az nem sok gondunkba kerűl. De most lássunk a’ dologhoz, Lidi; mert ha ez a’
                         kalandozás tovább tart, kénytelenek leszünk egy időre Pestet elhagyni.
-                            <stage>(El)</stage></p>
+                            <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
           <p>Attól az isten mentsen meg. Inkább mindent elkövetek. Én ezt a’ szép tarka
                         várost, a’ sok czifra boltot, csínos népet, meg Pétert, meg mindent, itt
                         hagyjam? nem, nem, abból semmi sem lesz; inkább mind megcsalom, valamennyi
-                        férfi ’s leánykérő van a’ világon. <stage>(El)</stage></p>
+                        férfi ’s leánykérő van a’ világon. <stage>(El)</stage>
+          </p>
         </sp>
         <stage>(Guta’ szállása)</stage>
         <stage>KACZOR, GUTA, RIGÓ</stage>
@@ -6551,7 +6596,8 @@
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
           <p>Nekem azt mondanod sem szükség.
-                        Takarodj<?oxy_comment_start author="User" timestamp="20190105T204613+0100" comment="valószínűleg hiba, és felkiáltójel akart itt lenni"?>’.<?oxy_comment_end?></p>
+                        Takarodj<?oxy_comment_start author="User" timestamp="20190105T204613+0100" comment="valószínűleg hiba, és felkiáltójel akart itt lenni"?>’.<?oxy_comment_end?>
+          </p>
         </sp>
         <sp who="#csiszar">
           <speaker>CSÍSZÁR</speaker>
@@ -6563,7 +6609,8 @@
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
           <p>Bár megverted volna. Elmehetsz. <stage>(Rigó és Kaczor félre titkon beszélnek
-                            egymással.)</stage></p>
+                            egymással.)</stage>
+          </p>
         </sp>
         <sp who="#csiszar">
           <speaker>CSÍSZÁR</speaker>
@@ -6577,7 +6624,8 @@
         </sp>
         <sp who="#csiszar">
           <speaker>CSÍSZÁR</speaker>
-          <p>Hiszen megyek. <stage>(Majd visszatér, Gutát kefélni kezdi)</stage></p>
+          <p>Hiszen megyek. <stage>(Majd visszatér, Gutát kefélni kezdi)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -6596,7 +6644,8 @@
           <speaker>CSÍSZÁR</speaker>
           <p>Igen is tens uram. (Félre) Hogy ezek a’ falusi urak ollyan parancsolók! ’S
                         egyátalában nem válogatják a’ szót. <stage>( A’ csizmákat lerakja, ’s a’
-                            rnint lehajol, kebeléből egy levél hulll ki.) </stage></p>
+                            rnint lehajol, kebeléből egy levél hulll ki.) </stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -6638,7 +6687,8 @@
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
-          <p>Hah, pártütő gazember! ide a’ levelet. <stage>(Elragadja)</stage></p>
+          <p>Hah, pártütő gazember! ide a’ levelet. <stage>(Elragadja)</stage>
+          </p>
         </sp>
         <sp who="#csiszar">
           <speaker>CSÍSZÁR</speaker>
@@ -6659,11 +6709,13 @@
         <sp who="#guta">
           <speaker>GUTA</speaker>
           <p> Vizéri Lajos urnak. Ki az a’ Vizéri? <stage>(Csiszár vállat
-                        vonít)</stage></p>
+                        vonít)</stage>
+          </p>
         </sp>
         <sp who="#kaczor">
           <speaker>KACZOR</speaker>
-          <p>Ki írta a’ levelet? <stage>(Csíszár vállat vonít)</stage></p>
+          <p>Ki írta a’ levelet? <stage>(Csíszár vállat vonít)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -6871,7 +6923,8 @@
           <p>Azért is tehát halljátok tervemet. Az idő’ rövidsége nem engedvén, hogy a’
                         szerencsedombra kimenjünk, de azért is, mert az már ránk nézve inkább baj
                         mint jó szerencse’ dombja, itt fogjuk dolgainkat röviden elin- tézni. ’S
-                        legelőször olvassátok a szerződést.<stage>(Általadja Gutának)</stage></p>
+                        legelőször olvassátok a szerződést.<stage>(Általadja Gutának)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -7006,7 +7059,8 @@
           <speaker>KACZOR</speaker>
           <p>Ez minden esetre elfogadható. Rajta barátim! ha merényeink fonákul estek is
                         ki, de legalább az a’ vigasz- talásunk lesz,hogy az utolsót mi nevetjük el.
-                            <stage>(El)</stage></p>
+                            <stage>(El)</stage>
+          </p>
         </sp>
       </div>
       <div type="act">
@@ -7311,10 +7365,8 @@
             <l>Ülőhelyemben nem maradhatok.</l>
             <l>Ez a’ te csókod ollyan égető,</l>
             <l>Hogy okvetetlen el kell oltanom.</l>
-            <l>
-              <stage><?oxy_comment_start author="User" timestamp="20190106T143458+0100" comment="középen elkülönül a szövegtől"?>(Vilmát
-                                kerülgetve)<?oxy_comment_end?></stage>
-            </l>
+            <l><stage><?oxy_comment_start author="User" timestamp="20190106T143458+0100" comment="középen elkülönül a szövegtől"?>(Vilmát
+                                kerülgetve)<?oxy_comment_end?></stage></l>
             <l>Nem, nem, hugom, már itt nem engedek.</l>
           </lg>
         </sp>
@@ -7386,10 +7438,8 @@
             <l>Nem sok hibázik, mindjárt oldva lesz,</l>
             <l>És tudja bácsi, mit jelent ez a’ kép?</l>
             <l>Vagy úgy! ne szóljon, elmondom magam.</l>
-            <l>
-              <stage><?oxy_comment_start author="User" timestamp="20190106T144805+0100" comment="középen elkülönül a szövegtől"?>(Szünet
-                                után)<?oxy_comment_end?></stage>
-            </l>
+            <l><stage><?oxy_comment_start author="User" timestamp="20190106T144805+0100" comment="középen elkülönül a szövegtől"?>(Szünet
+                                után)<?oxy_comment_end?></stage></l>
             <l>Napokban, a‘ mint künn sétálni voltam,</l>
             <l>Egy pár szerelmes szívre bukkanék,</l>
             <l>Kik lomb alatt, egy kis halom körűl,</l>
@@ -7464,10 +7514,8 @@
           <lg>
             <l>Oh engem is. Nevessünk bácsikám!</l>
             <l>De nézze immár, kész vagyok vele.</l>
-            <l>
-              <stage><?oxy_comment_start author="User" timestamp="20190106T145446+0100" comment="középen elkülönül a szövegtől"?>(Átadja
-                                a képet)<?oxy_comment_end?></stage>
-            </l>
+            <l><stage><?oxy_comment_start author="User" timestamp="20190106T145446+0100" comment="középen elkülönül a szövegtől"?>(Átadja
+                                a képet)<?oxy_comment_end?></stage></l>
             <l>Hogy tetszik a’ kép?</l>
           </lg>
         </sp>
@@ -7520,9 +7568,7 @@
           <speaker>HANGAI</speaker>
           <lg>
             <l>Hiszen dicsérem. <stage>(Magában)</stage> Mennydörgő dolog!</l>
-            <l>
-              <stage><?oxy_comment_start author="User" timestamp="20190106T150018+0100" comment="középen elkülönülve"?>(Vilmához)<?oxy_comment_end?></stage>
-            </l>
+            <l><stage><?oxy_comment_start author="User" timestamp="20190106T150018+0100" comment="középen elkülönülve"?>(Vilmához)<?oxy_comment_end?></stage></l>
             <l>A’ kép igen jó.</l>
           </lg>
         </sp>
@@ -7649,10 +7695,8 @@
           <lg>
             <l>Mit hallok, milly példátlan árulás!</l>
             <l>Mind illyen hát az asszonygyűlölő?</l>
-            <l>
-              <stage><?oxy_comment_start author="User" timestamp="20190106T151404+0100" comment="középen külön"?>(Neheztelést
-                                színlelve)<?oxy_comment_end?></stage>
-            </l>
+            <l><stage><?oxy_comment_start author="User" timestamp="20190106T151404+0100" comment="középen külön"?>(Neheztelést
+                                színlelve)<?oxy_comment_end?></stage></l>
             <l>És bácsikárn, ha majd megint egy új</l>
             <l>Rokont talál, illy ifjút, szabadot,</l>
             <l>Mint íme szegről végről jó magam,</l>
@@ -7781,9 +7825,7 @@
           <stage>(félre)</stage>
           <lg>
             <l>Ez kellene még csak! már most megint mit tegyek?</l>
-            <l>
-              <stage><?oxy_comment_start author="User" timestamp="20190106T152556+0100" comment="közép"?>(Vilmához)<?oxy_comment_end?></stage>
-            </l>
+            <l><stage><?oxy_comment_start author="User" timestamp="20190106T152556+0100" comment="közép"?>(Vilmához)<?oxy_comment_end?></stage></l>
             <l>Az nem lehet.</l>
           </lg>
         </sp>
@@ -7910,7 +7952,8 @@
                         vége kezemben, ’s nem máséban van. – ’S valljon eljön-e ő? de nem okoskodom;
                         jót roszat csak idő hozhat, ’s elhozza azt, ha nem sürgetjük is.
                             <stage>(Beszól)</stage> Lidi, jőj, ha készen vagy.
-                        <stage>(El)</stage></p>
+                        <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
@@ -7931,13 +7974,16 @@
                         kocsik elindultak, Katicza úton van, ’s ha mind ezért uraim megdöngetnek,
                         legelőbb is a’ te nyakadot tekerem ki; most pedig megcsókollak.
                             <stage>(Hirtelen megcsókolja, Lidi perelni akar, Péter
-                            befogja</stage><stage>száját, ’s kifelé tolja) </stage>Siess te lúd, te
-                        kácsa, Vilma kis- asszony várakozik reád. <stage>(Elszalad )</stage></p>
+                            befogja</stage>
+            <stage>száját, ’s kifelé tolja) </stage>Siess te lúd, te
+                        kácsa, Vilma kis- asszony várakozik reád. <stage>(Elszalad )</stage>
+          </p>
         </sp>
         <sp who="#lidi">
           <speaker>LIDI</speaker>
           <p>Nézze el az ember! ha most rá érnék, szivemből boszan- kodhatnám. – No
-                        hiszen várj! <stage>(El)</stage></p>
+                        hiszen várj! <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
@@ -7945,10 +7991,10 @@
           <p>Szép májusi reggel! ritkaság a’ mostani években, holott sern- hideg, sem
                         meleg nem tartja meg sorát, mintha még az idő is kifordult volna sarkaiból.
                             <stage>(Körűl</stage>
-                        <stage>hallgatózik)</stage> Cselédeim még alusznak; fel kell őket zavar-
+            <stage>hallgatózik)</stage> Cselédeim még alusznak; fel kell őket zavar-
                         nod. Szokás tartja az első május’ reggelét megünnepehi, ’s ebből nem szabad
                         kimaradniok. <stage>(Szolga levelet hoz</stage>
-                        <stage>’s távozik )</stage> Levél illyen korán! Annyira kitanultam a’
+            <stage>’s távozik )</stage> Levél illyen korán! Annyira kitanultam a’
                         babonákból ’s minden jósolásból, hogy azt sem tudom mit jelent, ha az ember
                         korán reggel levelet kap. De lássuk a’ levelet, az legbizonyosabban
                         kimondja, a’ mit jelenteni akar. <stage>(Olvas)</stage>"Uram! nem érdemli
@@ -7970,7 +8016,7 @@
                         legyen kénytelen reggeli kalándjából gyalog és egyedűl haza sétálni, jó
                         1esz, ha uraságod őt a’ várasligeti tó körűl fölkeresi."
                             <stage>(Összehajtja</stage>
-                        <stage>a’ levelet)</stage> Ej! ez már még is lator dolog volna. Vilma,
+            <stage>a’ levelet)</stage> Ej! ez már még is lator dolog volna. Vilma,
                         Lidi, jertek csak elő! <stage>(Benyit az egyik oldalszobába)</stage> Mi ez?
                         a’ szoba üres. Hova mehettek egyedűl ’s illy korán? Ha azoknak a’
                         ficzkóknak még is igazok volna. <stage>(Csenget)</stage> Átkozott gondolat!
@@ -8000,12 +8046,14 @@
         <sp who="#egy_inas">
           <speaker>INAS</speaker>
           <stage>(jő)</stage>
-          <p>A’ kocsis előjárt. <stage>(El)</stage></p>
+          <p>A’ kocsis előjárt. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#ligeti">
           <speaker>LIGETI</speaker>
           <p>Megyek. – Utána kell mennem; mert akármi, de van a’ dolgban. Átkozott
-                        ficzkók, hogy ezek miatt nekem nyugtom nem lehet. <stage>(El)</stage></p>
+                        ficzkók, hogy ezek miatt nekem nyugtom nem lehet. <stage>(El)</stage>
+          </p>
         </sp>
         <stage>(Városligeti tér)</stage>
         <stage>KACZOR, GUTA, RIGÓ és KATICZA <hi rend="italic">(fátyolosan)</hi></stage>
@@ -8050,8 +8098,9 @@
           <p>Azért is mindenek előtt veszem magamnak a’ szabad- ságot, hogy ezen
                         megátalkodott szépségnek szemébe tekintsek. <stage>(A’ gyengén vonakodó
                             Katiczának fátyola alá</stage>
-                        <stage>tekint)</stage> Irgalom! mit láttam. No mi ismét megjártuk. Legjobb
-                        tesz szép csendesen elillanni. <stage>(Elvonul)</stage></p>
+            <stage>tekint)</stage> Irgalom! mit láttam. No mi ismét megjártuk. Legjobb
+                        tesz szép csendesen elillanni. <stage>(Elvonul)</stage>
+          </p>
         </sp>
         <sp who="#guta">
           <speaker>GUTA</speaker>
@@ -8061,7 +8110,8 @@
                         ez a’ te Sárád! <stage>(Rigóhoz)</stage> Rigó bará- tom, tied legyen a’
                         dicsőség, hogy ezen ritka érzéketlen- ségú kellemeket a’ világnak megmutasd.
                             <stage>(Félre)</stage> Én pedig iszonyodom ’s futok! <stage>(El, Rigó
-                            Katicza felé közelít, ’s az felveti fátyolát)</stage></p>
+                            Katicza felé közelít, ’s az felveti fátyolát)</stage>
+          </p>
         </sp>
         <sp who="#katicza">
           <speaker>KATICZA</speaker>
@@ -8070,7 +8120,8 @@
         <sp who="#rigo">
           <speaker>RIGÓ</speaker>
           <stage>(visszaijed)</stage>
-          <p>Huh! mi rengeteg óság! Uram ne hagyj. <stage>(El)</stage></p>
+          <p>Huh! mi rengeteg óság! Uram ne hagyj. <stage>(El)</stage>
+          </p>
         </sp>
         <sp who="#katicza">
           <speaker>KATICZA</speaker>
@@ -8083,7 +8134,7 @@
                         lennének szeretni kénytelenek, vakon, vakon, vakon! Nem! el nem ájulok,
                         most nem!Segítség! meg kell fogni, fogd meg! tolvaj! rabló! gyilkos!
                         tűz van! Segít- ség! <stage>(A’ kiáltásra nép jő ásóval, kapával)</stage>
-                    </p>
+          </p>
         </sp>
         <sp who="#nep">
           <speaker>EGY A’ NÉP KÖZÜL</speaker>
@@ -8094,7 +8145,8 @@
           <p>Még néném asszony! oda vagyok! De jó1 van fiaim, én anyátok akarok lenni.
                         Engem megcsaltak, megloptak, kiraboltak minden földi boldogságomból. Jőjetek
                         utá- nam, fogjátok meg, vagdaljátok össze! Ah szívem! utánam, fiaim!
-                            <stage>(El a néppel)</stage></p>
+                            <stage>(El a néppel)</stage>
+          </p>
         </sp>
         <stage>(Városligeti halom)</stage>
         <sp who="#hangai">
@@ -8440,10 +8492,8 @@
             <l>Az érzemények’ legbelsőbb körén,</l>
             <l>Azért haragnak köztünk nincs helye.</l>
             <l>Hát nem vagyunk-e mink rokon ’s barát?</l>
-            <l>
-              <stage><?oxy_comment_start author="User" timestamp="20190106T173135+0100" comment="külön középen"?>(Nevekedő
-                                tűzzel)<?oxy_comment_end?></stage>
-            </l>
+            <l><stage><?oxy_comment_start author="User" timestamp="20190106T173135+0100" comment="külön középen"?>(Nevekedő
+                                tűzzel)<?oxy_comment_end?></stage></l>
             <l>Oh a’ rokonság szent kötél: atyáink</l>
             <l>A’ hír szerint, két testvérlányfiak</l>
             <l>Együtt vezettek népet a’ törökre,</l>
@@ -8470,10 +8520,8 @@
             <l>E’ kis könyűt, melly vétkemért fakadt,</l>
             <l>’S mint hű barát e’ jobbot felfogom,</l>
             <l>’S baráti csókjaimmal illetern;</l>
-            <l>
-              <stage><?oxy_comment_start author="User" timestamp="20190106T173526+0100" comment="középen külön"?>(Vilma
-                                hezét folyvást tüzesen csókolja)<?oxy_comment_end?></stage>
-            </l>
+            <l><stage><?oxy_comment_start author="User" timestamp="20190106T173526+0100" comment="középen külön"?>(Vilma
+                                hezét folyvást tüzesen csókolja)<?oxy_comment_end?></stage></l>
             <l>De csak baráti tiszta csókjaimmal,</l>
             <l>’S úgy összecsókolom, hogy végre asszonyától</l>
             <l>Hozzám szegődik és enyém rnarad. –</l>
@@ -8630,7 +8678,7 @@
                         jeléűl íme sem- mivé teszszük azon sorsintéző irományt, melly annyi bajt ’s
                         fárasztő csalódást okozott. <stage>(Széttépi a’ szerződést, az alatt a’
                             kárpit legördűl)</stage>
-                    </p>
+          </p>
         </sp>
       </div>
     </body>

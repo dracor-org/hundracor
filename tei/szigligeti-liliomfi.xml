@@ -61,7 +61,7 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref> </orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000035</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -195,9 +197,7 @@
           <role><roleName>Szilvai Tódor</roleName>, oktató</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Kamilla kisasszony</roleName>
-          </role>
+          <role><roleName>Kamilla kisasszony</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Mariska</roleName>, árva, növendéke</role>
@@ -215,82 +215,52 @@
           <role><roleName>Gyuri</roleName>, pincér</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Liliomfi</roleName>
-          </role>
+          <role><roleName>Liliomfi</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Szellemfi</roleName>
-          </role>
+          <role><roleName>Szellemfi</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Schwartz Adolf</roleName>, pesti fogadós fia</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Szilvai Tódor</roleName>
-          </role>
+          <role><roleName>Szilvai Tódor</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Mariska</roleName>
-          </role>
+          <role><roleName>Mariska</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Kányai szomszédasszonya, fiával</roleName>
-          </role>
+          <role><roleName>Kányai szomszédasszonya, fiával</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Uracs</roleName>
-          </role>
+          <role><roleName>Uracs</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Szolgáló Kányainál</roleName>
-          </role>
+          <role><roleName>Szolgáló Kányainál</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Nép</roleName>
-          </role>
+          <role><roleName>Nép</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Táncosok</roleName>
-          </role>
+          <role><roleName>Táncosok</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Kányai</roleName>
-          </role>
+          <role><roleName>Kányai</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Erzsike</roleName>
-          </role>
+          <role><roleName>Erzsike</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Liliomfi</roleName>
-          </role>
+          <role><roleName>Liliomfi</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Szilvai</roleName>
-          </role>
+          <role><roleName>Szilvai</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Mariska</roleName>
-          </role>
+          <role><roleName>Mariska</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Gyuri</roleName>
-          </role>
+          <role><roleName>Gyuri</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Schwartz</roleName>, fogadós Pestről</role>
@@ -299,9 +269,7 @@
           <role><roleName>Adolf</roleName>, fia</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Két perzekútor</roleName>
-          </role>
+          <role><roleName>Két perzekútor</roleName></role>
         </castItem>
       </castList>
     </front>
@@ -605,7 +573,8 @@
             <p>Ráijesztek a fiúra - azt mondom: ha nem kell a lány, megházasodom,
                             gyermekeim lesznek, s az örökségtől elcseppen. De most megyek,
                             meglátogatom Kenderesi professzor barátomat. Azalatt készítse el
-                            Mariskát az útra.<stage>(A választóajtónak megy)</stage></p>
+                            Mariskát az útra.<stage>(A választóajtónak megy)</stage>
+            </p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -648,7 +617,8 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Alászolgája!<stage>(Félre)</stage>Szegény liliom, neked is lesz
-                                Emerenciád!<stage>(El, Kamilla kikíséri)</stage></p>
+                                Emerenciád!<stage>(El, Kamilla kikíséri)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -688,9 +658,7 @@
             <speaker>SZELLEMFI</speaker>
             <lg>
               <l>Nincs!</l>
-              <l>
-                <stage>(Együtt)</stage>
-              </l>
+              <l><stage>(Együtt)</stage></l>
               <l>Mindig a deficit járja,</l>
               <l>Semmi sincsen a pénztárba'.</l>
             </lg>
@@ -794,7 +762,8 @@
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
-            <p>Kérem, egy karzatot is hozok a belső számára.<stage>(el)</stage></p>
+            <p>Kérem, egy karzatot is hozok a belső számára.<stage>(el)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -828,24 +797,29 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Vajon itthon van-e? Senki sem lát.<stage>(Az ajtóhoz
-                            közeledik)</stage></p>
+                            közeledik)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Megnézem, vajon ő-e az?<stage>(Az ajtóhoz megy, mindketten egyszerre
-                                teszik szemeiket a kulcslyukhoz)</stage></p>
+                                teszik szemeiket a kulcslyukhoz)</stage>
+            </p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
-            <p>Ah! - itthon van - átnéz!<stage>(Elugrik)</stage></p>
+            <p>Ah! - itthon van - átnéz!<stage>(Elugrik)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Fekete szem - ő az! - átnéz - ő az! Diadal!<stage>(Sóhajt)</stage></p>
+            <p>Fekete szem - ő az! - átnéz - ő az! Diadal!<stage>(Sóhajt)</stage>
+            </p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
-            <p>Sóhajt! Értem sóhajt!<stage>(Sóhajt)</stage></p>
+            <p>Sóhajt! Értem sóhajt!<stage>(Sóhajt)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -853,11 +827,13 @@
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
-            <p>Valami ürügy alatt megszólítom.<stage>(Kopog)</stage></p>
+            <p>Valami ürügy alatt megszólítom.<stage>(Kopog)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Kopog - ő kopog!<stage>(Visszakopog)</stage></p>
+            <p>Kopog - ő kopog!<stage>(Visszakopog)</stage>
+            </p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -935,15 +911,18 @@
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Bárcsak az ablakhoz ülne.<stage>(Az ablakhoz megy, kinéz)</stage></p>
+            <p>Bárcsak az ablakhoz ülne.<stage>(Az ablakhoz megy, kinéz)</stage>
+            </p>
           </sp>
           <sp who="#kamilla_kisasszony">
-            <speaker>MARISKA<note type="editorial">KAMILLAsh.</note></speaker>
+            <speaker>MARISKA<note type="editorial">KAMILLAsh.</note>
+            </speaker>
             <p>Tehát jól figyelj!</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
-            <p>Nagyon figyelek.<stage>(Kitekint az ablakon)</stage></p>
+            <p>Nagyon figyelek.<stage>(Kitekint az ablakon)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -984,12 +963,14 @@
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Tudom már, szerepet tanulok<stage>(Szerepet vesz)</stage></p>
+            <p>Tudom már, szerepet tanulok<stage>(Szerepet vesz)</stage>
+            </p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Árva vagy, szülőidet gyermekkorodban elvesztéd; de atyád barátja, kit ma
-                            megismersz...<stage>(Liliomfi szavát hallván, elhallgat)</stage></p>
+                            megismersz...<stage>(Liliomfi szavát hallván, elhallgat)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -1058,12 +1039,14 @@
             <speaker>KAMILLA</speaker>
             <stage>(félre)</stage>
             <p>Ablakhoz? Mily szorult, nehéz itt a levegő!<stage>(Ablakhoz megy)</stage>
-                            Mi az? Hiszen nem néz ki.<stage>(Eljő)</stage></p>
+                            Mi az? Hiszen nem néz ki.<stage>(Eljő)</stage>
+            </p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Nem ám, mert nem én nézek ki. De hát folytassa, édes néni - el kell
-                                válnunk.<stage>(Az ablakhoz visszaül)</stage></p>
+                                válnunk.<stage>(Az ablakhoz visszaül)</stage>
+            </p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1078,7 +1061,8 @@
             <speaker>LILIOMFI</speaker>
             <stage>(az ívet mutatja, rajta felül lángoló szív, s alá e szók írva: "Ha
                             szeretsz, ints igent")</stage>
-            <p>Most eldől a kocka.<stage>(Az ablakhoz megy)</stage></p>
+            <p>Most eldől a kocka.<stage>(Az ablakhoz megy)</stage>
+            </p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1172,7 +1156,8 @@
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
-            <p>Minek kerülne? Méltóztassék!<stage>(Az ajtót szinte kinyitja)</stage></p>
+            <p>Minek kerülne? Méltóztassék!<stage>(Az ajtót szinte kinyitja)</stage>
+            </p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1193,11 +1178,13 @@
             <speaker>LILIOMFI</speaker>
             <stage>(kissé igazgatja öltözetét, haját)</stage>
             <p>Nem kell többé zártszék, mert ím, nyitott ajtó
-                                van.<stage>(Átmegy)</stage></p>
+                                van.<stage>(Átmegy)</stage>
+            </p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
-            <p>Már kapituláltak? Csak kíváncsi vagyok.<stage>(Hallgatózik)</stage></p>
+            <p>Már kapituláltak? Csak kíváncsi vagyok.<stage>(Hallgatózik)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -1446,7 +1433,8 @@
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Az ajtó nyílik. A viszontlátásig!<stage>(El a választóajtón)</stage></p>
+            <p>Az ajtó nyílik. A viszontlátásig!<stage>(El a választóajtón)</stage>
+            </p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1534,7 +1522,8 @@
                             Akkor majd önt szeretné, drága professzor úr! Csak tessék elvinni. Én
                             leveszem róla kezeimet! Őrizze, vegye feleségül, adja feleségül, ahhoz
                             semmi közöm. De engem feleletre vonni?! Egy óra múlva, reménylem, nem
-                            találom itt, drága szerelmes gerlicepár! Adieu.<stage>(El)</stage></p>
+                            találom itt, drága szerelmes gerlicepár! Adieu.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -1623,7 +1612,8 @@
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Csak magát bocsásd be. Fiú, ügyes légy!<stage>(El oldalt)</stage></p>
+            <p>Csak magát bocsásd be. Fiú, ügyes légy!<stage>(El oldalt)</stage>
+            </p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -1655,7 +1645,8 @@
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <stage>(danol)</stage>
-            <p>Reszkess, Bizantió...<stage>(Trillázik)</stage></p>
+            <p>Reszkess, Bizantió...<stage>(Trillázik)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -1705,7 +1696,8 @@
             <stage>(félre)</stage>
             <p>Ez a figura?! Mit tudnak ezen szeretni a lányok! Termet - járás -
                                 tartás?<stage>(Szemüvegét fölteszi)</stage> Lássuk közelről.
-                                <stage>(Közel megy hozzá)</stage></p>
+                                <stage>(Közel megy hozzá)</stage>
+            </p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -1869,7 +1861,8 @@
             <speaker>SZILVAI</speaker>
             <p>Kérem, kérem!<stage>(székre nyomja)</stage>No, ha másképp nem
                                 lehet.<stage>(Sóhajtva pénzt ad, Szellemfi írja, mit Szilvai
-                                mond)</stage></p>
+                                mond)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1902,7 +1895,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(kezeit csókolja)</stage>
-            <p>Váradon látjuk egymást! Isten veled!<stage>(El)</stage></p>
+            <p>Váradon látjuk egymást! Isten veled!<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1936,7 +1930,8 @@
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Egyenesen Konstantinápolyba; a szultántól úgyis meghívást kaptam, néhány
-                                vendégszerepre.<stage>(Az iratot átadja)</stage></p>
+                                vendégszerepre.<stage>(Az iratot átadja)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -2113,12 +2108,14 @@
             <speaker>MIND</speaker>
             <p>Hahahaha!</p>
             <p>Ugyan kérem, miért nevet? <stage>(Állás: Szellemfi, Mariska, Szilvai,
-                                Liliomfi)</stage></p>
+                                Liliomfi)</stage>
+            </p>
             <p>E levélnek az íróját</p>
             <p>Nem szerettem én soha szerette ő Mit is képzel, önt szeretném, őt
                             szeretné, Nevetséges figura?!<stage>(Liliomfi átnyúl, megfogja Mariska
-                                kezét)</stage></p>
-            <!--Ez még kérdés, hogy lehetne megoldani!  -->
+                                kezét)</stage>
+            </p>
+<!--Ez még kérdés, hogy lehetne megoldani!  -->
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -2136,11 +2133,13 @@
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
-            <p>Az úr bolond!<stage>(átmegy)</stage></p>
+            <p>Az úr bolond!<stage>(átmegy)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
-            <p>Ezért meglakol.<stage>(Az ajtónak megy)</stage></p>
+            <p>Ezért meglakol.<stage>(Az ajtónak megy)</stage>
+            </p>
           </sp>
           <sp who="#szellemfi #liliomfi">
             <speaker>SZELLEMFI, LILIOMFI</speaker>
@@ -2193,7 +2192,8 @@
             <speaker>LEGÉNY</speaker>
             <p>Megállj, cigány!... Eszem a szemét, Erzsike, beh szép maga!... Hadd
                             forgassam meg amúgy magyarmiskásan!<stage>(Át akarja
-                            karolni)</stage></p>
+                            karolni)</stage>
+            </p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2214,7 +2214,8 @@
             <p>Hm, beh kényes no!... Magam is nemeslegény volnék, vagy mi; van is mit
                             aprítanom a tejbe... De semmi no!... Hejh fiúk, menjünk a Bárányba...
                             Ott nem néznek ránk ily görbe szemmel... Előre, no!... Húzd
-                                rá!<stage>(Dúdolva)</stage></p>
+                                rá!<stage>(Dúdolva)</stage>
+            </p>
           </sp>
           <sp who="#nep #tancosok">
             <speaker>(KAR)</speaker>
@@ -2298,7 +2299,8 @@
           <sp who="#szolgalo_kanyainal">
             <speaker>SZOLGÁLÓ</speaker>
             <stage>(jobbról)</stage>
-            <p>Leányasszony, a rántás mindjárt megég.<stage>(El)</stage></p>
+            <p>Leányasszony, a rántás mindjárt megég.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2405,12 +2407,14 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <stage>(félre)</stage>
-            <p>Csak szólni mernék!<stage>(El balra)</stage></p>
+            <p>Csak szólni mernék!<stage>(El balra)</stage>
+            </p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Jeles fiú, jobb pincért Párizsból sem kaptam volna. S ami a legfőbb, egy
-                            krajcárig sem csal meg. Vigyáztam rá!<stage>(Menni akar)</stage></p>
+                            krajcárig sem csal meg. Vigyáztam rá!<stage>(Menni akar)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2489,7 +2493,8 @@
           </sp>
           <sp who="#kanyai_szomszedasszonya_fiaval">
             <speaker>SZOMSZÉDASSZONY</speaker>
-            <p>Én nem akarok pletykába keveredni. Adjon isten! <stage>(El)</stage></p>
+            <p>Én nem akarok pletykába keveredni. Adjon isten! <stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -2575,7 +2580,8 @@
                             Tehát értsd meg, leány: ő lesz a férjed. S te tudd meg, nekik Pesten oly
                             fogadójuk van, hol te még kályhafűtő sem lehetnél. Kétszáz vendégszoba
                             van ott, érted, Erzsi? Az mind a tiéd! Ez oly szent igaz, mint hogy ma
-                            péntek van! S most a konyhába! A pincébe.<stage>(El)</stage></p>
+                            péntek van! S most a konyhába! A pincébe.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2726,7 +2732,8 @@
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
-            <p>Gyuri! azt mondom!...<stage>(El)</stage></p>
+            <p>Gyuri! azt mondom!...<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -2759,7 +2766,8 @@
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
-            <p>Eh, mindjárt.<stage>(El)</stage></p>
+            <p>Eh, mindjárt.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -2793,7 +2801,8 @@
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
-            <p>De ha ekképpen?<stage>(Ütleget mutat)</stage></p>
+            <p>De ha ekképpen?<stage>(Ütleget mutat)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -2984,7 +2993,8 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Eh, már ismét! Még úgyis van a rováson, édes úrfi!
-                            <stage>(El)</stage></p>
+                            <stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -3371,7 +3381,8 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Az ifjú Schwartz? Isten hozta, kedves öcsémuram! Szakasztott az
-                                apja!<stage>(Ölelni akarja)</stage></p>
+                                apja!<stage>(Ölelni akarja)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -3641,7 +3652,8 @@
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
             <p>Hát először is apám ezerszer tiszteli, s itt vagyok én, hogy helyette
-                                megöleljem.<stage>(Ölelni akarja)</stage></p>
+                                megöleljem.<stage>(Ölelni akarja)</stage>
+            </p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3691,7 +3703,8 @@
           </sp>
           <sp who="#kanyai">
             <speaker>MIND</speaker>
-            <p>Schwartz?<stage>(Valami ensemble)</stage></p>
+            <p>Schwartz?<stage>(Valami ensemble)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -3954,7 +3967,8 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Takarodjék innen, itt nem kell szemfényvesztés!<stage>(Adolfot kidobják,
-                                Szellemfi vele el)</stage></p>
+                                Szellemfi vele el)</stage>
+            </p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3972,7 +3986,8 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Édesapám, ugyan kérem folytassa csak tovább, dobja ki ráadásul ezt az
-                            igazi Schwartzot is.<stage>(El)</stage></p>
+                            igazi Schwartzot is.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -3981,7 +3996,8 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Megyek hazulról, mert ha ezt az embert látom... Uram, ha visszatérve itt
-                            lelem, úgy jár, mint Liliomfi.<stage>(El)</stage></p>
+                            lelem, úgy jár, mint Liliomfi.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -4002,7 +4018,8 @@
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Nem, a reggelit.<stage>(Kívül kocsizörgés)</stage></p>
+            <p>Nem, a reggelit.<stage>(Kívül kocsizörgés)</stage>
+            </p>
           </sp>
           <sp who="#szilvai">
             <speaker>SZILVAI</speaker>
@@ -4208,7 +4225,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ez ajtó az előszobába vezet. S ez?<stage>(Kinyitja a mellékszoba
-                                ajtaját)</stage></p>
+                                ajtaját)</stage>
+            </p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -4348,7 +4366,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Értem.<stage>(Félre)</stage>De hiszen a leányt mégis elszöktetem, vén
-                                sárkány!<stage>(El)</stage></p>
+                                sárkány!<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4370,7 +4389,8 @@
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
-            <p>Üljünk le, Mariskám.<stage>(Leülnek)</stage></p>
+            <p>Üljünk le, Mariskám.<stage>(Leülnek)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -4405,7 +4425,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(félre)</stage>
-            <p>De hiszen borsot török még ma orrod alá.<stage>(El)</stage></p>
+            <p>De hiszen borsot török még ma orrod alá.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4530,7 +4551,8 @@
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Ah! Oh!... Mindjárt, csak ételt hozok.<stage>(Sóhajtva el)</stage></p>
+            <p>Ah! Oh!... Mindjárt, csak ételt hozok.<stage>(Sóhajtva el)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4662,13 +4684,15 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Azaz majd megkérdem.<stage>(Félre)</stage>Vajon mit
-                                akar?<stage>(El)</stage></p>
+                                akar?<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <stage>(feláll)</stage>
             <p>Kedves egészségedre!<stage>(Gúnyolódva)</stage>Akit szeretünk, azért
-                            szeretjük, hogy felesége legyünk.<stage>(Félre)</stage></p>
+                            szeretjük, hogy felesége legyünk.<stage>(Félre)</stage>
+            </p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -4702,7 +4726,8 @@
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Amint parancsolja.<stage>(A mellékszobába megy)</stage></p>
+            <p>Amint parancsolja.<stage>(A mellékszobába megy)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4710,7 +4735,8 @@
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Tegnap két tányért itt felejtettem.<stage>(El)</stage></p>
+            <p>Tegnap két tányért itt felejtettem.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4761,7 +4787,8 @@
             <speaker>SZILVAI</speaker>
             <p>A leányasszony megígérte, hogy addig mulattatni fog.
                                 <stage>(Ásít)</stage> A szokás szokás! Jó mulatságot!<stage>(El a
-                                mellékszobába, az ajtót félig nyitva hagyja)</stage></p>
+                                mellékszobába, az ajtót félig nyitva hagyja)</stage>
+            </p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -4980,7 +5007,8 @@
             <speaker>ERZSI</speaker>
             <stage>(kihátrál)</stage>
             <p>Mindjárt jövök! Apám hí - mindjárt itt termek. De hisz
-                                várhatsz!<stage>(El)</stage></p>
+                                várhatsz!<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -5062,7 +5090,8 @@
           <sp who="#szilvai">
             <speaker>SZILVAI</speaker>
             <stage>(félre).</stage>
-            <p>Ördög, pokol, ez a Gyula hangja.<stage>(Felteszi szemüvegét)</stage></p>
+            <p>Ördög, pokol, ez a Gyula hangja.<stage>(Felteszi szemüvegét)</stage>
+            </p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -5251,7 +5280,8 @@
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
-            <p>Azonnal!<stage>(Be a mellékszobába)</stage></p>
+            <p>Azonnal!<stage>(Be a mellékszobába)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -5324,7 +5354,8 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>De én nem akarom többé látni, míg itt lesz, be sem jövök, a kocsiba ülök
-                            - ki nem állhatom, nem szenvedhetem.<stage>(El)</stage></p>
+                            - ki nem állhatom, nem szenvedhetem.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -5469,7 +5500,8 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Csak őrizze - meg nem bánja. Várj, rossz fiú! Érezni fogod haragomat!
-                                <stage>(Elmegy)</stage></p>
+                                <stage>(Elmegy)</stage>
+            </p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -5579,11 +5611,13 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Zsebében? Annál jobb. Oh, leányom, ha tudnád, ki ez a pincér! De nem
-                            szólok. Várj az előszobában.<stage>(El)</stage></p>
+                            szólok. Várj az előszobában.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
-            <p>Várok az előszobában.<stage>(El)</stage></p>
+            <p>Várok az előszobában.<stage>(El)</stage>
+            </p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -5873,7 +5907,8 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>No, úgy csak siessünk, Gyuri.<stage>Elmennek<note type="editorial">Lemaradt a színpadi utasítást közrefogó
-                                zárójel.sh.</note></stage></p>
+                                zárójel.sh.</note></stage>
+            </p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6136,7 +6171,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Hát nem csinál tiktakot atyai szíved? Atyám! Oh, jó atyám! <stage>(Ölelni
-                                akarja)</stage></p>
+                                akarja)</stage>
+            </p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
@@ -6327,7 +6363,8 @@
             <speaker>LILIOMFI</speaker>
             <p>Éppen jő. Csak vonja kérdőre. Ha tagadja, csak hivatkozzék rám, én addig
                             elbúvok; ő persze tagadni fogja, de nem kell tágítani.<stage>(El a
-                                mellékszobába)</stage></p>
+                                mellékszobába)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -6393,7 +6430,8 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Gyámfia? Tán a pincér is, a kocsis is gyámfia? Sok gyámfia van még az
-                                úrnak?<stage>(Haját megfogja)</stage></p>
+                                úrnak?<stage>(Haját megfogja)</stage>
+            </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>

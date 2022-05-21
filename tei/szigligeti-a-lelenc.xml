@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000034</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -250,40 +252,28 @@
           <role><roleName>Bokori</roleName>, ispán</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Földesiné</roleName>
-          </role>
+          <role><roleName>Földesiné</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Matild</roleName>, leánya</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Szintei Jenő</roleName>
-          </role>
+          <role><roleName>Szintei Jenő</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Péter</roleName>, komornyik</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Megyei hadnagy</roleName>
-          </role>
+          <role><roleName>Megyei hadnagy</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Írnok</roleName>
-          </role>
+          <role><roleName>Írnok</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Kisbíró</roleName>
-          </role>
+          <role><roleName>Kisbíró</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Pali</roleName>
-          </role>
+          <role><roleName>Pali</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Bandi</roleName>, parasztsuhanc</role>
@@ -292,14 +282,10 @@
           <role><roleName>Pista</roleName>, parasztsuhanc</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Urasági cselédek</roleName>
-          </role>
+          <role><roleName>Urasági cselédek</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Lakodalmas nép, cselédek, őrök</roleName>
-          </role>
+          <role><roleName>Lakodalmas nép, cselédek, őrök</roleName></role>
         </castItem>
         <p>
           <stage>Történik: az első felvonást Pesten, Földesiné előszobájában; 
@@ -462,7 +448,8 @@
                                           mélyebben nem is tudnak érezni. - Belőlem szomorú
                                           tapasztalás beszél! - Az én Julcsám is ilyen volt; anyját
                                           akkor veszté el, midőn legnagyobb szüksége lett volna rá,
-                                          ő is szolgálni ment - és -<stage>(Szünet.)</stage></p>
+                                          ő is szolgálni ment - és -<stage>(Szünet.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -496,7 +483,8 @@
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
-            <p>Óh, Isten!<stage>(A székbe roskad.)</stage></p>
+            <p>Óh, Isten!<stage>(A székbe roskad.)</stage>
+            </p>
           </sp>
           <sp who="#peter">
             <speaker>PÉTER</speaker>
@@ -545,7 +533,8 @@
                                           házirend. Hogy a nagyságos asszony a legkegyesebb úrnő s a
                                           kisasszony valódi angyal, azt mondanom sem kell, azt
                                           tapasztalni fogja. Ha pedig tanácsra lesz szüksége,
-                                          tekintsen úgy, mint édesatyját.<stage>(El balra.)</stage></p>
+                                          tekintsen úgy, mint édesatyját.<stage>(El balra.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -890,7 +879,8 @@
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
             <stage>(sírva)</stage>
-            <p>Jó, jó - bízzál benne jobban, mint bennem!<stage>(Elsiet.)</stage></p>
+            <p>Jó, jó - bízzál benne jobban, mint bennem!<stage>(Elsiet.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -1033,7 +1023,8 @@
           </sp>
           <sp who="#matild">
             <speaker>MATILD</speaker>
-            <p>Hiszen ő jön, már itt van<stage>(Az ajtó nyílik.)</stage></p>
+            <p>Hiszen ő jön, már itt van<stage>(Az ajtó nyílik.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1043,7 +1034,8 @@
           </p>
           <sp who="#matild">
             <speaker>MATILD</speaker>
-            <p>Jenő!<stage>(Nyakába ugrik.)</stage></p>
+            <p>Jenő!<stage>(Nyakába ugrik.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -1064,7 +1056,8 @@
             <stage>(vezetve nevet és ugrál)</stage>
             <p>Nem igaz - a mama várta, nem én. - No itt van a jó madár!
                                           Fogja, mama.<stage>.(Azok el a középajtón - Julcsához visszajövet,
-                                                szelesen:)</stage>Ez az én jegyesem.<stage>(Elsiet középen.)</stage></p>
+                                                szelesen:)</stage>Ez az én jegyesem.<stage>(Elsiet középen.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -1074,7 +1067,8 @@
                                           - S az én jegygyűrűm? - Nem - nem - ez káprázat!<stage>(A középajtóhoz siet - hallgatódzva:)</stage>A leány beszél - kérdezi - ah, mennyi kérdést halmoz össze -
                                           ő egyre sem bír felelni. Ó hallgass, hallgass el végre,
                                           hadd szóljon ő - úgy, úgy! Mért nem felel? Ah - most - a
-                                          hangja is! Ez ő!<stage>(Összeroskad.)</stage></p>
+                                          hangja is! Ez ő!<stage>(Összeroskad.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1104,11 +1098,13 @@
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
             <stage>(nevetni erőlködik)</stage>
-            <p>Nekem? - semmi - mi volna? - néha szédülök - elmúlik-<stage>(Belül csengetés.)</stage></p>
+            <p>Nekem? - semmi - mi volna? - néha szédülök - elmúlik-<stage>(Belül csengetés.)</stage>
+            </p>
           </sp>
           <sp who="#peter">
             <speaker>PÉTER</speaker>
-            <p>Csengetnek. Maradjon... Majd bemegyek én helyette.<stage>(El középen.)</stage></p>
+            <p>Csengetnek. Maradjon... Majd bemegyek én helyette.<stage>(El középen.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -1121,7 +1117,8 @@
           <sp who="#peter">
             <speaker>PÉTER</speaker>
             <stage>(Visszajő)</stage>
-            <p>Színházba mennek. Bérkocsi kell. Maradjon, majd hozok én.<stage>(El jobbra.)</stage></p>
+            <p>Színházba mennek. Bérkocsi kell. Maradjon, majd hozok én.<stage>(El jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -1155,17 +1152,20 @@
             <speaker>FÖLDESINÉ</speaker>
             <stage>(menve)</stage>
             <p>Julcsa, ha elmentünk, az ajtót be kell zárni. Kilenc előtt
-                                          semmi esetre sem jövünk haza.<stage>(A jobb ajtón el.)</stage></p>
+                                          semmi esetre sem jövünk haza.<stage>(A jobb ajtón el.)</stage>
+            </p>
           </sp>
           <sp who="#matild">
             <speaker>MATILD</speaker>
             <stage>(jön)</stage>
-            <p>Jenő! De jöjjön hát.<stage>(Megy.)</stage></p>
+            <p>Jenő! De jöjjön hát.<stage>(Megy.)</stage>
+            </p>
           </sp>
           <sp who="#jeno">
             <speaker>JENŐ</speaker>
             <stage>(jön - sietve Julcsához)</stage>
-            <p>Megyek! Visszatérek - szólanunk kell.<stage>(El jobbra.)</stage></p>
+            <p>Megyek! Visszatérek - szólanunk kell.<stage>(El jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -1226,7 +1226,8 @@
           <sp who="#jeno">
             <speaker>JENŐ</speaker>
             <p>De semmi, ha jönne valaki, találok ürügyet, mintha kesztyűmet
-                                          feledtem volna itt.<stage>(Lehúzza kesztyűjét s eldugja.)</stage></p>
+                                          feledtem volna itt.<stage>(Lehúzza kesztyűjét s eldugja.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -1391,14 +1392,16 @@
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
             <p>Óh igen, gondolok, a legkínosabb percben gondolok rád, s ha
-                                          Isten igaz bíró, ítélni fog.<stage>(Zokogva az asztalra borul.)</stage></p>
+                                          Isten igaz bíró, ítélni fog.<stage>(Zokogva az asztalra borul.)</stage>
+            </p>
           </sp>
           <sp who="#jeno">
             <speaker>JENŐ</speaker>
             <stage>(magában)</stage>
             <p>Óh, vajha sohase láttuk volna egymást! - de egész jövőmet
                                           tenném semmivé... Ha kisírta magát, nem veti meg
-                                          ajánlatom.<stage>(El jobbra.)</stage></p>
+                                          ajánlatom.<stage>(El jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -1413,7 +1416,8 @@
                                           pedig élve tán gyűlölte, megvetette, megátkozta volna! Te
                                           megtanítál, mit kell tennem; - légy áldott érte! -
                                           Gyorsan, gyorsan, míg a szándék erős - e földön többé
-                                          nincs semmim.<stage>(El akar menni.)</stage></p>
+                                          nincs semmim.<stage>(El akar menni.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1540,7 +1544,8 @@
           </p>
           <sp who="#nagy">
             <speaker>NAGY</speaker>
-            <p>Na itt vagyok. - Jaj, be elfáradtam!<stage>(A lócára ül.)</stage></p>
+            <p>Na itt vagyok. - Jaj, be elfáradtam!<stage>(A lócára ül.)</stage>
+            </p>
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
@@ -1627,7 +1632,8 @@
           <sp who="#nagy">
             <speaker>NAGY</speaker>
             <p>Majd megtudod! Én megfontoltam az úton a dolgot. Ha ez sem
-                                          használ, ha erre sem tér meg -<stage>(Kívül, balra Bertók és két suhanc éneke.)</stage></p>
+                                          használ, ha erre sem tér meg -<stage>(Kívül, balra Bertók és két suhanc éneke.)</stage>
+            </p>
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
@@ -1649,7 +1655,8 @@
           <sp who="#sara">
             <speaker>SÁRA</speaker>
             <stage>(utána megy)</stage>
-            <p>Amint akarod, édes uram, de ő mégis az én fiam.<stage>(Elmennek az utcaajtón.)</stage></p>
+            <p>Amint akarod, édes uram, de ő mégis az én fiam.<stage>(Elmennek az utcaajtón.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1785,11 +1792,13 @@
           </sp>
           <sp who="#bandi">
             <speaker>BANDI</speaker>
-            <p>Cudar ember vagy biz te, Bertók. De azért jó éjszakát.<stage>(Elmegy.)</stage></p>
+            <p>Cudar ember vagy biz te, Bertók. De azért jó éjszakát.<stage>(Elmegy.)</stage>
+            </p>
           </sp>
           <sp who="#pista">
             <speaker>PISTA</speaker>
-            <p>Az ám - adjon Isten.<stage>(Elmegy.)</stage></p>
+            <p>Az ám - adjon Isten.<stage>(Elmegy.)</stage>
+            </p>
           </sp>
           <sp who="#bertok">
             <speaker>BERTÓK</speaker>
@@ -1922,7 +1931,8 @@
           <sp who="#nagy">
             <speaker>NAGY</speaker>
             <stage>(a dühtől reszketve, elveti botját)</stage>
-            <p>Menj, menj, ha jót akarsz, s ne lássalak soha, soha!<stage>(A padra hanyatlik.)</stage></p>
+            <p>Menj, menj, ha jót akarsz, s ne lássalak soha, soha!<stage>(A padra hanyatlik.)</stage>
+            </p>
           </sp>
           <sp who="#bertok">
             <speaker>BERTÓK</speaker>
@@ -2105,7 +2115,8 @@
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
-            <p>Pedig mi sohasem vétettünk nekik.<stage>(Elmennek.)</stage></p>
+            <p>Pedig mi sohasem vétettünk nekik.<stage>(Elmennek.)</stage>
+            </p>
           </sp>
           <sp who="#zsuzsanna">
             <speaker>ZSUZSÁNNA</speaker>
@@ -2152,7 +2163,8 @@
           </sp>
           <sp who="#toncsi">
             <speaker>TONCSI</speaker>
-            <p>Ugyan ne is felelj neki, mama.<stage>(Elmennek jobbra, elől.)</stage></p>
+            <p>Ugyan ne is felelj neki, mama.<stage>(Elmennek jobbra, elől.)</stage>
+            </p>
           </sp>
           <p>
             <stage>(Szünet - egészen besötétedett.)</stage>
@@ -2193,7 +2205,8 @@
                                           - így szánni, szeretni fog, mint szegény elhagyott árvát -
                                           isten veled, - isten veled!<stage>(Az ablakba akarja tenni.)</stage>Nem lehet! Nem válhatok! Szívem szakad össze, nem tehetem! -
                                           - Őrjöngő, eszmélj, hiszen jól megfontoltad - mást nem
-                                          tehetsz - halálát akarod ez ártatlannak?<stage>(Az ablakba teszi.)</stage>Isten oltalmazzon!<stage>(El jobbra, elől.)</stage></p>
+                                          tehetsz - halálát akarod ez ártatlannak?<stage>(Az ablakba teszi.)</stage>Isten oltalmazzon!<stage>(El jobbra, elől.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2221,7 +2234,8 @@
                                           S az én szegény öreg jó anyámat terhelni ezzel. - Aztán az
                                           öreg úr szégyenletében rögtön elbujdosnék, kenyér nélkül
                                           maradna. - Hohó, édes falusi nimfáim, rajtam nem fogtok
-                                          ki!<stage>(Veszi a gyermeket.)</stage>Jer csak velem, majd jobb helyre teszlek én!<stage>(Hátul a töltésen elmegy.)</stage></p>
+                                          ki!<stage>(Veszi a gyermeket.)</stage>Jer csak velem, majd jobb helyre teszlek én!<stage>(Hátul a töltésen elmegy.)</stage>
+            </p>
           </sp>
           <p>
             <stage>(Kis szünet - zene tölti be.)</stage>
@@ -2246,7 +2260,8 @@
                                           hallottam volna.<stage>(Az ablaknál leskelődve:)</stage>De a szobában sötétség van - semmi nesz - tán a hátulsó
                                           szobában vannak. - Mért is gondolom mindjárt a
                                           legrosszabbat! - Annak az ablaka az udvarra nyílik.<stage>(Megfordul, hogy a kapuhoz menjen, de már akkor vele
-                                                szemközt áll.)</stage></p>
+                                                szemközt áll.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2258,12 +2273,14 @@
             <speaker>BERTÓK</speaker>
             <stage>(ki a gátról, füleit tenyerével tapasztva, iszonyodva fut
                                           le - hebegi)</stage>
-            <p>Húgom!<stage>(Dermedten megáll.)</stage></p>
+            <p>Húgom!<stage>(Dermedten megáll.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
             <stage>(ijedve)</stage>
-            <p>Bátyám!?<stage>(Egy percig mozdulatlanok)</stage></p>
+            <p>Bátyám!?<stage>(Egy percig mozdulatlanok)</stage>
+            </p>
           </sp>
           <sp who="#bertok">
             <speaker>BERTÓK</speaker>
@@ -2422,7 +2439,8 @@
           <sp who="#sara">
             <speaker>SÁRA</speaker>
             <stage>(belül)</stage>
-            <p>Valami szerencsétlenség?<stage>(Az ajtó megnyílik.)</stage>Lányom!<stage>(Öleli.)</stage></p>
+            <p>Valami szerencsétlenség?<stage>(Az ajtó megnyílik.)</stage>Lányom!<stage>(Öleli.)</stage>
+            </p>
           </sp>
           <sp who="#nagy">
             <speaker>NAGY</speaker>
@@ -2534,7 +2552,8 @@
           </sp>
           <sp who="#nagy">
             <speaker>NAGY</speaker>
-            <p>Kérem olvassa e levélkét.<stage>(Átadja.)</stage></p>
+            <p>Kérem olvassa e levélkét.<stage>(Átadja.)</stage>
+            </p>
           </sp>
           <sp who="#kotori">
             <speaker>KOTORI</speaker>
@@ -2597,7 +2616,8 @@
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
             <p>Tán most ölik meg - s itt senki sem mozdul! Ha Istent
-                                          ismernek, bocsássanak.<stage>(A gát felé fut.)</stage></p>
+                                          ismernek, bocsássanak.<stage>(A gát felé fut.)</stage>
+            </p>
           </sp>
           <sp who="#nagy">
             <speaker>NAGY</speaker>
@@ -2653,7 +2673,8 @@
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
             <stage>(elveszi a roskadozó Julcsától, s előre jő)</stage>
-            <p>Fogja, édesanyám! Kösse más párnába.<stage>(Átadja.)</stage>aj, alig bírnak lábaim, a rémület, - az öröm miatt.<stage>(A padra ereszkedik.)</stage></p>
+            <p>Fogja, édesanyám! Kösse más párnába.<stage>(Átadja.)</stage>aj, alig bírnak lábaim, a rémület, - az öröm miatt.<stage>(A padra ereszkedik.)</stage>
+            </p>
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
@@ -2666,7 +2687,8 @@
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
-            <p>Óh istentelen gonosz, gonosz anya!<stage>(El a gyermekkel a házba.)</stage></p>
+            <p>Óh istentelen gonosz, gonosz anya!<stage>(El a gyermekkel a házba.)</stage>
+            </p>
           </sp>
           <sp who="#nagy">
             <speaker>NAGY</speaker>
@@ -2701,7 +2723,8 @@
           <sp who="#kotori">
             <speaker>KOTORI</speaker>
             <p>Az nem tesz semmit; csak azt mondja, hol és hogyan
-                                          szabadította meg?<stage>(Julcsa felállott s szintén előre jön.)</stage></p>
+                                          szabadította meg?<stage>(Julcsa felállott s szintén előre jön.)</stage>
+            </p>
           </sp>
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
@@ -2779,7 +2802,8 @@
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
-            <p>Igazad van.<stage>(A legnagyobb örömmel:)</stage>Igazad van.<stage>(El a házba.)</stage></p>
+            <p>Igazad van.<stage>(A legnagyobb örömmel:)</stage>Igazad van.<stage>(El a házba.)</stage>
+            </p>
           </sp>
           <sp who="#kotori">
             <speaker>KOTORI</speaker>
@@ -2924,7 +2948,8 @@
           </sp>
           <sp who="#nagy">
             <speaker>NAGY</speaker>
-            <p>Jó éjszakát.<stage>(Elmennek.)</stage></p>
+            <p>Jó éjszakát.<stage>(Elmennek.)</stage>
+            </p>
           </sp>
           <sp who="#kotori">
             <speaker>KOTORI</speaker>
@@ -2973,7 +2998,8 @@
             <speaker>ZSUZSÁNNA</speaker>
             <p>Én semmit sem hiszek - semmit sem mondok. De a mai világ oly
                                           rossz, oly erkölcstelen! Félnünk kell, hogy nem messze van
-                                          már az utolsó ítélet napja.<stage>(Elmennek.)</stage></p>
+                                          már az utolsó ítélet napja.<stage>(Elmennek.)</stage>
+            </p>
           </sp>
           <sp who="#bertok">
             <speaker>BERTÓK</speaker>
@@ -3014,7 +3040,8 @@
           </sp>
           <sp who="#bertok">
             <speaker>BERTÓK</speaker>
-            <p>A gyűrű?<stage>(Kezét el akarja rejteni.)</stage></p>
+            <p>A gyűrű?<stage>(Kezét el akarja rejteni.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -3035,7 +3062,8 @@
           <sp who="#bertok">
             <speaker>BERTÓK</speaker>
             <stage>(a pénzt és gyűrűt visszaadva)</stage>
-            <p>Fogd, fogd, - engem nem láttok többé soha!<stage>(Iszonyodva elfut.)</stage></p>
+            <p>Fogd, fogd, - engem nem láttok többé soha!<stage>(Iszonyodva elfut.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -3081,7 +3109,8 @@
                                           fordulója nincs - nincs, mint egy golyó agyamba, vagy a
                                           sötét bitó. - Neszt hallok - fölkeltek. - El innen a
                                           bokrok mögé. Nekem csak látnom szabad őket - de ők ne
-                                          lássanak engem soha!<stage>(El a kertajtón.)</stage></p>
+                                          lássanak engem soha!<stage>(El a kertajtón.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3130,7 +3159,8 @@
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
-            <p>Mindjárt, mindjárt.<stage>(El a kertajtón.)</stage></p>
+            <p>Mindjárt, mindjárt.<stage>(El a kertajtón.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3141,7 +3171,8 @@
           <sp who="#bertok">
             <speaker>BERTÓK</speaker>
             <stage>(egy papiros-csomagot ad Palinak)</stage>
-            <p>Add Julcsa néninek.<stage>(El a kertbe.)</stage></p>
+            <p>Add Julcsa néninek.<stage>(El a kertbe.)</stage>
+            </p>
           </sp>
           <sp who="#pali">
             <speaker>PALI</speaker>
@@ -3167,7 +3198,8 @@
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
-            <p>Most? Ráírva: "A szegény árva öröksége".<stage>(Felbontja.)</stage></p>
+            <p>Most? Ráírva: "A szegény árva öröksége".<stage>(Felbontja.)</stage>
+            </p>
           </sp>
           <sp who="#pali">
             <speaker>PALI</speaker>
@@ -3176,7 +3208,8 @@
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
             <p>Pénz, - sok pénz - öröksége? - fiának öröksége?...<stage>(Egész dühvel:)</stage>Nyomorult, pénzt küldesz. Nekünk nem kell a pénzed! - Azt
-                                          hiszed, ez jóváteszi bűnödet?<stage>(Markába szorítva:)</stage>A tűzbe vele! S égjen lelkeden minden csepp könnyem!<stage>(A ház felé akar rohanni.)</stage></p>
+                                          hiszed, ez jóváteszi bűnödet?<stage>(Markába szorítva:)</stage>A tűzbe vele! S égjen lelkeden minden csepp könnyem!<stage>(A ház felé akar rohanni.)</stage>
+            </p>
           </sp>
           <sp who="#bertok">
             <speaker>BERTÓK</speaker>
@@ -3256,7 +3289,8 @@
           <sp who="#bertok">
             <speaker>BERTÓK</speaker>
             <p>Isten veled örökre! - Ne mondd, hogy láttál; az én nevem
-                                          vétek, gyalázat, kétségbeesés.<stage>(Eltűnik.)</stage></p>
+                                          vétek, gyalázat, kétségbeesés.<stage>(Eltűnik.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -3297,7 +3331,8 @@
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
-            <p>Ki volt itt, Julcsa? - Jaj te, te - megeszlek.<stage>(A gyermeket csókolja.)</stage></p>
+            <p>Ki volt itt, Julcsa? - Jaj te, te - megeszlek.<stage>(A gyermeket csókolja.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -3306,7 +3341,8 @@
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
             <stage>(két almád ad)</stage>
-            <p>Nesze! Lökd el azt - ez jobb.<stage>(Pali a Julcsától kapott almát elveti.)</stage></p>
+            <p>Nesze! Lökd el azt - ez jobb.<stage>(Pali a Julcsától kapott almát elveti.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -3320,7 +3356,8 @@
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
-            <p>Meglehet. - Nem láttam.<stage>(Pali a Julcsától kapott almát elveti.)</stage></p>
+            <p>Meglehet. - Nem láttam.<stage>(Pali a Julcsától kapott almát elveti.)</stage>
+            </p>
           </sp>
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
@@ -3331,14 +3368,16 @@
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
             <stage>(vadul)</stage>
-            <p>A gyűlölet van szívemben.<stage>(El a házba.)</stage></p>
+            <p>A gyűlölet van szívemben.<stage>(El a házba.)</stage>
+            </p>
           </sp>
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
             <p>Hej, szereti most is a hűtelen diákot; hiába tagadja,
                                           különben nem volna ily csudálatos! - De utoljára is
                                           elkésünk - én itt töltöm az időt e kis pernahajderral -
-                                          ezzel a...<stage>(Megint csókolni akarja.)</stage></p>
+                                          ezzel a...<stage>(Megint csókolni akarja.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3350,7 +3389,8 @@
             <speaker>SÁRA</speaker>
             <p>Ugyan hagyj békét már annak a gyermeknek, kell is azt mindig
                                           nyalni-falni; Bertókot is éppen így kényeztettük el.<stage>(Ölébe 
-                                                kapja.)</stage>Jer, hadd adjam rád az úrfi-ruhát! Te - te...<stage>(Csókolgatva elviszi a házba.)</stage></p>
+                                                kapja.)</stage>Jer, hadd adjam rád az úrfi-ruhát! Te - te...<stage>(Csókolgatva elviszi a házba.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3420,7 +3460,8 @@
             <stage>(bosszankodva)</stage>
             <p>Nagyon tisztelt asszonyság, hogy ki volt e gyermek apja, azt
                                           mi nem tudjuk, hogy pedig Erzsikéhez hasonlít, azt csak
-                                          önök tudják. - Magamat ajánlom!<stage>(El a házba Palival.)</stage></p>
+                                          önök tudják. - Magamat ajánlom!<stage>(El a házba Palival.)</stage>
+            </p>
           </sp>
           <sp who="#kotori">
             <speaker>KOTORI</speaker>
@@ -3496,7 +3537,8 @@
           </sp>
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
-            <p>Bocsánat, anyám szólít.<stage>(El a házba.)</stage></p>
+            <p>Bocsánat, anyám szólít.<stage>(El a házba.)</stage>
+            </p>
           </sp>
           <sp who="#zsuzsanna">
             <speaker>ZSUZSÁNNA</speaker>
@@ -3567,7 +3609,8 @@
           <sp who="#toncsi">
             <speaker>TONCSI</speaker>
             <stage>(másik karján)</stage>
-            <p>De minek is jöttünk ide.<stage>(Elmennek)</stage></p>
+            <p>De minek is jöttünk ide.<stage>(Elmennek)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3623,7 +3666,8 @@
                                           Ezek pedig haditerv szerint megterítik az asztalt, s még
                                           csak ott fog igazán folyni a törökvér! Egy, kettő, három!
                                           Jobbra, balra, indulj dologra!<stage>(A nők a konyhába, inasok a levelesszínbe mennek, ahol
-                                                felterítik az asztalt.)</stage></p>
+                                                felterítik az asztalt.)</stage>
+            </p>
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
@@ -3886,7 +3930,8 @@
           </sp>
           <sp who="#bokori">
             <speaker>BOKORI</speaker>
-            <p>Hej pedig ahhoz csak nekem volna kizáró szabadalmam!<stage>(Elmennek a házba.)</stage></p>
+            <p>Hej pedig ahhoz csak nekem volna kizáró szabadalmam!<stage>(Elmennek a házba.)</stage>
+            </p>
           </sp>
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
@@ -3908,7 +3953,8 @@
           </sp>
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
-            <p>No-no, csak ne harapd le az orromat.<stage>(Mellé ül.)</stage></p>
+            <p>No-no, csak ne harapd le az orromat.<stage>(Mellé ül.)</stage>
+            </p>
           </sp>
           <sp who="#feri">
             <speaker>FERI</speaker>
@@ -4092,7 +4138,8 @@
           </sp>
           <sp who="#feri">
             <speaker>FERI</speaker>
-            <p>Isten veled, én megbocsátok.<stage>(Elsiet).</stage></p>
+            <p>Isten veled, én megbocsátok.<stage>(Elsiet).</stage>
+            </p>
             <p>
               <stage>(Elsiet).</stage>
             </p>
@@ -4109,7 +4156,8 @@
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
             <p>Eredj, eredj, te vagy oka szerencsétlenségemnek, -<stage>(Magához öleli.)</stage>Nem, nem vagy oka semminek, a rossz emberek, a semmirekellők,
-                                          s az ostobák!<stage>(Elereszti.)</stage>em gyűlöllek, de boldogtalan vagyok.<stage>(Kezét elfedve, zokog.)</stage></p>
+                                          s az ostobák!<stage>(Elereszti.)</stage>em gyűlöllek, de boldogtalan vagyok.<stage>(Kezét elfedve, zokog.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4189,7 +4237,8 @@
             <speaker>BOKORI</speaker>
             <stage>(vonja)</stage>
             <p>Szégyen a mennykőbe; szégyen annak, aki rágalmazta, de nem
-                                          nekünk.<stage>(Elvonszolja.)</stage></p>
+                                          nekünk.<stage>(Elvonszolja.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -4233,7 +4282,8 @@
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
             <p>Ha az esküvő elmarad, jó hírnevednek vége! Meg kell azt
-                                          mentenem.<stage>(Erlohan.)</stage></p>
+                                          mentenem.<stage>(Erlohan.)</stage>
+            </p>
           </sp>
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
@@ -4335,11 +4385,13 @@
                                           tudakozódjék, járjon házról-házra, ha szeret, azt a kis
                                           fáradságot bizony megteheti.<stage>(Kívül cigányzene 
                                           közeledik.)</stage>Hallja, anyám, hallja<stage>(öröm 
-                                          és harag közt:)</stage>csúfolnak ezek, vagy más lakodalom is lesz ma?<stage>(Cselédek kifutnak a szín alól.)</stage></p>
+                                          és harag közt:)</stage>csúfolnak ezek, vagy más lakodalom is lesz ma?<stage>(Cselédek kifutnak a szín alól.)</stage>
+            </p>
           </sp>
           <sp who="#cseledek">
             <speaker>CSELÉDEK</speaker>
-            <p>Jőnek, jőnek.<stage>(Mind a kerítéshez sietnek - felmásznak.)</stage></p>
+            <p>Jőnek, jőnek.<stage>(Mind a kerítéshez sietnek - felmásznak.)</stage>
+            </p>
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
@@ -4351,7 +4403,8 @@
           </sp>
           <sp who="#cseledek">
             <speaker>CSELÉDEK</speaker>
-            <p>Nyissuk ki a kaput.<stage>(A kaput kitárják.)</stage></p>
+            <p>Nyissuk ki a kaput.<stage>(A kaput kitárják.)</stage>
+            </p>
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
@@ -4398,7 +4451,8 @@
                                           angyal vagy; csuda, hogy eddig is nem repültél az égbe!
                                           Húzd rá, de úgy húzd rá! Hogy is mondja a nagy költő? Eh,
                                           nem tudok én most semmit, csak azt, hogy bolond voltam, s
-                                          most még nagyobb vagyok - lelkem, Erzsikém!<stage>(Kitárja karjait.)</stage></p>
+                                          most még nagyobb vagyok - lelkem, Erzsikém!<stage>(Kitárja karjait.)</stage>
+            </p>
             <p>
               <stage>(Kitárja karjait.)</stage>
             </p>
@@ -4406,7 +4460,8 @@
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
             <stage>(keblére borul)</stage>
-            <p>Édes jó Ferim!<stage>(Cigányok ráhúzzák.)</stage></p>
+            <p>Édes jó Ferim!<stage>(Cigányok ráhúzzák.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4418,7 +4473,8 @@
             <speaker>NAGY</speaker>
             <stage>(kalap nélkül, magánkívül berohan; még kívül)</stage>
             <p>Bocsásson, bocsásson! Nem akarok hallani semmit!<stage>(Lelkendezve, 
-                                    Erzsike előtt megállva:)</stage>Hah, itt van! -<stage>(Szemeit merőn ráfüggeszti.)</stage></p>
+                                    Erzsike előtt megállva:)</stage>Hah, itt van! -<stage>(Szemeit merőn ráfüggeszti.)</stage>
+            </p>
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
@@ -4460,7 +4516,8 @@
           </sp>
           <sp who="#nagy">
             <speaker>NAGY</speaker>
-            <p>Akkor becstelen ön is.<stage>(Kotori a nép közt.)</stage></p>
+            <p>Akkor becstelen ön is.<stage>(Kotori a nép közt.)</stage>
+            </p>
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
@@ -4543,12 +4600,14 @@
             <p>Hogy a gyanúnak még árnya se terhelje az ártatlant - vedd,
                                           olvasd - fiamnak keresztlevele - űzz el - átkozz - de ne
                                           átkozd ártatlan gyermekemet.<stage>.(Kezét összekulcsolva - fejét lehorgasztva
-                                                mozdulatlan.)</stage></p>
+                                                mozdulatlan.)</stage>
+            </p>
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
             <p>El, el szememből - ez halálom.<stage>.(Szívéhez kapva, roskadozva - Bokori
-                                          feltartja.)</stage></p>
+                                          feltartja.)</stage>
+            </p>
           </sp>
           <sp who="#nagy">
             <speaker>NAGY</speaker>
@@ -4570,7 +4629,8 @@
           </sp>
           <sp who="#sara">
             <speaker>SÁRA</speaker>
-            <p>Ah!<stage>(Elájul.)</stage></p>
+            <p>Ah!<stage>(Elájul.)</stage>
+            </p>
           </sp>
           <sp who="#nagy">
             <speaker>NAGY</speaker>
@@ -4657,7 +4717,8 @@
           <sp who="#bokori">
             <speaker>BOKORI</speaker>
             <p>Félig tanú. -<stage>(Kotorira vetve szemét:)</stage>Félig vádló.<stage>(Nagy leül - maga elé merőn tekintve - mozdulatlanul -
-                                          mellette Sára sír.)</stage></p>
+                                          mellette Sára sír.)</stage>
+            </p>
           </sp>
           <sp who="#erzsike">
             <speaker>ERZSIKE</speaker>
@@ -4781,7 +4842,8 @@
             <speaker>JULCSA</speaker>
             <stage>(szintén megismeri; magában)</stage>
             <p>Óh isten, nem elég a kín rajtam? Látnom kell e gyűlölt arcot
-                                          is.<stage>(Elfordul.)</stage></p>
+                                          is.<stage>(Elfordul.)</stage>
+            </p>
           </sp>
           <sp who="#matild">
             <speaker>MATILD</speaker>
@@ -4791,7 +4853,8 @@
           </sp>
           <sp who="#hadnagy">
             <speaker>HADNAGY</speaker>
-            <p>Nagysád kedvéért ám legyen.<stage>(Leveszi kezéről a béklyót.)</stage></p>
+            <p>Nagysád kedvéért ám legyen.<stage>(Leveszi kezéről a béklyót.)</stage>
+            </p>
           </sp>
           <sp who="#matild">
             <speaker>MATILD</speaker>
@@ -4895,7 +4958,8 @@
           </sp>
           <sp who="#matild">
             <speaker>MATILD</speaker>
-            <p>Ő jön! Csak bátran, őszintén - hacsak lehet, ő kisegíti.<stage>(Elsiet balra.)</stage></p>
+            <p>Ő jön! Csak bátran, őszintén - hacsak lehet, ő kisegíti.<stage>(Elsiet balra.)</stage>
+            </p>
           </sp>
           <sp who="#julcsa">
             <speaker>JULCSA</speaker>
@@ -5140,7 +5204,8 @@
           <sp who="#jeno">
             <speaker>JENŐ</speaker>
             <p>Ön szabad, fel van mentve. Legyen áldott, bocsásson meg
-                                          elleneinek!<stage>(Menni akar.)</stage></p>
+                                          elleneinek!<stage>(Menni akar.)</stage>
+            </p>
           </sp>
           <sp who="#nagy">
             <speaker>NAGY</speaker>

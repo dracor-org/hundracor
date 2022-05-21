@@ -43,19 +43,21 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref> </orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref> </orgName>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000023</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref> </pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref> </p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -534,7 +536,8 @@
             <l>S bár a szép s rút, a mosoly s köny,</l>
             <l>Mint tavasz s tél, kört vesz rajta,</l>
             <l>Fénye, árnya lészen együtt:</l>
-            <l>Az Úr kedve és haragja. <note type="critic"><hi rend="italic">Úr</hi>: a
+            <l>Az Úr kedve és haragja. <note type="critic">
+                <hi rend="italic">Úr</hi>: a
                                 sh.-nak tekintett kis kezdőbetű jav.</note></l>
           </lg>
         </sp>
@@ -717,7 +720,8 @@
         <sp who="#angyalok_kara">
           <speaker>ANGYALOK KARA.</speaker>
           <lg>
-            <l>El isten színétől, megátkozott,<note type="critic"><hi rend="italic">színétől</hi>: 63 rövid magánhangzója ritmikai szövegromlás, a
+            <l>El isten színétől, megátkozott,<note type="critic">
+                <hi rend="italic">színétől</hi>: 63 rövid magánhangzója ritmikai szövegromlás, a
                                 K-Kl és a 61 alapján jav.</note></l>
             <l>Hozsán’ az Úrnak, ki törvényt hozott. -</l>
           </lg>
@@ -1963,7 +1967,8 @@
           <speaker>ÉVA.</speaker>
           <lg>
             <l>Elég, ha egyelőre a parancs</l>
-            <l>Nem illet fájva, - oh ne írigyeld <note type="critic"><hi rend="italic">o</hi>h: a 63-ban megjelent változtatás helyesírása (<hi rend="italic">ó</hi>h.) eltér a szokottól, ezért jav.</note></l>
+            <l>Nem illet fájva, - oh ne írigyeld <note type="critic">
+                <hi rend="italic">o</hi>h: a 63-ban megjelent változtatás helyesírása (<hi rend="italic">ó</hi>h.) eltér a szokottól, ezért jav.</note></l>
             <l>Ez első perczben könnyem a halottól. -</l>
             <l>Mi szép halott, ah istenem, mi szép!</l>
             <stage>(Ráborúl.)</stage>
@@ -5136,7 +5141,8 @@
                         dicsérlek tégedet.<note type="critic">A szerzői th.-t (’gyülekezetek’ a
                                 ’gyülekezet<hi rend="italic">n</hi>ek’ alak helyett) Arany nem vette
                             észre, így máig élt, vö. a TÁRGYI MAGYARÁZATOK vonatkozó
-                            helyével!</note></p>
+                            helyével!</note>
+          </p>
         </sp>
         <sp who="#eva">
           <speaker>ÉVA.</speaker>

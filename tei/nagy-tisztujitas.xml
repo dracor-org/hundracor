@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000030</idno>
-        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -224,14 +226,10 @@
           <role><roleName>SCHNAPS</roleName>, fogadós</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>VIRÁGOS GYÖRGY</roleName>
-          </role>
+          <role><roleName>VIRÁGOS GYÖRGY</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ARANYOS MIHÁLY</roleName>
-          </role>
+          <role><roleName>ARANYOS MIHÁLY</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>NELLY</roleName>szobalány</role>
@@ -240,34 +238,22 @@
           <role><roleName>INAS</roleName>, Langyoséknál</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>ELSŐ KÖZNEMES</roleName>
-          </role>
+          <role><roleName>ELSŐ KÖZNEMES</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>MÁSODIK KÖZNEMES</roleName>
-          </role>
+          <role><roleName>MÁSODIK KÖZNEMES</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>HARMADIK KÖZNEMES</roleName>
-          </role>
+          <role><roleName>HARMADIK KÖZNEMES</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>NEGYEDIK KÖZNEMES</roleName>
-          </role>
+          <role><roleName>NEGYEDIK KÖZNEMES</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>KINTORNÁS</roleName>
-          </role>
+          <role><roleName>KINTORNÁS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>CSELÉDLÁNY</roleName>
-          </role>
+          <role><roleName>CSELÉDLÁNY</roleName></role>
         </castItem>
       </castList>
       <p>
@@ -471,7 +457,8 @@
           <sp who="#tornyai">
             <speaker>TORNYAI.</speaker>
             <p>Kitüntetett az aljegyző úr. Szóval ez volt az a bizonyos félhivatalos
-                                dolog?<stage>Megnézi az óráját.</stage></p>
+                                dolog?<stage>Megnézi az óráját.</stage>
+            </p>
           </sp>
           <sp who="#hajlosi">
             <speaker>HAJLÓSI.</speaker>
@@ -510,7 +497,8 @@
           <sp who="#hajlosi">
             <speaker>HAJLÓSI.</speaker>
             <p>Tréfálni méltóztatik. Alázatos szolgája.<stage>Haraggal néz Tornyaira,
-                                de azért hajlongva elmegy jobbra.</stage></p>
+                                de azért hajlongva elmegy jobbra.</stage>
+            </p>
           </sp>
           <sp who="#tornyai">
             <speaker>TORNYAI</speaker>
@@ -521,7 +509,8 @@
                             hogy terveinek kijátszása lehetetlenséggel határos. Erre jövend minden
                             reggel, itt végzi sétáját. Mi történt? Az idő múlik...<stage>Izgatottan
                                 járkál, majd a kiskapuhoz megy, s éppen be akarja nyitni, amikor
-                                balról megjelenik Heves Kálmán.</stage></p>
+                                balról megjelenik Heves Kálmán.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
@@ -774,7 +763,8 @@
           </sp>
           <sp who="#nelly">
             <speaker>NELLY.</speaker>
-            <p>Igenis.<stage>El.</stage></p>
+            <p>Igenis.<stage>El.</stage>
+            </p>
           </sp>
           <p>
             <stage>Aranka és Kinga észreveszik Tornyait és Hevest, akik régimódiasan
@@ -875,7 +865,8 @@
             <speaker>TORNYAI.</speaker>
             <p>Legyen!<stage>Félre.</stage>Ez igen jókor jött... reménylem, hogy e két
                             legyet egy csapással mármost én fogom lesújtani.<stage>Mindketten el a
-                                házba.</stage></p>
+                                házba.</stage>
+            </p>
           </sp>
           <p>
             <stage>Függöny.</stage>
@@ -908,7 +899,8 @@
             <p>Majd elnyel szemeivel a vén farkas - pedig bizony nem vagyok bárány -
                             talán csak nem szeretett belém? - nem bánnám, legalább nem unnám el
                             magamat annyira - ha egy kicsit orránál vezetgethetném az
-                                öregurat.<stage>Dolgozik, mintha nem is látná Langyost.</stage></p>
+                                öregurat.<stage>Dolgozik, mintha nem is látná Langyost.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS</speaker>
@@ -979,7 +971,8 @@
             <speaker>LANGYOS.</speaker>
             <p>Az semmit sem bizonyít. Gyakran éppen akkor közeledik a legnagyobb
                             veszély az emberhez, amikor a legjobban érzi magát.<stage>Közeledik
-                                Nelly felé.</stage></p>
+                                Nelly felé.</stage>
+            </p>
           </sp>
           <sp who="#nelly">
             <speaker>NELLY.</speaker>
@@ -1030,7 +1023,8 @@
           </sp>
           <sp who="#nelly">
             <speaker>NELLY.</speaker>
-            <p>Hát - hogyha a nagyságos úr parancsolja!<stage>Bemegy.</stage></p>
+            <p>Hát - hogyha a nagyságos úr parancsolja!<stage>Bemegy.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS</speaker>
@@ -1038,7 +1032,8 @@
             <p>Ez ugyan kitanulta a szobalányi iskolát! Most bizonyosan azt gondolja,
                             hogy majd utána megyek - óh nem! Annyira nem feledkezünk meg magunkról,
                             mert nem jó, ha az uraság a cseléddel tréfál. Azt nem!!!<stage>Éppen a
-                                kilincsre teszi a kezét, mikor</stage></p>
+                                kilincsre teszi a kezét, mikor</stage>
+            </p>
           </sp>
           <p>
             <stage>Aranka és Kinga bal oldalról a színre lépnek. Beszélgetés közben
@@ -1100,7 +1095,8 @@
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
             <p>Hát akkor kiáltok neki.<stage>Jobb felé kiált.</stage>Nelly! Gyere
-                                már!<stage>A rendelőből zörgés hallatszik.</stage></p>
+                                már!<stage>A rendelőből zörgés hallatszik.</stage>
+            </p>
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
@@ -1158,7 +1154,8 @@
             <speaker>INAS</speaker>
             <stage>a házból a verandára lép, Arankához.</stage>
             <p>Levél érkezett nagyságodnak.<stage>Átadja, meglátja a két napernyőt az
-                                asztalon, beviszi a szobába.</stage></p>
+                                asztalon, beviszi a szobába.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS</speaker>
@@ -1240,7 +1237,8 @@
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
             <p>Isten hozta, ügyvéd úr.<stage>Melegebben.</stage>Isten hozta, szolgabíró
-                                úr.<stage>Kézcsókok.</stage></p>
+                                úr.<stage>Kézcsókok.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
@@ -1261,7 +1259,8 @@
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
             <p>Uraim, foglaljanak helyet.<stage>Leülnek a verandán. Tornyai és Heves
-                                kalapjukat maguk mellé teszik a veranda kövezetére.</stage></p>
+                                kalapjukat maguk mellé teszik a veranda kövezetére.</stage>
+            </p>
           </sp>
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
@@ -1447,7 +1446,8 @@
           <sp who="#tornyai">
             <speaker>TORNYAI.</speaker>
             <p>A főorvos úr nem tanácsol rosszat. Ha tetszik, nézzük meg a kertet.
-                                <stage>Felállnak.</stage></p>
+                                <stage>Felállnak.</stage>
+            </p>
           </sp>
           <sp who="#tornyai">
             <speaker>TORNYAI</speaker>
@@ -1472,7 +1472,8 @@
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
             <p>De napernyő nélkül nem mehetünk. Nelly, Nelly! Hol bujkál ez a
-                            haszontalan leány?<stage>A rendelőből zörgés hallatszik.</stage></p>
+                            haszontalan leány?<stage>A rendelőből zörgés hallatszik.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
@@ -1482,7 +1483,8 @@
             <speaker>LANGYOS.</speaker>
             <p>Légy csendes, Hektor, nem szabad kijönnöd... Megyek, édes Arankám,
                             kihozom én a napernyőket. Tüstént itt leszek.<stage>Bemegy a
-                                házba.</stage></p>
+                                házba.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
@@ -1497,7 +1499,8 @@
             <speaker>LANGYOS</speaker>
             <stage>visszajön, egy nap- és egy esernyőt hoz.</stage>
             <p>Itt vannak. Neked is hoztam, édeském.<stage>Kingának adja az
-                                esernyőt.</stage></p>
+                                esernyőt.</stage>
+            </p>
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
@@ -1511,12 +1514,14 @@
           <sp who="#tornyai">
             <speaker>TORNYAI.</speaker>
             <p>A főorvos úr bizonyosan valami új gyógyítási módon töri a fejét?
-                                <stage>Kingával kezd beszélgetni.</stage></p>
+                                <stage>Kingával kezd beszélgetni.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS.</speaker>
             <p>Bocsánat, édeském, igazán nem tudom, hogy akadt a kezembe. Mindjárt jóvá
-                            teszem a hibámat.<stage>Bemegy az esernyővel a házba.</stage></p>
+                            teszem a hibámat.<stage>Bemegy az esernyővel a házba.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES</speaker>
@@ -1551,7 +1556,8 @@
           <sp who="#dr_langyos">
             <speaker>LANGYOS</speaker>
             <stage>jön a napernyővel.</stage>
-            <p>Alig tudtam megtalálni.<stage>Átadja.</stage></p>
+            <p>Alig tudtam megtalálni.<stage>Átadja.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES</speaker>
@@ -1639,7 +1645,8 @@
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
-            <p>Uraim!<stage>Helyet mutat. Leülnek. Madárfütty.</stage></p>
+            <p>Uraim!<stage>Helyet mutat. Leülnek. Madárfütty.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS.</speaker>
@@ -1734,7 +1741,8 @@
                             napokat vagy heteket kívánnak meggondolásra. Testvérem azonban most, a
                             haladás korszakában percekkel is meg fog elégedni. Gyere velem szobámba,
                             Aranka. Önök pedig, uraim, várakozzanak itt. Rövidesen meg fogják tudni
-                            a határozatot.<stage>El Arankával a házba.</stage></p>
+                            a határozatot.<stage>El Arankával a házba.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS</speaker>
@@ -1805,14 +1813,16 @@
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
             <p>Ne nyugtalankodjál! Nem láttam semmit! Nem hallottam semmit! A legkisebb
-                            gyanúm sincsen.<stage>Leülnek.</stage></p>
+                            gyanúm sincsen.<stage>Leülnek.</stage>
+            </p>
           </sp>
           <sp who="#inas">
             <speaker>INAS</speaker>
             <stage>levéllel a szobából jön.</stage>
             <p>Levél a nagyságos asszonytól, azzal a kéréssel, hogy méltóztassék
                             fennhangon elolvasni. <stage>Átadja a levelet Langyosnak és el.
-                                Felállnak.</stage></p>
+                                Felállnak.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
@@ -1839,7 +1849,8 @@
             <speaker>FARKASFALVY</speaker>
             <stage>Langyoshoz.</stage>
             <p>Még eddig a hatalmi apparátus birtokában vagyok. Pártom hatalmas. Aranka
-                            enyém. - Uraim, ajánlom magamat.<stage>El.</stage></p>
+                            enyém. - Uraim, ajánlom magamat.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES</speaker>
@@ -1867,12 +1878,14 @@
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS.</speaker>
-            <p>Isten önökkel.<stage>Heves és Tornyai el.</stage></p>
+            <p>Isten önökkel.<stage>Heves és Tornyai el.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS</speaker>
             <stage>a homlokát törölgetve.</stage>
-            <p>Na végre!<stage>Kinyitja a rendelő ajtaját.</stage></p>
+            <p>Na végre!<stage>Kinyitja a rendelő ajtaját.</stage>
+            </p>
           </sp>
           <sp who="#nelly">
             <speaker>NELLY</speaker>
@@ -1894,7 +1907,8 @@
             <speaker>LANGYOS.</speaker>
             <p>Mondtam már, hogy légy csendesen!<stage>Papírpénzt nyom a
                                 szájára.</stage> Itt ez a ragasztótapasz, és hallgass. Én pedig
-                            megyek a Bokros kisasszony görcseit gyógyítani. <stage>El.</stage></p>
+                            megyek a Bokros kisasszony görcseit gyógyítani. <stage>El.</stage>
+            </p>
           </sp>
           <sp who="#nelly">
             <speaker>NELLY</speaker>
@@ -1960,7 +1974,8 @@
           <sp who="#nelly">
             <speaker>NELLY.</speaker>
             <p>Nekem is kijut hát a munka a tisztújításból... <stage>Balra
-                            el.</stage></p>
+                            el.</stage>
+            </p>
           </sp>
           <sp who="#kinga">
             <speaker>KINGA</speaker>
@@ -2187,7 +2202,8 @@
             <speaker>LANGYOS.</speaker>
             <p>Őrizni? <stage>Kényszeredetten nevet.</stage>Már látom, hogy a szobámba
                             kell zárkóznom, mert egyszerre két asszonnyal gyönge vagyok
-                                vitatkozni.<stage>El a rendelőbe.</stage></p>
+                                vitatkozni.<stage>El a rendelőbe.</stage>
+            </p>
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
@@ -2298,7 +2314,8 @@
             <stage>balról jön.</stage>
             <p>Bocsánat, hogy ismét és ilyen hamar teszem tiszteletem, de a rendkívüli
                             körülmények, az új hírek talán kimentenek.<stage>Leteszi a
-                                kalapot.</stage></p>
+                                kalapot.</stage>
+            </p>
           </sp>
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
@@ -2371,7 +2388,8 @@
             <speaker>TORNYAI.</speaker>
             <p>Azért ne aggódjanak oly igen nagyságtok. Vajon lehetnék-e ilyen nyugodt,
                             ha minden reményről le kellene mondanom?<stage>Kezet csókol
-                                Arankának.</stage></p>
+                                Arankának.</stage>
+            </p>
           </sp>
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
@@ -2481,7 +2499,8 @@
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
-            <p>Értetek jövök, ha sokáig késtek.<stage>Tornyaival el.</stage></p>
+            <p>Értetek jövök, ha sokáig késtek.<stage>Tornyaival el.</stage>
+            </p>
           </sp>
           <sp who="#aranka">
             <speaker>ARANKA</speaker>
@@ -2544,7 +2563,8 @@
             <speaker>ARANKA.</speaker>
             <p>Még nem. És nem is fog tudni, ha mindent az én parancsaim szerint fogsz
                             véghez vinni. Itt a kortesjelvény!<stage>Fehér tollat ad át
-                                neki.</stage></p>
+                                neki.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS.</speaker>
@@ -2562,7 +2582,8 @@
           </p>
           <sp who="#damazsdi">
             <speaker>DAMÁZSDI*<note type="critic">* (?) szereplő - a szereplőlistáról
-                                hiányzik.</note></speaker>
+                                hiányzik.</note>
+            </speaker>
             <stage>középről jön.</stage>
             <p>Csak jöjjön kend utánam, Mózes gazda! Mindjárt bejelentem a tekintetes
                             alispán úrnak. Várakozzék itt az előszobában.</p>
@@ -2810,7 +2831,8 @@
           </sp>
           <sp who="#schnaps">
             <speaker>SCHNAPS.</speaker>
-            <p>Semmi, csak félrebeszéltem.<stage>El.</stage></p>
+            <p>Semmi, csak félrebeszéltem.<stage>El.</stage>
+            </p>
           </sp>
           <p>
             <stage>Damázsdi középről jön.</stage>
@@ -2889,7 +2911,8 @@
           <sp who="#damazsdi">
             <speaker>DAMÁZSDI.</speaker>
             <p>Köszönöm alássan.<stage>Indul a középajtón, találkozik Hajlósival, köszön
-                                neki, azután el.</stage></p>
+                                neki, azután el.</stage>
+            </p>
           </sp>
           <sp who="#farkasfalvy">
             <speaker>FARKASFALVY.</speaker>
@@ -2921,7 +2944,8 @@
           </sp>
           <sp who="#farkasfalvy">
             <speaker>FARKASFALVY.</speaker>
-            <p>Miről van hát szó? <stage>Leül.</stage></p>
+            <p>Miről van hát szó? <stage>Leül.</stage>
+            </p>
           </sp>
           <sp who="#hajlosi">
             <speaker>HAJLÓSI.</speaker>
@@ -3024,7 +3048,8 @@
                                 folytatja.<stage>Kinyitja a középajtót.</stage>Kérem, uraim, csak
                             méltóztassanak. Damázsdi, már mondtam magának, hogy érdemes
                             nemestársaimat mindenkor jelentés nélkül bocsássa be.<stage>Damázsdi
-                                el.</stage></p>
+                                el.</stage>
+            </p>
           </sp>
           <p>
             <stage>Virágos György és Aranyos Mihály középről belépnek.</stage>
@@ -3321,7 +3346,8 @@
           <sp who="#viragos_gyorgy">
             <speaker>VIRÁGOS</speaker>
             <stage>Aranyoshoz.</stage>
-            <p>Misa!<stage>Leülnek.</stage></p>
+            <p>Misa!<stage>Leülnek.</stage>
+            </p>
           </sp>
           <sp who="#aranyos_mihaly">
             <speaker>ARANYOS.</speaker>
@@ -3502,7 +3528,8 @@
                             vigyázni fogok rá... és persze magamra... a magam hírnevére... hogy meg
                             ne csaljon. De hogy lemondjak róla? - Önnek mindenesetre köszönöm ezt a
                             buzgó munkásságot... csak folytassa... meg lesz a
-                                jutalma...<stage>Kívülről zene és ének hallatszik.</stage></p>
+                                jutalma...<stage>Kívülről zene és ének hallatszik.</stage>
+            </p>
           </sp>
           <sp who="#farkasfalvy">
             <speaker>FARKASFALVY.</speaker>
@@ -3532,7 +3559,8 @@
             <speaker>HAJLÓSI</speaker>
             <stage>nevet.</stage>
             <p>Mert elsózza még a levest... <stage>Kimegy a színről, jobbra az
-                                erkélyre.</stage></p>
+                                erkélyre.</stage>
+            </p>
           </sp>
           <sp who="#damazsdi">
             <speaker>DAMÁZSDI</speaker>
@@ -3560,7 +3588,8 @@
           </lg>
           <sp who="#farkasfalvy">
             <speaker>FARKASFALVY.</speaker>
-            <p>Az ördögbe is!<stage>Ének kívülről.</stage></p>
+            <p>Az ördögbe is!<stage>Ének kívülről.</stage>
+            </p>
           </sp>
           <lg>
             <l>Egy istenünk, egy királyunk,</l>
@@ -3598,7 +3627,8 @@
           <sp who="#hajlosi">
             <speaker>HAJLÓSI.</speaker>
             <p>Hogy Heves pártját megosszuk? Bámulom a tekintetes uram fényes
-                                elméjét!<stage>Meghajlik.</stage></p>
+                                elméjét!<stage>Meghajlik.</stage>
+            </p>
           </sp>
           <p>
             <stage>Kívül az ének és lárma tovább tart.</stage>
@@ -3653,7 +3683,8 @@
           </sp>
           <sp who="#schnaps">
             <speaker>SCHNAPS.</speaker>
-            <p>Sietek, tekintetes uram, sietek!<stage>El.</stage></p>
+            <p>Sietek, tekintetes uram, sietek!<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#tornyai">
             <speaker>TORNYAI.</speaker>
@@ -3802,7 +3833,8 @@
           </sp>
           <sp who="#tornyai">
             <speaker>TORNYAI.</speaker>
-            <p>Ismerem.<stage>Olvassa.</stage></p>
+            <p>Ismerem.<stage>Olvassa.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
@@ -3828,7 +3860,8 @@
           <sp who="#tornyai">
             <speaker>TORNYAI</speaker>
             <p>...aligha látjuk egymást. Rosszul érzem magamat, fáradt vagyok. Uraim, jó
-                                éjszakát!<stage>El.</stage></p>
+                                éjszakát!<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES</speaker>
@@ -3892,7 +3925,8 @@
           <sp who="#darabos">
             <speaker>DARABOS.</speaker>
             <p>Tökéletesen értem a tekintetes urat! Az éjszakát átvirrasztjuk! Nem árt a
-                            magyarnak a virrasztás! Úgyis elég sokáig aludt!<stage>El.</stage></p>
+                            magyarnak a virrasztás! Úgyis elég sokáig aludt!<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
@@ -3928,7 +3962,8 @@
           <sp who="#dr_heves">
             <speaker>HEVES</speaker>
             <stage>elkomolyodva néz Schnapsra, majd újra elneveti magát.</stage>
-            <p>No, isten áldja, Mózes uram!<stage>El.</stage></p>
+            <p>No, isten áldja, Mózes uram!<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#schnaps">
             <speaker>SCHNAPS.</speaker>
@@ -3971,7 +4006,8 @@
           <sp who="#aranyos_mihaly">
             <speaker>ARANYOS.</speaker>
             <p>Isten neki. Péter szomszéd, nem bánom, béküljünk meg - ez a világ úgyis
-                            mulandó, és nincs benne semmi állandó<stage>Isznak.</stage></p>
+                            mulandó, és nincs benne semmi állandó<stage>Isznak.</stage>
+            </p>
           </sp>
           <sp who="#masodik_koznemes">
             <speaker>MÁSODIK KÖZNEMES.</speaker>
@@ -4169,7 +4205,8 @@
                             mire megy ezekkel a vasfejűekkel. Bevárom a dolog kimenetelét - talán
                             hasznát vehetem egykor tudományának, ha ismét bajba keveredem valami
                             ármányos szobalány miatt.<stage>Az asztal mögé vonulva
-                            megáll.</stage></p>
+                            megáll.</stage>
+            </p>
           </sp>
           <sp who="#darabos">
             <speaker>DARABOS</speaker>
@@ -4344,7 +4381,8 @@
             <speaker>NEGYEDIK KÖZNEMES</speaker>
             <stage>az asztalhoz kapaszkodva feláll.</stage>
             <p>Én is megyek! Éljen Farkasfalvy!<stage>Iszik.</stage>Éljen
-                                Heves!<stage>Iszik.</stage></p>
+                                Heves!<stage>Iszik.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS.</speaker>
@@ -4381,10 +4419,14 @@
         <head type="title">HARMADIK FELVONÁS</head>
         <div type="scene">
           <head type="title">ELSŐ KÉP</head>
-          <p><stage>Langyosék kertje a verandával. Holdas este.</stage><stage>Farkasfalvy
-                            jön és felmászik a vadgesztenyefára.</stage><stage>Aranka a szobából jön
+          <p>
+            <stage>Langyosék kertje a verandával. Holdas este.</stage>
+            <stage>Farkasfalvy
+                            jön és felmászik a vadgesztenyefára.</stage>
+            <stage>Aranka a szobából jön
                             a verandára Kingával együtt.</stage>Jönnek, mennek,
-                        körülnéznek.<stage/></p>
+                        körülnéznek.<stage/>
+          </p>
           <sp who="#kinga">
             <speaker>KINGA</speaker>
             <p>Nem merem, nem merem!</p>
@@ -4460,7 +4502,8 @@
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
             <p>Tornyai makacs becsületességével mindent elrontana. Csak ez egyetlen mód
-                            által szabadulhatok a hínárból.<stage>Nelly a házból jön.</stage></p>
+                            által szabadulhatok a hínárból.<stage>Nelly a házból jön.</stage>
+            </p>
           </sp>
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
@@ -4541,7 +4584,8 @@
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
             <p>Bizonyosan valami vén bagoly keres rajta éjjeli szállást.<stage>A
-                                szobából óraütés hallatszik, tizenkettő.</stage></p>
+                                szobából óraütés hallatszik, tizenkettő.</stage>
+            </p>
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
@@ -4551,7 +4595,8 @@
             <speaker>ARANKA.</speaker>
             <p>Ne félj, a közelben leszek.<stage>Az eget nézi.</stage>Szerencsénk van.
                             Könnyű felhő közeledik a holdhoz. Az első percekben nem ismer meg...
-                            Gyere, Nelly.<stage>Nellyvel el a szobába.</stage></p>
+                            Gyere, Nelly.<stage>Nellyvel el a szobába.</stage>
+            </p>
           </sp>
           <sp who="#kinga">
             <speaker>KINGA</speaker>
@@ -4572,7 +4617,8 @@
             <speaker>HEVES.</speaker>
             <p>Milyen bátor, emelkedett gondolkozású hölgy ön, asszonyom! A haladás
                             törhetetlen híve... Az előítéletek bilincsét ledobja
-                                magáról.<stage>Kezet csókol. Újra holdfény.</stage></p>
+                                magáról.<stage>Kezet csókol. Újra holdfény.</stage>
+            </p>
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
@@ -4614,7 +4660,8 @@
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
-            <p>Ó, uram, hogy fog ön énfelőlem ítélni?<stage>Leül a fa alá.</stage></p>
+            <p>Ó, uram, hogy fog ön énfelőlem ítélni?<stage>Leül a fa alá.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES</speaker>
@@ -4647,7 +4694,8 @@
                             gyöngeségemen, bűnös gyöngeségemen, és ne forduljon el méltó megvetéssel
                             tőlem, ki a legszentebbet áldoztam föl azon vétkes indulatnak, mely
                             önnek első megpillantásakor egész valómat megrendíté.<stage>Arcát
-                                kendőjével elfedi.</stage></p>
+                                kendőjével elfedi.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES</speaker>
@@ -4889,7 +4937,8 @@
           <sp who="#aranka #kinga #nelly">
             <speaker>ARANKA, KINGA, NELLY.</speaker>
             <p>Jó éjszakát, ügyvéd úr.<stage>Nagy nevetéssel elmennek a
-                            szobába.</stage></p>
+                            szobába.</stage>
+            </p>
           </sp>
           <p>
             <stage>Heves nevetése nagy kacagásba megy át, megfordul, és ott látja a
@@ -4925,7 +4974,8 @@
           <sp who="#dr_langyos">
             <speaker>LANGYOS.</speaker>
             <p>Már megint ez a vén bagoly... Lelövöm, lelövöm.<stage>Emeli a
-                                puskáját.</stage></p>
+                                puskáját.</stage>
+            </p>
           </sp>
           <sp who="#farkasfalvy">
             <speaker>FARKASFALVY</speaker>
@@ -4969,7 +5019,8 @@
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
-            <p>Ott leszek!<stage>El.</stage></p>
+            <p>Ott leszek!<stage>El.</stage>
+            </p>
           </sp>
           <p>
             <stage>Farkasfalvy mászik lefelé a fáról.</stage>
@@ -5083,7 +5134,8 @@
           <sp who="#nelly">
             <speaker>NELLY.</speaker>
             <p>Az előbb láttam a kertben. Nagy lépésekkel jár föl és alá. A kertész és a
-                            kocsis alig bírják követni.<stage>El.</stage></p>
+                            kocsis alig bírják követni.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
@@ -5135,7 +5187,8 @@
           <sp who="#aranka">
             <speaker>ARANKA.</speaker>
             <p>Én viszonzásul férjedet csillapítom le. Bátran és okosan, Kinga.<stage>El
-                                a szobába.</stage></p>
+                                a szobába.</stage>
+            </p>
           </sp>
           <p>
             <stage>Tornyai lassan jön.</stage>
@@ -5244,7 +5297,8 @@
                             testvérének, hogy ha szerelmet nem is, legalább nyíltságot és
                             őszinteséget vártam volna tőle - ó, és még azt, hogy házasságához
                             szerencsét kívánok neki - legyen boldog - és még azt, hogy ebben az
-                            életben egymást többé látni nem fogjuk.<stage>El akar menni.</stage></p>
+                            életben egymást többé látni nem fogjuk.<stage>El akar menni.</stage>
+            </p>
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
@@ -5317,7 +5371,8 @@
           </sp>
           <sp who="#kinga">
             <speaker>KINGA.</speaker>
-            <p>Ah!<stage>Elalél, a szobalány viszi be a házba.</stage></p>
+            <p>Ah!<stage>Elalél, a szobalány viszi be a házba.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS.</speaker>
@@ -5378,7 +5433,8 @@
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS.</speaker>
-            <p>Hallgass. Mindjárt hozom...<stage>Indul a rendelőbe.</stage></p>
+            <p>Hallgass. Mindjárt hozom...<stage>Indul a rendelőbe.</stage>
+            </p>
           </sp>
           <sp who="#nelly">
             <speaker>NELLY.</speaker>
@@ -5686,7 +5742,8 @@
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
-            <p>Tornyai igazat mondott. Itt van Aranka levele.<stage>Átadja.</stage></p>
+            <p>Tornyai igazat mondott. Itt van Aranka levele.<stage>Átadja.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS</speaker>
@@ -5741,7 +5798,8 @@
             <speaker>LANGYOS.</speaker>
             <p>Nagylelkűségét sohasem fogom elfelejteni. Vessünk mindennek
                                 véget.<stage>Összetépi a maga írását is meg a levelet
-                            is.</stage></p>
+                            is.</stage>
+            </p>
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
@@ -5762,7 +5820,8 @@
           </sp>
           <sp who="#dr_heves">
             <speaker>HEVES.</speaker>
-            <p>Ajánlom magamat!<stage>Indul.</stage></p>
+            <p>Ajánlom magamat!<stage>Indul.</stage>
+            </p>
           </sp>
           <sp who="#dr_langyos">
             <speaker>LANGYOS.</speaker>
@@ -5866,7 +5925,8 @@
             <speaker>ARANKA.</speaker>
             <p>Szíveskedjek megmondani Farkasfalvy úrnak, hogy szavamhoz szilárdan
                             ragaszkodom, és az első alispánt választom férjemül.<stage>Kezét nyújtja
-                                Tornyainak.</stage></p>
+                                Tornyainak.</stage>
+            </p>
           </sp>
           <sp who="#tornyai">
             <speaker>TORNYAI</speaker>

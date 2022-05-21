@@ -66,10 +66,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000016</idno>
-        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -246,44 +248,28 @@
           <role><roleName>THEODOR</roleName>színész</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>1., 2., 3., 4., 5. SZÍNÉSZ</roleName>
-          </role>
+          <role><roleName>1., 2., 3., 4., 5. SZÍNÉSZ</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>1., 2. KAMARÁS</roleName>
-          </role>
+          <role><roleName>1., 2. KAMARÁS</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>VALERIA DAJKÁJA</roleName>
-          </role>
+          <role><roleName>VALERIA DAJKÁJA</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>CEREMÓNIAMESTER</roleName>
-          </role>
+          <role><roleName>CEREMÓNIAMESTER</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>TESTŐRTISZT</roleName>
-          </role>
+          <role><roleName>TESTŐRTISZT</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>TESTŐR</roleName>
-          </role>
+          <role><roleName>TESTŐR</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>SZOLGA</roleName>
-          </role>
+          <role><roleName>SZOLGA</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>POROSZLÓ</roleName>
-          </role>
+          <role><roleName>POROSZLÓ</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>MIKION</roleName>inas</role>
@@ -332,7 +318,8 @@
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
-          <p><stage>(Lázasan érdeklődve.)</stage>Ne mondja!
+          <p>
+            <stage>(Lázasan érdeklődve.)</stage>Ne mondja!
                                                   Bizonyosan valami új, afrikai találmányt vesz
                                                   igénybe lefekvés előtt. Nekem is ajánlottak
                                                   tegnap, egy görög orvos boltjában, valami
@@ -403,13 +390,15 @@
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Idegenkedve.)</stage>Úgy hallom, hogy
+          <p>
+            <stage>(Idegenkedve.)</stage>Úgy hallom, hogy
                                                   ön egyáltalában nem hisz a hazai
                                                   Istenekben?!...</p>
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
-          <p><stage>(Ijedten.)</stage>Halkabban! Ez nem hit
+          <p>
+            <stage>(Ijedten.)</stage>Halkabban! Ez nem hit
                                                   kérdése, Clarissime, hanem stílus kérdése. Én
                                                   Alexandriában végeztem az egyetemet... Az ember,
                                                   ugyebár, vagy tud vagy hisz?... Mi tudjuk, amit
@@ -434,7 +423,8 @@
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Mosolyogva.)</stage>Mint bölcs, - mint
+          <p>
+            <stage>(Mosolyogva.)</stage>Mint bölcs, - mint
                                                   tudós, - mint hitetlen?</p>
         </sp>
         <sp who="#eusthenius">
@@ -533,7 +523,8 @@
                                                   tervét már meg is rajzoltam és le fogok leplezni
                                                   mindent...<stage>(A jobboldali ajtó felpattan és
                                                   beront rajta egy testőrtiszt, zavartan áll meg,
-                                                  amikor a két urat megpillantja.)</stage></p>
+                                                  amikor a két urat megpillantja.)</stage>
+          </p>
         </sp>
         <sp who="#tiszt">
           <speaker>TESTŐRTISZT.</speaker>
@@ -550,22 +541,27 @@
           <p>A külső udvaron oly nagy a zavar, a
                                                   felfordulás... Csak ezen az ajtón juthatok ki a
                                                   palotából észrevétlenül...<stage>(Kissé
-                                                  bizonytalanul néz körül.)</stage></p>
+                                                  bizonytalanul néz körül.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Szigorúan.)</stage>Ön észrevétlenül
+          <p>
+            <stage>(Szigorúan.)</stage>Ön észrevétlenül
                                                   akar kijutni a palotából?</p>
         </sp>
         <sp who="#tiszt">
           <speaker>TESTŐRTISZT.</speaker>
-          <p><stage>(Némi zavarral.)</stage>Nem én, - de ki
+          <p>
+            <stage>(Némi zavarral.)</stage>Nem én, - de ki
                                                   kell kísérnem egy hölgyet...<stage>(Kis
-                                                  szünet.)</stage></p>
+                                                  szünet.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Megdöbbenve.)</stage>Ki az a hölgy? És
+          <p>
+            <stage>(Megdöbbenve.)</stage>Ki az a hölgy? És
                                                   kinél volt?</p>
         </sp>
         <sp who="#tiszt">
@@ -592,7 +588,8 @@
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Megbotránkozva.)</stage>Férjes
+          <p>
+            <stage>(Megbotránkozva.)</stage>Férjes
                                                   asszony?</p>
         </sp>
         <sp who="#eusthenius">
@@ -604,11 +601,13 @@
                                                   e pillanatban berohan jobbról egy
                                                   harminc-harmincöt évesnek látszó rabszolga,
                                                   lihegve, lázasan. Megáll és mélyen meghajol a
-                                                  főkamarás előtt.)</stage></p>
+                                                  főkamarás előtt.)</stage>
+          </p>
         </sp>
         <sp who="#szolga">
           <speaker>RABSZOLGA.</speaker>
-          <p><stage>(Magánkívül.)</stage>Clarissime!</p>
+          <p>
+            <stage>(Magánkívül.)</stage>Clarissime!</p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
@@ -648,7 +647,8 @@
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
-          <p><stage>(Rémülten.)</stage>Megtagadta az
+          <p>
+            <stage>(Rémülten.)</stage>Megtagadta az
                                                   áldozást? A Scipiók unokája -</p>
         </sp>
         <sp who="#crispus">
@@ -660,11 +660,13 @@
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
-          <p><stage>(Egészen elcsüggedve.)</stage>Ez csak a
+          <p>
+            <stage>(Egészen elcsüggedve.)</stage>Ez csak a
                                                   Caesar malmára hajtja a vizet, - úgyis mondhatnám,
                                                   hogy a keresztvizet -<stage>(Künn megszólal a
                                                   gong, három gongütés után kitárul a középajtó,
-                                                  testőrök jönnek be és fölállanak.)</stage></p>
+                                                  testőrök jönnek be és fölállanak.)</stage>
+          </p>
         </sp>
         <sp who="#ceremoniamester">
           <speaker>CEREMÓNIAMESTER.</speaker>
@@ -674,21 +676,25 @@
                                                   rendeltek...<stage>(Kiszól.)</stage>A kamarás
                                                   urakat is kérem...<stage>(Három kamarás belép a
                                                   középajtón, utána még három s felállanak
-                                                  jobbra.)</stage></p>
+                                                  jobbra.)</stage>
+          </p>
         </sp>
         <sp who="#kamaras">
           <speaker>ELSŐ KAMARÁS.</speaker>
-          <p><stage>(Súgva.)</stage>Mindig szorongás fog el,
+          <p>
+            <stage>(Súgva.)</stage>Mindig szorongás fog el,
                                                   ha berendelnek bennünket.</p>
         </sp>
         <sp who="#kamaras">
           <speaker>MÁSODIK KAMARÁS.</speaker>
           <p>Nem kell
-                                                  félni!<stage>(Összesúgnak.)</stage></p>
+                                                  félni!<stage>(Összesúgnak.)</stage>
+          </p>
         </sp>
         <sp who="#ceremoniamester">
           <speaker>CEREMÓNIAMESTER.</speaker>
-          <p><stage>(A testőrhöz.)</stage>Hozzátok fel
+          <p>
+            <stage>(A testőrhöz.)</stage>Hozzátok fel
                                                   Pollio századost, láncok nélkül.</p>
         </sp>
         <sp who="#eusthenius">
@@ -706,7 +712,8 @@
           <p>Kérem, én egy szót sem szóltam.<stage>(Testőr
                                                   jön Pollioval, akit más katonák is követnek.
                                                   Kamarások között nagy súgás-búgás
-                                                  támad.)</stage></p>
+                                                  támad.)</stage>
+          </p>
         </sp>
         <sp who="#ceremoniamester">
           <speaker>CEREMÓNIAMESTER.</speaker>
@@ -714,7 +721,8 @@
                                                   kérem. Ő Szent Felségének legkegyelmesebb lépteit
                                                   hallom.<stage>(Az előbbieknél jóval hatalmasabb
                                                   gongütés, mint egy óriási réztányér hangja.
-                                                  Mindenki megmerevül.)</stage></p>
+                                                  Mindenki megmerevül.)</stage>
+          </p>
         </sp>
         <p>
           <stage>Diocletian császár és Galerius caesar
@@ -743,7 +751,8 @@
         <sp who="#pollio">
           <speaker>POLLIO.</speaker>
           <p>Legkegyelmesebb uram és vitéz kapitányom, Ő
-                                                  Felsége a császár.<stage>(Moraj.)</stage></p>
+                                                  Felsége a császár.<stage>(Moraj.)</stage>
+          </p>
         </sp>
         <sp who="#galerius">
           <speaker>GALERIUS.</speaker>
@@ -752,7 +761,8 @@
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
-          <p><stage>(Egy tekintettel leinti
+          <p>
+            <stage>(Egy tekintettel leinti
                                                   Galeriust.)</stage>Pollio! Mivel tartozol te
                                                   nekem?!</p>
         </sp>
@@ -783,7 +793,8 @@
         <sp who="#pollio">
           <speaker>POLLIO.</speaker>
           <p>Az én uram, a Jézus Krisztus.<stage>(Nagy
-                                                  nyugtalanság támad a teremben.)</stage></p>
+                                                  nyugtalanság támad a teremben.)</stage>
+          </p>
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
@@ -819,7 +830,8 @@
                                                   Pollio, én szeretlek téged, tudom, hogy te is
                                                   szeretsz engem. Miért nem jössz
                                                   hozzám...<stage>(Extázissal.)</stage>Én hát
-                                                  mentem!<stage>(Csend.)</stage></p>
+                                                  mentem!<stage>(Csend.)</stage>
+          </p>
         </sp>
         <sp who="#galerius">
           <speaker>GALERIUS.</speaker>
@@ -842,12 +854,15 @@
           <speaker>GALERIUS.</speaker>
           <p>Hallgass!<stage>(Kis szünet.)</stage>Szóljon
                                                   már valaki - mi is a neve annak a
-                                                  könyvnek?<stage>(Szünet.)</stage></p>
+                                                  könyvnek?<stage>(Szünet.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Habozva.)</stage>Evangélium!<stage>(Diocletian
-                                                  észrevétlenül, élesen ránéz.)</stage></p>
+          <p>
+            <stage>(Habozva.)</stage>Evangélium!<stage>(Diocletian
+                                                  észrevétlenül, élesen ránéz.)</stage>
+          </p>
         </sp>
         <sp who="#pollio">
           <speaker>POLLIO.</speaker>
@@ -872,7 +887,8 @@
         <sp who="#pollio">
           <speaker>POLLIO.</speaker>
           <p>Nem!<stage>(A teremben mindenki
-                                                  megdöbben.)</stage></p>
+                                                  megdöbben.)</stage>
+          </p>
         </sp>
         <sp who="#galerius">
           <speaker>GALERIUS.</speaker>
@@ -880,19 +896,23 @@
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
-          <p><stage>(Erőt vesz magán.)</stage>Római katona
+          <p>
+            <stage>(Erőt vesz magán.)</stage>Római katona
                                                   és polgár vagy!</p>
         </sp>
         <sp who="#pollio">
           <speaker>POLLIO.</speaker>
-          <p><stage>(Két tenyerét a mellére nyomja,
+          <p>
+            <stage>(Két tenyerét a mellére nyomja,
                                                   nyugodtan fölnéz, nagy áhitattal és bensőséggel
                                                   mondja.)</stage>Keresztény vagyok!<stage>(Az egész
-                                                  terem felzug.)</stage></p>
+                                                  terem felzug.)</stage>
+          </p>
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
-          <p><stage>(Szünet után.)</stage>Azt nem kérdeztem,
+          <p>
+            <stage>(Szünet után.)</stage>Azt nem kérdeztem,
                                                   fiam... Nem is fontos. Mi csakis a fegyelemmel és
                                                   a törvénnyel gondolunk... A birodalom épségével és
                                                   érdekével... Semmi közünk ahhoz, hogy valaki
@@ -921,7 +941,8 @@
           <p>Nyilakkal átverték, korbáccsal ütötték s kihült
                                                   fiatal testét piszkos csatornába vetették, hogy a
                                                   keresztények meg ne találhassák, ne is
-                                                  tisztelhessék!<stage>(Elfullad.)</stage></p>
+                                                  tisztelhessék!<stage>(Elfullad.)</stage>
+          </p>
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
@@ -1087,7 +1108,8 @@
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
-          <p><stage>(Érdeklődve.)</stage>Micsoda?! Így tudja
+          <p>
+            <stage>(Érdeklődve.)</stage>Micsoda?! Így tudja
                                                   kivallatni az embereket?! Ez nagyon érdekes!</p>
         </sp>
         <sp who="#eusthenius">
@@ -1106,17 +1128,20 @@
                                                   eltávozik, csakis Crispus marad a teremben.
                                                   Hosszan és jelentősen néz a császár után. Pár
                                                   pillanat után visszajön Aemilius Victor, a középső
-                                                  ajtón.)</stage></p>
+                                                  ajtón.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Miután körülnézett.)</stage>Láttad,
+          <p>
+            <stage>(Miután körülnézett.)</stage>Láttad,
                                                   hogy lemerült belém a pillantása. Reszkettem
                                                   belül.</p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Lassan.)</stage>Pollio nem félt.</p>
+          <p>
+            <stage>(Lassan.)</stage>Pollio nem félt.</p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
@@ -1142,7 +1167,8 @@
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
           <p>A festék kimarja a bőrt, a hazugság a
-                                                  lelket.<stage>(Testőr belép.)</stage></p>
+                                                  lelket.<stage>(Testőr belép.)</stage>
+          </p>
         </sp>
         <sp who="#testor">
           <speaker>TESTŐR.</speaker>
@@ -1151,11 +1177,13 @@
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
           <p>Jöjjön be!<stage>(Testőr kimegy és bebocsátja
-                                                  Genesiust.)</stage></p>
+                                                  Genesiust.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Bejön és mélyen
+          <p>
+            <stage>(Bejön és mélyen
                                                   meghajol.)</stage>Clarissime...</p>
         </sp>
         <sp who="#aemilius">
@@ -1173,7 +1201,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Álmélkodva.)</stage>A császár?!</p>
+          <p>
+            <stage>(Álmélkodva.)</stage>A császár?!</p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
@@ -1186,7 +1215,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Boldogan.)</stage>Hálásan köszönöm,
+          <p>
+            <stage>(Boldogan.)</stage>Hálásan köszönöm,
                                                   Clarissime...</p>
         </sp>
         <sp who="#aemilius">
@@ -1194,7 +1224,8 @@
           <p>Tüstént jelentem Ő Szent Felségének -<stage>(A
                                                   középajtó kinyílik s megjelenik Valeria dajkája,
                                                   egy hatalmas termetű keleti asszony, ragyogó
-                                                  pompával öltözve.)</stage></p>
+                                                  pompával öltözve.)</stage>
+          </p>
         </sp>
         <sp who="#dajka">
           <speaker>DAJKA.</speaker>
@@ -1216,7 +1247,8 @@
           <speaker>AEMILIUS VICTOR.</speaker>
           <p>Akkor hát mi elmehetünk, nagyságos
                                                   dajka...<stage>(Ki akarja tessékelni a baloldali
-                                                  ajtón.)</stage></p>
+                                                  ajtón.)</stage>
+          </p>
         </sp>
         <sp who="#dajka">
           <speaker>DAJKA.</speaker>
@@ -1235,7 +1267,8 @@
                                                   kinyílik s belép rajta Valeria, császári hercegnő.
                                                   Genesius mélyen meghajol s meghajolva áll, míg a
                                                   hercegnő le nem ült. Miután a hercegnő helyet
-                                                  foglalt, a Dajka is leül.)</stage></p>
+                                                  foglalt, a Dajka is leül.)</stage>
+          </p>
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
@@ -1283,7 +1316,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Szerényen.)</stage>Önmagamat keresem,
+          <p>
+            <stage>(Szerényen.)</stage>Önmagamat keresem,
                                                   Fenség.</p>
         </sp>
         <sp who="#valeria">
@@ -1450,16 +1484,19 @@
                                                   beszéltem rólad. Most, hogy közelebbről is
                                                   megismertelek, kétszeresen örülök, hogy szószólód
                                                   voltam... Élj boldogul, Genesius... Ég
-                                                  veled!<stage>(Kezét nyújtja csókra.)</stage></p>
+                                                  veled!<stage>(Kezét nyújtja csókra.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Fenség!<stage>(Valeria és dajka
-                                                  el.)</stage></p>
+                                                  el.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Mindjárt bejön a középajtón, melyen át
+          <p>
+            <stage>(Mindjárt bejön a középajtón, melyen át
                                                   Valeria és a dajka távoztak, Crispussal együtt,
                                                   aki Aemilius beszédje alatt helyökre teszi a
                                                   székeket.)</stage>Uram, ha talán nem tudnád, - Ő
@@ -1477,7 +1514,8 @@
                                                   belép Diocletian. Előrejön, lassú léptekkel,
                                                   Genesius ezalatt meghajolva áll. A császár helyet
                                                   foglal, de szemét egy pillanatra sem vette le
-                                                  Genesiusról.)</stage></p>
+                                                  Genesiusról.)</stage>
+          </p>
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
@@ -1492,7 +1530,8 @@
           <p>Azt mondják rólad, hogy ember vagy. Nagy szó.
                                                   Az udvarnál sok a hivatalnok, - kevés a férfi,
                                                   ember - alig van...<stage>(Fölkel és lejön a
-                                                  trónról.)</stage></p>
+                                                  trónról.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -1505,7 +1544,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Nagy zavarban.)</stage>Szent
+          <p>
+            <stage>(Nagy zavarban.)</stage>Szent
                                                   Felség!</p>
         </sp>
         <sp who="#diocletian">
@@ -1637,7 +1677,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Szünet után.)</stage>Szent Felség,
+          <p>
+            <stage>(Szünet után.)</stage>Szent Felség,
                                                   nincs nekem ahhoz való erőm és tudásom!</p>
         </sp>
         <sp who="#diocletian">
@@ -1711,7 +1752,8 @@
                                                   az előadás percéig higyje mindenki azt, hogy a
                                                   Kitagadott fiút fogjátok előadni... Isten veled,
                                                   Genesius... Jó munkát!<stage>(Int neki és
-                                                  elindul.)</stage></p>
+                                                  elindul.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -1719,7 +1761,8 @@
                                                   amíg Diocletian középen kiment. Aztán lassankint
                                                   kiegyenesedik; nagyot sóhajt és menni készül a
                                                   jobb ajtón keresztül; Aemilius és Crispus belépnek
-                                                  középen.)</stage></p>
+                                                  középen.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
@@ -1747,7 +1790,8 @@
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Álmélkodva.)</stage>Az nem lehet!
+          <p>
+            <stage>(Álmélkodva.)</stage>Az nem lehet!
                                                   Gondolkozzál! Kérj valamit.</p>
         </sp>
         <sp who="#genesius">
@@ -1791,11 +1835,13 @@
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Köszönöm, uram. Hát majd máskor. Ég
-                                                  veled!<stage>(Indul.)</stage></p>
+                                                  veled!<stage>(Indul.)</stage>
+          </p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Előlép.)</stage>Megállj, uram!</p>
+          <p>
+            <stage>(Előlép.)</stage>Megállj, uram!</p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
@@ -1855,7 +1901,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p>Clarissime!<stage>(El jobbra.)</stage></p>
+          <p>Clarissime!<stage>(El jobbra.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
@@ -1885,7 +1932,8 @@
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
           <p>Mindörökké ámen.<stage>(Elmegy
-                                                  jobbra.)</stage></p>
+                                                  jobbra.)</stage>
+          </p>
         </sp>
       </div>
       <div type="act">
@@ -1947,7 +1995,8 @@
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Melegen.)</stage>Van egy ország, ahol a
+          <p>
+            <stage>(Melegen.)</stage>Van egy ország, ahol a
                                                   felnőttek is gyermekek... De milyen ország az, hol
                                                   a gyermekek is felnőttek?</p>
         </sp>
@@ -1964,15 +2013,18 @@
         </sp>
         <sp who="#mikion">
           <speaker>MIKION.</speaker>
-          <p><stage>(Fölényesen kacag.)</stage>Te hiszel
+          <p>
+            <stage>(Fölényesen kacag.)</stage>Te hiszel
                                                   Istenben? Öregszel, Crispus... Hol vannak már az
                                                   istenek?!<stage>(Alexander Lysimachus jön
-                                                  jobbról.)</stage></p>
+                                                  jobbról.)</stage>
+          </p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
           <p>Üdvözlégy, uram!<stage>(Int az inasnak, aki
-                                                  jobbra elmegy.)</stage></p>
+                                                  jobbra elmegy.)</stage>
+          </p>
         </sp>
         <sp who="#alexander">
           <speaker>ALEXANDER.</speaker>
@@ -1993,7 +2045,8 @@
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Kis szünet után.)</stage>Te vagy az
+          <p>
+            <stage>(Kis szünet után.)</stage>Te vagy az
                                                   orvos, uram. Te mondd meg, hogy mi a baja!</p>
         </sp>
         <sp who="#alexander">
@@ -2047,7 +2100,8 @@
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Szeliden.)</stage>S hitvestársul venné
+          <p>
+            <stage>(Szeliden.)</stage>S hitvestársul venné
                                                   Helénát?</p>
         </sp>
         <sp who="#alexander">
@@ -2085,13 +2139,15 @@
                                                   ha eszembe jutna, - akkor sem tenném... Három fiam
                                                   van... Az asszony esendő, a szerelem mulandó, de a
                                                   gyerek - a gyerek az a jövendő - a szentséges
-                                                  jövendő -<stage>(Genesius bejön.)</stage></p>
+                                                  jövendő -<stage>(Genesius bejön.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Alexander, üdvözlégy... Ülj ide
                                                   mellém...<stage>(Le akar ülni a
-                                                  heverőre.)</stage></p>
+                                                  heverőre.)</stage>
+          </p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
@@ -2103,9 +2159,11 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Fáradt mosollyal.)</stage>Úgy bánik
+          <p>
+            <stage>(Fáradt mosollyal.)</stage>Úgy bánik
                                                   velem, mint egy beteg gyerekkel...<stage>(Leülnek
-                                                  az asztal mellé.)</stage></p>
+                                                  az asztal mellé.)</stage>
+          </p>
         </sp>
         <sp who="#alexander">
           <speaker>ALEXANDER.</speaker>
@@ -2138,7 +2196,8 @@
                                                   együtt az életet - és elmenni szépen, kibékülve
                                                   mindennel!... Nem eszel egy almát, azt szoktad
                                                   mondani, hogy nagyon egészséges?<stage>(Fölvág egy
-                                                  almát.)</stage></p>
+                                                  almát.)</stage>
+          </p>
         </sp>
         <sp who="#alexander">
           <speaker>ALEXANDER.</speaker>
@@ -2194,7 +2253,8 @@
           <speaker>ALEXANDER.</speaker>
           <p>Ne légy makacs, ha majd ő békülni
                                                   akar!<stage>(El jobbra; Genesius visszaül az
-                                                  asztalhoz; szünet.)</stage></p>
+                                                  asztalhoz; szünet.)</stage>
+          </p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
@@ -2203,7 +2263,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Eltolja.)</stage>Nem!</p>
+          <p>
+            <stage>(Eltolja.)</stage>Nem!</p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
@@ -2264,12 +2325,14 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Élesen ránéz.)</stage>Nem szeretsz te
+          <p>
+            <stage>(Élesen ránéz.)</stage>Nem szeretsz te
                                                   engem, - csak sajnálsz!</p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Melegen.)</stage>Ne mondd ezt,
+          <p>
+            <stage>(Melegen.)</stage>Ne mondd ezt,
                                                   uram!</p>
         </sp>
         <sp who="#genesius">
@@ -2286,7 +2349,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Leinti.)</stage>Ne szólj! Ujjaid néha
+          <p>
+            <stage>(Leinti.)</stage>Ne szólj! Ujjaid néha
                                                   úgy forgatták az íróvesszőt, mintha azt akartad
                                                   volna mondani, milyen alacsony, silány munka, amit
                                                   végzek... Néha megvonaglott az arcod, mintha fel
@@ -2301,7 +2365,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Dühösen.)</stage>Ne hazudj!</p>
+          <p>
+            <stage>(Dühösen.)</stage>Ne hazudj!</p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
@@ -2362,7 +2427,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Elhülve.)</stage>A császárnak! Én - a
+          <p>
+            <stage>(Elhülve.)</stage>A császárnak! Én - a
                                                   komédiás?!</p>
         </sp>
         <sp who="#crispus">
@@ -2372,7 +2438,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Hitetlenül.)</stage>Olyan?! Miket
+          <p>
+            <stage>(Hitetlenül.)</stage>Olyan?! Miket
                                                   beszélsz?</p>
         </sp>
         <sp who="#crispus">
@@ -2395,9 +2462,11 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Fölkiált.)</stage>Crispus!<stage>(Néz
+          <p>
+            <stage>(Fölkiált.)</stage>Crispus!<stage>(Néz
                                                   rá hosszan, csudálkozva és valami nagy, szinte
-                                                  ijedező bámulat kél benne.)</stage></p>
+                                                  ijedező bámulat kél benne.)</stage>
+          </p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
@@ -2412,7 +2481,8 @@
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Lassan.)</stage>Tudod-e miért?</p>
+          <p>
+            <stage>(Lassan.)</stage>Tudod-e miért?</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -2462,16 +2532,19 @@
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Mi az? Ki háborgat?<stage>(Szolga belép
-                                                  jobbról.)</stage></p>
+                                                  jobbról.)</stage>
+          </p>
         </sp>
         <sp who="#szolga">
           <speaker>SZOLGA.</speaker>
-          <p><stage>(Ijedten.)</stage>Kegyelmes uram, ne
+          <p>
+            <stage>(Ijedten.)</stage>Kegyelmes uram, ne
                                                   haragudjál... De itt van -</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Türelmetlenül.)</stage>Ki van itt?</p>
+          <p>
+            <stage>(Türelmetlenül.)</stage>Ki van itt?</p>
         </sp>
         <sp who="#szolga">
           <speaker>SZOLGA.</speaker>
@@ -2490,13 +2563,16 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(A jobb ajtó felé
+          <p>
+            <stage>(A jobb ajtó felé
                                                   rohanva.)</stage>Heléna! Heléna!<stage>(Át akarja
-                                                  ölelni Helénát, aki belép.)</stage></p>
+                                                  ölelni Helénát, aki belép.)</stage>
+          </p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Eltolja magától.)</stage>Nem! Nem,
+          <p>
+            <stage>(Eltolja magától.)</stage>Nem! Nem,
                                                   Genesius... Mire való ez a játék! Két hétig olyan
                                                   hideg voltál, a színpadon sem szóltál hozzám, a
                                                   lakásomra nem jöttél. - Mire való ez?... Eljöttem
@@ -2507,7 +2583,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Röstelkedve.)</stage>Heléna - hogy
+          <p>
+            <stage>(Röstelkedve.)</stage>Heléna - hogy
                                                   mondhatod ezt - én voltam nálad... Egy héttel
                                                   ezelőtt - este, ott álltam a küszöböd előtt és te
                                                   ezt nagyon jól tudod... Színes lámpások égtek ott
@@ -2523,7 +2600,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Megragadja a kezét.)</stage>Ki volt
+          <p>
+            <stage>(Megragadja a kezét.)</stage>Ki volt
                                                   nálad akkor este?</p>
         </sp>
         <sp who="#helena">
@@ -2590,12 +2668,14 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Meginog.)</stage>Heléna!</p>
+          <p>
+            <stage>(Meginog.)</stage>Heléna!</p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
           <p>Szeretlek!<stage>(Az ajkát
-                                                  nyújtja.)</stage></p>
+                                                  nyújtja.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -2605,7 +2685,8 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p>Szép?<stage>(Odatartja a fület.)</stage></p>
+          <p>Szép?<stage>(Odatartja a fület.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -2637,7 +2718,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Ellöki.)</stage>Eredj! Utállak! Menj a
+          <p>
+            <stage>(Ellöki.)</stage>Eredj! Utállak! Menj a
                                                   szememből!</p>
         </sp>
         <sp who="#helena">
@@ -2691,7 +2773,8 @@
                                                   Minden egyéb szóbeszéd - pletyka - rágalom - mert
                                                   szép vagyok és irígyelnek tőled - és irígyelnek
                                                   engem, hogy te az enyém vagy - nem
-                                                  érted?!<stage>(Hozzásímul.)</stage></p>
+                                                  érted?!<stage>(Hozzásímul.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -2723,7 +2806,8 @@
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
           <p>Nem hiszel nekem?! No jó! Hé, rabszolga,
-                                                  rabszolga!<stage>(Crispus belép.)</stage></p>
+                                                  rabszolga!<stage>(Crispus belép.)</stage>
+          </p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
@@ -2731,18 +2815,21 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Crispus láttára olyan rémület fogja el,
+          <p>
+            <stage>(Crispus láttára olyan rémület fogja el,
                                                   hogy nem bír megszólalni; végre erőt vesz
                                                   magán.)</stage>Ki ez az ember?</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Csodálkozva.)</stage>Crispus, a
+          <p>
+            <stage>(Csodálkozva.)</stage>Crispus, a
                                                   rabszolga.</p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉN.</speaker>
-          <p><stage>(Hitetlenül.)</stage>Crispus!...<stage>(Közelebb
+          <p>
+            <stage>(Hitetlenül.)</stage>Crispus!...<stage>(Közelebb
                                                   lép Crispushoz.)</stage>Te mondd meg, hogy ki
                                                   vagy, - de ne hazudj!</p>
         </sp>
@@ -2779,7 +2866,8 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Nekiront Crispusnak.)</stage>Hazug
+          <p>
+            <stage>(Nekiront Crispusnak.)</stage>Hazug
                                                   vagy, csaló, szemfényvesztő! Más ember képét
                                                   hordozod. Más ember hangjával szólasz...
                                                   Gyűlöllek! Szeretnélek - arculütni!</p>
@@ -2790,15 +2878,18 @@
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Odatartja arcát.)</stage>Üss meg!</p>
+          <p>
+            <stage>(Odatartja arcát.)</stage>Üss meg!</p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Bizonytalanul.)</stage>Nem is tudom,
+          <p>
+            <stage>(Bizonytalanul.)</stage>Nem is tudom,
                                                   hogy miért nem ütlek arcul!... Mit is akartam?...
                                                   Már nem kell... Tőled semmi sem kell... Eredj a
                                                   szememből. Nem tudok rád nézni.<stage>(Crispus
-                                                  lassan kimegy balra.)</stage></p>
+                                                  lassan kimegy balra.)</stage>
+          </p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
@@ -2885,7 +2976,8 @@
                                                   szememnek, hogy ez a gyűrött rabszolga volt a
                                                   fényes, antiochiai helytartó! Bolondság! Ég veled,
                                                   Genesius. Szeretlek!<stage>(Kimegy
-                                                  jobbra.)</stage></p>
+                                                  jobbra.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -2895,32 +2987,38 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA</speaker>
-          <p><stage>(Ezalatt visszajött jobbról, megáll és
+          <p>
+            <stage>(Ezalatt visszajött jobbról, megáll és
                                                   nézi Genesiust, aki nem veszi őt
                                                   észre.)</stage>Genesius!... Itt felejtettem a
                                                   gyöngyöt.</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Tétován nyujtja neki.)</stage>Itt van
+          <p>
+            <stage>(Tétován nyujtja neki.)</stage>Itt van
                                                   Heléna!</p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Szerelmesen néz rá.)</stage>Nem.
+          <p>
+            <stage>(Szerelmesen néz rá.)</stage>Nem.
                                                   Próbáld ki, ha nem hiszel nekem! Majd elhozod, ha
                                                   jössz hozzám... Várlak!<stage>(Elmegy
-                                                  jobbra.)</stage></p>
+                                                  jobbra.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Utána néz hosszan; azután lassú
+          <p>
+            <stage>(Utána néz hosszan; azután lassú
                                                   léptekkel a baloldali asztalkához megy; leteszi a
                                                   gyöngyöt.)</stage>Crispus! Crispus!</p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Belép balról.)</stage>Parancsolj,
+          <p>
+            <stage>(Belép balról.)</stage>Parancsolj,
                                                   uram!</p>
         </sp>
         <sp who="#genesius">
@@ -2929,7 +3027,8 @@
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Szabadkozva.)</stage>Oh, uram!</p>
+          <p>
+            <stage>(Szabadkozva.)</stage>Oh, uram!</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -2972,12 +3071,14 @@
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Fölkel; az alakja megnő.)</stage>Uram,
+          <p>
+            <stage>(Fölkel; az alakja megnő.)</stage>Uram,
                                                   én keresztény vagyok!</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Szólni akar, de torkán akad a szó;
+          <p>
+            <stage>(Szólni akar, de torkán akad a szó;
                                                   szünet után magához térve.)</stage>Én apádat
                                                   kérdeztem, családodat és nemzetségedet, hazádat és
                                                   hivatalodat.</p>
@@ -3025,11 +3126,13 @@
                                                   elfelejtem!<stage>(Szolga bejön és a pohár ecetet
                                                   leteszi az asztalra.)</stage>Ez az élet-halál
                                                   próba!<stage>(Bele akarja hullatni a gyöngyöt a
-                                                  pohárba.)</stage></p>
+                                                  pohárba.)</stage>
+          </p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Megragadja a
+          <p>
+            <stage>(Megragadja a
                                                   kezét.)</stage>Megállj!</p>
         </sp>
         <sp who="#genesius">
@@ -3070,7 +3173,8 @@
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Erővel.)</stage>Minden lélek néki
+          <p>
+            <stage>(Erővel.)</stage>Minden lélek néki
                                                   születik, a Krisztusnak, csakhogy nem adják át
                                                   néki, elzárják tőle. És a szegény lélek süketen és
                                                   vakon bolyong világ pusztájában, amíg a Jó Pásztor
@@ -3101,7 +3205,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Nagy megdöbbenéssel.)</stage>Te voltál
+          <p>
+            <stage>(Nagy megdöbbenéssel.)</stage>Te voltál
                                                   - a gazdag, - a hatalmas, - az irigyelt? -</p>
         </sp>
         <sp who="#crispus">
@@ -3122,7 +3227,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Leroskad a heverőre.)</stage>Kit?
+          <p>
+            <stage>(Leroskad a heverőre.)</stage>Kit?
                                                   Helénát?! Helénát!</p>
         </sp>
         <sp who="#crispus">
@@ -3168,12 +3274,14 @@
         </sp>
         <sp who="#szolga">
           <speaker>SZOLGA.</speaker>
-          <p><stage>(Belép.)</stage>Uram, két lefátyolozott
+          <p>
+            <stage>(Belép.)</stage>Uram, két lefátyolozott
                                                   hölgy óhajt veled szólani.</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Türelmetlenül.)</stage>... Mit
+          <p>
+            <stage>(Türelmetlenül.)</stage>... Mit
                                                   akarnak?</p>
         </sp>
         <sp who="#szolga">
@@ -3187,7 +3295,8 @@
           <speaker>GENESIUS.</speaker>
           <p>Az udvartól! De hiszen az lehetetlen!...
                                                   Bocsásd be! Eredj, Crispus...<stage>(Crispus és
-                                                  szolga elmennek.)</stage></p>
+                                                  szolga elmennek.)</stage>
+          </p>
         </sp>
         <p>
           <stage>(Valeria és a keleti asszony belépnek.
@@ -3195,10 +3304,12 @@
         </p>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Alig tud magához térni
+          <p>
+            <stage>(Alig tud magához térni
                                                   meglepetéséből.)</stage>Fenséges
                                                   hercegnő!<stage>(Mélyen meghajol, aztán egy széket
-                                                  tol Valeria elé.)</stage></p>
+                                                  tol Valeria elé.)</stage>
+          </p>
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
@@ -3261,7 +3372,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Reszketve.)</stage>Fenséges hercegnő, a
+          <p>
+            <stage>(Reszketve.)</stage>Fenséges hercegnő, a
                                                   keresztények nem gyöngék! Erősek! Erősebbek
                                                   nálamnál! Vannak kemény igéik, amelyekkel
                                                   összezúzzák a pogány lelkeket és vannak édes
@@ -3285,7 +3397,8 @@
                                                   amelyben először láttalak a színpadon, a percet,
                                                   amikor az a végzetes kívánság eszembe jutott és
                                                   mindent - mindent - mindent!<stage>(Elfakad
-                                                  zokogva.)</stage></p>
+                                                  zokogva.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -3324,7 +3437,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Határozottan.)</stage>Úgy van, fenséges
+          <p>
+            <stage>(Határozottan.)</stage>Úgy van, fenséges
                                                   hercegnő, nekem a császár akarata törvény!</p>
         </sp>
         <sp who="#valeria">
@@ -3339,7 +3453,8 @@
                                                   - a császár gyémántjait akarod! Hiú vagy és
                                                   kapzsi! Komédiás, aki embernek adtad ki magadat.
                                                   És én lealáztam magamat tehozzád!
-                                                  Utállak!<stage>(El a dajkával.)</stage></p>
+                                                  Utállak!<stage>(El a dajkával.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -3349,7 +3464,8 @@
         </sp>
         <sp who="#">
           <speaker>EUSTHENIUS CLAUDIUS.</speaker>
-          <p><stage>(Belép.)</stage>Üdvözlégy, Genesius!</p>
+          <p>
+            <stage>(Belép.)</stage>Üdvözlégy, Genesius!</p>
         </sp>
         <sp who="#eusthenius">
           <speaker>GENESIUS.</speaker>
@@ -3370,7 +3486,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>EUSTHENIUS.</speaker>
-          <p><stage>(Rémülten.)</stage>Nincs készen a
+          <p>
+            <stage>(Rémülten.)</stage>Nincs készen a
                                                   darab?</p>
         </sp>
         <sp who="#eusthenius">
@@ -3379,7 +3496,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>EUSTHENIUS.</speaker>
-          <p><stage>(Megkönnyebülve.)</stage>Értem. A nagy
+          <p>
+            <stage>(Megkönnyebülve.)</stage>Értem. A nagy
                                                   írók mind túlzottan lelkiismeretesek és szerények.
                                                   Magam is forgatom az íróvesszőt és sokszor egy
                                                   mondat miatt egész éjszaka nem tudok aludni. Légy
@@ -3443,11 +3561,13 @@
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Ég veled!<stage>(Claudius Eusthenius
-                                                  el.)</stage></p>
+                                                  el.)</stage>
+          </p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Nagy szünet után.)</stage>Uram!</p>
+          <p>
+            <stage>(Nagy szünet után.)</stage>Uram!</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -3485,7 +3605,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Hirtelen.)</stage>Isten veled!</p>
+          <p>
+            <stage>(Hirtelen.)</stage>Isten veled!</p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
@@ -3497,7 +3618,8 @@
                                                   volna el, ha nem szeretne!... Megigértem, hogy
                                                   visszaviszem a gyöngyöt. Már úgyis késő... Mennem
                                                   kell!<stage>(Heléna
-                                                  belép.)</stage>Heléna!<stage>(Szünet.)</stage></p>
+                                                  belép.)</stage>Heléna!<stage>(Szünet.)</stage>
+          </p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
@@ -3525,7 +3647,8 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Szünet után.)</stage>De mégse jöttél.
+          <p>
+            <stage>(Szünet után.)</stage>De mégse jöttél.
                                                   Mire vártál?! Ő nem engedett! Visszatartott!</p>
         </sp>
         <sp who="#genesius">
@@ -3575,11 +3698,13 @@
                                                   Genesius!<stage>(Kitárja feléje karjait, Genesius
                                                   nem mozdul, Heléna karja lehanyatlik, fejét lassan
                                                   lehajtja s nehéz léptekkel elmegy a jobboldali
-                                                  ajtón.)</stage></p>
+                                                  ajtón.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Szünet után.)</stage>Elment?</p>
+          <p>
+            <stage>(Szünet után.)</stage>Elment?</p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
@@ -3587,7 +3712,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Nehezen lélegzik.)</stage>Rettentő a te
+          <p>
+            <stage>(Nehezen lélegzik.)</stage>Rettentő a te
                                                   szelidséged, iszonyú a te jóságod.</p>
         </sp>
         <sp who="#crispus">
@@ -3605,15 +3731,18 @@
                                                   Járjon át a szőllő tüzes harmatja, Dioniziosz
                                                   Bacchos te légy velem, te emelj, add nekem vissza
                                                   a szerelmi vágyat, hadd ölelhessek egy új
-                                                  Helénát!<stage>(Sírva fakad.)</stage></p>
+                                                  Helénát!<stage>(Sírva fakad.)</stage>
+          </p>
         </sp>
         <sp who="#crispus">
           <speaker>CRISPUS.</speaker>
-          <p><stage>(Odasiet hozzá.)</stage>Uram!</p>
+          <p>
+            <stage>(Odasiet hozzá.)</stage>Uram!</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Szünet után.)</stage>Te azt mondottad,
+          <p>
+            <stage>(Szünet után.)</stage>Te azt mondottad,
                                                   hogy mikor a palotád leégett, Crispus, a rabszolga
                                                   egész éjjel melletted virrasztott és beszélt.
                                                   Testvérem, ülj mellém és beszélj!</p>
@@ -3683,7 +3812,8 @@
         </sp>
         <sp who="#mikion">
           <speaker>MIKION.</speaker>
-          <p><stage>(Jön lelkendezve.)</stage>Orvost!
+          <p>
+            <stage>(Jön lelkendezve.)</stage>Orvost!
                                                   Orvost! Hol az udvari orvos?</p>
         </sp>
         <sp who="#crispus">
@@ -3718,7 +3848,8 @@
                                                   lelkére. Értesd meg vele, hogy ma nem lehet - nem
                                                   szabad lemondani... Alexander feltétlenül
                                                   helyreállítja - - én magam futok érte... Rettentő
-                                                  dolog!<stage>(Indul.)</stage></p>
+                                                  dolog!<stage>(Indul.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -3731,7 +3862,8 @@
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
-          <p><stage>(Megkönnyebbülve.)</stage>Hála
+          <p>
+            <stage>(Megkönnyebbülve.)</stage>Hála
                                                   Jupiternek. Hogy van, mester?</p>
         </sp>
         <sp who="#genesius">
@@ -3774,7 +3906,8 @@
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
-          <p><stage>(Ijedten.)</stage>De nem fog
+          <p>
+            <stage>(Ijedten.)</stage>De nem fog
                                                   összeroskadni? Úgyebár, nem fog összeroskadni?</p>
         </sp>
         <sp who="#genesius">
@@ -3796,7 +3929,8 @@
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Majd iparkodunk, - iparkodunk...<stage>(Kissé
-                                                  megszédül, Crispus támogatja.)</stage></p>
+                                                  megszédül, Crispus támogatja.)</stage>
+          </p>
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
@@ -3868,7 +4002,8 @@
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
-          <p><stage>(Elbámulva.)</stage>A Mester tréfál!</p>
+          <p>
+            <stage>(Elbámulva.)</stage>A Mester tréfál!</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -3877,7 +4012,8 @@
                                                   kis színpadon s aki most lejön a
                                                   lépcsőn.)</stage>Bocsánat, perfectissime -
                                                   Theodor!<stage>(Karonfogja s átmegy vele a szín
-                                                  másik oldalára.)</stage></p>
+                                                  másik oldalára.)</stage>
+          </p>
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
@@ -3890,7 +4026,8 @@
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
           <p>Hát persze. Mindjárt gondoltam.<stage>(Elmegy
-                                                  Crispusszal.)</stage></p>
+                                                  Crispusszal.)</stage>
+          </p>
         </sp>
         <sp who="#theodor">
           <speaker>THEODOR.</speaker>
@@ -3921,7 +4058,8 @@
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Hogy nincs - közöm - hozzá -<stage>(Maga elé
-                                                  néz.)</stage></p>
+                                                  néz.)</stage>
+          </p>
         </sp>
         <sp who="#theodor">
           <speaker>THEODOR.</speaker>
@@ -3952,7 +4090,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Szórakozottan.)</stage>Hogyne,
+          <p>
+            <stage>(Szórakozottan.)</stage>Hogyne,
                                                   hogyne!</p>
         </sp>
         <sp who="#sabina">
@@ -3971,11 +4110,13 @@
           <p>A kancsó is túlnehéz; a bor bizonyosan ki fog
                                                   ömleni...<stage>(Egymásra néznek jelentősen, mert
                                                   Genesius egyáltalán oda sem hallgat
-                                                  rájuk.)</stage></p>
+                                                  rájuk.)</stage>
+          </p>
         </sp>
         <sp who="#livia">
           <speaker>LIVIA.</speaker>
-          <p><stage>(Bizalmasan.)</stage>Mester! Heléna azt
+          <p>
+            <stage>(Bizalmasan.)</stage>Mester! Heléna azt
                                                   mondta, hogy megver bennünket, ha az előadáson
                                                   igazi csókot adunk neked!</p>
         </sp>
@@ -4032,7 +4173,8 @@
         </sp>
         <sp who="#szinesz">
           <speaker>ELSŐ SZÍNÉSZ.</speaker>
-          <p><stage>(Női hangon.)</stage>Mi vagyunk a három
+          <p>
+            <stage>(Női hangon.)</stage>Mi vagyunk a három
                                                   ájtatos asszonyok. Én vagyok a Hit!</p>
         </sp>
         <sp who="#szinesz">
@@ -4042,13 +4184,16 @@
         </sp>
         <sp who="#szinesz">
           <speaker>HARMADIK SZINÉSZ.</speaker>
-          <p><stage>(Ugyanúgy.)</stage>Én vagyok a
+          <p>
+            <stage>(Ugyanúgy.)</stage>Én vagyok a
                                                   Szűzesség!<stage>(Mind a hárman
-                                                  vihognak.)</stage></p>
+                                                  vihognak.)</stage>
+          </p>
         </sp>
         <sp who="#szinesz">
           <speaker>ELSŐ SZÍNÉSZ.</speaker>
-          <p><stage>(Dörgedelmes férfihangon.)</stage>Jó
+          <p>
+            <stage>(Dörgedelmes férfihangon.)</stage>Jó
                                                   maszk, mi? Olyan förtelmes pofák vagyunk, hogy aki
                                                   meglát bennünket, egész földi életére elirtózik a
                                                   keresztényektől.</p>
@@ -4062,7 +4207,8 @@
           <speaker>ELSŐ SZÍNÉSZ.</speaker>
           <p>Így ni!<stage>(Lefejti magáról a
                                                   vénasszonyruhát, leveszi parókáját s mint mulató
-                                                  korhely áll Genesius előtt.)</stage></p>
+                                                  korhely áll Genesius előtt.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -4098,11 +4244,13 @@
           <speaker>MIND.</speaker>
           <p>Éljen Genesius!<stage>(Egyszerre elhallgatnak,
                                                   mert Heléna megjelent és jön le a
-                                                  lépcsőn.)</stage></p>
+                                                  lépcsőn.)</stage>
+          </p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Keresztény asszonynak van öltözve;
+          <p>
+            <stage>(Keresztény asszonynak van öltözve;
                                                   megáll Genesius előtt.)</stage>Elég szigorú, elég
                                                   illedelmes, elég keresztény a ruhám?</p>
         </sp>
@@ -4137,7 +4285,8 @@
           <speaker>HELÉNA.</speaker>
           <p>Miért bántasz?<stage>(A többiek lassan
                                                   elhúzódnak s csak a hátsó színpadon
-                                                  láthatók.)</stage></p>
+                                                  láthatók.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -4147,7 +4296,8 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Egészen közel megy
+          <p>
+            <stage>(Egészen közel megy
                                                   hozzá.)</stage>Gyáva! Gyáva! Gyáva!</p>
         </sp>
         <sp who="#genesius">
@@ -4235,7 +4385,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Ökölbe szorított
+          <p>
+            <stage>(Ökölbe szorított
                                                   kézzel.)</stage>Eredj!</p>
         </sp>
         <sp who="#helena">
@@ -4245,7 +4396,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Csöndesen.)</stage>Őt szeretem.</p>
+          <p>
+            <stage>(Csöndesen.)</stage>Őt szeretem.</p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
@@ -4253,8 +4405,10 @@
         </sp>
         <sp who="#szinesz">
           <speaker>ELSŐ SZÍNÉSZ.</speaker>
-          <p><stage>(Fenn a színpadon.)</stage>Mindjárt
-                                                  kezdődik a játék!<stage>(El.)</stage></p>
+          <p>
+            <stage>(Fenn a színpadon.)</stage>Mindjárt
+                                                  kezdődik a játék!<stage>(El.)</stage>
+          </p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
@@ -4264,7 +4418,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Ingadozva.)</stage>Menjünk, Heléna,
+          <p>
+            <stage>(Ingadozva.)</stage>Menjünk, Heléna,
                                                   kezdődik a játék.</p>
         </sp>
         <sp who="#helena">
@@ -4297,7 +4452,8 @@
                                                   most siessünk!<stage>(El mind a ketten. Claudius
                                                   Eusthenius jön négy-öt kamarással. Testőrök és
                                                   szolgák is jönnek. Aemilius Victor lihegve siet be
-                                                  jobbról.)</stage></p>
+                                                  jobbról.)</stage>
+          </p>
         </sp>
         <sp who="#eusthenius">
           <speaker>CLAUDIUS EUSTHENIUS.</speaker>
@@ -4310,7 +4466,8 @@
         </sp>
         <sp who="#eusthenius">
           <speaker>CLAUDIUS EUSTHENIUS.</speaker>
-          <p><stage>(Mosolyogva.)</stage>Ne mondja!</p>
+          <p>
+            <stage>(Mosolyogva.)</stage>Ne mondja!</p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
@@ -4361,7 +4518,8 @@
                                                   dolgom!<stage>(Fölsiet a színpadra, ahol
                                                   rabszolgák még néhány szőnyeget terítenek le, az
                                                   Első színész útbaigazítása mellett. Azután
-                                                  eltünik.)</stage></p>
+                                                  eltünik.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
@@ -4380,17 +4538,21 @@
                                                   erőnk.<stage>(Kürtszó. Nagy mozgás. Jönnek
                                                   Diocletian, Galerius, Alexander, Eusthenius, urak,
                                                   hölgyek, kamarások, testőrök. Mind hátul
-                                                  maradnak.)</stage></p>
+                                                  maradnak.)</stage>
+          </p>
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
-          <p><stage>(Aki utoljára jött be.)</stage>Mi az?
+          <p>
+            <stage>(Aki utoljára jött be.)</stage>Mi az?
                                                   Nem látom a hercegnőt? Hol késik?<stage>(Bosszúsan
-                                                  jön előre.)</stage></p>
+                                                  jön előre.)</stage>
+          </p>
         </sp>
         <sp who="#dajka">
           <speaker>DAJKA.</speaker>
-          <p><stage>(Előlép.)</stage>A hercegnő nem jól érzi
+          <p>
+            <stage>(Előlép.)</stage>A hercegnő nem jól érzi
                                                   magát. Bocsánatot kér Szent Felségedtől, de nem
                                                   lehet jelen az előadáson.</p>
         </sp>
@@ -4421,7 +4583,8 @@
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
           <p>Majd meglátjuk mindjárt.<stage>(Valeria
-                                                  megjelenik.)</stage></p>
+                                                  megjelenik.)</stage>
+          </p>
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
@@ -4757,7 +4920,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Nyögve.)</stage>Óh Claudia,
+          <p>
+            <stage>(Nyögve.)</stage>Óh Claudia,
                                                   Claudia!</p>
         </sp>
         <sp who="#helena">
@@ -4850,32 +5014,39 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Már nagyon habozik, de még mindig a
+          <p>
+            <stage>(Már nagyon habozik, de még mindig a
                                                   szöveget mondja.)</stage>A hitem - szilárd és -
-                                                  erős!<stage>(Megrázkódik.)</stage></p>
+                                                  erős!<stage>(Megrázkódik.)</stage>
+          </p>
         </sp>
         <sp who="#szinesz">
           <speaker>ELSŐ PAP.</speaker>
-          <p><stage>(Kissé groteszkül.)</stage>Akkor én
+          <p>
+            <stage>(Kissé groteszkül.)</stage>Akkor én
                                                   téged megkeresztellek az Atyának és Fiúnak és
                                                   Szent Lélek Istennek nevében -<stage>(Leönti a
-                                                  vízzel.)</stage></p>
+                                                  vízzel.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Meggörnyed, aztán fölemelkedik s mintha
+          <p>
+            <stage>(Meggörnyed, aztán fölemelkedik s mintha
                                                   látomása volna, önkénytelenül kiterjeszti karjait;
                                                   amit most lát és hall, nem tartozik a darabhoz,
                                                   amelyet játszik.)</stage>Uram! Uram!</p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Genesiushoz.)</stage>Mi ez?! A végszót!
+          <p>
+            <stage>(Genesiushoz.)</stage>Mi ez?! A végszót!
                                                   Mondd a végszót!</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Alig eszmélve.)</stage>A végszót!</p>
+          <p>
+            <stage>(Alig eszmélve.)</stage>A végszót!</p>
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
@@ -4883,12 +5054,14 @@
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
-          <p><stage>(A dajkához.)</stage>Mintha látna
+          <p>
+            <stage>(A dajkához.)</stage>Mintha látna
                                                   valamit!</p>
         </sp>
         <sp who="#szinesz">
           <speaker>1. SZÍNÉSZ.</speaker>
-          <p><stage>(Genesiushoz.)</stage>Beszélj és borítsd
+          <p>
+            <stage>(Genesiushoz.)</stage>Beszélj és borítsd
                                                   fel a víztartót!</p>
         </sp>
         <sp who="#genesius">
@@ -4897,7 +5070,8 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Súgva.)</stage>Azt kell mondanod, hogy
+          <p>
+            <stage>(Súgva.)</stage>Azt kell mondanod, hogy
                                                   Claudia, vége a komédiának!</p>
         </sp>
         <sp who="#genesius">
@@ -4920,7 +5094,8 @@
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
           <p>Genesius, térj magadhoz!<stage>(Színészek mind
-                                                  körülveszik.)</stage></p>
+                                                  körülveszik.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -4929,16 +5104,20 @@
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
-          <p><stage>(Felzokogva.)</stage>Anyám! Édes
-                                                  anyám!<stage>(Dajka támogatja.)</stage></p>
+          <p>
+            <stage>(Felzokogva.)</stage>Anyám! Édes
+                                                  anyám!<stage>(Dajka támogatja.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Kirántja a thyrsusbotot a bacchansnő
+          <p>
+            <stage>(Kirántja a thyrsusbotot a bacchansnő
                                                   kezéből.)</stage>Mit akartok?! Ez élőfa? Hahaha! A
                                                   bűn vesszeje, a kéj ostora - nem életfakasztó -
                                                   életrothasztó!<stage>(Összetöri a
-                                                  botot.)</stage></p>
+                                                  botot.)</stage>
+          </p>
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
@@ -4951,7 +5130,8 @@
         <sp who="#galerius">
           <speaker>GALERIUS.</speaker>
           <p>Le a színpadról!<stage>(Mind
-                                                  lerohannak.)</stage></p>
+                                                  lerohannak.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -4983,23 +5163,27 @@
           <speaker>ALEXANDER.</speaker>
           <p>Genesius, az ég szerelmére térj
                                                   magadhoz!<stage>(Helénával együtt megfogja
-                                                  Genesiust.)</stage></p>
+                                                  Genesiust.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Kitépi magát.)</stage>Dicső caesar, én
+          <p>
+            <stage>(Kitépi magát.)</stage>Dicső caesar, én
                                                   a szerepemet mondom! Minden betüjét a Krisztus
                                                   írta szívembe, - az én szerzőm, az én súgóm, az én
                                                   igazítóm. Azt mondod, silány komédiás vagyok?! Nem
                                                   vagyok az! Keresztény
-                                                  vagyok!<stage>(Térdrehull.)</stage></p>
+                                                  vagyok!<stage>(Térdrehull.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
           <p>Testvérek! Testvérek! Csoda! Csoda! Krisztus
                                                   kicserélte a lelkét! Csodát tett előttünk -
                                                   értünk! Fennszóval dicsérjük az Urat, az egy igaz
-                                                  Istent!<stage>(Leborulnak.)</stage></p>
+                                                  Istent!<stage>(Leborulnak.)</stage>
+          </p>
         </sp>
         <sp who="#eusthenius">
           <speaker>CLAUDIUS EUSTHENIUS.</speaker>
@@ -5013,7 +5197,8 @@
           <speaker>GALERIUS.</speaker>
           <p>Szúrjátok le a gaz lázadókat! Kard élére
                                                   valamennyit!<stage>(Maga is Genesius felé
-                                                  rohan.)</stage></p>
+                                                  rohan.)</stage>
+          </p>
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
@@ -5022,7 +5207,8 @@
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
-          <p><stage>(Közbelép.)</stage>Megálljatok! Az ajtók
+          <p>
+            <stage>(Közbelép.)</stage>Megálljatok! Az ajtók
                                                   zárva maradnak s innen nem mozdulhat ki senki!
                                                   Senki! Ezt a szegény, beteg őrjöngőt a te gondodra
                                                   bizom Alexander! Te felelsz érte a fejeddel!</p>
@@ -5172,11 +5358,13 @@
           <speaker>EUSTHENIUS.</speaker>
           <p>Már odakünn várakozik, Szent
                                                   Felség.<stage>(Kiszól és jobbról belép Aemilius
-                                                  Victor.)</stage></p>
+                                                  Victor.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
-          <p><stage>(Görnyedezve, mint egy
+          <p>
+            <stage>(Görnyedezve, mint egy
                                                   féreg.)</stage>Szent Felség!</p>
         </sp>
         <sp who="#diocletian">
@@ -5241,7 +5429,8 @@
           <p>Kerestetni fogjuk Nikomédiában... Ez a te
                                                   dolgod, Aemilius Victor... És ez a te utad az én
                                                   bocsánatomhoz!<stage>(Kezét nyújtja
-                                                  csókra.)</stage></p>
+                                                  csókra.)</stage>
+          </p>
         </sp>
         <sp who="#aemilius">
           <speaker>AEMILIUS VICTOR.</speaker>
@@ -5250,7 +5439,8 @@
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
-          <p><stage>(Egy intéssel elbocsátja Aemiliust, aki
+          <p>
+            <stage>(Egy intéssel elbocsátja Aemiliust, aki
                                                   jobbra távozik.)</stage>Mit csinál Genesius?</p>
         </sp>
         <sp who="#alexander">
@@ -5276,7 +5466,8 @@
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
           <p>Igenis, Szent Felség!<stage>(Elmegy és rögtön
-                                                  visszajön.)</stage></p>
+                                                  visszajön.)</stage>
+          </p>
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
@@ -5308,7 +5499,8 @@
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
-          <p><stage>(Középről jön sietve.)</stage>Szent
+          <p>
+            <stage>(Középről jön sietve.)</stage>Szent
                                                   Felség! Atyám!</p>
         </sp>
         <sp who="#diocletian">
@@ -5335,7 +5527,8 @@
                                                   mi történt ma délután! Senki sem tud semmit.
                                                   Genesiust kigyógyítjuk, - megmentjük,
                                                   ártalmatlanná tesszük. Jer, Valeria!<stage>(El
-                                                  Valeriával középen.)</stage></p>
+                                                  Valeriával középen.)</stage>
+          </p>
         </sp>
         <sp who="#testor">
           <speaker>TESTŐR.</speaker>
@@ -5388,7 +5581,8 @@
         </sp>
         <sp who="#alexander">
           <speaker>ALEXANDER.</speaker>
-          <p><stage>(Rémülten.)</stage>Az a kifestett arcú
+          <p>
+            <stage>(Rémülten.)</stage>Az a kifestett arcú
                                                   komédiás keresztelt meg a színpadon?</p>
         </sp>
         <sp who="#genesius">
@@ -5444,12 +5638,14 @@
         </sp>
         <sp who="#alexander">
           <speaker>ALEXANDER.</speaker>
-          <p><stage>(Szünet után.)</stage>Genesius, sokkal
+          <p>
+            <stage>(Szünet után.)</stage>Genesius, sokkal
                                                   súlyosabb a te bajod, mint gondoltam!</p>
         </sp>
         <sp who="#eusthenius">
           <speaker>CLAUDIUS EUSTHENIUS.</speaker>
-          <p><stage>(Belép.)</stage>Uram, Rufus testőrtiszt
+          <p>
+            <stage>(Belép.)</stage>Uram, Rufus testőrtiszt
                                                   félreértette a császári parancsot... Bocsáss meg
                                                   neki.</p>
         </sp>
@@ -5474,7 +5670,8 @@
           <speaker>GENESIUS.</speaker>
           <p>Köszönöm.<stage>(Elfordul és leül egy székre.
                                                   Eusthenius Alexanderrel el jobbra s ugyanonnan
-                                                  rögtön belép Heléna.)</stage></p>
+                                                  rögtön belép Heléna.)</stage>
+          </p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
@@ -5486,7 +5683,8 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Odaborul eléje és
+          <p>
+            <stage>(Odaborul eléje és
                                                   átöleli.)</stage>Szerelmem!</p>
         </sp>
         <sp who="#genesius">
@@ -5578,7 +5776,8 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Följajdul.)</stage>Genesius!</p>
+          <p>
+            <stage>(Följajdul.)</stage>Genesius!</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -5589,7 +5788,8 @@
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Fölsikolt.)</stage>Átkozott legyen a te
+          <p>
+            <stage>(Fölsikolt.)</stage>Átkozott legyen a te
                                                   istened! Életnek irígye, örömnek gyilkosa! Mi más
                                                   is lehetne az olyan isten, aki istállóban
                                                   született és aki a keresztfán halt meg!</p>
@@ -5609,11 +5809,13 @@
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Ez vagy! Ez vagy! Ez
-                                                  voltál!<stage>(Elfordul.)</stage></p>
+                                                  voltál!<stage>(Elfordul.)</stage>
+          </p>
         </sp>
         <sp who="#helena">
           <speaker>HELÉNA.</speaker>
-          <p><stage>(Reszketve.)</stage>Te nem tudod, mit
+          <p>
+            <stage>(Reszketve.)</stage>Te nem tudod, mit
                                                   cselekszel!... Az én karom a te menekülésed - a
                                                   csókom a megváltásod. - Te nem tudod, Genesius!...
                                                   de nálam nélkül...</p>
@@ -5621,11 +5823,13 @@
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Félre tőlem, utca rongya!<stage>(Heléna ijedten
-                                                  menekül.)</stage></p>
+                                                  menekül.)</stage>
+          </p>
         </sp>
         <sp who="#alexander">
           <speaker>ALEXANDER.</speaker>
-          <p><stage>(Besiet ugyanazon az ajtón, pár
+          <p>
+            <stage>(Besiet ugyanazon az ajtón, pár
                                                   pillanattal azután, hogy Heléna
                                                   kiment.)</stage>Genesius, mi történt itt?</p>
         </sp>
@@ -5639,7 +5843,8 @@
         </sp>
         <sp who="#alexander">
           <speaker>ALEXANDER.</speaker>
-          <p><stage>(Közel megy hozzá.)</stage>Én jót
+          <p>
+            <stage>(Közel megy hozzá.)</stage>Én jót
                                                   akartam veled! Azt mondod, hogy józan vagy! Hát
                                                   akkor hallgasd meg, mi a józan igazság. Tudod, mi
                                                   a keresztény szegénység, szenvedés, szűziesség?! A
@@ -5691,7 +5896,8 @@
           <p>Nincs dolgom veled!<stage>(Kimegy jobbra, a
                                                   szolgákkal, akik bebocsátják Eustheniust, Helénát,
                                                   Liíviát, Sabinát, Theodort, első, második,
-                                                  harmadik színészt.)</stage></p>
+                                                  harmadik színészt.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -5746,14 +5952,16 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Miután fájdalmasan végig nézett
+          <p>
+            <stage>(Miután fájdalmasan végig nézett
                                                   rajtuk.)</stage>Akkor hát Isten áldjon
                                                   benneteket!</p>
         </sp>
         <sp who="#theodor #szinesz #livia #sabina">
           <speaker>MIND.</speaker>
           <p>Ég veled!<stage>(Mind elmennek, utolsónak
-                                                  Heléna.)</stage></p>
+                                                  Heléna.)</stage>
+          </p>
         </sp>
         <sp who="#eusthenius">
           <speaker>EUSTHENIUS.</speaker>
@@ -5784,7 +5992,8 @@
                                                   Valeria.)</stage>Itt a fenséges császári hercegnő,
                                                   akinek egy kérése van hozzád. Tedd meg, a saját
                                                   jóvoltod érdekében!<stage>(A hercegnő előtt mélyen
-                                                  bókol s jobbra el.)</stage></p>
+                                                  bókol s jobbra el.)</stage>
+          </p>
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
@@ -5792,7 +6001,8 @@
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
-          <p><stage>(Álmélkodva.)</stage>Hercegnő!</p>
+          <p>
+            <stage>(Álmélkodva.)</stage>Hercegnő!</p>
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
@@ -5879,7 +6089,8 @@
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
-          <p><stage>(Rémülten.)</stage>Genesius! Ez
+          <p>
+            <stage>(Rémülten.)</stage>Genesius! Ez
                                                   rettentő!</p>
         </sp>
         <sp who="#genesius">
@@ -5908,7 +6119,8 @@
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
-          <p><stage>(Kis szünet után.)</stage>Még csak egyet
+          <p>
+            <stage>(Kis szünet után.)</stage>Még csak egyet
                                                   akarok mondani. Nem mondtam volna meg neked soha,
                                                   de ez a végső búcsú perce és nem lehet bűn, ha
                                                   bevallom. Szeretlek, Genesius. Szerettelek az első
@@ -5920,7 +6132,8 @@
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Hercegnő!.. Valeria! Valeria!<stage>(Átölelik
-                                                  egymást.)</stage></p>
+                                                  egymást.)</stage>
+          </p>
         </sp>
         <sp who="#valeria">
           <speaker>VALERIA.</speaker>
@@ -5929,7 +6142,8 @@
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Isten veled!<stage>(Valeria középen
-                                                  el.)</stage></p>
+                                                  el.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -6053,7 +6267,8 @@
         </sp>
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
-          <p><stage>(Szünet után.)</stage>Genesius, te
+          <p>
+            <stage>(Szünet után.)</stage>Genesius, te
                                                   színész vagy, - művész, aki nem tud az érzelmeinek
                                                   parancsolni, - s akinek indulatai nem tűrik a
                                                   fegyelmet... Én ezt is meg akarom érteni...
@@ -6207,7 +6422,8 @@
         <sp who="#diocletian">
           <speaker>DIOCLETIAN.</speaker>
           <p>Majd a kínpadon beszélhetsz
-                                                  tovább!<stage>(El.)</stage></p>
+                                                  tovább!<stage>(El.)</stage>
+          </p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
@@ -6242,13 +6458,15 @@
         </sp>
         <sp who="#poroszlo">
           <speaker>POROSZLÓ.</speaker>
-          <p><stage>(Belép.)</stage>Genesius, jer velem!</p>
+          <p>
+            <stage>(Belép.)</stage>Genesius, jer velem!</p>
         </sp>
         <sp who="#genesius">
           <speaker>GENESIUS.</speaker>
           <p>Készen vagyok!<stage>(Keresztet vet és kimegy
                                                   középen, ahol katonák állanak égő
-                                                  fáklyákkal.)</stage></p>
+                                                  fáklyákkal.)</stage>
+          </p>
         </sp>
         <p>
           <stage>- VÉGE. -</stage>

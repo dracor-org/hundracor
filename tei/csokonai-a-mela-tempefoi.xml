@@ -61,7 +61,7 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref> </orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000012</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -211,9 +213,7 @@
           <hi rend="underline">JÁDZÓ SZEMÉLYEK</hi>
         </head>
         <castItem>
-          <role>
-            <roleName>GRÓF FEGYVERNEKI</roleName>
-          </role>
+          <role><roleName>GRÓF FEGYVERNEKI</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>ROZÁLIA</roleName>, gróf Fegyvernekinek nagyobbik leánya</role>
@@ -255,17 +255,13 @@
           <role><roleName>SZUSZMIR</roleName>, egy bohó kalefaktora a grófnak</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>POSTALEGÉNY</roleName>
-          </role>
+          <role><roleName>POSTALEGÉNY</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>INASOK</roleName>a gróf szolgálatjábann</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>VÁROS HAJDÚI</roleName>
-          </role>
+          <role><roleName>VÁROS HAJDÚI</roleName></role>
         </castItem>
       </castList>
       <p>
@@ -305,7 +301,8 @@
                                 mellyek mikor elrepülnek, komor unalmat hagynak magok után. Az én
                                 szivem olly édességgel él, mellynek kostolására megújjul, s csak
                                 azért hagyja azt félbe, hogy hasznát vegye.<stage>Klavírjához megy, s
-                                    annak pengetése mellett ezt a nótát énekli:</stage></p>
+                                    annak pengetése mellett ezt a nótát énekli:</stage>
+            </p>
             <lg>
               <l>Aki nem vólt soha poéta,</l>
               <l>Méltán megúnhatja éltét a'.</l>
@@ -322,7 +319,8 @@
                                 én képzelődéseimet rakta ki szavaiban.<stage>Papirost, pennát szed elő.</stage>
                                 Nem állhatom meg, hogy az ő hirtelen lobbant tűzét ne bámuljam: nem
                                 állhatom még sokkal inkább meg, hogy az ő versével a magamét ne
-                                egyeztessem.<stage>Leül, ír.</stage></p>
+                                egyeztessem.<stage>Leül, ír.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -633,7 +631,8 @@
             <speaker>TEMPEFŐI</speaker>
             <p>Elveszem, kedves Kisasszonyom, és ezzel az ajándékkal térek
                                     vissza komor lakóhelyembe, édes megelégedéssel. Élj víg napokat,
-                                    emlékezz meg Tempefői név alatt nyomorgó kedvesedről.<stage>Elmegyen.</stage></p>
+                                    emlékezz meg Tempefői név alatt nyomorgó kedvesedről.<stage>Elmegyen.</stage>
+            </p>
           </sp>
           <sp who="#rozalia">
             <speaker>ROZÁLIA</speaker>
@@ -666,7 +665,8 @@
           <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
             <stage>Egy különös, de absurdus komplimenttel.</stage>
-            <p>- A!<stage>Csaknem a földet üti az orrával.</stage></p>
+            <p>- A!<stage>Csaknem a földet üti az orrával.</stage>
+            </p>
           </sp>
           <sp who="#rozalia">
             <speaker>ROZÁLIA</speaker>
@@ -695,7 +695,8 @@
                                     angyallá tészi. - Méltóztassa megtekinteni, melly finom
                                     Kupferstückek vagynak benne. Ez a többek között azt a
                                     komplimentet festi, amellyel én Nagyságodnak kivántam az imént
-                                    udvarolni.<stage>Mutatja a képet.</stage></p>
+                                    udvarolni.<stage>Mutatja a képet.</stage>
+            </p>
           </sp>
           <sp who="#rozalia">
             <speaker>ROZÁLIA</speaker>
@@ -831,7 +832,8 @@
             <p>Én ezt a bárót úgy gondolom, hogy nagyon későn érkezett szegény
                                     feje az észosztásban. Vagy ha helyes eszekre talált is az
                                     észmagazinba, azt más német méltóságoknak engedte által, ex
-                                    politia.-<stage>Felszóval:</stage></p>
+                                    politia.-<stage>Felszóval:</stage>
+            </p>
             <lg>
               <l>Szám s vég nélkűl való világok: ő mutat</l>
               <l>Végetlen üregbe mindezeknek utat.</l>
@@ -950,7 +952,8 @@
                                     világot. Hagyd el azokat a semmire kellő holmikat, és
                                     intéztessed úgy életedet, hogy sem a világnak, sem fényes
                                     familiádnak ne légyen oka a tégedet szégyenlésre. - Ha úgy
-                                    tetszik Nagysádnak, menjünk az én szobamba. -<stage>Elmennek.</stage></p>
+                                    tetszik Nagysádnak, menjünk az én szobamba. -<stage>Elmennek.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -960,7 +963,8 @@
           </p>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
-            <p>Tessék bémenni.<stage>Megnyitja az ajtót.</stage></p>
+            <p>Tessék bémenni.<stage>Megnyitja az ajtót.</stage>
+            </p>
           </sp>
           <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
@@ -971,7 +975,8 @@
           <sp who="#eva">
             <speaker>ÉVA</speaker>
             <stage>Egy ehhez a komplimenthez illő kapriollal.</stage>
-            <p>A Nagysád nemes érdemeinek martalékja. -<stage>Hajtogatják magokat.</stage></p>
+            <p>A Nagysád nemes érdemeinek martalékja. -<stage>Hajtogatják magokat.</stage>
+            </p>
           </sp>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
@@ -1159,7 +1164,8 @@
           <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
             <stage>Kiszakaszt két levelet a könyvből.</stage>
-            <p>De elébb megnézem, mi bolondság van rajta.<stage>Olvassa:</stage></p>
+            <p>De elébb megnézem, mi bolondság van rajta.<stage>Olvassa:</stage>
+            </p>
             <lg>
               <l>Megveti szállását Vénus, s nem akarja lakását</l>
               <l>Páphusi vára körűl: tengeri viznek örűl.</l>
@@ -1169,7 +1175,8 @@
                                     Meggyvizet, rózsavizet, levendúlavizet, de még tengerivizet nem
                                     láttam. Nagy mester lehet az, aki a sovány kukoricából ollyan
                                     vizet készithet, amellynek maga a delicatess madame Venus is
-                                    örülhet.<stage>Tovább olvassa:</stage></p>
+                                    örülhet.<stage>Tovább olvassa:</stage>
+            </p>
             <lg>
               <l>Elveti hintóját, tengernek ereszti hajóját,</l>
               <l>Kis fia véle hajós, nem lehet útja bajos.</l>
@@ -1178,7 +1185,8 @@
             </lg>
             <p>No már megint tengeri, az én gavalléri gusztusomnak már fáj az ínyje:
                             s többet el nem olvashatok belőle.<stage>A pipájára ráteszi s
-                                meggyújtja rólla.</stage></p>
+                                meggyújtja rólla.</stage>
+            </p>
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
@@ -1277,7 +1285,8 @@
           <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
             <stage>Komplimentírozva.</stage>
-            <p>Magamat ajánlom a Nagysád kegyességébe.<stage>Elmennek.</stage></p>
+            <p>Magamat ajánlom a Nagysád kegyességébe.<stage>Elmennek.</stage>
+            </p>
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
@@ -1372,7 +1381,8 @@
           <sp who="#eva">
             <speaker>ÉVA</speaker>
             <p>Héj, csak a magad tökfejedhez hasonlítsd; nos, mire való vót az a
-                                    nagy guta bot?<stage>Kacagva.</stage></p>
+                                    nagy guta bot?<stage>Kacagva.</stage>
+            </p>
           </sp>
           <sp who="#szuszmir">
             <speaker>SZUSZMIR</speaker>
@@ -1400,7 +1410,8 @@
           <sp who="#eva">
             <speaker>ÉVA</speaker>
             <p>Nesze még, Szuszmir, egy pohár bor, ugyan szépet meséltél, az
-                                    ördög is tudná nevetni.<stage>Kacagva.</stage></p>
+                                    ördög is tudná nevetni.<stage>Kacagva.</stage>
+            </p>
           </sp>
           <sp who="#szuszmir">
             <speaker>SZUSZMIR</speaker>
@@ -1611,7 +1622,8 @@
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
-            <p>Hogy?<stage>Nevetve.</stage></p>
+            <p>Hogy?<stage>Nevetve.</stage>
+            </p>
           </sp>
           <sp who="#szuszmir">
             <speaker>SZUSZMIR</speaker>
@@ -1722,7 +1734,8 @@
           <sp who="#szuszmir">
             <speaker>SZUSZMIR</speaker>
             <stage>Felszedi a subáját.</stage>
-            <p>No hiszen nem bánom, ha nem maradhat osztán tőlem.<stage>Dümmögve.</stage>Uramistenem, mi lesz még belőle, ha felneveled?<stage>Elmegyen.</stage></p>
+            <p>No hiszen nem bánom, ha nem maradhat osztán tőlem.<stage>Dümmögve.</stage>Uramistenem, mi lesz még belőle, ha felneveled?<stage>Elmegyen.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1732,7 +1745,8 @@
           </p>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
-            <p>No ezt szegényt elmará.<stage>Komoran.</stage></p>
+            <p>No ezt szegényt elmará.<stage>Komoran.</stage>
+            </p>
           </sp>
           <sp who="#rozalia">
             <speaker>ROZÁLIA</speaker>
@@ -1864,7 +1878,8 @@
                                     történetek? A nemes erkölcsnek semmi nyomát nem találhatni olly
                                     szemét észnek szüleményjébe. Illenek-e hát az illyenek egy nemes
                                     születésű személyhez? Én ugyan nem birok annyi békességes
-                                    türéssel, hogy az illyeket hallgathassam.<stage>Elmegyen.</stage></p>
+                                    türéssel, hogy az illyeket hallgathassam.<stage>Elmegyen.</stage>
+            </p>
           </sp>
           <stage>Vége az első felvonásnak</stage>
         </div>
@@ -2132,7 +2147,8 @@
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
-            <p>Igaz szolgája maradok az Úrnak.<stage>Betrieger elmegyen.</stage></p>
+            <p>Igaz szolgája maradok az Úrnak.<stage>Betrieger elmegyen.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2153,7 +2169,8 @@
                                 mind magával, mind őtet ohajtó fiával jót tehetetlen. Rettegek
                                 mindentől, ő másszor minden hónapba, ha pénzt nem, levelet legalább
                                 küldött énnekem, amelly balzsama vólt az én beteg lelkemnek. Már
-                                négy hónap múlt el, s levelét nem vehettem.<stage>Elmegy.</stage></p>
+                                négy hónap múlt el, s levelét nem vehettem.<stage>Elmegy.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2238,11 +2255,13 @@
           <sp who="#eva">
             <speaker>ÉVA</speaker>
             <p>Jobb is lesz, mást játsszunk. - Játsszunk zálogosdit, hadd poenázzam meg
-                            ezt a bárót.<stage>A nyakába esik hizelkedő mosolygással.</stage></p>
+                            ezt a bárót.<stage>A nyakába esik hizelkedő mosolygással.</stage>
+            </p>
           </sp>
           <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
-            <p>Visszaadnám a kölcsönt.<stage>Hasonlóképpen.</stage></p>
+            <p>Visszaadnám a kölcsönt.<stage>Hasonlóképpen.</stage>
+            </p>
           </sp>
           <sp who="#irovanyi">
             <speaker>IROVÁNYI</speaker>
@@ -2273,7 +2292,8 @@
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
-            <p>De Uramatyám is fog játszani.<stage>Enyelegve.</stage></p>
+            <p>De Uramatyám is fog játszani.<stage>Enyelegve.</stage>
+            </p>
           </sp>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
@@ -2299,7 +2319,8 @@
           </sp>
           <sp who="#rozalia #tokkolopi #eva #sertepert">
             <speaker>MINDNYÁJAN</speaker>
-            <p>Nem, nem.<stage>Leűlnek.</stage></p>
+            <p>Nem, nem.<stage>Leűlnek.</stage>
+            </p>
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
@@ -2308,7 +2329,8 @@
           <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
             <stage>Mosolygó komplimenttel.</stage>
-            <p>Én most magam önként felvállalom.<stage>Leűl az első helyre.</stage></p>
+            <p>Én most magam önként felvállalom.<stage>Leűl az első helyre.</stage>
+            </p>
           </sp>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
@@ -2321,12 +2343,14 @@
           </sp>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
-            <p>Szekretárius Uramnál nem találhatni alkalmatosabbat.<stage>Félmosolyogva.</stage></p>
+            <p>Szekretárius Uramnál nem találhatni alkalmatosabbat.<stage>Félmosolyogva.</stage>
+            </p>
           </sp>
           <sp who="#irovanyi">
             <speaker>IROVÁNYI</speaker>
             <stage>Meghajtja magát.</stage>
-            <p>Ha úgy méltóztatnak Nagyságtok parancsolni.<stage>Feláll.</stage></p>
+            <p>Ha úgy méltóztatnak Nagyságtok parancsolni.<stage>Feláll.</stage>
+            </p>
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
@@ -2338,7 +2362,8 @@
             <speaker>IROVÁNYI</speaker>
             <stage>Odahajlik. Éva súg.</stage>
             <p>Ha, ha, ha, mindjárt kireped az óldalom! ha, ha, ha, mi a tatár.<stage>Sorjába jár, a személyekhez hajlik, azok súgnak, gróf Fegyvernekihez
-                        fordúl.</stage></p>
+                        fordúl.</stage>
+            </p>
           </sp>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
@@ -2357,7 +2382,8 @@
           </sp>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
-            <p>No, eb az országa játékára, már csak ráveritek az embert.<stage>Súg.</stage></p>
+            <p>No, eb az országa játékára, már csak ráveritek az embert.<stage>Súg.</stage>
+            </p>
           </sp>
           <sp who="#irovanyi">
             <speaker>IROVÁNYI</speaker>
@@ -2395,7 +2421,8 @@
           </sp>
           <sp who="#rozalia #tokkolopi #eva #sertepert">
             <speaker>MINDNYÁJAN</speaker>
-            <p>Brávó, brávó.<stage>Kacagnak.</stage></p>
+            <p>Brávó, brávó.<stage>Kacagnak.</stage>
+            </p>
           </sp>
           <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
@@ -2406,7 +2433,8 @@
           <sp who="#eva">
             <speaker>ÉVA</speaker>
             <stage>Kacagva.</stage>
-            <p>Ennye, lelkem!<stage>Feláll.</stage></p>
+            <p>Ennye, lelkem!<stage>Feláll.</stage>
+            </p>
           </sp>
           <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
@@ -2455,7 +2483,8 @@
           <sp who="#tokkolopi">
             <speaker>TÖKKOLOPI</speaker>
             <p>No a tatár hordja el, én megjárám.<stage>Béül. A báró helyet foglal. Éva járja
-                        a súgókat.</stage>Igaz, még Rozália kisasszony nem vólt a szégyenbe.<stage>Az Éva szemébe vág.</stage></p>
+                        a súgókat.</stage>Igaz, még Rozália kisasszony nem vólt a szégyenbe.<stage>Az Éva szemébe vág.</stage>
+            </p>
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
@@ -2471,7 +2500,8 @@
           </sp>
           <sp who="#rozalia">
             <speaker>ROZÁLIA</speaker>
-            <p>Csakugyan nem kerülhetém el a fertelmes játékát.<stage>Mind nevetkőznek. Éva leűl.</stage></p>
+            <p>Csakugyan nem kerülhetém el a fertelmes játékát.<stage>Mind nevetkőznek. Éva leűl.</stage>
+            </p>
           </sp>
           <sp who="#tokkolopi">
             <speaker>TÖKKOLOPI</speaker>
@@ -2499,7 +2529,8 @@
                             szégyenszékbe.<stage>Nagy zúgás erre.</stage>No, én láttam ollyan nagy dinnyét a török gránicon jártomba, hogy
                             lajtorján mentek fel a szárához, s baltával vágták meg. Egyszer a balta
                             beléesett, s a bélit szekerekkel hordták el, s tavaszra találták meg
-                            benne a baltát.<stage>Mindég a nevetés.</stage></p>
+                            benne a baltát.<stage>Mindég a nevetés.</stage>
+            </p>
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
@@ -2537,7 +2568,8 @@
           </sp>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
-            <p>Menjen ki Kegyelmed, lássa, mi dolog.<stage>Iroványi kimegy.</stage></p>
+            <p>Menjen ki Kegyelmed, lássa, mi dolog.<stage>Iroványi kimegy.</stage>
+            </p>
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
@@ -2549,7 +2581,8 @@
           </sp>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
-            <p>Jó lesz, jó. Menjünk.<stage>Elmennek.</stage></p>
+            <p>Jó lesz, jó. Menjünk.<stage>Elmennek.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2610,7 +2643,8 @@
           </sp>
           <sp who="#inasok">
             <speaker>HARMADIK INAS.</speaker>
-            <p>Mit is kóvályog itt ez az országavesztett konyhavakarék.<stage>Rázúdúlnak.</stage></p>
+            <p>Mit is kóvályog itt ez az országavesztett konyhavakarék.<stage>Rázúdúlnak.</stage>
+            </p>
           </sp>
           <sp who="#irovanyi">
             <speaker>IROVÁNYI.</speaker>
@@ -2670,7 +2704,8 @@
                             selyempántlikákat húztak ki s a többi. Mindezeknek semmi hasznok sincs,
                             de mivel őneki múlatságot szereznek, arany, s néha párjával is, a dijja.
                             Az Urat sem fogja az ő nemesszivüsége üressen bocsátani el. Kivált
-                            szorúlt állapotjában. - Mindjárt bé fogom az Urat jelenteni.<stage>Bemegy.</stage></p>
+                            szorúlt állapotjában. - Mindjárt bé fogom az Urat jelenteni.<stage>Bemegy.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3017,7 +3052,8 @@
                             szókat érzékeny megindúlásomnak kifejezésére, s a Nagyságod jótételének
                             és kegyes szivének meghálálására. Ezt a sohajtást vegye Nagyságod az én
                             egyenes szivemnek áldozatjáúl. Adjanak boldog napokat Nagyságodnak a
-                            kegyes szivet koronázó Egek.<stage>Elmegy.</stage></p>
+                            kegyes szivet koronázó Egek.<stage>Elmegy.</stage>
+            </p>
           </sp>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI.</speaker>
@@ -3042,7 +3078,8 @@
           </sp>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI.</speaker>
-            <p>Gyerünk azokhoz a vigadó fiatalokhoz!<stage>Elmennek.</stage></p>
+            <p>Gyerünk azokhoz a vigadó fiatalokhoz!<stage>Elmennek.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3358,7 +3395,8 @@
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
-            <p>Vígabb velem létedet engedjenek az egek!<stage>Elmegyen.</stage></p>
+            <p>Vígabb velem létedet engedjenek az egek!<stage>Elmegyen.</stage>
+            </p>
           </sp>
           <sp who="#rozalia">
             <speaker>ROZÁLIA.</speaker>
@@ -3515,7 +3553,8 @@
           <sp who="#koppohazy">
             <speaker>KOPPÓHÁZY.</speaker>
             <p>Mondom, énnékem nincs arra való pénzem. Eddig az olasz is el találta
-                            adni. Isten áldja meg Kegyelmedet.<stage>Elmegyen.</stage></p>
+                            adni. Isten áldja meg Kegyelmedet.<stage>Elmegyen.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3796,7 +3835,8 @@
             <p>No hallják Kentek, legények, egy óráig fognak kentek vachtot állani:
                                 meglesz a fizetés fáradságokért. Ennek az úrnak addig itt benn kell
                                 tartózkodni: ha valamit parancsol, véghezvigyék. Én pedig magamat
-                                ajánlom az Úrnak.<stage>Elmegyen.</stage></p>
+                                ajánlom az Úrnak.<stage>Elmegyen.</stage>
+            </p>
           </sp>
           <sp who="#hajduk">
             <speaker>HAJDÚ.</speaker>
@@ -4211,7 +4251,8 @@
                             dicsekedhetik vele, bár jönne a többije is, de ez a kőszegi poéta
                             mindent nagy gonddal készit; nem csuda, az originált is olly sok
                             gonddal készitette a halhatatlan Máró. Hazám Maecenássai, Polliói!
-                            tisztelhetnétek itt is egy Virgiliust!<stage>Nézkél.</stage></p>
+                            tisztelhetnétek itt is egy Virgiliust!<stage>Nézkél.</stage>
+            </p>
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
@@ -4223,7 +4264,8 @@
           </sp>
           <sp who="#muzsai">
             <speaker>MÚZSAI.</speaker>
-            <p>Jól van, barátom.<stage>Kimennek.</stage></p>
+            <p>Jól van, barátom.<stage>Kimennek.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4315,7 +4357,8 @@
           </sp>
           <sp who="#tokkolopi">
             <speaker>TÖKKOLOPI.</speaker>
-            <p>Jó estvét! <stage>Bomfordi hangon.</stage></p>
+            <p>Jó estvét! <stage>Bomfordi hangon.</stage>
+            </p>
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
@@ -4535,7 +4578,8 @@
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
-            <p><hi rend="italic">Φευγετε χανθαριδιες. Αυχος αγριος υμμε διωχει!</hi>
+            <p>
+              <hi rend="italic">Φευγετε χανθαριδιες. Αυχος αγριος υμμε διωχει!</hi>
                             Bezzeg hallja Poétaságod, megáldottam mostan szép görög szókkal.</p>
           </sp>
           <sp who="#csikorgo">
@@ -4964,7 +5008,8 @@
           </sp>
           <sp who="#tokkolopi">
             <speaker>TÖKKOLOPI.</speaker>
-            <p>Jaj! csak ne peroráljon Kend, inkább elmegyek.<stage>Elmegyen.</stage></p>
+            <p>Jaj! csak ne peroráljon Kend, inkább elmegyek.<stage>Elmegyen.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5292,7 +5337,8 @@
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>Megfogja.</stage>
             <p>No édes versjártó Uram, hozzuk a pulidert arra a tanácsház felé.
-                                Gyerünk, gyerünk, no, isten engem, nem teréfálódom.<stage>Rángatja.</stage></p>
+                                Gyerünk, gyerünk, no, isten engem, nem teréfálódom.<stage>Rángatja.</stage>
+            </p>
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
@@ -5337,7 +5383,8 @@
           <sp who="#hajduk">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Jaj, az ördög vessen rá porciót, elmondá már a boszorkányos verset,
-                                most mindjárt szalmacsutakká válunk mind egy lábig.<stage>Elszalad.</stage></p>
+                                most mindjárt szalmacsutakká válunk mind egy lábig.<stage>Elszalad.</stage>
+            </p>
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
@@ -5349,7 +5396,8 @@
             <speaker>BETRIEGER</speaker>
             <stage>Elréműlve.</stage>
             <p>Uram, kedves Tempefői barátom és sógor Uram; az isten kedvéért.
-                                Kérem. -<stage>Elszalad.</stage></p>
+                                Kérem. -<stage>Elszalad.</stage>
+            </p>
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
@@ -5386,7 +5434,8 @@
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>Fegyveresen.</stage>
             <p>No édes hallja az Úr, itt van már most Kend úgyé? Pofon vágott Kend,
-                                úgyé? Most mutassuk már meg, ki a legény, úgy.<stage>Hadaz a kardjával.</stage></p>
+                                úgyé? Most mutassuk már meg, ki a legény, úgy.<stage>Hadaz a kardjával.</stage>
+            </p>
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
@@ -5396,14 +5445,16 @@
           </sp>
           <sp who="#hajduk">
             <speaker>MÁSIK HAJDÚ.</speaker>
-            <p>Mi osztó perem van? Mindjárt megmutatom.<stage>A puskáját szedi-veszi.</stage></p>
+            <p>Mi osztó perem van? Mindjárt megmutatom.<stage>A puskáját szedi-veszi.</stage>
+            </p>
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
             <stage>A puskát elkapja, kilövi. A hajdúhoz üti.</stage>
             <p>Ne, gazember. Kell több? Van-é még igazitni való pered? He? Nemes
                                 ember házára jönni fegyverrel? Ha most az emberiség ellen való
-                                törvényt nézném, szabadon agyonlőhetnélek!<stage>Megmeg ráüt.</stage></p>
+                                törvényt nézném, szabadon agyonlőhetnélek!<stage>Megmeg ráüt.</stage>
+            </p>
           </sp>
           <sp who="#hajduk">
             <speaker>MÁSIK HAJDÚ.</speaker>
@@ -5463,11 +5514,13 @@
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
-            <p>Ne bolondozz, fiú, míg szépszerént vagy.<stage>Egész csendességgel.</stage></p>
+            <p>Ne bolondozz, fiú, míg szépszerént vagy.<stage>Egész csendességgel.</stage>
+            </p>
           </sp>
           <sp who="#hajduk">
             <speaker>MÁSIK HAJDÚ.</speaker>
-            <p>Még Kend is mér nekem szólani? hallja Kend.<stage>A kardjával hadaz.</stage></p>
+            <p>Még Kend is mér nekem szólani? hallja Kend.<stage>A kardjával hadaz.</stage>
+            </p>
           </sp>
           <sp who="#muzsai">
             <speaker>MÚZSAI.</speaker>
@@ -5674,7 +5727,8 @@
           </sp>
           <sp who="#muzsai">
             <speaker>MÚZSAI.</speaker>
-            <p>Magamat ajánlom Atyaságodnak!<stage>Elmegyen.</stage></p>
+            <p>Magamat ajánlom Atyaságodnak!<stage>Elmegyen.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5919,7 +5973,8 @@
                                 ezekbe a betűkbe, mellyek repesni láttatnak az én hiv elfogadásomra.
                                 - No, Barátom, most vedd elő minden jót becsülni tudó erődet, hogy
                                 érdeme szerént tudj' itt becsülni egy jó lelket, egy eleven elmét,
-                                egy érzékeny szivet. Hallgass csak!<stage>Olvassa</stage></p>
+                                egy érzékeny szivet. Hallgass csak!<stage>Olvassa</stage>
+            </p>
             <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                                 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
           </sp>
@@ -6005,7 +6060,8 @@
           </sp>
           <sp who="#muzsai">
             <speaker>MÚZSAI.</speaker>
-            <p>Nem bánom: igen jó lesz.<stage>Készűlnek.</stage></p>
+            <p>Nem bánom: igen jó lesz.<stage>Készűlnek.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -6108,7 +6164,8 @@
           </sp>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
-            <p>Ezzel vesd majd öszve az övét, és bámúlj az ő elméjén.<stage>Olvassa.</stage></p>
+            <p>Ezzel vesd majd öszve az övét, és bámúlj az ő elméjén.<stage>Olvassa.</stage>
+            </p>
             <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                                 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
           </sp>
@@ -6355,7 +6412,8 @@
           </sp>
           <sp who="#irovanyi">
             <speaker>IROVÁNYI.</speaker>
-            <p>Nesze csak, mig a' lenne.<stage>Üti.</stage></p>
+            <p>Nesze csak, mig a' lenne.<stage>Üti.</stage>
+            </p>
           </sp>
           <sp who="#hajduk">
             <speaker>MÁSIK HAJDÚ.</speaker>

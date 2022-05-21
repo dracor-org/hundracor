@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000036</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -273,9 +275,7 @@
           <role><roleName>Boeth</roleName>az őrség főnöke</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Petron Maxim</roleName>
-          </role>
+          <role><roleName>Petron Maxim</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Avien</roleName>szenátorok</role>
@@ -380,7 +380,8 @@
             <speaker>GAUDENT</speaker>
             <stage>ki Placidia mellett ül.</stage>
             <p>Én boldog! Ily isteni hölgyet!<stage>Megfogja Placidia kezét, ki egészen
-                                elhalványult.</stage></p>
+                                elhalványult.</stage>
+            </p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA</speaker>
@@ -395,9 +396,11 @@
           <sp who="#eudoxia">
             <speaker>EUDOXIA</speaker>
             <p>Látom, a lakoma ártott meg. Jer, kedves, jer.<stage>Fölkel
-                                Placidiával.</stage></p>
+                                Placidiával.</stage>
+            </p>
             <p>Urak! jó időtöltést!<stage>A vendégek mind csodálkozva
-                            fölkelnek.</stage></p>
+                            fölkelnek.</stage>
+            </p>
           </sp>
           <sp who="#vigil #orest #masok">
             <speaker>VIGIL OREST S TÖBB MÁSOK.</speaker>
@@ -410,7 +413,8 @@
           </sp>
           <sp who="#gaudent">
             <speaker>GAUDENT.</speaker>
-            <p>Szép Placidia!<stage>Könyörögve kulcsolja össze kezeit.</stage></p>
+            <p>Szép Placidia!<stage>Könyörögve kulcsolja össze kezeit.</stage>
+            </p>
             <stage>Egyszerre.</stage>
           </sp>
           <sp who="#aet">
@@ -429,10 +433,12 @@
             <speaker>EUDOXIA</speaker>
             <stage>halkan Cézárhoz.</stage>
             <p>Ha eladtad leányod, legalább ne öld meg. Nézz
-                            reá!<stage>Fenn.</stage></p>
+                            reá!<stage>Fenn.</stage>
+            </p>
             <p>Sajnálom, urak, leányomnak nyugalom- s ápolásra van szüksége.
                                 Viszontlátásig.<stage>El Placidiával. A társaság több beszélgető
-                                csoportokra oszlik, melyek mind csodálkozást jelentenek.</stage></p>
+                                csoportokra oszlik, melyek mind csodálkozást jelentenek.</stage>
+            </p>
           </sp>
           <sp who="#julian">
             <speaker>JULIAN</speaker>
@@ -469,44 +475,52 @@
             <stage>Gaudenthez.</stage>
             <p>Semmi! hajlania kell vagy törnie - amit választ. Csak kövesd tanácsomat,
                             csendes, de vizsga légy, tudod-e? Hasznosb beszéltetni, mint beszélni. -
-                            Ügyelj jól, minden suttogóra.<stage>Egymástól távoznak.</stage></p>
+                            Ügyelj jól, minden suttogóra.<stage>Egymástól távoznak.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Vendégeim! A nők eltávozta ne zavarja nagy örömünket; annál szabadabban
                             éldelhetünk. Bor és asszony nem egyszerre valók, ezt mondta egy görög
-                            bölcs, nem tudom, melyik, de jól.<stage>Zene hallatszik</stage></p>
+                            bölcs, nem tudom, melyik, de jól.<stage>Zene hallatszik</stage>
+            </p>
             <p>Heverjünk le ismét. - Étel, ital, zene, kinek mi kell!</p>
           </sp>
           <sp who="#julian #avenar #masok">
             <speaker>JULIAN, AVENAR S TÖBB MÁSOK.</speaker>
             <p>Tartsa meg az ég a mi jó urunkat!<stage>Némelyek pamlagra feküsznek,
                                 mások körülök csoportoznak, poharakat ürítve, s beszélgetve.
-                                Táncosok s táncosnők mulattatják a társaságot.</stage></p>
+                                Táncosok s táncosnők mulattatják a társaságot.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
             <stage>félbeszakítja a zenét.</stage>
             <p>Most veszem észre! néhány becses társak üdvözleteink sorából kimaradtak.
                             Pótoljuk ki a hiányt. Billikomokat, gyermekek!<stage>A gyermekek
-                                serlegeket nyújtanak. Cézár fölemeli serlegét.</stage></p>
+                                serlegeket nyújtanak. Cézár fölemeli serlegét.</stage>
+            </p>
             <p>Éljen Petron Maxim! kit vendégszerető, jó konyhát tartó, derék embernek
                             ösmertünk mindig! Reménylem hosszas távolléte nem változtatta meg
                             szokásit. Éljen! s maradjon az, ki volt!<stage>Hangos „éljen” - isznak.
-                                Cézár ismét fölemeli serlegét.</stage></p>
+                                Cézár ismét fölemeli serlegét.</stage>
+            </p>
             <p>Avien, Triget, Basil! nektek is tiszteletül! Igaz bölcseknek tartalak,
                             becsemre mondom! nem azért, mivel Platót s Epicurt megemésztétek, hanem
                             mivel kinézem belőletek, ha szinte nejeitek az ellenkezőre esküdnének is
                             meg, hogy bort, leányt, lovat egyaránt ösmértek s
                                 becsültök.<stage>Nevetés, „éljenek!” Serleget ismét. Egy gyermek
-                                serleget ád. Cézár ismét fölemeli.</stage></p>
+                                serleget ád. Cézár ismét fölemeli.</stage>
+            </p>
             <p>Említetlen maradt azon jeles tiszte is udvaromnak, kinek köszönünk minden
                             drága falatot; jókedvünknek s elménknek fenntartója ő. Egészséget Quint
-                            Marónak, érdemes szakácsunknak!<stage>Nevetés, morgás.</stage></p>
+                            Marónak, érdemes szakácsunknak!<stage>Nevetés, morgás.</stage>
+            </p>
             <p>Hát Baka és Kiki? Mit vétett az Afrikából érkezett varázsló majompár? a
                             bohósan eleven két békejel, hogy ne tisztelnők meg egy korttyal? -
                             Kedvem volna, régi divat szerint, egy billikomot üríttetni minden
-                            betűire nevüknek, megérdemlik!<stage>Éljen! kacagás, zúgás.</stage></p>
+                            betűire nevüknek, megérdemlik!<stage>Éljen! kacagás, zúgás.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
@@ -528,7 +542,8 @@
             <speaker>JULIAN</speaker>
             <stage>Avenarhoz.</stage>
             <p>Mily illetlen morgás! Mindjárt eszméletre juttatom.<stage>Fenn, poharat
-                                emelve.</stage></p>
+                                emelve.</stage>
+            </p>
             <p>Uraim! valódi dicsőség Bakának és Kikinek! ezt tőlük el nem vonhatjuk.
                             Kitűnő tulajdonaik elősorolásával nem akarok türelmet fárasztani; csak
                             egyre figyelmeztetek: midőn egykor dicső emlékű Cézárnak, kedves ménit,
@@ -537,7 +552,8 @@
                             hatalmas Cézár alatt? Tanácslom, urak! adjuk meg mindenkinek, mi övé:
                             ezt mondja püspökünk is.</p>
             <stage>Sokfelől.</stage>
-            <p>Úgy van! úgy! éljenek!<stage>Köznevetés.</stage></p>
+            <p>Úgy van! úgy! éljenek!<stage>Köznevetés.</stage>
+            </p>
           </sp>
           <sp who="#fulgent">
             <speaker>FULGENT.</speaker>
@@ -593,7 +609,8 @@
             <speaker>CÉZÁR.</speaker>
             <p>Ördögöt! hát az ő volt! Maxim, szerencséltetlek; ugyan jól
                                 megválasztád!<stage>Gondolatokba merül. Egy szolga suttog Boethtal,
-                                ki végre fölkél és kisiet.</stage></p>
+                                ki végre fölkél és kisiet.</stage>
+            </p>
           </sp>
           <sp who="#basil">
             <speaker>BASIL</speaker>
@@ -612,7 +629,8 @@
             <speaker>BASIL.</speaker>
             <p>Hogy Cézár helyett nem őt tisztelte meg kezével. Na! de erről
                             hallgattunk. - Ki tudja egyébiránt, igaz-e.<stage>Ez alatt
-                                közzsibongás.</stage></p>
+                                közzsibongás.</stage>
+            </p>
           </sp>
           <sp who="#boeth">
             <speaker>BOETH</speaker>
@@ -621,7 +639,8 @@
                             helyt egyszerre kötöttek ki. Siracusa, Agrigent, Tarent elfoglalva! a
                             levelek Verrestől meg Plauttól, a messini parancsnoktól.<stage>Átadja
                                 Aetiusnak a levelet. Meglepetést fejeznek ki minden
-                            arcok.</stage></p>
+                            arcok.</stage>
+            </p>
           </sp>
           <sp who="#sokan">
             <speaker>SOKAN.</speaker>
@@ -634,7 +653,8 @@
                             hivatalát. A hajóhad mindenfelé szétszórva, mintha örök békére
                             számolhatánk; pedig több ízben vetettem szemére. Az esztelen, csak kárán
                                 tanulhatott!<stage>Cézár mélyen elmerülve föl s alá
-                            járkál.</stage></p>
+                            járkál.</stage>
+            </p>
           </sp>
           <sp who="#boeth">
             <speaker>BOETH</speaker>
@@ -646,7 +666,8 @@
             <p>Igen s a megaponti s cotroni légiók is erre nyomulnak. Hamar
                             központosíthatjuk minden erőnket.<stage>A többit a közzsibongás miatt
                                 nem hallani: csak látszik hogy beszélgetésöket
-                            folytatják.</stage></p>
+                            folytatják.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
@@ -707,7 +728,8 @@
             <speaker>AETIUS.</speaker>
             <p>A francokat semmi esetre belé nem elegyítjük! ily frigyes mindig több
                             bajt hoz, mint hasznot -<stage>folytatja beszédét, de nem
-                                hallani.</stage></p>
+                                hallani.</stage>
+            </p>
           </sp>
           <sp who="#heracles">
             <speaker>HERACLES</speaker>
@@ -730,18 +752,21 @@
           <sp who="#heracles">
             <speaker>HERACLES.</speaker>
             <p>A siker igazoljon. Tüstént dolgunkhoz
-                                foghatunk.<stage>Körültekint.</stage></p>
+                                foghatunk.<stage>Körültekint.</stage>
+            </p>
             <p>Oszlani kezdenek; itt kell tartani, legalább Maximnak elmenni nem szabad.
                             Javalj játékot; nagy pénzben. A köbzés gyöngéje. De szükség, hogy nyerj.
                             Tudod nehány jó fogás meg a köbök, melyeket számodra készítettem; majd
-                            elhozom. Látod kezén ama gyűrűt?<stage>Maximra mutat.</stage></p>
+                            elhozom. Látod kezén ama gyűrűt?<stage>Maximra mutat.</stage>
+            </p>
             <p>Azt kell kezünkre kerítenünk. Csak ügyelj intésemre, minden egyébért
                             állok.</p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Remek ember! Bízom szavadba. Fülelj, mint előzi meg jutalmam
-                                tettedet.<stage>Fenn a társasághoz.</stage></p>
+                                tettedet.<stage>Fenn a társasághoz.</stage>
+            </p>
             <p>Ne széledjünk még el! egy ünnepélyes nyilatkozatom van teendő.</p>
           </sp>
           <sp who="#avien">
@@ -760,7 +785,8 @@
             <speaker>CÉZÁR:</speaker>
             <p>Hív szolgák érdemeit jutalmazni a fejdelem legszentebb kötelessége,
                             helyes kormányzás alapelve, melyt én is fejthajtva követek. Ily példás
-                            alattvaló ez itt!<stage>Heraclesre mutat.</stage></p>
+                            alattvaló ez itt!<stage>Heraclesre mutat.</stage>
+            </p>
             <p>Mesés öntagadással fordítja ő évektől fogva minden ügyekezetét arra,
                             miként napjaim mentül üdvteljesebbekké tegye. Feje csupán számomra
                             gondolkozik, s kezei mindenben kívánságom szerint munkások. Enyém ő
@@ -782,7 +808,8 @@
             <p>Barátok! ő megszerezte magának egész fejedelmi kegyemet. Nincs Rómának
                             jelesb polgára! Ennek nyilvánítására kívánom, helye, szava legyen a
                             főtanácsban. Atyák, beirandjátok őt a névsorba.<stage>A szenátorok közt
-                                nagy zúgás.</stage></p>
+                                nagy zúgás.</stage>
+            </p>
           </sp>
           <sp who="#fulgent">
             <speaker>FULGENT</speaker>
@@ -798,7 +825,8 @@
                             fölötti diadala évnapját ünnepli. - Legsükeresb serkentés ez erényre, s
                             hősi tettekre, s ezen alapítjuk mi is, közmegegyezésből eleitekbe
                             terjesztendő kérelmünket; én s két barátom.<stage>Caustin- és Avenarra
-                                mutat.</stage></p>
+                                mutat.</stage>
+            </p>
             <p>A Camillok, Appiusok, Catók, Valerok, Fabiusok, Scipiók vére pezseg
                             ereinkben.</p>
           </sp>
@@ -856,7 +884,8 @@
           <sp who="#aet">
             <speaker>AETIUS.</speaker>
             <p>De bocsánatot, ez talán sok szó is volt egy tréfa fölött.<stage>Julian s
-                                társaihoz fordulva.</stage></p>
+                                társaihoz fordulva.</stage>
+            </p>
             <p>És ti is! ha! ha! ha! ha! ha! ti is ingerkedtek polgártársaitok
                             rémületivel? Mondhatom, ép ötlet! mert valónak csakugyan nem hihetem,
                             annyi jótékony hölgyet, színházat, lakomát odahagyni! Miért? Egy ocsmány
@@ -894,9 +923,11 @@
             <p>Holnap indulnom kell, addig még sok rendelésim vannak teendők. Cézár!
                             vedd legőszintébb jobbágyi tiszteletem kijelentésit. - Reménylem
                             örvendeztetőbb körülmények közt találkozunk.<stage>A
-                                szenátorokhoz.</stage></p>
+                                szenátorokhoz.</stage>
+            </p>
             <p>Virradatkor rendkívüli tanácsot tartandok.<stage>A vendégek széledni
-                                akarnak.</stage></p>
+                                akarnak.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
@@ -920,17 +951,21 @@
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Semmi ellenvetést!<stage>Karjánál fogva egy játszóasztalhoz
-                                vezeti.</stage></p>
+                                vezeti.</stage>
+            </p>
             <p>Ülj le! Erőszakos vagyok, nemde? - Urak, ide vagy amoda<stage>az
-                                asztalokra mutat,</stage></p>
+                                asztalokra mutat,</stage>
+            </p>
             <p>csak ne el.<stage>A vendég nagyobb része az asztalok körül
-                                csoportozik.</stage></p>
+                                csoportozik.</stage>
+            </p>
           </sp>
           <sp who="#heracles">
             <speaker>HERACLES</speaker>
             <stage>ki azelőtt kifutott volt, visszajön s Cézár asztalához siet.</stage>
             <p>Mily kopott köbök! - cselédség vigyázatlansága.<stage>Más köbökkel
-                                cseréli ki az asztalon levőket.</stage></p>
+                                cseréli ki az asztalon levőket.</stage>
+            </p>
           </sp>
           <sp who="#aet">
             <speaker>AETIUS</speaker>
@@ -947,17 +982,20 @@
             <speaker>AETIUS</speaker>
             <stage>Vigilt s Orestet inti magához.</stage>
             <p>Ügyelettel legyetek mindenre. Látjátok azokat?<stage>az udvaroncokra
-                                mutat,</stage></p>
+                                mutat,</stage>
+            </p>
             <p>nehányan közülök elvonták arcaikat, kis veszély ugyan; de rendszerem
                             mindent számba venni. Tehát, mint mondám, azokra ott, különösebben pedig
                             emerre itt.<stage>Heraclesre mutat. Orest és Vigil értőleg intenek.
-                                Aetius Boethtól és Gaudenttől kísérve el.</stage></p>
+                                Aetius Boethtól és Gaudenttől kísérve el.</stage>
+            </p>
           </sp>
           <sp who="#avien">
             <speaker>AVIEN</speaker>
             <stage>Triget- és Basilhoz.</stage>
             <p>Mentsük meg mi is éjünk nyugalmát.<stage>Társaival együtt kilopódzik az
-                                ajtón.</stage></p>
+                                ajtón.</stage>
+            </p>
             <stage>A jelenlévő négy vagy öt asztalnál játszanak: a legkisebbiknél Cézár
                             Maximmal, másnál Julian, Caustin s több udvaroncok, Sidon és Heracles a
                             harmadik és negyedik asztalnál. Egynehány percnyi szünet, mely alatt a
@@ -977,7 +1015,8 @@
             <speaker>AVENAR</speaker>
             <stage>szintúgy.</stage>
             <p>S ki mer így szólni Róma legelőbbkelő nemeseivel? - ki nagyapjáig sem
-                            tudja fölvinni faját:<stage>Kockát vet. Fenn.</stage></p>
+                            tudja fölvinni faját:<stage>Kockát vet. Fenn.</stage>
+            </p>
             <p>Én nyertem.</p>
           </sp>
           <sp who="#julian">
@@ -993,7 +1032,8 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Rosszul kezd folyni.<stage>Ismét aranyokat tesz az asztalra.</stage></p>
+            <p>Rosszul kezd folyni.<stage>Ismét aranyokat tesz az asztalra.</stage>
+            </p>
             <p>No még ezt.</p>
           </sp>
           <sp who="#fulgent">
@@ -1009,21 +1049,25 @@
             <speaker>FULGENT</speaker>
             <stage>mérgesen magában.</stage>
             <p>Itt minden ember vagy bolond, vagy ámító. Tovább nem
-                                nézhetem!<stage>Kifut.</stage></p>
+                                nézhetem!<stage>Kifut.</stage>
+            </p>
           </sp>
           <sp who="#avenar">
             <speaker>AVENAR</speaker>
             <stage>szomszédaihoz halkan.</stage>
             <p>Ennek változni kell! Gondoljunk valamit.<stage>Elveti a köböt.
-                                Fenn.</stage></p>
+                                Fenn.</stage>
+            </p>
             <p>Tizenkettő!</p>
           </sp>
           <sp who="#julian">
             <speaker>JULIAN</speaker>
             <stage>fenn.</stage>
-            <p>Jól vetél.<stage>Halkan.</stage></p>
+            <p>Jól vetél.<stage>Halkan.</stage>
+            </p>
             <p>Egy kis összeesküvést eleink módjára. Mit mondasz hozzá?<stage>Vet.
-                                Fenn.</stage></p>
+                                Fenn.</stage>
+            </p>
             <p>Csak tizenegy!</p>
           </sp>
           <sp who="#avenar">
@@ -1055,8 +1099,10 @@
           <sp who="#julian">
             <speaker>JULIAN.</speaker>
             <p>Új divatot szeretnénk behozni, mihez ő mennyein
-                                ért.<stage>Magában.</stage></p>
-            <p>Huh! rosszul érzem magamat!<stage>Fenn.</stage></p>
+                                ért.<stage>Magában.</stage>
+            </p>
+            <p>Huh! rosszul érzem magamat!<stage>Fenn.</stage>
+            </p>
             <p>Magasztalt daliák, Itália arszlánya mikor induland el Rómából?</p>
           </sp>
           <sp who="#vigil">
@@ -1081,7 +1127,8 @@
             <speaker>HERACLES</speaker>
             <stage>Maximhoz siet.</stage>
             <p>Mint látom, még hitelre nincs szükséged.<stage>Maxim kezére
-                                mutat.</stage></p>
+                                mutat.</stage>
+            </p>
             <p>Ily gyűrű sokat ér.</p>
           </sp>
           <sp who="#petron_maxim">
@@ -1096,18 +1143,22 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>De mégis.<stage>Heracles Cézárnak int.</stage></p>
+            <p>De mégis.<stage>Heracles Cézárnak int.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Talán a szép hitves szemrehányásit rettegjük? Hogy képes, oly erős
                             lélekkel! No, bizonyosan megengesztelődik.<stage>Megfogja Maxim kezeit
-                                nevetve.</stage></p>
+                                nevetve.</stage>
+            </p>
             <p>e. Ide vele! Magad tudod, ez közszokás; míg játszónál ily belső értékű
                             kincs marad, addig hitelrül nem szólhat.<stage>Leveszi Maxim a
-                                gyűrűt.</stage></p>
+                                gyűrűt.</stage>
+            </p>
             <p>Mennyiben álljon? - ezer darabban, s öt lökés mindkét részrül?
-                                Nem?<stage>Ismét kockázáshoz fognak.</stage></p>
+                                Nem?<stage>Ismét kockázáshoz fognak.</stage>
+            </p>
           </sp>
           <sp who="#heracles">
             <speaker>HERACLES</speaker>
@@ -1143,7 +1194,8 @@
             <speaker>CÉZÁR.</speaker>
             <p>Nem, Maxim, nem. Maradjak én a győztes ez estvén. Ha! ha! Elpártolhatna
                             tőlem a szerencse.<stage>Szemeit Maximra függesztve,
-                            tréfásan.</stage></p>
+                            tréfásan.</stage>
+            </p>
             <p>Nyugtalanságod mulattat. Csak nem esel kétségbe?</p>
           </sp>
           <sp who="#heracles">
@@ -1155,7 +1207,8 @@
             <speaker>CÉZÁR</speaker>
             <stage>helyéről fölkelve.</stage>
             <p>Engedj meg, Petron, siető dolgom van. Mindjárt itt termek: addig Heracles
-                            kipótolandja helyem.<stage>El.</stage></p>
+                            kipótolandja helyem.<stage>El.</stage>
+            </p>
             <stage>Maxim menni készül, Heracles visszatartja, megfogva karjánál.</stage>
           </sp>
           <sp who="#heracles">
@@ -1163,13 +1216,15 @@
             <p>De várd meg hát Cézárt! - Meglátod, mily időtöltő leszek én. Nevet. Jer
                             vélem, jer; szép s új történetet beszélek neked egy csalatott féltékeny
                                 férjről.<stage>Ismét nevet. Mindketten kimennek a jobb felőli
-                                ajtón.</stage></p>
+                                ajtón.</stage>
+            </p>
           </sp>
           <sp who="#julian">
             <speaker>JULIAN</speaker>
             <stage>Cézár lenyugodott.</stage>
             <p>Mi is menjünk mulatni máshova.<stage>A vendégek mind elszélednek a közép
-                                ajtókon.</stage></p>
+                                ajtókon.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1183,7 +1238,8 @@
                             mindjárt ismét fölkél, az ablakhoz megyen, s a függönyt széthúzza. Külső
                             világ lövell bé.</stage>
             <p>Istennek köszönet, már virrad! keresztüléltem hát e végtelen
-                                éjt.<stage>Magát gúnyolva.</stage></p>
+                                éjt.<stage>Magát gúnyolva.</stage>
+            </p>
             <p>Mily örvendetes! mintha ama bíborpiros mosoly, a zajos nappal együtt,
                             enyhet is ígérne bajomnak. Ha úgy volna! A kertben, mondá, terebélyes
                             boglár fa alatt várand reám. Mit hallok majd ott? Egy vigasztaló szót?
@@ -1191,7 +1247,8 @@
                             önkény s fejdelmi gyöngeség egyesülendnek vesztünkre. Jól körülsáncolák
                             őt: gőg, dicsvágy, hőshíri méltóság, hogy a lányka sóhaja oda be ne
                             hasson, hol keservével talán egy hangzó húrt pendítne
-                                meg.<stage>Szünet.</stage></p>
+                                meg.<stage>Szünet.</stage>
+            </p>
             <p>S a patric mondna le? a lányka könnyeiért, az ifjú virágos ábrándiért
                             mondna le az, ki csak trónról s világuralomról tud? Mennyi lénycsoport
                             vonaglott már lábai alatt, e csekélység hátráltatná lépteit? Esztelen
@@ -1203,7 +1260,8 @@
             <p>Fiam! már itt? - oly hamar kialudtad az éji mámort? ím, én csak most
                             jövök. Nem dicséretes éjkóborlás, ugye? Jó, hogy nem követed apád
                             példáját, magam sem ajánlom.<stage>Leül egy székre, s
-                                nyújtódzik.</stage></p>
+                                nyújtódzik.</stage>
+            </p>
             <p>Há! mint el vagyok fáradva.</p>
           </sp>
           <sp who="#pallad">
@@ -1249,10 +1307,12 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Hazudsz, fiú!<stage>Szelídebben.</stage></p>
+            <p>Hazudsz, fiú!<stage>Szelídebben.</stage>
+            </p>
             <p>Bocsáss meg, de ez lehetetlen, meglátod mindjárt, ő van itt, itt volt,
                             nem távozott. - Haj! valaki! szolgák! Julia! Julia!<stage>Kimegy az
-                                oldalajtón.</stage></p>
+                                oldalajtón.</stage>
+            </p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
@@ -1265,13 +1325,17 @@
             <p>Itt nincs, nincs, hűlt helye! Csakugyan éjjel ment el, az otthonos nő! Mi
                             titok lappang ebben? Hah? egybeilletem, mi kis gondolat maradt még
                             fejemben, mint szétszaggatott oklevél darabjai, elszórva, hogy
-                            okoskodássá váljék.<stage>Erőltetett vigasztalással.</stage></p>
+                            okoskodássá váljék.<stage>Erőltetett vigasztalással.</stage>
+            </p>
             <p>Meglátod, csupa csekélység leend az egész eset, nevetésre érdemes, ha
-                            megértjük; s most<stage>fejére üt,</stage></p>
-            <p>mi ostobák, ki nem találhatjuk!<stage>Nagy indulattal.</stage></p>
+                            megértjük; s most<stage>fejére üt,</stage>
+            </p>
+            <p>mi ostobák, ki nem találhatjuk!<stage>Nagy indulattal.</stage>
+            </p>
             <p>Megyek - küldök érte mindenfelé, összekóborlom a várost! míg
                                 megleljük.<stage>Az ajtóhoz fut, hol Juliával találkozik; ki
-                                halványan s akadozva lép elő.</stage></p>
+                                halványan s akadozva lép elő.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
@@ -1301,7 +1365,8 @@
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
             <p>Engedek, bár kínos bizonytalanságba hagynak
-                            szavaid.<stage>El.</stage></p>
+                            szavaid.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -1341,7 +1406,8 @@
                             bírhatandod elcepelni; mert szétzúzó terüként függ rajta azon öntudat,
                             hogy gyalázatodnak tenmagad voltál művésze. - Magad előtt is csúfság -
                             csak egy menedéked lehet még, Petron Maxim! s ez<stage>megfogva kezét,
-                                kiáltva,</stage></p>
+                                kiáltva,</stage>
+            </p>
             <p>gyilkolj meg engem s magadat!</p>
           </sp>
           <sp who="#petron_maxim">
@@ -1390,16 +1456,19 @@
                             a gyűrűnek az én üdvömmel? Mi a játéknak ez asszony erényivel? S mégis
                             megtörtént? Szétzúzni két lényt egy köbbel! A legszeplőtlenebb
                             becsületet sárba sújtni egy köbbel! Meglátom mindjárt.<stage>Vizsga
-                                szemekkel néz maga körül, s az ablakon ki.</stage></p>
+                                szemekkel néz maga körül, s az ablakon ki.</stage>
+            </p>
             <p>Ott a város! ott a csarnok! piac, utca, minden helyén! Na, ha nincs
                             kiemelve sarkaiból a világ, úgy igazán mester vagy,
-                                Valentinian!<stage>Kivonva tőrét.</stage></p>
+                                Valentinian!<stage>Kivonva tőrét.</stage>
+            </p>
             <p>Igen, asszony! teljesül kérelmed; téged is, magamat is.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
             <p>Mit hallok? Rém volt hát, nem valóság! Petron! édes, Petron! örömtül
-                            bódulok most:<stage>Megöleli szenvedéllyel.</stage></p>
+                            bódulok most:<stage>Megöleli szenvedéllyel.</stage>
+            </p>
             <p>Petron! Megbocsáthatsz nekem? Nem, nem bocsáthatsz meg!</p>
           </sp>
           <sp who="#petron_maxim">
@@ -1432,7 +1501,8 @@
                             gondolod, megrepedt? Ó nem! gyarló az ember, de élte vasból van. Légy
                             nyugodt; a féreg is, melyt lábaid szétzúznak, még sokszor megszaporodik
                             kínjában. Vagy mi? Ne legyenek szemeim? tüstént kiszáradjon
-                                agyvelőm?<stage>Közelit nejéhez, s őrülten vizsgálja.</stage></p>
+                                agyvelőm?<stage>Közelit nejéhez, s őrülten vizsgálja.</stage>
+            </p>
             <p>Az ő lehelete, mely tiéddel egybevegyült! Csókja helye ez a folt! Itt
                             nyugodtak karjai! Várnod kellett volna legalább, míg a jelek elmúltak.
                             De mit szégyenled? Csak rablott kegy volt; Isten nem hívand ágyasnak.
@@ -1464,7 +1534,8 @@
                             önmagát, s miként válhatik gyámoltalan polgár mérgiből habzó tenger,
                             mely egy hatalmas fejdelmet biralmastul elborít!<stage>Görcsösen
                                 összekulcsolja kezeit, szemei meredten egy pontra
-                            feszülnek.</stage></p>
+                            feszülnek.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -1480,7 +1551,8 @@
                             veled bujdosni üdvösség. Nagy a világ, ott majd, hol egy idegen nép
                             tátott szájjal fog körül, hol minket, s bánatinkat nem ösmérik, ott
                             ütünk sátort, s választunk új hazát. Ugye, kedvesem, ott?<stage>Reá néz
-                                szerelemmel.</stage></p>
+                                szerelemmel.</stage>
+            </p>
             <p>Nem tűröd, hogy büntetlen marad ő? Látd, szegény ő, szánatra érdemes!
                             Magános rab hideg márvány csarnokban; melyen kívül csak utálatra s
                             megvetésre lel; egy elkábult, ki émelyedve nyalja föl azt a nehány csepp
@@ -1491,7 +1563,8 @@
                             pallost, mely csupán istennek kezibe való - s mely, midőn halandó
                             dacolva nyúl hozzá, egy csapásra sújt le bűnöst és büntetőt!<stage>Reá
                                 néz férjére, s látva, miként az őrült, meredt tekintetet vet
-                                reá.</stage></p>
+                                reá.</stage>
+            </p>
             <p>Egek! Petron! Valóban megijesztesz!</p>
           </sp>
           <sp who="#petron_maxim">
@@ -1510,13 +1583,16 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>fölháborodva.</stage>
-            <p>Gondolod?<stage>Rekedt hangon.</stage></p>
+            <p>Gondolod?<stage>Rekedt hangon.</stage>
+            </p>
             <p>Nem, nem, az egekért, ne mondd azt! Kihúzod még belőlem lelkemet, s
                             rémalakképp állítod ide mellém, hogy szörnyűt haljak
-                                lábaidnál.<stage>Vad hangon.</stage></p>
+                                lábaidnál.<stage>Vad hangon.</stage>
+            </p>
             <p>Menj, menj! ne nézz olyan mélyen szemembe, mintha egy fenevadat akarnál
                             kikergetni odvából; Távozzál,
-                            parancsolom.<stage>Szelídebben.</stage></p>
+                            parancsolom.<stage>Szelídebben.</stage>
+            </p>
             <p>Julia, hagyj keveset egyedül, hogy eszméljek, hogy kiszellőzzem a hevült
                             főt. Nekem néhány percnyi magány kell; aztán minden jól lészen.</p>
           </sp>
@@ -1529,7 +1605,8 @@
             <p>Légy nyugodt! légy nyugodt! légy nyugodt!<stage>Nejét megfogja görcsösen
                                 karjánál, s kivezeti a bal oldali ajtón. Néhány percig üres a
                                 színpad, aztán Maxim visszajön, felháborodottan néz körül, s
-                                vizsgálja az ajtókat, végre megáll a színpad elején.</stage></p>
+                                vizsgálja az ajtókat, végre megáll a színpad elején.</stage>
+            </p>
             <p>Egyedül! Egyedül! Bátorságban van hát, senki nem kémli ki azt az
                             iszonyút, mit e szűk kebelbe rejtek, s zárok el, hogy kiöntsem majd egy
                             egész fajra halálos méregként. Valentinian! balga zsarnok! széttiporod
@@ -1546,7 +1623,8 @@
                             Valentinian! Furcsát gondoltam. Jó volna ezt a sok sereg embert, ki az
                             egész föld fölületén lézeng, henyél s futkos, egybegyűjtni egy
                             csoportba. Nem, nem, az semmi tréfaság. Ha egy isteni Néró megpróbálná
-                            vén anyját itt<stage>földre üt lábával</stage></p>
+                            vén anyját itt<stage>földre üt lábával</stage>
+            </p>
             <p>felébresztve hosszú álmából, megjajgattatni gyötrelmében, huh! mily
                             irtózatos ordítás lenne az! Meglátnók akkor, elveszne-e benne a szózat,
                             mely innen vészt, gyalázatot kiált fejedre! Becsemre mondom! Jelszava ez
@@ -1559,7 +1637,8 @@
                                 estéken!<stage>Betakarja fejét kezével, s mély gondolatokba merült.
                                 Néhány percnyi szünet után Sidon a közép ajtón bejön, Maximra
                                 tekintve megáll, s csak lassan lép elé. Maxim Sidon jövetelét
-                                észrevéve hátranéz s magában.</stage></p>
+                                észrevéve hátranéz s magában.</stage>
+            </p>
             <p>Sidon! Még magam sem tudom, s már tenni kell, már csalni kell, már küzdni
                             kell!</p>
           </sp>
@@ -1569,7 +1648,8 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Én?<stage>Gúnnyal.</stage></p>
+            <p>Én?<stage>Gúnnyal.</stage>
+            </p>
             <p>Igen, igen, aggódom, mint egy fösvény, ki pénzét kénytelen kiadni,
                             mielőtt megszámlálhatná. Én is, látod-e, egy kincset rejtek el
                             magamnál.</p>
@@ -1603,7 +1683,8 @@
             <speaker>SIDON</speaker>
             <stage>magában.</stage>
             <p>Oly váratlan csöndes! Fenn. Megládd, mily érdekes, mit veled
-                                közlendek.<stage>Leül.</stage></p>
+                                közlendek.<stage>Leül.</stage>
+            </p>
             <p>Reám nézve fontos éj volt ez; Cézár kegyeiből kibuktam.</p>
           </sp>
           <sp who="#petron_maxim">
@@ -1637,12 +1718,14 @@
             <speaker>MAXIM</speaker>
             <stage>nevetve.</stage>
             <p>Sok igen terhes is van köztük.<stage>Hoznak egy kancsót két serleggel.
-                                Maxim tölt Sidonnak.</stage></p>
+                                Maxim tölt Sidonnak.</stage>
+            </p>
           </sp>
           <sp who="#sidon">
             <speaker>SIDON.</speaker>
             <p>Kellemetlen így magára inni; - neked is töltök. -<stage>Tölt
-                                Maximnak.</stage></p>
+                                Maximnak.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
@@ -1664,13 +1747,15 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Unalmas szeszélyes vagy; de ám legyen!<stage>Kimegy a közép ajtón,
-                                azalatt.</stage></p>
+                                azalatt.</stage>
+            </p>
           </sp>
           <sp who="#sidon">
             <speaker>SIDON</speaker>
             <stage>magában.</stage>
             <p>Most serényen!<stage>Port vesz ki zsebéből, s Maxim serlegébe
-                                hinti.</stage></p>
+                                hinti.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
@@ -1712,8 +1797,10 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Hűlten szeretem.<stage>Magában.</stage></p>
-            <p>Különös! nagyon késztet.<stage>Fennhangon.</stage></p>
+            <p>Hűlten szeretem.<stage>Magában.</stage>
+            </p>
+            <p>Különös! nagyon késztet.<stage>Fennhangon.</stage>
+            </p>
             <p>Folytasd csak.</p>
           </sp>
           <sp who="#sidon">
@@ -1721,18 +1808,21 @@
             <p>Titkos tanácsot tartok Heraclessel. Én Heraclest nem szívelhetem; nyájas
                             ugyan irántam, de ily biztos ember előtt ki merem mondani, nincs nálánál
                             esküdtebb ellenségem.<stage>Iszik, s ismét telitölti
-                            serlegét.</stage></p>
+                            serlegét.</stage>
+            </p>
             <p>Mi ez? én már a második pohárnál; te még az elsőből sem ízeltél!</p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Ha így szakadozva beszélsz, úgy estve lesz, míg regéd végihez jutunk. Na,
                             iszom hát, te önfejes! iszom barátságunkra! Mondd tovább.<stage>A
-                                serleget fölemeli, s magában.</stage></p>
+                                serleget fölemeli, s magában.</stage>
+            </p>
             <p>A próba nem ártand.<stage>Azalatt, míg Sidon elfordulva tőle, folytatja
                                 beszédit, ő halkan az asztalnak egy rejtett fiókját nyitja föl, egy
                                 edényecskét vesz ki, s abból néhány cseppet a serlegbe
-                            önt.</stage></p>
+                            önt.</stage>
+            </p>
           </sp>
           <sp who="#sidon">
             <speaker>SIDON.</speaker>
@@ -1751,7 +1841,8 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Igen - igen.<stage>Serlegét mutatja.</stage></p>
+            <p>Igen - igen.<stage>Serlegét mutatja.</stage>
+            </p>
             <p>Nézd, mily zavaros kék! rögtön ölő méreg ez. Én vigyázóbb voltam, s
                             próbát tettem óvszerrel. Szegény! egy teli serlegnél többet ittál meg.
                             Orvos után küldök! bár késő. De még semmit sem érzesz?
@@ -1761,30 +1852,35 @@
             <speaker>SIDON</speaker>
             <stage>tettetett rettegéssel.</stage>
             <p>Jaj nekem jaj! huh! mint nyilallok itt! Tűrhetlen fájdalom!<stage>Hasára
-                                teszi kezét.</stage></p>
+                                teszi kezét.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Vedd szíves végbúcsúmat, édes barátom! De hogy tisztába jöjjünk, e
-                            serleget is megtekintem.<stage>Sidon serlegére mutat.</stage></p>
+                            serleget is megtekintem.<stage>Sidon serlegére mutat.</stage>
+            </p>
           </sp>
           <sp who="#sidon">
             <speaker>SIDON.</speaker>
             <p>Segítség! Segítség! Már veszem észre, haldoklom.<stage>Erőtetett
                                 nyugtalansággal hadar karjaival, serlegét s a kancsót fel akarja
-                                dönteni. Maxim megelőzi, s mindkettőt erősen megfogja.</stage></p>
+                                dönteni. Maxim megelőzi, s mindkettőt erősen megfogja.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Csak ne hirtelenkedjél vonaglásodban.<stage>A Sidon serlegébe is önt
-                                üvegéből. Így! Vizsga szemekkel nézi a serleget.</stage></p>
+                                üvegéből. Így! Vizsga szemekkel nézi a serleget.</stage>
+            </p>
             <p>Hogy van ez? Az ital itt tiszta maradt. Semmi jel? Ebben tehát nem volt
                             méreg? Mily szerencse!</p>
           </sp>
           <sp who="#sidon">
             <speaker>SIDON.</speaker>
             <p>Ó csalódol! csalódol! érzem én - végem van, ha ellenmérget nem
-                                veszek.<stage>El akar suhanni, Maxim megfogja kezénél.</stage></p>
+                                veszek.<stage>El akar suhanni, Maxim megfogja kezénél.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
@@ -1808,7 +1904,8 @@
                             adand-e csupa féltékenységből az egész tervnek egy éppen nem kedvező
                             fordulatot? Ez, mint mondám, rejtély előttem. Mármost igyál; a te
                             remekmíved ez; illő, hogy magad élvezd.<stage>Serlegét nyújtja
-                                Sidonnak.</stage></p>
+                                Sidonnak.</stage>
+            </p>
           </sp>
           <sp who="#sidon">
             <speaker>SIDON</speaker>
@@ -1824,26 +1921,32 @@
                             arra, hogy a törvény teljesüljön; cinkosidnak érdekükben áll
                             ártatlanságot színlelni, téged nem pártfogolva - harmadik ok, nem
                             szökhetsz el, mert künn emberek várnak parancsimra,
-                                negyedik.<stage>Szünet.</stage></p>
+                                negyedik.<stage>Szünet.</stage>
+            </p>
             <p>Méltánylod helyzeted? mármost szabad rab ember, válassz e három közt:
                             méreg, vesztőhely<stage>e szavakra Sidon ismét térdre
-                            rogyik,</stage></p>
+                            rogyik,</stage>
+            </p>
             <p>szolgai engedelmesség, s ezzel együtt egy kis pengő jutalom, gazdag
                             szolgai bér. Ha! ha! Oly nemű lénynek, milyen te vagy, a választás
                             nemigen nehéz leend? Na, kelj föl, látom, szolgám vagy! Mármost szolga
                             szabad ember! Kötéslevelet írunk, különben kicsúszhatnál
-                                kezemből.<stage>Írószert vesz ki az asztalból.</stage></p>
-            <p>Mártsd a festékbe!<stage>Sidon az asztalhoz ül.</stage></p>
+                                kezemből.<stage>Írószert vesz ki az asztalból.</stage>
+            </p>
+            <p>Mártsd a festékbe!<stage>Sidon az asztalhoz ül.</stage>
+            </p>
             <p>Nevedet! "Ezennel megismérem és bizonyítom, hogy én, én, egy gonosztévő -
                             gonosztévő -, na, nem írsz? megmondám, tőled függ. Gonosztévő vagyok, a
                             hóhér pallosára érdemes, ki mai napon embergyilkosság szándékból mentem
                             Petron Maxim római polgár- s szenátorhoz, kit méreggel akartam
                             megétetni." A helyt s napot! így!<stage>Az írást magához
-                            veszi.</stage></p>
+                            veszi.</stage>
+            </p>
             <p>Mielőtt e házból kiléphetnél, általam összehívandó tanúk előtt
                             kijelented, hogy ez irat itt, önkénytes nyilatkozatodat foglalja
                             magában. Tehát visszavonásról szó többé nem
-                            lehet.<stage>Leül.</stage></p>
+                            lehet.<stage>Leül.</stage>
+            </p>
             <p>Szolga! Téged jótékony nemtő hozott ide! Most hallgasd urad
                             parancsát.</p>
             <stage>A kárpit legördül.</stage>
@@ -1899,16 +2002,19 @@
         </sp>
         <sp who="#marc">
           <speaker>MARC.</speaker>
-          <p>Nem, talán nem. Képzelhetlen, mit akarnak!<stage>Placidiához.</stage></p>
+          <p>Nem, talán nem. Képzelhetlen, mit akarnak!<stage>Placidiához.</stage>
+          </p>
           <p>Csak tüstént be a csarnok ajtaján; arrafelé nincs senki.</p>
         </sp>
         <sp who="#placidia">
           <speaker>PLACIDIA.</speaker>
-          <p>Isten veled!<stage>El.</stage></p>
+          <p>Isten veled!<stage>El.</stage>
+          </p>
         </sp>
         <sp who="#marc">
           <speaker>MARC.</speaker>
-          <p>Mi meg erre.<stage>Palladot más irányba vezeti. Zaj hallatszik.</stage></p>
+          <p>Mi meg erre.<stage>Palladot más irányba vezeti. Zaj hallatszik.</stage>
+          </p>
           <p>Közelegnek a léptek, úgy hát erre így talán kikerüljük.</p>
         </sp>
         <sp who="#pallad">
@@ -1937,8 +2043,10 @@
         <sp who="#gaudent">
           <speaker>GAUDENT</speaker>
           <p>Szeszélyből? Tudok mindent, nekem is vannak kémeim; mire ennyi
-                            szó?<stage>Őrökhöz.</stage></p>
-          <p>Fogjátok meg!<stage>Az őrök előrenyomulnak.</stage></p>
+                            szó?<stage>Őrökhöz.</stage>
+          </p>
+          <p>Fogjátok meg!<stage>Az őrök előrenyomulnak.</stage>
+          </p>
         </sp>
         <sp who="#pallad">
           <speaker>PALLAD.</speaker>
@@ -1953,7 +2061,8 @@
           <speaker>PALLAD</speaker>
           <stage>hátrál.</stage>
           <p>Ez nem történend meg, míg csak egy csepp vér foly ereimben.<stage>Kihúzza
-                            kardját.</stage></p>
+                            kardját.</stage>
+          </p>
           <p>Ha oly bátor vagy, milyen szemtelen, úgy tegyünk ketten próbát egymáson.</p>
         </sp>
         <sp who="#gaudent">
@@ -1964,7 +2073,8 @@
         <sp who="#marc">
           <speaker>MARC.</speaker>
           <p>Hevességed nem hagyta észrevenned, miként tenmagad vagy a
-                            törvénysértő.<stage>Szelídebben.</stage></p>
+                            törvénysértő.<stage>Szelídebben.</stage>
+          </p>
           <p>Gondold meg! Ilyet nem tehetsz.</p>
         </sp>
         <sp who="#gaudent">
@@ -1986,7 +2096,8 @@
         <sp who="#gaudent">
           <speaker>GAUDENT.</speaker>
           <p>Az elmés fölszólításra csupán egy kérdéssel felelek.<stage>Az
-                            őrökhöz.</stage></p>
+                            őrökhöz.</stage>
+          </p>
           <p>Az őrség feje nem hagyta-e meg teljesítnetek parancsim?</p>
         </sp>
         <sp who="#orseg">
@@ -1995,7 +2106,8 @@
         </sp>
         <sp who="#gaudent">
           <speaker>GAUDENT.</speaker>
-          <p>Engedelmeskedjetek tehát!<stage>Az őrök Palladot elfogják.</stage></p>
+          <p>Engedelmeskedjetek tehát!<stage>Az őrök Palladot elfogják.</stage>
+          </p>
         </sp>
         <sp who="#pallad">
           <speaker>PALLAD</speaker>
@@ -2055,12 +2167,14 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>indulatosan.</stage>
-            <p>Hogy én, hogy én...<stage>Fejére ütve halkan.</stage></p>
+            <p>Hogy én, hogy én...<stage>Fejére ütve halkan.</stage>
+            </p>
             <p>Hah! mi ötletem volt! Nem Aet-e az, ki ezen elaljasodott kormánynak
                             valami fényt ád, hősi dicsével? Nem ő, ki utamba állana, bármi terv
                             kiviteléhez fognék? S én e szép alkalmat elmulasztanám? Nem - hála
                             égnek! -, kétkedés lehetősége szabta előmbe, most már meg kell
-                                állapodnom.<stage>Marchoz fordulva.</stage></p>
+                                állapodnom.<stage>Marchoz fordulva.</stage>
+            </p>
             <p>Még itt?</p>
           </sp>
           <sp who="#marc">
@@ -2070,7 +2184,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Aha! Igen-igen.<stage>Kis szünet után, mintha mélyen gondolkodott
-                                volna.</stage></p>
+                                volna.</stage>
+            </p>
             <p>Édes Marc! Jobban meggondoltam. Igaz, méltatlanság történt házamon, nagy
                             méltatlanság, de ládd, némi részben fiam is hibás volt, neki becsülni
                             kellett volna a fejedelem s apa akaratát, s ezen alapuló jogokat; nem
@@ -2116,7 +2231,8 @@
             <speaker>MAXIM.</speaker>
             <p>Ó! ama jóféle udvari cimborák! Én Cézárnak hálával tartozom, szeretett
                             bajtársinak ajtaim mindig nyitvák. Jöhetnek! Te pedig, hová
-                                küldtelek.<stage>Marc el.</stage></p>
+                                küldtelek.<stage>Marc el.</stage>
+            </p>
             <p>Talán valami kelepce, mint a ma reggeli; ha ebbül is okulhatnánk!</p>
             <stage>Julian, Avenar, Caustin belépnek, s ünnepélyesen köszönnek.</stage>
           </sp>
@@ -2266,7 +2382,8 @@
           <sp who="#julian">
             <speaker>JULIAN</speaker>
             <stage>társaihoz halkan.</stage>
-            <p>Rossz helyt kopogtattunk!<stage>Fenn.</stage></p>
+            <p>Rossz helyt kopogtattunk!<stage>Fenn.</stage>
+            </p>
             <p>Mi ezeket csak úgy hoztuk elő, mint másoktól hallottakat. Távol tőlünk,
                             hogy Aetet vádolni akarnánk! neki sok érdemei vannak. Az egész
                             összeesküvés csak föltételes volt; hogyha valósulnának gyanúink.
@@ -2281,7 +2398,8 @@
             <speaker>JULIAN.</speaker>
             <p>Mihelyt másképp ítélsz a dologrul, mi szívesen engedünk. Tartsd meg
                             irántunki jóindulatodat.<stage>Társaival együtt menni
-                            készül.</stage></p>
+                            készül.</stage>
+            </p>
             <p>Kérjük, a mondottak maradjanak csupán köztünk.</p>
           </sp>
           <sp who="#petron_maxim">
@@ -2299,7 +2417,8 @@
             <speaker>MAXIM.</speaker>
             <p>Tréfa? nem, azt késő mondani. Oly lelkületű ifjak, milyenek ti vagytok,
                             összeesküvésből játékot nem űzendnek. A dolog való, komoly való! Rómát
-                            mindenként veszély fenyegeti.<stage>Szünet.</stage></p>
+                            mindenként veszély fenyegeti.<stage>Szünet.</stage>
+            </p>
             <p>Ifjak! engem jogosnak ösmer mindenki, erről ellenim tehetnek bizonyságot;
                             ezúttal is az kívánok maradni, Aethez nem ragaszkodom, becsemre mondom,
                             ha bizonyítványt hoztok, neki lakolni kell; én is, egész befolyásommal
@@ -2313,7 +2432,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Ne féljetek, ha lelkisméretetek nem vádol. Én fejedelmemnek kívánok
-                            szolgálni, nem nektek ártani.<stage>Szünet.</stage></p>
+                            szolgálni, nem nektek ártani.<stage>Szünet.</stage>
+            </p>
             <p>Aet szakadatlan viszonyban áll Boethtal s fiával; levelezéseiből; hiszem,
                             sok kisülhetne, ha minden nem is. Engem néhány becsmérlő, határtalan
                             becsszomjra mutató kifejezés megnyugtatna. Holnap, mint hallám, hírvivőt
@@ -2352,11 +2472,13 @@
             <speaker>MAXIM.</speaker>
             <p>Ahhoz, mit említék; vagy, vagy - holnapig elhatározódik minden. Hiszen a
                             hírvivőnél lesznek levelek Aettől.<stage>Kívülről zaj
-                                hallatszik.</stage></p>
+                                hallatszik.</stage>
+            </p>
             <p>Léptek! többet nem szólhatok a dologrul. Mondom, bízhattok bennem, ha a
                             terv létesül, belőletek nagy embereket faragunk. Erre, a mellékajtón,
                             itt nem találkoztok senkivel sem.<stage>A jobb ajtón vezeti
-                            el.</stage></p>
+                            el.</stage>
+            </p>
             <stage>Avien, Triget, Basil, Cajus, Fulgent s több más szenátorok a közép
                             ajtón jönnek be.</stage>
           </sp>
@@ -2595,10 +2717,12 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Aet, Aet! Miért jött ez éppen házadtól!<stage>A
-                            szenátorokhoz.</stage></p>
+                            szenátorokhoz.</stage>
+            </p>
             <p>Bocsánatot, ha lelkem nem eléggé edzett a jelen állást hidegen fölfogni,
                             s mielőtt végeznék, egy sóhajt áldozok régi érzetimnek!<stage>Szünet,
-                                mely alatt Maxim mély gondolatokba látszik merülni.</stage></p>
+                                mely alatt Maxim mély gondolatokba látszik merülni.</stage>
+            </p>
             <p>Ti nem tudtok mindent. Aetra sokan irigykednek, csel szövetik ellene, ma
                             tudtam meg néhány könnyelmű ifjútól, kik bennem jó cimborát kerestek.
                             Heracles, az alávaló ármányfőnök, gyanítom, Sidon is véle tart; ezek
@@ -2607,8 +2731,10 @@
                             nézve adott szavát visszavegye. Nem szívesen nyújtnék ezeknek bármi
                             módon is segédkezeket. Vajha itt volna maga Aet! Soha jelenléte
                             szükségesb nem lehete!<stage>Két szenátorra tekint, kik kevéssé meg
-                                látszanak rémülve, s magában.</stage></p>
-            <p>Talált az ütés.<stage>Fenn, kezét szájára téve.</stage></p>
+                                látszanak rémülve, s magában.</stage>
+            </p>
+            <p>Talált az ütés.<stage>Fenn, kezét szájára téve.</stage>
+            </p>
             <p>De istenért! mindenek fölött, legmélyebb hallgatást!</p>
           </sp>
           <sp who="#triget">
@@ -2617,7 +2743,8 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Mégis jobb vigyázva lépni föl.<stage>Szünet.</stage></p>
+            <p>Mégis jobb vigyázva lépni föl.<stage>Szünet.</stage>
+            </p>
             <p>Egy ötletem volt, ha maga Cézár által parancsoltatnék meg Boethnak:
                             fiamat bocsássa szabadon, úgy talán mindennek vége szakadna.</p>
           </sp>
@@ -2685,7 +2812,8 @@
                             patricunknak alkalma lenne fejdelmét még egyenesebben kötelezni le, s
                             megmutatni, hogy önhatalmára s háza magas szövetségire nézve nem oly
                             féltékeny, mint állítják. Rám nézve, igaz, kellemetlen eset, mert fiam
-                            még egy-két napig fogva maradhatna.<stage>Vállat vonogatva.</stage></p>
+                            még egy-két napig fogva maradhatna.<stage>Vállat vonogatva.</stage>
+            </p>
             <p>Na! Azalatt legalább új gondolatlanságtól ment volnék! Ha nem
                             kényteleníttetem könyörögni, mit lealázónak érzenék, minden egyébben
                             könnyen megnyugszom.</p>
@@ -2727,7 +2855,8 @@
             <speaker>FULGENT</speaker>
             <stage>távozva.</stage>
             <p>Maxim! Kívánom, mit most erőtettél, valaha meg ne
-                            bánd.<stage>El.</stage></p>
+                            bánd.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
@@ -2747,7 +2876,8 @@
                             több, elmésebb - lángba süllyedt éden! S ő is, szegény nő! - iszonyú. Mi
                             ehhez képest a dühödt önmarcangolása. Élet? Emberélet? Szélvész? - Nem,
                             csak felhő, világ szélvészi ált kergetett.<stage>Mélyen
-                            elmerül.</stage></p>
+                            elmerül.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA</speaker>
@@ -2758,17 +2888,22 @@
             <speaker>MAXIM</speaker>
             <stage>ijedten.</stage>
             <p>Kegyetlen? Magam sem tudom már, mi
-                            vagyok!<stage>Megilletődve.</stage></p>
-            <p>Szegény Juliám!<stage>Magában.</stage></p>
+                            vagyok!<stage>Megilletődve.</stage>
+            </p>
+            <p>Szegény Juliám!<stage>Magában.</stage>
+            </p>
             <p>De mit állok? nem szabad henyélnem, futnom kell, igen futnom kell!
-                            Sidonhoz, Cézárhoz!<stage>Fenn, Juliához.</stage></p>
-            <p>Még ma szólunk egymással!<stage>Kirohan a közép ajtón.</stage></p>
+                            Sidonhoz, Cézárhoz!<stage>Fenn, Juliához.</stage>
+            </p>
+            <p>Még ma szólunk egymással!<stage>Kirohan a közép ajtón.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
             <p>Petron! Petron! Ő elment, nem hall, nem lát, nem szán! Istenem, mint
                             elváltozott! Mit forral magában. S nekem semmit sem szabad
-                                tudnom!<stage>El.</stage></p>
+                                tudnom!<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2807,7 +2942,8 @@
             <stage>körültekint, mintha titkos lényekkel szólna.</stage>
             <p>Halljátok tehát! értitek mindnyájan az elfogult szavait; kit vágyai
                             ellenállhatlan erővel ragadtak el! Ő kényszerít; a bajnak oka nem
-                                leendek.<stage>Cézárhoz.</stage></p>
+                                leendek.<stage>Cézárhoz.</stage>
+            </p>
             <p>Jól van, ígértem. Kívánod, a csillagzat engedi; meglesz. A titok
                             kibontatik előtted, csak meg ne bánd! Jer ide!</p>
           </sp>
@@ -2828,13 +2964,15 @@
             <speaker>SIDON.</speaker>
             <p>Tartsd eszedben; ha a szükség kívánja, elmondjuk.<stage>Pálcájával
                                 hadaráz, azt a mécses felé nyújtja, azonnal kék láng lobog
-                                végin.</stage></p>
+                                végin.</stage>
+            </p>
             <p>Vész! Vész! Vész az ellenszegülőnek! E pálcán kékellő lángnál fogva
                             mondom, mely elterjedend annak oltárán, ki nektek parancsol! Vész! Vész!
                             Vész! Ama démonnak, ki három s négy rejtélyes egybeszövetkezése hatalmát
                             megvetné! A hosszú kígyónak öröklő átka reája.<stage>A pálcával a szoba
                                 közepén levő oltárhoz ér. Mennykőütéshez hasonló zaj hallatszik;
-                                lánglobogás látszik minden oldalrul. Cézárhoz fordulva.</stage></p>
+                                lánglobogás látszik minden oldalrul. Cézárhoz fordulva.</stage>
+            </p>
             <p>Most a mondatot, mert vész közelg.</p>
           </sp>
           <sp who="#iii_valentinian #sidon">
@@ -2861,7 +2999,8 @@
             <speaker>SIDON</speaker>
             <stage>Cézárhoz.</stage>
             <p>Lám! bátorságban vagyunk már!<stage>Vad hangon botjával
-                                hadarázva.</stage></p>
+                                hadarázva.</stage>
+            </p>
             <p>Tudjátok akaratunk! jövőt látni, parancsolunk.</p>
             <stage>A színpad hátrészén függöny emelkedik föl; ott elétűnnek Cézár, Aet,
                             Gaudent alakjai s több mások. Cézár trónján ül, előinti Aetet s
@@ -2892,7 +3031,8 @@
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
-            <p>Maxim! éppen az, kitől legkevésbé vártam!<stage>Magában.</stage></p>
+            <p>Maxim! éppen az, kitől legkevésbé vártam!<stage>Magában.</stage>
+            </p>
             <p>Ha mindent elgondolok, ma kijelentett bátorságos indulatát, meglepő
                             ígéretit, némiképpen hihetővé lesz! Meglátom, szavát tartandja-e?</p>
           </sp>
@@ -2903,20 +3043,24 @@
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Szólítsd elő szellemidet, értekeződni szeretnék velök.<stage>Harang
-                                üt.</stage></p>
+                                üt.</stage>
+            </p>
           </sp>
           <sp who="#sidon">
             <speaker>SIDON.</speaker>
             <p>Hallod-é? Eltölt az idő!<stage>Egy bűvlámpa laterna magica-féle négyszeg
                                 edényt az asztalról felveszen, az oltáron a tűz azonnal elalszik, s
-                                a mécses meggyúlad.</stage></p>
+                                a mécses meggyúlad.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
             <stage>magában.</stage>
             <p>Annyira várt órám ütött! Sietnem kell az összejövetelre!<stage>Fenn
-                                Sidonhoz.</stage></p>
-            <p>Köszönöm szolgálatod.<stage>Sebesen el.</stage></p>
+                                Sidonhoz.</stage>
+            </p>
+            <p>Köszönöm szolgálatod.<stage>Sebesen el.</stage>
+            </p>
           </sp>
           <sp who="#sidon">
             <speaker>SIDON.</speaker>
@@ -2936,12 +3080,14 @@
           </sp>
           <sp who="#sidon">
             <speaker>SIDON.</speaker>
-            <p>Édes jó, jámbor Heracles!<stage>Meg akarja ölelni, nevetve.</stage></p>
+            <p>Édes jó, jámbor Heracles!<stage>Meg akarja ölelni, nevetve.</stage>
+            </p>
           </sp>
           <sp who="#heracles">
             <speaker>HERACLES</speaker>
             <stage>nagy méreggel.</stage>
-            <p>Kacagsz?!<stage>Lábával rúgja a földet!</stage></p>
+            <p>Kacagsz?!<stage>Lábával rúgja a földet!</stage>
+            </p>
             <p>Jós! Bűbájos! Pokolmester! Drágán fizeted ezt meg!</p>
           </sp>
           <sp who="#sidon">
@@ -2987,7 +3133,8 @@
                             voltunk, sokat igazítottunk el közönkézen; sokrul kérhetnének tőlünk
                             számot. Ezekről, tudod, elegendő bizonyítványaim vannak kezemnél; ha
                             vész közelg, miért fenyegetne egyedül engem. Miért ne
-                                kettőnket?<stage>Szünet. Heracles meg van lepve.</stage></p>
+                                kettőnket?<stage>Szünet. Heracles meg van lepve.</stage>
+            </p>
             <p>Na! ne többet errül! Mi frigyesek maradunk, Heraclesem, ugye?
                             Csodálkozásod méltánylom. Hogy Maximot vettem védszárnyaim alá, kinek te
                             mérget adtál, ez mindenesetre magyarázatot kíván; megadom, ha démonim
@@ -2995,9 +3142,12 @@
                             akartam kerülni. Majd a te sorod is elkövetkezend. Maxim pedig - hahaha!
                             - egy ügyefogyott, ki bölcseivel gondol csak, aggodalmadra nem méltó;
                             azután meg Aetnak ellensége, magától tudom; talán
-                                használhatjuk!<stage>Magában halkan.</stage></p>
-            <p>Majd jólesik a jutalom is, melyt ígért.<stage>Fenn.</stage></p>
-            <p>De félelmes itt, manóknak szentelt helyen.<stage>Nevet.</stage></p>
+                                használhatjuk!<stage>Magában halkan.</stage>
+            </p>
+            <p>Majd jólesik a jutalom is, melyt ígért.<stage>Fenn.</stage>
+            </p>
+            <p>De félelmes itt, manóknak szentelt helyen.<stage>Nevet.</stage>
+            </p>
             <p>Menjünk máshová, ott bővebb felvilágosítást adok, kedves cimborám.</p>
             <stage>Megfogja Heraclest karjánál, s mindketten beszélgetve
                             kimennek.</stage>
@@ -3066,11 +3216,15 @@
             <speaker>MAXIM.</speaker>
             <p>Na, ne félj! mindennek jó vége leend.<stage>Julia kezét férje vállára
                                 teszi, s szerelmesen néz reá - Maxim feléje fordul s nagy
-                                szenvedéllyel.</stage></p>
-            <p>Julia!<stage>Ismét elfordul, s magában.</stage></p>
+                                szenvedéllyel.</stage>
+            </p>
+            <p>Julia!<stage>Ismét elfordul, s magában.</stage>
+            </p>
             <p>Istenem ilyen nőt! Az áldozat szétzúz!<stage>Julia meg akarja ölelni,
-                                Maxim hátralép, s tört hangon.</stage></p>
-            <p>Hagyj el engem, Julia!<stage>Magában.</stage></p>
+                                Maxim hátralép, s tört hangon.</stage>
+            </p>
+            <p>Hagyj el engem, Julia!<stage>Magában.</stage>
+            </p>
             <p>Bosszú! Bosszú! Cézár elméjire hatni nincs más mód; csak ez jusson most
                             eszembe.</p>
           </sp>
@@ -3092,13 +3246,15 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>magában.</stage>
-            <p>Már vége ennek is!<stage>Juliához.</stage></p>
+            <p>Már vége ennek is!<stage>Juliához.</stage>
+            </p>
             <p>Különösök, váratlanok fognak ott nemsokára történni; de ne engem okozz,
                             ne hozz rólam ítéletet; míg védelmemet nem hallod.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Jaj, jaj! Mi történedik itt?<stage>Léptek hallatszanak.</stage></p>
+            <p>Jaj, jaj! Mi történedik itt?<stage>Léptek hallatszanak.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
@@ -3123,7 +3279,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>magában.</stage>
-            <p>Túlestünk mindenen.<stage>Erőltetett csönddel Cézárhoz.</stage></p>
+            <p>Túlestünk mindenen.<stage>Erőltetett csönddel Cézárhoz.</stage>
+            </p>
             <p>Gyors voltam, ugye? többet nem várhatál. A nő itt! Bízol már
                             szavamban?</p>
           </sp>
@@ -3134,7 +3291,8 @@
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
             <stage>közelg Juliához.</stage>
-            <p>Mindig oly vad<stage>halkabban,</stage></p>
+            <p>Mindig oly vad<stage>halkabban,</stage>
+            </p>
             <p>mint a múlt éjjel. Látd, férjed nem ellenzi.</p>
           </sp>
           <sp who="#julia">
@@ -3142,19 +3300,23 @@
             <stage>kétségbeesett ijedtséggel.</stage>
             <p>Valentinian! Így nyílnak meg szemeim! Maxim! Te ördög vagy! Az ég ily
                             iszonyt nem engedhet meg!<stage>Ki akar rohanni, de az ajtónál ájultan
-                                összerogyik.</stage></p>
+                                összerogyik.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>mély indulattal.</stage>
-            <p>Hah!<stage>Színlelt csönddel Cézárhoz.</stage></p>
+            <p>Hah!<stage>Színlelt csönddel Cézárhoz.</stage>
+            </p>
             <p>Látod, fejdelmem! Az áldozatot megtettem. Tiéd marad ő, jogomrúl
                             lemondok. E titkos szállást számodra béreltem ki, itt senki sem háborít.
                             A ház mindennel ellátva. Gyönyöröd titok marad. Mi most történt, nem
                             hibám; majd megszelídül! De engedjük nyugodjék szegény! Cézár!
                             Gyöngédséggel nyerended meg őt, erőszak
-                            idegenít.<stage>Magában.</stage></p>
-            <p>Nem hagyhatom itt. Most legalább nem.<stage>Fenn.</stage></p>
+                            idegenít.<stage>Magában.</stage>
+            </p>
+            <p>Nem hagyhatom itt. Most legalább nem.<stage>Fenn.</stage>
+            </p>
             <p>Emlékszel, Cézár, ama gyermekkorodi jóslatra, melyrül minap beszéltél,
                             hogy téged egykor végveszély fenyegetend egy asszony miatt, ki tőled
                             megtagadja szerelmit. Légy türelmes; ez legbiztosabb út szívéhez.
@@ -3232,7 +3394,8 @@
                             szembeszökőleg sértette meg! De nem azért könyörögtem: a fejdelem
                             magasztalt napja az országnak, melynek jótékony sugarit a méltatlantól
                             sem kívánom elvonni; nekem elég, ha én is
-                                éldelhetem.<stage>Cézárhoz.</stage></p>
+                                éldelhetem.<stage>Cézárhoz.</stage>
+            </p>
             <p>Szólj magad! Nyugtasd meg őket, kik a tegnapi eset ált nagy zavarba
                             hozattak. Becses jószág a szabadság, s katonai önkénytől függni
                             fájdalmas.</p>
@@ -3244,7 +3407,8 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Éljen a jó császár!<stage>Néhány szenátort megtaszít.</stage></p>
+            <p>Éljen a jó császár!<stage>Néhány szenátort megtaszít.</stage>
+            </p>
             <p>Na, ti is!</p>
           </sp>
           <sp who="#triget">
@@ -3291,7 +3455,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>magában.</stage>
-            <p>Ennyi gyávaságra nem számoltam!<stage>Halkan Cézárhoz.</stage></p>
+            <p>Ennyi gyávaságra nem számoltam!<stage>Halkan Cézárhoz.</stage>
+            </p>
             <p>Fejdelmem, te félsz! félsz dacos tekintetitől...</p>
           </sp>
           <sp who="#iii_valentinian">
@@ -3304,7 +3469,8 @@
             <p>Bátornak, hősinek tudtalak mindig; erről bizonyságot tehetek. Reménylem,
                             most sem fogsz tétovázni. Szolgád ő, s parancsidnak fejet hajtani
                                 kénytelen.<stage>A szenátorokra mutat, kik azalatt egymás közt
-                                suttognak.</stage></p>
+                                suttognak.</stage>
+            </p>
             <p>Ládd! Ezek várakoznak; itt marasztjuk őket, hadd vihessenek hírt
                             családjaiknak s ösmerőseiknek, mily fejdelmileg, mily hatósan tudsz
                             szólani.</p>
@@ -3317,9 +3483,11 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Ide hívom tehát Boethot!<stage>A szenátorokhoz, kik menni
-                                készülnek.</stage></p>
+                                készülnek.</stage>
+            </p>
             <p>Nem így, barátim! Tisztelt császárunk kívánja, legyetek tanúi
-                                mindennek.<stage>El a közép ajtón.</stage></p>
+                                mindennek.<stage>El a közép ajtón.</stage>
+            </p>
           </sp>
           <sp who="#basil">
             <speaker>BASIL</speaker>
@@ -3344,16 +3512,19 @@
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
             <stage>magában.</stage>
-            <p>Meg kell hát lenni!<stage>Fenn, erőltetett bosszankodással.</stage></p>
+            <p>Meg kell hát lenni!<stage>Fenn, erőltetett bosszankodással.</stage>
+            </p>
             <p>Bár itt volna már! A vétkes! A közös ellenség! ki engem s házam
                             megcsúfolta! Ne féljetek, komolyan megmondom neki! Nem kímélem őt!
-                            Rettegjen mérgemtől!<stage>Veri lábával a földet.</stage></p>
+                            Rettegjen mérgemtől!<stage>Veri lábával a földet.</stage>
+            </p>
           </sp>
           <sp who="#triget">
             <speaker>TRIGET</speaker>
             <stage>szomszédihoz.</stage>
             <p>Cézár nagy indulatban van; szánni kezdem Boethot; nagyon meg találja
-                                szidni.<stage>Léptek hallatszanak.</stage></p>
+                                szidni.<stage>Léptek hallatszanak.</stage>
+            </p>
           </sp>
           <sp who="#avien">
             <speaker>AVIEN</speaker>
@@ -3364,10 +3535,12 @@
             <speaker>CÉZÁR</speaker>
             <stage>kevésbé ijedten.</stage>
             <p>Jönnek? Oly hamar? Ez mégis pontosság Boethtól!<stage>Erőltetett
-                                haraggal.</stage></p>
+                                haraggal.</stage>
+            </p>
             <p>No várj, várj!<stage>A színpad elejére fut, Boeth, Gaudent, Maxim
                                 belépnek. Cézár darabig meredten áll, aztán nekirohan Boethnak
-                                mérgesen.</stage></p>
+                                mérgesen.</stage>
+            </p>
             <p>Boeth! Boeth!</p>
           </sp>
           <sp who="#boeth">
@@ -3404,7 +3577,8 @@
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Hallgassatok! Vétkesek vagytok mindnyájan! Ezek is úgy látják.<stage>A
-                                szenátorokra mutat.</stage></p>
+                                szenátorokra mutat.</stage>
+            </p>
             <p>Akarom, Palladot tüstént elbocsássátok!</p>
           </sp>
           <sp who="#gaudent">
@@ -3424,14 +3598,16 @@
             <speaker>BOETH</speaker>
             <stage>Avienhez halkan.</stage>
             <p>Szalmatűz hamar elalszik. Ismérem én őt, s nem rémülök gyermeki
-                                bosszankodásitól.<stage>Fenn Cézárhoz.</stage></p>
+                                bosszankodásitól.<stage>Fenn Cézárhoz.</stage>
+            </p>
             <p>Csillapodjál le, Cézár; nem tudod az elfogatás okát, megmondom.</p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA</speaker>
             <stage>félbeszakasztja.</stage>
             <p>Ne arról - tudjuk, s helytelennek láttuk.<stage>Halkan
-                            Cézárhoz.</stage></p>
+                            Cézárhoz.</stage>
+            </p>
             <p>Parancsolj hallgatást! Az arcátlan még lealázná házadat!</p>
           </sp>
           <sp who="#iii_valentinian">
@@ -3469,7 +3645,8 @@
                             arra, hogy én közvetlen a patrictól függök, mint az egész fegyveres
                             hatalom fővezéritől, s minden parancsok, így a tiéd is, melyeknek
                             különben engedni kívánok, vélem csupán általa közölhetők. Tehát légy
-                            türelemmel, rövid ideig.<stage>Menni készül.</stage></p>
+                            türelemmel, rövid ideig.<stage>Menni készül.</stage>
+            </p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA.</speaker>
@@ -3484,7 +3661,8 @@
             <p>Ez igen kellemetlen szóversengésnek végit akarom szakasztni; arra
                             legbiztosb mód, ha távozom. Vedd mély tiszteletem
                                 kijelentésit.<stage>Meghajtja magát, s Gaudenttel együtt
-                                kimegyen.</stage></p>
+                                kimegyen.</stage>
+            </p>
           </sp>
           <sp who="#cajus">
             <speaker>CAJUS.</speaker>
@@ -3505,7 +3683,8 @@
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Ez nem maradhat így! Lealázva volnék. Rettegjenek ők! Mindenekelőtt
-                            akarom, teljesüljön parancsom.<stage>Ajtó felé megyen.</stage></p>
+                            akarom, teljesüljön parancsom.<stage>Ajtó felé megyen.</stage>
+            </p>
             <p>Kényszerítendem, bármibe kerüljön. Hej! néhány tisztet ide!</p>
           </sp>
           <sp who="#petron_maxim">
@@ -3530,7 +3709,8 @@
           <sp who="#avien">
             <speaker>AVIEN.</speaker>
             <p>Ha császáromnak több közlendője nincsen, úgy ajánljuk magunkat
-                                kegyeibe.<stage>Cézárhoz halkan.</stage></p>
+                                kegyeibe.<stage>Cézárhoz halkan.</stage>
+            </p>
             <p>Tudom, Boeth magaviselete nem leend a patricnak kedvére.</p>
           </sp>
           <sp who="#iii_valentinian">
@@ -3587,7 +3767,8 @@
           <sp who="#eudoxia">
             <speaker>EUDOXIA.</speaker>
             <p>Tartsd eszedben, fontold, taglald, mit mondtam. Én távozom, különben
-                            messze ragadnának el érzetim.<stage>Menve.</stage></p>
+                            messze ragadnának el érzetim.<stage>Menve.</stage>
+            </p>
             <p>Egy szánakozásra méltó leány vár reám, könnyes szemekkel.</p>
           </sp>
           <sp who="#petron_maxim">
@@ -3595,7 +3776,8 @@
             <p>Ha szeretett császárném megengedi, elkísérendem szállására. Már nem lehet
                             különben, nekem kell elveszett udvarnoka helyit kipótolnom: az apa
                             legtermészetesb képviselője fiának.<stage>Cézárhoz</stage>.</p>
-            <p>Fejdelmem! Mindjárt itt termek.<stage>Eudoxia s Maxim el.</stage></p>
+            <p>Fejdelmem! Mindjárt itt termek.<stage>Eudoxia s Maxim el.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
@@ -3659,7 +3841,8 @@
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
-            <p>Különös ember!<stage>Gondolatokba merül.</stage></p>
+            <p>Különös ember!<stage>Gondolatokba merül.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
@@ -3667,14 +3850,16 @@
             <p>Haladunk, mint látom, sebesen haladunk! Közel már a kelepce, melyből ki
                             nem szabadulandsz többé! Most a levélre kerülend a sor. Szeszélyes
                             udvaroncim jól viselék magokat, nem hiába szorítám
-                                keményen.<stage>Fennhangon.</stage></p>
+                                keményen.<stage>Fennhangon.</stage>
+            </p>
             <p>Tisztelt fejdelmem!</p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Tudom, Maxim, részt veszesz sorsomban; irántami indulatodnak elegendő
                             bizonyságát adád. Benned bízom csak meg emebben.<stage>Heraclesre
-                                mutat.</stage></p>
+                                mutat.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
@@ -3764,7 +3949,8 @@
                             kielégíti a jövevény vágyait, s lekötelezi örökre. Csalódtam! Mérséklést
                             kérek, fejdelem, mert senkinek sem akarok ártani; de itt vannak
                             bizonyságaim - ott künn, a táborban, többre számoltak.<stage>Leveleket
-                                mutat elő, melyeket eddig rejtve tartott.</stage></p>
+                                mutat elő, melyeket eddig rejtve tartott.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
@@ -3781,7 +3967,8 @@
             <speaker>CÉZÁR</speaker>
             <stage>olvas.</stage>
             <p>Egek! Mily szellem! ócsárlása személyeknek! Korlátlan becsszomj, mi itt
-                            alá van húzva.<stage>Olvasva.</stage></p>
+                            alá van húzva.<stage>Olvasva.</stage>
+            </p>
             <p>"Gyáva Cézárunktól nem félek; buja örömök vadászatából áll egész élte,
                             mit gondol ő országlással? De lehetnek körüle rosszakarók, vannak is;
                             ezekre nézve a vigyázatot eléggé nem ajánlhatom."</p>
@@ -3792,19 +3979,22 @@
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
-            <p>Meg itt<stage>olvasva:</stage></p>
+            <p>Meg itt<stage>olvasva:</stage>
+            </p>
             <p>"A fejdelem gyámoltalansága állásunkat ugyan kedvezőbbé teszi, de vannak
                             mindenütt ármányosak, kik kezükben a gyönge is hatalmas eszközzé válik;
                             viseld tehát magad ügyesen, s őriztesd észrevehetlenül, emberid ált.
                             Heraclesben nem bízom, Sidonban sem." Rossz lelkű! Sidon, Sidon! így
                             valósul jóslatod, mind barátra, mind ellenre nézve!<stage>Maxim kezit
-                                megfogva.</stage></p>
+                                megfogva.</stage>
+            </p>
             <p>Segítendsz?</p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>jelentéses tekintettel Cézárhoz.</stage>
-            <p>Mindenem szolgálatodra! Ennyit már tudsz.<stage>Szünet.</stage></p>
+            <p>Mindenem szolgálatodra! Ennyit már tudsz.<stage>Szünet.</stage>
+            </p>
             <p>Fejdelem! Ez még nem minden.</p>
           </sp>
           <sp who="#iii_valentinian">
@@ -3887,7 +4077,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Mi szóval igazítunk mindent, ez biztosb. Ha igen csodálatosnak tetszik,
-                            ne hidd!<stage>Cézár keziben levő levelekre mutat.</stage></p>
+                            ne hidd!<stage>Cézár keziben levő levelekre mutat.</stage>
+            </p>
             <p>Ha igaz volna, e levelekben is tenne róla említést. Csak nem titkolódnék
                             talán leghívebb barátja s tulajdon fia előtt? Másrészt igaz, ilynemű
                             terv kivitele legnagyobb vigyázatot kíván, s csak úgy sülhet el, ha mély
@@ -3914,7 +4105,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Csarnokodba is bizonyosan eljövend.<stage>Szünet után, ünnepélyes
-                                hangon.</stage></p>
+                                hangon.</stage>
+            </p>
             <p>Nézz vissza Róma történeteire: Augusttól fogva mostanig, egy cézár sem
                             tűrt parancsárt maga körül, ki neve dicsőítésére vágyódott.
                             Mulatságszeretők voltak köztük, a világ gyönyöriben részt vevők;
@@ -3951,7 +4143,8 @@
                             magadban mindent, Cézárom! Itt egy hű szolgád. Szól Juliannal s azokkal,
                             kiket megnevezend. Szavamra; bízhatol bennök. Ó! Talán nagy nap közelg!
                             Ismétlem, dicsőség vár reád, örök hála, ha hős leszesz! Elmenve,
-                            magában. El van veszve.<stage>El.</stage></p>
+                            magában. El van veszve.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
@@ -3973,15 +4166,18 @@
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Helyes, és tudósíts. Sietnünk szükség készületeinkkel. Magam veszek részt
-                                mindenben.<stage>Heracles el.</stage></p>
+                                mindenben.<stage>Heracles el.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
             <stage>egyedül.</stage>
             <p>Patric! Nem gyanítod még, mire találandsz!<stage>Keblire
-                            mutat.</stage></p>
+                            mutat.</stage>
+            </p>
             <p>Megvetél; de meglásd, vesztedre fognak engem csodálni! A váratnak eleget
-                            teendek, aztán, maradék, szólj rólam!<stage>El.</stage></p>
+                            teendek, aztán, maradék, szólj rólam!<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4004,7 +4200,8 @@
           <sp who="#eudoxia">
             <speaker>EUDOXIA.</speaker>
             <p>Titkolom szégyened, s tagadom; többet nem
-                            tehetek.<stage>Szünet.</stage></p>
+                            tehetek.<stage>Szünet.</stage>
+            </p>
             <p>Mily büszkék voltak rád nézve terveim! Magasbra emelni magamnál - üdvvel
                             nézni föl feléd! Már nem valósul; szép ábrándként eltűnt előlem.
                             Lemondok, mert nő vagyok; körülményeknek pedig csak a férfi parancsol,
@@ -4045,7 +4242,8 @@
                             nyomadékos, erőteljes férfi lett; belőle is már családfő. Pirulás nélkül
                             említem, mert megtanultam nyugodtan nézni szemeibe; mert ábránd kéjei,
                             ébredés fájdalma, minden elmúlt, sejdítetlen általa, mint
-                                született!<stage>Halkan magában.</stage></p>
+                                született!<stage>Halkan magában.</stage>
+            </p>
             <p>Maxim! Maxim!</p>
           </sp>
           <sp who="#placidia">
@@ -4055,7 +4253,8 @@
                             kérlek, esdeklek, ne légy oly kemény irántam. Nem, nem hagylak,
                             alkalmatlan leszek, panaszlom előtted azon fájdalmakat, miket te is
                             érezél; amíg... Ha te elhagysz, kiben bízzam
-                            még?<stage>Átöleli.</stage></p>
+                            még?<stage>Átöleli.</stage>
+            </p>
             <p>Ő már szabad ugye? Gaudent heveskedésinek nem lett rossz következése?</p>
           </sp>
           <sp who="#eudoxia">
@@ -4077,7 +4276,8 @@
             <p>Aetnek el kell jönni; erre számolok. Ő féltékeny, az általam említett
                             összeesküvést neki párti bizonyosan megvitték; tőlem is kapott névtelen
                             figyelmeztetést, nincs tehát kétség!<stage>Előrelépve
-                                Eudoxiához.</stage></p>
+                                Eudoxiához.</stage>
+            </p>
             <p>Fölséges asszonyom!</p>
           </sp>
           <sp who="#eudoxia">
@@ -4092,12 +4292,14 @@
             <speaker>EUDOXIA</speaker>
             <stage>magában.</stage>
             <p>Különös részvétet kezd ismét mutatni
-                            irántam.<stage>Placidiához.</stage></p>
+                            irántam.<stage>Placidiához.</stage>
+            </p>
             <p>Hagyj egyedül!</p>
           </sp>
           <sp who="#placidia">
             <speaker>PLACIDIA.</speaker>
-            <p>Emlékezzél meg kérésemrül.<stage>El.</stage></p>
+            <p>Emlékezzél meg kérésemrül.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA.</speaker>
@@ -4190,7 +4392,8 @@
             <speaker>MAXIM.</speaker>
             <p>Császárném! Ne kérj, különben engednem kell! nem tudok ellentállni
                                 hangodnak!<stage>Eudoxia csodálkozva néz reá; Maxim erőtetett
-                                csönddel folytatja.</stage></p>
+                                csönddel folytatja.</stage>
+            </p>
             <p>Pedig jobb így, minden bontva leend; ily viszonynak szűnni kell! Leányod
                             pedig teljesítse rendeltetésit, s a keleturalmi cézár rokonának adva
                             kezeit, kapcsolja majdan ismét össze a világuralom két elvált részeit,
@@ -4253,7 +4456,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Erkölcsnek, vallásnak nincs tilalma, hol te parancsolsz!<stage>Megfogja
-                                Eudoxia kezit.</stage></p>
+                                Eudoxia kezit.</stage>
+            </p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA</speaker>
@@ -4263,12 +4467,14 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Császárném! Egy kegyes tekintetet! Hisz ez minden!<stage>Kezit szivihez
-                                szorítja.</stage></p>
+                                szorítja.</stage>
+            </p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA</speaker>
             <stage>magában.</stage>
-            <p>Képzelmem valósul!<stage>Kezit visszarántva fenn.</stage></p>
+            <p>Képzelmem valósul!<stage>Kezit visszarántva fenn.</stage>
+            </p>
             <p>Mérsékeld magad! Nem reménylem...</p>
           </sp>
           <sp who="#petron_maxim">
@@ -4277,7 +4483,8 @@
                             perce csak terü s bilincs volt. A zárva tartott érzelem szétrepeszti
                             keblemet, s kiömlik ajkaimon. Császárném! Bocsánat! Bűntársa vagyok
                             fiamnak. A magas elérhetlen felé merészlettem én is vágyaimat emelni.
-                            Kegyelem! Én téged szeretlek, imádlak!<stage>Letérdel.</stage></p>
+                            Kegyelem! Én téged szeretlek, imádlak!<stage>Letérdel.</stage>
+            </p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA:</speaker>
@@ -4288,7 +4495,8 @@
             <p>Nem, késő! ki van már mondva a nagy s nyomatékos szó! Rab vagyok,
                             törvényszéked elibe idézett, s végítélet nélkül el nem mehetek. Kitárom
                             keblemet, megmutatom, holttetemként taglalom előtted azon tömérdek
-                            nyomort, mely itt lakik<stage>keblére mutat,</stage></p>
+                            nyomort, mely itt lakik<stage>keblére mutat,</stage>
+            </p>
             <p>s ha irgalmat nem nyerendek, várok még akkor is, míg reményem utolsó
                             éltető szikrája elalszik, míg fájdalmim a kétségbeesés határit
                             túlhaladják. Ó! ott - azontúl ismét csönd uralkodik! A haldoklók
@@ -4341,7 +4549,8 @@
           <sp who="#eudoxia">
             <speaker>EUDOXIA</speaker>
             <stage>magában.</stage>
-            <p>Ily szenvedélyt nem gyanítottam.<stage>Fenn.</stage></p>
+            <p>Ily szenvedélyt nem gyanítottam.<stage>Fenn.</stage>
+            </p>
             <p>Jöjj magadhoz, ha valaki meghallana!</p>
           </sp>
           <sp who="#petron_maxim">
@@ -4350,7 +4559,8 @@
                             vesztenél istenségedből. Jó, jó! Megyek hát, tisztelt asszonyom!
                             Kiöntöttem neked szívemet, tudod már, mim voltál, s bennem mit vesztesz
                             el. Isten veled! Tőlem ezután ment leszesz. Békélj ki
-                                emlékemmel!<stage>Menni készül.</stage></p>
+                                emlékemmel!<stage>Menni készül.</stage>
+            </p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA.</speaker>
@@ -4360,7 +4570,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Hálával viszem el magammal ez utolsó szavadat oda, hová megyek. Légy
-                                boldog!<stage>Ismét menni készül.</stage></p>
+                                boldog!<stage>Ismét menni készül.</stage>
+            </p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA.</speaker>
@@ -4377,13 +4588,15 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Nem, asszonyom, irántadi érzelmim semmiben sem változnak; a hiba bennem
-                                volt.<stage>Az ajtó felé indul.</stage></p>
+                                volt.<stage>Az ajtó felé indul.</stage>
+            </p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA</speaker>
             <stage>magában.</stage>
             <p>Oly elcsüggedten távozik! Ha! Borzasztó volna! Nem tudom, mit
-                                mondjak.<stage>Fenn.</stage></p>
+                                mondjak.<stage>Fenn.</stage>
+            </p>
             <p>Maxim! Erőszakos vagy. Akaratom ellen kihúzod belőlem, mit rejteni
                             szeretnék. Alig merem megvallani magamnak is, nem tudom megvetni
                             szerelmed! Meggyőződésem parancsolá, s mégis, hiába! Nekem, mit tőled
@@ -4392,7 +4605,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Mily szavak! Így ismét föléledek.<stage>Eudoxiának rohan,
-                                megöleli.</stage></p>
+                                megöleli.</stage>
+            </p>
             <p>Eudoxiám! Kedves Eudoxiám!</p>
           </sp>
           <sp who="#eudoxia">
@@ -4410,13 +4624,15 @@
                             által. Csak istenért! Most ne mulass itt tovább! Férjem minden percen
                             itt teremhet. Placidia már rég kívánkozik utánam, megyek
                                 hozzá.<stage>Kiszabadítja magát Maxim karjai közül, s
-                            el.</stage></p>
+                            el.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>egyedül.</stage>
             <p>Rajtad már a szenny, Valentinian! A vész ezután következik! Csak segíts
-                            befolyásoddal is, gőgös asszony.<stage>El a közép ajtón.</stage></p>
+                            befolyásoddal is, gőgös asszony.<stage>El a közép ajtón.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4463,19 +4679,22 @@
             <p>Cézár meghálálandja készségtek. Jertek erre, de zaj nélkül - ellen is
                             lehet közel -, azért a gyilkok még maradjanak hüvelyükben, az eldöntő
                                 pillanatig.<stage>Az udvaroncokat a bal ajtó felé
-                            vezeti.</stage></p>
+                            vezeti.</stage>
+            </p>
             <p>Frigyesek várnak itt, de senkivel szót se!</p>
           </sp>
           <sp who="#avenar">
             <speaker>AVENAR.</speaker>
             <p>Ne félj! Mi titoktartók vagyunk.<stage>Julian, Caustin, Avenar el a bal
                                 ajtón. Heracles megfordul, s a színpad előrészin levő ajtón akar
-                                kimenni, midőn Cézár onnan belép.</stage></p>
+                                kimenni, midőn Cézár onnan belép.</stage>
+            </p>
           </sp>
           <sp who="#heracles">
             <speaker>HERACLES.</speaker>
             <p>Cézár! Az egyezés szerint minden megtörtént. Emberink ott
-                                várnak.<stage>Balra mutat.</stage></p>
+                                várnak.<stage>Balra mutat.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
@@ -4556,7 +4775,8 @@
             <p>Fejdelmem! nagy vállalatod fényit ne oszd meg; magad gondoltad ki, magad
                             is hajtsd végre. Én nem tudok, nem kívánok tudni semmirül is; kicsiny
                             vagyok arra, hogy ily roppantokrul gondolkozzam! Szünet. Hah! már közelg
-                            a szenát, hallani lépteiket.<stage>Ajtó felé lép.</stage></p>
+                            a szenát, hallani lépteiket.<stage>Ajtó felé lép.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
@@ -4589,12 +4809,15 @@
             <p>Még, hiszem, értekeződik Boethtal s fiával. Nekik, mint rebesgetik, sok
                             mindennemű titkaik vannak. De, gondolom, nem sokáig várakoztatand
                                 magára.<stage>Künn zaj hallatszik. Maxim az ablakhoz megyen, s ott
-                                kinéz.</stage></p>
-            <p>Haha! már erre tódul a nép!<stage>Szünet.</stage></p>
+                                kinéz.</stage>
+            </p>
+            <p>Haha! már erre tódul a nép!<stage>Szünet.</stage>
+            </p>
             <p>Jertek csak ide! nézzétek e diadalmi pompát! Így fejdelmet tisztelnek
                             csak, nem alattvalót! Ott a patric! csoport ember közt. Miként int
                             nekik, miként kívánja kegyeiket megnyerni!<stage>Cézár s a szenátorok
-                                ablakhoz tódulnak.</stage></p>
+                                ablakhoz tódulnak.</stage>
+            </p>
             <p>Mily uralkodói mosoly, ugye? Mintha ő osztogatna egyedül üdvet! Ravasz
                             ember a mi daliánk!</p>
           </sp>
@@ -4625,9 +4848,11 @@
                             s tisztelt fejdelmem és ti mindnyájan, mert némiképpen volt ok reá; ezt
                             azonban feszegetni nem szándékom; minthogy Cézár óhajtja s a szenát, nem
                             szegülök tovább ellene: legyen ő szabad! Reménylem okulni fog.<stage>Egy
-                                őrtiszthez.</stage></p>
+                                őrtiszthez.</stage>
+            </p>
             <p>Tedd meg a rendelést! Palladot tüstént bocsássák ki!<stage>Az őrtiszt
-                                el.</stage></p>
+                                el.</stage>
+            </p>
             <p>Így talán minden kellemetlen vitának vége lett.</p>
           </sp>
           <sp who="#petron_maxim">
@@ -4708,7 +4933,8 @@
             <p>Nem bánom! végezzünk el mindent barátilag. Szeretnék ismét benned
                             bízhatni, mint ezelőtt! Jer ide, a mellékszobába. Nyilatkozatinknak ne
                             legyenek más tanúi, mint kiket érdekelnek: Boeth s jövendőbeli
-                                vőm.<stage>A bal oldali ajtó felé indul.</stage></p>
+                                vőm.<stage>A bal oldali ajtó felé indul.</stage>
+            </p>
             <p>Összeírt atyák! Várjatok el itt; értekezésünk hosszú nem lesz.</p>
             <stage>Cézár, Aet, Boeth, Gaudent el a bal ajtón, Heracles is utánuk
                             suhan.</stage>
@@ -4742,7 +4968,8 @@
           <sp who="#avien">
             <speaker>AVIEN</speaker>
             <stage>az ajtó felé siet.</stage>
-            <p>Nem, nem; több szóvitánál!<stage>A zaj nevekedik.</stage></p>
+            <p>Nem, nem; több szóvitánál!<stage>A zaj nevekedik.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
@@ -4789,7 +5016,8 @@
                             tehetségem megszűnt. Ha mindazáltal sejdítésem kifejezni merészleném,
                             mostani állásod olyannak mondanám: milyenben lehete az, ki bal kezével
                             önjobbját vágta volna le. De ne aggódjál. Vészes néha emezt meghagyni,
-                            ha fene esik belé.<stage>Kívülről a nép éljent kiált Aetnak.</stage></p>
+                            ha fene esik belé.<stage>Kívülről a nép éljent kiált Aetnak.</stage>
+            </p>
             <p>Úgy veszem észre, ott künn a nép a hősi tettről még nem hallott. Hej!
                             nagylelkű udvaroncok! Menjen le valaki közületek a térre, s parancsolja
                             meg ama csoport embernek: kiáltson már valahára egy éljent Cézárnak
@@ -4799,7 +5027,8 @@
             <speaker>PALLAD</speaker>
             <stage>berohan a közép ajtón, néhányan vissza ügyekszenek tartani.</stage>
             <p>Hagyjatok! Nem kívánok tudni semmiről, mielőtt megértném, mi lett légyen
-                                anyámból.<stage>Atyjához fut, s megfogja karjánál.</stage></p>
+                                anyámból.<stage>Atyjához fut, s megfogja karjánál.</stage>
+            </p>
             <p>Hová küldted őt?</p>
             <stage>A kárpit legördül.</stage>
           </sp>
@@ -4911,7 +5140,8 @@
                             valók; különben megszokja a világ, s elvesztik becsüket. Nekem ma játszi
                             kedvem van. Megpróbálnám egy kis fejdelmi tréfát űzni a lázítókkal;
                             talán így még többre megyünk. Íme, tanácsom!<stage>Egy iratot ad át
-                                Cézárnak.</stage></p>
+                                Cézárnak.</stage>
+            </p>
             <p>Fontold meg.</p>
           </sp>
           <sp who="#iii_valentinian">
@@ -4968,8 +5198,10 @@
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Bízom átlátásodba, jó Maxim. Magam is úgy vélem, mindezek itt<stage>az
-                                iratba tekint</stage></p>
-            <p>hálámat teljes mértékben megérdemlették.<stage>Leül, s ír.</stage></p>
+                                iratba tekint</stage>
+            </p>
+            <p>hálámat teljes mértékben megérdemlették.<stage>Leül, s ír.</stage>
+            </p>
             <p>Ők szenátorok! A névsor még ez órán ki leend hirdetve. Hadd pukkanjanak
                             meg tehetlen mérgükben ama komoly, szelídíthetetlen férfiak, kik
                             bíróságot akarnának bitangolni fejdelmük jogai fölött!</p>
@@ -4986,24 +5218,29 @@
           <sp who="#heracles">
             <speaker>HERACLES.</speaker>
             <p>Hát az utcákon egybecsoportozott békétlenekkel mit tegyünk? Számuk
-                            percenként nő.<stage>Ablakhoz megyen.</stage></p>
+                            percenként nő.<stage>Ablakhoz megyen.</stage>
+            </p>
             <p>Látni innen is!</p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Ha Cézár követendi tanácsomat, úgy Róma térein a csend tüstént helyreáll.
                             Egyszerű mód: őrséged járja be a várost, s a zajgókat mindenütt kergesse
-                            szét. Sükeresbet nem tudok.<stage>Ablakon néz ki.</stage></p>
+                            szét. Sükeresbet nem tudok.<stage>Ablakon néz ki.</stage>
+            </p>
             <p>Mi kímélést érdemelne e sereg rongyos henyélő? Ennek különben neve
                             sincsen; most népnek mondják, mivel unja magát, s adórul
-                                kiáltoz!<stage>Szünet.</stage></p>
-            <p>Megtegyem-e nevedben a rendelést?<stage>Heracleshez fordulva.</stage></p>
+                                kiáltoz!<stage>Szünet.</stage>
+            </p>
+            <p>Megtegyem-e nevedben a rendelést?<stage>Heracleshez fordulva.</stage>
+            </p>
             <p>Az őrfő megbocsát.</p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Tedd meg, hogy ezen füleimet sértő zsibongástól valahára
-                                megmenekedjem!<stage>Maxim el.</stage></p>
+                                megmenekedjem!<stage>Maxim el.</stage>
+            </p>
           </sp>
           <sp who="#heracles">
             <speaker>HERACLES.</speaker>
@@ -5032,11 +5269,13 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Minden parancsod szerint elintézve! Vend követek várnak rád.<stage>Halkan
-                                Cézárhoz.</stage></p>
+                                Cézárhoz.</stage>
+            </p>
             <p>Reménylem, teljesíted kérelmük. Biralmad s tenmagad érdeke kívánnák apai
                             szívednek ez áldozatát. Gondold meg, ezáltal miféle ellentől szabadulsz,
                             mi hasznos frigyesre teszesz szert!<stage>Cézár helybenhagyólag int
-                                fejével.</stage></p>
+                                fejével.</stage>
+            </p>
             <p>Aztán a szemletérre, ugye? Új légiók várnak ott reád. Szép játék leend!
                             Estvéjérül, megengedi fejdelmem, én gondolkozzam. Gyönyörű chiosi nő
                             érkezett ide tegnap honábul; meglátod, méltán dicsérem. Nála egy kis víg
@@ -5049,7 +5288,8 @@
             <speaker>MAXIM</speaker>
             <stage>halkan.</stage>
             <p>Hej, Vigil! Orest! Itt vagytok-e?<stage>Orest, Vigil
-                            bejönnek.</stage></p>
+                            bejönnek.</stage>
+            </p>
           </sp>
           <sp who="#orest">
             <speaker>OREST.</speaker>
@@ -5066,7 +5306,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>De azért hajdani pártfogótoknak, a patricnak ellensége soha nem
-                                voltam<stage>Orest s Vigil némán meghajtják magukat,</stage></p>
+                                voltam<stage>Orest s Vigil némán meghajtják magukat,</stage>
+            </p>
             <p>minek bizonysága, hogy még éltek, s itt vagytok több másokkal együtt.
                             Ösmerem viszonyaitokat! Egy szavamba került volna csak, és ti...</p>
           </sp>
@@ -5099,7 +5340,8 @@
             <speaker>MAXIM.</speaker>
             <p>Meglehet, csalatkozom, de úgy vélem, emberi természetnél fogva nektek
                             valóba szeretni kellett őt.<stage>Orest s Vigil arcaikon zavarodás
-                                jelei.</stage></p>
+                                jelei.</stage>
+            </p>
             <p>Nana! Hiába hallgattok! Ezt én így hiszem. Halála megrázkódtatott;
                             nézeteitek szerint jogtalanul kiontott vér volt az. Oh, ha lehetne!
                             Ugye? Majd, majd!</p>
@@ -5111,7 +5353,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Nem vallatlak tovább! Ki-ki magával vessen számot!<stage>Szünet
-                                után.</stage></p>
+                                után.</stage>
+            </p>
             <p>Nagy a békétlenség Rómában!</p>
           </sp>
           <sp who="#orest">
@@ -5136,7 +5379,8 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Értetlennek inkább!<stage>Szünet.</stage></p>
+            <p>Értetlennek inkább!<stage>Szünet.</stage>
+            </p>
             <p>Vigil! Már koros legényke lehetsz te. E hajfürtök vesztik színüket. Tíz
                             évvel idősb nálamnál, nem?</p>
           </sp>
@@ -5189,10 +5433,12 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Csodálod, hogy a kegyenc elfogultság nélkül ítél? Miként adhatna jó
-                            tanácsot urának? Ó, én őszintén imádom Cézárt!<stage>Szünet.</stage></p>
+                            tanácsot urának? Ó, én őszintén imádom Cézárt!<stage>Szünet.</stage>
+            </p>
             <p>Ki-ki ugyan önmagához legközelebb áll, még a kegyenc is! Egy trón -
                             látjátok - egy trón nagy csáb! Ki állhatna ellent? Erre sok
-                                példa!<stage>Néhány percnyi színlelt elmerülés után.</stage></p>
+                                példa!<stage>Néhány percnyi színlelt elmerülés után.</stage>
+            </p>
             <p>Jól megfontoljátok, mit mondék!</p>
           </sp>
           <sp who="#orest">
@@ -5214,8 +5460,10 @@
             <speaker>MAXIM.</speaker>
             <p>Még egyet, fiaim! Helyzetünk bizonyos tekintetben egyforma: mindhárman
                             szólhatunk; másban különböző: nekem hinnének, nektek nem.<stage>Kezét
-                                szájára teszi.</stage></p>
-            <p>Eszerint intézkedjetek.<stage>El mind, két ellenkező oldalon.</stage></p>
+                                szájára teszi.</stage>
+            </p>
+            <p>Eszerint intézkedjetek.<stage>El mind, két ellenkező oldalon.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5259,7 +5507,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Sajnálom, hogy honn nem valék; de annyi a gondom, hogy a fejem is ég
-                                belé!<stage>Menni készül.</stage></p>
+                                belé!<stage>Menni készül.</stage>
+            </p>
             <p>Isten veletek!</p>
           </sp>
           <sp who="#pallad">
@@ -5272,7 +5521,8 @@
           </sp>
           <sp who="#avien">
             <speaker>AVIEN.</speaker>
-            <p>Nézz oda!<stage>A néptömegre mutat.</stage></p>
+            <p>Nézz oda!<stage>A néptömegre mutat.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
@@ -5399,7 +5649,8 @@
             <stage>tiszttársaihoz fordulva.</stage>
             <p>Látjátok! így a zendületnek hamar vége lesz! Csak igaz, Cézárnak is
                             vannak okos emberei, kik nevében célszerűen
-                                intézkednek!<stage>Indul.</stage></p>
+                                intézkednek!<stage>Indul.</stage>
+            </p>
             <p>Jó időtöltést! Nagyon el vagyok foglalva.</p>
           </sp>
           <sp who="#fulgent">
@@ -5467,12 +5718,14 @@
           <sp who="#fulgent">
             <speaker>FULGENT.</speaker>
             <p>Adja ez ég, hogy mostani bűnös elmulasztásod emléke ne nyomja örök
-                            kínként lelkedet!<stage>Avien, Triget, Fulgent el.</stage></p>
+                            kínként lelkedet!<stage>Avien, Triget, Fulgent el.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>utánuk kiált.</stage>
-            <p>Ég vezéreljen. Még, reménylem, találkozunk!<stage>Menni akar.</stage></p>
+            <p>Ég vezéreljen. Még, reménylem, találkozunk!<stage>Menni akar.</stage>
+            </p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD</speaker>
@@ -5522,7 +5775,8 @@
             <speaker>MAXIM.</speaker>
             <p>Lám megmondám! Ifjonci érzelgés, nem egyéb. Hagyj békével! Más teendőim
                             vannak, mint ábrándidra figyelni! ha! ha! ha!<stage>Sebesen
-                            el.</stage></p>
+                            el.</stage>
+            </p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD</speaker>
@@ -5530,10 +5784,12 @@
             <p>Atyám! Atyám! úgy hiszem, e pillanat minket örökre föloldott egymástul!
                             Ezentúl szabadok leszünk mindketten! Pontos fizetéshez szoktál, atyám,
                             hogy így perc alatt lerovattad vélem minden fiúi
-                                tartozásomat!<stage>Szünet.</stage></p>
+                                tartozásomat!<stage>Szünet.</stage>
+            </p>
             <p>A kegyenccel nem boldogulhatánk. Hah! - de hála egeknek! rajta kívül még
                             tudok valakit, kinek befolyása lehetne Cézárra. Próbáljuk tehát meg
-                            ezzel is egy komoly szót szólani.<stage>El.</stage></p>
+                            ezzel is egy komoly szót szólani.<stage>El.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5547,12 +5803,14 @@
           <sp who="#szolga">
             <speaker>SZOLGA.</speaker>
             <p>Asszonyunk Cézár egyenes parancsa nélkül senkit sem bocsáthat maga
-                                eleibe.<stage>Útjába áll.</stage></p>
+                                eleibe.<stage>Útjába áll.</stage>
+            </p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
             <p>Merész vagy, szolga! Nekem most ellentállni nem tanácsos! Hol
-                                asszonyod?<stage>Oldalajtó felé indul.</stage></p>
+                                asszonyod?<stage>Oldalajtó felé indul.</stage>
+            </p>
           </sp>
           <sp who="#szolga">
             <speaker>SZOLGA</speaker>
@@ -5562,9 +5820,11 @@
           <sp who="#pallad">
             <speaker>PALLAD</speaker>
             <stage>magában.</stage>
-            <p>Fortélyt kell használnom.<stage>Fenn.</stage></p>
+            <p>Fortélyt kell használnom.<stage>Fenn.</stage>
+            </p>
             <p>Úgy tehát rettegj haragjától! Én Cézár neviben jövök.<stage>Szolga
-                                ijedten meghajtja magát.</stage></p>
+                                ijedten meghajtja magát.</stage>
+            </p>
             <p>Jelents be!</p>
           </sp>
           <sp who="#szolga">
@@ -5574,7 +5834,8 @@
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
             <p>Neki megmondom, neked nem. Eredj!<stage>Neki megmondom, neked nem.
-                                Eredj!</stage></p>
+                                Eredj!</stage>
+            </p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD</speaker>
@@ -5590,13 +5851,15 @@
           <sp who="#szolga">
             <speaker>SZOLGA</speaker>
             <stage>visszajő.</stage>
-            <p>Mindjárt itt leend.<stage>El a közép ajtón.</stage></p>
+            <p>Mindjárt itt leend.<stage>El a közép ajtón.</stage>
+            </p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
             <p>Istenem! S reá akarok hatni? Benne minden remény? Róma
                             legelvetemedettebb! Ily árvaságra jutott Róma és
-                                én!<stage>Szünet.</stage></p>
+                                én!<stage>Szünet.</stage>
+            </p>
             <p>Ő legalább nő, megátalkodott pedig csak férfi lehet. Vész közelg!
                             Kötelességem tenni és szólni, habár sikeretlenül is.</p>
           </sp>
@@ -5606,14 +5869,17 @@
             <p>Ki a kegyetlen? Új gyalázat vár-e reám? Vagy talán megváltásom órája
                             ütött, melyen túl magános ájtatosságban szabad leend annyi iszonyt
                             megbűnhödnöm, másért s magamért!<stage>Palladot meglátva halk reszkető
-                                hangon.</stage></p>
-            <p>Jaj nekem!<stage>El akar sietni.</stage></p>
+                                hangon.</stage>
+            </p>
+            <p>Jaj nekem!<stage>El akar sietni.</stage>
+            </p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD</speaker>
             <stage>útjába áll.</stage>
             <p>Hiába távozol! Követendlek, s terhedre maradok mindenütt.<stage>Julia
-                                megáll, s összevonja fátyolát.</stage></p>
+                                megáll, s összevonja fátyolát.</stage>
+            </p>
             <p>- Mint látszik, meg vagy lepve látásom által, noha - reménylem - nem
                             ösmersz; becsületes római polgár vagyok! Én sem ösmerlek, asszonyom, s
                             meglehet csalódom; de, esküszöm! Cézár kedvesén kívül még egyebet
@@ -5621,12 +5887,15 @@
                             büszke lehetnék, ha ő úgy tenne, mint tőle várni okom volt: de ő
                             megcsalta hitemet, kalauz helyett bűntársává alázta magát le a
                             gyöngének, s én odahagytam őt, s a szeretőhöz folyamodom, hol sima arcon
-                            kívül még szívet s lelket is sejdítek!<stage>Szünet.</stage></p>
-            <p>Tükröt akarok elődbe tartani.<stage>Szelídebb hangon.</stage></p>
+                            kívül még szívet s lelket is sejdítek!<stage>Szünet.</stage>
+            </p>
+            <p>Tükröt akarok elődbe tartani.<stage>Szelídebb hangon.</stage>
+            </p>
             <p>Nem, nem, csak föstvényt. Mert, reménylem, másokat látandsz abban, nem
                             magad, egy föstvényt, oly komolyan valót, hogy látása minden nemes
                             kedélyt borzadással hasson át! S ha beletekintendsz abba, meg fogom
-                            mondhatni, ki légy.<stage>Julia int Palladnak, szóljon.</stage></p>
+                            mondhatni, ki légy.<stage>Julia int Palladnak, szóljon.</stage>
+            </p>
             <p>Cézár féltékeny, ajtaid zárvák, s így ritkán tudhatod, mi e házon kívül
                             történik; de fordultál-e már ma ablakod felé? Vetettél tekintetet az
                             utcára? Kegyetlenül nyomott nép tolong ott, melyt utósó vagyonától
@@ -5645,7 +5914,8 @@
                             menekvésért kiált, s Cézár csábítóit átkozza! Engedelmet, asszonyom, ha
                             előtted mondom ki, téged is átkoz! A nép néha jogtalan.<stage>Julia igen
                                 meg van illetődve. Szünet, mely alatt Pallad feleletet látszik
-                                várni.</stage></p>
+                                várni.</stage>
+            </p>
             <p>Hallgatsz! Nem adod tudtomra, miként hatottak rád szavaim! Meglehet,
                             csupán kellemetlenül estek, meglehet örök gyűlöletet szültek irántam:
                             nem fontolgatom. Sok az ember kötelessége, s élte rövid arra, hogy a
@@ -5670,10 +5940,13 @@
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
             <p>Mi hang volt ez? Oly bájos emlékeket elővarázsló, oly édes, ösmértes!
-                            Nem, nem lehet!<stage>Juliához fut.</stage></p>
-            <p>Látni akarom arcodat!<stage>Julia ijedten hátrál.</stage></p>
+                            Nem, nem lehet!<stage>Juliához fut.</stage>
+            </p>
+            <p>Látni akarom arcodat!<stage>Julia ijedten hátrál.</stage>
+            </p>
             <p>Így nem hagylak távozni. El e fátyollal! Megfoghatatlan hatással bírsz
-                            rám, te isteni lény lehetsz!<stage>Juliát karjánál fogva.</stage></p>
+                            rám, te isteni lény lehetsz!<stage>Juliát karjánál fogva.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA</speaker>
@@ -5682,7 +5955,8 @@
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
-            <p>Már más hang, s mégis ugyanaz!<stage>Egybekulcsolva kezeit.</stage></p>
+            <p>Már más hang, s mégis ugyanaz!<stage>Egybekulcsolva kezeit.</stage>
+            </p>
             <p>Könyörgésemet megveted?</p>
           </sp>
           <sp who="#julia">
@@ -5694,7 +5968,8 @@
             <speaker>PALLAD.</speaker>
             <p>Jó hogy megmondod! Így hát erőszakot használok!<stage>Kezeivel félrevonja
                                 Julia fátyolát, szemibe néz, s egy kiáltással tőle elugrik. Julia
-                                halványan egy székhez támaszkodik.</stage></p>
+                                halványan egy székhez támaszkodik.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -5717,7 +5992,8 @@
             <p>Itt lakol? Gondold meg; mit mondasz! Itt lakol? Te távol voltál! Miként
                             esik ez? Nem értlek; de én, én... Valentinian ágyasát kerestem itt! Ha
                             te, úgy hát elvétettem e házat! Igen,
-                                elvétettem.<stage>Borzadva.</stage></p>
+                                elvétettem.<stage>Borzadva.</stage>
+            </p>
             <p>E szállás nem Cézáré, ugye, nem Cézáré? Hol vagyunk? Nem Cézáré e
                             szállás?</p>
           </sp>
@@ -5747,8 +6023,10 @@
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
-            <p>Felelj a kérdésre!<stage>Fejére üt.</stage></p>
-            <p>Én balga! Hisz már feleltek!<stage>Szünet.</stage></p>
+            <p>Felelj a kérdésre!<stage>Fejére üt.</stage>
+            </p>
+            <p>Én balga! Hisz már feleltek!<stage>Szünet.</stage>
+            </p>
             <p>Ha! ha! ha! Csodálom a természet játékit! Látd, természetbúvárnak
                             születtem én; gyermekkoromban sokat mulattam hernyók bábjaival! Most
                             szeretném tudni, hány átalakuláson megy keresztül egy tisztes nő s anya,
@@ -5765,7 +6043,8 @@
                             legszűzebb nászágybul egész a fajtalanság házáig, s ily gyorsan, épen
                             érkezél meg? Valóban, erős testalkotással bírsz! Most intsz nekem, én is
                             siessek feléd, egy másik úton, mely tisztelő fiútól anyagyilkossághoz
-                                vezet.<stage>Szenvedéllyel nyúl kardjához</stage></p>
+                                vezet.<stage>Szenvedéllyel nyúl kardjához</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -5789,9 +6068,11 @@
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
             <p>Bűntelen? Mit jelent e falak közt:
-                            bűntelen?<stage>Gondolkozva.</stage></p>
+                            bűntelen?<stage>Gondolkozva.</stage>
+            </p>
             <p>Rablás történt? Rablás? De atyám oly nyugodt
-                            volt!<stage>Ijedten.</stage></p>
+                            volt!<stage>Ijedten.</stage>
+            </p>
             <p>Asszony! Új szörnyet tűntetsz előmbe! Atyám tudja helyzeted?</p>
           </sp>
           <sp who="#julia">
@@ -5829,7 +6110,8 @@
             <speaker>PALLAD.</speaker>
             <p>Nem tudja! Hála istennek, atyám legalább feddhetetlen! Elmegyek tüstént
                             hozzá, fölnyitom szemeit. Rettegjen a rabló! Váltságórája
-                                ütött!<stage>Menni készül.</stage></p>
+                                ütött!<stage>Menni készül.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA</speaker>
@@ -5840,7 +6122,8 @@
           <sp who="#pallad">
             <speaker>PALLAD</speaker>
             <stage>Juliára meresztve szemeit.</stage>
-            <p>Te a gonosztévőt nem kívánod büntetni?<stage>Mérges gúnnyal.</stage></p>
+            <p>Te a gonosztévőt nem kívánod büntetni?<stage>Mérges gúnnyal.</stage>
+            </p>
             <p>Most értem már, te ártatlan! Szünet. Valóban, nyomorú egy teremtés vagy,
                             anyám. Hogy a nagy mester ott fenn még ilyet is tuda alkotni!</p>
           </sp>
@@ -5856,7 +6139,8 @@
                             valaha innen kilépsz, ha e fertőztetett alakot megláttatod egy tisztes
                             emberrel, s így tudtára adod, hogy ugyanaz vagy, kit Petron Maxim egykor
                             nejinek hívott, én pedig anyámnak, akkor jaj neked!<stage>El akar
-                                menni.</stage></p>
+                                menni.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -5886,14 +6170,16 @@
                             órákban buzgóan szoríthassak mellemhez! Ne félj! édes titkom leend ez,
                             melyt megóvandok minden szem elül. Ki tudná különben is, ki adta, s mit
                                 jelent?<stage>Szünet, mely alatt Pallad kétkedni
-                            látszik.</stage></p>
+                            látszik.</stage>
+            </p>
             <p>Gondold meg, Pallad, hogy talán még egyszer találkozunk, ahol irgalomra
                             leend szüksége mindkettőnknek!</p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD</speaker>
             <stage>megilletődve leveszi nyakárul a millyét, s Juliának adja.</stage>
-            <p>Vedd tehát!<stage>Sebesen el.</stage></p>
+            <p>Vedd tehát!<stage>Sebesen el.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA</speaker>
@@ -5938,8 +6224,10 @@
                             kikiáltani jelszavát, annak ott nyert ügye. Gyorsan tehát! Az őrség
                             együtt? Heracles megjelenése köztük válandik eldöntő pillanattá. Csak
                             szóhoz jutni ne hagyjátok. A másik bűnös enyém marad. Ezeken kívül úgyis
-                            csak lélektelen eszközöket tudok.<stage>Ajtó felé fordulva.</stage></p>
-            <p>Lépteket hallok! Cézár!<stage>Orest, Vigil el.</stage></p>
+                            csak lélektelen eszközöket tudok.<stage>Ajtó felé fordulva.</stage>
+            </p>
+            <p>Lépteket hallok! Cézár!<stage>Orest, Vigil el.</stage>
+            </p>
             <p>Itt a rég óhajtott óra!</p>
             <stage>Cézár, Heracles sebesen rohannak be.</stage>
           </sp>
@@ -5995,7 +6283,8 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Uramért mindent!<stage>Kezeit nyújtja Heraclesnek.</stage></p>
+            <p>Uramért mindent!<stage>Kezeit nyújtja Heraclesnek.</stage>
+            </p>
             <p>Heves voltam, bocsáss meg!</p>
           </sp>
           <sp who="#heracles">
@@ -6014,7 +6303,8 @@
                             Itt bent kétezer őr fegyverben, ezekkel az első ostromot mindenesetre
                             kiálljuk; így tehát, mi legfontosb, pillanatnyi veszély nem fenyeget; a
                             többit a körülmények határozandják el. Sietek a palotánk védelmire
-                            szükséges készületeket megtenni.<stage>El.</stage></p>
+                            szükséges készületeket megtenni.<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
@@ -6084,7 +6374,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Tréfát? Ha! ha! ha! ha! Ez azon különös helyzet következménye, melyben
-                            állunk egymással szemben mindketten.<stage>Ismét nevet.</stage></p>
+                            állunk egymással szemben mindketten.<stage>Ismét nevet.</stage>
+            </p>
             <p>Ha, ha, ha! Bocsáss meg, hogy ily tiszteletlenül merek előtted kacagni;
                             de mily nevetséges helyzet ez! Ott künn a nép holmi semmiségért
                             széttépne; s itt én, kinek érzeteivel oly gyöngéd játékot űzél, hogy
@@ -6109,13 +6400,15 @@
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Talán váratlan baj történt! Siessünk hozzá.<stage>Ki akar
-                                szaladni.</stage></p>
+                                szaladni.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>elibe áll, s nem ereszti.</stage>
             <p>Majd ha tőled szolgálatimért bő méltánylást nyerendek - nem
-                                előbb.<stage>Cézár néma ijedtséggel néz rá.</stage></p>
+                                előbb.<stage>Cézár néma ijedtséggel néz rá.</stage>
+            </p>
             <p>Emlékezzél vissza Cézár, mi volt állásod, mielőtt én lettem kedvenceddé!
                             Erőtlen, emelkedés, nyomaték nélküli, elhanyagolt lény valál akkor is,
                             milyen most!</p>
@@ -6153,7 +6446,8 @@
             <stage>ablakon kitekintve.</stage>
             <p>Ne félj semmit, Cézár! Nézd! Végreményed valósult: Heracles, a vitéz
                             kirohant a nép közé. Ni, hogy veri őket szét! Az őrség is mily derekasan
-                            viseli magát!<stage>Cézárt az ablakhoz taszítja.</stage></p>
+                            viseli magát!<stage>Cézárt az ablakhoz taszítja.</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
@@ -6163,7 +6457,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Ugye, Cézár! Példás szolgálatokat tettem? Csupán az utolsó van még hátra,
-                            s ez előbb áll!<stage>Tőrét kiveszi</stage></p>
+                            s ez előbb áll!<stage>Tőrét kiveszi</stage>
+            </p>
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR</speaker>
@@ -6174,7 +6469,8 @@
           <sp who="#vigil">
             <speaker>VIGIL.</speaker>
             <stage>Maximhoz.</stage>
-            <p>Üdvöz légy, Cézár!<stage>Az őrökhöz Cézárra mutatva.</stage></p>
+            <p>Üdvöz légy, Cézár!<stage>Az őrökhöz Cézárra mutatva.</stage>
+            </p>
             <p>Le véle! Le véle!</p>
             <stage>Cézár rémülten elejti kardját, s hátrafut; az őrök feléje
                             rohannak.</stage>
@@ -6189,7 +6485,8 @@
           <sp who="#vigil">
             <speaker>VIGIL.</speaker>
             <p>Ha úgy akarod. De őrt állunk, hogy minden jelre készen
-                                lehessünk.<stage>El az őrökkel együtt.</stage></p>
+                                lehessünk.<stage>El az őrökkel együtt.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
@@ -6235,7 +6532,8 @@
             <p>Halni kell? Tehát nincs menedék? Végképpen eltaszít magától e világ, s
                             változhatatlanul kimondva rám a borzasztó végítélet, halni kell, halni!
                             Nem, Maxim, ennyi vadság nem néz ki szemeidből, lehetlen
-                                ez!<stage>Könyörögve.</stage></p>
+                                ez!<stage>Könyörögve.</stage>
+            </p>
             <p>Hallgass meg! Gonosztevő áll előtted, úgy van, úgy: de irántadi bűne
                             kisebb, mint gondolnád. Hidd! Hidd! Nem részesültem nőd kegyeiben. Ó,
                             hidd, mit szégyelltem volna megvallani ezelőtt - ám a gyermekkoromi
@@ -6256,7 +6554,8 @@
                             isteni erő kivájna sírodbúl, s ismét fölélesztve engem biralmastúl
                             kezedbe adna, úgy, mint én tartalak most, igen szánakozó volnál akkor,
                             nem? Na, ha elég ügyes vagy cseppet összemérni tengerrel, úgy hasonlítsd
-                            amaz érzést ehhez itt!<stage>Kebleire mutat. Szünet</stage></p>
+                            amaz érzést ehhez itt!<stage>Kebleire mutat. Szünet</stage>
+            </p>
             <p>Ne pazarold hát szavaidat! El van döntve, halnod kell!</p>
             <stage>Ezalatt a zaj kívülről folyvást tart.</stage>
           </sp>
@@ -6264,17 +6563,22 @@
             <speaker>CÉZÁR.</speaker>
             <p>Néhány percet! Csak néhány percet még a hosszú életből! Néhány percet!
                             Nevekedő kétségbeeséssel. Ember vagyok! - bűnös ember! Ki
-                                tudja!<stage>Borzadoz.</stage></p>
+                                tudja!<stage>Borzadoz.</stage>
+            </p>
             <p>Zárj kolostorba!<stage>Maximra néz, ki tagadólag rázza fejit,
-                                ijedten.</stage></p>
+                                ijedten.</stage>
+            </p>
             <p>Nem? Börtönbe! Egy sötét, sötét lyukba! Örökre! Hogy ne lássak többé
                             napvilágot! Megérdemlem e bűnhődést, súlyosb halálnál.<stage>Maximra
-                                néz, ki ismét rázza fejét; rémítő ijedséggel.</stage></p>
-            <p>Nem? Nem?<stage>Rekedten.</stage></p>
+                                néz, ki ismét rázza fejét; rémítő ijedséggel.</stage>
+            </p>
+            <p>Nem? Nem?<stage>Rekedten.</stage>
+            </p>
             <p>Maxim! búcsúzni akarok. Férj s apa vagyok! Ne gúnyolj! Férj s apa - rossz
                             férj, rossz apa -, de ők mégis, igen, ők mégis... Hadd lássam őket! Jer
                             vélem, jer!<stage>Meg akarja fogni kezit, melyt Maxim
-                                visszaránt.</stage></p>
+                                visszaránt.</stage>
+            </p>
             <p>Élvezd fájdalmaikat! Szép látvány leend, előtted térden mindkettő! - Ha
                             ott nem könyörülsz! Jer, jer, jer!</p>
             <stage>Künn kiáltás, Eudoxia hangja: - „Gyilkolnak, gyilkolnak”.</stage>
@@ -6295,11 +6599,14 @@
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA.</speaker>
-            <p>Valóban! Te szörnyeteg!<stage>Megtörődve.</stage></p>
+            <p>Valóban! Te szörnyeteg!<stage>Megtörődve.</stage>
+            </p>
             <p>Maxim! Az nem lehet!<stage>Maximra tekintve, s látva komoly elhatározott
-                                arcát.</stage></p>
+                                arcát.</stage>
+            </p>
             <p>Kegyelem! Kegyelem! A nő könyűiért, az ártatlan leányért, ki eszmélet
-                            nélkül fekszik ott.<stage>A bal ajtó felé mutat.</stage></p>
+                            nélkül fekszik ott.<stage>A bal ajtó felé mutat.</stage>
+            </p>
             <p>Kegyelem!</p>
           </sp>
           <sp who="#petron_maxim">
@@ -6324,28 +6631,33 @@
                             egyedüli akadálya boldogságunknak, s mennyire szíved mélyiből utálod őt!
                             hisz nem vagyunk méltánytalanok iránta, csak forbátot gyakoroltunk
                             mindketten: mert nőm is egyik szeretője volt, annyi százak közt! No
-                                mondd!<stage>Súgva Eudoxiához.</stage></p>
+                                mondd!<stage>Súgva Eudoxiához.</stage>
+            </p>
             <p>Irántami szerelmed jeléül kívánom! Ez által megmentheted szegény éltit!
                             Elhagyva mindentül hadd cepelje, nem bánom!<stage>Fennhangon, tőrt
-                                emelve Valentinianra, Eudoxiához.</stage></p>
+                                emelve Valentinianra, Eudoxiához.</stage>
+            </p>
             <p>Hallgatsz? Tehát engem csaltál meg?</p>
           </sp>
           <sp who="#eudoxia">
             <speaker>EUDOXIA</speaker>
             <stage>halk hangon.</stage>
             <p>Igen, Valentinian! Utállak.<stage>Cézár egy kiáltással földre
-                                rogyik.</stage></p>
+                                rogyik.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>De ki is ne utálná őt? A zsarnok apát! Fajtalan férjt! Férj- s
                             apafosztogatót! A nép kizsebelőjét! Főtanács legyalázóját! Ki bordéllyá
                             tevé egész Rómát, s annak hatalmát, fényit ön kezeivel ölte
-                                meg!<stage>Az ablakhoz fut.</stage></p>
+                                meg!<stage>Az ablakhoz fut.</stage>
+            </p>
             <p>Kikiáltom még előre, ha kívánja, halálát, egész családja, leghívebb
                             cinkosi hallatára! S ha ennyi népség közt csak egy sajnálkozóra
                             akadandok, úgy, megvallom, erősen csalatkoztam benne! Mert látd, halálod
-                            után is lesz még lakoma, Valentinian!<stage>Szünet.</stage></p>
+                            után is lesz még lakoma, Valentinian!<stage>Szünet.</stage>
+            </p>
             <p>Hagyj egyedül; Eudoxiám, a többit véle elintézendem.</p>
           </sp>
           <sp who="#eudoxia">
@@ -6365,29 +6677,37 @@
           </sp>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
-            <p>Végezz! Nem, nem! - Ó, lepj meg halál.<stage>Maximhoz.</stage></p>
-            <p>Ne közelgj még!<stage>Dühösen.</stage></p>
+            <p>Végezz! Nem, nem! - Ó, lepj meg halál.<stage>Maximhoz.</stage>
+            </p>
+            <p>Ne közelgj még!<stage>Dühösen.</stage>
+            </p>
             <p>Meg tudok halni nélküled is! Ördög, pokol! Tigrisi körmeidre nincs
                                 szükség!<stage>Kívülről kiáltás: „Le Valentiniannal! Vesszenek a
                                 gyilkosok!” Cézár fölugrik, kardjához fut, s azt a földrül felveszi.
-                                Maxim csöndesen néz rá.</stage></p>
+                                Maxim csöndesen néz rá.</stage>
+            </p>
             <p>Nézd, rabló, így esik el egy Cézár!<stage>Kardjába akar dőlni, darabig
-                                hasztalanul erőködik!</stage></p>
+                                hasztalanul erőködik!</stage>
+            </p>
             <p>Hasztalan! Nem tudok!<stage>Székbe rogyik; egyik kezivel befogja szemeit,
-                                másikkal mellére mutat:</stage></p>
+                                másikkal mellére mutat:</stage>
+            </p>
             <p>Hamar, gyilkot ide, gyilkot! Nem, mérget! Egekért mérget! Rögtönölőt,
                             nekem mindegy.<stage>Maxim csöndesen nézi, mint előbb, s vad megelégedés
                                 tündöklik szemeiben. Cézár fölfelé tekint, s kezeit
-                                egybekulcsolja.</stage></p>
+                                egybekulcsolja.</stage>
+            </p>
             <p>Isten! Szánj meg engem!</p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>ijedten magában.</stage>
             <p>Még utójára megtanul imádkozni! Tovább nem késhetem!<stage>Cézárra rohan,
-                                s keresztüldöfi tőrivel.</stage></p>
+                                s keresztüldöfi tőrivel.</stage>
+            </p>
             <p>Szállj pokolba!<stage>Cézár hosszas fájdalomkiáltással földre rogyik, s
-                                meghal.</stage></p>
+                                meghal.</stage>
+            </p>
             <stage>Közép ajtókon betódul egy csoport őrség, ki közt: Julian, Caustin,
                             Avenar, Orest és Vigil.</stage>
           </sp>
@@ -6422,7 +6742,8 @@
           <sp who="#eudoxia">
             <speaker>EUDOXIA</speaker>
             <stage>dühösen.</stage>
-            <p>Bakó! Bízom istenben, ezért lakolni fogsz!<stage>El.</stage></p>
+            <p>Bakó! Bízom istenben, ezért lakolni fogsz!<stage>El.</stage>
+            </p>
           </sp>
           <sp who="#caustin">
             <speaker>CAUSTIN.</speaker>
@@ -6430,22 +6751,26 @@
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
-            <p>Megyek!<stage>Valentinian holttestire mutat.</stage></p>
+            <p>Megyek!<stage>Valentinian holttestire mutat.</stage>
+            </p>
             <p>Vessétek ki e dögöt a nép közé, hogy éldelje látását!<stage>Valentinian
-                                holttestit kiviszik</stage></p>
+                                holttestit kiviszik</stage>
+            </p>
           </sp>
           <sp who="#vigil">
             <speaker>VIGIL</speaker>
             <stage>Maximhoz közelg halkan. Uram!</stage>
             <p>Alig merem megmondani! Egy asszony küldött ide; úgy gondolom, Valentinian
                                 ágyasa.<stage>Suttogva folytatja beszédit, melyt a külső zajtól nem
-                                hallani.</stage></p>
+                                hallani.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Barátok, mint vélem, mi bájos cézárnénk már megérkezett Rómába. Sietek
                             hozzá, véle együtt kívánom hű népeink hódolatát fogadni.<stage>El,
-                                meghajtva magát, az őrség utána.</stage></p>
+                                meghajtva magát, az őrség utána.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -6462,17 +6787,21 @@
                             csábjai környeznek, kinek hatalmában áll bűnit örökre feledni: mi okból
                             sietne azon nyomorúság szemléje ált, melyt ő okozott, magát kínzani?
                             Ablak felé néz. Ismét örömünnep! A nép megszelídült?<stage>Tört
-                                hangon.</stage></p>
+                                hangon.</stage>
+            </p>
             <p>Nem, többé nem látom!<stage>Szünet, mely alatt fejit kezire
-                                támasztja.</stage></p>
+                                támasztja.</stage>
+            </p>
             <p>Őt egy egész hajdani üdv emléke köti hozzám; szebb múltkor tündére vagyok
                             én neki, mely régi bilincsekkel többé nem fenyeget; csak búcsúzólag int
                             felé. S ő jéghidegen elfordulna? Tőlem, ki egykor mindene voltam, egy
                             utósó részvétteljes tekintet nyugasztlatát is elvonná, most, örök
                             elválás előtt? Az ég irgalmas? Így nem halhatok meg. Ő
-                                eljövend!<stage>Ijedten.</stage></p>
+                                eljövend!<stage>Ijedten.</stage>
+            </p>
             <p>Miként érzem magam? Ez gyanús fájdalom volt! Nem, még jól
-                                vagyok.<stage>Órára néz.</stage></p>
+                                vagyok.<stage>Órára néz.</stage>
+            </p>
             <p>Ismét egy negyed!</p>
             <stage>Alant léptek hallatszanak, azután kulcscsörgés; a színpadon egy
                             rejtett ajtó kinyílik, s Maxim köpönyegbe burkolva lépcsőkön
@@ -6481,9 +6810,11 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>halkan.</stage>
-            <p>Senki sem látott.<stage>Juliát meglátja. Juliám!</stage></p>
+            <p>Senki sem látott.<stage>Juliát meglátja. Juliám!</stage>
+            </p>
             <p>Kedves nő! Császárném!<stage>Juliához fut, s át akarja
-                            ölelni.</stage></p>
+                            ölelni.</stage>
+            </p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA</speaker>
@@ -6505,7 +6836,8 @@
             <speaker>MAXIM</speaker>
             <stage>fölkel.</stage>
             <p>Azt, kedvesem, hogy utad csak kör volt, mely a fertőztetett nőt dicsőítve
-                            hozta ide vissza<stage>keblihez szorítja Juliát,</stage></p>
+                            hozta ide vissza<stage>keblihez szorítja Juliát,</stage>
+            </p>
             <p>honnan elszakaszták! Azt, hogy te voltál s vagy erkölcsöm, hitem,
                             kincsem, üdvöm, dicsőségem, mindenem! Ha érted az egész nagy biralommal
                             harcra mertem kelni - én, egyes gyarló ember - s azt legyőztem!</p>
@@ -6538,10 +6870,12 @@
             <stage>őrülten.</stage>
             <p>Szeretett nőd ismét? Nyughatom kebleden? Trónon melletted, boldogan s
                             boldogítva? Körülünk a világ népei, kik tömjéneznek szerelmünknek?
-                            Megyek, szívem kedveltje, megyek!<stage>fennhangon.</stage></p>
+                            Megyek, szívem kedveltje, megyek!<stage>fennhangon.</stage>
+            </p>
             <p>Kikiáltva üdvömet mindenütt! Ujjongva, tombolva, bakhuszi dőzsölő
                             papnőként. Látom, nehéz álom volt minden eddigi.
-                                Álom?<stage>Ijedten.</stage></p>
+                                Álom?<stage>Ijedten.</stage>
+            </p>
             <p>Nem, nem! Valamit sejdítek! Petron, félek, rosszul számoltál, egy sír
                             választ el bennünket; mely itt köztünk nyílt meg! Sötét, mély, hideg!
                             Ni! mily ijesztőn tátong itt! A halál nem ereszti el martalékját!</p>
@@ -6554,36 +6888,44 @@
                             küzdéssel -, az elraboltat százszorosan nyertük vissza; mindent
                             egyszerre elveszteni az élettel! Kijátszatni egy gúnyos mennyei végzet
                             ált, s meghalni! E szó most még tréfának is iszonyú! Nem, hála égnek!
-                            Még élni fogunk, még éldelni!<stage>Juliára néz.</stage></p>
+                            Még élni fogunk, még éldelni!<stage>Juliára néz.</stage>
+            </p>
             <p>Ébredj, kincsem! Ne mereszd oly rémesen szemeid! Való, való, mi annyira
                             meglepett, szerető férjed szól véled.<stage>Kívülről népzajgás
-                                hallatszik.</stage></p>
+                                hallatszik.</stage>
+            </p>
             <p>Hallod ott künn a zajt? Minket magasztal a nép! Jer! Ha itt meglátnának!
-                            Ismeretes e ház!<stage>A rejtett ajtó felé húzza Juliát.</stage></p>
+                            Ismeretes e ház!<stage>A rejtett ajtó felé húzza Juliát.</stage>
+            </p>
             <p>Erre, erre, látd, én a kijárást nem feledtem ki tervemből. Reszketsz? ne
                             félj semmitül, biztos időkben élünk már.<stage>Julia
-                                elhalványult.</stage></p>
+                                elhalványult.</stage>
+            </p>
             <p>Egek! Mi bajod?</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Csekélység, Petron! Fájdalom itt.<stage>Keblire mutat.</stage></p>
+            <p>Csekélység, Petron! Fájdalom itt.<stage>Keblire mutat.</stage>
+            </p>
             <p>Hagyj keveset nyugodnom.<stage>Bizonytalan léptekkel szék felé siet, s
-                                abba leesik.</stage></p>
+                                abba leesik.</stage>
+            </p>
             <p>Így már jobban érzem magam!</p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>körültekint, s az ablak felé.</stage>
             <p>Mint zajong a nép! Ha ide bejönnének!<stage>Juliához
-                            fordulva.</stage></p>
+                            fordulva.</stage>
+            </p>
             <p>Te igen rosszul vagy. Enyhszer kell?</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
             <p>Enyhszer! Adhatsz elszáradt törzsöknek ép gyököt, új életnedvet, hogy
                             ismét hajtson, zöldelljen. Látd, a buzgó hit s arany remény már
-                            elköltöztek innen<stage>kezit szívére teszi</stage></p>
+                            elköltöztek innen<stage>kezit szívére teszi</stage>
+            </p>
             <p>más honba; utánok sóvárg lelkem is! miért kívánnád visszatartani. Miért,
                             így kopaszon, fáradtan, kitaszítni ismét a zajos életbe? Mi az élet, ha
                             szívemelő zenéje elnémult; s nincsenek többé nyíló bimbói? Homokpuszta
@@ -6596,12 +6938,14 @@
             <speaker>MAXIM.</speaker>
             <p>Miért e gyászos szavak? Meglátod, mily boldogok leszünk! Ne fordulj el
                             tőlem! Bocsánat! Hisz érted tettem mindent. Ugye megbocsátasz? Jer, hadd
-                            ápoljalak honn!<stage>Szünet.</stage></p>
+                            ápoljalak honn!<stage>Szünet.</stage>
+            </p>
             <p>Nini! Akaratlanul rendes színdarabot játszunk. Te halvány szenvedő
                             arccal, mintha végső órád ütne; én a kétségbeesett férj, egybekulcsolt
                             kezekkel! - Csupa siralom. Egy euripidészi utósó fölvonás. Ki így látna,
                             gondolhatná, mi örömteljes hosszú élet vár reánk? Nevetséges ez,
-                                ugye?<stage>Egy tekintettel Juliára ijedten.</stage></p>
+                                ugye?<stage>Egy tekintettel Juliára ijedten.</stage>
+            </p>
             <p>Valóban, Juliám, ily tekintet még engem is zavarba hoz, ki helyzetünket
                             ösmérem! Te nemcsak meglepett; te igazán beteg vagy! Ó, ez már csapás!
                             Ez számításon kívül esik. Futok segítségért!</p>
@@ -6649,7 +6993,8 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Nézz ide!<stage>A Palladtól kapott millyét mutatja.</stage></p>
+            <p>Nézz ide!<stage>A Palladtól kapott millyét mutatja.</stage>
+            </p>
             <p>De fontold meg helyzetem; s légy méltányos.</p>
           </sp>
           <sp who="#petron_maxim">
@@ -6665,7 +7010,8 @@
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Ösmérem e mérget, ez ellen nincs menekvés!<stage>Dühös tekintettel ég
-                                felé.</stage></p>
+                                felé.</stage>
+            </p>
             <p>Isten, Isten! Imádság-e, vagy káromlás, mit e kebel feléd intéz; nem
                             tudom. Ki könyörgött létet számomra? Mi jogon élek én tehát? Mi jogon
                             tétettem, ily akaratlanul, hóhérrá? Én szerettem, imádtam ez asszonyt!
@@ -6680,16 +7026,19 @@
           <sp who="#julia">
             <speaker>JULIA.</speaker>
             <p>Ne tovább! Ne tovább? Szavaid
-                            vérfagyasztók!<stage>Összerogyik.</stage></p>
+                            vérfagyasztók!<stage>Összerogyik.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Nem, határa van a fájdalomnak is, nekem jutott, mennyit csak ember elbír!
                             Országolsz még örök bölcsesség! Én Cézár! S ő meghal? Merő képtelenség,
                             lehetlen ez!<stage>Néhány percig meredten áll, azután mintegy magához
-                                jöve, mély fájdalommal borul nejére.</stage></p>
+                                jöve, mély fájdalommal borul nejére.</stage>
+            </p>
             <p>Juliám! Éltem élte! Lelkem lelke! Miért tevéd ezt? Hah!<stage>Juliát
-                                vizsgálja.</stage></p>
+                                vizsgálja.</stage>
+            </p>
             <p>Szemei megtörtek! Vége! Vége!</p>
           </sp>
           <sp who="#julia">
@@ -6726,45 +7075,56 @@
                             fölgyújtsam-e jókedvemben a világ városát, hogy lakóival együtt
                             hamudombbá váljék? Menj. Rakasd be a kaput! Kiáltasd ki.<stage>Ezalatt a
                                 zaj növekedszik, s e szavak hallatszanak: „Adjátok ki az ágyast! a
-                                szép rimát!”</stage></p>
+                                szép rimát!”</stage>
+            </p>
             <p>Ez már zendülés!<stage>Az ablakhoz fut, egyszersmind kiáltva vissza a
-                                szolgához.</stage></p>
+                                szolgához.</stage>
+            </p>
             <p>Menj! halál annak fejin, ki bejő!<stage>Szolga el, Maxim az ablakon
-                                kinéz.</stage></p>
+                                kinéz.</stage>
+            </p>
             <p>Ki lehet ama lovag, leeresztett sisakkal, ki oly merészen taszítja vissza
                             a tolongó népet? Kivonta kardját! Talán Valentinian híve! Már a nép
                             fegyverrel rohan neki!<stage>Kívül tartós moraj; egy szózat: „Nem - oda
-                                elevenen nem jöttök be! Vissza, zendülők!”</stage></p>
+                                elevenen nem jöttök be! Vissza, zendülők!”</stage>
+            </p>
             <p>Istenem! Pallad hangja! Igen, ő! Körülveszik!<stage>Kinyitja az ablakot,
-                                s kikiált.</stage></p>
+                                s kikiált.</stage>
+            </p>
             <p>Hagyjátok őt! Hagyjátok fiamat! Nem halljátok Cézártok szavát? Hóhért
-                                küldjek?<stage>Kétségbeesve.</stage></p>
+                                küldjek?<stage>Kétségbeesve.</stage>
+            </p>
             <p>Hiába! E zajban hangom elvesz, nem hallanak! így tehát...<stage>Kardját
                                 kirántja, s a közép ajtón kifut; de mindjárt visszajő, rettentő
-                                ijedtséggel nézve hátrafelé; őt Pallad követi.</stage></p>
+                                ijedtséggel nézve hátrafelé; őt Pallad követi.</stage>
+            </p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD</speaker>
             <stage>sisak nélkül betántorodva, s kezit fejire téve.</stage>
             <p>Meg akarom őt szabadítni, elrejteni fajom szégyenét. Nem
-                                lehete.<stage>Lerogyik.</stage></p>
+                                lehete.<stage>Lerogyik.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Fiam! Fiam! Julia! Kedvesim! Segítség, szolgák, segítség!<stage>Szolgák
-                                jőnek be.</stage></p>
+                                jőnek be.</stage>
+            </p>
           </sp>
           <sp who="#pallad">
             <speaker>PALLAD.</speaker>
             <p>Hagyj békével, nagy Cézár! ütött már órám, azt érzem. Placidiám halva,
-                            kit tetted híre ölt meg<stage>körülnéz,</stage></p>
+                            kit tetted híre ölt meg<stage>körülnéz,</stage>
+            </p>
             <p>amaz asszony ott meredten! Most jól értlek, te remek művész! Szegény
                             római nép! Mit keresnék még itt? Élj, mint tudsz, atyám! Jogos az ég,
                             reménylem, nem ád neked több hitvest, több gyermeket. Élvezd - míg lehet
                             - e földi élet gyönyörét! majd egykor, az öröklét küszöbén, nagy csoport
                             közt ismét megjelenendek én is előtted, így véresen, mint most,
                             számoltatni annyi szétdúlt lételrül! Addig - isten
-                                veled!<stage>Meghal.</stage></p>
+                                veled!<stage>Meghal.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
@@ -6773,13 +7133,15 @@
           <sp who="#julia">
             <speaker>JULIA</speaker>
             <stage>elhaló hangon.</stage>
-            <p>Szabadul lelkem, isten veled!<stage>Meghal.</stage></p>
+            <p>Szabadul lelkem, isten veled!<stage>Meghal.</stage>
+            </p>
           </sp>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>a kétségbeesés sóhajával.</stage>
             <p>Egyedül!<stage>Kívülről tartós zaj: „Éljen Petron Maxim
-                            cézár!”</stage></p>
+                            cézár!”</stage>
+            </p>
             <p>Ne gúnyolj, Róma!</p>
             <stage>A kárpit legördül.</stage>
           </sp>

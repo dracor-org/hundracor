@@ -70,10 +70,12 @@
         </publisher>
         <idno type="URL">https://dracor.org</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">hun000031</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref></pubPlace>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref></p>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -290,14 +292,10 @@
           <role><roleName>Dengelegi Pongrácz János</roleName>, erdélyi vajda</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Magyar Balázs</roleName>
-          </role>
+          <role><roleName>Magyar Balázs</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Felföldi Kinisi Pál</roleName>
-          </role>
+          <role><roleName>Felföldi Kinisi Pál</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Sternberg Zdenkó</roleName>gróf, cseh főur</role>
@@ -306,9 +304,7 @@
           <role><roleName>Grafeneck Ulrik</roleName>, osztrák lovag</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Dersfi István</roleName>
-          </role>
+          <role><roleName>Dersfi István</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Poki Ferenc</roleName>, királyi apród</role>
@@ -317,9 +313,7 @@
           <role><roleName>Tibrili</roleName>, udvari bolond</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Boroszló polgármestere</roleName>
-          </role>
+          <role><roleName>Boroszló polgármestere</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Borbála</roleName>, előkelő polgárleány</role>
@@ -328,10 +322,8 @@
           <role><roleName>Anna</roleName>, nénje</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Magyar harcosok, hirnökök, sziléziai hercegek, tanácsnokok,
-                            polgárok.</roleName>
-          </role>
+          <role><roleName>Magyar harcosok, hirnökök, sziléziai hercegek, tanácsnokok,
+                            polgárok.</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Beatrix</roleName>, királyné</role>
@@ -373,9 +365,7 @@
           <role><roleName>Ujlaki Lőrinc</roleName>, szerémi herceg</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Szentgyörgyi Zsigmond gróf</roleName>
-          </role>
+          <role><roleName>Szentgyörgyi Zsigmond gróf</roleName></role>
         </castItem>
         <castItem>
           <role><roleName>Poki Ferenc</roleName>, testőrkapitány</role>
@@ -415,15 +405,11 @@
           <role><roleName>Kreuznach Miklós</roleName>, bécsi tanár</role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Bécs polgármestere</roleName>
-          </role>
+          <role><roleName>Bécs polgármestere</roleName></role>
         </castItem>
         <castItem>
-          <role>
-            <roleName>Udvarnokok, udvarhölgyek, lengyel urak,
-                        köznemesek.</roleName>
-          </role>
+          <role><roleName>Udvarnokok, udvarhölgyek, lengyel urak,
+                        köznemesek.</roleName></role>
         </castItem>
       </castList>
       <p>
@@ -696,7 +682,8 @@
           <sp who="#poki">
             <speaker>POKI</speaker>
             <stage>(Félre.)</stage>
-            <p>Aggódik szegényke. Ha tudná, kit keres!... Megyek parancsért.<stage>(A háttér felé el.)</stage></p>
+            <p>Aggódik szegényke. Ha tudná, kit keres!... Megyek parancsért.<stage>(A háttér felé el.)</stage>
+            </p>
           </sp>
           <sp who="#anna">
             <speaker>ANNA</speaker>
@@ -917,7 +904,8 @@
             <stage>(Méltatlankodva.)</stage>
             <p>Türelmem fonala máris elszakadt, vidd a láncot, vidd vissza a
                                 szerelmet is, egyik se méltó arra, hogy boroszlói polgárnőt
-                                ékesítsen. Te meg leányom, jer velem.<stage>(Megfogja Borbála kezét.)</stage></p>
+                                ékesítsen. Te meg leányom, jer velem.<stage>(Megfogja Borbála kezét.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -976,7 +964,8 @@
             <p>Csak bizzátok rám.<stage>(Meglátja Borbálát és előre lép.)</stage>Ahá, itt a szép kisasszony! No most majd elválik, ki méltóbb a kényes
         hölgyre. Egy csókot a viadal előtt! - nem tetszik? Akkor hát mondd
         meg ismeretlened nevét, legalább tudjam, kit küldök a másvilágra,
-        hahaha!<stage>(Magyar harcosokkal jobbra el.)</stage></p>
+        hahaha!<stage>(Magyar harcosokkal jobbra el.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -1004,7 +993,8 @@
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
-            <p>Az én szalagom!...<stage>(Imára kulcsolja kezeit.)</stage></p>
+            <p>Az én szalagom!...<stage>(Imára kulcsolja kezeit.)</stage>
+            </p>
           </sp>
           <sp who="#anna">
             <speaker>ANNA</speaker>
@@ -1033,7 +1023,8 @@
           </sp>
           <sp who="#poki">
             <speaker>POKI</speaker>
-            <p>Most összecsapnak.<stage>(Roppanó fegyverzörgés.)</stage></p>
+            <p>Most összecsapnak.<stage>(Roppanó fegyverzörgés.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -1075,7 +1066,8 @@
             <p>Győzött hát. Győzött!<stage>(A néző közönség leugrál a tribünökről s zajongva tódul be
         a szinre. A magyar harcosok sietve hozzák az előtérbe a
         félig alélt Dersfit, a polgárok gúnyos kiáltásokkal követik
-        őket.)</stage></p>
+        őket.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1174,7 +1166,8 @@
             <p>A magyar becsületért itt voltam már én; itt vagyok és itt is
     leszek mindig!<stage>(Büszkén, emelt fővel néz végig a gyülekezeten, s
         tekintete végül szerelmes mosolylyal állapodik meg
-        Borbálán.)</stage></p>
+        Borbálán.)</stage>
+            </p>
           </sp>
           <sp who="#kinisi #dersfi #magyar_balazs #pongracz">
             <speaker>MIND</speaker>
@@ -1223,7 +1216,8 @@
             <stage>(Borbála felé pillant s a rózsát feltűzi.)</stage>
             <p>Boroszló rózsája.... szivemre tűzlek!</p>
             <stage>Éljenzés.</stage>
-            <p><stage>(Leveszi sisakját, egy apródnak átadja s kis, házi
+            <p>
+              <stage>(Leveszi sisakját, egy apródnak átadja s kis, házi
     koronát tesz föl.)</stage>És most dologra urak! Kinek van kérnivalója? A király
     fogad.</p>
           </sp>
@@ -1319,13 +1313,15 @@
             <p>Felséges úr, hódolat neked Boroszló városa nevében és
                                             köszönet, amiért igazságot tevél polgártársaink között.
                                             Eddig féltünk, mint Mátyást a rettenetest, ezután
-                                            szeretünk, mint Mátyást, az igazságosat.<stage>(Félre áll.)</stage></p>
+                                            szeretünk, mint Mátyást, az igazságosat.<stage>(Félre áll.)</stage>
+            </p>
           </sp>
           <sp who="#sternberg">
             <speaker>STERNBERG</speaker>
             <p>Felség, itt, leghívebb Boroszlód falai közt, hódolat
                                             neked a cseh, morva és sziléz rendek nevében és
-                                            mégegyszer köszönet, hogy elfogadád a cseh koronát!<stage>(Félre áll.)</stage></p>
+                                            mégegyszer köszönet, hogy elfogadád a cseh koronát!<stage>(Félre áll.)</stage>
+            </p>
           </sp>
           <p>
             <stage>Éljenzés, ágyuszó.</stage>
@@ -1385,7 +1381,8 @@
             <speaker>BRANDENBURGI</speaker>
             <stage>(Halkan, János őrgrófhoz.)</stage>
             <p>Nem bánom hát, öcsém, fogadjuk el a kétezer arany
-    évdijat! - Eh, ajándéklónak ne nézzük a fogát!<stage>(Köntösébe rejti a pergamentet.)</stage></p>
+    évdijat! - Eh, ajándéklónak ne nézzük a fogát!<stage>(Köntösébe rejti a pergamentet.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -1414,7 +1411,8 @@
             <p>Kit szivem is szeressen!<stage>(Komoran maga elé pillant.)</stage>A nemzetnek is tessen?... Királynét!... Köszönet híveim,
         istenre bizom...<stage>(Int, még egyszer Borbálára néz, azután az
             előbbi rendben az egész udvar el. Éljenzés. Csak
-            Borbála, Anna, Poki és Tibrili maradnak.)</stage></p>
+            Borbála, Anna, Poki és Tibrili maradnak.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1530,12 +1528,14 @@
             <p>De igenis, szólok! Leány, jer én velem, fogadj, szót!
                                                 Átok lesz rajtad, a szégyen könyeivel egy életet
                                                 sírsz még tele ez óráért! Óh, mit tegyek? Megállj,
-                                                atyádhoz futok én...<stage>(El.)</stage></p>
+                                                atyádhoz futok én...<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#tibrili">
             <speaker>TIBRILI</speaker>
             <p>Ej néni, várjon! Megkérlelem. Ha fél szemére sír is,
-    a másikkal majd nevetni fog!<stage>(Anna után el.)</stage></p>
+    a másikkal majd nevetni fog!<stage>(Anna után el.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -1567,7 +1567,8 @@
             <p>Magadra hagylak fogságban a gyöngéd
     szerelemmel.<stage>(Hegedőssel a terrász árnyékába húzza
         meg magát. A jelenet alatt minduntalan őrködve
-        kinéz.)</stage></p>
+        kinéz.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -1628,7 +1629,8 @@
                                                   szemek nem csalhatnak meg egy szegény, védtelen
                                                   leányt?<stage>(Ránéz hosszan.)</stage>Ő az, mégis ő az, a régi, a hű...<stage>(Feje lassan a Mátyás páncélos vállára
                                                       hanyatlik. A hegedős halkan játszani
-                                                      kezd.)</stage></p>
+                                                      kezd.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -1761,7 +1763,8 @@
                                                   Tejjel-mézzel folyó drága föld, hősök bölcsője,
                                                   vitézség iskolája, diadalmak hazája! Ott szeressük
                                                   mi egymást!<stage>(Átöleli Borbálát, s pár pillanatig így
-                                                      hallgatják a hegedőst.)</stage></p>
+                                                      hallgatják a hegedőst.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1782,7 +1785,8 @@
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
             <p>Dajkám megigérte... Szeretlek, követlek!<stage>(A nép elől menekülve, mindketten
-        el.)</stage></p>
+        el.)</stage>
+            </p>
           </sp>
           <sp who="#a_nep">
             <speaker>A NÉP</speaker>
@@ -1851,7 +1855,8 @@
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
             <stage>(Indulatosan jön bal felől, óvatosan körülnéz.)</stage>
-            <p>Ti vagytok, hű olaszaim?<stage>(Int, apródok el.)</stage>Sanzio!<stage>(Halkan.)</stage>Mégse jött levél Milánóból?<stage>(Bollani ágaskodva hallgatózik, társa jegyez.)</stage></p>
+            <p>Ti vagytok, hű olaszaim?<stage>(Int, apródok el.)</stage>Sanzio!<stage>(Halkan.)</stage>Mégse jött levél Milánóból?<stage>(Bollani ágaskodva hallgatózik, társa jegyez.)</stage>
+            </p>
           </sp>
           <sp who="#sanzio">
             <speaker>SANZIO</speaker>
@@ -1888,7 +1893,8 @@
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
             <stage>(Összeszorítva öklét.)</stage>
-            <p>Oroszlán ő... legyőzni nem tudom. Ma még egyszer megkisértem...<stage>(A magyar urak megjelennek a háttérben.)</stage></p>
+            <p>Oroszlán ő... legyőzni nem tudom. Ma még egyszer megkisértem...<stage>(A magyar urak megjelennek a háttérben.)</stage>
+            </p>
           </sp>
           <sp who="#bollani">
             <speaker>BOLLANI</speaker>
@@ -1921,7 +1927,8 @@
           </sp>
           <sp who="#sanzio">
             <speaker>SANZIO</speaker>
-            <p>Maladetta canaglia!<stage>(El, Beatrix és Sanzio jobbra.)</stage></p>
+            <p>Maladetta canaglia!<stage>(El, Beatrix és Sanzio jobbra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1969,7 +1976,8 @@
             <speaker>UJLAKI</speaker>
             <stage>(Lelkesen.)</stage>
             <p>Hát urak, nagy a Mátyás dicsősége keleten, - de nyugaton is! Itt
-    jönnek a bécsországiak, ni.<stage>(Zápolya és Székely belépnek.)</stage></p>
+    jönnek a bécsországiak, ni.<stage>(Zápolya és Székely belépnek.)</stage>
+            </p>
           </sp>
           <sp who="#zapolya">
             <speaker>ZÁPOLYA</speaker>
@@ -2189,7 +2197,8 @@
             <p>Nem tudom, nem afféle nagyravágyó fajta. Áldott keresztyén lélek!
                                 Sose kért még a királytól semmit, sose fogadott el donációt se maga,
                                 se semmiféle rokona számára. Szerényen meghúzódva ott él házában a
-                                vár alatt...<stage>(Halkan tovább beszél.)</stage></p>
+                                vár alatt...<stage>(Halkan tovább beszél.)</stage>
+            </p>
           </sp>
           <sp who="#bollani">
             <speaker>BOLLANI</speaker>
@@ -2213,7 +2222,8 @@
           <sp who="#raskai">
             <speaker>RÁSKAI</speaker>
             <p>A felségek!<stage>(Az urak összeszedik magukat a Mátyás parancsoló szeme
-        előtt.)</stage></p>
+        előtt.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -2222,7 +2232,8 @@
                                     Estei Hippolyt ferrarai herceget esztergomi érsekké kinevezzük.
                                     Mielőtt egyebekbe fognánk, legelső alattvalónkként az ország
                                     színe előtt le fogja tenni a hűségesküt kezeinkbe...<stage>(Hippolyt és kísérete átvonúl a színen s fenékben
-                                        el.)</stage></p>
+                                        el.)</stage>
+            </p>
           </sp>
           <p>
             <stage>Éljenzés.</stage>
@@ -2287,7 +2298,8 @@
           <sp who="#tibrili">
             <speaker>TIBRILI</speaker>
             <p>A gyerek érseknek leesett a piros süvege a fejéről, hát én vettem
-    fel...<stage>(Kacag.)</stage></p>
+    fel...<stage>(Kacag.)</stage>
+            </p>
           </sp>
           <sp who="#bathory">
             <speaker>BÁTHORY</speaker>
@@ -2304,7 +2316,8 @@
           <sp who="#tibrili">
             <speaker>TIBRILI</speaker>
             <stage>(Visszapillant a trónterembe.)</stage>
-            <p>El innen, urak, de hamar! Haragosan jön a király; zivatar lesz!<stage>(Mind el, balra.)</stage></p>
+            <p>El innen, urak, de hamar! Haragosan jön a király; zivatar lesz!<stage>(Mind el, balra.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2551,7 +2564,8 @@
             <speaker>POKI</speaker>
             <stage>(Belép.)</stage>
             <p>Egy sürgős levél királyom.<stage>(Beatrix láttára köntösébe rejti a
-        levelet.)</stage></p>
+        levelet.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -2559,7 +2573,8 @@
             <p>Előlem rejtegeted, a királyné elől? Uram király, fenyítsd meg
     a vakmerőt!<stage>(Kikapja a levelet Poki kezéből s Mátyás felé
         nyújtja, közben a pecsétre pillant s megdöbben,
-        félre.)</stage>A visconti sas a pecséten...<stage>(Poki el.)</stage></p>
+        félre.)</stage>A visconti sas a pecséten...<stage>(Poki el.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -2593,7 +2608,8 @@
                                             akarván.)</stage>
             <p>Az én szavamnak higyj, ha szeretsz!... Ostoba tréfa az egész,
     tépd szét...<stage>(Elakad, Mátyás tekintete elől rettegve hátrál
-        meg.)</stage></p>
+        meg.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -2623,7 +2639,8 @@
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
-            <p>Uram hallgass meg!<stage>(Féltérdre ereszkedik. Mátyás el.)</stage></p>
+            <p>Uram hallgass meg!<stage>(Féltérdre ereszkedik. Mátyás el.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2672,7 +2689,8 @@
           <sp who="#dorottya">
             <speaker>DOROTTYA</speaker>
             <stage>(Félre.)</stage>
-            <p>Nem is tudtál te a magyar szív nyelvén beszélni soha!<stage>(Meghajolva el.)</stage></p>
+            <p>Nem is tudtál te a magyar szív nyelvén beszélni soha!<stage>(Meghajolva el.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -2789,7 +2807,8 @@
           <sp who="#sanzio">
             <speaker>SANZIO</speaker>
             <p>Felség, a mágus doktor Canano épp ma érkezett vissza a
-    ferrarai hercegnőtől. Itt van.<stage>(Balfelől bevezeti Cananót.)</stage></p>
+    ferrarai hercegnőtől. Itt van.<stage>(Balfelől bevezeti Cananót.)</stage>
+            </p>
           </sp>
           <sp who="#canano">
             <speaker>CANANO</speaker>
@@ -2881,7 +2900,8 @@
                                 tessék...<stage>(Beatrix és Sanzio besompolyognak Antónia
                                 mellé.)</stage>Halljátok meg, mit fogok felelni a milanói
                                 követnek.<stage>(Int, Filipecz bevezeti Maffeo di Naso-t és
-                                ajándékokat hozó kiséretét.)</stage></p>
+                                ajándékokat hozó kiséretét.)</stage>
+            </p>
           </sp>
           <sp who="#maffeo">
             <speaker>MAFFEO</speaker>
@@ -2955,7 +2975,8 @@
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
             <p>Megértettetek hát!<stage>(Maffeóhoz.)</stage>Üdvözlet uradnak, királyi
-                            kegyelmünk veled!<stage>(Mind el.)</stage></p>
+                            kegyelmünk veled!<stage>(Mind el.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -3018,7 +3039,8 @@
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
             <stage>(Balját Galeottinak, jobbját Bonfiniusnak nyujtva.)</stage>
-            <p>Köszönöm jó Bonfinius, neked is ékesen szóló Galeotti!<stage>(Bonfinius és Galeotti el.)</stage></p>
+            <p>Köszönöm jó Bonfinius, neked is ékesen szóló Galeotti!<stage>(Bonfinius és Galeotti el.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3098,7 +3120,8 @@
                                 rejtekébe nyilallik bele, ott, ahol édes jó anyám szeretetét őrzöm;
                                 Elbujdosnék a világ elől. Minek a nagy példa nekem, mikor nem szabad
                                 követnem? A Mátyás gyermeke vagyok, de folttal az ő nevén, - az ő
-                                fia, de milyen fia!...<stage>(Lesüti szemét.)</stage></p>
+                                fia, de milyen fia!...<stage>(Lesüti szemét.)</stage>
+            </p>
           </sp>
           <sp who="#ugoletti">
             <speaker>UGOLETTI</speaker>
@@ -3123,13 +3146,15 @@
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
             <stage>(Hozzá fut és gyöngéden megöleli.)</stage>
-            <p>Anyám, rád gondoltam éppen...<stage>(Borbála vállára hajtja fejét.)</stage></p>
+            <p>Anyám, rád gondoltam éppen...<stage>(Borbála vállára hajtja fejét.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
             <stage>(Megsimogatja Corvin fejét.)</stage>
             <p>Ej, mi lelt Jánosom, te, a jó diák, nem tudtad volna az egyszer a
-    leckédet?<stage>(Ugolettire néz, aki mélyen meghajol.)</stage></p>
+    leckédet?<stage>(Ugolettire néz, aki mélyen meghajol.)</stage>
+            </p>
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
@@ -3202,14 +3227,16 @@
             <speaker>DOROTTYA</speaker>
             <p>Aki nemes lélek van e házban, az veled érez és téged tisztel,
                                     Nagyasszonyom! Hű szíved fensége hódolatra készt bennünket.
-                                    Isten veled.<stage>(Mély meghajlással el jobbra.)</stage></p>
+                                    Isten veled.<stage>(Mély meghajlással el jobbra.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
             <stage>(Ugolettihez.)</stage>
             <p>A világért sem, hogy zavarni akarnálak mester! Tanuljatok itt,
     békében leszek én rokkám mellett, csak őt,<stage>(Corvinra mutat)</stage>hogy 
-    láthassam.<stage>(Megcsókolja fiát.)</stage>Így ni!... Folytassátok!...<stage>Leül rokkája mellé és fonni kezd.)</stage></p>
+    láthassam.<stage>(Megcsókolja fiát.)</stage>Így ni!... Folytassátok!...<stage>Leül rokkája mellé és fonni kezd.)</stage>
+            </p>
           </sp>
           <sp who="#ugoletti">
             <speaker>UGOLETTI</speaker>
@@ -3221,7 +3248,8 @@
             <speaker>BORBÁLA</speaker>
             <stage>(Merengve néz Corvinra.)</stage>
             <p>Hát még az enyém!<stage>(Corvin és Ugoletti a pulpitus mellett helyezkednek
-        el.)</stage></p>
+        el.)</stage>
+            </p>
           </sp>
           <sp who="#ugoletti">
             <speaker>UGOLETTI</speaker>
@@ -3233,7 +3261,8 @@
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
-            <p>Boroszlóba.<stage>(Halkan tovább tanulnak.)</stage></p>
+            <p>Boroszlóba.<stage>(Halkan tovább tanulnak.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -3255,7 +3284,8 @@
     leánykori orsóm, kiesett akkor a kezemből és mikor legközelebb
     fölvettem, ringó bölcső mellett ültem. Nem menyaszonyi ruhának
     valót fontam, hanem<stage>(arca földerül)</stage>azért angyalok segítek pergetni orsómat, hisz ők fonnak az anya
-    kezével, szőnek ruhácskát az ártatlan kicsinyeknek.<stage>(Halkan dúdolni kezd.)</stage></p>
+    kezével, szőnek ruhácskát az ártatlan kicsinyeknek.<stage>(Halkan dúdolni kezd.)</stage>
+            </p>
             <lg>
               <l>A tündér királyfi eljött álruhában,</l>
               <l>Elnyerni a leányt víg májusi táncban</l>
@@ -3285,7 +3315,8 @@
             <stage>(Fölkel.)</stage>
             <p>Egyelőre vége a leckének. Új könyveinket nézni a könyvtárba
                                     megyek, majd visszatérek. Addig is a múzsák véled, ifju
-                                    hercegem!<stage>(El jobbra a fenéken.)</stage></p>
+                                    hercegem!<stage>(El jobbra a fenéken.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -3323,7 +3354,8 @@
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
             <p>Atyád fia vagy, hisz úgy hasonlítasz hozzá, de tán mégis inkább
-    az enyém, mégis inkább egymásnak valók vagyunk mi ketten...<stage>(Magához vonja Corvint.</stage></p>
+    az enyém, mégis inkább egymásnak valók vagyunk mi ketten...<stage>(Magához vonja Corvint.</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3467,7 +3499,8 @@
           </sp>
           <sp who="#tibrili">
             <speaker>TIBRILI</speaker>
-            <p>Igen. Amint mondani szokás: bolond szerencséjük van!<stage>(Tibrili és Poki el a Corvin szobájába.)</stage></p>
+            <p>Igen. Amint mondani szokás: bolond szerencséjük van!<stage>(Tibrili és Poki el a Corvin szobájába.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3517,7 +3550,8 @@
             <stage>(Nevetve.)</stage>
             <p>Félted a feleségétől? Gyermekes aggályaid ismét! Légy boldog,
                                     hogy fiad a dicsőség útjára lép... És te, gyerek, nem is vagy
-                                    kiváncsi hitvesedre?... Itt az arcképe!<stage>Egy medaillont vesz elő s mutatja.)</stage></p>
+                                    kiváncsi hitvesedre?... Itt az arcképe!<stage>Egy medaillont vesz elő s mutatja.)</stage>
+            </p>
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
@@ -3537,7 +3571,8 @@
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
             <p>Anyámasszony-beszéd, hisz csak meg kell egyszer házasodnia! Nézd,
-    hogy megnőtt, milyen delivé fejlődik már.<stage>(Kedvtelve nézi Corvint.)</stage></p>
+    hogy megnőtt, milyen delivé fejlődik már.<stage>(Kedvtelve nézi Corvint.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -3603,7 +3638,8 @@
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
-            <p>Atyám!<stage>(Féltérdre ereszkedik.)</stage></p>
+            <p>Atyám!<stage>(Féltérdre ereszkedik.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -3626,7 +3662,8 @@
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
             <p>Kelj föl, hadd lássalak.<stage>(Corvin fölkel.)</stage>Szivedbe legdrágább kincsem teszem: hazám jövendőjét. Megőrizd!
-        Im itt a kardom, az segítsen! vedd!<stage>(Átadja kardját Corvinnak.)</stage></p>
+        Im itt a kardom, az segítsen! vedd!<stage>(Átadja kardját Corvinnak.)</stage>
+            </p>
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
@@ -3659,7 +3696,8 @@
             <speaker>MÁTYÁS</speaker>
             <p>Persze, - csak eredj fiam. De ezután ne az elmélkedő
                                         bölcseket forgassátok, hanem inkább a hadi könyveket, azt a
-                                        római Vegetiust, kiből atyád győzni tanult.<stage>(Corvin, Poki, Ugoletti el.)</stage></p>
+                                        római Vegetiust, kiből atyád győzni tanult.<stage>(Corvin, Poki, Ugoletti el.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3734,7 +3772,8 @@
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
             <p>Nevezz Mátyásodnak! Szeress, mint egykor Boroszlóban, add
-    ide mégegyszer első, legelső csókodat!...<stage>(Megöleli.)</stage></p>
+    ide mégegyszer első, legelső csókodat!...<stage>(Megöleli.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -3830,7 +3869,8 @@
                                             én nekem! Engednem kell, hisz ő vezetett vissza
                                             tehozzád.<stage>(Megöleli Borbálát.)</stage>No jó... De Jánosunk, vajjon mit is csinál? Menjünk,
     nézzük meg, hogy tanul-e szorgalommal.<stage>(Derüsen Borbálára néz, aztán el a Corvin
-        szobájába.)</stage></p>
+        szobájába.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3842,12 +3882,14 @@
             <speaker>BORBÁLA</speaker>
             <stage>(Egyedül.)</stage>
             <p>Higyjek-e mégegyszer a boldogságban?<stage>(Odamegy az oltár elé s letérdel.)</stage>Boldogságos Szűz, védd meg Mátyást, óvjad Jánosunkat
-        és kegyelmezz nekem is, szegény szolgálódnak.<stage>(Buzgóan.)</stage>Miatyánk, ki vagy a mennyekben...<stage>(Beatrix jobbfelől a fenékből óvatosan belép; utána Sanzio, Antónia, Canano és testőrök.)</stage></p>
+        és kegyelmezz nekem is, szegény szolgálódnak.<stage>(Buzgóan.)</stage>Miatyánk, ki vagy a mennyekben...<stage>(Beatrix jobbfelől a fenékből óvatosan belép; utána Sanzio, Antónia, Canano és testőrök.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
             <stage>(Halkan.)</stage>
-            <p>Hol rejtezik a kis vipera?<stage>(Körülnéz.)</stage></p>
+            <p>Hol rejtezik a kis vipera?<stage>(Körülnéz.)</stage>
+            </p>
           </sp>
           <sp who="#sanzio">
             <speaker>SANZIO</speaker>
@@ -3903,7 +3945,8 @@
                                                 kígyó, neked akarok a fejedre taposni!<stage>(Dühödten.)</stage>Utána jártam ördöngős fondorlataidnak, kuruzsló
     boszorkány vagy, törvény elé veled, fogjátok
     meg!<stage>(Cananótól egy pergament tekercset vesz
-        át.)</stage></p>
+        át.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -3924,7 +3967,8 @@
           <sp who="#testorok">
             <speaker>TESTŐRÖK</speaker>
             <p>A király!<stage>(Eleresztik Borbálát és ijedten
-        hátrálnak.)</stage></p>
+        hátrálnak.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -3936,7 +3980,8 @@
             <stage>(Félre.)</stage>
             <p>Hohó, kellemetlen meglepetés! Nem maradok az
     oroszlán barlangjában, mert széttép.<stage>(Mátyás elől bujva, Antóniával hátra
-        sompolyog.)</stage></p>
+        sompolyog.)</stage>
+            </p>
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
@@ -3945,7 +3990,8 @@
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
-            <p>Halljam tehát, mi történik itt?<stage>(Beatrixhoz.)</stage></p>
+            <p>Halljam tehát, mi történik itt?<stage>(Beatrixhoz.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -3955,7 +4001,8 @@
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
             <p>Uram, halld meg, mivel vádolnak, itélj
-    énfelettem!<stage>(Testőrök el.)</stage></p>
+    énfelettem!<stage>(Testőrök el.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -3986,7 +4033,8 @@
             <p>Kiutasítasz? Akkor is csak a törvény elé
                                                   utasíthatsz s ott a te nevedben fogják eltörni a
                                                   pálcát e boszorkány felett. Itt a bécsi egyetem
-                                                  doktorainak itélete, hajtsd végre!<stage>(Mátyás elveszi a pergamentet.)</stage></p>
+                                                  doktorainak itélete, hajtsd végre!<stage>(Mátyás elveszi a pergamentet.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -4055,14 +4103,16 @@
             <p>Velem jösz tehát.<stage>(Kezét nyujtva Beatrixnak, menet közben
         Borbálára néz.)</stage>A király békéje veletek!<stage>(Mind el, ünnepélyesen. Sanzio, Antónia
             és Canano ünnepélyesen meghajolnak Borbála
-            előtt.)</stage></p>
+            előtt.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
             <stage>(Utánuk kiált.)</stage>
             <p>Királyné, ártatlan vagyok, de azért mégis bocsáss
     meg nekem... a fiamért!...<stage>(Ugoletti és Corvin karjaiból a lócára
-        hanyatlik.)</stage></p>
+        hanyatlik.)</stage>
+            </p>
           </sp>
           <p>
             <stage>- Függöny. -</stage>
@@ -4105,7 +4155,8 @@
             <stage>(Állva.)</stage>
             <p>Örvendek, felséges testvér, hogy látogatóba épp ily családi ünnepre érek
                             hozzád. Születése napján Isten áldja meg fenséges fiadat, János liptói
-                            herceget!<stage>(Éljenzés.)</stage></p>
+                            herceget!<stage>(Éljenzés.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -4183,7 +4234,8 @@
             <speaker>ULÁSZLÓ</speaker>
             <stage>(Halkan.)</stage>
             <p>Emlékszem... szép napok voltak... De mily sápadt vagy, szép királyné,
-    szenvedőnek látszol.<stage>(Előre érnek.)</stage></p>
+    szenvedőnek látszol.<stage>(Előre érnek.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -4230,7 +4282,8 @@
             <p>Most én vesztek, vesztem a játszmát, de asszony vagyok és csalni fogok, mert
     nyernem kell. Halld hát, mi történt levelem óta.<stage>(Tovább suttog. Mátyás körül ezalatt a háttérben Corvint ünneplik.
         Az urak hódolva ajándékokat nyujtanak át, mély meghajlással vonulnak
-        el előtte.)</stage></p>
+        el előtte.)</stage>
+            </p>
           </sp>
           <sp who="#bathory">
             <speaker>BÁTHORY</speaker>
@@ -4279,7 +4332,8 @@
             <stage>(Örömmel.)</stage>
             <p>Nos fiam, nem kérsz jutalmat barátaid számára? Elég nagy e könyvek fedele,
     rakd ki aranyokkal...<stage>(Dóczi odalép Corvinhoz egy erszénynyel s Corvin aranyokkal rakja
-        ki a két könyv fedelét.)</stage></p>
+        ki a két könyv fedelét.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -4299,7 +4353,8 @@
     szeretek köztetek lenni.<stage>(Két olasz tervrajzot mutat Mátyásnak.)</stage>Baccio, Cellini! Szépre építsd budai, tatai és pozsonyi palotáimat. Te,
     Benedetto da Majano, látom, Medici Lőrinc barátom ízlését hozod
     Pannoniának... Nos, Bonfinius, beszélj nekünk a jó és a rossz
-    kormányzatról!<stage>(Bonfinius és Galeotti Corvinnal vitát kezd.)</stage></p>
+    kormányzatról!<stage>(Bonfinius és Galeotti Corvinnal vitát kezd.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -4342,7 +4397,8 @@
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
-            <p>De itt a királyné!<stage>(Megragadja Ulászló kezét.)</stage>Ha Mátyás meghal, itt vagyok én!<stage>(Mind el, Ulászló Mátyáshoz csatlakozik.)</stage></p>
+            <p>De itt a királyné!<stage>(Megragadja Ulászló kezét.)</stage>Ha Mátyás meghal, itt vagyok én!<stage>(Mind el, Ulászló Mátyáshoz csatlakozik.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4443,7 +4499,8 @@
                                 királylyá, de sem téged, a cseh királyt, sem engem a másik cseh
                                 királyt és Ausztria hercegét, nem hivott meg a birodalmi tanácsba.
                                 Sereggel fogunk tiltakozni.<stage>(Királyok és udvar el. Corvin szintén menni
-                                    készül.)</stage></p>
+                                    készül.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
@@ -4464,7 +4521,8 @@
             <speaker>BEATRIX</speaker>
             <stage>(Tréfásan.)</stage>
             <p>No, rettegésre csak nincsen okod!...<stage>(Átöleli s az asztalkához vezeti. Antónia kelletlenül
-        segít neki. Borbála leül.</stage></p>
+        segít neki. Borbála leül.</stage>
+            </p>
           </sp>
           <sp who="#antonia">
             <speaker>ANTÓNIA</speaker>
@@ -4476,7 +4534,8 @@
     kissé zavart. Mint hogyha álomban járnék<stage>(Megborzad.)</stage>Olyan különös... Szegény atyámat és anyámat látom egyre, a régi
     megvetéssel és haraggal néznek rám és mégis ijedten, mintha
     féltenének, óvnának valami rémtől. Jó Anna néném, ő kiált felém, de
-    szavát nem értem.<stage>(Eszelősen néz körül.)</stage></p>
+    szavát nem értem.<stage>(Eszelősen néz körül.)</stage>
+            </p>
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
@@ -4499,7 +4558,8 @@
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
             <stage>(Kevélyen.)</stage>
-            <p>Ne feledd el, hogy Mátyás az enyém,<stage>(halkan)</stage>az enyém is...<stage>(Kacag.)</stage>De hagyjuk ezt, szeressük egymást!<stage>(Átöleli Borbálát.)</stage></p>
+            <p>Ne feledd el, hogy Mátyás az enyém,<stage>(halkan)</stage>az enyém is...<stage>(Kacag.)</stage>De hagyjuk ezt, szeressük egymást!<stage>(Átöleli Borbálát.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4552,7 +4612,8 @@
             <stage>(Aléltan.)</stage>
             <p>E boldogság vagy boldogtalanság, - eszemet vesztem.<stage>(Elalél, Beatrix föl akarja tartani, de látva, hogy
         Mátyás megfogja a kezét, hirtelen visszalép Antóniához
-        és Sanziohoz. Borbálát Corvin fogja föl.)</stage></p>
+        és Sanziohoz. Borbálát Corvin fogja föl.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -4567,7 +4628,8 @@
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
             <p>Anyám, fiad is itt van!<stage>(Mátyás megszorítja baljával Corvin jobb
-        kezét.)</stage></p>
+        kezét.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -4609,7 +4671,8 @@
     reám.<stage>(Borbálához lép.)</stage>Te csak maradj itt, fiadra bízlak vagy ha ő is úgy akarja, a
     királynéra. De itt maradj, az esti ünnepen a trónörökös anyja
     lesz. Jertek!<stage>(Súgva búcsúzik Borbálától, aztán Poki és Ujlakival
-        el.)</stage></p>
+        el.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -4696,7 +4759,8 @@
           <sp who="#sanzio">
             <speaker>SANZIO</speaker>
             <p>Hisz én is itt vagyok! Majd szólok embereimnek.<stage>(Fölkacag. Borbála és Sanzio integetve el. Antónia
-        Corvin után fut s kacagva fogja be a szemét.)</stage></p>
+        Corvin után fut s kacagva fogja be a szemét.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4719,7 +4783,8 @@
             <speaker>TIBRILI</speaker>
             <stage>(Ránéz nyugtalanul, félre.)</stage>
             <p>Majd olyan bolond találok lenni, aki akkor is kimutatja a
-    foga fehérét, mikor nem kacag.<stage>(El.)</stage></p>
+    foga fehérét, mikor nem kacag.<stage>(El.)</stage>
+            </p>
           </sp>
           <sp who="#antonia">
             <speaker>ANTÓNIA</speaker>
@@ -4779,7 +4844,8 @@
           <p>Hát hitvesedet hogy fogod megcsókolni?</p>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
-            <p>Még sose láttam.De...Tudom.<stage>(Megcsókolja Beatrixot.)</stage></p>
+            <p>Még sose láttam.De...Tudom.<stage>(Megcsókolja Beatrixot.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -4795,7 +4861,8 @@
             <speaker>BEATRIX</speaker>
             <p>Lári-fári! Jer, koccintsunk!<stage>(Koccintanak.)</stage>Édes anyád egészségére!<stage>(Nagyot villámlik, Beatrix kiejti a poharat
         kezéből.)</stage>Sebaj, itt egy másik!<stage>(Más poharat vesz.)</stage>Igyál, hadd lám, férfi vagy-e? A mi egészségünkre!<stage>Corvin mámorosan dől hátra Beatrix ölébe. Künn
-            vihar.)</stage></p>
+            vihar.)</stage>
+            </p>
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
@@ -4806,7 +4873,8 @@
             <speaker>ANTÓNIA</speaker>
             <stage>(Gitárt vesz kezébe és melléje hajol.)</stage>
             <p>Majd én szépet mesélek neked, vagy inkább
-                                daloljak?<stage>(Dalol.)</stage></p>
+                                daloljak?<stage>(Dalol.)</stage>
+            </p>
             <p>
               <stage>Zene</stage>
             </p>
@@ -4835,13 +4903,15 @@
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
             <stage>(Mámorosan.)</stage>
-            <p>Úgy szédülök... mi lelt engem?<stage>(Villámlik.)</stage>Mint hogyha kiáltást hallottam volna a távolból... Anyám!<stage>(Fölugrik.)</stage></p>
+            <p>Úgy szédülök... mi lelt engem?<stage>(Villámlik.)</stage>Mint hogyha kiáltást hallottam volna a távolból... Anyám!<stage>(Fölugrik.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
             <stage>(Háborodottan.)</stage>
             <p>Rajta, szóljon a zene!<stage>(Az erősbödő zene szava mellett belejtenek a
-        táncos párok.)</stage></p>
+        táncos párok.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4858,7 +4928,8 @@
             <speaker>BEATRIX</speaker>
             <stage>(Karjába dől.)</stage>
             <p>Ulászló, most ne hagyj el!<stage>(Középen lejtenek, mellettük Corvin és
-        Antónia.)</stage></p>
+        Antónia.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -4870,7 +4941,8 @@
           <sp who="#tibrili">
             <speaker>TIBRILI</speaker>
             <stage>(Mátyáshoz siet.)</stage>
-            <p>Uram király...<stage>(Fülébe súg.)</stage></p>
+            <p>Uram király...<stage>(Fülébe súg.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -4891,7 +4963,8 @@
           </sp>
           <sp who="#ulaszlo">
             <speaker>ULÁSZLÓ</speaker>
-            <p>Megesküszöm!...<stage>(Megállanak.)</stage></p>
+            <p>Megesküszöm!...<stage>(Megállanak.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -4900,7 +4973,8 @@
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
             <stage>(Liheg.)</stage>
-            <p>Uram!...<stage>(Hátul zavar, a zene megszakad.)</stage></p>
+            <p>Uram!...<stage>(Hátul zavar, a zene megszakad.)</stage>
+            </p>
           </sp>
           <sp who="#raskai #ujlaki">
             <speaker>RÁSKAI, ÚJLAKI</speaker>
@@ -4922,7 +4996,8 @@
             <speaker>MÁTYÁS</speaker>
             <stage>(Felordít.)</stage>
             <p>A szent feszületre!<stage>(Borbálát előre hozzák s Ráskai, Ujlaki,
-        Székely, Corvin, lefektetik.)</stage></p>
+        Székely, Corvin, lefektetik.)</stage>
+            </p>
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
@@ -4930,7 +5005,8 @@
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
-            <p>Borbála, nézz rám, beszélj!<stage>(Leborul mellé.)</stage></p>
+            <p>Borbála, nézz rám, beszélj!<stage>(Leborul mellé.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -4993,7 +5069,8 @@
           <sp who="#ulaszlo">
             <speaker>ULÁSZLÓ</speaker>
             <p>Király!<stage>(Bakócz, Dóczi, Filipecz körülállják
-        Beatrixot.)</stage></p>
+        Beatrixot.)</stage>
+            </p>
           </sp>
           <sp who="#bakoczi #doczi">
             <speaker>BAKÓCZI, DÓCZI</speaker>
@@ -5022,17 +5099,20 @@
           <sp who="#az_urak">
             <speaker>AZ URAK</speaker>
             <stage>(Beatrix körül.)</stage>
-            <p>Nemet intett!...<stage>(Moraj.)</stage></p>
+            <p>Nemet intett!...<stage>(Moraj.)</stage>
+            </p>
           </sp>
           <sp who="#borbala">
             <speaker>BORBÁLA</speaker>
             <stage>(Gyöngén.)</stage>
             <p>A királynét kérjed...<stage>(Beatrix némi távolból féltérdre
-        ereszkedik)</stage>hogy jó legyen fiunkhoz...<stage>(Meghal.)</stage></p>
+        ereszkedik)</stage>hogy jó legyen fiunkhoz...<stage>(Meghal.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
-            <p>Borbála! Vége... Az én éltem költözött el belőle.<stage>(Megtörten hanyatlik le.)</stage></p>
+            <p>Borbála! Vége... Az én éltem költözött el belőle.<stage>(Megtörten hanyatlik le.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -5043,7 +5123,8 @@
           </sp>
           <sp who="#filipecz">
             <speaker>FILIPECZ</speaker>
-            <p>Istennek intő ujja ez!<stage>(Moraj.)</stage></p>
+            <p>Istennek intő ujja ez!<stage>(Moraj.)</stage>
+            </p>
           </sp>
           <sp who="#ulaszlo">
             <speaker>ULÁSZLÓ</speaker>
@@ -5085,7 +5166,8 @@
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
-            <p>Esküdjetek!<stage>(Feszületet vesz kezébe.)</stage></p>
+            <p>Esküdjetek!<stage>(Feszületet vesz kezébe.)</stage>
+            </p>
             <p>"Isten enghem hugh seghelien, Boldogazzon, úr
                                                 Istennek mind zenthi, ez oltári zenthsségh, ez
                                                 zentkereszt, e zent evangelium és e zenth Jánosnak
@@ -5191,7 +5273,8 @@
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
-            <p>Fel hát ujabb diadalokra!<stage>(Int. Mind el, Mátyás és Corvin kivételével.)</stage></p>
+            <p>Fel hát ujabb diadalokra!<stage>(Int. Mind el, Mátyás és Corvin kivételével.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5202,7 +5285,8 @@
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
             <p>Fiam, menjünk most Istennek hálát adni s szegény anyádért majd
-    imádkozunk.<stage>(Indulnak a bástyakápolna felé.)</stage></p>
+    imádkozunk.<stage>(Indulnak a bástyakápolna felé.)</stage>
+            </p>
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
@@ -5223,7 +5307,8 @@
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
             <p>Egy Istenhez, jó Istenhez, mi ketten együtt nem imádkozhatunk.<stage>(El, Corvinnal a kápolnába, térdelve ott maradnak az oltár
-        előtt.)</stage></p>
+        előtt.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5235,7 +5320,8 @@
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
             <stage>(Elképedve.)</stage>
-            <p>Hallottad engesztelhetetlen szavát? Antónia, mi lesz velem?<stage>(Remegve néz körül.)</stage></p>
+            <p>Hallottad engesztelhetetlen szavát? Antónia, mi lesz velem?<stage>(Remegve néz körül.)</stage>
+            </p>
           </sp>
           <sp who="#antonia">
             <speaker>ANTÓNIA</speaker>
@@ -5273,12 +5359,14 @@
             <p>És a himpor rajtuk még nápolyibb méreg!... Halál, te, aki bennünk lakol,
     gyűlöletemtől légy erős!<stage>(Körülnéz, majd Antóniával együtt pár fügét a gyümölcsös tálba
         rejt, aztán föleszmél s keresztet vetve magára, a kápolna iránt le
-        akar térdelni.)</stage></p>
+        akar térdelni.)</stage>
+            </p>
           </sp>
           <sp who="#antonia">
             <speaker>ANTÓNIA</speaker>
             <stage>(Visszarántja Beatrixt.</stage>
-            <p>Te, ne hozzá imádkozz, ő Mátyást segíti, felség... - Siessünk.<stage>(El Beatrix és Antónia.)</stage></p>
+            <p>Te, ne hozzá imádkozz, ő Mátyást segíti, felség... - Siessünk.<stage>(El Beatrix és Antónia.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5381,11 +5469,13 @@
             <stage>(Belép balról elől s iszonyodva támaszkodik a falhoz, Péterhez
                                 lihegve.)</stage>
             <p>Megízlelé?<stage>(Péter el, Beatrix pár pillanatig némán hallgatódzik, azután
-        egyszerre növekedő moraj. Tibrili berohan.)</stage></p>
+        egyszerre növekedő moraj. Tibrili berohan.)</stage>
+            </p>
           </sp>
           <sp who="#tibrili">
             <speaker>TIBRILI</speaker>
-            <p>Urak, ide hamar! - a király meg akar halni!<stage>(Hangok minden felől: a király meg akar halni!)</stage></p>
+            <p>Urak, ide hamar! - a király meg akar halni!<stage>(Hangok minden felől: a király meg akar halni!)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -5399,12 +5489,14 @@
           </p>
           <sp who="#filipecz #bakocz #doczi #ujlaki #magyar_balazs #kinisi #szentgyorgyi">
             <speaker>MIND</speaker>
-            <p>Óh, iszonyat, mi történt?!<stage>(Moraj.)</stage></p>
+            <p>Óh, iszonyat, mi történt?!<stage>(Moraj.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
             <p>Gyehennát érzek testemben!<stage>(Lefektetik a középre tolt császári székbe. Mind körülötte.
-        Beatrix pillanatig állva marad, aztán rettegve közeledik.)</stage></p>
+        Beatrix pillanatig állva marad, aztán rettegve közeledik.)</stage>
+            </p>
           </sp>
           <sp who="#corvin">
             <speaker>CORVIN</speaker>
@@ -5412,7 +5504,8 @@
           </sp>
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
-            <p>Uram, - király!...<stage>(Antónia támogatja.)</stage></p>
+            <p>Uram, - király!...<stage>(Antónia támogatja.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -5427,7 +5520,8 @@
           </sp>
           <sp who="#magyar_balazs">
             <speaker>MAGYAR BALÁZS</speaker>
-            <p>Életünket adnánk!...<stage>(Moraj.)</stage></p>
+            <p>Életünket adnánk!...<stage>(Moraj.)</stage>
+            </p>
           </sp>
           <sp who="#matyas">
             <speaker>MÁTYÁS</speaker>
@@ -5491,7 +5585,8 @@
                         Síromra írjátok: "Itt nyugszik Mátyás... A rabigába került Ausztria vallja
                         erőm, megdöbbent a világ s két császár rettege tőlem és nem győzött meg más,
                         csak a szörnyü halál..." Ti urak,<stage>fölemeli vaskeztyűs jobbját)</stage>esküdjetek!<stage>(Az urak 
-                            letérdelnek, fölemelik jobbjukat.)</stage>Minden sötét, fiam, szegény fiam.<stage>(Keze lehanyatlik.)</stage></p>
+                            letérdelnek, fölemelik jobbjukat.)</stage>Minden sötét, fiam, szegény fiam.<stage>(Keze lehanyatlik.)</stage>
+            </p>
           </sp>
           <sp who="#ujlaki">
             <speaker>UJLAKI</speaker>
@@ -5511,7 +5606,8 @@
           <sp who="#szekely">
             <speaker>SZÉKELY</speaker>
             <p>A dicsőség napja lenyugodott, most gyermekére a halvány holdra tekintsetek!
-    Mi lesz velünk?<stage>(Mind Corvinra néznek.)</stage></p>
+    Mi lesz velünk?<stage>(Mind Corvinra néznek.)</stage>
+            </p>
           </sp>
           <sp who="#magyar_balazs">
             <speaker>MAGYAR BALÁZS</speaker>
@@ -5519,7 +5615,8 @@
           </sp>
           <sp who="#zapolya">
             <speaker>ZÁPOLYA</speaker>
-            <p>Bécs már lázad!<stage>(Künn moraj.)</stage></p>
+            <p>Bécs már lázad!<stage>(Künn moraj.)</stage>
+            </p>
           </sp>
           <sp who="#kinisi">
             <speaker>KINISI</speaker>
@@ -5528,7 +5625,8 @@
           <sp who="#kinisi #magyar_balazs #zapolya #szekely">
             <speaker>MIND</speaker>
             <stage>(Corvinra néznek.)</stage>
-            <p>Egy gyermek?<stage>Trombitaszó künn. Mind el.)</stage></p>
+            <p>Egy gyermek?<stage>Trombitaszó künn. Mind el.)</stage>
+            </p>
           </sp>
           <sp who="#poki">
             <speaker>POKI</speaker>
@@ -5542,7 +5640,8 @@
           <sp who="#beatrix">
             <speaker>BEATRIX</speaker>
             <stage>(Szívéhez kap.)</stage>
-            <p>Ulászló!<stage>(Kivül fegyverzörgés.)</stage></p>
+            <p>Ulászló!<stage>(Kivül fegyverzörgés.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
