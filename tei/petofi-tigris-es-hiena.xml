@@ -121,9 +121,6 @@
           </author>
           <title type="main">Tigris és hiéna</title>
           <title type="sub">Történeti dráma négy felvonásban</title>
-          <date type="print" when="1847">1847</date>
-          <date type="premiere" when="1883">1883-11-03</date>
-          <date type="written" when="1847">1847</date>
           <pubPlace>Pest</pubPlace>
           <publisher>Emich</publisher>
         </bibl>
@@ -226,6 +223,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1847">
+        <desc/>
+      </event>
+      <event type="premiere" when="1883">
+        <label>1883-11-03</label>
+      </event>
+      <event type="written" when="1847">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

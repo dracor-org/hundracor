@@ -117,9 +117,6 @@
               <forename>Károly</forename>
             </persName>
           </respStmt>
-          <date type="print" when="1880">1880</date>
-          <date type="premiere" when="1938-12-02">1938. december 2.</date>
-          <date type="written" when="1859">1859</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Athenaeum</publisher>
         </bibl>
@@ -165,6 +162,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1880">
+        <desc/>
+      </event>
+      <event type="premiere" when="1938-12-02">
+        <label>1938. december 2.</label>
+      </event>
+      <event type="written" when="1859">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

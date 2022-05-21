@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -124,9 +124,6 @@
           </author>
           <title type="main">A tanítónő</title>
           <title type="sub">Falusi életkép három felvonásban</title>
-          <date type="print" when="1908">1908</date>
-          <date type="premiere" when="1908-03-21">1908. március 21.</date>
-          <date type="written" to="1907" from="1908">1908</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Singer - Wolfner</publisher>
         </bibl>
@@ -232,6 +229,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1908">
+        <desc/>
+      </event>
+      <event type="premiere" when="1908-03-21">
+        <label>1908. március 21.</label>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

@@ -127,9 +127,6 @@
               <forename/>
             </persName>
           </respStmt>
-          <date type="print" when="1885">1885</date>
-          <date type="premiere" when="1884">1884</date>
-          <date type="written" when="1884">1884</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Athenaeum R.</publisher>
         </bibl>
@@ -208,6 +205,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1885">
+        <desc/>
+      </event>
+      <event type="premiere" when="1884">
+        <desc/>
+      </event>
+      <event type="written" when="1884">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

@@ -125,9 +125,6 @@
             </persName>
             <idno type="wikidata">Q149415</idno>
           </author>
-          <date type="print" when="1820">1820</date>
-          <date type="premiere" when="1833-02-15">1833-02-15</date>
-          <date type="written" when="1819">1819</date>
           <publisher>Trattner</publisher>
           <pubPlace>Budapest</pubPlace>
         </bibl>
@@ -227,6 +224,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1820">
+        <desc/>
+      </event>
+      <event type="premiere" when="1833-02-15">
+        <desc/>
+      </event>
+      <event type="written" when="1819">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

@@ -107,9 +107,6 @@
             </persName>
             <idno type="wikidata">Q366331</idno>
           </author>
-          <date type="print" when="1861">1861</date>
-          <date type="premiere" when="1883-09-21">1883. szeptember 21.</date>
-          <date from="1859-02-17" to="1860-03-26" type="written">1859. február 17 és 1860. március 26. között</date>
           <pubPlace>Pest</pubPlace>
           <publisher>Kisfaludy-Társaság</publisher>
         </bibl>
@@ -452,6 +449,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1861">
+        <desc/>
+      </event>
+      <event type="premiere" when="1883-09-21">
+        <label>1883. szeptember 21.</label>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <body>
       <head type="title">Madách Imre: Az ember tragédiája</head>

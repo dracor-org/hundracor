@@ -117,9 +117,6 @@
               <forename>Miklós</forename>
             </persName>
           </respStmt>
-          <date type="print" when="1954">1954</date>
-          <date type="premiere" when="1942">1928-03-3</date>
-          <date from="1928" to="1942" type="written">1928 és 1942 között</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Művelt Nép</publisher>
         </bibl>
@@ -213,6 +210,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1954">
+        <desc/>
+      </event>
+      <event type="premiere" when="1942">
+        <label>1928-03-3</label>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <head>SZEMÉLYEK</head>

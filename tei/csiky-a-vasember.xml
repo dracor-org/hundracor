@@ -128,9 +128,6 @@
             </persName>
             <idno type="wikidata">Q166952</idno>
           </author>
-          <date type="print" when="1888">1888</date>
-          <date type="premiere" when="1888">1888</date>
-          <date type="written" when="1888">1888</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Athenaeum</publisher>
         </bibl>
@@ -164,6 +161,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1888">
+        <desc/>
+      </event>
+      <event type="premiere" when="1888">
+        <desc/>
+      </event>
+      <event type="written" when="1888">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
 <!-- ehhez vissza kell térni -->
@@ -4413,7 +4423,7 @@
             <lg>
               <l>Én tudom...</l>
               <l>Fiam meghal, te léssz a gyilkosa.</l>
-              <l></l>
+              <l/>
             </lg>
           </sp>
           <sp who="#bardi">

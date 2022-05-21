@@ -117,9 +117,6 @@
             </persName>
             <idno type="wikidata">Q832280</idno>
           </author>
-          <date type="print" when="1845">1845</date>
-          <date type="premiere" when="1844-11-18">1844 november 18.</date>
-          <date type="written" when="1844">1844</date>
           <pubPlace>Pest</pubPlace>
           <publisher>Trattner-Károlyi</publisher>
         </bibl>
@@ -177,6 +174,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1845">
+        <desc/>
+      </event>
+      <event type="premiere" when="1844-11-18">
+        <label>1844 november 18.</label>
+      </event>
+      <event type="written" when="1844">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

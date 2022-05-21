@@ -132,9 +132,6 @@
             </persName>
             <idno type="wikidata">Q835071</idno>
           </author>
-          <date type="print" when="1558">1558</date>
-          <date type="premiere" when="1931-03-02">1931-03-02</date>
-          <date type="written" when="1558">1558</date>
           <pubPlace>Bécs</pubPlace>
           <publisher/>
         </bibl>
@@ -174,6 +171,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1558">
+        <desc/>
+      </event>
+      <event type="premiere" when="1931-03-02">
+        <desc/>
+      </event>
+      <event type="written" when="1558">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <head>AZ JÁTÉKBA ELÖLJÁRÓ BESZÉD</head>

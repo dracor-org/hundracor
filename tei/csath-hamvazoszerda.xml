@@ -142,9 +142,6 @@
             </persName>
           </respStmt>
           <title>Hamvazószerda</title>
-          <date type="print" when="1974">1974</date>
-          <date type="premiere" when="1911">1911</date>
-          <date type="written" when="1911">1911</date>
           <pubPlace>Gyoma</pubPlace>
           <publisher>Kner Ny.</publisher>
         </bibl>
@@ -286,6 +283,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1974">
+        <desc/>
+      </event>
+      <event type="premiere" when="1911">
+        <desc/>
+      </event>
+      <event type="written" when="1911">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

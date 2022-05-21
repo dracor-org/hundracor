@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -99,9 +99,6 @@
             </persName>
             <idno type="wikidata">Q332484</idno>
           </author>
-          <date type="print" when="1834-10">1834 októberében</date>
-          <date type="premiere" when="1836-03-27">1836. március 27.</date>
-          <date from="1833-03" to="1834-08-15" type="written">1833. márciusa után, 1834. augusztus 15. előtt</date>
           <pubPlace>Pest</pubPlace>
           <publisher>Kisfaludy Károly</publisher>
         </bibl>
@@ -159,6 +156,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1834-10">
+        <label>1834 októberében</label>
+      </event>
+      <event type="premiere" when="1836-03-27">
+        <label>1836. március 27.</label>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>
@@ -4926,7 +4933,7 @@
             <l>’S tündérkedem, hogy vissza csaljam őt.</l>
             <l>’S ha végre Vilma nyer, ’s a’ fátyolos lány</l>
             <l>Ismét feledve? Az sem veszteség</l>
-            <l></l>
+            <l/>
             <l>Akkor megint csak birtokomba jő.</l>
             <l>De nem! ha Vilmához tér újolag,</l>
             <l>’S kétélü nyelve szenvedélyt hazud,</l>

@@ -117,9 +117,6 @@
             </persName>
             <idno type="wikidata">Q1232089</idno>
           </author>
-          <date type="print" when="1904">1904</date>
-          <date type="premiere" when="1904-03-24">1904-03-24</date>
-          <date type="written" when="1904">1904</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Singer - Wolfner</publisher>
         </bibl>
@@ -276,6 +273,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1904">
+        <desc/>
+      </event>
+      <event type="premiere" when="1904-03-24">
+        <desc/>
+      </event>
+      <event type="written" when="1904">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

@@ -125,9 +125,6 @@
             <idno type="wikidata">Q379599</idno>
           </author>
           <title type="main">Szép magyar komédia</title>
-          <date type="print" when="1656">1656</date>
-          <date type="premiere">unknown</date>
-          <date type="written" when="1589">1589</date>
           <publisher>unknown</publisher>
           <pubPlace>unknown</pubPlace>
         </bibl>
@@ -170,6 +167,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1656">
+        <desc/>
+      </event>
+      <event type="written" when="1589">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

@@ -137,9 +137,6 @@
           <title type="main">A méla Tempefői ; Gerson du Malheureux ; A cultura ;
                         Karnyóné</title>
           <title type="sub"/>
-          <date type="print" when="1956">1956</date>
-          <date type="premiere" when="1938">1938</date>
-          <date type="written" when="1793">1793</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Szépirodalmi Kiadó</publisher>
         </bibl>
@@ -206,6 +203,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1956">
+        <desc/>
+      </event>
+      <event type="premiere" when="1938">
+        <desc/>
+      </event>
+      <event type="written" when="1793">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

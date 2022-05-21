@@ -121,9 +121,6 @@
           </author>
           <title type="main">Hazatérés</title>
           <title type="sub">Dráma 4 felvonásban, 7 képben</title>
-          <date type="print" when="1941">1941</date>
-          <date type="premiere">unknown</date>
-          <date type="written" when="1941">1941</date>
           <pubPlace>Moszkva</pubPlace>
           <publisher>Mezsdunarodnaja Kniga Nemzetközi Könyv</publisher>
         </bibl>
@@ -256,6 +253,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1941">
+        <desc/>
+      </event>
+      <event type="written" when="1941">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

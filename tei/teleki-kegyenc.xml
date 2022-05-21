@@ -124,9 +124,6 @@
             </persName>
             <idno type="wikidata">Q832633</idno>
           </author>
-          <date type="print" when="1880">1841</date>
-          <date type="premiere" when="1841-10-06">1841. szeptember 6.</date>
-          <date type="written" when="1840">1840</date>
           <pubPlace>Pest</pubPlace>
           <publisher>Heckenast Gusztáv</publisher>
         </bibl>
@@ -259,6 +256,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1880">
+        <label>1841</label>
+      </event>
+      <event type="premiere" when="1841-10-06">
+        <label>1841. szeptember 6.</label>
+      </event>
+      <event type="written" when="1840">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

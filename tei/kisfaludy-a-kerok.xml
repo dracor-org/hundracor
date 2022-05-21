@@ -117,9 +117,6 @@
             </persName>
             <idno type="wikidata">Q927190</idno>
           </author>
-          <date type="print" when="1820">1820</date>
-          <date type="premiere" when="1819">1819-09-24</date>
-          <date from="1817" to="1819" type="written">1817-1819</date>
           <pubPlace>Pest</pubPlace>
           <publisher>unknown</publisher>
         </bibl>
@@ -174,6 +171,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1820">
+        <desc/>
+      </event>
+      <event type="premiere" when="1819">
+        <label>1819-09-24</label>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

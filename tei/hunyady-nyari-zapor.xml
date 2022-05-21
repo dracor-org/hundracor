@@ -132,9 +132,6 @@
               <forename>Sándor</forename>
             </persName>
           </respStmt>
-          <date type="print" when="1941">1941</date>
-          <date type="premiere">unknown</date>
-          <date type="written" when="1941">1941</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Hindy András</publisher>
         </bibl>
@@ -183,6 +180,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1941">
+        <desc/>
+      </event>
+      <event type="written" when="1941">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

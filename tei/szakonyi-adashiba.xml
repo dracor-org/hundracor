@@ -121,9 +121,6 @@
               <forename>Lajosné</forename>
             </persName>
           </respStmt>
-          <date type="print" when="1971">1971</date>
-          <date type="premiere" when="1970-05-23">1970-05-23</date>
-          <date type="written" when="1970">1970</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Szépirodalmi Könyvkiadó</publisher>
         </bibl>
@@ -163,6 +160,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1971">
+        <desc/>
+      </event>
+      <event type="premiere" when="1970-05-23">
+        <desc/>
+      </event>
+      <event type="written" when="1970">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

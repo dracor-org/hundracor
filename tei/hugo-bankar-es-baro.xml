@@ -121,9 +121,6 @@
           <title type="main">Bankár és báró</title>
           <title type="sub">Szomorújáték három
                                                   felvonásban</title>
-          <date type="print" when="1848">1848</date>
-          <date type="premiere" when="1846">1846</date>
-          <date type="written" when="1846">1846</date>
           <pubPlace>Pest</pubPlace>
           <publisher>Heckenast</publisher>
         </bibl>
@@ -151,6 +148,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1848">
+        <desc/>
+      </event>
+      <event type="premiere" when="1846">
+        <desc/>
+      </event>
+      <event type="written" when="1846">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

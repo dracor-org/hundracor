@@ -125,9 +125,6 @@
             </persName>
             <idno type="wikidata">Q227312</idno>
           </author>
-          <date type="print" when="1941">1941</date>
-          <date type="premiere" when="1929-11-29">1929-11-29</date>
-          <date type="written" when="1929">1929</date>
           <publisher> Athenaeum</publisher>
           <pubPlace>Budapest</pubPlace>
         </bibl>
@@ -242,6 +239,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1941">
+        <desc/>
+      </event>
+      <event type="premiere" when="1929-11-29">
+        <desc/>
+      </event>
+      <event type="written" when="1929">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
 <!-- hiányzik a castList -->
     <front>

@@ -118,9 +118,6 @@
             </persName>
             <idno type="wikidata">Q469956</idno>
           </author>
-          <date type="print" when="1911">1911</date>
-          <date type="premiere" when="1911-05-20">1911-05-20</date>
-          <date type="written" when="1911">1911</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Nyugat</publisher>
         </bibl>
@@ -172,6 +169,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1911">
+        <desc/>
+      </event>
+      <event type="premiere" when="1911-05-20">
+        <desc/>
+      </event>
+      <event type="written" when="1911">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

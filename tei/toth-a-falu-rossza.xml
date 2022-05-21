@@ -118,9 +118,6 @@
 <!-- hiányzik -->
           </author>
           <title type="main">A falu rossza</title>
-          <date type="print" when="1874">1874</date>
-          <date type="premiere" when="1875-01-15">1875-01-15</date>
-          <date type="written" when="1874">1874</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Pfeifer</publisher>
         </bibl>
@@ -215,6 +212,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1874">
+        <desc/>
+      </event>
+      <event type="premiere" when="1875-01-15">
+        <desc/>
+      </event>
+      <event type="written" when="1874">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

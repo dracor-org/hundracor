@@ -131,9 +131,6 @@
               <forename>Pál</forename>
             </persName>
           </respStmt>
-          <date type="print" when="1880">1880</date>
-          <date type="premiere" when="1888">1888</date>
-          <date from="1860" to="1861" type="written">1860-1861</date>
           <pubPlace>Pest</pubPlace>
           <publisher>Athenaeum</publisher>
         </bibl>
@@ -221,6 +218,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1880">
+        <desc/>
+      </event>
+      <event type="premiere" when="1888">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

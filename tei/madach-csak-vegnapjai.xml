@@ -127,10 +127,6 @@
           <title type="main">Csák végnapjai</title>
           <title type="sub">Dráma öt felvonásban :
                                                   Előjátékkal egy felvonásban</title>
-          <date type="print" when="1888">1888</date>
-          <date type="premiere" when="1886">1886-10-09</date>
-          <date from="1843" to="1861" type="written">1843 és
-                                                  1861 között</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Athenaeum</publisher>
         </bibl>
@@ -248,6 +244,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1888">
+        <desc/>
+      </event>
+      <event type="premiere" when="1886">
+        <label>1886-10-09</label>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

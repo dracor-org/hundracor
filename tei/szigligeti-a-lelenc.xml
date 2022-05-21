@@ -127,9 +127,6 @@
             </persName>
             <idno type="wikidata">Q897099</idno>
           </author>
-          <date type="print" when="1879">1879</date>
-          <date type="premiere" when="1863">1863</date>
-          <date type="written" when="1863">1863</date>
           <pubPlace>Budapest</pubPlace>
           <publisher>Pfeiffer</publisher>
         </bibl>
@@ -214,6 +211,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1879">
+        <desc/>
+      </event>
+      <event type="premiere" when="1863">
+        <desc/>
+      </event>
+      <event type="written" when="1863">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

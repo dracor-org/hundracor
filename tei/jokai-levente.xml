@@ -125,9 +125,6 @@
             </persName>
             <idno type="wikidata">Q379621</idno>
           </author>
-          <date type="print" when="1898">1898</date>
-          <date type="premiere"/>
-          <date type="written" when="1897">1897</date>
           <pubPlace>Pest</pubPlace>
           <publisher>Révai</publisher>
         </bibl>
@@ -383,6 +380,16 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1898">
+        <desc/>
+      </event>
+      <event type="written" when="1897">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>
@@ -7411,7 +7418,7 @@
             <lg>
               <l>Fogd be a szád púpos! Eredj a zugolyba!</l>
               <l>Ne irigyeld el a más gyönyörüségét!</l>
-              <l></l>
+              <l/>
             </lg>
           </sp>
           <sp who="#kurut">

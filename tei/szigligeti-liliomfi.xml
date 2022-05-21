@@ -118,9 +118,6 @@
             </persName>
             <idno type="wikidata">Q897099</idno>
           </author>
-          <date type="print" when="1875">1875</date>
-          <date type="premiere" when="1849-12-21">1849-12-21</date>
-          <date type="written" when="1849">1849</date>
           <publisher>Franklin</publisher>
           <pubPlace>Budapest</pubPlace>
         </bibl>
@@ -187,6 +184,19 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1875">
+        <desc/>
+      </event>
+      <event type="premiere" when="1849-12-21">
+        <desc/>
+      </event>
+      <event type="written" when="1849">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>
