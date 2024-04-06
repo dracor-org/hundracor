@@ -51,12 +51,13 @@ OUT="tei"
 FILES=$@
 
 if [ $# -eq 0 ]; then
-  if [ ! -d $SOURCE_DIR]; then
+  if [ ! -d $SOURCE_DIR ]; then
     git clone $SOURCE_REPO $SOURCE_DIR
-    cd $SOURCE_DIR
-    git checkout $SOURCE_BRANCH
-    cd -
   fi
+  cd $SOURCE_DIR
+  git checkout $SOURCE_BRANCH
+  git pull origin $SOURCE_BRANCH
+  cd -
   FILES=$SOURCE_DIR/level1/*.xml
 fi
 
