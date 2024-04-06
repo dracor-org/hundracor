@@ -42,10 +42,25 @@ done
 # set positional arguments in their proper place
 eval set -- "$PARAMS"
 
+SOURCE_REPO="https://github.com/dracor-org/ELTE-drama-corpus.git"
+SOURCE_DIR="elte-drama-corpus"
+SOURCE_BRANCH="dracor"
 XSLT="elte2dracor.xsl"
 OUT="tei"
 
-for source in $@; do
+FILES=$@
+
+if [ $# -eq 0 ]; then
+  if [ ! -d $SOURCE_DIR]; then
+    git clone $SOURCE_REPO $SOURCE_DIR
+    cd $SOURCE_DIR
+    git checkout $SOURCE_BRANCH
+    cd -
+  fi
+  FILES=$SOURCE_DIR/level1/*.xml
+fi
+
+for source in $FILES; do
   saxon -xsl:$XSLT -s:"$source" outputdirectory=$OUT
 done
 

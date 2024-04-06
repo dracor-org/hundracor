@@ -27,17 +27,19 @@ The XSLT workflow depends on the following tools
 
 ### XSLT Transformation
 
-To update the entire corpus from the sources run the the `elte2dracor` script
-like this (assuming you have cloned the
-[ELTE-drama-corpus](https://github.com/dracor-org/ELTE-drama-corpus) repo to the
-same parent directory as `hundracor`):
+To update the entire corpus from the sources simply run the the `elte2dracor`
+script from the root directory of this repo:
 
 ```sh
-./elte2dracor ../ELTE-drama-corpus/level1/*.xml
+./elte2dracor
 ```
+
+This clones the
+[ELTE-drama-corpus](https://github.com/dracor-org/ELTE-drama-corpus) repo and
+runs the transformation for each file in its `level1` directory.
 
 You can also update individual files, for instance:
 
 ```sh
-./elte2dracor ../ELTE-drama-corpus/level1/Madach_ACivilizator.xml
+./elte2dracor ./elte-drama-corpus/level1/Madach_ACivilizator.xml
 ```
