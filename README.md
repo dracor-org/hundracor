@@ -23,7 +23,8 @@ ready.
 The XSLT workflow depends on the following tools
 
 - [saxon XSLT processor](https://www.saxonica.com/)
-- [xmlformat XML document formatter](http://www.kitebird.com/software/xmlformat/xmlformat.html)
+- [xmlformat XML document formatter](https://web.archive.org/web/20160929174540/http://www.kitebird.com/software/xmlformat/)
+  (on macOS with homebrew you can `brew install xmlformat`)
 
 ### XSLT Transformation
 
