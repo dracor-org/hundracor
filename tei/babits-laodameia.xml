@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000045" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Laodameia</title>
+        <title type="sub">Drámai költemény két részben</title>
+        <author>
+          <persName>
+            <surname>Babits</surname>
+            <forename>Mihály</forename>
+          </persName>
+          <idno type="wikidata">Q332482</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Bajzát</surname>
+            <forename>Tímea</forename>
+          </persName>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Sziráki</surname>
+            <forename>Sarolta</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">
+                        https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">
+                        https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">Laodameia</title>
+          <title type="sub"/>Drámai költemény két részben <publisher>Magyar Elektronikus
+                        Könyvtárért Egyesület</publisher>
+          <ref target="http://epa.oszk.hu/00000/00022/00063/01785.htm"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname>Király</surname>
+              <forename>Péter</forename>
+            </persName>
+            <persName>
+              <surname>Gerhardt</surname>
+              <forename>Norbert</forename>
+            </persName>
+            <persName>
+              <surname>Szűcs</surname>
+              <forename>József</forename>
+            </persName>
+            <persName>
+              <surname>Csáki</surname>
+              <forename>Zoltán</forename>
+            </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">Laodameia</title>
+          <title type="sub"/>Drámai költemény két részben <author>
+            <persName>
+              <surname>Babits</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q332482</idno>
+          </author>
+          <date when="1910">1910</date>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Nyugat</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname>Babits</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q332482</idno>
+          </author>
+          <title type="main">Laodameia</title>
+          <title type="sub"/>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Nyugat</publisher>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="laodameia" sex="FEMALE">
+            <persName>LAODAMEIA</persName>
+          </person>
+          <person xml:id="jos" sex="MALE">
+            <persName>JÓS</persName>
+          </person>
+          <person xml:id="fiuk_kara" sex="MALE">
+            <persName>FIÚK KARA</persName>
+          </person>
+          <person xml:id="lanyok_kara" sex="FEMALE">
+            <persName>LÁNYOK KARA</persName>
+          </person>
+          <person xml:id="hirnok" sex="MALE">
+            <persName>HÍRNÖK</persName>
+          </person>
+          <person xml:id="iphiklos" sex="MALE">
+            <persName>IPHIKLOS</persName>
+          </person>
+          <person xml:id="protesilaos" sex="MALE">
+            <persName>PROTESILAOS</persName>
+          </person>
+          <person xml:id="fiuk_kara_lanyok_kara" sex="UNKNOWN">
+            <persName>KAR</persName>
+          </person>
+          <person xml:id="semichorus" sex="UNKNOWN">
+            <persName>SEMICHORUS</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1910">
+        <desc/>
+      </event>
+      <event type="premiere" when="1983">
+        <label>1983. november 27.</label>
+      </event>
+      <event type="written" when="1910">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head type="title">
+          <hi rend="underline">ΤΑ ΤΟΥ ΔΡΆΜΑΤΟΣ ΠΡΌΣΩΠΑ</hi>
+        </head>
+        <castItem>
+          <role><roleName>Laodameia</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>Jós</roleName></role>
+        </castItem>
+        <castGroup>
+          <roleDesc>Kar</roleDesc>
+          <castItem>
+            <role><roleName>Fiúk és lányok kara</roleName></role>
+          </castItem>
+          <castItem>
+            <role><roleName>Hírnök</roleName></role>
+          </castItem>
+          <castItem>
+            <role><roleName>Iphiklos</roleName></role>
+          </castItem>
+          <castItem>
+            <role><roleName>Protesilaos</roleName></role>
+          </castItem>
+        </castGroup>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head type="title">ELSŐ SZÍN</head>
+        <stage>Színhely: Phylaké, Thessalia.</stage>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>A Hóra visszahozza már a zöld tavaszt</l>
+            <l>lombtól sötét a hószin oszlopok köze. -</l>
+            <l>Ma újra véres és halottas álmokat</l>
+            <l>küldött egy isten. - Im lefolyt a teljes év,</l>
+            <l>mióta hősi férjem Protesilaos</l>
+            <l>görbe hajóján légszerű tengerre szállt</l>
+            <l>hogy megbüntesse a hitetlen trójait</l>
+            <l>s Tróját lerontsa. S im még róla semmi hír.</l>
+            <l>Bölcs jós, tudás kapuja, készítsd jóslatod.</l>
+          </lg>
+        </sp>
+        <sp who="#jos">
+          <speaker>JÓS</speaker>
+          <lg>
+            <l>Királynő, néha jobb nem tudni a jövőt.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Világosságnál jobb-e hát a vak homály?</l>
+          </lg>
+        </sp>
+        <sp who="#jos">
+          <speaker>JÓS</speaker>
+          <lg>
+            <l>Az isteneknél változatlan áll a sors.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Tudva kitérhet utjából a gondos ész.</l>
+          </lg>
+        </sp>
+        <sp who="#jos">
+          <speaker>JÓS</speaker>
+          <lg>
+            <l>Asszonykézzel vasat kívánsz hajlítani.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Királynődnek szegülsz-e ellen, szolgavér?</l>
+          </lg>
+        </sp>
+        <sp who="#jos">
+          <speaker>JÓS</speaker>
+          <lg>
+            <l>Tudod-e még a jóslatot, mely Delphiből</l>
+            <l>jött Atridákhoz, mielőtt hajóikat</l>
+            <l>indíták földig rontani szent Iliont?</l>
+            <l>"Kinek a lába legelőbb érinti meg</l>
+            <l>Trójának földjét, Trója földjén veszni fog."</l>
+            <l>Vas végzet vonssza lábaink lépéseit.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Ó jaj nekem!</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Mi bánt úrnöm?</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Ó jaj nekem!</l>
+            <l>Már látom a végzetnek szörnyü szőttesét.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Baljós multakba néznek véres szemeid.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Férjem hallván Apollo gyémánt végzetét,</l>
+            <l>szólt: "Boldog és háromszor boldog a görög,</l>
+            <l>ki trójai homokba az első görög,</l>
+            <l>nyomot nyomhatja." - Döbbenéssel felelénk:</l>
+            <l>"De isten mondja, Trója földjén ,veszni fog".</l>
+            <l>Nem hajtva, újra mondta: "Boldog a görög,</l>
+            <l>kinek hajója gyors és lába gyors, a part</l>
+            <l>felé, hajója szállni, lába ugrani,</l>
+            <l>a part felé, madárhajó és zergeláb."</l>
+          </lg>
+        </sp>
+        <sp who="#jos">
+          <speaker>JÓS</speaker>
+          <lg>
+            <l>A hős vakmódra végzet ellen merni bíz</l>
+            <l>és azt gondolja, bátorsága már erő.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Lefolyt a teljes év s még róla semmi hír.</l>
+            <l>Bölcs jós, tudás kapuja, készítsd jóslatod.</l>
+          </lg>
+        </sp>
+        <sp who="#jos">
+          <speaker>JÓS</speaker>
+          <lg>
+            <l>Királynő, férjed őrült lelke szállt beléd:</l>
+            <l>asszonykézzel vasat kivánsz hajlítani.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Királynődnek szegülsz-e ellen, szolgafaj?</l>
+            <l>Oltár lángjára szótlan öntsd a barna vért.</l>
+          </lg>
+        </sp>
+        <sp who="#jos">
+          <speaker>JÓS</speaker>
+          <lg>
+            <l>A vér sercegve összefut s a füst lecsap:</l>
+            <l>baljós illat száll meghomályzott gőzivel.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <stage>1. strófa.</stage>
+          <lg>
+            <l>Minden szomorú idö közt</l>
+            <l>a tavasz a legszomorúbb,</l>
+            <l>amikor zöldül az erdő,</l>
+            <l>amikor borul az ég.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Friss zápor zúg a mezők közt</l>
+            <l>az út sárral teli, rút,</l>
+            <l>de barna bársony a felhő,</l>
+            <l>de zöld bársony a vidék.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <stage>1. antistrófa.</stage>
+          <lg>
+            <l>Jő Héliosz égi nyilakkal</l>
+            <l>gyilkos sugárnyila hull</l>
+            <l>és újra napos a nappal</l>
+            <l>és zengve ébred a méh.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Völgy felé forr a folyóka,</l>
+            <l>a fenyő a kékbe nyúl,</l>
+            <l>nap felé vágy a futóka</l>
+            <l>s a királynő - férje felé!</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <stage>2. strófa</stage>
+          <lg>
+            <l>Jertek ma, fiuk valamennyien,</l>
+            <l>kik lakjátok erdős Phylakét</l>
+            <l>s nagy Démétér földjét, Pyrasost</l>
+            <l>s juhok anyját, a virágos Itónt,</l>
+            <l>tengeri Antrónt s füves Pteleost</l>
+            <l>a sokcsúcsú Thessaliában.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Jertek ma leányok, barna szüzek,</l>
+            <l>nász-nem-látott sok szép hajadon,</l>
+            <l>kérjük dallal nyilas Artemist,</l>
+            <l>hogy adja királynőnknek vigaszát,</l>
+            <l>ki zokogva eped hős férje után</l>
+            <l>s haját keze tépi hiában.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <stage>2. antistrófa</stage>
+          <lg>
+            <l>Két hős dalia szállt Trója felé</l>
+            <l>az ös Phylakos palotáiból,</l>
+            <l>gyorslábú Podargés és a vitéz</l>
+            <l>Protesiláos, mint két csodasas,</l>
+            <l>mely fészkéből zsákmányra kikel,</l>
+            <l>tán hogy soha vissza ne keljen.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>A bizakodó hős útra merész</l>
+            <l>s árván marad sok ős palota</l>
+            <l>és tépi haját sok bús feleség,</l>
+            <l>a fekete föld s a keserü víz</l>
+            <l>minden fehér csontot befogad</l>
+            <l>s ki merhet az istenek ellen?</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>TELJES KAR</speaker>
+          <stage>Epodos</stage>
+          <lg>
+            <l>Milyen bort adtak a föld fiának</l>
+            <l>a kegyetlen istenek,</l>
+            <l>hogy attól örökre részeg</l>
+            <l>s szenved míg a sírba száll?</l>
+            <l>hogy él ahol élni bánat</l>
+            <l>és kűzködik és szeret,</l>
+            <l>ahol bűn lenni merésznek,</l>
+            <l>ahol szeretni halál?</l>
+            <l>hogy tudva is űzi lázát</l>
+            <l>végzete torka felé</l>
+            <l>és kergeti azt ami messze</l>
+            <l>s elereszti ami közel;</l>
+            <l>elhagyja nyugalmas házát</l>
+            <l>és mind ki őt szereté</l>
+            <l>s csak akkor látja ha veszve,</l>
+            <l>hogy boldogsága vesz el?</l>
+            <l>Bolond akarás a férfi bora,</l>
+            <l>a nő bora bús szerelme,</l>
+            <l>sajtolva kínnal a fürtből,</l>
+            <l>amelynek vágy a neve,</l>
+            <l>a sors buta lába gázol a</l>
+            <l>lélek kádjában ütemre</l>
+            <l>és ömlik a vérző fürtből</l>
+            <l>a bor vérszinü leve.</l>
+            <l>És mint akit ért kigyómarás,</l>
+            <l>számára fű nem terem:</l>
+            <l>a férfi bora bolond akarás,</l>
+            <l>a nő bora bús szerelem.</l>
+          </lg>
+        </sp>
+        <sp who="#hirnok">
+          <speaker>HÍRNÖK</speaker>
+          <lg>
+            <l>Viharban jöttem Trója vészes tájiról,</l>
+            <l>Lemnosból vad hab elragadt Athos felé</l>
+            <l>s a tengerek korbácsa, zord tavaszi szél.</l>
+            <l>Sok hajnal vére folyt a vízre, mialatt</l>
+            <l>a szürke tengert habra verte evezőnk. -</l>
+            <l>Borus hírrel küld hős Podarges engemet,</l>
+            <l>hogy jobb talán ádáz Eurussal küzdeni,</l>
+            <l>mint ily hírtől görnyedve szállni part fölé. -</l>
+            <l>Vén ember, mondd, neves királynőd merre van?</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Ó idegen, királyok atyjával beszélsz.</l>
+          </lg>
+        </sp>
+        <sp who="#hirnok">
+          <speaker>HÍRNÖK</speaker>
+          <lg>
+            <l>Gyorslábu hös Podargés, s Protesilaos</l>
+            <l>hősnek hős atyja, hős Iphiklos vagy talán?</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Az volnék, hogyha anyja egykor nem hazudt.</l>
+          </lg>
+        </sp>
+        <sp who="#hirnok">
+          <speaker>HÍRNÖK</speaker>
+          <lg>
+            <l>Ó hallgass engem békén, sokjuhú király,</l>
+            <l>a végzet ellen harcra úgysem szállhatunk. -</l>
+            <l>Atyám Othrys hegy alján őrzi nyájait,</l>
+            <l>honnan lelátni messze kék tenger fölé:</l>
+            <l>onnan indult el Ilionba két fiad</l>
+            <l>és sok thesszáli s köztük én is, gyors hajón,</l>
+            <l>sok érclábvértü, barna üstökü görög</l>
+            <l>de legkülömb vezérük, Prótesílaos</l>
+            <l>Ares-kedvelte hős. És jött a deli szél</l>
+            <l>Euboia földjét jobbra, Sepias fokot</l>
+            <l>baloldalon vigan kerülte víg hajónk</l>
+            <l>s tavasz lehétől vásznunk boldogan dagadt.</l>
+            <l>Görög hajók közt nem volt több ily gyors hajó</l>
+            <l>görög utak közt nem volt több ily boldog út.</l>
+            <l>Csak a vezér ült bárkaorron kedvtelen:</l>
+            <l>az ő vágyának lassú volt a könnyű szél</l>
+            <l>s úgy tetszett, mozdulatlan áll a gyors lapát.</l>
+            <l>Lemnoshoz érve megkötöttük a hajót</l>
+            <l>és ágyat készítvén a sárga homokon</l>
+            <l>Myrina partján, ott aludtunk a puhán</l>
+            <l>s nyugodt álmunktól dobogott a messze part</l>
+            <l>halkan, mint a szellőtől a tenger szive.</l>
+            <l>Csak a vezér nem nyughatott lágy szőnyegén</l>
+            <l>s az örök égtől s csillagoktól kérdezé:</l>
+            <l>"Ó tenger és te menny mélységes tengere,</l>
+            <l>arany homok, s ti menny homokja, csillagok,</l>
+            <l>elsőnek ér-e Ilionba gyors hajóm?"</l>
+            <l>S midön a Göncöl ruddal fordult lefelé</l>
+            <l>s szürkülni kezdett messze Ilion felé,</l>
+            <l>kiáltott: "Hej hajósok! hej hajóscsapat!</l>
+            <l>hajóra! talpra!" s vertük már a sós vizet,</l>
+            <l>mire a Hajnal széttárta rózsaujjait.</l>
+            <l>Hajónak orrán, mint egy isten, állt a hős</l>
+            <l>kelő napfénytől vértje mellén vakított:</l>
+            <l>olyan volt, mint a sas, midőn a napba néz.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Ó hős fiú! Ó hős apád igaz fia!</l>
+            <l>Emlékszem, gyermek voltál és aligha tíz</l>
+            <l>tavaszt ha láttál, amikor megjöttem én</l>
+            <l>a lótenyésztö Élis földjéről, ahol</l>
+            <l>Amarynkeus höst temették az epeiosok,</l>
+            <l>s halotti játékot rendeztek gyermeki</l>
+            <l>Bouprasionban; Nestorral futottam én,</l>
+            <l>mi két öreg; de gyengék voltak inaim</l>
+            <l>és meg nem adták győznöm ott az istenek,</l>
+            <l>Hej, mint vigasztalt, ördöngős kis kölyke! hej,</l>
+            <l>hogy mondogatta: "Csak nőjjek meg én, apám,</l>
+            <l>első leszek minden görög között, tudom,</l>
+            <l>s legyőzöm mind, ki tégedet legyőzni mer!"</l>
+            <l>S én remélhettem, felvirúl még Phylakos</l>
+            <l>atyám hős vére s Diomédé s Déión</l>
+            <l>magzatjaiban él a régi ép erő.</l>
+          </lg>
+        </sp>
+        <sp who="#hirnok">
+          <speaker>HÍRNÖK</speaker>
+          <lg>
+            <l>Tovább hajóztunk akkor, s jó szelet fuvott</l>
+            <l>utunkra Zeus, s Imbrosnál láttuk messziről</l>
+            <l>szürkéllni vízből Phrygiának partjait</l>
+            <l>s új hajnalon csillogni Sigeum vizét,</l>
+            <l>mint egy vértengert. Ó minö hajnal vala!</l>
+            <l>Itt közre fogtak messze vézna szigetek,</l>
+            <l>balról köves Mastúsiának bús foka,</l>
+            <l>jobbról a ködben rémlett kincses Tenedos</l>
+            <l>s mi Ázsiának, ellenséges föld felé</l>
+            <l>úsztunk a vértengerbe. Fenyegetve nyúlt</l>
+            <l>előttünk vén szikláin híres Pergamos</l>
+            <l>roppant kockákból rakva, és mögötte kelt</l>
+            <l>a véres nap. Hajónk orrán állott a hős</l>
+            <l>vezér; a napból két vércsepp szemébe hullt</l>
+            <l>s e két vércsepp így szólt: Priamos vára ez!</l>
+            <l>És már hallottuk messziről, hogy ébredez</l>
+            <l>a tágas Trója s száz kapuja sorra nyil,</l>
+            <l>gyapjas nyáj béget, csenget görbe szarvú kos</l>
+            <l>kurjant a pásztor s bőg a kajla bús tehén.</l>
+            <l>Ekkor - hopp, hóha! - partra dobni a követ</l>
+            <l>a horgony-nehezékkel. Rándul a kötél.</l>
+            <l>Lapátot padra hány az izmos evezős</l>
+            <l>s fáradt karját nyugtatja nedves combjain.</l>
+            <l>Még egyet ing a nagy hajó. Haj, dolgozik</l>
+            <l>a vad hajós marok, feszítve a kötélt.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Rövidre fogd beszéded véres gyeplejét.</l>
+          </lg>
+        </sp>
+        <sp who="#hirnok">
+          <speaker>HÍRNÖK</speaker>
+          <lg>
+            <l>Ó, mint egy isten állt a bárkaorr csúcsán</l>
+            <l>s megvetve edzett lábát a nedves padon</l>
+            <l>Hermés gyanánt a partra könnyedén szökött</l>
+            <l>szárnyas bokával; s rendült rá a nagy hajó.</l>
+            <l>Az első! Messze még Agamemnon király</l>
+            <l>hajója, messze szöke Meneláos úr</l>
+            <l>s ravasz Odysseus, s gyors Achilleus messze még!</l>
+            <l>S míg a hajó népén, hősök harchoz szokott</l>
+            <l>során s a vad hajósok durva csontjain</l>
+            <l>iszony fut át s végzet hideg fuvallata;</l>
+            <l>addig a vészes partra nyugton néz a hős</l>
+            <l>s szent Ilionra s Pergamos várára fel</l>
+            <l>mint oroszlán, midőn barlangjából kiszáll</l>
+            <l>s zsákmányt keresni messze földön széttekint.</l>
+            <l>Előtte barna Pergamos s a nagy torony. -</l>
+            <l>És ím a napnak büszke, fényes kereke</l>
+            <l>a nagy torony vállára száll. S a nap előtt</l>
+            <l>a nagy toronynak vállán áll egy óriás</l>
+            <l>vitéz, nagy íjjal, feketén a nap előtt,</l>
+            <l>mint egy sötét Apollo; Priamos fia</l>
+            <l>Hektor királyfi; s áll mögötte második,</l>
+            <l>Euphorbos, Panthous pap fia, Othrys üke.</l>
+            <l>Az dardánok közt hősnek messze legkülömb,</l>
+            <l>ez nyilasok közt messze legkülömb nyilas.</l>
+            <l>Magas toronyból úgy tekint felénk e pár,</l>
+            <l>miként magas fészkéből égi két madár.</l>
+            <l>Messze pendűl az óriás, fekete íj,</l>
+            <l>messze surran a vesszö, messze pattan a nyíl</l>
+            <l>s a nap előtt reggeli légen úgy zúg át,</l>
+            <l>mint reggeli madár, ha leveti magát,</l>
+            <l>mint ölni éhes, görbecsőrű vad madár:</l>
+            <l>csőrén a végzet, csőrén ült a zord halál.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <stage>1. strófa</stage>
+          <lg>
+            <l>Végzethordó zord madarakkal</l>
+            <l>reggel, este</l>
+            <l>teli zsong borús levegőnk:</l>
+            <l>jaj akire ők találnak,</l>
+            <l>jaj akire ők leszállnak,</l>
+            <l>reggel, este</l>
+            <l>jaj aki elökbe kerül.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Ki virrasztott a porokkal?</l>
+            <l>Ki kereste</l>
+            <l>bús csontjait össze a máglyán,</l>
+            <l>ki akart elégni lángján,</l>
+            <l>lombbal ki vette körül?</l>
+            <l>reggel, este -</l>
+            <l>ki siratta meg őt?</l>
+            <l><stage>1. antistrófa</stage></l>
+            <l>Itthon vár bús felesége</l>
+            <l>reggel, este</l>
+            <l>epedez, sí férje miatt,</l>
+            <l>majd gyászlepedőt is hímez</l>
+            <l>és rá feketével színez -</l>
+            <l>hol a teste,</l>
+            <l>akire borítaná?</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l>Vad Phrygia messze vidéke -</l>
+            <l>ott a teste,</l>
+            <l>hol tigris kölykez a pusztán,</l>
+            <l>hol üvölt a sárga oroszlán</l>
+            <l>s Xanthos vize omlik alá -</l>
+            <l>ott a teste,</l>
+            <l>fölötte a keselyühad.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <stage>2. strófa</stage>
+          <lg>
+            <l>Érc és hármas erő övezé mellét, ki először vízre bocsátá kis tutaját</l>
+            <l>s vad tenger kényére vetette reá a törékeny, könnyű hajót</l>
+            <l>s elhagyva hazáját, szállt ki Keletre a Hajnal büszke kapuja felé,</l>
+            <l>hol habra hab ezredek ezrede óta dönget a Hajnal boltozatán.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l>Három szűz ül messze teren túl, időn túl, fonja fonák fonalát,</l>
+            <l>habra habot ver, napra napot ver a tenger, törve hajóra hajót.</l>
+            <l>Szűz új parton fátyolos árnyakul új nem sejtett végzetek álnokul állnak
+                            az útas elé</l>
+            <l>s mégis az álmok a szűz partokra szállnak az új csodagyapjak után.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <stage>2. antistrófa</stage>
+          <lg>
+            <l>Minden gyors-gyors, kétfelül öblös, fekete orrú görbe hajók között</l>
+            <l>isten-ember legsebesebbnek mondja az Argo régi hajót,</l>
+            <l>de Prótesiláos görbe hajójánál nem volt sebesebb is jaj, vesztire
+                            gyors!)</l>
+            <l>mióta röpült vala Daidalos és tüzet hozott a Titán.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l>Szép a hajó, ha selyem habok égszínű kék fodrába felöltözött</l>
+            <l>s habra száll, mint táncra az ifjú leány; öröm akkor látni a büszke
+                            hajót,</l>
+            <l>ha röpte gyors; - de végzet ül a magas faron és kormányos a Sors -</l>
+            <l>s mégis az álmok a szűz partokra szállnak az új csoda gyapjak után.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>TELJES KAR</speaker>
+          <stage>Epodos</stage>
+          <lg>
+            <l>Ember, Iapetos fia,</l>
+            <l>tiltott útra merész isteni ösztönöd.</l>
+            <l>Amióta Prométheüsz</l>
+            <l>csenni merte tüzét istenek ellen is,</l>
+            <l>benned ég a tűz, ösztönöz</l>
+            <l>és úgy nevezed: dicsőség.</l>
+            <l>E tűz gyújtja a bűnt, gyújtja a háborut,</l>
+            <l>e tűz edzi a kardokat,</l>
+            <l>edzi barna hajók kártonyos árbocát,</l>
+            <l>szűz partokra kivánkozót. -</l>
+            <l>S téged, nagyszerű bűn, nagyszerű háború,</l>
+            <l>meg nem tagadunk örökké.</l>
+            <l>Gyors hajó Meneláosé,</l>
+            <l>gyors, mert hajtja harag s tört szerelem heve;</l>
+            <l>vad gőg úr-Agamemnonét,</l>
+            <l>bölcs Odysszeüszét a leleményes ész; -</l>
+            <l>gyorsabb Prótesiláosé,</l>
+            <l>mert vágyad hajtja, dicsőség!</l>
+            <l>Végzet, mennyei kard, célzani biztos íj,</l>
+            <l>végzet lassu malomkerék,</l>
+            <l>végzet, barna madár, földbefonó nagy pók,</l>
+            <l>roppant varsa, hiába köt: -</l>
+            <l>téged, nagyszerü bűn, nagyszerü háboru,</l>
+            <l>meg nem tagadunk örökké.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Sírjatok, erdős Phylakénak fürtös ifjai, leányai,</l>
+            <l>megfogyatkozott lombjában Phylakidák ősi törzse.</l>
+            <l>Ó jaj, tépd ki végsö ősz hajszálaid, egykor hős Iphiklos,</l>
+            <l>mert háromszor balga, ki örvend, látva gyermeke hősiségét.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Öreg ember önnön terhét bajjal vonja három lábon,</l>
+            <l>élete gyermeke és halála lészen gyermeke bús halála;</l>
+            <l>rossz hír, mint a sárga lombot könnyű szél is, úgy megrázza:</l>
+            <l>nincs erő már vén tagjában végzet ellen meg nem törni.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Ó jaj, vén szívem reményét szörnyü Moira vágta szét.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Hogyan sírhat még a hitves, hogyha így sír az atya?</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Ó jaj, ősz atyád elhagytad, árvaságra ifjú nőd!</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Jön, közelg már a királynő, haját tépi kétfelé.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l>Zord szerelem</l>
+            <l>kő terhe szívében</l>
+            <l>férje nevét sikoltva riad.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Mint a madár,</l>
+            <l>ha nem leli párját</l>
+            <l>fészke fölött vijjogva kering.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Ó leányok, akik egykor nászszobámba vittetek</l>
+            <l>édes éjre mirtuszokkal ékesítve ágyamat,</l>
+            <l>halljátok meg, szörnyű bánat érte úrnőtök szívét,</l>
+            <l>nem tér vissza férje többé, hősi Prótesílaos.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Ó jaj, jaj, bánat örökké!</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Nem fogom már nézni többé fulladozva mély szemét,</l>
+            <l>Soha nem fogom karomba hősi férfitetemét;</l>
+            <l>Szerelemre termett testem özvegységben hervad el,</l>
+            <l>Szerelemtől szomjas ajkam szomjúságban szárad el.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Ó jaj, jaj, bánat örökké!</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Férj helyébe másik férjet adhatnak az istenek:</l>
+            <l>melyik isten adja vissza az atyának holt fiát?</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Akinek szívét kitépték, másik szívet nyerhet-é?</l>
+            <l>Lelke helyett asszony teste másik lelket lelhet-é?</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Asszony búja mint a zápor, csupa könny és elfolyik:</l>
+            <l>férfi búja hegyi tó, mely mély és messze s maga van.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Remegek reájuk nézni,</l>
+            <l>remegek hozzájuk szólni:</l>
+            <l>apa s nő közt szörnyü verseny.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Férfi búja fagyos bánat, mint a jég a hegytetőn,</l>
+            <l>asszony búja forró láng, mely önmagát emésztve ég.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Teste testem, vére vérem, én nemzettem egykor őt,</l>
+            <l>én kapattam hősi harcra még mint zsenge gyermeket.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Szerelemben egyesültünk, mint folyammal bús patak.</l>
+            <l>Testem teste, vérem vére; mi vagyok én nélküle?</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Remegek reájuk nézni,</l>
+            <l>remegek hozzájuk szólni:</l>
+            <l>apa s nő közt szárnyü verseny.</l>
+            <l>Királynő, teljesültek véres álmaid.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Ó jaj, álmomban nagy csarnokban voltam én,</l>
+            <l>Sohasem láttam ébren ezt a csarnokot,</l>
+            <l>de álmaimból ismerem minden zúgát.</l>
+            <l>Nagy, csúf kövekből összehordott kapuján</l>
+            <l>két nőoroszlán dugja egybe bús fejét.</l>
+            <l>Belől homály van. Itt-amott nagy oszlopok</l>
+            <l>alján pislog csak a setétes árva mécs,</l>
+            <l>hogy jobban lássuk a homályt; s az oszlopok</l>
+            <l>lila árnya rőt falakra rézsut ingva dől.</l>
+            <l>Ah, csúf pillérek, lomha, barbár támaszok,</l>
+            <l>egymás fölé rakott kockákból, éktelen</l>
+            <l>s nincs gömbölyű árny; minden durva, szögletes.</l>
+            <l>És az ormótlan kockák rücskös, rút falán</l>
+            <l>véres betükkel ismeretlen ősírás</l>
+            <l>oly vastagon, mint vérbemártott ujj nyoma.</l>
+            <l>A nagyteremben egymagam bolyongtam én</l>
+            <l>végét nem érve. S ím egyszerre egy tetem</l>
+            <l>bukott a karjaimba, véres és hideg,</l>
+            <l>aludt a vér és összecsapzott rajt a fürt,</l>
+            <l>de félelmemnek őt ölelni jól esett.</l>
+            <l>Lázas testemnek hűvös teste jól esett.</l>
+            <l>S magamhoz szorítottam őt, mint lázbeteg</l>
+            <l>hideg márványra nyomja égő homlokát</l>
+            <l>s teste jegén hüsítém tikkadt tagjaim.</l>
+            <l>S egyszerre lelkem átborzongott kéjesen,</l>
+            <l>hogy férjem ez! s hogy im halottat ölelek</l>
+            <l>s hogy élőnél holtat szeretni több talán.</l>
+            <l>S csókolni kezdtem; s teste égető jegét</l>
+            <l>mohó parazsára szítta szomjas ajakam</l>
+            <l>S ujjomra fontam összecsapzott fürteit</l>
+            <l>S a sós vért nyaltam nyíllal sebzett homlokán,</l>
+            <l>szorítva mint egy őrült, s tán remélve, hogy</l>
+            <l>megolvad; ó, ha zord Hádésban van szerelem,</l>
+            <l>ilyen lehet, ily őrült! s én óhajtanék</l>
+            <l>Hádésba szállni s örökké szeretni ott.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Ó jaj, királynő, zord Hádésban nincs szerelem,</l>
+            <l>nincs csók, királynő, zord Hádésban nincs ölelés,</l>
+            <l>csak tengve lengnek ott az árnyak tétova,</l>
+            <l>mint puszta képek; lengve tengnek testtelen</l>
+            <l>S nem tudják azt, hogy vannak; Léthe bús vizét</l>
+            <l>ízlelték ők; s nincsennek többé vágyaik.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Ó lányok, halhatatlan a valódi vágy,</l>
+            <l>Léthé álomvízétől az nem alszik el,</l>
+            <l>hanem mint drága szesznek gáza ég tovább</l>
+            <l>a vágyak gyásza testtelen lélekben is</l>
+            <l>S titkon lobog a lélek lengve mint a láng</l>
+            <l>S fellobban olykor és legyőzi végzetét.</l>
+            <l>Így hallá férje bús dalát Eurydiké</l>
+            <l>holt árnya és kezdett ütemre lengeni</l>
+            <l>a lantos Orpheüsz nyomán.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Úrnőm, nyugodj,</l>
+            <l>az isteneknél változatlan áll a sors,</l>
+            <l>az alvilágban elcsitúl minden merény</l>
+            <l>s Kókytosz mellől vissza nem tér senki sem.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Ó lányok, győzhetetlen a valódi vágy</l>
+            <l>S mindent legyőz és mint a végzet, oly kemény</l>
+            <l>gyémánt Vágy s gyémánt Végzet. Minden hős merényt</l>
+            <l>a Végzet ellen, sújtanak az istenek</l>
+            <l>s a Végzet sújtja még az isteneket is:</l>
+            <l>de a Végzettel egyerős a Szerelem</l>
+            <l>istenek anyja, istenek közt legidősb</l>
+            <l>S olykor a Végzetet lába elé köti</l>
+            <l>S szolgája a haláltalan Emlékezés</l>
+            <l>legyőzi a Végzet szolgáját a Halált</l>
+            <l>S egy percre Végzet és Halál fején kacag</l>
+            <l>S miként az öröklét e perc korláttalan.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Királynő, férjed őrült lelke szállt beléd;</l>
+            <l>asszonykézzel vasat kivánsz hajlítani.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Ó visszahívom, visszavívom holtamat</l>
+            <l>egy percre bár, és aztán jőjjön a Halál</l>
+            <l>a perceken a Szerelem mindenható</l>
+            <l>s nincs isten, aki nékem ellenmondana:</l>
+            <l>apró hadam, a Kéjek és Percek hada</l>
+            <l>kis talpaik alá szegik a vén Időt.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l><stage>1. strófa</stage></l>
+            <l>Hol körbe kerül a Styx vize hétszer</l>
+            <l>s ugat a kapunál háromfejü eb,</l>
+            <l>hova senkise jut soha kétszer:</l>
+            <l>a legmesszebb s a legközelebb,</l>
+            <l>hol az árnyban az árnyak álmai járnak,</l>
+            <l>hol a vágyra a vágyak vágyai várnak,</l>
+            <l>ahol álmokról álmodnak az álmok,</l>
+            <l>van-e létezőbb hely s léttelenebb?</l>
+            <l>Mert senkise tér onnan soha vissza,</l>
+            <l>csak kívül van kapuján kilincs,</l>
+            <l>becsukja a lelkét, ki a Léthét issza</l>
+            <l>és ott aki van, annak neve: nincs.</l>
+            <l>Behunyja a lelkét, ki issza a Léthét</l>
+            <l>S örökre feledve a létnek a létét,</l>
+            <l>a léthei rétnek lakja sötétét</l>
+            <l>s létezni a lélek sötéte bilincs.</l>
+            <l><stage>1.antistrófa</stage></l>
+            <l>Ott semmisem éled és semmise pusztul</l>
+            <l>s mert semmisem él, örök ott, ami holt</l>
+            <l>és semmise lankad és semmise buzdul</l>
+            <l>s mert semmise lessz, örök ott, ami volt</l>
+            <l>nem vetnek, aratnak, vetnek örökre,</l>
+            <l>nem túrja a földet az emberek ökre</l>
+            <l>nem ölt soha zöldet Flóra a rögre</l>
+            <l>nem ballag a csillag, nem fogy a hold.</l>
+            <l>A vágynak a vágya s a búnak a búja</l>
+            <l>elszunnyad az asphodelos-levelen</l>
+            <l>nem nyílik az álmok ivor-kapúja</l>
+            <l>és nincsen vágy és nincs szerelem,</l>
+            <l>ott nem betegíti a vér a csontot,</l>
+            <l>és senkisem érez a gondért gondot</l>
+            <l>és nem szomuhozza a szomjra a szomjot,</l>
+            <l>mert alszik a láz meg a gyász odalenn.</l>
+            <l><stage>2.strófa</stage></l>
+            <l>Jön az alkony csupa gyászban, lila árnyat vet az oszlop,</l>
+            <l>hüvös estnek szele hajtja a fenyőfák feketéjét:</l>
+            <l>ez a tenger szele, melynél a hajós félve tekinti</l>
+            <l>az ikercsillagok álltát.</l>
+            <l>Jön a felhő: valamely mennyei pásztor veri nyáját,</l>
+            <l>Nosza hallga phylakénak dalos ifjai, leányi,</l>
+            <l>amíg áldoz a királynő, mi maradjunk a sötétben,</l>
+            <l>Nosza halkan dudolásszunk.</l>
+            <l><stage>2.antistrófa</stage></l>
+            <l>Sohse láttam ilyen asszonyt, csoda férjnek csoda nőjét,</l>
+            <l>aki nem sír patakokban, nem alél asszcnyi módra,</l>
+            <l>aki kész volna kiszállni viadalban a Halálnak,</l>
+            <l>a hatalmas Szerelemmel.</l>
+            <l>Jön az alkony; denevér száll; remegek; rémes az este,</l>
+            <l>jön a felhő; valamely mennyei pásztor veri nyáját,</l>
+            <l>nosza hallga, Phylakénak dalos ifjai, leányi,</l>
+            <l>nosza halkan dudolásszunk.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Artemis követői, szűz</l>
+            <l>lányok, zengjük az istennőt:</l>
+            <l>ó szűz Artemis, ó szüzek</l>
+            <l>istennője, imádunk.</l>
+            <l>Létó leánya, kit egykoron</l>
+            <l>hűs olajfa alatt anyád</l>
+            <l>Zeusz sarjának a földre szült</l>
+            <l>Délos szent szigetében,</l>
+            <l>erdők asszonya hogy te légy,</l>
+            <l>s zöldellő hegyek asszonya.</l>
+            <l>s teknős rejtekü völgyeké</l>
+            <l>zengő nagy folyamokkal:</l>
+            <l>te segíted az új anyát</l>
+            <l>kínja közt; a keresztúton</l>
+            <l>te lengsz éjszaka; fényedről</l>
+            <l>Holdnak hívnak a földön.</l>
+            <l>Lengve hónapos útadon</l>
+            <l>mérni a kerek év szakát,</l>
+            <l>munkás földmüvelő szerény</l>
+            <l>házát gazdagon áldod.</l>
+            <l>Könnyítsd kívül az éjszakát,</l>
+            <l>bús szívünkben a rettegést</l>
+            <l>s gyász egünkre aranyszinű</l>
+            <l>fénynek hozd fel a holdat.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Büszke székedben, magas Aphrodite,</l>
+            <l>égi hölgy, lesben gyakorolt, ha másszor</l>
+            <l>hív imádódnak kegyesen hajoltál</l>
+            <l>földi szavára:</l>
+            <l>Jőjj, ereszkedjél nagy Olympos hegyről</l>
+            <l>s vonva hintódat lebegő galambok</l>
+            <l>villogó szárnnyal, tova hagyd atyádnak</l>
+            <l>isteni házát.</l>
+            <l>Ős habok közül született mosolygó</l>
+            <l>istennő, élet kegyes édesanyja,</l>
+            <l>élet, édesség, gyönyörüség, jőjj el,</l>
+            <l>ó te hatalmas.</l>
+            <l>Kedvesebb lantnál, aranyabb aranynál</l>
+            <l>bús galambszavad, de ha cseng tavasszal</l>
+            <l>isten és ember s a vadak csapatja</l>
+            <l>hajlik utána.</l>
+            <l>Kezd a fényes nap melegebben égni,</l>
+            <l>még a szűzi csillagok is remegnek:</l>
+            <l>Jőjj, ereszkedjél, magas Aphrodite,</l>
+            <l>megjön az éjjel,</l>
+            <l>megjön a szent hold, lemegy a bús Pleiás</l>
+            <l>s majd az éjdél jár, foly az óra halkan:</l>
+            <l>s tört királynőnk zord szerelemmel küzd nagy</l>
+            <l>végzetek ellen.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l><stage>Epodos</stage></l>
+            <l>Remegnek a csillagok, égnek az égen,</l>
+            <l>mindennek az ura a zord szerelem:</l>
+            <l>de az árnyak a léthei réti sötéten</l>
+            <l>alusznak az asphodelos-levelen,</l>
+            <l>ott nem betegíti a vér a csontot</l>
+            <l>és senkisem érez a gondért gondot</l>
+            <l>és nem szomuhozza a szomjra a szomjot,</l>
+            <l>mert alszik a láz meg a gyász odalenn.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Ó rémes este! soha ennyi denevért</l>
+            <l>lomhán sodorni hosszu architrávokon!</l>
+            <l>A palotának udvarára rábukik</l>
+            <l>Othrys hegy súlyos árnya. Csüggedek. Be más</l>
+            <l>volt hajdanán az ílyen este tavaszon</l>
+            <l>Hős férjem karja eltakarta vállamat</l>
+            <l>s lombok megől a nimfa leste csókjaink</l>
+            <l>kiváncsi szemmel. - Mostan félve elbuvik</l>
+            <l>a nimfa, mint e lányok, kik szüz Artemist</l>
+            <l>kérik, hogy hozna holdat félelmükre vagy</l>
+            <l>Aphroditét, hogy lenne új vigasztalóm.</l>
+            <l>De mit törődik Aphrodite én velem?</l>
+            <l>ki eleven szerelmet oltalmaz csupán</l>
+            <l>holtaktól retteg. Melyik istent kérjem én</l>
+            <l>az égiek vagy alvilágiak közűl</l>
+            <l>ki éggel és az alvilággal harcolok,</l>
+            <l>élettel és halállai? Csüggedek. Talán</l>
+            <l>már itt is járnak mind az árnyak körülem</l>
+            <l>denevérszárnyakkal szállnak szerte nesztelen</l>
+            <l>S a vérre lesnek, mely az oltár hófehér</l>
+            <l>kövén lecseppen és hogy abból nyaljanak</l>
+            <l>s a forró vértől percnyi létre keljenek.</l>
+            <l>Ha úgy lehetne! Csüggedek, Be más, be más</l>
+            <l>volt hajdanán, mig férjem ébren őrizett</l>
+            <l>Haj, gyönge asszony! Melyik istent kérjem én</l>
+            <l>az égiek vagy alvilágiak közűl</l>
+            <l>ki éggel és az alvilággal harcolok;</l>
+            <l>élettel és halállal? Téged halavány</l>
+            <l>Persephoneia, Hádes nöje kérlek én</l>
+            <l>ki alvilágból visszajársz az ég alá</l>
+            <l>S az ég alól zord alvilágba visszajársz:</l>
+            <l>Szerelem vitt el, alvilági zord szerelem</l>
+            <l>szeretet hoz fel és az édes nap heve</l>
+            <l>minden tavasszal. Örvend akkor bús anyád</l>
+            <l>S kiteríti a föld nagy asztalán áldásait</l>
+            <l>a lengő gabonát és husos gyümölcsöket</l>
+            <l>s míg fenn vagy őszig, véle örvend mind a föld.</l>
+            <l>De télen lenn ülsz zord uradnak oldalán</l>
+            <l>ivor székedben s nézed ott az árnyakat,</l>
+            <l>hogy nyüzsgenek miként rajzáskor fürge méh</l>
+            <l>vagy ősszel darvak serge; nézed Ixion</l>
+            <l>örök kerekét, nézed fáradt Sisiphos</l>
+            <l>munkáit, nézed Tantalosnak kínjait</l>
+            <l>Élet s halál tenéked egyként ismerős</l>
+            <l>s életnél és halálnál mélyebb szerelem.</l>
+            <l>Kérlek tehát, vasszóval, élet és halál</l>
+            <l>és szerelem nevében, szűzi csillagok</l>
+            <l>előtt, e rémes éjen, amely holdtalan</l>
+            <l>mint honnod éje, árnyak kegyes asszonya,</l>
+            <l>ha könyörültél Orpheüsnak bánatán</l>
+            <l>s ha szörnyü férjed mindent megtesz kedvedért:</l>
+            <l>holtak közé a vágyat egyszer s engemet,</l>
+            <l>vagy vágyakhoz a holtat s hozzám elbocsásd</l>
+            <l>egy perere s e perc győz az örök végzeten.</l>
+            <l>Lásd, rémes éjen áldozok neked sötét</l>
+            <l>bárány sötét vérévei; még nem berregett</l>
+            <l>a zsenge bárány; ugrándozva szerteszét</l>
+            <l>tavasz füvén szeplőtelen hizott; neked</l>
+            <l>illik fekete állat és fekete vér.</l>
+            <l>Magam öntöm néked, éjjel, félelemtelen</l>
+            <l>én véres asszony, vérhalállal harcoló</l>
+            <l>neked, halálnak asszonya, szerelemért</l>
+            <l>s csészébe gyüjtöm. Csillagok! Talán, talán</l>
+            <l>már itt is járnak mind az árnyak körülem</l>
+            <l>denevérszárnyakkal szállnak szerte nesztelen</l>
+            <l>s a vérre lesnek és hogy abból nyaljanak -</l>
+            <l>hess, néma árnyak! - Ah, az oszlopok között</l>
+            <l>rebbennek szerte - oly csodásan zúg a lomb!</l>
+            <l>A fű megindul. Milyen felhő kavarog</l>
+            <l>Míly néma szél! A légben láthatatlanúl</l>
+            <l>szárnyak legyeznek. A halál életre vágy</l>
+            <l>életre, vérre; forró, veres vérre vágy -</l>
+            <l>hess szomjas árnyak! - Mint csoportos madarak,</l>
+            <l>ugy nyüzsgenek, vagy mint rajzáskor fürge méh. -</l>
+            <l>Ki jő előttem néma oszlopok között</l>
+            <l>fekete lomb előtt fehéren? Villog az</l>
+            <l>éjben az oszlop, villog az árnyban az árny.</l>
+            <l>Mily halvány s mily halott! s sötét seb homlokán,</l>
+            <l>Ó mint megváltozott és mégis ugyanaz.</l>
+            <l>Jőjj, holt szerelmem árnya, téged várlak én,</l>
+            <l>jőjj ó szerelmem véres árnya, jőjj felém -</l>
+            <l>hess szomjas árnyak: mind e vér itt férjemé</l>
+            <l>s eremből ontok hozzá hogyha nem elég:</l>
+            <l>hess szomjas árnyak! jöszte édes szomjas árny</l>
+            <l>közel, közel, közel - hogy félnék tőled én,</l>
+            <l>véres, szerelmes asszony, sorssal harcoló?</l>
+            <l>Tenyérben felfogom a gőzös sűrű vért</l>
+            <l>s forró tenyeremtől lesz még forróbb neked</l>
+            <l>és úgy itatlak, mint a kis madárt szokás,</l>
+            <l>meleg tenyérből - édes, szomjas, bús madár</l>
+            <l>igyál: a vér az élet! - Ó szegény milyen</l>
+            <l>mohón habzsolja; mint a gyermek a tejet</l>
+            <l>szürcsölve halkan; - s átmelegszik vértelen</l>
+            <l>árnyteste lassan; látni mint foly át a vér</l>
+            <l>az átlátszó test vékony kékes erein</l>
+            <l>s mind sötétebb az ér és színesebb a hús.</l>
+            <l>Didergő csontját vér melegje járja át</l>
+            <l>s halott szemében élet izzó tűze gyúl</l>
+            <l>s ajkát mohón mozgatva issza lázasan</l>
+            <l>az élet vérét. - Fel, szerelmem, nézz reám</l>
+            <l>közel, közel - kapcsold szemembe szemedet</l>
+            <l>Be más vagy, s mégis régi kedvesem te vagy,</l>
+            <l>te vagy, te vagy! - Mért nézel úgy? Csak a halál</l>
+            <l>nézhet így az életre! Élünk, kedvesem,</l>
+            <l>s megint enyém vagy! Élünk, élünk! érted-e?</l>
+            <l>nyomd ajkaimra vértől nedves ajkadat</l>
+            <l>(nem félek én a holt ajaktól hisz tiéd)</l>
+            <l>mily cserepes, mily véres! csurg az álladon</l>
+            <l>a bárányvér; de vértől csókom mitse fél:</l>
+            <l>vértől a csók csak ízesebb, csak pirosabb</l>
+            <l>Hadd csókolom sebed rózsáját homlokodon,</l>
+            <l>hadd kóstolom! De mért nem szólsz? Beszélj, beszélj!</l>
+            <l>Mondd, fájt a nyíl? Mondd, fáj-e a sötét halál?</l>
+            <l>Mondd, bús az élet zord Hádésban? úgy-e bús?</l>
+            <l>Szerelmetlen, vágyatlan, létlen, vértelen</l>
+            <l>árnyélet, úgy-e bús volt? Látod te, te rossz,</l>
+            <l>mért is hagytál el engem? Úgy! de már ne sírj</l>
+            <l>hisz élünk, élünk, érted? Szólj! Mért nézel úgy?</l>
+            <l>Ne félj! az örök végzetet legyőztem én</l>
+            <l>legyőztem én s a szerelem s a vér s a vágy.</l>
+          </lg>
+        </sp>
+        <sp who="#protesilaos">
+          <speaker>PROTESILAOS</speaker>
+          <lg>
+            <l>Három órára.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Ó minő a hangod is:</l>
+            <l>Szép férfihangod! - Mindegy, mindegy! Szólj, beszélj!</l>
+            <l>Beszéld el, Trója földjén hogy temettek el</l>
+            <l>ó messze, messze! vittek-é áldozatot,</l>
+            <l>tejet, bort, mézet? játékot rendeztek-é?</l>
+            <l>Beszélj! - de mégse! Csókolj, csókolj! Ó sokat</l>
+            <l>kell még csókolnunk - még sokat csókolhatunk.</l>
+          </lg>
+        </sp>
+        <sp who="#protesilaos">
+          <speaker>PROTESIALOS</speaker>
+          <lg>
+            <l>Három óráig.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>Nézd, feljött a holdvilág:</l>
+            <l>arany kísértet. Most az oszlop mind ezüst</l>
+            <l>s Othrys fenyői fémszinekben fénylenek</l>
+            <l>menyegzői fáklyák gyanánt. Mily szép az éj!</l>
+            <l>Ó jer velem, mint boldog nimfa és szatír</l>
+            <l>a lomb alá - még eleget csókolhatunk.</l>
+          </lg>
+        </sp>
+        <sp who="#protesilaos">
+          <speaker>PROTESIALOS</speaker>
+          <lg>
+            <l>Három óráig.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMIEA</speaker>
+          <lg>
+            <l>És ha három óra is,</l>
+            <l>egy öröklétnél minden perce többet ér.</l>
+            <l>Ó jer velem! Sohase volt ily éjszakám,</l>
+            <l>mert élőnél holtat szeretni több bizony.</l>
+            <l>Apró hadam, a Kéjek és Percek hada</l>
+            <l>kis talpaik alá szegik a vén Időt</l>
+            <l>s e három óra győz az örök végzeten!</l>
+            <l>Ki halni nem fél, mindent, mindent merhet az.</l>
+            <l>Sohsem szerettelek még így: ó jer velem:</l>
+            <l>előttünk élet, vágy és véres szerelem.</l>
+          </lg>
+        </sp>
+        <sp who="#protesilaos">
+          <speaker>PROTESILAOS</speaker>
+          <lg>
+            <l>Három órára.</l>
+          </lg>
+        </sp>
+        <sp who="#laodameia">
+          <speaker>LAODAMEIA</speaker>
+          <lg>
+            <l>S akkor együtt halhatunk!</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l><stage>1.strófa</stage></l>
+            <l>Ki a lombokat és az oszlopokat</l>
+            <l>beezüstözöd és a tengereket,</l>
+            <l>a haboknak számtalan kacaját,</l>
+            <l>erdei források szent fejeit</l>
+            <l>és a földet, mindenek anyját</l>
+            <l>s a rémeket és a szerelmeket</l>
+            <l>üdvözlégy, isteni holdtény.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Szörnyű, szörnyű dolgokat élünk,</l>
+            <l>szörnyű, szörnyű éjeket érünk</l>
+            <l>harcot, harcot végzetek ellen.</l>
+            <l>rémes, véres éji szerelmet,</l>
+            <l>árnyat a vággyal, lelket a vérrel</l>
+            <l>leget a hússal, tüzzel jegeket,</l>
+            <l>elevent egyesűlni halottal!</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l><stage>1. antistrófa</stage></l>
+            <l>A szerelmes nő mindenre merész</l>
+            <l>s hatalmas a percen a szerelem,</l>
+            <l>de a percek tellnek, az óra fogy</l>
+            <l>tün a hosszu vágy, tün a kurta kéj</l>
+            <l>bosszus a sors és irigy az isten</l>
+            <l>és változatlan a végzet áll</l>
+            <l>ki merhet az égiek ellen?</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Nincsen, nincsen semmi reménység:</l>
+            <l>végzet ellen kelt a királynő</l>
+            <l>holt árny vérzi nászkamaráját</l>
+            <l>rémes, véres bús szerelemmel</l>
+            <l>pusztul a háza ős Phylakosnak</l>
+            <l>sírjatok értük, széphajfonatú</l>
+            <l>fiatal Phylakida-leányok.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l><stage>2. strófa</stage></l>
+            <l>Iszonyú amit ma láttunk</l>
+            <l>iszonyú amit ma várunk</l>
+            <l>iszonyoknak éje lessz ez.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Szörnyű, szörnyű dolgokat élünk</l>
+            <l>szörnyű, szörnyű éjeket érünk</l>
+            <l>félek, félek, mit hoz az éj még?</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l><stage>2. antistrófa</stage></l>
+            <l>Akinek szívében egyszer</l>
+            <l>gyökeret vert vágyak fája,</l>
+            <l>örök átok hajt ki rajta.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Nincsen, nincsen semmi reménység,</l>
+            <l>végzet ellen küzd a királynő</l>
+            <l>félek, félek, mit hoz az éj még?</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>TELJES KAR</speaker>
+          <lg>
+            <l><stage>Epodos</stage></l>
+            <l>Van egy fa, amely dús lombjai szárnyát</l>
+            <l>szivünkben bontja ki éveken át</l>
+            <l>és életünkre teríti árnyát</l>
+            <l>és egy fa se hajt nagyobb koronát</l>
+            <l>és egy fa se napratörőbb.</l>
+            <l>Az ifju szív ennek melegágy</l>
+            <l>s mindegy neki: nap meg éj:</l>
+            <l>buján virúlnak az ágok;</l>
+            <l>mély gyökere maga a vágy,</l>
+            <l>hullós virága a kéj,</l>
+            <l>sötét gyümölcse az átok</l>
+            <l>és gyökere annyira edzett</l>
+            <l>s a virágban annyi a méz,</l>
+            <l>s a gyümölcsben annyi a méreg,</l>
+            <l>hogy akinél kirügyedzett</l>
+            <l>a halállal harcra merész</l>
+            <l>s nem bánja ha rágja a féreg</l>
+            <l>s nem bánja az égiek átkát</l>
+            <l>csak öntözi nappal-éjjel,</l>
+            <l>csak öntözi este-reggel</l>
+            <l>rossz fája sötét virágát</l>
+            <l>csak öntözi könnyel-vérrel,</l>
+            <l>ugy harcol az istenekkel.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Ó jaj, hallga, míly hang volt ez, milyen szívszorúlt sikoly?</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Sohse hallék ilyen hangot, ilyen tépőt, rémeset.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Míntha a halálra gyötrött véres Éj sikoltana.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Megrázkódtak a fenyőfák, bús felhőbe bútt a hold</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Fagyos szél jő, mintha sírból jőne a Halál szele</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Rettegek, didergek, csontom fázik, vérem összefut.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara #lanyok_kara">
+          <speaker>KAR</speaker>
+          <lg>
+            <l>Iszonyú, amit ma értünk</l>
+            <l>iszonyú amit ma várunk</l>
+            <l>iszonyoknak éje lessz ez.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Ó jaj, mit láttam! Ó ti vénhedt szemeim</l>
+            <l>apadjatok ki! folyj el őrült agyvelő!</l>
+            <l>nem láthat ilyet ember sarja bűntelen.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Sejtem közelét a halálnak</l>
+            <l>És érzem valami véget ért.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Ó lányok, ifjak, mélyen keseregjetek!</l>
+            <l>láttam Halál arcánál rémesb dolgokat:</l>
+            <l>királynőtök véresen fekszik holt gyanánt.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Ó ifjai Thessaliának</l>
+            <l>sírhattok honnotokért!</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Amint berontok, hallva éles sikolyát,</l>
+            <l>Ő ott feküdt az ágyon - s minden csupa vér</l>
+            <l>s férje nevét kiáltva rángott lázasan.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Hasítsad öltönyöd, arcod</l>
+            <l>és tépjed barna hajad.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>És karjai közt - nem tudom jól láttam-é?</l>
+            <l>valamely rémes és alaktalan tömeg</l>
+            <l>fogyott, halványult egyre, mint egy véres árny.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Ő megharcolta a harcot</l>
+            <l>s elhullt a végzet alatt.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Ó lányok, ifjak -, nem tudom elmondjam-é?</l>
+            <l>egy alaktalan, rémes, véres, éjes árny</l>
+            <l>tűnt lassan el, s az arca fiam arca volt.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Vérszínü virággal</l>
+            <l>borítsuk el őt</l>
+            <l>és tavaszi ággal,</l>
+            <l>mely éjszaka nőtt:</l>
+            <l>leljen szerelemtől a léthei réti sötéten örök pihenőt.</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l>És szóljon az ének</l>
+            <l>és zengjen a lant:</l>
+            <l>nyugalom szivének</l>
+            <l>örökre alant</l>
+            <l>de dicső legyen itt neve és kora sírja fölött kivirúljon a hant.</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok_kara">
+          <speaker>LÁNYOK</speaker>
+          <lg>
+            <l>Nem özvegyi ágyban</l>
+            <l>hamvadt tüze el</l>
+            <l>nem is árva vágyban</l>
+            <l>égett e kebel:</l>
+            <l>úgy gyúlt el a kéj viharában, mint fiatal fa, ha villám égeti fel</l>
+          </lg>
+        </sp>
+        <sp who="#fiuk_kara">
+          <speaker>FIUK</speaker>
+          <lg>
+            <l>Vérszínü virággal</l>
+            <l>borítsuk el őt</l>
+            <l>és tavaszi ággal</l>
+            <l>mely éjszaka nőtt:</l>
+            <l>leljen szerelemtől a léthei réti sötéten örök pihenőt.</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Ó Phylakosnak ősi háza oda van</l>
+            <l>s átok borítja mindörökre bús nevét</l>
+            <l>szent borzadással mondja a késő utód.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Szakítsad öltönyöd, arcod,</l>
+            <l>és tépjed kúsza hajad!</l>
+          </lg>
+        </sp>
+        <sp who="#iphiklos">
+          <speaker>IPHIKLOS</speaker>
+          <lg>
+            <l>Ó istenek! miért kellett megérnem ezt?</l>
+            <l>Mért nem haltam meg ifjan? gyenge vén szivem</l>
+            <l>nem birhat ennyi átkot, ennyi borzadályt.</l>
+          </lg>
+        </sp>
+        <sp who="#semichorus">
+          <speaker>SEMICHORUS</speaker>
+          <lg>
+            <l>Ő megharcolta a harcot</l>
+            <l>s elhullt a végzet alatt.</l>
+          </lg>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

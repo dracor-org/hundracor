@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000012">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000012" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -66,23 +64,23 @@
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        <pubPlace> Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          <p> CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
           </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <title type="main">A méla Tempefői azaz: az is bolond, aki poétává lesz Magyarországban</title>
+          <title type="main">A méla Tempefői azaz: az is bolond, aki poétává lesz
+						Magyarországban</title>
           <title type="sub">Nemzeti nemes játék 5 felvonásban</title>
           <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-          <ref target="https://mek.oszk.hu/06300/06302/"/>
+          <ref target="https://mek.oszk.hu/06300/06302/html/csokonai2.htm#17"/>
           <date when="2008-09-24">2008-09-24</date>
           <respStmt>
             <resp>Original Electronic Edition</resp>
@@ -198,6 +196,9 @@
           <personGrp xml:id="varos_hajdui" sex="MALE">
             <name>VÁROS HAJDÚI</name>
           </personGrp>
+          <person xml:id="csikorgo" sex="MALE">
+            <persName>CSIKORGÓ</persName>
+          </person>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -214,6 +215,11 @@
         <desc/>
       </event>
     </listEvent>
+    <listRelation>
+      <relation name="wikidata"
+                   active="https://dracor.org/entity/hun000012"
+                   passive="http://www.wikidata.org/entity/"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
@@ -280,23 +286,17 @@
     <body>
       <div type="act">
         <head type="title">ELSŐ FELVONÁS</head>
-        <p>
-          <stage>A játékszín ábrázolja a gróf palotáját, nevezetesen pedig a Rozália
+        <stage>A játékszín ábrázolja a gróf palotáját, nevezetesen pedig a Rozália
                         kisasszony szobáját, amelly a kertre, és a grófét, amelly az utcára
                         néz.</stage>
-        </p>
         <div type="scene">
           <head type="title">ELSŐ JELENÉS</head>
-          <p>
-            <stage>A kisasszony a maga szobájába, a kert felől való ablaknál egy kis
+          <stage>A kisasszony a maga szobájába, a kert felől való ablaknál egy kis
                             asztalocska mellett olvas és ír.</stage>
-          </p>
           <sp who="#rozalia">
             <speaker>ROZÁLIA</speaker>
-            <p>
-              <stage>A kisasszony a maga szobájába, a kert felől való ablaknál egy kis
+            <stage>A kisasszony a maga szobájába, a kert felől való ablaknál egy kis
                            asztalocska mellett olvas és ír.</stage>
-            </p>
             <p>Ez a Horváth úr múzsája olly hatalmas, s képzésemet képzése után
                                 ragadja: lehetetlen, hogy a világról el ne felejtkezzem, mikor az ő
                                 verseire függesztem elmélkedésemet.<stage>Olvas.</stage>Ó, ha én olly boldog órát
@@ -334,11 +334,9 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENÉS</head>
-          <p>
-            <stage>Tempefői egy kis konya s fakó kalapban, rongyos kaputrokban, fejér
+          <stage>Tempefői egy kis konya s fakó kalapban, rongyos kaputrokban, fejér
                             leibliban, fótos nadrágban, a csizmájából kinyúlik a szalma; a hóna alja
                             alatt egy pugillaris, a kaputzsebben könyvek. És Rozália</stage>
-          </p>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
             <p>Víg órákat kivánok a Kisasszonynak, mivel tőlti idejét?</p>
@@ -654,12 +652,10 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENÉS</head>
-          <p>
-            <stage>Báró Serteperti. Hosszú tetejű kalapba, térdig érő, bőv anglus
+          <stage>Báró Serteperti. Hosszú tetejű kalapba, térdig érő, bőv anglus
                             kaputrokba, három nagy gallérra, szarvasbőr bugyogóba, letűrt szárú,
                             nagy, bőv csizmába, felfrizirózva, egy Nationálspiel a kezébe, - és
                             Rozália.</stage>
-          </p>
           <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
             <stage>Egy nagy otromba komplimenttel.</stage>
@@ -876,9 +872,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENÉS</head>
-          <p>
-            <stage>Gróf Fegyverneki, derék magyaros ember, és a voltak</stage>
-          </p>
+          <stage>Gróf Fegyverneki, derék magyaros ember, és a voltak</stage>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
             <stage>Bészóll az ajtón.</stage>
@@ -967,9 +961,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENÉS</head>
-          <p>
-            <stage>Gróf Fegyverneki, báró Serteperti és Éva</stage>
-          </p>
+          <stage>Gróf Fegyverneki, báró Serteperti és Éva</stage>
           <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
             <p>Tessék bémenni.<stage>Megnyitja az ajtót.</stage>
@@ -1079,7 +1071,7 @@
             <speaker>GRÓF FEGYVERNEKI</speaker>
             <p>Sokkal: legtöbbet fecsegtek valami Gellértről.</p>
           </sp>
-          <sp who="#serteperi">
+          <sp who="#serteperti">
             <speaker>BÁRÓ SERTEPERTI</speaker>
             <p>Tán az a világ tudóssa nem látta többet még a Szent Gellért
                                     hegyét, arról kérdezősködött.</p>
@@ -1274,7 +1266,7 @@
             <p>Az is lehet az egyik oka, Nagyságos Úr; de a dohány is felette -
                                     - Jaj, rosszabbúl érzem magam.</p>
           </sp>
-          <sp who="fegyverneki">
+          <sp who="#fegyverneki">
             <speaker>GRÓF FEGYVERNEKI</speaker>
             <p>Ha úgy tetszik a Báró Úrnak, menjünk ki a szabad levegőre
                                     sétálni: talám ellankadt ereje meg fog jönni. Jobbnak is tartom
@@ -1306,14 +1298,12 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENÉS</head>
-          <p>
-            <stage>Szuszmir, szurtos, füstös kezű és ábrázatú, borzas, szalmás
+          <stage>Szuszmir, szurtos, füstös kezű és ábrázatú, borzas, szalmás
                                 hajjal, pernyés, hamvas öltözetbe, egy régi szűr a nyakába, az is
                                 sok helyen subadarabbal, zöld, veres és másféle posztóval
                                 megfoldozva, a fél ujja elégett, egy sárga sapka a fejében, bolyhos
                                 kutyabőrrel prémezve, rongyos ingbe, gatyába, szuszogó bocskorba,
                                 egy piszkafa a kezébe - És Éva.</stage>
-          </p>
           <sp who="#szuszmir">
             <speaker>SZUSZMIR</speaker>
             <p>Mit parancs'?</p>
@@ -1505,9 +1495,7 @@
         </div>
         <div type="scene">
           <head type="subtitle">HETEDIK JELENÉS</head>
-          <p>
-            <stage>Rozália egy könyvvel, és a voltak.</stage>
-          </p>
+          <stage>Rozália egy könyvvel, és a voltak.</stage>
           <sp who="#rozalia">
             <speaker>ROZÁLIA</speaker>
             <p>Hát mivel tölti az időt?</p>
@@ -1749,9 +1737,7 @@
         </div>
         <div type="scene">
           <head type="subtitle">NYOLCADIK JELENÉS</head>
-          <p>
-            <stage>Rozália és Éva</stage>
-          </p>
+          <stage>Rozália és Éva</stage>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
             <p>No ezt szegényt elmará.<stage>Komoran.</stage>
@@ -1895,17 +1881,13 @@
       </div>
       <div type="act">
         <head type="title">MÁSODIK FELVONÁS</head>
-        <p>
-          <stage>A játék hol a poéta, hol a gróf házába van.</stage>
-        </p>
+        <stage>A játék hol a poéta, hol a gróf házába van.</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENÉS</head>
-          <p>
-            <stage>A poéta háza láttatik, egy kis kert van alatta, amellybe sétáló lugas
+          <stage>A poéta háza láttatik, egy kis kert van alatta, amellybe sétáló lugas
                             van. Egy asztal a szobába, amellyen könyvek, papirossak, iróeszközök
                             rend nélkűl elhányva. Egy téka a falnál, egy nyoszolya. - A poéta
                             egyedűl sétál; egy penna nála.</stage>
-          </p>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
             <p>Kedvetlen magánosságomnak komor hajléka, mellynek ajtaján a
@@ -1934,9 +1916,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENÉS</head>
-          <p>
-            <stage>Betrieger német ruhában, és Tempefői.</stage>
-          </p>
+          <stage>Betrieger német ruhában, és Tempefői.</stage>
           <sp who="#betrieger">
             <speaker>BETRIEGER</speaker>
             <p>Alázatos szolgája az Úrnak.</p>
@@ -2184,10 +2164,8 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENÉS</head>
-          <p>
-            <stage>A gróf palotájába a maga szobája. Gróf Fegyverneki, Rozália, Éva, báró
+          <stage>A gróf palotájába a maga szobája. Gróf Fegyverneki, Rozália, Éva, báró
                             Serteperti, Tökkolopi, Iroványi</stage>
-          </p>
           <sp who="#fegyverneki">
             <speaker>FEGYVERNEKI</speaker>
             <p>Én is éppen abban az értelemben vagyok. Szép a méltóságos rang, ha a
@@ -2326,7 +2304,7 @@
             <p>Hivalkodó ifijak! a ti kedveteket nem szegem meg, közétek űlök, de én ne
                             legyek részes semmibe is.</p>
           </sp>
-          <sp who="#rozalia #tokkolopi #eva #sertepert">
+          <sp who="#rozalia #tokkolopi #eva #serteperti">
             <speaker>MINDNYÁJAN</speaker>
             <p>Nem, nem.<stage>Leűlnek.</stage>
             </p>
@@ -2378,9 +2356,7 @@
             <speaker>GRÓF FEGYVERNEKI</speaker>
             <p>Csak menjen Kegyelmed tovább, én nem sugdogálok bizony.</p>
           </sp>
-          <p>
-            <stage>egyszerre</stage>
-          </p>
+          <stage>egyszerre</stage>
           <sp who="#eva">
             <speaker>ÉVA</speaker>
             <p>Uramatyám!</p>
@@ -2417,7 +2393,7 @@
             <p>Egyik azt mondja: Szégyen a királynak, hogy mindég a német dámák
                             toaletjénél süti a makkot.</p>
           </sp>
-          <sp who="#rozalia #tokkolopi #eva #sertepert">
+          <sp who="#rozalia #tokkolopi #eva #serteperti">
             <speaker>MINDNYÁJAN</speaker>
             <p>Ha, ha, ha. À propos, à propos!</p>
           </sp>
@@ -2428,7 +2404,7 @@
                             hogy elnémetesedett. Negyedik azt mondja: Szégyen a királynak, hogy
                             mindég csepeg az orra.</p>
           </sp>
-          <sp who="#rozalia #tokkolopi #eva #sertepert">
+          <sp who="#rozalia #tokkolopi #eva #serteperti">
             <speaker>MINDNYÁJAN</speaker>
             <p>Brávó, brávó.<stage>Kacagnak.</stage>
             </p>
@@ -2472,7 +2448,7 @@
             <speaker>GRÓF FEGYVERNEKI</speaker>
             <p>Hiszen még egyik sem vólt.</p>
           </sp>
-          <sp who="#rozalia #tokkolopi #eva #sertepert">
+          <sp who="#rozalia #tokkolopi #eva #serteperti">
             <speaker>MINDNYÁJAN</speaker>
             <stage>Kacagnak.</stage>
           </sp>
@@ -2520,7 +2496,7 @@
                         de azzal teli van minden szegelet az országba. Úton-útfélen azt
                         kiabálják: Szégyen, hogy mindég' poétikust tanúl.</p>
           </sp>
-          <sp who="#rozalia #tokkolopi #eva #sertepert">
+          <sp who="#rozalia #tokkolopi #eva #serteperti">
             <speaker>MINDNYÁJAN</speaker>
             <stage>Mód nélkül kacagnak, zúgnak.</stage>
           </sp>
@@ -2563,7 +2539,7 @@
             <p>Nagyságod legnagyobbat fillentett, már az a lehetetlenségnél is nagyobb
                             lehetetlenség. A többi semmi sem hozzá.</p>
           </sp>
-          <sp who="#rozalia #tokkolopi #eva #sertepert">
+          <sp who="#rozalia #tokkolopi #eva #serteperti">
             <speaker>MINDNYÁJAN</speaker>
             <p>Már az igaz.</p>
           </sp>
@@ -2596,9 +2572,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENÉS</head>
-          <p>
-            <stage>A szoba elején lévő tornác. A cselédek, Tempefői, Iroványi</stage>
-          </p>
+          <stage>A szoba elején lévő tornác. A cselédek, Tempefői, Iroványi</stage>
           <sp who="#inasok">
             <speaker>EGYIK INAS.</speaker>
             <p>Mondjon már Kend egy rigmust.</p>
@@ -2719,9 +2693,7 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENÉS</head>
-          <p>
-            <stage>Iroványi, gróf Fegyverneki</stage>
-          </p>
+          <stage>Iroványi, gróf Fegyverneki</stage>
           <sp who="#irovanyi">
             <speaker>IROVÁNYI.</speaker>
             <p>Nagyságos Úr! Tempefői uram kér a bejövetelre engedelmet; valami ajándékkal
@@ -2742,9 +2714,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENÉS</head>
-          <p>
-            <stage>Tempefői, és a vóltak</stage>
-          </p>
+          <stage>Tempefői, és a vóltak</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
             <p>Alázatos szegény szolgája a Nagyságos Úrnak.</p>
@@ -3093,9 +3063,7 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENÉS</head>
-          <p>
-            <stage>A kisasszony szobája. Tempefői és Rozália</stage>
-          </p>
+          <stage>A kisasszony szobája. Tempefői és Rozália</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
             <p>A boldogság s az öröm lakjon veled, kedves Kisasszonyom!</p>
@@ -3414,9 +3382,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENÉS</head>
-          <p>
-            <stage>A gróf kapuja, kivül, Koppóházy és Tempefői</stage>
-          </p>
+          <stage>A gróf kapuja, kivül, Koppóházy és Tempefői</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
             <p>Igaz szolgája az Úrfinak.</p>
@@ -3593,9 +3559,7 @@
         <head type="title">HARMADIK FELVONÁS</head>
         <div type="scene">
           <head type="title">ELSŐ JELENÉS</head>
-          <p>
-            <stage>A játék a poéta házában esik, hol belől, hol az ajtó előtt.</stage>
-          </p>
+          <stage>A játék a poéta házában esik, hol belől, hol az ajtó előtt.</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
             <p>Az asztala mellett fél könyéken. Kegyetlen sors! Csak e' vala-é még
@@ -3611,9 +3575,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENÉS</head>
-          <p>
-            <stage>Tempefői, Betrieger, hajdúk</stage>
-          </p>
+          <stage>Tempefői, Betrieger, hajdúk</stage>
           <sp who="#betrieger">
             <speaker>BETRIEGER.</speaker>
             <p>Hát elkészitette az Úr a pénzt? Az idő eltölt.</p>
@@ -3847,7 +3809,7 @@
                                 ajánlom az Úrnak.<stage>Elmegyen.</stage>
             </p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>HAJDÚ.</speaker>
             <p>Igen, Uram, de meglesz az áldomás?</p>
           </sp>
@@ -3863,14 +3825,12 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENÉS</head>
-          <p>
-            <stage>Múzsai és a hajdúk kivül.</stage>
-          </p>
+          <stage>Múzsai és a hajdúk kivül.</stage>
           <sp who="#muzsai">
             <speaker>MÚZSAI.</speaker>
             <p>Jó szerencsével, Uraim! Kegyelmetek, amint látom, város emberei?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Az ám bizony.</p>
           </sp>
@@ -3878,7 +3838,7 @@
             <speaker>MÚZSAI.</speaker>
             <p>Hát itten lakik-é Tempefői uram?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Tudja a Belzebub a kend Tempefői uramját, hol az ördögbe lakik.</p>
           </sp>
@@ -3886,7 +3846,7 @@
             <speaker>MÚZSAI.</speaker>
             <p>Én úgy gondolom, jó Uram, hogy az a becsületes ember itt lakik.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Itt, uram, becsületes ember nem lakik, mert mi itt nem
                                 szájonganánk.</p>
@@ -3895,7 +3855,7 @@
             <speaker>MÚZSAI.</speaker>
             <p>Hát ki lakik itten?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Tudja a lidvérc, ki lakik: azt mondják, hogy poétikus.</p>
           </sp>
@@ -3903,7 +3863,7 @@
             <speaker>MÚZSAI.</speaker>
             <p>Hát hiszen azt keresem én.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>No poétikus uram, jó kézbe van a jámbor.</p>
           </sp>
@@ -3911,7 +3871,7 @@
             <speaker>MÚZSAI.</speaker>
             <p>Hogyhogy? az istenért?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Egy óráig itt szellőztetjük őkemét, azután majd a hüvösre
                                 tesszük.</p>
@@ -3920,11 +3880,11 @@
             <speaker>MÚZSAI.</speaker>
             <p>Mi szerencsétlenség érhette szegény jámbor embert?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Én, Uram, magam sem tudom, elég az, hogy minket ide rendeltek.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Szegény jámbor ember? De édes nem tudom kinek hivják Uram, nem
                                 szegény jámbor ember a', hanem ispionnak kell annak lenni, mert őrá
@@ -3934,7 +3894,7 @@
             <speaker>MÚZSAI.</speaker>
             <p>De hát hol van most?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Odabe kuttog ő nagysága, várja a jó szerencsét a fenekére.</p>
           </sp>
@@ -3942,11 +3902,11 @@
             <speaker>MÚZSAI.</speaker>
             <p>Hát bé lehet-é hozzá menni?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Bé, Uram, bé!</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Bémehet ám bizony, de valahogy hipp-hopp hírivel el ne vigye Kend láb
                                 alól, mert én ugyan, engem uccse, a Szent Gellért hegyén is
@@ -3956,20 +3916,18 @@
             <speaker>MÚZSAI.</speaker>
             <p>Maga van odabé?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Maga, hogy ne hazudjak.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>A' biz ezered magával is van az ebugatta.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENÉS</head>
-          <p>
-            <stage>Múzsai és Tempefői</stage>
-          </p>
+          <stage>Múzsai és Tempefői</stage>
           <sp who="#muzsai">
             <speaker>MÚZSAI.</speaker>
             <p>A jól tévő Egek légyenek veled, legkedvesebb barátom!</p>
@@ -4279,14 +4237,12 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENÉS</head>
-          <p>
-            <stage>Az ajtóban, kivűl. Tempefői és a hajdúk</stage>
-          </p>
+          <stage>Az ajtóban, kivűl. Tempefői és a hajdúk</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
             <p>Csak siess, Barátom. Isten hirével! Az idő foly!</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Hát! ha mit akar az Uram, most mondja, mig az időből ki nem
                                 cseppenünk: én megcselekszem, ihon ni. -</p>
@@ -4296,7 +4252,7 @@
             <p>Köszönöm a Kend jószivűségét, az én barátom magára vállalta már
                                 azt.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Őkelmek tudják a magok dolgokat, ne bántsa Ked, pajtás: ne avassa Ked
                                 magát abba, Kedre is el talál ragadni. Egyik kutya rühet kap a
@@ -4311,9 +4267,7 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENÉS</head>
-          <p>
-            <stage>Tökkolopi a más oldalon és a voltak.</stage>
-          </p>
+          <stage>Tökkolopi a más oldalon és a voltak.</stage>
           <sp who="#tokkolopi">
             <speaker>TÖKKOLOPI</speaker>
             <stage>Nagy háborodással, bosszúson siet.</stage>
@@ -4326,14 +4280,14 @@
             <p>Uram! nem tudja Kend, ki lehet az a becsűletes ember, aki ott
                                 jön?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Aki ott jön? Hahó, uram, jól esmérem biz én. Tökkolopi Menyhárt úr
                                 biz' az. Az - izé Táblán Kontzi Pistának csúfolják. Én nem tudom,
                                 micsoda Tábla lehet az, ahol az embert úgy elnevezik, mondja Kend
                                 no, mellyik?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Az az izé Tábla, no, hogy is hijják, az a izé, ennye s ebugatta,
                                 pedig a nyelvem hegyin forog, üh no, patvar vigye.</p>
@@ -4344,18 +4298,18 @@
                                 tatár kölyök! Üh no, a kurázs mire nem viszi a gavallért, ennye, üh
                                 haj nó.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>A' biz a', Tökkolopi Menyhárt úr biz a' a közönséges nevén, az úri
                                 nevén pedig, amellytől fizetést vár, Kontzi Pista, vagy becsülettel
                                 szólván, Kontzi István úr. De mi már az?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Engem uccse' meg is felel a nevének, mert a mészárszékbe tudva tartja
                                 Okszmann uram már, hogy néki minden nap konc kell.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Kell bizony. <stage>Lassabb hangon.</stage> Német dáma, osztán meg
                             kártya, osztán meg Tokáyer.</p>
@@ -4526,9 +4480,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENÉS</head>
-          <p>
-            <stage>Csikorgó és a vóltak</stage>
-          </p>
+          <stage>Csikorgó és a vóltak</stage>
           <sp who="#csikorgo">
             <speaker>CSIKORGÓ</speaker>
             <stage>Drága rókatorkos, paszamántos magyar uniformisba, de már mind
@@ -4920,9 +4872,7 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENÉS</head>
-          <p>
-            <stage>Tempefői és Tökkolopi</stage>
-          </p>
+          <stage>Tempefői és Tökkolopi</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
             <p>No, a domine Csikorgó poéta ugyan elvakaroda ám a lőcs árrával.</p>
@@ -5023,9 +4973,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENÉS</head>
-          <p>
-            <stage>Tempefői egyedül</stage>
-          </p>
+          <stage>Tempefői egyedül</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
             <p>Magyar múzsák! ha vagytok, látjátok-é, millyen időre jutott a magyar
@@ -5045,9 +4993,7 @@
       </div>
       <div type="act">
         <head type="title">NEGYEDIK FELVONÁS</head>
-        <p>
-          <stage>A játék most is a poéta házát szineli.</stage>
-        </p>
+        <stage>A játék most is a poéta házát szineli.</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENÉS</head>
           <sp who="#tempefoi">
@@ -5064,9 +5010,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENÉS</head>
-          <p>
-            <stage>Betrieger és Tempefői.</stage>
-          </p>
+          <stage>Betrieger és Tempefői.</stage>
           <sp who="#betrieger">
             <speaker>BETRIEGER.</speaker>
             <p>No édes úr, Tempefői Uram, hát van pénz, nincs?</p>
@@ -5300,10 +5244,8 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENÉS</head>
-          <p>
-            <stage>A hajdúk és a vóltak</stage>
-          </p>
-          <sp who="#hajduk">
+          <stage>A hajdúk és a vóltak</stage>
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Mit tetszik parancsolni az Úrnak.</p>
           </sp>
@@ -5311,7 +5253,7 @@
             <speaker>BETRIEGER.</speaker>
             <p>Őkegyelmét kisérjék fel.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>No jöjjön hát az Úr.</p>
           </sp>
@@ -5319,7 +5261,7 @@
             <speaker>TEMPEFŐI.</speaker>
             <p>Én nem megyek.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>De öcsém, ha azt várod, mig ez a gólyafészek-szúrkáló magától
                                 megmozdúl, eljő addig az oláhok karácsonja.<stage>Megfogja a Tempefői kézét.</stage>Jöjjön Kend, istennek áldott embere!</p>
@@ -5333,7 +5275,7 @@
             <stage>Együtt Tempefőivel.</stage>
             <p>No úgy, úgy, csak vinni kell.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Úgyde, Uram, erővel senkit felhurcolnunk nem lehet, mig a felsőségtől
                             hatalmat nem nyerünk.</p>
@@ -5342,7 +5284,7 @@
             <speaker>BETRIEGER.</speaker>
             <p>Ej, ne gondoljon Kend azzal, hanem csak fogja meg s vigye.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>Megfogja.</stage>
             <p>No édes versjártó Uram, hozzuk a pulidert arra a tanácsház felé.
@@ -5354,7 +5296,7 @@
             <stage>Jól pofon vágja.</stage>
             <p>Ne neked, ládd, versjártóból poffjártóvá lettem.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>A süvegét szedi fel a főldről.</stage>
             <p>Ejnye, hogy a Belzebub faragjon villanyelet a lelkéből ennek a
@@ -5365,13 +5307,13 @@
             <speaker>BETRIEGER.</speaker>
             <p>Csak fogja meg, hajdú Uram, fogja meg, ha nem akar is jönni.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>Általfogja ölön.</stage>
             <p>Gyere csak egy kis regratióra. Pajtás, segits, tele van e'
                                 ispiritussal.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Én nem bizony, ha belékötöttél, csak vigyed.</p>
           </sp>
@@ -5379,7 +5321,7 @@
             <speaker>BETRIEGER.</speaker>
             <p>Fogja meg Kend is.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Eb fogja, ki adott az Úrnak is arra engedelmet?</p>
           </sp>
@@ -5389,7 +5331,7 @@
                                 emberrel bánni, gaz huncfutok.<stage>Kifejti magát a másik hajdú keze közzűl, lekap egy puskát.</stage>Nemes emberen ezt viszitek véghez, most mindjárt Ismarus aut Rhodope,
                                 aut extremi Garamantes.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Jaj, az ördög vessen rá porciót, elmondá már a boszorkányos verset,
                                 most mindjárt szalmacsutakká válunk mind egy lábig.<stage>Elszalad.</stage>
@@ -5413,7 +5355,7 @@
             <p>Eredjetek, szemét emberek. Nézze meg az ember! Ez a világ inkább akar a
                             félelemre, mint az emberiségre mozdúlni.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Hát Uram, én is verset fussak a pajtásommal, meg avval a némettel?</p>
           </sp>
@@ -5421,7 +5363,7 @@
             <speaker>TEMPEFŐI.</speaker>
             <p>Én Kendet nem bántom; de azért velem Kend se maradjon. Elmehet.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>De elébb megkövetem egész alázatossággal az Urat, ha valamit találtam
                             véteni.</p>
@@ -5436,10 +5378,8 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENÉS</head>
-          <p>
-            <stage>A másik hajdú és Tempefői</stage>
-          </p>
-          <sp who="#hajduk">
+          <stage>A másik hajdú és Tempefői</stage>
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>Fegyveresen.</stage>
             <p>No édes hallja az Úr, itt van már most Kend úgyé? Pofon vágott Kend,
@@ -5452,7 +5392,7 @@
             <p>Ne tréfálódj, Barátom, mig szépszerént vagy, hiszen nagy kivánságod
                                 ereszkedett a futásra. Mi osztó pered van?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Mi osztó perem van? Mindjárt megmutatom.<stage>A puskáját szedi-veszi.</stage>
             </p>
@@ -5465,22 +5405,20 @@
                                 törvényt nézném, szabadon agyonlőhetnélek!<stage>Megmeg ráüt.</stage>
             </p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Jaj! - Uram! - Jaj!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENÉS</head>
-          <p>
-            <stage>Az első hajdú, Múzsai és a vóltak</stage>
-          </p>
-          <sp who="#hajduk">
+          <stage>Az első hajdú, Múzsai és a vóltak</stage>
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Jaj, az istenért! Emberhalál!</p>
           </sp>
           <stage>Múzsai jön.</stage>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Jöjjön má nagy jó Uram, jöjjön hamar. Siessen. Nem jó dolog.</p>
           </sp>
@@ -5489,11 +5427,11 @@
             <stage>Sietve.</stage>
             <p>No mi dolog?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Ez az ember meg akar ölni.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Mit csinál az Úr, talán meg is lőtte? Az istenért!</p>
           </sp>
@@ -5507,16 +5445,16 @@
             <speaker>MÚZSAI.</speaker>
             <p>A' jól esett.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Én ezt el nem szenvedhetem.<stage>A kardjával hadaz.</stage>Én város embere vagyok,
                             engem meg merni ütni. Pajtás, ne hagyj.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Az igaz, őtet bántani nem volna szabad: de ha te kezdted, öcsém!</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Már én nem bánom; de én el nem szenvedem ám, én sem vagyok a világ
                             fattya, ha az ország csinált is.</p>
@@ -5526,7 +5464,7 @@
             <p>Ne bolondozz, fiú, míg szépszerént vagy.<stage>Egész csendességgel.</stage>
             </p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Még Kend is mér nekem szólani? hallja Kend.<stage>A kardjával hadaz.</stage>
             </p>
@@ -5540,23 +5478,21 @@
             <stage>A kardot kitekeri a kezéből, s jól a nyaka közzé vetvén,
                             kibuktatja.</stage>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>Felkapkodván a holmiját.</stage>
             <p>Perzselni való vagy te, ha nekem mondod. Várjatok; a hóhér aggasson
                                 fel benneteket, majd ollyan helyre tétetlek, ahol nem örömest
                                 verseztek.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Gyere, Öcsém, ne kötekedj.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENÉS</head>
-          <p>
-            <stage>Tempefői és Múzsai</stage>
-          </p>
+          <stage>Tempefői és Múzsai</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
             <p>Hát Barátom, jó hírrel jöttél-é a szent atyáktól? hogy-mint van a
@@ -5615,9 +5551,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENÉS</head>
-          <p>
-            <stage>Páter Köteles és a vóltak</stage>
-          </p>
+          <stage>Páter Köteles és a vóltak</stage>
           <sp who="#koteles">
             <speaker>PÁTER KÖTELES.</speaker>
             <p>A! éppen most talám a főtisztelendő gvárdián úrról vala szó? - Imé,
@@ -5742,9 +5676,7 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENÉS</head>
-          <p>
-            <stage>Tempefői és páter Köteles</stage>
-          </p>
+          <stage>Tempefői és páter Köteles</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
             <p>Most, Tisztelendő Atyám, az utolsó próbához fogtam, amelly is bizonnyal
@@ -5932,9 +5864,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENÉS</head>
-          <p>
-            <stage>Tempefői és Múzsai</stage>
-          </p>
+          <stage>Tempefői és Múzsai</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI</speaker>
             <stage>Eleibe ugrik a béjövő Múzsainak.</stage>
@@ -6075,9 +6005,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENEGYEDIK JELENÉS</head>
-          <p>
-            <stage>Betrieger és a vóltak</stage>
-          </p>
+          <stage>Betrieger és a vóltak</stage>
           <sp who="#betrieger">
             <speaker>BETRIEGER.</speaker>
             <p>Tempefői Uram, Kegyelmed énvelem rútul bánt csufos szókkal illetvén, s
@@ -6139,9 +6067,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENÉS</head>
-          <p>
-            <stage>Tempefői és Múzsai.</stage>
-          </p>
+          <stage>Tempefői és Múzsai.</stage>
           <sp who="#tempefoi">
             <speaker>TEMPEFŐI.</speaker>
             <p>Gondolkozásomba egészen el valék merülve; de mégsem állhatám meg nevetés
@@ -6206,32 +6132,28 @@
       </div>
       <div type="act">
         <head type="title">ÖTÖDIK FELVONÁS</head>
-        <p>
-          <stage>A játékszin ábrázolja az utcát a gróf és a poéta házok között.</stage>
-        </p>
+        <stage>A játékszin ábrázolja az utcát a gróf és a poéta házok között.</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENÉS</head>
-          <p>
-            <stage>A játékszin ábrázolja az utcát a gróf és a poéta házok között.
+          <stage>A játékszin ábrázolja az utcát a gróf és a poéta házok között.
                             Tempefői és a hajdúk. Az egyik hajdú csak áll a poéta mellett, a másik
                             pedig igen rútul huzza, vonja.</stage>
-          </p>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Jöjjön ma Kend, ha akar; mert ha nem, engem uccsegíljen, most
                                 mindjárt úgy viszem fel Kendet, mint az ebet. Pajtás, fogd meg a
                                 haját.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Jöjjön az Úr szépszerént.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Jöjjön kend, kincsem, teremtésem, mert vesszek el, a farka alá
                                 hánynak Kendnek, annyit tudok benne.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>A gróf haragszik.</p>
           </sp>
@@ -6240,7 +6162,7 @@
             <p>Nékem, hallják Kentek, a gróf uram, megengedjen magának, ennyit se
                                 parancsol. Eb ura ő kegyelme.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Hát hisz' eb ura, azért jöjjön Kend! Nézze el az ember, be nagy úr a
                                 koszos.</p>
@@ -6250,7 +6172,7 @@
             <p>Te énvelem megmeg disznó módra bánsz: tudod, mit kaptál az imént. No
                                 no.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Tán biz azt gondolja Ked, jó fiú, hogy majd megijeszt Kend. Gyere
                                 csak, ország bolondja, ahol várnak fekete levesre.</p>
@@ -6259,17 +6181,17 @@
             <speaker>TEMPEFŐI.</speaker>
             <p>Most mindjárt keresztülmegyek rajtad, ha az ördöggel tartasz.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Üm! mint kutyemed az a nagy rakás. Ni! be nagy méltóság a kamara
                                 cigányja!</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Ne csinálj, öcsém, ollyan csúnya lármát az utcán, azt gondolnák, hogy
                                 csürhe jön.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Te pajtás, akkor szólj, tudod, mikor a bika izél. Majd rosszat is
                                 találék mondani.</p>
@@ -6277,14 +6199,12 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENÉS</head>
-          <p>
-            <stage>Múzsai és a vóltak</stage>
-          </p>
+          <stage>Múzsai és a vóltak</stage>
           <sp who="#muzsai">
             <speaker>MÚZSAI.</speaker>
             <p>Micsoda rut, fertelmes, ocsmány, gaz, huncfut dolog ez itt?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Megmeg itt vagy, szurtos Luciper unokája, he? nem félsz?</p>
           </sp>
@@ -6313,7 +6233,7 @@
                                 engemet valami országavesztett bitangnak, rossz járatbeli spionnak
                                 tartottak, hogy rólam senki semmit se tudott mondani.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Bizony hallja Kend, nem is egyéb Kend, hanem francia ispion.</p>
           </sp>
@@ -6328,7 +6248,7 @@
                                 küldötte, hogy vagy akarom, vagy nem, vigyenek hozzá, mint a kutyát.
                                 Könnyebb vólna a lelkemnek, ha tudnám, mi van a dologba?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Biz' Uram, pedig nekünk se mondták!</p>
           </sp>
@@ -6362,14 +6282,12 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENÉS</head>
-          <p>
-            <stage>Tempefői és a hajdúk</stage>
-          </p>
-          <sp who="#hajduk">
+          <stage>Tempefői és a hajdúk</stage>
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>No Uram, csak ballagjunk. A gróf majd megharagszik.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Menjünk bizony ám, hüm. Hogy a forgószél ragadja el ezeket a
                                 lüdvércekkel cimborázó poétákot, ugyan sok baj van velek. Kivált az
@@ -6384,11 +6302,11 @@
             <p>Ennye, te isten nélkül való gazember, a te fejedre szálljon, amit más
                                 jó embernek mondassz.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Ne is beszéllj úgy utca hallottára.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>A botjával.</stage>
             <p>Hajsz csákó! cselő csákó! utána te is, kajla! a baromvásárra.
@@ -6397,14 +6315,12 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENÉS</head>
-          <p>
-            <stage>Iroványi és a vóltak</stage>
-          </p>
+          <stage>Iroványi és a vóltak</stage>
           <sp who="#irovanyi">
             <speaker>IROVÁNYI.</speaker>
             <p>Micsoda bolond ember Kend, hallja Kend, részeg Kend vagy őrült?</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Miért mondja Kend azt nékem, édes kalamárisvakarék Uram? Izibe vissza
                                 találom ám az embernek mondani. Érti Kend vagy nem?</p>
@@ -6414,7 +6330,7 @@
             <stage>A nádpálcával jól a nyaka közzé hány.</stage>
             <p>Nesze, kutya, minden szegénysége alávaló város kutyája, ne.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Ne verekedjen Kend, azt mondom, mert majd bévágom őnagyságánál a Kend
                                 útját, hogy hat annyit kap Kend.</p>
@@ -6424,7 +6340,7 @@
             <p>Nesze csak, mig a' lenne.<stage>Üti.</stage>
             </p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Jaj, kutya illyen-ollyan, jaj, Pajtás! ne hagyj. Édes lelkem,
                                 Tempefői Uram.</p>
@@ -6434,13 +6350,13 @@
             <p>Üsse az Úr, üsse a kevély és embertelen disznót. Illyenek az urak s
                                 városok fogdmegjei!</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Aranyom, édes tekintetes szekretárius Uram. Jaj! az orromat vágassa
                                 el az Úr, ha én valaha csak a foldozó cigánynak is szólok, csak a
                                 vállamat ne.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Ne bántsa az Úr, kérem, egy kis bor van benne.</p>
           </sp>
@@ -6453,7 +6369,7 @@
             <p>Másszor megtudd, hogy kell emberséges emberrel bánni. Ezzel az úrral
                                 is, ni.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>Tapogatja a vállát.</stage>
             <p>Jaj, jaj, üh, éj!</p>
@@ -6516,10 +6432,8 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENÉS</head>
-          <p>
-            <stage>Tempefői és a hajdúk</stage>
-          </p>
-          <sp who="#hajduk">
+          <stage>Tempefői és a hajdúk</stage>
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>No, Uram, csak siessünk! Nékünk talál valami rossz leckénk járni.</p>
           </sp>
@@ -6528,16 +6442,16 @@
             <p>Én egy fél tapodt' sem megyek, hogysem ez az alkalmatlan ember velünk
                                 járjon.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ.</speaker>
             <p>Üm, no.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Ne gondoljon az Úr vele, akármit csinál, ő most bort kapott Az ő esze
                                 egy kicsinyég búcsú járni van most.</p>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>MÁSIK HAJDÚ</speaker>
             <stage>A botjával mintha hajtaná őket, tántorogva.</stage>
             <lg>
@@ -6559,7 +6473,7 @@
               <l>Tiszántúl, csuporbúl bor csordul.</l>
             </lg>
           </sp>
-          <sp who="#hajduk">
+          <sp who="#varos_hajdui">
             <speaker>EGYIK HAJDÚ.</speaker>
             <p>Te bolond, hallgass! itt a gróf! -</p>
           </sp>

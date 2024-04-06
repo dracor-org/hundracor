@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000036">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000036" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -66,14 +64,13 @@
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        <pubPlace> Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          <p> CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
           </p>
         </availability>
       </publicationStmt>
@@ -200,57 +197,57 @@
           <person sex="FEMALE" xml:id="julia">
             <persName>JULIA</persName>
           </person>
-          <person sex="MALE" xml:id="szenatorok">
-            <persName>Szenátorok</persName>
-          </person>
-          <person sex="MALE" xml:id="udvaroncok">
-            <persName>udvaroncok</persName>
-          </person>
-          <person sex="MALE" xml:id="orseg">
-            <persName>őrség</persName>
-          </person>
-          <person sex="UNKNOWN" xml:id="nep">
-            <persName>nép</persName>
-          </person>
+          <personGrp sex="MALE" xml:id="szenatorok">
+            <name>Szenátorok</name>
+          </personGrp>
+          <personGrp sex="MALE" xml:id="udvaroncok">
+            <name>udvaroncok</name>
+          </personGrp>
+          <personGrp sex="MALE" xml:id="orseg">
+            <name>őrség</name>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="nep">
+            <name>nép</name>
+          </personGrp>
           <person xml:id="egy_szo_a_nep_kozul" sex="UNKNOWN">
             <persName>EGY SZÓ A NÉP KÖZÜL</persName>
           </person>
           <person xml:id="szolga" sex="MALE">
             <persName>SZOLGA</persName>
           </person>
-          <person xml:id="mind" sex="UNKNOWN">
-            <persName>MIND</persName>
-          </person>
-          <person xml:id="sokan" sex="UNKNOWN">
-            <persName>SOKAN</persName>
-          </person>
-          <person xml:id="tobben" sex="UNKNOWN">
-            <persName>TÖBBEN</persName>
-          </person>
+          <personGrp xml:id="mind" sex="UNKNOWN">
+            <name>MIND</name>
+          </personGrp>
+          <personGrp xml:id="sokan" sex="UNKNOWN">
+            <name>SOKAN</name>
+          </personGrp>
+          <personGrp xml:id="tobben" sex="UNKNOWN">
+            <name>TÖBBEN</name>
+          </personGrp>
           <person xml:id="egy_a_tomeg_kozul" sex="UNKNOWN">
             <persName>EGY A TÖMEG KÖZÜL</persName>
           </person>
-          <person xml:id="tobb_oldalrul" sex="UNKNOWN">
-            <persName>TÖBB OLADLRUL</persName>
-          </person>
-          <person xml:id="nemelyek_a_nep_kozul" sex="UNKNOWN">
-            <persName>NÉMELYEK A NÉP KÖZÜL</persName>
-          </person>
-          <person xml:id="masok" sex="UNKNOWN">
-            <persName>MÁSOK</persName>
-          </person>
-          <person xml:id="tobb_szavak" sex="UNKNOWN">
-            <persName>TÖBB SZAVAK</persName>
-          </person>
-          <person xml:id="sok_szavak" sex="UNKNOWN">
-            <persName>SOK SZAVAK</persName>
-          </person>
-          <person xml:id="ismet_masok" sex="UNKNOWN">
-            <persName>ISMÉT MÁSOK</persName>
-          </person>
-          <person xml:id="nehany_polgar" sex="UNKNOWN">
-            <persName>NEHÁNY POLGÁR</persName>
-          </person>
+          <personGrp xml:id="tobb_oldalrul" sex="UNKNOWN">
+            <name>TÖBB OLADLRUL</name>
+          </personGrp>
+          <personGrp xml:id="nemelyek_a_nep_kozul" sex="UNKNOWN">
+            <name>NÉMELYEK A NÉP KÖZÜL</name>
+          </personGrp>
+          <personGrp xml:id="masok" sex="UNKNOWN">
+            <name>MÁSOK</name>
+          </personGrp>
+          <personGrp xml:id="tobb_szavak" sex="UNKNOWN">
+            <name>TÖBB SZAVAK</name>
+          </personGrp>
+          <personGrp xml:id="sok_szavak" sex="UNKNOWN">
+            <name>SOK SZAVAK</name>
+          </personGrp>
+          <personGrp xml:id="ismet_masok" sex="UNKNOWN">
+            <name>ISMÉT MÁSOK</name>
+          </personGrp>
+          <personGrp xml:id="nehany_polgar" sex="UNKNOWN">
+            <name>NEHÁNY POLGÁR</name>
+          </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -352,11 +349,8 @@
         <head type="title">ELSŐ FELVONÁS</head>
         <div type="scene">
           <head type="title">ELSŐ SZÍN</head>
-          <p>
-            <stage>Nagy, fényes terem a cézári palotában</stage>
-          </p>
-          <p>
-            <stage>Valentinian cézár, Eudoxia, Placidia, Aet, Gaudent, Boeth, Petron
+          <stage>Nagy, fényes terem a cézári palotában</stage>
+          <stage>Valentinian cézár, Eudoxia, Placidia, Aet, Gaudent, Boeth, Petron
                             Maxim, Avien, Triget, Basil, Cajus, Fulgent, Heracles, Sidon, Vigil,
                             Orest, Caustin, Julian, Avenar, Marc s több más szenátorok és udvaroncok
                             többnyire pamlagokon hevernek: ki-ki bal karjára támaszkodva szomszéda
@@ -370,7 +364,6 @@
                             asztal is virágokkal van fölékesítve. Az öltözet fehér. - Amint a kárpit
                             lassan fölemelkedve, zene hallatszik, melyt hangos örömujjongatások
                             szakasztanak félbe.</stage>
-          </p>
           <sp who="#iii_valentinian">
             <speaker>VALENTINIAN CÉZÁR.</speaker>
             <p>Komolyan ismétlem, cimborák, e nagy napot, a catalauni babérokét,
@@ -1238,9 +1231,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK SZÍN</head>
-          <p>
-            <stage>Maxim laka.</stage>
-          </p>
+          <stage>Maxim laka.</stage>
           <sp who="#pallad">
             <speaker>PALLAD</speaker>
             <stage>lassú léptekkel jön be, s egy asztal mellé ül, hol mécses pislog; de
@@ -2052,7 +2043,7 @@
         <sp who="#gaudent">
           <speaker>GAUDENT</speaker>
           <p>Szeszélyből? Tudok mindent, nekem is vannak kémeim; mire ennyi
-                            szó?<stage>Őrökhöz.</stage>
+						szó?<stage>Őrökhöz.</stage>
           </p>
           <p>Fogjátok meg!<stage>Az őrök előrenyomulnak.</stage>
           </p>
@@ -2070,7 +2061,7 @@
           <speaker>PALLAD</speaker>
           <stage>hátrál.</stage>
           <p>Ez nem történend meg, míg csak egy csepp vér foly ereimben.<stage>Kihúzza
-                            kardját.</stage>
+						kardját.</stage>
           </p>
           <p>Ha oly bátor vagy, milyen szemtelen, úgy tegyünk ketten próbát egymáson.</p>
         </sp>
@@ -2082,7 +2073,7 @@
         <sp who="#marc">
           <speaker>MARC.</speaker>
           <p>Hevességed nem hagyta észrevenned, miként tenmagad vagy a
-                            törvénysértő.<stage>Szelídebben.</stage>
+						törvénysértő.<stage>Szelídebben.</stage>
           </p>
           <p>Gondold meg! Ilyet nem tehetsz.</p>
         </sp>
@@ -2105,7 +2096,7 @@
         <sp who="#gaudent">
           <speaker>GAUDENT.</speaker>
           <p>Az elmés fölszólításra csupán egy kérdéssel felelek.<stage>Az
-                            őrökhöz.</stage>
+						őrökhöz.</stage>
           </p>
           <p>Az őrség feje nem hagyta-e meg teljesítnetek parancsim?</p>
         </sp>
@@ -2142,12 +2133,8 @@
         </sp>
         <div type="scene">
           <head type="title">MÁSODIK SZÍN</head>
-          <p>
-            <stage>Maxim laka, mint az első felvonás végén.</stage>
-          </p>
-          <p>
-            <stage>Maxim és Marc igen eleven beszélgetés közt lépnek be.</stage>
-          </p>
+          <stage>Maxim laka, mint az első felvonás végén.</stage>
+          <stage>Maxim és Marc igen eleven beszélgetés közt lépnek be.</stage>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Te voltál, mint mondád Baethnál? Elibe terjesztéd, mily méltatlanság ez,
@@ -2545,7 +2532,7 @@
                             túlhaladja, a catalauni mezőt tekintném elsőnek, hol ily nemű babérok
                             nőttek volna. Nem, az nem lehet! mind ellene szegezzük magunkat.</p>
           </sp>
-          <sp who="#nehanyan">
+          <sp who="#cajus #triget #fulgent #avien #avenar #caustin">
             <speaker>NEHÁNYAN.</speaker>
             <p>Mind! mind!</p>
           </sp>
@@ -2807,7 +2794,7 @@
             <speaker>SOKAN.</speaker>
             <p>Igaz! Feddést!</p>
           </sp>
-          <sp who="#egy_szenator">
+          <sp who="#szenatorok">
             <speaker>EGY SZENÁTOR</speaker>
             <stage>a hallgatók közül halkan Maximhoz.</stage>
             <p>Egy észrevételem van; de halkan mondom meg, nehogy vitára adjon alkalmat,
@@ -2917,20 +2904,16 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK SZÍN</head>
-          <p>
-            <stage>Sötét szoba, melyt a boltozat közepiről lefüggő mécses világít. A
+          <stage>Sötét szoba, melyt a boltozat közepiről lefüggő mécses világít. A
                             mécses alatt egy oltárféle alkotmány. A színpad bal részin egy kerek
                             asztal, igen sok vegytani eszközök, poharak, csők, tálak; a jobb oldalon
                             egy csillagtávmérő (astroláb); a hátrészen más asztal, melyen néhány
                             igen nagy könyv s egy hosszú látcső, magasan nyíló kerek ablak felé
                             fordítva.</stage>
-          </p>
-          <p>
-            <stage>Cézár és Sidon: ez utolsónak kezében tarka, igen hosszú, s a végin
+          <stage>Cézár és Sidon: ez utolsónak kezében tarka, igen hosszú, s a végin
                             meggörbült pálca; öltözete tarka, hosszú köpönyeg; magas, hegyes föveget
                             hord fejin. Mindketten vitázva lépnek be, mintha egy előbb kezdett
                             beszélgetést folytatnának.</stage>
-          </p>
           <sp who="#sidon">
             <speaker>SIDON.</speaker>
             <p>S te csakugyan makacsul megmaradsz kívánságod mellett?</p>
@@ -3164,13 +3147,9 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK SZÍN</head>
-          <p>
-            <stage>Tágas, szépen bútorozott szoba.</stage>
-          </p>
-          <p>
-            <stage>Maxim és Julia. Mindketten köpenyeggel béfödve, mintha útról
+          <stage>Tágas, szépen bútorozott szoba.</stage>
+          <stage>Maxim és Julia. Mindketten köpenyeggel béfödve, mintha útról
                             érkeznének.</stage>
-          </p>
           <sp who="#julia">
             <speaker>JULIA</speaker>
             <stage>Maxim által vezetve, csodálkozva lép be.</stage>
@@ -3363,13 +3342,9 @@
         <head type="title">HARMADIK FELVONÁS</head>
         <div type="scene">
           <head type="title">ELSŐ SZÍN</head>
-          <p>
-            <stage>Cézári palota.</stage>
-          </p>
-          <p>
-            <stage>Cézár, Eudoxia cézárnő, Maxim, Triget, Avien, Cajus Basil, több más
+          <stage>Cézári palota.</stage>
+          <stage>Cézár, Eudoxia cézárnő, Maxim, Triget, Avien, Cajus Basil, több más
                             szenátorok, Heracles.</stage>
-          </p>
           <sp who="#iii_valentinian">
             <speaker>CÉZÁR.</speaker>
             <p>Maxim, szólhatsz!</p>
@@ -4191,12 +4166,8 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK SZÍN</head>
-          <p>
-            <stage>Eudoxia szobája.</stage>
-          </p>
-          <p>
-            <stage>Eudoxia s Placidia.</stage>
-          </p>
+          <stage>Eudoxia szobája.</stage>
+          <stage>Eudoxia s Placidia.</stage>
           <sp who="#eudoxia">
             <speaker>EUDOXIA.</speaker>
             <p>Placidiám! Nem vetek semmit szemedre; nem is kárhoztatlak érzelmidért,
@@ -4646,13 +4617,9 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK SZÍN</head>
-          <p>
-            <stage>Terem a fejdelmi palotában.</stage>
-          </p>
-          <p>
-            <stage>Heracles, Julian, Caustin, Avenar jobbról lépnek be
+          <stage>Terem a fejdelmi palotában.</stage>
+          <stage>Heracles, Julian, Caustin, Avenar jobbról lépnek be
                             fegyveresen.</stage>
-          </p>
           <sp who="#heracles">
             <speaker>HERACLES.</speaker>
             <p>Úgy lesz tehát, mint mondám; rátok számolhatunk!</p>
@@ -5047,12 +5014,8 @@
         <head type="title">NEGYEDIK FELVONÁS</head>
         <div type="scene">
           <head type="title">ELSŐ SZÍN</head>
-          <p>
-            <stage>Szoba a cézári palotában.</stage>
-          </p>
-          <p>
-            <stage>Cézár, Maxim, Heracles egy iratot olvasnak.</stage>
-          </p>
+          <stage>Szoba a cézári palotában.</stage>
+          <stage>Cézár, Maxim, Heracles egy iratot olvasnak.</stage>
           <sp who="#petron_maxim">
             <speaker>MAXIM.</speaker>
             <p>Mesés arcátlanság! Panasz, csupa panasz! Minden parancs, adó vagy segély
@@ -5477,10 +5440,8 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK SZÍN</head>
-          <p>
-            <stage>Nagy tér, fényes csarnokkal körülvéve. Távolról látszik a Capitolium.
+          <stage>Nagy tér, fényes csarnokkal körülvéve. Távolról látszik a Capitolium.
                             A színpad hátrészén népség tolong s kiáltoz.</stage>
-          </p>
           <sp who="#nemelyek_a_nep_kozul">
             <speaker>NÉMELYEK A NÉP KÖZÜL.</speaker>
             <p>Nem, nem! A terü nagy! Nem bírjuk!</p>
@@ -5582,7 +5543,7 @@
             <p>Gyorsan, a tömegnek!</p>
             <stage>Az őrcsapat a népnek rohan.</stage>
           </sp>
-          <sp who="#egy_a_ tomeg_kozul">
+          <sp who="#egy_a_tomeg_kozul">
             <speaker>EGY A TÖMEG KÖZÜL</speaker>
             <p>Mi nem kóborlók, nem dibdáb emberek, mi az ország, mi a római nép
                             vagyunk, mely magát sértetni nem hagyja.</p>
@@ -5616,11 +5577,11 @@
             <p>Felém, barátok! értetek szóltam, értetek szenvedek! Igazságunk van! Nem
                             hagytok, ugye?</p>
           </sp>
-          <sp who="orseg">
+          <sp who="#orseg">
             <speaker>EGY ŐR.</speaker>
             <p>Fogd be a szádat!</p>
           </sp>
-          <sp who="#elobbi">
+          <sp who="#egy_a_tomeg_kozul">
             <speaker>ELŐBBI.</speaker>
             <p>Nem, nem! Szólok, kiáltok, míg gégém van! Méltatlanság, mi velünk
                             történik!</p>
@@ -5803,12 +5764,8 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK SZÍN</head>
-          <p>
-            <stage>Julia szállása.</stage>
-          </p>
-          <p>
-            <stage>Pallad s egy szolga heves versengés közt lépnek be.</stage>
-          </p>
+          <stage>Julia szállása.</stage>
+          <stage>Pallad s egy szolga heves versengés közt lépnek be.</stage>
           <sp who="#szolga">
             <speaker>SZOLGA.</speaker>
             <p>Asszonyunk Cézár egyenes parancsa nélkül senkit sem bocsáthat maga
@@ -6202,13 +6159,9 @@
         <head type="title">ÖTÖDIK FELVONÁS</head>
         <div type="scene">
           <head type="title">ELSŐ SZÍN</head>
-          <p>
-            <stage>Csarnok a cézári palotában.</stage>
-          </p>
-          <p>
-            <stage>Kívülről nagy zaj, népkiáltozás hallatszik. Maxim, Orest, Vigil
+          <stage>Csarnok a cézári palotában.</stage>
+          <stage>Kívülről nagy zaj, népkiáltozás hallatszik. Maxim, Orest, Vigil
                             középrül lépnek be.</stage>
-          </p>
           <sp who="#petron_maxim">
             <speaker>MAXIM</speaker>
             <stage>vígan.</stage>
@@ -6784,9 +6737,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK SZÍN</head>
-          <p>
-            <stage>Julia szállása.</stage>
-          </p>
+          <stage>Julia szállása.</stage>
           <sp who="#julia">
             <speaker>JULIA</speaker>
             <stage>oldalajtón jő be s leül, szemeit egy asztalon álló fövényórára
@@ -7152,8 +7103,8 @@
                             cézár!”</stage>
             </p>
             <p>Ne gúnyolj, Róma!</p>
-            <stage>A kárpit legördül.</stage>
           </sp>
+          <stage>A kárpit legördül.</stage>
         </div>
       </div>
     </body>

@@ -1,0 +1,4305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000049" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">A' filosofus</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <surname>Bessenyei</surname>
+            <forename>György</forename>
+          </persName>
+          <idno type="wikidata">Q794046</idno>Q794046 </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Sziráki</surname>
+            <forename>Sarolta</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url"> https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék<ref type="url"> https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/30546</ref>
+        </pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0 <ref type="url">
+							https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">A Filosofus</title>
+          <title type="sub"/>
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+          <ref target="http://mek.oszk.hu/"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname/>unknown <forename/>unknown </persName>
+            <persName>
+              <surname/>unknown <forename/>unknown </persName>
+            <persName>
+              <surname/>unknown <forename/>unknown </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">A' Filosófus</title>
+          <title type="sub"/>
+          <author>
+            <persName>
+              <surname>Bessenyei</surname>
+              <forename>György</forename>
+            </persName>
+            <idno type="wikidata">Q794046</idno>
+          </author>
+          <date/>
+          <pubPlace/>
+          <publisher/>
+        </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+            <idno type="wikidata"/>
+          </author>
+          <title type="main"/>
+          <title type="sub"/>
+          <pubPlace>Pest</pubPlace>
+          <publisher/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="parmenio" sex="MALE">
+            <persName>PÁRMÉNIÓ</persName>
+          </person>
+          <person xml:id="eresztra" sex="FEMALE">
+            <persName>ERESZTRA</persName>
+          </person>
+          <person xml:id="titzius" sex="MALE">
+            <persName>TITZIUS</persName>
+          </person>
+          <person xml:id="szidalisz" sex="FEMALE">
+            <persName>SZIDALISZ</persName>
+          </person>
+          <person xml:id="berenisz" sex="FEMALE">
+            <persName>BERENISZ</persName>
+          </person>
+          <person xml:id="lilisz" sex="MALE">
+            <persName>LILISZ</persName>
+          </person>
+          <person xml:id="angyelika" sex="FEMALE">
+            <persName>ANGYELIKA</persName>
+          </person>
+          <person xml:id="pontyi" sex="MALE">
+            <persName>PONTYI</persName>
+          </person>
+          <person xml:id="lidas" sex="MALE">
+            <persName>LIDÁS</persName>
+          </person>
+          <person xml:id="lutzinda" sex="FEMALE">
+            <persName>LUTZINDA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1777">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head type="title">
+          <hi rend="underline">BESZÉLLÖ SZEMÉLJEK.</hi>
+        </head>
+        <castItem>
+          <role><roleName>Párménió</roleName>, Filósófus nemes ifjú.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Eresztra</roleName>, özvegy nemes asszony.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Titzius</roleName>, Eresztra fia.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Szidalisz</roleName>, Titzus testvér húga.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Berenisz</roleName>, Nemes léány,Szidalisznak titkosa,
+						Titzius’.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Lilisz</roleName>, Name&gt;Nemes ifjú.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Angyelika</roleName>, Párménió’ testvér húga, Lilisz
+						szeretője.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Pontyi</roleName>, Gazdag nemes ember, igaz Magyar.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Lidás</roleName>, Párménió szolgája.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Lutzinda</roleName>, Szidalisz szolgálója.</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head type="title">ELSŐ JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ jelenés</head>
+          <stage>SZIDALISZ, LUCINDA.</stage>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>henye kevélységgel.</stage>Lucinda, közelitts egy széket, a’
+							tsevegő társaságnak haszontalan lármájában fejem szédül, tagjaim
+							fáradnak —<stage>le-ül.</stage>Lucinda hozz egy könyvet</p>
+          </sp>
+          <sp who="#lucinda">
+            <speaker>LUCINDA</speaker>
+            <p>Mitsoda könyvet parantsol a’ kis-asszony?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>A’ mellyik eléb’ kezedbe akad — Lucinda, gyere vissza, nem kel könyv,
+							mihaszna olvasok — főzess herba-tejet inkáb’, a’ gyomrom rosszúl
+							van.</p>
+          </sp>
+          <sp who="#lucinda">
+            <speaker>LUCINDA</speaker>
+            <p>Mitsodást parantsol a’ kis-asszony?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Mitsoda együgyü állat! ollyat főzess, a’ millyennel leg-töb’ eszes
+							emberszokott élni. — Az unalom rág, és ez az értetlen állat is fáraszt —
+							hé, Lucinda, nem kell herbatéj — maradj — nem láttad Bereniszt? haza
+							ment-é már a’ társaságbúl?</p>
+          </sp>
+          <sp who="#lucinda">
+            <speaker>LUCINDA</speaker>
+            <p>Berenisz nem hagyta még-el a’ társaságot, mert tud mind az
+							alkalmatossággal, mind magával élni, nem éteti magát az unalommal, mint
+							mi; a’ kis-asszony mellett nem tudja az ember mit tsináljon; mindent
+							akar, semmi sem kell; sóhajt, búsúl, gondolkodik; mit akar így életével?
+							Tzifra, szép, okos, gazdag, s’ nem kell a’ világ. Ki éllyék hát köztünk,
+							ha az illyenek nem élhetnek?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>el-bádjatt szavakkal.</stage> Lucinda, ne okoskodj kérlek, nem
+							illik néked eszednek lenni, mert szolgáló vagy, ne akarj okos lenni, ha
+							van eszed — mit tsinálnál te az ésszel, a’ mi nékünk is annyi bajunkra
+							van?</p>
+          </sp>
+          <sp who="#lucinda">
+            <speaker>LUCINDA</speaker>
+            <p>Mert én az ollyan észért, mint a’ kis-asszonyéknak van, nem adnék egy
+							gombos tüt. Okosság-é magát gyötörni valakinek, mikor semmi baja
+							nintsen?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ha, ha ha, a’ te együgyüséged nékem tetszik — te nevettséges állat
+							vagy.</p>
+          </sp>
+          <sp who="#lucinda">
+            <speaker>LUCINDA</speaker>
+            <p>Mint a’ kis-asszony nekem.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ne rágd a’ fülem, nem akarlak továb’ hallani.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második jelenés</head>
+          <stage>BERENISZ, SZIDALISZ, LUCINDA.</stage>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>mindég bádjadással.</stage>Kedves Bereniszem, honnan vezet a’
+							nyájjas történet karjaim közzé? mitsoda tündöklő öltözettel s’ ragyogó
+							tekéntettel érkezel? szemeidben a’ magával jádzó szivnek édes
+							megelégedése mosolyog; ifjú, szép és szerentsés Berenisz, kinek az
+							emberi társaság örömödet szülheti, mennyire különbözhetsz töllem, ki
+							tsak magánosságomban szenyvedek.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Kedves Szidaliszom, hidj nékem, s’ ne emésszed magadat. Az emberi szivek
+							egymásért vágynak teremtve; ne sóhajts magánoson, mikor kettös lehetsz;
+							adj gyönyörűséget másnak, hogy azzal osztán magad-is élhess; nintsen
+							édesebb szív annál, mint a’ melly valami kedves tárgyban kettővé
+							lehet.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Hát te most ollyan édes kettős egység vagy, mint szemeidbül olvashatom.
+							Vald-meg Berenisz, hogy valamely ragyogó ifjú esküdt hivségedre, kinek
+							áldozatja még sziveden dobog, s’ kedvessége ajakid közt piheg.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>A’ szivem közepét tapasztod — meg-vallom előtted gyengeségem, Titzius
+							hordozza szivemet. — Te kedves férjfi angyal Titzius! boldog légyen
+							örökre a’ vér, melyben életre melegedtél s’ fogantattál! — Ah, ha
+							láthatnád józan indúlatainak nemes tüzét — mitsoda természet szerint
+							való igazságokat mond, a’ szivét látnád minden szavával ajakain
+							ki-tsordúlni.</p>
+          </sp>
+          <sp who="#lucinda">
+            <speaker>LUCINDA</speaker>
+            <p>Van most módom benne úri szeretetet hallani — meg-ölne benne az
+							unalom.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Mit mondasz Lucinda? talám irigységre hoz sorsom?</p>
+          </sp>
+          <sp who="#lucinda">
+            <speaker>LUCINDA</speaker>
+            <p>Nem kivánom a’ kis-asszony sorsát, nem kívánok én magam ollyan szerelmet,
+							melyben tsak sóhajtással s’ szép beszédekkel kell élni. Óh! nékem sokkal
+							más tzélom van.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Nevettséges állat, te tsak kívánsz, de szeretni nem tudsz.</p>
+          </sp>
+          <sp who="#lucinda">
+            <speaker>LUCINDA</speaker>
+            <p>Hát a’ ki szeret nem kíván semmit?</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Hid’-el nékem Lucinda, hogy soha szeretet sóhajtás nélkül édes nem
+							lehet.</p>
+          </sp>
+          <sp who="#lucinda">
+            <speaker>LUCINDA</speaker>
+            <p>No én a’ szerelemben ásítok tsak, de soha nem sóhajthatok, és úgy hiszem,
+							hogy e’ kettő mind egy</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Meg-botsáss néki kedves Bereniszem; jere most hozzám, titkolódzunk,
+							látom, el-ragadtatásban vagy; tudod édesek a’ szerelem titkainak sorsok,
+							ha magokat igaz baráttal közölhetik.<stage>el-mennek.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik jelenés</head>
+          <stage>PÁRMÉNIÓ, LIDÁS.</stage>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>
+              <stage>gondolkozva jár egy kevéskorig alá s’ fel</stage>. Talám nem jönek
+							már ide utánnam üldözni, és ki-fuhatom magamat. Nem lehet a’ világ
+							kényességét el-szenyvedni. Ez a’ sok ifjú, kiknek társaságok mindég
+							jádzik, szerelmeskedik, s’ gyözedelmeivel ditsekszik; a’ sok
+							kis-aszszony, kiknek tsevegö seregek örökké sziveket vadász,
+							éstitkosindúlatainkatszemeinknek forgásában lesi; kártya, módi, gyermeki
+							beszéd, titkos levelek, tántz, musika, szó-hajtás, az irigy szerelemnek
+							alkalmatlan pletykái, örökké változó öltözetek. Rósa szín ruhát vészen
+							magára, bé jön mint a’ páva, s’ kevély maga viseletivel tsak úgy
+							láttatik az embereknek mondani: nézzetek ide, miilyen derék személly
+							vagyok; nem gondollya meg, hogy ha kényes ruháját a’ juhásznémra adom,
+							azon is épen úgy meg-áll, mint ö rajta — Illyeket vegyék osztán az ember
+							feleségül magának — Az ifjú legény egy Anglus tsizmát fel-húz, melynek
+							félig le-türi a’ szárát; széllyel néz osztán a’ társaságban, ha van e’
+							másnak-is ollyan, ha senkinek nints, majd öszve tapossa az embert, hogy
+							nézze a’ tsizmáját, kérdezze szüntelen tsudálkozva, hogy mitsoda
+							tulajdonságai vágynak a’ tsizmájának? Más jön, annak a’ haja oljan
+							vastag tsomóba fekszik a’ hátán, mint a lábom; harmadiknak a’
+							nyakra-valója a’ félig fel-mégyen ólján vastag, azt gondolnád egész
+							abroszt kötött oda; illyen dolgokkal kívánnak győzedelmeskedni, alá s’
+							fel repdesvén, mint a’ fényes lepkék; meg-öli köztök az embert az
+								unalom.<stage>Halgat, gondolkozik; Lidás az alatt áltában
+								szunyókál</stage>. — Héj Lidás!</p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>
+              <stage>fel-ijjedve.</stage> Mit parantsol az úr?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Eredj, hozz-ki nékem az óldal szobámból egy könyvet.</p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Alázatos tudatlansággal kérem az urat, mitsoda könyvet hozzak?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Eredj, valaki kopogtat az ajtón, nézd-meg, ha le-türt tsizmája, vastag
+							haja, vagy sok nyakra-valója van, be-ne botsásd.</p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Hát ha asszony?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Akármillyen be-ne botsásd, mondjad, nem vagyok ithon.<stage>Ez alatt az
+								ajtó bé-nyilik.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik jelenés</head>
+          <stage>ANGYÉLIKA, PÁRMÉNIÓ, LIDÁS.</stage>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ehol jön a’ könyv, la.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYELIKA</speaker>
+            <p>
+              <stage>tiszta fejér tafotában, rósa színnel bodrozva, érkezik, egy nagy
+								bokrétája van, melly fél mellyét árnyéka alá veszi. Feje meg-van
+								rakva gyöngyei, virágokkal, vidámon.</stage>Örülök, kedves Filósófus
+							bátyám, hogy fel-találhatlak — Nézzmeg kérlek, jól vagyok-é öltözve,
+							mert ma győzedelmeskedni akarok.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Te fényes lepke, minek jössz te nékem ide alkalmatlankodni?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYELIKA</speaker>
+            <p>Ne izetlenkedj édes okos bátyám, mond-meg. ha szép vagyok-é’?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>De szép vagy, szép, szép, — tsak kár hogy nints eszed.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYELIKA</speaker>
+            <p>De édes bátyám, tsak szép legyek, nem búsúlok én az eszemen. Az emberi
+							szivnek mindég okos az a’ mi szép.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Jól van jól, hanem erejd már innen.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYELIKA</speaker>
+            <p>Nézd milyen hegyessen parantsol: eredj már; de nem megyek én édes
+							bátyám,, ha tsak te is nem jössz; ne magánoskodj itt kérlek, gyere
+							szeretni te is a’ világba emberek közzé, mit mormolsz itt magad a’ szép
+							szokásokra ’s a’ jó természetre? Gyere, ha okos vagy.</p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>
+              <stage>félre sóhajtva.</stage> Oh! be angyal kis-asszony, tsókolom a’
+							lelkét.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Eredj majom, beszélgess Lidással helyettem, nem hallod, megszeretett</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYELIKA</speaker>
+            <p>Te nyomorúlt paraszt, Lidás, hát meg-szerettél?</p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>De Isten ne adja, kis-asszony; hogy merném én azt a’ vakmerőséget
+							el-követni?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Te nyers tudatlanság, idétlen ostoba, hiszem nem vakmerőség az, szabad
+							néked a’ leg-elsö személyt-is szeretni magadban; de kérést és
+							ismerettséget nem tehetsz.</p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>De hogy, hiszem meg-haragudnának a’ kis-asszonyék.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ne hid’ ostoba; én azt kívánnám, az egész világ szeretne, szép, rút,
+							gazdag, szegény, okos, bolond; sőt azt is kívánom, hogy az oktalan
+							állatok szeressenek; és minden kis-asszony így ért ebben, mint én,</p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Oh jé! minémü indúlat az illyen.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>E’ nemes indúlat.</p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Nemes indúlat, ennye nó — hát a’ veszett kutya-is szeresse az embert?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYELIKA</speaker>
+            <p>Ha, ha ha. Bátyám, örvendem rajta, néked igen okos szolgád van,
+							beszélgethesz véle a’ világ dolgairúl. Lidásnál ugyan job’ lenne, ha egy
+							Angyélikához hasonló személlyel okoskodnál, ki húgod nem volna.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Te, mond-meg nékem, hogy lehettek ti ollyan tséltsap állatok?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Mond-meg nékem, édes bátyám, hogy hát te mi módon lehetsz ollyan izetlen,
+							büzetlen, komor állat</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>No eredj, lódúlly, nints eszed, hadj magánosságomban.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYELIKA</speaker>
+            <p>No itt hagylak, kedves mord bátyám, bóldogtalankodj egyedül, én pedig a
+							örülni, szeretni menek; de meg-tsókollak eléb’. <stage>meg-tsókolják
+								egymást.</stage>Szeretsz-é bátyám? szeress, hid’-el, nints rósz
+							szivem, az életemet is oda adnám érted, ölj hiv testvéred vagyok; de,
+							hogy ártatlanúl vigadni kívánok a’ világban, azért ne neheztelj reám.
+							Isten, természet adták nékünk a’ jót, miért vetném azt meg, mit az
+							Isteni gondviselés vigasztalásomra teremtett? tudod, hogy az emberek
+							szereteti leg-édeseb’ ’s leg-nemeseb’ erkölts a’ földön.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>
+              <stage>meg-illetödéssel.</stage> Te nemes, ifjú, s’ nyájjas gyermek,
+							meg-illetődésre hozod szivemet, eredj ártatlan gyönyörűségeidnek
+							karjaira lebegni, és jöjjön eszedbe, hogy van egy testvér bátyád, ki
+							tégedet szivében visel, s’ gyönyörűségednek inkáb’ örül, mint önnön
+							életének. Szeresd ember társaidat; szeress másként-is, ha tárgyodat
+							fel-lelheted, és panaszold testvéred- nek sorsát, ki asszonyi nemeteket
+							szereti, tiszteli; de sok okoskodásai miatt tárgyát abban fel-nem
+							lelheti. Hozz nékem ollyan szivet, mint a' magadé, keveseb’ játékokkal,
+							mint te el követsz, s’ rabúl adom néki magamat. — Eredj
+							gyönyörködni.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Isten hozzád édes bátyám; be kár illyen szép elmének s’ emberi szívnek
+							nem szeretni!<stage>el-mégyen.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik jelenés</head>
+          <stage>LILISZ, PÁRMÉNIÓ, LIDÁS.</stage>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <stage>egy le-türt szárú Anglus tsizmában, vastag hajjal, egy maroknyi
+								kalappal, melly a’ fején, mint egy punctum, úgy áll. Itt gondolkozol
+								Párménió? akarom hogy fel talállak. izzatt törli magát.</stage>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Itt gondolkozom barátom; hát te honnan jössz ölj fáradtan? — ugyan szép
+							újj tsizmád van.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Hogy láthatod te azt Filósofus létedre?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Hát hiszem beszélni kell veled barátom.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>De beszélj hát másrúl.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ugyan szép vastag hajad van, mint a’ lábom szára; mind a’ magadé-é’?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>De mi bajod néked azzal a’ hajjal?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>
+              <stage>félre</stage>Mi ördög baja? mirül akar beszélni? talám Filosofus
+							ez a’ lepke.<stage>hozzá fordúl.</stage> Hát hol leljem fel
+							tetszésedet?-------- ugyan szépen van körül vágva a’ kalapod, tsak
+							ólján, mint a' markom</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Te rosszúl vagy, hallod-é, mondtam, hogy ne filózófálj örökké.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Hát mit akarsz? Szóllyunk hát arrúl, ha Locknak vólt e’ nagyob’ lelke,
+							vagy Nevtonnak? — szólj</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Puff, ugyan meg-járám, a’ kis kalaprúl Lockra ugrottunk.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>E’sem tetszik; beszéljünk hát másrúl — a’ lovadat jártattad ma?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Nem a’ nem, hallod-e’, hanem, nem láttad-é’, most leg-közeleb’ a’
+							húgodat?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ehol van la, meg-leltük a’ tsomót. — Láttam barátom, most ment el-tőlem,
+							talám roszszul vagy miatta?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Ne úgy kérdezd, hanem, talám édes vagyok miatta? — — az örjülésig
+							szeretem.</p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>
+              <stage>félre</stage>E’ már nemes indulat.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ugy-é? no ha úgy szereted, ma eleibe ne kerülj, mert ólján, mint egy kis
+							Diánna, a’ kellemetesség virít egész testén, ollyan mint a’ ki-nyilt
+							tavasz, mosolyog, örül, jádzik.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Hol van, hol van?<stage>el-ragadtatva</stage>. Isten hozzád
+								—<stage>vissza szalad.</stage> merre ment-el? mellyik ajtón? erre,
+							erre Isten hozzád, <stage>el-nyargal</stage>
+            </p>
+          </sp>
+          <sp who="#lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Oh jé, miijen nagy nemes indúlat.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Gyerünk innen, nem jó itt maradni, meg taszigálnak.
+								<stage>el-mennek</stage>.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hatodik jelenés</head>
+          <stage>ERESZTRA, SZIDALISZ.</stage>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Édes leányom, édes leányom, be tsudállatos természettel birsz; én
+							meg-vallom előtted, hogy szüntelen való fájdalmat okozol anyai
+							szivemnek. Mond-meg mit akarsz; senki nem tetszik néked. Mennyi
+							szerentséd van, mennyin fáradnak érted, senkit nem akarsz. Édes
+							gyermekem, gondold-meg, mitsoda kegyetlenül szokta azokat a’ világ
+							fizetni, kik magokat különösségre tökéllik-el. Akarsz-e’ férjhez menni?
+							vagy mi van a’ sziveden? mit gondoljak róllad? Majd kevélynek,
+							fel-fulalkodottnak kiáltanak, oda lészünk és szerentséjidet örökösön
+							elvesztjük</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Édes asszony anyám, soha nem volt tzélom a’ természettel s’
+							kötelességemmel ellenkezni; én férjhez menésemben kívánom, hogy magamnak
+							szerentsémre, kedves asszony anyámnak pedig vigasztalására lehessek; de
+							hogy adjam azoknak örökségül által magamat, kik, mint alatsony rabok,
+							lábomnál fetrengvén, tsak termetemet, tekintetemet, vagy gazdagságomat
+							bálványozzák. A’ nagy erkölcs soha nem mászkál porban szerentséjéért.
+							Valamelly ifjú oly nagy rabi alázatosságot mutat az előtt, kit feleségül
+							kér, mind kegyetlen lész osztán, ha tzélját el-éri. A’ nagy szivek soha
+							nem alázzák szerentséjek előtt annyira meg magokat. Nékem nem kell rab,
+							hanem a férj, és ollyan férjfiú, ki belső tulajdonságaimért inkáb; mint
+							külső tekintetemért szeressen. Ne imádjon az engemet, a’ ki el-akar
+							venni. Nem illik a’ nagy születéshez.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>De hát ki légyen az?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Az, a’ kit a’ gondviselés oljanná tett.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Ebböl édes gyermekem bizony keveset értek; néked talám e’ részben a’
+							gondviselés senkit sem tehetett kedvessé. Lássad, gondolkodj a’ magad
+							el-tökéllésén, én semmire sem erőltetlek, élly
+								szabadon.<stage>el-mégyen</stage>.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Úgy sajnállom az édes anyámat, mintha kést vernének a’ szivembe; de nem
+							segíthetek miattam való fájdalmain. Inkáb’ meg-halok, mint koronát
+							személjemnek, mint rabok, lábomnál mászkálva, temjényeznek. Ah! el
+							rejtett tigrisek, ha nagy szívetek volna, er-költsötöknek nemes
+							kevélysége soha a’ leg-nagyob’ szeretetben sem engedné-meg, hogy előttem
+							úgy fetrengjetek. Gazdagságomra néztek, s’ előttem sóhajtotok. A’ Király
+							és a' gazdag leány soha nem tudhatja, kitül szerettetik igazán.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hetedik jelenés</head>
+          <stage>TITZIUS. BERENISZ.</stage>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Ah! Berenisz, mennyi fohászkodással óhajtóm szüntelen jelen létedet!
+							mennyit érez a’ szivem! mennyit gondol elmém! e’ mind te érted esik.
+							Mindenkor körültem, felettem, mellettem, bennem lebegsz. El-vagyok
+							kedves árnyékodtúl bóritva.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>De vald-meg, mi által húzlak leg-inkáb’ magamhoz?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Nem tudom, erkölts, nyájasság, hivség, termet, szépség, a’ mi rajtam
+							inkáb’ győzedelmeskedik; egész minémüségedtül vonattatom; tsupa
+							kedvesség vagy, mit méllyen érzek ben-nem. Úgy tetszik nékem, mintha
+							magambúl vettelek vólna-ki.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Be édes dolog, Titzius, mikor az ember kettő magában. Megragadtál bennem,
+							úgy-e? el-fogtad az én szivemet-is; de hiv légy, hogy hivségem ellened
+							panaszra ne fakadjon.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Vélhetsz-e’ oly alatsonnak? a’ nemes sziv semmitül nem irtódzik úgy, mint
+							a’ hit szegéstül.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Nyolcadik jelenés</head>
+          <stage>LILISZ, TITZIUS, ANGYÉLIKA, BERENISZ.</stage>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Ollyan vagy, mint az angyal; széllyel futottsóhajtásaim közt rajtad a’
+							szivem Angyélika, úgy legel angyal termeteden, mint rósa leveleken a’
+							tsendes Zéfirus.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ah! be ékesen szólló vagy; szinte úgy látom, heves lelkedet ajakidon
+							ki-ömleni — de kitsodák ezek — aha! Titzius, mit tsináltokitt
+							gonoszok?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>
+              <stage>Titziushoz szalad, meg-tsókolják egymást, a’ leányok
+								hasonlóul.</stage>Ah! Titzius, vald-meg, hogy te is rab vagy.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Hát mit gondolhatsz egyebet.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Égnek a’ szemeid, Berenisz.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Te-is nagyon kevéllyen vagy öltözve, hatalmat jelent.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Nézd ezt a’ szép két állatot, ha van e’ a’ természetnek nálloknál
+							nemesebb része.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Hol volna, hogy volna.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Tudod-e’ Berenisz, mi most honnan érkezünk?</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>S’ honnan?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Pontyi bátyánk elött szaladtunk.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Itt van Pontyi?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>El-érkezett, és tele van újjsággal; már kérdezte a kis-asszonyt.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Oda vagyok! mit kell vélle tsinálni? én el-futok mindenütt elötte.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Ne törődj rajta kedves Bereniszem, nem fogja nyájjasságunkat
+							akadályoztatni, tsak téged láthassalak.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Ne törödj rajta kedves Bereniszem, nem fogja nyájjasságunkat
+							akadályoztatni, tsak téged láthassalak.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Látod-é’ te az enyimet trónusán ülni, ’s rajtad mosolyogva uralkodni?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Kitsiny Királyné; de én vagyok a’ korona---------</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Kilencedik jelenés</head>
+          <stage>PONTYI sebességgel jő, és az előbbiek.</stage>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Jó szerentsével gyerekek! hallottatok-e újságot?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Nem hallotunk bizony mi; köszönnyék kend leg-alább’ előszörjó bátsi.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>De nem addig van a’ hé, hanem itt hírek vágynak. Most jön haza a’
+							kotsisom a’ vásárról, ’s onnan hozza a’ hirt, hogy a’ Török Tsászár nagy
+							néppel Persiának indúlt.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Nesze neked — itt a hir — de talám nem is igaz lész a’; ki mondta?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>De igaz, mert a’ görögök beszélték magok, azt mondja a’ kotsisom,
+							szájokbul hallotta, tulajdon füleivel, nem lehett abban kételkedni.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Öm, öm, s’ merre mennek osztán azok a’ Törökök?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Arra mennek la, az izé vize felé, minek is hívják? a’ Nílus folyó vize
+							felé, arra egyenesen be osztán Persiának.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>De hogy változott úgy meg a’ világ? hiszem a’ Nilus eddig Egyiptomban
+							folyt.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Öm, s’ azt sem tudja kend? arra, arra, a’ Nílus mellett le mindenütt,
+							egész Persiába bé.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Bizony, hosszú útja lész. — Vallyon van-é nagy ármádája?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Van-e? hogyne volna, hiszem temérdek nép az, a’ mint a’ kotsisom
+							beszélik</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Ugyan mennyi lehet még is?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Bizony van az az ő beszédje szerént, hogy ne hazudjak, tiz ezernél-is
+							több.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>De hát nem sokat nyér, mert a’ Persának két száz ezer is van.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hó hó! hová beszél kend? két száz ezer, mi ördög, hiszem a’ z’idó nép sem
+							volt talám annál több.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>De akár volt, akár nem, de annak van ám annyi, s’ több-is, ha
+							meg-szoritja magát.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Nekem ne beszéllyék kend ollyan híjába valót, hiszem tudnám én jobban, ha
+							annyi töméntelen ember volna, hallott volna arrúl az én kotsisom, mit
+							beszél kend.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Mit tud ahoz a’ görög, osztán a’ bátyám uram kotsissa.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Többet ollyan száznál, mint kend, hallya kend ötsém uram, hiszem még kend
+							mit látott?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Hát a’ bátyám uram Kotsisa mit látott?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Öm, be gyermek beszéd, meg-botsássék kend, hogy azt kell mondanom, mi már
+								ez?<stage>mind-el-szöknek azalatt.</stage>
+            </p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>De bizony nagyob’ az, tsak magunk maradtunk, s’ gyerünk mi is a’ többi
+							után.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>No de haja ötsém uram, tsak ugyan tréfa kivül, de nagy vér-ontás lész
+							azon a’ földön, nagy két hatalom a’, mondják.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>De az igaz, az igaz,<stage>el-mennek</stage>
+            </p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">MÁSODIK JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ jelenés</head>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>
+              <stage>magában</stage>Megint magam lehetek, egy kevéskorig; be édes a’
+							magánosság, mikor az ember a’ lármábúl ki szabadúlhat. Edjik jön, másik
+							megyen, e’ jobrúl, ama balrúl taszít, e’ kérdez, amaz felel. — Ugyan
+							minek tsavargok én ebben a’ zajos világban? eszem nem tudom, hogy mit s’
+							miért, iszom, megint eszem, alszom, fel-kelek, járok, meg le-ülök,
+							elmélkedem, semmit nem tudhatok, örülnék, de minden öröm után búsúlni
+							kell, haszon után indulnék, de mindenütt bajt, akadályt lelek — Az
+							emberek, mint a’ részegek, úgy verődnek egymásba, edjik a’ másikat
+							kergeti szüntelen, s’ örökké hal rakásra. E’ rósz, ama jó, ez okos, ama
+							bolond, ez igazság, amaz hamisság, mindenik magát igazítja. — Hát ez a’
+							nagy természet, mely itt zúg körültünk, mitsoda rendel1 és kerekkel
+							foly? ki foghatja meg ennek hatalmas alkotóját? Teremtő Isten! be ki
+							mondhatatlan nagyság vagy te. Természeti okoskodásom szerint tsak ezt
+							foghatom meg róllad, hogy meg-foghatatlan Isteni valóság vagy, és örökké
+							élsz.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második jelenés</head>
+          <stage>PONTYI, PÁRMÉNIÓ.</stage>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Úgy! örvendem, hogy sógor uramat itt találom; sógor uram okos ember,
+							lehet véle mélly és bölts dolgokról beszélleni; tudom, szereti-is az
+							afféléket. — Tud-é újjságot kedves sógor uram? mert itt nagy hír
+							támadt.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Mitsoda hir?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hiszen a’ Törökök nagy seregbül álló néppel egészlen el-foglalják
+							Persiát, a’ Rajnától fogva egész a’ Nilúsig; nem bolondság tarto-mány ám
+							az sógor uram, ha mind egybe gondolja őket az emer</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>De nagy föld, nagy, igaz, edjütt.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Meg-hiszem, hogy nagy; de van is ám a’ Töröknek népe, töb’ tiz
+							ezernél-is, a’ mint a’ kotsisomtúl ki tapogathattam.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>
+              <stage>nagy tsendességgel.</stage>’S a' hirt a’ kotsissa hozta sógor
+							uramnak?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Igen-is, hát hiszem ő hallotta most a’ vásárban a’ görögöktül, hiszem
+							külömben nem is hinném, tudja kend jól, hogy én könnyen hivő ember nem
+							vagyok, mert ha valaki e’ világon meg-nézi, mit hiszen, az én vagyok, de
+							illyen valóságos dolgot ki ne hinne?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>De igen is, ha a’ kotsis mondotta, mert néki a’ görögök dolgát úgy is
+							tudni kell.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hogy ne, kedves sógor uram, hiszem minden vásárban ott van; ha ő nem
+							tudja, ki tudna más? De mit gondol sógor uram, ha meg-veheti a’ Török
+							azzal a’ temérdek néppel azt a’ sok tartományt? mert ha a’ Nilus
+							partyára nem vinné a’ népét, tsak könnyeb’ volna a’ Persának; de az, az,
+							a’ veri meg, mert onnan osztán könnyen a’ Rajna és Duna közzé
+							szoríthatja a’ Persákat. — Bizony nem tudom én, mit tsinálnak a’ jó
+							Persák, bár ne avatnák ők-is magokat minden bolondságba. — Nagy nép az
+							a’ törökség, lelkem, mód nélkül sok a’, szapora nép, uram; hiszem, mi
+							ördög, tiz ezer,meg-nem férne talám az két falu határán is; úgy i sógor
+							uram, bizony meg-nem férne?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>De nem, nem férne-meg.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Azért mondom, látja kend. Hogy ne lenne oda osztán a Persa? de meg-veri
+							bizonyoson, oda lésznek. De jobb-is, hogy ötét verje-meg a’ Török, mint
+							sem ő verné a’ Törököt; mert úgy mi is félhetnénk, ha a’ Törököt a’
+							Persa meg-verhetné, úgyi sógor Uram? eb az inge Persája, hamis nép
+							a!</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>De hamis nép — annak mondják.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Úgy i, kedves sogor uram? már illyen bölts úri emberrel van kedve az
+							embernek okos dolgokrúl beszélleni, mint kedves sógor uram, mert érti az
+							állapatokat.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>De szép állapatok — hanem a’ fejem kezd fájni — egy kevéssé el-vonom
+							magamat.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Tessék, tessék, hiszem majd rá érünk még bővebben-is beszélni.
+								<stage>egyedül</stage>. Eb az inge Persája, jól esik neki, ne
+							bolondozzék,------ valyon van é sok népe — no — mindjárt tsak azért is
+							meg-kérdezem Jantsit.<stage>el-megyen</stage>.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik jelenés</head>
+          <stage>ANGYÉLIKA, SZIDALISZ.</stage>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Kedves Angyélikám, be szép teremtés vagy; találtál-é már oly ifjat, ki
+							lántzaidnak hordozására érdemes?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANYGÉLIKA</speaker>
+            <p>Vidám szivnek könnyű a’ természetben örömre találni Szidalisz.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ti szerentsések vagytok, fel-találhatjátok tárgyotokat, és nem
+							kénszeríttettek magánosságotokban sóhajtani, mint én.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>De mi törölheti-el örömödet, és mitsoda veszedelem1 teheti szivedet a’
+							nyájasságra elégtelenné? miért vagy szerentsétlen anyi ésszel, pénzel és
+							szépséggel? ki boldog, ha te nem?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Te, te, kedves Angyélikám, a’ ki nem birsz oly tsúfostermészettel, mint
+							én, s’ szerethetted azt, ki elötted térdepel, személjedet
+							bálványozza</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Hát kit tennék az elibe? azt kellene szeretnem, ki engem nem szeret?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Nem azt, hanem azt ki gyermekség és tsekélység nélkül szerethet, és a’
+							szeretettel férjfiúi nagy születését meg-nem alatsonyítja, sem az által
+							kevély erköltsének méltóságát meg-nem homájositja; egy szóval, azt
+							szeretném, a’ ki nem mászkálna a’ porban előttem, hanem férjfiúi módón
+							érdemeimért szeretne.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Messze mégy te Szidalisz; gondolod, hogy van ólján ifjú, ki a’ nagy
+							szeretetben ne másszék, áldozzák, s’ esküdjék? vagy hiszed, hogy azok,
+							kik ezt el-követik, mind rosszak, érdemetlenek’? Ollyakat mond nékem
+							Lilisz, hogy tsak nem meg-ijedek, még is örülök néki, mert látom,
+							szeret. A’ ki nagyon szeret, nehéz annak hazudni, akármit mondjon. De
+							néked talán filósófusi szeretet kellene? keress edjet közzülök, próbáld
+							aztat.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Millyen hát az a’ te filosofusi szereteted? mit tész egy Filósofus?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Az oljan, hogy ha szeret, meg-mondja magadnak igazán, és hozzá tészi,
+							hogy ha akarod vissza szeretni, jó, ha nem, nem sokat törődik rajta. Ha
+							nem szeret a’ szive, híjába adnál neki egy fél világot, mert nem mondja
+							hogy szeret, sem utánnad nem indúl; ha pedig egyszer baráttságodra
+							esküszik, meg-hal érted, és soha meg-nem tsal. Azt mondja, minden
+							dologban éppen annyi fájdalom van, mint gyönyörűség, azért semmire sem
+							esdekik nagyon. Az embereket mind egyenlőknek vészi, király, koldus,
+							előtte mind ember. Magát sem külömbözteti feljeb’, a’ leg-aláb’való
+							szolgánál, és azt tartja, hogy az ember maga szerint minden némü sorsban
+							lehet boldog, boldogtalan. Az embert, az igazságot nagyon szereti,
+							magánosságban örömest marad, azt mondja, semmit nem érthet e’ világon,
+							pedig a’ filosofus leg-okosab’ ember, tsupa természet szerént;
+							békességes tűrő, keveset kiván, hamar meg-elégszik; de még sints soha
+							semmiben teljes kedve, szomorú, szenyved, de nem sír, nem
+							panaszolkodik.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Tsudállatos természet, kívánságra hoz; kérlek az egekre, hozz nékem
+							valahonnan egy ollyan emberi állatot</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Egy testvér bátyám van, ötét oljannak mondják, tégy próbát, jöjj öszve
+							vele.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik jelenés</head>
+          <stage>LILISZ, TITZIUS, BERENISZ, az előbbeniek.</stage>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Érkeznek a’ szerelem heves vitézzel — Ti játékos és nyájjas teremtések,
+							mennyit nem vigattok? — Angyélika, látom emelkedik a’ mellyed.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Tele van fohászkodással, nőhet.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Nőhet; de szép dolog azomban mikor fohászkodásink a’ legédeseb’ érzésnek
+							gyümöltseivel élhetnek.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Ahoz bizonyság-tétel kívántatik.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Én úgy hiszem, ki meg-tsalattatásban nem vagyok, és bizonyíthatok.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Ki tudhattya? egy embernek szíve ki-meríthetetlen mélység; és gyakran
+							változnak indúlati.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Fájdalmas történet volna az, ha Angyélika tárgyát el-hibázná.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Mitsoda? hát ő szenyvedhetne a’ szerelemben hajó törést? ő juthatna é oly
+							szegény23 sorsra, hogy szánakozásunkat, meg-tsalattatása miatt,
+							érdemelhetné? — mit mond Lilisz? — tölle függ — halljuk.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>
+              <stage>gondolkodva</stage>Én nem látom a’ győzedelmest, kinek szekeréhez
+							volnék kötözve — szabadon élek.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANYGÉLIKA</speaker>
+            <p>Tehát próbáljuk-meg, ha annak a’ jelentett szabadságnak tsöröghetnek é
+							lántzai,25 vagy mint repeső madár, úgy élhet-é a’ széles egek közt, egy
+							levélkét húz-ki a’ sebjébül, mellyet Szidalisznak olvasni ád. Olvasd ezt
+							Szidalisz, bizonyságot tészen Lilisznek szabadságárúl.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>
+              <stage>eskedve</stage>Kérlek Angyélika Pafosnak, Idáliának és a’
+							szerelem Istenének minden hatalmára, ne tselekedj! hogy botsátassz ily
+							nagy le-verettetésre</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Nem szabadság hát, a’ mely ily hamar és könnyen le-verettethetik.
+							Szánd-el magadat, vagy töllem el-hagyattatni, vagy hatalmamat
+							meg-ismérni.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>De ha valóságos indúlattal viseltetel hozzám, ne eröltesd-meg ennyire
+							hozzád való hivségemet, tudod, mely veszedelmes és nehéz dolog, légyen
+							a’ szeretetnek-is meg-aláztatást szenyvedni — kárt tészel.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Hagyd-el Angyélika, már úgy is meg-bizonyitotta gyözedelmedet.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Meg-vallom, és örömest, tsak levelemet ne magyarázzák.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Én pedig azt akarom, hogy levél magyarázza a’ hivséget. — Olvasd
+							Szidalisz.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Angyélika, vigyázz, el-ragadtatásba hozol.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Reszketek a’ szerelemnek háborúját látni — hadjátok-el, nem akarom nézni
+							hajó törésieket.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Olvassam é?</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Rejtsd-el; Angyélikának sértetett haszontalansága kárt tenne
+							társaságunknak; kedvezz a’ szerelem kötéseinek. — Angyélika, ismérd-meg
+							barátodnak tsupa tréfáját, és ne büntesd érte őtet-is, magad-is meg
+							aláztatással</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ne érezzen inkáb’ soha hivséget a’ szívem, mint sem tzélomtúl el-áljak. —
+							Olvasd Szidalisz.<stage>mindnyájan rettegnek, Lilisznek vérben forognak
+								szemei.</stage>
+            </p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>olvassa</stage>Ne gondold, hogy a’ hivalkodó ifjúi szivnek
+							haszontalansága szóljon hozzád ezen levelemben; a’ természetnek
+							törvényét s’ szavát ismérjed benne. Meg-vallom, külső érdemeid is31
+							érdemelhetik a’ leg-heveseb’ szerelmet, de még sem ezektül lántzoltatom
+							annyira örökös hivségedre, mint nemes erköltseidnek tisztaságétúl,
+							mellyek magokban mértékletességet, vidám nyájasságot, állandó hivséget,
+							s’ búllyaság nélkül való szerelmet viselnek; magamat leltem-felbenned,
+							kiben már önnön létemet úgy is szeretnem kel. Meg-botsáss — hivségem
+							néked hízelkedvén, magával láttatik előtted ditsekedni. Szerentsés
+							vagyok, ha erköltseim a’ tieidhez hasonlíthatnak; mert úgy el-kel
+							hinnem, hogy tiszteletet hivséget érdemelhetek s’ ditsekedhetem is. Ne
+							ved’ Írásomat hizelkedésnek; vagy enged-meg, hogy nintsen emberi
+							szivünknek édeseb’, és el-kerülhetetleneb’ gyengesége, mint azoknak
+							hízelkedni, kiket szeretünk. Ah! Ha szivem fohászkodását az egek e’
+							részben meg-halják, leg-édeseb’ szerentsédet belém fogják alkotni e’
+							földön. Élly szerentsésen. hiv barátnőd Angyélika.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Mitsoda? Angyélika? hát nem a’ Lilisz levelét olvastam?</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Mitsoda győzedelme ez a’ nagy szívnek!</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Mitsoda győzedelme ez a’ nagy szívnek!</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Tanúld Lilisz személjemet jobban ismérni, és ne véld rólam azt a’
+							haszontalan gyenge-séget, hogy hozzád vett hivségemet barátim előtt
+							meg-vallani szégyennek ismerném. Talán ha jegyesed lészek, akkor se
+							fogja kevélységed meg-engedni, hogy hivséged leveledbül láthassák. Lásd,
+							én nem szégyenlem barátim előtt hozzád való szeretetemet mind addig
+							meg-vallani, míg benned nemes erköltsöket tapasztalok. Egy szűznek
+							érdemesifjat tárgyáúl választani, és végre férjének venni mindenkor
+							betsület; illyen betsületemnek tartom én téged szeretni; ne szégyeneid
+							te-is hívségedet irántam meg-vallani.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>
+              <stage>sebességgel, mint egy el-ragadtatva esik lábaihoz, szívét kiöntve
+								mond</stage>Ah! Angyélika, botsásd-meg alatsony hibámat, azon nemes
+							érdemeidért, mellyekkel tökélletesen el-hitetted velem, hogy e’ világon
+							leg-szerentséseb’ férjfiú35 lehetek hivségedben. Soha nagy származásod
+							ditsőségeseb’ elég-tételt magának nem vehetett volna, mint illy
+							le-verettetésemben. Ne homájositsd-meg ezt a’ nemes tettet valamely
+							keménységgel, és hid’-el, hogy a’ nagy erkölts tsak magában
+							győzedelmeskedhetik — szeress, vagy ölly-meg</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>
+              <stage>mosolyogva</stage>Hát van-é bizonysága győzedelmemnek?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Minden lehelletem, minden sóhajtásom, minden érzésem, gondolatom, tsep
+							vérem, szivem dobbanása bizonyittsák örökös gyözödelmedet</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Álly-fel barátom, és tanúld-meg, hogy az asszonyi nemnek-is vágynak
+							valóságos emberi érdemei, szinte úgy, mint tinéktek.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>meg-tsókolja Angyélikát.</stage>Te betsületet tsinálsz asszonyi
+							nemednek.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik jelenés</head>
+          <stage>PONTYI, és az előbbeniek.</stage>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mit beszélnek kentek, hogy a persának annyi népe van? nem úgy van ám a’
+							dolog, mert végire jártam</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Oda vagyunk! — ’s kitül járt végire?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Már azt én tudom; de a’ bizonyos, mert az ollyan ember, a’ ki tudja miben
+							vágynak az ollyan dolgok.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Vallyon ki lehet még-is?</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>
+              <stage>súgva</stage>A’ kotsis a’ bizonyoson.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>De én azt gyermek embereknek nem bidgyesztem az orrára.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Itt nem szabadúlhatunk már egyébként, jádzani kel — hé, hé, valaki —
+							székeket, asztalt, kártyát — fog jádzani Pontyi bátyánk-is.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mit jádzanak? — ne jádzunk — vagy nem bánom, nékem mind egy — vagy nem
+							jádzom — tsak nem jádzom no.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Tehát mi jádzunk? én, az ötsém Titzius, Berenisz egy asztalnál; másiknál
+							Lilisz, Angyélika, harmadik hibázik.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Hiszem jádzik Pontyi. — Jádzék édes bátsikám.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ej, üsse a’ kü a’ ketek játékát.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>De ha tudná majd miilyen újságaim vágynak, jádzana.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mi volna néked? nints néked töb' újságod Lilisznél.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Jaj.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>De meg-tsalja magát bátyám uram, mert van újságom, most jött haza a’
+							szakátsom. —</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Váljon? no nem bánom jádzom egy kitsint. — Hát a’ Törökökrül nem hallott
+							kend az ólta valamit?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Oh‘ sokat, majd beszéljünk rólla.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>No jól van, üllyünk-le — de egy pipát töttenének nekem.</p>
+          </sp>
+          <sp who="#szidalisz #berenisz #titzius #angyelika #lilisz">
+            <speaker>SZIDALISZ, BERENISZ, TITZIUS, ANGYÉLIKA, LILISZ</speaker>
+            <p>
+              <stage>mind egyszerre</stage>Jaj! ne pipázzék most, kintsem bátsikám</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>No, ne kiáltsatok, nem dohányozom; de én itt soká nem is ülök.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Nem, nem, tsak egy rokámbolt jádzunk.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mi ördögöt jádzol?<stage>le-ülnek.</stage>
+            </p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>sugva</stage>Berenisz, menny-el, ’s mond-meg mindeniknek, hogy
+							egyet se szóljanak inagyarúl, a’ játékban, hamaráb’ el-fog menni
+								Pontyi.<stage>fel-kél, meg-sugja mindenütt.</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Donné le kárt.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Ui ma sér.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Lilisz, gibt di Karten.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mit mondassz?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Mit mondassz?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Szilé permi messzid.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mitsoda?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Mitsoda?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mite?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Zse pren szenk.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mit tsinál kend?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>An koa szi vu plé?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONYTI</speaker>
+            <p>Hogy hogy?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>An kör.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mi az ebet kunczogtok? mond-meg no, mi a’ tronf? mibe jádzol?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Ebbe né,<stage>egy kártyát mutat.</stage>
+            </p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>No hát mond ki, hogy tök a’ tronf, s’ úgy, mit izélsz?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Roa de pik.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Boldog Isten! be nagy állapot. Mért nem mond-had’ már, zöld király, ki
+							ördög nevezte roának</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Zse ne púi vu donné la külör.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Tsillagom, nem hallani már itt magyarszót, el feliejtették ezek az anya
+							nyelvet. — Titzius, gyere ide jádzani, oda megyek én, nem érteni itt egy
+							szót is.<stage>változnak</stage>. így né, már itt szólhatni — de ne
+							jádzunk sokat, mert nékem még dolgom van, valaminek kel végire
+							járnom.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Zsue donk.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Tsak ki-nem verhetem fejembül azokta a’ Törököket; de meg veri őket a’
+							Persák híjában, élném kerülik. — Makkot jádzottak úgy é? Kivel vagyok
+							én? mi a’ tronf? meg-kell ám az embernek mondani.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Gyönyörű mulattságot viszen ott végbe — Izzad most Szidalisz.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Szóljanak hát kentek, vagy mi.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>No makk a’ tronf, és Szidalisz jádzik, mi ketten egy kézre járunk.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Úgy la, meg-kell azt mondani, hogy tudja az ember mire tartsék, ’s mitt
+							hánnyék-el. Éhen van né, el-is ütöm ökemét, mert nintsszínem. — Ezt adom
+							ki — ebbe belé feküdjék kend jól, hogy el ne vigye — ne adja kend rá azt
+							a’ rósz hecike tronfot, jobbat — azt a’ makk disznót kel belé nyomni
+							úgyla-had vigye mán — zöld két szem kell — ara, mert két szemet eszik
+							az</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Nem úgy hívják azt bátsi-mak disznó bászta, zöld kent szem spadilia</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ej! ne hiában valóskodjék kend-ördög.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Brávó, remisz an troa.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mitsoda? el veszett úgy i? — Ha a’ Törökök a’ Nílus felé nem veszik
+							uttyokat, ugyan bizony meg eszik a’ szurkot; de ravasz, fortéljos nép
+							külömben — Ki osztya? én osztom — mennyit adok? — hármat, hármat. — Hogy
+							hívják tsak kentek ezt a’ játékot? erővel tanítottak engem erre, de soha
+							nem tudom a’ nevét mitsoda; umbra vagy minek hívják.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Hallod Pontyi bátsit?</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Hallom, arany egy ember, de rá széd, mert nem megyen egy tapottat-is</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Pedig most mindjárt újjságot mondok néki.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ne újságoljon. Üsse ezt a’ veres disznót.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Ha, ha, ha, édes lelkem Pontyim, köszönöm a’ beszédedet. — Angyélika, úgy
+							mondd, mindég, mint most, mert ki-mondhatatlan szép neked.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Ne tök kolop.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Pontyi vólna a’.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Ha, ha, ha.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Vígan vattok ti ott hé, mindjárt oda menek.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Jaj, jaj — tsit, tsit.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>De mi meg-nem bontyuk többet a’ játékot. — Hanem azt hallottam, hogy a’
+							nagy Mogol most Amérikát megyen el-foglalni temerdek sok néppel.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mit beszélsz hé? rósz volna a’ nékünk — ennye s’ eb ugattát.</p>
+          </sp>
+          <sp who="#titzus">
+            <speaker>TITZUS</speaker>
+            <p>No azt mondják, és a’ mi nagyob, egész Amérikaig mind hidat tsináltatott
+							a’ tengeren</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ne beszélj bolondságot; hiszem minek tsináltatná a’ hidat? el-mehet ü oda
+							szárazon is kérülővel, pedig tsak inkáb’ kerül, mint annyi költséget
+							tegyék; igaz, elég pénzi van külömben. — Kitül hallottad hé?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Itt van egy vad-bör kereső görög, a’ mondotta.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Valyon itt van é még?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Talám még itt van; de sijjet, a’ mi azt illeti.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>No én itt hagyom a’ kártyám, tsak osszanak addig, mindjártjövök; hé,
+							nézd-meg addig a’ kártyám — hol van szálva az a’ görög? — talám ismerem
+							én azt — nem egy alatsony barna ember?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Az az, egy kevéssé himlő helyes-is; én az úttzán láttam.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>No a’ bizonyoson, Lázár, jól ismerem,<stage>el-megyen.</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ha, ha, ha, be szerentsés találmány!</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Tömlötzbül szabadúlok.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Az igaz már meg hidegedtem volt félig.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>De hová rejtezik Titzius, ha meg-tudja, hogy füttyentett?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Újságot mondok néki még nagyobbat.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Hogy juthatott ollyan szörnyű hazugság eszedbe, vagy hogy merted elö
+							hozni?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Óllyan kell néki.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>De szép újság volt — mindazonáltal innen oszoljunk, mert mindjárt itt
+							lesz kérdezni, hol van a’ görög, és ki jádzott a’ kártyájával?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Jertek hozzám.<stage>Sok tsintalanságok közt el-mennek.</stage>.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">HARMADIK JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ jelenés</head>
+          <stage>PÁRMÉNIÓ, TITZIUS.</stage>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Kérlek, Párménió, ne szűnjünk ezen dolgokról beszélleni; hid’-el, akármit
+							vélj felőliem, nagy kedvem van hozzájok; — és igaz, hogy az emberi
+							társaság Egyiptomban láttatik e’ föld golyóbissán kezdődni.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Minek előtte az emberek annyi mesterségeket nem tudhattak, a’
+							leg-melegeb’ tartományokra kelletett nékik magokat vonni, hogy
+							élhessenek. El-fogja elménket a’ mélly tsudálkozás és szomorú halgatás,
+							ha a’ földne</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Kéttség kivül, a’ sok egymással szüntelen ellenkező változások,
+							vérengezések, bálványozások, vakságok, tévelygések, azokbúl szár- mazott
+							veszedelmek, gondolkodásba ejtik az embert. Ha tekinti az nemzeteknek
+							kezdetit, és eddig le-jön rajtok, hol mi most élünk, mennyi változott
+							szokás, törvény, vallás, erkölts- -</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második jelenés</head>
+          <stage>PONTYI, és az döbbenlek</stage>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>No, hallották-é kendtek? meg-indúlt már a’ Török Persák felé; bezzeg majd
+							lész dolog; ugyan lehetne ott Török lovakat kapni.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Halgassék bátsikám, újságot akar Párménió beszélni; bezzeg ezek még az
+							újságok, hallgassuk tsak.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Örömest. — De hiszem tudom én, hogy kedves Sógor uram tudja az a'
+							féléket</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Mind a’ régi dolgokról fogunk újságolni.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>De hiszem hát nem újság a’, kentek hummi Históriárúl beszélnek talám, már
+							abba magam is, annyiba a’ mennyibe, tsak jártas vagyok; hiszem a’ hol
+							meg-tévednek kentek, vagy eszekbe nem jut, szóllok én majd; tsak
+							beszéljenek kentek, halgatom én.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Nézd9 az Egyiptziaiak történeteit, az özön víz után, Ufférius száma
+							szerint, már 1656ik esztendőben világ teremtése után birodalom vólt.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>De ennek a’ szaporodásnak özön víz után kellett lenni, mondatik,
+							Khámbul.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Kéttség kívül; — Manethon, Egyiptziai iró sokat mesél ugyan, de tsak
+							tévelygéseket hint; az Egyiptziai mesék bizonyítani akarják, hogy húsz
+							ezer esztendeig volt Egyiptom a’ fél Istenek, ’s Királyok</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <stage>nagy figyelmetességgel1Va halgat</stage>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Úgy van, és valaki jósággal uralkodott rajtok, halála után, mint Istent
+							imádták</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Menes, vagy Meszraim volt első Királjok, de e' nem vált Istenekké.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>De az utánna következendő igen is. Minekutánna Egyiptom három Királyságra
+							oszlott, volt felső Egyiptziában egy Fejede-lem — meg felejtettem a’
+							nevét — Pontyi bátyám, hogy hívták tsak?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mite? mit beszél kend ötsém uram?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Hogy hívták felső Egyiptomban a’ legelső Királyt, kit népe, halála után,
+							Istenné tett, s’ tisztelt</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>S’ a’ felső Egyiptomi Királyt kérdezi kend? mert alsó Egyiptom14 is volt
+							ám.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Igen-is.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>De meg-állyék kend, mert sok Királlyok voltak osztán, s’ erre kell
+							kenteknek vigyázni.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Jól van, jól, hiszem reá vigyázunk16 mi arra,17 tsak ezt nevezze
+							kend.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mingyárt — eb ugatta, ki volt tsak nó, hiszem a’ nyelvemen forog a’ neve,
+							még ollyan rendes neve van pedeg — öm, hiszem ki-esék a’ fejembül
+							egyszerre.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Athotisz talám, a’ kit osztán halála után Annubisz név alatt egy kutyának
+							formájában imádtak.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Az, az, inspetzié, a’ la, mind a" nyelvemen forgott. — No tsak
+							beszéljenek kentek, már20 én majd hallgatom.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ugyan ezen Áthotisz vétette volt szokásba népe közt a’ környül
+							metélkedést20/a — Mennyi bálványozást,21 háborút el-követett osztán a’
+							nép, melynek a’ külső dolgokban még-is józan, helyes, és igaz törvényei
+							lehettek — Kleopátra mulik-el benne utoljára, ki keresztyénséget még nem
+							esmért.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Osztán Róma alá esett egyiptom?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Igen is; de Omár, Szaladin, és Szélim vitézségei által Törökök alá jött,
+							s’ most is ő alattok nyög.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hát Farahó Király hun van, ha Egyiptomrúl beszélnek kentek’? hát a’ sok
+							S’ idó nép? hiszen mind egy tseppiget ott voltak azok a’ sok népség;
+							osztán Farahó hogy nem juta kenteknek eszekbe?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Ehol, ha eszünkbe nem juttatná; az igaz, illyen nevezetes dolgokat
+							elfelejteni, no!</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Az Assiriai birodalmat egy királynak alatsony bulyasága, s’ egy fő hadi
+							vezérnek az által lett meg-sértetődése három felé szakasztja. Lásd, a’
+							nemzetek sorsa miilyen vólt: Arbatzes Szardanapálusegyszer ágyassai
+							közt22 találja hivalkodni, megútálja, trónusárúi le veri, s’ birodalmát
+							három részre szakasztja.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Jól tudom, Sénakérib vólt a’, jól jut eszembe.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Nézzük a’ Görögöket: Dráko, Szolon, Likurgus, Akhilles, Témistokles,
+							többekkel Nagy Sándor haláláig mit nem követnek el. Nézzed osztan Rómát,
+							Rómulustól fogva Theódósiúsig, vér, fegyver, tűz, halál bontották a’
+							földet. Ollyannak látod a’ világot, mint a’ szélvészektül fel-háborodott
+							tengert.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Nem emlékezem továb’, kit tartanak Görög ország első szerzőjének. —
+							Pontyi bátyám, ki vólt tsak?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mite? mit kérdez kend ötsém uram?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Nem tudom ki vólt első Fejedelem Görög országban.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Öm, be gyermekségen töri kend a’ fejét; hiszem ott van Párménió kedves
+							sogor uram,26 meg27-mondja, ne búsúljék kend rajta, ha engem nem
+							fáraszt-is kend vélle, nem győznék én kendnek örökké felelni.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Igaz, igaz — Tzekrops, Egyiptomi polgár, mondatik Athénás városát
+							kezdeni, ezer nyóltz száz két esztendővel Kristus Urunk előtt. Kranausz
+							következett utánna, első Görög Fejedelem, ki alatt a’ Deukálion özönvize
+							történt.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Jól mondja kedves sogor uram, látom jól emlékezik azokra a' régi
+							dolgokra, úgy van mind, hiszem úgy emlékezem rá, mintha tsak tegnap
+							előtt esett vólna.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik jelenés</head>
+          <stage>ANGYÉLIKA, PÁRMÉNIÓ, TITZIUS, PONTYI.</stage>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Régen kereslek Párménió, igen szükséges beszédem van veled,
+							el-kerülhetetlenül kel véled magánoson beszéllenem.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Mimódon találtatna a’ te játékaid közt részemrül ollyan elkerülhetetlen
+							szükség?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Mitsoda ragyogó szépség ez!</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Mely mindazon által Titziusnak nem ragyog. Láttam Bereniszt a’ szivedet,
+							személjeddel meg-telve, szerentséjére, tsendesen mosolyogni,
+							mozdúlásaiban lankadást mutatni, ’s szerelmedben édes el-bádjadások közt
+							pihegni</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Ah! édes természet, ditsösség örökre annak, ki teremtett!</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Eb az inge Persákja, ugyan rajta van, szeretem, majd meglátom, hogy
+							találja fel magát.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Mit beszél Pontyi magában?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>A’ törököket vitatja a’ Persákkal a’ Nilus partján.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Még egy jutott eszembe, mindjárt végire járok,<stage>el-mégyen.</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Né, né, el mégyen Pontyi magában beszélve; most bizonyoson újságot venni
+							megyen, mert ö az újságot-is vásárrúl hordatja, mint a’ sáfrányt;
+							elment, nem is butsuzott.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>No, mit akarsz hát velem bészélleni te kis pillangó lepke?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ah! azon sóhajtok, kedves nehezen repülő, s’ mindég magánosságban
+							gunnyasztó sas bátyám, hogy életedet szerentsésebbé mi módon
+							tehetném</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Haljuk hát e’ sóhajtásaidnak el-törlésekre fel-talált eszközeidet.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Azok tsak egy személyből állanak. Titziusnak van egy testvére,
+							Szidalisznak nevezik; ollyan szép, mint a' ki-derült tavaszi nap: magas
+							homloka a’ nemes erköltsöknek méltóságát s’ királyi székit mutatja;
+							szemeinek mélységébül okosság tetszik-ki, mellyeknek külső tüzei szelíd
+							érzékenységeket mutatnak; hó szin bürire fekete szemöldökeit a’ mosolygó
+							természet gyenge úllyaival rántotta két részre; fel emelkedett meljének
+							fejérsége minden kék eretskét meg-mutat, s’ a’ lehellések alatt,
+							tsendesen dagadoz; teste, dereka, válla, súgár termetének lehető
+							tökélletességét mutatják; állásában olly, mint a tzédrus, járásában
+							hasonlít a kevély szarvashoz; tekintetiben ifjúság, okosság, szelídség,
+							nyájjasság, mély gondolkodás, fájdalom, édesség egyszerre mutatják
+							magokat; ifjú szépségének oly méltósága van, mint valamely magasra
+							fel-nyúlt egyes ág tetején ki-nyilt rósának, hol a’ kellemetes
+							elevenségek gyenge piros, és fejér szinnel festik magokat, s’ a’
+							levelekbe ütköző zéfirusokat édes lengedezések közt tsokolgatják — és
+							gondold, mind ezen tulajdonságokkal-is miijen szerentsétlen, mivel
+							nemetek közzül senkit nem szerethet</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Mitsoda le-rajzolása az eleven természetnek!</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>El-ragadja a’ szivet.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>De miért nem szeret senkit?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Azért, azt mondja, hogy ti férjfiaka tsak szerentséjét imádjátok,
+							haszontalanok, hizelkedők vagytok, öltözetben, gazdagságban keresitek
+							ditsóségeteket, és nem annyira hivségbül, baráttságbúl, józan
+							erköltsbül, mint tsak búlyaságbúl szerettek; ifjúságtokban a’ nagy
+							dolgokat meg-vetitek; nyargalóztok, osztán, ha korosodtok, akkor
+							kezditek nagy nemeteknek erköltseit követni. Ö tehát még elég
+							böltsességű ifjat, kedve szerint, nem találván, meg-vetett benneteket,
+							szánakozik ifjúságotoknak bolondságain, és magánosságának áldozza
+							fel-magát. — Én ezt látván, azt gondolom, hogy ketten öszve jöhetnének
+							a’ világot szidalmazni ’s egymást szeretni. Néked sem kell egy leány-is;
+							ő hasonlóul egy ifjú legényt sem szenyvedhet; együvé illenétek egymásnak
+							okaitokat, ha veszekedveis, meg-beszélleni.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Te jádzol most velem, és mesét beszélsz, mit magad sem hiszel.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Hatalmas, hatfarkas! Titzius, szólj kérlek, ha nem igazat mondok-é?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>A’ tagadhatatlan, hogy Szidalisznak még eddig mindég ollyan természeti
+							tulajdonságai vágynak; eleget fáradt érette az édes anyám, hogy
+							valakinek szeretettre hozhatná, de szive lágyúlásra nem jöhet; nagy
+							kevélysége van erköltsének, és mindenben okos, nemes lévén, abban van
+							leg-nagyob’ hibája, és értetlensége, hogy ollyan tárgyat akar keresni
+							magának, mellyet talám férjfi nemünk- ben fel-találni sem lehet; ugyan
+							azért a’ társaságokatmeg-unván, tsak magába él, sóhajt és panaszol.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Az illy erköltsök tsudálkozást és tiszteletet okoznak a’ szivbe. Soha nem
+							ismértem még illy tulajdonságú természetet,<stage>beszédet hallanak az
+								óldalszobábúl.</stage>. Táboroznak már a’ törökök.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>No, jön Pontyi, gyérünk-el hamar, majd itt lép.<stage>el-mennek.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik jelenés</head>
+          <stage>ERESZTRA, TITZIUS, SZIDALISZ.</stage>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Hát édes leányom, mibe határoztad már meg magadat? unalmadra van e még az
+							ifijúság? és nem érezhet é a’ szived erántok semmi hajlandóságot?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ne gondolja édes asszony anyám, hogy bennem a’ természet hibázott vólna,
+							és hajlandóságot férjfiakhoz nem éreznék</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>De hát mi okon kerülöd társaságokat, és miért nem adsz soha egy kérődnek
+							is jó választ?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Mert nem ólján, a’ miijét kívánnék.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Ne úgy mond, hanem a’ te fejed nem ólján, mint a’ másoké, s’ a’ miijennek
+							kellene lenni.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Te is rendesen szóllasz — hát azt gondolod, hogy a’ kit természet szerint
+							szeretnék, elégséges lehetnék annak-is meg-vetésére? nem esmered a’
+							természetet, ha így vélekedsz. Miért nem veted hát te meg Bereniszt?
+							próbáld-meg útálni.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Mitsoda mondás a’, próbáld-meg-útálni; osztán mi szükség volt most éppen
+							ezt a’ példáta elő hozni asszonyom anyám előtt? Én azt mondom, hogy sem
+							egész ember nem volnék, sem egész józan okoskodásom nem lehetne, ha egy
+							leányt sem lelnék a’ világon, kit szerethessek.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ez annyit tészen, hogy tehát nékem egész eszem nintsen könnyű meg-érteni.
+							Nékem a’ nem egész ésszel úgy tetszik, hogy ez az okoskodás most
+							részedrül nem éppen egész volt: és annyival inkáb’ mivel oly dologban
+							Ítélsz, vagy vádolsz, melyben senki a’ maga szivén nem uralkodhatik</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Ne magyarázz ólján hamar, és ne indúlj-meg mindjárt; azt tsak nem
+							kivánhatod, hogy érzékenységednek kényességét imádjam, mert az igaz, s’
+							az egész világ tudja, hogy e’ részben tsudállatos vagy.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Nem tsudállatosab’ nállad; te az örjülésig szeretsz, én pedig nem;
+							mond-meg meljikünk tsudállatosabb?</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>No, elég már, ne osztozzatok; én nem bánom, ha parantsol az Isten
+							valakit, kiben szived meg nyugodjon, legyen; ha senki nem lész tseleked’
+							édes leányom, a' mi tetszik, én nem kénszeritlek.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ne keseregjen asszony anyám én miattam, gondomat fogja nékem az Isten
+							viselni; eleget szenyvedek úgy is, mert valahányszor meg-látom kedves
+							asszony anyámat, annyiszor borítják-el szívemet könyhullatásaim, mivel
+							tudom, búban él miattam. Erőltetem magamat éjjel nappal, hogy kedvének
+							eleget tehessek; mert inkáb’ keserű nékem a’ kedves asszony-anyám
+							kedvetlensége, mint akármely nyomorúságom; de hogy öljem-meg magamat
+							azzal, a’ kit útálok? s’ hogy sóhajtson osztán le-veretettett szívem a’
+							leg-job édes anya ellen, ki oly nyomorúságomra akaratjával
+							kényszeritett? <stage>Eresztra könyveket kezd hullatni.</stage> Hiszem
+							én most tsak magamban szenyvedek, nem panaszlok senkire — Isten
+							látogatása, vagy áldása e’ természet rajtam, de ha parantsolja édes
+							asszony anyám, én el-menek akárkihez, a’ ki-leg-elősször kéret; inkáb
+							légyek én holtig szerentsétlen, mint kedves asszony anyám’ rajtam
+							keseregjen, s’ ólján édes anyának kedvetlenségét lássam ellenem, ki azt
+							érdemli töllem, hogy lábainak helyeit tsókoljam.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Halgass már, halgass, az Istenért kérlek <stage>meg-ölelisírva</stage>.
+							Szerelmes gyermekem, öszve szaggatod a’ szivemet, nem erőltetlek, de
+							hogy erőltetlek, ne menny ha nem tetszik — Az Isten gondot visel róllad
+							édes gyermekem, nem hagyja jutalom nélkül jó erköltsödet, s’ illy hozzám
+							való nagy engedelmességedet. — Hogy kénszerítnélek? Nem vagyok én
+							kegyetlen anya; hogy venném a lelkemre,szerentsétlenségedet? nem
+							szálhatnék soha nyugodalommal a koporsómba.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>
+              <stage>könyezve</stage>Ne törődjön kedves asszony anyám, ne keserittse
+							magát.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Gyere édes leányom hozzám, ne busúlj, gyere,<stage>el-mennek.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hatodik jelenés</head>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNÓ</speaker>
+            <p>
+              <stage>egyedül, le-ül, olvas magában.</stage>Szegény Kopernikus,
+							hálálták néki okoskodásait, mint Deskártnak. Az okosok és nagy vitézek
+							örökké üldöztettek. Ez a’ Lokk-is tsak a" sok kéttséget tsinálja; nagy
+							Filosófus, de sokkal nyilvábban beszél nálla Robinét, ki annyi idővel
+							utánna ir; hanem mi haszna? Robinét is azzal a' mélly ésszel tsak
+							természetben okoskodik. —<stage>olvas, halgat</stage>. — Rendes kérdések
+							— Euripides, Szofokles voltaké a’ Görögöknél idejekre nézve nagyob’
+							Poéták, vagy Raszin, Cornélius a’ Frantziáknál? olvas megint magában —
+							Bakkó, Riselliö Kolbert — meljik vólt nagyob’ ember? — azt tartom az
+							emberek közt nehéz nagy különbségeket tenni. A’ Királyi tanátsosoknak
+							keserves és tsudállatos sorsok van. —<stage>olvas</stage> — öhö, ezek a’
+							vitézek: Eugénius, Türen, Málborug, Montékukuli. — Nagy emberek. —
+							Hunyadi egyiknél sem vólt kissebb. Akár filósófusokat, akár vitézeket
+							vagy tanátsosokat nézzen valaki, tsak azt látja, hogy egy ember itt e’
+							földön magában kevés portéka. Mentül továb tanulok, olvasok, annál
+							inkáb’ látom, hogy semmit sem tudok, és semmit a’ tsupa természetben
+							meg-nem foghatok.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hetedik jelenés</head>
+          <stage>PÁRMÉNIÓ, SZIDALISZ.</stage>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>ki ezen utólsó szavait hallotta.</stage>Az úrnak, mint sejtem,
+							szerentsétlen tanulása van. Engedelmet kérek azonban, hogy leg-első
+							tiszteletemet, mellyet személjéhez mutatni szerentsém esett, illy
+							kedvetlen szókkal kellett előznöm.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Asszonyom, engem szabad tudatlannak mondani, soha azért meg nem
+							haragszom, mert semmit ennél igazabbat nem lehet róllam s’ nememrül
+							mondani.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Meg botsáss Uram; ha te férjfiúi nemedrül, melj nálunk sokkal méljeb’
+							értelemmel ditsekszik, igy ítélsz, mit tarthatsz a’ mi gyenge asszonyi
+							nemünkrül?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Tsak annyit, a’ mennyit róllunk. Ti röviden szoktátok azt ki mondani, a’
+							mit mi hosszan nyújtunk; de ti is tsak azt érezitek, gondoljátok kitsiny
+							formában, a’ mit mi nagyban, és mindenben hasonlóul nemesek, vagy
+							gyengék vagytok, mint mi.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Uram, te az én nememhez nagyon láttatol hajolni, talám érzessz?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Az az, talám szeretek? szeretném, ha szerethetnék.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Én-is.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Hamar felelsz. — Tehát, a’ mint én nemetekben senkit nem szerethetek, te
+							is hasonlóúl nememben kivánsz szeretni, és érdemeink tsekélysége miatt
+							nem teheted. Én ugyan részemről vádat ellened nem teszek, maradj
+							szeretet nélkül, s’ élly tsendesen; én a’ nélkül élek, s’ a’ nélkül is
+							halok-meg.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Kár volna Uram részedrül, és ezen szomorú fel-tételnek, személjedet
+							tekintvén, éppen nem látom okát.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Pedig ugyan tsak személjem okozza, és jószágom. Ti mindnyájan oljanok
+							vagytok, hogy ha gazdag ifjat hallotok, még nem is látjátok, már
+							temjényeztek néki; ha szépet találtok, belső érdemeire nem tekintvén,
+							tsak testéért szeretitek, mig nállánál szebbet nem leltek, s’ ezt
+							meg-nem unnyátok. Én magamért akarok szerettetni, s’ azt kívánnám, hogy
+							sem gazdag sem ép nem vólnék.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Uram, ifjú legények azok inkáb; kik a’ gazdag leányt még oda haza
+							magokban meg-szeretik, és előtte a’ porban mászkálnak; és ha hozzátok
+							való hidegségemnek okát keresem, azt kell mondanom, mit most tölled
+							ebben a’ szempillantásban halottam. Azt kívánnám. hogy lelhetnék
+							férjfiúi nemedben oljat, ki nem termetem, pénzem, hanem erköltseimet
+							szeretné; de —</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Tehát te asszonyom magánosságban élsz, és nem remélled, hogy hozzád
+							hasonló érdemű ifjat közöttünk találhass.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Eleven példát kívánok leg-aláb’, mit nehezen reméllek.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Mitsoda gyalázatos meg-vettetésünkre szolgál e’ kevély vélekedés!</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Uram te hasonlóul vélekedsz, és hasonlóúl gyalázod nemünket, melynek
+							betsületit, hogy előtted védelmezhessem, megmutatom néked, sem
+							személjedet, sem gazdagságodat bálványozni nem fogom, pedig, úgy, hogy
+							más sem lész rajtad kívül kedvemben.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Tehát ne légyen néked-is asszonyom terhedre, ha bennem hasonlóúl ölj
+							ifjat fogsz látni, kit személjed, pénzed, soha kérőddé nem tészen, és
+							férjfiúi nemén tégedet győzedelmeskedni nem hagy.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Mitsoda kevélysége ez a tanult erköltsöknek!<stage>el-fordúl,
+								magába:</stage> Soha nem láttam kedvemre szeb’ tekintetű és
+							nemesebb’ termetű férjfiat</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ez rendes asszonyom, hogy magadat nem láthatod, ki az akarsz lenni, a’ mi
+							én valósággal vagyok,<stage>el-fordúl magában</stage>. Nem találtam még
+							illyen teremtést; szebb Vénusnál, és ha erköltsei is igazak —</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Mit? és gondolja az Úr, hogy nékem erőltetéssel esne személjét nem
+							bálványozni? nem vagyok irigy, meg-vallom szép férjfi; de én nem tsupa
+							szépséget nézek.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Távol légyen asszonyom; sokkal okosabbnak ismérlek, mint elégséges gyenge
+							lehetnél a’ haszontalan bálványozásra.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Tehát tiszteletem az Úrnál haszontalan bálványozás volna? nem fogok
+								haszontalankodni.<stage>tüzben van.</stage>
+            </p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Kár-is volna olj szépségnek híjába szeretni.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Az úrnál azért híjába szeretnék? az Úr nagyon magyaráz.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Arra nem esküszöm meg; a’ természet szabad, és néked asszonyom, látom,
+							kitsiny asszonyi makattsággal, nagy tulajdonságaid vannak; ne légyek
+							reájok érdemes.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Fájlalom Uram, ha tulajdonságaimat ditsérvén, reájok magadat még is
+							érdemtelennek lenni ismered.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Hagyjuk-el asszonyom, én igazán szóllok, hogy tisztelőd nem lehetnék.
+							Engek a’ természet szomorúan szült; a’ magánosság, tanulás lég nagyob’
+							kívánságom; szeretem ember társaimat, örülök, ha másokat gyönyörködni
+							látok, sorsomat pedig magánosságomban panaszlom; kedvetlen húmorom
+							okozza, hogy vélle asszonyi nemedből senkit szerentséssé tenni nem
+							akarok, mellyet hogy ifjú leánynak szeretni lehetne, nem hihetem. Hagyj
+							engem asszonyom magánosságomban, s’ menj, hidj nékem, a’ világba magadat
+							múlatni, mert a szüntelen való egység magában szomorúbb, a’ kettős
+							bajnál. Én kívánnám, hogy vigadhatnék; de a szív gyönyörűségében
+							erőszakot nem szenyved. Ha emberi szeretet van benned, sajnálkozz
+							szerentsétlenségemen, s’ kerüljed sorsomat. Igaz
+								szolgád,<stage>el-indúl.</stage>
+            </p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>meg-illetődéssel.</stage>Uram, meg kel ismérni ajakidon a’
+							sóhajtó természetnek szavait. Beszédednek igazságán nem kételkedvén,
+							emberi szívem mellyel magánosságomban ditsekedhetem, szomorú sorsodat
+							fájlalja; és noha e’ részben egyenlő szerentsétlen vagyok, még-is nem
+							kívánom, hogy ezentúl hozzám hasonló légy. Ne tanátsold nékem a’
+							világkarjaira való elragadtatást; tudod hogy ez a’ játék piatz nékünk
+							sokkal töb’ veszedelmes kősziklákat mutat, mint tinéktek. Te férjfiúi
+							szabadságoddal, s’ hatalmaddal szerentsédet, nyugodalmat inkáb’
+							védelmezheted; de engem mi szabadítana, ha szerentsétlen rabság alá
+							ejteném magamat? Meg-engedj azonban, ha személjem és erköltseim
+							tetszésedre nem lehettek; ölj személjel voltál úgy is, kinek gyengesége
+							károdra, s’ erköltse gyönyörűségedre nem lehet. Igaz szolgálód.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Asszonyom, meg-illetődésre hozatom sorsod által; nem tudom, kár, kivel
+							van szerentsém.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Nyolcadik jelenés</head>
+          <stage>ANGYÉLIKA, nagy siettséggel, s’az elébbiek.</stage>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Aha, Párménió, be régen kereslek.<stage>Szidalisz meg-retten.</stage>
+            </p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>félre-fordúl</stage>Párménió ez? mitsoda reszkető változás!</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Szidalisz, itt vagy? mitsoda történet ez? Párménió, Szidalisz edjütt.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>
+              <stage>változik, haboz</stage>Reménytelen történet — igaz; hagyd-el;
+							honnan jössz? — vagy nem szólhatok most veled — Isten
+								hozzád,<stage>megyen</stage>.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Hová? hová, oly nagy siettséggel a’jó alkalmatosságbúi?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Meg-botsáss kedves Angyélikám, sijjetnem kell, valamely el-felejtett
+							dolognak szükségétül vonnatom.<stage>megyen</stage>.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Hová? hová? halj szót leg-aláb’; mi dolog ez? egyik egy felé, másik más
+							felé el-mennek, és mind ketten változásban vágynak? Oh! ennek végire
+							kell járnom,<stage>el-mégyen</stage>.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">NEGYEDIK JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ jelenés</head>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>
+              <stage>egyedül</stage>Vége van, puntom, nem szeretek, oda van Lutzinda,
+							hijjában jön hozzám, meg-nem halgatom. Az én uram okos úr, tudja ö miért
+							nem szeret, híjába, a’ leányok mind hamissak, tsak tsalnak, ha szeb’
+							legény jön, mindjárt azt szeretik; az asszonyok-is tsak úgy súgnak
+							búgnak. Ah! romlott világ! ah! el-fajúlás! de hogy szeretek, filosofus
+							leszek egybe, vettem is már egy mély könyvet magamnak; ha az uram
+							megtudja, öttsének fogad. Ö tülle hallottam én mitsodások az asszonyok.
+							Uh! bartsak ólján szigetbe mehetnék, a’ hol még soha nem vólt asszony,
+							s’ nem-is lész, ott tenném magamat királynak. — De olvasni kell, hogy
+							erössödjön a’ szivem.<stage>Egy rongyos könyvet ki-húz a
+								zsebjébül.</stage> Hol olvasok? azért is az asszonyok ravaszságárúi
+								olvasok<stage>le-ül olvas.</stage>
+            </p>
+            <lg>
+              <l>„Azomban a’ nap hogy fel viradott vala</l>
+              <l>„Akhilles sátorába ben fekszik vala „</l>
+              <l>És Priámunis király kis asszonyért nyög vala</l>
+              <l>,,A’ Trójaiak pedig pusztitnak vala</l>
+              <l>„Hol Hektor nagy vitéz öl vala</l>
+            </lg>
+            <p>Ah! mint erössödik a’ szivem a’ szeretet ellen; ha most Lutzinda be
+							lépne, mingyárt reá se néznék. Hartzolhatnám egész vitézségembül.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második jelenés</head>
+          <stage>LIDÁS, LUTZINDA.</stage>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>Hó, hó, Lidás, itt vagy egyedül? hát mint vagyok még a’ szivedbe, édes
+							Lidásom?</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>
+              <stage>félre fordúl</stage>Uh! reá nem nézek híjába.</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>No, hát el-fordúlsz? reám se nézel? — meg-útáltál már.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Ne engedj, Lidás ötsém, viseld magad, most jön már a kisértés,
+							uh!egek.</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>Igy bánsz te én velem, mikor ólján igazán szeretlek; örökké hozzád
+							kívánkozom, mindent el-rakok számodra, valamit a’ kis-aszszonyom ád,
+							néked duggatom-el, és úgy gondolkodom rollad; édes Lidásom, néki adom
+							eztet; mások utánnamjárnak, nem menek.<stage>zokog — magában.</stage>
+            </p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Uh! Filósófia, Sokrátes, Argélius, Markalf, Stilfrid, Káriklia, Nyul
+							históriája, Álmos-könyv, Trója veszedelme, Tódi Miklós, filosófusok,
+							jöjjetek mind segedelmemre.</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>Én nem bánom, ha el-hagysz, én el-menek, de soha se látsz többet, máshoz
+							menek; bártsak ne szerethetnélek hitetlen, de nem tudok mit tenni
+							magammal. — Én el-menek, ha meg-halok is.<stage>el-indúl lassan.</stage>
+            </p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>
+              <stage>utánna néz.</stage>Lutzinda, ne izélj no, hová mégy mán?
+							könyvez.</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>Biz el-menek én, engem soha sem látsz többet, el-hagyom a szógálatomat,
+							a’ falúbúl-is ki menek, hogy soha se lássalak.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Ne bolondozz no. sir. Mert én a’ vízbe ugróm, ha el-mégy, hiszem tsak
+							tréfálóztam, mert én szeretlek, gyere vissza, hiszem lád’, mikor nem
+							láthatlak, örökkétig ásitnom kell, mindég ásítok, osztán úgy vagyok,
+							mintha meg-tsömöllöttem vólna, a’ gyomrom émelyeg, meg a’ hideg
+							borzogat, ha eszem, is úgy tetszik, mintha tsak a meljembe menne, nem a
+							hasamba, ólján kemény a’ mit eszem mint a’ kö; látod mit izélsz osztán,
+							gyere no<stage>utánna megyen, meg-fogja.</stage>
+            </p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>Hát mit tsúfolodzol, hogy ha jövök rám se nézel.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>De bizony szintúgy meg-rúgkapálta magát bennem a’ szívem, tsak
+							szégyenlettem néked még akkor mondani la.</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>Hát mért nem szollasz jókor?</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Hiszem szóllok, tsak el-felejtettem volt. No hiszem vár a filosófia</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>Talám filósofiád van hé?</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Mi tagadás benne; a’ zsebemben van.</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>Ki a’ kóság adta azt neked, hogy el-vesszék az eszed? hiszem el-viszen
+							a’, ne búsúlj, Bergengótzia felé.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Miért? talám ólján a’ mint a’ piritus, a’ fegyver ellen való?</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>De annál is kóságosabb.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Jaj hé, ved’-ki, húzd-ki a’ zsebembül, égesd meg, ebben van né.</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>
+              <stage>ki húzza a’ zsíroskönyvet, el-hajittya.</stage>Hajitsd-el,
+							ördögbe.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Oh! be meg-könnyebbedtem, szinte úgy elevenedem belöl. Oh be-szeretlek,
+							édes Lutzindám</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>De ne végy többet ólján kóság filosofiát.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>De hogy veszek, ne félj, de hogy — ha, ha — valaki jön — szaladj,
+							szaladj, itt ne kapjanak.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik jelenés</head>
+          <stage>BERENISZ, TITZIUS.</stage>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Ah! kedves Titziusom, be édes a’ fáradt szívnek, ha végre szomjú
+							sóhajtásainak tárgyát karjai közzé veheti. El vesztettem benned létemet;
+							szüntelen való pihegésben van érted életem. Úgy reszket a’ szívem
+							bennem, mint a’ haj szálra függesztett golyóbis, dobbanni-isfél nagyon,
+							hogy édes titkai heves indúlataitúl ajakimra ne ragadtassanak, s’ magát
+							el ne árulja. Lehelléseid közt pihegnek érzéseim. — Ah! Titzius, be nagy
+							hatalma van a’ nemes erköltsnek, ha szép testbe rejtezik. — Szeresd
+							hivségemet barátom; de ne vakittassál-meg annyira, hogy értem
+							hibáimat-is bálványozd. Ha osztán párod lészek, erősítsd gyengeségeimet;
+							fedgy-meg, ha vétek; de ne légy soha hozzám kemény, tsak kedvetlenséget
+							mutass valamely tselekedetemhez, elég meg-verettetésem lész. Soha nem
+							fogom azt többé el-követni. — Ah! barátom, be édes és rettenetes dolog
+							ahoz férjhez menni, kit felettéb’ szeretünk. Az életnek sok visszás
+							történetei miatt, oly veszedelemnek vagyunk előtte ki-tétetve, hogy vagy
+							meg-bántsuk ötét, vagy végre unalomba jöjjünk nála. De én inkab’
+							el-enyészésem kivánom, mint sértselek. — Remélheti é reszkető szivem
+							állandó szerelmedet Titzius? kérlek, ha szerelmes nem lehetsz mindég,
+							maradj leg-aláb’ igaz barát, s’ boldog lészek köteleid közt. Szeress
+							Titzius, mig bennem hozzád tiszta hivséget, és az igazsághoz józan
+							erköltsöket találhatsz. Engedj-meg az-omban, hogy most gyengeségem, édes
+							fájdalmaimnak könyveivel edjütt, kebeledbe kiöntöm.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Mit érezzék? mit gondoljak és mondjak kedves esdekéseidre? Ennyi
+							hivséget, szelídséget, engedelmet, nemes indúlatot lehetnék elégséges
+							vesztegetni. Tigristül kellene lenni fajzásomnak, de úgy is engedelemre
+							és szélidségre hoznál. Ne szólj rabságról kedves Bereniszem, légy
+							szabad, mint a’ tiszta szeretet, mely tsak érdemektől füghet. Nem tudom,
+							tisztellek, tsudállak; vagy szeretlek-é inkáb? Te és a’ természet
+							egyenlő hatalommal uralkodtok szivemen. Ah! Berenisz, be éreznem kell
+							benned azon dolognak örökös igazságát, hogy tiszta szeretet, jó erkölts
+							és tisztelet nélkül, nemes emberi szívben nem lakhatik. Miijen édes
+							dolog nékünk aztat ártatlanul bálványozni, ki lelkének érdemeire nézve,
+							valósággal Istene képe. Szeress, Berenisz, ha a’ leg-igazab’ és tisztáb’
+							hivség tölled azt érdemelheti.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik jelenés</head>
+          <stage>ANGYÉLIKA, és az elébbiek.</stage>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Brávó! brávó! aztszeretem, mikor két hiv szivet egymássóhajtásai közt
+							találok. — S’ továb’ továb’ lássuk, haljuk a’ szép mondásokat. — Ah! be
+							alkalmatlanul jövök, most angyalt sem kívántatok volna harmadiknak.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Igaz, nem kívántuk, de el érkezett.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Az angyal? hol van hát.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Előttem beszél.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Köszönöm ezt a’ szép hizelkedést ha Berenisz még-nem neheztel.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Nem lehet téged nem szeretni.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Be szép az embernek a’ maga áldozatjának füstit nézni. Tsak beszéljünk
+							hizelkedés ellen, s’ még is szeretjük; van-is ok benne, mert soha sem
+							lehet az ember ölj haszontalanná, hogy a’ ragyást, vakot, feketét, a’
+							rútat egy szóval szépnek esküdje. Ha sokan mondják, hogy szép vagyok,
+							mért ne hidjem; ha rút volnék, azt is úgy hinném; tehát ha szép vagyok,
+							azt is szabad hinnem. Egyikrül sem tehet senki, ha nem rútnak tett a"
+							természet, lehetek rendes; ha rút volnék búsúlnék, de hogy szép vagyok,
+							nem tudom miért, örülök. Úgy-is elég nyomorúsága van az életnek; osztán
+							minek erőltesse valaki magát az ólján gyermeki tettetésre?
+							mégnevettségeseb’ hivalkodás egy szépnek mindég azt hirdetni magárúi,
+							hogy ö nem szép, mert senki nem hiszi, hogy maga is úgy tartaná. —
+							Légyünk mindenben27 igazak, és azért ha szépek vagyunk ne kényeskedjünk,
+							hanem vigadjunk benne, mikor lehet.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Honnan jössz ilj ki-derült nyájassággal?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>A’ ki-derült Szidalisztúl jövök. Soha28 nem láttátok még ötét ölj
+							győzedelmes tekintetben öltözni, mint most. Mosolygó titok, s ragyogó
+							szépség borították egész termetit; úgy tündöklik, hogy félni fog a’ nap
+							maga reá-súgározni; és nem ok nélkül, mert a’ szomorú bátyámma edjütt
+							találtam.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Párménióval?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ts, ha.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik jelenés</head>
+          <stage>PONTYI az elöbbeniek.</stage>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ben vannak már a’ Törökök Persákba.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Kedves Pontyi bátyám, be friss ember, észre se veszi az ember, mikor
+							mellette terem. — S’ mennek a’ Törökök, mennek a’ Nílus felé?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>De már el-is mentek, hiszem mondom, hogy már ben vannak.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Úgy é? hát már viaskodnak.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hát? — de várakozz egy kitsinyt, egy levelet küldött az udvar birám, had’
+							nézzem-meg, majd meg-mondom osztán az újságot.<stage>elö vészen egy
+								levelet, fel-szakasztja.</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>
+              <stage>belé kukútsál</stage>Be szép irás.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ne kukuttsálj a’ levélbe, eredj dolgodra.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>De hallom leg-aláb’</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ezt bizony nem hallod, eridj.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Had’ haljam, olvassa nagyon.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Eridj no, nem hallod.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>De hát a’ szeretője küldi, nem az udvar biró.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ennye te nagy nyelvű; látod, hogy keverné szóba az embert; no gyere —
+							olvas. ,,A’ béres szekerek már haza érkeztek; Jankó betegen jött haza;
+							kár egyéb nints, hanem a szekerekbül egynéhány záp ki-húllott, és két
+							derék szeg veszett-el”. — Ennye s’ eb ugatta gonosz nemzettsége, hogy
+							tsinálják a’ kárt.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>A’ záp fogok hullott-ki? vagy a’ derék tsontyok tört-el?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>
+              <stage>olvas</stage>,,A’ lemetz vasakat ujjitani kelletett, fergetyüket
+							is készíttettem.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Törökül ir az a’ tiszt tartó: lemetz, fergettyü.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>
+              <stage>olvas</stage>A’ nagy gyalomrúl is a’ pálák egészlen
+							le-szakadoztak, a’ kátája-is meg-tépödött vólt, de bé fodattam.” — Nem
+							tsuda, hiszem már elég régen szolgál, — „Halat nem kaphatni; bonéval,
+							szákkal, véterrel, mét hálóval, gyalommal Tiszán réten próbálják, de
+							alig kaphatnak egynéhány tzompót; a’ Tiszán-es gárgya keszegnél,
+							dévérnél, vagy balinnál alig foghatnak egyebet; a’ napokon kaptak
+							ntég-is egy pár söreget, azt az úr számára tartom.”</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ha, ha, ha, fúljak-meg ha törökül vagy persákúl nints a’ levélnek töb’
+							felénél írva — értitek-é — gárgya, tzompó, dévér, boné, szák, ha, ha,
+							ha.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Nem érted azt te fityfirity?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ki értené azt kutykuruty?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Oh mélységes tudatlanság! azt nem érteni; mire nézed a’ napot? bezzeg
+							meg-értenéd, ha írná, hogy egy pár Liliszt fogtak.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ah! ha meg-érteném-é? meg ám.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ha, ha, ha, rád kapék, eridj —<stage>olvas</stage>. — „laktárosnak való
+							kötelet vettem a’ gyalomhoz. A’ juhász jerkéket öt százat hagyott, az
+							ürüket pedig el-adtuk.” — el-adtuk — már mért nem írja, hogy adták, s’
+							mennyit; be mitsoda ember.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>
+              <stage>tsendes ábrázattal.</stage>Hát azok az ürük, ha merem kérdezni,
+							mitsoda féle bogarak?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Eridj, ne híjába valóskodj. —<stage>olvas</stage>. — „Korongokat is
+							fognak hozni a’ malomba; persejek még el-szolgálnak, két ormónak
+							valót-is vettem</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Értitek-é no? szóljatok — Pontyi bátsi, mind érti azt mit teszen?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hogyne érteném? meg-esne néki belé; hiszen mind úgy hijják azt, ha bohó
+							nem vagy</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Mondja osztán valaki, hogy nem nagy lingvista, mikor törökül, persákúl-is
+							tud.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Én értem néhol, néhol.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>
+              <stage>olvas</stage>„A’ kotsi juhát meg-vasaztattam; a’ Lámpás kopó is
+							meg-kölyközött már, szép egy párt hagytam alatta, mind a’ Tamburra
+							ütöttek.” — Ezt várom régen la, e’ kellett nekem, szegény Lámpás, enni
+							adgyanak, lesz kopom, mind a’ gróf Duri kutyáival forgattattam, egy
+							kanlott ártánt adtam a’ jágeré-nek — olvas továb.’ ,,a’ kant haza hozta
+							Istók, de bizony nagyon meg-van vagdalva, talám szemen fel-veszi magát.
+							A’ szürke tsikót ki-fogattam, azerőlködésbe egyik lábát meg-rántotta,
+							sajnálja, hanem kotsis Ferkó azt mondja, nézte, hogy semmi baja nem
+							lész, tsak pálinkás etzettel kell mosni. A’ kajla tulok meg-veszett
+							szerentsésen, tennap lövettem agyon János deákkal, egy puszta verembe
+							bé-vágattam osztán.” — Be bánom azt a’ tulkot, be szép marha volt, mitül
+							tudott meg-veszni Isten adta jószága?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Talám kőris bogarat adtak néki?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ha, ha, ha. van-é eszed? hiszem attúl, ha meg vész-is inkáb’ meg-gyógyúl;
+							de a’ kár, hogy azt nem adhattak néki, nem volt, el-hiszem, nem
+							kaphattak.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Meg-járám én most is.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>
+              <stage>olvas</stage>„Kutzuk Miska el-szökött, el vitte minden ruháját,
+							hanem fele komentziója ben maradt” — Kurvannya, úgy sem ért semmit, had’
+							niennyék. — Nó, nints most töb? No te nagy szájú, hát szerető írta-é a’
+							levelet?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>De nem az, sőt Persák írta, mert nem értem, pedig magyar vagyok.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>
+              <stage>az órájára néz</stage>De nem az, hanem mindjárt vatsorához kell
+							ülni, mennyünk, várokozni találnak reánk.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Bizony éhetném is már, jól mondja kend ötsém Uram. De el hitták-é kedves
+							Párménió sogor uramat? mert majd nem lesz kivel okos dógókrúl
+							beszélni.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>És így mi mind ostobák vagyunk; szép complement.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Eridj, te nagy nyelvű,<stage>el-mennek.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik jelenés</head>
+          <stage>ERESZTRA, PÁRMÉNIÓ, TITZIUS. LILISZ, PONTYI, SZIDALISZ, BERENISZ,
+							ANGYÉLIKA. az asztal terítve van</stage>
+          <stage>ERESZTRA, SZIDALISZ, TITZIUS a’ kezét megcsókolják, ANGYÉLIKA,
+							BERENISZ, hasonlóúl tselekszenek kiket ERESZTRA artzúl tsókol.</stage>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>
+              <stage>artzúl tsókol</stage>No ki-múlattátok magatokat?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Jaj, jó néném asszony, azt mívelik ezek mint a’ sárkányok egymás közt. —
+							Ez a’ nagy nyelvű Angyélika la — hé te gonosz, majd meg-mondom, rátok
+							vallok.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Hö, hö, hö — tsintalanok, úgy é kedves ötsém uram?<stage>Titziusnak
+								súgva</stage>: talám illetlenül viseltétek hozzá magatokat? — az
+							Istenért fijaim.</p>
+          </sp>
+          <sp who="#titzius #szidalisz">
+            <speaker>TITZIUS SZIDALISZ</speaker>
+            <p>
+              <stage>egyszerre</stage>De hogy édes kedves aszony anyám.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Ne tselekedjétek az ólját, betsülettel viseljétek magatokat. — No tehát,
+							ha úgy tetszik.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ne búsúljatok, majd meg-lakoltok.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Halgassék bátsi, imádkozzék. —<stage>Imádkoznak — Titzius Angyélikára
+								néz, el-mosojodik imádság</stage>
+            </p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Titzius, Titzius, fijam vigyázz jobban kérlek imádság alatt. —
+								<stage>Angyélika el-pirúl.</stage>
+            </p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hallod te, nagy nyelvü? te is érts arrúl, te is nevettél.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>
+              <stage>sugva</stage>Halgassék vén ürü, mindjárt gárgya keszeget tsinálok
+							belölle. —<stage>le-ülnek</stage>
+            </p>
+          </sp>
+          <sp who="#pontyi #berenisz">
+            <speaker>PONTYI BERENISZ</speaker>
+            <p>
+              <stage>el-nevetik magokat.</stage>
+            </p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>No min vígadnak? ötsém asszony, Berenisz talám hibázik valami? vagy
+							valamit ejtettek-el?</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Nem, édes asszonyom néném, tsak gyermekségen nevetünk.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mindjárt meg-mondom te.<stage>Angyélikára néz.</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Vén dévér, vén tzompó.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ennye kü tördelje-meg, mind meg-tanúlta.<stage>nevetnek</stage>.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ne nevessék vén korong. —<stage>jobban nevet Pontyi.</stage>
+            </p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>No ötsém Uramnak jó kedve vagyon.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Mindenkor úgy esik, ha Angyélikával közelrül beszélhet.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Ez a’ nékem kedves újság.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Nem is volna tréfaság iljen gazdag koros úri emberhez menni férjhez, a’
+							kinek veszett tulkai vágynak.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Mitsoda? mitsoda?<stage>mindnyájan nevetnek</stage>. Szidalisz, abbúl a’
+							levesbül adj fiam oda az ötsém uramnak — No mi az ötsém aszszony,
+							mi?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>
+              <stage>Az annyának lassan:</stage>Kérdezze tsak kedves asszony anyám
+							Angyélikátúl mitsoda levelet olvasott előtte Pontyi bátyám
+								—<stage>nagygyábúl elő beszélli a’ levél történetit susogva,
+								Szidalisz ki-halgatja. Eresztra, Szidalisz igen édesden
+								nevetnek</stage>
+            </p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>No jó néném asszony,jó kedve duzzant kendnek-is, hálá Istennek, örülök,
+							örülök.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Jó hálá Istennek, kedves vendégeim vágynak, azok okozzák kedvemet,
+								<stage>mindnyájan meg-hajtyákfejeket.</stage>
+            </p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Én részemrül ki-nem mondhatom — mitsoda belső vigasztalásomra van az
+							asszonynak ilj nyájas kedvét látni, és annál nagyob’ szerentsém, ha
+							tsekélységem az asszonynak kedves lehet.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Sajnállanám inkáb’, ha olj érdemes ifjú, mint az Ur, nálam mindenkori
+							kedvességet nem találna; kötelességünk, de örömünk-is, az iljeknek
+							házúnknál szives tiszteletet mutatni.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>
+              <stage>hirtelen</stage>Úgy, hiszem halhatta már néném asszony, hogy a’
+							Törökök Persákot el-foglalják, mert úgy-is teli van véle a’ világ.
+								<stage>Mindnyájan el mosolyodnak.</stage>.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Nem hallottam még kedves ötsém uram, s’ hogy hogy van az?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Nem hallottam még kedves ötsém uram, s’ hogy hogy van az?</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>
+              <stage>mosolygás nélkül, sérió</stage>És mi okon mentek a’ Törökök
+							rájok? mert azt gondolom, hogy egy országot tsak bajos dolog helyes okok
+							nélkül ostromolni, annyival-is inkáb’, mível sok-vér ontással esik
+							meg.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Nem tudná annak édes néném-asszony senki az okát, tsak hogy hamis nép az
+							a’ Törökség.<stage>Az ifjúság majd meg-ful az erőlködésbe, s’ titkos
+								nevetésbe; Angyélika serio ül, nem is mosolyodik</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>
+              <stage>serio</stage>De végire fog Pontyi bátyám az okának is járni, mert
+							vágynak oljan emberei.<stage>Eresztra mosolyodik.</stage>
+            </p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Talám nem is egészlen bizonyos hir lehet még az?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>De bizonyos; úgy é Pontyi bátyám uram bizonyos.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hát, hogy ne vólna.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Igen is; hiszem úgy tetszik, hogy úgy is a’ kótsissa mondta bátyám
+							uramnak.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Eridj te, nyelves lány, ne tserfelj.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>
+              <stage>nevet, mind el-katzagják magokat</stage>Tserfel, úgy é ötsém
+								uram?<stage>Egy levelet hoznak Pontyinak.</stage>
+            </p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mitsoda levél a’ hé? honnan hozod? had’ lássam
+								—<stage>fel-szakasztja.</stage>— Ezt biz a’ fiskálisom
+								küldi.<stage>A ’ nevetés nem szűnik; Pontyi olvasni kezd
+								lassan</stage>. — Halja, halja, kedves néném asszony, mit ír egy
+							peremről a’ fiskálisom, a' Pontyi peremrül.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>No, haljuk.<stage>El-tsendesednek.</stage>
+            </p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>„Ezen expressusom által éppen favorabilis occassio praesentálván és
+							insinuálván magát, nem akartam el-múlatni, hogy az urat cum summo
+							respectu ne revereáljam, és egyszersmind a’ causarúl is rélatiót ne
+							tégyek. A’ causa leváltatván, már sebes cursusában vagyon; egyéb’ eránt
+							vágynak documentumaim sufficienter; hanem pro hic et nunc, a’
+							localitással, quotalitással, quddittással, vagy-is ubitással
+							maceralodom. Méltóztasson azúr ezekre documentumokat suppeditálni. Az
+							incattus már többnyire a’ perennálitasra s’ jussnak certitudojára nézve
+							tsak vana exceptiokban cavillál. Az allegatioimat ebben úgy combináltam,
+							hogy controversiát is alig patitur: mert clare demonstrálom a’
+							genealógiában*, hogy Istenben boldogult Sundori Ádám Uram 1657-ben vette
+							feleségül Kodri Ersébetet, Kodri Ersébetnek voltak fia és leányi; egy
+							Kodri leányt vett-el magának feleségül Dórái János, ennek tsak egy
+							leánya maradt; de ez osztán férjhez menvén Ládi Györgyhöz, két fija
+							három leánya maradt; ezek meg-osztoztak a’ jószágon, s’ így esett-vólt
+							Dalai uramnak a’ Kádori portio; e’ szerint keressük osztán mi az egész
+							Pontyi just, mely ezekbül evidenter excutiáltathatik”' — Tsak hijjába,
+							nintsjob’ dolog, mintha az ember-nek tanult fiscálissa ? lehet. Eleget
+							mondták nékem a’ nagy prókátorok,' hogy ne tartsam eztet, mert nem arra
+							való, de láttam, hogy tsak irigységbül beszélnek.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>De az a’ jus nyilván való, és szépen, tisztán van deducálva az igaz, már
+							abbúl osztán az ubitást is könnyen ki-keresheti.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>És hallották kentek? ugyan diákos ember.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>De diákos ember ökeme, igaz.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Nem kel nékem az a' zöld lé, abból a’ húsbúi kérek — nem is ehetik
+							már-itt az ember a' miá a’ sok tzifraság miá — hát ez a' veres lé?
+							hiszem bérsén e’ vagy mitsoda? hát az a" kék tajték mi ott? boldog Nten!
+							ha a’ nagy apáink láthatnák! Már hogy pántlikát mit fel-kapnak, ütné a’
+							kü; de a’ hasábúl, gyomrábúl-is módit tsinálni az embernek, ki látta?
+							Már talám szégyen-is disznó húst enni?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Hát, hogy-ne volna szégyen?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Még Zsidókká lészünk hát ebbe; ökör húst-is szégyen hát enni, mert mind
+							paraszt emberek bánnak az ökrökkel. De utoljára kenyeret-is gesztenye
+							púderbőlsüttetnek; be híjába való időt értünk</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Job’ volt hajdan, úgy é?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hát.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>De én jobban szeretem a’ mostani időket; nem kel most annyit enni, innya,
+							mint régen; hiszem akkor a’ mije volt az embernek, tsak ételére
+							költötte, mert szörnyű sok evés volt — abbúl a’ be-tsináltbúl kérek.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Öm, be hijában valót beszél kend; de bizony többet kötenek most kentek
+							egy híjába való ebédre, mint régen szegény atyáink egy hónapig
+							el-költöttek. Egész ebédje az’udvarából tölt-ki, tsak sóért, borsért
+							adót pénz; de kentek Bergengótziábúl honnan drága pénzen hordják a’ sok
+							haszontalanságot együvé; drága pénzen fizetik azt a’ sok sohonnai
+							egésség s’ étel rontó szakátsot. Tzukher kopokat, martzafánk lovakat mi
+							hoznak az asztalra, ötven forintba-is bele kerül, még sem lehet belölle
+							enni, tsak nézni kell. Nem nézni ültek a’ mi atyáink az asztalhoz, hanem
+							enni; osztán egy tzukher kópénak az árán egész hónapokig meg-érte az
+							asztali kész pénz költségét.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>De bezzeg helyre hozta osztán a’ bor, mert most egy általag tokaji
+							el-tarthat annyi ideig, mint akkor.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>De bizony, édes húgom, nem vették ük pénzen a’ bort, az országban termett
+							az; de most a’ világ négy oldaláréi hordjátok öszve az ebédet; tengeri
+							rák, tsiga, béka, minden ördög férget, tsúszó mászó állatot öszve
+							vesztek. Mikor nekem két száz hízott tnarhám-annyi ürüm járhat a’
+							pusztán, minek nékem akkor béka, tsiga, egyétek meg.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Még sem ólján egésségtelen az, mint a’ régi bor ivás.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Om, be nagyot monda kend; de bizony eleget ivott az-én apám, a’ kendé is,
+							mert az asztalnál viradtak-meg sokszor; de még is nyóltzvan esztendeig
+							élt frissen; és sok száma nélkül való öregeket látok oljakat. De kentek
+							a’ tzukher kopóval, osztán a’ békával nem kuruttyolnak ám nyóltzvan
+							esztendeig a' világba, ne búsuljanak. Hiszem halja kend, nem kerül nékem
+							oda haza egy hónapig is négy márjásba kész pénzbe az ebédem, mégis
+							többet eszem, mint kend. Kenteknél egy ebéd is belé kerül ötven
+							forintba, s’ mi volt? tzukher kopó.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Igazán mondja az Úr; mert meg-kell vallanunk, hogy az emberi természet,
+							ha leg-közönségeseb’ eledellel tápláltatik, leg-erőssb’; és
+							legegészségeseb’; és ok nélkül való dolognak tartom a’ természet
+							tápláltatásábúl módit tsinálni, mintha a’ természet-is tartozna magát
+							haszontalanságainkhoz szabni; de el-isjönek az idők, hol az emberek e’
+							részben magokhoz térnek.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Úgy van; kedves sogor uram okos ember látom; által érti a' dolgot. Hiszem
+							már a’ süvegeket, kalapjokat had’ metélnék, mert akar nagy kalap, akár
+							kitsiny legyék az ember fején, attúl nem fáj a’ feje; de ha moslékot,
+							vagy egyebet ólját eszem, el-romol a" gyomrom, egésségem. Akár zöld,
+							akár veres színbe öltözzem, nem fáj a’; de nem mondhatom azért, hogy
+							akár nadragulyát, keserű füvet, akár zeller salátát, vagy tárkonyost
+							eszem, mind éppen ólján jó. Ezért nem lehet a’ hassal, gyomorral úgy
+							módizni, mint a’ pántlikák színével, hogy majd zöd, majd kék, majd
+							veres, s’ mindenik jó a’ felöl.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Valósággal okoson és helyesen beszél, én azon értelemben vagyok.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>A’ nagy urak gyermekeit mind tzukherrel, meleg vízzel, tejjel, kávéval
+							nötetik; de le-is vernék, oljanok vágynak, hatot is a’ pipámmal a’
+							lábárúl.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>A’ nevelés, igaz, nehéz teher.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>De édes is, ha engedelmes gyermekeket szül az ember.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Nem arra nézve szóllok; azt akarom tsak mondani, hogy külsőképpen a’
+							testet kitsinységétül fogva szabadon kellene nevelni, hogy
+							szorongattatásokban ne légyen, és a’ szabad levegő egek alól melengetett
+							szobákba ne rejtegettessen. Russzó e’ részben böltsen ítél.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>De kedves sógor Uram, nem olvasta az én anyám soha Russzót, még-is tudott
+							kényeztetés, szorongatás nélkül nevelni. Szabadon hevertem én az ágyon,
+							s’ húst ettem, mihelyt a’ gyomrom emészthette.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Abban ugyan nem szerentsésebb nálam az úr sogor uram, mert engemet az
+							anyám talám még szabadabban nevelt. Szép, rút időben, ha tetszett,
+							hagyott az ég alatt kin múlatni; ételt, gyümöltsöt, minden időben
+							kívánságom szerint ehettem.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Meg-is esmerszik kedves sogor uramon, hogy nem békával, meleg vízzel élt,
+							s’ nem kalyitkába, pólyába nevelték, mert ugyan legény ám a’ talpán.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>De abban a’ nagy szabadságban sok alkalmatlan hibát kelletett az úrnak
+							el-követni; mert a’ gyermekség mindenre hajlandó, és a’ sok szabadságban
+							erköltse, élete veszedelemben foroghat.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Nem tudom hibának mondjam é vagy ne; szüleimtül soha nem büntettettem; a’
+							melj tselekedetet vélem tsak tsupa gyermekség követtetett el, az iránt
+							feddést-is alig mutattak. Gonoszságot talám bennem kitsinységemben nem
+							tapasztaltak; erköltseimet oktatták bennem, de inkáb’ példákkal; mint
+							szüntelen való beszéddel.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Az az igaz nevelés, úgy ítélem, ha a’ szülék nemesen, keresztyéni módon
+							viselik magokat; példáúl vészik őket gyermekeik; de ha hibákba, bűnökbe
+							lélegzenek tselekedeteikkel, haszontalan beszélnek okoson magzataiknak,
+							mert a’ gyermek hajlandóbb min-dég szüleit inkáb’ magok viseletiben,
+							mint okoskodásaikban követni. Azt felelik ha valamelj szüléi hibáért,
+							mit már ők-is elkövettek, dorgáltatnak: az atyám-is úgy tészen.
+							Szerentsések azért az olj szülék, kik gyermekeik között
+							jóságostselekedeteikkel inkáb’, mint beszéddel oktathatnak.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ki kételkedhetne benne, hogy a" kis-asszony szüleinek jóságos
+							tselekedetei által oktattatott?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Sőt az úrban teszik inkab’-ki, hogy igaz-és valóságos szelíd emberi
+							erköltsü szüléi vóltak, kiknek kebelekben fogantatott, s’ karjaik közt
+							nevekedett.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Érzem is irántok háláadatosságomat, s’ örök jutalmát kívánom érette
+							lelkeknek. Istenünknek törvényei után, meljeket szüleimtül szeretni s’
+							félni tanúltam, ök nékem a’ második okaim arra, hogy jó erköltsöt
+							viseljek, s’ jóságos tselekedeteimmel, hajlott idejekben, érettem
+							el-követett fáradtságoknak jutalma, és hiv sziveknek vigasztalása
+							lehessek.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Böltsen; mert, az én itélletem szerint, egy gyermek szüleihez tsak úgy
+							lehet háláadatos és igaz, ha jó erköltsöket visel, s’ emberi módon él.
+							Szerentsések az olj anyák, kik a’ szülésnek fájdalmát és a’ nevelésnek
+							terhét s’ rettegéseit ölj magzatokért szenvedték, mint az úr.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>A’ kik az igaz érdemeket magokban meg"-illetődések közt érzik, mint a’
+							kis-asszony, azok nemes erköltseinknek eleven példáji szoktak lenni.
+							Boldog az az ifjú örökre, ki a’ kis asszonynak valaha hivségére
+							esküdhetik; de vigyázzon, hogy elégséges érdeme légyen szerentséjének
+							meg-ismerésére, mert Isten, természet ellen vétkezik, ha azoknak
+							leg-nemeseb’ ajándékait önnön tárgyában illendőül nem fogja tisztelni,
+							szeretni. Nints nagyob’ szerentse e’ földön, mint jo erköltsöket s’
+							nemes emberi érdemeket tudni ismérni és szeretni.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Betsületet tsinálsz uram emberi nemednek. Ne engedjék soha a’ végezések,
+							hogy a’ vér, melj benned folj, mag nélkül el-aludjon. Róllam akármint
+							ítélsz, szabad vagy; sem hizelkedésnek, sem igazságnak nem mondhatom
+							szavaidat, az elsőt a' te érdemeid, az utolsót önnön szemérmetességem
+							tiltják-meg tőlem. Részemrül leg-föb’ boldogságomnak tartanám azt
+							el-hinni, hogy ölj férfiúnak hivségére, mint az úr, érdemes lehetek;
+							ezzel magamnak nem hízelkedhetvén, kívánom uram számodra azon
+							erköltsöket asszonyi nemünkbül, meljeket érdemlessz.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>A melj végezés leg-kegyelmeseb’ kíván hozzám lenni, a’ tselekedje, hogy
+							azon asszonyi érdemek mindenekben a’ kis asszonyéhoz hasonlók légyenek.
+								<stage>Fel-akad a’ szó, tüzbejö az egész asztal, Eresztra, Párménió,
+								Szidalisz haboznak</stage>
+            </p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Eb-ugatta Mógolja, hová való király tsak ö ötsém uram Titzius, a’ ki
+							Á’merikára mégyen?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Indiai Tsászár.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>
+              <stage>sugva</stage>No soha nem szóllalt-meg Pontyi job’ időben, mint
+							most.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>No van dolog a’ világban! Nagy állapot, hogy az emberek egymást úgy ölik!
+							Miért nem maradhatnak othon? hiszem azt sem eheti, ihattya,
+							ruházhattya-fel, a’ mi magának van. Azzal émék-meg azok a’ nagy
+							Fejedelmek, ha falat helyett mindég egy egy falut kellene nékik
+							el-nyelni. Tsak azért foglalnak annyi vér ontással országot, hogy nézzék
+							ott-is osztán mások, miként esznek, isznak, s’ parantsolhassék Pestának,
+							hogy adja ezt vagy amazt Jankónak. — Be nagy tréfaság, ha meg-gondolja
+							az ember annak rendiszerint. Ha meg-hal Mogol Uram, nesze neked négy kis
+							deszka, egy kis setét lyuk; mig éltél egy fél világ nem volt elég, most
+							pedig kuttogj itt egy jukban, s’ vége van az uraságnak. De minek fogadja
+							annyi ember a’ szavát, mikor azt mondja nékik: erejdetek ölni s’
+							magatokat öletni? Nékem ugyan hijába beszélne, akar a’ falra hányná a’
+							borsót.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>De hát ha a' Haza, vagy a’ király kivánná az úr sogor-uramtúl, hogy
+							menjen ellenség eleibe, nem tselekedné?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ugy, sogor uram, mikor az embernek a’ királjára, vagy hazájára más
+							ellenségek reá ütnek, s’ embernek királját, kenyerét, kopóját el-akarják
+							rabolni, a’ más; de hiszem tudom én hogy volt az Insurectio, de, a’
+							felöl hogy-azt mondják, eme s’ ama, el-is szutyongattuk mi Frantzia
+							púderes, Babarus uramékat a’ hosszú kardal s’ rostás püstöllyel — Én is
+							magyar vagyok sogor uram. Mért nem volt hát akkor jobb a’ tzifra püstöly
+							a’ rosdásnál? — úgy már hadra kell menni. De Amerikába másnak rohanni,
+							a’ ki engem nem bánt, ki látta oda menni garázdálkodni? Ne búsúljék
+							kend, mert nem ontok én vért tsak garázdaságbúi; de a’ magamét sem
+							hagyom ám!</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Kár az iljen vitéznek ithon ülni.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Az igaz; szoros volna akkor a’ Töröknek Európa, ha iljen vitézek mennének
+							hadakba</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mit nyelveskedtek? ha nem megyek-is, tartok én elég vitézt; sok ezer
+							köböl búzát, sok bogja szénát, hízott marhát, paripa tsikót el-adok én
+							hé esztendőnként, sok vitéz élhet abbúl; hát, hiszem azoknak dógozom, ne
+							félj. Mert bizony Patzi Pesta jobbagyomtulnem veszem ám a’ Hadnagy
+							remondákat, sem az ármádia mészárossá sörét, ötsém, nem tudtok tik ahoz
+							— hát még a’ sok abrak.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Most látom ugyan meg-abrakolta magát Pontyi bátsi.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Eridj te, nyelves.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>
+              <stage>nevetve</stage>Megint tserfel, úgyé ötsém uram?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Tserfel, e’ mert e’ nem szóll soha Isten igazába.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>De még-is tsak örömest el-halgatja azt bátsi.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Úgy é? öm, höm.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ha úgy tetszik, édes asszony anyám, már itt eleget ültünk.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Nem bánom fijam — ha úgy tetszik.<stage>Fel-állanak; Pontyi nagy
+								ki-düljett hassal, a’ lábát két felé vetve meg-áll, imádkozik; kezet
+								tsókólnak, hálálkodnak, el-mennek.</stage>— Szidalisz, fijam, a’
+							kávéra gondod legyen.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Nékem szilvóriumot hozzanak.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>No lész, lész, hozatok.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">ÖTÖDIK JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ jelenés</head>
+          <stage>PÁRMÉNIÓ,ANGYÉLIKA.</stage>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>No szomorú bátyám, láttad Szidaliszt, úgy é?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>
+              <stage>nagy tsendességgel.</stage>Láttam.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Meg-lehetös személj, úgy é?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Szép, okos, nemes erköltsü.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Nem éreztette veled-meg magadat? nem szédeleg a’ filósófiád?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Én szeretem ötét, de azért a filósófiám3 nem szédeleg; hiszem a’
+							filósófia nints4 természet ellen</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Szereted?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Meg-irom néki, hogy tisztelem, azzal menek; készülj te is, tudod
+							leg-elösször vagyok itt, soká múlatni nem illik.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Nyomorodjon-meg a’ filósófiátok, ollyan gonoszok vagytok, hogy mihelyt
+							gyengeségeteket meg-érzitek, mindjárt szaladtok. Nem álhatatosság a’
+							Párménió; maradj itt, és ha férjfi vagy, gyözd-meg szerelmedet Szidalisz
+							előtt. Futás, szaladás nem tésznek vitézséget, sem hartzot; s’ osztán,
+							mi szükség volna itt hartzolni? szeress inkáb’ s’ házasodj.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>De tudni kell eléb’, hogy szerettetünk már attól, a' kit szeretünk.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>S’ még kételkedsz abba, ha Szidalisz szeret é?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Igen is, és nagyon.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Látszik, hogy nem isméred a’ szeretetet; irj egy levelet, eridj, bizd rám
+							a' többit</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Mind az a’ mit meg-tselekedhetem.<stage>le-ül egy asztalhoz</stage>, héj,
+								Lidás!<stage>Lidás érkezik</stage>
+            </p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Mit parantsol az úr?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Hozz gyertyát, papirost, tentát.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Eridj hamar, az urad szerelmes levelet akar irni.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Oh je! hát oda a’ filosofia?<stage>mindent hoz, Párménió ir.</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Te paraszt, szeretsz-é még?</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>
+              <stage>félre inti</stage>De bizony mondja-meg a’ kis asszony, ha az uram
+							igazán szeret-é, vagy nem?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Hát idétlen, abba kételkedsz? szerelmes, és nagyon pedig.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>De hát nem búsúlok, mert én is a’ vagyok, el-hánytam a’ filósofiát; de
+							ólján jól esik az a’ szeretni, hogy mód nélkül, szinte úgy meg-járja az
+							ember meljét; mint a’ jó bor.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ha, ha, ha. Kit szeretsz te? engem?</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>Nem biz én, mert Lutzindát, eszem a’ Lutzinda lelkét. Ólján jó leány az
+							kis-asszony, hogy mód-nélkül; ha nevet, nekem is nevetni kell mindjárr,
+							ha nem tudom-is miért; ha szomorú én is mindjárt búsúlok,7 ha száz
+							forintot adnának-is, még-is búsúlnék; ha valami jó ételt eszem, mindjárt
+							ó jut eszembe, nem8 is esik osztán jó ezün, ha néki nem adhatok belölle.
+							Ha osztán öszve jövök vele, mindég ugrálhatnék körülte, teli viszem a’
+							fejem hozzá beszéddel, de mihent meg-látom, mind el-felejtem, tsak
+							örülök.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Hát a gyomrod nem fáj soha?</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>De bizony emelyeg néha, de akkor tsak nyeldesek, osztán el-múlik.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ha, ha, ha. Be rendes az együgyü természet! tanulj Párménió a’ szolgádtúl
+							szeretni.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ihol a’ levél, ad’ oda Szidalisznak, ha látod.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Reményiem, nem Szokratesbül, Plátóbúl írtál belé, hanem a’ szivedbül.</p>
+          </sp>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>
+              <stage>félre</stage>Uh! ti kegyetlen piritusok, nyúl históriák,
+							markalfok!</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Meg-fogod látni mit írtam. Isten hozzád,<stage>el-megyen.</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>
+              <stage>a’ levelet nézi, gondolkozik.</stage>Váljon mi lész ebbül a’
+							hideg szeretetbül.<stage>el-mégyen.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második jelenés</head>
+          <stage>SZIDALISZ, BERENISZ, LUTZINDA.</stage>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Kedves Szidaliszom, úszott a’ szivem gyönyörüségiben, midőn nemes
+							erköltseidet Párménió előtt ortzádon ragyogni s’ gyenge alyakidon folyni
+							láttam. Hid’-el, a’ bulyálkodásig örültem; nem tudom Diánnát vagy
+							Minervát mutattad-é inkab’? de mind kettőné egyenlőül kedves voltál.
+							Ész, szépség, tisztaság mosolyogtak szemeidben. — Ah! Párménió, mitsoda
+							nemes ösztön vagy! mennyei erköltsöket ragyogtatsz. — Vald-meg, érzette
+							é szived valósággal érdemeit?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ah; Berenisz, egyszerre oljan mélly lett a’ szivem, mint a’ tenger, és
+							ezentúl olj habokat vét, meljektül el-borittatom. Az egész világ, úgy
+							tetszik, mind kebelemben forog, hol e’ nagy természetet tsak egy
+							halandóban látom érezni.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Semmi, annál jobb, tsak győzedelmeskedhess.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ah! ki hozhatná Párméniót olj nagy szeretetre, mint a’ minémüért14 szívem
+							fohászkodik. Azt kívánja indúlatom, hogy ö jobban szeressék engemet,
+							mint az életet. Igazságtalan kívánságom van, látom; de a’ természet
+							mentsen benne, melynek törvényei szivemet el-ragadták. — Enged’, had'
+							nyöghessek; soha nem tapasztaltam még, hogy a’ természet velünk édes
+							kínokat éreztethet, és hogy szivünk, könyveitől el-borittatva is,
+							keservében sóhajtva, fetrengve, gyönyörűségei közt, buzoghat; mintha
+							minden dobbanásával két felé hasadna, úgy vér.</p>
+          </sp>
+          <sp who="#lutzinda">
+            <speaker>LUTZINDA</speaker>
+            <p>
+              <stage>félre, magába.</stage>Mig nem szeretett, mindég beteg vólt, most
+							meg-szerelmesedett, s’ éppen halni akar. Oh! úri szeretet! úri szeretet!
+							bezzeg-nem tsak a’ gyomrod émeljeg neked, mint Lidásnak.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik jelenés</head>
+          <stage>ANGYÉLIKA, az előbbeniek.</stage>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Szerentsésen talállak itt benneteket.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>bádjadással.</stage>Ah! Angyélika ez — honnan jössz?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Párméniótúl. — Köszöntet.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Köszönöm. — Mittsinál? — tudja-é, hogy győzedelmeskedik?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ö pedig tölled kérdezted, ha tudod-é, hogy örökös rabságodba esett, s’
+							árnyékodtól üldöztetik?</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Angyélika, légy nemes, és ha tudod, melj kegyetlen dolog légyen attúl
+							egészlen nem szerettetünk, kit bálványozunk, meg-ne tsald
+							fájdalmaimat</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ezt a’ levelet tulajdon kezeivel előttem rajzolta, olvasd beszédemnek
+							bizonyságáé</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>a’ leveletel-kapja, olvassa.</stage>Kis-Asszonyom. „Ne
+							tsudálkozz, egy ifjúnak szerelmét, vakmerőségét ezen levélben” olvasni,
+							kit tsak nemes erköltseiddel kénszerítessz hűségedre. Meg-bántanám a’
+							természetet, ki reád annyi ajjándékait költötte, ha tiszteletemet
+							előtted fel-fedezni általlanám. A’ nagy és szép tulajdonságokat20
+							szeretni ditsösség; én pedig meg-vallom, hogy az emberi érdemekbül
+							származott ditsösséget, minden egyéb’ világi dolgok felett bálványozom.
+							Ne végyed hát rósz névén, hogy tégedet szeretvén, abban ditsöségemet
+							nevelni kívánom. Nem kénszeritlek hozzám való hivségre, sem szerelmedet
+							alkalmat-lankodással kóldúlni nem akarom; meg-halok inkáb’ miattad, mint
+							szabad szivedet erőltessem, vagy olj alatsonyságra vetemedjem előtted,
+							melyben azon kérjelek, hogy szeress. Tudom, hogy a’ szeretet kérést nem
+							szenyved; s’ azt-is érzem, hogy elég erős vagyok erköltseidet
+							alatsonyság21 nélkül bálványozni. Elég nekem az, nemes erköltseimnek
+							bizonyos próbájára, hogy szerethetlek; enged’-meg, had' ditsehedhessem
+							ezen ditsöségemmel; te pedig engemet magánosságomban el-botsátván, örülj
+							munkádnak és emlékezz-meg rólla, hogy van egy halandó e’ világon, ki
+							igaz barátod lehetne, ha külömben te valakihez magadat köthetnéd.”
+							Párménió. Gyertyát, pennát — Lutzinda — el-ment Párménió? — itt van? —
+							hol van? — Ah! ditsö természet! hatalmas Isten! be sokat tudtál
+							teremteni — Az egész világ meg-indúlt — mindnyájan ragadtatunk.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Irj tsak egy levelet, és ne bántsd a’ világot.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>le-ül, ir.</stage>
+            </p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Nézd, mitsoda el-ragadtatásban van.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Úgy tesznek a’ sokáig hevert kényes szivek, ha végre
+							meg-lántzoltatnak.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Mitsoda gyönyörűség hánykódását nézni; mint festi magát benne a’ nemes
+							természet</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ehol a’ válasz, vid’-el kedves26 Angyélikám, és mond-meg Párméniónak,
+							miként vérzik a’ szivem — gyere Berenisz.<stage>el-mennek.</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>De én itt nem maradok egyedül.<stage>El-mégyen utánnok.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik jelenés</head>
+          <stage>PÁRMÉNIÓ, TITZIUS.</stage>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Igen-is szeretem; de tudod, hogy az olj szeretetet folytogatni kell, melj
+							a’viszontszeretetben nem bizonyos. — Ha remélhetném.-----</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Mernék ezeret egyre fel-tenni, hogy Szidalisz hatalmad alatt van.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Kevés az, ha tsak közönséges tiszteletet visel hozzám. Lehet valakit
+							szeretet nélkül ditsérni és tisztelni-is.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Tégy próbát, s’ légy bizonyos.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>A’ nagy szeretetben való kéttség meg-fojtya a’ szivet; nem botsátom-ki
+							indúlatimat; minek vessenek lángot, ha nints nékik kitül
+							vezéreltetni?</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik jelenés</head>
+          <p>
+            <stage>ANGYÉLIKA,s’ a’ többiek.</stage>
+          </p>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Remélled-é Párménió szerentsés követtségemet? és reszket-é szived
+							sorsodat tőlem hallani?</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Mondjad a’ mi néked tetszik.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Meg-botsáss, és ne szégyeneid kegyetlen tselekedetedet tőlem hallani.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>
+              <stage>ijedve</stage>Mitsoda kegyetlen tselekedetet?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Szidalisznak által verted a’ szivét; egy levelet küld, meljben ellened
+							maga panaszolkodik.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>
+              <stage>fel-szakasztya, változik — olvas.</stage>Párménió! „Enged-meg
+							gyengeségemet, meljnek titkolására, levelednek olvasása után, elégtelen
+							vagyok. Ha igazat írtál, nem szerentséltethtem magamat; ha tsalsz, nem
+							szégyenlem tölled tsalattatni, hogy ez álta leg-aláb’ erköltseimnek
+							tisztaságai, a' tiéidet valamiben meghaladhassák — Le-verettettem nagy
+							szived által — nem élhetek rajtad kívül. kedvés Szidalisz. Két részre
+							szakadt szivem úgy ütközik magába, mint a’ tévelygő hab — hová húz,
+							el-nyél, érzékenységének feneketlen tengere — igaz é? Szidalisz
+							szerethet? —<stage>meg-tsendesedik</stage>. Titzius, el-felejtettem
+							magamat egy kis ideig. Ez, akár valóság, akár tsak játékos álom.
+							mérsékeljük magunkat. A’ szerelem nem lehet egy szempillantásig zabola
+							nélkül. — Gyere Titzius, menjünk magánosságba, s’ gondolkozzunk azon,
+							hogy ha a’ természet bennünk szeret, mitsoda, veszedelem-é, vagy
+								boldogság?<stage>el-mennek.</stage>
+            </p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>
+              <stage>magába</stage>Akar veszedelemnek, akar boldogságnak vegyed, de
+							látom, rabja vagy, és kell véle élned. Nagy bajok van a’ világban az olj
+							embereknek, kik mindent akarnának tudni; Mitsoda a’ szerelem? mitsoda a’
+							szív? mitsoda a’ lélek? edjik érez, mondják, másik gondol. Mi hát az
+							érzés, s’ mi a’ gondolat? nem tudom. Akármeddig okoskodnak az emberek,
+							utoljára minden dolog végin tsak a’ jön ki: nem tudom. Ezért a’ nem
+							tudómért nem szükség annyit fáradni, s’ a" betegségig29 okoskodni. A’
+							paraszt emberek leg-okosabban élnek, melegesznek a’ napnál és soha nem
+							törődnek rajta, mi a’ nap. — De, ha magamra nem vigyázok, majd én is
+							filózófálni kezdek, ha, ha, ha — meg-boszszúlom magamat; és tsak azért
+							is Lilisznek irok mindjárt egy asszony filósófiát.<stage>Le ül,
+								gondolkozik, ir.</stage>
+            </p>
+            <lg>
+              <l>Lilisz, a’ szeretet nem tudom mi dolog,</l>
+              <l>Melj szivünkben édes fájdalmakkal forog?</l>
+              <l>A' természet újjá nyomta kebelünkbe</l>
+              <l>E’ kedves tüzetskét, ö lobog vérünkbe.</l>
+              <l>Ne kérdezzük soha, mitsodás'szine van?</l>
+              <l>Nyögjünk, panaszoljunk, öröljünk jármában.</l>
+              <l>Nállam (mert jól érzem,) mint Lilisz, olj forma,</l>
+              <l>Tsak ö benne lehet szivemen hatalma.</l>
+              <l>Minden halandóban más más a’ szerelem;</l>
+              <l>szerentsés, kiben nem nö vélle félelem!</l>
+              <l>Lilisz, hiv vagy é hát?- - -<stage>fel-áll.</stage></l>
+            </lg>
+            <p>Nintsen fájdalmasab’ dolog, mint attól el-hagyattatni, vagy meg-vettetni,
+							kit halálba szeretünk. Ennek a’ változásnak próbáját Liliszben, első
+							egybe akadásommal, meg akarom próbálni</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hatodik jelenés</head>
+          <p>
+            <stage>LILISZ, ANGYÉLIKA.</stage>
+          </p>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>A’ leg-szomjubb-sohajtások hoznak végre hozzád Angyélika. Mitsoda szomorú
+							társaság fogott-el, hogy olj kevéssé láthatlak? Ah? ha minden érzésemet
+							érezhetnéd, s’ minden gondolatomat számlálhatnád, meg unnád magadat
+							magadban szüntelen érezni, s’ gyakrabban által adnád Lilisznek Létedet.
+								<stage>Angyélika nem felel, sétál, gondolkozik,
+							amaz-ijjedve</stage>. Mitsoda változásba jöttél? mitsoda rémítő
+							tsendességet mutat tekénteted? Ah! talám el-szalasztotta szived
+							szerelmét? vagy meg-hólt benne személjem?<stage>Angyélika
+								halhat.</stage> — Reszketek halálos sorsomat meg-gondolni. Ah!
+							veszedelmes szempillantás, meljben paraditsombúl verettettem poklokra.
+							Hogy változhat az bennem tsupa kínná, ki nékem az egész természetnek
+							keservét egyetlen egy tekintettel-is édességgé tudta tenni? — Angyéhka,
+							ad’ vissza szivemet, vagy vald-meg, hogy hivségére érdemetlen vagy — ki
+							vélhette volna! — annyi édességbül mennyi méreg, annyi ki-derült napbúi
+							mennyi rettenetes és szomorú éjjel! — miért fogantattam!</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>
+              <stage>tsendesen nézi, végre ki-nyújtya a' kezét.</stage>Barátom üss
+							ide. —<stage>Meg-illetödve</stage>. Hé, kedves Liliszem, be édes dolog
+							azt érettünk leg-kiseb változásnál-is rettegni látni, kinek porával
+							halálunkon tul-is keverni kívánnánk hamvainkat. Mitsoda kedves nékem
+							mostani gyengeségedet tapasztalni! mimódon hiheted változásomat? miért
+							ismered olj kevéssé tulajdon érdemeidet s’ az én szivemet-is?
+							Meg-botsáss azomban, hogy belső indúlataidat ilj kis próbára akartam
+							tenni. Ha kívánod, hogy hozzám való szerelmedet tulajdon életemnél is
+							inkáb’ féltsem el-veszteni — adhatok még én néked annyi gyönyörűséget,
+							melj véled ezt a’ kis szenyvedett poklot el-felejteti. Nyájason. Ne
+							bánd, hogy fogantattál, s’ enged-meg nékem azt a’ kis hivalkodásomat,
+							vagy magam rajtad vett hatalmamnak szeretetit, szivedben két
+							szempillantásban paraditsomot és kótzitust akartam tsinálni. Mi soha nem
+							szeretünk úgy is annyira, hogy magunkat el-felejtsük.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Gonosz angyal, be édes bajt tudsz hatalmaddal tsinálni! Nem tudhattya a’
+							szivem, ha fájdalma-é édeseb’ benned, vagy gyönyörűsége? mert te
+							akkor-is gyönyörködtetsz, ha bántassz. Minden édesség bened, valami
+							engem ölhet, vagy eleveníthet. Szót-hallanak. De bezzeg, ha nagy tengeri
+							háború lész, hogy tartya-meg Mógol Uram a’ hidat?</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Jaj, Pontyi hozza egész Asiát, Amérikát, szaladj
+								—<stage>el-futnak.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hetedik jelenés</head>
+          <sp who="lidas">
+            <speaker>LIDÁS</speaker>
+            <p>
+              <stage>magába</stage>Öm, senki sintsen itt — mi ez? — tenta, penna,
+							kalamáris, uttzu édes szivem máris — Mindjárt levelet irok Lutzindának —
+							úri mó-don pedig, tsak rajta ne kapjanak. —<stage>le-ül</stage>. De úgy
+							kelltennem, mint az urak, külömben nem sül szerelmes okosság. Az
+							asztalba vágja nagyon a' kalapját, fel-néz. Ah! egek! ah kegyetlen
+							szerelem! — meg-ölöm magamat! — ah! minek születtem? meg-halok!
+								<stage>kezére támasztya a’ fejét</stage>. Még sem jut eszembe semmi,
+							jobban kell tsinálnom. — Ah! ah! pogány Vénus, rettenetes, irtoztató
+							Kupidó, öszve harapdálod a’ szivemet — ah! úgy folj a vérem, mint a’
+							Duna - ah! fel-fordúlt a’ világ fenekkel! kegyetlen pogán Lutzinda,
+							attza ide a' szivemet! — aha, most van úri módon no most irok; nótát
+							irok; meg-álj — „Gyöngyöm, gyöngy virágom, fósám, nártzissusom, Badarom,
+							tsingallom, virágom, nádszálom, ’ he, he, he, bezzeg, majd örül ennek
+							Lutzinda. — Ih, most jut eszembe, hiszem van nekem egy, szerelmes verses
+							könyvem, gyöszte.<stage>Ki húz a’ sebjéböl egy könyvet.</stage> Bezzeg
+							nem filósófia e’ — ki irta? lássuk: Kónyi János, ország hadi szolgája —
+							El-lopám ezt a lyányoktól, tsak szerelmeskednek belölle, majd én is
+							rántok-ki helölle egynéhány verset. Mig ez a’ könyv ki-nem jött, mindig
+							öyöngyösibül Írtak szerelmességet, de már ebbül az újból írnak, én is
+							ebbül irok. — Hola — itt meg-van jegyezve, lássuk, hatvan nyóltzadik
+							levél.</p>
+            <lg>
+              <l>Kiben szivem örült, merült.</l>
+              <l>Töllem el-hült, s’ idegenült,</l>
+              <l>Szép galambom már él-répült</l>
+              <l>Másnak kebelében pendült,</l>
+              <l>Pendült, került, ölébe dűlt</l>
+              <l>Ölébe dűlt, hült, fült, s’ örült</l>
+            </lg>
+            <p>Ah! szépen van; de el-maradt még égy: lássuk; ölébe dűlt, hült, lült s’
+							örült — és sült. — Ez ez, éppen e’ maradt volt el, magamnak kell a’
+							szépít hozzá tsinálnom. — No, jó ez egynek. Még többet — Száz hatvan
+							harmadik levél-is meg-van jegyezve, itt is szép lész, lássuk:</p>
+            <lg>
+              <l>„Igazán mágnes kö a' te tekinteted.</l>
+              <l>Tsókra termett képed, ép minden termeted,</l>
+              <l>Meljért sok láb fárad, árad, várad, nyárad.</l>
+              <l/>
+            </lg>
+            <p>Oh! eztet éppen Váradnál irták, nyári időbe pedig, árvízkor. — Száz
+							hatvan négy levél isjegyes, lássuk: „Tsak téged szeretlek, mig e’ földön
+							élek, A’ mig bennem piheg, tseng, peng, teng a’ lélek.” Ah! e’
+							leg-szebb, ezt küldöm-el ah! tseng, peng, teng a' lélek — az enyim úgy
+							peng, mint az újj márjás; de ha Lutzinda mást szeret-meg — ah! már akkor
+							tsak úgy pengjék, mint a’ vaskó — Ha! valaki jön, zörgést hallok —
+							oszolj fiam, Lidás.</p>
+            <p>
+              <stage>El-takarit holmit, s’ ki-szalad.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Nyolcadik jelenés</head>
+          <p>
+            <stage>TITZIUS, LILISZ, PONTYI.</stage>
+          </p>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Akármit beszélnek kentek, híjába való dolog a’, de megesett nékem
+							bezzeg.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Hogy hogy?</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Hogy hogy? úgy hogy oda van a’ fiskálisom, bottal üthetem a’ nyomát.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Ha, ha, ha. A’ nagy diákos ember — hiszem tudhatta az-kend elöre.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ki tudta volna, halja kend? hiszem most hallom, hogy hites prokátora-sem
+							vólt, tsak ólján tsapongó ki-csapott falusi nótárius vólt — ennye
+							eb-ugatta, oda lész a’ perem, no.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Letzke; nem kell minden hegyes kalapú s’ téli süvegü embert jó
+							prókátornak gondolni.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Ki ne gondolta volna, halja kend ötsém uram? mikor minden második szavába
+							deákul szóllot. — Hanem, az igaz, a' deductiójába ott ütköztem-meg
+							magam-is, tsak nem akartam még akkor szóllani, hogy Sudori successorokat
+							emleget ö-keme; hiszem jól tudják kentek, hogy a’ Sudori família régen
+							oda lett; uram botsáss, hogy úgy kell szóllanom, deficiált; hiszem ahun
+							a’ szegény Ferke, a’ Sudori Ferke volt leg-utólsó la meg-hala szegény
+							mag nélkül. Ennye s’ eb ugatta embere, be-rá szedett. — Hiszem, úgy
+							tudom én ezeket a’ dogokat, mintha az öt újjomban volna. — Ne búsúljanak
+							kentek, mert tudom én a’ kentek egész familia genelógyiáját is;
+							hallottam szegény Istenben bóldogúlt bátyámtól, a' kend attyátúl, sok
+							száma nélkül való sok ezerszer, hogy a’ kentek tizedik vagy huszadik
+							nagy apjának a’ nagy apja juhász vagy mi volt; mert tudta a’ szegény
+							öreg bátyám, úgy tudta, mintha tsak tegnap előtti dogok vótak vóna —
+							elégszer el-beszélte ökeme, ha hogy úgy együtt vótunk — szegény bátyám,
+							az Isten nyugossza-meg szegényt; mert soha el-nem felejtem, mintha
+							előttem ülne, most is úgy előttem a’ képi; jó szál ember vót, iljen
+							forma, mint ehen a’ Párménió kedves sógor uram la, oljam világos
+							gesztenye szin haja, s’ képi szegénynek; erös, bátor ember vót, jó, igaz
+							szivü, szelíd, jámbor erköltsü, Isten félü, és nagyon buzgó szegény;
+							ifjanta semmi veszedelemtül nem félt a’, halja kentek, még is mindenütt
+							meg-tartotta az Isten, mert-bezzeg igaz keresztyén ember volt ám. —
+							Sokszor azt mondottam; no bátyám uram, oda leszünk; — de Isten úgy
+							ágya-meg a’ lelkem, ki-ment szegény tűzön, vizen keresztül — kemény
+							szavú ember vót a’ mellett; de nagyon szelíd ésjámbor ember, szerető
+							attyafi vót.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>
+              <stage>ásitozva</stage>Hallottuk már a’ genealógiánkat bátsi, elég
+							már.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Valahányszor eszembe jut, meg-sirathatnám. mert ritka ember volt
+							szegény.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Hiszem azt mi is tudjuk; de halgassék már Pontyi bátsi.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Soha nem felejthetem-el, egyszer haj szálon maradt az életem, ha nem lett
+							volna szegény, oda lettem volna.<stage>Könyvez</stage>. Az Isten
+							jutalmazza-meg néki; tudom is hogy meg-jutalmazta.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>
+              <stage>nedves szemekkel</stage>Jól van, jól, tsak elég már, ne
+							szomorittsa kend magát.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Mert a’ lelkem kesereg bennem, ha meg-gondolom, hogy semmi jóval nem
+							lehettem szegényhez.<stage>Sir</stage>
+            </p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>A’ Törökre gondolok éppen, hogy már meg-tértek Persákbúl.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Egy kopómat kérte egyszer szegény, bolond vótam, oda nem adtam, holtig
+							bánom.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>De már hijában, nagyon meg-keseredett. — Gyere Titzius, menjünk.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Kilencedik jelenés</head>
+          <p>
+            <stage>ERESZTRA,PÁRMÉNIÓ, TITZIUS, LILISZ. SZIDALISZ, BERENISZ,
+							ANGYÉLIKA.</stage>
+          </p>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>No fijam Titzius, tudsz-é újjságot?</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>Semmit se még eddig, kedves asszony-anyám.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Köszöntsed Párménió bátyádat, s’ egyszersmind sógor uradat.</p>
+          </sp>
+          <sp who="#titzius #lilisz #pontyi">
+            <speaker>TITZIUS, LILISZ, PONTYI</speaker>
+            <p>
+              <stage>egyszerre</stage>Lehetetlen!</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Oh, de nem lehetetlen, söt-igen lehető, s’ meg-is van.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Né, né, né, jó barátim, soha, öm, no, de-hogy hogy, — lehetetlen; né, né,
+							— ugyan s’ hogy — de hiszem-öm-höm, mi dolog.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ne tsudálkozz Titzius ilj hirtelen tselekedetemen, s’ ne légyen terhedre,
+							hogy a’ gondviselés familiád karjai közzé vetett, melynek te ékessége
+							vagy.</p>
+          </sp>
+          <sp who="#titzius">
+            <speaker>TITZIUS</speaker>
+            <p>
+              <stage>meg-öleli, egymást meg-tsókolják</stage>Párménió, kedves
+							atyámfia, vegyen kezeire az Isteni örök gondviselés, légyen hiv
+							szerentséd érdemeidhez, engemet pedig ölj barátodnak ismérj, ki minden
+							időben boldogságának fogja vérségedet ismérni.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Szeress, mig arra érdemeimet láthatod, s’ hid’ el, hogy hivséged, utolsó
+							szükségben életemmel-is parantsolhat</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Hó, hó, ne éppen oljan messze a’ hivséggel, nékünk-is szükségünk lesz a’
+							Párménió életére.</p>
+          </sp>
+          <sp who="#lilisz">
+            <speaker>LILISZ</speaker>
+            <p>Brávó! már Szidalisz előre a’ sokat jelentö számban nevezi magát.</p>
+          </sp>
+          <sp who="#parmenio">
+            <speaker>PÁRMÉNIÓ</speaker>
+            <p>Ugy is tudjuk Szidalisz, hogy maga az ember magának mindenkor leg-elsö
+							szokott lenni, s’ ha igér valakinek magábul ád; Szidalisznak Párménió
+							semmit nem ígérhet, mert maga lett már.</p>
+          </sp>
+          <sp who="#berenisz">
+            <speaker>BERENISZ</speaker>
+            <p>Brávó! Iljen hát a’ filósófus házasság, hol az asszony és a’ férj egy
+							magassággá lésznek.</p>
+          </sp>
+          <sp who="#angyelika">
+            <speaker>ANGYÉLIKA</speaker>
+            <p>Ted’ hozzá ahoz a’ filósófusi házassághoz a’ hirtelenséget-is. Ezek közt
+							edjik sem szeretett, mindenik alá s’ fel-járt, panaszolkodott,
+							makatskodott, okoskodott, izetlenkedett, s’ még is eléb’ házasok, mint
+							mi, kik örökké szerettünk. — Látódé’ Párménió, hogy Pontyi nagyob’
+							filósófus nálad, mert már vénül, még sem volt soha felesége, nem is lesz
+							már. — Iljen a’ világ.</p>
+          </sp>
+          <sp who="#pontyi">
+            <speaker>PONTYI</speaker>
+            <p>Eridj te nagy nyelvü; hiszem kár vóna kedves sógór uramnak—</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ritkán akad az ember magára e’ földön azért ha magát másban fel-leli,
+							fogja-meg mindjárt, mert a’ távozás veszedelem.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Gyertek karjaimra szerelmes gyermekim, Titzius, Szidalisz, Párménió.
+								<stage>Mind hárman eleibe esnek, reájok hajol, hol ezt, hol amazt
+								tsókolja</stage> könyvezve. Az Isten viselje gondotokat, ki bennetek
+							ma édes anyai szivemnek ilj ki-mondhatatlan gyönyörűséget okozott.
+							Légyetek hívek magatokhoz, és szeressétek egymást, mert mind mennyen,
+							mind földön a’ békesség, boldogság tsak hüségbül szeretetböl
+							származhatnak' leg-inkáb’. Szeressétek embertársaitokat; tsudáljátok,
+							féljétek a’ nagy Istent; legyetek szorgalmatosok, nyájjasok. Én
+							szüntelen való könyörgéseimmel s’ lehető jóságos tselekedeteimmel fogom
+							az Istennek jóságát hálálni, hogy vélletekmeg-áldott. Köszönöm néktek is
+							jo erköltseiteket, s’ engedelmességeteket, meljen vigasztalásómra
+							vagytok. — Szidalisz, kedves gyermekem, most veszen-ki az Isteni
+							gondviselés édes anyai kezem közzül, most szakadok-el tölled — Állj fel,
+							gyere karjaimra.<stage>Fel-áll.</stage>
+              <stage>Párménió, Titzius, félre fordulnak</stage>. Meg-botsáss édes
+							leányom, ha néha anyai indúlatom, magános erköltsöd miatt, reád
+							terhelődni láttatott; hozzád való édes anyai hivségem fohászkodott
+								szerentsédért.<stage>Mind ketten zokognak öszvekapcsolódva.</stage>
+							Ah! meg-fogod te is, reméltem, érezni, hogy mit kell egy édes anyai
+							szívnek szenyvedni, melj tulajdon kebelében fogant származásának
+							szerentséjét ohajtya.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>
+              <stage>nagy zokogással, könyvektül el-borittatva.</stage>Édes kedves
+							asszony-anyám, el-fojtyák szivemet keserves szavai, kémélje gyengeségem.
+								<stage>Magához szorítja Eresztrát nagyob erövel</stage>.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>Édes gyermekem, kedvesek nékem könyveid, meljekkel hivséged ilj
+							el-válásunkra karjaimat ásztattya; ne sajnáld azokat egy olj édes
+							anyáért, egyszer leg-aláb’ életedben, hullatni, ki te érted már annyi
+							könyveknek özönét árasztott — Enged’-meg az én szivemnek keservét-is,
+							mert édes gyönyörűség nékem ilj hiv, engedelmes gyermekért, mint te
+							vagy, könyveket húLtatni.<stage>Szidalisz iszonyúan sir, zokog, mind
+								sírnak. Eresztra meg fogja Szidalisznak a ’ kezét, Párménióhoz
+								vezeti.</stage> Kedves fiam-uram, ehol van egyetlen hányom, kit
+							szivemtül kell el-szakasztanom, végye magához — által adom.</p>
+          </sp>
+          <sp who="#szidalisz">
+            <speaker>SZIDALISZ</speaker>
+            <p>Ah! kegyelmes Isten, mitsoda meg-válás!<stage>Vissza fordul annyához,
+								térdre esik eleibe, magához szorítja, sir</stage>. Édes
+							asszony-anyám, az Istenre kérem, várjon, ha tsak egy
+							szempillantást-is.</p>
+          </sp>
+          <sp who="#eresztra">
+            <speaker>ERESZTRA</speaker>
+            <p>
+              <stage>reá hajol</stage>Nem, édes gyermekem, nem — gyözd-meg szivedet,
+							igy rendelték az Isteni végezések sorsodat, hajoly-meg királyi székek
+							előtt, s’ egy el-tökélléssel-álj-fel.<stage>Szidalisz, Párménió előtte
+								állanak, egymás kezét fogják. Eresztra reájók teszi kezeit, fel-néz
+								az egekre</stage> Isten, védelmezzed kegyelmednek munkájit e’ két
+							ártatlanságban! — Édes anyák, hol vagytok; igyekezzetek jó gyermeket
+							nevelni, hogy mind e’ földön, mind az örök életben gyönyörűséggel
+							örvendezhessetek.</p>
+            <p>
+              <stage>VÉGE.</stage>
+            </p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

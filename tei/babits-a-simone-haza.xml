@@ -1,0 +1,2398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000044" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">A Simóné háza</title>
+        <title type="sub">Falusi Tragédia. Színmű egy felvonásban</title>
+        <author>
+          <persName>
+            <surname>Babits</surname>
+            <forename>Mihály</forename>
+          </persName>
+          <idno type="wikidata">Q332482</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Bajzát</surname>
+            <forename>Tímea</forename>
+          </persName>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Pantyelejev</surname>
+            <forename>Natali</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">
+                        https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">
+                        https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
+        <date>2022</date>
+        <availability>
+          <p>CC BY-SA 4.0 <ref type="url">
+                            https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">A Simóné háza</title>
+          <title type="sub">Falusi Tragédia. Színmű egy felvonásban</title>
+          <publisher>Vajdasági Magyar Digitális Adattár</publisher>
+          <ref target="http://adattar.vmmi.org/dramak/126/126.pdf"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">A Simóné háza</title>
+          <title type="sub">Falusi Tragédia. Színmű egy felvonásban</title>
+          <author>
+            <persName>
+              <surname>Babits</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q332482</idno>
+          </author>
+          <date when="1978"/>1978
+                    <pubPlace/>Budapest <publisher/>Ságvári Nyomdaip. Szakközépisk. és
+                    Szakmunkásképző Int.: Athanaeum </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname>Babits</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q332482</idno>
+          </author>
+          <respStmt>
+            <resp>editor</resp>
+            <persName>
+              <surname>Téglás</surname>
+              <forename>János</forename>
+            </persName>
+          </respStmt>
+          <title type="main">A Simóné háza</title>
+          <title type="sub">Falusi tragédia / Színmű egy felvonásban</title>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Ságvári Nyomdaip. Szakközépisk. és Szakmunkásképző Int.;
+                        Athenaeum</publisher>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="simone" sex="FEMALE">
+            <persName>ÖZVEGY SIMÓNÉ</persName>
+          </person>
+          <person xml:id="karoly" sex="MALE">
+            <persName>SIMÓ KÁROLY</persName>
+          </person>
+          <person xml:id="anna" sex="FEMALE">
+            <persName>ANNA</persName>
+          </person>
+          <person xml:id="orvos" sex="MALE">
+            <persName>ORVOS</persName>
+          </person>
+          <person xml:id="pali" sex="MALE">
+            <persName>BAKA PALI</persName>
+          </person>
+          <person xml:id="cuci" sex="MALE">
+            <persName>CUCI</persName>
+          </person>
+          <person xml:id="major" sex="MALE">
+            <persName>MAJOR</persName>
+          </person>
+          <person xml:id="balog" sex="MALE">
+            <persName>BALOG</persName>
+          </person>
+          <personGrp xml:id="tuzoltok" sex="MALE">
+            <name>TŰZOLTÓK</name>
+          </personGrp>
+          <person xml:id="utcagyerekek" sex="MALE">
+            <persName>Utcagyerekek</persName>
+          </person>
+          <personGrp xml:id="nep" sex="UNKNOWN">
+            <name>Nép</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1978">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head type="title">
+          <hi rend="underline">Személyek</hi>
+        </head>
+        <castItem>
+          <role><roleName>ÖZVEGY SIMÓNÉ</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>SIMÓ KÁROLY</roleName>, fia</role>
+        </castItem>
+        <castItem>
+          <role><roleName>ANNA</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>ORVOS</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>BAKA PALI</roleName>, hordár</role>
+        </castItem>
+        <castItem>
+          <role><roleName>CUCI</roleName>, cigány</role>
+        </castItem>
+        <castItem>
+          <role><roleName>MAJOR</roleName>, tűzoltó-főparancsnok</role>
+        </castItem>
+        <castItem>
+          <role><roleName>BALOG</roleName>, járásbíró</role>
+        </castItem>
+        <castItem>
+          <role><roleName>TŰZOLTÓK</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>utcagyerek</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>nép</roleName></role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <stage>DÉLUTÁN, SÁTORFA</stage>
+        <stage>Udvar; háttérben a Simóné háza; fehérre meszelt, de láthatólag nem
+                    parasztház. Balra kert; a nap rásüt a színes gömbökre. Pelargónia (muskátli),
+                    szép molnárné, kisasszonyvirág, gránát. A háza ablaktalan részén, a fal mellett
+                    georgina. A szomszéd ház nádas. – Jobbra kapu az utcára. A ház ajtaja az udvarra
+                    nyílik – régi szokás szerint. A ház előtt széles pad és asztal. Anna a ház körül
+                    foglalatoskodik; Simoné<note type="editorial">Simóné</note> felülvigyáz.
+                    Meszelő, sajtár.</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Hány óra már?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Mindjárt háromnegyed.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Minden percen itt lehet. – Nézd, ott van még egy folt – ott a kapu
+                        fölött.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Igen, tekintetes asszony.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>A gazemberek! – Jobban, jobban! Sár? Bizonyosan valami kölyök dobta be
+                        megint. Nem láttál senkit a ház körül ólálkodni?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Senkit sem láttam.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Szegényt az ág is húzza. Biztosra veszem, hogy ők voltak megint. – Föllebb
+                        meszeld! – Az a kamasz Ládi Pista rosszabb, mint akármilyen parasztkölyök.
+                        Sohase végy házat, Anna, soha!</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Szegény árva lány vagyok.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Zabálni, torkoskodni, hancúrozni, fakarddal hadakozni, törni-zúzni, szegény
+                        özvegyasszonyok házát sárral dobálni be! – Mondom neked, nem okos, aki házat
+                        vesz manapság.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Elég lesz már, tekintetes asszony?</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Még, ott fölül! – Más gondja nincs a világnak, mint hogy a szegény özvegyet
+                        nyomorgassa. Szegény apám ha látná! Tudod-e Anna, hogy ez a ház jobb napokat
+                        is látott?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Tudom, tekintetes asszony.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Talán mindig gonosz kölykök prédája volt? De csak jöjjön meg egyszer a fiam!
+                        Siess Anna, minden percben itt lehet. Aztán a fiam nagyságos úr, érted?
+                        Nagyságos úr. Neki ez a cím jár. Persze, ha tudnák, ki a fiam... De amint
+                        özveggyel van dolga, vérszemet kap a világ. Tudják, hogy a házam egyetlen
+                        örömem. Boldog, akinek nincsen háza Anna. Én mindent megtettem. Nem tettem
+                        én meg mindent, Anna?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>De igen, tekintetes asszony.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Te tudod, Anna. Költöttem én egy krajcárt magamra? Úgy jártam mint az utolsó
+                        cseléd. De a házat fönntartottam, ahogy lehetett.</p>
+          <p>
+            <stage>(Simóné)</stage>– Téged magamhoz vettelek. Mondd Anna, mi lett volna,
+                        ha nem veszlek magamhoz?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Agyonütött volna az apám.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Jó szívem van, arról nem tehetek. Te jó leány vagy, Anna. Az apád haszontalan
+                        iszákos; de te jó leány vagy. Egy cseléddel sem tudtam eddig kijönni – de te
+                        jó leány vagy; szerény leány. Egy hibád, hogy dologra kicsit lassúkezű vagy.
+                        Fürgének kell lenni a lánynak. Mikor én olyan fiatal leány voltam... Hány
+                        óra?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Azt hiszem mindjárt...</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>No talán jó lesz. Minden percben jöhet, most jó lesz. Mindent nem győzök én
+                        sem. Csak hogy rendet találjon a fiam. Gyere elrakni odabenn. Hordd félre a
+                        sajtárt.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Igenis, tekintetes asszony.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Legfőbb egy lányban a szerénység, elhiheted nekem. Én aki annyit dolgoztam
+                        életemben. A mai lányok mind feleselők. Lassanként az úr lesz a
+                            szolga.<stage>(Bemennek.)</stage>
+          </p>
+        </sp>
+        <stage>(Valaki kívülről nekifut az utcakapunak és megüti a tenyerével.)</stage>
+        <sp who="#utcagyerekek">
+          <speaker>EGY HANG</speaker>
+          <p>Apacs!<stage>(Az ütéstől a kapu kinyílik, és egy gyerek beesik.)</stage>Nini,
+                        gyerekek, nyitva van!</p>
+        </sp>
+        <sp who="#utcagyerekek">
+          <speaker>II. GYEREK</speaker>
+          <p>Pszt! Nincs itt a sárkány?</p>
+        </sp>
+        <sp who="#utcagyerekek">
+          <speaker>III. GYEREK</speaker>
+          <p>Láttátok milyen vörös volt? Jól feldühösítettük!</p>
+        </sp>
+        <sp who="#utcagyerekek">
+          <speaker>I. GYEREK</speaker>
+          <p>Én azt mondom, hogy a sárkány vendéget vár.</p>
+        </sp>
+        <sp who="#utcagyerekek">
+          <speaker>III. GYEREK</speaker>
+          <p>Az, vendéget? Nem hallottad a Kati nénitől, hogy milyen fösvény?</p>
+        </sp>
+        <sp who="#utcagyerekek">
+          <speaker>I. GYEREK</speaker>
+          <p>Másképp nem lenne nyitva a kapu.</p>
+        </sp>
+        <sp who="#utcagyerekek">
+          <speaker>II. GYEREK</speaker>
+          <p>Kuss, idejönnek.<stage>(Elrebbennek, miközben az első egy nagy pamat sárt
+                            csap a hószín falra.)</stage>
+          </p>
+        </sp>
+        <stage>(Jön Simó Károly; utána Baka Pali, a poggyásszal.)</stage>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Eszerint maga ismeri az anyámat?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Ismertem én a nagyságos urat is, mikor akkora volt, mint ez a koffer – de
+                        félilyen nehéz se; ez aligha könyvvel nincs tele. Mert uram, én mindig csak
+                        azt mondom: minden nehéz a világon, de semmi sem olyan nehéz, mint a
+                        tudomány. Azt tessék elhinni. Én húsz éve hordom a terűt a vasútról. Én
+                        vagyok az első számú hordár. Ezt aki akarja, a sapkámon olvashatja; de úgyis
+                        tudja mindenki. Azért mondta is a múltkor a Cuci: Koma, kelmed bátran
+                        elzálogosíthatná a sapkáját; úgyis tudja mindenki, hogy kend az első számú.
+                        A legelső számú. Mióta szegény feleségem...</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>És hogy van az anyám?<stage>(Benéz az első ablakon.)</stage>Itt úgy látszik
+                        nincs senki.<stage>(Megáll. Tétova, fáradt.)</stage>
+          </p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Nincs annak semmi baja kérem, azt tessék elhinni. Minek mondanék rá
+                        nemigazat, mikor nincs semmi okom; nem igaz? Nagyon jót tett velem a
+                        tekintetes asszony, hogy magához vette a leányomat. Igaz, hogy azóta már
+                        kereshetne, ha elment volna szolgálni, vagy gyárba; hat forintot is
+                        kereshetne hónapján. De én mindig csak azt mondom: minek nekem a hat forint;
+                        mikor csak elinnám. Tetszik látni, megmondom ami igaz. Így legalább van a
+                        leányomnak tisztességes ruhája; nincs igazam nagyságos úr?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Merre lehetnek?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Szegény feleségem is mindig azt mondta: csak tisztességes ruhája legyen! – Én
+                        úgysem tudnék lánnyal bánni. – aligha hátul nincsenek: a tekintetes asszony
+                        félti az első szobáit. Tessék nézni: megint kimeszeltek. Én mindig csak azt
+                        mondom: a tekintetes asszonyban ez a ház tartja a lelket; ha ez nem volna,
+                        már rég odavolna. Mindenkinek megvan a maga kedvtelése; nincs igazam? Más,
+                        ha viszket, a bőrét vakarja; a tekintetes asszony a házát vakarja. Én inni
+                        szoktam olykor. Megmondom ami igaz. Mások azt mondják. Ne igyam; de én
+                        mindig csak azt mondom: mindenkinek megvan a maga kedvtelése. Miért ne
+                        igyam, ha jól esik? Megszolgálok érte. Valaki azért lehet becsületes ember,
+                        ha iszik is; nincs igazam nagyságos úr?</p>
+        </sp>
+        <stage>(Simóné jön.)</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>De, - az, richtig. – Isten hozott Károly. Csakhogy megérkeztél!... Nem is
+                        hallottam a kocsizörgést.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Gyalog jöttem. – Közel van az állomás.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Jól tetted fiam. Manap csak az jut valamire, aki takarékos. – Ez az ember mit
+                        kap?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>No hisz tán meg sem ismer a tekintetes asszony. A tekintetes asszony szeret
+                        alkudni; de én mindenütt egyformán kapok, mert én városi hordár vagyok;
+                        egyes a számom.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <stage>(Kifizeti a hordárt)</stage>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Annának ma dolga van.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>No hisz, mintha lopni akarnék. A lányomat csak megnézhetem. Én is csak apa
+                            vagyok.<stage>(El.)</stage>
+          </p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ne bántsa, mama.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Lopja tőlem a lánya idejét. Én tartom a lányát. A paraszt mind haszontalan és
+                        szemtelen, kivált, ha asszonnyal van dolga. – Hadd nézzelek hát meg. Négy év
+                        óta nem láttalak. Anna, hozz fel bort a nagyságos úrnak. Egy kicsit
+                        felüdülsz.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ritkán szabadulhatok.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Csakhogy egyszer eszedbe jutott meglátogatni szegény anyádat. Maholnap úgyis
+                        ki tudja látsz-e többé? Én szegény özvegyasszony vagyok. Érted vesződtem
+                        mindig: hogy téged felnevelhesselek, és a házat tisztességben fenntarthassam
+                        számodra. Ne higgy fiam, ha anyádat kisebbíteni akarják előtted. Azt
+                        mondják, fösvény vagyok; de hogy neveltelek volna föl, ha nem lettem volna
+                        takarékos? Szegény apádnak az a kis nyugdíja...</p>
+        </sp>
+        <stage>(Anna jön a borral és el.)</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Talán bejössz...</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Majd azután megnézem a lakást; de most jobban esik itt az udvaron. – Szép a
+                        háza.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Ah, már megint egy sárfolt! Haszontalan kölykek. Sírba visznek. – Kóstold meg
+                        fiam. Szegény özvegyasszony vagyok, de a fiamtól semmit sem sajnálok.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Köszönöm anyám</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Mindig úriasszony voltam. Két gondom volt életemben, a fiam és a házam. Nem
+                        is hiszi, aki nem tudja, mennyi gondot ád egy ház egy szegény özvegynek.
+                        Szegény apád mindig azt mondta: mama, ha pénzem lesz, építünk rá egy
+                        emeletet, s akkor ez lesz a legszebb ház Sátorfán. – Én mindent megtettem.
+                        Mondhatom, e rossz kölykek dacára nincs több ily tisztán, rendesen tartott
+                        ház az egész városban.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Igazán szép tiszta.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Egész életemben rendes asszony voltam. – Emlékszel, kis korodban hányszor
+                        firkáltad be a falát, rúgtad le a sarkát magad is? Nem volt még annyi
+                        belátásod, hogy tudtad volna, hogy csak teérted vesződöm. –</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mama sokat szidott.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Gyere, hadd nézzelek. Jó színbe’ vagy. Neked nem árt a pesti levegő.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mi újság Sátorfán?</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Semmi... az öreg Ingoványiné eladta a házat; talán már hallottad. Egy zsidó
+                        vette meg. Manap csak a zsidók vesznek házat; de nem is érdemes tisztességes
+                        keresztény embernek, hidd el; tartani sem érdemes. – Én néha betegeskedem.
+                        Itt is fáj, ott is fáj. Az orvos azt mondja: idegesség. – De hát te hogyan
+                        vagy? Mi újság Pesten? Hisz ha nem volnék ilyen öreg és nem kerülne oly
+                        sokba, nem mondom, hogy meg nem látogatnálak. Szegény apád mindig tervezte,
+                        hogy fölvisz. Sok jó ismerőse volt ott szegény apádnak, sok jóakarója volt.
+                        Lánykoromban én is voltam ám Pesten. De már azóta sok megváltozott. – Engem
+                        ma csak a fiam érdekel.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Egészen jól érzem magamat.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Van-e kilátásod előléptetésre? Megvan még a régi főnököd – hogy is
+                        hívták?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Édesanyám, éppen azért iparkodtam ezt a kis szabadságot kieszközölni, mert
+                        valamiről beszélni akarok édesanyámmal. A főnököm – ugyanaz aki volt – igen
+                        kedves ember, mint már többször írtam, nagyon megszeretett és úgyszólván
+                        minden felelősséggel járó munkát velem végeztet.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Sohase mulaszd el jóakarókat szerezni magadnak. Manap minden a protekció. Én
+                        szegény özvegyasszony vagyok. Jársz most is a házukhoz sokat?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Most mindennap járok. Édesanyám, éppen azt akartam főleg közölni
+                        édesanyámmal, hogy nincs kizárva, hogy nemsokára asszonyt hozok a házhoz. A
+                        főnököm nem idegenkedik attól a gondolattól, hogy nőül adja hozzám a
+                        leányát...</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Fel kell fiam használni a szerencsét – ha igazán szerencse kínálkozik. De
+                        semmit se tégy elhamarkodva. Gondold meg, hogy az egész életedre kiható
+                        lépés lesz. Sokan megbánták keservesen, akik első fellobbanásukra hallgatva
+                        beleugrottak ilyesmibe. -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>... s a leány szívesen hozzám jön.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Mindent okosan. – Szép leány?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Csinos. És a főnököm nagyon gazdag ember – rendkívül gazdag ember. És az
+                        összeköttetéseik... az egész jövőm egy csapásra meg lenne alapítva.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>A kitartás mindig meghozza a maga jutalmát. Én is egész életemben dolgos
+                        asszony voltam, s meg is értem azt, hogy fölneveltelek, fönntartottam a
+                        házat s innen-onnan viszonozni tudod, amit érted tettem. Hidd el, édes fiam,
+                        senki sem örül úgy a szerencsédnek, mint édesanyád.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Rettenetes lenne örökké lenn maradni. Már gyermekkoromban mindig börtönben
+                        éreztem magamat, amikor a szép nagy világra gondoltam, és hogy tán egész
+                        életemben csak a börtönablakaimon át élvezhetem. Csupán azért a
+                        szamárságért, mert nem születtem néhány ezer forinttal gazdagabbnak. Nincs
+                        jobb érzés, mint amikor az ember nyitva lát egy sorompót maga előtt – előre!
+                        Olyan erősnek érezném magamat – olyan szabadnak! Mindjárt nyitva állna
+                        előttem a világ! Csakhogy -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Ne bízd el fiam magadat a szerencsében se. Ne táplálj nagyon nagy reményeket,
+                        nehogy aztán annál keservesebben megcsalódjál. – Minden bizonyos?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Éppen erről akarok beszélni. Tudja mama, az apósom olyan józan, körültekintő
+                        ember, aki nemcsak teljesen biztosítva akarja látni a lánya jövőjét, hanem
+                        amellett üzletember is, aki egyoldalú áldozatokba elvből nem megy bele. Hisz
+                        ez csak természetes, ugye, aki egész életét az üzletben töltötte. – Micinek
+                        van harmincezer forint hozománya, és a főnököm azt kívánja, hogy ennek
+                        kétharmad részét, vagyis húszezer koronát még én is biztosítsak hozzá – ez
+                        az egyetlen feltétele.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Húszezer koronát?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Csak húszezer koronát.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Fiam, az embernek, ha tisztességes akar maradni, sokról le kell mondania
+                        ebben az életben. Lásd, nekem is mennyi mindenről kellett lemondanom, hogy
+                        tisztességesen felnevelhesselek és a házat jó karban tarthassam! Semmit sem
+                        költöttem magamra; úgy jártam, mint az utolsó cseléd. -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Még egy utolsó áldozatra kérem, édesanyám. Ez voltaképp nem is lesz áldozat,
+                        mert fiának és saját magának a szerencséjét fogja megalapítani vele. Nekem
+                        nincsen húszezer koronám és nem is kapok annyit kölcsön, legalább nem a
+                        főnököm tudtán kívül. Édesanyámnak bizonyosan van megtakarított pénze,
+                        kérem, segítsen ki néhány ezer forinttal.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Néhány ezer forinttal? Fiam, honnan vennék én néhány ezer forintot? Te tudod,
+                        hogy szegény özvegyasszony vagyok. Hisz csak volna; kinek adnám mint neked?
+                        De látod, hogy nincsen. A kis nyugdíj édesapád után alig elég hónapról
+                        hónapra. Az élelem napról napra drágább. A ház tatarozása többe kerül, mint
+                        a bennlakás ér. Az adó óriási. Számítsd ki, ha nem hiszel anyádnak! Honnan
+                        lenne nekem megtakarított pénzem:</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Azért édesanyám tudna nekem pénzt szerezni, ha belátná, hogy milyen – milyen
+                        -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Ugyan honnan szereznék? Talán kölcsön vegyek? Ki ád nekem kölcsön is? –
+                        Tudják, hogy semmim sincs. Azért, mert ez a kis házam van? Erre ugyan nem
+                        sokat kapsz a mai világban. Honnan vennék én neked – néhány ezer forintot?
+                        Szívesen megtenném fiam, - de ha nincs – nincs. Ami nem lehet, azt nem
+                        lehet.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Adja el a házát.</p>
+        </sp>
+        <stage>(Szünet)</stage>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Magát úgyis kimeríti az a sok házi gond. Mennyit vesződik, mérgelődik! Egy jó
+                        bérlakásban sokkal kényelmesebben, gondtalanabbul meglenne addig, míg
+                        megházasodnám és hozzánk költözhetik...</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Hogyan? Ezt a házat? Eladjam? -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Adja el mama. Minek magának a ház! Bérbe úgysem adhatja, mert ahhoz kicsike;
+                        hát nem jövedelmez semmit, magának pedig nagy is.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>De Károly, hisz ez lehetetlen! Bérbe adni a házamat!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Adja el! Előbb mondta hogy a bennlakás nem hozza be a tatarozást. Adja
+                        el!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Adjam el! Persze, minek nekem a ház! Én már öregasszony vagyok – hát minek
+                        nekem a ház! Elég hely lenne már nekem egy kis sírgödör – ugye, arra
+                        gondolsz?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De nem, mama, hát ne értsen félre! Én nem akarom, hogy maga valamit
+                        nélkülözzön. Maga mondta előbb, hogy nem érdemes manapság házat tartani. Én
+                        csak a maga kényelmét akarom.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Meg csak úgy mellékesen a saját kényelmedet, ugye? Szegény özvegy anyád
+                        lót-fut, töri magát egész nap, majd megvész, majd kiölti a nyelvét a
+                        dologban; aztán itt a köszönet! Itt a hála! Vén koromra a bőrömet is lehúzná
+                        rólam.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ugyan mama, ne fogjon fel mindent mindjárt olyan tragikusan. A háza még nem a
+                        bőre.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Lehúznád te azt is! Ilyen voltál mindig – már kicsi korodban. Mást se tudtál,
+                        mint rontani, kárt csinálni, falakat rugdalni... Örültél már akkor is, ha az
+                        anyádat szomoríthattad.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mama meg örült, ha elronthatta egy kedves játékomat... már akkor is -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>És most, alighogy felcseperedett, felém se néz különben; - egyszer örülök,
+                        hogy eszébe jutok – és lám ni, miért jön! Mintha a csillagokban lett volna
+                        megírva! Ó Istenem, Istenem, mért mérted ezt rám, hogy a fiam, akibe
+                        egyetlen reményemet tettem, éppen ő akarjon egyetlen örömömtől
+                        megfosztani!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>- és most, ha tudná, mit ront el! Mit ront el! – Ó mama, nézze csak, - hisz
+                        magának is be kell látnia, - hisz végre maga az én édesanyám. –</p>
+        </sp>
+        <stage>(megfogja a kezét.)</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Hagyj engem – hagyj engem pusztulni. – Úgyis azt kívánod. – Látod, hogy
+                        dögrováson vagyok – akkor meglesz a kívánságod. -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De édesanyám, az Istenre kérem, nézze, beszéljünk higgadtan. – Látja, maga is
+                        egy kicsit ideges, én is könnyen kijövök a sodromból – bocsásson meg – nem
+                        akartam – nem tudtam, hogy annyira a szívéhez nőtt ez a rossz régi ház.
+                        -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Persze, rossz régi ház – ahol az anyád élt, ahol az apád meghalt, az a
+                        palotákhoz szokott kényes pesti úrnak most egy rossz régi ház. -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De édesanyám, kérem – beszéljünk nyugodtan, - maga is be fogja látni, hogy
+                        nem dobhatom oda minden reményemet, egész jövőmet, előmenetelemet,
+                        mindenemet ezért az egy házért. Ezer ilyen házat veszek magának, hogyha –
+                        hogyha -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Mindent megtettem, hogy felneveljem, hogy az előmenetelét biztosítsam – és
+                        most itt a hála! Mondd te is szeszélyesnek az anyád, mikor az egész városban
+                        úgyis mindenki őt bántja! – Én akarom az ő jövőjét elrontani!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Irtózatos! Irtózatos! Mikor már minden szépen megvolna, mikor az ember
+                        hosszas küszködés, nyomorgás után végre célhoz érne: egyszerre hagyja ott,
+                        mondjon le – egy asszonyi személy miatt. Ah, meg kell őrülni! Neki is, neki
+                        is saját jóléte volna és nem akarja belátni! Hisz ami nekem jó, az csak az
+                        anyámnak is jó! Megint megszedhetné magát, feljöhetne Pestre, nyugalmasan
+                        élhetne, tehetne, amit akarna – és ő! Istenem, Istenem, világosítsd már föl!
+                        -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Hogy beszél! Pedig tudja, hogy én érte minden áldozatra kész voltam és kész
+                        vagyok mindig – mindig. – Tudod-e, hogy ki vagyok én? Tudod-e hogy az anyád
+                        vagyok, Költöttem én egy krajcárt magamra? Édes Istenem, hogy ezt mérted
+                        rám, hogy a saját fiam! – Mindig rosszakarója volt az édesanyjának.</p>
+          <stage>(Sír)</stage>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Édesanyám, hát lássa be, hogy a javát akarom! Mindig a szegénységről
+                        panaszkodott – most itt van az egyetlen alkalom mindenre, mindenre – és
+                        elszalasztaná?</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Nem bánom hát, vedd el mindenemet, húzd le az utolsó ingemet is, add el a
+                        házamat, ami az egyetlen gondom volt, örömöm – vigasztalásom – egész
+                        vagyonom – ne mondd, hogy szegény öreg anyád szeszélye áll útjában a te
+                        kényelmednek – ne tégy nekem szemrehányásokat – lásd, hogy minden áldozatra
+                        kész vagyok teérted – magadra vess hogyha -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Nekem nem kell mamától áldozat; azt akarom, hogy lássa be a maga javát és
+                        -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Tudhatod, hogy én mindent szívesen megteszek, ha tudom, hogy az javadra
+                        szolgál. Azt hiszed, hogy magamért ragaszkodom valamihez? Öreg asszony
+                        vagyok. Mit kívánhatnék én már ezen a világon? Előttem már csak a temető
+                        áll. Én mindent megteszek, mihelyt belátom, hogy a javadra szolgál. De ha
+                        mindent az első kapricodat követve, könnyelműen el hagynálak tékozolni: a te
+                        meggondolatlanságoddal, mid maradt volna már?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Látja mamám, hogy teljes meggondoltsággal cselekszem – hisz nem vagyok
+                        szerelmes, mint egy gimnazista – nem szegény lányt akarok elvenni.</p>
+        </sp>
+        <stage>(Ebben a pillanatban a kapu fölött az utcáról egy sárpamat zúdul be a
+                    szűzfehér falra, és ott szétzúzódik, nagy fekete foltot hagyva maga
+                    után.)</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>
+            <stage>(Fölpattan)</stage>Ah, haszontalanok!<stage>(Kívülről kacagás
+                            hallatszik.)</stage>Mindenki engem bánt! Megállj gazember, megyek a
+                        városházára, ha van igazság a földön, lehetetlen, hogy meg ne védelmezzék
+                        egy szegény özvegyasszony... Nyomorult csavargók! Itt a fiam, majd tesz az
+                        róla -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Maga – ugyan – nevetséges – hisz nem látja, hogy csak annál jobban...?</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Persze – te is, te is – még a saját fiam is ellenem fordul! – El akarja venni
+                        szegény anyjától utolsó vigasztalását, egyetlen hajlékát vén napjaira –
+                        csupán, mert hirtelen szeszélye támadt – mindig ily szeszélyes voltál! Amit
+                        megkívántál, mindjárt kellett is! – megházasodni – nyakamra hozni egy
+                        előkelő menyet, aki selypít, öltözködik, sétál, - fumigálja szegény rongyos
+                        anyósát -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De mama -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>S aki mellett te is boldogtalan lennél – igen, te is, magad is, keservesen
+                        megbánnád, ha az anyád hagyta volna – hisz nem szereted – biztos nem is
+                        éppen fiatal már – csak pazarolna, tönkrejuttatna, nyakadra vénülne – még
+                        nekem tennél szemrehányást -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De mama, áthallik a szomszédba -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Itt van, még beszélnem sem szabad – az anyám hallgasson – csak adja a pénzt
+                        és hallgasson! – Köszönd meg haszontalan, hogy megakadályozom, hogy a saját
+                        ostobaságoddal szerencsétlenné tedd magadat! Más anya kitagadna – elkergetne
+                        -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ó ha tudná, ha tudná, mit csinál, mit ront el! – Ó hogy az anyám! – éppen az
+                        anyám! – A legszebb jövő – a legszebb kilátások – szabadság! – szép
+                        nagyvilág! – pár rongy ezresért! – Irtózatos – irtózatos! -</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>
+            <stage>(Szoknyájával töröli a sárfoltot a falról)</stage>Szegény, szegény
+                        házam! – Mindenki téged bánt! Észrevették, milyen kedves vagy nekem, és most
+                        mind rád törnek! – Hát ki vagyok én? – Mit vétettem a jóságos égnek? – Két
+                        örömöm volt az életben. A házam és a fiam. – Miért méri ezt épp rám a
+                        magasságbéli, hogy egyik a másikat akarja elvenni. – Mit vétettem? Mit
+                        vétettem?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Most is csak a házát dédelgeti! – Hogy a mennydörgős mennykő csapna már bele
+                        abba a nyomorult házába!<stage>(Ököllel kitöri az egyik
+                        ablakot.)</stage>
+          </p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>
+            <stage>(Odafut)</stage>Megállj! – Megállj! –</p>
+        </sp>
+        <stage>(Az utcakapu kinyílik és bejő az orvos, mindjárt levéve kemény kalapját,
+                    hajlongva.)</stage>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>
+            <stage>(Közeledve Simónéhoz)</stage>alászolgája. Jó napot kívánok. Hát hogy
+                        van ilyenkor?</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Jézusom a doktor úr.<stage>(Összeszedve magát.)</stage>Isten hozta doktor
+                            úr;<stage>(a törött ablakra nézve)</stage>tessék talán besétálni.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Á, a kedves fia is itthon méltóztatik lenni. Rég volt szerencsém. Hogy mint
+                        tetszik érezni magát?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(Láthatólag kissé szégyenkezve és nyomogatva az ablaktól megvérezett
+                            jobbját)</stage>Tessék, tessék, doktor úr.</p>
+        </sp>
+        <stage>(Bemennek. Anna hátul a konyha felől jön, óvatosan, előbb meggyőződve, hogy
+                    bementek-e már. Amint az előtérbe ér: benyitja az utcakaput és szembejön vele
+                    Baka Pali.)</stage>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Éppen kelmedet keresem. – Fúj, már megint a kocsmában volt.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Én mindig csak azt mondom: az az utolsó, mikor az embernek a tulajdon leánya
+                        előtt is szégyellnie kell magát. Miért neveltelek? Hisz ami igaz, az igaz,
+                        nem szép tőlem, hogy iszom. Gyerekeim vannak, hát nem szép tőlem, hogy
+                        iszom. Megmondom, ami igaz. De mégis csak azt mondom. Azt tartja a
+                        szentírás: „Tiszteld atyádat és anyádat, hogy hosszú életű lehess a földön.”
+                        – Rongy három hatos volt csak. Hogy az Isten verje meg az anyjától
+                        belészállt fösvénységét! Ha már pesti úr, hát pestiesen is adhatott volna;
+                        nincs igazam? Én mindig csak azt mondom: pestiesen is adhatott volna. –
+                        Bementek?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Be; itt van a doktor úr.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Nem ereszteni az apát a lányához, ebet a kölykihöz! Nem szép tőlem, hogy
+                        iszom. Ha nem innám, mindenkinek szemébe mondhatnám az igazat. – Szegény
+                        ember kutya.</p>
+          <lg>
+            <l>Postás uram,</l>
+            <l>Mért levelezett,</l>
+            <l>Míg a tengeren</l>
+            <l>Át nem evezett?</l>
+          </lg>
+          <p>Nem jó nóta ez; tetves nóta. Tudsz-e valami jobb nótát?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Ne énekeljen most; meghallják odabenn.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>„Tiszteld atyádat és anyádat, hogy hosszú életű lehess a földön.” Tanultam én
+                        valamit. Ha nem tanultam volna, nem lennék városi ember, ami vagyok; a
+                        legelső számú. – Nem jól teszem, hogy iszom. Ha nem innám, házam volna, mint
+                        ennek a héjas csigának itt. – szeretsz-e itt lenn?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>
+            <stage>(Keserűen)</stage>Tudja apám, hogy mennyire szeretek!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Ha az apád nem inna, nem kéne itt lenned. – Komisz teknősbéka! – Tudod mit?
+                        Öld meg! Te főzöl rája! Főzz neki bahógombát. Azt mondják, hogy a nadragulya
+                        is megteszi. Legjobb a bahógiva. Szegény ember kutya.
+                        Rosszasszonyokgyökerét! Három rongy hatos! Öld meg mind a kettőt.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Jöjjön be a konyhába.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(A törött ablakra nézve)</stage>No tisztelendő úr, van ám csoda!
+                        Betörött a héjas csiga héja. Csigabiga öltsd ki szarvadat! Ha a héját
+                        bántják, neki fáj. Tokjába húzódott.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Jöjjön, jöjjön!<stage>(Bevonja a konyhába.)</stage>
+          </p>
+        </sp>
+        <stage>(Károly és az orvos a lakásból jönnek.)</stage>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mégis rettenetes, doktor úr, rettenetes!</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Ideggyöngeség, kérem alássan, ideggyöngeség. A kedves anyjának gyakran vannak
+                        idegrohamai. Ezt, kérem, csakis pszihopatikus kezeléssel lehet gyógyítani.
+                        Szórakoztatni kell – mással.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De nézze, doktor úr – tegyük fel, hogy az idegroham elmúlik – érti? Teljesen
+                        elmúlik – jól ápolják és csillapítják és teljesen elmúlik – vajon eltűnik-e
+                        vele a ferde elhatározás is – ez a makacs szeszély – amelyre vezetett?
+                        Remélhetem?</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Hogy tetszik ezt érteni, Ez az idegroham épp ez az egy idegroham vagy - ?
+                        Mennyi időre?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Doktor úr – Ön mindig jó barátja volt a családunknak. Ön modern,
+                        felvilágosodott ember. Szerény, visszavonult ember, de mindenki ismeri
+                        tudományát és szabadelvűségét.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Nono. Szóra sem érdemes. Agglegény vagyok. Egyéb dolgom sem volt, mint
+                        tanulni. S a tudás ellensége az előítéleteknek: azt tetszik tudni –
+                        tapasztalásból.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Olyan szükségét érzem... Kit találok e nyomorult faluban, aki megértene?</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Kérem. – Kérem. – Igen megtisztelve fogom magamat érezni, ha bizalmára
+                        méltat.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Látja doktor úr, példát adok a lelki átöröklésre. Velem született a
+                        panaszkodás, a lamentálás szüksége. Az anyámtól örököltem. Bocsásson meg, ha
+                        alkalmatlankodom.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Kérem alássan... Kérem alássan...</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Doktor úr, én szegény ember vagyok. Olyan kilátásaim vannak, amilyenek az
+                        életben csak egyszer kínálkoznak. Hamar kell rájuk válaszolni. Az anyámtól
+                        függ minden. Mondja: remélhetek?</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Hát, kérem alássan, az igazat megvallva, azt éppen nem tarthatom
+                        valószínűnek, hogy őnagysága rövid idő alatt – hogy is mondjam csak? – más
+                        nézetekre térjen. Valahányszor ez a – méltóztassék megengedni, hogy így
+                        nevezem, így jobban meg tetszik majd érteni – ez a rögeszme visszatér,
+                        felújul az idegroham. Ezúttal így is lehetetlen elvágni az összes
+                        asszociáció-kapcsokat. De ha zavarják a rögeszmét, akkor éppen üldözési
+                        mániává fejlődik.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mit tegyek? Mit tegyek, Egyszer előttem az élet – az egész élet – minden
+                        gyönyörével – pompájával – és most lemondani! – Lemondani! – Kitalálok én
+                        valaha ebből a labirintusból, - Ködből?</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Nono, csak ne tessék mindjárt felizgatni magát. Ha jobban meggondoljuk, talán
+                        nem is olyan nehéz az a lemondás. Csak arra méltóztassék gondolni, hogy ez a
+                        véletlen alkalom éppen úgy el is maradhatott volna, és akkor álmodni sem
+                        méltóztatott volna felőle. Úgy kell venni, mintha semmi sem változott volna
+                        . aminthogy nem is változik semmi sem.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ha tudná doktor úr, ha tudná. – Már gyerekkoromban – higgye el doktor úr – ne
+                        nevessen ki – már gyerekkoromban úgy éreztem, hogy el kell ennek jönni –
+                        hogy ki vagyok választva – tudtam – és most itt van – itt van – és
+                        hiába!</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Nono! Még – jöhet -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Nem jön, nem jön! Hiszen könnyű annak a parasztnak, aki egész életében nem
+                        tud – nem ismer különbet – de mi, akik megismertük – akik beláttunk az
+                        életbe – az igazi életbe – mindig csak ablakon – börtönablakon – ah! – És
+                        senki, senki úgy mint én – olyan vágy! Olyan érzés! Képesség! – hiába...
+                        Mikor egy kapu áll előttünk – egy szörnyű, erős kapu – üvegkapu – egyszer
+                        egy pillanatra megnyílik: - és akkor hátulról megfognak – egy gyönge
+                        asszonykéz! – Sohase nyílik többet!</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Tessék meggondolni, mit csinált volna a pénzzel – csak azt, ami jobb pénz
+                        nélkül – Ha még szerelmes volna a -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Szerelem – ne is emlegesse orvos úr! – Úgy látszik, most jönnek a régi
+                        erkölcsös mondások: arany középszer, gazdagnak sincs két gyomra, több
+                        szerelmi ereje – megelégedés – ugyan menjen! Itt az élet, és én élvezni
+                        akarom! Ismerek egy hölgyet – ha látná! – mint a tűz! Mindjárt az enyém
+                        lenne. Élvezni akarom! Mit el nem követnék érte. És bűnnel –</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Vannak ilyen teóriák.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ó, mint fogok! Mit fogok...!</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Megmondom én kérem: nem fog semmit. Ideges, mint az édesanyja – tőle örökölte
+                        – türelmetlen, elégedetlen, az is lesz egész életében; de azért csak leéli
+                        az életét, szépen, mint más. Nem jól van ez így. – De nézze: így voltam én
+                        is: egész életem hasztalan vágyakozás volt; mire? Nem tudom – és most itt
+                        vagyok, egyedül; élek, miért? Nem tudom. Meg fog élni.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(Szomorúan)</stage>Úgy látszik.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Hisz tetszik tudni, a teóriákat valljuk, de nem követjük. A régi erkölcs
+                        megmarad, ha jó, ha rossz.</p>
+        </sp>
+        <stage>(Az utolsó szavak közt Károly az orvost a kapuig kísérte.)</stage>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Gyűlölöm ezt a ronda házat. Ragyogsz nyomorult? Hogy vigyorog a tiszta
+                        agyarával, hófehéren, mint egy vén pedáns, aki kinevezi a magamforma szegény
+                        félbolondot. Kórházam, börtönöm! Kínai falam! Becéznek, bitor? – Még be is
+                        van biztosítva.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>S valaha, lehet, Önnek is vigasztalása lesz e ház –</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Nem; téved doktor úr; én gyűlölöm; ha rámmarad megölöm... fölgyújtom! – Még
+                        be is van biztosítva.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Tessék gondoskodni édesanyja és a saját egészségéről, tessék szórakozni,
+                        elfelejteni ezt az egész ügyet és megbocsátani a szegény háznak...</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mint egy baljós emlék, mint egy szemrehányás fog mindig a szemembe fehéredni.
+                        Száz nagy bűn inkább, mint egy ily mulasztás. Késő bánat, ebgondolat. – Be
+                        van biztosítva! Egész életemben kínozni fog! Ez az igazi lelkimardosás – nem
+                        gondolja orvos úr? Veszett fejszének a nyele. –</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Nono, Nyugalom, több nyugalom! Tetszik tudni: a fő az egészség.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>S ez legyen a börtönöm – életfogytig?! Siralomházam? Annál rosszabb, ha
+                        tovább, - tovább szenvedek benne. Nyomorult, hogy benned kellett születnem,
+                        rossz jel alatt. Megkötsz, mint fát a földje. Bölcsőmből csak a sírba?
+                        Utálatos kalitka! Volna csőröm, betörnélek, mint a csirke a tojáshéjat.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Nono –</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Minden, minden siralomházra emlékeztet: siralomház egy életen át! Ezek a
+                        karógömbök ott olyan vörösen ragyognak, mint a siralomházi gyertyák. Persze
+                        alkonyodik. Beborult már nekem! – Virágokkal hintik be a siralomházat
+                            is.<stage>(Tépi őket.)</stage>Kinevet? Kinevethet. De ha tudná, milyen
+                        más, milyen más! Ahonnan most jöttem, és ahol most vagyok – hahaha! Én is
+                        nevetek. Ezt a házat féltik úgy? Szeretik úgy? Erre büszkék, erre? Ezt nem
+                        engedik eladni – hahaha! Hol a parkett? Hol a villanyvilágítás? Park?
+                        Szőnyegek? – Milyen más világ! És én itt vénüljek meg! Itt? Oda csak ablakon
+                        át nézzek! – Be is van biztosítva.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Minden hiúság.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Aki azt egyszer kóstolta. – Nemes előkelőség! Diszkrét fény! Nyomorult
+                        kertgolyók! Valami olyan, olyan – Bűnnel, csak bűnnel! Akárhogyan! Milyen
+                        gyönge vagyok! Szeretőm, édes! Édes, édes Marianne! Épp egy hete nem láttam.
+                        Azt mondta legutóbb. Aki engem szeret, annak meg kell engem érdemelni. És
+                        úgy mosolygott! Kacér. Tudja mi a legszebb, doktor úr? Találja ki! A válla!
+                        Olyan nemes, drága. – Piszkos falu!</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Minden asszony egyforma, tessék elhinni nekem. Csak egészséges legyen és
+                        fiatal. – Falun is vannak – jók.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Nem egy asszonyról van szó, értsen meg, hanem egy egész világról! S ha
+                        meggondolom, hogy néhány rongy ezres – mi az, néhány rongy ezres?!
+                        Papírcafat, csinos rajz. Aranyalap! Mi az, arany? Érc, mint a többi! De
+                        cseng! Ragyog! Kulcs a világba! Hatalom, dicsőség! Minden akadály, minden
+                        út! Gyűlölöm, imádom! – Néhány rongy ezres! Amennyire ez a nyomorult ház
+                        biztosítva van, elég lenne.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Bizony, manapság a pénz –</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Milyen boldog volnék! És milyen boldogtalan vagyok! Piszkos falu. Egy –
+                        asszony szeszélye – már majd mit nem mondok – az anyámra! Anyám! Hisz neki
+                        is javára válna – csak ez válnék javára! Ha meg tudnám győzni – Ó, hogy az
+                        emberek meg nem érthetik egymást! Szakadj ki, nyelv; mire való vagy?!
+                        Magunkba, magunkba vagyunk zárva! De legalább magunkéi vagyunk! – Egy
+                        öregasszony szeszélye! Mi ez az asszony mondja doktor úr, mi ez az
+                        asszony?</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Az édesanyja.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Édesanyám? Egy tudatlan, ideges öregasszony; csak kár nekem, szenvedés
+                        magának. Egy buta rögeszme! Nem lehetne félbolondnak deklarálni? Minden
+                        enyém volna; nők, férfiak, tudomány, művészet, utaznék; Európa, Ázsia, az
+                        egész világ! S ez a buta kuclik itt – be van biztosítva. Biztosítva vagy
+                        átkozott! Mi biztosít? Az én gyengeségem. Milyen fényesség nyílt meg
+                        egyszerre előttem – és most megint börtönben vagyok.</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Nono. Magára hagyom, talán lecsillapul. Jó éjszakát kívánok – jó egészséget
+                        kívánok.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Doktor úr – Ön szabadelvű, felvilágosodott ember, előítélet nélküli, és nekem
+                        igazi barátom. Megígéri nekem? Ígérje meg, hogy akármi történik, érti,
+                        akármi történik, nem szól erről a beszélgetésünkről semmit, senkinek, -
+                        Talán –</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Nono – csak nehogy aztán – Vegyen hidegvíz fürdőt!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Nem, doktor úr, Ön nem ismer engem – csak jó lesz, ha tőlem függ,
+                        mindenkinek. Ah, ha ez a ház élőlény volna – akkor nem állnék jót! – Ígérje
+                        meg!</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Ha nem lesz semmi baj: természetesen – minek mondanám el? S kinek mondanám
+                        el?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(Izgatottan)</stage>Isten áldja, doktor úr!</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Volt szerencsém – jó éjszakát kívánok! Tehát – hidegfürdőt!</p>
+          <stage>(El.)</stage>
+        </sp>
+        <stage>(Károly utána nézvén, meggyőződvén, hogy elment, visszajő, s előbb anyja
+                    lakásába kar benyitni, majd mást gondolva az udvar hátsó részébe megy, s ott
+                    fel-alá kezd járni. Pali jön hátul a konyha felől; Cuci – egyhuru hegedűvel – az
+                    utcáról. A szín közepén találkoznak. Esteledik.)</stage>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>A marhahús száraz hús, de jó hús. Szikárit és szívósít; jó hús. A sillerbor
+                        is jó bor; de én már ittam jobbat is. Én már egyszer sampányit is ittam. –
+                        Jó estét, koma.</p>
+        </sp>
+        <sp who="#cuci">
+          <speaker>CUCI</speaker>
+          <p>Adjon isten, koma.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(Neheztelve)</stage>Én csak azt mondom: koma, mert azt tartom: a
+                        cigány is olyan, mint más, nincs igazam:</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(A háttérben járkálva mormog)</stage>Általános Magyar Biztosító
+                        Társaság. –</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Nincs névnap, koma.</p>
+        </sp>
+        <sp who="#cuci">
+          <speaker>CUCI</speaker>
+          <stage>(Felveti mélyen meghajtott fejét és srófolja a hangszerét)</stage>
+          <p>De a tekintetes úr – a fiatal tekintetes úr megjött Budapestről?</p>
+          <stage>(Ködösen, tagoltan beszél.)</stage>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Kend csak megjelenik – hahaha! Én mindig azt mondom: az öreg Cuci csak
+                        megjelenik. – Véresek a szemei, koma; nem tértünk be valahova?
+                            –<stage>(Hunyorít.</stage>
+          </p>
+        </sp>
+        <sp who="#cuci">
+          <speaker>CUCI</speaker>
+          <p>Megvénültem.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(Mint előbb)</stage>Assecuraziona Generali... Néhány rongy
+                            ezres...<stage>(Ökölbe szorítja egyik kezét és gyorsítja
+                            lépteit.)</stage>
+          </p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Nem jól van ez így koma. Én mindig csak azt mondom; nem jól van ez így. A
+                        szegény ember dolgozik, vesződik, mint egy állat, míg meggyőszösödik – és
+                        akkor? – bedugják egy gödörbe... nincs igazam? Alig érünk eleget enni és már
+                        minket esznek – hehehe – a kukacok, öreg, ne csodálkozzék úgy, a
+                        kukacok!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(Távol)</stage>Elég lenne – feltétlenül. –</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Kend hajdan az első cigány volt az egész megyében – úgy beszélik. Nagy urak
+                        pajtáskodtak kenddel. De én mindig csak azt mondom: nem jó az urakkal egy
+                        tálból cseresznyézni Nincs igazam, koma? – Hahaha! Mire jutottunk koma? Hol
+                        a gombjárul a szőr? Rivójárul a húr? Mikor az ember megvénül, olyan mint a
+                        rohadt alma – nem jól mondom? – Én vagyok az első számú hordár. Némelyek azt
+                        mondják, hogy nem hordár vagyok, hanem hordó, de miért? Mit gondol koma
+                        miért? Haha! Kend se találná ki a puskaport.</p>
+        </sp>
+        <sp who="#cuci">
+          <speaker>CUCI</speaker>
+          <p>
+            <stage>(Remegve)</stage>A főispánt is tegeztem.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Nem jó az urakkal egy tálból cseresznyézni. Mi haszna most kendnek, hogy a
+                        főispánt is tegezte? Az urak kutyának tartják a szegény embert. A kutyával
+                        is pajtáskodnak néha; nincs igazam? – Azért én csak azt mondom: ejha!
+                        Szegény koma! Haja, húrja rég kihulla, egy húron lóg az élete, egy
+                        hajszálon! Vén kutyának nincs becsülete.</p>
+        </sp>
+        <sp who="#cuci">
+          <speaker>CUCI</speaker>
+          <stage>(Hangolni és sikálni kezdi egyetlen húrját)</stage>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Maradt még mit feledni? – A főispán még fiatal nőt vesz, a vén torkos. Ugye
+                        koma, mi sem volnánk jobbak? Ejhaj! Az urak is csak olyanok, mint mi. Amíg
+                        tart. Vén ember rohadt alma – kívül még talán megy – de belül! – Nem jön az
+                        a páncélos gyík? Betörött a páncélja – hahaha. Csillog, mint a békateknő.
+                        Vörös. Szél lesz véres az este.</p>
+        </sp>
+        <sp who="#cuci">
+          <speaker>CUCI</speaker>
+          <stage>(Nyikorogni kezd azon az egy szál húron)</stage>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Ha egyszer megölnék az urakat, mind: mi lennénk az urak! Ejha! Én lennék az
+                        első! Felégetném ezt a héjascsigát! – hahaha! Kifüstölném, mint a
+                        csótánbogarat. De jó kedvem lenne! Komát megtenném főispánnak.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(A „zenére” figyelmessé lesz és előre jön)</stage>Fogja, itt egy
+                        krajcár. – Jól van, jól van.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Pénzt kapott, koma</p>
+        </sp>
+        <sp who="#cuci">
+          <speaker>CUCI</speaker>
+          <p>Mondok, illenék a tekintetes urat köszönteni – hogy oly rég nem láttuk.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Jól van, jól van, öreg. Menjen tovább, öreg.</p>
+        </sp>
+        <sp who="#cuci">
+          <speaker>CUCI</speaker>
+          <p>Szépen köszönöm a tekintetes úrnak. Az isten áldja meg.</p>
+        </sp>
+        <stage>(El.)</stage>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Pesti úr, nagyságos úr. Én tudom mi az illendőség; azért vagyok első számú
+                        hordár.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Nem vagyok nagyságos.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Voltam én már Pesten, mikor a pucokvonatot csinálták. Éjszaka is dolgoztunk,
+                        lámpásnál. Ejha! Annyi ott az utcán a ringyó, mint ősszel a pap kertjében a
+                        férges szilva. Még minket is nagyságultak; elhiszi-e? De mégis az úri ruha
+                        köll; az köll.</p>
+          <lg>
+            <l>Postás uram</l>
+            <l>Mért levelezett?</l>
+          </lg>
+          <p>A Cuci se tud már ennél különb nótát – Ej de fene szél lesz; mintha tűz
+                        volna, olyan az ég.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <stage>(Eddig megint fel-alá járt: most hirtelen megáll Pali előtt)</stage>
+          <p>Pali, ismered az anyámat.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Már hogy az öreg tekintetes asszonyt? Hogy ne ösmerném? Jó asszony; én sohase
+                        mondtam, hogy nem az; miért mondanám, Az, hogy engem mindig korhol, az csak
+                        attól van, mert azt mondják, hogy én sokat iszom; és van is benne valami. Én
+                        megmondom, ami igaz. Nem jól teszem, hogy iszom; de azért lehetek becsületes
+                        ember; nincs igazam, nagyságos úr?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Tudom, hogy jó asszony; csak egy a hibája. Ezt a házat úgy szereti, mint
+                        valami elevent; és végre is belebolondul... előbb utóbb úgyis
+                        belebolondul...</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Én mindig csak azt mondom: mindenkinek megvan a maga kedvtelése. A Cuci meg
+                        nem válna a hegedűjétől, noha nem vesz új húrt rá. Az Anna lányom, mindig a
+                        macskát dédelgette. – Ha! Rákezd ám a szél. Olyan tüzes az ég, mintha éppen
+                        ez a ház égne. No iszen, ha égne, a tekintetes asszony –</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mikor volt itt utoljára a kéményseprő?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Már rég láttam erre.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Én nem is, nem is bánnám, ha leégne! Az anyám csakis úgy, csakis úgy
+                        szabadulhatna meg ettől a rögeszméjétől... mondta a doktor is. Ha úgy szépen
+                        kigyulladna – egy szeles este – konyhán vagy padláson – véletlen
+                        szerencsétlenségképpen – azt én nem is bánnám – még inkább talán örülnék
+                        neki. Tudod. Az anyám érdekében. Be van biztosítva – hát az értéket megkapná
+                        – az anyám. Csakhogy megszabadulna a rögeszméjétől. –</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Hát – az, ilyen szeles időben, könnyen megeshetik, könnyen megeshetik...
+                        Rossz a tűzhely – az Anna nem vigyáz kellőképpen –</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ó de szép ez a piros ég – vagy most már lila... A Mariannenak van egy ilyen
+                        színű ruhája – fraise –</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Hanem akkor az Annát érheti törvény – törvény érheti az Annát.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mindent kárpótolnék – még többet is adnék – sokkal többet. – Aki az én anyám
+                        gyógyulását segíti: annak ne legyen oka panaszkodni.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Az Anna egy kicsit gyáva; de jó leány, derék leány. Meglátja a nagyságos úr,
+                        hogy derék leány.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>No. Könnyebben mint, mint gondoltam.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Tessék?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Nem magának szóltam öreg. – Itt van ni, már fennhangon monologizálok! – Most
+                        bemegyek botért, kalapért; aztán elmegyek kicsit a kaszinóba... vagy
+                        sétálni; és nem leszek itthon; érti öreg? Nem leszek itthon. Maga addig
+                        maradjon itt –</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(majdnem józanon)</stage>Jobb is lesz, csak tessék
+                            elmenni;<stage>(konfidensen)</stage>majd addig én beszélek Annával.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De igazán öreg, gondolja, hogy bízni lehet?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Amit én mondok, nagyságos úr, az biztos. Én mindig megmondom, ami igaz.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(A lakásajtóig érve visszaszól)</stage>aztán egy szót se erről
+                        senkinek; érti?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Miről?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Hát – amit – amiről beszéltünk.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Csak tessék nyugodtan elmenni – bízza rám nagyságos úr – nem vagyok én
+                        részeg.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ó erről mégis elfeledkeztem! – Hova jutottam! Iszákos! A doktor meg ez – No!
+                        Minden jó, ha vége jó.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Csak tessék nyugodtan elmenni – engem ér baj először – Hanem aztán – mert
+                        most vonatra mehetnék.</p>
+        </sp>
+        <stage>(Károly bemegy. A szín mindjobban elsötétedik, a szél már hallhatóan dúdol, a
+                    faágak hajlonganak, a kert üveggömbjei barnafényűek, a sötét violaszínű ég alól
+                    szinte impozánsan villog elő a Simóné háza.)</stage>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <stage>(Ködmenét vállára vetve, a hátsó konyha felé közelegve)</stage>
+          <lg>
+            <l>Postás uram –</l>
+            <l>Mért levelezett</l>
+            <l>Míg a tengeren</l>
+            <l>Át nem evezett?</l>
+            <l>Ejhaj! Most kéne a Cuci!</l>
+          </lg>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>
+            <stage>(Jön a konyhából)</stage>A sárkány bement a fiához; hallom a hangját,
+                        most kisurranhattam. – Hogy-hogy mégis itt van? – No! Olyan komolyan néz,
+                        majd egészen józan. Mi lelte?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Anna! Akarsz-e pénzt kani?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Min jár az esze megint?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Akarod-e a sárkányodat megkínozni, he? Itt a tromf. Látod: mindig mondtam én:
+                        az isten ad néha a szegény embernek is egy kis elégtételt. Még ha nem kapnék
+                        is pénzt érte, jólesne a májamnak.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>No mondja ki hát ami a begyében van, ne beszéljen mindig rébuszokban.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Betüzelsz neki Nani, betüzelsz. Hahaha. Felégeted ezt a kalitkát, kifüstölöd
+                        a sárkányt a barlangjából. Ejhaj! Az lesz ám valami, ha a pipámat ennek a
+                        boszorkányháznak a tüzén gyújthatom meg!</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Menjen haza aludni.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Az az utolsó, mikor az embert a saját lánya leckézteti. Ha mondom, hogy
+                        kipörköljük ezt a sasorrú bábát. Ürgét vízzel, banyát tűzzel. Akárha
+                        lepényzsindely volna, mint az egyszerinél.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>No ne fantáziáljon itt már, mint egy gyerek, hanem beszéljen okosan, vagy
+                        menjen aludni.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Anna, te okos lány vagy, nagyon is okos vagy; kukaforma, de okos. Én mindig
+                        azt mondtam: az Anna nem sokat szól, de helyén az esze. Tudod, hogy a
+                        szegény polgármester mindig úgy van mint a kutya a kútban. Úri rokk a bilét
+                        a nagyvilágba; szegény ember háza fügefészek. – Szereted az asszonyodat,
+                        mi?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Isten ments.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Megfojtanád egy kanál vízbe, hehehe. De te is csak olyan lányszemély vagy,
+                        mint a Róza nénéd. A múltkor is hogy látom, mondom neki. Róza nézi – mondok
+                        – kendnek csak jó a sora: hol jobbról ül, hol balról a padkán.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Nem ülhetek én a padkán, tudja jól.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Még majd tán henyélhetsz ott is. Látod Anna, eddig azt mondtam; ne bántsd!
+                        Csigát ha eltapossák: azontúl kutya baja: nem igaz? Törd be a házát; hóttig
+                        fáj neki. Égesd föl! Bár belefulladna a büdös füstjibe! De nem: élje túl és
+                        ríjon utána. Fűts be neki. Ejhaj! Ez éppen jókor jött. Azt mondja az úr:
+                        gyújtsd föl az anyám házát! Jól van, mondok, fölgyújtom; - de jó pénzért.
+                        Keni a markodat, mondja az úr. Keni a markodat, pörköli a sarkodat: nem jól
+                        mondom?! Ejhaj! Ne gondolj a törvénnyel. Értek én a törvényhöz: azért vagyok
+                        hivatalos személy; első számú. Azt fogják mondani: vigyázatlanság. Mikor a
+                        Tám Julis kútba dobta a hatodik magzatját, mert sokallta már: arra is azt
+                        mondták, hogy: vigyázatlanság. Úrral cimborálsz: ne félj a törvénytől. Keni
+                        a markodat: mit bánsz egy kis dutyit?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Nem félek én már a törvénytől; nem árthat már énnekem a törvény. De mondja.
+                        Lehet-e hinni a szavában? Nem megint a bor beszél-e belőle? – mit ér
+                        okoskodni?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Tiszteljed atyádat és anyádat. Szegény anyád – törvény előtt a hitvesem volt,
+                        hát nem akarok róla rosszat mondani. De amit én mondok, az igaz. Láttál
+                        valaha úgy, hogy a bor elvette az eszemet? Ha iszom, iszom, mert az nekem
+                        jólesik, kinek mi köze hozzá? Nem jól teszem, hogy iszom, de nem bántok vele
+                        senkit. Hanem amit mondok, az igaz, azt te tudhatod Hát csak gyorsan, az úr
+                        mindjárt elmegy hazulról, addig. Majd sütszfőzöl ugye? Rossz a kémény úgyis.
+                        Hamar, az a fő. Majd elmész utána Gyüdbe; lebúcsúzod.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Nem félek én az Úristentől se. Se mennyország nincs, se pokol nincs, se
+                        tisztítóhely nincs. Azt csak a papok mondják. Aki meghal, nincs abba több
+                        élet.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>A papok is ígérgetnek mennyországot, a cucilisták is, de én mindig csak azt
+                        mondom: ez mind egykutya. Jobb ma egy veréb, mint holnap egy réce. Csak rakd
+                        a tüzet! Süss-főzz nekik! Ha jó a fiának, úgy kell az anyjának. Ki-ki egye a
+                        főztjét. Gyere –</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Nem, maga csak menjen most hogy ne is lássák itt, mert még gyanúba
+                        fogják.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Igazad van Anna, okos leány vagy; mindig mondtam én. Megyek: iszom egyet –
+                        előre. Ejha! Most nem sajnálom a pénzt. Ha meglesz, elhívom az öreg Cucit
+                        is, legyen szegény ördögnek egy jó napja.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Csak ki ne fecsegne valamit.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Minek nézel engem? Volt nekem dolgom nagyobb urak titkával is: azért vagyok
+                        hivatalos hordár: az első számú, hogy ne tudjam fogni a számat, ha kell –
+                        Hoppsza! De sötét van már.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>Nem soká lesz sötét Fúj a szél: mindjárt égni fog.</p>
+        </sp>
+        <stage>(Anna be a konyhába. Pali el a kapun. Várakozás, teljes csönd, üres színpad.
+                    Felhős, sötét est. A szél fütyül és zörög a kitört ablaktáblán. A szünet sokáig
+                    tart, úgy, hogy a néző már nyugtalanul és feszélyezve érzi magát. Végre Károly
+                    jön a szobából, bottal, kalappal. Simóné kikíséri.)</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Csak aztán vacsorára hazajöjj ám; elég jó vacsoránk lesz.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mindjárt megjövök; csak egy kicsit levegőzni megyek; mert fáj a fejem.</p>
+        </sp>
+        <stage>(Amint búcsúznak, Simóné elérzékenyedik és megcsókolja.)</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Látod, édes fiam, tudtam én, hogy nem akarsz te az édesanyádnak rosszat. Nem
+                        akarhatod te elvenni szegény özvegy anyádtól az utolsó hajlékát. Jó szíved
+                        van neked. Nem akarhatsz te rosszat anyádnak. Tudod, az jutott eszembe, amit
+                        egyszer hallottam, hogy a doktor mondott rólam, és érzem, hogy igaz: ha ezt
+                        a házat elvennék tőlem, megőrülnék.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>A doktor mondta.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>És érzem, hogy igaz. Hidd el, én megőrülnék. Én nem tudnám elviselni. Ne
+                        nevess ki, de mikor csak álmodtam is egyszer, hogy leégett a házam.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De hiszen be van biztosítva a háza.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>
+            <stage>(Nevet)</stage>Mit ér az fiam, ha már egyszer leégett? Azt hiszed
+                        fiam, hogy nekem csak egy ház kell, és akkor boldog vagyok? Ne hidd azt
+                        fiam. Látod én szegény öreg asszony vagyok, de ebben a házban akarok
+                        meghalni, ahol édesapáddal éltem, ahol te születtél. Éppen ebben a házban,
+                        amely nekem az emlékek kincsesbányája lett. – Szeles idő van, nem kellene
+                        őszi kabátot venned?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Szeles idő van!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Ilyenkor a legkönnyebb meghűlni. Szegény édesapád is így kapott
+                        tüdőgyulladást – sírba vitte. Ott halt meg – az udvari szobában. Ha ő élne,
+                        ez a ház már emeletes volna.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De – mama, tegyük fel – ha leégne a háza, a biztosított összegből éppen
+                        ilyent építhetne újra.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Ne beszéljünk erről, fiam; úgyis azt vetik édesanyádnak szemére, hogy
+                        kellemetlen dolgokról szeret beszélni. Tudod, hogyha már meg kellene válnom
+                        a házamtól: százszor inkább eladnám a te kedvedért, ha tudnám, hogy igazán a
+                        pályádat és nem csak a boldogtalanságodat mozdítanám vele elő: akkor
+                        legalább láthatnám – néha – messziről – nyugodt volnék, hogy megvan,
+                        reményem volna, hogy tán még visszaszerezhetem – mint hogyha fölégni látnám
+                        – ó, az borzasztó volna! Ne is említsd.–</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De - szeles az idő – ilyenkor –</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Fiam! – Károly! Mi az? –</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(Hirtelen görcsös sírásba tör ki.)</stage>Édesanyám! – Édesanyám! Hova
+                        süllyedtem?! Gyújtogató lettem! Soha, soha nem képzelhettem volna! Az én
+                        nagyravágyásom az oka mindennek. Nem születtem én Napóleonnak. De mikor
+                        olyan, olyan üres volt a világ! Betelik rémmel! Olyan sivár! De mégis – ha a
+                        Marianne nem jutott volna eszembe, nem lett volna – nem lett volna semmi.
+                        –</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Mi lett? - Mi lett? -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Én! Gyújtogató! Csaló! Anyám sírba vivője! Anyám! Édesanyám!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Mondd hamar! Mit tegyek? Hova menjek? Hova szaladjak? Az Istenért!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Hátha benn égtél volna!<stage>(Meredten áll!!)</stage>
+          </p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Hamar!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ha nem lett volna szeles idő - nem lett volna semmi. Ha nem akartam volna
+                        házasodni, nem lett volna semmi! Ilyet! Ebből! Pénzért házasodni! Mi több: a
+                        pénz, vagy a test?! Tisztességesen kellett volna!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Hamar!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Most – se pénz, se posztó! Hiába! Minden hiába! Mit ér? A rab – gonosztevő! –
+                        felgyújtja a börtönét és – bennég! Bennég! Örökre ég, mint a csipkebokor! –
+                        Anyám! Édesanyám!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>
+            <stage>(Kezeit kulcsolja)</stage>Mondd! – Hamar!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>A doktor tudja – meg az az iszákos – csak ne fecsegne - Istenem! Istenem!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>
+            <stage>(Sikolt)</stage>A doktor!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Exaltált bolondok vagyunk valamennyien! Miért szültél? s ilyennek!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Fiam nézd! Az Istenre könyörgök – nem ér semmit a kétségbeesés – az
+                        izgatottság – Szegény apád is mindig azt szokta mondani. fő a hidegvér. –
+                        Nem lesz semmi baj - nézd - hisz anyád megbocsát neked. –</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Te vagy az oka mindennek, éppen te! és most a kedvedért, a te kedvedért
+                        rontottam el minden<note type="editorial">mindent</note>! Éppen a te
+                        kedvedért!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <stage>(Hangja az utcáról)</stage>
+          <lg>
+            <l>Postás uram -</l>
+            <l>mért levelezett</l>
+          </lg>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(Ökölbe fogja jobbját)</stage>A nyomorult!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Ó az! Ó az!<stage>(A kapuhoz fut, kitárja; Pali előtte áll; igen részeg
+                            hangosan kacag.)</stage>
+          </p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(A szín közepén maradva, kezét a homlokára nyomja)</stage>A fejem!
+                        Fáradt vagyok! Nem lehetne minden a régiben?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Én mindig csak azt mondom: mindenkinek megvan a maga kedvtelése. Egy kis
+                        itóka egész lelket önt az emberbe.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Részeg disznó! Ha meg mered tenni, becsukatlak.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Én, tekintetes asszony? Hahahaha! Mit merek én tenni?</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Ez a hála, hogy a lányodat felfogadtam, nevelem? Ki vele, vén bolond, mit
+                        akartál tenni?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Mit tehet ilyen szegény ember? Én mindig csak azt mondom, szegény ember
+                        bújjon el!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ne bántsa, mama, nem lesz semmi baj. Talán nem lesz semmi baj. – Pali, azt
+                        mondom neked, valami közbejött és most én akarom, érted? Én, hogy ne hajtsd
+                        végre, amivel megbíztalak.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Ne vigyem le a vasútra a pakkját, mikor elutazik?</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Ne tedd magad, ázott róka, mert kikaparom a szemedet.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Mama, az Istenre kérem, csak higgadtan. Engem is kivesz a sodromból
+                        megint.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(Simónéhoz)</stage>Boszorkányhoz illenék. Az én fejemet nem zavarja
+                        meg a bor soha. Nem emlékszem, hogy mást tetszett volna parancsolni.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Nem is fog mást végrehajtani, ugye? Mondja, hogy nem fog mást
+                        végrehajtani!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Ha azután eszembe ötlene valami más megbízása a nagyságos úrnak; majd funtra
+                        tesszük –</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ne bántsa mama. Fortélyos a szemtelen: azt akarja, hogy megfizessem. –
+                        Megfizetlek gazember, megadok amit kívánsz, csak ne tedd meg ezt – ezt ne
+                        tedd meg!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(Vigyorogva)</stage>Nem pénzért teszem. – De mivel tetszett
+                        megbízni?</p>
+        </sp>
+        <stage>(A szél hallhatóan süvit.)</stage>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ne bántsa mama. – Tudod te jól, gazfickó, tudod te jól! - Nem, nem bíztalak
+                        meg semmivel, hazudsz. – Próbára akartalak tenni, nyomorult, és látom, hogy
+                        képes volnál pénzért gyújtogatni; gyújtogatni!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Felgyújtani egy szegény özvegyasszony házát.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Csak a fiának tenném, nincs igazam nagyságos úr? Én csak azt mondom: ha
+                        kaptam is a nagyságos úrtól némely megbízást, tudnám én, mit tegyek, dobra
+                        üssem-e; azért vagyok az első számú hordár. A nagyságos úr is azt mondta: ne
+                        járjon a szád, csak tedd meg amit mondtam. Van annyi ez már, hogy ha
+                        visszamondják is: csak mások előtt mondják vissza. Nem vagyok én részeg.
+                        Látja a nagyságos úr, én jobban tudok titkot őrizni, mint maga.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>De ha nem vagy részeg, hát érts meg hát: nem akarom, igazán én nem akarom.
+                        Érts meg, higgy nekem. Csak hiszel nekem.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Tudom én, mit kell tenni. Van sütnivalóm</p>
+        </sp>
+        <stage>(A szél süvit. Felhők kavarognak.)</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Szegény, szegény házam.<stage>(Sír)</stage>
+          </p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Nem, mama nem lesz semmi baj, menjen csak egy kicsit be mama; tegye meg
+                        nekem; majd beszélek én ennek a fejével.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Ne fáradjon, tekintetes asszony; nem érdemes.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Hála neked úristen! Már azt hittem, hogy sohase fogok megszabadulni – mint a
+                        bűvészinas – a felidézett szellemeitől. Egy részeg paraszt miatt!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Részeg paraszt! Részeg kutya! Szegény ember kutya! meg disznó! – De! – Kell
+                        nekem az urak büdös pénze! Én azt teszem, amihez kedvem van, – a magam
+                        kedvére teszem. Ejhaj! Csak ropogjon - lobogjon. – Bár már érezném a
+                        szagát!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Legyen eszed Pali, ne olyan hangosan, világ hallatára! Mennyit kívánsz?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Tartsák meg a pénzüket. Kell a fenének a pénzük. Most az ördög se parancsol
+                        nekem. A bor mégiscsak lelket önt a vénemberbe is. Csak olyan legény vagyok,
+                        mint akárki. Lobogjon, ropogjon. Senki se sajnálja.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Nevelem a lányát! –</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Cselédnek. Csupa könyörületességből ingyen cselédet! Ah a ti jóságos pofátok!
+                        Nem jól teszem, hogy iszom.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Agyonverted volna.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>És ha vertem is né ha<note type="editorial">néha</note> – az én leányom! Az
+                        enyém, érti, nem a magáé, vén boszorkány! Ha vertem is néha: ő még többet
+                        leckézett engem és kinek mi köze hozzá?</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Hagyja maga, tisztára bor beszél belőle.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Anna szeretett engem.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Hahaha. Mint a kecske a kést. Ha! Égni fog a kedves háza, ha beledöglöm is –
+                        éppen Annáért.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Eddig szép szóval beszéltem veled, hanem most már azt mondom, vége legyen
+                        ezeknek a hercehurcáknak, sok haszontalan beszédnek: mert van ám akkora
+                        hatalmam, hogy megvédelmezzem az anyám házát, ha akarom! Tudod milyen
+                        büntetés vár a gyújtogatókra -</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>És ha kiderülne az igazság? Hehehe! Én megmondom, ami igaz. Az Istennek is
+                        megmondom ami igaz.</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ki hisz neked sehonnai bitang? Züllött éhenkórász, ki hisz neked? Az hiszed,
+                        neked inkább hisznek, mint nekem? Te aljas naplopó!<stage>(Pofon
+                            üti)</stage>
+          </p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Fiam!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>No-no – megálljon az úr – megálljon az úr, ezt megkeserüli. Ezt még
+                        megkeserüli. Ha felakasztanak se bánom. Kikiáltom az egész városba – az
+                        egész vármegyébe: – a Simó nagyságos úr, a Simóné tekintetes asszony fia –
+                        csaló! gyújtogató! Uraknak mindent szabad. Szegény ember kutya. Ezt
+                        megkeserüli. Égni fog a háza, ha felakasztanak is!</p>
+        </sp>
+        <stage>(A ház felett a túlsó oldalról erősen sötétedik, nem tudni, füste vagy
+                    felhő.)</stage>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ne bántsa mama – már nyugodt vagyok – nem érdemes törődni a gazemberrel – el
+                        kell fogatni – kár volt eddig is beszélni vele – el kell mindjárt fogatni. -
+                        Hogy erre előbb nem gondoltam! Lám a rossz lelkiismeret! De ki hisz neki! Be
+                        kell kísértetni - izenni a városházára - nem lármát ütni - itt van egy
+                        részeg - nem lehet semmi baj.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Úgy? Azt hiszik, ha engem becsukatnak, avval aztán jól van minden? De nem
+                        addig van a! Engem becsukathatnak! De azért a házuk a büdös, ronda,
+                        istenvert házuk égni fog. Ha felakasztanak is, égni fog.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Milyen szag van itt? Jesszus!</p>
+        </sp>
+        <stage>(A szél süvit. Nagy füsttömegek kavarognak.)</stage>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Az Anna! Erre nem gondoltam! Hogy erre nem!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Igenis tekintetes asszony, az Anna, akit maga nevelt, maga, aki magát úgy
+                        szereti, mégsem olyan kuka, buta lány, mint amilyennek látszik – az Anna
+                        -</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Anna! – hamar – vele kell beszélni -</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Beszélhet már avval a nagyságos úr – menjen beszélni a pesti szeretőivel -
+                        akire a pénz kéne – az Anna derék lány, mindig mondtam én. – Szidd a füstöd,
+                        banya!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Jesszus! Jesszus! A házam! Jesszusom! Istenem, miért mérted ezt rám? Mit
+                        tegyek? Hamar – Gazemberek! Gazemberek!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(Kezét a homlokára)</stage>Miért is jöttem ide? Átkozott. Se pénz, se
+                        – Miért is, miért is – vagyok olyan – gyenge –</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <lg>
+            <l>Postás uram</l>
+            <l>mért levele-zett? –</l>
+            <l>Ha felakasztanak is!</l>
+            <l>Míg a – tengeren -</l>
+          </lg>
+          <p>Ejhaj! De idepasszul ez a nóta -</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>
+            <stage>(Kiront a házból, a konyha felől)</stage>Jézus Mária! Segítség! Tűz
+                        van! Tűz van!</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>
+            <stage>(nekiront)</stage>Haszontalan teremtés!</p>
+        </sp>
+        <stage>(A ház túlsó oldaláról lángok csapnak fel, a füsttől meglehetősen elnyelve. A
+                    ház mögül a másik utcáról kiáltás hallatszik.)</stage>
+        <sp who="#nep">
+          <speaker>HANG</speaker>
+          <p>
+            <stage>(Az utcáról)</stage>Tűz van! Tűz van!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Késő bánat – ebgondolat.</p>
+        </sp>
+        <stage>(Az utcáról futó lépések, lárma. Beszalad néhány utcagyerek és egy
+                    öregasszony. A szél nagyon fúj, a füst elönti a színpadot.)</stage>
+        <sp who="#nep">
+          <speaker>HANGOK</speaker>
+          <p>Az öreg Simóné háza...</p>
+          <p>- Hátul gyulladt ki.</p>
+          <p>- Hol a tűzoltók?</p>
+          <p>- Vizet!</p>
+        </sp>
+        <stage>(Távolról két lövés hallatszik.)</stage>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Örökre börtönben! – Megadtam az árát – Ó! Marianne -</p>
+        </sp>
+        <stage>(Senki sem törődik vele.)</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>A házam! a házam! – Mit ér már? – Mennybéli szent atyám, miért mérted ezt
+                        rám, épp rám!</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>HANG</speaker>
+          <p>
+            <stage>(A kapuban)</stage>Biztosítva van háza?</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>MÁSIK</speaker>
+          <p>Nem látod?</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>EGY ÖREGASSZONY</speaker>
+          <p>Merre tartja tekintetes asszony a pénzét? Ejnye Pali, mit áll itt, mint egy
+                        szent? Menjen, segítsen megmenteni a tekintetes úrnak a pénzt! Nem
+                        hallja?</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>EGY SUHANC</speaker>
+          <p>Részeg megint.</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>MÁS</speaker>
+          <p>Ha! A Simóné, éppen! Ez nagyszerű. Úgy kell neki.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA</speaker>
+          <p>
+            <stage>(Lányokhoz)</stage>Én nem tudom, mit lármáz megint rám? Mindig ilyen:
+                        bűnbak kell neki.</p>
+        </sp>
+        <stage>(A harang megadja a vészjelet. Kongatás. Az udvar megtelik néppel. Nevető,
+                    kíváncsi publikum; megismerhetők az utcakölykök, akik a darab elején felléptek.
+                    A szomszéd fűszerkereskedő egy nadrágban és ingben. Parasztasszonyok,
+                    sopánkodva; cselédlányok. Néhány diák – A tűzoltókocsi robaja, megáll a ház
+                    előtt. Hallatszik, amint leugrálnak róla. Nagy, folytonos moraj; s egy pár
+                    percig szünet, csak susogás. A főszemélyeinket eltakarja a nép a néző elől. A
+                    tűz folyton pattog, ropog; láng már jobban látszik, a szél sivít. Füst és
+                    fény.)</stage>
+        <sp who="#nep">
+          <speaker>A FŰSZERKERESKEDŐ</speaker>
+          <p>Már egészen jól ég.</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>A MELLETTE ÁLLÓ</speaker>
+          <p>Bizonyosan megint valami gondatlanság.</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>EGY DIÁK</speaker>
+          <p>Régen volt már ilyen látványosság Sátorfán.</p>
+        </sp>
+        <stage>(A tűzoltók helyet csinálnak; a szivattyút beállítják. A tisztult tér mögött
+                    feltűnik a Simóné siránkozó fekete alakja. Az orvos is jön.)</stage>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>A házam! Egyetlen vagyonom, örömöm, reményem, mindenem! Szegényt az ág is
+                        húzza. A házam! A ház, ahol az uram meghalt, – a fiam született! Az egész
+                        világ az én ellenségem. Én vagyok a leg – a legszerencsétlenebb a világon! A
+                        házam! A házam!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>Ne neked, reményeim bitója! Siralomházam! Börtönöm! Megégsz ugye? És már
+                        hiába! Nekem hiába! Hiába! Anyám! Édesanyám! Ne a házát sirassa, hanem a
+                        fiát.</p>
+        </sp>
+        <sp who="#cuci">
+          <speaker>CUCI</speaker>
+          <stage>(Megjelenik a hegedűjével és egyetlen húrján élesen játszani
+                            kezd.)</stage>
+        </sp>
+        <sp who="#major">
+          <speaker>MAJOR, A TŰZOLTÓPARANCSNOK</speaker>
+          <p>Félre öreg! Munkához!</p>
+        </sp>
+        <sp who="#utcagyerekek">
+          <speaker>EGY UTCAGYEREK</speaker>
+          <p>Nagyszerű, hogy éppen a sárkány háza. Hogy sír.</p>
+        </sp>
+        <sp who="#tuzoltok">
+          <speaker>EGY TŰZOLTÓ</speaker>
+          <p>Félre az útból, vagy segíteni!</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>EGY LÁNY</speaker>
+          <p>
+            <stage>(Aki vizet hord, egy legényhez)</stage>Ne lábatlankodjon itt, hallja,
+                        mert nyakon öntöm!</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>EGY ÖREGASSZONY</speaker>
+          <p>Bizony – nagy szerencsétlenség.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Hogy az a jóságos Isten is mindent a szegény özvegyasszony vállára zúdít! A
+                        fiam az oka! Én vagyok az oka! Égj! Égj! – Nem viselhetem el.</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>EGY SÉTÁLÓ</speaker>
+          <p>Szegény öregasszony. Sajnálom.</p>
+        </sp>
+        <sp who="#major">
+          <speaker>MAJOR</speaker>
+          <p>Tessék kérem félre állni, ha már nem segít. Mi megteszünk minden lehetőt.</p>
+        </sp>
+        <stage>(Néhány helybeli úr is odavetődik az udvarra, felsőkabátban, bottal; köztük
+                    Balog járásbíró és az orvos.)</stage>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Alászolgája, jó napot kívánok; hát hogy van?</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Jaj, még a közelébe sem engednek – a közelébe sem engednek – a közelébe sem
+                        -</p>
+        </sp>
+        <sp who="#tuzoltok">
+          <speaker>EGY TŰZOLTÓ</speaker>
+          <p>Bizony jobb is lenne, ha elmenne valahova. Félre!</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>EGY POLGÁREMBER</speaker>
+          <p>Mit jajgat úgy? Hiszen biztosítva van. ha énnekem be volna biztosítva!</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>Hm. Hm.</p>
+        </sp>
+        <sp who="#simone">
+          <speaker>SIMÓNÉ</speaker>
+          <p>Mit ér az már nekem? – mit ér – mit ér?</p>
+        </sp>
+        <sp who="#balog">
+          <speaker>BALOG</speaker>
+          <p>És nem akar ám szűnni ez a szél.</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>MÁSIK ÚR</speaker>
+          <p>Éppen itthon volt a fia az öregasszonynak.</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>HARMADIK</speaker>
+          <p>Hol is él a fia?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(Hirtelen, váratlanul elneveti magát.)</stage>Hahaha!</p>
+        </sp>
+        <sp who="#karoly">
+          <speaker>KÁROLY</speaker>
+          <p>
+            <stage>(Rárohan)</stage>Gazember! Gazember! Ördög!</p>
+        </sp>
+        <sp who="#balog">
+          <speaker>BALOG</speaker>
+          <p>Bolond a fia is, mint az anyja.</p>
+        </sp>
+        <sp who="#nep">
+          <speaker>MÁSIK ŰR<note type="editorial">ÚR</note>
+          </speaker>
+          <p>Olyan volt az egész család.</p>
+        </sp>
+        <sp who="#major">
+          <speaker>MAJOR</speaker>
+          <p>Oltsátok! – Vizet!</p>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <p>
+            <stage>(Gondolkozva)</stage>Vizet! Több hideg vizet!</p>
+        </sp>
+        <stage>(Cuci hegedül.)</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

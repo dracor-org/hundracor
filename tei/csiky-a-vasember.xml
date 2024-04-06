@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000010">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000010" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +66,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -153,8 +150,14 @@
           <person sex="FEMALE" xml:id="anna">
             <persName>ANNA</persName>
           </person>
-          <person sex="MALE" xml:id="közszolga">
+          <person sex="MALE" xml:id="kozszolga">
             <persName>KÖZSZOLGA</persName>
+          </person>
+          <person xml:id="andor" sex="MALE">
+            <persName>ANDOR</persName>
+          </person>
+          <person xml:id="varhelyi" sex="MALE">
+            <persName>VÁRHELYI</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -188,14 +191,10 @@
     <body>
       <div type="act">
         <head type="title">ELSŐ FELVONÁS</head>
-        <p>
-          <stage>Terem.</stage>
-        </p>
+        <stage>Terem.</stage>
         <div type="scene">
           <head type="title">Első jelenet</head>
-          <p>
-            <stage>EDITH az ablak mellett ül, olvasva; SZENTGÁLI jő</stage>
-          </p>
+          <stage>EDITH az ablak mellett ül, olvasva; SZENTGÁLI jő</stage>
           <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
@@ -216,13 +215,13 @@
               <l>Az illendőség mindenek fölött.</l>
             </lg>
           </sp>
-          <sp who="edith">
+          <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
               <l>Az illetlenség stylszerű e házban.</l>
             </lg>
           </sp>
-          <sp who="szentgali">
+          <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
               <l>Leány, leány, nem ismerek reád.</l>
@@ -237,7 +236,7 @@
               <l>S nem váltották fel a gonosz manók.</l>
             </lg>
           </sp>
-          <sp who="edith">
+          <sp who="#edith">
             <speaker>EDITH</speaker>
             <stage>(eldobva könyvét:</stage>
             <lg>
@@ -255,13 +254,13 @@
               <l>S mit eddig nagyra tarték, megvetém.</l>
             </lg>
           </sp>
-          <sp who="szentgali">
+          <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
               <l>Atyádat is?</l>
             </lg>
           </sp>
-          <sp who="edith">
+          <sp who="#edith">
             <speaker>EDITH</speaker>
             <stage>(Szentgáli vállára hajol):</stage>
             <lg>
@@ -271,7 +270,7 @@
               <l>E rút világnak.</l>
             </lg>
           </sp>
-          <sp who="szentgali">
+          <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
               <l>Rút világ! Ugyan</l>
@@ -279,7 +278,7 @@
               <l>Rútabb, mint másutt?</l>
             </lg>
           </sp>
-          <sp who="edith">
+          <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
               <l>Mert itt tépte le</l>
@@ -300,7 +299,7 @@
               <l>Atyám, atyám! miért hoztál ide?</l>
             </lg>
           </sp>
-          <sp who="szentgali">
+          <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
               <l>No, no... csak illedelmesen, leány!</l>
@@ -320,7 +319,7 @@
               <l>Munkából él s nem kegyelemkenyéren?</l>
             </lg>
           </sp>
-          <sp who="edith">
+          <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
               <l>A munkát nem szégyenlem; az igaz</l>
@@ -338,7 +337,7 @@
               <l>Menjünk e helyről!<stage>(Szentgáli keblére borul.)</stage></l>
             </lg>
           </sp>
-          <sp who="szentgali">
+          <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <stage>(Edith haját simogatva):</stage>
             <lg>
@@ -350,9 +349,7 @@
         </div>
         <div type="scene">
           <head type="title">Második jelenet.</head>
-          <p>
-            <stage>ELŐBBIEK, BÁRDI.</stage>
-          </p>
+          <stage>ELŐBBIEK, BÁRDI.</stage>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <lg>
@@ -414,16 +411,12 @@
             </lg>
           </sp>
           <sp who="#edith">
-            <p>
-              <stage>(némán meghajtja fejét s el).</stage>
-            </p>
+            <stage>(némán meghajtja fejét s el).</stage>
           </sp>
         </div>
         <div type="scene">
           <head type="title">Harmadik jelenet.</head>
-          <p>
-            <stage>BÁRDI, SZENTGÁLI.</stage>
-          </p>
+          <stage>BÁRDI, SZENTGÁLI.</stage>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <lg>
@@ -633,9 +626,7 @@
         </div>
         <div type="scene">
           <head type="title">Negyedik jelenet</head>
-          <p>
-            <stage>ANDOR, BÁRDI.</stage>
-          </p>
+          <stage>ANDOR, BÁRDI.</stage>
           <sp who="#andor">
             <speaker>ANDOR</speaker>
             <lg>
@@ -839,9 +830,7 @@
         </div>
         <div type="scene">
           <head type="title">Ötödik jelenet.</head>
-          <p>
-            <stage>ELŐBBIEK, VÁRHELYI.</stage>
-          </p>
+          <stage>ELŐBBIEK, VÁRHELYI.</stage>
           <sp who="#varhelyi">
             <speaker>VÁRHELYI</speaker>
             <lg>
@@ -970,9 +959,7 @@
         </div>
         <div type="scene">
           <head type="title">Hatodik jelenet</head>
-          <p>
-            <stage>ELŐBBIEK, BRÁZ (nagy csomag levéllel).</stage>
-          </p>
+          <stage>ELŐBBIEK, BRÁZ (nagy csomag levéllel).</stage>
           <sp who="#braz">
             <speaker>BRÁZ</speaker>
             <lg>
@@ -1049,9 +1036,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>ANDOR, EDITH.</stage>
-          </p>
+          <stage>ANDOR, EDITH.</stage>
           <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
@@ -1246,10 +1231,8 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>BÁRDI, ANNA, ANDOR.</stage>
-          </p>
-          <sp who="bardi">
+          <stage>BÁRDI, ANNA, ANDOR.</stage>
+          <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(kezében nyitott levéllel)</stage>
             <lg>
@@ -1566,9 +1549,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>BÁRDI, BRÁZ.</stage>
-          </p>
+          <stage>BÁRDI, BRÁZ.</stage>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(az asztalhoz siet s hevesen megüti a csengetyűt).</stage>
@@ -1627,9 +1608,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENET</head>
-          <p>
-            <stage>BÁRDI, SZENTGÁLI, EDITH.</stage>
-          </p>
+          <stage>BÁRDI, SZENTGÁLI, EDITH.</stage>
           <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
@@ -1847,9 +1826,7 @@
         </div>
         <div type="scene">
           <head type="title">Tizenegyedik jelenet.</head>
-          <p>
-            <stage>ELŐBBIEK, ANDOR, ANNA.</stage>
-          </p>
+          <stage>ELŐBBIEK, ANDOR, ANNA.</stage>
           <sp who="#andor">
             <speaker>ANDOR</speaker>
             <stage>a mellékajtón berohan, s látszik, amint Anna karjaiból kiragadja magát)</stage>
@@ -1885,21 +1862,15 @@
               <stage>(Gyorsan el Szentgálival.)</stage>
             </lg>
           </sp>
-          <p>
-            <stage>A függöny legördül.</stage>
-          </p>
+          <stage>A függöny legördül.</stage>
         </div>
       </div>
       <div type="act">
         <head type="title">MÁSODIK FELVONÁS</head>
-        <p>
-          <stage>Szoba.</stage>
-        </p>
+        <stage>Szoba.</stage>
         <div type="scene">
           <head type="title">Első jelenet</head>
-          <p>
-            <stage>BRÁZ, VÁRHELYI.</stage>
-          </p>
+          <stage>BRÁZ, VÁRHELYI.</stage>
           <sp who="#braz">
             <speaker>BRÁZ</speaker>
             <stage>(az íróasztal mellett állva, leveleket és hírlapokat rendez)</stage>
@@ -2138,9 +2109,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>ELŐBBIEK, BÁRDI.</stage>
-          </p>
+          <stage>ELŐBBIEK, BÁRDI.</stage>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <lg>
@@ -2201,9 +2170,7 @@
         </div>
         <div type="scene">
           <head type="title">Harmadik jelenet</head>
-          <p>
-            <stage>BÁRDI, BRÁZ.</stage>
-          </p>
+          <stage>BÁRDI, BRÁZ.</stage>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(az íróasztal elé ül)</stage>
@@ -2519,9 +2486,7 @@
         </div>
         <div type="scene">
           <head type="title">Ötödik jelenet.</head>
-          <p>
-            <stage>BÁRDI, ANDOR.</stage>
-          </p>
+          <stage>BÁRDI, ANDOR.</stage>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(fölkel)</stage>
@@ -2722,9 +2687,7 @@
         </div>
         <div type="scene">
           <head type="title">Hatodik jelenet</head>
-          <p>
-            <stage>BÁRDI, majd ANNA.</stage>
-          </p>
+          <stage>BÁRDI, majd ANNA.</stage>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(legnagyobb indulattal a csengetyűhöz siet, hevesen megüti, egy inas belép s
@@ -2817,9 +2780,7 @@
         </div>
         <div type="scene">
           <head type="title">Hetedik jelenet</head>
-          <p>
-            <stage>BÁRDI, EDITH.</stage>
-          </p>
+          <stage>BÁRDI, EDITH.</stage>
           <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
@@ -3126,9 +3087,7 @@
         </div>
         <div type="scene">
           <head type="title">Nyolcadik jelenet</head>
-          <p>
-            <stage>ELŐBBIEK, VÁRHELYI.</stage>
-          </p>
+          <stage>ELŐBBIEK, VÁRHELYI.</stage>
           <sp who="#varhelyi">
             <speaker>VÁRHELYI</speaker>
             <stage>(sietve jő, kezében a nyitott levéllel, mialatt az inas, ki ajtót nyitott előtte,
@@ -3177,9 +3136,7 @@
         </div>
         <div type="scene">
           <head type="title">Kilencedik jelenet</head>
-          <p>
-            <stage>ELŐBBIEK, ANDOR.</stage>
-          </p>
+          <stage>ELŐBBIEK, ANDOR.</stage>
           <sp who="#andor">
             <speaker>ANDOR</speaker>
             <lg>
@@ -3306,9 +3263,7 @@
         </div>
         <div type="scene">
           <head type="title">Tizedik jelenet</head>
-          <p>
-            <stage>ANDOR, BÁRDI.</stage>
-          </p>
+          <stage>ANDOR, BÁRDI.</stage>
           <sp who="#andor">
             <speaker>ANDOR</speaker>
             <stage>(székre roskad)</stage>
@@ -3348,9 +3303,7 @@
         </div>
         <div type="scene">
           <head type="title">Tizenegyedik jelenet</head>
-          <p>
-            <stage>ANDOR, BRÁZ.</stage>
-          </p>
+          <stage>ANDOR, BRÁZ.</stage>
           <sp who="#braz">
             <speaker>BRÁZ</speaker>
             <stage>(óvatosan belopózik)</stage>
@@ -3432,9 +3385,7 @@
         </div>
         <div type="scene">
           <head type="title">Tizenkettedik jelenet</head>
-          <p>
-            <stage>ELŐBBIEK, BÁRDI, ANNA.</stage>
-          </p>
+          <stage>ELŐBBIEK, BÁRDI, ANNA.</stage>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <lg>
@@ -3585,16 +3536,12 @@
               <stage>(Megüti a csengetyűt s arccal az asztalra esik.)</stage>
             </lg>
           </sp>
-          <p>
-            <stage>A függöny legördül.</stage>
-          </p>
+          <stage>A függöny legördül.</stage>
         </div>
       </div>
       <div type="act">
         <head type="title">HARMADIK FELVONÁS</head>
-        <p>
-          <stage>Szoba.</stage>
-        </p>
+        <stage>Szoba.</stage>
         <div type="scene">
           <head type="title">Első jelenet</head>
           <sp who="#szentgali">
@@ -3615,9 +3562,7 @@
         </div>
         <div type="scene">
           <head type="title">Második jelenet</head>
-          <p>
-            <stage>EDITH, VÁRHELYI, SZENTGÁLI.</stage>
-          </p>
+          <stage>EDITH, VÁRHELYI, SZENTGÁLI.</stage>
           <sp who="#edith">
             <speaker>EDITH</speaker>
             <stage>(karonfogva jő Várhelyivel)</stage>
@@ -3631,7 +3576,7 @@
               <l>Papánk!</l>
             </lg>
           </sp>
-          <sp who="#szentgáli">
+          <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
               <l>Leányom, mit jelent ez?</l>
@@ -3690,9 +3635,7 @@
         </div>
         <div type="scene">
           <head type="title">Harmadik jelenet</head>
-          <p>
-            <stage>SZENTGÁLI, EDITH.</stage>
-          </p>
+          <stage>SZENTGÁLI, EDITH.</stage>
           <sp who="#szentgali">
             <speaker>SZENTGÁLI</speaker>
             <lg>
@@ -3732,7 +3675,7 @@
               <l>Tán hallottál felőlem valamit?</l>
             </lg>
           </sp>
-          <sp who="edith#">
+          <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
               <l>Nem, semmit, légy nyugodt, szegény atyám!</l>
@@ -3775,9 +3718,7 @@
         </div>
         <div type="scene">
           <head type="title">Negyedik jelenet</head>
-          <p>
-            <stage>ANDOR, SZENTGÁLI.</stage>
-          </p>
+          <stage>ANDOR, SZENTGÁLI.</stage>
           <sp who="#andor">
             <speaker>ANDOR</speaker>
             <lg>
@@ -3918,9 +3859,7 @@
         </div>
         <div type="scene">
           <head type="title">Ötödik jelenet</head>
-          <p>
-            <stage>EDITH, ANDOR.</stage>
-          </p>
+          <stage>EDITH, ANDOR.</stage>
           <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
@@ -4065,9 +4004,7 @@
         </div>
         <div type="scene">
           <head type="title">Hatodik jelenet</head>
-          <p>
-            <stage>EDITH, ANNA.</stage>
-          </p>
+          <stage>EDITH, ANNA.</stage>
           <sp who="#edith">
             <speaker>EDITH</speaker>
             <stage>(megragadja Anna kezét):</stage>
@@ -4117,10 +4054,8 @@
         </div>
         <div type="scene">
           <head type="title">Hetedik jelenet</head>
-          <p>
-            <stage>ELŐBBIEK, KÖZSZOLGA.</stage>
-          </p>
-          <sp who="#közszolga">
+          <stage>ELŐBBIEK, KÖZSZOLGA.</stage>
+          <sp who="#kozszolga">
             <speaker>KÖZSZOLGA</speaker>
             <lg>
               <l>Szentgáli Edith bárónő.</l>
@@ -4133,7 +4068,7 @@
               <l>Gyorsan, gyorsan! ki küldte?</l>
             </lg>
           </sp>
-          <sp who="#közszolga">
+          <sp who="#kozszolga">
             <speaker>KÖZSZSOLGA</speaker>
             <lg>
               <l>Levelet</l>
@@ -4209,9 +4144,7 @@
         </div>
         <div type="scene">
           <head type="title">Nyolcadik jelenet</head>
-          <p>
-            <stage>BÁRDI, ANNA.</stage>
-          </p>
+          <stage>BÁRDI, ANNA.</stage>
           <sp who="#bardi">
             <speaker>BÁRDI</speaker>
             <stage>(állva marad a középajtóban. Sápadtan, dúlt arccal,
@@ -4422,7 +4355,7 @@
             <lg>
               <l>Én tudom...</l>
               <l>Fiam meghal, te léssz a gyilkosa.</l>
-              <l/>
+              <l></l>
             </lg>
           </sp>
           <sp who="#bardi">
@@ -4460,9 +4393,7 @@
         </div>
         <div type="scene">
           <head type="title">Kilencedik jelenet</head>
-          <p>
-            <stage>ANDOR, ANNA.</stage>
-          </p>
+          <stage>ANDOR, ANNA.</stage>
           <sp who="#andor">
             <speaker>ANDOR</speaker>
             <stage>(egy oldalajtón jő)</stage>
@@ -4629,9 +4560,7 @@
         </div>
         <div type="scene">
           <head type="title">Tizedik jelenet</head>
-          <p>
-            <stage>ELŐBBIEK, EDITH.</stage>
-          </p>
+          <stage>ELŐBBIEK, EDITH.</stage>
           <sp who="#edith">
             <speaker>EDITH</speaker>
             <lg>
@@ -4754,9 +4683,7 @@
         </div>
         <div type="scene">
           <head type="title">Tizenegyedik jelenet</head>
-          <p>
-            <stage>ELŐBBIEK, BÁRDI megjelen az ajtóban.</stage>
-          </p>
+          <stage>ELŐBBIEK, BÁRDI megjelen az ajtóban.</stage>
           <sp who="#anna">
             <speaker>ANNA</speaker>
             <stage>(felugrik)</stage>
@@ -4820,9 +4747,7 @@
               <l>Fiam! fiam!</l>
             </lg>
           </sp>
-          <p>
-            <stage>VÉGE</stage>
-          </p>
+          <stage>VÉGE</stage>
         </div>
       </div>
     </body>

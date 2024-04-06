@@ -1,0 +1,3690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000053" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lais</title>
+        <title type="sub">vagy az erkölcsi makacs Komédia, öt játékban, versekben</title>
+        <author>
+          <persName>
+            <surname>Bessenyei</surname>
+            <forename>György</forename>
+          </persName>
+          <idno type="wikidata"/>Q794046 </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Sziráki</surname>
+            <forename>Sarolta</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">
+                        https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">
+                        https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0 <ref type="url">
+                            https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">Lais</title>
+          <title type="sub">vagy az erkölcsi makacs Komédia, öt játékban,
+                        versekben</title>
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+          <ref target="http://mek.oszk.hu/"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname/>unknown
+                            <forename/>unknown
+                        </persName>
+            <persName>
+              <surname/>unknown
+                            <forename/>unknown
+                        </persName>
+            <persName>
+              <surname/>unknown
+                            <forename/>unknown
+                        </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">Lais</title>
+          <title type="sub">vagy az erkölcsi makacs Komédia, öt játékban, versekben
+                        Bessenyei György által</title>
+          <author>
+            <persName>
+              <surname>Bessenyei</surname>
+              <forename>György</forename>
+            </persName>
+            <idno type="wikidata">Q794046</idno>
+          </author>
+          <date/>
+          <pubPlace/>
+          <publisher/>
+        </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname>Bessenyei</surname>
+              <forename>György</forename>
+            </persName>
+            <idno type="wikidata">Q794046</idno>
+          </author>
+          <title type="main">Lais</title>
+          <title type="sub">vagy az erkölcsi makacs Komédia, öt játékban, versekben
+                        Bessenyei György által </title>
+          <pubPlace/>
+          <publisher/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="lais" sex="MALE">
+            <persName>LAIS</persName>
+          </person>
+          <person xml:id="kolumbina" sex="MALE">
+            <persName>KOLUMBÍNA</persName>
+          </person>
+          <person xml:id="kukulini" sex="MALE">
+            <persName>KUKULÍNI</persName>
+          </person>
+          <person xml:id="hippodon" sex="MALE">
+            <persName>HIPPODON</persName>
+          </person>
+          <person xml:id="xenoxis" sex="MALE">
+            <persName>XENOXIS</persName>
+          </person>
+          <person xml:id="pelozis" sex="MALE">
+            <persName>PELOZIS</persName>
+          </person>
+          <person xml:id="pomone" sex="MALE">
+            <persName>POMONE</persName>
+          </person>
+          <person xml:id="tulipan" sex="MALE">
+            <persName>TULIPÁN</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head type="title">
+          <hi rend="underline">SZEMÉLYEK</hi>
+        </head>
+        <castItem>
+          <role><roleName>Lais</roleName>.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Kolumbína</roleName>. Laisnak bizalmasa</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Kukulíni</roleName>.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Hippodon</roleName>. Minister.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Xenoxis</roleName>.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Pelozis</roleName>.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Pomone</roleName>.</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Tulipán</roleName>.</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head type="title">ELSŐ JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ eset</head>
+          <stage>LAIS, KOLUMBINA.</stage>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Gyöngy dolog ifian ragyogni szépséggel,</l>
+              <l>’S férjfiakat győzni kellemetességgel!</l>
+              <l>Boldog1 ajándéki a’ magas egeknek,</l>
+              <l>Ti, gazdagság, szépség, tárgyok a’ szíveknek!</l>
+              <l>Ki nem hajlana-meg méltóságotoknak?</l>
+              <l>És ki nem áldozna nagy oltárotoknak?</l>
+              <l>Tudod, Kolumbina, hogy ma vendégem lesz?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Bánja a ’kutya, ha rakással mind el vesz.</l>
+              <l>A vendég mint a’ zaj úgy örvénylik nálunk,</l>
+              <l>’S csak-nem el szakadoz’ értté kezünk lábunk.</l>
+              <l>Házunknál egészen rabbá tesz bennünket,</l>
+              <l>És hatalma alá zárja életünket.</l>
+              <l>Futva lótva szoktuk a’ kedvét keresni,</l>
+              <l>’S figyelmetességgel tetszésire lesni,</l>
+              <l>Ha kívánságának valami hibázna,</l>
+              <l>Bennünket a’ hideg talán mind kirázna.</l>
+              <l>Ollyan, mint a’ Mogol a’ betsűlet mellett</l>
+              <l>Szólgálni kell létét minden törvény felett.</l>
+              <l>De nem is volt esze, ki a’ betsűletnek</l>
+              <l>Illyen rendit szabta, ’s a’ házi életnek.</l>
+              <l>Idegen Uramék tsak megbocsássanak</l>
+              <l>De nálam magamnál többet fel nem falnak.</l>
+              <l>Még mikor mindenünk rájok elköltöttük,</l>
+              <l>Felyül rá kínunkban szépen megkövettük.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Hogy paraszt ’s szegény vagy, tsak vagyonról gondolsz</l>
+              <l>’S a’ ki dicsőséget keres, mindent vádolsz.</l>
+              <l>Mi öröme vagyon a ki gazdaggá lett,</l>
+              <l>Ha nincsen eránta másoktól tisztelet?</l>
+              <l>Csak az légyen é hát minden ditsőségem,</l>
+              <l>Hogy lakhatom itthon ’s nem érzem éhségem’?</l>
+              <l>Így te eltörölnéd a’ köz emberséget,</l>
+              <l>Helyére állatván a’ rút fösvénységet.</l>
+              <l>Undokabb a’ fukar, a’ hegyi tolvajnál,</l>
+              <l>Ki vagyonjai közt éhezik magánál,</l>
+              <l>Ki a’ szorúltakat sajtóba csafarja,</l>
+              <l>’S mint pók a szúnyogot, hálójába várja.</l>
+              <l>Eggy fukarnak sintsen lelki-isméreti,</l>
+              <l>Istene, sem szive, sem jó betsületi.</l>
+              <l>Semmivel sem gondol: pénzébe bálványoz,</l>
+              <l>Elád a’ Tatárnak, ’s vagyonért meg áldoz.</l>
+              <l>Nemes születésre, erkölcsre tartozik,</l>
+              <l>Javából az ember hogyha adakozik.</l>
+              <l>Őrizzen-meg az Úr az ollyan vadaktól,</l>
+              <l>A’ kik mindeneket el rejtik magoktól.</l>
+              <l>Kik, ha falatokat valaki meg eszi,</l>
+              <l>Azt hiszik az őrdög mindenek el viszi.</l>
+              <l>A’mim van, ha mással igy nem közölhetném</l>
+              <l>Birtokom, vagyonom mind pokolra vetném.</l>
+              <l>Az élet unalmát társaság éleszti,</l>
+              <l>’S a’ kinek barátja nincs, csak lelkét veszti.</l>
+              <l>Meg fizet a’ vendég kedves barátsággal.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Igen; megszóllással és gorombasággal.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Hagyd el; a’ beszéd köztt tsak magok’ múlatják,</l>
+              <l>Szóllanak, de egymást pálczával nem bántják.</l>
+              <l>A’ mi emberszóllás mind kölcsönben esik,</l>
+              <l>Az emberek egymást, látod, hogy mind lesik.</l>
+              <l>Senki nincs a’kinek részit ki ne szabják,</l>
+              <l>’S becses személyéért szájokat be dugják.</l>
+              <l>Mind költsönben esik, azért senkit sem sért,</l>
+              <l>Mert egyenlőn kapja minden az osztott bért.</l>
+              <l>Mit kímél a’ Világ, ha ollyat lát benne,</l>
+              <l>Bár jelenésével az egekből lenne?</l>
+              <l>A’ Világ csak önnön rovására mulat,</l>
+              <l>Léteden nem örvend, szemkönyet nem hullat.</l>
+              <l>Csak olyannak mutat, a’ milyennek talál,</l>
+              <l>’S nem bánja fejedre öröm avagy bú száll.</l>
+              <l>Mindenikről szóllhatsz, mert mind tántorodik,</l>
+              <l>És gyakran magán is sok meg szomorodik.</l>
+              <l>Emberek, Aszszonyok, lásd, millyen fecsegők;</l>
+              <l>‘S magam is igen csak ollyan vagyok, mint ők.</l>
+              <l>Szükséges magamat őbennek szeretnem</l>
+              <l>’S unalmam köztt szívem’ beszéddel éltetnem.</l>
+              <l>Az ember egymásról ha nem beszéllhetne,</l>
+              <l>Egész életében nem is nevethetne.</l>
+              <l>Egymás’ rovására mulatjuk magúnkat.</l>
+              <l>S magúnkon nevetve éljük világunkat.</l>
+              <l>Ócska kegyesség az, hogy másról ne szólljunk,</l>
+              <l>Szépet ne szeressünk, rútat ne utáljunk.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Azt sem tudjuk néha, mellyiket szeressük.</l>
+              <l>Gyakran annyi között a’ rosszat keressük,</l>
+              <l>’S egyikhez sem tudván állandóúl lenni,</l>
+              <l>Szokásunk az embert tsak ugy szedni venni.</l>
+              <l>Ha ki lép az ajtón, ki vagyon fizetve,</l>
+              <l>El mehet, morogva vagy magán nevetve.</l>
+              <l>Hanggal, füsttel, széllel telik-meg a’ szobánk,</l>
+              <l>’S hízelkedő szókkal szárad-el torkunk, szánk.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Hol találtad ezt fel a’ mély okosságon</l>
+              <l>Hogy csak egy tárgy függjön minden kívánságonn?</l>
+              <l>Egyfelé kaccsantván, háborút üzenjünk</l>
+              <l>A’ többi világnak, ’s mindentől meg szünjünk?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>A’ törvény azt mondja: Eggyet kell szeretni,</l>
+              <l>’S legalább ha éppen nem lehet, tettetni.</l>
+              <l>És a’ kisasszony is ha mindent úgy szeret,</l>
+              <l>Késő lesz, míg minket valaki meg kéret.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Hagyd-el; már ez benned tsupa eggyügyűség! —</l>
+              <l>Tartozásban hogy van édes gyönyörűség?</l>
+              <l>A’ házasság meg köt, ’s véle kéntelen vagy,</l>
+              <l>Hogy Hites-társadnak oldalánál maradj.</l>
+              <l>Még most férjhez-menést nem keres aszszonyod,</l>
+              <l>Egyűgyűségedet rajta minek hányod?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>De mi hát a’ vén lyány a’ fényes világon?</l>
+              <l>Olly, mint üres fészek ősszel a’ fa ágon.</l>
+              <l>Minden méltóztatik rajta szánakozni,</l>
+              <l>’S hogy „hát minek is él?” róla tudakozni.</l>
+              <l>Mint a’ gazba hullott gyümölcs főldön maradt,</l>
+              <l>Senki meg nem lelte, ’s magában ott rothadt.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Ha a’ legénynek nem szégyen meg őszülni,</l>
+              <l>Mért kelljen a’ lyánynak őszön megőrjülni?</l>
+              <l>A’ világot, tudod, hogy szokás vezeti,</l>
+              <l>A’ mit ma felszentelt, holnap ki neveti.</l>
+              <l>Össze-vissza forog kívánságaival,</l>
+              <l>Fővel lábbal áll fel ’s alá dolgaival,</l>
+              <l>Tégyük szokássá hát a’ vén nagy-lyányságot</l>
+              <l>’S szüljünk a’ világnak eggy új bolondságot.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Né! a’ hívjavallás!... de magának tartsa,</l>
+              <l>Talán nem vagyok olly bolond, mint a’ hartsa.</l>
+              <l>Én a’ vén lyány módit nem kezdem magamon,</l>
+              <l>’S az emberi nemet sem vesztem ágamon.</l>
+              <l>Sőt, a’ Kisasszony is ollyan Ifjat lelhet,</l>
+              <l>Ki miatt e’módnak majd meg nem felelhet.</l>
+              <l>A’ lyány-okoskodás <hi rend="italic">bölcsőre</hi> megyen ki</l>
+              <l>Mind, mind e’ világon; higyje mint akárki.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második eset</head>
+          <stage>LAIS, KOLUMBINA, KUKULINI.</stage>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <stage>Idétlen maga-viselettel, mint Deák gyermek; kurta mentéjének
+							szűk ráncza, hátúl felkuczorodva áll: rövid ujjaibóla’ mezítelen
+							keze-szára félig kilátszik. Nadrága rendkívül szűk. Csizmája
+							szára felyül bőv, pöcsölgős, de nyomban igen szűk, mind a’ két
+							sarkával fére fitúlva. Haja az új mód szerént válla közepéig
+							szabadon eresztve, mellynek végén korbács haj helyett eggy
+							rémítő görcs látszik, ’s azon alól eggy újnyi hajfarkotska. Elől
+							üstöké az orráig van lefésülve rigályosan, melly alól kinéz.
+							Nyakravalójának vastagsága a’ füle gombáján fekszik, ’s alsó
+							ajakát béfogja. Rettenetes kardja utánna húzódik, a’ földön
+							dörögve, mellynek szíjjá a’ farán és nadrághasitékán látszik
+							keresztül kötve. Állása megmerevedés, meghajlása sebes lebukás
+							és felpattanás.</stage>
+            <lg>
+              <l>Örvendem, Kis Aszszony! hogy illy nemes képit</l>
+              <l>Látván, fontolhatom benne tudós lépit.</l>
+              <l>Nagy kegyességének bika’ oltárira</l>
+              <l>Tészem-le hivségem’ arany szarvaira.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Jaj szép szarvas állat! Mákvirág!</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Ne nevezz!</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Ha-ha-ha! — mitsoda kisértet forma ez?</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Mindennek kell lenni tudod a’ Világban</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Arany szájú Tudós, az igaz, magában.</l>
+              <l>Nadrága szűk, mint a’ borbély legényeknek;</l>
+              <l>Csizmaszára konya, mint a’ révészeknek.</l>
+              <l>Hát a’ szabó él még, ki e’ köntöst varrta,</l>
+              <l>’S e’ meredt termetet öbleibe zárta?</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Alázatoson él, hiv szolgálatára.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Illyen é, mint az Úr hát, gyöngy állatjára?</l>
+              <stage>félre-fordúlva:</stage>
+              <l>Ez az Ifjú rémit, ’s elvadúlt elméje</l>
+              <l>Egész csudává lesz, ha igy marad feje.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Elhiszem, hogy csuda. Én az Oskolában</l>
+              <l>Mindég felyül űltem a’ <hi rend="italic">lócus</hi> sorában.</l>
+              <l>Préceptor Uramat tallérral fizettem,</l>
+              <l>’S Tudományaimban elsővé is lettem.</l>
+              <l>Három, négy búgért is dugtam a’ zsebjébe,</l>
+              <l>És béhelyheztettem magam’ elméjébe:</l>
+              <l>Mert az ezüst háló meg fogja az elmét;</l>
+              <l>Hijában nincs teste, és kiszúrja szemét.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Mi vonczolta ide az Úr tudós létét,</l>
+              <l>’S mitsoda zivatar kergeti életét?</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Engem a’ szerentse hány vét itt fel ’s alá,</l>
+              <l>Igen sok pénz maradt rám, Istennek hálá!</l>
+              <l>Az emberi nemzet tsak tenyészve áll fenn</l>
+              <l>Házas embereken és feleségeken.</l>
+              <l>Ha a’ Kisaszszonynak nagy Ararát szivét</l>
+              <l>Szerelmem boritná, mint özön tetejét,</l>
+              <l>Hol meg feneklene hűségem bárkája</l>
+              <l>A vízben szárazon állna árbóczfája.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Ho, hó, — nagyon méllyen mégyen értelmében</l>
+              <l>Talán nem is úgy szóll, mint van az eszében?</l>
+              <l>Nemjó hajókázni olly igen magasan</l>
+              <l>Jobb lesz a’ bárkával elhaladni lassan.</l>
+              <l>Kár az Ifiaknak hamar párosodni.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>’S a' hasonlitással úgy meg-okosodni.</l>
+              <l>E’ szerént, tanulni az Ur térjen vissza</l>
+              <l>A’ tudomány úgy jó, hogyha bőven issza.</l>
+              <l>Nem úgy szoktak ezen mások esdekleni,</l>
+              <l>Gödény torokkal kell alá nyeldekleni.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Sok, magát hiteti csak hogy igen tanúit,</l>
+              <l>Mert gyenge világa magától megvakúlt.</l>
+              <l>Nincs a’ fél-tanultnál nagyob veszedelem.</l>
+              <l>Ki együgyün hiszi, hogy tsupa értelem.</l>
+              <l>Agyon kiabálják az okos világot,</l>
+              <l>’S okoskodva tésznek magokból bolondot.</l>
+              <l>Az embernek fejét nagy hanggal ágyúzzák,</l>
+              <l>És a’ beszéd zajjal füleit megnyuzzák.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Tehát okosodni vissza térhetek még?</l>
+              <l>’S eddig tett beszédem, hihető, már elég?</l>
+              <l>Alázatossággal görbülök —<stage>elmégyen.</stage></l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Elmehet.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Ezzel a’ kis asszony már boldoggá lehet.</l>
+              <l>Így készül sok Ifjú ki az Urfi soron,</l>
+              <l>’S tisztességre innen jut az ember koron.</l>
+              <l>A’ vad tudománynál jobb a’ vad természet...</l>
+              <l>Sok Ifju, tanúivá emberből lidértz lett.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Együgyűségben is találkozik jóság,</l>
+              <l>Ki tudja? hátha még jobb az illy októság?</l>
+              <l>Az okos ’s vigyázó férjfi, úgy nem enged,</l>
+              <l>És magán hatalmat asszonyban nem szenved.</l>
+              <l>Az illyen embernek nagy hatalma alatt</l>
+              <l>Felesége olly mint gyermek ’s egyéb állat.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Ó nintsen férjfiban erő aszszony ellen!</l>
+              <l>És hogy ne engedjen, már az lehetetlen.</l>
+              <l>Sőt mentől okosabb, annál inkább hajlik,</l>
+              <l>’S meg únja, ha feje csatarával zajlik.</l>
+              <l>Csak zúgolódni kell, lármázni, buzogni.</l>
+              <l>Osztán félre ütni ’s haraggal duzzogni.</l>
+              <l>Nem kell szóllani is többet a’ Gazdához</l>
+              <l>Tányért, csuprot ütni osztán inasához.</l>
+              <l>Így az ember’ orrát egy két nap feldúzva</l>
+              <l>Meghódítja férjét üstökénél húzva.</l>
+              <l>A’ bőlcs nem állhatja a hosszas tsatarát,</l>
+              <l>Inkább enged ’s tőlti poharába borát.</l>
+              <l>De a bolond férjfi hamarább főbe üt,</l>
+              <l>És ha megdühödik eleven-szenen süt.</l>
+              <l>Nékem nem kell szamár, akárki hogy érti,</l>
+              <l>Az okost a’ bolond minden lépten sérti.</l>
+              <l>A’ tudós férjfit is néha megsérthetem,</l>
+              <l>De azért barátom, ’s mindég szerethetem.</l>
+              <l>Az okos, jó, tanúlt ember, ritka madár,</l>
+              <l>’S aki megkaphatja, elbocsátani kár.</l>
+              <l>Elég emberkép van igaz a’ Világban,</l>
+              <l>De századik sem ér hiv asszonyt magában.</l>
+              <l>Az ostoba férjfit meg nem emészthetem,</l>
+              <l>De ha bőlccsel vagyok, el nem
+                                felejthetem.<stage>Elmegyen</stage>.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik eset</head>
+          <stage>LAIS és HIPPODON.</stage>
+          <sp who="#hippoddon">
+            <speaker>HIPPODDON</speaker>
+            <lg>
+              <l>Foglalatosságim közzül szabadúlva</l>
+              <l>Érkezem, szép Láis, hozzád majd elfúlva</l>
+              <l>Sorsom nagyon szorít: reménységem meghűl,</l>
+              <l>Habon hányattatik, ’s félek fenekre űl.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Hát, a’ szerentsének nyájas kebelében</l>
+              <l>Eggy gazdag Minister szenvedhet éltében?</l>
+              <l>Ki már mások felett ragyog érdemével,</l>
+              <l>’S mint barátja úgy él a' Fejedelmével</l>
+              <l>Mi hízelkedhetik hivalkodásomnak</l>
+              <l>Inkább, mint ha tárgya vagyok királyomnak?</l>
+              <l>Mikor az embert így felviszik eszéért</l>
+              <l>’S Első Tanáccsá lesz, a’ mit maga sem kért.</l>
+              <l>Méltóságba teszik, érdemét nevelik,</l>
+              <l>És a’ szerencsének szárnyain hirelik?</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Ne hidd, hogy én vólnék itt legértelmesebb,</l>
+              <l>Erkölccsel és szívvel közttünk legnemesebb.</l>
+              <l>Vak eset, születés, szerencse, emelt-fel,</l>
+              <l>Sőt magam sem tudom, hogy vagyok ezekkel.</l>
+              <l>Nincsen olly nagy ember, kinek szerencsére</l>
+              <l>Ne légyen szüksége híres életére.</l>
+              <l>És ha a’ sorsának ez sehogy sem szólgál,</l>
+              <l>Hidd-el, hogy érdeme magában földre száll.</l>
+              <l>A’ szenvedés pedig méltóságban lakik,</l>
+              <l>’S ragyogási alól fohászkodás hallik.</l>
+              <l>A’ rang fájdalmának széles a’ határa</l>
+              <l>’S a’ nagy hatalomban sok az ember’ kára.</l>
+              <l>Egy <hi>Tanáts</hi>dolgának mindég el kell sűlni,</l>
+              <l>Ha nem, nagyon szokás iránta meg hűlni.</l>
+              <l>A’ sorssal kellene lenni hív alkuban</l>
+              <l>Hogy rendi jól menjen minden roszsz faluban.</l>
+              <l>Kilenczvenkilenczszer ha találja dolgát.</l>
+              <l>És a’ századikban meghibázza magát,</l>
+              <l>Kiültetik sokszor tündöklő rangjából</l>
+              <l>’S Irigyi eszik-ki kenyerét szájából.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Ó, nem elméje az a’ fejedelemnek,</l>
+              <l>Hogy kicsinyért rontsa bérit az érdemnek</l>
+              <l>A’ nagy Udvarokat örökké vádolják,</l>
+              <l>’S pedig valamerre nézünk, őket csalják.</l>
+              <l>A' háládatlant is sokszor jutalmazza.</l>
+              <l>És a’ gonoszságot vakon óltalmazza.</l>
+              <l>Jót, gonoszt, egyenlőképen öltöztetnek,</l>
+              <l>’S végre áll-ortzában elibe vezetnek.</l>
+              <l>A’ magok’ bünével urokat vádolják,</l>
+              <l>Szerencsét keresnek ’s a’ többit nem bánják.</l>
+              <l>A’ nagy Ur is némely, fő Méltóságában</l>
+              <l>Tsak olly gyenge mint más, elrejtve magábann.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Aszszony, gyermek, nagy Ur, eggyforma hagyások,</l>
+              <l>Kevélyek, makacsok, ’s ezer a’ vágyások</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <stage>magát meghajtva</stage>
+              <l>A’ felelet nyájas, és Complimentomnak</l>
+              <l>Az igaz, sokat ér. Megtartom magamnak.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <stage>habozva</stage>
+              <l>Engedj-meg, szép Láis; erkölcsi értelmét</l>
+              <l>Vettem a’ dolognak, ’s életünknek nemét.</l>
+              <l>Minden ember hibás, a’ Papok azt mondják</l>
+              <l>Pedig az illlyeket már azok csak tudják.</l>
+              <l>De Hippodon nem Pap, ’s mint tudom Lais is</l>
+              <l>Nem Szent Ecclésia, bár légyen tagja is.</l>
+              <l>Minden emberben van el-rejtett makacsság,</l>
+              <l>És a’ szemérmesben szerelmes vásottság.</l>
+              <l>Igy veszem értelmét; engedd meg szavamat.</l>
+              <l>Én is töltöm, mint más Ifiú, havamat.</l>
+              <l>Tudod, hogy a’ nagy rang, nagy pompa, kényeztet,</l>
+              <l>És boldogság helyett a' füstön éheztet,</l>
+              <l>Csak agyából teremt magának Világot,</l>
+              <l>’S Gyermekszínre festi a’ nagy Méltóságot.</l>
+              <l>De ne okoskodjunk; ne tarts félelemben...</l>
+              <l>Nincsen bölcselkedés a’ nagy szerelemben.</l>
+              <l>Gyönyörűség, érzés, kereset, kedvével</l>
+              <l>Mindenkor csak a ’ szív után jár eszével.</l>
+              <l>Fél Ország Ifia reszket személyedért,</l>
+              <l>Talán a’ mennyi van, titkon mind meg is kért.</l>
+              <l>Tudom, méltóságot ’s kincset nem keresel.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Elmém tsupán abban boldogságot nem lel.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Hát csak személyemet vévén tekintetbe</l>
+              <l>Lehetek é boldog veled az életbe’?</l>
+              <l>Fedezzd-fel értelmed: végy ki kétségemből</l>
+              <l>És Elysiumot csinálj a’ szivemből.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>llly kérdésre nehéz jőni feleletnek.</l>
+              <l>Nagy szökése van itt tudjuk az életnek.</l>
+              <l>Eggy illy méltóságnak erős a’ hatalma,</l>
+              <l>Nemes lyánynak könnyen lehet itt fájdalma.</l>
+              <l>Eggyforma karban van eggyforma boldogság!</l>
+              <l>Kicsinynek nagy ellen nehéz az igazság.</l>
+              <l>Rang nélkül az érdem talán még nemesebb,</l>
+              <l>És a’ kik ismérik azoknak kedvesebb.</l>
+              <l>Ministerség nélkül Hippodon több volna,</l>
+              <l>Sziv, elme, elötte még inkább hódolna.<stage>meghajlik, ’s
+								elmegyen.</stage></l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik eset</head>
+          <stage>XENOXIS, HIPPODON.</stage>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Védelmező Angyal jön benned, Barátom</l>
+              <l>Xenoxis! Szerencsém vezet hozzám látom.</l>
+              <l>Mint a’ jeges zápor után a’ vert határ</l>
+              <l>Olly puszta a’ szívem</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <stage>hideg vérrel</stage>
+              <l>Miből áll hát a’ kár?</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Láis, mint isméred, társaságunk fénye,</l>
+              <l>’S ezer férjfiszívnek lett édes reménye,</l>
+              <l>Beszédének csendes dörgésit hallatván</l>
+              <l>’S magának Jupiternek helyére állatván</l>
+              <l>Mennykövivel levert. Rangomat útálja,</l>
+              <l>’S megelégedését benne nem találja.</l>
+              <l>Értsd-meg: Le kell tennem a’ Miniszterséget,</l>
+              <l>Ha véle akarok nyerni feleséget.</l>
+              <l>Búcsúzó szavai rejtett értelemmel</l>
+              <l>Igy forrottak egybe megszédült fejemmel.</l>
+              <l>Vess fontba, barátom, rangot, feleséget.</l>
+              <l>Szerelmet, szép asszonyt, és gyönyörűséget.</l>
+              <l>Lássuk, értelmemet mellyik részre vegyük,</l>
+              <l>’S e’ kettő köztt félre hogy mellyiket tegyük.</l>
+              <l>Hidd-el: ma teszem-le a' Ministerséget,</l>
+              <l>’S elveszem Láisban a’ szép feleséget.</l>
+              <l>A’ rang nem érezhet; szívben van az öröm</l>
+              <l>’S a’ pompa; ha ez fáj, mind keserű üröm.</l>
+              <l>A’ mi szemre, hangra ’s szívre nem tartozik,</l>
+              <l>Hidd-el, életünknek tsak füsttel adózik,</l>
+              <l>Igy, a’ jó feleség, és a’ hiv atyaság,</l>
+              <l>Első gyönyörűség, boldogság, méltóság.</l>
+              <l>Mit tészen a’ csillagragyogás kívülről</l>
+              <l>Ha érzésed üres, vagy könyvez belőlről?</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Akármint hangoztasd erköltsi beszéded’</l>
+              <l>De itten az embert, mint nádszálat leled.</l>
+              <l>A’ melly oldaláról a’ rang’ szele fújja</l>
+              <l>Meghajlik, ’s érette mindenét eldúlja.</l>
+              <l>Ne bizzál az ember okoskodásához...</l>
+              <l>Hivalkodás ragad a’ kivánságához.</l>
+              <l>Hogyha mutathatja magát többek felett,</l>
+              <l>’S felső rangja által parantsolóvá lett,</l>
+              <l>Nem bánja, bár mikép vesződjék szivében,</l>
+              <l>Tsak dicsekedhessen ’s ragyogjon mivében.</l>
+              <l>Tudod, nem veszik az érzést tekintetbe...</l>
+              <l>Álom, képzelődés, hír kell az életbe.</l>
+              <l>Ha rangoddal naggyá, ’s fényel híres leszel,</l>
+              <l>Nem bánod ha titkon mindég szurkot eszel.</l>
+              <l>Étel, ital, álom, igen könnyű dolgok,</l>
+              <l>Többel múlattatják az emberek magok’.</l>
+              <l>Az asszony könnyű szer: tüzed’ megenyhiti</l>
+              <l>Kezeden tanálod, ’s érzésed’ segíti.</l>
+              <l>Az ember már látod mind ezt meg vetette</l>
+              <l>Hogy élete sorján olly könnyen lelhette.</l>
+              <l>Jobban fut az után, hogyha parantsolhat,</l>
+              <l>’S felebaráti köztt gráditsokon állhat.</l>
+              <l>Láis itt csak próbál; ’s ha szivében szeret</l>
+              <l>Hidd-el, a’ rangodért hogy soha meg nem vet.</l>
+              <l>Ki vágy uralkodni inkább őnáloknál?</l>
+              <l>Egy aszszony Királyné, ha férje’ fején áll.</l>
+              <l>Az esedezőknek óltalmát igéri,</l>
+              <l>’S ördögöt sem büntet-meg, ha sírva kéri.</l>
+              <l>Férje’ szeretőjén kivül, meg kegyelmez</l>
+              <l>Még a’ gonosznak is, és kitkit védelmez.</l>
+              <l>Ezerszer parancsol naponként, ha lehet,</l>
+              <l>’S Elyseumban él, ha változást tehet.</l>
+              <l>Egy Ministernének mitsoda tér-mező?</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Minden asszony jól tész mikor védelmező.</l>
+              <l>Az asszony csak ott van a’ maga sorában</l>
+              <l>A’ hol férjfi-nemünk széles hatalmában</l>
+              <l>Öket a’ természet gyengeségbe tette</l>
+              <l>Melly, hatalmunk’ még is sokszor kinevette.</l>
+              <l>Hidd-el, hogy az Ember nem több aszszonyánál</l>
+              <l>’S csak annyi dolgában, mint amaz, házánál.</l>
+              <l>A’ férjfi bűn egész világunk’ szaggatja...</l>
+              <l>Az aszszony tsataráz, ’s bölcsőjét ringatja.</l>
+              <l>Érdeme, hibája magához képest van</l>
+              <l>Férjfiakból áll az ostor e’ világban.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik eset</head>
+          <stage>HIPPODON, XENOXIS, KOLUMBINA.</stage>
+          <sp who="#hippoddon">
+            <speaker>HIPPODDON</speaker>
+            <lg>
+              <l>Érkezel, szép Leány! hát Láist hol hagytad?</l>
+              <l>Valld-meg, kérlek, rólam szavát hogy’ hallhattad?</l>
+              <l>Segíts Kolumbina; nézd a’ jutalmamat.</l>
+              <l>Ez az erszény tiéd; keressed javamat.</l>
+              <l>Meg állithatom-é aszszonyod’ elméjét?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Istenem! sok mi ’s más fúrja annak fejét.</l>
+              <l>Valakihez szóllhat, mindennek jót mútat,</l>
+              <l>’S végre kinek-kinek kiméri az útat.</l>
+              <l>Nem kiván, azt mondja, soha férjhez menni.</l>
+              <l>Vén-leányból is kell egyszer módit tenni.</l>
+              <l>Hogy a’ Világ mindent csak szokásnak veszen</l>
+              <l>’S gyakran mint a’kinek esze nincs, úgy teszen.</l>
+              <l>Hogy bóldogságát is, ha tartós, megúnja,</l>
+              <l>Nyűgöt választ, ’s erre szemeit bé-húnja.</l>
+              <l>Ég, főld, öszve-szakad, csak újsága legyen,</l>
+              <l>Az ember veszélynek, tűznek, viznek megyen.</l>
+              <l>Ö is magán kezdi a’ vén-lyányság-módit,</l>
+              <l>Senkihez sem megyen, még is mindent hódit.</l>
+              <l>Nagy erővel lehet hozni az eszére,</l>
+              <l>Ha csak Nagysád nem tud lőni a’ szivére.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <stage>nevetve.</stage>
+              <l>Ha, ha ha, szép álmok! vakitó fényesség.</l>
+              <l>Gyermekjáték mondom, ’s kis aszszony-kényesség.</l>
+              <l>A’ széles világgal imádtatná magát,</l>
+              <l>’S örvend, ha több nyakra rázhatja az igát.</l>
+              <l>Minden szép Aszszony azt hiszi-el magában</l>
+              <l>Hogy országol rajtunk, ’s király hatalmában.</l>
+              <l>A’ természet adja nyájas méltóságát,</l>
+              <l>’S gyönyörűség szüli thrónusa' nagyságát.</l>
+              <l>De azért a’ férjfi tsak alá szállitja</l>
+              <l>Onnan, és asszonyi sorára állitja.</l>
+              <l>Ne szorgalmatoskodj’... Lais hozzád ragad</l>
+              <l>’S ha viszsza vernéd is, tőled el nem marad.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Minden aszszony szeret, igaz, ’s férjfi nélkül,</l>
+              <l>Ha csak szert tehet rá, szobáiban nem ül.</l>
+              <l>De mivel sok ember forog e’ világgal</l>
+              <l>Egy szép lány sokat is tesz a’ makacssággal.</l>
+              <l>Laisnak van pénze, de szépséggel is bir —</l>
+              <l>Az illyen szűz, tudod, kérők után nem sir.</l>
+              <l>Választhat: Igy, a’ ki finnyásságát sérti,</l>
+              <l>Elfordúl, ’s kérését nem hallja, sem érti.</l>
+              <l>Úgy van, jó barátom, ’s itt hideg véreddel</l>
+              <l>Meg nem csendesíthetsz, sem mély értelmeddel.</l>
+              <stage>Kolumbinához fordul.</stage>
+              <l>Mondd-meg, Kolumbina! kik az ő kérőji?</l>
+              <l>Kik fáradnak értté, ’s kik a’ szeretőji?</l>
+              <l>Mert a’ nemes legény sokszor elől megyen,</l>
+              <l>Az illyen dologban bár más Hertzeg legyen.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Egy gazdagi Ifiú, neve Kukulíni,</l>
+              <l>Kéri. Itt forog most; elő lehet híni.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Szolgád hát, Minister? itt hagylak bajoddal,</l>
+              <l>Nyüglődj szerelmeddel és egész magaddal.</l>
+              <l>Dologra kérnélek, de rá nem érkezel</l>
+              <l>Szél támadt hajódra, ’s nehezen evezel.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Ne hagyj-el, Xenoxis: inkább eggyütt legyünk</l>
+              <l>’S emberi korunkból gyermeket ne tegyünk.</l>
+              <l>Halld-meg: A’ szerelem, annak, ki benne nincs,</l>
+              <l>Nevetség, mert látja, hogy máson a’ bilincs.</l>
+              <l>De mikor a' tüze testünkben elborít,</l>
+              <l>Lehetünk mély bölcsek, de kösübe szorit.</l>
+              <l>Könnyen okoskodhatsz meg aludt véreddel</l>
+              <l>Kellemetes, szép, jó, ’s hiv feleségeddel.</l>
+              <l>Kolumbina, szeress; gondolj vagyonomra</l>
+              <l>Fényes szerencsédre, és adományomra.</l>
+              <l>Tehetségem érted mind megerőltetem,</l>
+              <l>’S életedet öröm közzé helyheztetem.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hatodik eset</head>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <stage>egyedül</stage>
+              <l>Még ez is nagy okos, Minister létére</l>
+              <l>Hogy szolgáló fejét kaptázza eszére.</l>
+              <l>Hogy Láis nem menne hozzá, né! el-hiszi,</l>
+              <l>Azt vélvén, hogy szavam dolgát jobban viszi.</l>
+              <l>Ministerség, szépség, jóság, annyit nem üt</l>
+              <l>Mint eggy Lyány, eggy két szót ha agyából kisüt?</l>
+              <l>Tudósnak, nagy Urnák, nevetséges része</l>
+              <l>Van, ’s gyakran megtéved neki is az esze.</l>
+              <l>Jó, hogy pótolni kell magokat másokkal.</l>
+              <l>Mert gazdagítanak az ajándékokkal.</l>
+              <l>Meg-állj: ha rám bíztad: mert terhessé teszem</l>
+              <l>Dolgodat, ’s erszényed zsebedből kiveszem,</l>
+              <l>Mint az ollyan Orvos, ki a' kis nyavalyát</l>
+              <l>Rettentőnek mondja, és a’ beteg javát</l>
+              <l>Időhalasztással biztatás közt éli,</l>
+              <l>’S büntetését, kárát igy, sem úgy nem féli.</l>
+              <l>Ha meghal betege, Isten akaratja!</l>
+              <l>Ha él, hogy azt néki köszönje, mondhatja,</l>
+              <l>Igy minden esetre tanál egérútat,</l>
+              <l>Hol az ember bátran a’ tzéljára juthat.</l>
+              <l>Veheted, ’s nem Láist; de azt megmutatom,</l>
+              <l>Hogy eszem’, szerentsém’ rajtad megfuttatom.</l>
+            </lg>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">MÁSODIK JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ eset</head>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Ministert szolgálni fél pokol, fél halál.</l>
+              <l>Az ember álmot lát, még is a’ lábán áll</l>
+              <l>Üres szobáiban egész napon korog,</l>
+              <l>Hol mind kába marha fel ’s alá úgy forog.</l>
+              <l>Mindég ásítással van tele a’ szája,</l>
+              <l>’S csak ollyan Urának, mint vizsla marhája.</l>
+              <l>Hajnaltájban ülnek-le a’ vatsorához</l>
+              <l>’S az inasnak semmi sem férhet szájához,</l>
+              <l>Csak étel szaggal él, orra lyukán hízva,</l>
+              <l>Szerencséjéhez is haszontalan bízva.</l>
+              <l>A’ Minister fünek, fának mindent igér,</l>
+              <l>’S századik kap tőle a’ ki valamit kér.</l>
+              <l>Hogy nagy-úr Gazdám van, csak az a’ szerentsém,</l>
+              <l>De azért ennem kell vatsorán a’ lencsém’</l>
+              <l>Egynéhány forintot holnaponként vetnek,</l>
+              <l>Nem elég; ’s azontúl szükséggel fizetnek.</l>
+              <l>És ha a’ betsület meg nem tartóztatna,</l>
+              <l>Ö Ministersége maga maradhatna.</l>
+              <l>De mikor kimének, úgy, dellyest sétálni</l>
+              <l>A’ sok Uraságtól nem tudok megválni.</l>
+              <l>E’ világon mennyi a’ Dáma, mind köszön</l>
+              <l>’S ez osztán szívünkben a’ Nemesi ösztön.</l>
+              <l>A’ többi Lokajság előttem meghajlik:</l>
+              <l>Inas-király vagyok, ’s csak Tulipán hallik.</l>
+              <l>Már ez a’ dicsőség szólgáltat bennünket,</l>
+              <l>Ezért áldozzuk fel egész életünket.</l>
+              <l>De ki érkezik itt’ Micsoda Aszszonyság? —</l>
+              <l>Iszonyu tetem ez, ’s rémitő vastagság.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második eset</head>
+          <stage>TULIPÁN, POMONÉ.</stage>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Uram! látható-é ma itt a’ Minister?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>A’hogy dolga fordúl. — Nem tudja az ember.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Esedezésem van, ’s ha hozzá férhetek</l>
+              <l>Vagy a’ szándékomban szerencsés lehetek.</l>
+              <l>A’ki megsegítne, eggy kevés vagyonnal</l>
+              <l>Csak megjutalmaznám, vagy két száz arannyal.</l>
+              <l>Az Ur itt Urának mije szokott lenni?</l>
+              <l>Lehet személyjéhez bizodalmát venni?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>A’ szemét sem nyitja-fel énnálam nélkül,</l>
+              <l>Megöl a’ dologgal ’s mindég nyakamon ül.</l>
+              <l>A’ mellyet fülembe nem sug, nincs olly titka,</l>
+              <l>Azért lettem már az országban illy ritka.</l>
+              <l>Eggy itt a’ Tulipán, ’s akármennyi légyen,</l>
+              <l>Ezen, a’ki beszéli, tudom, túl nem mégyen.</l>
+              <l>Ministerrel halál, tudjuk titkolódni,...</l>
+              <l>A’ dolog más felől ki szokott tudódni.</l>
+              <l>Veszedelmet okoz annak, ki véle bír...</l>
+              <l>És a’ nagy Ur titok sok férfi szemén sír.</l>
+              <l>Még tanúit embert is lesbe visz, tőrbe ejt;</l>
+              <l>‘S a’ szerentséjéből igen hamar kifejt.</l>
+              <l>De nékem nem lehet már félre állani,</l>
+              <l>’S kínomra mindent meg kell tőle hallani.</l>
+              <l>Megkérd: Ezt hogy érted? Jónak találod-é?</l>
+              <l>Ész, munka, mind enyém; a’ dicsőség övé.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>’S még az ollyakban is szolgája szólgálja?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Hogyha értelmesnek ’s tanúknak tanálja.</l>
+              <l>Azért az országos dolgokbann cseléd-is</l>
+              <l>Sürög forog gyakran, szép leány, ’s aszszony is.</l>
+              <l>De mi hát kérése az Aszszonynak? halljuk,</l>
+              <l>Ki telik-é tőlünk, hogy módját találjuk?</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Uram! Uraságot akarnék szerezni,</l>
+              <l>Nem kívánván magam vargák közt cserezni.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>De ehhez érdem kell, különbenn nem lehet,</l>
+              <l>Ha az ember hozzá okokat nem tehet.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Mi hát az az érdem? Lehet érdemesebb</l>
+              <l>Valami a’ pénznél? szebb, jobb vagy nemesebb?</l>
+              <l>Felnyitom ládáim’, ’s nemességet veszek</l>
+              <l>’S a’ hol az érdemes van, véle ott lészek.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Van benne valami; hanem a’ vázának</l>
+              <l>Azért meg kell lenni, mint külső mázának.</l>
+              <l>Kell reá valami módos színt festeni,</l>
+              <l>’S félre lehet osztán az embert inteni</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>De mi nagyobb érdem, mint az arany, ezüst?</l>
+              <l>Még a’ Nagysád név is, ha e' nintsen, tsak füst.</l>
+              <l>Van már nékem annyi, hogy fényeskedhessem,</l>
+              <l>És az Uri-formát magamra vehessem.</l>
+              <l>Láttam én magamnál sok bolondabb Nemest,</l>
+              <l>Kit a’ pénze mégis Úri formára fest.</l>
+              <l>Minden Úr bölcs tehát e’ széles világon?</l>
+              <l>’S nincsenek bolondok a’ Nemesi ágon?</l>
+              <l>Minek a tudomány, ha van gazdagságom?</l>
+              <l>Meglelem én abban minden igazságom.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Meg van nagyobb részben az Aszszony’ érdeme,</l>
+              <l>'S fényesűlhet vele az Uraság’ neme.</l>
+              <l>Betsületes neve jó paraszt Férjének?</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Sirba kellett szálni már szegény fejének.</l>
+              <l>Özvegyi sorsomban él szomorú létem,</l>
+              <l>Nints férjfi körűlttem, ’s megunom életem.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Aszszonyban nem terem érdem Nemességre,</l>
+              <l>Sehol sintsen útja az illy tisztességre.</l>
+              <l>Egy Asszony sem nemes e’ széles világon,</l>
+              <l>’S paraszttól parasztot szül csak minden ágon,</l>
+              <l>Igy az Úri-Aszszony ha Paraszthoz megyen</l>
+              <l>Nem lehet, gyermeke hogy paraszt ne legyen.</l>
+              <l>A’ Nemesűlésre örökké férjfi kell</l>
+              <l>Nem messze megyünk itt aszszony emberekkel.</l>
+              <l>Csak férjfi nemesít.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>De ha megfizetem,</l>
+              <l>’S Három-szeres árát magam letehetem.</l>
+              <l>Jó-ember Uramék tsak megbocsássanak,</l>
+              <l>De már itt eltévedt formában állanak.</l>
+              <l>Hogy a’ paraszt Asszony Dáma ne lehessen</l>
+              <l>’S Paraszttól a’ Nemes Nemest ne szűlhessen,</l>
+              <l>Mintha vér sem volna már az Asszonyokba’</l>
+              <l>’S Mind férjfiak vették volna bé magokba.</l>
+              <l>Nemes az Embervér egész átaljában</l>
+              <l>Okos Lélek, ’s nem él a’ barmok fajában,</l>
+              <l>Tekintetessé lesz a’kit annak tesznek.</l>
+              <l>’S így az Urak mindég Parasztokból lesznek.</l>
+              <l>Mi vagyunk a’ tőke, honnan a' Méltóság</l>
+              <l>Származik érdemmel; ’s ez itt a’ Valóság.</l>
+              <l>A’ pénzkeresés is érdem az emberben</l>
+              <l>Akárhogy itéljük-meg az értelmekben.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Nem lehet a’ Törvény ellen okoskodni,</l>
+              <l>Parancsol; és még jobb benne vakoskodni.</l>
+              <l>A’mit meghatároz, már az mind igazság;</l>
+              <l>Földhöz üt, és vele küszködni bolondság.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Akármibe kerül, ezt megigazítom</l>
+              <l>’S a’ Törvény sorából pénzzel kitaszítom,</l>
+              <l>Így hát a’ Fiamnak, nemes tsak fia lesz,</l>
+              <l>Ellenben a’ Lyánya mind paraszt vérbe vesz?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Ahá! van hát Fia?</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Élő gyönyörűség,</l>
+              <l>Mondom, Kukulíni, ’s hozzám tsupa hűség.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>De hát minden megvan; már Urakká leszünk,</l>
+              <l>Nagysást, Tekintetest, mindent öszveveszünk,</l>
+              <l>Így a’ két száz arany úgy é hogy meg leszen,</l>
+              <l>Az ember e’ földön mindent pénzzel teszen.</l>
+              <l>Arany pennával kell az érdemet írni</l>
+              <l>Úgy osztán lehet a’ szerencsével bírni.</l>
+              <l>Fel kell a’ látásnak határára hozni</l>
+              <l>Az Ifjú Kukulit, ’s öszve tudakozni,</l>
+              <l>Ha lehet é Nemes testében lelkében</l>
+              <l>Úgy, mint a’ Levelén, és pengő pénzében.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Minek a’ Nemesség agya velejében,</l>
+              <l>Ha rakással van az arany erszénnyében?</l>
+              <l>Csak a’ nevére kell nekem a’ Nemesség,</l>
+              <l>Elég a’ testében osztán az egésség.</l>
+              <l>A Tudós mind szegény... Fogadhat magának</l>
+              <l>Az is pénzért, ha kell, ’s Ura lesz dolgának.</l>
+              <l>A’ kinek pénze van, arra hogy tanúljonon</l>
+              <l>Nincs semmi szüksége, ’s könyvek közt avúljon.</l>
+              <l>Szegények’ ügye ez, kik ésszel keresnek</l>
+              <l>’S hogy kenyerek legyen szolgálatot lesnek.</l>
+              <l>Énnékem, jó Uram, a’ seres kádaim</l>
+              <l>Voltak életemben legjobb Tudósaim.</l>
+              <l>Serfőzés szerzetté minden érdememet,</l>
+              <l>’S malátán veszem-meg a’ Nemességemet.</l>
+              <l>Kádból leszek Urrá, kezem öszve tsapva,</l>
+              <l>’S a’ tsokoládéba mint Dáma harapva.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Helyesen!, igazán! és így a’ böltsesség</l>
+              <l>A’ pénzes embernél semmi kötelesség.</l>
+              <l>Hanem már én megyek. Halmokat, bértzeket</l>
+              <l>Forgatok egymásra, ’s kősziklás hegyeket.</l>
+              <l>Már az Aszszony fija minden elme nélkűl</l>
+              <l>A’ Nemesi karba bizonyoson béűl.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Ne felejtse hát el a’ kétszáz aranyat...</l>
+              <l>Eggy illy tanúit ember ezért tsak hazudhat.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik eset</head>
+          <stage>LAIS, PELÓSIS, együtt érkeznek beszéllve.</stage>
+          <sp who="#pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Végre, reményljem-é Láis! hogy életem’</l>
+              <l>Nemes erköltsiddel boldoggá tehetem?</l>
+              <l>Lehet-é szerentsém nálad becsben lenni,</l>
+              <l>És becses életed’ szerencséssé tenni?</l>
+              <l>Az ember házason, ha egymást szereti,</l>
+              <l>Boldog, és a’ többi világot neveti.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Nem üt oda éppen. A’ világ felettünk</l>
+              <l>Kiterjedt hatalom; és gyenge életünk,</l>
+              <l>Előtte mozdulást, szót, kérést sem tehet,</l>
+              <l>Felibe emelni magunkat nem lehet.</l>
+              <l>Ki nem nevethetjük, mivel ránk se tekint,</l>
+              <l>’S örömöt, keservet szívünkre vakon hint.</l>
+              <l>Hol, kivel mit csinál, maga oda sem néz,</l>
+              <l>Szerencsét, vagy ütést ránk álmából intéz.</l>
+              <l>A’ munka a’ miénk: a’ világ csak igy áll</l>
+              <l>Nem ölel kegyelme, ’s véled perbe sem száll.</l>
+              <l>Ez a’ Világ, hogyha állandóságodról</l>
+              <l>Bizonyos legyek-é, és okosságodról?</l>
+            </lg>
+          </sp>
+          <sp who="#pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Az ösztön, ’s természet hatalmamban nincsen</l>
+              <l>Ezeknek láncza köztt ülünk mind bilincsen.</l>
+              <l>Most egész létemet személyedben érzem,</l>
+              <l>’S ha ellened szóllnak, a’ szívemben vérzem.</l>
+              <l>Érzem, hogy ha holtig mindég szerethetlek.</l>
+              <l>Úgy itt legbóldogabb egyedül lehetek.</l>
+              <l>Mert a’ki szerethet, mindég szerencsésebb</l>
+              <l>Mint ki szerettetik, ’s öröme édesebb.</l>
+              <l>Nincs kedvesebb érzés, mint szívből szeretni</l>
+              <l>’S előtted reszketve semmit sem tettetni.</l>
+              <l>Kérem az egeket, hogy szerethesselek,</l>
+              <l>’S elragadtatások köztt ölelhesselek.</l>
+              <l>Esküszöm hát, hogy én szeretni kívánlak</l>
+              <l>Mint boldogságomat, ’s örökre áldalak.</l>
+              <l>A’ ki e’ Világon senkit sem szerethet,</l>
+              <l>Gyönyörűségek köztt éltében nem lehet.</l>
+              <l>Elveszek ha téged szeretni meg szűnök</l>
+              <l>És édes tüzemben erántad meghűlök.</l>
+              <l>Elysiumban van a’ szívünk ha szeret —</l>
+              <l>’S az ember e’ nélkül örömben nem lehet.</l>
+              <l>A’ míg élsz mellettem, ’s e’ világon látlak,</l>
+              <l>Tárgyamnak ismérlek, ’s szüntelen’ imádlak.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Keserves fogadás! Elhiszem: úgy érzed,</l>
+              <l>De még is szivemet gyökerében vérzed.</l>
+              <l>Nincsen hatalmadban, tudom, a’ természet,</l>
+              <l>És fogadásodat feltétellel tészed.</l>
+              <l>Többet tesz, higyj nékem, végre az Okosság;</l>
+              <l>A’ tűz el-enyészik, ’s ez lesz állandóság</l>
+            </lg>
+          </sp>
+          <sp who="#pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Legyen igy, legyen ugy: ha véled bírhatok</l>
+              <l>Kedvem lesz akkor is, a' mikor sirhatok</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik eset</head>
+          <stage>KOLUMBINA, LAIS, PELÓZIS.</stage>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Kifutom belőlem a’ lehelletemet,</l>
+              <l>’S nyargalássá tettem egész életemet</l>
+              <l>Hogy a’ Kisasszonyt itt, ott feltalálhassam</l>
+              <l>’S a’ miben fáradok hamar kimondhassam.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Lássuk hát: mutasd, a’ Világ’ fordulását,</l>
+              <l>Miben változtattad-meg régi állását.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Ó, nem vágom olly nagy fába a’ fejszémet,</l>
+              <l>A’ Világ dolgával nem töröm eszemet.</l>
+              <l>Ö sem gondol vélem, én sem sokat nézem,</l>
+              <l>’S benne tsak a’ magam’ javait intézem.</l>
+              <l>Külömben a’ Világ csak szomszédokból áll,</l>
+              <l>Kik szóllják az embert, ’s látják, hogy mit csinál.</l>
+              <l>Fővel, lábbal a’ hogy’ van a’ Világ legyen,</l>
+              <l>Csak hogy a’ szerencse most vélemjól tégyen.</l>
+              <l>Ügyét a’ Minister szivemre kötötte</l>
+              <l>’S ajándékit reám özönnel öntötte.</l>
+              <l>Ország’ sorsát viszi, én az övét viszem ’</l>
+              <l>S nagyobb vagyok nála ebben, most úgy hiszem.</l>
+              <l>Nincs olly nagy Méltóság, melly szorúlásában</l>
+              <l>Kicsinyt ne mutasson olykor állásában,</l>
+              <l>Sőt a’ Hatalom is sok küszködésében,</l>
+              <l>Erőtlenre szorúl a’ gyengeségében.</l>
+              <l>A’ Kisasszonyt venné-el magának társúl.</l>
+              <l>De hogy ha megyen-é, mindég azon búsúl.</l>
+              <l>Nékem adta-által egész reménységét,</l>
+              <l>A’ bóldogúlását, pénzét, tehetségét.</l>
+              <l>Túl teszi szerentsém’ kívánságaimon</l>
+              <l>Ha kedves fordúlást talál dolgaimon.</l>
+              <l>Millyen papolást kell hát már ezért tenni</l>
+              <l>Hogy nem rossz eggy gazdag, szép, nagy Úrhoz menni</l>
+              <l>Engem a' Kisasszony nagy boldogságával</l>
+              <l>Tészen szerentséssé egyszerre magával.</l>
+              <l>Boldogúlásában mást boldogítani,</l>
+              <l>Egekből jött áldás, lehet állítani.</l>
+              <l>Magát felemelve engem is jutalmaz.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Beszéded különös és okos, az igaz.</l>
+            </lg>
+          </sp>
+          <sp who="#pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Nekem földhöz ütés: fél élet, fél halál...</l>
+              <l>A’ mennykő többnyire mindég szegényt talál!</l>
+              <l>Láis, reménységem már szivemen meghűlt</l>
+              <l>’S dobogási között gyötrelmem megkészűlt.</l>
+              <l>Hippodon eggy szűznek, az igaz, nagy ára</l>
+              <l>’S igen szembetünő, ha elveszti, kára.</l>
+              <l>A’ rang hízelkedik.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Az, a’ miért nem kell.</l>
+              <l>Nem boldog az ember még tsak a’ nevekkel.</l>
+            </lg>
+          </sp>
+          <sp who="#pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Igen; de valóság, rang, név, minden meg van</l>
+              <l>’S erköltsöt, érdemet, pénzt foglal magában.</l>
+              <l>Úgy is mint szép férjfi több a’ több embernél</l>
+              <l>Mi kell eggy eladó leánynak más ennél?</l>
+              <l>Elfújja érdemem’ Hippodon’ erszénye...</l>
+              <l>Gazdag mellett oda a’ szegény’ reménye!</l>
+              <l>A’ nagyra-vágyódást vezeti a’ szívet</l>
+              <l>’S felgázolják értté a’ kis sorsú hívet.</l>
+              <stage>meghajlik,’s Laisnak kezét csókolva.</stage>
+              <l>Itt hagylak, szép Lais! a’ dicsőségednek</l>
+              <l>Hirednek, nevednek, ’s nagy nyereségednek.</l>
+              <l>A' szegény érdemnek szerentséje ritka...</l>
+              <l>Felibe hág a’ pénz;’s ez sorsunknak titka.</l>
+              <l>A szemérmes ember nem emelkedhetik.</l>
+              <l>’S az igaz, tudod, nem szemtelenkedhetik.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Illyen alatsonyon rólam hogy itéltél?</l>
+              <l>Láisnak szivéről többet még nem véltél?</l>
+              <l>Láttad-é szivemet, ’s a’ Ministert benne?</l>
+            </lg>
+          </sp>
+          <sp who="#pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Tudom, személyedre hogy érdemes lenne.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Érdem, a’ hol a’ Természet választa,</l>
+              <l>’S hibáz ki megkapván újra elszalasztja.</l>
+              <l>A’ rang’ különbsége nem jó házasságra...</l>
+              <l>A’ki nagy Úrhoz megy, alá száll rabságra.</l>
+              <l>Szemeire forog hogy nem érdemiette</l>
+              <l>És a’ sorsán felyűl szerencséjét tette.</l>
+              <l>Hallgatni kell a’ mély meg aláztatásban,</l>
+              <l>És fejét lesütni a’ pompás szállásban.</l>
+              <l>A’ki felettem van, ne kérje kezemet,</l>
+              <l>Igy határoztam-meg ebben értelmemet.</l>
+              <l>Több, az olly nagy hangot magunkban megvetni</l>
+              <l>Boldogabbúl élni, és füstit nevetni.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Mitsoda? ’s a’ nagy Ur ha kis sorsút vészén</l>
+              <l>Mint a’ Török Császár, szegénnyel úgy teszen?</l>
+              <l>Oh, boldog szokások a’ keresztyénségben:</l>
+              <l>Hol az asszony szabad, és él elsőségben.</l>
+              <l>Hol az Ifiakat szabad látogatni,</l>
+              <l>’S négy szem köztt magához be is bocsátgatni:</l>
+              <l>Hol mint a’ férjfinak annyi a’ hatalmunk,</l>
+              <l>És egyenlő vélek minden szabadságunk</l>
+              <l>Hippodon ha elvesz’ Ministerné leszek,</l>
+              <l>’S mint Herceg Kisasszony vélle tsak úgy teszek.</l>
+              <l>Nem szűletéstől van az aszszony’ hatalma</l>
+              <l>És férjén megtenni szokott diadalma.</l>
+              <l>Gyakran a’ szolgáló, kit hiv Grófja elvett</l>
+              <l>Méltóságos Urán Fejedelemmé lett.</l>
+              <l>Igy sok tsekély sorsú ha Nagyságra lépett,</l>
+              <l>Jóltevő Gazdáján nagyságos boszszút tett.</l>
+              <l>Ha Herczeg lenne is, de a’ ki elveszen</l>
+              <l>Sorsommal egyenlő, és Társammá leszen.</l>
+              <l>Első rang Láisban a’ kellemetesség</l>
+              <l>Mellyet szeret, imád a' Nagy Ministerség.</l>
+              <l>Menjen a’ Kisasszony: tökélje-el magát...</l>
+              <l>Valakit szeretnek, ne féltse hatalmát.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>A’ férjhez-menésről soká kell beszéllni</l>
+              <l>Azonközben lehet frissen ’s vígan élni.</l>
+              <l>Ki mire esdeklik azt gyakran titkolja</l>
+              <l>’S a’ ki mindent kimond, tsak magát gátolja.</l>
+              <l>Pelózis! reményed tedd túl kétségeden</l>
+              <l>Ne gondolkozz; jere, ’s maradj meg eszeden.</l>
+              <l>A’ leányságnak is vannak ugrásai</l>
+              <l>Titkos örvényei, ’s rejtek-állásai.</l>
+              <l>Minden okosnak van eltitkolt értelme</l>
+              <l>’S mindent felfedezni, bolondságnak neme.</l>
+              <l>Kolumbina! maradj; ’s hajó a’ Minister,</l>
+              <l>Vigyázva forogjon nyelveden a’ fegyver.</l>
+              <l>Se jobbra se balra ne vágj bizonyosan,</l>
+              <l>Éleszd vágyódását, de igen okosan.</l>
+              <l>Ne tedd bizonyossá; ne vedd-el reményét</l>
+              <l>Mutassd czélját, ’s veszítsd-el a’ szeme-fényét.</l>
+              <l>Még ideje előtt ne hozzd búsúlásra,</l>
+              <l>Ne fordítsd elméjét rám bosszúállásra.</l>
+              <l>A’ sértett Hatalom, verhet vak ütéssel,</l>
+              <l>’S lél módot magának a’ leselkedéssel</l>
+              <l>Ne hidj minden nagynak: ollyan mint a’ gyermek</l>
+              <l>Makacs, ’s nincs előtte haszna az érdemnek.</l>
+              <l>Megboszszúl, ha sértjük kevély méltóságát</l>
+              <l>Pompája alá elrejtvén ravaszságát.</l>
+              <l>Belső gyengeségét manérral fedezi</l>
+              <l>És azt a’kit üldöz, nevén sem nevezi.</l>
+              <l>Minister-mesterség az indúlatokat</l>
+              <l>Titkolni, ’s rejtekben törni a’ nyakakat.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik eset</head>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <stage>egyedül</stage>
+              <l>Ördög vigye ezt a’ sok Ur-kényességet.</l>
+              <l>Haj-szál hasogatást, ’s kemény fejességet.</l>
+              <l>Látom, elsőségek, kevélység, makacsság,</l>
+              <l>És a’ ki truttzolhat abban van a’ nagyság.</l>
+              <l>Hogy dicsérjék kik csak magát mutatja</l>
+              <l>Nincs néző. Mindenik az eszét futtatja.</l>
+              <l>Mindenre vigyázva, senkit meg nem látnak,</l>
+              <l>A’ rosszra mutatnak, a’ jóra hallgatnak.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hatodik eset</head>
+          <stage>HIPPODON, KOLUMBINA.</stage>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Van-é vitorlámnak czéljára várt szele</l>
+              <l>’S közeh't-é hozzám életemnek fele?</l>
+              <l>Beszéllj, Kolumbina: magyarázd magadat,</l>
+              <l>Hadd lássam sorsomat; hadd halljam szavadat.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <stage>vállat vonit</stage>
+              <l>A’ jó Isten tudja! mert az Urak között</l>
+              <l>Az ember, eszére csuda színt öltözött.</l>
+              <l>Azoknak a’kiknek szolgálat a’ sorsok,</l>
+              <l>’S Uraságok közzé ültették bé magok’</l>
+              <l>Sem lehet sem szabad lenni több eszeknek</l>
+              <l>Mint az állatoknak, vagy a’ rab lelkeknek.</l>
+              <l>Szavát, gondolatját sorra parantsolják, ’</l>
+              <l>S mind testét, mind lelkét együtt el-foglalják.</l>
+              <l>Nekem is mondva van jobbra balra menni,</l>
+              <l>A’ tzélra dolgozni, és semmit se tenni,</l>
+              <l>Igy hát Nagysádnak is reménységet adok,</l>
+              <l>Hogy Láis hozzá megy; de lehet, hazudok.</l>
+              <l>Hinni, ’s nem; mind kettőt szükséges egyszerre,</l>
+              <l>A’ Nagyok illyeket bíznak az emberre.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <stage>fére fordúlva.</stage>
+              <l>Könnyítsünk csak rajta; értem, mit magyaráz;</l>
+              <l>A’ ki nehézséget csinál, csak erszényt ráz.</l>
+              <l>Nagy küszködést mutat, hogy jobbann fizessük,</l>
+              <l>’S a’ könnyü dologban sok terhét hihessük.</l>
+              <l>Mint az olly Per-mester, ki tsekély peredben</l>
+              <l>Mély akadályt szerez, ’s megdúl erszényedben.</l>
+              <stage>eggy marok pénzt ajándékoz.</stage>
+              <l>Vedd-el, szép leányzó, ezt a’ tsekélységet!</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Ez segítse tehát a’ jó reménységet?</l>
+              <l>Hahogy el nem sülhet viszsza kell fizetni?</l>
+              <l>A’ végezés’ könyvét kellene nézetni.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Eredj, kérlek, hadd-el: dűlő félen van már,</l>
+              <l>’S a' dolog, mint értem, mesterségedre vár.</l>
+            </lg>
+            <stage>Kolumbina elmegyen.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hetedik eset</head>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <stage>egyedül</stage>
+              <l>Rang, hatalom, hír, név, pénz, tekintet, jószág,</l>
+              <l>Minden nehézségen, tudjuk, hogy felyúl hág.</l>
+              <l>Maga sem erősebb nála a’ szeretet. —</l>
+              <l>’S a’ világban a’ kincs mindég legtöbbet tett.</l>
+              <l>Vénségünk sem ment-meg ennek erejétől,</l>
+              <l>Mikor a’ szerelem vérünkbenn már meg-hűl.</l>
+              <l>Lehet-é, hogy Láis más tárgyhoz ragadjon,</l>
+              <l>’S engem mindenemmel még is faltól hagyjon?</l>
+              <stage>Sétál, gondolkodik, ’s végre nevetvefakad. —</stage>
+              <l>He, he, he! rendesen vettem fel sorsomat,</l>
+              <l>Vagyonba plántálván egyedül dolgomat.</l>
+              <l>Ha Láis nem kedveli magamat magamért</l>
+              <l>A’ többi indító eszköz semmit sem ér.</l>
+              <l>Ha csak szerencséért jő hozzám ’s mást szeret?</l>
+              <l>És a’ gyötrelmekkel a’ főidre leveret?</l>
+              <l>A’ Nagyokat ritkán szeretik igazán.</l>
+              <l>Félelmes az a’ ki fordíthat egy Hazán.</l>
+              <l>Még a’ feleség is benne nyügét éri,</l>
+              <l>Hogy hatalmát féli és kegyelmét kéri.</l>
+              <l>Tudjuk már, hogy a’ hol nagy erőben függünk</l>
+              <l>Sokfélelmet érzünk, ’s nem nagyon szeretünk.</l>
+              <l>Az asszony a’ holott szoros függésbe' van</l>
+              <l>Hamar ellenség lesz titkos unalmában:</l>
+              <l>Ellenben tetszése ha egészlen szabad,</l>
+              <l>Tartozásaitól hamar fére szalad.</l>
+              <l>Igy már igaz, hogy ha feleséged, rabod</l>
+              <l>Elenyészett benne édes nyájasságod.</l>
+              <l>A’ rettegések köztt nem lakik szerelem,</l>
+              <l>’S gyönyörűséget sem szülhet a’ félelem</l>
+              <l>Ember, marha, ’s vad szív tart úgy feleséget</l>
+              <l>Hogy bottal keressen nála kedvességet.</l>
+              <l>Szó itt a’ büntetés, ’s eggy kis duzzogással</l>
+              <l>Végződik a’ csata egy két csókolással.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Nyolcadik eset</head>
+          <stage>HIPPODON, TULIPÁN.</stage>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Nagyságos Uram! én eggy újságot hozok,</l>
+              <l>Mellyel sorsomnak is úgy vélem, adózok.</l>
+              <l>A’ vastag Pomoné serfőzése után</l>
+              <l>Nemességet akar fitogtatni magán.</l>
+              <l>Az Érdem-levélben nincs ugyan mit tenni,</l>
+              <l>De hiszem az árát jól meglehet venni.</l>
+              <l>Különben sert főzött: egész világ itta,</l>
+              <l>’S a’ szomju községet vásárkor hizlalta.</l>
+              <l>Már, az illyen ember Hazájának szolgál</l>
+              <l>’S a’ több hivatal köztt derék helyen is áll,</l>
+              <l>Egész vásárt jól tart a’ seres kupával,</l>
+              <l>’S sertéseket hizlal a’ jó malátával.</l>
+              <l>Minden embert táplál foglalatossága,</l>
+              <l>És erszényében is nagy az igazsága.</l>
+              <l>Országos serfőző: ez nem kitsiny érdem...</l>
+              <l>Mit itél Nagyságod? mint szólgája, kérdem.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Hát a’ Napszámosok, a’ kik e világnak</l>
+              <l>Szereznek élelmet, ’s mindennek szólgálnak?</l>
+              <l>A’ pályinkát-főző zsidók, és inasok,</l>
+              <l>Rongyos kőművesek és szennyes kapások</l>
+              <l>A’ seres kádaknál nem szükségesebbek?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>De a’ summa-pénznél csak nem Nemesebbek.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Országnak szólgája, valaki dolgozik,</l>
+              <l>De azért mind Úrrá, tudod, nem változik.</l>
+              <l>Serből Nemességre ki úszni nem lehet,</l>
+              <l>A’ rangból az ember, szemetet nem tehet.</l>
+              <l>Nem lehet ott Király, a’ hol Méltóság nincs...</l>
+              <l>A’ hivatal és rang reá nézve mind kincs.</l>
+              <l>Ha nincs Méltóságos Felséges sem lehet...</l>
+              <l>Parasztság, Királyság Ur nélkül nem élhet.</l>
+              <l>E’ két erőt Nemes kötözi egymáshoz,</l>
+              <l>Igy tudni kell néki a’ hív javalláshoz.</l>
+              <l>A’ hol nincsen érdem, Nemesben nincs helye...</l>
+              <l>Nem lehet Tanácsos a’ kinek nincs feje.</l>
+              <l>Pomoné pénzesen ezután is sert főz,</l>
+              <l>’S malátával derék szegényt meg nem előz.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Hadd szórja-el pénzét; most ládára zárva</l>
+              <l>Fekszik; a’ pompára nagy tsomókban várva.</l>
+              <l>A’ Státusnak mindég nagy kárára vagyon,</l>
+              <l>Ha a’ pénz nem folyhat: zárva ne maradjon.</l>
+              <l>Ur sorban majd elvész ser kereskedése</l>
+              <l>’S útra teszi pénzét a’ Nemeskedése.</l>
+              <l>Legyen belőle is Méltóságos szegény,</l>
+              <l>Bóldogúl kincsével más Polgár, ’s jó legény.</l>
+              <l>A’ rang arra való, hogy mindég pusztítson,</l>
+              <l>’S magát kóldusítva szegényt gazdagítson.</l>
+              <l>Minden Uraságnak ez kötelessége,</l>
+              <l>Hogy elkőltse pénzét fényes Nemessége.</l>
+              <l>És a’ melly Úr el nem költi jövedelmét</l>
+              <l>Státus’ ellensége, ’s nem érdemli nemét.</l>
+              <l>Lehet Nemes között, mint látjuk, szegény is,</l>
+              <l>Tolvaj, gonosztévő, czudar, és bolond is.</l>
+              <l>Mihaszna várjuk, hogy mind érdemes légyen</l>
+              <l>A’ mennyi Nemes van, ’s gonoszúl ne tégyen.</l>
+              <l>Mint másnak, ennek is van elég sepreje,</l>
+              <l>Urnák is elégnek szédűlt a’ veleje.</l>
+              <l>A’ sok szép aranyat jó lenne eltenni,</l>
+              <l>És a’ Nemességgel a’ hol van, ott lenni.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Kilencedik eset</head>
+          <stage>HIPPODON, TULIPÁN, POMONÉ, KUKULINI.</stage>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <stage>magát a ’ leguggolásig hajtja meg; Kukulinipedig merevedést
+                                    mutat állásában,</stage>
+              <l>Nagy Méltóságodnak kérésem jelentve</l>
+              <l>Szóllok, csekélységem’ előre is mentve.</l>
+              <l>A’ Nemesi karba kívánok bémenni,</l>
+              <l>Megúnván a paraszt piszok között lenni,</l>
+              <l>Eggyetlen eggy fiam’ számára szeretném,</l>
+              <l>Az Uralkodótól, ha ezt megnyerhetném.</l>
+              <l>Házasodni kíván, de a’ paraszt sorban</l>
+              <l>Nincs párja, ’s nem ülne már tovább a’ porban</l>
+              <l>Láisig emeli-fel a’ reménységét,</l>
+              <l>Személyében nézi, ’s kéri feleségét.</l>
+              <l>Ehhez Nemesség kell, mellyet a’ pénz pótol;</l>
+              <l>Rangnak, pénznek, tudom e’ szűz is meghódol.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>A’ Nemesség árnyék a’ szép érdem körűl...</l>
+              <l>A’ hol semmi sincsen, ott az árnyék nem űl.</l>
+              <l>Érdemet Vásárban árúlni nem lehet.</l>
+              <l>Pénzen illyen vagyont az Ember nem vehet.</l>
+              <l>Szólgálatom Kednek itt semmit sem teszen</l>
+              <l>Az ember a’ renden túl soha sem megyen.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Az Érdem ha magán pénzzel nem segíthet,</l>
+              <l>Nagy Házat vériben mimódon építhet?</l>
+              <l>Minden érdemet kell hát igy jutalmazni</l>
+              <l>Ingyen; és a’ kártól, rossztúl óltalmazni.</l>
+              <l>De ki jutalmazhat hát minden érdemet?</l>
+              <l>Az ember pénz nélkül mindenütt tsak szemet.</l>
+              <l>Nem vagyok érdemes arra, a’ mit veszek,</l>
+              <l>’S gazdálkodásomból a’ zsembembe teszek?</l>
+              <l>Az érdemet sokszor a’ jó pénz csinálja</l>
+              <l>’S ha a’ Nemes koldus, minden taszigálja,</l>
+              <l>Vagyontól származik köztiünk a’ tekintet</l>
+              <l>’S a’ rang is mindent csak aranyba ültetett.</l>
+              <l>A’ ki gazdagodott, örökké Úrrá lett,</l>
+              <l>’S jövedelem nélkül a’ fó rang, megvetett.</l>
+              <l>Az én paraszt kezem" sok Nemes tsókolja,</l>
+              <l>Hogy az, erszényemmel szükségét pótolja,</l>
+              <l>Lábommal tapodom az Ur-kevélységet,</l>
+              <l>Segítvénn sokban a’ fényes szegénységet.</l>
+              <l>Sok szegény Nemesnek a’ konyhába vetnek,</l>
+              <l>De engem az asztal’ fejére ültetnek.</l>
+              <l>Nemzetesnek hívnak szép Complimentekkel,</l>
+              <l>Hijába vagyok még paraszt nevezettel.</l>
+              <l>Kóldúlás, és tsalás nélkül ki pénzt szerez</l>
+              <l>Magánál érdemet valamit csak érez.</l>
+              <l>Én seremet mindég jó mértékkel mértem.</l>
+              <l>’S az árpát örökké folyó árán vettem.</l>
+              <l>Más ember sokszor csak azzal gazdagodik,</l>
+              <l>Hogy a’ nagy Urak köztt mélyen hazudozik.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Megértettem Kedet: most csak elmehetnek,</l>
+              <l>’S otthon dolgaik köztt tsendesen lehetnek.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Tizedik eset</head>
+          <stage>HIPPODON, TULIPÁN.</stage>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>E’ paraszt Asszonyság együgyűségében</l>
+              <l>Csak úgy okoskodik mint más mélységében</l>
+              <l>Mert a’ tapasztalás végre megtanítja,</l>
+              <l>Hogy a’ Világ magát miformán vakítja.</l>
+              <stage>nevet.</stage>
+              <l>He-he-he! Eggy sorba jöttem a’ fijával:</l>
+              <l>Láist kéri; ’s ott van hol én a’ bajával.</l>
+              <l>Parasztság, Méltóság, eggyütt igy ögyeleg</l>
+              <l>’S a’ szerentse a’ hol tetszik ott enyeleg.</l>
+              <l>E’ Világnak tsufos viszontagságában</l>
+              <l>Ö lehet még boldog véle, vadságában.</l>
+              <stage>elmegyen</stage>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Tizen-egyedik eset</head>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Pomoné születve, élve parasztságban</l>
+              <l>Nem tudja maga is, hogy mennyi esze van.</l>
+              <l>Valaki nagy rangba’ van, a’ mind bőlts, okos,</l>
+              <l>Noha bőltsebb nála sok szegény hű</l>
+              <l>Lakos, Hippodon nem mondja ennek is szemébe,</l>
+              <l>Hogy úgy lát itt mint ő parasztos eszébe.</l>
+              <l>A’ szegény nem tudja maga azt is, mit tud,</l>
+              <l>’S mikorjól beszéli is azt véli, hogy hazud.</l>
+              <l>Tettetéssel kell a’ Tanátsosnak élni,</l>
+              <l>Nagy hangon beszállni, ’s árnyéktól is félni.</l>
+              <l>Mint az Orvos, kit csak nyavalya gazdagít,</l>
+              <l>A' Minister is úgy szerentsés, ha vakít.</l>
+              <l>Ezek a’ nagy Urak az eszet irigylik</l>
+              <l>Másokban, ’s ha többet tud nálok, szégyenük.</l>
+              <l>Méltóságok alatt gyengeségeiket</l>
+              <l>Hallgatva fedezik, ’s rejtik sziveiket.</l>
+              <l>Hogy Pomoné okos, azt ki nem vallaná</l>
+              <l>Előtte a’ Grófom, ha vesztét hallaná.</l>
+              <l>Rá hallgat az okos beszélgetésekre.</l>
+              <l>És csak lopvást tekint a’ bölcs emberekre.</l>
+              <l>Minden jót magoknak tulajdonítanak.</l>
+              <l>Veszélyt, kárt, és hibát másra hárítanak.</l>
+              <l>Bolondság! Könnyen nyér az pert, ki hatalmas</l>
+              <l>’S a’ gyengének véle perelni siralmas.</l>
+              <l>Ha <hi>Dairó, Láma, Kalif, Mogol</hi> lennék</l>
+              <l>Mint ők tsak olly böltsen, és okoson tennék.</l>
+              <l>Czudar inas vagyok, sem rangom, sem meszem</l>
+              <l>És nem tapasztolja senki a’ nagy eszem’.</l>
+              <l>De azért Gazdámat még is csakmegnyerem,</l>
+              <l>’S öszvecsapom véle még ma a’ tenyerem.</l>
+              <stage>el-megyen.</stage>
+            </lg>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">HARMADIK JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ eset</head>
+          <stage>HIPPODON, LÁIS.</stage>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Ifiú szép Láis! tekintsd fájdalmomat,</l>
+              <l>’S határozzd-meg benned végre a’ sorsomat.</l>
+              <l>Ne nézzd a' Tanátsost: Hippodont szemléljed</l>
+              <l>Csak testébenn visgáld, ’s erkölcsét itéljed.</l>
+              <l>Nem érezhet a’ szív fényben édességet</l>
+              <l>’S csak test szűlhet testnek itt gyönyörűséget.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Hippodon rangjátúl kiválva itt kedves</l>
+              <l>Erkölcse, termete, beszéde mind nemes.</l>
+              <l>De a’ nagy külömbség ebben reménységem’</l>
+              <l>Leveri, ’s semmivé tészi nyereségem’.</l>
+              <l>És hogyha megmarad e’ nagy Felsőségben</l>
+              <l>Nehezen lesz velem mint Társ eggyességben.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Szeretnem, tsudálnom kell makacsságodat</l>
+              <l>De mégsem láthatom itt igazságodat.</l>
+              <l>Illlyen áldozatot, kérlek, hogy ne kívánj</l>
+              <l>Ne ültess hajóra és habokon ne hánj</l>
+              <l>Vallyon nem tudnál-é Ministerné lenni,</l>
+              <l>’S mint Nagyságos Aszszony eszeddel úgy tenni?</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>A’ Nagyságos Aszszonyt itt a’ férjfi teszi</l>
+              <l>És a’ tekintetit mind magára veszi.</l>
+              <l>Mindenben hódolni kell a’ Felsőségnek</l>
+              <l>Szolgálóvá lenni, jaj a’ feleségnek.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Ha paraszthoz mégy is, rajtad mindég túl lesz</l>
+              <l>’S a’ mint kedve viszi életeddel úgy tesz:</l>
+              <l>Hatalma trónusát a’ mord ’s vad durvaság</l>
+              <l>Felállítja rajtad, ’s le vér a’ marhaság.</l>
+              <l>De a’ tanult elme nagy okosságában</l>
+              <l>Betsűli a’ szépet, ’s jót, barátságában.</l>
+              <l>Durvább erköltsökben keresed javadat,</l>
+              <l>’S rangomban fitymálva csalod-meg magadat.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Ha távol esünk is az illy méltósághoz.</l>
+              <l>Nem állunk olly közel a’ paraszt vadsághoz.</l>
+              <l>Van elme ’s vér. Nemes ’s Nagyságos név nélkűl,</l>
+              <l>’S még a’ bőltsesség is nem mindég rangon ül.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Nem is ellensége, — ’s Felső Méltóságban</l>
+              <l>Lehet az embernek élni valóságban.</l>
+              <l>A’ rang nem romlása a’ nagy erkölcsöknek...</l>
+              <l>’S Hivatal próbája az igaz lelkeknek.</l>
+              <l>Bírhatnak erkölccsel kik tsendesen élnek,</l>
+              <l>Több az, ha meg állja a’ kit késértenek.</l>
+              <l>Csak Országos dolgok próbálják az embert...</l>
+              <l>Keveset szólhat az, ki csak otthon hevert.</l>
+              <l>A’ kis sors minden nagy rangot széllyel tépne,</l>
+              <l>’S mint a’ szúnyog, mindég nagy állatot csípne.</l>
+              <l>Csak azért útál úgy, hogy oda nem mehet,</l>
+              <l>És csekélységéből olly naggyá nem lehet.</l>
+              <l>A’ ki a’ nagy Embert rangjában utálja,</l>
+              <l>Hogy sorsát irigyli, véle tsak azt vallja.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Akár igy, akár úgy; nagy Úrné nem leszek</l>
+              <l>Inkább szüzességben és pártában veszek<stage>elmegyen</stage></l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második eset</head>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Nem tudja sok ember, hogy miben értetlen</l>
+              <l>Igaz, jó, szerencsés, okos, vagy eszetlen.</l>
+              <l>Makacsságát veszi százszor is erkölcsűl:</l>
+              <l>Ostrommal evezik, és hajója elül.</l>
+              <l>Azt hiszi, hogy nyilván való igazsága,</l>
+              <l>’S bánatba temeti kedves bolondsága.</l>
+              <l>Nagy dolog hogy senki sem láthatja magát</l>
+              <l>’S csak a’ szomszédjára vicsorgatja fogát.</l>
+              <l>Tettét a’ bolond is mindég igazolja,</l>
+              <l>És a’ ki oktatná szemébe vádolja.</l>
+              <l>Láisnak értelme, hogy Minister lettem,</l>
+              <l>Bolondsággal vádol, a’ mint megértettem.</l>
+              <l>Mintha a’ fő rangban érdem nem lehetne,</l>
+              <l>’S a’ természet velünk itt jól nem tehetne.</l>
+              <l>A’ kicsiny a’ nagyot szüntelen vizsgálja</l>
+              <l>Annak gyengeségét, hogy miben találja.</l>
+              <l>Ha nem lát, rá fogja, hogy magát emelje,</l>
+              <l>’S a’ Világ őtet is valaminek vélje.</l>
+              <l>Az igaz érdemet sokszor kissebbíti,</l>
+              <l>Ugy vélvén, hogy magát ezzel majd segíti.</l>
+              <l>Már Láis legyen- é, vagy a’ Ministerség?</l>
+              <l>Hivatal. Szerelem! Itt győzni mesterség!</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik eset</head>
+          <stage>HIPPODON. XENOXIS.</stage>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Érkezel, Xenoxis! jó hogy ölelhetlek</l>
+              <l>Igaz barátomnak és bölcsnek lelhetlek.</l>
+              <l>Vezérelj, légy bírám hányattatásomban</l>
+              <l>’S igazgassd eszemet ragadtatásomban.</l>
+              <l>Ez a’ Ministerség úgy is változhatik.</l>
+              <l>De Láis, ha nem lesz, nem találtathatik</l>
+              <l>Eggy botlás ... ki tudja? kitaszít székembül,</l>
+              <l>Más húzza magához, és a’ helyemre ül.</l>
+              <l>Ma öröm, kegyelem, holnap idegenség,</l>
+              <l>Elébb engedelem, végre kegyetlenség.</l>
+              <l>Eggy eset kezünkben, hogy ha szerentsétlen.</l>
+              <l>Rólunk ezt sugdossák: Szegény! be idétlen!</l>
+              <l>Igy, eggy Minister hogy mindég kedvet tegyen</l>
+              <l>Szükség, hogy dolgában tsak szerentsés legyen.</l>
+              <l>De ki ment alkura hát szerencséjével?</l>
+              <l>Ki lát ’s bírhat mindent gyenge elméjével?</l>
+              <l>Az országok’ dolgát végezés hordozza,</l>
+              <l>’S a’ ki véle küszdik magát feláldozza.</l>
+              <l>Alá rohant sorsa maga alá temet,</l>
+              <l>Hol a’ nagy Minister sokszor semmivé lett.</l>
+              <l>Mondjuk hogy ezt Király, azt más igazgatja,</l>
+              <l>Esetünket még is senki sem tudhatja</l>
+              <l>Sokszor a’ Minister tsupa pompás ínség,</l>
+              <l>Fényes vakoskodás, ’s rettegő reménység.</l>
+              <l>Félve, vélve megyen sok titkos mivében</l>
+              <l>’S gyakorta kesereg ő is a’ szivében.</l>
+              <l>Igy, minekelőtte elhagyna, leteszem</l>
+              <l>A’ Ministerséget; és Láist el-veszem.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Tehát a’ fejedhez illy okoskodás fért,</l>
+              <l>Hogy semmit se csinálj többet a’ Hazádért?</l>
+              <l>Nem lehet Láissal közjónak szolgálni?</l>
+              <l>Nappal tanácskozni, ’s éjjel vele hálni?</l>
+              <l>Elmehetsz nyugodni, hogyha félre tesznek,</l>
+              <l>De szolgálj, ’s bódogits, mikor elővesznek.</l>
+              <l>Ha minden nagy ember igy elhúzza magát.</l>
+              <l>Majd gazokra hagyják a’ közjót ’s köz igát.</l>
+              <l>Mindég tolja magát az alacsony ember,</l>
+              <l>Tudod; és az Igaz magánosán hever.</l>
+              <l>Ha rossz a' vezérlés otthon is szenvedtet...</l>
+              <l>A’ közjó bolonddal semmire sem mehet.</l>
+              <l>Magáért teremtve kiki tsak félbe’ van —</l>
+              <l>Másokért is élünk, tudod a’ Világban...</l>
+              <l>A’ természet néked érdemeket adott</l>
+              <l>Mellyért a’ köz-jóra reád adót szabott.</l>
+              <l>A’ ki magáért él, rút, nevetséges is,</l>
+              <l>A’ki boldogíthat szép, ’s dicsőséges is.</l>
+              <l>Több eggy lyány’ szerelme, mint Nemzeted’ java?</l>
+              <l>Rokonid tanácsa és Királyod' szava?</l>
+              <l>Ha nem megyen hozzád, hogy Hazád’ szólgálod,</l>
+              <l>Álmélkodom rajta, ha még sem utálod.</l>
+              <l>Nem kedveli, tsak hurczol; ’s az illy feltétellel</l>
+              <l>Mosolyog magában, hogy olly gyengének lel.</l>
+              <l>Mi okból fosszon-meg a’ dicsősségedtól</l>
+              <l>A’ hivatalodtól, ’s abban érdemedtől?</l>
+              <l>Talán hogy magadban rágjon az unalom.</l>
+              <l>És tekintet nélkül fojtson a’ fájdalom?</l>
+              <l>A’ ki hivatalhoz, tisztelethez szokik,</l>
+              <l>’S idótöltésibe nagyon belé okik.</l>
+              <l>Naponként új dolgot, új embert szemlélhet,</l>
+              <l>És az únalomtól így soha sem félhet;</l>
+              <l>Hervadásba esik végre dolog nélkül</l>
+              <l>Jön, megyen, néz, ásít; ’s félig a’ sírban űl.</l>
+              <l>Fél halál az élet szép társaság nélkül,</l>
+              <l>’S a’ kinek nincs dóiga unalom köztt vénűl.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Maradnak barátim, kik éltem’ táplálják,</l>
+              <l>’S személyemben úgy is kedveket találják.</l>
+              <l>Megkeresi tárgyát hidd-el a' tisztelet,</l>
+              <l>Nincsen barát nélkül az igaz, ’s jó élet.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Igaz ismérőji a’ Fő Ministernek,</l>
+              <l>De nem Hippodonnak, úgy mint nagy embernek.</l>
+              <l>Az ember nem tartja mását maga felett</l>
+              <l>Ollyan nagy érdemnek, mint hivatallal lett.</l>
+              <l>A’ nagy tehetségnek vannak barátjai,</l>
+              <l>Szólgáji, hívei, ’s jármos állatjai.</l>
+              <l>Tedd félre hatalmad’, kevés Polgár marad,</l>
+              <l>Ki imádásodra a’ házadhoz fárad.</l>
+              <l>A’ halandó, tudod, nyereségéhez forr,</l>
+              <l>’S onnan tekint végre más dolgot is ollykor.</l>
+              <l>Mihelytt megértik, hogy a’ Király nem tekint,</l>
+              <l>’S levetkezed rólad mind az udvari szint:</l>
+              <l>Hogy nem gazdálkodhatsz tovább kegyelmével,</l>
+              <l>’S mást nem boldogíthatsz megnyert elméjével</l>
+              <l>Elülhetsz, barátom, tálentomaiddal</l>
+              <l>Otthonn szobáidban egyedül magaddal.</l>
+              <l>Eggy lyányért veted-meg kedved’, boldogságod’,</l>
+              <l>Férfiú érdemed’, fényed", méltóságod’?</l>
+              <l>Elég szép Asszony él Nemzeted’ fajában?</l>
+              <l>De illy nagy hivatal eggy van a’ Hazában.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Bár hogy okoskodol, itt a’ szív parantsol,</l>
+              <l>Az érzésnek, tudod, minden élet hódol.</l>
+              <l>Ellehet eggy Ország eggy halandó nélkűl,</l>
+              <l>’S emberben a’ Világ soha meg nem szűkűl.</l>
+              <l>Első gyönyörűség szép asszonnyal élni,</l>
+              <l>’S az aláeséstől főid színén nem félni.</l>
+              <l>Hivatal nélkül is szólgálja Hazáját</l>
+              <l>A’ hív Polgár, ’s tudja hordozni igáját.</l>
+              <l>A’ ki szeret, jöjjön; a'ki nem, maradjon,</l>
+              <l>És tiszteletemért soha se fáradjon.</l>
+              <l>Szerencse-keresőt igaz barátomnak</l>
+              <l>Nem ismérek, ’s vége lészen vakságomnak.</l>
+              <l>Ki volt hatalomnak, érdemnek barátja,</l>
+              <l>Magánosságában az ember meglátja.</l>
+              <l>Az igaz barátot csak érdem csinálja,</l>
+              <l>’S van annak, magában ki ezt feltalálja.</l>
+              <l>Jó-szivükkel lenni öröm, kedv, szerencse.</l>
+              <l>És az igaz Polgár e’ Világnak kincse.</l>
+              <l>Fejedelem leszek magánosságomban</l>
+              <l>Férj, Atya, jó barát a’ szabadságomban.<stage>elmegyen</stage></l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik eset</head>
+          <sp who="#xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Próbáljuk fel-fordúlt fejét helyre hozni</l>
+              <l>’S a’ köz boldogságnak ezzel is áldozni.</l>
+              <l>Vessük-el czéljátúl; és szövevényekbe</l>
+              <l>Vezetvén, süllyesszük-el az örvényekbe.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik eset</head>
+          <stage>TULIPÁN, KOLUMBINA.</stage>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>A házasság mind jó, hanem kenyér is kell.</l>
+              <l>Éh has közben élni nehéz jó kedvekkel.</l>
+              <l>Könyvez a’ szerelem ha nincsen mit enni.</l>
+              <l>’S jobb feleség nélkül csak kobozva lenni.</l>
+              <l>A’ több asszonyság köztt ha nincs élet’ módja</l>
+              <l>Éhséggel legalább a’ baját nem toldja.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <stage>, eggy tele erszényt mutat.</stage>
+              <l>Itt a’jövedelem: emelgessed; nézzed.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Hip, hup morgondia! e’ mind a’ te pénzed.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Nincs egyéb jószágom az Ur’ bolondságnál</l>
+              <l>’S a’ közttök megtenni szokott csalfaságnál.</l>
+              <l>Nékem ezt hív Gazdád tsak azért fizeti,</l>
+              <l>Hogy Láist magához vélem keríteti.</l>
+              <l>Én szót adok értté: ő arannyal fizet.</l>
+              <l>Szép állat a’ nagy Ur, mikor eszetlen lett.</l>
+              <l>Ha a’ sors kezek köztt rabúl tart bennünket:</l>
+              <l>’S ha szolgálatokkal hurczolják éltünket.</l>
+              <l>Bosszúljuk magúnkat eszetlenségeken</l>
+              <l>’S legyünk uralkodók a’ kényességeken.</l>
+              <l>Mikorjó kedvek van, dicsérd; hizelkedjél:</l>
+              <l>Mikor megnehéztel, búsúlj, reménykedjél,</l>
+              <l>Ha tréfáson beszéli fogd-bé az orrodat,</l>
+              <l>Nevess háta megett, ’s erőltessd magadat.</l>
+              <l>A’ mikor parancsol, ülvén asztalánál,</l>
+              <l>Reppenj-fel egyszerre, mintha villámjánál.</l>
+              <l>Esküdj, hogy tőle függ minden bóldogságod,</l>
+              <l>’S ha meg vét, előtted koporsód, halálod.</l>
+              <l>Mondjad, hogy mindene szebb a' másokénál,</l>
+              <l>’S el nem választ tőle egyéb a’ halálnál.</l>
+              <l>A’ mikor haragos, eggy pisszenést ne tégy,</l>
+              <l>’S mintha sírban volnál félig, ollyan bús légy.</l>
+              <l>Ha rád inosolyodik, szökdöss, mint a’ vizsla,</l>
+              <l>Komondor hivséget mutass; ’s ne félj soha.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Én, a’ Grófom előtt tsak bölcset mutatok:</l>
+              <l>Keveset beszéllek, köhentek, ’s hallgatok.</l>
+              <l>Nem eggy nyavalyában van mindennek esze,</l>
+              <l>Ki eggy, ki más féle látásokban vészé.</l>
+              <l>Mint az Oraculum, mi tsak úgy beszéllünk</l>
+              <l>Mindent védelmezünk, ’s mindenfelől félünk.</l>
+              <l>’S ha sok esztendőket hallgatok mellette,</l>
+              <l>Szólgálatom nála, szerentsém meg tette.</l>
+              <l>Hanem most eggy vastag özvegy a’ jószágom,</l>
+              <l>Hasznom, jövedelmem, és boldog országom.</l>
+              <l>Uraságot keres, és a’ Ministernél Gyámolt, segítséget szolgálatomban
+                                lél.</l>
+              <l>De nehezen megyen — ’s Hippodon azt mondja,</l>
+              <l>Hogy a’ Nemességet tsak pénzért nem adja.</l>
+              <l>Hát ha, elmés kedvem, segitnél itt te-is —</l>
+              <l>Két száz arany lenne jutalmam, sőt több is.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Láisnak kell húzni szerencsénk szekerét...</l>
+              <l>E’ dolog folyásnak fellelem az erét.</l>
+              <l>Eggy kis kötődéssel meg lehet tsinálni</l>
+              <l>’S jó lész azt a' kétszáz aranyat el-hálni.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Pénz, feleség nélkül minden has tsak korog,</l>
+              <l>’S mint kenetlen fakó szekér, úgy tsikorog.</l>
+              <l>Csak ez a’ két jó van e’ nagy rossz világban</l>
+              <l>E’ hires életben, ’s az Emberi ágban.</l>
+              <l>Csit... jön a’ Minister — furcsa tárgyam maradj,</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Állapodj-meg, ne félj, ne rebegj, ne szaladj.
+								<stage>elszalad</stage></l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hatodik eset</head>
+          <stage>HIPPODON, KOLUMBINA.</stage>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Szólottái Láissal? szép Leány! biztathatsz?</l>
+              <l>Örömöt, víg kedvet, reménységet adhatsz?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Új eset! változás kavarodott közénk</l>
+              <l>Hideg mennykő lőtt ránk, ’s vakon ütött mellénk.</l>
+              <l>Pelózis, eggy Ifjú lába alá botlott</l>
+              <l>Látta, megszerette, ’s szíve hozzá hajlott.</l>
+              <l>Nehéz véle birni; tsaknem meg kéreti</l>
+              <l>’S úgy látszik, hogy ebben magát sem tetteti.</l>
+              <l>Rang, hír, Ministerség. mind semmi előtte</l>
+              <l>És már tsak Pelosis lefekte, felkőlte.</l>
+              <l>De tudok olly mételyt e’ becses tárgyában</l>
+              <l>Hogy ha fel-fedezem szeget üt agyában.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Kedves Kolumbinám! micsoda dördűlés.</l>
+              <l>Ez a fejem felett? e’ fél megőrjűlés.</l>
+              <l>Ha a’ kezét kérve tőle megvettetem...</l>
+              <l>Elvesztem örömöm' és kinevettetem.</l>
+              <l>Micsoda Asszony az, hogy nincs vágyódása</l>
+              <l>Maga-szeretete, sem hivalkodása?</l>
+              <l>Van leány, kit a’ pénz, ’s tündöklés nem szédít,</l>
+              <l>’S felső-rang ’s hatalom magához nem térit?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Fél Filosofusnak hirdetteti magát,</l>
+              <l>’S mint Leány, magára veszi ezt az igát.</l>
+              <l>Azzal kevélykedik, hogy a' Méltóságot</l>
+              <l>Fel rúgja, és ebben mutasson nagyságot.</l>
+              <l>Kevélységgel űzvén igy a’ kevélységet</l>
+              <l>Tzifrán őltőzteti-fel a’ semmiséget.</l>
+              <l>Hogy különös légyen, szájában megfojtja</l>
+              <l>Édes vágyódásit. ’s szivében sóhajtja.</l>
+              <l>De még is e’ veszélyt tőle elhárítom,</l>
+              <l>És eszére hozom, Nagysádnak fogadom.</l>
+              <l>Hanem most előtte mélyen esedezem.</l>
+              <stage>térdre esik.</stage>
+              <l>De ha nincs ajánlás fel se is fedezem.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Ha az igazsággal, emberséggel egyez</l>
+              <l>Kívánságod meg lesz ... állj-fel, beszéllj, ’s
+								nevezz.<stage>felemeli</stage></l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Pomoné a’ fiját meg-nemesitené,</l>
+              <l>Árát ’s más költségét gazdagon fizetné,</l>
+              <l>A’ kincses Tárházba számos arany menne...</l>
+              <l>‘S kár lenne ha egygyel a’ Nemes több lenne?</l>
+              <l>Nekem vérség szerint-való atyámfija,</l>
+              <l>És az örömömnek tsak ez most a’ híja.</l>
+              <l>Látjuk, hogy az ember úgy is hivalkodás.</l>
+              <l>’S egész életével haszontalankodás.</l>
+              <l>Ne tegyünk belőle nagyobbat magánál,</l>
+              <l>Hadd vigadjon: hagyjuk-meg bolondságánál.</l>
+              <l>Ha képzelődés is a’ miben kedvet lél,</l>
+              <l>Néki jó; ’s nem látja hogy gőzzel, füsttel él.</l>
+              <l>Hagyjuk-meg az embert boldog álmaiban</l>
+              <l>Gyermekségeiben ’s képzelt javaiban.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>De van a’ Világnak elkészült kaptája,</l>
+              <l>Melly már a’ dolgoknak bizonyos próbája.</l>
+              <l>És a’ bolondság is, a’ hol méltóságos.</l>
+              <l>Sok érdem felett van, és azonban áros.</l>
+              <l>De ez még is elsül, csak hallgatásban légy,</l>
+              <l>És kívánságodból, Leány, köz-hirt ne tégy.</l>
+              <l>Kötelezzd magadat, hogy kérésem meglesz</l>
+              <l>’S szívemből Aszszonyod áldozatot nem tesz.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Mindenre fogadom, a’ mi e' Világon</l>
+              <l>Erő és igazság a’ nagy Valóságon</l>
+              <l>Hogy egész erőmet, mind erre forditom,</l>
+              <l>És e’ kevély szívet végre meghóditom.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Eszedre bízom hát egész esetemet...</l>
+              <l>Halmasjutalommal várd feleletemet.</l>
+              <stage>elmegyen</stage>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hetedik eset</head>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Akárhogy’ elsüllyed a’ szekér, kiviszem,</l>
+              <l>’S megnyerem peremet, fejemben úgy hiszem.</l>
+              <l>A’ Világot gyakran cselédek forgatják,</l>
+              <l>Kik a’ nagy Urakat óldalról nógatják.</l>
+              <l>Minden Úrnak van eggy tanácsos szolgája</l>
+              <l>Kinek nyakán forog a’ háznak igája</l>
+              <l>Hol, szolgáknál fogva még a’ szeretők is</l>
+              <l>Fordítnak a’ dolgon, s igazgatnak ők is.</l>
+              <stage>el-megyen</stage>
+            </lg>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">NEGYEDIK JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ jelenés</head>
+          <stage>XENOXIS, PELÓSIS.</stage>
+          <sp who="#pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Uram! mint barátja a’ Fő Ministernek,</l>
+              <l>Ügynek, igazságnak, ’s minden jó embernek.</l>
+              <l>Vezérelj sorsomban, ’s Hippodon’ értelmét</l>
+              <l>Fedezd-fel, ’s töröld-el szivemnek félelmét.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Uram! eggy Minister olly állat nemében</l>
+              <l>A’ kinek sok holmi forog a’ fejében:</l>
+              <l>Azon van, másoknak hogy titkait nézze,</l>
+              <l>’S Dolgait azok köztt tzéljára intézze:</l>
+              <l>másoknak szívébe hogy béhathasson,</l>
+              <l>Az övébe pedig senki se láthasson.</l>
+              <l>Kérdés ’s felelettel a’ titkot kifejti,</l>
+              <l>’S az Embert felveszi avagy tőrbe ejti.</l>
+              <l>Ki látja eggy Felső Tanácsosnak szivét,</l>
+              <l>És ki vizsgálhatja elrejtette sok mivét?</l>
+            </lg>
+          </sp>
+          <sp who="#pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Mozdulás, tekintet, szó, forma, magyaráz,</l>
+              <l>’S jelenti a’ titkot, a’ ki jól rá vigyáz.</l>
+              <l>Sőt még a’ tettetés maga kimutatja,</l>
+              <l>Sokszor, hogy az ember czélját hol duggatja.</l>
+              <l>Nincs senki, ki magát úgy felfedezhesse.</l>
+              <l>Hogy titkát a’ Világ észre ne vehesse.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>A’ Minister, tudd-meg, örökké úgy tettet,</l>
+              <l>Hogy tettetést se láss, sem czélt, a' mit fel vett.</l>
+              <l>Tekinteti csendes, hideg vért, szint mútat</l>
+              <l>Mikor a’ tárgyához készít titkos útat:</l>
+              <l>Mérgében mosolyog; kedvében szomorú</l>
+              <l>És ha fiatal is, ollyan mint vén korú.</l>
+              <l>A’mire titkon vágy, nyilván rá sem tekint</l>
+              <l>Maga meg sem mozdul, és tsak másoknak int.</l>
+              <l>Soha sem oda lő, a’ hova szeme néz,</l>
+              <l>’S csak setétben szorít ez az elrejtett kéz.</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Uram! mind úgy élünk; Egész Világ tettet...</l>
+              <l>E’ nélkül sem okos sem bolond nem lehet.</l>
+              <l>Kiki Ministere a’ maga dolgának,</l>
+              <l>Ura tselédjének, ’s mélysége titkának,</l>
+              <l>De azért csak látjuk a’ midőn vigyázunk</l>
+              <l>Hogy ki miben fárad, és ritkán hibázunk.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Miben állott meg hát50 az a’ fontos dolog,</l>
+              <l>A’ mi most közöttünk ennyi szóban forog?</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Igaz- é, hogy Láist el akarja venni,</l>
+              <l>Hippodon, ’s belőlem poklot kíván tenni?</l>
+              <l>Személyem’ szeretve kezét megígérte</l>
+              <l>De elvontathatok ha Hippodon kérte.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <stage>nevet</stage>
+              <l>Ha ha ha! tehát ez a’ mélységes titok.</l>
+              <l>És ennyi beszédre feltalált erős ok?</l>
+              <l>Nem szoktak az Urak szerelmet titkolni,</l>
+              <l>’S a’ ki belé esik, értté azt vádolni.</l>
+              <l>Nem rejtenek-el itt semmi édes mívet...</l>
+              <l>A’ bolond is látja a' szerelmes szívet.</l>
+              <l>Nem lehet olly nagy bölcs a’ széles világon</l>
+              <l>Ki tárgyát elrejtse az aszszonyi ágon.</l>
+              <l>Láist, a’ Minister titok nélkűl nézi,</l>
+              <l>És hogy elvehesse, dolgát úgy intézi.</l>
+              <l>Sőt hivatalát is leteszi érette...</l>
+              <l>Ne változz, ne reszkess: még meg nem kérette.</l>
+              <l>A’ Lyány bölcselkedik, ’s dühödve kivánja</l>
+              <l>Hogy rangját érette magáról le hánnya.</l>
+              <l>Diogénesnévé akar inkább lenni</l>
+              <l>Mint a' házassággal méltóságra menni.</l>
+              <l>Eladó Leányban sok, hahogy úgy veszed,</l>
+              <l>És a'mint hirdeti, szavában meg hiszed</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Az embert mindenkor csak a’ természetben</l>
+              <l>Kell nézni, fontolni, a' közjó ’s életben.</l>
+              <l>Akármit beszélljen, de csak kívánsága</l>
+              <l>Néki a’ törvényje, és várt boldogsága.</l>
+              <l>Nem oda kell nézni, hogy szavában mit mond.</l>
+              <l>Hanem hol a’ haszna, ’s mi, résziről a’ gond.</l>
+              <l>Gyönyörűségétől, hasznától el nem áll,</l>
+              <l>’S egyéb el nem vonja innen, tsak a’ halál.</l>
+              <l>Sok, csak félre beszéli, hogy magát titkolja,</l>
+              <l>’S felebarátjának szándékát fontolja.</l>
+              <l>Ha meg kéri Láist Hippodon. elmegyen.</l>
+              <l>Bár szive erántam hajlandó ’s hív legyen.</l>
+              <l>Érdemet, szerelmet fel rug a’ szerencse,</l>
+              <l>És mindenható itt kinek sok a’ kincse!</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második eset</head>
+          <stage>XENOXIS, LAIS, PELOSIS.</stage>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Érkezel, szép Lais: Te forgassz fejünkben,</l>
+              <l>’S okoskodásunkat te szülöd eszünkben.</l>
+              <l>Pelózis, úgy látom, hogy kétségbe esett,</l>
+              <l>Noha tsak bízik még benned egy keveset.</l>
+              <l>Retteg, hogy Hippodon elüt a’ kezéről</l>
+              <l>’S ha e' meg lesz, nem mond jót az életéről.</l>
+              <l>A’ nagy Urnák szived’, kezed’ megígérted</l>
+              <l>’S hogy rangját letegye érted, arra kérted.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Rangja, szive, keze, kincse, nincs kérdésben</l>
+              <l>Szokás tévelyegni a’ vélekedésben.</l>
+              <l>De hogy kiné legyek, azt csak az tudhatja</l>
+              <l>A’ ki a’ szivemet lelkestűi láthatja.</l>
+              <l>Nehéz a’ választás az illyen esetben...</l>
+              <l>Pelózis is ember, mint más az életben.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Hogy hangzik, szép Láis! hogy a’ Fő Minister</l>
+              <l>Eggy Szűzért elhagyta hivatalát, ’s hever?</l>
+              <l>Boldogtalanság é Tanácsosné lenni,</l>
+              <l>És sorsunkból jobbat, ’s fényesebbet tenni?</l>
+              <l>A’ kit rangra hívnak, ’s azt mondja: útálja,</l>
+              <l>Csak azért tselekszi, hogy a’ nép tsudálja.</l>
+              <l>A’ Méltóságban is lehet bölcselkedni</l>
+              <l>Másokkal jól tenni, ’s híven emberkedni.</l>
+              <l>Ne hidd, hogy eggy leány Filosofus legyen</l>
+              <l>’S magából Socratest, Zenót, Thálest tegyen.</l>
+              <l>Országgal jól tenni első érdem, nagy ész,</l>
+              <l>’S valaki nem hiszi, úgy gondolom, meg vész.</l>
+              <l>Hogy ennek szolgálhass, rang és hatalom kell</l>
+              <l>Ezek sógorosok a’ nagy érdemekkel.</l>
+              <l>Mit használ jó szíved ha keveset tehetsz,</l>
+              <l>’S Nevedben, híredben tündöklő nem lehetsz?</l>
+              <l>Ha nem találtatnak igaz ismérőji</l>
+              <l>Tulajdonságidnak, ’s okos tisztelőji?</l>
+              <l>Nem látszik az érdem, a’ hol tisztelet nincs,</l>
+              <l>’S ha el van temetve, haszontalan a’ kincs.</l>
+              <l>Azonban az Ország Nagyjai kezedet</l>
+              <l>Csókolván vadásszák, kérik kegyelmedet</l>
+              <l>Leveretett ügynek, szegénynek szolgálhatsz</l>
+              <l>’S a’ jótéteményben örömöt találhattsz.</l>
+              <l>Ha olly jó a’ szived, szolgálj a’ Világnak</l>
+              <l>’S légy érdemes része az aszszonyi ágnak.</l>
+              <l>Érdemed ismérőt ha soha sem tanál</l>
+              <l>Olly mint szép palota, a' melly üresen áll.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Uram! mindég elég az érdem, hasznának</l>
+              <l>’S Méltóság nélkül is tűköre magának.</l>
+              <l>Jótéteményekre a’ nagy rang nem szükség;</l>
+              <l>Ki hogy telik tőle úgy ád; és ez elég.</l>
+              <l>Kicsinyben, vagy nagyban a' jóság csak jóság.</l>
+              <l>Az Érdem csak érdem, ’s szintúgy az igazság.</l>
+              <l>Szerencsét vadásznak a’ hatalom körűl;</l>
+              <l>’S gyenge az, a’ ki itt barátinak örűl.</l>
+              <l>Sok, csak szerencséjét imádja képében,</l>
+              <l>De ördögnek adja titkon a’ szivében.</l>
+              <l>’S valaki hatalmas, nehezen leli fel,</l>
+              <l>Hol van barátokkal, hol ellenségekkel.</l>
+              <l>Az érdem magáért kíván szerettetni,</l>
+              <l>’S hizelkedés nélkül akar tiszteltetni.</l>
+              <l>Nem lél örömöt a' pompás hazugságban</l>
+              <l>’S örökké boldogabb a’ magánosságban,</l>
+              <l>Hol a’ ki hivséget, tiszteletet mutat,</l>
+              <l>Igazán vak; ’s szive szájjal nem hazudtat.</l>
+            </lg>
+          </sp>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Mondj-le Hippodonról, ha ez az értelmed,</l>
+              <l>’S Méltóságtól, kincstől származik félelmed.</l>
+              <l>Hippodon hivatal nélkül is méltóság.</l>
+              <l>Tárház, bővség; ’s tudod, hogy torkig gazdagság.</l>
+              <l>Minister vagy <hi>maga</hi> mondj-le a’ kezéről</l>
+              <l>Mondj-le szerelméről, hallgass életéről.</l>
+              <l>Engedd, hadd szolgáljon kegyelmes Urának</l>
+              <l>És Őrző Angyala légyen a' Hazának.</l>
+              <l>Pelózis érdemes, látom, személyedre,</l>
+              <l>’S Filosofiai nagy kevélységedre.</l>
+              <l>Gyakoroljad benne jótéteményedet,</l>
+              <l>’S mutassad érdemben a’ büszkeségedet.</l>
+              <l>A’ nagy erkölcsnek is vagyon kevélysége</l>
+              <l>Megátalkodása s’ gyanús nemessége.</l>
+              <l>Bocsásd-el Hippodont, ’s ha illy ritka Bőlts vagy,</l>
+              <l>Zárd-el életedet,’s a’ hol tetszik, maradgy.</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>O! bóldog tanácsiás! — Lais, vedd szivedbe</l>
+              <l>’S hogy Xenoxis aláz, fontoljad eszedbe.</l>
+              <l>Képzelődéseknek veszi érdemedet,</l>
+              <l>’S csak gőzzel fúvod-fel, úgy hiszi fejedet,</l>
+              <l>Tedd hát valósággá okos beszédedet,</l>
+              <l>’S ismérd meg végtére örökös hivedet.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Jól van! A’ Minister helyén hadd maradgyon</l>
+              <l>Nem bírja szivemet Méltóság ’s csak vagyon.</l>
+            </lg>
+            <stage>Pelózis, Láis elmennek.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik eset</head>
+          <sp who="xenoxis">
+            <speaker>XENOXIS</speaker>
+            <lg>
+              <l>Mikor a’ szokásból ki-hág az értelem,</l>
+              <l>Gyakorta vak Vezér, ’s gyenge Fejedelem.</l>
+              <l>’S valaki különöst mutat életében</l>
+              <l>Nevetségessé lesz gyakorta tettében.</l>
+              <l>Kisasszony Stoicust nem szül a’ természet,</l>
+              <l>’S a’ ki erőltette magán, semmit sem tett.
+								<stage>elmegyen</stage></l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik eset</head>
+          <stage>TULIPÁN, POMONÉ, KOLUMBINA, KUKULINI.</stage>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Meg van a’ Nemesség .... Tulipán szerzetté.</l>
+              <l>Eszét, agyvelején mind addig élezte.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Elhiszem! Fáradtság nem volt illy keserves.</l>
+              <l>Tizszer is elűzött; mert az Ifjú heves.</l>
+              <l>Mint Nagyságos Tigrist úgy szeléditettem</l>
+              <l>’S csaknem rangomat is véle elvesztettem,</l>
+              <l>De fizetésemet mérgében el-huzta.</l>
+              <l>’S az orrát ellenem örökre feldúzta.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Hát a’ Nagy Urak is duzzák az orrokat?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Még ezek viselnek szép, nagy horgasokat</l>
+              <l>És a’ kiknek nem megy búbig a’ homloka,</l>
+              <l>A’ mikor hiba van, annak tsak ő oka.</l>
+              <l>A’ bölcsesség sáppadt: homloka, orra nagy.</l>
+              <l>’S elapadt szemeket mutat a tanúlt agy.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>A’ Tudománynak is van hát füle, ’s farka?</l>
+              <l>És orral, homlokkal, ábrázatja tarka?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Elhiszem, hogy tarka; ’s farka úgy elnyúlik</l>
+              <l>Hogy míg megmérhetjük, a’ Világ el-múlik.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Hordja-el a’ lidértz... Nem kell itt tudomány</l>
+              <l>Azt kérdezzük inkább: Az arany ’s forint hány?</l>
+              <l>A’ szegény Tulipán sokat érdemel itt,</l>
+              <l>Hogy ebben szavának a’ Tanácsos úgy hitt.</l>
+              <l>Esztendeig való bérét elvesztette.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>De ezt ugyan tőlem mind vissza szerzette.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Háromszáz forinttal kevesebb magammal</l>
+              <l>Vagyok, Nagy Aszszonyom! ’s egész Asztalommal.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Ó, Aszszonyom Anyám! már ezt kifizetjük...</l>
+              <l>Hiszen a’ disznóból meg’ helyre tehetjük.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Két száz arany is volt külön, ígéretben...</l>
+              <l>Tsak így kell vesződni e' földön, a' testben.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Uram! a’ kinek van, meg fizet kedvéért,</l>
+              <l>És a’ ki jól szólgált, nem vétett, ha jólkért.</l>
+              <l>Ha a’ Nemes-levél valóbann bizonyos?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Meg van; mellyel boldog, minden, ki vagyonos.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <stage>egy zsatskót nyújtzsebjéből.</stage>
+              <l>A’ kétszáz arany itt, ezen zsatskótskában.</l>
+              <l>Nyugszik öszvekötve más kis rongyotskában.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <stage>elveszi, ’s elteszi:</stage>
+              <l>Hijába! az érdem nem rejtezhetik el —</l>
+              <l>’S atyafiságban él adománnyal pénzzel.</l>
+              <l>Rangomnak köszönöm. Minister Talpassa</l>
+              <l>Vagyok, és sok Urnák szóiga hatalmassa.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>O! Tulipán Bácsi! hogy hijjam már magam’?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Spectabilis, Tess Ur.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Lám! Nemes lett ágam.</l>
+              <l>Tekéntes, tes Úr fi már a’ Kukulinim,</l>
+              <l>Spectabile domné a’ szülöttem Urfim.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <stage>nevet és szökdös.</stage>
+              <l>Hogy Tes Urfi vagyok, ’s e’ szép rangot adják.</l>
+              <l>Mingyárt megüzenem az öreg Rectornak,</l>
+              <l>’S más óldalon hírül adom a’ Doctornak</l>
+              <l>Osztán a’ betegek, és a' Deák- puják</l>
+              <l>A’ széles Világra hírét széllyel fújják.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <stage>köröskörül nézegetve az Ifiat.</stage>
+              <l>Gyönyörű készület! De e’ szárnyas czatli</l>
+              <l>Illyen nagy erőben talán nem is módi?</l>
+              <l>E’ szép nyakravaló az orra hegyéig</l>
+              <l>Nyakára forgatva fel a’ fél füléig?</l>
+              <l>Hogy férhet szájához, mikor enni akar?</l>
+              <l>Hall- é? mert ez szájat, ’s füleket bé takar.</l>
+              <l>Már ez a’ tekintet olly módi, mondhatom.</l>
+              <l>Mint a’ Lengyel pudli. Szemét sem láthatom.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Aszszonyom! én igen nagy módit viselek</l>
+              <l>’S ugyan azért hozzám hasonlót nem lelek.</l>
+              <l>De bezzeg néznek is mikor kinn sétálok</l>
+              <l>Vagy a’ nagy piaczon, és vásárban állok.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Mondhatom, hogy inkább bolondot mutatnék</l>
+              <l>Mint okos formával nem nézettethetnék.</l>
+              <l>A’ kinek termetet, szépséget nem adott</l>
+              <l>’S eszet a’ természet; mutassák bolondot.</l>
+              <l>Tsak tsudálkozzanak rajta, egyre megyen;</l>
+              <l>Okos, oktalan, szép, rút, vagy örjült legyen.</l>
+              <l>De már illy Tess Urfi, a’ ki mindennel bír...</l>
+              <l>Ha az irigység rá tekint; mondhatom, sír.</l>
+              <l>Hát az ujjaiban petsétnyomót tenni?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>De már <hi>Téntes</hi> Urfi czimernek kell lenni,</l>
+              <l>A’ mellyre ki legyen metszve formájával</l>
+              <l>Mi gazdagította úgy meg munkájával.</l>
+              <l>Mellynél fogva osztán illy nagyra mehetett,</l>
+              <l>Hol a’ hé, <hi>hallod-é, dominé</hi> lehetett.</l>
+              <l>Hogy a’ Maradék is az érdemet lássa</l>
+              <l>Melly által Úrrá lett, ’s honnan jött tudhassa.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Aha! most értem már. Mi mindég sert főztünk.</l>
+              <l>És a’ malátáról nagy disznókat öltünk.</l>
+              <l>Tehát lég először a’ nagy kongó üstöt</l>
+              <l>Vállut, két kanlottat, ’s felibe gőzt, fústöt,</l>
+              <l>Kell fellegnek írni, úgy, a’ czimerünkre,</l>
+              <l>’S szépen rá mettszetni a’ nagy petsétünkre.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>De, hogy fényes legyen, a’ hold világot is</l>
+              <l>A’ két ártány közzé tegyük, ’s a’ napot is.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>A’ kád óldalára jobb ha helyheztetjük</l>
+            </lg>
+          </sp>
+          <sp who="#pomone">
+            <speaker>POMÓNÉ</speaker>
+            <lg>
+              <l>Osztán világánál a’ többit nézhetjük.</l>
+              <l>A’ malátás Kádnak leg-felyül kell lenni,</l>
+              <l>És a’ fenekére tsillagokat tenni.</l>
+              <l>Hogy ne légyen illyen tzimer az országban.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Nincs illyen, fogadom, a’ széles világban.</l>
+              <l>Az olly kád feneke, melly így Úrrá teszen</l>
+              <l>Meg is érdemli ám ha csillagos leszen.</l>
+              <l>Csillag, kanlot, nap, kád, hold, itt együtt vannak</l>
+              <l>’S a’ látás’ határán ragyogva állanak.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik eset</head>
+          <stage>HYPPODON, ÉS AZ ELÉBBENIEK.</stage>
+          <sp who="#hyppodon">
+            <speaker>HYPPODON</speaker>
+            <lg>
+              <l>Örvendem, Aszszonyom! mert Urunk kegyelmes,</l>
+              <l>Hajlik kérésemre, ’s végre engedelmes.</l>
+              <l>Az Ifiú Kukulit Nemes karba tette</l>
+              <l>’S akaratját már a’ Tanács ki is vette.</l>
+            </lg>
+          </sp>
+          <sp who="#pomone">
+            <speaker>POMÓNÉ</speaker>
+            <lg>
+              <l>Szívemnek örömét nehezen bírhatom,</l>
+              <l>’S e’ szerentsés napom’ jegyzésbe irhatom.</l>
+              <l>Tanácsban dolgozik látom a’ kegyelem,</l>
+              <l>S ha nincs közben járó, nincs reánk figyelem.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Nagyságod kegyelmét olly nagyon köszönöm</l>
+              <l>Hogy miatta magam' csaknem agyon ölöm.</l>
+              <l>A’ paraszt módikat mind ki küszöbölöm,</l>
+              <l>És Uri székemet pompáson meg ülöm.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Vezessed, Tulipán, őket a' Tanácshoz</l>
+              <l>Hadd végye Levelét az Aszszony magához.<stage>elmennek.</stage></l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Hatodik eset</head>
+          <stage>HIPPODON, KOLUMBINA.</stage>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Hol vagyok? hogy tegyek? mi legyek? mondd-meg már</l>
+              <l>Veszteség, nyereség; hadd tudjam, rám mi vár?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Szűntelen hánykódik: tsak okaiba vész...</l>
+              <l>Mert kár a’ leánynak az olly kitanúit ész.</l>
+              <l>Minek a’ tudomány? tsak gyermekkel bánik,</l>
+              <l>’S nála a’ nagy elme makacssággá válik.</l>
+              <l>A’ legtanúltabb is nagy bölcsességével</l>
+              <l>Szeretők köztt űl-el gyönyörűségével</l>
+              <l>Érdemét kamara, konyha határozza,</l>
+              <l>’S elméjét a’ bölcső kötözi óldozza.</l>
+              <l>Ha házi gondjában dóigát végbe viszi</l>
+              <l>Hogy érdemes asszony minden okos hiszi.</l>
+              <l>Nincs a’ természettől a’ mély bölcsességre</l>
+              <l>Fundamentum téve asszony gyengeségre.</l>
+              <l>’S akkor tud magából csak eszetlent tenni,</l>
+              <l>A’ midőn asszonybúi férjfi kiván lenni.</l>
+              <l>Fa hídon kő-kastély bajoson épülhet...</l>
+              <l>Igy Filosofussá a’ leány nem lehet.</l>
+            </lg>
+          </sp>
+          <sp who="hippodon">
+            <speaker>HIPPODON</speaker>
+            <lg>
+              <l>Egész Görög ország’ minden Tudósai</l>
+              <l>Hireit Istenei ’s Filosofusai</l>
+              <l>Nagyobb igazsággal soha nem beszélitek,</l>
+              <l>És az asszonyokról jobban nem Ítéltek.</l>
+              <l>De tudod-e, szép Szűz, hogy a’ nagy szerelem</l>
+              <l>Nem okoskodhatik, ’s sokszor veszedelem?</l>
+              <l>A’kit megszeretünk, hibáját sem látjuk</l>
+              <l>Bűnét is öleljük, ’s hogy bírjuk, óhajtjuk.</l>
+              <l>A’ melly szerelem lát, nincs nagy kedvessége,</l>
+              <l>Ha vak, forró, dühös, úgy van édessége.</l>
+              <l>Mindég gyengén szeret a’ ki okoskodik,</l>
+              <l>’S Elméje ’s érzése köztt nem vakoskodik.</l>
+              <l>Nem tartozik szívre száraz vélekedés,</l>
+              <l>Sem érzéseinkre hideg elmélkedés.</l>
+              <l>Láisnak hibája nagy eszében vagyon</l>
+              <l>A’ vétke is érdem; és csak hadd maradjon</l>
+              <l>A’ test csak annyiban szereti a’ lelket,</l>
+              <l>Hogy gyönyörűségre élteti a’ testet.</l>
+              <l>Meg lett a’ Nemesség; a’ kérésed betölt</l>
+              <l>Dolgozz itt, mert amott csak az én fejem főtt.</l>
+              <l>Most eggy dolog szorít; itt nem múlathatok,</l>
+              <l>Elmegyek, rendes Szűz, mig többet tudhatok.<stage>megajándékozza, ’s
+								elmegyen.</stage></l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <stage>kaczag</stage>
+              <l>Ha ha ha! ezt hívják már módos Világnak</l>
+              <l>Mikor illy játéka van a’ Méltóságnak.</l>
+              <l>Hogy lehet hát húzni a’ keritóségre</l>
+              <l>Érdemet, s’ okokat a’ szép Nemességre?</l>
+              <l>Tiz ezer forinttal Pomoné nem érte...</l>
+              <l>Egy Inas, szolgáló, két szóval, kikérte.</l>
+              <l>Illyen ösvényen jár sokszor a’ kegyelem.</l>
+              <l>Az érdem, jutalom, büntetés, félelem.</l>
+              <l>A' Hivatalokat árendára veszik,</l>
+              <l>Házasodnak vélek avagy pénzzé teszik.</l>
+              <l>Ugy szólgálnak érte, hogy csak parantsolnak</l>
+              <l>Irkáinak, firkálnak, mentenek, vádolnak.</l>
+              <l>Ha láthatná Urunk, sok dolog mint leszen,</l>
+              <l>’S hogy Kolumbina is Nemes embert teszen,</l>
+              <l>Egérből hogy tesznek sokszor Elefántot</l>
+              <l>Hogy néznek a’ Sűltre, ’s hogy rágják a’ tsontot:</l>
+              <l>Sok Minister rangját veszi boldogságnak</l>
+              <l>’S rabja lesz gyakorta a’ mit szolgaságnak</l>
+              <l>Bírói székiből Uraknak parancsol,</l>
+              <l>’S a’ szoba-leánynak nagy esze meg-hódol.
+								<stage>el-megyen</stage></l>
+            </lg>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">Ötödik JÁTÉK</head>
+        <div type="scene">
+          <head type="title">ELSŐ eset</head>
+          <stage>LAIS, KOLUMBINA.</stage>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Ifiú szépséggel és ésszel meglehet</l>
+              <l>’S nyájas Szűz, a’ bölcsből, nagyból kitsinyt tehet.</l>
+              <l>Le kell vetkeztetni hát hivatalából</l>
+              <l>A’ Tanácsot, ’s félre tenni hatalmából.</l>
+              <l>Leánynak bírni illy állattal dicsósség</l>
+              <l>’S gyengének az erőst56 vezetni, bölcsesség.</l>
+              <l>Tanúltat is tudunk pántlikára fűzni</l>
+              <l>És tisztelőinkkel a’ többi közt űzni.</l>
+              <l>Ó boldog-természet! ki édességünket</l>
+              <l>Szűlvén, fel-emeled a’ gyengeségünket!</l>
+              <l>Nyakunkba vetetted a’ férjfi hatalmat;</l>
+              <l>’S ösztönnel nékünk adsz titkon diadalmat.</l>
+              <l>Ha Tanács házunkban a’ férjfi parantsol,</l>
+              <l>Ágyas szobáinkban karjaink köztt, hódol.</l>
+              <l>’S azt, ki feleségét végtére megveti,</l>
+              <l>Csak ugyan egyébütt más szépség vezeti.</l>
+              <l>Egy ember sem lehet édes rabság nélkűl!</l>
+              <l>’S a’ kinek asszonya nincsen, a’ gályán űl!</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>De a’ sok játék közt az ember elmarad;</l>
+              <l>A’ kérésben kiki tsak hamar megfárad.</l>
+              <l>Minden embernek van titkos kevélysége</l>
+              <l>’S az asszonyok között széllyel reménysége.</l>
+              <l>Magunkra maradunk; mások szerethetnek.</l>
+              <l>És mi nálunk nélkűl, bóldogok lehetnek.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Nem isméred még a’ férfji természetet...</l>
+              <l>Nem úgy kell vezetni a’ nagy szeretetet.</l>
+              <l>A’ ki könnyen hajlik mingyárt mihent intik.</l>
+              <l>Olcsónak találják, ’s kevéssé tekintik.</l>
+              <l>Hányd vessd reménységét, mikor érted sóhajt</l>
+              <l>Kecsegtesd, távoztassd, ’s adj néki édes bajt.</l>
+              <l>Hideg vérrel fogadd néha hévségében.</l>
+              <l>’S ha kétségbe esik, bíztasd inségébenn.</l>
+              <l>Édesgetve vezessd virág-oltárodhoz</l>
+              <l>Hadd ujjodat szopni, ’s ne botsássd magadhoz.</l>
+              <l>Akármennyi légyen, bíztassd reménységgel</l>
+              <l>’S gerjeszszed túzokét titkos irigységgel.</l>
+              <l>Ha Kukulini is, szerettessd magadat,</l>
+              <l>'S okosra, bolondra, tedd rá hatalmadat.</l>
+              <l>A’ Világ reszketve kéri szerelmedet,</l>
+              <l>És Isten Aszszonnyá tészi személyedet.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Mitsoda boldogság, hogy tsak ujja’ hegyit</l>
+              <l>Szopja; ’s azzal töltse-meg az ember’ begyit?</l>
+              <l>Elébb utóbb, mindég kötélbe kell esni...</l>
+              <l>Mi szükség a’ jóra olly hosszason lesni?</l>
+              <l>Kárba vész mindennap a’ ki szántszándékkal</l>
+              <l>Éhezik, s’ javában így van haladékkal.</l>
+              <l>Mit tesz a’ Kisasszony, hogy idejét tőlti</l>
+              <l>És a’ szép Ministert karjába nem őlti?</l>
+              <l>Kínos szabadsága van a’ szüzességnek</l>
+              <l>’S a’ titkon sóhajtó Leány-kényességnek.</l>
+              <l>A’ mennyi Kisasszony lehet e’ Világonn</l>
+              <l>Mind rab kíván lenni a’ jó házasságonn.</l>
+              <l>Ne játszunk. Hippodon választ vár ma tőlem.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Tőled értekezik tehát így felőlem?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Reá vagyon kötve testemre lelkemre...</l>
+              <l>Ha elsül, boldogság egész életemre.</l>
+              <l>A’ hosszas kötődés minden kötést felbont,</l>
+              <l>’S játékot, örömöt, szerencsét öszveront</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Hidd-el, Kolumbina, magamat sem tudom</l>
+              <l>’S szándékom’ igazán mondom, hol hazudom,</l>
+              <l>Nagyobb fénnyel élek, ha Ministert veszek</l>
+              <l>De hatalma alatt több függésben leszek.</l>
+              <l>Az olly nagy gavallér társát ha meg únja,</l>
+              <l>Mást ölel, és erre szemeit béhúnja.</l>
+              <l>Három négy esztendő véget vét mindennek,</l>
+              <l>És oda van tüze a’ nagy szerelemnek.</l>
+              <l>Jószágára küld-ki, ha panaszolkodol,</l>
+              <l>’S felyűl rá, hogy véled nem élhet, ő vádol.</l>
+              <l>Eggy puszta Kastélyba zárja napjaidat,</l>
+              <l>Hol kisértetek köztt látod álmaidat</l>
+              <l>Minden múlatságod veréb tsirippolás,</l>
+              <l>Az épület körűi, ’s galamb turbékolás.</l>
+              <l>A’ kis sorsú férjfi ezt nem próbálhatja</l>
+              <l>És a’ feleségét messze nem hagyhatja.</l>
+              <l>Az eltévedésen sokszor sokat tódít,</l>
+              <l>Az olly nagy Uraság, ’s hamar megbolondít.</l>
+              <l>Nagy halandók között nem köt a’ házasság,</l>
+              <l>Újúlásban lakik nálok a’ vigasság.</l>
+              <l>Kints, rang, és hatalom, tekintet, megszédit,</l>
+              <l>’S az Ország útjáról sok okost kitérit.</l>
+              <l>És a’ mi miközztünk gyalázat, büntetés,</l>
+              <l>A’ nagyok köztt semmi, vagy csak kis tettetés.</l>
+              <l>Hogy eggy férjfi hóltig eggy aszszonyt szeressen</l>
+              <l>’S férjén kívűl ez is mással ne lehessen</l>
+              <l>Olly dolog, a’ mellyről írni, sem beszéllni</l>
+              <l>Nem tud eggy okos is ... soktól lehet félni.</l>
+              <l>A’ Törvény. Természet igazittsák együtt</l>
+              <l>’S lássák-meg, hogy nagyobb erőben mellyik üt.</l>
+              <l>Most van rá még időm magammal múlatni...</l>
+              <l>Bolondság előre, könyveket hullatni.</l>
+              <l>A’ férjhez-menetel, végezetre járom,</l>
+              <l>Akármelly szerencsém és örömöm’ várom.</l>
+              <l>Mert nincs olly két Angyal, ki a’ Házasságban</l>
+              <l>Egymással örökké éljen nyájasságbann.</l>
+              <l>Öszve kell zajdúlni; ’s néha hidegséggel</l>
+              <l>Van, a’ jó ember is a’ hív Feleséggel.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Zajgás után édes az öszvebékéllés...</l>
+              <l>Változással jár az eggyűtt-való élés.</l>
+              <l>A' szerelem sem jó ütközések nélkűl...</l>
+              <l>A’ ki tsak eggyel él, a’ tüzében meg hűl.</l>
+              <l>De ez meg nem alszik a’ pislogásában,</l>
+              <l>’S hamva közzúl ismét fel-éled magában.</l>
+              <l>Gyakran rángatózik az öszvelántzolt nyak,</l>
+              <l>’S házasságban jó, ha az ember néha vak.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Hagyd-el — Az okosság örökké szomorú,</l>
+              <l>’S ösztöneink ellen örökös háború!</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Második eset</head>
+          <stage>LAIS, KOLUMBINA, KUKULINI.</stage>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Imhol, itt érkezik a’ pompás szerencse...</l>
+              <l>Hippodon, Kukuli: Ananás és Lentse.</l>
+              <l>A’ külömbség nem nagy: ezzel szabadságban</l>
+              <l>Bátran lehet élni kedvben, nyájasságban.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Ki tudja, nem jobb é a’ Fő Méltóságnál</l>
+              <l>Pompás Herczegeknél és makacs Uraknál.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Nagyságos Kisasszony! én már Úrfi vagyok,</l>
+              <l>Pénzes Nemes ember, ’s kivánságim nagyok.</l>
+              <l>Szeretem, hogy értté tsaknem majd meg fagyok</l>
+              <l>Jelentem magamat; s’ egyébaránt vagyok...</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Hagyjuk-el: szélvész lesz, vagy Égi háború...</l>
+              <l>Az édes compliment részünkről szomorú.</l>
+              <l>Látom, meg lehetett pénzzel nemesedni,</l>
+              <l>De már az elmének kell megélesedni.</l>
+              <l>Maníert, emberséget, tudományt, értelmet</l>
+              <l>Kell venni, ’s le vetni a’ paraszt félelmet.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>De nem tudom még ezt mind, hogy hol árúlják</l>
+              <l>Micsoda helyeken ’s fészkekből sutulják.</l>
+              <l>Ha még odajutok mások el nem dúlják T</l>
+              <l>sak tudjam meg, kohát, hol, és mivel fújják,</l>
+              <l>Köböl számra veszem.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>O! én kádra mérem,</l>
+              <l>És hogy tőlem vegye az Úr, azt kikérem.</l>
+              <l>Manier, hogyha ásít, száját bétakarja,</l>
+              <l>’S a’ szép Társaságbann fejét ne vakarja.</l>
+              <l>Az orrát dörgéssel asztalnál ne fújja.</l>
+              <l>És a’ fényes pompát soha se bámúlja.</l>
+              <l>A’ kire haragszik, csókolja, ölelje</l>
+              <l>’S a' fertelmes Dámát gyönyörűnek lelje.</l>
+              <l>A' ki nagy rangban él, mind egyre dicsérje,</l>
+              <l>Hogyha ördöngös is, és kegyelmét kérje.</l>
+              <l>A’ rossz telkekről is manierral beszélljen:</l>
+              <l>Nékik adakozzék; ’s a’ jóktól ne féljen.</l>
+              <l>A’ feleségének szeretőjét kérje</l>
+              <l>Maga, hogy ebédre képét megígérje.</l>
+              <l>Tudom, a’ Tess Urfi ha házas ember lesz,</l>
+              <l>Illy aprólékokért a’ társába nem vesz.</l>
+              <l>Ha manierral kérik költsönn-el szekerét</l>
+              <l>’S végre haza küldik tsak a’ négy kerekét,</l>
+              <l>Követni kell, többre hogy nem méltóztatta</l>
+              <l>Magát, és még e’ négy darabot meg hagyta.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Ezek nem kellenek a’ maníerok közzül...</l>
+              <l>Csak nem vásárolhat az ember mindenbül.</l>
+              <l>Én a’ szeretőket ebédre nem hívom,</l>
+              <l>’S az illyen szokású maniert bé nem szívom.</l>
+              <l>Az efféle barát nékem nem emberem</l>
+              <l>’S feleségem’ is, ha így tész, megverem</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Soha sem is hiszik-el, hogy Úri ember.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>De vad állat is az valaki Aszszonyt ver.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>A’ ki feleséghez és kísérlethez üt,</l>
+              <l>A’ sullya magára fordúl fel mindenütt.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Hát azt mondjam néki, hogy azért szeretem?</l>
+              <l>De én nem hazudok, ’s magam nem tettetem.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>A’ hazugság szükség; és tettetés nélkül</l>
+              <l>Az Urak sorába <hi>Dominébé</hi> nem ül.</l>
+              <l>Nem szabad igazat mondani egyebütt</l>
+              <l>Tsak ott, a’ hol segít, ’s értté agyon nem üt.</l>
+              <l>És ha fel-vállalta már az Uraságot</l>
+              <l>Meg is kell tanúlni a’ szép hazugságot. T</l>
+              <l>öbbet fizet sokszor a’ csinos hazugság.</l>
+              <l>Mint a’ csendes erkölcs s’ kedvetlen igazság.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Minek az igazság hát az emberek köztt?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Takaródzó; és csak úgy nézik, mint eszközt,</l>
+              <l>Mellynek színe alatt forog a’ nyereség,</l>
+              <l>A’ felemelkedés, haszon és veszteség.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Lehet é az ember illyen maníer nélkül?</l>
+              <l>Mert már ehhez látom, hogy a’ lelkem nem fűl.</l>
+              <l>Testemben a’ vérem mind eggy cseppig meg hűl...</l>
+              <l>Hogy élnék igazság nélkül csak őrdögűl?</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>A’ hol igazság van, vagyon hamisság is,</l>
+              <l>’S a’ jó emberek köztt élnek gonoszok is.</l>
+              <l>Nem maníer gaz-embert tettébenn követni...</l>
+              <l>És ezzel az Urnák már magát hitetni.</l>
+              <l>Nincs erő, hatalom, melly az igazságot</l>
+              <l>Eltörölje bennünk, mint örök jóságot;</l>
+              <l>És a’ kegyetlennek, gonosznak truttzára</l>
+              <l>Megmarad lelkűnkben örökre magára.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Harmadik eset</head>
+          <stage>PELÓZIS, és az előbbiek.</stage>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Leveretve jövök, sorsom roszszra dűlve,</l>
+              <l>Nézem esetemet véremben meghűlve.</l>
+              <l>Mindég a’ kivánság sem tellyesedhetik</l>
+              <l>A’ szív kínok által így érleltethetik.</l>
+              <l>Nem tudja az ember miben rejtezett-el</l>
+              <l>Nyeresége, veszte, ’s hogy áll az élettel.</l>
+              <l>Rózsabokrok közzül szúr a’ hegyes tövis,</l>
+              <l>Virág alatt lappang, ’s oda való ó is.</l>
+              <l>A’ házasság úgy is mindég koczkavetés</l>
+              <l>Akárhogy megvizsgáld, ’s nyúgodalom féltés.</l>
+              <l>Ki tudja előre sorsát határozni?</l>
+              <l>Bolondság annyi köztt egyre várakozni.</l>
+              <l>Szembéhúnyva kérni; látni, egyet teszen...</l>
+              <l>Nem tudja az Ember soha kit ’s mit veszen,</l>
+              <l>Végtére üti-ki a’ nyavalya magát...</l>
+              <l>Mit tehettél róla ... hordozod az igát!</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Ez a’ szűkségtelen kinos bölcselkedés</l>
+              <l>És sorsodon felyűl-való elmélkedés</l>
+              <l>Ollyan szivet mutat, a’ melly mondva érez.</l>
+              <l>És engem szivembenn hidegséggel vérez.</l>
+              <l>Halljuk hát bővebben a’ titkos értelmet?</l>
+              <l>’S ha lehet verjük-le bennünk a’ félelmet!</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Többet sorsom ellen soha nem küszködöm</l>
+              <l>Vontatok utánna, és nem erőlködöm —</l>
+              <l>A’ hová, mire vét, tsendesen ott leszek,</l>
+              <l>’S lármával magamból bolondot nem teszek.</l>
+              <l>Büntet a’ Végezés, hogy szerethettelek</l>
+              <l>Lais!, és eggyetlen-eggynek nézhettelek,</l>
+              <l>Az élet kedvesebb, még is meg kell válni</l>
+              <l>Gyönyörűségitől, s’ koporsóba szállni.</l>
+              <l>De szívemet azért fájdalom szorítja,</l>
+              <l>’S únalma keserve éltem’ elborítja,</l>
+              <l>Hogy attól a’ kiben kedvem’ helyheztettem</l>
+              <l>Megvettetik éltem, és elfelejtetem.</l>
+              <stage>meghajlik, kezét csókolva:</stage>
+              <l>Örökre bútsúzom tőled, és már többé —</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Lehetetlen lenni már eszetlenebbé!</l>
+              <l>Botsássd-meg szavamat... te okozod ... megállj —</l>
+              <l>’S valóságot füstön álomból ne csinálj.</l>
+              <l>Megtiltom panaszod; sérelemnek veszem,</l>
+              <l>’S ellenébe mindég a’ szivemet teszem.</l>
+              <l>A’ Filosofiád tsak kétségben esés</l>
+              <l>Szívedben gyötrelem, és kivúl tettetés.</l>
+              <l>Ha erősen szeretsz, millióm Szűz között</l>
+              <l>Rád örömöt csak a’ személlyem öntözött.</l>
+              <l>Terjesszd-ki kezedet a’ gyönyörűségnek,</l>
+              <l>’S okosságod benned ne csináld inségnek.</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Lehet é, hogy érttem Hippodont meg vessed</l>
+              <l>’S Erkőlcs-kevélységből ezt így tettethessed?</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Méltóságnak, rangnak rabjává nem lettem,</l>
+              <l>’S boldogságom benne nem is helyheztettem.</l>
+              <l>Nagyobb Felsőségnek ismérem megvetni,</l>
+              <l>’S hogy mások imádják, magamban nevetni.</l>
+              <l>Ne tévelyegj tovább, bizzál a’ szívemhez,</l>
+              <l>Vessd-el kétségedet, ragadj életemhez.</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Igy tehát, bölcs Lais! bár ha kevélységből</l>
+              <l>Jöszsz is; a’ szívemre ezer boldogság gyűl?</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Kevélység, boszszúlás, szeretet ’s más legyen,</l>
+              <l>Tsak hogy magával az emberszépen tegyen.</l>
+            </lg>
+          </sp>
+          <sp who="kukulini">
+            <speaker>KUKULÍNI</speaker>
+            <lg>
+              <l>Hajótörést szenved, látom, reménységem:</l>
+              <l>Agyon ütött a’ sors, kordúl egésségem.</l>
+              <l>Nem lesz hát Láis név alatt Feleségem</l>
+              <l>’S látom, hogy keveset lök a’ Nemességem.</l>
+              <l>Hijjába tehát itt mind pénz,mind a’ vagyon</l>
+              <l>Eggyszerre ne üssön a' Kisasszony agyon</l>
+              <l>Azért esedezem előtte; ’s még nagyon.</l>
+              <l>Tehát szépségétől minden más szaladjon</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Kisértet é ez, a’ látás határában?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Rigmussal van tele majd minden szavában,</l>
+              <l>Az okoskodást is fel tudja perselni,</l>
+              <l>És feleséget úgy magának verselni.</l>
+              <l>Jajj! a’ boldog lélek! a’ ki hozzá megyen!</l>
+              <l>Külömben meglehet, tsak esze ne legyen...</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LÁIS</speaker>
+            <lg>
+              <l>Nincs a’ vágyódásnak a’ szivben határa,</l>
+              <l>Az életnek ebben áll érdeme, kára.</l>
+              <l>Kukulíni Láist mint más úgy kérheti,</l>
+              <l>’S magának gondolva kedvét igérheti.</l>
+              <l>Édes álmai köztt, mig remél szárnyán jár.</l>
+              <l>Mint valósággal úgy múlat, ’s ebbe nincs kár.</l>
+              <l>Az ember örömét hogyha nem pótolja</l>
+              <l>Képzelődésekkel életét megcsalja.</l>
+              <l>Valóság, vagy álom? de ha gyönyörködtet</l>
+              <l>Ideig, óráig boldogsággal éltet.</l>
+              <l>Kár lenne az embert ettől megfosztani,</l>
+              <l>És a’ valósággal rá bút árasztani.</l>
+              <l>Az életnek kedve tudjuk képzelődés,</l>
+              <l>Bukás, kelés, ’s azon való tépelődés.</l>
+              <l>’S a’ tanúit ember is többet él álmában</l>
+              <l>Mint a’ valóságban, és testi magában.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Negyedik eset</head>
+          <stage>POMONÉ, és az előbbiek.</stage>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <stage>felszóval:</stage>
+              <l>aj! be gyöngy Társaság! Uram, botsásd bűnöm!</l>
+              <l>Miólta a' paraszt vérben lenni szűnöm,</l>
+              <l>Egészen más úton vagyok, érzek, látok,</l>
+              <l>’S szintén úgy hízom, ha Urakkal múlatok.</l>
+              <l>A nemes-levéllel a’ vér is változik...</l>
+              <l>A vértisztúlásra kutyabór tartozik.</l>
+              <l>Tudomány, társaság, mind a" mi fényesít</l>
+              <l>’S a’ Nemes dolgokra előre elkészít.</l>
+              <l>Sőt még a' gyomrom is változik; mondhatom,</l>
+              <l>Mert azólta a’ sert soha sem ihatom.</l>
+              <l>’S ha nem Hegyallyai, a’ bor is maradhat...</l>
+              <l>Sült szalonnát pedig a’ főzőm nem adhat.</l>
+              <l>Az Uraság’ hasa drágaságot kíván.</l>
+              <l>És a’ Família szép dolog, látom mán.</l>
+              <l>Hogy a’ Kutyabőrnek ennyi haszna legyen</l>
+              <l>El nem hittem volna, s’ illy változást tegyen?</l>
+              <l>Hanem az Uraknak, azt ugyan mondhatom</l>
+              <l>Hogy a’ kutyáimat majd meg is hizlalom.</l>
+              <l>Mert62 a’ barmok között, a’ kutyák nemesek,</l>
+              <l>Azért ollyan hívek közttünk és rendesek.</l>
+              <l>Csak a’ Família, a’ teszen mindenné,</l>
+              <l>Nem jó a’ paraszt sor, a’ Manó megenné!</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>De csak mától fogva van a’ Familia,</l>
+              <l>’S nincs még Nemzetségből ez az Aszszony fija.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>Nagy adót fizetett a’ Kukulini had;</l>
+              <l>Bíróságot viselt, ’s mint más nem ollyan vad.</l>
+              <l>Micsoda? de Uram, régi az én Vérem,</l>
+              <l>’S ne tartsa mainak: — ezt ugyan kikérem.</l>
+              <l>Tanácsbéli-Ember ötszáz esztendeje</l>
+              <l>A’ Kukulini had, és falu’ eleje.</l>
+              <l>Az első Nagy Attyok gordonos Czigány volt</l>
+              <l>’S Kis-Biróságra ment még elébb hogy megholt.</l>
+              <l>Musikusból oda menni nem bolondság;</l>
+              <l>Érdem van ott, Uram, nem héjje-hujjaság.</l>
+              <l>Így a’ régiségnek tsak Levél hibázott,</l>
+              <l>De a’ Vér, Uraim! Noétól ágazott.</l>
+              <l>’S már meg-nemesedve ollyan régi vagyok.</l>
+              <l>Mint más Familiák, ’s Uralkodó Nagyok.</l>
+              <l>Hogy vérrel Nemesek voltunk, ki van sütve,</l>
+              <l>Csak hogy pecsét nem volt eddig reá ütve.</l>
+              <l>A’ paraszt-embernek mind ember véri van</l>
+              <l>Édes csillagaim! akárhogy’ — hijjábann.</l>
+              <l>Erkölccsel a’ paraszt hajó-féle ember</l>
+              <l>Nemes Vér, azért hogy csak a’ porban hever.</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Nem szűkség már erről tovább okoskodni,</l>
+              <l>’S jobb az illyenekben látva vakoskodni.</l>
+            </lg>
+          </sp>
+          <sp who="pomone">
+            <speaker>POMONÉ</speaker>
+            <lg>
+              <l>No hát a’ Kisasszonyt kérem a’ fiamnak</l>
+              <l>Úgy, mint házas-társnak, ’s leánynak magamnak.</l>
+              <l>Százezer forintra üt fel az értéke.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>Az illyen szűlének szép a’ verejtéke.</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <stage>félre</stage>
+              <l>Kukulini és a’ Fő Tanácsos között</l>
+              <l>Szerencsém különös formába öltözött.</l>
+              <l>Árúba vetették itt árva fejemet</l>
+              <l>És pénzzel fontolják csekély érdememet.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Látod Kukulinit?</l>
+            </lg>
+          </sp>
+          <sp who="pelozis">
+            <speaker>PELÓZIS</speaker>
+            <lg>
+              <l>Semmi, mert pénze van,</l>
+              <l>’S hijába fenevad tulajdonságában.</l>
+              <l>Kevés Szűz van ollyan, kit ha kérnek férjhez</l>
+              <l>Tapsolva ne menjen a’ szép rakás pénzhez.</l>
+              <l>Ha társát utálja, unalmán segíthet,</l>
+              <l>Embert, mulatságot mindenfelé lelhet.</l>
+              <l>’S a’ Leányság, látom, egymás köztt ezt súgja:</l>
+              <l><hi>Pénzét nézzd.</hi>’S a’ szegény érdemet felrúgja.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">Ötödik eset</head>
+          <stage>TULIPÁN, ’s a’ többi.</stage>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Micsoda szép sereg? ki ügyét folytatták?</l>
+              <l>’S az Országnak mellyik rúdját igazgatják?</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <l>A’ te tanácsodra vár itt talán két Szűz.</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>Jól van — hiszen rajtam még a' Minister büz.</l>
+              <l>Téged, Kolumbina, el-veszlek tanácsbúl,</l>
+              <l>A’ többi szerencse akár áll, akár hull.</l>
+              <l>Nem kell tapogatni az eltökéllésnél,</l>
+              <l>Csak nyűg, ha az ember előre sokat vél.</l>
+              <l>A’ házasság ollyan csak, mint a’ csürközés,</l>
+              <l>És a’ háborúhoz való feltűrközés,</l>
+              <l>Eggyik ide bukik, más, más nyűgre talál</l>
+              <l>Mitől fél a’ kinek orrában az halál?</l>
+              <l>Üss fel, Kolumbina! nyerjük, akár vesztjük</l>
+              <l>Semmi! elég, hogy az embert tenyésztetjük.</l>
+              <l>Eltartja a’ világ minden gyermekünket,</l>
+              <l>Ha lesz; ’s mi is hóltig viszszük életünket.</l>
+              <l>Tsak ollyan tested van mint a’ Királynénak,</l>
+              <l>Örűljön más másnak, én a’ magaménak.</l>
+              <l>Kevéssel megérve eszem iszom, mint más,</l>
+              <l>’S végre levágom, ha meg telik a’ rovás.</l>
+            </lg>
+          </sp>
+          <sp who="kolumbina">
+            <speaker>KOLUMBINA</speaker>
+            <lg>
+              <stage>kezet csapva</stage>
+              <l>Könnyebben megesik, mint a’ nagy Uraknál</l>
+              <l>Kiknek nincsen nagyobb ostorok magoknál.</l>
+              <l>A’ jó házasságról mindég okoskodnak,</l>
+              <l>’S bóldogságok ellen büszkén vakoskodnak.</l>
+              <l>Mély oktatásokat adnak a’ nagy ésszel</l>
+              <l>És több kárt vallanak, mint mi, e szélvészszel.</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Hagyd-el, itt az idő; nincsen több halasztás</l>
+              <l>Három szerencse köztt vagyon a’ választás:</l>
+              <l>Pelózis, Hippodon, végre Kukulini,</l>
+              <l>Nagyobb boldogságot hol lehessen hinni?</l>
+            </lg>
+          </sp>
+          <sp who="tulipan">
+            <speaker>TULIPÁN</speaker>
+            <lg>
+              <l>A’ ki élni kíván tellyes szabadságban</l>
+              <l>Kukulinit vegye mellé Házasságban:</l>
+              <l>A’ ki peres társat, Uraságot vadász,</l>
+              <l>Jobb ha a’ Minister’ tengerébenn halász.</l>
+              <l>Pelózis érdemmel, szívvel gazdagithat,</l>
+              <l>De pénzzel, vagyonnal kitsinyt bóldogithat</l>
+            </lg>
+          </sp>
+          <sp who="lais">
+            <speaker>LAIS</speaker>
+            <lg>
+              <l>Már én ezt választom ... Mint példa hadd legyen</l>
+              <l>Hogy a’ pénzes Leány szegényhez is megyen.</l>
+            </lg>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

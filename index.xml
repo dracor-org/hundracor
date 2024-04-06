@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <item id="hun000001" file="Balassi_SzepMagyarKomedia" slug="balassi-szep-magyar-komedia"/>
+  <item id="hun000002" file="Balazs_Hazateres" slug="balazs-hazateres"/>
+  <item id="hun000003" file="Balazs_Mozart" slug="balazs-mozart"/>
+  <item id="hun000004" file="Bormenisza_TragoediaMagyarNyelven" slug="bornemisza-tragoedia-magyar-nyelven-az-sophocles-electrajabol" wikidata="Q3997255"/>
+  <item id="hun000005" file="Brody_ATanitono" slug="brody-a-tanitono"/>
+  <item id="hun000006" file="Csath_AJanika" slug="csath-a-janika"/>
+  <item id="hun000007" file="Csath_Hamvazoszerda" slug="csath-hamvazoszerda"/>
+  <item id="hun000008" file="Csiky_ANagymama" slug="csiky-a-nagymama"/>
+  <item id="hun000009" file="Csiky_AProletarok" slug="csiky-a-proletarok"/>
+  <item id="hun000010" file="Csiky_AVasember" slug="csiky-a-vasember"/>
+  <item id="hun000011" file="Csiky_Buborekok" slug="csiky-buborekok"/>
+  <item id="hun000012" file="Csokonai_AMelaTempefoi" slug="csokonai-a-mela-tempefoi" wikidata="Q1317957"/>
+  <item id="hun000013" file="Csokonai_AzOzvegyKarnyone" slug="csokonai-ozvegy-karnyone"/>
+  <item id="hun000014" file="Czako_KalmarEsTengeresz" slug="czako-kalmar-es-tengeresz" wikidata="Q1103614"/>
+  <item id="hun000015" file="Gardonyi_ABor" slug="gardonyi-a-bor" wikidata="Q464019"/>
+  <item id="hun000016" file="Hevesi_CsaszarEsKomedias" slug="hevesi-csaszar-es-komedias"/>
+  <item id="hun000017" file="Hugo_BankarEsBaro" slug="hugo-bankar-es-baro"/>
+  <item id="hun000018" file="Hunyady_NyariZapor" slug="hunyady-nyari-zapor"/>
+  <item id="hun000019" file="Jokai_Levente" slug="jokai-levente"/>
+  <item id="hun000020" file="Katona_BankBan" slug="katona-bank-ban" wikidata="Q673381"/>
+  <item id="hun000021" file="Kisfaludy_AKerok" slug="kisfaludy-a-kerok" wikidata="Q468087"/>
+  <item id="hun000022" file="Madach_ACivilizator" slug="madach-a-civilizator"/>
+  <item id="hun000023" file="Madach_AzEmberTragediaja" slug="madach-az-ember-tragediaja" wikidata="Q369393"/>
+  <item id="hun000025" file="Madach_CsakVegnapjai" slug="madach-csak-vegnapjai"/>
+  <item id="hun000026" file="Madach_FerfiEsNo" slug="madach-ferfi-es-no"/>
+  <item id="hun000027" file="Madach_Mozes" slug="madach-mozes"/>
+  <item id="hun000028" file="Moricz_LegyJoMindhalalig" slug="moricz-legy-jo-mindhalalig"/>
+  <item id="hun000029" file="Moricz_UriMuri" slug="moricz-uri-muri"/>
+  <item id="hun000030" file="Nagy_Tisztujitas" slug="nagy-tisztujitas"/>
+  <item id="hun000031" file="Pekar_MatyasEsBeatrix" slug="pekar-matyas-es-beatrix"/>
+  <item id="hun000032" file="Petofi_TigrisEsHiena" slug="petofi-tigris-es-hiena" wikidata="Q110992162"/>
+  <item id="hun000033" file="Szakonyi_Adashiba" slug="szakonyi-adashiba" wikidata="Q506669"/>
+  <item id="hun000034" file="Szigligeti_ALelenc" slug="szigligeti-a-lelenc"/>
+  <item id="hun000035" file="Szigligeti_Liliomfi" slug="szigligeti-liliomfi" wikidata="Q1130123"/>
+  <item id="hun000036" file="Teleki_Kegyenc" slug="teleki-kegyenc"/>
+  <item id="hun000037" file="Toth_AFaluRossza" slug="toth-a-falu-rossza" wikidata="Q465228"/>
+  <item id="hun000038" file="Vorosmarty_AFatyolTitkai" slug="vorosmarty-a-fatyol-titkai"/>
+  <item id="hun000039" file="Vorosmarty_CsongorEsTunde" slug="vorosmarty-csongor-es-tunde" wikidata="Q874165"/>
+  <item id="hun000040" file="Vorosmarty_Kincskeresok" slug="vorosmarty-kincskeresok"/>
+  <item id="hun000041" file="Vorosmarty_Vernasz" slug="vorosmarty-vernasz"/>
+  <item id="hun000042" file="Babits_ALiterator" slug="babits-a-literator"/>
+  <item id="hun000043" file="Babits_AMasodikEnek" slug="babits-a-masodik-enek"/>
+  <item id="hun000044" file="Babits_ASimoneHaza" slug="babits-a-simone-haza"/>
+  <item id="hun000045" file="Babits_Laodameia" slug="babits-laodameia"/>
+  <item id="hun000046" file="Balazs_AKekszakalluHercegVara" slug="balazs-a-kekszakallu-herceg-vara"/>
+  <item id="hun000047" file="Balazs_HalalosFiatalsag" slug="balazs-halalos-fiatalsag"/>
+  <item id="hun000048" file="Berczik_APozsonyiDieta" slug="berczik-a-pozsonyi-dieta"/>
+  <item id="hun000049" file="Bessenyei_AFilosofus" slug="bessenyei-a-filosofus"/>
+  <item id="hun000050" file="Bessenyei_AgisTragediaja" slug="bessenyei-agis-tragediaja" wikidata="Q1469361"/>
+  <item id="hun000051" file="Bessenyei_BudaTragediaja" slug="bessenyei-buda-tragediaja"/>
+  <item id="hun000052" file="Bessenyei_HunyadiLaszloTragediaja" slug="bessenyei-hunyadi-laszlo-tragediaja"/>
+  <item id="hun000053" file="Bessenyei_Lais" slug="bessenyei-lais"/>
+  <item id="hun000054" file="Csiky_AJoFulop" slug="csiky-a-jo-fulop"/>
+  <item id="hun000055" file="Csiky_AKaviar" slug="csiky-a-kaviar"/>
+  <item id="hun000056" file="Csiky_SzepLeanyok" slug="csiky-szep-leanyok"/>
+  <item id="hun000057" file="Csokonai_Cultura" slug="csokonai-cultura"/>
+  <item id="hun000058" file="Hunyady_AHaromSarkany" slug="hunyady-a-harom-sarkany" wikidata="Q466857"/>
+  <item id="hun000059" file="Hunyady_Bakaruhaban" slug="hunyady-bakaruhaban" wikidata=""/>
+  <item id="hun000060" file="Hunyady_FeketeszaruCseresznye" slug="hunyady-feketeszaru-cseresznye" wikidata="Q998708"/>
+  <item id="hun000061" file="Hunyady_JuliusiEjszaka" slug="hunyady-juliusi-ejszaka" wikidata="Q950387"/>
+  <item id="hun000062" file="Hunyady_KartyazoAsszonyok" slug="hunyady-kartyazo-asszonyok" wikidata="Q1123651"/>
+  <item id="hun000063" file="Hunyady_LovagiasUgy" slug="hunyady-lovagias-ugy" wikidata="Q1159410"/>
+  <item id="hun000064" file="Jokai_ASzigetvariVertanuk" slug="jokai-a-szigetvari-vertanuk"/>
+  <item id="hun000065" file="Jokai_Dalma" slug="jokai-dalma"/>
+  <item id="hun000066" file="Jokai_DozsaGyorgy" slug="jokai-dozsa-gyorgy"/>
+  <item id="hun000067" file="Jokai_KonyvesKalman" slug="jokai-konyves-kalman"/>
+  <item id="hun000068" file="Kisfaludy_StiborVajda" slug="kisfaludy-stibor-vajda"/>
+  <item id="hun000069" file="Kovacs_NotlenFerj" slug="kovacs-notlen-ferj"/>
+  <item id="hun000070" file="Obernyik_FourEsPor" slug="obernyik-four-es-por"/>
+  <item id="hun000071" file="Szasz_AttilaHalala" slug="szasz-attila-halala"/>
+  <item id="hun000072" file="Szigligeti_Csikos" slug="szigligeti-csikos"/>
+  <item id="hun000073" file="Szigligeti_FennAzErnyo" slug="szigligeti-fenn-az-ernyo"/>
+  <item id="hun000074" file="Szigligeti_IIRakocziFerenc" slug="szigligeti-ii-rakoczi-ferenc"/>
+  <item id="hun000075" file="Szigligeti_SzokottKatona" slug="szigligeti-szokott-katona"/>
+</index>

@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000046" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">A kékszakállu herceg vára</title>
+        <title type="sub">Opera 1 felvonásban</title>
+        <author>
+          <persName>
+            <surname>Balázs</surname>
+            <forename>Béla</forename>
+          </persName>
+          <idno type="wikidata">Q469963</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Bajzát</surname>
+            <forename>Tímea</forename>
+          </persName>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Dióssy</surname>
+            <forename>Anna Laura</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">A kékszakállu herceg vára</title>
+          <title type="sub">Opera 1 felvonásban</title>
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+          <ref target="https://mek.oszk.hu/20900/20937"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname>Lipták</surname>
+              <forename>Éva</forename>
+            </persName>
+            <persName>
+              <surname>Drótos</surname>
+              <forename>László</forename>
+            </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">A kékszakállu herceg vára</title>
+          <title type="sub">Opera</title>
+          <author>
+            <persName>
+              <surname>Balázs</surname>
+              <forename>Béla</forename>
+            </persName>
+            <idno type="wikidata">Q469963</idno>
+          </author>
+          <date when="1918">1918</date>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Globus Ny.</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname>Balázs</surname>
+              <forename>Béla</forename>
+            </persName>
+            <idno type="wikidata">Q469963</idno>
+          </author>
+          <title type="main">Misztériumok</title>
+          <title type="sub">Három egyfelvonásos</title>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Nyugat</publisher>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="regos">
+            <persName>A Regős</persName>
+          </person>
+          <person xml:id="kekszakallu_herceg" sex="MALE">
+            <persName>A Kékszakállu herceg</persName>
+          </person>
+          <person xml:id="judit" sex="FEMALE">
+            <persName>Judit</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Libretto</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1912">
+        <desc/>
+      </event>
+      <event type="premiere" when="1918-05-24">
+        <desc/>
+      </event>
+      <event type="written" when="1910">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head type="title">
+          <hi rend="underline"/>
+        </head>
+        <castItem>
+          <role><roleName>A Regős</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>A Kékszakállu herceg</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>Judit</roleName></role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>REGŐS PROLÓGUSA.</head>
+        <sp who="#regos">
+          <speaker>A Regős</speaker>
+          <lg>
+            <l>Haj regő rejtem</l>
+            <l>Hová, hová rejtsem</l>
+            <l>Hol volt, hol nem: kint-e vagy bent?</l>
+            <l>Régi rege, haj mit jelent</l>
+            <l>Urak, asszonyságok?</l>
+          </lg>
+          <lg>
+            <l>Im szólal az ének.</l>
+            <l>Ti néztek, én nézlek.</l>
+            <l>Szemünk pillás függönye fent:</l>
+            <l>Hol a színpad: kint-e vagy bent,</l>
+            <l>Urak, asszonyságok?</l>
+          </lg>
+          <lg>
+            <l>Keserves és boldog</l>
+            <l>Nevezetes dolgok,</l>
+            <l>Az világ kint haddal tele,</l>
+            <l>De nem abba halunk bele,</l>
+            <l>Urak, asszonyságok.</l>
+          </lg>
+          <lg>
+            <l>Nézzük egymást, nézzük,</l>
+            <l>Regénket regéljük.</l>
+            <l>Ki tudhatja, honnan hozzuk?</l>
+            <l>Hallgatjuk és csodálkozzuk,</l>
+            <l>Urak, asszonyságok.</l>
+            <stage>(A függöny szétválik a háta mögött. Halk zene.)</stage>
+          </lg>
+          <lg>
+            <l>Zene szól, a láng ég</l>
+            <l>Kezdődjön a játék.</l>
+            <l>Szemem pillás függönye fent.</l>
+            <l>Tapsoljatok majd ha lement,</l>
+            <l>Urak, asszonyságok.</l>
+          </lg>
+          <lg>
+            <l>Régi vár, régi már</l>
+            <l>Az mese ki róla jár,</l>
+            <l>Tik is hallgassátok.</l>
+          </lg>
+        </sp>
+        <stage>(Hatalmas kerek gótikus csarnok, melyből alagutszerű folyosó vezet hátra.
+                        Hét nagy ajtó van a falban. Különben sem ablak, se disz. A csarnok üres
+                        sötét, rideg, sziklabarlanghoz hasonlatos. Mikor a függöny szétválik, teljes
+                        sötétség van a színpadon, melyben a regős eltűnik.)</stage>
+        <stage>(Néhány másodpercig még sötétség és csend, aztán hirtelen kinyílik a kis vasajtó és a
+                        vakító fehér négyszögben megjelenik a kékszakállu és Judit fekete
+                        szilhuettje.)</stage>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Hangja sok kíntól fátyolozott, csendes.)</stage>
+          <lg>
+            <l>Megérkeztünk. — íme lássad:</l>
+            <l>Ez a kékszakállu vára.</l>
+            <l>Nem tündököl, mint atyádé. —</l>
+            <l>Judit jössz-e még utánam?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Megyek, megyek kékszakállu.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Beljebb jön.)</stage>
+          <lg>
+            <l>Nem hallod a vészharangot?</l>
+            <l>Anyád gyászba öltözködött,</l>
+            <l>Atyád éles kardot szijjaz,</l>
+            <l>Testvérbátyád lovat nyergel. —</l>
+            <l>Judit jössz-e még utánam?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Megyek, megyek kékszakállu.</l>
+          </lg>
+          <stage>(A kékszakállu bejön egészen és visszafordul Judit felé, aki a
+                            kapunyilásban megállt. Az ajtón beeső fénykéve megvilágítja kettőjük
+                            alakját.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Megállsz Judit? — Mennél vissza?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Mellre szorított kézzel.)</stage>
+          <lg>
+            <l>Nem. — A szoknyám akadt csak fel</l>
+            <l>Felakadt szép selyem szoknyám.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Nyitva van még ott az ajtó.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Kékszakállu!</l>
+          </lg>
+          <stage>(Bejön néhány lépést.)</stage>
+          <lg>
+            <l>Elhagytam az apám, anyám</l>
+            <l>Elhagytam szép testvérbátyám</l>
+            <l>Elhagytam a vőlegényem</l>
+            <l>Hogy váradba eljöhessek.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Utána fut és hozzá simul.)</stage>
+          <lg>
+            <l>Kékszakállu! — Ha kiűznél</l>
+            <l>Küszöbödnél megállanék</l>
+            <l>Küszöbödre lefeküdnék.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Magához öleli.)</stage>
+          <lg>
+            <l>Most csukódjon be az ajtó.</l>
+          </lg>
+        </sp>
+        <stage>(A kis vasajtó becsukódik. A csarnok világosabb marad, de csak épp hogy a
+                        két alak és a hét nagy fekete ajtó látható.)</stage>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(A kékszakállu kezét fogva tapogatódzva előre jön a fal
+                            mellett.)</stage>
+          <lg>
+            <l>Ez a kékszakállu vára!...</l>
+            <l>Nincsen ablak? — Nincsen erkély?</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Nincsen.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Hiába is süt kint a nap?</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Hiába.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Hideg marad? — Sötét marad?</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Hideg — sötét.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Ki ezt látná jaj nem szólna</l>
+            <l>Suttogó hir elhalkulna</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Hirt hallottál?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Milyen sötét a te várad!</l>
+          </lg>
+          <stage>(Előbbre tapogatódzva.)</stage>
+          <lg>
+            <l>Vizes a fal! — Kékszakállu</l>
+            <l>Milyen viz hull a kezemre?</l>
+            <l>Sir a várad! — Sir a várad!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Ugye Judit jobb volna most</l>
+            <l>Vőlegényed kastélyában.</l>
+            <l>Fehér falon fut a rózsa</l>
+            <l>Cseréptetőn táncol a nap.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Ne bánts, ne bánts kékszakállu</l>
+            <l>Nem kell rózsa, nem kell napfény!</l>
+            <l>Milyen sötét a te várad!</l>
+            <l>Milyen sötét a te várad!</l>
+            <l>Szegény, szegény Kékszakállu!<stage>(Zokog.)</stage></l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Miért jöttél hozzám, Judit?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Nedves falát felszántom</l>
+            <l>Ajakammal szárítom fel!</l>
+            <l>Hideg kövét melegítem</l>
+            <l>A testemmel melegítem!</l>
+            <l>Ugye szabad Kékszakállu</l>
+            <l>Nem lesz sötét szegény várad</l>
+            <l>Majd lesz ablak, majd lesz erkély!</l>
+            <l>Ugye lesz fény Kékszakállu</l>
+            <l>Ugye hogy kinyitunk mindent?</l>
+            <l>Szél bejárjon, nap besüssön</l>
+            <l>Tündököljön a te várad!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Nem tündököl az én váram.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Jobbra befelé megy.)</stage>
+          <lg>
+            <l>Gyere vezess Kékszakállu</l>
+            <l>Mindenhová vezess engem.<stage>(Beljebb megy.)</stage></l>
+            <l>Nagy csukott ajtókat látok</l>
+            <l>Hét fekete csukott ajtót!</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Mért vannak az ajtók csukva?</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Hogy ne lásson bele senki.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Nyisd ki, nyisd ki! — Nekem nyisd ki</l>
+            <l>Minden ajtó legyen nyitva!</l>
+            <l>Szél bejárjon, nap besüssön!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Emlékezz rá, milyen hir jár.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>A te várad derüljön fel!</l>
+            <l>Szegény, sötét, hideg várad</l>
+            <l>Nyisd ki!<stage>(Dörömböl az első ajtón)</stage></l>
+            <l>Nyisd ki!</l>
+          </lg>
+        </sp>
+        <stage>(A dörömbölésre mély, nehéz sóhajtás búg fel. Hosszu, nyomott folyosókon
+                        sir fel igy az éjszakai szél.)</stage>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Halkan felsikoltva hátrál vissza a Kékszakálluhoz.)</stage>
+          <lg>
+            <l>Jaj! — Mi volt ez? — Mi sóhajtott?</l>
+            <l>Kékszakállu! — A te várad!</l>
+            <l>A te várad! — A te várad!</l>
+          </lg>
+          <stage>(Eltakarja az arcát.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Félsz-e?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Csendesen sírva.)</stage>
+          <lg>
+            <l>Oh a várad felsóhajtott!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Félsz?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Oh a várad felsóhajtott!</l>
+            <l>Gyere nyissuk, — Velem gyere.</l>
+            <l>Én akarom kinyitni, én,</l>
+            <l>Szépen, halkan fogom nyitni,</l>
+            <l>Halkan, puhán, halkan.</l>
+            <l>Kékszakállu add a kulcsot,</l>
+            <l>Add a kulcsot, mert szeretlek!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Áldott a te kezed Judit.</l>
+          </lg>
+        </sp>
+        <stage>(A kulcscsomó megcsörren a sötétben.)</stage>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Köszönöm, köszönöm!</l>
+          </lg>
+          <stage>(Visszamegy az első ajtóhoz.)</stage>
+          <lg>
+            <l>Én akarom kinyitni, én.</l>
+          </lg>
+        </sp>
+        <stage>(Mikor a zár csattan, fölbúg a mély földalatti sóhajtás. Az ajtó hangtalanul feltárul,
+                        vérvörös négyszöget nyitva a falban, mint egy seb. Az ajtó mögül mélyből
+                        jövő veres izzás hosszu sugarat vet be a csarnok padlójára.)</stage>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Halkan.)</stage>
+          <lg>
+            <l>Jaj!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Mit látsz?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Mellre szorított kézzel.)</stage>
+          <lg>
+            <l>Láncok — kések</l>
+            <l>Szöges karók — izzó nyársak.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Ez a kinzókamra, Judit.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Szörnyű a te kinzókamrád,</l>
+            <l>Kékszakállu! — Szörnyű, szörnyű!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Félsz-e?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>A te várad fala véres!</l>
+            <l>A te várad vérzik!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Félsz-e?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Visszafordul a Kékszakállu felé. A piros fény izzó konturt ad
+                            alakjának. — Sápadt, csendes elszántsággal.)</stage>
+          <lg>
+            <l>Nem! Nem félek. — Nézd, derül már.</l>
+            <l>Ugye derül? — Nézd ezt a fényt.</l>
+          </lg>
+          <stage>(Óvatosan, a fénysáv partján, visszamegy a
+                        Kékszakálluhoz.)</stage>
+          <lg>
+            <l>Látod? látod?</l>
+            <l>Szép fénypatak<stage>(Letérdepel.)</stage></l>
+          </lg>
+          <stage>(A fénybe mártja két homoru tenyerét.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Piros patak — véres patak.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Nézd csak, nézd csak! Nézd, dereng már.</l>
+          </lg>
+          <stage>(Szünet. Feláll.)</stage>
+          <lg>
+            <l>Minden ajtót ki kell nyitni.</l>
+            <l>Szél bejárjon, nap besüssön,</l>
+            <l>Minden ajtót ki kell nyitni.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Nem tudod, mi van mögöttük.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Add ide a többi kulcsot.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit, Judit, mért akarod?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Mert szeretlek.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Váram sötét töve reszket.</l>
+            <l>Nyithatsz, csukhatsz minden ajtót.</l>
+          </lg>
+          <stage>(Átnyujtja Juditnak a második kulcsot. Kezeik a vörös fénykévében
+                            találkoznak.)</stage>
+          <lg>
+            <l>Vigyázz, vigyázz a váramra,</l>
+            <l>Vigyázz, vigyázz miránk, Judit.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(A második ajtóhoz megy.)</stage>
+          <lg>
+            <l>Szépen, halkan fogom nyitni,</l>
+            <l>Szépen, halkan.</l>
+          </lg>
+          <stage>(Csattan a zár és hangtalanul feltárul a második ajtó. Nyílása
+                            sárgás-vörös, de szintén sötét és félelmes. A második sugár az első
+                            mellé fekszik a padlóra.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Halkan.)</stage>
+          <lg>
+            <l>Ah! ––</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Mit látsz?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Száz kegyetlen, szörnyű fegyver,</l>
+            <l>Sok rettentő hadi szerszám.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Ez a fegyveres-ház, Judit.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Milyen nagyon erős vagy te,</l>
+            <l>Milyen nagy kegyetlen vagy te!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Félsz-e?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Vér szárad a fegyvereken!</l>
+            <l>Véres a sok hadi szerszám.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Félsz-e?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Visszafordul a Kékszakállu felé.)</stage>
+          <lg>
+            <l>Add ide a többi kulcsot.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit, Judit!</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Lassan visszajön a második fénysáv partján.)</stage>
+          <lg>
+            <l>Itt a másik patak.</l>
+            <l>Szép fénypatak. — Látod? Látod?</l>
+          </lg>
+          <stage>(Szünet mulva.)</stage>
+          <lg>
+            <l>Add ide a többi kulcsot.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Vigyázz, vigyázz miránk, Judit!</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Add ide a többi kulcsot.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Nem tudod, mit rejt az ajtó?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Idejöttem, mert szeretlek.</l>
+            <l>Itt vagyok. A tied vagyok.</l>
+            <l>Most már vezess mindenhová,</l>
+            <l>Most már nyiss ki minden ajtót.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Váram sötét töve reszket,</l>
+            <l>Bus sziklákon gyönyör borzong,</l>
+            <l>Judit, Judit, — hűs és édes</l>
+            <l>Nyitott sebből vér ha ömlik.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Idejöttem, mert szeretlek,</l>
+            <l>Most már nyiss ki minden ajtót.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Adok neked három kulcsot.</l>
+            <l>Látni fogsz. De sohse kérdezz.</l>
+            <l>Akármit látsz, sohse kérdezz.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Add ide a három kulcsot.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Átnyujtja.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Türelmetlenül elveszi és a harmadik ajtóhoz siet, de előtte habozva
+                        megáll.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Mért álltál meg? — Mért nem nyitod?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Kezem a zárt nem találja.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit, ne félj, most már mindegy.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Megfordítja a kulcsot. Meleg, mély érchanggal nyílik az ajtó, ragyogó
+                            arany négyszöget nyitva a falban. A kiömlő arany fénysáv a többi mellé
+                            fekszik a padlóra.)</stage>
+          <lg>
+            <l>Oh be sok kincs! — Oh be sok kincs!</l>
+          </lg>
+          <stage>(Letérdepel és vájkál benne.)</stage>
+          <lg>
+            <l>Aranypénz és drága gyémánt,</l>
+            <l>Bélagyöngygyel fényes ékszer,</l>
+            <l>Koronák és dús palástok ! —</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Ez a váram kincsesháza.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Mily gazdag vagy Kékszakállu!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Tied most már mind ez a kincs,</l>
+            <l>Tied arany, gyöngy és gyémánt.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Hirtelen feláll.)</stage>
+          <lg>
+            <l>Vérfolt van az ékszereken.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Nem felel.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(A Kékszakállu felé fordul csodálkozva. — Szünet multán.)</stage>
+          <lg>
+            <l>Legszebbik koronád véres!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Nyisd ki a negyedik ajtót.</l>
+            <l>Legyen napfény — nyissad, nyissad.</l>
+          </lg>
+          <stage>(Judit egyre nyugtalanabb és türelmetlenebb. Hirtelen a negyedik ajtó
+                            felé fordul és gyorsan kinyitja. Dallamos lágy hárfa-akkorddal nyílik az
+                            ajtó. Virágos ágak csapódnak ki belőle és a falban kékesszöld négyszög
+                            nyílik. A beeső uj fénysáv a többi mellé fekszik a padlóra.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Meglepetve.)</stage>
+          <lg>
+            <l>Oh virágok! — Illatos kert</l>
+            <l>Kemény sziklák alatt rejtve.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Ez a váram rejtett kertje.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Embernyi nagy liliomok,</l>
+            <l>Hüs-fehér patyolatrózsák,</l>
+            <l>Piros szekfük szórják a fényt.</l>
+            <l>Sohse láttam ilyen kertet!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Minden virág neked bókol,</l>
+            <l>Te fakasztod, te hervasztod,</l>
+            <l>Szebben ujra te sarjasztod.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Hirtelen lehajol.)</stage>
+          <lg>
+            <l>Fehér rózsád töve véres.</l>
+            <l>Virágaid földje véres.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Szemed nyitja kelyheiket</l>
+            <l>S neked csengetyüznek reggel.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Feláll és a Kékszakállu felé fordul.)</stage>
+          <lg>
+            <l>Virágaid földje véres.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Ki öntözte kerted földjét?</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit szeress, sohse kérdezz.</l>
+            <l>Nézd, hogy derül már a váram.</l>
+            <l>Nyisd ki az ötödik ajtót.</l>
+          </lg>
+        </sp>
+        <stage>(Judit hirtelen mozdulattal az ötödik ajtóhoz fut és felrántja. Magas
+                        erkély látszik és messzi távlat és tündöklő özönben ömlik be a
+                        fény.)</stage>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Elvakulva a szeme fölé tartja a kezét.)</stage>
+          <lg>
+            <l>Ah! —</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Lásd, ez az én birodalmam,</l>
+            <l>Messze néző szép könyöklőm</l>
+            <l>Ugye-, hogy szép nagy, nagy ország?</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Mereven néz ki, szórakozottan.)</stage>
+          <lg>
+            <l>Szép és nagy a te országod.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Selyemrétek, bársonyerdők.</l>
+            <l>Hosszu ezüst folyók folynak</l>
+            <l>És kék hegyek nagyon messze.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Szép és nagy a te országod.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Most már, Judit, mind a tied.</l>
+            <l>Itt lakik a hajnal, alkony,</l>
+            <l>Itt lakik nap, hold és csillag</l>
+            <l>S leszen neked játszótársad.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Véres árnyat vet a felhő!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Szemed színét váltja az ég,</l>
+            <l>Hajad színét váltja a föld.</l>
+            <l>Királynő vagy mindeneken.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Véres árnyat vet a felhő!</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Milyen felhők szállnak ottan?</l>
+          </lg>
+          <stage>(A Kékszakállu felé fordul.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Nézd, tündököl az én váram,</l>
+            <l>Áldott kezed ezt művelte.</l>
+            <l>Áldott a te kezed, áldott. <stage>(Kitárja a karját.)</stage></l>
+            <l>Gyere, gyere, tedd szivemre.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Nem mozdul. Szünet mulva.)</stage>
+          <lg>
+            <l>De két ajtó csukva van még.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Legyen csukva a két ajtó!</l>
+            <l>Teljen dallal az én váram,</l>
+            <l>Gyere, gyere, csókra várlak.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Nyissad ki még a két ajtót!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit, Judit — csókra várlak.</l>
+            <l>Gyere, várlak — Judit, várlak.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Nyissad ki még a két ajtót!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Karja lelankad.)</stage>
+          <lg>
+            <l>Azt akartad, felderüljön:</l>
+            <l>Nézd, tündököl már a váram.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Nem akarom, hogy előttem</l>
+            <l>Csukott ajtóid legyenek.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Vigyázz, vigyázz a váramra,</l>
+            <l>Vigyázz, nem lesz fényesebb már.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Életemet, halálomat,</l>
+            <l>Kékszakállu!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit, Judit!</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Nyissad ki még a két ajtót.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Hosszabb szünet mulva.)</stage>
+          <lg>
+            <l>Adok neked még egy kulcsot.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Némán, követelőn nyujtja érte a kezét.)</stage>
+          <stage>(A kékszakállu átadja a kulcsot. Judit a hatodik ajtóhoz megy. Mikor a
+                            kulcs elsőt fordul, zokogó, mély sóhajtás búg fel, Judit
+                            meghátrál.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit Judit, ne nyissad ki.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Hirtelen mozdulattal az ajtóhoz lép és kinyitja.)</stage>
+        </sp>
+        <stage>(A csarnokon mintha árny futna keresztül: valamivel sötétebb
+                            lesz.)</stage>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Hosszabb szünet mulva.)</stage>
+          <lg>
+            <l>Csendes fehér tavat látok,</l>
+            <l>Mozdulatlan fehér tavat.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Nem felel.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Milyen viz ez, Kékszakállu?</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Könnyek, Judit, — könnyek — könnyek.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Judit megborzongva.)</stage>
+          <lg>
+            <l>Milyen néma, mozdulatlan.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Könnyek, Judit, — könnyek — könnyek.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Lehajol és fürkészve nézi.)</stage>
+          <lg>
+            <l>Sima fehér — tiszta fehér.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Könnyek, Judit, — könnyek — könnyek.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Lassan megfordul és némán szembenéz a Kékszakálluval. Hosszu
+                        szünet.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Lassan kitárja a karját.)</stage>
+          <lg>
+            <l>Judit — gyere — csókra várlak.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Nem felel, nem mozdul.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Gyere, várlak — Judit, várlak.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Nem felel, nem mozdul.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Leereszti a karját.)</stage>
+          <lg>
+            <l>Az utolsót nem nyitom ki.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Nem felel, nem mozdul.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Nem nyitom ki.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Lehajtott fejjel, lassan a Kékszakálluhoz megy. Kérve, szomoruan
+                            hozzásimul.)</stage>
+          <lg>
+            <l>Kékszakállu... Szeress engem.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Magához öleli.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Hosszu csók után. A Kékszakállu vállán a feje.)</stage>
+          <lg>
+            <l>Nagyon szeretsz, Kékszakállu?</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Te vagy váram fényessége,</l>
+            <l>Csókolj, csókolj, sohse kérdezz.</l>
+          </lg>
+          <stage>(Hosszan csókolja.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Hosszu csók után. A Kékszakállu vállán a feje.)</stage>
+          <lg>
+            <l>Mondd meg nekem, Kékszakállu,</l>
+            <l>Kit szerettél én előttem?</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Te vagy váram fényessége,</l>
+            <l>Csókolj, csókolj, sohse kérdezz.<stage>(Csókolja.)</stage></l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Hosszu csók után. A Kékszakállu vállán a feje.)</stage>
+          <lg>
+            <l>Mondd meg nekem, hogy szeretted?</l>
+            <l>Szebb volt, mint én? Más volt, mint én?</l>
+            <l>Mondd el nekem, Kékszakállu.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit szeress, sohse kérdezz.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Mondd el nekem, Kékszakállu!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit szeress, sohse kérdezz.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Kibontakozik az ölelésből. Néhány lépést elmegy és
+                            visszafordul.)</stage>
+          <lg>
+            <l>Nyisd ki a hetedik ajtót.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Nyisd ki!</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Szünet mulva.)</stage>
+          <lg>
+            <l>Tudom, tudom, Kékszakállu,</l>
+            <l>Mit rejt a hetedik ajtó.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Nem felel.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Vér szárad a fegyvereken,</l>
+            <l>Legszebbik koronád véres.</l>
+            <l>Virágaid földje véres,</l>
+            <l>Véres árnyat vet a felhő!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Nem felel.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Tudom, tudom, Kékszakállu,</l>
+            <l>Fehér könnytó kinek könnye,</l>
+            <l>Nyisd ki a hetedik ajtót!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Nem felel.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Ott van mind a régi asszony!</l>
+            <l>Ott van mind a régi asszony!</l>
+            <l>Legyilkolva, vérbefagyva.</l>
+            <l>Jaj, igaz hír, suttogó hir.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Judit!</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Igaz, igaz!</l>
+            <l>Most én tudni akarom már —</l>
+            <l>Nyisd ki a hetedik ajtót!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Judit felé nyujtja a hetedik kulcsot.)</stage>
+          <lg>
+            <l>Fogjad. — Itt a hetedik kulcs.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Mereven nézi. Nem nyul érte.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Szünet mulva.)</stage>
+          <lg>
+            <l>Nyisd ki Judit. — Lássad őket.</l>
+            <l>Ott van mind a régi asszony.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Még egy ideig mozdulatlan. Aztán lassan, bizonytalan kézzel átveszi a
+                        kulcsot és lassan, ingó lépéssel a hetedik ajtóhoz megy és megáll.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Szünet mulva hirtelen kinyitja az ajtót. Mikor a kulcs elsőt csattan,
+                        halk sóhajtással becsukódik a hatodik ajtó. Mikor a kulcs másodikat csattan,
+                        halk sóhajtással becsukódik az ötödik ajtó. Jóval sötétebb lesz és a négy
+                        szemközti ajtó később lassan becsukódik. És akkor szomoru, lágy muzsikával
+                        kinyílik a hetedik ajtó és holdezüst fény vetődik be rajta hosszu sugárban,
+                        megvilágítva Judit arcát és a Kékszakálluét.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Lásd a régi asszonyokat,</l>
+            <l>Lásd akiket én szerettem.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(Megdöbbenve hátrál.)</stage>
+          <lg>
+            <l>Élnek, élnek! — Itten élnek !</l>
+          </lg>
+        </sp>
+        <stage>(A hetedik ajtóból előjönnek a régi asszonyok. Hárman koronásán palásttal,
+                        kinccsel rakottan, glóriásan. Sápadt arccal, büszke, lassu járással, jönnek
+                        egymás mögött és megállnak szemben a Kékszakálluval.)</stage>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Térdre ereszkedik.)</stage>
+          <lg>
+            <l>Szépek, szépek, százszor szépek.</l>
+            <l>Mindig voltak, mindig élnek,</l>
+            <l>Sok kincsemet ők gyűjtötték,</l>
+            <l>Virágaim ők öntözték,</l>
+            <l>Birodalmam növesztették,</l>
+            <l>Övék minden, minden, minden.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <stage>(A régi asszonyok mellett áll negyediknek, meggörnyedve,
+                            szepegve.)</stage>
+          <lg>
+            <l>Milyen szépek, milyen dúsak,</l>
+            <l>Én, jaj, kopott koldus vagyok.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Feláll.)</stage>
+          <lg>
+            <l>Hajnalban az elsőt leltem,</l>
+            <l>Piros, szagos, szép hajnalban,</l>
+            <l>Övé most már minden hajnal,</l>
+            <l>Övé piros, hüs palástja</l>
+            <l>Övé ezüst koronája,</l>
+            <l>Övé most már minden hajnal.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Jaj, szebb nálam, dúsabb nálam.</l>
+          </lg>
+          <stage>(Az első asszony lassan visszamegy.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Másodikat délben leltem,</l>
+            <l>Néma, égő arany délben,</l>
+            <l>Minden dél az övé most már.</l>
+            <l>Övé nehéz tűzpalástja,</l>
+            <l>Övé arany koronája,</l>
+            <l>Minden dél az övé most már.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Jaj, szebb nálam, dúsabb nálam.</l>
+          </lg>
+          <stage>(A második asszony is visszamegy.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Harmadikat este leltem,</l>
+            <l>Békés, bágyadt, barna este,</l>
+            <l>Övé most már minden este,</l>
+            <l>Övé barna búpalástja</l>
+            <l>Övé gyöngyös koronája,</l>
+            <l>Övé most már minden este.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Jaj, szebb nálam, dúsabb nálam.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Megáll Judit előtt. A negyedik ajtó becsukódik.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Negyediket éjjel leltem,</l>
+            <l>Csillagos, fekete éjjel.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Kékszakállu, megállj, megállj!</l>
+            <l>Hallgass, hallgass, itt vagyok még!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>Fehér arcod sütött fénnyel,</l>
+            <l>Barna hajad felhőt hajtott.</l>
+            <l>Tied lesz már minden éjjel,</l>
+          </lg>
+          <stage>(A harmadik ajtó küszöbéről elhozza a koronát, palástot és ékszert. A
+                            harmadik ajtó becsukódik.)</stage>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Kékszakállu, nem kell, nem kell!</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Judit vállára teszi a palástot.)</stage>
+          <lg>
+            <l>Tied csillagos palástja.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Jaj, jaj, Kékszakállu, vedd le.</l>
+          </lg>
+          <stage>(A második ajtó becsukódik.)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Judit fejére teszi a koronát.)</stage>
+          <lg>
+            <l>Tied gyémánt koronája.</l>
+          </lg>
+        </sp>
+        <sp who="#judit">
+          <speaker>Judit:</speaker>
+          <lg>
+            <l>Jaj, jaj, Kékszakállu, vedd le.</l>
+          </lg>
+          <stage>(Az első ajtó becsukódik)</stage>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <stage>(Judit nyakába akasztja az ékszert.)</stage>
+          <lg>
+            <l>Tied e legdrágább kincsem.</l>
+            <l>Szép vagy, szép vagy,</l>
+            <l>Százszorszép vagy,</l>
+            <l>Te voltál a legszebb asszony.</l>
+          </lg>
+        </sp>
+        <sp who="#kekszakallu_herceg">
+          <speaker>A Kékszakállu:</speaker>
+          <lg>
+            <l>És mindig is éjjel lesz, már</l>
+            <l>Éjjel...éjjel...</l>
+          </lg>
+        </sp>
+        <stage>(Judit lassan meggörnyed a palást alatt és gyémántkoronás fejét
+                        lehorgasztva, az ezüst fénysáv mentén bemegy a többi asszony után a hetedik
+                        ajtón. Az is becsukódik. Teljes sötétség van megint, melyben a Kékszakállu
+                        eltűnik.)</stage>
+        <stage>Vége.</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

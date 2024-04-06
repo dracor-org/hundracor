@@ -1,0 +1,67 @@
+#!/bin/sh
+
+usage () {
+  cat <<EOF
+Transform ELTE-DH source file(s) to DraCor TEI.
+
+Usage: $0 source-file [source-file ...]
+
+OPTIONS:
+  -h, --help      show this message
+
+EOF
+}
+
+# options parsing inspired by
+# https://medium.com/@Drew_Stokes/bash-argument-parsing-54f3b81a6a8f
+
+ALL=""
+PARAMS=""
+
+while (( "$#" )); do
+  case "$1" in
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    -v|--verbose)
+      VERBOSE=yes
+      shift
+      ;;
+    -*|--*=) # unsupported flags
+      echo "Error: Unsupported flag $1" >&2
+      exit 1
+      ;;
+    *) # preserve positional arguments
+      PARAMS="$PARAMS $1"
+      shift
+      ;;
+  esac
+done
+
+# set positional arguments in their proper place
+eval set -- "$PARAMS"
+
+SOURCE_REPO="https://github.com/dracor-org/ELTE-drama-corpus.git"
+SOURCE_DIR="elte-drama-corpus"
+SOURCE_BRANCH="dracor"
+XSLT="elte2dracor.xsl"
+OUT="tei"
+
+FILES=$@
+
+if [ $# -eq 0 ]; then
+  if [ ! -d $SOURCE_DIR]; then
+    git clone $SOURCE_REPO $SOURCE_DIR
+    cd $SOURCE_DIR
+    git checkout $SOURCE_BRANCH
+    cd -
+  fi
+  FILES=$SOURCE_DIR/level1/*.xml
+fi
+
+for source in $FILES; do
+  saxon -xsl:$XSLT -s:"$source" outputdirectory=$OUT
+done
+
+xmlformat -f format.conf -i $(git ls-files -m -o $OUT)

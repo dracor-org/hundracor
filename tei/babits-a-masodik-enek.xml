@@ -1,0 +1,5249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000043" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">A második ének</title>
+        <author>
+          <persName>
+            <surname>Babits</surname>
+            <forename>Mihály</forename>
+          </persName>
+          <idno type="wikidata">Q332482</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Bajzát</surname>
+            <forename>Tímea</forename>
+          </persName>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Sziráki</surname>
+            <forename>Sarolta</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">
+                        https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">
+                        https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
+        <date>2022</date>
+        <availability>
+          <p>CC BY-SA 4.0 <ref type="url">
+                            https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">A második ének</title>
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+          <ref target="https://mek.oszk.hu/11500/11535/#"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname>Szever</surname>
+              <forename>Pál</forename>
+            </persName>
+            <persName>
+              <surname>Molnár</surname>
+              <forename>Éva</forename>
+            </persName>
+            <persName>
+              <surname>Kiss</surname>
+              <forename>András</forename>
+            </persName>
+          </respStmt>
+          <date when="2013-04-23">2013-04-23</date>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">A második ének</title>
+          <author>
+            <persName>
+              <surname>Babits</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q332482</idno>
+          </author>
+          <date when="1942"/> 1942 <pubPlace>Budapest</pubPlace>
+          <publisher>Nyugat</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname>Babits</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q332482</idno>
+          </author>
+          <title type="main">A második ének</title>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Nyugat</publisher>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="pasztor" sex="MALE">
+            <persName>A PÁSZTOR/AZ IFJÚ KIRÁLY</persName>
+          </person>
+          <person xml:id="kiralylany" sex="FEMALE">
+            <persName>A KIRÁLYLÁNY/A KIRÁLYNŐ</persName>
+          </person>
+          <person xml:id="kiraly" sex="MALE">
+            <persName>A KIRÁLY/AZ ÖREG KIRÁLY</persName>
+          </person>
+          <person xml:id="kiralyi_csosz" sex="MALE">
+            <persName>A KIRÁLYI CSŐSZ</persName>
+          </person>
+          <person xml:id="elso_udvaronc" sex="MALE">
+            <persName>AZ ELSŐ UDVARONC</persName>
+          </person>
+          <person xml:id="generalis" sex="MALE">
+            <persName>A GENERÁLIS</persName>
+          </person>
+          <person xml:id="udvarholgy" sex="FEMALE">
+            <persName>AZ UDVARHÖLGY</persName>
+          </person>
+          <person xml:id="masodik_udvarholgy" sex="FEMALE">
+            <persName>A MÁSODIK UDVARHÖLGY</persName>
+          </person>
+          <person xml:id="fiatal_udvarholgy" sex="FEMALE">
+            <persName>FIATAL UDVARHÖLGY</persName>
+          </person>
+          <person xml:id="bojtar" sex="MALE">
+            <persName>A BOJTÁR</persName>
+          </person>
+          <person xml:id="holgy" sex="FEMALE">
+            <persName>EGY HÖLGY</persName>
+          </person>
+          <person xml:id="masik_holgy" sex="FEMALE">
+            <persName>EGY MÁSIK HÖLGY</persName>
+          </person>
+          <person xml:id="masik_bojtar" sex="MALE">
+            <persName>EGY MÁSIK BOJTÁR</persName>
+          </person>
+          <person xml:id="masik_udvaronc" sex="MALE">
+            <persName>EGY MÁSIK UDVARONC</persName>
+          </person>
+          <person xml:id="fiatal_lany" sex="FEMALE">
+            <persName>EGY FIATAL LÁNY</persName>
+          </person>
+          <person xml:id="udvarmesterno" sex="FEMALE">
+            <persName>A FŐUDVARMESTERNŐ</persName>
+          </person>
+          <person xml:id="nevelono" sex="FEMALE">
+            <persName>A NEVELŐNŐ</persName>
+          </person>
+          <person xml:id="kapus" sex="MALE">
+            <persName>A KAPUS</persName>
+          </person>
+          <person xml:id="gorog_kovet" sex="MALE">
+            <persName>A GÖRÖG KÖVET</persName>
+          </person>
+          <person xml:id="torok_kovet" sex="MALE">
+            <persName>A TÖRÖK KÖVET</persName>
+          </person>
+          <person xml:id="francia_kiraly" sex="MALE">
+            <persName>A FRANCIA KIRÁLY</persName>
+          </person>
+          <person xml:id="dajka" sex="FEMALE">
+            <persName>A DAJKA</persName>
+          </person>
+          <person xml:id="orvos" sex="MALE">
+            <persName>AZ ORVOS</persName>
+          </person>
+          <person xml:id="foorvos" sex="MALE">
+            <persName>FŐORVOS</persName>
+          </person>
+          <person xml:id="apolono" sex="FEMALE">
+            <persName>AZ ÁPOLÓNŐ</persName>
+          </person>
+          <person xml:id="komorna" sex="FEMALE">
+            <persName>A KOMORNA</persName>
+          </person>
+          <person xml:id="modern" sex="MALE">
+            <persName>A MODERN</persName>
+          </person>
+          <person xml:id="muveszies" sex="MALE">
+            <persName>A MŰVÉSZIES</persName>
+          </person>
+          <person xml:id="lartpourlart" sex="MALE">
+            <persName>L'ART POUR L'ART</persName>
+          </person>
+          <person xml:id="konzervativ" sex="MALE">
+            <persName>A KONZERVATÍV</persName>
+          </person>
+          <person xml:id="idealista" sex="MALE">
+            <persName>AZ IDEALISTA</persName>
+          </person>
+          <person xml:id="masik_muvesz" sex="MALE">
+            <persName>MÁSIK MŰVÉSZ</persName>
+          </person>
+          <person xml:id="hang" sex="UNKNOWN">
+            <persName>A HANG</persName>
+          </person>
+          <person xml:id="masik" sex="UNKNOWN">
+            <persName>MÁSIK</persName>
+          </person>
+          <person xml:id="udvari_kolto" sex="MALE">
+            <persName>UDVARI KÖLTŐ</persName>
+          </person>
+          <person xml:id="streber_muvesz" sex="MALE">
+            <persName>A STRÉBER MŰVÉSZ</persName>
+          </person>
+          <person xml:id="meselo" sex="MALE">
+            <persName>A MESÉLŐ</persName>
+          </person>
+          <person xml:id="bohoc" sex="MALE">
+            <persName>EGY BOHÓC</persName>
+          </person>
+          <person xml:id="szociolog" sex="MALE">
+            <persName>A SZOCIOLÓG</persName>
+          </person>
+          <person xml:id="nepies" sex="MALE">
+            <persName>NÉPIES</persName>
+          </person>
+          <person xml:id="realista">
+            <persName>REALISTA</persName>
+          </person>
+          <person xml:id="klasszikus" sex="MALE">
+            <persName>KLASSZIKUS</persName>
+          </person>
+          <person xml:id="humoros" sex="MALE">
+            <persName>HUMOROS</persName>
+          </person>
+          <person xml:id="lirikus" sex="MALE">
+            <persName>LÍRIKUS</persName>
+          </person>
+          <person xml:id="lakaj" sex="MALE">
+            <persName>LAKÁJ</persName>
+          </person>
+          <person xml:id="kikalto" sex="MALE">
+            <persName>A KIKIÁLTÓ</persName>
+          </person>
+          <person xml:id="papagaly" sex="MALE">
+            <persName>A PAPAGÁLY</persName>
+          </person>
+          <person xml:id="guriga" sex="UNKNOWN">
+            <persName>Don Guriga</persName>
+          </person>
+          <person xml:id="turpi" sex="UNKNOWN">
+            <persName>Turpi</persName>
+          </person>
+          <person xml:id="uj_don" sex="MALE">
+            <persName>ÚJ DON</persName>
+          </person>
+          <person xml:id="modern_udvaronc" sex="MALE">
+            <persName>EGY MODERN MŰVELTSÉGŰ UDVARONC</persName>
+          </person>
+          <person xml:id="zeta_es_theta" sex="MALE">
+            <persName>ZÉTA ÉTATHÉTA</persName>
+          </person>
+          <person xml:id="kertesz" sex="MALE">
+            <persName>A KERTÉSZ</persName>
+          </person>
+          <person xml:id="hajos" sex="MALE">
+            <persName>HAJÓSLEGÉNYEK</persName>
+          </person>
+          <person xml:id="kerteszinas" sex="MALE">
+            <persName>A KERTÉSZINAS</persName>
+          </person>
+          <person xml:id="hab" sex="UNKNOWN">
+            <persName>A BALATON HABJAI</persName>
+          </person>
+          <person xml:id="masodik" sex="UNKNOWN">
+            <persName>MÁSODIK</persName>
+          </person>
+          <person xml:id="harmadik" sex="UNKNOWN">
+            <persName>HARMADIK</persName>
+          </person>
+          <person xml:id="negyedik" sex="MALE">
+            <persName>NEGYEDIK</persName>
+          </person>
+          <person xml:id="otodik" sex="UNKNOWN">
+            <persName>ÖTÖDIK</persName>
+          </person>
+          <person xml:id="kecske" sex="UNKNOWN">
+            <persName>KECSKÉK</persName>
+          </person>
+          <person xml:id="beka" sex="UNKNOWN">
+            <persName>BÉKÁK</persName>
+          </person>
+          <person xml:id="tucskok" sex="UNKNOWN">
+            <persName>TÜCSKÖK</persName>
+          </person>
+          <person xml:id="szu" sex="UNKNOWN">
+            <persName>SZÚ A FALBAN</persName>
+          </person>
+          <person xml:id="butor" sex="UNKNOWN">
+            <persName>BÚTOROK</persName>
+          </person>
+          <person xml:id="ora" sex="UNKNOWN">
+            <persName>ÓRA</persName>
+          </person>
+          <person xml:id="gyonyoru_holgy" sex="FEMALE">
+            <persName>EGY GYÖNYÖRŰ HÖLGY</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1942">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <body>
+      <div type="act">
+        <head type="title">ELSŐ RÉSZ</head>
+        <head type="title">Az aranyszőrű kecskék</head>
+        <stage>(Magas part a Balaton mellett, kilátással.)</stage>
+        <sp who="#kiralyi_csosz">
+          <speaker>A KIRÁLYI CSŐSZ</speaker>
+          <lg>
+            <l>Pista öcsém, hejhó! ördög egye májad:</l>
+            <l>megin' így elkószálsz? Hova lett a nyájad?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Lenn késik az aljban.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Csípjen meg a kánya:</l>
+            <l>híjjá lesz a juhnak.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Bánja aki bánja.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>De nem addig, öcskös, ne beszélj így, héka,</l>
+            <l>míg garasod nincsen, legalább egy véka.</l>
+            <l>Bánja aki bánja? Bánja majd a gazda.</l>
+            <l>Az ilyen rossz szógát szóval se marasztja.</l>
+            <l>Fel is út, le is út, kiadja a béred:</l>
+            <l>barna bugyor, kis pénz, mehetsz, ahol éred.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>PÁSZTOR</speaker>
+          <lg>
+            <l>Nem szorulok pénzre.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Nem ám a Krisztussát!</l>
+            <l>Az utolsó bakter is kéri a jussát.</l>
+            <l>Krisztus koporsóját sem őrizik ingyen.</l>
+            <l>Esz a fene téged — nincs ki nálad minden.</l>
+            <l>Nincs rendben a szénád; kutya van a kertbe:</l>
+            <l>bolygsz szerte bolondul, mint az Orbán lelke.</l>
+            <l>Egy kerékkel több van, vagy kevesebb esmég.</l>
+            <l>No csak veszne eggy el, az ugyan jól esnék!</l>
+            <l>Az eszed csáléra, míg a lábad hajszra</l>
+            <l>tátogatsz a holdra, mint valami sajtra.</l>
+            <l>Mit lesel? Az angyalt? Vagy a sült galambot?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Csak nézem a felhőt és nézem a dombot,</l>
+            <l>a Balaton habját, a lobogó lombot,</l>
+            <l>és hallgatom szólni a lomha kolompot.</l>
+            <l>Ugar az én lelkem, hol nem terem élet,</l>
+            <l>bús legelő, melyen legel a nyáj mételyt:</l>
+            <l>télen, ha a rossz szél sűrű havat szűr szét</l>
+            <l>s pelyhekből a földnek szövi prémes szűrét,</l>
+            <l>s búsul a rab bárány a borús karámban:</l>
+            <l>a lelkemet látom ebben a bárányban.</l>
+            <l>Legjobban szeretnék...</l>
+          </lg>
+          <stage>(Ezalatt jön Meseország királyának kísérete, az egész udvar; hölgyek,
+                            férfiak vegyest. Mintegy sétálnak a gyönyörű időben; gyalog jönnek, a
+                            kocsikat hátrahagyták. Egyenkint buknak elő a part megöl.)</stage>
+        </sp>
+        <sp who="#elso_udvaronc">
+          <speaker>ELSŐ UDVARONC</speaker>
+          <stage>(előbukik):</stage>
+          <lg>
+            <l>Egy regényes pásztor!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>...elmenni világgá a holdújuláskor,</l>
+            <l>a világ végére, Óperenciára,</l>
+            <l>vagy el a törökre, vagy a franciára...</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>Derék fiú mégis!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Vagy nem, sehova már:</l>
+            <l>meghalni szeretnék!</l>
+          </lg>
+        </sp>
+        <stage>(Lassan feljön a dombra a nyáj, szamár, kos, birkák, kecskék, hátrább
+                    komondor.)</stage>
+        <sp who="#udvarholgy">
+          <speaker>EGY UDVARHÖLGY</speaker>
+          <lg>
+            <l>Ni, egy szamár!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(a pásztorhoz)</stage>
+          <lg>
+            <l>Szamár!</l>
+            <l>Mondanék valamit — csípje meg a kánya —</l>
+            <l>de tudom...</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvarholgy">
+          <speaker>MÁSIK UDVARHÖLGY</speaker>
+          <lg>
+            <l>Ni egy kos!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>... nem nézel a lányra:</l>
+            <l>lány nélkül is meg van az eszed zavarva.</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>AZ UDVARHÖLGY</speaker>
+          <lg>
+            <l>Csengő van a nyakán, és görbe a szarva.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Adj Isten jó napot!</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>Fogadj Isten, öreg!</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>AZ UDVARONC</speaker>
+          <stage>(kezdve)</stage>
+          <lg>
+            <l>Nincs a szerelemnek...</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <stage>(a csőszhöz)</stage>
+          <lg>
+            <l>Hogy ityeg a fityeg?</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>AZ UDVARONC</speaker>
+          <lg>
+            <l>Nincs a szerelemnek határozott tárgya</l>
+            <l>ide-oda röppen — a semmibe — vágya.</l>
+            <l>A fiatal szívnek nem kell a valóság</l>
+            <l>csiklandják az orrát gulisztáni rózsák,</l>
+            <l>Szerelmes a fiú, de nem tudja, kibe.</l>
+          </lg>
+        </sp>
+        <sp who="#elso_udvarholgy">
+          <speaker>ELSŐ UDVARHÖLGY</speaker>
+          <lg>
+            <l>Ni virág!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Tán biz a mennydörgős mennykübe!</l>
+            <l>Hogyha szerelmes vagy, csókold meg a Pannát.</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>AZ UDVARHÖLGY</speaker>
+          <lg>
+            <l>Rezedát... gólyahírt... zsályát... majorannát...</l>
+          </lg>
+        </sp>
+        <sp who="#bojtar">
+          <speaker>A BOJTÁR</speaker>
+          <stage>(magába morogva):</stage>
+          <lg>
+            <l>Kóbászfű, az annyát!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(a bojtárhoz)</stage>
+          <lg>
+            <l>Te számold a nyájat!</l>
+          </lg>
+        </sp>
+        <sp who="#holgy">
+          <speaker>EGY HÖLGY</speaker>
+          <lg>
+            <l>De szép a Balaton!</l>
+          </lg>
+        </sp>
+        <sp who="#masik_holgy">
+          <speaker>MÁSIK HÖLGY</speaker>
+          <lg>
+            <l>Juj! az ökörnyálat!...</l>
+          </lg>
+        </sp>
+        <sp who="#bojtar">
+          <speaker>A BOJTÁR</speaker>
+          <stage>(a nyájat olvasva):</stage>
+          <lg>
+            <l>Egy, kettő, három, négy...</l>
+          </lg>
+        </sp>
+        <sp who="#masik_bojtar">
+          <speaker>MÁSIK BOJTÁR</speaker>
+          <lg>
+            <l>Ahun hajt a Bodri!</l>
+          </lg>
+        </sp>
+        <sp who="#egy_udvaronc">
+          <speaker>EGY UDVARONC</speaker>
+          <lg>
+            <l>Hát Tihany merre van?</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvaronc">
+          <speaker>MÁSIK UDVARONC</speaker>
+          <lg>
+            <l>Tiszta idő!</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>Ott ni!</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>UDVARHÖLGY</speaker>
+          <lg>
+            <l>Milyen édes, selymes, hosszúszőrű juhok</l>
+            <l>és kecskék!</l>
+          </lg>
+        </sp>
+        <sp who="#bojtar">
+          <speaker>A BOJTÁR</speaker>
+          <lg>
+            <l>Húsz, húszon...</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvarholgy">
+          <speaker>MÁSIK UDVARHÖLGY</speaker>
+          <lg>
+            <l>Hallga, a nád suhog!</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <stage>(halkan az udvaronchoz):</stage>
+          <lg>
+            <l>Erre ment a felség?</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>UDVARONC</speaker>
+          <lg>
+            <l>Nem erre ment; mégsem...</l>
+          </lg>
+        </sp>
+        <sp who="#fiatal_udvarholgy">
+          <speaker>FIATAL UDVARHÖLGY</speaker>
+          <lg>
+            <l>A szememmel láttam.</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>UDVARONC</speaker>
+          <lg>
+            <l>Óh az a nagy kék szem!</l>
+            <l>Boldog akit meglát.</l>
+          </lg>
+        </sp>
+        <sp who="#fiatal_udvarholgy">
+          <speaker>FIATAL UDVARHÖLGY</speaker>
+          <lg>
+            <l>Ügy boldog a király.</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvaronc">
+          <speaker>EGY MÁSIK UDVARONC</speaker>
+          <lg>
+            <l>Ily messze se ment még, amióta kijár.</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>Mily különös ötlet... így egyedül járni.</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>UDVARONC</speaker>
+          <lg>
+            <l>Mennyi felelősség!</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvaronc">
+          <speaker>MÁSIK UDVARONC</speaker>
+          <lg>
+            <l>Történjen akármi...</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Mi vagyunk hibásak.</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>ELSŐ UDVARONC</speaker>
+          <lg>
+            <l>Tán kérdeni kéne.</l>
+            <l>öreg!...</l>
+          </lg>
+        </sp>
+        <sp who="#lanyok">
+          <speaker>LÁNYOK</speaker>
+          <stage>(jönnek énekelve)</stage>
+          <lg>
+            <l>Járt utánam hét falu legénye.</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>A LEGELSŐ UDVARONC</speaker>
+          <lg>
+            <l>Ilyesmi sem eshet, csak Meseországban.</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvaronc">
+          <speaker>MÁSIK UDVARONC</speaker>
+          <lg>
+            <l>Nem ügyeltél erre egy öreget — zsákban?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Zsákban?</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>Zsákruhában.</l>
+          </lg>
+        </sp>
+        <sp who="#bojtar">
+          <speaker>A BOJTÁR</speaker>
+          <stage>(befejezve az olvasást)</stage>
+          <lg>
+            <l>Híjjá van a nyájnak!</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>De olyan az arca, akár a királynak.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>A királynak? Akkor tán a királyt lássam?</l>
+            <l>Láttam, nem is egyszer, követem alássan,</l>
+            <l>jól ismerem én őfelsége személyét,</l>
+            <l>szolgáltam inasként királyi szeszélyét.</l>
+            <l>Azután vén lettem, s ki falun születtem</l>
+            <l>a király csőszinek ide kéredzkedtem</l>
+            <l>a falun meghalni, a Balaton mellett</l>
+            <l>hol a kedves birkám legelőször ellett,</l>
+            <l>ahol legelőször vigyáztam a nyájra,</l>
+            <l>mielőtt vigyázni vittek a királyra.</l>
+            <l>Mostan, hogy a felség idejött, mint mondják</l>
+            <l>betegült lányának viselni a gondját</l>
+            <l>hogy a láthatatlan balzsam, amit Isten</l>
+            <l>szent keze kevert el levegőben, vízben,</l>
+            <l>gyógyítsa szegénykét, sokszor...</l>
+          </lg>
+        </sp>
+        <sp who="#bojtar">
+          <speaker>A BOJTÁR</speaker>
+          <lg>
+            <l>Pali bácsi!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>...látom, amint erre...</l>
+          </lg>
+        </sp>
+        <sp who="#bojtar">
+          <speaker>A BOJTÁR</speaker>
+          <lg>
+            <l>Híjjas a nyáj!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Ácsi!</l>
+            <l>Sokszor, amint mondom, látom ő felségét...</l>
+          </lg>
+        </sp>
+        <sp who="#bojtar">
+          <speaker>A BOJTÁR</speaker>
+          <stage>(a pásztorhoz)</stage>
+          <lg>
+            <l>Híjjas a nyáj, Pista!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Ejh, hagyj vele békét!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Látom, amint méláz csupa zsákruhában</l>
+            <l>és nézi a földet egyedül magában,</l>
+            <l>mivel, amint mondják, érti is a mágiát,</l>
+            <l>netalán lányának leli orvosságját,</l>
+            <l>naphosszra magában keresi a gyógyírt:</l>
+            <l>engem, öreg szolgát, néha meg is szólít.</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>De ma még nem láttad?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Nem láttam.</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>UDVARONC</speaker>
+          <lg>
+            <l>Azonban</l>
+            <l>mehetünk.</l>
+          </lg>
+        </sp>
+        <sp who="#asszonyok">
+          <speaker>ASSZONYOK</speaker>
+          <stage>(súgva a csőszhöz)</stage>
+          <lg>
+            <l>Szóljék kend.</l>
+          </lg>
+        </sp>
+        <sp who="#masok">
+          <speaker>MÁSOK</speaker>
+          <stage>(éppúgy)</stage>
+          <lg>
+            <l>Mondja neki.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Mondjam?</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>Mi itt, önök arra —</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Kegyelmes uraság</l>
+            <l>engedd meg egy vén fej együgyű mondását,</l>
+            <l>de tudni szeretné férfi, gyerek, asszony,</l>
+            <l>hogy érzi magát a felséges kisasszony?</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>Nem beteg az épen.</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>UDVARONC</speaker>
+          <lg>
+            <l>Csak ideges, gyenge.</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvaronc">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>És bú a világtól.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Kit se bocsát szembe.</l>
+          </lg>
+        </sp>
+        <sp who="#udvarmesterno">
+          <speaker>UDVARMESTERNŐ</speaker>
+          <lg>
+            <l>Semmi etikétnek nem tartja szabályát.</l>
+          </lg>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <lg>
+            <l>Kincsért sem akarja elhagyni szobáját.</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>UDVARHÖLGY</speaker>
+          <lg>
+            <l>Hol a szőnyegekbe léptek belehalnak.</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvarholgy">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Nagy kárpitok ontják bársonyuk a falnak.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik_udvarholgy">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Ott ül arany trónon naphosszra magában.</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik_udvarholgy">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>Éjjel hever ébren arany nyoszolyában.</l>
+          </lg>
+        </sp>
+        <sp who="#otodik_udvarholgy">
+          <speaker>ÖTÖDIK</speaker>
+          <lg>
+            <l>Kedves papagálya mellette rikácsol.</l>
+          </lg>
+        </sp>
+        <sp who="#hatodik_udvarholgy">
+          <speaker>HATODIK</speaker>
+          <lg>
+            <l>Fekete ajtóban a gonosz szú ácsol.</l>
+          </lg>
+        </sp>
+        <sp who="#parasztasszonyok">
+          <speaker>PARASZTASSZONYOK</speaker>
+          <stage>(egymás közt)</stage>
+          <lg>
+            <l>Fekete ajtóban ácsol a gonosz szú.</l>
+          </lg>
+        </sp>
+        <sp who="#hetedik_udvarholgy">
+          <speaker>HETEDIK</speaker>
+          <lg>
+            <l>Hosszú neki a nap, az éjszaka hosszú.</l>
+          </lg>
+        </sp>
+        <sp who="#udvaronc">
+          <speaker>UDVARONC</speaker>
+          <lg>
+            <l>Nem szól soha szót sem.</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvaronc">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Nem nevet az ajka.</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>ELSŐ UDVARHÖLGY</speaker>
+          <lg>
+            <l>Hiába vidítja a komorna, dajka...</l>
+          </lg>
+        </sp>
+        <sp who="#generalis">
+          <speaker>A GENERÁLIS</speaker>
+          <lg>
+            <l>Önök itt, mi arra!</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>ELSŐ UDVARHÖLGY</speaker>
+          <stage>(távozás közben)</stage>
+          <lg>
+            <l>... a bohóc, a doktor</l>
+          </lg>
+        </sp>
+        <stage>(mind el)</stage>
+        <sp who="#parasztasszonyok">
+          <speaker>PARASZTASSZONYOK</speaker>
+          <stage>(egymás között)</stage>
+          <lg>
+            <l>Királynál boldogabb a parasztnép sokszor.</l>
+          </lg>
+        </sp>
+        <sp who="#egyik_paraszt">
+          <speaker>EGYIK</speaker>
+          <lg>
+            <l>Tán erre jelentett a földindulása.</l>
+          </lg>
+        </sp>
+        <sp who="#oreg">
+          <speaker>EGY ÖREG</speaker>
+          <lg>
+            <l>Háború lesz, véres, akárki meglássa.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Vörös az ég, szél lesz.</l>
+          </lg>
+        </sp>
+        <sp who="#oreg">
+          <speaker>AZ ÖREG</speaker>
+          <lg>
+            <l>Mondtam ugyan régen:</l>
+            <l>a szakállas csillag járt múltkor az égen.</l>
+          </lg>
+        </sp>
+        <sp who="#masik_paraszt">
+          <speaker>EGY MÁSIK</speaker>
+          <lg>
+            <l>Az az Úristennek a mutatóujja.</l>
+          </lg>
+        </sp>
+        <sp who="#fiatal">
+          <speaker>EGY FIATAL</speaker>
+          <lg>
+            <l>Hallgasson el ked már, mer az Istók fújja!</l>
+          </lg>
+        </sp>
+        <sp who="#elobbi">
+          <speaker>AZ ELŐBBI</speaker>
+          <lg>
+            <l>Hát ki az az Istók?</l>
+          </lg>
+        </sp>
+        <sp who="#fiatal">
+          <speaker>A FIATAL</speaker>
+          <lg>
+            <l>Az a kecskepásztor.</l>
+          </lg>
+        </sp>
+        <sp who="#elobbi">
+          <speaker>AZ ELŐBBI</speaker>
+          <lg>
+            <l>Hogy én elhallgassak, ha ilyen flótás szól?</l>
+            <l>Hiszen hét falunak ő volt a csihása,</l>
+            <l>málészkodni nem volt hét faluba mása,</l>
+            <l>lányra csak úgy pislog bamba szeme sandán —</l>
+            <l>Hé! a királylányra gondolsz oly búsan tán?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Nem a királylányra, — nem lány, se nem asszony</l>
+            <l>akiért a bánat szivemen szakasszon:</l>
+            <l>ha a lányra nézek, csak a nótám nézem,</l>
+            <l>s felejtem az asszonyt, ha a nóta készen.</l>
+          </lg>
+        </sp>
+        <sp who="#legeny">
+          <speaker>EGY LEGÉNY</speaker>
+          <lg>
+            <l>Akkor mire gondolsz?</l>
+          </lg>
+        </sp>
+        <sp who="#masik_legeny">
+          <speaker>EGY MÁSIK</speaker>
+          <lg>
+            <l>Tán a híjjas nyájra?</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik_legeny">
+          <speaker>HARMADIK</speaker>
+          <stage>(gúnyosan):</stage>
+          <lg>
+            <l>Juhaidnak híres, aranyos gyapjára?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Nem, nem a kecskékre, nem is a birkákra,</l>
+            <l>hanem a világra... a messze világra...</l>
+          </lg>
+        </sp>
+        <sp who="#paraszt">
+          <speaker>EGY PARASZT</speaker>
+          <lg>
+            <l>Jó lesz hazamenni: a falu van messze.</l>
+          </lg>
+        </sp>
+        <sp who="#masik_paraszt">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Gém bömböl a nádban.</l>
+          </lg>
+        </sp>
+        <sp who="#paraszt">
+          <speaker>ELSŐ</speaker>
+          <lg>
+            <l>Mindjárt jön az este.</l>
+          </lg>
+        </sp>
+        <sp who="#masik_paraszt">
+          <speaker>MÁSODIK</speaker>
+          <lg>
+            <l>Fenn szólnak a tücskök, lenn szólnak a békák.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>S borulnak a földre aranyszögű vékák.</l>
+          </lg>
+        </sp>
+        <sp who="#asszony">
+          <speaker>EGY ASSZONY</speaker>
+          <lg>
+            <l>Mindig ilyen furcsát mond.</l>
+          </lg>
+        </sp>
+        <sp who="#masik_asszony">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Furcsa a legény</l>
+          </lg>
+          <stage>(mind elmennek)</stage>
+        </sp>
+        <sp who="#fiatal_lany">
+          <speaker>A FIATAL LÁNY</speaker>
+          <stage>(súgva):</stage>
+          <lg>
+            <l>Ha senki se szeret, Istók, szeretlek én.<stage>(Elszalad.)</stage></l>
+          </lg>
+        </sp>
+        <stage>(A csősz és a pásztor ketten maradnak. Alkonyodik.)</stage>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Megvan-e kapcádban a hibádzók ára?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Nincsen.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Micsinálsz hát? Hogy tér meg a kára?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Sehogy</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Akkor mi vár az ilyen szolgára?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Elmegyek világgá vagy Amerikára.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Ahhoz is ám pénz kell.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Ej, van nekem pénzem.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Oda nézzen!</l>
+            <l>Fenn a magas parton most mennek a kecskék</l>
+            <l>s a fehér bárányok mint gyenge szüzecskék</l>
+            <l>a hatalmas Estnek csodatemplomába,</l>
+            <l>hol ezer az ének és ezer a lámpa,</l>
+            <l>hol a vén diófa szent oszlopot állít</l>
+            <l>s csodamélyen terjeng a bíborszín kárpit</l>
+            <l>fejhajtva a sorban ájtatosan...</l>
+          </lg>
+        </sp>
+        <sp who="#kecskek">
+          <speaker>A KECSKÉK</speaker>
+          <lg>
+            <l>Mek, mek,</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>... egy régi zsolozsmát bólintva mekegnek,</l>
+            <l>egy régi zsolozsmát, milyet a pap nem tud,</l>
+            <l>mely egy örök szónál tovább sohasem jut</l>
+            <l>de azért az Égnek ez kedveszerinti</l>
+            <l>s aranyával őket kegyesen behinti.</l>
+            <l>Odanézzen, nézze! aki nem lát, dőre!</l>
+            <l>Most mind arany, ugy-e? A kecskéknek szőre,</l>
+            <l>a juhoknak gyapja és szarva a kosnak —-</l>
+            <l>Nem akarják látni a dőre okossak,</l>
+            <l>kicsúfolnak érte — de azért én látom:</l>
+            <l>ez az én vagyonom! ez a királyságom!</l>
+            <l>mely elvehetetlen és pazarul omlik,</l>
+            <l>soha el nem vész és soha el nem romlik.</l>
+            <l>Ott van a szememben, ott van a lelkemben,</l>
+            <l>minden bánatomban, minden gyönyörömben:</l>
+            <l>Nekem adta Isten a zápor ezüstjét,</l>
+            <l>az éjjeli égnek leborított üstjét,</l>
+            <l>tócsa szivárványát, kapolyák márványát,</l>
+            <l>a fellegek égen legelő bárányát,</l>
+            <l>hópihe gyémántját, melyet a szél kerget,</l>
+            <l>s hogy drága szemekből bányásszam a lelket,</l>
+            <l>az aranyos csillag enyim a mennybolton:</l>
+            <l>az egész világot a szememben hordom.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>De nem ad a zsidó semmit az ily kincsre.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>PÁSZTOR</speaker>
+          <lg>
+            <l>S oly hely, ahol adnak, e világon nincs-e?</l>
+            <l>A városig, ahol megbecsülik, értik,</l>
+            <l>megyek, ha a lábam lekopik is térdig.</l>
+            <l>Bokorba születtem, árván növekedtem,</l>
+            <l>és hátra ha nézek, nincs senki mögöttem:</l>
+            <l>nem is nézek eztán soha többet hátra,</l>
+            <l>mindenütt hazám lesz a magas menny sátra.</l>
+            <l>Kell lennie népnek, kellett lenni mindég,</l>
+            <l>kik aranyra váltják szemeimnek kincsét,</l>
+            <l>kiknek igazabb pénz juhaimnak szőre,</l>
+            <l>mint mit a ládában rejteget a dőre.</l>
+            <l>Aranyon kel itt lenn minden gyönyörűség:</l>
+            <l>de az én aranyom maga gyönyörűség.</l>
+            <l>Nincsen arany nélkül e hazában élet:</l>
+            <l>de az én aranyom maga magas. élet.</l>
+            <l>Elmegyek a néphez, aki méltó arra,</l>
+            <l>s kiszórom a kincsem keletre, nyugatra,</l>
+            <l>és ha lesz jutalmam, világ pénze, jó sok,</l>
+            <l>akkor is énnékem ők lesznek adósok.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Ejnye, talán bizony bűbájos a flótád?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Nem, nem is a flótán fújom én a nótát,</l>
+            <l>összetöröm flótám buta, száraz fáját</l>
+            <stage>(kettétöri)</stage>
+            <l>már régen meguntam hitvány muzsikáját;</l>
+            <l>nem kell nékem semmi, se flóta, se kóta:</l>
+            <l>a világ a kótám, én leszek a flóta,</l>
+            <l>a világ zenéje muzsikál át rajtam,</l>
+            <l>a világ szavának kapuja lesz ajkam,</l>
+            <l>nyelvem a világnak lecsapódó hídja,</l>
+            <l>mely a világ útját szemtől szemig nyitja;</l>
+            <l>alatta a lelkem gyors csermelye zuhog</l>
+            <l>s a hídon át járnak aranyszőrű juhok.</l>
+            <l>S tudja, mik e juhok? Selymes szavak...</l>
+          </lg>
+        </sp>
+        <sp who="#kecskek">
+          <speaker>A KECSKÉK</speaker>
+          <stage>(messzebről)</stage>
+          <lg>
+            <l>Mek, mek.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>... mik e csermely fölött rigmusra ügetnek</l>
+            <l>s mert dúsan ég rajtuk a világ dús napja,</l>
+            <l>mindenik juhomnak színarany a gyapja;</l>
+            <l>s lélektől-lélekig nem megy a nyáj porén:</l>
+            <l>viszi a világot aranyszínű szőrén.</l>
+            <l>Ez ám az én nyájam, akivel vesződöm:</l>
+            <l>a gazda juhával csöppet sem törődöm,</l>
+            <l>a magamét hajtom, hizlalva kövérre,</l>
+            <l>lelkemtől lelkekig, lelkek örömére.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>S merre felé indulsz? Hová mégy?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <stage>(csüggedten)</stage>
+          <lg>
+            <l>Nem tudom.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Jobbra-e vagy balra? Mely néphez? Mely uton?</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <stage>(már egy ideje a part mögött félig elrejtve hallgatott)</stage>
+          <lg>
+            <l>A királyhoz indul.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>A királyhoz...</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>Nyomban,</l>
+            <l>hogy a beteg...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>... lányát...</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>... vidítsa...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <stage>(megreszketve az örömtől)</stage>
+          <lg>
+            <l>... dalomban!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Felséges királyom...</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>Szegény kis madárkám,</l>
+            <l>étel-ital nélkül szótalan ül, sárgán.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Hol a szőnyegekbe léptek belehalnak,</l>
+            <l>s nagy kárpitok ontják bársonyuk a falnak.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly ">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>Kedves papagálya mellette rikácsol.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Fekete ajtóban a gonosz szú ácsol.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Fekete ajtóban ácsol a gonosz szú.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>Hosszú neki a nap, az éjszaka hosszú.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>'De ha én eresztem juhaimat szélivel,</l>
+            <l>rövid neki a nap, rövid lesz az éjjel.</l>
+            <l>A vén nap, a vén hold, messze kihajítva,</l>
+            <l>úgy gurul az égen, mint két csodalapda,</l>
+            <l>amellyel a Nyugat s a Kelet lapdázik.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>De ha arany nyájad vidítni hibázik,</l>
+            <l>előtted a vérpad: készülj a bitóra</l>
+            <l>mert a halálodnak ütött azon óra.</l>
+            <l>Ha pedig győzni tudsz a szomorúságon,</l>
+            <l>a tied a lányom s fele királyságom.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Csak arra születtem s nem egyébnek élek,</l>
+            <l>hogy nagyot álmodjam és álmokat éljek.</l>
+            <l>Az álom az élet: s ha szép az az álom,</l>
+            <l>életemet érte sohasem sajnálom.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>Jer, fiú, sajnálnám, ha a halál várna.<stage>(Elvezeti.)</stage></l>
+          </lg>
+        </sp>
+        <sp who="#egy_udvaronc">
+          <speaker>EGY UDVARONC</speaker>
+          <stage>(a másik oldalon felbukkanj:</stage>
+          <lg>
+            <l>Itt a király!</l>
+          </lg>
+        </sp>
+        <sp who="#kover_udvaronc">
+          <speaker>KÖVÉR UDVARONC</speaker>
+          <stage>(szintén, lihegve):</stage>
+          <lg>
+            <l>Csak ily messzire ne járna!</l>
+          </lg>
+        </sp>
+        <sp who="#masik_udvaronc">
+          <speaker>MÁSIK UDVARONC</speaker>
+          <lg>
+            <l>El ne hagyjuk többet.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik_udvaronc">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Csitt, mer észre vesz még.</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>UDVARHÖLGY</speaker>
+          <lg>
+            <l>Kit vezet a karján?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(az elvonulóknak):</stage>
+          <lg>
+            <l>Szerencsés jó estét!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY hangja</speaker>
+          <stage>(menet):</stage>
+          <lg>
+            <l>Lehet, vissza se jössz: nem is nézel hátra?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR hangja</speaker>
+          <lg>
+            <l>Látni és dalolni megyek a világba.</l>
+          </lg>
+        </sp>
+        <stage>(A csősz egyedül. Csend. Pászortüzek gyúlnak.)</stage>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>No ez aztán legény!</l>
+          </lg>
+        </sp>
+        <sp who="#bekak">
+          <speaker>A BÉKÁK</speaker>
+          <lg>
+            <l>Brekekeke.</l>
+          </lg>
+        </sp>
+        <sp who="#tucskok">
+          <speaker>A TÜCSKÖK</speaker>
+          <lg>
+            <l>Zip, zip.</l>
+          </lg>
+        </sp>
+        <sp who="#halaszok">
+          <speaker>HALÁSZOK éneke</speaker>
+          <stage>(a part felöl):</stage>
+          <lg>
+            <l>Balatoni halászlegény</l>
+            <l>hálóját kiveti szegény,</l>
+            <l>fog beléje három halat,</l>
+            <l>de magának egy se marad.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Mi lesz most a nyájjal?</l>
+            <stage>(Meglátja a parton a bográcsozó halászok tüzét.)</stage>
+            <l>Hívok embert.</l>
+            <stage>(Meglátja a parton a bográcsozó halászok tüzét.)</stage>
+            <l>Hip! hip!</l>
+          </lg>
+        </sp>
+        <sp who="#halaszok">
+          <speaker>HALÁSZOK</speaker>
+          <stage>éneke</stage>
+          <lg>
+            <l>Eggyet eevesz a főbíró,</l>
+            <l>eggyet a vicispán kiró,</l>
+            <l>harmadikat szeretője</l>
+            <l>édes párja kapja tőle.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Hé, Marci!</l>
+          </lg>
+        </sp>
+        <sp who="#halasz">
+          <speaker>A HALÁSZ hangja</speaker>
+          <lg>
+            <l>Mi kő no?</l>
+          </lg>
+        </sp>
+        <sp who="#masik_halasz">
+          <speaker>MÁSIK HALÁSZ</speaker>
+          <lg>
+            <l>Éppeg vacsorálunk.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik_halasz">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Kednek is jut, ha gyün, valami még nálunk.</l>
+          </lg>
+        </sp>
+        <sp who="#kecskek">
+          <speaker>KECSKÉK</speaker>
+          <stage>(messziről)</stage>
+          <lg>
+            <l>Mek, mek.</l>
+          </lg>
+        </sp>
+        <sp who="#kolomp">
+          <speaker>A KOLOMP</speaker>
+          <stage>(messziről):</stage>
+          <lg>
+            <l>Kling, klang.</l>
+          </lg>
+        </sp>
+        <sp who="#kecskes">
+          <speaker>KECSKÉK</speaker>
+          <stage>(messziről)</stage>
+          <lg>
+            <l>Mek, mek.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Szívesen, de máskor.</l>
+            <l>Kiabálj, segéljen valamelyik pásztor</l>
+            <l>nyájat beterelni.</l>
+          </lg>
+        </sp>
+        <sp who="#halasz">
+          <speaker>HALÁSZ</speaker>
+          <lg>
+            <l>Hó!</l>
+          </lg>
+        </sp>
+        <sp who="#masik_halasz">
+          <speaker>MÁSIK HALÁSZ</speaker>
+          <stage>(énekel)</stage>
+          <lg>
+            <l>... gyet a vicispán...</l>
+          </lg>
+        </sp>
+        <sp who="#bekak">
+          <speaker>A BÉKÁK</speaker>
+          <lg>
+            <l>Brekekeke.</l>
+          </lg>
+        </sp>
+        <sp who="#tucskok">
+          <speaker>A TÜCSKÖK</speaker>
+          <lg>
+            <l>Zip, zip.</l>
+          </lg>
+        </sp>
+        <sp who="#fiatal_lany">
+          <speaker>A FIATAL PARASZTLANY</speaker>
+          <stage>(visszaoson):</stage>
+          <lg>
+            <l>Pista...<stage>(fülelve)</stage>Pista!...</l>
+            <l><stage>(sírva)</stage>Pistám!</l>
+          </lg>
+        </sp>
+        <stage>(Függöny.)</stage>
+      </div>
+      <div type="act">
+        <head type="title">MÁSODIK RÉSZ</head>
+        <head type="title">A beteg királylány</head>
+        <stage>(Nagy terem. Két oldalt nagy fekete ajtók s óriás fekete keretű tükrök
+                    szakítják meg a fekete kárpitok sorát. A fényes padlón fekete szőnyegek.
+                    Közepett két hosszú sorban a néző felé lámpák oszlopai, melyek a termet három
+                    hajóra osztják. A lámpák akkor kezdenek sorban egyenkint kigyúlni, mikor a
+                    függöny felgördül. A háttérben óriás kétfelé osztott fekete bársony függöny,
+                    mely egy kisebb belső termet (mintegy alkovot) egész szélességében eltakar. A
+                    függöny mellett, a nézőnek jobbról egy régi, óriás, csodálatos óra, mindenféle
+                    arany zodiákusokkal.)</stage>
+        <sp who="#ora">
+          <speaker>AZ ÓRA</speaker>
+          <stage>(nagyon hangosan)</stage>
+          <lg>
+            <l>Tik. Tak.<stage>(Elhalkul.)</stage></l>
+          </lg>
+        </sp>
+        <sp who="#butorok">
+          <speaker>A BÚTOROK</speaker>
+          <stage>(pattognak)</stage>
+          <lg>
+            <l>Rip, rop.</l>
+          </lg>
+        </sp>
+        <sp who="#szu">
+          <speaker>A SZÚ AZ AJTÓBAN</speaker>
+          <lg>
+            <l>Kip, kop.</l>
+          </lg>
+        </sp>
+        <stage>(A hátsó nagy függöny közepén, a választéknál egy nagyon fehér kis kéz
+                    jelenik meg, vakító fényű gyűrűkkel. Láthatólag ő húzza el a függönyt jobbfelé,
+                    míg balra lassan, magától húzódik el. A belső kisebb terem közepén, ahova néhány
+                    lépcső visz, látható a királylány vakító fehér és gyönyörű arca, sötét
+                    háttérben, mely alig jól kivehető. Sötét és csodálatos, bőven] terjengő ruhában
+                    ül, úgy hogy a ruha egészen körülveszi, jobbra és balra két apród, akik
+                    láthatólag hordják a ruhát, mikor jár. Mögötte egy kis majom, talán szintén
+                    uszályhordozó, arcokat vág. Balra arany rúdon tarka papagály. Jobbra, az
+                    előtérben, óriási és gyönyörű kutya, gyémántos nyaklánccal, igen komoly. A
+                    királylány előtt, meghajolva, a főudvarmesternő és nevelőnő.)</stage>
+        <sp who="#foudvarmesterno">
+          <speaker>A FŐUDVARMESTERNŐ</speaker>
+          <lg>
+            <l>Kívánja felséged,</l>
+            <l>hogy bebocsássam a török követséget,</l>
+            <l>mely nem akar addig innen tovamenni,</l>
+            <l>amíg nem tudhatta tiszteletét tenni</l>
+            <l>felséges királyunk egyetlen sarjánál?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Nem fogadom őket.</l>
+          </lg>
+        </sp>
+        <sp who="#nevelono">
+          <speaker>A NEVELŐNŐ</speaker>
+          <lg>
+            <l>Felséged nagy lány már:</l>
+            <l>tudhatja, királyi magas születése</l>
+            <l>kötelességet is...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Beteg vagyok.</l>
+          </lg>
+        </sp>
+        <sp who="#foudvarmesterno">
+          <speaker>A FŐUDVARMESTERNŐ</speaker>
+          <lg>
+            <l>És e</l>
+            <l>betegség...</l>
+          </lg>
+        </sp>
+        <stage>(Az előtérben egy ajtó nyil és a lakáj jelent.)</stage>
+        <sp who="#lakaj">
+          <speaker>A LAKÁJ</speaker>
+          <lg>
+            <l>Az udvar orvosai.</l>
+          </lg>
+        </sp>
+        <stage>(Az orvosok bevonulnak írnokokkal, akik nagy protokollusokat tartanak a
+                    kezükben. Egyszerre függönyök mögül és mellékszobákból előjönnek a királylány
+                    gondviselői: dajka, udvarhölgyek, ápolónő, komorna és mások; ezek a
+                    fődvarmesternővel és nevelőnővel együtt mind lemennek az előtérbe, a nagy
+                    teremnek a néző felőli sarkába, ahol az orvosok kikérdezik őket és az Írnokok
+                    jegyeznek.)</stage>
+        <sp who="#elso_orvos">
+          <speaker>ELSŐ ORVOS</speaker>
+          <lg>
+            <l>Álom?</l>
+          </lg>
+        </sp>
+        <sp who="#apolono">
+          <speaker>ÁPOLÓNŐ</speaker>
+          <lg>
+            <l>Semmi.</l>
+          </lg>
+        </sp>
+        <sp who="#masodik_orvos">
+          <speaker>MÁSODIK ORVOS</speaker>
+          <lg>
+            <l>Ebéd?</l>
+          </lg>
+        </sp>
+        <sp who="#dajka">
+          <speaker>DAJKA</speaker>
+          <lg>
+            <l>Minden megmarad a tálon.</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>ELSŐ UDVARHÖLGY</speaker>
+          <lg>
+            <l>Harmatból is élhet, mint virág a száron.</l>
+          </lg>
+        </sp>
+        <sp who="#masodik_udvarholgy">
+          <speaker>MÁSODIK</speaker>
+          <lg>
+            <l>De hisz ajka széle sem volt a poháron.</l>
+          </lg>
+        </sp>
+        <sp who="#orvos">
+          <speaker>ORVOS</speaker>
+          <lg>
+            <l>Receptet.<stage>(Az írnokhoz)</stage>ön írja, amíg én diktálom</l>
+            <stage>(Roppant fontoskodva, az írnok írja.)</stage>
+            <l>Étel, ital, álom: szükséges e három.</l>
+          </lg>
+        </sp>
+        <stage>(Az ápolószemélyzet egymás között tárgyalja a dolgot.)</stage>
+        <sp who="#udvarholgy">
+          <speaker>ELSŐ</speaker>
+          <lg>
+            <l>Pedig minden jó volt.</l>
+          </lg>
+        </sp>
+        <sp who="#masodik_udvarholgy">
+          <speaker>MÁSODIK</speaker>
+          <lg>
+            <l>Fiatal, friss spárga.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik_udvarholgy">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Vagdalt csibe.</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik_udvarholgy">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>Ó bor.</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>ELSŐ</speaker>
+          <lg>
+            <l>Kis gyönge madárka!</l>
+          </lg>
+        </sp>
+        <sp who="#apolono">
+          <speaker>ÁPOLÓNŐ</speaker>
+          <lg>
+            <l>A saját kezemmel puhítom az ágyát.</l>
+          </lg>
+        </sp>
+        <sp who="#egy_orvos">
+          <speaker>EGY ORVOS</speaker>
+          <stage>(ujját feltartva, nagy tekintéllyel):</stage>
+          <lg>
+            <l>De legelőbb fel kell kelteni étvágyát.</l>
+          </lg>
+        </sp>
+        <stage>(Ezalatt az orvosok egyenkint felmennek a beteghez, megtapogatják az üterét,
+                    megnézik a nyelvét és azután fejcsóválva visszajönnek.)</stage>
+        <sp who="#elso_orvos">
+          <speaker>ELSŐ ORVOS</speaker>
+          <lg>
+            <l>Vett-e be étvágyport?</l>
+          </lg>
+        </sp>
+        <sp who="#masodik_orvos">
+          <speaker>MÁSODIK</speaker>
+          <lg>
+            <l>Idegerősítőt?</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik_orvos">
+          <speaker>HARMADIK</speaker>
+          <stage>(haragosan):</stage>
+          <lg>
+            <l>Vette-e teámat?</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik_orvos">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>Vett-e be frissítőt?</l>
+          </lg>
+        </sp>
+        <sp who="#foorvos">
+          <speaker>FŐORVOS</speaker>
+          <lg>
+            <l>Egyszóval kimondjuk,<stage>(az írnokhoz)</stage>ön írja, barátom:</l>
+            <l>Orvos i jelentés . Hivatalból. Dátom:</l>
+            <l>Király villájában a Balaton partján.</l>
+            <l>Folyó év satöbbi, cseresznye évadján</l>
+            <l>Királyi betegünk állapota váltó...</l>
+          </lg>
+        </sp>
+        <sp who="#masik_orvos">
+          <speaker>MÁSIK ORVOS</speaker>
+          <lg>
+            <l>De hisz éppígy írjuk...</l>
+          </lg>
+        </sp>
+        <sp who="#foorvos">
+          <speaker>FŐORVOS</speaker>
+          <lg>
+            <l>... zatlannak találta...</l>
+          </lg>
+        </sp>
+        <sp who="#masik_orvos">
+          <speaker>MÁSIK ORVOS</speaker>
+          <lg>
+            <l>... egy hete már.</l>
+          </lg>
+        </sp>
+        <sp who="#foorvos">
+          <speaker>FŐORVOS</speaker>
+          <stage>(mérgesen):</stage>
+          <lg>
+            <l>... tátott: s így határoztatott</l>
+            <l>(meg kellvén szüntetni ezt az állapotot)</l>
+            <l>tekintve, hogy a test úrnője a lélek,</l>
+            <l>s nem lehet a test ép, hol beteg a lélek,</l>
+            <l>amilyen az úrnő, olyan a szolgáló</l>
+            <l>s fordítva is áll az in corpor e s a n o:</l>
+            <l>a betegnek lelkét felvidámítandók</l>
+            <l>jöjjenek áktorok, bohócok és bangók,</l>
+            <l>törpék, szemfényvesztők és efféle mások!</l>
+            <l>Diktum. Aláírva: Minden fakultások.</l>
+          </lg>
+        </sp>
+        <stage>(Az orvosok kivonulnak.)</stage>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Mindig ez unalmas játékot tekintsem,</l>
+            <l>mikor úgy szeretnék...</l>
+          </lg>
+        </sp>
+        <sp who="#dajka">
+          <speaker>A DAJKA</speaker>
+          <lg>
+            <l>Mit aranyom?</l>
+          </lg>
+        </sp>
+        <sp who="#komorna">
+          <speaker>KOMORNA</speaker>
+          <lg>
+            <l>Kincsem?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Mindig e színészi, rossz komédiákat,</l>
+            <l>ez ostoba, mázolt, hazudott világot,</l>
+            <l>mikor úgy szeretnék...</l>
+          </lg>
+        </sp>
+        <sp who="#apolok">
+          <speaker>AZ ÁPOLÓK</speaker>
+          <stage>(nagy örömmel és várakozással)</stage>
+          <lg>
+            <l>Fog valamit kérni!</l>
+          </lg>
+        </sp>
+        <sp who="#dajka">
+          <speaker>A DAJKA</speaker>
+          <stage>(épúgy):</stage>
+          <lg>
+            <l>Madaram...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Óh dadám, úgy szeretnék — élni'</l>
+          </lg>
+        </sp>
+        <stage>(Mind csalódottan elfordulnak.)</stage>
+        <sp who="#foudvarmesterno">
+          <speaker>A FŐUDVARMESTERNŐ</speaker>
+          <stage>(Látva, hogy a lakáj jelenteni készül, rendelkezik.)</stage>
+          <lg>
+            <l>Húzd le a függönyt!</l>
+          </lg>
+        </sp>
+        <stage>(A fekete kárpit lassan, látszólag magától összecsukódik.)</stage>
+        <sp who="#lakaj">
+          <speaker>A LAKÁJ</speaker>
+          <lg>
+            <l>Az udvari művészek.</l>
+          </lg>
+        </sp>
+        <stage>(A művészek bevonulnak.)</stage>
+        <sp who="#udvari_kolto">
+          <speaker>AZ UDVARI KÖLTŐ</speaker>
+          <lg>
+            <l>Óh minő hangulat: e fekete fészek!</l>
+          </lg>
+        </sp>
+        <sp who="#streber_muvesz">
+          <speaker>EGY STRÉBER MŰVÉSZ</speaker>
+          <lg>
+            <l>Nincs honn a király még?</l>
+          </lg>
+        </sp>
+        <sp who="#meselo">
+          <speaker>A MESÉLŐ</speaker>
+          <lg>
+            <l>A poéta részeg.</l>
+          </lg>
+        </sp>
+        <sp who="#bohoc">
+          <speaker>A BOHÓC</speaker>
+          <lg>
+            <l>Részeg az ihlettől.</l>
+          </lg>
+        </sp>
+        <sp who="#szociolog">
+          <speaker>A SZALON-SZOCIOLÓG</speaker>
+          <lg>
+            <l>Költők és színészek!</l>
+            <l>érzik-e önök most azt, amit én érzek?</l>
+            <l>mikor a közönség, mely eddig lenézett,</l>
+            <l>észreveszi azt, hogy szüksége van ránk is,</l>
+            <l>valód i szüksége és materiális,</l>
+            <l>mint az orvosságra, vagy a táplálékra,</l>
+            <l>nem mint a gyereknek a henye játékra.</l>
+          </lg>
+        </sp>
+        <sp who="#egy_orvos">
+          <speaker>EGY ORVOS</speaker>
+          <lg>
+            <l>Csakhogy ugyan eddig uraim nem sok a</l>
+            <l>hatás a betegre.</l>
+          </lg>
+        </sp>
+        <sp who="#szociolog">
+          <speaker>A SZOCIOLÓG</speaker>
+          <lg>
+            <l>Annak is az oka</l>
+            <l>talán a művészi nevelés hiánya.</l>
+          </lg>
+        </sp>
+        <sp who="#streber_muvesz">
+          <speaker>A STRÉBER MŰVÉSZ</speaker>
+          <lg>
+            <l>De uram...</l>
+          </lg>
+        </sp>
+        <sp who="#masik_orvos">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Mit mond ön?</l>
+          </lg>
+        </sp>
+        <sp who="#szinesz">
+          <speaker>A SZÍNÉSZ</speaker>
+          <lg>
+            <l>A király leánya!</l>
+          </lg>
+        </sp>
+        <sp who="#szociolog">
+          <speaker>A SZOCIOLÓG</speaker>
+          <lg>
+            <l>Királyi nevelés nem inti m eléggé.</l>
+          </lg>
+        </sp>
+        <sp who="#streber_muvesz">
+          <speaker>A STRÉBER MŰVÉSZ</speaker>
+          <lg>
+            <l>Ügy vélem, a hiba mégsem a felségé,</l>
+            <l>hanem a kontárság...</l>
+          </lg>
+        </sp>
+        <sp who="#masik_orvos">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>... a felületesség...</l>
+          </lg>
+        </sp>
+        <sp who="#elobbi">
+          <speaker>ELŐBBI</speaker>
+          <lg>
+            <l>... áll neki útjában, hogy kifejlődhessék</l>
+            <l>a művészi érzék.</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>A sok álművészet...</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Félremek...</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>Amelytől a valódit, készet</l>
+            <l>nem ismeri jól meg, aki nem ért hozzá.</l>
+          </lg>
+        </sp>
+        <sp who="#otodik">
+          <speaker>ÖTÖDIK</speaker>
+          <lg>
+            <l>Az utánzó, ki a nyelvet modorossá...</l>
+          </lg>
+        </sp>
+        <sp who="#nepies">
+          <speaker>NÉPIES</speaker>
+          <lg>
+            <l>Az üres virtuóz —</l>
+          </lg>
+        </sp>
+        <sp who="#klasszikus">
+          <speaker>KLASSZIKUS</speaker>
+          <lg>
+            <l>A naturalista.</l>
+          </lg>
+        </sp>
+        <sp who="#humoros">
+          <speaker>HUMOROS</speaker>
+          <lg>
+            <l>Borúban kéjelgő pózos pesszimista.</l>
+          </lg>
+        </sp>
+        <sp who="#modern">
+          <speaker>MODERN</speaker>
+          <lg>
+            <l>Csinált népiesség, elavult és vánnyadt.</l>
+          </lg>
+        </sp>
+        <sp who="#konzervativ">
+          <speaker>KONZERVATÍV</speaker>
+          <lg>
+            <l>A Nyugatról jött új, beteges irányok.</l>
+          </lg>
+        </sp>
+        <sp who="#realista">
+          <speaker>REÁLISTA</speaker>
+          <lg>
+            <l>A híg eszményítés.</l>
+          </lg>
+        </sp>
+        <sp who="#muveszies">
+          <speaker>MŰVÉSZIES</speaker>
+          <lg>
+            <l>Lágy, pongyola forma.</l>
+          </lg>
+        </sp>
+        <sp who="#idealita">
+          <speaker>IDEÁLISTA</speaker>
+          <lg>
+            <l>Turkálás a szennyben.</l>
+          </lg>
+        </sp>
+        <sp who="#lirikus">
+          <speaker>LÍRIKUS</speaker>
+          <lg>
+            <l>Üres, ügyes torna.</l>
+          </lg>
+        </sp>
+        <sp who="#modern">
+          <speaker>MODERN</speaker>
+          <lg>
+            <l>A vérit a művész, az életit adja!</l>
+          </lg>
+        </sp>
+        <sp who="#lartpourlart">
+          <speaker>L'ART POUR L'ART</speaker>
+          <lg>
+            <l>Legyen hideg szobrok, dús remekek atyja.</l>
+          </lg>
+        </sp>
+        <sp who="#szociolog">
+          <speaker>A SZOCIOLÓG</speaker>
+          <lg>
+            <l>Szóval nagy a szükség erős kritikára.</l>
+          </lg>
+        </sp>
+        <sp who="#lartpourlart #modern #lirikus #idealista # muveszies #konzervativ">
+          <speaker>MIND</speaker>
+          <lg>
+            <l>Ügy van.</l>
+          </lg>
+        </sp>
+        <sp who="#lakaj">
+          <speaker>LAKÁJ</speaker>
+          <stage>(jelent):</stage>
+          <lg>
+            <l>Meseország felséges királya!</l>
+          </lg>
+        </sp>
+        <stage>(A művészek felállnak kétoldalt, a király közöttük megy a belső terem zárt
+                    kárpitjáig. A királyt kíséri az első felvonásban látott kíséret. Vele jön a
+                    pásztor, aki szerényen ül a művészek közt az utolsó helyre.)</stage>
+        <sp who="#idealista #modern #konzervativ #lartpourlart #szociolog #klasszikus">
+          <speaker>A MŰVÉSZEK</speaker>
+          <stage>(összesúgnak):</stage>
+          <lg>
+            <l>Hát ez ki?</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Ügyetlen.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>öltözete céda.</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>Egy tipikus félszeg vidéki poéta.</l>
+          </lg>
+        </sp>
+        <stage>(A fehér kéz újra megjelenik és a fekete kárpit széthúzódik. A király felmegy
+                    a lépcsőn, homlokon csókolja leányát és leül egy arany trónra. Az udvaroncok
+                    nézőkül elhelyezkednek.)</stage>
+        <sp who="#muvesz">
+          <speaker>ÖTÖDIK MŰVÉSZ</speaker>
+          <stage>(még mindig a pásztort szólja):</stage>
+          <lg>
+            <l>Süvege báránybőr.</l>
+          </lg>
+        </sp>
+        <sp who="#hatodik">
+          <speaker>HATODIK</speaker>
+          <lg>
+            <l>Csizmája barombőr.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>Kezdjük.</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Az első szám: Don Guriga, zsonglőr.</l>
+          </lg>
+        </sp>
+        <sp who="#don_guriga">
+          <speaker>DON GURIGA</speaker>
+          <stage>(Selyem blúz és bugyogó; fellép, amit mond, teszi is.)</stage>
+          <lg>
+            <l>Golyómat a tálon, tálomat a vállon,</l>
+            <l>vállamról karomra guri-gurigálom.</l>
+            <l>Vállam pereméről karom peremére</l>
+            <l>kereken gurítom szemek örömére.</l>
+            <l>Párosan a lapdám egyre lebegőben</l>
+            <l>odanézz: már három jár a levegőben.</l>
+            <l>Karomon kereken gurul kereken ki</l>
+            <l>tudom a játékot, mit kívülem senki.</l>
+            <l>Guruló golyóim egemen a bolygók</l>
+            <l>nem üres ügyesség: vérem után forgók</l>
+            <l>s gyűrűként tányérnak kergetve a szélén</l>
+            <l>könnyű gurulásuk lélekbeli élmény.</l>
+            <l>Nosza perge párom, párom után három,</l>
+            <l>hármamat a tálon, tálomat a vállon</l>
+            <l>mint valami felleg, mint valami álom,</l>
+            <l>körbe kavarodva guri-gurigálom.</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>HANG A KÖZÖNSÉGBŐL</speaker>
+          <lg>
+            <l>Ez igazi művész!</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Neki lelki élmény...</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Második szám...</l>
+          </lg>
+        </sp>
+        <sp who="#papagaly">
+          <speaker>A PAPAGÁLY</speaker>
+          <stage>(rikácsolva):</stage>
+          <lg>
+            <l>Szép! szép!</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Tupri urat kérném!</l>
+          </lg>
+        </sp>
+        <sp who="#turpi">
+          <speaker>TURPI</speaker>
+          <stage>(törpe)</stage>
+          <lg>
+            <l>Az eget nem vívom, se magas problémát,</l>
+            <l>megvetem a modern, a vívódó témát,</l>
+            <l>föl nem akarózom, nem is affektálok,</l>
+            <l>nem magas a sarkom, még székre sem állok:</l>
+            <l>az én levegőm csak a piciny valóság,</l>
+            <l>törpe szívek élte, az egyszerű jóság</l>
+            <l>és e kicsiségben nagyobb a művészet,</l>
+            <l>mint kik az óriást mind játszani készek:</l>
+            <l>aki el nem hinné, csinálja utánam.</l>
+          </lg>
+        </sp>
+        <sp who="#papagaly">
+          <speaker>A PAPAGÁLY</speaker>
+          <lg>
+            <l>Szép! szép!</l>
+          </lg>
+        </sp>
+        <sp who="#holgy">
+          <speaker>EGY HÖLGY</speaker>
+          <lg>
+            <l>Milyen kedves!</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Mily kicsi!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Én szánom.</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Következik Uj Don, ki kötélen táncol.</l>
+          </lg>
+        </sp>
+        <stage>(Két lámpaoszlop közt kötelet feszítenek.)</stage>
+        <sp who="#uj_don">
+          <speaker>ÚJ DON</speaker>
+          <stage>(fellép a kötélre)</stage>
+          <lg>
+            <l>Én vagyok a költő, ki egeket ráncol,</l>
+            <stage>(Egyensúlyozó mozdulatokkal simogatja a levegőt.)</stage>
+            <l>fennlebegő fürtöm levegőben vész el,</l>
+            <l>kapdosom a semmit ingadozó kézzel.</l>
+            <l>Építek a légből palotát magamnak</l>
+            <l>és az üres szélből vánkost a nyakamnak;</l>
+            <l>nem érem a földet banális sarokkal,</l>
+            <l>kerülöm, mit bírnék megfogni marokkal</l>
+            <l>nem nyúlok én ahhoz, amihez nyúl más is</l>
+            <l>elemem extázis, művészetem hasis.</l>
+            <l>Könnyű nekem járni a magas fonálon,</l>
+            <l>mert könnyű a lélek, s vékony a test nálam.</l>
+          </lg>
+        </sp>
+        <sp who="#modern_udvaronc">
+          <speaker>EGY MODERN MŰVELTSÉGŰ UDVARONC</speaker>
+          <lg>
+            <l>Ezt nem sokan értik!</l>
+          </lg>
+        </sp>
+        <sp who="#fiatal">
+          <speaker>EGY FIATAL</speaker>
+          <lg>
+            <l>Szubtilisen hintált.</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>EGY MÁSIK</speaker>
+          <stage>(a modern műveltségűhöz):</stage>
+          <lg>
+            <l>Nem is érteni kell, mint érzeni inkább.</l>
+          </lg>
+        </sp>
+        <sp who="#papagaly">
+          <speaker>A PAPAGÁLY</speaker>
+          <lg>
+            <l>Szép! szép!</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Negyedik szám: Zéta Éta Théta!</l>
+            <stage>(Suttogás a közönségből.)</stage>
+            <l>A nagy filozófus.</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>MÁS HANG</speaker>
+          <lg>
+            <l>A modern próféta.</l>
+          </lg>
+        </sp>
+        <sp who="#zeta_theta">
+          <speaker>ZÉTA ÉS THÉTA</speaker>
+          <stage>(Hegyes süveg, bő fekete öltöny, planétajeles szalagokkal, mint a
+                            százesztendős jövendőmondó.)</stage>
+          <lg>
+            <l>Krisztus után háromezredik esztendő:</l>
+            <l>ezer új csodákat hozhat a jövendő.</l>
+            <stage>(Szakállába morogva):</stage>
+            <l>Epakta . . . Aranyszám . . . Hold kulcsa . . . Vasárnap</l>
+            <l>betűje .. . Szaturnusz rossz gyűrűi járnak.</l>
+            <l>De nem a Szaturnusz az időnek rosszát,</l>
+            <l>sem üstökös égen, csak a lelkek hozzák:</l>
+            <l>a modern lelkekben csírázik a válság</l>
+            <l>s kihajtja virágát a százados álság.</l>
+            <l>Tanuljatok ezért nem élni időben,</l>
+            <l>nem élni a múltban, nem a jövendőben,</l>
+            <l>nem élni a húsban, mely maga az átok,</l>
+            <l>mely bűnbe s halálba vitte a világot,</l>
+            <l>nem élni személyben — külön élet semmi —</l>
+            <l>hanem a nagy lélek bölcs részei lenni</l>
+            <l>mely egy az anyaggal és végtelen élet</l>
+            <l>s amelybe feloldva töredék személyed</l>
+            <l>lel az örök honra, haláltalan utra:</l>
+            <l>ezt hirdeti Krisztus s tanította Buddha.</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>EGY HANG</speaker>
+          <lg>
+            <l>Magas elme!</l>
+          </lg>
+        </sp>
+        <sp who="#papagaly">
+          <speaker>A PAPAGÁLY</speaker>
+          <lg>
+            <l>Szép! szép!</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>MÁS HANG</speaker>
+          <lg>
+            <l>Alapja monista.</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Bár determinista...</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <stage>(a kikiáltóhoz)</stage>
+          <lg>
+            <l>Hosszú még a lista?</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>HARMADIK HANG</speaker>
+          <stage>(folytatva):</stage>
+          <lg>
+            <l>... vallja a transzcedens Kanti szabadságot.</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>A jövő vallása...</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>ÖTÖDIK</speaker>
+          <lg>
+            <l>E beteg világot...</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Még hátra az íven...</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <stage>(leányához)</stage>
+          <lg>
+            <l>Kicsikém, ma tartsuk ?</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>... a kaucsukember.</l>
+          </lg>
+        </sp>
+        <sp who="#valaki">
+          <speaker>VALAKI</speaker>
+          <lg>
+            <l>Szelleme is kaucsuk.</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>ő a modern szkepszis.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Csontja csodavékony.</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>Valamennyi stilre s eszmére hajlékony.</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>A sebmutogató!</l>
+          </lg>
+        </sp>
+        <sp who="#elso">
+          <speaker>ELSŐ</speaker>
+          <lg>
+            <l>összeszurkáltatja</l>
+            <l>magát és sebeit világgá mutatja.</l>
+          </lg>
+        </sp>
+        <sp who="#masodik">
+          <speaker>MÁSODIK</speaker>
+          <lg>
+            <l>Minden pici tücske mély sebet üt bőrén.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Csupa seb a teste...</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>s mutogatja pőrén.</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>A tágbőrű!</l>
+          </lg>
+        </sp>
+        <sp who="#elso">
+          <speaker>ELSŐ</speaker>
+          <lg>
+            <l>Bőrét addig huzigálja,</l>
+            <l>amíg a mellén lesz vörös seb a szája.</l>
+          </lg>
+        </sp>
+        <sp who="#masodik">
+          <speaker>MÁSODIK</speaker>
+          <lg>
+            <l>Ez az igaz líra, ahol az ajk egy seb.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Seb a szíven.</l>
+          </lg>
+        </sp>
+        <sp who="#papagaly">
+          <speaker>A PAPAGÁLY</speaker>
+          <lg>
+            <l>Szép! szép!</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Hasbeszélő!</l>
+          </lg>
+        </sp>
+        <sp who="#papagaly">
+          <speaker>A PAPAGÁLY</speaker>
+          <lg>
+            <l>Szebb!szebb!</l>
+          </lg>
+        </sp>
+        <sp who="#elso">
+          <speaker>ELSŐ</speaker>
+          <lg>
+            <l>ő az aki hangot ad a halott tárgynak.</l>
+          </lg>
+        </sp>
+        <sp who="#masodik">
+          <speaker>MÁSODIK</speaker>
+          <lg>
+            <l>Fekete anyagnak.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Vak fekete vágynak.</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>És az anyag lelke lelked előtt megnyil.</l>
+          </lg>
+        </sp>
+        <sp who="#otodik">
+          <speaker>ÖTÖDIK</speaker>
+          <lg>
+            <l>Sun t lacrima e rerum , dalolá már Vergil.</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Magyar mulattató!</l>
+          </lg>
+        </sp>
+        <sp who="#elso">
+          <speaker>ELSŐ</speaker>
+          <lg>
+            <l>Régi magyar humor!</l>
+          </lg>
+        </sp>
+        <sp who="#bohoc">
+          <speaker>EGY BOHÓC</speaker>
+          <stage>(gúnyosan):</stage>
+          <lg>
+            <l>Még tán Szcitiábót hozta Magyar s Hunor!</l>
+          </lg>
+        </sp>
+        <sp who="#mas">
+          <speaker>MÁS</speaker>
+          <lg>
+            <l>Felejti, ha hallja, akit csak a bú nyom.</l>
+          </lg>
+        </sp>
+        <sp who="#papagaly">
+          <speaker>A PAPAGÁLY</speaker>
+          <lg>
+            <l>Szép!</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>A szemfényvesztő!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Édes apám, únom.</l>
+          </lg>
+        </sp>
+        <stage>(A király halkan beszél a kikiáltóval. Nagy várakozás.)</stage>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Király őfelsége bölcs akaratjából</l>
+            <l>most elbocsáttatik mind e művésztábor...</l>
+          </lg>
+        </sp>
+        <stage>(Nagy mozgás, ideges suttogások.)</stage>
+        <sp who="#muvesz">
+          <speaker>EGY MŰVÉSZ</speaker>
+          <lg>
+            <l>Milyen megalázás!</l>
+          </lg>
+        </sp>
+        <sp who="#szociolog">
+          <speaker>A SZOCIOLÓG</speaker>
+          <lg>
+            <l>Hiába, valódi</l>
+            <l>művészt ma sem érthet a világ.</l>
+          </lg>
+        </sp>
+        <sp who="#mas">
+          <speaker>MÁS</speaker>
+          <lg>
+            <l>Csak módi!...</l>
+          </lg>
+        </sp>
+        <sp who="#muvesz">
+          <speaker>A MŰVÉSZ</speaker>
+          <lg>
+            <l>A javát mellőzik!</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Csőcselék</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Kivéve,</l>
+            <l>ha művészetének telje s sikerére</l>
+            <l>a fejét rá merné tenni...</l>
+          </lg>
+        </sp>
+        <stage>(Nagy mozgás.)</stage>
+        <sp who="#hang">
+          <speaker>EGY HANG</speaker>
+          <lg>
+            <l>Milyen tréfa!</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Mert az a felségnek mától a szándéka,</l>
+            <l>hogy aki a lányát vidítni próbálja,</l>
+            <l>ha sikerül, övé fele kincse s lánya,</l>
+            <l>de ha unalommal nézi a hercegnő:</l>
+            <l>fogadja a fejét vérpadon a teknő.</l>
+          </lg>
+        </sp>
+        <stage>(Konsternáció.)</stage>
+        <sp who="#hang">
+          <speaker>EGY HANG</speaker>
+          <lg>
+            <l>Terror!</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Megalázás!</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>önbecsülő szellem</l>
+            <l>nem tehet ilyesmit.</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>Az ilyesmi ellen...</l>
+          </lg>
+        </sp>
+        <sp who="#otodik">
+          <speaker>ÖTÖDIK</speaker>
+          <lg>
+            <l>A művészi érték nem függ a hatástól.</l>
+          </lg>
+        </sp>
+        <sp who="#hatodik">
+          <speaker>HATODIK</speaker>
+          <lg>
+            <l>Nem is akad senki!</l>
+          </lg>
+        </sp>
+        <sp who="#hetedik">
+          <speaker>HETEDIK</speaker>
+          <lg>
+            <l>Hirdetheti százszor!</l>
+          </lg>
+        </sp>
+        <sp who="#kikialto">
+          <speaker>A KIKIÁLTÓ</speaker>
+          <lg>
+            <l>Kéretik a kürtös kürttel olyasformán</l>
+            <l>jelet adni hármat, mint a lovastornán.</l>
+            <stage>(Kürtszó)</stage>
+            <l>Egy bajnok előre feliratkozott már.</l>
+          </lg>
+        </sp>
+        <stage>(Újabb konsternáció. Második kürtszó.)</stage>
+        <sp who="#suttogas">
+          <speaker>SUTTOGÁS</speaker>
+          <lg>
+            <l>Nincs benne önérzet?</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Ki lehet az?</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Botrány!</l>
+          </lg>
+        </sp>
+        <stage>(Harmadik kürtszó. A pásztor előlép.)</stage>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <stage>(felkönyököl):</stage>
+          <lg>
+            <l>Életedet, ifjú, veszteni nem féled?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Ha gyenge a nótám, nem élet az élet.</l>
+            <l>Ha dalomra lelkek madara nem rebben,</l>
+            <l>lelkem tüze nem gyújt tüzet a szemekben,</l>
+            <l>s szavaim kaviccsát szám hasztalan ejti,</l>
+            <l>s a szivek tavának gyűrűit nem kelti:</l>
+            <l>annyi a lelkemnek, mint aki van halva.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Életedet, ifjú, felteszed egy dalra?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Dalra teszi éltét minden igaz dallos,</l>
+            <l>s ha dalolni gyenge, jókor jön a pallos:</l>
+            <l>de ki a pallossal mer szembe dalolni,</l>
+            <l>nem lehet az gyenge, nem lehet az talmi</l>
+            <l>dalnak katonája, hősen megy a dalra</l>
+            <l>és kész a halálra, vagy a diadalra</l>
+            <l>s mint a nap erejét élezik az árnyak,</l>
+            <l>élesíti éltét árnya a halálnak,</l>
+            <l>halálos életre gyul daloló szája:</l>
+            <l>az élet ösztöke a halál kaszája.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Életedet unod, azért nem tudsz félni.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Dicsérem a halált, mert szeretek élni.</l>
+            <l>Halál az Ízetlen életben a fűszer,</l>
+            <l>s a nulla, amelytől becses a szám tízszer,</l>
+            <l>örök élet égne, mint könny kisiratlan</l>
+            <l>s hiu teher volna, mint gyapjú nyÍratlan:</l>
+            <l>enyhület és gyémánt a könny ha kisírjuk</l>
+            <l>és vagyon a gyapjú csűrben, ha lenyírjuk.</l>
+            <l>S mi a dalos kincse? mi a dalos gyapja?</l>
+            <l>minden szava, melynek a lelke az apja.</l>
+            <l>Ha ezt bevihetjük a jövő csűrébe,</l>
+            <l>mehetünk aludni a sírnak űrébe</l>
+            <l>s majd akinek nem szól a szivében ének,</l>
+            <l>a mi gyapjúnkból sző ruhát a lelkének.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Pásztorra vallanak szavad és ruháid.</l>
+          </lg>
+        </sp>
+        <stage>(A lámpák hirtelen elsötétednek.)</stage>
+        <sp who="#hang">
+          <speaker>EGY NŐI HANG</speaker>
+          <lg>
+            <l>Iszonyú!</l>
+          </lg>
+        </sp>
+        <sp who="#masik_hang">
+          <speaker>EGY MÁSIK NŐI HANG</speaker>
+          <lg>
+            <l>Miféle vörös ember áll itt?</l>
+          </lg>
+        </sp>
+        <stage>(A háttérben, a trónusok mögött, ahol még egy láng csillog, feltűnik egy
+                    tetőtől talpig vörösruhás férfi, szemmelláthat óla g a bakó.)</stage>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Te vörös vendég a fekete teremben,</l>
+            <l>Köszöntelek, új szin, szinivó szememben.</l>
+            <l>Ruhádat a festő jó szinre festette,</l>
+            <l>hogy nem feketének, de vörösnek vette:</l>
+            <l>mert vörös a hajnal és vörös az alkony,</l>
+            <l>a halál a sebben, az élet az ajkon;</l>
+            <l>vörös az ég, mikor a madárka lelke</l>
+            <l>fekete fészekben ébred az életre...</l>
+          </lg>
+        </sp>
+        <sp who="#kolto">
+          <speaker>AZ UDVARI KÖLTŐ</speaker>
+          <lg>
+            <l>Fekete fészekben...</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>Én gyenge madárkám...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>... mint gyerek a bölcsőn, mint hajós a bárkán;</l>
+            <l>s vörös az ég, mikor juhaimnak szőre</l>
+            <l>megtérve aranylik a messze mezőre</l>
+            <l>s fejhajtva a sorban ájtatosan...</l>
+          </lg>
+        </sp>
+        <sp who="#kepzelt_hang">
+          <speaker>EGY KÉPZELT HANG</speaker>
+          <lg>
+            <l>Mek, mek.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <stage>(önkénytelén folytatja)</stage>
+          <lg>
+            <l>... egy régi zsolozsmát bólintva mekegnek...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Igenis, királylány, én vagyok a pásztor,</l>
+            <l>jöttem palotádba kecskéstől-birkástól,</l>
+            <l>de a birkám szőre csoda-csoda sárga:</l>
+            <l>én vagyok a pásztor — s te vagy a madárka.</l>
+            <l>Fekete fészekben, a barna bokorban</l>
+            <l>látsz ugy-e, vörös fényt —?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <stage>(hunyt szemmel)</stage>
+          <lg>
+            <l>Az ég fele pirban.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>A barna bokorban, fekete fészekben</l>
+            <l>hallasz ugy-e, hangot — ?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYÁNY</speaker>
+          <lg>
+            <l>Soha, soha szebben.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Én jövök tehozzád, lélekhez a lélek,</l>
+            <l>ki rég a mezőben helyetted is élek:</l>
+            <l>hangom az a halk hang, lelkem a vörös fény;</l>
+            <l>bűvölt palotádba halálos az ösvény,</l>
+            <l>de ezer halállal szembe vigan szálltam</l>
+            <l>kincsemet elhozni, mit teneked szántam.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Pásztorfurulyádat vártam is ám régen —</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Pásztorfurulyámat eltörtem a réten.</l>
+            <l>Eltörtem a réten hitvány furulyámat</l>
+            <l>s egyedül lelkemmel indultam utánad.</l>
+            <l>Kifaragtam lelkem mint egy csodaládát</l>
+            <l>s számodra beloptam az Isten világát</l>
+            <l>s mint méhe a mézet, rejtettem, a lépben</l>
+            <l>s hozom amit láttam, hozom amit éltem.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYÁNY</speaker>
+          <lg>
+            <l>De mit is láthattál a bus legelőkön,</l>
+            <l>mit is élhettél ott a puszta mezőkön?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Láttam a szép hajnalt és éltem a reggelt,</l>
+            <l>mikor a nap, mint egy nagy lusta gyerek kelt</l>
+            <l>s álmos kerek arcát kidugta pirossan</l>
+            <l>egy nagy sima selyem paplan alól lassan.</l>
+            <l>Ezer apró fodra van a nagy paplannak</l>
+            <l>s hívják a tudatlan népek Balatonnak.</l>
+            <stage>(Ezalatt teljesen sötét lesz és semmit sem látni, csak a királylány
+                            fehérségét, aki lassan, öntudatlan kibontakozik a bő sötét ruhákból és
+                            fehér köntösben kikönyököl — és mögötte, a bakó felé, határozatlan vörös
+                            fényt, mely lassankint távol hajnalpír és felkelő nap látszatát
+                            ölti.)</stage>
+            <l>Láttam a nagy paplant hányódni sok este,</l>
+            <l>mintha a lefeküdt nap óriás teste</l>
+            <l>alatta aludna vad, nyugtalan álmát.</l>
+            <stage>(Világosul. A nap felkel a Balaton partján.)</stage>
+            <l>S láttam üvegsimán, mint egy szűzi párnát.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYÁNY</speaker>
+          <stage>(felemelkedve; a trón eltűnt)</stage>
+          <lg>
+            <l>De mi ez? hol járok? Az apám nem látom!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Egyedül vagyunk már az egész világon.</l>
+            <l>Nem vagy te királylány: ma velem vagy pásztor.</l>
+            <l>Nézd: a juhaimat terelem mint máskor</l>
+            <l>de a magam nyáját; és a legszebb bárány</l>
+            <l>a tied lesz egy szép mosoly édes árán.</l>
+            <l>Hallga, harang! ott ég a toronynak gombja:</l>
+            <l>mostan az anyókák mennek a templomba.</l>
+            <l>De a mi templomunk ez a magas égbolt:</l>
+            <l>eztán a tied lesz, — eddig az enyém volt.</l>
+            <l>Amoda a ménest hajtják ki a tóra,</l>
+            <l>a csikósok hajtják hajnali itóra:</l>
+            <l>kapar a mén lába és a habot hányja —</l>
+            <l>de itt a mi partunk tiszta kavicsbánya.</l>
+            <l>Amodább bokros hely őriz üde titkot,</l>
+            <l>bokrok alól mélán villog a viz itt-ott:</l>
+            <l>meztelen ott sokszor fürdik a parasztlány,</l>
+            <l>karmolja a fent sás barna húsát aztán</l>
+            <l>Még ha tovább nézel, meglátod a nádat,</l>
+            <l>napos templomodban sipos orgonádat:</l>
+            <l>este kel itt ének: felzengnek a gémek</l>
+            <l>s ezer síp a nádszál kezében a szélnek</l>
+            <l>és az egész tájat betölti e siphang,</l>
+            <l>s szól a harang: Bim bam; s szól a kolomp:</l>
+            <l>Kling klang.</l>
+            <l>Beljebb a vető vet; s a lenyugvó naptól</l>
+            <l>vörös a kéz, mellyel kebelébe markol:</l>
+            <l>mintha a szivébe markolna a körme</l>
+            <l>és a saját vérét szórná ki a földre.</l>
+            <l>Lásd, édes igy reggel képzelni az estét:</l>
+            <l>ebben az órában térnek meg a kecskék</l>
+            <l>a deszkakarámba; — ebben az órában</l>
+            <l>gyul a tűzhely lángja a messze tanyában</l>
+            <l>s láthatatlan ott ül a lobogó tűzben,</l>
+            <l>mint hajdan az égő bokorban, az Isten.</l>
+            <l>Pásztortűz a parton, hűsíteni hevét,</l>
+            <l>bemártja a tóba sok lobogó nyelvét,</l>
+            <l>s hogy eladja pénzért a piacon holnap,</l>
+            <l>készíti a pásztor havát a túrónak.</l>
+            <l>Minek neki a pénz? Selyem keszkenőre.</l>
+            <l>Minek a keszkenő? Egy szép szeretőre.</l>
+            <l>Ha feljön a csillag, bokrok alatt várja:</l>
+            <l>Isten adja, ő lesz szüret után párja,</l>
+            <l>mint dupla fa törzse összenőtt a réten,</l>
+            <l>mint az ikercsillag összerezeg égen.</l>
+            <l>Látod, ez unalmas, e puszta mezőkön</l>
+            <l>ezer itt az élet e bús legelőkön —</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Az élet...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Itt sző az élet ezer szála —</l>
+            <l>és ezer életnek ezer a halála.</l>
+            <l>Mert ami csak élhet, mind a halálért él:</l>
+            <l>a bogár, amelyre gondtalanul léptél,</l>
+            <l>a virág, amelyet szedtél a köténybe,</l>
+            <l>és amit az ajkad ízlelt, a kökényke,</l>
+            <l>a csillag, amely most elbútt a mennybolton,</l>
+            <l>a pásztortűz, mely majd este gyul a parton,</l>
+            <l>a nád, amely, hogyha nem fuj a szél, hallgat,</l>
+            <l>a szél, amely néha éjeken át jajgat,</l>
+            <l>mint élet és halál —</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYÁNY</speaker>
+          <stage>(megfogja a kezét):</stage>
+          <lg>
+            <l>Pásztor, kezdek félni. . .</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Madár, kiröpültél kalitodból élni!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYÁNY</speaker>
+          <lg>
+            <l>Nem, dehogy is félek, leülök a réten;</l>
+            <l>virág süt ölemben, nap nyílik az égen.</l>
+            <l>Ülj le ide mellém, pázsit tetejére:</l>
+            <l>hadd kötök koszorút dalosom fejére.</l>
+            <l>Korona lesz ám ez! gyémántja a harmat:</l>
+            <l>réti király, de szép a te birodalmad.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>S tudod-e hogy én e birodalmat únom?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Únod?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Igen. És ha szememet lehunyom,</l>
+            <l>egy más birodalmat fest lelkem az éjre.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>De hisz él itt minden!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Tűzzel feketére</l>
+            <l>festem egy még élőbb birodalom álmát</l>
+            <l>s a jegenye helyett festek bele pálmát,</l>
+            <l>puszta cserény helyett tornyokat és házat,</l>
+            <l>s az egészség helyett festek bele lázat;</l>
+            <l>a szegény helyett, ki vérrel veti földjét</l>
+            <l>és este fáradtan öleli tört hölgyét,</l>
+            <l>festek bele népet, mely lelkes a kéjben</l>
+            <l>s hüsül a hő napban, s hevül a hűs éjben.</l>
+            <l>Mikor a Balaton sima és töretlen,</l>
+            <l>mint egy szürke tükör zöldszinű keretben,</l>
+            <l>vagy ha befagy télen, mondom: De jó volna,</l>
+            <l>ha ez a tó táncra tükörpalló volna!</l>
+            <l>S mikor a Balaton nagy tornyokat épit</l>
+            <l>s kezeit felhányja haragban az égig,</l>
+            <l>mint bábeli pallér, mondom: De szép lenne,</l>
+            <l>ha ez a zivatar a szivemben lenne</l>
+            <l>Áz én muzsikusom a haragvó hullám,</l>
+            <l>s a világon napnál szebb nekem a villám</l>
+            <l>s lelkemet a vágyam oda-oda húzza,</l>
+            <l>ahol a villanytól világos az utca.</l>
+            <l>Fuss messze, ne nézz rám, te fehér királylány:</l>
+            <l>beteg az én lelkem, mint mételyes bárány;</l>
+            <l>kerülj ki, mert tőlem elkapod a vágyat,</l>
+            <l>s beteg álmok ágya lesz a te bús ágyad.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <lg>
+            <l>Dehogy is kerüllek, én betegem, árvám,</l>
+            <l>dehogy is ér téged egyedül a járvány.</l>
+            <l>Vagy te egészséges, vagy betegek ketten:</l>
+            <l>betegedni szivem teveled nem retten.</l>
+            <l>Megapollak csókkal, ápollak is jókkal,</l>
+            <l>dalra vigasztallak szerető szép szókkal.</l>
+            <l>Lásd ma zsibong minden, ma méhraj a lelkem.</l>
+            <l>Tavasz van: a méhraj kiröpült a kerten</l>
+            <l>és most tele mézzel: ízleld meg a mézét!</l>
+            <stage>(Megcsókolja.)</stage>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Most szép az az élet, szép a világ!</l>
+          </lg>
+        </sp>
+        <sp who="#papagaly">
+          <speaker>A PAPAGÁLY hangja</speaker>
+          <stage>(belerikácsol)</stage>
+          <lg>
+            <l>Szép, szép!</l>
+          </lg>
+        </sp>
+        <stage>(A pásztor felkapja kucsmáját és dühösen a hang felé vág. Minden
+                    elsötétül.)</stage>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR hangja:</speaker>
+          <lg>
+            <l>Te ostoba, te csúf, tarka gyalogszárnyas!</l>
+          </lg>
+        </sp>
+        <stage>(A nagy terem kivilágosul a két sor lámpával. A királylány zavarodottan áll
+                    fehér ruhában. A sötét ruha a trónuson látszik. A papagály rúdja mellett a
+                    földön hever mozdulatlan.)</stage>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>Madaram, mi történt? Jer ide apádhoz!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYLÁNY</speaker>
+          <stage>(apja elé omlik):</stage>
+          <lg>
+            <l>Óh apám! remélek, szeretek és félek.</l>
+            <l>Apám! meggyógyultam! beteg vagyok! élek!</l>
+          </lg>
+        </sp>
+        <stage>(Függöny.)</stage>
+      </div>
+      <div type="act">
+        <head type="title">HARMADIK RÉSZ</head>
+        <head type="title">A vihar</head>
+        <stage>(Óriási, masszív, várszerű kőterrasz, nagy sötétszürke kövekből, mely
+                    láthatólag nagyon magasan rúg ki közvetlen a Balatonra. A szél zúg: érezni, hogy
+                    magasan vagyunk, és az éles levegőt; lenn pedig a mélyben sejteni a nagy vizet s
+                    hallani háborgó moraját. Sötét van, de nem az estétől, hanem a közelgő vihartól.
+                    A terrasz két részre oszlik; az egyik három oldalon szabadon kiszögellő,
+                    oszlopos, párkányos; a másik alköv, óriás nyoszolyával, mely az alkov egész
+                    szélességét elfoglalja, függönyökkel, vánkosokkal; függöny, vánkos, nyoszolya
+                    mind bíborszínű. Az alkov belsejében egy kis függő mécs ég, veres üveggel.
+                    Néhány év mult el. A királylány — most már királynő — éppoly sötétszürke
+                    ruhában, mint a kövek, a terraszon áll és a szürke párkányhoz támaszkodva
+                    aggodalmasan kitekint a haragos tóra. A szél elkapja hosszú, szürke fátylát,
+                    melyet kis aranykorona erősít hajához.)</stage>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(erősen kihajol és felnéz a világító torony felé):</stage>
+          <lg>
+            <l>Ki van a toronyban? Fordítsd meg a tükröt!</l>
+            <stage>(Nagy fénykéve dűl végig a Balaton felett és egy vitorlás bárka
+                            aranyos árbocainak hegyét világítja meg, közvetlen a terrasz
+                            alatt.)</stage>
+            <l>A férjem! a férjem! édes uram megjött!</l>
+            <stage>(Hallatszik a bárka kikötésének zaja, azután nehéz léptek a
+                            kőlépcsőkön, végre egy alig látható ajtón benyit a pásztor, már mint az
+                            ifjú király.)</stage>
+            <l>Csakhogy hazajöttél! Ó mennyire féltem!</l>
+            <l>Minek is indulsz ki ebben a nagy szélben?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Ilyenkor a legszebb táncolni keresztül,</l>
+            <l>mikor álmából a Balaton kirezdül</l>
+            <l>s ezer élő fejét egyszerre kidugja</l>
+            <l>s egyszerre beszél mind, régi dühét zúgja,</l>
+            <l>hogy fogoly és soha nem juthat az égig.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Mért nem utazhattam veled én is végig?</l>
+            <l>Ha szép ha a széltől a Balaton ébred,</l>
+            <l>te az asszonyodtól írigyled a szépet?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Férfi mulatság az, durva mulatság ám!</l>
+            <l>De a legszebbjére hazajöttem, drágám.</l>
+            <l>Most gyul ki az égen a mennykövek lángja,</l>
+            <l>jer ide, leülünk bíbor nyoszolyánkra,</l>
+            <l>hol a kis mécs színes harangja mögött csüng,</l>
+            <l>s zug a tó alattunk, s zug a szél fölöttünk,</l>
+            <l>hallgatom a könnyes szélnek zokogását</l>
+            <l>s hallgatom a szíved ijedt kopogását.</l>
+            <l>Hallod a mennydörgés, ez az égi dobszó:</l>
+            <l>harci szerelmünkhöz lehet-e még jobb szó?</l>
+            <l>szakadt szalagokkal, mik kékesen égnek,</l>
+            <l>fonja be az Isten fodrait az égnek.</l>
+            <l>Felleg alatt, szélben és vérszínű ágyban,</l>
+            <l>mi borús szerelmünk reszkessen a vágyban.</l>
+            <l>Fürdik a világ künn a vihar vizében:</l>
+            <l>két betegek együtt lefeküszünk szépen</l>
+            <l>zivatarban, hősen, remegve és várva</l>
+            <l>hullunk szerelembe, mint más a halálba.</l>
+            <l>Roppan az ég, rendül a torony.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(ideges öleléssel):</stage>
+          <lg>
+            <l>Ó félek!</l>
+            <l>S téged ily időben vitt útra a lélek!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Te bohó asszony, hisz semmi veszély nem volt!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Oly szörnyű sötéten beborult a mennybolt!</l>
+            <l>és a fagyasztó szél iszonyukat beszélt!</l>
+            <l>s te gonosz gyönyörrel keresed a veszélyt.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Dehogy, dehogy, édes.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Láttalak a harcban:</l>
+            <l>keveseddel ezret vágtál ugy-e arcban?</l>
+            <l>Láttalak, amikor a palota égett;</l>
+            <l>Isten csodája volt, hogy el nem vitt téged.</l>
+            <l>Láttalak a légben: ragadt a monoplán</l>
+            <l>s szirteken és tóban várt a halál duplán.</l>
+            <l>Szavaid megsebzik a fület és ajkat</l>
+            <l>s tekinteted olyan szörnyű mikor hallgat.</l>
+            <l>Homlokodba csapzik hajad, mint egy átok</l>
+            <l>s e haj alatt néha holt szemeket látok.</l>
+            <l>Emelgetem titkod, lásd, asszonyi vállal</l>
+            <l>s félek: nem vagy-e tán jegyes a halállal?</l>
+            <l>Mi jár az eszedben? Nem birok a gondtól —</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Te szegény kis asszony! Lám mit ki nem gondol!</l>
+            <l>Most akarnék halni? Amikor végtére</l>
+            <l>felhágtam az élet magas tetejére!</l>
+            <l>Király vagyok — birom az egész világot,</l>
+            <l>Az enyém minden kéj, veled együtt — látod?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Te, — ha szerelmese lettél a nagy éjnek</l>
+            <l>s a halált kívánnád legutolsó kéjnek,</l>
+            <l>mindent beborító, örökös gyönyörnek:</l>
+            <l>lásd, gyáva sírással azért nem gyötörlek;</l>
+            <l>nem állok utadba; nem mondom: Ne tedd meg!</l>
+            <l>nem irigylem tőled a gyönyört: szeretlek!</l>
+            <l>Csak az egyet kérem: vigy engem magaddal!</l>
+            <l>Add ki gyönyörödből, mi megillet joggal:</l>
+            <l>mint ahogy az illik feleségnek, férjnek,</l>
+            <l>hogy a testük együtt gyúljon ki a kéjnek.</l>
+            <l>Lásd, dobban a szívem s vad örömben éled,</l>
+            <l>ha gondolok is rá: meghalni tevéled!</l>
+            <l>Lelkemben, mely szélre mint régi szobor, zsong,</l>
+            <l>sohase sejtett kéj előszele borzong.</l>
+            <l>Úgyis a szerelmünk rokon a halálhoz:</l>
+            <l>fogd meg a kezemet, ha a nap leáldoz,</l>
+            <l>s hívj, mint a legények párjukat a bálba,</l>
+            <l>ne a szerelembe, hanem a halálba!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Te bolond kis szentem! mit nyersz a halálon?</l>
+            <l>A kéje csak egy perc, aztán jön az álom.</l>
+            <l>Azután örökre vége van a kéjnek:</l>
+            <l>jön kéjtelen álma egy ostoba éjnek.</l>
+            <l>S mint a bíbor bűn is beteg unalomnál,</l>
+            <l>becsesebb a kín is kéjtelen álomnál.</l>
+            <l>Hát míg lehet élni, addig azért éljünk</l>
+            <l>és ha a halálban reméljük a kéjünk,</l>
+            <l>életünket tesszük eleven halállá,</l>
+            <l>melyre a nagy éj majd csakis akkor száll rá,</l>
+            <l>mikor átélveztük e hosszú halálban</l>
+            <l>mindent ami kéjét remélsz a halálban.</l>
+            <l>Két eleven holtak, lásd itt van a kriptánk,</l>
+            <l>ezer iszonyú kéj várakozik itt ránk.</l>
+            <l>Vörös a koporsónk, szürke kövek őrzik,</l>
+            <l>kripta tetejéről az örök mécs vérzik.</l>
+            <l>Hallod! a nagy szél zeng künn a temetőben,</l>
+            <l>Rekviemek zúgnak a magas felhőben.</l>
+            <l>Feküdj le, ne mozdulj gyönyörű halottam,</l>
+            <l>halotti ruhádban, viharos sírodban.</l>
+            <l>Mint aki halottra helyezi gyász csokrát,</l>
+            <l>mély, gyászos imákkal buzgón borulok rád.</l>
+            <l>A halálban reszket gyönyörittas csontom,</l>
+            <l>ruháid aszalját csókolom és bontom.</l>
+            <l>Minden tagod elhalt, csak a fürtöd él még</l>
+            <l>s halott homlokomat csiklandja, hogy élnék.</l>
+            <l>Minden tagod újabb halál a szivemnek</l>
+            <l>s csirázatos ágya újabb szerelemnek.</l>
+            <l>Mint síron a holtnak kivirágzik álma,</l>
+            <l>hajtott ki karodból két eleven pálma,</l>
+            <l>kebeled halmából rózsa bíbor bodra:</l>
+            <l>külön ének kéne valahány tagodra.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(visszalöki, hogy szemébe lásson; nagy izgalommal)</stage>
+          <lg>
+            <l>Mondd, mondd, mondd, mondd, mikor fogsz újra</l>
+            <l>dalolni?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <stage>(csókkal fogná be a száját):</stage>
+          <lg>
+            <l>Édes his halottam, nem jobb-e így halni?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Nem! nem! mikor nyílik dalra megint ajkad?</l>
+            <l>Felelj nekem egyszer! mért hogy egyre hallgat?</l>
+            <l>Messze röpült híre dalod erejének —</l>
+            <l>s mire szárnya megnőtt, néma lett az ének.</l>
+            <l>Lásd, az egész világ énekedre éhes</l>
+            <l>és te — te azóta hallgatag élsz édes.</l>
+            <l>Hogyan is tudsz halként hallgatagon élni,</l>
+            <l>mikor annyi bús szív énekedet kéri?</l>
+            <l>követet küldenek, leveleket írnak,</l>
+            <l>énekedet sejtik enyhületes írnak.</l>
+            <l>Nincs nap, hogy ne szóljon a kapusnak kürtje:</l>
+            <l>de a felvonó hid marad azért függve,</l>
+            <l>de a te bús ajkad marad azért néma.</l>
+            <l>Lásd, bizony ez nem szép! s azt gondolom néha,</l>
+            <l>hogy az ördögtől van — úgy mint a mesében —</l>
+            <l>a te bűvös hangod, s a szerződésében</l>
+            <l>kikötötte, hogy csak egyszer szabad szólni.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Lám, ez a kis asszony milyen nagy bohó, ni!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>De szólj, mért nem danolsz?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Semmi kedvem sincsen</l>
+            <l>kivinni világgá lélekbeli kincsem</l>
+            <l>a profán világba tenni ki cégérré,</l>
+            <l>dalomat, amelynek ritmusa a véré</l>
+            <l>s hagyni pelengéren rideg embereknél</l>
+            <l>dalomat mely tette, hogy te megszerettél.</l>
+            <l>Azért vagyok néma s ha a dalvágy éget</l>
+            <l>énekelek édes, — de egyedül néked!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Nem igaz! nem igaz! nekem is csak ritkán</l>
+            <l>s akaratod ellen adsz ki szived titkán</l>
+            <l>amikor nem birsz a felbugyogó szókkal</l>
+            <l>s feleded lezárni ajkadat egy csókkal.</l>
+            <l>És ha szavad olykor vérbeborul, vérzik,</l>
+            <l>dalodból a lelked nagyon is kiérzik:</l>
+            <l>látom az arcodon, hogy a szived döbbent,</l>
+            <l>ajkadba harapsz, és szemed égve töpreng</l>
+            <l>mintha szemrehányást tennél énekednek.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Az is csak azért van, mer' igen szeretlek.</l>
+            <l>Lelked, amely gyenge, bús asszonyi lélek,</l>
+            <l>nagyon is vad dallal ijeszteni félek.</l>
+            <l>Szívedre, mely minden szélre zsongva rezzen,</l>
+            <l>félek, hogy e bal szók viharát eresszem.</l>
+            <l>Életedet félek nyugtalan álommá</l>
+            <l>tenni, sima lelked zúgó Balatonná.</l>
+            <l>Hiszen úgy is elég barna vihart látsz itt,</l>
+            <l>képzeleted úgy is a halállal játszik.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Te tanítottál meg a vihart imádni,</l>
+            <l>te tanítottál meg a halálba látni,</l>
+            <l>igazi dalosnak zivatar a szája</l>
+            <l>az élet ösztöke a halál kaszája.</l>
+            <l>Hogy is tehetned, hogy nekem adni féljed</l>
+            <l>azt, ami lelkedben a legeslegmélyebb?</l>
+            <l>Hogyan is fojthatnád szívedbe halottnak</l>
+            <l>eleven forrását viharos dalodnak?</l>
+            <l>Mikor aludt lelkem, te felébresztetted,</l>
+            <l>most már a halálig nem aludhat veszteg</l>
+            <l>s ha letépted szűzi fátyolát, az éjet,</l>
+            <l>ne irigyeld tőle viharosabb kéjed.</l>
+            <l>És ha talán félnék: gyönyör az, így félni.</l>
+            <stage>(Óriási csattanás, gyönyörű nagy villám; a királynő az ablakhoz vonja
+                            férjét.)</stage>
+            <l>Ó de csodás szép ez: a viharban élni!</l>
+            <l>Mondd, ugy-e magasba üt a villám jobban?</l>
+            <l>De csodás szép, lakni a magas toronyban!</l>
+            <l>Olyan a mi lelkünk, mint szélben a hullám:</l>
+            <l>égig akar csapni, a magasba nyúlván</l>
+            <l>hogy a feleutján érje a villámot.</l>
+            <stage>(Kürtszó: A királynő férjéhez simul.)</stage>
+            <l>Ki jön ily viharban?</l>
+          </lg>
+        </sp>
+        <stage>(Megjelenik a kapus, nagy kulcsokkal.)</stage>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <stage>(zordonan):</stage>
+          <lg>
+            <l>Künn marad!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Nem szánod?</l>
+            <l>Ily rémes időben... s tán messze az útja...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Minek jön ilyenkor ide, mikor tudja...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>De az én kedvemért -— adj legalább szállást!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>A PÁSZTOR</speaker>
+          <lg>
+            <l>Jó. Vond le a hidat. Kap vacsorát, hálást.</l>
+            <stage>(A kapus el. Üj villámlás. Hallani a vonóhíd felvonását, az ifjú
+                            király el akarja vonni nejét az ablaktól.)</stage>
+            <l>Jer be a záporból</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Dehogy fogok menni!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <stage>(kifakadva):</stage>
+          <lg>
+            <l>Ó, bár soha, soha...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Mi az édes?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Semmi!</l>
+          </lg>
+        </sp>
+        <sp who="#gorog_kovet">
+          <speaker>A GÖRÖG KÖVET</speaker>
+          <stage>(belép):</stage>
+          <lg>
+            <l>Felség, Görögország hatalmas királya</l>
+            <l>drága szövetségét üzeni s kínálja</l>
+            <l>kérve, mivel beteg ifjú felesége,</l>
+            <l>ha talán felséged dalával...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Elég!</l>
+          </lg>
+        </sp>
+        <sp who="#gorog_kovet">
+          <speaker>A GÖRÖG KÖVET</speaker>
+          <lg>
+            <l>De...</l>
+          </lg>
+        </sp>
+        <stage>(Kürtszó.)</stage>
+        <sp who="#kapus">
+          <speaker>A KAPUS</speaker>
+          <lg>
+            <l>A török követség!</l>
+          </lg>
+        </sp>
+        <sp who="#torok_kovet">
+          <speaker>A TÖRÖK KÖVETSÉG FEJE</speaker>
+          <lg>
+            <l>Beteg fia végett</l>
+            <l>felséged színéhez ezt a követséget</l>
+            <l>ím küldi negyedszer a hatalmas szultán:</l>
+            <l>de ha újra nemet kapna válaszul tán,</l>
+            <l>üzenetül adja: a türelme betelt</l>
+            <l>s háborúval fog majd venni elégtételt.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Lakomát majd kaptok s azután...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(még mindig a párkánynál):</stage>
+          <lg>
+            <l>Egy hajó!</l>
+          </lg>
+        </sp>
+        <stage>(A világítótorony fénykévéje árboccsúcsokra esik.)</stage>
+        <sp who="#torok_kovet">
+          <speaker>A TÖRÖK KÖVETSÉG FEJE</speaker>
+          <lg>
+            <l>Mily istenkísértés!</l>
+          </lg>
+        </sp>
+        <sp who="#gorog_kovet">
+          <speaker>A GÖRÖG KÖVET</speaker>
+          <lg>
+            <l>Ily időben...</l>
+          </lg>
+        </sp>
+        <sp who="#hajosok">
+          <speaker>A HAJÓSOK HANGJA</speaker>
+          <lg>
+            <l>Hahó!</l>
+          </lg>
+        </sp>
+        <stage>(Kürtszó; felvonóhíd zaja, s minden bejelentés nélkül belép kíséretével a
+                    francia király.)</stage>
+        <sp who="#francia_kiraly">
+          <speaker>A FRANCIA KIRÁLY</speaker>
+          <lg>
+            <l>Ismersz-e király? Én, szép Franciaország</l>
+            <l>királya jövök ím könyörögni hozzád,</l>
+            <l>magam jövök íme...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Álmodom-e? Bárkák</l>
+            <l>követek, királyok mind e vihart várták?</l>
+          </lg>
+        </sp>
+        <sp who="#francia_kiraly">
+          <speaker>A FRANCIA KIRÁLY</speaker>
+          <lg>
+            <l>Igenis ó, király, ezt a vihart vártuk,</l>
+            <l>kapudat kizárva eleget strázsáltuk</l>
+            <l>de mára reméltük e nagy zivatarban</l>
+            <l>hogy csak nem lesz lélek a hires magyarban</l>
+            <l>a szegény vendéget kapuján kizárni.</l>
+          </lg>
+        </sp>
+        <stage>(Kürtszó.)</stage>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Be ne bocsásd, legyen bárki avagy bármi!</l>
+          </lg>
+        </sp>
+        <sp who="#kapus">
+          <speaker>A KAPUS</speaker>
+          <stage>(elmegy és visszajön):</stage>
+          <lg>
+            <l>Felség, egy nő!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Egy nő?</l>
+          </lg>
+        </sp>
+        <sp who="#kapus">
+          <speaker>A KAPUS</speaker>
+          <lg>
+            <l>Egyedül egészen.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Bocsásd be!</l>
+          </lg>
+        </sp>
+        <sp who="#gyonyoru_holgy">
+          <speaker>EGY GYÖNYÖRŰ HÖLGY</speaker>
+          <stage>(belép és a király lábaihoz omlik):</stage>
+          <lg>
+            <l>Ó király, egy dal a kérésem.</l>
+            <stage>(A király elfordul.)</stage>
+            <l>Csak egyetlen egy dalt! és azután kérd te</l>
+            <l>a lelkemet, akár a testemet érte!</l>
+            <l>Kapum előtt eped a császár, a pápa:</l>
+            <l>a tied a testem egy dalod díjába'.</l>
+            <stage>(Csönd.)</stage>
+            <l>Ha szerelmem nem kell, fogadd el a kincsem:</l>
+            <l>aranyos lánc, násfa: a tied lesz minden</l>
+            <stage>(Letépi.)</stage>
+            <l>Régi király hozta még Palesztinából.</l>
+            <stage>(Kibontja nagy szőke haját.)</stage>
+            <l>Itt van a hajam is, ez az aranyzápor.</l>
+            <l>Ennél becsesebb kincs nincsen a világon</l>
+            <l>és pótolhatatlan.</l>
+            <stage>(Levágja.)</stage>
+            <l>S lásd, tőbe levágom:</l>
+            <l>a tiéd! Eladva, milliókat érne!</l>
+            <stage>(Csönd.)</stage>
+            <l>Ha nem kell, szálanként kiszórom a szélbe.</l>
+          </lg>
+        </sp>
+        <stage>(Kürtszó.)</stage>
+        <sp who="#torok_kovet">
+          <speaker>A TÖRÖK KÖVET</speaker>
+          <lg>
+            <l>Minden haja villám lesz, amint kiszórja.</l>
+          </lg>
+        </sp>
+        <sp who="#kapus">
+          <speaker>A KAPUS</speaker>
+          <stage>(jelent)</stage>
+          <lg>
+            <l>Király ő felsége, felséged apósa.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Álom ez, álom ez, rettenetes álom.</l>
+          </lg>
+        </sp>
+        <sp who="#lakaj">
+          <speaker>EGY LAKÁJ</speaker>
+          <stage>(kitár egy nagy szárnyasajtót)</stage>
+          <lg>
+            <l>A királynak vendégtermeit kitárom.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Csak viharos estén láthat ilyet lelkünk.</l>
+          </lg>
+        </sp>
+        <sp who="#gorog_kovet">
+          <speaker>A GÖRÖG KÖVET</speaker>
+          <stage>(a francia királyhoz):</stage>
+          <lg>
+            <l>Felség!</l>
+          </lg>
+        </sp>
+        <sp who="#egyik_torok_kovet">
+          <speaker>AZ EGYIK TÖRÖK KÖVET</speaker>
+          <stage>(a másikhoz):</stage>
+          <lg>
+            <l>Basaságod!</l>
+            <stage>(Átvonulnak a másik terembe.)</stage>
+          </lg>
+        </sp>
+        <sp who="#francia_kovet">
+          <speaker>EGY FRANCIA</speaker>
+          <stage>(távozóban)</stage>
+          <lg>
+            <l>Hol az a hölgy?</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Eltűnt!</l>
+          </lg>
+        </sp>
+        <stage>(A gyönyörű hölgy valóban nem látható sehol. — Az öreg király fellép. A
+                    következő jelenethez a zivatar mintegy zenekíséretet alkot; ahol a királynő vagy
+                    az ifjú király beszél, ott tombol, ahol az öreg király, ott
+                    elcsöndesedik.)</stage>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Apám! ily időben!...</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <stage>(nagyon ünnepélyesen):</stage>
+          <lg>
+            <l>Fiam, hozzád jöttem,</l>
+            <l>öreg vagyok. Száz év zúgott le fölöttem.</l>
+            <l>Fiatal koromban háborúkat jártam,</l>
+            <l>öreg napjaimra békességet vártam.</l>
+            <l>Mint valami pallér, eleget ácsoltam,</l>
+            <l>békesség szögeit összekovácsoltam.</l>
+            <l>S amit építettem húsz-huszonöt éve,</l>
+            <l>mostan temiattad porba legyen téve?</l>
+            <l>Ujra lovam nyerge legyen derekaljam?</l>
+            <l>Vén fülemmel ujra harc robaját halljam?</l>
+            <l>Veszélyben országom s kedveseim élte:</l>
+            <l>éj- s napon át ujra retteghetek érte.</l>
+            <l>Törékeny a béke, mint valami nádszál.</l>
+            <l>Lásd, már a török had a határon átszáll.</l>
+            <l>Tedd meg, fiam, nekem , amit kér a császár:</l>
+            <l>holtom után úgyis birodalmam rádszáll.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Mondjon apám bármit: ezt tegyed! azt tegyed!</l>
+            <l>lehetetlenséget — csak ne ezt az egyet!</l>
+            <l>Birodalmát harcban egymagam elvédem</l>
+            <l>s fejemet adom rá, hamiben elvétem.</l>
+            <l>Át tűzön, át vízen, millió halálon</l>
+            <l>menni hívebb, bátrabb senki se lesz nálam.</l>
+            <l>Hogy én meg ne tenném, nem gondolhat olyat:</l>
+            <l>Csak azt ne kívánja, hogy újra daloljak!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(ragyogó szemekkel)</stage>
+          <lg>
+            <l>Mindig a halálba! Mindig a veszélybe!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Nem, nem ezért jöttem idáig e szélbe'.</l>
+            <l>Te hős nevet a harc mezején keresnél:</l>
+            <l>de mi lenne velünk, hogyha te elesnél?</l>
+            <l>Látod, a vén fának, a régi toronynak,</l>
+            <l>kell bizony a támasz nyomorult koromnak.</l>
+            <l>Engem az Üristen fiúval nem áldott:</l>
+            <l>fiu helyett fiam te lehetsz csak, látod,</l>
+            <l>hogy a jövő miatt vén fejem ne zúgjon</l>
+            <l>s ihassam a méhsert véneimmel nyugton</l>
+            <l>aranyos kancsóból arany italt szíván.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Ó, apám, ha tudná, mi az, amit kíván!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Kívánom, amit te magad is kívántál,.</l>
+            <l>mikor a mezőn még a juhokkal bántál:</l>
+            <l>fel akartad vinni a dalod magasra</l>
+            <l>hogy az egész világ egyszerre láthassa,</l>
+            <l>hogy mint csodazápor hulljon a fülekre</l>
+            <l>s szórhasd ki a kincsed Nyugatra, Keletre.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Most már a világtól undorodom torkig.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>S mivelünk nem gondolsz? Harcot akarsz holtig</l>
+            <l>Engem, ugy-e, nem kár, öljön meg a bánat?</l>
+            <l>Szegény feleséged csak ríjon utánad?</l>
+            <l>A birodalomra szakadjon özönvíz?</l>
+            <l>Csak magadra gondolsz, csak a vak ösztön visz,</l>
+            <l>amilyen a lepkét a ropogó tűzbe.</l>
+            <l>viharmadarat künn a viharba űz be;</l>
+            <l>pedig most nincs szükség halálra, viharra:</l>
+            <l>szükség van békére, szükség van a dalra.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(nagy szenvedéllyel):</stage>
+          <lg>
+            <l>Nem, nem, apám! nem, nem! azt ne mondja többé:</l>
+            <l>halálra, viharra szükség van örökké!</l>
+            <l>; Dalol aki harcos; csöndes aki békül:</l>
+            <l>\ nem is lehet ének a zivatar nélkül!</l>
+            <l>Nem hallja zenéjét künn a zivatarnak?</l>
+            <l>Zivatar a legjobb mestere a dalnak.</l>
+            <l>A halált nem félem, a vihart nem bánom,</l>
+            <l>s nem a békét kérem, ha a dalt kívánom,</l>
+            <stage>(Férjéhez):</stage>
+            <l>ne is dalolj értünk, ne is a békének:</l>
+            <l>magadért dalolj csak, neked kell az ének</l>
+            <l>nehogy szíved békén daltalan elasszon,</l>
+            <l>a dalba, viharba én küldlek, az asszony!</l>
+            <l>Nem nézem a népet, beteget és királyt,</l>
+            <l>sem a hölgyet, aki szerelemmel kínált,</l>
+            <l>nem nézem magamat, nem nézem apámat.</l>
+            <l>Jöjjön a háború, a vihar, a bánat:</l>
+            <l>nem kívánom javát semmi teremtettnek</l>
+            <l>csak teneked édes, csak az énekednek!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>csak teneked édes, csak az énekednek!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(felsikolt)</stage>
+          <lg>
+            <l>Hallgass! Ne beszélj így! A szavad káromlás.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>A vihar felizgat madaram: láz éget!</l>
+            <stage>(A vejéhez):</stage>
+            <l>Lásd, mennyire szeret a te feleséged.</l>
+            <l>Odaadna mindent, bárha belehaljon:</l>
+            <l>gondolod-e néha; érdemled-e vájjon?</l>
+            <l>Mivel fizeted meg? Csúnya hallgatással,</l>
+            <l>egy kívánságára ezer tagadással.</l>
+            <l>Látod, fiam, én is teveled jót tettem,</l>
+            <l>az együgyű pásztort koronámba vettem,</l>
+            <l>nagy volt a veszélyed, igaz, és a kocka:</l>
+            <l>a szerencse lova gonosz egy poroszka,</l>
+            <l>de mi lettél volna, ha nem jön el érted?</l>
+            <l>Életedet élnéd, ma is, ahol élted.</l>
+            <l>Ha valami lettél, én tettelek azzá,</l>
+            <l>és hamit álmodtál, én tettem igazzá.</l>
+            <l>No tehát vőm uram, most kérem a bérem</l>
+            <l>énekedért tettem: énekedet kérem.</l>
+            <l>Ne hozz a fejemre véres öregséget,</l>
+            <l>ne taszítsd a sírba árva feleséged!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <stage>(keserűen):</stage>
+          <lg>
+            <l>Gondja apám semmi se legyen miattam:</l>
+            <l>igaza van, érzem, dalomat eladtam,;</l>
+            <l>elzárni szivemben semmi jogom sincs már</l>
+            <l>meg se született még, és idegen kincs már.</l>
+            <l>Azért, ha a lelkem eltörik is kettő:</l>
+            <l>jól van! a világnak nem maradok meddő</l>
+            <l>fájni dalom vérét kiadom: hadd szúrnák,</l>
+            <l>a halovány lelkek éledni hadd innák,</l>
+            <l>mint valami Krisztus, leszek életbánya,</l>
+            <l>szivemet vájom, mint nádas pelikánja.</l>
+            <l>Bánom is eztán, ha a világ is rám néz,</l>
+            <l>ünnepi szobámba belát is a bámész,</l>
+            <l>hallja meg dalomat a földkerekségen</l>
+            <l>mindenki, csak egy nem...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(aggódva, sejtve):</stage>
+          <lg>
+            <l>Ki?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>A feleségem!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Én?</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>A feleséged? Vőm! fiam!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Én?</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Mért ez,</l>
+            <l>ez a...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(mintegy magában):</stage>
+          <lg>
+            <l>Az az asszony!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Mert a dalom mérges!</l>
+            <l>Amivel áldani jöttem a világot</l>
+            <l>hasztalan az ének s mindenkinek átok!</l>
+            <l>Igen, észrevettem, tudom is régóta,</l>
+            <l>hogy az én ajkamról híg méreg a nóta.</l>
+            <l>Talán a virágból szíttam a mezőben,</l>
+            <l>talán a nyálamból, mint a kigyó szőttem:</l>
+            <l>de mérges a lelkem! és akihez érek</l>
+            <l>lelkemmel, a lelkét megéri a méreg.</l>
+            <l>De bánom is! érje; dalolni kívánok:</l>
+            <l>mérgezni szeretném az egész világot.</l>
+            <l>Csak egy van a földön, egy szomorú lélek,</l>
+            <l>akit, úgy kívánnám, ne érjen a méreg;</l>
+            <l>és (sejti-e, apám, amit én megértem?)</l>
+            <l>ebben a lélekben már benne a mérgem!</l>
+            <l>A beteg királylányt dalommal megöltem</l>
+            <l>és halott testébe leheltem a lelkem:</l>
+            <l>s most a magam lelkét nem szeretem többé,</l>
+            <l>a régi királylányt szeretem örökké!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>A királylány lelkét...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Láttam ezt a lelket:</l>
+            <l>betegnek mondtátok, amikor szendergett;</l>
+            <l>föld nem érdekelte, mert az égben bolygótt</l>
+            <l>s boldogtalan volt, mert nem tudta, hogy boldog.</l>
+            <l>Láttam sima égnek, mely fényleni virrad,</l>
+            <l>s amelyben a fénytől nem látszik a csillag —</l>
+            <l>üresebbnek tetszik, ha derűs, a mennybolt;</l>
+            <l>betegnek alítám, aki pedig szent volt.</l>
+            <l>Láttam sima tónak: felületén semmi</l>
+            <l>csak a szent ég feküdt tükrébe pihenni.</l>
+            <l>Én ekkor a parton, felrázni világát,</l>
+            <l>beléjevetettem önző kövem átkát</l>
+            <l>s íme, a tó őrült habjaira bomla —</l>
+            <l>Hol van az ég? — Nézzen most a Balatonra!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Nézzen, apám — látta a Balatont százszor:</l>
+            <l>látta-e ily szépnek, daliásnak másszor?</l>
+            <l>Csillagokat csapkod ezer-ezer karral,</l>
+            <l>egekig mer törni dalos diadallal.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>S jaj tudod-e, mért tör karral az egekbe?</l>
+            <l>Mert a saját egét lenn elveszítette.</l>
+            <l>Attól a rossz kőtől millió darabbá</l>
+            <l>mély ege tükrének összetörött habbá.</l>
+            <l>Ó, e tükör mellett mennyi sokat álltam:</l>
+            <l>összeilleszteni hiába próbáltam.</l>
+            <l>Mint aki tükröt tört, sírva soká néztem:</l>
+            <l>be' gyönyörű lenne töretlen egészben!</l>
+            <l>De jött a nagy hullám a léleközönnel</l>
+            <l>s elborított és vitt engem is a könnyel:</l>
+            <l>ekkor bevetettem könnyemet is habbá</l>
+            <l>s kavartam a habot még viharosabbá,</l>
+            <l>hogy azután nyögve álljak meg a szélén.</l>
+            <stage>(Szünet.)</stage>
+            <l>Ó, ha ezer évig mindegyre beszélném,</l>
+            <l>kibeszélhetném-e amit szivem érzett</l>
+            <l>S minden szavaidnál hogy mennyire vérzett?</l>
+            <l>Mondtad: „Te tanítál a vihart imádni,</l>
+            <l>„te tanítottál meg a halálba látni."</l>
+            <l>Mondtad: „Aludt lelkem s te felébresztetted:</l>
+            <l>„most már a halálig nem aludhat veszteg."</l>
+            <l>Mondtad: „Te letépted fátyolát, az éjet,</l>
+            <l>„most már adj cserébe viharosabb kéjét."</l>
+            <l>Minden szavad bennem kalapácsütés lett</l>
+            <l>kalap ácsütéssel a szívembe véslett:</l>
+            <l>s most sebbel a szívem tele, mint a szikla,</l>
+            <l>melyre a halottak neve van felírva.</l>
+            <stage>(Szünet. A vihar mintha csöndesülne; csak a zápor verését hallani a
+                            tavon.)</stage>
+            <l>Bár maradtál volna szép szűzi szobornak,</l>
+            <l>bár maradtam volna együgyű pásztornak.</l>
+            <l>Mikor legelőször a szemembe tűntél</l>
+            <l>s mint felleg a holdat, te halovány tündér,</l>
+            <l>félig beborított a fekete párna:</l>
+            <l>hirtelen szerelmem lett a dalom szárnya,</l>
+            <l>felszökött a lelkem, mint naphoz a pálma,</l>
+            <l>s magas ismeretlen volt a merész álma.</l>
+            <l>De hogy érjen égig, zsinegen, a sólyom?</l>
+            <l>Most már a szerelem a szivemben ólom.</l>
+            <l>Nem is akar szállni a magasba, messze:</l>
+            <l>jobb hogy e kriptába nyomorát temesse.</l>
+            <l>Minden ami szép volt, szomorodott balra</l>
+            <l>s nem tudtam a lelkem rávenni a dalra.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Fiam, az ifjú szív, ha tele van mézzel,</l>
+            <l>bajokat magának, hogy legyenek, képzel.</l>
+            <l>Percnyi betegséget örökös dolognak,</l>
+            <l>gondol hebehurgyán kicsi bút is soknak.</l>
+            <l>Hasonlatos ebben Balaton vizéhez,</l>
+            <l>mely kicsi szellőt is nagy habosán érez.</l>
+            <l>Fiatalok vagytok, szeretitek egymást:</l>
+            <l>minden az idővel jóra derül, meglásd.</l>
+            <l>Mostan értesítem mind a követséget,</l>
+            <l>hogy dalolni fogsz — mert ez kötelességed —</l>
+            <l>Feleséged gyenge, gyenge szegény asszony,</l>
+            <l>nem kell, hogy izgalmas dalokat hallgasson...</l>
+            <l>Te dalolj békéért, mint nemzeted őre.</l>
+            <l>Ifjú vagy: a többit bízzad az időre.</l>
+          </lg>
+          <stage>(Elmegy. Hosszú csönd. Az eső künn csöndes. Az ifjú király lehanyatlik
+                            a párkány mellett egy nagy karosszékbe. A királynő elébe borul és ölébe
+                            hajtja fejét és sír.)</stage>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Te, ha a szerelem a szívedben ólom,</l>
+            <l>vagy zsineg, amelyet eltéphet a sólyom,</l>
+            <l>elmegyek! itthagylak! sohase látsz többé:</l>
+            <l>légy szabad és dalos! légy magad örökké!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Ó, kedves, a lelkem már gyenge madár lett:</l>
+            <l>Zsinegedet soha nem tépheti már le.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Tudod, mit álmodtam nem régen egy éjjel?</l>
+            <l>Jártam a sólymommal a mezőkön széllyel.</l>
+            <l>Egyszerre a sólyom zsinorát feszíti,</l>
+            <l>lábaival ránt és szárnyát kiteríti</l>
+            <l>és elkap a földről; s mielőtt gondolnám</l>
+            <l>fennúszom a légben, röpülve zsinórján.</l>
+            <l>A zsinór szerelmünk: lásd, te vagy a sólyom:</l>
+            <l>kapj fel engem édes, nem vagyok én ólom.</l>
+            <l>Nem akarok többet lehágni a rögre:</l>
+            <l>ha a nótád mérges, mérgezz meg örökre!</l>
+            <l>Ha te nem dalolsz már, élhetek-e vájjon?</l>
+            <l>De ha dalolsz, akkor dalodat meghallom.</l>
+            <l>Talán álruhában titkon belopózom,</l>
+            <l>Talán, ha kizársz, az ajtón hallgatózom,</l>
+            <l>de ne hidd, hogy tőlem dalodat elrejted.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <stage>(izgatottan):</stage>
+          <lg>
+            <l>Mily iszonyút kívánsz...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(hevesen):</stage>
+          <lg>
+            <l>Igen!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Azt nem sejted.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>A mérgedet, édes, a halálig színi...</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Kudarcomat inkább, szégyenemet inni.</l>
+            <l>Dalaim kudarcát!...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Nem! Soha! Ne mondd ezt!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Lásd, néha a lelkem, mint valami holttest,</l>
+            <l>nem akar mozdulni.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Ó, te szegény!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Félek,</l>
+            <l>meghal az én lelkem.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Nem, te örök lélek!</l>
+            <l>Ahogy te daloltál, ugyan ki dalolhat?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>És ha ma daloltam, bírok-e majd holnap?</l>
+            <l>És azt hiszem olykor, hogy sohase bírtam.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>S nem dalod volt a nap, amitől kinyíltam?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Megmondom a titkát édesem a dalnak:</l>
+            <l>önmagát hallgatja, aki dalra hallgat.</l>
+            <l>Mindenik embernek a lelkében dal van</l>
+            <l>és a saját lelkét hallja minden dalban.</l>
+            <l>És akinek szép a lelkében az ének,</l>
+            <l>az hallja a mások énekét is szépnek.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Ó, te szegény férjem! Ne! Erre ne gondolj!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Nem tudok én, látod, dalolni a gondtól.</l>
+            <l>Ifjúnak az első könnyű dal és vig dal,</l>
+            <l>de ki tudja, mi nem jön a másodikkal?</l>
+            <l>Visszaeső, kényes rakéta a véré,</l>
+            <l>nem körmös a szárnya, mint a denevéré...</l>
+            <l>Jön a szégyen!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Nem! Nem! Soha! Semmiképpen!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Tudod, mért dalolok? Mert kötelességem!</l>
+            <l>És tudod-e mi a kötelesség? Börtön,</l>
+            <l>börtön, amely fogva tart idegen földön,</l>
+            <l>falait a foglyok éltükön át túrják</l>
+            <l>s halnak a homályban; soha ki nem fúrják,</l>
+            <l>és magas a börtön: de nincsen tetője</l>
+            <l>s akinek van szárnya, kiszállhat belőle,</l>
+            <l>föléje repülhet, messze — ha nem gyáva.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(biztatva)</stage>
+          <lg>
+            <l>Madár a te lelked, csodaszép!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Az: páva!</l>
+            <l>Kötelesség nékem hét lakat a szájra,</l>
+            <l>mely a fogoly lelket elapadni zárja</l>
+            <l>s ha kötelességtől ajakam megzendül,</l>
+            <l>nem az ének tör ki, csak a lakat csendül.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Gyere, szökjünk messze! Ne dalolj, csak nékem!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Maradok, dalolok — mert kötelességem.</l>
+            <l>Eldalolok mindent, úgy, ahogyan érzem,</l>
+            <l>beleöntöm a vért, amitől most vérzem.</l>
+            <l>Hajdan a világot énekeltem ifjan,</l>
+            <l>amikor még é n n e k a világot hívtam.</l>
+            <l>ami legmesszebb volt, legszebbnek találtam:</l>
+            <l>de a fájdalomnak természete olyan:</l>
+            <l>megtanított, hogy csak magamat daloljam.</l>
+            <l>Dalold magadat hat, es ne szeress engem,</l>
+            <l>csak magadat s a dalt, mesterem és szentem.</l>
+            <l>Ne szeress, csak csókolj; ne szeress, csak ölelj:</l>
+            <l>akkor legyek én jó, ha felejteni kell.</l>
+            <l>Hallga! A szél elállt, de a hab még egyre</l>
+            <l>hull lejteni völgynek, tör hajtani hegyre</l>
+            <l>s nem tudja feledni ütemét a szélnek.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <stage>(tenyerébe hajtva arcát)</stage>
+          <lg>
+            <l>Ó, de szomorú lesz a második ének!</l>
+          </lg>
+        </sp>
+        <stage>(Függöny.)</stage>
+      </div>
+      <div type="act">
+        <head type="title">NEGYEDIK RÉSZ</head>
+        <head type="title">A második ének</head>
+        <stage>(Az előbbi felvonásban látott torony alatt, a Balaton partján. Látszik a nagy
+                    szürke kövekből épített torony, masszív, nyílt terrászaival, melyek helyenként
+                    le vannak függönyözve. A másik oldalon látszik a Balaton. A torony mellett
+                    óriás, csodálatos művű rácskapu, melyen át egy kertbe látni. A kertben
+                    mindenféle egzotikus növények, pálmák, kaktuszok és egy fehér márvány kereszt.
+                    Másnap; zivatar utáni hangulat. A másik oldalon a terrászok fölött világító
+                    torony, alatta kikötőhely. A kert kapujában áll a kertész sarlóval; a parti
+                    réten az első felvonásból ismert öreg csősz, most már újra pásztor, nyájat hajt.
+                    A bárányokon színes szalagok és nagyon szép zenéjű csengők. A nyáj messzebb
+                    látszik, amint legel.)</stage>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(beszédbe akar elegyedni)</stage>
+          <lg>
+            <l>Jól esett ez a kis zivatar!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>De jól ám.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>Zuhogott a zápor három egész órán.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Friss megin a világ.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>Tihanyi toronyba</l>
+            <l>becsapott a mennykő.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Min' valami bomba.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(mintegy leereszkedőleg)</stage>
+          <lg>
+            <l>Hát ked ujra pásztor?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Abbizén.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(kegyesen)</stage>
+          <lg>
+            <l>A nyája</l>
+            <l>szép.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(nagy önérzettel):</stage>
+          <lg>
+            <l>Királyi.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>És mi az ángáriája?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Minden ami csak kell szememnek és számnak.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(hitetlenül):</stage>
+          <lg>
+            <l>Lám no.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Tejbe-vajba fürdetnek.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>No lám no.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(megoldódott a nyelve)</stage>
+          <lg>
+            <l>Mer' ezek nem olyan közönséges kecskék.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>Hát mi fenék?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Hát az aranyszőrű kecskék.</l>
+            <l>' Mer' ezek csináltak királyt a pásztorbul.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(hunyorítva)</stage>
+          <lg>
+            <l>És a csőszbül urat.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(huncut szerénységgel):</stage>
+          <lg>
+            <l>Ha nem csöppen, csordul.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(irigyen):</stage>
+          <lg>
+            <l>Nagy róka ked bátya.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(folytatva)</stage>
+          <lg>
+            <l>No megérdemeltem.</l>
+            <l>Isz' kölyök korába szintég én neveltem,</l>
+            <l>apja helyett voltam nyavalyásnak apja,</l>
+            <l>ópiskáltam rá mig kisütött a napja.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(szükségesnek látja, hogy fölényét éreztesse):</stage>
+          <lg>
+            <l>Nagy róka ked bátya! ha deákul tudna</l>
+            <l>talán még kertésznek-minek is bejutna.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(megvetőn)</stage>
+          <lg>
+            <l>Kertésznek diákul?</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>Nem látja, hogy tábla</l>
+            <l>van minden virágon?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(magában morogva)</stage>
+          <lg>
+            <l>Adta kutya svábja</l>
+            <stage>(ezalatt az egyik magas függönyös terrászról nagy beszélgetés
+                            hallatszik.)</stage>
+            <l>Mi ördög az ott fönn?</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(nem hagyja magát zavartatni)</stage>
+          <lg>
+            <l>Például ez C a n n a</l>
+            <l>I n d i C a.<stage>(Meglátja a kertészinast.)</stage>No.</l>
+          </lg>
+        </sp>
+        <sp who="#kerteszinas">
+          <speaker>A KERTÉSZINAS</speaker>
+          <lg>
+            <l>Mestram, rést kapott a kanna!</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>Te bamba, hát minek csapod egyre földhöz?</l>
+            <stage>(A csőszhöz nagy fontoskodva.)</stage>
+            <l>Sok itt ma a vendég.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Mért?</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>Aligha böjthöz.</l>
+            <l>Hercegek, királyok!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Tán valami ünnep.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(a nagy márványkeresztre mulat):</stage>
+          <lg>
+            <l>Addig esznek-isznak, amig idegyünnek.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Hova?</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>A kriptába. Úgyis nyavalyás nép:</l>
+            <l>nem jött volna köztük ennyi beteg máskép.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Beteg?</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>A kocsiból ugy vitték a várba.</l>
+            <l>Alig jár, de eljön mulatni.</l>
+          </lg>
+        </sp>
+        <sp who="#kerteszinas">
+          <speaker>A KERTÉSZINAS</speaker>
+          <stage>(abbahagyja az öntözgetést)</stage>
+          <lg>
+            <l>Egy bárka!</l>
+          </lg>
+        </sp>
+        <stage>(Egy nagyon díszes bárka közeledik.)</stage>
+        <sp who="#kerteszinas">
+          <speaker>A KERTÉSZINAS</speaker>
+          <lg>
+            <l>Pedig ugyan rég volt múlatás itt.</l>
+          </lg>
+        </sp>
+        <sp who="#hajoslegenyek">
+          <speaker>A HAJÓSLEGÉNYEK</speaker>
+          <stage>(kikötés közben)</stage>
+          <lg>
+            <l>Lassan.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Ha a királyok se, ki fene mulasson?</l>
+          </lg>
+        </sp>
+        <stage>(A bárkából kiszáll a görög császár, azután aranyos hordszéken szerecsen
+                    rabszolgák viszik ki a beteg császárnőt lassú léptekkel; rabnők mellette haladva
+                    óriási legyezőkkel legyezik. Utánuk fényes kíséret, bizánci öltönyök.A menet
+                    előtt szőnyegeket terítenek a kikötőpart márványkockáira. A várból lakájok
+                    jönnek, akik sorfalat állnak. A menet megkerüli a várat, hogy a kapuhoz érjen,
+                    amely a másik oldalon van; így eltűnik szem elől.)</stage>
+        <sp who="#kerteszinas">
+          <speaker>A KERTÉSZINAS</speaker>
+          <lg>
+            <l>Ki ez?</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <stage>(rárivall)</stage>
+          <lg>
+            <l>A dogodra!</l>
+          </lg>
+        </sp>
+        <stage>(A terrasz alatt megnyílik a kis ajtó, amelyen a harmadik felvonás elején az
+                    ifjú király felmehetett. Ezen az ajtón kisurran a királynő, fekete ruhában.
+                    Utána megjelenik az öreg király. A királynő megfordul, mikor észreveszi, hogy
+                    valaki utánajött.)</stage>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Édes apám, félek!</l>
+            <l>Oly rettenetes volt!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Mi lányom?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>A lélek,</l>
+            <l>a lélek az arcán! Óh a szívem rémül:</l>
+            <l>egy halottnak lelke nézett a szemébül.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Lányom...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Alig szóllott. Azt mondta: „Ne légy itt!</l>
+            <l>Nem akarom." És én nem is vártam végig,</l>
+            <l>mint valami őrült rohantam a lépcsőn.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Jó, hogy elértelek legalább a végsőn.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Mi lesz atyám, mi lesz? Nem merek felmenni.</l>
+            <l>Óh mi lesz belőlünk?</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Semmi! Ugyan! Semmi.</l>
+            <l>Kicsikém! Te voltál mindig olyan bátor?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>'Egy amitől félek: a lelki haláltól!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Lelki?... De hogy lehet ilyet kieszelni.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Óh apám, ha nem tud többet énekelni!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Nem tud ? Nem aka r tán! Bezzeg akart máskor!</l>
+            <stage>(Elfogja a düh.)</stage>
+            <l>Hiába, kilátszik a paraszt, a pásztor!</l>
+            <l>Akkor akar t díjért, most nem akar ingyen.</l>
+            <l>Ja, aki paraszttal...</l>
+            <stage>(A királynő elfordul.)</stage>
+            <l>De aranyom!</l>
+            <stage>(A királynő leül egy márványpadra, ölébe hajtva fejét.)</stage>
+            <l>Kincsem!</l>
+            <l>No hiszen haragszik. — No nem úgy értettem:</l>
+            <l>tegnap is, hallottad, úgy-e nem sértettem?</l>
+            <l>Mint drága cicával, szőrmentibe bántam, —</l>
+            <l>csak azután legyen hálás is irántam,</l>
+            <l>mert tudja talán, hogy a varázslást értem,</l>
+            <l>de ha megkísértem, fejére kisértem.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>óh apám, itt olyan közönséges minden;</l>
+            <l>utálom a kertészt abban a kék ingben,</l>
+            <l>utálom az írott táblát a virágon</l>
+            <l>és ezt a sok embert ezen a világon.</l>
+            <l>Óh miért nem vagyunk e világon ketten:</l>
+            <l>semmi seb sem érne ebben az életben.</l>
+            <l>Apám, ha megélek ebből a nagy gondból</l>
+            <l>sohasem jövök le a magas toronyból.</l>
+          </lg>
+        </sp>
+        <stage>(Nagy zaj fenn a terrászon. Egy lakáj megjelenik és némán meghajtja magát az
+                    öreg király előtt.)</stage>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Kezdődik az ének.</l>
+            <stage>(Megcsókolja a lányát.)</stage>
+            <l>Járd addig a kertet.</l>
+            <stage>(Elmegy.)</stage>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Apám, ez a világ megöli a lelket.</l>
+          </lg>
+        </sp>
+        <stage>(A terrász egyszerre elcsendesül. A királynő feláll és a falhoz hajtja fejét,
+                    mintegy hallgatva. Az ég beborul, felhők gyűlnek, szél jön, a Balaton
+                    fodrozódik. A csősz messze van, de egy-egy bárány, kecske a királynőig is
+                    elballag.)</stage>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>Zivatar lesz megint.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Pedig már elég volt.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>Tegnap is ily gyorsan beborult az égbolt.</l>
+            <l>Mi az oka vájjon?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <stage>(tréfál):</stage>
+          <lg>
+            <l>A tündelevények.</l>
+          </lg>
+        </sp>
+        <sp who="#kertesz">
+          <speaker>A KERTÉSZ</speaker>
+          <lg>
+            <l>Hogy ily hamar indul?</l>
+          </lg>
+        </sp>
+        <sp who="#kiralyi_csosz">
+          <speaker>A CSŐSZ</speaker>
+          <lg>
+            <l>Vízi hüvelvények.</l>
+          </lg>
+        </sp>
+        <sp who="#hab">
+          <speaker>A BALATON HABJAI</speaker>
+          <lg>
+            <l>Mi vagyunk, akik soha meg nem állunk,</l>
+            <l>Mi vagyunk, akik örökké élünk,</l>
+            <l>Mi vagyunk, akik táncolunk örökké!</l>
+          </lg>
+        </sp>
+        <stage>(A királynő zokog. Udvarhölgyek jelennek meg.)</stage>
+        <sp who="#udvarholgy">
+          <speaker>AZ UDVARHÖLGY</speaker>
+          <lg>
+            <l>Felség, zivatar lesz.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(elfogódva)</stage>
+          <lg>
+            <l>Mi hír ott fenn?</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>AZ UDVARHÖLGY</speaker>
+          <lg>
+            <l>Ezren</l>
+            <l>töltik meg a termet.</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Légy szárnya se rezzen.</l>
+          </lg>
+        </sp>
+        <sp who="#harmadik">
+          <speaker>HARMADIK</speaker>
+          <lg>
+            <l>Selyemsuhogás sincs.</l>
+          </lg>
+        </sp>
+        <sp who="#negyedik">
+          <speaker>NEGYEDIK</speaker>
+          <lg>
+            <l>Ha hallgatod innét,</l>
+            <l>üresnek a termet bizonyára hinnéd.</l>
+          </lg>
+        </sp>
+        <stage>(Határozatlan zaj hallatszik felülről.)</stage>
+        <sp who="#hab">
+          <speaker>A BALATON HABJAI</speaker>
+          <lg>
+            <l>Mi vagyunk mindig tiszták,</l>
+            <l>Mi vagyunk mindig hűsek,</l>
+            <l>Ezerszínű, fodros ruhában járunk.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Köszönöm. Egyedül maradni kívánok.</l>
+          </lg>
+        </sp>
+        <sp who="#udvarholgy">
+          <speaker>AZ ELSŐ UDVARHÖLGY</speaker>
+          <lg>
+            <l>De...</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLNYŐ</speaker>
+          <lg>
+            <l>Köszönöm, semmi.</l>
+            <stage>(Az udvarhölgyek elmennek. A báránykák a királynő felé
+                            ballagnak.j</stage>
+            <l>Ti szelíd bárányok</l>
+            <l>mért nem aranyos most egynek sem a szőre?</l>
+          </lg>
+        </sp>
+        <stage>(A kiskapu megnyílik és megjelenik az ifjú király, lihegve, mintegy szökve,
+                    kipirulva, hajadonfőtt.)</stage>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>A szégyen... a szégyen... én tudtam előre!</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(megfogja a kezét és a parton egy csónak felé vonja)</stage>
+          <lg>
+            <l>Jere, menjünk messze együtt! Zivatarban!</l>
+            <l>Láttak idejönni?</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Nem... olyan... zavar van.</l>
+            <l>óh ha láttad volna a dalom kudarcát.</l>
+            <l>A legostobább is rángatta az arcát.</l>
+            <l>Sohse... szégyen! ilyen!... kötelesség... ördög!...</l>
+            <l>Hét lakat a számon iszonyúan zörgött.</l>
+            <l>A lelkemen zörgött... csönd is volt... tömeg volt!</l>
+            <l>Nem éreztem semmit. Óh a lelkem megholt!</l>
+          </lg>
+        </sp>
+        <sp who="#hab">
+          <speaker>A BALATON HABJAI</speaker>
+          <lg>
+            <l>Aki hozzánk jön, jó helyre jött,</l>
+            <l>Mert mi a testét szépen elringatjuk,</l>
+            <l>Lelkét csöndesen Istenbe zúgatjuk.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Jere, szökjünk együtt tetején a tónak,</l>
+            <l>Zivatarban, messze! Lásd, készen a csónak.</l>
+            <l>Hol nem lakik ember, egy puszta szigetben</l>
+            <l>Oda megyünk élni boldogan és ketten.</l>
+          </lg>
+        </sp>
+        <sp who="#hab">
+          <speaker>A BALATON HABJAI</speaker>
+          <lg>
+            <l>Dalát dalunkba vesszük,</l>
+            <l>Karját karunkba öltjük,</l>
+            <l>Mint szerelmesek összedörgölődzünk.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Ha a dalom meghalt, nem élet az élet.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Vagy meghalok együtt a viharban véled,</l>
+            <l>s akkor a halál lesz legszebb dalod, édes.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Óh igen, a halál még hátra van.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>S szép lesz!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>óh. igen, a halál kincse a szegénynek,</l>
+            <l>Tartva a végsőre.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>Az utolsó ének!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>A halál a szent hegy, az a magas csúcsú,</l>
+            <l>Melyre merész éltem vezetett.</l>
+          </lg>
+        </sp>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <lg>
+            <l>A búcsú</l>
+            <l>csókja, amely égőbb, mint mind, amit kaptál,</l>
+            <l>Az alkonyi fény, mely aranyabb a napnál.</l>
+            <stage>(Nagyon sötét van a fellegektől és a hab zúg. A csősz és a kertész
+                            már nem látszik, de a parton mintegy izgatottan szaladgálnak a fehér
+                            juhok.)</stage>
+            <l>Pásztor, kit a trónig ragadt fel a szárnyad,</l>
+            <l>Végigéltél mindent: életet és álmot,</l>
+            <l>Dalt és dicsőséget, szerelmet és szégyent.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>És most a halálra mondom kialégyent.</l>
+            <l>A halált is élni kell.</l>
+          </lg>
+        </sp>
+        <stage>(Csudálatos sötét van. A terrasz ablakai kivilágosodnak, mögöttük nagy
+                    mozgás, járás-kelés.)</stage>
+        <sp who="#kiralylany">
+          <speaker>A KIRÁLYNŐ</speaker>
+          <stage>(sürgetve)</stage>
+          <lg>
+            <l>Nosza, hát légyen!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <stage>(az ablakokra pillant)</stage>
+          <lg>
+            <l>Óh, az a nagy csönd ott! A szégyen! a szégyen!</l>
+            <l>Az az érzés, mikor nem mozdul a lelkünk!</l>
+            <stage>(Belép a csónakba.)</stage>
+            <l>Nosza, légyen!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <stage>(megjelenik a kis kapunál)</stage>
+          <lg>
+            <l>Lányom!</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>EGY HANG</speaker>
+          <stage>(az emeletről kihajolnak az ablakon fáklyával):</stage>
+          <lg>
+            <l>Hol a király?</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁS HANG</speaker>
+          <lg>
+            <l>Eltűnt!</l>
+          </lg>
+        </sp>
+        <sp who="#muvesz">
+          <speaker>EGY MŰVÉSZ HANGJA</speaker>
+          <lg>
+            <l>Kimerült egészen.</l>
+          </lg>
+        </sp>
+        <sp who="#streber_muvesz">
+          <speaker>A STRÉBER MŰVÉSZ HANGJA</speaker>
+          <lg>
+            <l>Tán beteg.</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK MŰVÉSZ</speaker>
+          <lg>
+            <l>A végzet!</l>
+          </lg>
+        </sp>
+        <sp who="#szociolog">
+          <speaker>A SZOCIOLÓG HANGJA</speaker>
+          <lg>
+            <l>Nem a királyoknak való a művészet.</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁS HANG</speaker>
+          <lg>
+            <l>Hogy zúg a tó!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>A KIRÁLY</speaker>
+          <lg>
+            <l>Lányom!</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>NEGYEDIK HANG</speaker>
+          <lg>
+            <l>Vihar jön az éjre.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Vigy Balaton habja a halál hegyére!</l>
+            <l>Oda szállunk, édes — nem féltelek immár —</l>
+            <l>Hogy velem a hegynek kútjaiból innál.</l>
+            <l>Nem akarlak többé kímélni gyötörve</l>
+            <l>Keltettem: eloltom a szomjad örökre.</l>
+            <stage>(Eloldja a csónakot.)</stage>
+            <l>Hála, — kötelesség, — lakatok és láncok,</l>
+            <l>De a mi ladikunk szabadon jár táncot.</l>
+            <l>Hogyan is lehetnék valakinek hálás?</l>
+            <l>Nem enyém volt a kincs, s a kincshajigálás?</l>
+            <l>Kötelesség, hála, — most igazán látom</l>
+            <l>Maga van a dalos az egész világon.</l>
+            <l>Életemen köd volt, — ez a köd most gyérül,</l>
+            <l>Lásd tág a kilátás a halál hegyérül.</l>
+          </lg>
+        </sp>
+        <stage>(A kertet fáklyákkal járják át.)</stage>
+        <sp who="#hang">
+          <speaker>HANG</speaker>
+          <lg>
+            <l>Felség!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>A leányom.</l>
+          </lg>
+        </sp>
+        <sp who="#hang">
+          <speaker>HANG</speaker>
+          <lg>
+            <l>Nincs.</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <lg>
+            <l>Nincsen a kertben.</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Most igazán látom, nem halt meg a lelkem,</l>
+            <l>Csak nagyon éreztem, csak nagyon is sírtam</l>
+            <l>és a zokogástól dalolni nem bírtam.</l>
+            <l>Nem hagy a könny látni, nem hagy a gond szó</l>
+            <l>Óh mért is akartam magamat dalolni?</l>
+            <l>Nyelvem a dal súlyát emelni se bírta</l>
+            <l>Mint néma a bárány az előtt, ki nyírja.</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Világíts a tóra toronybeli lánggal!</l>
+          </lg>
+        </sp>
+        <sp who="#pasztor">
+          <speaker>AZ IFJÚ KIRÁLY</speaker>
+          <lg>
+            <l>Dalos ne törődjön az egész világgal,</l>
+            <l>Sohase gondoljon amíg él egyébre</l>
+            <l>Csupán csak a dalra, csupán csak a szépre.</l>
+          </lg>
+        </sp>
+        <stage>(A világító torony kigyúl és a fénykéve némi keresgélés után a csónakra esik,
+                    ahol az ifjú király és a királynő összeölelkezve láthatók.)</stage>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Utánuk! Utánuk! A lányom! a lányom!</l>
+          </lg>
+        </sp>
+        <stage>(Nagy hullám jön, amely a csónakot eltakarja szem elől, » az nem is lesz
+                    látható többé.)</stage>
+        <sp who="#valaki">
+          <speaker>VALAKI A PARTON</speaker>
+          <lg>
+            <l>Iszonyú!</l>
+          </lg>
+        </sp>
+        <sp who="#masik">
+          <speaker>MÁSIK</speaker>
+          <stage>(aki nem jól látott):</stage>
+          <lg>
+            <l>Mi történt?</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Utánuk!</l>
+          </lg>
+        </sp>
+        <stage>(Néhányan beugranak a görög császár fényes bárkájába és eloldják.)</stage>
+        <sp who="#hajos">
+          <speaker>EGY HAJÓS</speaker>
+          <stage>(beugrik a bárkába)</stage>
+          <lg>
+            <l>Utánam!</l>
+          </lg>
+        </sp>
+        <sp who="#kiraly">
+          <speaker>AZ ÖREG KIRÁLY</speaker>
+          <lg>
+            <l>Óh átok a habra, mely sírba temette,</l>
+            <l>És átok a dalra, mely elveszítette.</l>
+            <stage>(óriási villámlás a torony felett.)</stage>
+            <l>Csapjon be a villám a magas toronyba,</l>
+            <l>Rohanjon a rossz nyáj a rossz Balatonba!</l>
+            <stage>(A nyáj nagy csilingeléssel szanaszét berohan a vízbe.)</stage>
+            <l>Hányja ki a körmét a Balaton szerte</l>
+            <l>S sohase nyughasson rossz pásztora lelke...</l>
+            <l>Mint juhai körme, váljon dala kővé,</l>
+            <l>Maga meg szavában örökös élővé.</l>
+            <l>Legyen szava visszhang fenn a magas bércen,</l>
+            <l>melyet a kíváncsi kényére idézzen.</l>
+            <l>Hányja a hab testét, ne aludjon nyugton,</l>
+            <l>Lelke pedig minden zivatarban zúgjon.</l>
+            <l>Én, én, Meseország királya kívánom,</l>
+            <l>Bűnhődjön örökké!</l>
+            <stage>(Zokogva)</stage>
+            <l>A lányom! a lányom!</l>
+          </lg>
+        </sp>
+        <stage>(Függöny.)</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

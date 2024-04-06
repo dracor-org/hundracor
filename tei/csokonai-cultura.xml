@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000057" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Cultura</title>
+        <title type="sub">Vígjáték</title>
+        <author>
+          <persName>
+            <surname>Csokonai Vitéz</surname>
+            <forename>Mihály</forename>
+          </persName>
+          <idno type="wikidata">Q713545</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Bajzát</surname>
+            <forename>Tímea</forename>
+          </persName>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Dióssy</surname>
+            <forename>Anna Laura</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">
+                        https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">Cultura</title>
+          <title type="sub"/>
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+          <ref target="https://mek.oszk.hu/06300/06302"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname>Szever</surname>
+              <forename>Pál</forename>
+            </persName>
+            <persName>
+              <surname>Vargha</surname>
+              <forename>Balázs</forename>
+            </persName>
+            <persName>
+              <surname>Muraközy</surname>
+              <forename>Gyula</forename>
+            </persName>
+            <persName>
+              <surname>Csige</surname>
+              <forename>Mónika</forename>
+            </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">Csokonai Vitéz Mihály minden munkája</title>
+          <author>
+            <persName>
+              <surname>Csokonai Vitéz</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q713545</idno>
+          </author>
+          <date when="1980">1980</date>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Szépirod. Kvk.</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname>Csokonai Vitéz</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q713545</idno>
+          </author>
+          <title type="main">Csokonai Vitéz Mihály összes művei</title>
+          <respStmt>
+            <resp>editor</resp>
+            <persName>
+              <surname>Harsányi</surname>
+              <forename>István</forename>
+            </persName>
+            <persName>
+              <surname>Dr. Gulyás</surname>
+              <forename>József</forename>
+            </persName>
+          </respStmt>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Genius Kiadás</publisher>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="lehelfi" sex="MALE">
+            <persName>LEHELFI</persName>
+          </person>
+          <person xml:id="fenekes" sex="MALE">
+            <persName>FENEKES</persName>
+          </person>
+          <person xml:id="tisztes" sex="MALE">
+            <persName>TISZTES</persName>
+          </person>
+          <person xml:id="petronella" sex="FEMALE">
+            <persName>PETRONELLA</persName>
+          </person>
+          <person xml:id="firkasz" sex="MALE">
+            <persName>FIRKÁSZ</persName>
+          </person>
+          <person xml:id="pofok" sex="MALE">
+            <persName>POFÓK</persName>
+          </person>
+          <person xml:id="kanakuz" sex="MALE">
+            <persName>KANAKUZ</persName>
+          </person>
+          <person xml:id="szaszlaki" sex="MALE">
+            <persName>SZÁSZLAKI</persName>
+          </person>
+          <person xml:id="conrad_szelepurdi" sex="MALE">
+            <persName>CONRAD SZELEPURDI</persName>
+          </person>
+          <person xml:id="abraham" sex="MALE">
+            <persName>ÁBRAHÁM</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1922">
+        <desc/>
+      </event>
+      <event type="premiere" when="1799-07-12">
+        <label>1997-07-12</label>
+      </event>
+      <event type="written" when="1799">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head type="title">
+          <hi rend="underline">JÁDSZÓ SZEMÉLLYEK</hi>
+        </head>
+        <castItem>
+          <role><roleName>LEHELFI,</roleName> magyar gavallér</role>
+        </castItem>
+        <castItem>
+          <role><roleName>FENEKES,</roleName> ennek inassa</role>
+        </castItem>
+        <castItem>
+          <role><roleName>TISZTES,</roleName> öreg úri ember</role>
+        </castItem>
+        <castItem>
+          <role><roleName>PETRONELLA,</roleName> ennek leánya</role>
+        </castItem>
+        <castItem>
+          <role><roleName>FIRKÁSZ,</roleName> ennek secretariussa</role>
+        </castItem>
+        <castItem>
+          <role><roleName>POFÓK,</roleName> ennek udvari gazdája</role>
+        </castItem>
+        <castItem>
+          <role><roleName>KANAKUZ,</roleName> béresse</role>
+        </castItem>
+        <castItem>
+          <role><roleName>SZÁSZLAKI,</roleName> németes gavallér</role>
+        </castItem>
+        <castItem>
+          <role><roleName>CONRAD SZELEPURDI,</roleName> ennek inassa</role>
+        </castItem>
+        <castItem>
+          <role><roleName>ÁBRAHÁM,</roleName> zsibvásáros zsidó</role>
+        </castItem>
+      </castList>
+      <p>
+        <stage>Történik a játék a Tisztes úr kastélyábann.</stage>
+      </p>
+    </front>
+    <body>
+      <div type="act">
+        <head type="title">ELSŐ FELVONÁS</head>
+        <div type="scene">
+          <head type="title">ELSŐ JELENÉS</head>
+          <stage>Lehelfi és Fenekes.</stage>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Eb hiszi, nékem hijjába is mondod, nem ollyan könnyen áll az az öreg
+                            Tisztes úrnál.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>No, én pedig bizonyosan ott hallottam, és ezt el is hiheti az Úr, nékem a
+                            Jancsi kocsis beszélte, annak meg a kukta mondta, a kuktának meg a
+                            szakács, annak pedig a szeretője a szobaleány, a' pedig hallotta az öreg
+                            guvernantnétol mikor a kávét béadta. No, már ennyi sok szép
+                            tanúbizonyságnak csak adhat hitelt az Úr.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Ah, derék tanúbizonyságok!</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Már amillyenek, én külömbekkel nem udvarolhatok, az Úr jobban
+                            beleereszkedhetik a belső tanács dolgaiba. De én el merem mondani, hogy
+                            a szép Petronella, a Tisztes úr kisasszonya másé nem lehet, vagy az Úré,
+                            vagy - vagy - - -</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Mit vagy?</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Vagy az enyim.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Kéne-é? Lám a Piszkos Dömötör. De mondd hát, mit hallottál az
+                            udvarba?</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Mindöszve ebből áll, hogy a Tisztes úr az Urat mód nélkül kedvelli, a
+                            kisasszony nem külömben, és csak azt várja, hogy a dolog ideje múljék
+                            el, mindjárt nem hallasztja tovább a kisasszony felől való választ.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>De micsoda választ?</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Akkor általadja őtet az Úrnak, nagy lakodalmat üttet és mint kedves
+                            vejének, egy darab jószágát általadja. Bezzeg urak leszünk akkor!</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>A' jó volna. De most elég, éppen kinn áll Firkász uram, az öreg úr
+                            secretariussa.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">MÁSODIK JELENÉS</head>
+          <stage>Firkász és az elébbeniek.</stage>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Ah, alázatos szolgája az Úrnak, szerencsés jó napot kívánok - éppen várt
+                            vendég az Úr nállunk. - Csak megtetszik a cultus ember.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Jó napot kívánok Secretarius uramnak, örülök hogy mindég illyen víg
+                            orcával láthatom.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Mondom csak megtetszik a cultus ember pro 1° csakugyan eljött hozzánk az
+                            Úr, pro 2° mint megígérte, pro 3° nem vetett meg bennünket. - No ez már
+                            cultura.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Itthonn van-é az öreg úr?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Hát a kisasszonyt lehet szerencsém itthonn tisztelni?</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>A kisasszony igaz culta személy lévén, nem szokott ide s tova portyászni,
+                            flangerozni, itthonn is talál időtöltést, pro 1<hi rend="super">mo</hi>
+                            a házi foglalatosságban, pro 2° a hímvarrásban, pro 3° az olvasásban, és
+                            ez már cultura.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Az igaz, hogy ez cultura, és ez minél ritkább, annál szebb valamelly
+                            személyben. Hanem én az öreg úrhoz akarok bemenni, mellyik szobába
+                            udvarolhatok?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Denique most az öreg úr éppen odale van a selyembogaraknál; mert denique
+                            ezen gazdaság nemében supra modum gyönyörködik. Hanem addig is
+                            méltóztasson az Úr a kisasszonkához bésétálni. Cultus embernek szép
+                            distractiója esik azzal az ártatlannal. Itt van a maga szobájába.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Szerencsémnek tartom. - Ajánlom magamat.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Me recommendo, igaz szolgája az Úrnak.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">HARMADIK JELENÉS</head>
+          <stage>Lehelfi és Petronella.</stage>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Alázatos szolgája a Kisasszonnak, mivel tetszik magát mulatni?</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Örülök jelenlétén, édes Úr, tessék magát megalázni.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Csókolom kezeit. - Talám valami baja esett annak a muzsikának?</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Egyéb nem esett, kedves Úr, hanem némely húrjai megtágultak, mivel már
+                            régolta nem volt a kezemben, s nem is érkeztem reá. - Az a gyönyörű
+                            Urania annyira magához vonta minden üres óráimat. - Kikérem az Úrtól a
+                                4<hi rend="super">ik</hi> kötetjét is.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Sajnálom, hogy vele nem kedveskedhetem a Kisasszonnak; mert az a szép
+                            nemnek pallérozására célozó munka is arra jutott, amire minden jó
+                            szándékok Magyarországban. In specie a magyar theatrum.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Ó, a' bizony nagy kár, kedves Úr, most is szeretnék komédiába lenni, mert
+                            a játékok a szívet jobbá, az elmét nemesebbé s a gusztust finumabbá
+                            teszik, ezt én mind csupa olvasás közben is érzem.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Éppen Bajomba létembe hallám, hogy az examen alkalmatosságával Csurgón is
+                            játszottak komédiát, és ha annak egyéb haszna nem volna is, legalább a
+                            nevendékeket rászoktatja a közönséges helyen való eleven beszédre,
+                            amelytől pedig sok függ; hallom, hogy tetszett is minden jelenlevő
+                            uraknak ez a feltétel; én magam is sajnállom, hogy ott nem lehettem.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Szeretném látni, ha valakitől megnyerhetném.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Reménylem, én megkapom most kánikulakor, s szolgálhatok vele a
+                            Kisasszonynak. Mostan pedig egy szép románt hoztam, a neve Natur und
+                            Liebe, és egy versecskét amaz esmeretes nótára, mellyet a minap estve az
+                            öreg úr előtt dallottunk a filegoriába.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Ha emlékezem, ez az.<stage>Üti a klavírt.</stage>
+            </p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Az az, éppen az, rigtig arra van ez a vers, éspedig a német rithmus és
+                            lábak szerént, ha terhére nem lesz a Kisasszonnak, próbáljuk
+                            elmondani.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Én is most próbáltam egyet tanulni a Schiller Tolvajiból, ott ez a vers
+                            vagyon reája. Esz kamen draj starke Kerl s a többi. De énnékem egy
+                            magyar verset is írt erre egy ifjú úr, tessék meghallgatni, mondhatom
+                            szép. A szerencse csak játszik.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Ah, bizony gyönyörű! és az én szívembe édesen jár; kivált a Kisasszonnak
+                            szép ajaki közzül.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Köszönöm az Úr udvariságának.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">NEGYEDIK JELENÉS</head>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Nó, nó, csak többet lássam én meg az ollyan dolgot, megrakatom a
+                            bőrötöket, dolog idején, fényes nappal heverni, alunni, éppen bizon,
+                            bezzeg nem alusztok, ördög szánkázzon meg benneteket, mikor vasárnap a
+                            korcsmára kell menni, jók vattok felvenni a fizetést; de a dolog úgy se
+                            kell egyiteknek is, mint a cigánnak a szántás, te kocsis! meregess vizet
+                            a leánynak a kertben, a Jancsi szolga itasson, a Ferkó pedig és az Istók
+                            igazítsák meg a félszer alját; már az illyet nem kéne éntőllem várni.
+                            Pofóknak, a gazdának mondjátok meg, hogy méressen őrleni való tiszta
+                            búzát, kiki munka után lásson. Firkász! hát maga mit csinál?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Asservitio Domine Spectabilis, semmit sem.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Hát le vannak pecsételve azok a levelek?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Le, Domine Spectabilis, és jó hogy le vagynak, mert pro 1mo már
+                            expediáltam is, pro 2° megmutattam, hogy én a hivatalomba nem éppen
+                            incultus vagyok, pro 3° külömben is itten van Lehelő úr, és most precise
+                            a kisasszonnál van.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Ugyan úgy-é? S itten van Lehelfi uram?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Külömben sem, Domine Spectabilis.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Isten hozta, Isten hozta, édes Lehelfi Uram az Urat, ma mindég vártam de
+                            hálá Istennek hogy meglátogatott bennünket. - Mi újság a gyűlésen?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Sajnálom, hogy semmi olyas különössel nem tisztelkedhetem, külömben is a
+                            nevezetes dolgok már tudva vagynak.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Üljön le, édes Lehelfi Uram. - Adjatok nékem egy széket, igen elfáradtam
+                            - azok az átkozott cselédek, ha csak magam köztök nem forgok, egy
+                            keresztül szalmát se tesznek.</p>
+          </sp>
+          <stage>Lehelfi tesz széket a Tisztes alá.</stage>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Ah, kérem, kedvezzen az Úr magának - ne fárassza magát, az az én
+                            kötelességem.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>A Tekintetes Úr megérdemli, hogy én ebbe is megmutassam tiszteletemet. A
+                            Kisasszony is megérdemli, hogy vendég létemre is megkíméljem. -</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Köszönöm, édes Lehelfi Uram, köszönöm, az Úr egy cultus ember, én az Urat
+                            szeretem, az Úr díszére tudna lenni az én szegény házamnak. Már gyakran
+                            beszéltük a leányommal, hogy az Úr egy becsületes, egy csinos magyar. És
+                            én mondtam is néki, hogy én néki ollyan barátot szeretnék. - Ő is az
+                            Urat tiszteli. - Járt-é valaha az Úr a nagyvilágba?</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Jártam, hogy megesmérhessem, megesmértem, s azolta kerülöm, nem kevésbé
+                            veszedelmes az a szívnek, a bölcsességnek, sőt a nemzeti charakternek,
+                            mint a porban szennyeződő alacsonyság. -</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>És így az nem cultura?</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Hát külső országra volt-é ki, és meddig?</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Voltam Bécsig, voltam Lengyelországig, voltam bé Erdélyig és erre a
+                            Dalmatiai tengerig, és így hazám szomszédságát esmerem, csak azt bánom,
+                            hogy a török földén nem voltam.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Már annyi helyen forgolódni cultura.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Egy tudós és okos hazafinak nem csak szép, hanem szükséges is a határos
+                            nemzeteket ismerni. Legelső dolog pedig a maga házának esmerése, mert
+                            aki a maga házát sem tudja, hogy áll, mi gondja annak a más házára?</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Hazámnak nagyobb és nevezetesebb részét esmerem, a többit a föld, a
+                            státusok, a történetek írásából delisanc nélkül is összejártam.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Azt elhiszem.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Ah, ha hallotta volna édes Uram Atyám, nékem is millyen szépeket
+                            beszélt.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">ÖTÖDIK JELENÉS</head>
+          <stage>Ábrahám és Pofók.</stage>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Van-é valami eladó?</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Van, van, jöszte be, zsidó. Héjj, legények hozzátok elő azt a
+                            nyúlbűrt.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Jó napokat agyon Isthen khennek.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Isten hozott, Szomszíd, no itt van a gyönyörűséges szíp nyúlbűr.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Hadd lám - gyhönyörüséges szíp nyúlphür - khár az khed mondani Szomszíd,
+                            hiszen phüdös - üm. - -</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Büdös az apád halála, csak szaga van, a bűr csak bűr, tudom én, hijjába -
+                            tudom majd büdössebb lesz nállad.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Mit thalálta khedet, Szhomszíd; hiszen cshupa rongy, khapatth és a szhüre
+                            is megy.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Hiszen szette-vette a tekintetes kisasszon neve napjára lőtték a napokba,
+                            mit gyalázod az ember jószágát?</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>No hát, hogy ahgya khed, Szhomszid?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Mit adsz értté?</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Hogy ahgya khed, hithván jószág, hithván pharthékha, csak a kehd
+                            khedvéért veszem megh, hogyh khed emperséges embher.<stage>Veregeti a
+                                Pofók vállát.</stage>
+            </p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Annyi mind a', vidd el azért a 4 garasért, osztán máskor is kerülj be
+                            hozzánk.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Hányír monda khed?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Mondom, adgy irtte 4 garast, osztán vidd el Isten hírivel - az Isten
+                            áldjon meg vele.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Ej, Szhomszed Uram, khed jó ember, régenn eshmerem mhár khedet, 4
+                            krajcárt adok érte.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Vesztél volna az országodban te szakállos pogány, ha lehetne, a szemét is
+                            kicsalnád a köröszténnek, mire tartod a lelkedet, hogy az ember
+                            jószágáért csak harmada árat sem akarsz megígérni. Úgy megérne egy
+                            húszast, mint egy krajcárt, ha a Pámpám kutya egy kicsit meg nem
+                            szaggatta volna a pódiumon, míg az Isten házában voltunk, úgy szólván.
+                            Dejszen a szőre úgy is megvan, úgy szólván.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Hán biz, úgyh szholván, csak irha lesz belőle, üm.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Te Zsidó! azt mondják hogy ti a nyúlbűrt selyem kalapnak szeditek, nó,
+                            nézd meg most, ha van szemed, kitelik ebből két selyem kalap is, pedig
+                            egy selyem kalapot 4-5 máriáson is alig vehet meg az ember, micsoda
+                            szörnyű nyereség már az, úgy szólván, az Isten elpusztít benneteket, úgy
+                            szólván, azért a nagy huzavonáért.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Khed nekhem ne paphollyon, négy krajcárt adhok értte, azért a
+                            hitvánsághirt - no 5 krajcárt, hogy hjába ne jötthem, ha khell, khell,
+                            ha nem khell, szhent a bhikességh.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Eddh meg az öt krajcárodat, úgy szólván, nem csuda, hogy az Ábrahám
+                            rongyos maradikát, úgy szólván, annyira nyomja az Úr átka, kicsalnátok a
+                            keresztyén szemit, ha lehetne. Te Jebuzeus: te pogány.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Phogány? hüm phogány, mhir modgya khed azt nekhem? nem vagyhok én
+                            phogány, becsületes zshidó ember vagyokh én, phogány khed, ha nékem
+                            mondja.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">HATODIK JELENÉS</head>
+          <stage>Kanakúz és az elébbiek.</stage>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>De már azt csakugyan el nem szenvenném ám az apádnak is, hohár csikozta
+                            toprongyos zsidaja, még te pogánnak mondod az én gazdámat, hogy a
+                            Kirisztus vergyön mög, iszön igaz református kálomista körösztény embör
+                            a' - mégis azt mered te mondani, hogy pogány, te - te, gazduram, üssem?
+                                <stage>A mellyen megfogja kaputrokját.</stage>
+            </p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Nem bánom én, a fránya kopozza meg, úgy szólván, ha mingyárt a lábad
+                            szárához vered is, kevesebb lesz egy pogánnyal.</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Ki hát az a pogán, te veszett órájú, te?<stage>Megrázza ruhájánál
+                                fogva.</stage>
+            </p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Eregy, the gyilkhos tholvaj, bizony thán the vagyh a Phihó.<stage>Pihó
+                                akkori híres zsivány.</stage>
+            </p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Khi hát az a pogány, te veszett órájú, te?</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Nem mehetsz dolgodra? most akadtál magyhar gyerekre, huncfut, selma.
+                                <stage>Taszítja a zsidó Kanakúzt.</stage>
+            </p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Még te volnál a magyar gyerök, te Kirisztus kecskéje, te.<stage>Rázza a
+                                szakállát.</stage>
+            </p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Hagyh békhét the, khurvanyád, akhasztofára való, majd megh mondom a
+                            tekhintetes úrnak, lódulj pokhilba.</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Még az anyámat szidgya, Gazduram, megholt már a', te pokol töltelékje,
+                            minek ásod föl a sírból. - Agyonverem, Gazduram!
+                                <stage>Rángatja.</stage>
+            </p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Üss rá egy keservest, azután, úgy szólván, bocsásd el békével.
+                                <stage>Kanakúz a zsidóra ráüt egy furkós bottal.</stage>
+            </p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Vej mir! Vej mir! jeö! jeöü Szomszíd Uram, adja khed az a nyúl phűr, itth
+                            a nígy garas, szhip pínzt adokh.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Nekem nem kell se pénzed, se magad, most mindjárt a kutyákat is rád
+                            huszítom. Bankót annál úgyé, azt is ti fondáltátok, most már a jó lelkű
+                            keresztyén ember nem is élhet miatta.</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Hej Balatony, Duna, Tisza, Dráva, Lompos, Csámpás, tépjétek széjjel a
+                            hitetlen lelkét a zsidajának.<stage>Ekkor a derekát általfogta a
+                                zsidónak.</stage>
+            </p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Phü te phüdös, hájfészek, phü the, meny el, phü the püdös szalonna
+                            kheresztyén szagú<stage>Rápök,</stage>dhisznó, nem ember.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">HETEDIK JELENÉS</head>
+          <stage>Firkász és az elébbiek.</stage>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>S denique micsoda csúnya lárma az, majd az egész kastély egészen fenékkel
+                            felfordul, a dominus spectabilisnek s úri vendégeinek incommodálni s
+                            alkalmatlankodni rudis emberekhez illik. Hát Ked, Gazda mér van itt?
+                            mért nem tudja csitítani? Ked is csak ollyan incultus mint a többi?
+                            micsoda rút lárma ez?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Nemzetes Ifjú Uram! ez a zsidó, úgy szólván, igen embertelen, nojszen már
+                            csak tudja az Úr, millyen a zsidó, itt izgágáskodott, úgy szólván, ihon
+                            a Kanakúz meg találta lódítani; mert az anyját, mindenét összehorta,
+                            összeszidta, úgy-é úgy volt, Kanakúz?</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Hán.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Ne higgye a Thekintethes Úr, ezek meghennék a szegény zsidó embert, ha
+                            lehetne, én becsülettel bészóllottam, van-é valami eladó, khértem azt a
+                            hitván nyúlbűrt 5 krajcáron; és még phogánnak mondott érte a szomszíd
+                            uram, pedig nem is ér többet, maga látja a Thekintetes Úr, hiszen
+                            ballagh a szőre. - Ez a selma pedig, édes Thekintetes Uram,
+                            gyilkosképpen megtámadott a bhotjával, phedig én nem vétettem. Khét
+                            emberen áll a vásár: Szabad kérni, szabád tartani. - Nem úgy van,
+                            Thekintetes Uram?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Consequenter a'jőn ki a species factiból, hogy Ked, Pofók az Edictum
+                            Tolerantiale; te pedig, Kanakúz a Jus Dominale ellen excedáltál, vagy
+                            világosabban szólván, Kend a zsidón dehonestatiót tett, te pedig actus
+                            maioris potentiaet - nos, denique a' pedig egyik se szabados dolog.
+                            Úgy-e, Kend goromba volt, te pedig malitiosus.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Éppen nem, úgy szólván.</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Á, Á.</p>
+          </sp>
+          <stage>egyszerre mondja mind a kettő</stage>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Denique most megmondom pro 1<hi rend="super">mo</hi> a zsidót senki
+                            többet ne merje bántani; mert a földesúrnak szükséges a zsidó, annak a
+                            kedvéért a magyar jobbágyot is kiveri a házból, mint régen az izraeliták
+                            kedvéért kipusztíttattak a cananeusok; pro 2° a zsidót s mást akárkit is
+                            nemzetéért gyűlölni grob magyarság; ugyanezt pedig a vallásért
+                            cselekedni intoleráns bigottság és az egyik sem cultura; pro 3° ki
+                            szedne majd rongyos mentét, nyúlbőrt, ringyet-rongyot, kócot, kendert s
+                            a többit, ha ez a nékünk elmúlhatatlanul szükséges ez izraelitaság nem
+                            szedne. Denique most menjen el Kend, Ábrahám, vigye el kend a nyúlbőrt
+                            is egy pénz nélkül. Igaz, hát a pipám hol van?</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Már meg van ezüstözve, Thekintetes Uram, ollyh fhain munkát thettem rá,
+                            hogy Bécshbe se tennének már különbet. Délután elhozom, egyh phár csomó
+                            bhasa dhohánt is kheszithettem a Thekintetes Úr számára, csak éppen
+                            kherem édes Thekintetes Uram, szóljon ez öreg urral, szolgáljon abba a
+                            kazán dolgába. Kérem aláhzathosan, empherséghemre fogadom, Isthenüttseg
+                            nem hagyom hijjába az Úrnak.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Meglesz minden, meg, ne féljen Kend, Ábrahám.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Azh Isthen áhlgya megh az Uhrat, - jo apphetithust kihvánok. -</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Servus.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">MÁSODIK FELVONÁS</head>
+        <div type="scene">
+          <head type="title">ELSŐ JELENÉS</head>
+          <stage>Tisztes és Pofók.</stage>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Éppen úgy kell, magam is ollyan móddal szeretem. - Hát az a borjú le
+                            van-é már vágva, amint parancsoltam?</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Le vagyon Tekintetes Uram: igenis hogy le vagyon, ugyan gyönyörű húsa
+                            van, ugyan gyenge jószág, úgy szólván. -</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Halljátok! azt le kell tenni a jégverembe, hanem estvére adgy ki a
+                            szakácsnak belőle főzni valót is, sütni valót is. Idegen urak lesznek
+                            nállam. - - Érted?</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Értem, ollatén állapotba.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">MÁSODIK JELENÉS</head>
+          <stage>Firkász és Pofók.</stage>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Audiat Pofók! Azt a borhűtő rézedényt, a nagyobbikat mosassa meg,
+                            dörgeltesse meg, denique az ollyan legyen, mint a tükör, vendégeket
+                            várunk. Denique, látja Ked, a héség supra modum nagy, hát azt el kell
+                            készíteni pro refrigerio animáló.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Az is meglessz, Uram ebb' a nyomba, stanti pedi, úgy szólván. De meg is
+                            kérem az Urat ollatén állapotba, ki lesz a vendégünk?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Saltim az az úr, aki már kétszer megfordult nállunk, és most ott az alsó
+                            vendégfogadóba, ott az Arany Kusztorába van szállva. - Cultus ember.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Tán az a nímet ember lesz hát az ollatén állapotba.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Audiat, nem nímet az, hanem született magyar, csak hogy német ruhába jár,
+                            németessen viseli magát és denique ollyan singularis delicatus hangon
+                            ejti a magyar szót.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Ó fájdalom! úgy szólván, megkövetem az Urat, őkegyelme, hát ollatén
+                            állapotba mint a korcs agár, sólomnak bagóly fia, úgy szólván, hát őkeme
+                            talán szégyenl is magyar lenni.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>No de, audiat, ezt kell ám consideratióba venni, hogy 1<hi rend="super">mo</hi> az 
+                        	az úr Németországon lakott cultura kedvéért, 2° magát az
+                            itthon cultiváltaktol azáltal meg akarja distingválni, 3° több tudomány
+                            van a bodros tászliba, mint a magyar ingbe, a kurta magyar haj tökfejet
+                            mutat, de ha exotica parókát teszünk rá, az együgyűek káptalannak
+                            gondolják, a magyar mente alig reprezentál egyebet egy kis Verbőtzinél,
+                            és Husztinál, hanem a frakk involválja a históriai tudományt mind, a
+                            francia kaput az Természetnek egész búvári esmeretét, az anglus iberokk,
+                            ha szárközepig ér, minden kigondolható filozófiát, a legmélyebb
+                            matézist; ha földig ér a leghomályosabb régiségek esmeretét; és kivált,
+                            ha nem a szélire vannak rakva a gombok, Newton vagy Nyúton, Helvetius,
+                            sőt maga Kant látszik az ember előtt állani.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Én azt tudom, mind értem ollatén állapotban, de megkövetem, azt szokták
+                            mondani, hogy aki oda nem viszen, bizony nem is hoz az onnan. De arra a
+                            papra is haragszom, aki magyar ruhába nem jár, magyarnak tartja magát,
+                            magyaroknak prédikál, magyar kenyeret eszik, magyar bort iszik rá, úgy
+                            szólván, mért szégyenl hát magyar ruhában járni, ollatén állapotban
+                            lévén. Megkövetem a' csak ollyan, mint ha a magyar baglas juhok mellett
+                            kaputrokkos ihász állana, úgy szólván.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Bizon, Pofók, mond ked valamit és a' bizon nem is cultura.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Uram, mikor én a Tisza mellett jártam, mikor a fiamat bevittem
+                            Döbröcömbe, csak elnéztem azokat a szép papokat, millen magyarosan
+                            jártak, pedig aszondik, túl voltak azok Imperiumonn is.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">HARMADIK JELENÉS</head>
+          <stage>Conrad és Firkász.</stage>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Carsamadiner.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Salveat Conrad, salveat. - Hát hol jár, Conrad, hol, hol?</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Eben asz örek ur az Knediger her.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Ugy a Dominus Spectabilisnál?</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Ja frajlic od, od.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Et cui bono?</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Asz piszon nem tutom tessék szúr.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Miért volt ottan, miért?</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Ha mierd? A Ludvig Zaszlaki az én Batron diszdeli a Knediger her mindjárt
+                            el lesz jönni kicsin vizitre.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Ugyan úgy-é?</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Ja frajlig - Asszolgaja.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Servus.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">NEGYEDIK JELENÉS</head>
+          <stage>Firkász, Pofók és Kanakúz.</stage>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Ez a Kanakúz aligha most meg meg bort nem kapott a diabolicus.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Biz Uram, nem mondom, hogy nem, ollatén állapotban, a szeme is ollan
+                            ménkű módon jár.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Kanakúz! ittál most úgy-é?</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Hán.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Bizon részeg is vagy, amint látom.</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Á, Á.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>El tudnád-é hát mondani a nótádot?</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Hán.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Kezdd el hát.</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>De mölliket?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Akármellyiket mea pace.</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <stage>danolja:</stage>
+            <lg>
+              <l>Zsiros nyakam öleld mög,</l>
+              <l>Édes Rózsám csókoll mög.</l>
+              <l>Fehér orcád, mind a hó</l>
+              <l>Az enyimhez hasonló,</l>
+              <l>Akasztófára való.</l>
+            </lg>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Dehát a Rákóczi nótáját tudod-é?</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Á, A.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Ej te, be kár azt nem tudni, - mikor azt hallom, mingyárt piszeg bennem a
+                            magyar vír!</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Mondgya el hát, per Deum, édes Pofókom, mongya el Ked, úgysem hallottam
+                            ad animam, miolta Pestről eljöttem.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Biz uram, én átallom ollatén állapotba vén létemre a dallást, a cselédek
+                            is megítélnek, úgy szólván.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Ej, csak itt mondja sub rosa az udvaron, osztán nem is úgy kívánom én,
+                            csak mégis exempli gratia.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>No már az Úr kedvéért csak mégis megcselekszem.
+                            <stage>Danolja:</stage>
+            </p>
+            <lg>
+              <l>Haj Rákóczi, Bercsényi, - Tököli</l>
+              <l>Nemzetünknek régi híres magyar vitézi,</l>
+              <l>Hova lettek, hova mentek nemzetünknek</l>
+              <l>Régi híres magyar vitézi?</l>
+              <l>Szegény magyar níp,</l>
+              <l>Mikor lessz már íp,</l>
+              <l>Mert a sasnak körme között, körme között fonnyad mint a líp,</l>
+              <l>Töredékeny, mint cseríp</l>
+              <l>Szegíny magyar níp.</l>
+            </lg>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Excellenter, valde bene.<stage>Egyszerre mondják.</stage>
+            </p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Jaj, Gazduram ne fújja Ked ollan köservessen, mindgyár möghasad a szívem.
+                            - De Fiscarius Uram, nem is hallotta ám még mit csinyál az az árva
+                            gyerök, aki a minapikba került ide az udvarba, az az Istók, a' tud ám
+                            szépön borborázni, ollan szépön mögy a sorgya hogy. - -</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>S volna abba annyi perfectió?</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Hán bizony hogy van - előhíjjam?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Per se.</p>
+          </sp>
+          <sp who="#kanakuz">
+            <speaker>KANAKUZ.</speaker>
+            <p>Istók te - Istók - Istók te - gyere má - tán most is a hájas kubakba
+                            kutatsz - hej, ebágyábul esett, maj mögrakom a bőrödet, gye' má nó,
+                            dudáll neköm most edgyet, mert én most bort ittam.<stage>Ez a gyermek
+                                kiállván a platzra rongyos szűrbe, a szűr alatt tart hónalja allatt
+                                egy vánkost, a csúcsát látatlanul a szájába fogván tilleget
+                                dudahangot, a több deákok pedig közel egy rejtek házba mondják
+                                (harmonice) a dudahangot. Kanakuz pedig kanásztáncot jár
+                            rá.</stage>
+            </p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Bravó! Bravó!!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">ÖTÖDIK JELENÉS</head>
+          <stage>Szászlaki, Conrad és Tisztes.</stage>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Nem igaz Conrad? és ez az úr nem ideota magyar. - Kastélya és háza
+                            környéke csínos és együgyű, pedig a magyar minden dolgába vagy ronda,
+                            vagy buja, és amiatt vagy paraszt oeconomus, vagy pankrót gavallér.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Sziszt var, asz ikkasz.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Ille veritable - és ha látnád magát is személyesen, melly bölcs, mely
+                            értelmes ember vagy amint Marheze Buonarokka szokta mondani che szad'zo,
+                            che discreto.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Sziszt var, asz ikkasz.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Az ő kisasszonya (ami a magyarba sok) mindenképpen ki van polírozva, azt
+                            mondhatni, hogy ő maga a gyenge érzékenység, vagy igazabban di
+                            certlikkajt la tandres.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Sziszt var, aszikkasz.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <stage>Öszvetalálkozván a Tisztessel.</stage>
+            <p>Asszolgája az Úrnak, örülök hogy van szerencsém a Tekintetes Urat
+                            tisztelni.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Igaz szolgája az Úrnak - tessék magát megalázni.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Alázatosan köszönöm - Tekintetes Uram! már más ízben is akartam mondani:
+                            ennek a szobának minden einrigtungja oly finum gusztusú, hogy én, miolta
+                            Bécset elhagytam, hasonlót nem láttam, és nem gondoltam, hogy illyet
+                            találjak Magyarországba. Pompásabbakat hát persze találni; de a pompa
+                            semmit se tesz széppé, hanem a jó gusztus, vagy amint Hofrad
+                            Sperbelfels, az én barátom a maga kertjéről szokta mondani: Di ges mäht
+                            nicht di pract, vas di senhajt mackt.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Az egész ház készület, sőt az egész kertem és kastélyom, azzal
+                            dicsekedhetem, hogy saját képzésem szüleménye.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Ha csak a kert nem ánglus, az épület nem olaszos, az einrigtung nem
+                            németes, a konyha és ebédlő nem franciás, csínos embernek mindjárt fáj a
+                            gusztusa.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Én pedig oly céllal egyik nemzet között sem forgolódtam, megtanított
+                            engem ez az oldalszoba, mellybe válogatott könyveim vagynak, és az a
+                            nagy mester, aki azokat megtanította, tudni illik a Természet,
+                            megtanított engemet is.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Már én, Tekintetes Uram, annyira hozzászoktam azoknak a csínos
+                            nemzeteknek minden kottümjeihez, hogy mihelyt valami nem auszlendis,
+                            vagy nem ollyan mint az auszlendis, előttem kedvet nem talál. Velem a
+                            somogyi sódért, thúri sajtot, azt az elszenvedhetetlen kövér magyar
+                            kolbászt megunatta az a fein, ah, igen-igen fáin vesztfáliai sonka,
+                            helvéciai sajt és veronai szalámi. - A kecsege igen jó hal; de minthogy
+                            magyarországi és comiz, százért sem adok egy scotiai heringet vagy egy
+                            venetiai szardellát. A magyarországi halak közzül nem is szeretek
+                            egyebet az egy vizánál, de az meg is érdemli; mert 200 mértföldnyiről
+                            emigrál hozzánk.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Az Úrnak igen-igen nagy szerencséje volt a maga ízlését külső országon
+                            kimívelni, mit csinál majd vélle itten köztünk, együgyű magyarok
+                            között.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Tudom én majd, mit csinálok, Tekintetes Uram. Én az udvaromban mindent,
+                            mindent külső országivá teszek. Cselédim mind idegen nemzetűek,
+                            annálfogva pallérozottak lesznek. Anglus lovat, Svaicer marhát, spanyol
+                            juhot, khinai disznót, török kecskét, olasz pulykát, norvégiai ludat,
+                            alexandriai kacsát, nigritiai tyúkot s a többi szerzek udvaromba, amint
+                            ezt láttam Justitzvart Svevelhaj Lord King Sinyor Di Caropellegrina és
+                            mossziő emigrant Deniente, érdemes és Tudós külföldi zseniknél, kikkel
+                            utazásomban megbarátkozni szerencsém volt.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Valójába nagy szerencse. Édes Uram, de hadd kérdjek egyet: talám hát az
+                            Úr, ha Nigritiában volna, megvetné a nigritiai comiz tyúkokat és akkor
+                            Magyarországig fárasztaná külföldi csibéért tyúkpecérjét.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Com il fo - ott a magyar tyúk khosa rara és ritkaság lenne. - De apropó,
+                            hol legyen a kisasszony, sajnállanám elszalasztani személyes tiszteletem
+                            szerencséjét.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Azt tartom, hogy most valami foglaltossága van valahol, reménylem,
+                            mindjárt bejön, vagy ha úgy tetszik, nézzük meg a szobájába.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">HATODIK JELENÉS</head>
+          <stage>Petronella és az elébbiek.</stage>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>De éppen itt vagyon. - Ihol, édes Leányom, ajánlom az urat, Szászlaki
+                            uramat.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Asszolgája a Kisasszonynak - Trezümble szerviter, manzel.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Alázatos szolgája az Úrnak, örülök, hogy ismét van szerencsém
+                            tisztelni.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Mivel tetszett magát mulatni a Kisasszonkának?</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>A cselédek közt tettem holmi rendelést, Kedves Úr - kiadtam nekik a
+                            parancsolatokat, a kertben is dolgoznak, azokat is megtekintettem,
+                            szükséges az ember szeme körülöttük; mert a cseléd, Kedves Úr, csak
+                            cseléd.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Ever, Ever, bella domicella; de nem tartja a Kisasszony szép nemére, úri
+                            karakterére nézve kissebbségnek a paraszt cselédek között forgolódni? a
+                            házi dolgokkal bajlódni? Én, Kedves Kisasszonka, a külső országokat
+                            összejártam, ottan már a kipallérozódás olly subtilis érzésűekké tette a
+                            nagy nevelésű dámákat, hogy ők az ollyanoktól éppen irtóznak. Egész
+                            foglalatosságok vizit adás - vizit elfogadás, kártya, csemege, kávézás,
+                            Atalantis és más románok, a kis zsebbeli bolonyai kutya s több effélék.
+                            Ők a paraszt cseléddel együtt a világért se fekünnének le estve, és még
+                            sokkal inkább fel nem kelnének reggel a goromba földmívelővel és
+                            mesteremberrel. - Hála a 18<hi rend="super">dik</hi> seculum végének, ki
+                            kezdenek már a mi magyar dámáink is a magyar durvaságból fínumodni,
+                            kezdik már követni az illyen érzékeny német és olasz gráciákat.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Kövesse, aki akarja. Tudom én, meddig kell az én leányomnak az ő nyomokba
+                            menni. Az ő anyja is, az Isten nyugossza meg! egy valóságos
+                            kipallérozódott magyar dáma volt, nagy grófokhoz is volt szerencsém
+                            házamnál; de mindezektől megnyerte a tiszteletet, neki jó szíve volt és
+                            szép elméje, kellemetes gusztusa. Választást tudott tenni a bécsúszott
+                            külföldi módik és szokások között, ő az ő gyermekeit is maga szoptatta
+                            és nevelte fel, nem úgy, mint a mai galant tigrisek, mondhatom az Úrnak,
+                            az én famíliám nem is korcsosodott el, azt kívánom, hogy a leányom az ő
+                            példáját kövesse. - A külföldi világ hadd bolondozzon.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Kedves úr! én gyönyörűséget találok azokba a foglalatosságokba,
+                            amellyeket az én boldogult asszony anyám helyett kell végbe vinnem, és
+                            amellyeket az én nemem hoz magával.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Tehát amellyekre a Kisasszonnak természeti bestimungja van.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Mikor pedig ráér, olvasgat, én az ő számára egy kis bibliothekát
+                            szerzettem, szerezgetek még ma is, ha azt megunja, vagy a kertbe sétál s
+                            szegfűibe gyönyörködik, vagy a muzsikához ül a szobába, magának is,
+                            másoknak is mulatságot szerez. - A szép lélek soha sem unja meg
+                            magát.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>S tud a Kisasszony német vagy más idegen nótákat? Nem is érdemlenék a
+                            Kisasszony drága szép ujjait azok a táritoppos magyar dinum-danumok.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Ha tetszik az Úrnak, azokkal is kedveskedhetem.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Ich bitte, ich bitte. Instálom ássan.</p>
+          </sp>
+          <stage>Vér Petronella német nótát, a firhang alatt professor Csokonai
+                        úr.</stage>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Bravó cherlih, sármány, gyönyörű.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Próbálj, édes Leányom magyar nótát is ütni; mert amellyek Lavota úrtól
+                            kerültek, azok nem éppen dinum-dánumok ám, csak te, édes Leányom,
+                            táritoppossan ne verd, amint ez az úr mondotta.
+                            <stage>Nevet.</stage>
+            </p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Tetszik hát meghallgatni az Úrnak?</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Par companyi.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <stage>Vér magyar nótát, azaz a professor.</stage>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Engem uttse, ha különb nálla akármelyik. - Én öreg ember vónék hogy már;
+                            de Isten látja lelkemet, ízibe eljárnám rajta még most is a kállai
+                            kettőt.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>A kisasszony érzékennyé tudja tenni a legregulátlanabb hangokat is. -
+                            Ritka példa magyar személybe.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Látja tehát az Úr, hogy a magyarok közt is terem alkalmatos zseni, pedig
+                            ezt és hasonló szép mineműségeket nem az idegen bűnökkel együtt
+                            szerzette meg magának.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Édes Atyám Uram, s Kedves Úr, alázatosan engedelmet kérek, egy kevéssé
+                            kifordulok, mindjárt leszek ismét tiszteletekre.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Com il fo, Kisasszony.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Csak eredj, édes Leányom, tudod, amiket mondottam, vitesd véghez, majd mi
+                            addig egyet sétálunk az úrral a kertbe.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">HETEDIK JELENÉS</head>
+          <stage>Szászlaki és Tisztes.</stage>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Tekintetes Uram! mintha nem is Magyarországon volnék, mikor a Kisasszonyt
+                            látni szerencsém van, és kezdem hinni, hogy a magyarok közt is
+                            találtatik, elvétve, egy ollyan, aki nem magyar, és aki megérdemlené,
+                            hogy a szép külső ország dicsekedne származásával. - Ugyan alázatosan
+                            kérem, van-é német vagy francia szobaleány mellette?</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Eleget kommendáltak, de a szép parádét a jó erkölcsön vásárolni nem
+                            akartam. Egy tisztes magyar főhadnagyné az ő nevelője, oktatója és
+                            mindennapi barátnéja.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Csudálkoznom kell.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Ha bővebb esmerettsége lesz az Úrnak az én házammal, el fog múlni
+                            csudálkozása, vagy jobban is fog csudálkozni. - Kérem, ne sajnáljon az
+                            Úr nállam maradni egy kis vacsorára.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Sajnálom, Tekintetes Úr, hogy nem lehet élnem ezzel a szerencsémmel. - Én
+                            Hálába a híres professor, Bonvivan úr alatt hallgatván a dieteticát, az
+                            tanultam tőlle, hogy aki 24 óra alatt egyszernél többször eszik, az az
+                            életét rittig 5 hónappal, 19 nappal és 33 minutával rövidíti, és ezt már
+                            magam is tapasztaltam másokon, olly mathematice, hogy még a minuta se
+                            hibázott. - Ezt már szintúgy meghatározzák a németek s más pallérozott
+                            gyomrú nemzetek, mint a nap- s holdbeli fogyatkozásokat. - Ha én
+                            vacsorakor csak egy snef szárnya hegyit enném is meg, holnap és azután
+                            ebbe a hónapba minden harmadnap 24 pilulával kellene megterhelt
+                            gyomromat kitisztítani.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Ah, a Krisztusért! Sajnálom, hogy szerencsém nem lehet; de mégis
+                            baráttságért, ha lehet, édes Úr.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Alázatosan köszönöm. A professorom, Bonvivan azt mondta egyízbe, hogy az
+                            ember a barátságért sokat vét a dietetica ellen, ez a mondás mindég a
+                            fülemben van nekem. - Alázatosan engedelmet kérek tehát, és másszorra
+                            instálom a Tekintetes Úrnak azt a gratiáját.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Szívesen akármikor. - Tessék hát lejönni a kertbe, nézzük meg, és
+                            egyúttal arról is beszéljünk, amit a minap tetszett az Úrnak
+                            említeni.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Amint parancsolá, Tekintetes Úr, nékem külömben is szint ollyan
+                            megújjulásomra van, ha valami jó ízlésű kertben találhatom magamat ebbe
+                            a falusi és míveletlen Magyarországba.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Kérem tehát.<stage>Mennek a kertbe.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">NYOLCADIK JELENÉS</head>
+          <stage>Firkász és Ábrahám.</stage>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <stage>Lábait az asztalra nyujtogatva hegedülhet magába.</stage>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Bhikhességes jó estéth khivánok a Thekinthetes Úrnak - hogyh mulatja
+                            maghát a Thekinthetes Úr?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Servus.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Háth fogh-é az a hegedű? amint láthom, khanafona khellene annak.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Revera, Ábrahám, nem is ártana neki egy kis gyantatio, pro 
+                        	1<hi rend="super">mo</hi> csak úgy rikácsol, pro 2 gyantám nincs, pro 3,
+                            van a Ked bótjába, úgy-é van, Ábrahám?</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Van, van, Thekintetes Uram, háiszen csak kell venni. - Pharolámra el
+                            hoztham a phiphát is, hát nem ollyan ezüst, minth a thajthik vagy minth
+                            a szhappan, a friss khinyeső nem lekülömb nálla, úgy thündöklik. De
+                            Uram, a munkha thöbbet is ér az ezüstjénél, senki fiának nem csinálták
+                            volna meg alább 4 forint 26 krajcárnál és fhélnél, de minthogy az Úr jó
+                            esmerősöm, azt a fhelet is elengedem, cshak igy szolgháljunk egymásnak,
+                            nem cshak mára való az ember. Látja a Thekintetes Úr, én nem vágom el
+                            mind a két végit az alkhunak, fél krajcár nem tart el engem.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Ah, per Deum, Ábrahám az már supra modum sok, inkább azt a fél krajcárt
+                            is megadom, csak azt a 26 krajcárt engedje el. Hisz a' sok, hoc est
+                            multum, már engem csak ne taxáljon Ked, hiszen Pesten se kívánnak többet
+                            érte, kerék szám 2 forint, amillyen munka.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Ej, csak trhifáltam, Thekintethes Uram, hiszem én azt cshak khijandhekhba
+                            csináltak, egésséggel visellye az Úr, itt a szép basa dohány is,
+                            egésséggel viselje az Úr. Az Isthen algya meg az Urat, hogy pártját
+                            fogja a jámbornakh.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Servus, Ábrahám, köszönöm, máskor is csak szóljon Ked, mindenbe szívesen
+                            szolgálok. Látja Kend, mikor én a Kend arendáját írtam is, akkor is basa
+                            dohánt szíttam én, sok basa dohánt felszínak az urak míg a szegények
+                            felsegéllésében fáradoznak. - Kávé nélkül igazságot se lehet tenni.
+                            Van-é most Kennek kávéja?</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Thekintethes Uram! holnapután lesz nállunk lakodalom, a bátyám fia meg
+                            ághoskodhott, szép mulattság lesz nálunk, khirem, alázza meg magát az
+                            Úr, lesz khávé, lesz minden, szhip thánc, mondhattom derékh - itt
+                            lesznek a Thopünáriak, mondhatom szhíp muzsikha lesz.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Quid hoc Ábrahám? revera lakodalom lesz, denique ott csak mind zsidó
+                            notát húznak.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Haiszem ah khell, Thekinthetes Uram, de háth nem szhép a zsidó nóta?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Ad animam, én megvallom, sohasem hallottam zsidó nótát, azt se tudom,
+                            millyen formán megy.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>No cshak próbálja a Thekintethes Úrh, az Úr okhos ember, ezen a hangon
+                            kezdődik <stage>Elnyeríti magát.</stage>
+            </p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Diabolum, de hogy tudom, mellyik fogásból kezdjem,
+                        	az <hi rend="italic">á</hi> -ból-é vagy a <hi rend="italic">b</hi>-ből?</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>A <hi rend="italic">x</hi>-ből, Thekintethes Uram: no így fogja a
+                                hegedüt.<stage>Mutatja neki a zsidó.</stage> A thopónari zsidók is
+                            így fhogják, a kesztheliek mígh szebben.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Bestia Apocaliptica, csak az első hangot mondja meg.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Hiszen montham, Thekintehtes Uram, cshakh így megy.<stage>Ismét
+                                nyerít.</stage>
+            </p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Denique megálljon kend, supra modum affectalnék egy zsidó nótát
+                            megtanulni, egy dáncos patvarista társam van itt a generális
+                            perceptornál, majd mortificálnám vele, denique csak kezdje el Ked, ne
+                            dicam, mondja el Ked.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Ahz meghlehet Thekintetes Uram jó phinzért.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Ej, csak mondja el ked prout venit.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Mondom, jo phinzért elmondom, ha álva hallgatja az Úr egy garas, ha ülve,
+                            egy pethak; de az Úr standes person, hát tetszése szerént fizeth az Ur.
+                            Tudom, átall alább adni egy forintnál. Na erste manir.<stage>Danol
+                                dáj-dájjal.</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">KILENCEDIK. JELENÉS</head>
+          <stage>Lehelfi, Fenekes és az elébbiek.</stage>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Jó estét kívánok az Úrnak!</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Pariter magam is kívánok, alázatos szolgája Domine Perillustris.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Bikhességes jo estét khivánok a Thekintethes Úrnak!</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Lesz szerencsém tisztelni az öreg urat?</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Igenis, pro 1<hi rend="super">mo</hi> a tekintetes úr most éppen a
+                            kertben sétál, pro 2 vele vagyon Szászlaki úr, pro 3 a kisasszony, ni
+                            fallor, a szobájába van, méltóztassék meglátogatni az Úrnak.</p>
+          </sp>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>Magam is jo ejtszakhát khivánok a Thekintethes Úrnak!</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>Servus! Servus!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">TIZEDIK JELENÉS</head>
+          <stage>Fenekes, Pofók, Conrad</stage>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Jó estét adgyon Isten!</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Szíp jó este!</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Hozta Isten!</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>No, Pofók bácsi, eb a lelkit, hát hány a világ, mivel töltik kentek az
+                            időt?</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Ezzel a Conrad sógorral beszélgetnék, vagy mi; de az Isten álgyon meg
+                            bennünket ollatén állapotba, nem igen tudunk elmenni egymás nyelvén.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Sziszt var, asz ikhasz.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Biz a' bajos Pofók bácsi, mikor a magyar németül, a német magyarul nem
+                            tud, pedig csak érteni kéne egymás nyelvét, hogy már sógorság
+                            fejébe.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Biz öcsém Uram, jó is vóna ollatén állapotba, de mi haszna no, ha az
+                            ember nem tud.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Hozzon, édes Pofók bácsim egy kis tüzet onnan a konyháról; de szépet,
+                            menyecske szeműt.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Ah, ne pipázzon maga Fenekes, absajlic, csúnya pides az a dohánfüst,
+                            korcsmába való.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Ebalelkét, hát maga nem dohánzik?</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Ah! nem, csak én kicsin snuf tabak <stage>Pattogtatja a
+                            pixisét.</stage>
+            </p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Ej, eb a lőcse ocsmán tubákját, minek szíjja már azt az ember, csak az
+                            órát abrakolja, azután úgy beszéll tőlle, mintha mezítláb szállott volna
+                            le az ágyról,<stage>ezt nátháson mondja</stage> ollyan nagy lesz tőlle
+                            az óra, mint a sós ugorka, osztán verhenyeges mint a vergánya.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Ah, mit beszél maga, Fenekes az a tubák a szemet tisztígya az órát
+                            tisztígya, szárogatja.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Azt az utolsót elhiszem; de azt is elhiszem, hogy minden tubákos ember
+                            órának a kesztheli kéményseprőt kellene conventiora megfogadni. - De
+                            soha a tubákos embernek sohasem lát jobb szemmel az apja is, mint aki
+                            még ki se tudja mondani a tubák nevét.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Látja, Fenekes! ha az ember kicsin alhatnám, csak veszi, mindjárt nincs
+                            van úgy alhatnám.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Megesnék úgy bele, ha az istorása a faköpenyegbe, mikor sirbakot áll,
+                            mindig tömné az órát, hogy el ne alugyék. Ho-ho, a' hát csak szunyató
+                            rest embernek való.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Jaj, láttya Fenekes, az nem is illik minden paraszt ember pebelnek az
+                            csak csinalik csinos ember, úri, okos, galant.</p>
+          </sp>
+          <sp who="#pofok">
+            <speaker>POFÓK.</speaker>
+            <p>Vagy galand vagy nem galand, de a' bizon nem is szíp, a manó is hozta
+                            országunkba, úgy szólván. Én ugyan, kivált ha tubákos asszont látok, nem
+                            szánnám bezsindeleztetni az órát. - De annak a pipának is ugyan mi
+                            haszna van, úgy szólván.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Ah, édes Bácsim, - már ennek annyi haszna van, mint ördög.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Az bizon, mint zörtök pujik hát bele.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Ni, sógor! ha az ember koplal, pipázik, ha jól lakik, pipázik, búvába
+                            pipázik, örömébe pipázik, mérgébe pipázik, a nőtelen embernek feleség
+                            helyett van, a házas embernek, ha pöröl a felesége, azzal elűzi magától,
+                            mint az ördögöt a tömjénnel, a pipások között legszívesebb divatjába van
+                            a pajtásság, osztán mikor az embernek egyéb dolga nincs, pipára gyújt,
+                            hogy az ördög hivalkodva ne találja.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Asz piszon, mint zördök pujék ked bele.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Pipa nélkül a férjfi nem is férfi csak nöstén legény, kan asszony; de ha
+                            pipát vesz a szájába, a bajusszát kétfelé törlénti, meglehet, nem lehet,
+                            látja Ked, sógor, mingyár millyen figuriás gyerek lesz belőle.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Az pizoni csak kinesség, az picsiletes ember az nem szereti a dohánfist,
+                            a dáma is nem megszereti; a szoba pites, mint pokol, ember részeg, övé
+                            fejébe sok megcsinál refolution, szája be van pácolva, az mind a kamin,
+                            pökni mintég, mint a kola, az piszon absajlig csuna pites. - Az nem szip
+                                kinességet.<stage>Az ujját a szájába veszi s pettyeget, mint a pipás
+                                ember.</stage>
+            </p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>De, Isten látja a lelkemet, mond Ked sógor valamit, anélkül biz el is
+                            lehetne az ember a világon, úgy szólván, én soha sem pipáztam, mégis itt
+                            vagyok, azt bizony csak a hetykeség kapatta fel annyi emberrel, hijjába,
+                            no csak haszontalan, egyik a másiktól meglátja, én pedig megmondom
+                            magyarán a Herkó Pater előtt is, hogy mind a pipa mind a tubák úgy
+                            szólván hijjába valóság és a léleknek gyötrelme.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">TIZENEGYEDIK JELENÉS</head>
+          <stage>Lehelfi és Petronella.</stage>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Ah! mit beszél a Kisasszony, kedvezzen az én elrémülésemnek, és csak
+                            addig is, míg magamat kifúvom, és rendbeszedem, ámítson kedvezőbb
+                            híradás.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Az Úr nem érdemli az éntőllem, hogy én az Urat megcsaljam. A dolog
+                            voltaképpen úgy van, amint elmondtam, éppen csak az imént jöttem fel az
+                            Atyámtól a kertből.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>És Szászlaki azért jár itten mostanában?</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Éppen ezért, és mostan már harmadik ízbe, és igen nagyra tartja
+                            magát.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Ő a Kisasszonyt nem érdemli.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Az atyám hajlandónak látszik hozzája.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>És talán a Kisasszony is?</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Én nem tudom, mit csináljak az én szívem fáj.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Egek! hát már az én reménységem álomba esett, és a mi sok édes szavaink a
+                            szelek szárnyán enyésztek el? Lehelfi és Petronella, ez a két egymásnak
+                            kedves név a tavaszi jég hátára volt felmetszve, meg van a fatális kötél
+                            fonva, melly az én boldogságomat örökre, ah örökre, megfojtsa, nékem
+                            pedig még csak az a vigasztalás sem maradt, ami a remények-vesztett
+                            nyomorultaké t. i. az elfelejthetés.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Ha az Úr magát fel nem találja, én oda vagyok. - Az Úron áll mind a
+                            kettőnk boldogsága.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Mit tudjak tenni, mit tudjak tenni, ó Kegyes Szív! éretted s érettem mit
+                            tudjak én tenni, ki féltehetetlen vagyok, mihelyt a tehozzád való
+                            reménység nem önt lelket belém.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Nem szükség az Úrnak semmi mesterséges plánumon elnyerni a maga célját,
+                            egy ollyan ember előtt, mint az én atyám, elég szószóllók lesznek az
+                            Úrért őelőtte az Úrnak saját virtusai és az én boldogságom, rukkoljon ki
+                            az Úr velek az ő egész fényében, említse az Úr az én nevemet, és azonnal
+                            megnyerjük, amit mind a ketten ohajtunk és azonnal annak a külsőországi
+                            napot fenyegetőnek távolról csillámló gőz meteoronja, mint a fattyú Nap,
+                            eltűnik.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Úgy tetszik, mintha az én megjelent őrző angyalomat látnám a
+                            Kisasszonban, ó szép szavak, megérdemlitek ti, hogy bételjesedjetek.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Kedves Úr! ha engemet szeret, még most mindjárt menjen le a kertbe. - Az
+                            Úr jelenléte mindég sokat szokott tenni az én atyámba.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>A Kisasszony parancsolatja törvényem nékem. - Hólnap meglátogatom a
+                            Kisasszont, addig is adjon szállást kegyes szívébe a szerencsétlen
+                            Lehelfi nevének.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Kedves név az énelőttem, kedves mint az Úr maga, megérdemeljük mi az
+                            Egektől, hogy bennünket egymással boldogítsanak.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">TIZENKETTEDIK JELENÉS</head>
+          <stage>Lehelfi és Fenekes.</stage>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Fenekes!</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Parancsolatjára az Úrnak.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Ha csak ha! <stage>Petronella énekel.</stage>
+            </p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <stage>énekel</stage>
+            <lg>
+              <l>Életem mái</l>
+              <l>Komor órái!</l>
+              <l>Hány ezer bú s átok</l>
+              <l>Jöve rátok.</l>
+              <l>Fussatok ezekkel</l>
+              <l>A sok keservekkel,</l>
+              <l>Mellyekkel az Ég</l>
+              <l>Ostoroz még.</l>
+              <l>Jaj szabadítsatok,</l>
+              <l>Öldöklő bánatok!</l>
+              <l>Mert e kín engemet</l>
+              <l>Porba temet.</l>
+            </lg>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Ejnye be szép, Uram!</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Oda vagyok Fenekes! megmondtam hogy csak pletyka hír az, amit te hoztál
+                            az udvarból. - Petronellát már Szászlakinak ajánlották, mit tesznek most
+                            azok a te cselédházbeli tanúbizonyságid!?</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Ejj, Uram: sokat végeznek Bécsbe de elrontják az égbe. Elronthatná az a
+                            cafrangos Német fickó az Úr szerencséjét? - Lám az Urat régolta esmeri a
+                            kisasszony, s tudok is annyit benne, hogy szereti is. Csak azért is
+                            elbúcsúzom tőlle egy szép nótával.<stage>Danol.</stage>
+            </p>
+            <lg>
+              <l>Halavány hóld bús világa,</l>
+              <l>Te légy kínom bizonysága;</l>
+              <l>Te sok álmatlan éjjelen</l>
+              <l>Edgyütt virrasztottál velem.</l>
+            </lg>
+            <lg>
+              <l>Süss kedvesem ablakára,</l>
+              <l>Hints lágy álmot szemhéjjára,</l>
+              <l>Hogy a bájoló szerelem</l>
+              <l>Párnáján álmodjék velem.</l>
+            </lg>
+            <lg>
+              <l>Te pedig, ó kedves-kellő</l>
+              <l>Álomhozó esti szellő,</l>
+              <l>Legyezd gyengén angyalomat</l>
+              <l>S ejtsd mellyére egy csókomat.</l>
+            </lg>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>A' mind jól van, Fenekes; de az én reménységem többé nem akar engem
+                            esmérni, és én boldogtalan vagyok, ah legboldogtalanabb örökre.</p>
+          </sp>
+          <sp who="#fenekes">
+            <speaker>FENEKES.</speaker>
+            <p>Menjünk haza, Uram, majd otthon egy jót álmodjunk - az Úr nem lehet
+                            boldogtalan.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Nem bánom - - Egek, tehát ezen esmerettségem komédiája illy szomorú
+                            felvonáson végződik!!!</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head type="title">HARMADIK FELVONÁS</head>
+        <div type="scene">
+          <head type="title">ELSŐ JELENÉS</head>
+          <stage>Petronella és Tisztes.</stage>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <stage>magába.</stage>
+            <p>Egek, adjatok erőt az én gyenge leányi szivemnek, adjatok tanácsot - ah!
+                            Szegény Lehelfi, a te kínod, a magam kínja kétfelől facsarják az én
+                            szívemet. Egek, mit tegyek!<stage>Énekel.</stage>
+            </p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Mi lelt téged, édes Leányom, veszem észre, hogy szomorú vagy: hallom,
+                            hogy keseregsz, látom, könnyeid is hullanak, nincs bizodalmad a te
+                            atyádhoz? Szólj, mi lelt?</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Ah! édes Uram Atyám, mind a ketten meg vagyunk csúfolva, egész házunkhoz
+                            háládatlan lett a Szászlaki.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Hogyhogy, édes Leányom? - Azt fel nem tehetem felőle.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Méltóztasson megolvasni ezt a levelet, amellyet egy barátjához ír, és
+                            akkor higgye el, Uram Atyám, micsoda paraszt kevélységgel néznek ránk,
+                            itthoniakra a külső országi széllel duzzadt fiatalkák.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Hadd lássam, édes Leányom, szégyenleném én azt. - Hüm.
+                                <stage>Olvassa:</stage> A monsieur monsieur Zsean de Venkör mon Ami
+                            A Vian Dotris. Majd megolvasom, édes Leányom, odafel a szobában, a
+                            pápaszemem is ott van. Te pedig maradj itt addig a filegoriába, majd
+                            lejövök továbbat.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Amint parancsolja, édes Uram Atyám.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <stage>magába.</stage>
+            <p>Üm, üm, ugyan dolog volna az, még csak gyanitni sem tudom, pedig millyen
+                            cultusnak mutatta magát - üm, üm.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">MÁSODIK JELENÉS</head>
+          <stage>Szászlaki és Conrad.</stage>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Mit gondolsz Conrad? hogy volna ő énhozzám érdemes, én külső országot
+                            öszvejártam, ott mindenütt ollyan becsületbe voltam, amillyenhez még egy
+                            magyarnak sem volt szerencséje, nagy tudósokkal, doctorokkal,
+                            professorokkal, sőt hofratokkal barátkoztam.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Sist var, asz ikkasz.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>És én mégis itt Somogyba, itt, az akadémiátlan Magyarországnak
+                            legakadémiátlanabb részibe telepedjem meg? Ki értené ott meg az én
+                            diplomáimat? ki tudna ott engemet az én csatos cipőkömért, saxoniai
+                            strimflieimért méltóképpen tisztelni.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Sist var, asz ikkasz.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Éhhel kellene ott nékem meghalni: Külső országi sago darát, kaput,
+                            sampanelt, vaniliát, milanoi cukkerpakkerait, egyéb efféléket,
+                            amellyekhez én külső országon hozzászoktam, hol kapna azok között ottan
+                            az ember az originalis magyarok között.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Sist var, asz ikkasz.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>A leány ugyan, már amennyit magyartól lehet várni, eléggé culta, azt meg
+                            kell vallani, és meg is érdemlette volna, hogy általam hírre kapjon még
+                            külső országi consiliarius barátim között is. De az én hamburgi kalapom
+                            még nagyobb szerencsére vágyik, még ő igen magyaros, én sokkal
+                            auslendisebb tonushoz szoktam. Csak a paraplimat mutatom, és
+                            hozzáteszem, hogy azt a hofrad Svalvistain úrnak, aki a Hessen-Casseli
+                            Langraf legkedvesebb ministerének, báró Kaindorfnak a barátja, mondom,
+                            annak az úrnak barátjának professora, Tunkopfnak a legkedvesebb
+                            tanítványa, Blutarm ajándékozta, azonnal akárhol is nagyobb szerencsét
+                            is kaphatok a pallérozatlan Magyarországba.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Sist var, asz ikkasz.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>Eddig is csak azért várakoztam, hogy ha más szerencsém nem akad
+                            hamarjában, tehát ezt a leányt is elveszem; de most, mivel barátim
+                            tudtomra adták, hogy a Pappenhaim úrnak nagyobb culturára ment
+                            Kisasszonyát is, ha tetszik, megnyerhetem, tehát ezt a cedulát csak vidd
+                            el az öreg Tisztesnek; mert nekem az őkeme domidoctus magyaros házára
+                            nézni is derogál.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Klaik Klaik, mingyárt, mingyárt, aszolgája Her patron.</p>
+          </sp>
+          <sp who="#szaszlaki">
+            <speaker>SZÁSZLAKI.</speaker>
+            <p>No, csak svind, én majd addig a szállásomra hazamegyek. - Siess vissza,
+                            pakoljunk.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">HARMADIK JELENÉS</head>
+          <stage>Tisztes és Conrad.</stage>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Asszolgája, knediger her.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>No - mi kell?</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Az én patron, her Szazlaki fan Ludvig diszteli a knediger her, küldi ez a
+                            kis cettel.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Addide, hadd lássam a cédulátokat, ördög szánkázzon meg.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Idd van, knediger her.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <stage>olvassa</stage>
+            <p>Tekintetes Uram!</p>
+            <p>Én az Úr barátságát nagyon köszönöm; de az én külsőországi érdemeim
+                            sokkal nagyabbra emeltek engemet, mintsem azzal tovább is élhetnék:
+                            Bizony nagy szusz egy fickóba. A Kisasszonyt tisztelem. Eb kisasszonyát
+                            tisztelje s kivánom vagy hogy is van, nagyon németes irás, alig mehetek
+                            el rajta s kívánom, hogy a culturába tovább is előmenjen igen őkemére
+                            bízták. Én a Pappenhaim úrnak auslendises és sokkal galantabb
+                            kisasszonyát nyertem meg magamnak. Övé legyen a jámbor, bújjék bele. Már
+                            indulóba is vagyok. Csak tessék, arra az út, merre a kerékvágás. Maradok
+                            a Tekintetes Úrnak s a többi. Már hát visz az ördög benneteket.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Ah nem, Knediger her, szertig nem fisz, csak 4 jó ló, fáin
+                            posztilion.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>No hát csak vesszetek ördögbe.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Hát parancsol szén szur valami írni, vagy mondani a Knediger, her?</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Szóval is megmondhatod, hogy csak vigyen az ördög benneteket.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD.</speaker>
+            <p>Asszolgája.<stage>Magába menvén.</stage>Figye ked szerteg tigedet fin
+                            polond, az nekünk nem figyen.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">NEGYEDIK JELENÉS</head>
+          <stage>Tisztes és Lehelfi.</stage>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Csak gondolja el, édes Lehelfi Uram, az Úr, most megint egy cedulát
+                            küldött az a szelepurdi Szászlaki, tessék elolvasni az Úrnak.</p>
+          </sp>
+          <stage>Olvassa s minden punctumnál illyen formákat ejt.</stage>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>E' bizony már csunyaság, e' bizon nem cultura, ki gondolta volna.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Hát még ezt a levelet olvassa meg az Úr, mellyet egy barátjának írt
+                            Bécsbe, és amelly csudálatos úttal-móddal a leányom kezére került.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <stage>olvassa.</stage>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Hát nem gorombaság ez, hát nem mesterséges szelesség?</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Lássa a Tekintetes Úr, gyakran így veszik ám meg pénzen a mi magyarjaink,
+                            igy terjesztik el nemzetünkbe is a külföldi bűnöket. Ez már az egyenes
+                            magyar character ellen van.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Az igaz, de most semmi, már ezek mind elmúltak. Elég az, hogy nékünk mind
+                            a hármonknak bétölt a kívánságunk, és az Úr az én vőm. - Isten tartsa
+                            meg az Urat.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Szolgalatjára a Tekintetes Úrnak.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Én már kiadtam a rendelést, ma egy kis előljáró mulatságunk lesz, a
+                            compossessor urakat is mind meginvitáltam, a cigányok már mind itt
+                            vagynak, hallom, hogy pengetik a hegedűt. - Dzindzár eljöttek?
+                                <stage>Felelnek a Cigányok:</stage>Eljöttünk, Uram! Nohát csak jol
+                            kanaforiázzátok meg, magam is ma jól megforgatom az öreg postamesternét.
+                            De tudjátok még az én nótámat?<stage>Cigányok: Tudjuk.</stage>De így
+                            húzzátok ám, most jó kedvemből még egyszer elmondom.
+                                <stage>Énekel</stage>
+            </p>
+            <lg>
+              <l>Avagy mágnes keménységét</l>
+              <l>Vetkezd le szűvednek,</l>
+              <l>Ne emészd már, akit tartál</l>
+              <l>Mindeddig hűvednek.</l>
+              <l>De reménlem valahára</l>
+              <l>Még megérem utollára,</l>
+              <l>Sorsom, bár későn, megszánod,</l>
+              <l>Dolgodat megbánod.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head type="title">ÖTÖDIK JELENÉS</head>
+          <stage>Petronella, Firkász és az elébbiek.</stage>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Édes Uram Atyám! éppen most ment el itt négy lovon, nagy hegyessen a
+                            Mossziő Szászlaki. - Külsőországi módon félre vágta a kalapját és ami
+                            legrendesebb, illyen szép nyári időbe felberzesztette azt a híres
+                            Hessen-Casseli parapliját.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Csak loderdum, édes Lányom, hadd menjen, ki bánja, meg nem áll is meg
+                            Bergengóciáig. - Itt a Te Lehelfid, az Isten áldja meg. - Majd kedvednek
+                            kell lenni.</p>
+          </sp>
+          <sp who="#petronella">
+            <speaker>PETRONELLA.</speaker>
+            <p>Lehelfi Úr többet is érdemel éntőlem a csupa jó kedvnél.</p>
+          </sp>
+          <sp who="#lehelfi">
+            <speaker>LEHELFI.</speaker>
+            <p>Ma tölt bé az én kívánságom.</p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>S denique, Domine Spectabilis, én a nagyobb urakat mind eljártam, pro
+                                1<hi rend="super">mo</hi> tisztelik a Tekintetes Urat, pro 2°, mind
+                            jelen lesznek a mulatságon, pro 3°, csak az öreg postamesternő nem jöhet
+                            el, mert tele van podagrával.</p>
+          </sp>
+          <sp who="#tisztes">
+            <speaker>TISZTES.</speaker>
+            <p>Ejnye, eb a lelke, ejnye be sajnálom. Gyerünk el, édes fiaim a szobába,
+                            már a nap úgyis nyugodófélbe van, valaki talál bennünket keresni.
+                                <stage>Mennek.</stage>
+            </p>
+          </sp>
+          <sp who="#firkasz">
+            <speaker>FIRKÁSZ.</speaker>
+            <p>No csak denique, mind addig addig, hogy az Isten csakugyan
+                            összeconiugálta őket. - Kár is lett volna másképpen esni a
+                            manipulationak, mert pro 1<hi rend="super">mo</hi> a doncella kisasszony
+                            igen culta, pro 2° a dominus spectabilis is igen cultus ember, pro 3°
+                            Lehelfi úr is igen tudja, mi a valóságos cultura és ő a kisasszonnyal is
+                            mindég tisztességesen és moraliter conversálódott, mégis megnyerte
+                            szerelmét, nagyra nem héjazott, és mégis elérte a legnagyobb
+                            boldogságot, hűségének itt a szép bére. - Vivát tehát Lehelfi úr! No ez
+                            már Cultura.</p>
+          </sp>
+          <stage>Conclusio vagy Clausula</stage>
+          <sp who="#abraham">
+            <speaker>ÁBRAHÁM.</speaker>
+            <p>No hát hogyh tethszett az Uraknak a játék, nekem ugyan tetszett, tsakh
+                            azt bánom, ebh a lelkhi dhiakhjai, mirt produkhaltak a zsidókat. -
+                            Istenütsheg az orcám bhüre szintúgy égett, de ha az Uraknak jó volt,
+                            annyi mind a' magamnak is tetszett. - Én ugyan magam is tudhtam volna
+                            holmi aprolekhos chomidiákat produchalni - az orromból phanthlikát
+                            húztam volna ki. - A cshergei oskhilanak azth mondhtam volna - fütty!
+                            ala mindgyart hegyre szentkiráli pokhilba. Meinetvegen, de az még nem
+                            nagy mesterség. - Majd két hétre Egyed napján, akkor, primo september,
+                            meginth lessz egy chomidia, akkor vásár is Cshergön etvasz ci hadni,
+                            talán lesz valami eladó, én magam is itt leszek, mondhatom szhip lessz,
+                            khérem alázzák meg magokath,</p>
+            <p>Gerzon Di malörö,</p>
+            <p>vagyis az elveszett ifjú úr megtalálása, mondhatom széph lessz. Khérem az
+                            Urakath alázzák meg magokat, mondhatom szép lessz. - Isten algya meg az
+                            Urakat. - Jó itszakhát khivánok csokholom kaputjokat. Az Asszonságoknak
+                            is jó itszakhát adgya Isten, csókolom viganojokat.</p>
+            <p>
+              <hi rend="italic">Jó itszakhát kíványok.</hi>
+            </p>
+          </sp>
+          <stage>Vége</stage>
+        </div>
+        <div type="scene">
+          <head type="title">SZÁSZLAKI LEVELE</head>
+          <stage>(A Cultura harmadik felvonásának negyedik jelenetéhez)</stage>
+          <sp who="#szaszlaki">
+            <p>Szinyore amico!</p>
+            <p>Köszönöm, hogy minél elébb tudósított az Úr afelől, hogy a Pappenhajm úr
+	                        kisasszonya az én számomra tartatik: mert éppen már itt a magyar földön és
+	                        annak is a legmagyarossabb és eszerént legpallérozatlanabb részén egy fél
+	                        culturájú leányba belebotlottam, de hála az én eriangi tászlicskámnak és az
+	                        Úr barátságának, cultább dáma láttatik az én érdemeimet valamennyire
+	                        megjutalmaztatni. Amico! úgy-é nem hijjában vágattam alá bajuszom, egészen
+	                        magyarnak mutatott a selma, sohasem kaphattam volna meg miatta a Pappenhajm
+	                        kisasszonyt nem - és mostan az öreg Tisztesnek fél bárdolatlan
+	                        kisasszonyával kellett volna megelégednem, vagy azzal sem. Én holnap pakolok
+	                        innen s a Tiszteséket itt hagyom, ahol találtam. Addig is csókolja nevemmel
+	                        a Frájlajn von Pappenhajm auszlendis kezeit és míg meglátnánk egymást, addig
+	                        is éljen az Úr szerencsésen.</p>
+            <p>
+              <hi rend="italic">Ludvig Szászlaki manu propria</hi>
+            </p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

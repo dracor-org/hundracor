@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000026">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000026" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +66,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -81,8 +78,7 @@
         <bibl type="digitalSource">
           <title type="main">Férfi és nő</title>
           <title type="sub">Dráma öt felvonásban</title>
-          <publisher>Magyar Elektronikus Könyvtárért
-                                                  Egyesület</publisher>
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
           <ref target="https://mek.oszk.hu/00800/00850"/>
           <date when="2001-10-28">2001-10-28</date>
           <respStmt>
@@ -123,8 +119,7 @@
               <forename>Pál</forename>
             </persName>
           </respStmt>
-          <title type="main">Madách Imre Összes
-                                                  Művei</title>
+          <title type="main">Madách Imre Összes Művei</title>
           <title type="sub"/>
           <pubPlace>Budapest</pubPlace>
           <publisher>Athenaeum</publisher>
@@ -140,7 +135,7 @@
           <person sex="MALE" xml:id="herakles">
             <persName>Herakles</persName>
           </person>
-          <person sex="MALE" xml:id="euristeus">
+          <person sex="MALE" xml:id="euristheus">
             <persName>Euristheus</persName>
           </person>
           <person sex="MALE" xml:id="philoktetes">
@@ -209,13 +204,15 @@
           <role><roleName>Jolaus</roleName>Herakles szolgája</role>
         </castItem>
         <castItem>
-          <role><roleName>Hebe</roleName>Zeus leánya, az ifjúság istenasszonya, és az ég pohárnoka</role>
+          <role><roleName>Hebe</roleName>Zeus leánya, az ifjúság istenasszonya, és az ég
+						pohárnoka</role>
         </castItem>
         <castItem>
           <role><roleName>Deianeira</roleName>Herakles neje</role>
         </castItem>
         <castItem>
-          <role><roleName>Jole</roleName>árva leánya Euristheus, Oichelia volt királyának</role>
+          <role><roleName>Jole</roleName>árva leánya Euristheus, Oichelia volt
+						királyának</role>
         </castItem>
         <castItem>
           <role><roleName>Kaliste</roleName>Deianeira rableánya</role>
@@ -232,18 +229,11 @@
       <div type="act">
         <head type="title">ELSŐ FELVONÁS</head>
         <head type="title">FÉRJ ÉS NŐ</head>
-        <p>
-          <stage>Személyei: Herakles. Euristheus. A
-                                                  lantos. Deianeira. Jole. Kaliste s több
-                                                  rableány.</stage>
-        </p>
-        <p>
-          <stage>(Királyi lak. Bársony széken ül
-                                                  Deianeira, ölében virághalom, kezében félig font
-                                                  koszorú; a földön rabnők ülnek, s virágszálakat
-                                                  nyújtanak föl. - Egy szögletben mélázik
-                                                  Euristheus.)</stage>
-        </p>
+        <stage>Személyei: Herakles. Euristheus. A lantos. Deianeira. Jole. Kaliste s több
+					rableány.</stage>
+        <stage>(Királyi lak. Bársony széken ül Deianeira, ölében virághalom, kezében félig
+					font koszorú; a földön rabnők ülnek, s virágszálakat nyújtanak föl. - Egy
+					szögletben mélázik Euristheus.)</stage>
         <sp who="#kaliste">
           <speaker>KALISTE</speaker>
           <stage>(liliomot nyújt Deianeirának)</stage>
@@ -258,11 +248,9 @@
             <l>Ez reményvirág;</l>
             <l>Nekem reményre nincs szükségem; adj</l>
             <l>Egy ág mirtuszt.</l>
-            <l><stage>(Elveszi s a koszorúba
-                                                  szúrja.)</stage></l>
+            <l><stage>(Elveszi s a koszorúba szúrja.)</stage></l>
             <l>Égő rózsák között</l>
-            <l>Rezegjen a szerelem virága. -
-                                                  <stage>(Fölugrik.)</stage> Jön!</l>
+            <l>Rezegjen a szerelem virága. - <stage>(Fölugrik.)</stage> Jön!</l>
             <l>A kürt szavát hallom.</l>
           </lg>
         </sp>
@@ -272,8 +260,7 @@
           <lg>
             <l>Ülj csak le nőcske;</l>
             <l>És fűzögesd hitvány tekercsedet;</l>
-            <l>Soká jön meg a hős! <stage>(Kacagva.)</stage> S
-                                                  ha jőne is,</l>
+            <l>Soká jön meg a hős! <stage>(Kacagva.)</stage> S ha jőne is,</l>
             <l>Hoz ő fején különbet!</l>
           </lg>
         </sp>
@@ -349,8 +336,7 @@
         <sp who="#euristheus">
           <speaker>EURISTHEUS</speaker>
           <lg>
-            <l>Hogy ifjú vagy. <stage>(Kérlelve.)</stage>
-                                                  Leányom légy nyugodt;</l>
+            <l>Hogy ifjú vagy. <stage>(Kérlelve.)</stage> Leányom légy nyugodt;</l>
             <l>Én tégedet szeretlek; néha-néha</l>
             <l>Igaz, megkínzalak, - mert ifju vagy még,</l>
             <l>És játszni kívánsz vélem mint fiúval;</l>
@@ -359,8 +345,7 @@
             <l>Játékait, virágot vagy leányt,</l>
             <l>Vagy harcmezőt; mert lelke visszasír</l>
             <l>Múltjára, és az indulatvihar közt</l>
-            <l>Könnyen rád mordul. - Gyermekem ne
-                                                  reszkess!</l>
+            <l>Könnyen rád mordul. - Gyermekem ne reszkess!</l>
             <l><stage>(Karját megfogja.)</stage></l>
           </lg>
         </sp>
@@ -369,16 +354,14 @@
           <lg>
             <l>Óh, mily száraz karod! Acélered</l>
             <l>Minő csikorgva hajlik! Óh, bocsáss!</l>
-            <l>Én félek tőled. <stage>(Kürt szól.)</stage>
-                                                  Mondtam, jön Herakles!</l>
+            <l>Én félek tőled. <stage>(Kürt szól.)</stage> Mondtam, jön Herakles!</l>
             <l>Már itt.</l>
             <l><stage>(Örömmel az ajtónak fut.)</stage></l>
           </lg>
         </sp>
         <sp who="#herakles">
           <speaker>HERAKLES</speaker>
-          <stage>(belép, karján a szép, de sápadt
-                                                  Jole)</stage>
+          <stage>(belép, karján a szép, de sápadt Jole)</stage>
           <lg>
             <l>Nőm!</l>
           </lg>
@@ -498,16 +481,14 @@
           <lg>
             <l>A hős azért csatáz,</l>
             <l>Mit még nem bír. Jer hitvesem, tekintsd meg</l>
-            <l>Barátinkat. Euristheus te is jer. <stage>(El
-                                                  hárman.)</stage></l>
+            <l>Barátinkat. Euristheus te is jer. <stage>(El hárman.)</stage></l>
           </lg>
         </sp>
         <sp who="#jole">
           <speaker>JOLE</speaker>
           <lg>
             <l>E pórleányok közt felejtsek én</l>
-            <l>El sírni? Jó! Megkísértjük!
-                                                  <stage>(Vadul.)</stage> Különben</l>
+            <l>El sírni? Jó! Megkísértjük! <stage>(Vadul.)</stage> Különben</l>
             <l>A porba kell eldugni tőrömet:</l>
             <l>Hogy ott hurkolja meg a büszke embert.</l>
             <l><stage>(A lányok közé lép.)</stage></l>
@@ -531,24 +512,19 @@
           <lg>
             <l>Szép név! Nézzétek a lantos!</l>
             <l>Jertek rángassuk össze húrjait! Megállj</l>
-            <l>Kis szőke! <stage>(A lantos keresztülmegy a
-                                                  színen, s a lányok utána erednek.)</stage></l>
+            <l>Kis szőke! <stage>(A lantos keresztülmegy a színen, s a lányok utána
+								erednek.)</stage></l>
             <l>Egy dalt kell játszanod.</l>
           </lg>
         </sp>
         <sp who="#jole">
           <speaker>JOLE</speaker>
           <lg>
-            <l>Hah, Istenem! Ez ifjút ismerem!
-                                                  <stage>(El.)</stage></l>
+            <l>Hah, Istenem! Ez ifjút ismerem! <stage>(El.)</stage></l>
           </lg>
         </sp>
-        <p>
-          <stage>(Kert. Késő est. - Herakles jön
-                                                  fegyvertelen; - vállán szokott öltönye:
-                                                  oroszlánbőr, melyet keblén
-                                                  széjjelhúz.)</stage>
-        </p>
+        <stage>(Kert. Késő est. - Herakles jön fegyvertelen; - vállán szokott öltönye:
+					oroszlánbőr, melyet keblén széjjelhúz.)</stage>
         <sp who="#herakles">
           <speaker>HERAKLES</speaker>
           <lg>
@@ -557,30 +533,24 @@
             <l>Mért görg oly forró zápor homlokomról</l>
             <l>Le a bokákig? Hah, tudom miért:</l>
             <l>Láng van belől, láng ég a csont között.</l>
-            <l><stage>(Mosolygva.)</stage> Eh, balgaság! Ha
-                                                  ég, kioltom; ott fent</l>
+            <l><stage>(Mosolygva.)</stage> Eh, balgaság! Ha ég, kioltom; ott fent</l>
             <l>A nő epedve vár. - Nem, nem, meguntam őt!</l>
-            <l>Deianeira nem kell! <stage>(Leveszi
-                                                  koszorúját.)</stage> Agyvelőmtől</l>
+            <l>Deianeira nem kell! <stage>(Leveszi koszorúját.)</stage> Agyvelőmtől</l>
             <l>Csirába jön e gyom; s nem hord Herakles</l>
             <l>Aszott kezekkel font homlokfüzért.</l>
-            <l><stage>(Szétszedi.)</stage> Nézd csak: még
-                                                  mirtusz is, mi jut eszébe.</l>
+            <l><stage>(Szétszedi.)</stage> Nézd csak: még mirtusz is, mi jut
+							eszébe.</l>
             <l>Te jó asszonyka vagy nejem, de nem szép,</l>
             <l>Nem Jole; mert ő szebb e léttelen</l>
-            <l>Virágnál <stage>(Összegyűri s eldobja.)</stage>
-                                                  és a mennyeknél dicsőbb.</l>
+            <l>Virágnál <stage>(Összegyűri s eldobja.)</stage> és a mennyeknél
+							dicsőbb.</l>
             <l>Óh, Jole! istenlány, a földterén</l>
             <l>Utolsó harcom bére! Kötsz-e te</l>
             <l>Egy füzért homlokomra, mely soha</l>
-            <l>Nem hervadand? kötsz-e - kötsz-e? Ha
-                                                  tudnám?</l>
-            <l><stage>(Föltekint.)</stage> A nő termében a
-                                                  világ kihalt, -</l>
-            <l><stage>(Susogva.)</stage> Most nyúgoszik le
-                                                  ágya bíborára, -</l>
-            <l>Most vár, - most hullámzik föl keble értem.
-                                                  -</l>
+            <l>Nem hervadand? kötsz-e - kötsz-e? Ha tudnám?</l>
+            <l><stage>(Föltekint.)</stage> A nő termében a világ kihalt, -</l>
+            <l><stage>(Susogva.)</stage> Most nyúgoszik le ágya bíborára, -</l>
+            <l>Most vár, - most hullámzik föl keble értem. -</l>
             <l>Most hallgat szívreszketve, hallja-e</l>
             <l>Lábam döngésit a tornác kövén; -</l>
             <l>Ne várj, ne várj! Én hozzád nem megyek!</l>
@@ -598,54 +568,44 @@
           <speaker>JOLE</speaker>
           <stage>(jön s a kert túlsó részin megáll)</stage>
           <lg>
-            <l>A zsarnok fészke néma,
-                                                  <stage>(Körülnéz.)</stage> senki sincs itt?</l>
+            <l>A zsarnok fészke néma, <stage>(Körülnéz.)</stage> senki sincs itt?</l>
             <l>Nincsen, csak az, ki önmagát virasztja</l>
             <l>S azért van ébren, hogy fájdalmait</l>
             <l>Ne hagyja elaludni. Óh, atyám!</l>
             <l>Ne bánd, hogy most még csak sírok, idő kell</l>
             <l>A tettre még; és addig mit tegyek?</l>
-            <l><stage>(Egy ősz hajfürtöt húz ki
-                                                  kebléből.)</stage></l>
+            <l><stage>(Egy ősz hajfürtöt húz ki kebléből.)</stage></l>
             <l>Keblem volt sírja eddig ősz hajadnak;</l>
             <l>De e sír oly forró, és oly fehér,</l>
             <l>Hogy ott nem nyughatsz; mert Herakles azt</l>
             <l>Feltépi, és csókokkal elborítja;</l>
             <l>Ott nem maradhatsz, szent ereklye, nem!</l>
-            <l>Eláslak inkább; <stage>(Letérdel.)</stage> itt
-                                                  elég hideg van;</l>
-            <l>E sírnak a hideg jó, (Elszóródva.) sír, - mi a
-                                                  sír?</l>
+            <l>Eláslak inkább; <stage>(Letérdel.)</stage> itt elég hideg van;</l>
+            <l>E sírnak a hideg jó, (Elszóródva.) sír, - mi a sír?</l>
             <l>Halott ágy, mely fölött sír a halandó,</l>
             <l>S ön fájdalmát, nem a holtét siratja.</l>
-            <l><stage>(Felugrik.)</stage> De én egyet sem! A
-                                                  kevély menyasszony</l>
+            <l><stage>(Felugrik.)</stage> De én egyet sem! A kevély menyasszony</l>
             <l>Mért sírna hát? Sírt, midőn leány volt;</l>
             <l>S hol venne annyi könnyet? A szemek</l>
             <l>Tavak csak, melyek elapadnak egykor.</l>
             <l>És most nyugodj, öreg! Nem látsz fölötted</l>
             <l>Térdelni többé; mert a lánykebelnek</l>
             <l>Az izma gyönge s könnyen megszakad;</l>
-            <l>Pedig még nekem élnem kell sokáig!
-                                                  <stage>(Indul.)</stage></l>
+            <l>Pedig még nekem élnem kell sokáig! <stage>(Indul.)</stage></l>
             <l>Még egyszer, óh még egyszer ősz hajak</l>
-            <l>Csókollak. <stage>(Leborul.)</stage> Hah mi az,
-                                                  mi ott világol?</l>
-            <l>Úrnőm jő! <stage>(Fölugrik, s egy bokor mellé
-                                                  húzódik.)</stage></l>
+            <l>Csókollak. <stage>(Leborul.)</stage> Hah mi az, mi ott világol?</l>
+            <l>Úrnőm jő! <stage>(Fölugrik, s egy bokor mellé húzódik.)</stage></l>
           </lg>
         </sp>
         <sp who="#deianeira">
           <speaker>DEIANEIRA</speaker>
-          <stage>(jön, kezében lámpa, utána
-                                                  rableányok)</stage>
+          <stage>(jön, kezében lámpa, utána rableányok)</stage>
           <lg>
             <l>Éj közelg, s Heraklesem</l>
             <l>Nem jő hozzám fel. A hold fényinél</l>
             <l>Itt láttam őt mélázni. Jertek erre!</l>
             <l>Nézzétek ott a hős! Elszenderült;</l>
-            <l>Ne költsétek fel lányok. <stage>(Melléje
-                                                  ül.)</stage></l>
+            <l>Ne költsétek fel lányok. <stage>(Melléje ül.)</stage></l>
           </lg>
         </sp>
         <sp who="#jole">
@@ -726,8 +686,7 @@
           <speaker>DEIANEIRA</speaker>
           <lg>
             <l>Menj bolond! A lánysereg</l>
-            <l>Mit szólna érte? <stage>(Jole
-                                                  megpirul.)</stage></l>
+            <l>Mit szólna érte? <stage>(Jole megpirul.)</stage></l>
           </lg>
         </sp>
         <sp who="#ifju_lantos">
@@ -760,8 +719,7 @@
           <speaker>LANTOS</speaker>
           <lg>
             <l>Az égmagas Kaukaz hegyén,</l>
-            <l>Sziklán láncolva ül Az emberalkotó
-                                                  Prometheus;</l>
+            <l>Sziklán láncolva ül Az emberalkotó Prometheus;</l>
             <l>S halványan nézi mint rágódik a sas</l>
             <l>Újonnan nőtt szívén.</l>
             <l>S mint nézi: a völgyek között</l>
@@ -865,8 +823,7 @@
           <stage>(álmában)</stage>
           <lg>
             <l>Megállj! - Borul szemed - csókot leány -</l>
-            <l>Csak egyet - Óh, ne sírj, - hiszen - hiszen
-                                                  csak egyet</l>
+            <l>Csak egyet - Óh, ne sírj, - hiszen - hiszen csak egyet</l>
             <l>Rimánylok - nem sok az.</l>
           </lg>
         </sp>
@@ -928,8 +885,7 @@
           <speaker>HERAKLES</speaker>
           <lg>
             <l>Ha úgy gyönyörködöl meghallani:</l>
-            <l>Még egyszer mondom, vén vagy, nem
-                                                  szeretlek.</l>
+            <l>Még egyszer mondom, vén vagy, nem szeretlek.</l>
           </lg>
         </sp>
         <sp who="#deianeira">
@@ -989,8 +945,7 @@
             <l>Szerettelek. De azt nem mondtam, úgy-e</l>
             <l>„Szeretni foglak?” mert olyat nem ígér</l>
             <l>A józan ember: mely indúlaton</l>
-            <l>Alapszik. - Most halld, asszonyom, a
-                                                  végzést</l>
+            <l>Alapszik. - Most halld, asszonyom, a végzést</l>
             <l>Férj és nő lenni e nap megszününk.</l>
           </lg>
         </sp>
@@ -1024,13 +979,11 @@
             <l>Nem, nem kivánom! Hisz fáj nekem is,</l>
             <l>Ha szenvedsz; óh, mi egy vagyunk a testben,</l>
             <l>Mint a szellemben voltunk - vagy talán</l>
-            <l>Most is vagyunk. (Hízelgve.) Hiszen te csak
-                                                  velem</l>
+            <l>Most is vagyunk. (Hízelgve.) Hiszen te csak velem</l>
             <l>Most játszál! Úgy-e csak játszál Herakles?</l>
             <l>Mosolygsz! Igen! Óh, én boldog vagyok,</l>
             <l>Megint a régi hű Deianeira</l>
-            <l>Meg is csókolsz úgy-e? Csak egyszer,
-                                                  egyszer!</l>
+            <l>Meg is csókolsz úgy-e? Csak egyszer, egyszer!</l>
           </lg>
         </sp>
         <sp who="#herakles">
@@ -1051,10 +1004,8 @@
             <l>S ez mily hideg csók! Még könyűimet</l>
             <l>Sem bírta felszárítani! Ne többször,</l>
             <l>Ne többször! Mert a férfi csalni nem tud,</l>
-            <l>Hogy a nő meg ne tudja.
-                                                  <stage>(Büszkén.)</stage> Hős Herakles,</l>
-            <l>Te fogsz szeretni még.
-                                                  <stage>(Indul.)</stage></l>
+            <l>Hogy a nő meg ne tudja. <stage>(Büszkén.)</stage> Hős Herakles,</l>
+            <l>Te fogsz szeretni még. <stage>(Indul.)</stage></l>
           </lg>
         </sp>
         <sp who="#herakles">
@@ -1088,16 +1039,14 @@
             <l>E nagy bogárszem, - e halvány pirosság</l>
             <l>A liliom arcon, - ez ifjú kebel, -</l>
             <l><stage>(Elereszti kezét.)</stage></l>
-            <l>Herakles! ő szebb mint én!
-                                                  <stage>(El.)</stage></l>
+            <l>Herakles! ő szebb mint én! <stage>(El.)</stage></l>
           </lg>
         </sp>
         <sp who="#herakles">
           <speaker>HERAKLES</speaker>
           <lg>
             <l>Azt tudom.</l>
-            <l><stage>(A lantoshoz.)</stage> Te
-                                                  csillag-olvasó! Mért állsz meredve?</l>
+            <l><stage>(A lantoshoz.)</stage> Te csillag-olvasó! Mért állsz meredve?</l>
             <l>Nincs dalod menyegzőmre?</l>
           </lg>
         </sp>
@@ -1120,15 +1069,9 @@
       <div type="act">
         <head type="title">MÁSODIK FELVONÁS</head>
         <head type="title">KÉT ASSZONY</head>
-        <p>
-          <stage>Személyei: Herakles. Euristheus.
-                                                  Philoktetes. A lantos. Jolaus. Deianeira. Jole.
-                                                  Násznép.</stage>
-        </p>
-        <p>
-          <stage>(Terem: egy széken ül a sápadt
-                                                  Deianeira.)</stage>
-        </p>
+        <stage>Személyei: Herakles. Euristheus. Philoktetes. A lantos. Jolaus.
+						Deianeira. Jole. Násznép.</stage>
+        <stage>(Terem: egy széken ül a sápadt Deianeira.)</stage>
         <sp who="#deianeira">
           <speaker>DEIANEIRA</speaker>
           <lg>
@@ -1145,8 +1088,7 @@
             <l>És a játszók közűl egyet megöl.</l>
             <l>Mért ámítom magam? Komoly lemondás</l>
             <l>És jól kimért gúny volt, amit Herakles</l>
-            <l>Hozzám szólt. Gúny - gúny, óh, csak ez
-                                                  nehéz!</l>
+            <l>Hozzám szólt. Gúny - gúny, óh, csak ez nehéz!</l>
             <l><stage>(Fejéhez nyúl.)</stage></l>
             <l>Le a gyöngyökkel; van szememben úgyis</l>
             <l>Elég. Le a bársonnyal is, minek nekem?</l>
@@ -1218,15 +1160,13 @@
           <lg>
             <l>Bódult! férjem neje lányom legyen?</l>
             <l>S apádnak lánya nője is legyen?</l>
-            <l>Ha, ha! Mi szép rokonság. <stage>(Megragadja
-                                                  Jolét.)</stage></l>
+            <l>Ha, ha! Mi szép rokonság. <stage>(Megragadja Jolét.)</stage></l>
             <l>Balga gyermek!</l>
             <l>Elég vénnek látsz már te is anyádnak?</l>
             <l>S a még leendő harcot is közöttünk -</l>
             <l>Mely tartja bennem még az életet, -</l>
             <l>E szóval „légy anyámmá” szívtelen</l>
-            <l>Készülsz elrablani? <stage>(Gúnyosan.)</stage>
-                                                  Jolém, nem úgy,</l>
+            <l>Készülsz elrablani? <stage>(Gúnyosan.)</stage> Jolém, nem úgy,</l>
             <l>„Lányom nincs! És ha volna is: minek?</l>
             <l>Nő lenne csak és nő én is vagyok,</l>
             <l>Különben a nem édes gyermekek</l>
@@ -1261,8 +1201,7 @@
           <stage>(esengve)</stage>
           <lg>
             <l>Azt ne lány! Ne azt!</l>
-            <l>Óh mért vagy ifjú, mért vagy szép? Ha szép
-                                                  vagy,</l>
+            <l>Óh mért vagy ifjú, mért vagy szép? Ha szép vagy,</l>
             <l>Szép vagy pedig. - Leány, kedves leány!</l>
             <l>Minek a szépség néked? Add nekem!</l>
             <l>Csak egy sugárt szemednek fényiből, -</l>
@@ -1315,8 +1254,7 @@
           <speaker>HERAKLES</speaker>
           <lg>
             <l>Egérharc. S érte téged</l>
-            <l>A lyukba teszlek. <stage>(Megfogja
-                                                  Deianeirát.)</stage></l>
+            <l>A lyukba teszlek. <stage>(Megfogja Deianeirát.)</stage></l>
             <l>Jole, kedvesem,</l>
             <l>Öltözzél, a násznép gyülöngni kezd.</l>
             <l><stage>(Elviszi Deianeirát.)</stage></l>
@@ -1370,8 +1308,7 @@
           <speaker>EURISTHEUS</speaker>
           <lg>
             <l>Így meg nem élünk.</l>
-            <l>Tán azt gondolod Nem ismerem legtitkosabb
-                                                  űrét</l>
+            <l>Tán azt gondolod Nem ismerem legtitkosabb űrét</l>
             <l>Keblednek? Azt hiszed: nem leskelődtem</l>
             <l>Egész nap mindég kis lábad nyomában?</l>
             <l>Nem hallgatóztam ágyad vánkosánál.</l>
@@ -1392,8 +1329,7 @@
           <lg>
             <l>Én veled? ki téged</l>
             <l>Nem ismerlek másként: mint királyt,</l>
-            <l><stage>(Élesen.)</stage> És mint Herakles
-                                                  nagybátyját.</l>
+            <l><stage>(Élesen.)</stage> És mint Herakles nagybátyját.</l>
           </lg>
         </sp>
         <sp who="#euristheus">
@@ -1415,8 +1351,7 @@
             <l>Mert a fiú Zeus Isten gyermeke.</l>
             <l>Leverten a szent jóshoz fordulék,</l>
             <l>Ki szárazon csak azt felelte:</l>
-            <l>„Istent Csak Isten s önnön keble veszthet
-                                                  el”.</l>
+            <l>„Istent Csak Isten s önnön keble veszthet el”.</l>
             <l>És őszülék azóta kín között</l>
             <l>Miért van oly parányi körre az</l>
             <l>Erő szorítva, hogy a vágy ezernyi</l>
@@ -1538,8 +1473,7 @@
             <l>Kacagj szemébe, s csald meg őt. -</l>
             <l>Ez a ti gyilkotok, asszonyszemélyek!</l>
             <l>Jer, zeng a nászi dal! s talán halotti.</l>
-            <l><stage>(Kezénél fogja Jolét s
-                                                  elvezeti.)</stage></l>
+            <l><stage>(Kezénél fogja Jolét s elvezeti.)</stage></l>
           </lg>
         </sp>
         <sp who="#herakles">
@@ -1588,14 +1522,11 @@
             <l>Ereszd ki.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Philoktetes el.)</stage>
-        </p>
+        <stage>(Philoktetes el.)</stage>
         <sp who="#jolaus">
           <speaker>JOLAUS</speaker>
           <lg>
-            <l>Én még többet is rimánlok Ha hű szolgádtól azt
-                                                  meg nem tagadnád.</l>
+            <l>Én még többet is rimánlok Ha hű szolgádtól azt meg nem tagadnád.</l>
           </lg>
         </sp>
         <sp who="#herakles">
@@ -1624,8 +1555,7 @@
           <stage>(örömmel)</stage>
           <lg>
             <l>Most már elbírom lábamat, s ma még</l>
-            <l>Addig hányom vetem, míg meg nem ifjul!
-                                                  <stage>(El.)</stage></l>
+            <l>Addig hányom vetem, míg meg nem ifjul! <stage>(El.)</stage></l>
           </lg>
         </sp>
         <sp who="#herakles">
@@ -1648,8 +1578,7 @@
             <l>Csak fajt tenyésztni van előteremtve.</l>
             <l>Soká öltözködik menyasszonyom.</l>
             <l>Hah, zúg a kürt! Jer Jole, itt a násznép!</l>
-            <l><stage>(Férfiak és nők jőnek; Herakles
-                                                  elővezeti Jolét.)</stage></l>
+            <l><stage>(Férfiak és nők jőnek; Herakles elővezeti Jolét.)</stage></l>
           </lg>
         </sp>
         <sp who="#nasznep">
@@ -1658,8 +1587,7 @@
             <l>Fogadd el jobbágyid, s vitézeid</l>
             <l>Leghűbb kivánatát: hogy boldogítsd</l>
             <l>Zeus fiát, a győzhetetlen embert.</l>
-            <l><stage>(Kincset raknak Jole
-                                                  lábához.)</stage></l>
+            <l><stage>(Kincset raknak Jole lábához.)</stage></l>
           </lg>
         </sp>
         <sp who="#rabnok">
@@ -1754,8 +1682,7 @@
           <speaker>HERAKLES</speaker>
           <lg>
             <l>Kicsókolom hát a fagyot.</l>
-            <l><stage>(Jolét megfogja, ki
-                                                  elhúzódik.)</stage></l>
+            <l><stage>(Jolét megfogja, ki elhúzódik.)</stage></l>
             <l>Mi ez?</l>
           </lg>
         </sp>
@@ -1803,9 +1730,7 @@
             <l><stage>(El Joléval.)</stage></l>
           </lg>
         </sp>
-        <p>
-          <stage>(Kert. Éjszaka.)</stage>
-        </p>
+        <stage>(Kert. Éjszaka.)</stage>
         <sp who="#deianeira">
           <speaker>DEIANEIRA</speaker>
           <stage>(jön)</stage>
@@ -1819,8 +1744,7 @@
             <l>Magam sem tudtam, és most sem tudom</l>
             <l>Mi az? - Jól látok-e? Ki jő felém?</l>
             <l>Hah, a menyasszony jön meghűteni</l>
-            <l>Tűz keblét! Messze - messze fuss el asszony
-                                                  -</l>
+            <l>Tűz keblét! Messze - messze fuss el asszony -</l>
             <l>Te ilyet nem nézhetsz.</l>
             <l><stage>(El sebesen.)</stage></l>
           </lg>
@@ -1850,8 +1774,7 @@
           <speaker>LANTOS</speaker>
           <stage>(jön, kezében lant)</stage>
           <lg>
-            <l>„Nincs több szegény, csak én, nincs több
-                                                  szegény,</l>
+            <l>„Nincs több szegény, csak én, nincs több szegény,</l>
             <l>Csak a lantos; csak a lantos szegény!</l>
             <l>A pór nyugodt, nem bántja lelki vágy, -</l>
             <l>Nem álmodoz tündérvilági lényért;</l>
@@ -1880,21 +1803,18 @@
             <l>Mert aki érti az csak olyan őrült</l>
             <l>Mint ő maga, - óh, mily boldogtalan</l>
             <l>Csak zeng, csak zeng, míg húrja megszakad!</l>
-            <l>Nincs több szegény, csak én, nincs több
-                                                  szegény,</l>
+            <l>Nincs több szegény, csak én, nincs több szegény,</l>
             <l>Csak a dalnok, csak a dalnok szegény!</l>
             <l>Hah, mért rezeg kezemben e darab fa?</l>
             <l>E nélkül boldog volnék! El vele</l>
-            <l>A porba! <stage>(Nézegeti.)</stage>
-                                                  Elhajítsalak? Minek vagy,</l>
+            <l>A porba! <stage>(Nézegeti.)</stage> Elhajítsalak? Minek vagy,</l>
             <l>Ha nem szólsz? Lelkem adja untalan</l>
             <l>A hangot húrjaidba? És utóbb is</l>
             <l>Elvesztegesse rád életfuvalmát?</l>
             <l>Nem, nem, nem hordalak! Nem adsz te semmit</l>
             <l>Nekem! Csak elveszed! Hitvány barát vagy</l>
             <l>S idétlen visszhang; menj a porba hát.</l>
-            <l><stage>(Elveti lantját s Jole
-                                                  felveszi.)</stage></l>
+            <l><stage>(Elveti lantját s Jole felveszi.)</stage></l>
             <l>Nyögsz! Megszakadt fakebled? Semmi sem,</l>
             <l>Most már szabad vagyok és társtalan,</l>
             <l>Most könnyű és vidám! De boldog-e?</l>
@@ -1917,12 +1837,11 @@
             <l>Mi az?</l>
             <l>Most is visszhangzod a mell kínait!</l>
             <l>És csúfolsz rossz darab fa.</l>
-            <l><stage>(Indulattal lantjához indul, s Jole
-                                                  kezében látva, megáll.)</stage></l>
+            <l><stage>(Indulattal lantjához indul, s Jole kezében látva,
+								megáll.)</stage></l>
             <l>Hah te vagy!</l>
             <l>Ne fuss!</l>
-            <l><stage>(Megfogja.)</stage> Hiszen ösmerjük már
-                                                  mi egymást!</l>
+            <l><stage>(Megfogja.)</stage> Hiszen ösmerjük már mi egymást!</l>
             <l>Agyamba teremtélek meg és</l>
             <l>Azóta keblemben növél virágnak;</l>
             <l>Szememből öntözgettelek naponként,</l>
@@ -1954,24 +1873,18 @@
           <speaker>LANTOS</speaker>
           <lg>
             <l>Mindegy, ma még enyém! Elég a földön</l>
-            <l>Egy éjszakát üdvök közt élni át.
-                                                  <stage>(Megöleli.)</stage></l>
-            <l><stage>(Euristheus Jolaust karjánál fogva
-                                                  vezeti s Joléra mutatva szól:
-                                                  „Láttad?”)</stage></l>
+            <l>Egy éjszakát üdvök közt élni át. <stage>(Megöleli.)</stage></l>
+            <l><stage>(Euristheus Jolaust karjánál fogva vezeti s Joléra mutatva szól:
+								„Láttad?”)</stage></l>
           </lg>
         </sp>
       </div>
       <div type="act">
         <head type="title">HARMADIK FELVONÁS</head>
         <head type="title">VÉRES ING</head>
-        <p>
-          <stage>Személyei: Herakles. Euristheus. Jolaus.
-                                                  Deianeira. Jole. Kaliste s több rabnő.</stage>
-        </p>
-        <p>
-          <stage>(Kert. Alkonyat.)</stage>
-        </p>
+        <stage>Személyei: Herakles. Euristheus. Jolaus. Deianeira. Jole. Kaliste s több
+						rabnő.</stage>
+        <stage>(Kert. Alkonyat.)</stage>
         <sp who="#euristheus">
           <speaker>EURISTHEUS</speaker>
           <stage>(jön Jolausszal)</stage>
@@ -2027,8 +1940,7 @@
             <l>Mint a hal akkor is némán fülel;</l>
             <l>És majd gondolkozunk: ugyan miért</l>
             <l>Tevé ezt Jolaus? könnyen lehet</l>
-            <l>Hogy azt sütjük ki: Jolaus kerítő.
-                                                  <stage>(Indul.)</stage></l>
+            <l>Hogy azt sütjük ki: Jolaus kerítő. <stage>(Indul.)</stage></l>
           </lg>
         </sp>
         <sp who="#jolaus">
@@ -2073,8 +1985,7 @@
             <l>Nézd csak, jön a menyasszony! Milyen álmos!</l>
             <l>Mily halvány! Nem csuda; múlt éjszaka</l>
             <l>Enyelgett. Menj fiam, - kikémlelem</l>
-            <l>Még jobban a bűnöst. <stage>(Jolaus
-                                                  elmegy.)</stage> A jó bolondot</l>
+            <l>Még jobban a bűnöst. <stage>(Jolaus elmegy.)</stage> A jó bolondot</l>
             <l>Rászedtem. Mindent el merek követni,</l>
             <l>Csak aztat nem, hogy a nagy óriás</l>
             <l>Szemébe nézzek; mert egy félkeze</l>
@@ -2137,8 +2048,7 @@
           <speaker>EURISTHEUS</speaker>
           <stage>(magában)</stage>
           <lg>
-            <l>Mindegy már; így vagy úgy.
-                                                  <stage>(Joléhez.)</stage></l>
+            <l>Mindegy már; így vagy úgy. <stage>(Joléhez.)</stage></l>
             <l>Kedves leányom!</l>
             <l>Igaz, te ifjú vagy, s kár volna érted,</l>
             <l>Ha mérgében széttépne; ezt ma reggel</l>
@@ -2190,8 +2100,7 @@
           <speaker>HERAKLES</speaker>
           <stage>(jön)</stage>
           <lg>
-            <l>Nem jő menyasszonyom, s az estve itt van!
-                                                  (Föltekint.)</l>
+            <l>Nem jő menyasszonyom, s az estve itt van! (Föltekint.)</l>
             <l>„A csillag, a hold, a szerelmesek</l>
             <l>Barátja”, mert fagyos fény mindenik</l>
             <l>S ilyen kell a kebelnek, hogy hevében</l>
@@ -2212,8 +2121,7 @@
             <l>Nászítá össze, hogy legyen világ</l>
             <l>S világban Istenek. Mert a világ</l>
             <l>Csak e nász gyermeke, s az Istenek</l>
-            <l>Csak a rokon lények kis gyermeki. <stage>(Jole
-                                                  jön.)</stage></l>
+            <l>Csak a rokon lények kis gyermeki. <stage>(Jole jön.)</stage></l>
             <l>Óh, Jole, mily későn jössz! Jer közelb</l>
             <l><stage>(Ölébe ragadja.)</stage></l>
             <l>S olvadj föl vélem itt: hogy elvegyülve</l>
@@ -2236,8 +2144,7 @@
             <l>Gyengébben foglak hát menyasszonyom,</l>
             <l>Mért törném össze a harmat kebelt?</l>
             <l>De még nem is csókoltál! Én se még.</l>
-            <l><stage>(Megcsókolja s Jole
-                                                  megsápad.)</stage></l>
+            <l><stage>(Megcsókolja s Jole megsápad.)</stage></l>
             <l>Mért sápadsz édesem?</l>
           </lg>
         </sp>
@@ -2264,9 +2171,7 @@
             <l>Egy dalért.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Jole felsikolt.)</stage>
-        </p>
+        <stage>(Jole felsikolt.)</stage>
         <sp who="#herakles">
           <speaker>HERAKLES</speaker>
           <stage>(fölugrik)</stage>
@@ -2291,8 +2196,7 @@
             <l><stage>(Gúnyosan kacagva.)</stage></l>
             <l>Mert szúrt szakállam! Meghalsz gyáva nő!</l>
             <l>(Karjával a légbe emeli, agyonszorítandó.)</l>
-            <l>Mi ez? <stage>(Az elájult leányt
-                                                  leereszti.)</stage></l>
+            <l>Mi ez? <stage>(Az elájult leányt leereszti.)</stage></l>
             <l>Karomnak izma megmeredt</l>
             <l>S nem bírom összenyomni, hogy közötte</l>
             <l>Szétmorzsolódj! Asszony! Te puha asszony!</l>
@@ -2303,15 +2207,13 @@
             <l>E kéz, mely Antaeust ropogtatá</l>
             <l>Egy békacsontot összetörni nem bír.</l>
             <l>Nézd Jolaus! Még tátog! Nézd csak őt!</l>
-            <l>Mert én nem nézhetem tovább!
-                                                  <stage>(Elfordul).</stage> Ha, ha,</l>
+            <l>Mert én nem nézhetem tovább! <stage>(Elfordul).</stage> Ha, ha,</l>
             <l>Nevessünk Jolaus! Úgy sem tudunk</l>
-            <l>Mást tenni! <stage>(Euristheus jön.)</stage>
-                                                  Vén! Nevess velünk te is!</l>
+            <l>Mást tenni! <stage>(Euristheus jön.)</stage> Vén! Nevess velünk te
+							is!</l>
             <l>Ha, ha, ha, így! Jolaus, fogd meg karom,</l>
             <l>Nagyon bágyadt vagyok!</l>
-            <l><stage>(Jolaus egy pázsit székre
-                                                  viszi.)</stage></l>
+            <l><stage>(Jolaus egy pázsit székre viszi.)</stage></l>
           </lg>
         </sp>
         <sp who="#euristheus">
@@ -2338,8 +2240,7 @@
         <sp who="#jole">
           <speaker>JOLE</speaker>
           <lg>
-            <l>Hah, megcsalt még e vén is!
-                                                  <stage>(Visszarogy.)</stage></l>
+            <l>Hah, megcsalt még e vén is! <stage>(Visszarogy.)</stage></l>
           </lg>
         </sp>
         <sp who="#herakles">
@@ -2388,8 +2289,7 @@
           <speaker>HERAKLES</speaker>
           <stage>(felkél)</stage>
           <lg>
-            <l>Hagyj meg hát egy vénet.
-                                                  <stage>(El.)</stage></l>
+            <l>Hagyj meg hát egy vénet. <stage>(El.)</stage></l>
           </lg>
         </sp>
         <sp who="#jolaus">
@@ -2413,22 +2313,17 @@
             <l>Mi vagy te? Nem annyi vér s ideg</l>
             <l>Van benned, mint a durva férfi-szívbe?</l>
             <l>Miért nem állsz meg hát helyén?</l>
-            <l>Minek Szorúlsz az oldalhoz. <stage>(Mellére
-                                                  teszi kezét.)</stage></l>
+            <l>Minek Szorúlsz az oldalhoz. <stage>(Mellére teszi kezét.)</stage></l>
             <l>Mostan kitéplek!</l>
-            <l><stage>(Sóhajtva.)</stage> Volnál enyém:
-                                                  megtenném. -</l>
-            <l>Nincsen-e Más életműszer bennem, mely
-                                                  csatámat</l>
+            <l><stage>(Sóhajtva.)</stage> Volnál enyém: megtenném. -</l>
+            <l>Nincsen-e Más életműszer bennem, mely csatámat</l>
             <l>Kivívná? A fő, az ajak? Hiába!</l>
             <l>Az asszony csak szívével tud csatázni</l>
             <l>És oly mezőn csak, ahol csalni kell;</l>
-            <l><stage>(Keserűn.)</stage> Most már semmit sem
-                                                  ér; kiösmerék!</l>
+            <l><stage>(Keserűn.)</stage> Most már semmit sem ér; kiösmerék!</l>
             <l>De mégis! Nincs, hiába több remény;</l>
             <l>Le kell pályámról lépni! Óh, megöl</l>
-            <l>E gondolat! <stage>(Kezét
-                                                  összekulcsolja.)</stage></l>
+            <l>E gondolat! <stage>(Kezét összekulcsolja.)</stage></l>
             <l>Megállj, megállj! Mi volt</l>
             <l>Amit Deianeira tegnap este</l>
             <l>Nász-öltönyül nyújtott a vőlegénynek?</l>
@@ -2444,16 +2339,14 @@
             <l>Deianeira; most mind vedd elő,</l>
             <l>Amit csak tudsz: mert önfajod csalod meg.</l>
             <l><stage>(Deianeira jő.)</stage></l>
-            <l>Segíts, segíts. <stage>(Lábához
-                                                  omlik.)</stage></l>
+            <l>Segíts, segíts. <stage>(Lábához omlik.)</stage></l>
           </lg>
         </sp>
         <sp who="#deianeira">
           <speaker>DEIANEIRA</speaker>
           <lg>
             <l>Te üdvöm gyilkosa,</l>
-            <l>Te mersz még kérni tőlem? Mondd, mi van
-                                                  még,</l>
+            <l>Te mersz még kérni tőlem? Mondd, mi van még,</l>
             <l>Amit nem adtam</l>
           </lg>
         </sp>
@@ -2770,8 +2663,7 @@
         <sp who="#jole">
           <speaker>JOLE</speaker>
           <lg>
-            <l>Hah semmi pór.
-                                                  <stage>(Deianeirához.)</stage></l>
+            <l>Hah semmi pór. <stage>(Deianeirához.)</stage></l>
             <l>Emlékezz meg szavadra.</l>
           </lg>
         </sp>
@@ -2787,8 +2679,7 @@
           <lg>
             <l>Nyiladnak mérge árt-e</l>
             <l>Mellednek büszke hős? Majd megtudom!</l>
-            <l>S ha ártni fog, torodra eljövök.
-                                                  <stage>(El.)</stage></l>
+            <l>S ha ártni fog, torodra eljövök. <stage>(El.)</stage></l>
           </lg>
         </sp>
         <sp who="#jolaus">
@@ -2796,8 +2687,7 @@
           <lg>
             <l>Mit sírtok lányok! Majd utánatok</l>
             <l>Kedveseitek elküldöm.</l>
-            <l><stage>(A nők mennek, Jolaus kezét
-                                                  keresztülveti mellén.)</stage></l>
+            <l><stage>(A nők mennek, Jolaus kezét keresztülveti mellén.)</stage></l>
             <l>Istenem!</l>
             <l>De fáj a szívem ily sok szép leányért.</l>
           </lg>
@@ -2806,14 +2696,9 @@
       <div type="act">
         <head type="title">NEGYEDIK FELVONÁS</head>
         <head type="title">ISTEN- ÉS EMBERNŐ</head>
-        <p>
-          <stage>Személyei: Herakles. Jolaus. Hebe.
-                                                  Euristheus. Deianeira. Jole.
-                                                  Philoktetes.</stage>
-        </p>
-        <p>
-          <stage>(Terem.)</stage>
-        </p>
+        <stage>Személyei: Herakles. Jolaus. Hebe. Euristheus. Deianeira. Jole.
+						Philoktetes.</stage>
+        <stage>(Terem.)</stage>
         <sp who="#deianeira">
           <speaker>DEIANEIRA</speaker>
           <stage>(jön Euristheusszal)</stage>
@@ -2895,8 +2780,7 @@
           <lg>
             <l>Új tőr, amelyről</l>
             <l>Nem is álmodtam. Most Isten Herakles</l>
-            <l>Meglátjuk: ember megbír-e ledöntni?
-                                                  <stage>(El.)</stage></l>
+            <l>Meglátjuk: ember megbír-e ledöntni? <stage>(El.)</stage></l>
           </lg>
         </sp>
         <sp who="#herakles">
@@ -2957,8 +2841,7 @@
           <speaker>HERAKLES</speaker>
           <lg>
             <l>Lódulj, ne ácsorogj!</l>
-            <l><stage>(Jolaus elmegy. Herakles nagy léptekkel
-                                                  jár föl s alá.)</stage></l>
+            <l><stage>(Jolaus elmegy. Herakles nagy léptekkel jár föl s alá.)</stage></l>
             <l>Nincsen tehát nő, kit lehet szeretnem!</l>
             <l>Mind összesűl egy pár nap csókjaimtól!</l>
             <l>Pornak teremtvék, mért esengek értök!</l>
@@ -2985,8 +2868,7 @@
             <l>Az ég ha nem hajol, leszállsz közénk</l>
             <l>És lángaink meglopva, visszamégy,</l>
             <l>S helyében egy kettős természetű</l>
-            <l>Lényt dobsz a földre, mint én. - Ha, ha,
-                                                  ha!</l>
+            <l>Lényt dobsz a földre, mint én. - Ha, ha, ha!</l>
             <l>A zsarnok Isten bűntelen meri</l>
             <l>Szeretni a mienket, és ha mi</l>
             <l>Övéihez felnézünk, Tityusként</l>
@@ -2996,8 +2878,7 @@
             <l>Miért nem méri meg mennyit bír a gép,</l>
             <l>Melyet Prometheus unalmában csinált?</l>
             <l>S mért fúj több szellemet rá, mint elég</l>
-            <l>Mozogni csak; - minek repkedni is neki?
-                                                  <stage>(Dördül.)</stage></l>
+            <l>Mozogni csak; - minek repkedni is neki? <stage>(Dördül.)</stage></l>
             <l>Haragszol rám Zeus? Mindegy nekem!</l>
             <l>Én mint apámat, nem mint menny urát</l>
             <l>Imádlak. - És ha nem tagadsz fiadnak</l>
@@ -3020,8 +2901,7 @@
             <l>Ott fent a szellem? Óh, tudom, tudom!</l>
             <l>Hogy meg ne und magad; s a páralények</l>
             <l>Trónod körül táncoljanak; s az égi-</l>
-            <l>Nőcskék hozzád - bámulni menjenek.
-                                                  <stage>(Dördül.)</stage></l>
+            <l>Nőcskék hozzád - bámulni menjenek. <stage>(Dördül.)</stage></l>
             <l>Zeus, Zeus! Ha megbántottalak,</l>
             <l>Felejtsd el! Óh, hiszen tudod magadról,</l>
             <l>Hogy a szerelmes, hogyha küzd, bolond;</l>
@@ -3032,8 +2912,7 @@
             <l>Nevezd őt bárminek, csak add nekem,</l>
             <l>De szép legyen és meg nem hervadó,</l>
             <l>S ki egy csóktól nem sápad el, ki egy</l>
-            <l>Forró kebelben el nem ég,
-                                                  <stage>(Komoran.)</stage> ki engem</l>
+            <l>Forró kebelben el nem ég, <stage>(Komoran.)</stage> ki engem</l>
             <l>Meg nem csal. Óh, add ezt apám Zeus;</l>
             <l>Nevezd őt bárminek, csak add nekem!</l>
             <l>Ha bér kell érte, vedd el szellemem</l>
@@ -3046,21 +2925,17 @@
             <l>És hogyha kérlek, eldugod füled!</l>
             <l>Ordítsak hozzád? Adj egy lényt fajodból,</l>
             <l>Asszony formájút, ámde még sem asszonyt!</l>
-            <l><stage>(Dördül, s Hebe, az ifjúság
-                                                  Istenasszonya, könnyű</stage></l>
+            <l><stage>(Dördül, s Hebe, az ifjúság Istenasszonya, könnyű</stage></l>
             <l><stage>öltönyben lejő.)</stage></l>
             <l>Ki vagy te szellemarcú lány alak?</l>
             <l>Mi a sugár, mely homlokod köríti?</l>
             <l>Mi a hervadhatatlan glória,</l>
             <l>Mely lényedet átfogja? Istenöltöny!</l>
-            <l>Hah, megimádlak csillagok leánya.
-                                                  <stage>(Leomlik.)</stage></l>
+            <l>Hah, megimádlak csillagok leánya. <stage>(Leomlik.)</stage></l>
             <l>Te mosolygsz, te megpirulsz! Mi az?</l>
             <l>Nemednek rendes színe? Vagy nevetsz</l>
-            <l>Hogy térdelek? <stage>(Felugrik.)</stage>
-                                                  Szellem, hát néma vagy?</l>
-            <l>Vagy csak nem úgy szólsz, mint Herakles
-                                                  ért?</l>
+            <l>Hogy térdelek? <stage>(Felugrik.)</stage> Szellem, hát néma vagy?</l>
+            <l>Vagy csak nem úgy szólsz, mint Herakles ért?</l>
             <l>Vagy hangod oly lágy, hogy nehéz legünk</l>
             <l>Nem bírja visszazengni, és elúszik</l>
             <l>A mennybe vissza? Nem szólasz: ajkad</l>
@@ -3127,12 +3002,10 @@
             <l>Alig láthatja már mennyarcodat.</l>
             <l>Nem mozdulsz? Majd mozdúlok én tehát</l>
             <l>És megkarollak, bár az égtető</l>
-            <l>Rám roskad. <stage>(Meg akarja
-                                                  fogni.)</stage></l>
+            <l>Rám roskad. <stage>(Meg akarja fogni.)</stage></l>
             <l>Tűnni kezdesz! Óh, megállj!</l>
             <l>Mert így csókoltalan ha mégysz: karom</l>
-            <l>Mely még Heraklesé, agyonszorít.
-                                                  <stage>(Megragadja.)</stage></l>
+            <l>Mely még Heraklesé, agyonszorít. <stage>(Megragadja.)</stage></l>
           </lg>
         </sp>
         <sp who="#hebe">
@@ -3146,8 +3019,7 @@
           <speaker>HERAKLES</speaker>
           <stage>(elereszti)</stage>
           <lg>
-            <l><stage>(Fájdalommal.)</stage> Te is csalsz,
-                                                  Istenek leánya!</l>
+            <l><stage>(Fájdalommal.)</stage> Te is csalsz, Istenek leánya!</l>
             <l>Csókoltál és semmit sem érezek</l>
             <l>Arcomba! Óh, sóhajtasz! Mit jelent?</l>
             <l>Megérzem tán egykor? Ne menj! Ne menj!</l>
@@ -3203,14 +3075,12 @@
             <l>Ha elfelejti, hogy emberfiú:</l>
             <l>Megbírja osztani szent sorsotok.</l>
             <l>Még egy szót Hebe! Vőlegényt ne várj</l>
-            <l>Lakodba mást csak engemet! <stage>(Hebe
-                                                  eltűnik.)</stage> Hol ő?</l>
+            <l>Lakodba mást csak engemet! <stage>(Hebe eltűnik.)</stage> Hol ő?</l>
             <l>Fönt. Lát-e egykor? Síromon! Hah az</l>
             <l>A félembermű sírja, és nehéz</l>
             <l>Egészből egy felet levágni, hogy</l>
             <l>A fél mégis lehessen új egész.</l>
-            <l><stage>(Kezét mellére teszi és az égre
-                                                  bámul.)</stage></l>
+            <l><stage>(Kezét mellére teszi és az égre bámul.)</stage></l>
           </lg>
         </sp>
         <sp who="#deianeira">
@@ -3218,8 +3088,7 @@
           <stage>(jön)</stage>
           <lg>
             <l>Itt ő, itt és lázasan, mint amidőn</l>
-            <l>Végharcát küzdi a haló. - Herakles
-                                                  <stage>(Titkon nézgeli.)</stage></l>
+            <l>Végharcát küzdi a haló. - Herakles <stage>(Titkon nézgeli.)</stage></l>
             <l>Nem olyan mint volt egykor! Tántorog,</l>
             <l>Az ércvonás arcán megolvadott,</l>
             <l>A szem vad fénye tűzszikrátalan,</l>
@@ -3302,8 +3171,7 @@
         </sp>
         <sp who="#deianeira">
           <speaker>DEIANEIRA</speaker>
-          <stage>(Véres ingét kebléből kihúzza és Heraklesra
-                                                  adja.)</stage>
+          <stage>(Véres ingét kebléből kihúzza és Heraklesra adja.)</stage>
           <lg>
             <l>Ne, e könnyű ruha, elég híves.</l>
           </lg>
@@ -3328,9 +3196,8 @@
           <lg>
             <l>Jó a kígyónak a bogár! Bolondnak</l>
             <l>Az ész! Ha, ha, ha, ész! Zeus, Zeus!</l>
-            <l><stage>(Deianeira tántorog; végre összeomlik.
-                                                  Euristheus az ajtónál les; Herakles mellét
-                                                  tépi.)</stage></l>
+            <l><stage>(Deianeira tántorog; végre összeomlik. Euristheus az ajtónál les;
+								Herakles mellét tépi.)</stage></l>
             <l>Fáj, fáj! Szokott-e fájni neked is?</l>
             <l>Világ, hova szállsz föl velem? Ne oly fönt!</l>
             <l>Lemászok úgyis hátadról! Te szív,</l>
@@ -3340,17 +3207,14 @@
             <l>Az Istenek, a gígaszok kiszálltak</l>
             <l>És - megnevetnek engem. Hah megállj!</l>
             <l>Széttörlek! <stage>(Fájdalommal.)</stage></l>
-            <l>Ah nem küzdhetek! <stage>(Fogát
-                                                  összevágja.)</stage></l>
+            <l>Ah nem küzdhetek! <stage>(Fogát összevágja.)</stage></l>
             <l>Nekem fáj!</l>
             <l>Menny és pokol, nem bírsz semmíteni!</l>
             <l>Herakles a nevem. Te kis göröngy</l>
             <l>Ne állj utamba, mert átléplek.</l>
-            <l><stage>(Meglátja Deianeirát.)</stage> Ujju
-                                                  jú!</l>
+            <l><stage>(Meglátja Deianeirát.)</stage> Ujju jú!</l>
             <l>Szaladni van nagy kedvem! Messze, messze,</l>
-            <l>Hol Hebe sír! <stage>(Fut és
-                                                  eldől.)</stage></l>
+            <l>Hol Hebe sír! <stage>(Fut és eldől.)</stage></l>
           </lg>
         </sp>
         <sp who="#euristheus">
@@ -3399,8 +3263,7 @@
           <lg>
             <l>Erőt Zeus!</l>
             <l>Csak egy percig.</l>
-            <l><stage>(Herakleshez mász és az inget
-                                                  tépi.)</stage></l>
+            <l><stage>(Herakleshez mász és az inget tépi.)</stage></l>
           </lg>
         </sp>
         <sp who="#euristheus">
@@ -3409,16 +3272,14 @@
             <l>Őrült nő, mit teszesz?</l>
             <l>Hagyd rajta. Hah, a test még nem hideg;</l>
             <l>Csak most kezd hűlni! Vissza, széttaposlak!</l>
-            <l><stage>(Megfogja Deianeira kezét és elakarja
-                                                  Heraklestől húzni.)</stage></l>
+            <l><stage>(Megfogja Deianeira kezét és elakarja Heraklestől húzni.)</stage></l>
           </lg>
         </sp>
         <sp who="#deianeira">
           <speaker>DEIANEIRA</speaker>
           <lg>
             <l>Mennykőt, Zeus, a gyilkosnak! segítség!</l>
-            <l><stage>(Philoktetes és Jolaus
-                                                  berohannak.)</stage></l>
+            <l><stage>(Philoktetes és Jolaus berohannak.)</stage></l>
           </lg>
         </sp>
         <sp who="#euristheus">
@@ -3441,8 +3302,7 @@
           <lg>
             <l>Hiába! Nem mozog! Herakles! Óh,</l>
             <l>Késő minden, csak a halál nem.</l>
-            <l><stage>(Féltérdre emelkedik, és átszúrja
-                                                  keblét.)</stage></l>
+            <l><stage>(Féltérdre emelkedik, és átszúrja keblét.)</stage></l>
           </lg>
         </sp>
         <sp who="#jolaus">
@@ -3457,9 +3317,8 @@
         </sp>
         <sp who="#euristheus">
           <speaker>EURISTHEUS</speaker>
-          <stage>(Látván Heraklest mozogni, kétségbeesve
-                                                  kirohan: magával ragadja Jolét, ki akkor akar
-                                                  bejőni.)</stage>
+          <stage>(Látván Heraklest mozogni, kétségbeesve kirohan: magával ragadja Jolét,
+						ki akkor akar bejőni.)</stage>
           <lg>
             <l>Hah vissza, vissza! Él az óriás!</l>
           </lg>
@@ -3469,10 +3328,8 @@
           <stage>(felugrik)</stage>
           <lg>
             <l>Kínoztatok, de nem fájt.</l>
-            <l><stage>(Meglátja nejét.)</stage> S ez mi
-                                                  itt?</l>
-            <l>Holt asszony? <stage>(Vadul
-                                                  kacagva.)</stage></l>
+            <l><stage>(Meglátja nejét.)</stage> S ez mi itt?</l>
+            <l>Holt asszony? <stage>(Vadul kacagva.)</stage></l>
             <l>Úgy jó a nő, hogyha holt!</l>
           </lg>
         </sp>
@@ -3480,14 +3337,8 @@
       <div type="act">
         <head type="title">ÖTÖDIK FELVONÁS</head>
         <head type="title">A MÁGLYA</head>
-        <p>
-          <stage>Személyei: Herakles. Philoktetes.
-                                                  Jolaus. A lantos. Jole.</stage>
-        </p>
-        <p>
-          <stage>(Oeta hegyén egy sir látszik és
-                                                  sziklák.)</stage>
-        </p>
+        <stage>Személyei: Herakles. Philoktetes. Jolaus. A lantos. Jole.</stage>
+        <stage>(Oeta hegyén egy sir látszik és sziklák.)</stage>
         <sp who="#jole">
           <speaker>JOLE</speaker>
           <stage>(jön a lantos karján)</stage>
@@ -3604,8 +3455,7 @@
             <l>Philoktetes, Heraklest ismered</l>
             <l>S mivel hogy ismered, hallgatni fogsz.</l>
             <l>Jolaus! nehéz munkát bíztam reád,</l>
-            <l>De megkönnyítem. <stage>(Nehány fát
-                                                  kitör.)</stage></l>
+            <l>De megkönnyítem. <stage>(Nehány fát kitör.)</stage></l>
             <l>Most hordd össze mind</l>
             <l>És rakd halomra.</l>
           </lg>
@@ -3635,8 +3485,7 @@
             <l>Jolaus,</l>
             <l>Hagyd azt máskorra! Most magam fogok csak</l>
             <l>Áldozni. - Még egyszer, Philoktetes,</l>
-            <l>Ölellek. <stage>(Megöleli)</stage> Mért
-                                                  könyűzesz régi bajtárs?</l>
+            <l>Ölellek. <stage>(Megöleli)</stage> Mért könyűzesz régi bajtárs?</l>
             <l>Törüld meg, így nem nézhetek reád.</l>
           </lg>
         </sp>
@@ -3669,8 +3518,7 @@
             <l>Célt nem hibázott, s életet soha</l>
             <l>Ott nem hagyott, hol a bőrt felhasítá,</l>
             <l>Mert méreggel van kenve, - és tudod</l>
-            <l>Minővel. <stage>(Súgva.)</stage> Nősárkány
-                                                  nyállal. Nesze!</l>
+            <l>Minővel. <stage>(Súgva.)</stage> Nősárkány nyállal. Nesze!</l>
           </lg>
         </sp>
         <sp who="#philoktetes">
@@ -3700,8 +3548,7 @@
           <speaker>HERAKLES</speaker>
           <lg>
             <l>Most hagyj itt barátom!</l>
-            <l><stage>(Megöleli Philoktetest, ki elmegy;
-                                                  Herakles tompán nyög.)</stage></l>
+            <l><stage>(Megöleli Philoktetest, ki elmegy; Herakles tompán nyög.)</stage></l>
             <l>Görcs van mellemben! mért van az, hogy aki</l>
             <l>Nem szenvedett soha, szenvedni egykor</l>
             <l>Így megtanul? Te büszke hős, ki könnyet</l>
@@ -3722,8 +3569,7 @@
           <lg>
             <l>Helyes.</l>
             <l>S ha meghallottad volna: úgy hazudtam.</l>
-            <l><stage>(Magában.)</stage> Miért is fájna? senki
-                                                  sem ütött meg;</l>
+            <l><stage>(Magában.)</stage> Miért is fájna? senki sem ütött meg;</l>
             <l>Csak Jole csalt meg, - és a véres ing.</l>
             <l>Hah, nem, nem! Mind legyőztem! A leányt</l>
             <l>Kivertem, - és a nőt meggyilkolám.</l>
@@ -3747,16 +3593,13 @@
           <lg>
             <l>Fagyos porod</l>
             <l>Hogy fel ne sírjon hozzám: rád adom</l>
-            <l>Bundámat! <stage>(Ráveti az
-                                                  oroszlánbőrt.)</stage></l>
+            <l>Bundámat! <stage>(Ráveti az oroszlánbőrt.)</stage></l>
             <l>És most megszűnik közöttünk</l>
             <l>Alant a földön és a föld fölött</l>
             <l>Minden viszony. - Botom! Te kedves útitárs,</l>
             <l>Téged nem adlak senkinek; hiszen</l>
-            <l>Emelni senki sem bír. <stage>(A máglyára
-                                                  veti.)</stage></l>
-            <l>Itt helyed! Most már fegyvertelen vagyok;
-                                                  leszórtam</l>
+            <l>Emelni senki sem bír. <stage>(A máglyára veti.)</stage></l>
+            <l>Itt helyed! Most már fegyvertelen vagyok; leszórtam</l>
             <l>Mindazt, mivel megvívtam a világot;</l>
             <l>S szabad vagyok; és oly szabad: minő</l>
             <l>Nem voltam még: nincsen remény, dicsőség,</l>
@@ -3798,8 +3641,7 @@
             <l>A földi pálya régi korszakára, -</l>
             <l>Itt a kentaurus, --- itt bőg kerberus,</l>
             <l>Itt a halott nő, - itt a csalfa lány.</l>
-            <l><stage>(Indulattal.)</stage> Hah meg ne kísérts
-                                                  még egy órapercig,</l>
+            <l><stage>(Indulattal.)</stage> Hah meg ne kísérts még egy órapercig,</l>
             <l>Mert úgy talán meghalni sem tudok!</l>
             <l>Fuss! És vidd el magaddal a bűbájt,</l>
             <l>Mely összerezgeti a férfi testet,</l>
@@ -3826,8 +3668,7 @@
           <speaker>HERAKLES</speaker>
           <lg>
             <l>Hazudsz! közelb!</l>
-            <l><stage>(Megfogja Jolaust s maga eleibe
-                                                  feszíti.)</stage></l>
+            <l><stage>(Megfogja Jolaust s maga eleibe feszíti.)</stage></l>
             <l>Ez arcon</l>
             <l>Mit látsz, mi oly feltűnő?</l>
           </lg>
@@ -3872,8 +3713,7 @@
         <sp who="#herakles">
           <speaker>HERAKLES</speaker>
           <lg>
-            <l>Rakj hát tüzet. <stage>(A máglyához
-                                                  lép.)</stage></l>
+            <l>Rakj hát tüzet. <stage>(A máglyához lép.)</stage></l>
           </lg>
         </sp>
         <sp who="#jolaus">
@@ -3920,8 +3760,7 @@
           <lg>
             <l>Mert attól fél, hogy talán</l>
             <l>Akadna olyan ki meghalatná.</l>
-            <l>Egy szót sem többet, kedves Jolaus!
-                                                  <stage>(Fölemeli.)</stage></l>
+            <l>Egy szót sem többet, kedves Jolaus! <stage>(Fölemeli.)</stage></l>
           </lg>
         </sp>
         <sp who="#jolaus">
@@ -3936,8 +3775,7 @@
           <speaker>HERAKLES</speaker>
           <lg>
             <l>Nem; elfogod</l>
-            <l>Hamvam temetni. <stage>(A máglyára
-                                                  lép.)</stage></l>
+            <l>Hamvam temetni. <stage>(A máglyára lép.)</stage></l>
             <l>Egy öllel közelb</l>
             <l>A mennyhez, és egy öllel távolabb</l>
             <l>A földtől! Két világ közé hajítva,</l>
@@ -3971,10 +3809,8 @@
             <l>Itt hagylak hát világ! Hanem ne mondd,</l>
             <l>Hogy engemet te győztél meg! s te nő,</l>
             <l>Te sem mondd, hogy miattad égek el</l>
-            <l>Vagy, hogyha mondod: most mondd meg
-                                                  szemembe.</l>
-            <l><stage>(Magával küzd.)</stage> Nem, nem, de
-                                                  mégis - úgy van!</l>
+            <l>Vagy, hogyha mondod: most mondd meg szemembe.</l>
+            <l><stage>(Magával küzd.)</stage> Nem, nem, de mégis - úgy van!</l>
           </lg>
         </sp>
         <sp who="#jole">
@@ -4006,8 +3842,7 @@
           <lg>
             <l>Hah te! <stage>(Kacag.)</stage> Ha, ha, ha!</l>
             <l>Jer hát, égj meg velem! Jolaus tüzet!</l>
-            <l><stage>(Jolét a máglyára húzza, Jolaus tüzet
-                                                  hoz.)</stage></l>
+            <l><stage>(Jolét a máglyára húzza, Jolaus tüzet hoz.)</stage></l>
           </lg>
         </sp>
         <sp who="#jole">
@@ -4062,20 +3897,16 @@
             <l>Gyáva te!</l>
             <l>Együtt nem halhatunk! Tüzet magamnak!</l>
             <l><stage>(A máglya füstöl.)</stage></l>
-            <l><stage>(A lantoshoz.)</stage> Nem halt, óh, ne
-                                                  félj, - nem oly hamar</l>
-            <l>Szokott ő halni! <stage>(A lantos ölébe fogja
-                                                  Jolét s indul vele.)</stage></l>
-            <l>Ha, ha, ha, ha! <stage>(Hosszat
-                                                  nevet.)</stage></l>
+            <l><stage>(A lantoshoz.)</stage> Nem halt, óh, ne félj, - nem oly hamar</l>
+            <l>Szokott ő halni! <stage>(A lantos ölébe fogja Jolét s indul
+								vele.)</stage></l>
+            <l>Ha, ha, ha, ha! <stage>(Hosszat nevet.)</stage></l>
             <l>Legyőztem őt, legyőztem őt magam.</l>
-            <l>Herakles győzte meg Heraklest. <stage>(A máglya
-                                                  lángol.)</stage> Ég</l>
+            <l>Herakles győzte meg Heraklest. <stage>(A máglya lángol.)</stage> Ég</l>
             <l>Jolaus! Nem szomjazom, ne hozz vizet!</l>
             <l>Jössz-e már Hebe? Sírom omladoz</l>
             <l>Nyújtsd a villámló arcot, s csókodat</l>
-            <l>Égcsókodat, égcsókodat! <stage>(Kezével terjeng
-                                                  fölfelé.)</stage></l>
+            <l>Égcsókodat, égcsókodat! <stage>(Kezével terjeng fölfelé.)</stage></l>
           </lg>
         </sp>
         <sp who="#hebe">
@@ -4085,12 +3916,8 @@
             <l>Nesze.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(A máglya összeomlik.)</stage>
-        </p>
-        <p>
-          <stage>Vége.</stage>
-        </p>
+        <stage>(A máglya összeomlik.)</stage>
+        <stage>Vége.</stage>
       </div>
     </body>
   </text>

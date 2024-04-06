@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000009">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000009" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +66,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -278,8 +275,7 @@
     <body>
       <div type="act">
         <head type="title">ELSŐ FELVONÁS</head>
-        <p>
-          <stage>Szoba, egy közép-, két oldalajtóval. Kopott eleganciával bútorozva.
+        <stage>Szoba, egy közép-, két oldalajtóval. Kopott eleganciával bútorozva.
                         Mindegyik darab színe és alakja különbözik a másiktól. Az ablakon csak a
                         függöny egyik fele van helyén, a másik letört rúdján lefelé lóg. A falon
                         tükör, közepén nagy repedéssel; több egymáshoz nem illő nagy és kis kép,
@@ -288,14 +284,11 @@
                         album, mellette tányér, hideg ételekkel; két virágváza közt egy söröskorsó.
                         Oldalt íróasztal, mindenféle nyitott és lepecsételt levelekkel rendetlenül
                         borítva.</stage>
-        </p>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
-          <p>
-            <stage>Kamilla a pamlagon ül, Mosolygó.</stage>
-            <stage>Mosolygó az íróasztal
+          <stage>Kamilla a pamlagon ül, Mosolygó.</stage>
+          <stage>Mosolygó az íróasztal
                             mellett ül egy rozzant széken, leveket felbontva és rendezgetve.</stage>
-          </p>
           <sp who="#kamilla">
             <speaker>KAMILLA</speaker>
             <stage>eszik.</stage>
@@ -607,9 +600,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Irén gyorsan jön a középajtón, kezében levéllel.</stage>
-          </p>
+          <stage>Előbbiek, Irén gyorsan jön a középajtón, kezében levéllel.</stage>
           <sp who="#iren">
             <speaker>IRÉN.</speaker>
             <p>Mama, kérem szépen -</p>
@@ -652,9 +643,7 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENET</head>
-          <p>
-            <stage>Kamilla, Mosolygó.</stage>
-          </p>
+          <stage>Kamilla, Mosolygó.</stage>
           <sp who="#mosolygo">
             <speaker>MOSOLYGÓ</speaker>
             <stage>a levélbe néz.</stage>
@@ -836,9 +825,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Irén.</stage>
-          </p>
+          <stage>Előbbiek, Irén.</stage>
           <sp who="#iren">
             <speaker>IRÉN.</speaker>
             <p>Mindjárt öt óra lesz.</p>
@@ -982,9 +969,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Kamilla, Mosolygó.</stage>
-          </p>
+          <stage>Kamilla, Mosolygó.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Hát maga mit áll itt ezzel a nyaláb levéllel? Mondtam már, hogy menjen a
@@ -1043,9 +1028,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>Kamilla, Timót.</stage>
-          </p>
+          <stage>Kamilla, Timót.</stage>
           <sp who="#timot">
             <speaker>TIMÓT</speaker>
             <stage>az ajtóban megáll, bókolva.</stage>
@@ -1255,9 +1238,7 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Irén.</stage>
-          </p>
+          <stage>Előbbiek, Irén.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Íme, uram, egyetlen gyermekem, kiről beszéltünk. Jer közelebb kedves
@@ -1380,9 +1361,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>Timót, Mosolygó.</stage>
-          </p>
+          <stage>Timót, Mosolygó.</stage>
           <sp who="#timot">
             <speaker>TIMÓT</speaker>
             <stage>elbámulva néz a távozók után.</stage>
@@ -1433,9 +1412,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Bence.</stage>
-          </p>
+          <stage>Előbbiek, Bence.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Jó napot, jó napot! -<stage>Észreveszi Timótot.</stage>Ah, mi ez?
@@ -1519,9 +1496,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENEGYEDIK JELENET</head>
-          <p>
-            <stage>Timót, Bence.</stage>
-          </p>
+          <stage>Timót, Bence.</stage>
           <sp who="#bence">
             <speaker>BENCE</speaker>
             <stage>nevetve.</stage>
@@ -1633,9 +1608,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENET</head>
-          <p>
-            <stage>Bence egyedül.</stage>
-          </p>
+          <stage>Bence egyedül.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Az én aranyos barátom ugyan mélyen bepillantott a kis Irén szemébe.
@@ -1651,9 +1624,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHARMADIK JELENET</head>
-          <p>
-            <stage>Bence, Kamilla.</stage>
-          </p>
+          <stage>Bence, Kamilla.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Maga ugyan szép dolgokat csinál; elrontja a legszebb keresetemet! Mi a
@@ -1980,9 +1951,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENNEGYEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Irén.</stage>
-          </p>
+          <stage>Előbbiek, Irén.</stage>
           <sp who="#iren">
             <speaker>IRÉN</speaker>
             <stage>belép; Bencét észreveszi, vissza akar vonulni.</stage>
@@ -2001,9 +1970,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENÖTÖDIK JELENET</head>
-          <p>
-            <stage>Kamilla, Irén.</stage>
-          </p>
+          <stage>Kamilla, Irén.</stage>
           <sp who="#iren">
             <speaker>IRÉN.</speaker>
             <p>Úgy látszik, mama, ez a Bence úr gúnyt űz belőlünk.</p>
@@ -2071,9 +2038,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHATODIK JELENET</head>
-          <p>
-            <stage>Kamilla, Irén, Borcsa.</stage>
-          </p>
+          <stage>Kamilla, Irén, Borcsa.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Borcsa, nagy mondanivalóm van.</p>
@@ -2228,9 +2193,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHETEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Borcsa, házmester.</stage>
-          </p>
+          <stage>Előbbiek, Borcsa, házmester.</stage>
           <sp who="#borcsa">
             <speaker>BORCSA.</speaker>
             <p>Itt van a házmester úr.</p>
@@ -2394,10 +2357,8 @@
         </div>
         <div type="scene">
           <head type="title">TIZENNYOLCADIK JELENET</head>
-          <p>
-            <stage>Kamilla, Tulipánné, utána két szabóinas kosarakban hozza a lámpákat,
+          <stage>Kamilla, Tulipánné, utána két szabóinas kosarakban hozza a lámpákat,
                             evőszereket stb.</stage>
-          </p>
           <sp who="#tulipanne">
             <speaker>TULIPÁNNÉ.</speaker>
             <p>Itt vagyunk mindenestül, szomszédasszony. Hová tegyük a holmikat?</p>
@@ -2455,9 +2416,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENKILENCEDIK JELENET</head>
-          <p>
-            <stage>Kamilla, Irén, Barcsa, Bolti szolga.</stage>
-          </p>
+          <stage>Kamilla, Irén, Barcsa, Bolti szolga.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Éljen! meg van mentve a haza! Vigye be, kedves barátom a másik szobába a
@@ -2514,12 +2473,10 @@
         </div>
         <div type="scene">
           <head type="title">HUSZADIK JELENET</head>
-          <p>
-            <stage>Irén az egész jelenet alatt föl s alá jár, az asztalokat rendezve, a
+          <stage>Irén az egész jelenet alatt föl s alá jár, az asztalokat rendezve, a
                             lámpákat, gyertyákat gyújtva. Jankó combig érő vörös mellényben, bokáig
                             érő rongyos kék frakkban, nagy sárga gombokkal; a középajtóhoz
                             támaszkodik.</stage>
-          </p>
           <sp who="#janko">
             <speaker>JANKÓ</speaker>
             <stage>szünet után.</stage>
@@ -2581,9 +2538,7 @@
         </div>
         <div type="scene">
           <head type="title">HUSZONEGYEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Darvas.</stage>
-          </p>
+          <stage>Előbbiek, Darvas.</stage>
           <sp who="#darvas">
             <speaker>DARVAS.</speaker>
             <p>Jelentse be Darvas Károlyt, ha jelenteni kell.</p>
@@ -2749,9 +2704,7 @@
         </div>
         <div type="scene">
           <head type="title">HUSZONKETTEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Kamilla, Borcsa.</stage>
-          </p>
+          <stage>Előbbiek, Kamilla, Borcsa.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA</speaker>
             <stage>haragosan jő, Jankót félrelökve az ajtóból.</stage>
@@ -2846,9 +2799,7 @@
         </div>
         <div type="scene">
           <head type="title">HUSZONHARMADIK JELENET</head>
-          <p>
-            <stage>Tulipán, Tulipánné.</stage>
-          </p>
+          <stage>Tulipán, Tulipánné.</stage>
           <sp who="#tulipanne">
             <speaker>TULIPÁNNÉ</speaker>
             <stage>bókolva jő.</stage>
@@ -2893,9 +2844,7 @@
         </div>
         <div type="scene">
           <head type="title">HUSZONNEGYEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Bankó, Elza.</stage>
-          </p>
+          <stage>Előbbiek, Bankó, Elza.</stage>
           <sp who="#banko">
             <speaker>BANKÓ.</speaker>
             <p>Ah! már együtt van a fényes társaság?</p>
@@ -3093,9 +3042,7 @@
         </div>
         <div type="scene">
           <head type="title">HUSZONÖTÖDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Kamilla, Irén, Mosolygó.</stage>
-          </p>
+          <stage>Előbbiek, Kamilla, Irén, Mosolygó.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA</speaker>
             <stage>Bankó utolsó szavainál belépve.</stage>
@@ -3172,9 +3119,7 @@
         </div>
         <div type="scene">
           <head type="title">HUSZONHATODIK JELENET</head>
-          <p>
-            <stage>Kamilla, Bence.</stage>
-          </p>
+          <stage>Kamilla, Bence.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Ne fesd falra az ördögöt -</p>
@@ -3278,9 +3223,7 @@
         </div>
         <div type="scene">
           <head type="title">HUSZONHETEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Timót.</stage>
-          </p>
+          <stage>Előbbiek, Timót.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Hahaha! Ez a fiú úgy változtatja a neveket, mint a <hi rend="italic">Budapesti Közlöny</hi>.Szervusz, öreg!</p>
@@ -3312,9 +3255,7 @@
         </div>
         <div type="scene">
           <head type="title">HUSZONNYOLCADIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Irén.</stage>
-          </p>
+          <stage>Előbbiek, Irén.</stage>
           <sp who="#timot">
             <speaker>TIMÓT.</speaker>
             <p>Örvendek, hogy szerencsém van - jó egészségben -</p>
@@ -3394,10 +3335,8 @@
         </div>
         <div type="scene">
           <head type="title">HUSZONKILENCEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Tulipán, Tulipánné, Bankó, Elza, Mosolygó,
+          <stage>Előbbiek, Tulipán, Tulipánné, Bankó, Elza, Mosolygó,
                         Darvas.</stage>
-          </p>
           <sp who="#tulipanne">
             <speaker>TULIPÁNNÉ.</speaker>
             <p>Mennyit vesztettél?</p>
@@ -3483,9 +3422,7 @@
         </div>
         <div type="scene">
           <head type="title">HARMINCADIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Kamilla.</stage>
-          </p>
+          <stage>Előbbiek, Kamilla.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA</speaker>
             <stage>magában.</stage>
@@ -3517,9 +3454,7 @@
                                 kivételével, kik még mindig előbbi helyzetben állnak. Rövid szünet.</stage>
             </p>
           </sp>
-          <p>
-            <stage>Elza legyezőjével megüti Bencét. Szembe fordulnak egymással, s hangosan elnevetik magukat.</stage>
-          </p>
+          <stage>Elza legyezőjével megüti Bencét. Szembe fordulnak egymással, s hangosan elnevetik magukat.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Jó estét, Elza!</p>
@@ -3716,10 +3651,8 @@
         </div>
         <div type="scene">
           <head type="title">HARMINCEGYEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Kamilla, Bankó, Irén, Timót, Tulipán, Tulipánné, Mosolygó,
+          <stage>Előbbiek, Kamilla, Bankó, Irén, Timót, Tulipán, Tulipánné, Mosolygó,
                             Jankó, Borcsa.</stage>
-          </p>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Úgy hiszem, legjobb lesz e teremben teázni.<stage>Mind leülnek. Jankó és
@@ -3822,11 +3755,9 @@
             <stage>figyelmesen vizsgálja, magában.</stage>
             <p>Szereti.</p>
           </sp>
-          <p>
-            <stage>Irén észreveszi Darvast, ki egy lépést tesz előre; reszketve
+          <stage>Irén észreveszi Darvast, ki egy lépést tesz előre; reszketve
                         feléje nyújtja kezét, ajka mozog, mintha szólni akarna, s aléltan
                         Kamilla keblére roskad.</stage>
-          </p>
           <sp who="#elza">
             <speaker>ELZA.</speaker>
             <p>Szegény leány, nagyon meglepte az örömhír.<stage>Mind körülveszik
@@ -3838,21 +3769,15 @@
             <stage>észreveszi Darvast, magában.</stage>
             <p>Ah! hárman vagyunk?</p>
           </sp>
-          <p>
-            <stage>A függöny legördül.</stage>
-          </p>
+          <stage>A függöny legördül.</stage>
         </div>
       </div>
       <div type="act">
         <head type="title">MÁSODIK FELVONÁS</head>
-        <p>
-          <stage>Szín, mint az első felvonásban.</stage>
-        </p>
+        <stage>Szín, mint az első felvonásban.</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
-          <p>
-            <stage>Irén, Darvas.</stage>
-          </p>
+          <stage>Irén, Darvas.</stage>
           <sp who="#borcsa">
             <speaker>BORCSA</speaker>
             <stage>ajtót nyitva Darvas előtt.</stage>
@@ -3875,9 +3800,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>Irén, Darvas.</stage>
-          </p>
+          <stage>Irén, Darvas.</stage>
           <sp who="#darvas">
             <speaker>DARVAS.</speaker>
             <p>Mégsem szóltak?</p>
@@ -4021,9 +3944,7 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Kamilla, Elza.</stage>
-          </p>
+          <stage>Előbbiek, Kamilla, Elza.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Nagyon örülök, kedves Elzám, úgyis oly ritkán látom. Ah! Darvas úr!</p>
@@ -4130,9 +4051,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Bence.</stage>
-          </p>
+          <stage>Előbbiek, Bence.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Itt jő, s hízeleg magának azzal, hogy híva jő. Üdvözlet a hölgyek
@@ -4399,9 +4318,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Bence, Elza.</stage>
-          </p>
+          <stage>Bence, Elza.</stage>
           <sp who="#elza">
             <speaker>ELZA</speaker>
             <stage>fölkel.</stage>
@@ -4616,9 +4533,7 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
-          <p>
-            <stage>Elza, később Bankó.</stage>
-          </p>
+          <stage>Elza, később Bankó.</stage>
           <sp who="#elza">
             <speaker>ELZA</speaker>
             <stage>egyedül.</stage>
@@ -4862,9 +4777,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>Kamilla, Elza, Irén, Borcsa.</stage>
-          </p>
+          <stage>Kamilla, Elza, Irén, Borcsa.</stage>
           <sp who="#elza">
             <speaker>ELZA.</speaker>
             <p>Most fogjunk a munkához.</p>
@@ -4912,9 +4825,7 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>Kamilla, Elza, Irén.</stage>
-          </p>
+          <stage>Kamilla, Elza, Irén.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Hallatlan szemtelenség! - Még ma elcsapom.</p>
@@ -5109,9 +5020,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Timót.</stage>
-          </p>
+          <stage>Előbbiek, Timót.</stage>
           <sp who="#timot">
             <speaker>TIMÓT</speaker>
             <stage>félénken jő.</stage>
@@ -5321,9 +5230,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENET</head>
-          <p>
-            <stage>Kamilla, Irén.</stage>
-          </p>
+          <stage>Kamilla, Irén.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>No, mégsincs kedved férjhez menni? Hallgatsz, lesütöd a fejedet?
@@ -5538,9 +5445,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENEGYEDIK JELENET</head>
-          <p>
-            <stage>Kamilla egyedül.</stage>
-          </p>
+          <stage>Kamilla egyedül.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Ah! Csakhogy vége van, magam sem bírtam volna tovább... Ó, hogy az Isten
@@ -5559,9 +5464,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENET</head>
-          <p>
-            <stage>Kamilla, Mosolygó.</stage>
-          </p>
+          <stage>Kamilla, Mosolygó.</stage>
           <sp who="#mosolygo">
             <speaker>MOSOLYGÓ.</speaker>
             <p>Én vagyok - itt az idő - dologra - sok levél.<stage>Leveleket vesz ki
@@ -5634,9 +5537,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHARMADIK JELENET</head>
-          <p>
-            <stage>Mosolygó, Irén.</stage>
-          </p>
+          <stage>Mosolygó, Irén.</stage>
           <sp who="#iren">
             <speaker>IRÉN</speaker>
             <stage>gyorsan jő.</stage>
@@ -5753,9 +5654,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENNEGYEDIK JELENET</head>
-          <p>
-            <stage>Kamilla egyfelől, Elza másfelől.</stage>
-          </p>
+          <stage>Kamilla egyfelől, Elza másfelől.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA</speaker>
             <stage>kívül.</stage>
@@ -5806,9 +5705,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENÖTÖDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Tulipán, Tulipánné.</stage>
-          </p>
+          <stage>Előbbiek, Tulipán, Tulipánné.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Nagyon szíves, kedves Tulipán úr. Tessék helyet foglalni, tüstént
@@ -5850,9 +5747,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHATODIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Bence, Bankó, Borcsa.</stage>
-          </p>
+          <stage>Előbbiek, Bence, Bankó, Borcsa.</stage>
           <sp who="#banko">
             <speaker>BANKÓ.</speaker>
             <p>Itt vagyunk, a kocsik lenn várnak - indulhatunk.</p>
@@ -5926,18 +5821,14 @@
       </div>
       <div type="act">
         <head type="title">HARMADIK FELVONÁS</head>
-        <p>
-          <stage>Fényesen világított díszterem. A háttérben nagy nyitott ajtón más terem
+        <stage>Fényesen világított díszterem. A háttérben nagy nyitott ajtón más terem
                         látszik. Oldalt egy asztalnál Bankó, Timót, Ordas és Mákony
                         kártyáznak.</stage>
-          <stage>Bence és Elza karöltve jönnek a hátulsó
+        <stage>Bence és Elza karöltve jönnek a hátulsó
                         teremből.</stage>
-        </p>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
-          <p>
-            <stage>Bence, Elza, Bankó, Timót, Ordas, Mákony.</stage>
-          </p>
+          <stage>Bence, Elza, Bankó, Timót, Ordas, Mákony.</stage>
           <sp who="#timot">
             <speaker>TIMÓT.</speaker>
             <p>Megint vesztettem! megfoghatatlan!</p>
@@ -6057,9 +5948,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>Mákonyné, Klimóczi, előbbiek.</stage>
-          </p>
+          <stage>Mákonyné, Klimóczi, előbbiek.</stage>
           <sp who="#makonyne">
             <speaker>MÁKONYNÉ</speaker>
             <stage>Klimóczi karján jő a hátulsó teremből.</stage>
@@ -6121,9 +6010,7 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENET</head>
-          <p>
-            <stage>Bence, Elza.</stage>
-          </p>
+          <stage>Bence, Elza.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Mi nem nyertük el Mákony barátom pénzét, nem szükséges tehát, hogy
@@ -6339,9 +6226,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Bence egyedül.</stage>
-          </p>
+          <stage>Bence egyedül.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Majd meglátjuk, majd meglátjuk! Az én fajtám nem egyhamar töri ki a
@@ -6367,9 +6252,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Bence, Klimóczi.</stage>
-          </p>
+          <stage>Bence, Klimóczi.</stage>
           <sp who="#klimoczi">
             <speaker>KLIMÓCZI.</speaker>
             <p>A kedves Bankóné azt súgta fülembe, hogy engem kívánsz, barátom.</p>
@@ -6502,9 +6385,7 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
-          <p>
-            <stage>Bence egyedül.</stage>
-          </p>
+          <stage>Bence egyedül.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Az utolsó patkány kiugrott a hajóból. Süllyedünk. Sietnem kell, a felhők
@@ -6519,9 +6400,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>Bence, Timót.</stage>
-          </p>
+          <stage>Bence, Timót.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Isten hozott, öreg! - Meguntad már a vigalmi zajt, hogy e félreeső helyre
@@ -6796,10 +6675,8 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>Kamilla túlzott nevetséges díszben, Mosolygó egy oldalajtón
+          <stage>Kamilla túlzott nevetséges díszben, Mosolygó egy oldalajtón
                             jönnek.</stage>
-          </p>
           <sp who="#kamilla">
             <speaker>KAMILLA.</speaker>
             <p>Csak jöjjön. Ne féljen, ha én vezetem. Szerencséje, hogy az előszobában
@@ -6921,9 +6798,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>Bankó, Ordas, Mákony.</stage>
-          </p>
+          <stage>Bankó, Ordas, Mákony.</stage>
           <sp who="#ordas">
             <speaker>ORDAS.</speaker>
             <p>No, ezen a roboton is keresztülestünk. Szegény fülem, hogy
@@ -6975,9 +6850,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Timót</stage>
-          </p>
+          <stage>Előbbiek, Timót</stage>
           <sp who="#banko">
             <speaker>BANKÓ</speaker>
             <p>Jókor jössz, Pali. Éppen rólad beszéltünk.</p>
@@ -7008,7 +6881,7 @@
             <stage>a kártyát keverve</stage>
             <p>Ha úgy tetszik uraim...</p>
           </sp>
-          <sp who="#timmot">
+          <sp who="#timot">
             <speaker>TIMÓT</speaker>
             <stage>Bankóhoz.</stage>
             <p>Sajnálkoztunk fölötted, hogy olyan nagy tehetséggel, mint a tied, nem
@@ -7122,9 +6995,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENEGYEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Irén, Mákonyné, Elza.</stage>
-          </p>
+          <stage>Előbbiek, Irén, Mákonyné, Elza.</stage>
           <sp who="#makonyne">
             <speaker>MÁKONYNÉ.</speaker>
             <p>Ennek a teremnek valami különös varázsereje lehet, hogy az urak mindegyre
@@ -7270,9 +7141,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Bence.</stage>
-          </p>
+          <stage>Előbbiek, Bence.</stage>
           <sp who="#bence">
             <speaker>BENCE</speaker>
             <stage>az ajtóban állva.</stage>
@@ -7296,9 +7165,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHARMADIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Zelma, Klimóczi.</stage>
-          </p>
+          <stage>Előbbiek, Zelma, Klimóczi.</stage>
           <sp who="#zelma">
             <speaker>ZELMA</speaker>
             <stage>Klimóczi karján.</stage>
@@ -7382,9 +7249,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENNEGYEDIK JELENET</head>
-          <p>
-            <stage>Bence, Irén.</stage>
-          </p>
+          <stage>Bence, Irén.</stage>
           <sp who="#iren">
             <speaker>IRÉN.</speaker>
             <p>Ki engedte meg ez embernek, hogy idejöjjön?</p>
@@ -7538,9 +7403,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENÖTÖDIK JELENET</head>
-          <p>
-            <stage>Irén egyedül.</stage>
-          </p>
+          <stage>Irén egyedül.</stage>
           <sp who="#iren">
             <speaker>IRÉN.</speaker>
             <p>Mi volt ez? Hozzám beszéltek így? Férjem volt az, ki e szavakat dobta
@@ -7562,9 +7425,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHATODIK JELENET</head>
-          <p>
-            <stage>Irén, Darvas, Mosolygó.</stage>
-          </p>
+          <stage>Irén, Darvas, Mosolygó.</stage>
           <sp who="#darvas">
             <speaker>DARVAS</speaker>
             <stage>sápadtan, komoran előrejő, s megállva Irén előtt, hallgatva tekint
@@ -7751,9 +7612,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHETEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Bence.</stage>
-          </p>
+          <stage>Előbbiek, Bence.</stage>
           <sp who="#bence">
             <speaker>BENCE.</speaker>
             <p>Kedvesem, egészen megfeledkezik háziasszonyi kötelességéről. Vendégeink
@@ -7875,9 +7734,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENNYOLCADIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Kamilla.</stage>
-          </p>
+          <stage>Előbbiek, Kamilla.</stage>
           <sp who="#kamilla">
             <speaker>KAMILLA</speaker>
             <stage>fölhevülve jő a hátulsó teremből, s az ajtót nyitva hagyja.</stage>
@@ -8037,19 +7894,15 @@
       </div>
       <div type="act">
         <head type="title">NEGYEDIK FELVONÁS</head>
-        <p>
-          <stage>Szegényesen bútorozott szoba. Egy nagy asztal, néhány szék, egy nagy
+        <stage>Szegényesen bútorozott szoba. Egy nagy asztal, néhány szék, egy nagy
                         faláda. A fal mellett nagy halmazban poros iratcsomagok hevernek
                         rendetlenül. Egy közép-, egy oldalajtó, ezzel szemben ablak, függöny nélkül.
                         Gáspár, tízéves kisfiú a földön heverő iratcsomagokat egymás után
                         felnyalábolva a nyitott ládákba rakja, halkan dúdolva. Borcsa, kezében
                         összekötött csomaggal, kinyitja a középajtót, s betekint.</stage>
-        </p>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
-          <p>
-            <stage>Gáspár, Borcsa.</stage>
-          </p>
+          <stage>Gáspár, Borcsa.</stage>
           <sp who="#borcsa">
             <speaker>BORCSA</speaker>
             <stage>az ajtóban beszólva.</stage>
@@ -8095,12 +7948,12 @@
             <speaker>GÁSPÁR</speaker>
             <p>Hagyja el, galambom, torkig vagyok már a lányokkal.</p>
           </sp>
-          <sp who="#borcs">
+          <sp who="#borcsa">
             <speaker>BORCSA</speaker>
             <stage>leül.</stage>
             <p>Ugyan, ne mondd.</p>
           </sp>
-          <sp who="#gaspra">
+          <sp who="#gaspar">
             <speaker>GÁSPÁR</speaker>
             <p>De hát mire is való az asszonynép a világon! Hogy bajt csináljon nekünk,
                             férfiaknak.</p>
@@ -8152,7 +8005,7 @@
             <speaker>BORCSA</speaker>
             <p>Igazán?</p>
           </sp>
-          <sp who="#gaspra">
+          <sp who="#gaspar">
             <speaker>GÁSPÁR</speaker>
             <p>Ne féljen tőlem. Pedig annyi igaz, hogy az asszonyokat ki nem állhatom.</p>
           </sp>
@@ -8197,9 +8050,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Mosolygó.</stage>
-          </p>
+          <stage>Előbbiek, Mosolygó.</stage>
           <sp who="#mosolygo">
             <speaker>MOSOLYGÓ</speaker>
             <stage>az ajtóban.</stage>
@@ -8315,9 +8166,7 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Irén</stage>
-          </p>
+          <stage>Előbbiek, Irén</stage>
           <sp who="#borcsa">
             <speaker>BORCSA</speaker>
             <stage>Irénhez rohan, lélegzetvétel nélkül.</stage>
@@ -8361,9 +8210,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Irén, Mosolygó.</stage>
-          </p>
+          <stage>Irén, Mosolygó.</stage>
           <sp who="#iren">
             <speaker>IRÉN</speaker>
             <p>Napról napra több bajt és költséget okozok önnek, kedves barátom. Nem
@@ -8471,9 +8318,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Elza.</stage>
-          </p>
+          <stage>Előbbiek, Elza.</stage>
           <sp who="#elza">
             <speaker>ELZA</speaker>
             <stage>kinyitja az ajtót.</stage>
@@ -8684,9 +8529,7 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
-          <p>
-            <stage>Irén egyedül</stage>
-          </p>
+          <stage>Irén egyedül</stage>
           <sp who="#iren">
             <speaker>IRÉN</speaker>
             <p>Ó, Istenem! mi ez? Mily lassan, mily iszonyúan világosodik a homály, és
@@ -8703,9 +8546,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>Irén, Bence</stage>
-          </p>
+          <stage>Irén, Bence</stage>
           <sp who="#iren">
             <speaker>IRÉN</speaker>
             <stage>magában</stage>
@@ -8896,9 +8737,7 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>Bence, később Elza</stage>
-          </p>
+          <stage>Bence, később Elza</stage>
           <sp who="#bence">
             <speaker>BENCE</speaker>
             <p>Győzelem! meg van törve... engedni fog! Szegény gyermek! szinte
@@ -8930,9 +8769,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>Elza egyedül.</stage>
-          </p>
+          <stage>Elza egyedül.</stage>
           <sp who="#elza">
             <speaker>ELZA</speaker>
             <p>Még nem késő... még leránthatom álarcát... éppen jókor küldi ide
@@ -8950,9 +8787,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENET</head>
-          <p>
-            <stage>Elza, Timót.</stage>
-          </p>
+          <stage>Elza, Timót.</stage>
           <sp who="#timot">
             <speaker>TIMÓT</speaker>
             <stage>lassan, félénken belép az ajtón, s Elzát látva megáll</stage>
@@ -9081,9 +8916,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENEGYEDIK JELENET</head>
-          <p>
-            <stage>Timót egyedül.</stage>
-          </p>
+          <stage>Timót egyedül.</stage>
           <sp who="#timot">
             <speaker>TIMÓT</speaker>
             <p>Magamra hagyott; mit tegyek most? Hogy kerüljek színe elé e szegény
@@ -9106,9 +8939,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENET</head>
-          <p>
-            <stage>Timót, Irén.</stage>
-          </p>
+          <stage>Timót, Irén.</stage>
           <sp who="#iren">
             <speaker>IRÉN</speaker>
             <stage>meglátva Timótot, megdöbben, állva marad az ajtóban,
@@ -9186,10 +9017,8 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHARMADIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Elza.</stage>
-          </p>
-          <sp who="#ela">
+          <stage>Előbbiek, Elza.</stage>
+          <sp who="#elza">
             <speaker>ELZA</speaker>
             <stage>gyorsan.</stage>
             <p>Uram, készüljön, Bence jő.</p>
@@ -9216,9 +9045,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENNEGYEDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Bence, Bankó, Ordas, Mákony.</stage>
-          </p>
+          <stage>Előbbiek, Bence, Bankó, Ordas, Mákony.</stage>
           <sp who="#bence">
             <speaker>BENCE</speaker>
             <p>Itt van; ide láttam jönni. Ah! csakugyan - nem csalódtam. -
@@ -9304,9 +9131,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENÖTÖDIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Darvas, Mosolygó.</stage>
-          </p>
+          <stage>Előbbiek, Darvas, Mosolygó.</stage>
           <sp who="#darvas">
             <speaker>DARVAS</speaker>
             <p>Megálljon!</p>
@@ -9356,9 +9181,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHATODIK JELENET</head>
-          <p>
-            <stage>Előbbiek, Borcsa, Gáspár</stage>
-          </p>
+          <stage>Előbbiek, Borcsa, Gáspár</stage>
           <sp who="#mosolygo">
             <speaker>MOSOLYGÓ</speaker>
             <p>Darvas vitte az ügyet... én nem vihettem... húsz év előtt elvették a

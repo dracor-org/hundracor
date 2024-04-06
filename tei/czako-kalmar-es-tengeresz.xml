@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000014">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000014" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">KALMÁR ÉS TENGERÉSZ</title>
-        <title type="sub">EREDETI DRÁMA NÉGY FELVONÁSBAN</title>
+        <title type="main">Kalmár és tengerész</title>
+        <title type="sub">Eredeti dráma négy felvonásban</title>
         <author>
           <persName>
-            <surname>CZAKÓ</surname>
-            <forename>ZSIGMOND</forename>
+            <surname>Czakó</surname>
+            <forename>Zsigmond</forename>
           </persName>
           <idno type="wikidata">Q832280</idno>
         </author>
@@ -68,7 +66,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -79,8 +76,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <title type="main">KALMÁR ÉS TENGERÉSZ</title>
-          <title type="sub">EREDETI DRÁMA NÉGY FELVONÁSBAN</title>
+          <title type="main">Kalmár és tengerész</title>
+          <title type="sub">Eredeti dráma négy felvonásban</title>
           <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
           <date when="2008-03-18">2008-03-18</date>
           <ref target="https://mek.oszk.hu/05700/05783"/>
@@ -97,8 +94,8 @@
           <title type="sub"/>
           <author>
             <persName>
-              <surname>CZAKÓ</surname>
-              <forename>ZSIGMOND</forename>
+              <surname>Czakó</surname>
+              <forename>Zsigmond</forename>
             </persName>
             <idno type="wikidata">Q832280</idno>
           </author>
@@ -107,12 +104,12 @@
           <publisher>Szépirodalmi Könyvkiadó</publisher>
         </bibl>
         <bibl type="firstEdition">
-          <title type="main">KALMÁR ÉS TENGERÉSZ</title>
-          <title type="sub">EREDETI DRÁMA NÉGY FELVONÁSBAN</title>
+          <title type="main">Kalmár és tengerész</title>
+          <title type="sub">Eredeti dráma négy felvonásban</title>
           <author>
             <persName>
-              <surname>CZAKÓ</surname>
-              <forename>ZSIGMOND</forename>
+              <surname>Czakó</surname>
+              <forename>Zsigmond</forename>
             </persName>
             <idno type="wikidata">Q832280</idno>
           </author>
@@ -185,6 +182,11 @@
         <desc/>
       </event>
     </listEvent>
+    <listRelation>
+      <relation name="wikidata"
+                   active="https://dracor.org/entity/hun000014"
+                   passive="http://www.wikidata.org/entity/"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
@@ -511,11 +513,9 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENET</head>
-          <p>
-            <stage>Hermina gazdagon öltözve. Árthur.</stage>
-            <stage>Árthur elébe megyen, kezét beléptekor megcsókolja, a
+          <stage>Hermina gazdagon öltözve. Árthur.</stage>
+          <stage>Árthur elébe megyen, kezét beléptekor megcsókolja, a
                                         pamlaghoz vezeti - hol ismét kezet csókol.</stage>
-          </p>
           <sp who="#hermina">
             <speaker>HERMINA</speaker>
             <stage>kezet ad és rámosolyg.</stage>
@@ -552,10 +552,8 @@
                                         keres.</stage>
             </p>
           </sp>
-          <p>
-            <stage>Árthur elhozza a legyezőt, s bókkal átadja.</stage>
-          </p>
-          <sp who="hermina">
+          <stage>Árthur elhozza a legyezőt, s bókkal átadja.</stage>
+          <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Három lépésre tőlem.</p>
           </sp>
@@ -736,9 +734,7 @@
           </sp>
           <sp who="#hermina">
             <speaker>HERMINA</speaker>
-            <p>
-              <stage>kezet nyújt.</stage>
-            </p>
+            <stage>kezet nyújt.</stage>
             <p>Nem csalatkoztam önben. Ön nemes lelkű, bár kissé hanyag. A többi
                                     közt, betétette valahára a hírlapokba elveszett karpereceim és
                                     függőim hirdetését? Sajnálnám elveszteni, nemcsak értéki becsök
@@ -756,15 +752,11 @@
             <speaker>HERMINA.</speaker>
             <p>Hallga - lépteket hallok.</p>
           </sp>
-          <p>
-            <stage>Árthur hátra áll.</stage>
-          </p>
+          <stage>Árthur hátra áll.</stage>
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Kelendi, Endre, előbbiek.</stage>
-          </p>
+          <stage>Kelendi, Endre, előbbiek.</stage>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Utoljára legyen mondva, uram: maradjon hivatása körében. Én
@@ -864,9 +856,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Előbbiek Árthur nélkül.</stage>
-          </p>
+          <stage>Előbbiek Árthur nélkül.</stage>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Férjem, igen jót tennél öcséddel, ha kissé
@@ -915,7 +905,7 @@
                                             végleheletemig, s ajkimon nyelvét, melyet a hosszas
                                             távollét e percig nem bírt elfelejteni. - Vajha e
                                             nyelven döröghetném<note type="footnote">a magyar
-                                                vezényleti nyelv követelése.</note>egykor
+                                                vezényleti nyelv követelése.</note> egykor
                                             kormányszavam torkos ágyúimnak, rendítő éljennel
                                             köszöntve hegyet és sziklát Dardanelláktól a Jóremény
                                             fokáig - és amerre hab és tenger árad!</p>
@@ -978,9 +968,7 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
-          <p>
-            <stage>Árthur, előbbiek.</stage>
-          </p>
+          <stage>Árthur, előbbiek.</stage>
           <sp who="#arthur">
             <speaker>ÁRTHUR.</speaker>
             <p>Az útra minden készen áll.</p>
@@ -1038,9 +1026,7 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>Szolga, Árthur, később Hermina.</stage>
-          </p>
+          <stage>Szolga, Árthur, később Hermina.</stage>
           <sp who="#vilmos">
             <speaker>VILMOS.</speaker>
             <p>Uram!</p>
@@ -1071,17 +1057,12 @@
                                                   felajánlva.</stage>Ha úgy tetszik, szép nagysád.</p>
             <p>Ha úgy tetszik, szép nagysád.</p>
           </sp>
-          <p>
-            <stage>Oldalterembe vezeti, mialatt a kárpit
-        legördül.</stage>
-          </p>
+          <stage>Oldalterembe vezeti, mialatt a kárpit legördül.</stage>
         </div>
       </div>
       <div type="act">
         <head type="title">MÁSODIK FELVONÁS</head>
-        <p>
-          <stage>Bilsenné lakásán egyszerű szoba.</stage>
-        </p>
+        <stage>Bilsenné lakásán egyszerű szoba.</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
           <sp who="#arthur">
@@ -1106,9 +1087,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>Árthur, Bilsenné.</stage>
-          </p>
+          <stage>Árthur, Bilsenné.</stage>
           <sp who="#arthur">
             <speaker>ÁRTHUR</speaker>
             <stage>figyelemmel nézi Bilsennét, ki őt számba sem veszi.</stage>
@@ -1123,9 +1102,7 @@
             <stage>félre</stage>
             <p>Ebbe ma megint sátán bújt.<stage>Fent.</stage>Méltatlanul bánik velem. Meg akartam önt látogat...</p>
           </sp>
-          <p>
-            <stage>Bilsenné merőn nézi.</stage>
-          </p>
+          <stage>Bilsenné merőn nézi.</stage>
           <sp who="#arthur">
             <speaker>ÁRTHUR</speaker>
             <stage>félénken elhallgat.</stage>
@@ -1139,11 +1116,9 @@
             <speaker>ÁRTHUR.</speaker>
             <p>Tegyen, amint tetszik.</p>
           </sp>
-          <p>
-            <stage>Bilsenné leveti kalapját, kendőjét, egy székre ül, felteszi
+          <stage>Bilsenné leveti kalapját, kendőjét, egy székre ül, felteszi
         szemüvegét, könyvet veszen elő, olvas - mindezt ünnepélyes
         lassúsággal.</stage>
-          </p>
           <sp who="#arthur">
             <speaker>ÁRTHUR.</speaker>
             <p>Templomban volt, néne?</p>
@@ -1284,9 +1259,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Endre, Bilsenné.</stage>
-          </p>
+          <stage>Endre, Bilsenné.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE</speaker>
             <stage>az ajtóban megáll.</stage>
@@ -1296,9 +1269,7 @@
             <speaker>BILSENNÉ.</speaker>
             <p>Szabad.</p>
           </sp>
-          <p>
-            <stage>Endre előrejön kezet akar csókolni.</stage>
-          </p>
+          <stage>Endre előrejön kezet akar csókolni.</stage>
           <sp who="#bilsenne">
             <speaker>BILSENNÉ</speaker>
             <stage>elvonja kezét.</stage>
@@ -1531,9 +1502,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Margit. Előbbiek.</stage>
-          </p>
+          <stage>Margit. Előbbiek.</stage>
           <sp who="#margit">
             <speaker>MARGIT</speaker>
             <stage>sebesen Bilsenné felé.</stage>
@@ -1786,9 +1755,7 @@
             <speaker>ENDRE.</speaker>
             <p>A kolostor falai közt?</p>
           </sp>
-          <p>
-            <stage>Margit elfogódva igen int.</stage>
-          </p>
+          <stage>Margit elfogódva igen int.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
             <p>Ott nem lehet úgy, mint a tengeren.</p>
@@ -1931,9 +1898,7 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
-          <p>
-            <stage>Első felvonásbeli terem.</stage>
-          </p>
+          <stage>Első felvonásbeli terem.</stage>
           <sp who="#hermina">
             <speaker>HERMINA</speaker>
             <stage>türelmetlenül.</stage>
@@ -1953,10 +1918,8 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>Hermina, Szolga. Később Feldner
+          <stage>Hermina, Szolga. Később Feldner
                                                     Louise.</stage>
-          </p>
           <sp who="#szolga">
             <speaker>SZOLGA</speaker>
             <stage>jelent.</stage>
@@ -2246,9 +2209,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>Kelendi, Hermina.</stage>
-          </p>
+          <stage>Kelendi, Hermina.</stage>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Férjem! Hidegvér, csak most ne hagyj
@@ -2282,10 +2243,8 @@
             <p>Hah, öröm. A sors jól érti lelkemet, és pontos
                                                   az időben.</p>
           </sp>
-          <p>
-            <stage>Kelendi egy asztal mellé székre ül, s
+          <stage>Kelendi egy asztal mellé székre ül, s
         gondolatokba merülve papírral játszik.</stage>
-          </p>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>E férjet mellőzém, ki értem áldozá minden
@@ -2442,10 +2401,7 @@
                                                   e percig, s én ezen erőt nem sajnáltam - mert -
                                                   szerettelek.</p>
           </sp>
-          <p>
-            <stage>Hermina a pamlagra tántorog,
-        rárogy.</stage>
-          </p>
+          <stage>Hermina a pamlagra tántorog, rárogy.</stage>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
             <p>ntettelek gyakran, gyermekünk nevében kértelek,
@@ -2463,9 +2419,7 @@
                                                   közepette, három nap alatt minden remény nélkül
                                                   csőd alá jutok.</p>
           </sp>
-          <p>
-            <stage>Hermina az asztalra borul, zokog.</stage>
-          </p>
+          <stage>Hermina az asztalra borul, zokog.</stage>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
             <p>A fényűzésről tehát le kell mondanod. Én
@@ -2527,17 +2481,13 @@
                                                   balsorsom oly zordonná tett - én melletted mindent
                                                   feledek.</p>
           </sp>
-          <p>
-            <stage>Hermina férje karjai közé rogy.</stage>
-            <stage>A kárpit legördül.</stage>
-          </p>
+          <stage>Hermina férje karjai közé rogy.</stage>
+          <stage>A kárpit legördül.</stage>
         </div>
       </div>
       <div type="act">
         <head type="title">HARMADIK FELVONÁS</head>
-        <p>
-          <stage>Első felvonásbeli terem.</stage>
-        </p>
+        <stage>Első felvonásbeli terem.</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
           <sp who="#kelendi_endre">
@@ -2554,9 +2504,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>Kelendi, Endre.</stage>
-          </p>
+          <stage>Kelendi, Endre.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
             <p>Lám csalatkoztam - azt hivém, senki sincs hon. Isten hozott, bátyám,
@@ -2722,9 +2670,7 @@
             <p>Mit nekem boldogság - boldogtalanság, ha a tiéd forog kérdésben. Tudni
                             akarom.</p>
           </sp>
-          <p>
-            <stage>Kelendi el akar menni.</stage>
-          </p>
+          <stage>Kelendi el akar menni.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE</speaker>
             <stage>útját állja.</stage>
@@ -2933,9 +2879,7 @@
                             szegénysége miatt" -</p>
             <p>"Nem csupán szegénysége miatt" -</p>
           </sp>
-          <p>
-            <stage>Kelendi közben a végszókat ismétli.</stage>
-          </p>
+          <stage>Kelendi közben a végszókat ismétli.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
             <p>"Hanem jelen állásomat s jövőmet illető több tekintetekből" Elfogódva.
@@ -2996,9 +2940,7 @@
             <p>Jól - igen jól van.<stage>Félre.</stage>Ah, mennyi boldogság halt meg e
                                 sorokban!<stage>Visszanyújtja.</stage>Az utóiratot még.</p>
           </sp>
-          <p>
-            <stage>Kelendi ír.</stage>
-          </p>
+          <stage>Kelendi ír.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
             <p>"Én e pillanatban tengerre utazom. Isten önnel."</p>
@@ -3094,10 +3036,8 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Hermina, Louise, Endre. Louise és Hermina azon ajtón
+          <stage>Hermina, Louise, Endre. Louise és Hermina azon ajtón
                                         jőnek, melyen Kelendi elment.</stage>
-          </p>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Legkisebbet se vonakodjék. Öcsém bár hadfia - bír
@@ -3112,9 +3052,7 @@
             <p>Amit teszek, nem csupán önért van.<stage>Meglátja
                                         Endrét.</stage>Endre.</p>
           </sp>
-          <p>
-            <stage>Endre feltekint - felkél.</stage>
-          </p>
+          <stage>Endre feltekint - felkél.</stage>
           <sp who="#hermina">
             <speaker>HERMINA</speaker>
             <stage>Endrét bemutatja.</stage>
@@ -3168,11 +3106,9 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Endre, Louise. Endre Herminát az ajtóig kíséri.
+          <stage>Endre, Louise. Endre Herminát az ajtóig kíséri.
                                             Visszajőve Louise-nak a pamlagon helyet mutat, melyet
                                             elfogad, maga pedig egy székre ül - nagy szünet.</stage>
-          </p>
           <sp who="#feldner_louise">
             <speaker>LOUISE.</speaker>
             <p>E perc, úgy látom, terhelő hadnagy úrra.</p>
@@ -3493,14 +3429,12 @@
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
           <sp>
-            <p>
-              <stage>Hermina hálóterme oldalajtókkal - a
+            <stage>Hermina hálóterme oldalajtókkal - a
                                                     fenékfalon lebocsájtott kárpitok, oldalról a
                                                     kárpit előtt egy pamlag. Elöl asztal, rajta
                                                     gyertya, csöngettyű sat. Kívül a felvonás végéig
                                                     rendre növekedő vihar. Egy óra tizenkettőt
                                                     üt.</stage>
-            </p>
           </sp>
           <sp who="#hermina">
             <speaker>HERMINA</speaker>
@@ -3542,9 +3476,7 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>Árthur, Hermina.</stage>
-          </p>
+          <stage>Árthur, Hermina.</stage>
           <sp who="#arthur">
             <speaker>ÁRTHUR</speaker>
             <stage>Endre díszöltönyében lassan benyit,
@@ -3604,12 +3536,8 @@
                                                   kiáltok.<stage>A csengettyű után nyúl.</stage>
             </p>
           </sp>
-          <p>
-            <stage>Árthur elkapja előle.</stage>
-          </p>
-          <p>
-            <stage>Hermina az ajtóhoz akar futni.</stage>
-          </p>
+          <stage>Árthur elkapja előle.</stage>
+          <stage>Hermina az ajtóhoz akar futni.</stage>
           <sp who="#arthur">
             <speaker>ÁRTHUR</speaker>
             <stage>útját állja - pisztolt ragad.</stage>
@@ -3873,10 +3801,7 @@
             <stage>magában.</stage>
             <p>Ó, csak mennénk már.<stage>Fent.</stage>Kedvesem, az idő siet.</p>
           </sp>
-          <p>
-            <stage>Kívül kocsizörej, mely hirtelen
-        megszűnik.</stage>
-          </p>
+          <stage>Kívül kocsizörej, mely hirtelen megszűnik.</stage>
           <sp who="#hermina">
             <speaker>HERMINA.</speaker>
             <p>Hah! Ez férjem<stage>megragadja azon kezét,
@@ -3946,9 +3871,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>Kelendi, szolgák.</stage>
-          </p>
+          <stage>Kelendi, szolgák.</stage>
           <sp who="#kelendi">
             <speaker>KELENDI</speaker>
             <stage>berohan - az ablakon meglátja
@@ -3956,9 +3879,7 @@
             <p>Szent egek - mit kell látnom - öcsém,
                                                   Endre!</p>
           </sp>
-          <p>
-            <stage>Inasok Herminához sietnek.</stage>
-          </p>
+          <stage>Inasok Herminához sietnek.</stage>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
             <p>Irgalmas isten - nőm vérben!</p>
@@ -3968,16 +3889,12 @@
             <p>Ah - férjem -<stage>meghal.</stage>
             </p>
           </sp>
-          <p>
-            <stage>A kárpit legördül.</stage>
-          </p>
+          <stage>A kárpit legördül.</stage>
         </div>
       </div>
       <div type="act">
         <head type="title">NEGYEDIK FELVONÁS</head>
-        <p>
-          <stage>Üvegajtós terem.</stage>
-        </p>
+        <stage>Üvegajtós terem.</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
           <sp who="#arthur">
@@ -4018,10 +3935,8 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>Kelendi, Árthur. Kelendi gyászban megáll a pamlag előtt, és reá
+          <stage>Kelendi, Árthur. Kelendi gyászban megáll a pamlag előtt, és reá
                                 mereng.</stage>
-          </p>
           <sp who="#arthur">
             <speaker>ÁRTHUR</speaker>
             <stage>félre.</stage>
@@ -4048,9 +3963,7 @@
             <speaker>KELENDI.</speaker>
             <p>Ön temeté el nőmet.</p>
           </sp>
-          <p>
-            <stage>Árthur haboz, nem tudja, mint értse.</stage>
-          </p>
+          <stage>Árthur haboz, nem tudja, mint értse.</stage>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
             <p>Köszönöm fáradságát, én tehetetlen voltam.</p>
@@ -4206,16 +4119,12 @@
             <speaker>KELENDI.</speaker>
             <p>Köszönöm.</p>
           </sp>
-          <p>
-            <stage>Kívül szomorú halotti zene hallik.</stage>
-          </p>
+          <stage>Kívül szomorú halotti zene hallik.</stage>
           <sp who="#arthur">
             <speaker>ÁRTHUR.</speaker>
             <p>Temetés!</p>
           </sp>
-          <p>
-            <stage>Kelendi meghallva a zenét elfogódik, és a pamlagra borul.</stage>
-          </p>
+          <stage>Kelendi meghallva a zenét elfogódik, és a pamlagra borul.</stage>
           <sp who="#arthur">
             <speaker>ÁRTHUR.</speaker>
             <p>Kárhozat, ez a te köszöntésed!<stage>A zene közeledik.</stage>
@@ -4251,9 +4160,7 @@
             <p>Ez ének lelkem nyugalmának sírdala. - Pokol, miként meneküljek e
                                 hangoktól?!<stage>Bedugja füleit.</stage>Ó, jaj nekem -<stage>összeborzad.</stage>A lélek fül nélkül is hall!</p>
           </sp>
-          <p>
-            <stage>A zene elnémul.</stage>
-          </p>
+          <stage>A zene elnémul.</stage>
           <sp who="#kelendi">
             <speaker>KELENDI.</speaker>
             <p>Egy csapásra ennyi áldozat - egy kebelnek ennyi kín. Azt hittem, több
@@ -4341,9 +4248,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Kelendi, Ferenc.</stage>
-          </p>
+          <stage>Kelendi, Ferenc.</stage>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
             <p>Engedelmet kérek, uram!</p>
@@ -4549,9 +4454,7 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
-          <p>
-            <stage>Endre, Ferenc.</stage>
-          </p>
+          <stage>Endre, Ferenc.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
             <stage>halványan, szórakozottan belép, fövegét elhajítja.</stage>
@@ -4639,9 +4542,7 @@
             <speaker>ENDRE.</speaker>
             <p>Mi lesz már házasságomból?</p>
           </sp>
-          <p>
-            <stage>Ferenc vállat vonít.</stage>
-          </p>
+          <stage>Ferenc vállat vonít.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
             <p>Más temetésről nem tudsz?</p>
@@ -4667,9 +4568,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>Endre, szolga. Később Bilsenné.</stage>
-          </p>
+          <stage>Endre, szolga. Később Bilsenné.</stage>
           <sp who="#szolga">
             <speaker>SZOLGA</speaker>
             <stage>jelent.</stage>
@@ -4680,12 +4579,8 @@
             <p>Bilsenné asszony? Be ne bocsásd -<stage>Szolga el.</stage>Most Bilsenné asszony, inkább Egyiptom tíz csapása; örömestebb állok egy
                             angol hadiflotta, mint jelenleg ezen asszony elébe.</p>
           </sp>
-          <p>
-            <stage>Bilsenné bejön, Endre előtt megáll - merőn szembe nézi.</stage>
-          </p>
-          <p>
-            <stage>Endre elfordul - szünet.</stage>
-          </p>
+          <stage>Bilsenné bejön, Endre előtt megáll - merőn szembe nézi.</stage>
+          <stage>Endre elfordul - szünet.</stage>
           <sp who="#bilsenne">
             <speaker>BILSENNÉ.</speaker>
             <p>Én szemtelenebb vagyok önnél is, midőn elutasítnak is betolakodom.</p>
@@ -4695,9 +4590,7 @@
             <stage>határozottan</stage>
             <p>Olvasta levelemet?</p>
           </sp>
-          <p>
-            <stage>Bilsenné némán rátekint.</stage>
-          </p>
+          <stage>Bilsenné némán rátekint.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
             <p>Megértette?</p>
@@ -4843,9 +4736,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>Endre, Bilsenné, Margit. Bilsenné bevezeti Margitot.</stage>
-          </p>
+          <stage>Endre, Bilsenné, Margit. Bilsenné bevezeti Margitot.</stage>
           <sp who="#kelendi_endre">
             <speaker>ENDRE</speaker>
             <stage>meglátja.</stage>
@@ -4855,9 +4746,7 @@
             <speaker>BILSENNÉ.</speaker>
             <p>Hová tevéd az életet, melyet ettől elloptál?</p>
           </sp>
-          <p>
-            <stage>Endre elfordul.</stage>
-          </p>
+          <stage>Endre elfordul.</stage>
           <sp who="#bilsenne">
             <speaker>BILSENNÉ</speaker>
             <stage>mosolyog.</stage>
@@ -4913,10 +4802,8 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENET</head>
-          <p>
-            <stage>Kelendi, előbbiek. Kelendi az ajtóban észrevétlenül
+          <stage>Kelendi, előbbiek. Kelendi az ajtóban észrevétlenül
                         megáll.</stage>
-          </p>
           <sp who="#kelendi_endre">
             <speaker>ENDRE.</speaker>
             <p>Margit! Engedje nevét még egyszer ajkimra venni. Nem, mentséget keresek,
@@ -5042,9 +4929,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENEGYEDIK JELENET</head>
-          <p>
-            <stage>Ferenc, rendőrtiszt, előbbiek.</stage>
-          </p>
+          <stage>Ferenc, rendőrtiszt, előbbiek.</stage>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
             <p>Ide tessék, uram!</p>
@@ -5119,9 +5004,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENET</head>
-          <p>
-            <stage>Árthur, előbbiek.</stage>
-          </p>
+          <stage>Árthur, előbbiek.</stage>
           <sp who="#arthur">
             <speaker>ÁRTHUR</speaker>
             <stage>oldalról, lesütött fővel.</stage>
@@ -5210,12 +5093,8 @@
             <speaker>KELENDI.</speaker>
             <p>Soha! Megölelik egymást.</p>
           </sp>
-          <p>
-            <stage>Margit gyöngén felemelkedik, s Endrére tekint.</stage>
-          </p>
-          <p>
-            <stage>A kárpit legördül.</stage>
-          </p>
+          <stage>Margit gyöngén felemelkedik, s Endrére tekint.</stage>
+          <stage>A kárpit legördül.</stage>
         </div>
       </div>
     </body>

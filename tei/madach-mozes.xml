@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000027">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000027" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +66,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -215,6 +212,11 @@
           </personGrp>
         </listPerson>
       </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <standOff>
@@ -316,11 +318,9 @@
     <body>
       <div type="act">
         <head type="title">ELSŐ FELVONÁS</head>
-        <p>
-          <stage>(Trónterem Fáraó palotájában. FÁRAÓ trónon
+        <stage>(Trónterem Fáraó palotájában. FÁRAÓ trónon
                         ül, mögötte toll-legyezős szolgák. Körüle, fényes kiséret, a FŐPAP, az
                         ORSZÁGLÁR, MÓZES, JÓKHEBÉB sat.)</stage>
-        </p>
         <sp who="#fopap">
           <speaker>FŐPAP</speaker>
           <stage>(MÓZESt a trón elé vezetve)</stage>
@@ -775,10 +775,8 @@
             <l>Vagy jő erős napod.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(FÁRAÓ kíséretével el. Csak MÓZES, JÓKHEBÉB s a zsidó küldöttség
+        <stage>(FÁRAÓ kíséretével el. Csak MÓZES, JÓKHEBÉB s a zsidó küldöttség
                         marad.)</stage>
-        </p>
         <sp who="#aron">
           <speaker>ÁRON</speaker>
           <lg>
@@ -872,9 +870,7 @@
             <l>Anyám, ne kívánd népem ellenével.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(El társaival.)</stage>
-        </p>
+        <stage>(El társaival.)</stage>
         <sp who="#mozes">
           <speaker>MÓZES</speaker>
           <lg>
@@ -1185,10 +1181,8 @@
         </sp>
         <div type="scene">
           <head type="title">VÁLTOZÁS </head>
-          <p>
-            <stage>(Gózen földén. Kicsiny faluban fás tér Áron
+          <stage>(Gózen földén. Kicsiny faluban fás tér Áron
                             háza előtt. MÁRIA jő, KOZBI s nehány más szolgálóval.)</stage>
-          </p>
           <sp who="#maria">
             <speaker>MÁRIA</speaker>
             <lg>
@@ -1305,9 +1299,7 @@
               <l>Úgy visszatérek, mint a gondolat. <stage>(El.)</stage></l>
             </lg>
           </sp>
-          <p>
-            <stage>(Zsidó nép, nőkkel, gyermekekkel, szaladva jő.)</stage>
-          </p>
+          <stage>(Zsidó nép, nőkkel, gyermekekkel, szaladva jő.)</stage>
           <sp who="#nep">
             <speaker>NÉP</speaker>
             <lg>
@@ -1348,9 +1340,7 @@
               <l>Im, itt jőnek már! El, ki merre tud.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Szétfutnak.)</stage>
-          </p>
+          <stage>(Szétfutnak.)</stage>
           <sp who="#maria">
             <speaker>MÁRIA</speaker>
             <lg>
@@ -1359,12 +1349,8 @@
               <l>Ah, óvj tehát te meg, kis ősi ház.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Bemegy a házba.)</stage>
-          </p>
-          <p>
-            <stage>(A TISZTTARTÓ poroszlókkal jő.)</stage>
-          </p>
+          <stage>(Bemegy a házba.)</stage>
+          <stage>(A TISZTTARTÓ poroszlókkal jő.)</stage>
           <sp who="#tiszttarto">
             <speaker>TISZTTARTÓ</speaker>
             <lg>
@@ -1382,8 +1368,8 @@
               <l>S ha megvan, mindegy – szentel a siker.</l>
             </lg>
           </sp>
-          <p>(Az ajtót betöri, s bemegy. Kisvártatva ÁRON s társai MÓZESsel, ki vándorul van
-                    öltözve, jőnek.)</p>
+          <stage>(Az ajtót betöri, s bemegy. Kisvártatva ÁRON s társai MÓZESsel, ki vándorul van
+                    öltözve, jőnek.)</stage>
           <sp who="#aron">
             <speaker>ÁRON</speaker>
             <lg>
@@ -1450,10 +1436,8 @@
               <l>A sarcoló tiszttartó itt vagyon.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Az ajtó felpattan, MÁRIA lengő hajjal kirohan, utána a TISZTTARTÓ
+          <stage>(Az ajtó felpattan, MÁRIA lengő hajjal kirohan, utána a TISZTTARTÓ
                         jő.)</stage>
-          </p>
           <sp who="#maria">
             <speaker>MÁRIA</speaker>
             <lg>
@@ -1632,7 +1616,7 @@
               <l>S hogy meg ne sejtsék, ássátok homokba.</l>
             </lg>
           </sp>
-          <p>(JÓZSUÉ és HÚR a TISZTTARTÓt elviszik. ABIRAM és KÁLEB jő nehányad magával.)</p>
+          <stage>(JÓZSUÉ és HÚR a TISZTTARTÓt elviszik. ABIRAM és KÁLEB jő nehányad magával.)</stage>
           <sp who="#abiram">
             <speaker>ABIRAM</speaker>
             <lg>
@@ -1904,10 +1888,8 @@
       </div>
       <div type="act">
         <head type="title">MÁSODIK FELVONÁS</head>
-        <p>
-          <stage>(Midianban. A Hóreb hegye tövénél
+        <stage>(Midianban. A Hóreb hegye tövénél
                         forrás-kút, Mózes juhnyájat őriz.)</stage>
-        </p>
         <sp who="#mozes">
           <speaker>MÓZES</speaker>
           <lg>
@@ -2205,9 +2187,7 @@
             <l>S a nép szívében ver csak élete.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(A láng jelensége eltűnik.)</stage>
-        </p>
+        <stage>(A láng jelensége eltűnik.)</stage>
         <sp who="#mozes">
           <speaker>MÓZES</speaker>
           <lg>
@@ -2369,9 +2349,7 @@
             <l>A vérző üdvöt mégsem bírja látni. -</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Jethro, Cippora, Gerzón jőnek.)</stage>
-        </p>
+        <stage>(Jethro, Cippora, Gerzón jőnek.)</stage>
         <sp who="#cippora">
           <speaker>CIPPORA</speaker>
           <lg>
@@ -2597,11 +2575,9 @@
         </sp>
         <div type="scene">
           <head type="title">VÁLTOZÁS</head>
-          <p>
-            <stage>(Köztér. Középen fáraó palotája erkéllyel.
+          <stage>(Köztér. Középen fáraó palotája erkéllyel.
                             Összecsoportosult zsidóság. Húr, Káleb, Abiram, Dátán, Józsué, Jókhebéd.
                             A rendőrfő.)</stage>
-          </p>
           <sp who="#kaleb">
             <speaker>KÁLEB</speaker>
             <lg>
@@ -2781,9 +2757,7 @@
               <l>Jőnek, de arcuk nem mutat sikert.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Mózes és Áron jőnek a palotából. Moraj, zsibongás.)</stage>
-          </p>
+          <stage>(Mózes és Áron jőnek a palotából. Moraj, zsibongás.)</stage>
           <sp who="#jozsue">
             <speaker>JÓZSUÉ</speaker>
             <lg>
@@ -2977,9 +2951,7 @@
               <l>Mint jármos állatét - de nem hatalmát.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Húr Máriát elővezeti.)</stage>
-          </p>
+          <stage>(Húr Máriát elővezeti.)</stage>
           <sp who="#maria">
             <speaker>MÁRIA</speaker>
             <lg>
@@ -3024,11 +2996,9 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK VÁLTOZÁS</head>
-          <p>
-            <stage>(Mózes lakában szoba. Jókhebédet Mózes
+          <stage>(Mózes lakában szoba. Jókhebédet Mózes
                             és Áron bevezetik. Mária, Húr, Józsué, Káleb s még nehány zsidó követi
                             őket.)</stage>
-          </p>
           <sp who="#jokhebed">
             <speaker>JÓKHEBÉD</speaker>
             <lg>
@@ -3130,9 +3100,7 @@
               <l>De itt vagytok még? - Nincs mit vesztegelni.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Káleb többekkel el.)</stage>
-          </p>
+          <stage>(Káleb többekkel el.)</stage>
           <sp who="#aron">
             <speaker>ÁRON</speaker>
             <lg>
@@ -3256,10 +3224,8 @@
               <l>Itt hozzák már az estebédet is.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Szolgálók behozzák a vacsorát. Mind körülállják, csak Jókhebéd
+          <stage>(Szolgálók behozzák a vacsorát. Mind körülállják, csak Jókhebéd
                             ül.)</stage>
-          </p>
           <sp who="#jokhebed">
             <speaker>JÓKHEBÉD</speaker>
             <lg>
@@ -3314,9 +3280,7 @@
               <l>Látom, amint jő, égő arculattal.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Mindenfelől kopogás hallik, rá zaj ébred.)</stage>
-          </p>
+          <stage>(Mindenfelől kopogás hallik, rá zaj ébred.)</stage>
           <sp who="#nep">
             <speaker>NÉP</speaker>
             <stage>(kívül)</stage>
@@ -3324,9 +3288,7 @@
               <l>Menjünk, menjünk. - Hol vagy Mózes! Vezess.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Mózes egy csapat néppel jő.)</stage>
-          </p>
+          <stage>(Mózes egy csapat néppel jő.)</stage>
           <sp who="#nep">
             <speaker>NÉP</speaker>
             <lg>
@@ -3350,9 +3312,7 @@
               <l>Jerünk.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Kürtszó.)</stage>
-          </p>
+          <stage>(Kürtszó.)</stage>
           <sp who="#jokhebed">
             <speaker>JÓKHEBÉD</speaker>
             <lg>
@@ -3388,11 +3348,9 @@
       </div>
       <div type="act">
         <head type="title">HARMADIK FELVONÁS</head>
-        <p>
-          <stage>(A pusztában. A Sinai hegye alatt, a
+        <stage>(A pusztában. A Sinai hegye alatt, a
                         zsidók táborán kívül. Áron, Abiram, Dátán, Józsué és sokan a zsidók közül
                         jőnek.)</stage>
-        </p>
         <sp who="#abiram">
           <speaker>ABIRAM</speaker>
           <lg>
@@ -3594,9 +3552,7 @@
             <l>Köszönjünk Áron! - Győzelem! - Jerünk.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Mind el, kivévén Józsuét.)</stage>
-        </p>
+        <stage>(Mind el, kivévén Józsuét.)</stage>
         <sp who="#jozsue">
           <speaker>JÓZSUÉ</speaker>
           <lg>
@@ -3652,9 +3608,7 @@
             <l>Melyik került felűl a másikon.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Örömzaj, trombitaszó a táborból.)</stage>
-        </p>
+        <stage>(Örömzaj, trombitaszó a táborból.)</stage>
         <sp who="#mozes">
           <speaker>MÓZES</speaker>
           <lg>
@@ -3703,11 +3657,9 @@
             <l>Óh, ládd hát, ládd magad.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(A zsidók zenekísérettel, zászlókkal az arany tulkot díszmenetben hozzák.
+        <stage>(A zsidók zenekísérettel, zászlókkal az arany tulkot díszmenetben hozzák.
                         Előtte Áron főpapi díszben megy. Mária s más nők táncolva dobot vernek.
                         Mózes egy ideig ámulva nézi, aztán eléjökbe lép.)</stage>
-        </p>
         <sp who="#mozes">
           <speaker>MÓZES</speaker>
           <lg>
@@ -3723,10 +3675,8 @@
             <l>Vessz el magadban, bálványoddal egyben.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(A kőtáblákkal az aranytulokhoz sújt, mindkettő összetörik. A nép
+        <stage>(A kőtáblákkal az aranytulokhoz sújt, mindkettő összetörik. A nép
                         elsompolyog, csak Mózes, Áron, Józsué, Húr és Mária maradnak.)</stage>
-        </p>
         <sp who="#aron">
           <speaker>ÁRON</speaker>
           <lg>
@@ -3796,9 +3746,7 @@
             <l>Ne kérdezd, mennyi, azt nézd csak, minő.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Józsué el, kisvártatva Mária és Húr szintén.)</stage>
-        </p>
+        <stage>(Józsué el, kisvártatva Mária és Húr szintén.)</stage>
         <sp who="#aron">
           <speaker>ÁRON</speaker>
           <lg>
@@ -3809,9 +3757,7 @@
             <l>Hidd, mást javallna most is az eszély.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Kürtszó.)</stage>
-        </p>
+        <stage>(Kürtszó.)</stage>
         <sp who="#mozes">
           <speaker>MÓZES</speaker>
           <lg>
@@ -3835,9 +3781,7 @@
             <l>Öldöklő angyalul nincs-é velem? -</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Jajgatás, zaj.)</stage>
-        </p>
+        <stage>(Jajgatás, zaj.)</stage>
         <sp who="#aron">
           <speaker>ÁRON</speaker>
           <lg>
@@ -3880,9 +3824,7 @@
             <l>Ne higgy, ne higgy! - Pusztítsad - hadd sziszegni.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Káleb és Húr szaladva jőnek.)</stage>
-        </p>
+        <stage>(Káleb és Húr szaladva jőnek.)</stage>
         <sp who="#kaleb">
           <speaker>KÁLEB</speaker>
           <lg>
@@ -3924,9 +3866,7 @@
             <l>Már nem él-e pártos?</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Abiram, Dátán zsidókkal jőnek.)</stage>
-        </p>
+        <stage>(Abiram, Dátán zsidókkal jőnek.)</stage>
         <sp who="#abiram">
           <speaker>ABIRAM</speaker>
           <lg>
@@ -4106,9 +4046,7 @@
             <l>Hisz törvény nélkül a nép is minek. -</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Józsué többekkel jő, köztük Káleb és Húr is.)</stage>
-        </p>
+        <stage>(Józsué többekkel jő, köztük Káleb és Húr is.)</stage>
         <sp who="#jozsue">
           <speaker>JÓZSUÉ</speaker>
           <lg>
@@ -4220,9 +4158,7 @@
             <l>S egy nélkül bármi is megeshetik.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Kürtszó.)</stage>
-        </p>
+        <stage>(Kürtszó.)</stage>
         <sp who="#nep">
           <speaker>NÉP</speaker>
           <lg>
@@ -4272,9 +4208,7 @@
             <l>Utána csak! -</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Mind el, Mózes-, Káleb-, Abiram- és Dátánon kívül.)</stage>
-        </p>
+        <stage>(Mind el, Mózes-, Káleb-, Abiram- és Dátánon kívül.)</stage>
         <sp who="#aron">
           <speaker>MÓZES</speaker>
           <lg>
@@ -4460,9 +4394,7 @@
             <l>Az égbe lelked - tested a mi gondunk. -</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Mózes karjait gyámolítják.)</stage>
-        </p>
+        <stage>(Mózes karjait gyámolítják.)</stage>
         <sp who="#aron">
           <speaker>MÓZES</speaker>
           <lg>
@@ -4472,9 +4404,7 @@
             <l>Dicsőségedben hinni kényszeríti.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Győzelmi zaj.)</stage>
-        </p>
+        <stage>(Győzelmi zaj.)</stage>
         <sp who="#kaleb">
           <speaker>KÁLEB</speaker>
           <lg>
@@ -4484,10 +4414,8 @@
             <l>Mi az imént megdöbbentett vala.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Józsué jő Húrral s harcosokkal. Hadifoglyokat vezetnek, köztök Amrát is,
+        <stage>(Józsué jő Húrral s harcosokkal. Hadifoglyokat vezetnek, köztök Amrát is,
                         és zsákmányt hoznak.)</stage>
-        </p>
         <sp who="#aron">
           <speaker>MÓZES</speaker>
           <lg>
@@ -4520,9 +4448,7 @@
             <l>Fényest, méltóat győzelmes nevéhez.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Mind el, kivévén Józsuét és Amrát.)</stage>
-        </p>
+        <stage>(Mind el, kivévén Józsuét és Amrát.)</stage>
         <sp who="#jozsue">
           <speaker>JÓZSUÉ</speaker>
           <lg>
@@ -4643,10 +4569,8 @@
       </div>
       <div type="act">
         <head type="title">NEGYEDIK FELVONÁS</head>
-        <p>
-          <stage>(Éj. Mózes sátorának belseje a zsidók
+        <stage>(Éj. Mózes sátorának belseje a zsidók
                         táborában Kánaán határán. - Józsué, Amra.)</stage>
-        </p>
         <sp who="#jozsue">
           <speaker>JÓZSUÉ</speaker>
           <lg>
@@ -5052,9 +4976,7 @@
             <l>Meglátom, Isten népe hogy vadabb-é. <stage>(Leül.)</stage></l>
           </lg>
         </sp>
-        <p>
-          <stage>(Egy csapat zsidó a bejáráshoz tolakodik.)</stage>
-        </p>
+        <stage>(Egy csapat zsidó a bejáráshoz tolakodik.)</stage>
         <sp who="#nep">
           <speaker>NÉP</speaker>
           <lg>
@@ -5112,10 +5034,8 @@
             <l>Nem lesz közöttünk emiatt harag.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Ezalatt Jethro, Cippora és Gerzón bejőnek s a háttérben tartózkodva
+        <stage>(Ezalatt Jethro, Cippora és Gerzón bejőnek s a háttérben tartózkodva
                         közelednek.)</stage>
-        </p>
         <sp who="#jethro">
           <speaker>JETHRO</speaker>
           <lg>
@@ -5425,9 +5345,7 @@
             <l>Viszontlátásig reggel.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Abiram, Dátán, a nép el.)</stage>
-        </p>
+        <stage>(Abiram, Dátán, a nép el.)</stage>
         <sp who="#aron">
           <speaker>MÓZES</speaker>
           <lg>
@@ -5717,9 +5635,7 @@
             <l>Utat neki! - Mi ábrándos jelenség.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(Mária átmegy a színpadon s el.)</stage>
-        </p>
+        <stage>(Mária átmegy a színpadon s el.)</stage>
         <sp who="#aron">
           <speaker>MÓZES</speaker>
           <lg>
@@ -5733,9 +5649,7 @@
             <l>Mit fiam?</l>
           </lg>
         </sp>
-        <p>
-          <stage>(A sátor egyik szögletében ködoszlop emelkedik.)</stage>
-        </p>
+        <stage>(A sátor egyik szögletében ködoszlop emelkedik.)</stage>
         <sp who="#aron">
           <speaker>MÓZES</speaker>
           <lg>
@@ -5842,9 +5756,7 @@
             <l>Azok közül, kik most lélegzenek.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(A ködoszlop eltűnik.)</stage>
-        </p>
+        <stage>(A ködoszlop eltűnik.)</stage>
         <sp who="#aron">
           <speaker>MÓZES</speaker>
           <lg>
@@ -5862,9 +5774,7 @@
             <l>Meglesz, amint rendeled.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(El.)</stage>
-        </p>
+        <stage>(El.)</stage>
         <sp who="#jozsue">
           <speaker>JÓZSUÉ</speaker>
           <stage>(jő)</stage>
@@ -5942,9 +5852,7 @@
             <l>Jőj, jőj, siessünk. -</l>
           </lg>
         </sp>
-        <p>
-          <stage>(El Cipporával és Gerzónnal; kürtszó.)</stage>
-        </p>
+        <stage>(El Cipporával és Gerzónnal; kürtszó.)</stage>
         <sp who="#aron">
           <speaker>MÓZES</speaker>
           <lg>
@@ -6068,12 +5976,10 @@
       </div>
       <div type="act">
         <head type="title">ÖTÖDIK FELVONÁS</head>
-        <p>
-          <stage>(A zsidók táborában, az Abarim hegye alatt,
+        <stage>(A zsidók táborában, az Abarim hegye alatt,
                         a Jordánnál. Középen a frigyszekrény sátora nyitva áll. A hegy egyik meredek
                         szikláján a háttérben terebélyes fa látszik. Mózes, Áron, Mária, Józsué a
                         sátor előtt. Hátrább félkörben az elöljárók. Mögöttük nép.)</stage>
-        </p>
         <sp who="#mozes">
           <speaker>MÓZES</speaker>
           <lg>
@@ -6443,9 +6349,7 @@
             <l>És halni megy.</l>
           </lg>
         </sp>
-        <p>
-          <stage>(El, a hegyek felé. A nép mindenfelé oszlik.)</stage>
-        </p>
+        <stage>(El, a hegyek felé. A nép mindenfelé oszlik.)</stage>
         <sp who="#jozsue">
           <speaker>JÓZSUÉ</speaker>
           <lg>
@@ -6455,11 +6359,9 @@
         </sp>
         <div type="scene">
           <head type="title">VÁLTOZÁS</head>
-          <p>
-            <stage>(A táboron kívül, a hegyekben. A terebélyes fa
+          <stage>(A táboron kívül, a hegyekben. A terebélyes fa
                             a meredek kősziklán innen is látszik. - Mózes jő, utána
                         Józsué.)</stage>
-          </p>
           <sp who="#mozes">
             <speaker>MÓZES</speaker>
             <lg>
@@ -6668,11 +6570,9 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK VÁLTOZÁS</head>
-          <p>
-            <stage>(Ismét a zsidók tábora, mint a
+          <stage>(Ismét a zsidók tábora, mint a
                             felvonás elején. Józsué jő, utána a nép, a szövetség sátoránál félkört
                             képezve megállnak.)</stage>
-          </p>
           <sp who="#jozsue">
             <speaker>JÓZSUÉ</speaker>
             <lg>
@@ -6721,9 +6621,7 @@
               <l>S tőlem ki mentne, óvna - senki nincs.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Nehéz fejszevágások hallatszanak a hegyek felől.)</stage>
-          </p>
+          <stage>(Nehéz fejszevágások hallatszanak a hegyek felől.)</stage>
           <sp who="#jozsue">
             <speaker>JÓZSUÉ</speaker>
             <lg>
@@ -6748,9 +6646,7 @@
               <l>Erős fala előttünk porba dűl.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Függöny.)</stage>
-          </p>
+          <stage>(Függöny.)</stage>
         </div>
       </div>
     </body>
