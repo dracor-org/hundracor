@@ -11,7 +11,7 @@
   <item id="hun000009" file="Csiky_AProletarok" slug="csiky-a-proletarok"/>
   <item id="hun000010" file="Csiky_AVasember" slug="csiky-a-vasember"/>
   <item id="hun000011" file="Csiky_Buborekok" slug="csiky-buborekok"/>
-  <item id="hun000012" file="Csokonai _AMelaTempefoi" slug="csokonai-a-mela-tempefoi" wikidata="Q1317957"/>
+  <item id="hun000012" file="Csokonai_AMelaTempefoi" slug="csokonai-a-mela-tempefoi" wikidata="Q1317957"/>
   <item id="hun000013" file="Csokonai_AzOzvegyKarnyone" slug="csokonai-ozvegy-karnyone"/>
   <item id="hun000014" file="Czako_KalmarEsTengeresz" slug="czako-kalmar-es-tengeresz" wikidata="Q1103614"/>
   <item id="hun000015" file="Gardonyi_ABor" slug="gardonyi-a-bor" wikidata="Q464019"/>
@@ -47,7 +47,7 @@
   <item id="hun000046" file="Balazs_AKekszakalluHercegVara" slug="balazs-a-kekszakallu-herceg-vara"/>
   <item id="hun000047" file="Balazs_HalalosFiatalsag" slug="balazs-halalos-fiatalsag"/>
   <item id="hun000048" file="Berczik_APozsonyiDieta" slug="berczik-a-pozsonyi-dieta"/>
-  <item id="hun000049" file="Bessenyei _AFilosofus" slug="bessenyei-a-filosofus"/>
+  <item id="hun000049" file="Bessenyei_AFilosofus" slug="bessenyei-a-filosofus"/>
   <item id="hun000050" file="Bessenyei_AgisTragediaja" slug="bessenyei-agis-tragediaja" wikidata="Q1469361"/>
   <item id="hun000051" file="Bessenyei_BudaTragediaja" slug="bessenyei-buda-tragediaja"/>
   <item id="hun000052" file="Bessenyei_HunyadiLaszloTragediaja" slug="bessenyei-hunyadi-laszlo-tragediaja"/>
@@ -73,5 +73,5 @@
   <item id="hun000072" file="Szigligeti_Csikos" slug="szigligeti-csikos"/>
   <item id="hun000073" file="Szigligeti_FennAzErnyo" slug="szigligeti-fenn-az-ernyo"/>
   <item id="hun000074" file="Szigligeti_IIRakocziFerenc" slug="szigligeti-ii-rakoczi-ferenc"/>
-  <item id="hun000075" file="Szigligeti_SzokottKatona" slug="szigligeti-szokott-katona"/>  
+  <item id="hun000075" file="Szigligeti_SzokottKatona" slug="szigligeti-szokott-katona"/>
 </index>
