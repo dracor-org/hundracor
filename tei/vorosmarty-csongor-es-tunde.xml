@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000039">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000039" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -61,19 +59,18 @@
         </respStmt>
         <respStmt>
           <resp>creator</resp>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        <pubPlace> Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          <p> CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
           </p>
         </availability>
       </publicationStmt>
@@ -197,6 +194,11 @@
         <desc/>
       </event>
     </listEvent>
+    <listRelation>
+      <relation name="wikidata"
+                   active="https://dracor.org/entity/hun000039"
+                   passive="http://www.wikidata.org/entity/"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
@@ -9103,15 +9105,15 @@
             <l>Így fogunk mi kéjben élni,</l>
             <l>S a világgal nem cserélni.</l>
           </lg>
-          <stage>A kísérő leánykák mindinkább elvonulnak, míg utóbb nem látsznak.</stage>
-          <stage>Azonban az aranyalma hull, s messziről imez ének hallatik:</stage>
+          <stage>A kísérő leánykák mindinkább elvonulnak, míg utóbb nem látsznak. Azonban
+						az aranyalma hull, s messziről imez ének hallatik:</stage>
+          <lg>
+            <l>Éjfél van, az éj rideg és szomorú,</l>
+            <l>Gyászosra hanyatlik az égi ború:</l>
+            <l>Jőj, kedves, örülni az éjbe velem,</l>
+            <l>Ébren maga van csak az egy szerelem.</l>
+          </lg>
         </sp>
-        <lg>
-          <l>Éjfél van, az éj rideg és szomorú,</l>
-          <l>Gyászosra hanyatlik az égi ború:</l>
-          <l>Jőj, kedves, örülni az éjbe velem,</l>
-          <l>Ébren maga van csak az egy szerelem.</l>
-        </lg>
       </div>
     </body>
   </text>

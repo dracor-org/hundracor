@@ -1,0 +1,2371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000059" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Bakaruhában</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <surname>Hunyady</surname>
+            <forename>Sándor</forename>
+          </persName>
+          <idno type="wikidata">Q1056533</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Pantyelejev</surname>
+            <forename>Natali</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace> Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
+        <date>2022</date>
+        <availability>
+          <p> CC BY-SA 4.0 <ref type="url">
+                            https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">unknown</title>
+          <title type="sub">unknown</title>
+          <publisher>unknown</publisher>
+          <ref target="unknown"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname>unknown</surname>
+              <forename>unknown</forename>
+            </persName>
+            <persName>
+              <surname>unknown</surname>
+              <forename>unknown</forename>
+            </persName>
+            <persName>
+              <surname>unknown</surname>
+              <forename>unknown</forename>
+            </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">Bakaruhában</title>
+          <title type="sub"/>
+          <author>
+            <persName>
+              <surname>Hunyady</surname>
+              <forename>Sándor</forename>
+            </persName>
+            <idno type="wikidata">Q1056533</idno>
+          </author>
+          <date when="2003">2003</date>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Európa Könyvkiadó</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname>Hunyady</surname>
+              <forename>Sándor</forename>
+            </persName>
+            <idno type="wikidata">Q1056533</idno>
+          </author>
+          <title type="main">Lovagias ügy</title>
+          <title type="sub">Válogatott drámák</title>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Európa Könyvkiadó</publisher>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="bodrogi" sex="MALE">
+            <persName>BODROGI</persName>
+          </person>
+          <person xml:id="bodrogine" sex="FEMALE">
+            <persName>BODROGINÉ</persName>
+          </person>
+          <person xml:id="piri" sex="FEMALE">
+            <persName>PIRI</persName>
+          </person>
+          <person xml:id="pali" sex="MALE">
+            <persName>PALI</persName>
+          </person>
+          <person xml:id="laci" sex="MALE">
+            <persName>LACI</persName>
+          </person>
+          <person xml:id="vilma" sex="FEMALE">
+            <persName>VILMA</persName>
+          </person>
+          <person xml:id="kaplar" sex="MALE">
+            <persName>KÁPLÁR</persName>
+          </person>
+          <person xml:id="julcsa" sex="FEMALE">
+            <persName>JULCSA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="2003">
+        <desc/>
+      </event>
+      <event type="written" when="1931">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata"
+                   active="https://dracor.org/entity/hun000059"
+                   passive="http://www.wikidata.org/entity/"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head type="title">
+          <hi rend="underline">SZEREPLŐK</hi>
+        </head>
+        <castItem>
+          <role><roleName>BODROGI</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>BODROGINÉ</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>PIRI</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>PALI</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>LACI</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>VILMA</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>KÁPLÁR</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>JULCSA</roleName></role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head type="title">ELSŐ KÉP</head>
+        <stage>Szín: Egy polgári lakás keresztmetszete. Balra a konyhát lehet látni a gangra
+                    nyíló ajtóval. A konyha a szokásos, rendes, tiszta, polgári konyha. Tűzhely,
+                    puhafa asztal, hokedlik, főzőedények a falon. Az egyik sarokban ott a
+                    mindenescseléd összecsukott vaságya, leterítve valami kendőfélével. Ez az
+                    ágyszeglet a cseléd külön lakosztálya. Az ágy mellé sötétzöldre festett kis
+                    faláda van téve, amilyennel a parasztlegények rukkolnak be katonának. Ebben a
+                    kis ládában van a mindeneslány egész földi vagyona. A konyha után az előszoba
+                    keresztmetszete látható, a háttérben az előszobaajtóval. Aztán következik az
+                    ebédlő, bebútorozva a rendes diófa kredenccel, magas hátú dívánnyal, a
+                    négyszögletű asztal körül a préselt műbőr tonettszékek. Még zongora is van az
+                    ebédlőben, amely egészen nyilvánvalóvá teszi, hogy ez nem valami nagy lakás,
+                    amelyben külön zeneterem van, de viszont a gazdái elérik a szerény Polgári jómód
+                    színvonalát. Vasárnap van, délután. A cseléd már elment sétálni, a ragyogóan
+                    kitakarított konyha üres. Az ebédlőben viszont együtt van a család és a vendég
+                    fiatalember. Az apa az asztalnál ül, és egyedül sakkozik. Valami mesterpartit
+                    játszik, kezében van az újság, onnan olvassa a lépéseket. A fia, aki tüzérkadét,
+                    gibicel az apjának, feltérdelve a széken. A házikisasszony, Piri, klimpiroz, a
+                    vendég fiú a zongorára könyökölve nézi a lányt, a mama hintaszéken ül, és a
+                    semmibe bámul</stage>
+        <stage>Bodrogi, Bodroginé, Pali, Piri, Laci</stage>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(ötven körüli ember. A rendes tisztviselő legrendesebb típusa.
+                            Megmozdít egy figurát a sakktáblán)</stage> Hát én ezt a lépést nem
+                        értem. Ez marhaság. Maróczy nem lép ilyen marhaságot.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(nézi a sakktáblát)</stage> Ez is sajtóhiba lesz biztosan.</p>
+        </sp>
+        <stage>Mindketten összebújnak az újság fölött</stage>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>Hát persze. Hogy a fene egye meg ezeket az újságokat.</p>
+        </sp>
+        <stage>Laci csinos fiatalember. Csak a fesztelenségén látszik, hogy úrifiú, mert
+                    közönséges, komisz bakaruhában van. Abban a bizonyos, békebeli uniformisban.
+                    Bakancsban, sárga-fekete zsinóros, szűk, világoskék nadrágban, sötétkék
+                    zubbonyban, a derekán ott az übersvung a kétfejű sasos rézcsattal. Otthonosan
+                    odamegy a kredenchez. Inni akar. De a kancsóban nincs víz</stage>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(észreveszi)</stage> Kell valami? <stage>(A testvéréhez)</stage> Pali,
+                        csöngess a lánynak.</p>
+        </sp>
+        <stage>Pali felnyúl, és gépiesen megnyomja az asztal fölött lógó kis körtét. A
+                    csöngetés elberreg az üres konyhában</stage>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Nincs már itthon a lány. Vasárnap van. Felöltözött, elment sétálni.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(bosszúsan)</stage> Micsoda trampli!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Ne mondják Zsuzsira, hogy trampli. Aranyos kis kukac. Két hete mindig ő
+                        engedett be a konyhán keresztül, amikor el volt romolva az
+                        előszobacsengő.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Ó, Zsuzsi, már egy hete nincs nálunk. Azt nem látja többet. Hazament a
+                        falujába. Férjhez ment. Hétfő óta új cselédünk van. Egy nagy teve.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(fölnéz a sakkból)</stage> Nem teve. Egész szép lány.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Csak hagyjad te azt a lányt. Nincs abban köszönet, ha te észreveszed a
+                        cselédben, hogy szép lány.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Adja már ide azt a kancsót!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(nem engedi a kancsó fülét)</stage> Ne fáradjon, Piros. Tudom én, hol
+                        a csap.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Adja, ha mondom! <stage>(A kancsón huzakodva, mind a ketten kimennek az
+                            előszobán keresztül a konyhába, odamennek a vízvezetékhez. A lány
+                            kinyitja a csapot, alátartja a kancsót, a fiú közben átöleli, és
+                            belecsókol a nyakába. Ezt a jelenetet természetesen nem láthatják a két
+                            falon keresztül a szobából. Azt sem hallhatják, hogy a lány csiklandósan
+                            fölkiált)</stage> Jaj, a fülem!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Pardon. Rosszul céloztam. <stage>(Viaskodik a csókért)</stage>
+          </p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Hagyjon, bizonyisten lespriccelem! <stage>(Spriccel)</stage> Ha legalább
+                        civilben lenne! Utálom ebben a kaszárnyaszagú bakaruhában. Mmmmmm!
+                            <stage>(Nem tud tovább sem küzdeni, sem beszélni, mert a fiú legyőzte,
+                            rajta a szája a száján. Hosszú, néma csók, csönd)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(aggodalmasan)</stage> Mi az ördögöt csinálnak ezek odakint annyi
+                        ideig?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(fölnéz a tábláról)</stage> Talán sakkoznak.</p>
+          <stage>Mert Bodroginé föláll, és az ajtó felé indul</stage>
+          <p>Ugyan, hagyja őket, anyám!</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(már a kilincset fogja, indignálódva)</stage> Tessék?!</p>
+        </sp>
+        <stage>Pali válasz helyett felnyúl, és megnyomja a csengőt, amelynek berregésére a
+                    párocska szétugrik a konyhában</stage>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Mi volt ez?!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Avizó. <stage>(Visszahajlik a sakktáblára)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(haragosan kimegy a konyhába, nézi a lányát, mint a féltékeny kotlós a
+                            csibéjét, aztán a fiúhoz fordul)</stage> Mi van itt? Húsvét van?
+                        Locsolás? Vagy esik az eső? Maga csupa, de csupa víz.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(törülgeti magát)</stage> Én nem tehetek róla, kezitcsókolom.
+                        Összevissza spriccelt a Piri!</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Igen, mama, mert szemtelenkedett. Mintha ki lenne cserélve. Amikor ez a
+                        komiszruha van rajta, ő is éppen olyan, mint a legközönségesebb paraszt
+                        baka...</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Büszke vagyok rá. Szeretem a parasztot.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Nahát, fújja föl őket...</p>
+        </sp>
+        <stage>Veszekedés közben mindhárman visszamennek a szobába, ott folyik tovább a
+                    dialóg</stage>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Csakugyan, Laci, én nem értem, hogy maga mért nem kéri az önkéntesi pertlit.
+                        Az persze más volna, ha nem lenne háború. Békében volt értelme a
+                        póttartalékosságnak. De most? Mindenki csak tiszt akarna lenni.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Persze. Átmenne a tüzérekhez. <stage>(Palira mutat)</stage> Mindjárt lenne
+                        protekciója.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(fölnéz)</stage> Én?... Szépen. Két hét múlva megyek a marssal.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(befogja a fülét)</stage> Legalább ne mondanád minden percben. Hallani
+                        sem szeretem.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(vigasztalja)</stage> Nem lesz soká a fronton. Két hónap múlva vége a
+                        háborúnak.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Honnan veszi ezt, Józsi bácsi?</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(fordít egyet a kezében levő újságon, olvassa)</stage> „Mire a
+                        falevelek lehullanak, otthon lesztek, fiúk.” Ezt a harcba induló katonáknak
+                        mondta a császár. A Vilmos.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(legyint)</stage> Hazugság.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(a kávéházi bölcs tüzességével)</stage> És ha hazugság, akkor is igaz.
+                        A modern háború nem tarthat tovább két, három, maximum négy hónapnál. Ha
+                        másért nem, hát csak azért, mert elfogy a pénz.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Ugyan. Majd nyomtatnak valami rongyot, aztán el kell fogadni.
+                        Megparancsolják, hogy az a pénz.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(Lacihoz)</stage> Hát ha soká fog tartani, annál inkább kérje a
+                        pertlit. Végig baka akar maradni?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(őszintén)</stage> Igen. Tudja, azt hiszem, az ilyen kis porszemnek
+                        könnyebb. Ismerem az őrmestert. Az alezredest, az összes doktorokat. Itt
+                        felejthetnek a kis tüdőcsúcshurutommal a kádernél... Mi az én szolgálatom
+                        így? Semmi. Kétszer egy héten fölveszem az uniformist, megmutatom magam a
+                        századnál. Civilben járok az irodába... Ha a végin mégis kivisznek, olyan
+                        mindegy, hogy amikor haslövést kapok, miféle csillagok vannak a
+                        parolimon.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(fölhúzza az orrát)</stage> Nagy hős.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(kedvesen)</stage> Jó, hát nem vagyok hős. Bocsánatot kérek, hogy nem
+                        annak születtem. <stage>(Körülnéz, megkeresi a sipkáját)</stage> Hát én
+                        megyek, kisztihand. Visszaöltözöm úriembernek. Szóval este mozi? Idejöjjek
+                        magukért? Vagy ott találkozunk a pénztárnál?</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Mindegy.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(a lányhoz)</stage> Nem jön, Piros? Elkísérem a konzervatóriumig.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Nem. Nem megyek magával így végig az utcán.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Hogy? Így?</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(rámutat)</stage> Így.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>De Piros, hiszen én vagyok ebben a ruhában. Az én lábam van ebben a
+                        bakancsban. Hát magának a ruha a fontos, nem az ember?</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Ne filozofáljon. Elég az hozzá, hogy nem nevettetem ki magam az egész
+                        világgal. Hogy minden káplárnak szalutálgasson mellőlem. Menjen, keressen
+                        magának erre valami cselédet.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(a sakk mellől)</stage> Micsoda marhaság.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Megjegyzem, Pirinek igaza van.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(nevet)</stage> En azt hiszem, maguk tévednek. De hát mit csináljak?
+                        Ilyen a szegény ember sorsa... Pá, Józsi bácsi... Kisztihand... Szervusz,
+                        tábornok úr.<stage>(Köszön, visszaköszönnek)</stage> Ki sem kísér, Piri?</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(fanyalogva)</stage> Kikísérhetem. <stage>(Kimennek az
+                            előszobába)</stage>
+          </p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(meg akarja csókolni a lányt, aki túl ingerülten védekezik.
+                            Elkeseredve)</stage> Istenem! Micsoda lelke van!</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(megvetően)</stage> Lelkem!... Tegye le az ügyvédi vizsgát, akkor majd
+                        meglátja, micsoda lelkem van.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Piri, ne csinálja ezt. Bizony isten, nem bírom!</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Hát ne bírja!... Hagyjon békén!... Majd hamut szórok a fejemre!</p>
+        </sp>
+        <stage>Összeveszve válnak el</stage>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(rásandít a húgára)</stage> Kicsókoltátok magatokat?</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Tudtam, hogy meg fogod kérdezni! Tudtam.</p>
+        </sp>
+        <stage>A szín abban a pillanatban sötétedik el, és forog tovább, amikor a testvérek
+                    veszekedni kezdenének. Az első forgó új dekoráció, valamilyen utcarészletet
+                    ábrázol. A háttérben házfal, nagy sétatér fákkal - ahogy a rendező jobbnak
+                    találja. Egy pad is van a színen, középen</stage>
+      </div>
+      <div type="act">
+        <head type="title">MÁSODIK KÉP</head>
+        <stage>Laci jobbról jön, leül a padra, cigarettát csavar, Vilma balról jön.
+                    Vasárnapi parasztdíszben, mint a páva, elsétál a pad előtt, végignéz a
+                    fiún</stage>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(elkapja a lány pillantását, elmosolyodik, kinyútja a kezét, megfogja
+                            a copfját)</stage> Hova mécc?!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(megáll, kihívóan)</stage> Szeretőt keresek magamnak.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>No, akkor gyere, mert én is éppen egyedül vagyok. <stage>(Fogja a lány
+                            copfját, húzza maga jele)</stage>
+          </p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Hallja-e! Ne húzza a hajamat. Engem nem lehet erőltetni. Ha én nem akarom
+                        magamtul, elmegyek, inkább a markába hagyom a copfomat.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(nevet, elereszti a lány copfját)</stage> Hát tessék. Nézz meg jól,
+                        aztán, ha nem tetszem, vigyed a varkocsodat.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(alaposan megnézi a legényt, aztán leül melléje a padra)</stage>
+                        Nahát, most aztán gondolhassa, hogy hogy vagyok, akár egy szót se
+                        beszéljek...</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(büszke a sikerére)</stage> Egyszóval tetszem.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(csúfolódva)</stage> Egész odáig vagyok. Mer én még ilyen bakát
+                        életembe nem láttam, mint maga.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Miért?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(nézi)</stage> Akinek aranyfoga van. Mondja nem kár ezért,
+                            prófuntot*<note type="critic">* Katonakenyér.</note> rágni rajta?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(nevet)</stage> Hátha nem is vagyok közönséges baka?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(fitymálva végignézi)</stage> Ugyan mi lenne. mulatságból hordja ezt a
+                        bakancsot?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(belemegy a mókába)</stage> Jól van na, inkább megmondom. Én
+                        szilágysági vagyok, porozdi. Tóth Lászlónak hívnak engemet. Nagygazda az
+                        apám. Ez az aranyfog harminc koronába került. Annyi se az én apámnak, mint
+                        egy babszem.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Hát nekünk is van házunk is, meg fődünk is. De azér az én apám agyonverné a
+                        bátyámat, ha egyszer úgy gyönne haza, aranyfoggal a szájába.
+                            <stage>(Összecsapja a kezét)</stage> Hogy is lehet ilyen butaságra
+                        pocsékolni a pénzt?!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Neked persze nem kell. Olyan fogad van, mint az egérnek. Mutasd csak.
+                            <stage>(Megfogja a lány állát)</stage>
+          </p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(vicsorít)</stage> Tessék.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Hű, de fehérek. Mint a cukor.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Milyen legyen? Fijatal vagyok még. Nem vót még ideje megzöldülni.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(egyre nagyobb kedvben)</stage> Hová való vagy?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Kavicspatakára. Ide közel. Nem járt még arra?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Hogy hínak?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Jakab Vilmának... Na de isten áldja. Nem lopom magával többet az időmet.
+                            <stage>(Föláll)</stage>
+          </p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>(tartóztatja, visszaülteti) Miért?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Mer hazudott. Nem olyan legény maga, akinek ne lenne senkije. Pénzes is,
+                        meg... megmondom a szemibe, csinos is. Biztosan van magának valakije, nem is
+                        egy. Én pedig nem akarok ötödik kerék lenni semmiféle szekéren.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Hát van. Nem tagadom, van. <stage>(Sóhajt, legyint)</stage> Hanem az...
+                        olyan.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(boldogan)</stage> Összevesztek?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Igen is, meg nem is. Azt hiszem, nem szeret engem.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(bámulva)</stage> Nem szereti?... Hát annak milyenféle kell?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(jólesik neki a dolog)</stage> Mit szólsz hozzá?! Hogy ez is megessék
+                        az emberrel. <stage>(Nevet, aztán elkomolyodik)</stage> Vagy lehet az is,
+                        hogy szeret. Csak nem eléggé. Hogy nem is tud jobban. Olyan vékony a
+                        lelke.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>No az én lelkem vastag. Énbelém belém mászhat fülig, mint a bivaly a
+                        pocsolyába. Fekete főd vagyok én, azt szeretem, ha mélyen szántanak bennem,
+                        hasítson bennem az eke, szinte fájjék. <stage>(Miközben Laci megfogja a
+                            kezét)</stage> Most mán azt is megmondom, hogy nekem is van olyan
+                        kérőfélém. Ez elől jöttem el szolgálni hazulról. Nem a bérért.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Nem szereted?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(egyszerűen)</stage> Nem. Megfekszi az életemet, akár a felhő. Mer az
+                        apám is, anyám is, bátyám is, mind vele macerálnak, hogy ilyen gazdag, meg
+                        olyan gazdag, hogy soha egy korty pálinka nem megy le a torkán... Hát az
+                        igaz, hogy nem iszik, meg dalszövetségi elnök. De <stage>(mutatja)</stage>
+                        ekkora palacsintafüle van. Vén legény is mán. Lehet az talán
+                        harmincesztendős. Meg katonának se vették be, én nem tudom, miér. Mind
+                        nézem, nézem, de nem látom a ruháján keresztül, micsoda baja lehet?...
+                            <stage>(Elhallgat)</stage> Na. Mit vizitál olyan borzasztóan rajtam?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Hogy milyen gyönyörű bőröd van. Rásüt az arcodra a nap. Akár a selyem.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Ne mondjon ilyeneket. E furcsa... Szégyellem magam. <stage>(Lassan,
+                            szégyenkezve hátat fordít a legénynek)</stage>
+          </p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(még közelebb bújik hozzá)</stage> Legalább ezt is látom. Ezt az édes
+                        kis füledet. A nyakadon ezeket a pelyhecskéket. Megcsókolhatlak?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(tisztán, őszintén)</stage> Ha nem okozunk vele senkinek keserűséget.
+                            <stage>(Hátat fordítva ül, úgy várja, behunyt szemmel, mozdulatlanul a
+                            csókot. Ebben a pillanatban egy bajuszos huszár káplár sétál át a
+                            színen. Elmegy a pad előtt, krakéler módra megnézi a párocskát, akik a
+                            megjelenésére szétrebbennek. Sőt Lacinak föl kell állni, és tisztelegni
+                            muszáj. Amikor peckesen kisétál a lány megfogja a fiú karját)</stage>
+                        Menjünk innen. Mert ez a káplár már régóta koncsorog utánam.</p>
+        </sp>
+        <sp who="#kaplar">
+          <speaker>KÁPLÁR</speaker>
+          <p>
+            <stage>(most visszajön a színre, megáll a pár előtt, csípőre tett kézzel,
+                            gonoszul nézi őket. Lacihoz)</stage> Büdös bundás. Hogy állsz itt?...
+                        Hapták.</p>
+          <p>
+            <stage>Laci haptákba áll, de nagyon villog a szeme</stage>
+          </p>
+          <p>Te, jó pofát vágjál, mert a képedre mászok. <stage>(Mustrálja, hogy mibe
+                            köthetne belé rajta)</stage>
+          </p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(Laci mellé áll, halálra szánt szolidaritással fűzi a karjába a kezét.
+                            Szembefordul az altiszttel)</stage> Ne bántsa, káplár úr, ezt a legényt.
+                        Úgyis tudom, miér akarja bántani. Hát hagyja. Mer mi egy falubeliek vagyunk,
+                        nem tudna széjjelválasztani kettőnket.</p>
+        </sp>
+        <sp who="#kaplar">
+          <speaker>KÁPLÁR</speaker>
+          <p>Nem-e?!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(szilárdan)</stage> Nem. Végigbőgném utána az egész
+                        kaszárnyaudvart.</p>
+        </sp>
+        <sp who="#kaplar">
+          <speaker>KÁPLÁR</speaker>
+          <p>
+            <stage>(néz, gondolkozik, aztán megvetően köp egyet)</stage> A fene ett vóna
+                        meg a falutokkal együtt. <stage>(Kimegy)</stage>
+          </p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(zavarban)</stage> Azér mondtam, hogy egy falubeliek vagyunk,
+                        mer...</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(melegen)</stage> Értem. Köszönöm.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(okosan, kedvesen)</stage> Látja, László, ezért kéne, hogy sarzsit
+                        szerezzen magának. Mer ha csak egy csillagja is lenne, már nem mert vóna így
+                        szemtelenkedni magával ez a rücskös káplár. Mert csak azzal mernek így
+                        komiszkodni, akinek éppen semmije sincsen. Ha valakinek csak egy villa
+                        szénája van, annak már ezt is elnézik, azt is elnézik. Mer mindenki azt
+                        gondolja, hátha rászorul egyszer arra a szénára...</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(simogatja a lány kezét)</stage> Derék teremtés maga.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Az imént még tegezett.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(gyöngéden)</stage> Nem jár már rá a szám. <stage>(Visszaülteti a
+                            lányt a padra, melléje ül)</stage> Nehéz szívvel fogok elválni magától,
+                        Vilma.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Hiszen mikor lesz még a...? Nyócig kimaradhatok.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(kevesli az időt)</stage> Csak nyócig!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(nézi a legényt, gondolkozik)</stage> ...Vagy... akarna feljönni
+                        hozzám?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(meglepve)</stage> Magához? Hová?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(egyszerűen)</stage> Hát ahol helybe vagyok. Megvárna a gangon vagy a
+                        konyhába, amíg lefeküsznek az úrék. <stage>(Észbe kap)</stage> Hanem persze,
+                        persze maga nem gyöhet. Nem maradhat ki reggelig a kaszárnyából. Márpedig
+                        tőlem éccaka nem mehet el. Hogy a házmester faggassa a kapuba, amikor
+                        kibocsátja, hogy kinél járt ott a házba?...</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(legyint)</stage> A kaszárnyától mehetek. Pajtásom nekem az
+                        őrmester... <stage>(Nevet a gondolaton)</stage> Hanem hogy a gangon
+                        ácsorogjak, vagy kint üljek a szemétládán a konyhában...</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(kicsit bosszúsan)</stage> Ejnye, de nagy legény. Hát nem vihetem be a
+                        szobába. Nem ültethetem a zongora mellé!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Aztán hol van az a hely?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(hátramutat a hüvelykujjával)</stage> Itt, a Bocskai téren. A négyes
+                        szám alatt. A második emeleten. Valami Bodrogiék...</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(figyel, tágra nyílik a szeme, nevetve)</stage> Bodrogiék?!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(türelmetlenül)</stage> Nem értem, mi nevetség van ezen?!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Azon nevetek, hogy az én komámat is így híjják odahaza.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Na ez nem a maga komája. Mer ez úr. Hivatalba jár. Van neki felesége meg egy
+                        lánya, meg egy fia is van. Az most katona. Tüzéraspiránt.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(szilajul)</stage> Jó! Hát felmegyek, ha felvisz magával. Legyen lúd,
+                        ha kövér! Úgyse bujkáltam még soha életembe senki konyhájában!
+                            <stage>(Földhöz vágja a sipkáját, átöleli a lányt, a vállára hajtja
+                            hízelegve a fejét)</stage>
+          </p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(tűri az ölelést, félszemmel nézi a legényt)</stage> Ejnye. Megint ez
+                        a nagy hencegés. Le fog esni az aranygyűrű az ujjáról!</p>
+        </sp>
+        <stage>Sötétség, a szín visszaforog az előző kép dekorációjára, a kétfelé osztott
+                    színpadra. A konyha most üres, árván ég a kopasz villanykörte a plafonról lógó
+                    dróton. Az ebédlőben a Bodrogi família vacsorázik</stage>
+      </div>
+      <div type="act">
+        <head type="title">HARMADIK KÉP</head>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(Pirihez)</stage> Hozd, fiam, be az ecetet.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>És az olajat...</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(felugrik, kiszalad a konyhába, a kredencről fölkapja az ecetolajos
+                            készletet, behozza. Haragszik)</stage> Borzasztó, hogy még mindig nincs
+                        itthon az a lány. Kilenc óra.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(kiveszi az óráját, megnézi)</stage> Háromnegyed nyolc.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Nyolcig van megalkudva a vasárnapi kimenője. De én ma megkértem, hogy jöjjön
+                        valamivel előbb haza. Mondtam, hogy moziba akarunk menni.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(rosszindulatú hangsúllyal)</stage> „Kérte?”, mama, „megkérte”?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Mit fáj az neked, hogy „kérte”? Mit csináljon vele? Kötelet kössön a nyakába?
+                        Odakösse a sparherd lábához?</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Csak védd, csak védd! Tudom én, mért véded te ezt a cselédet...</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(ugratja a testvérét)</stage> Ne beszélj, tudod? Hát te már nem hiszel
+                        a gólyamesében?...</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(indulatosan felugrik)</stage> Te! Én a fejedhez vágok valamit!</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Piri! Teszed le azt az üveget!</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(az asztalra üt)</stage> Hagyjatok engem nyugodtan enni. Mert én
+                        kirakom ezt a szalvétát a nyakamból, visszamegyek a kaszinóba vacsorázni. Az
+                        embernek idehaza se legyen egy nyugodt pillanata.</p>
+        </sp>
+        <stage>Csönd, mindenki a tányérjára hajol, eszik. Ebben a percben kívülről kinyitja
+                    a konyhaajtót Vilma. Bejön a konyhába, leteszi a kendőjét, körülnéz. Laci
+                    utánasomfordál, bejön, zsebre dugja a kezét, nekitámaszkodik a falnak</stage>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(észreveszi a konyhaasztalon a vacsora előkészületeit)</stage> Ajjé!
+                        Mán esznek... Menjen ki, Laci, ide a gangra. Mer kijöhetnek onnan bejülről.
+                        Minek lássák meg? Nem néznék jószemmel, hogy valaki van nálam. <stage>(A fiú
+                            után, aki már megy is az ajtó felé)</stage> De, ugyi, nem haragszik?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(már a küszöbön)</stage> Nem. Magam is azt hiszem, hogy nagyon
+                        megharagudnának, ha itt találnának engem magánál. <stage>(Sóhajt)</stage>
+                        Katonasor. <stage>(Kimegy)</stage>
+          </p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(utánaszól)</stage> Nyitva hagyom az ajtót. Azér így beszélhetünk az
+                        ajtón keresztül... Oda menjen, ahhoz a másik ajtóhoz. Ne lássák, hogy
+                        idetartozik hozzám. <stage>(Visszafordul, bejön, keresztülmegy a konyhán,
+                            bemegy az ebédlőbe. Szerényen benyit, megáll az ajtónál,
+                            csendesen)</stage> Jó estét kívánok. <stage>(Áll, parancsra vár, senki
+                            sem köszön neki vissza)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(pikírten)</stage> Nyolc óra elmúlt.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>Még nincs nyolc. <stage>(Újra megnézi az óráját)</stage> Háromnegyed.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Megmondtam, hogy hamarébb jöjjön haza?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(engedelmesen)</stage> Igen, nagysága.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(szelíden)</stage> Igenis, nagysága... <stage>(Kis gondolkozás
+                            után)</stage> Késik a templomon az óra. Azon néztem el magamat...</p>
+        </sp>
+        <stage>Pali nevetni kezd</stage>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Mit röhögsz?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Hányszor mondtam én ezt az iskolában.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Vilma, maga leszed itt, mi elmegyünk. Megveti az ágyakat. A nagyságos úrnak
+                        odakészíti a pohár tejet. Aztán lefekhet.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Igenis, nagysága.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(Vilmához)</stage> Engem holnap hétkor költ. <stage>(Magyarázón az
+                            anyjához)</stage> Teniszezni megyek. <stage>(Vilmához)</stage> Majd
+                        kiadom a fehér cipőmet, takarítsa ki.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Igenis, kisasszony.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Jöjjön ide.</p>
+          <p>
+            <stage>A lány az asztalhoz megy, az asszony odaadja neki a maradék
+                            parizert</stage>
+          </p>
+          <p>Ez a magáé.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Köszönöm. <stage>(Elveszi a tányért)</stage>
+          </p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(az anyjához)</stage> A rétesből nem ad neki, mama?</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Tessék? <stage>(A rétessel teli tálból két darabot egy másik tányérra tesz,
+                            odatolja)</stage> Na, vigye el ezt is.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Köszönöm. <stage>(Egy pillanatig vár)</stage> Egyebet nem tetszenek
+                        parancsolni?</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Nem.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Jó estét kívánok. <stage>(Az ajtóhoz lép)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>Jó estét, fiam. <stage>(Kiveszi a zsebéből az újságját, olvasni kezd)</stage>
+                        Maubeuge elesett. Tízezer fogoly. Jól a falhoz lapítják ezeket a
+                        franciákat!...</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(már kiment a konyhába, kilép a gangra, a kezében a két
+                            kistányér)</stage> Laci, Laci! Szereti a parizert? Van itt meggyes rétes
+                        is.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(csak a hangja hallatszik)</stage> Köszönöm. De maga mit
+                        vacsorázik?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Ugyan. Ettem én mán azóta. Most nyel. tem le az utolsó falatot. <stage>(Törli
+                            a keze fejével a száját, mintha csakugyan evett volna. Eltűnik az
+                            elemózsiával a gangon)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(zsebre teszi az újságját)</stage> Hát menjünk? Fél kilenckor kezdődik
+                        a mozi.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Ne várjunk még egy kicsit Lacira? Azt mondta, értünk jön.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>De azt is mondta, hogy esetleg ott vár minket a pénztárnál.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>A pénztárnál sem fog várni. Biztosan megsértődött. <stage>(A húgához)</stage>
+                        Hogy bánhat valaki ilyen komiszul azzal a fiúval, aki olyan régóta udvarol
+                        neki, hogy már majdnem a vőlegénye? Egész délután komiszkodtál vele.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Először is semmi közöd hozzá. És másodszor... <stage>(Nem mondja ki, ami a
+                            nyelvén van)</stage> Másodszor és harmadszor és huszadszor, semmi közöd
+                        hozzá. <stage>(Odaül a zongorához, klimpírozni kezd rajta valami
+                            szörnyű...)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Én megyek, veszek magamra valamit. <stage>(Kimegy jobbra a
+                        színről)</stage>
+          </p>
+        </sp>
+        <stage>Az apa újra előveszi az újságot. Pali nekifog egy rétesnek</stage>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(láthatóvá lesz Lacival együtt a konyhaajtóban kihallatszik a
+                            zongoraszó)</stage> Hallja? Az én kisaszszonyom játszik odabe ilyen
+                        gyönyörűen.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(elszólja magát)</stage> Tudom.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Honnét? Látja a falon keresztül?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(kijavítja)</stage> Hiszen beszélt nekem róla a délután.
+                            <stage>(Visszahúzódik ki a sötétbe, mert a konyhában megjelenik Pali,
+                            köti fel a derekára a kardját, a sapka is a fején van már)</stage>
+          </p>
+        </sp>
+        <stage>Vilma egészen bejön a konyhába, mosogatni kezd, ügyet sem vet a fiúra</stage>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(ott somfordál a lány körül, gusztálja)</stage> Vilma.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Tessék.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Hánykor kel maga reggel?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Hatkor.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Én ötre igazítottam a vekkeremet... Mondja, mit szólna hozzá, ha mielőtt
+                        kimennék a kaszárnyába, benéznék ide a konyhába, aztán ideülnék egy kicsit
+                        az ágya szélire?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Azt mondanám, hogy hagyjon aludni a fiatalúr.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Akkor is, ha nagyon szépen kérném? Akármit csinálnék, nem hagyna egy kicsit
+                        odabújni magához?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Ha letérgyepelne, úgy imádkozna, akkor se hagynám.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Márpedig én mégis kigyövök reggel.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Tessék hagyni engem. Mer én nagyon ijedős természetű vagyok. Ha felvernek az
+                        álmombul, akkorát találhatok kijátani, hogy felébred a ház, kijön a
+                        nagysága. Lenne nemulass!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Hát miért nem? Mi kifogása van ellenem? Vagy csak énvelem nem akarja?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Csak azér nem akarom, hogy a rák a vetésre ne menjen.</p>
+          <p>
+            <stage>Mert Pali közel ment hozzá, és enyelegve átfogja a
+                        csípőjét</stage>
+          </p>
+          <p>Engedjen engem a fiatalúr. Más lány való a fiatalúrhoz. Meg énhozzám is más
+                        legény való. <stage>(Türelmetlenebbül)</stage> Na, engedjen. Mer én bizony
+                        isten a nyakába kötöm ezt a mosogatórongyot...</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(ebben a pillanatban jön ki a szobából, a kezében egy pár fehér
+                            cipő)</stage> Szép dolog! Remek!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(elengedi Vilmát)</stage> Most én mondom, hogy először is semmi közöd
+                        hozzá! Először is és huszadszor is! Értetted? <stage>(Egy lyukkal
+                            szorosabbra húzza a kardszíját, fütyörészve bemegy a szobába, ahol már
+                            kalapban áll Bodroginé, és Bodrogi is felállott az
+                        asztaltól)</stage>
+          </p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(az asztalra dobja a cipőt)</stage> Itt a cipő. Mondtam már, hogy
+                        hétkor akarok kelni?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Igenis, kisasszony.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(foghegyről, ahogy cselédnek szokott köszönni a rosszfajta
+                            polgár)</stage> Jó estét. <stage>(Bemegy a szobába)</stage>
+          </p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(jóformán már csak az ajtónak köszön)</stage> Jó estét kívánok.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Itt a kalapod, fiam. <stage>(A kezében kalap van, ezt odaadja
+                            lányának)</stage>
+          </p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Köszönöm, mama. <stage>(Fölveszi a kalapot)</stage> Kabát nem kell!</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>Meleg van.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Na, gyerünk.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Hát én kíváncsi vagyok, hogy Laci ott lesz-e a pénztárnál?</p>
+        </sp>
+        <stage>Mind mennek kifelé. Pali menet közben dúdol: „...a csákójuk szépen ragyog,
+                    látod, rózsám, én is ötvennégyes tüzér vagyok...” Kimennek az előszobába, aztán
+                    az előszobaajtón eltűnnek a színről, hallatszik, ahogy becsapják maguk után az
+                    ajtót</stage>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(áll a konyha közepén, fülel, aztán kiszól a gangra)</stage> Bejöhet,
+                        Laci. Elmentek.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(bejön, nagyon fel van indulva)</stage> Hogy a fene egye meg ezt a
+                        szemtelen kölyköt. Majd bejöttem, amikor itt szorongatta magát.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Ugyan, minek jött vóna be? Hogy ez is megszalutáltassa? Én nem is haragszom
+                        rá. Fiatalember. Dógozik benne a vér.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(méltatlankodva)</stage> Ha maga ilyen könnyen veszi.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Ne féltsen engem. Ügy hajtom én el magamról az ilyeneket, mint a legyeket.
+                            <stage>(Közben befejezte a mosogatást, a tányérokat berakja a kredencbe,
+                            aztán odamegy a vízvezetékhez, mossa a kezét egy nagy, durva szappannal
+                            a csapnál)</stage>
+          </p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(egy hokedlire ült az összehajtott vaságy mellett)</stage> Jöjjön már
+                        ide.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Mindjárt. Csak megmosom a kezemet, mer csupa hagymásak vótak ezek a
+                        tányérok.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Siessen. Megrepedek a szerelemtül.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Várjon. Mindent sorjába. Még odabent is meg kell vetni az ágyakat, meg le
+                        kell szedni az asztalt. Meg itt a kisasszony cipője is. Maga csak azután
+                        következhetik. Utolsónak. <stage>(Odamegy a fiúhoz, enyelegve megkopogtatja
+                            a vállát)</stage> Na, keljen fel innét. Itt van az ágyamnak a helye.
+                        Segítsen kinyitni az ágyamat. <stage>(Egyesült erővel kinyitják a kis
+                            vaságyat, amelyben piros kockás, tarka ágynemű van)</stage>
+          </p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(amikor meglátja a proletárágyat, nevetni kezd, önkéntelenül
+                            megvakarja a füle tövét)</stage> A miatyánkját, micsoda ágy!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Már megint mit kacag? Mi a, hogy „micsoda ágy”?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Muszáj nevetni. Mert nekem szakasztott ilyen ágyam van odahaza Pákozdon.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(meglepődve)</stage> Pákozdon? Az imént még Porozdot mondott!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(dadog)</stage> Porozdot?... Hát így is van. Mert össze van ragadva a
+                        két falu. Pákozd is, meg Porozd is. A maga környékin nincs ilyen dupla
+                        község?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Nincs. <stage>(Gondolkozik, aztán fokozódó erővel beszél)</stage> Nézze, ne
+                        beszéljen itt nekem összevissza. Én nem bánom, ha Pákozdról való, vagy ha
+                        Porozdról való. Azt se bánom, ha egyik helyről se való. Éntőlem titkolhatja
+                        a hazáját. Még az igazi nevit is titkolhatja. Nem akarok én magának se írni,
+                        se a nyakára nem akarok én kötözni. Énmiattam lehet a maga apja csakugyan
+                        nagygazda, vagy lehet utolsó zsellér. Én nem vagyok kíváncsi a módjára. Nem
+                        törődöm én azzal se, hogy ezt az aranyfogát a maga pénzin vette-é, vagy mán
+                        a katonáék tették be a költségükön. Nem kell énnekem magátul a világon
+                        semmi! Ne féljen semmitül, mer egyes-egyedül a puszta szeminek köszönheti,
+                        hogy itt van nálam. <stage>(Nagy szenvedéllyel)</stage> A szeme! A’ tetszett
+                        meg nekem mingyán, amikor találkoztunk a délután...</p>
+        </sp>
+        <stage>Hatalmas erővel összeölelkeznek a nyitott ágy előtt. Mozdulatlanul állnak
+                    összefonódva. Először elhomályosodik körülöttük a szín, aztán tökéletesen rájuk
+                    sötétedik minden. A függöny is összeomlik, de a nézőtéren nem gyúlnak ki a
+                    lámpák. Három-négy másodperc múlik így el. Azt jelzi csak ez a függönypislantás,
+                    hogy az idő telik, és másnap este lesz közben.</stage>
+      </div>
+      <div type="act">
+        <head type="title">NEGYEDIK KÉP</head>
+        <stage>Amikor a függöny újra kettényílik, az előbbi szín látható. Vilma ott ül újra
+                    az összecsukott ágya előtt, a kis ládáján. Most nem vasárnapi ruhában van
+                    (néhány másodperc elég, hogy ez a változás keresztülvihető legyen), rendes,
+                    hétköznapi szoknya van rajta. Pali bent az ebédlőben, kigombolt katonablúzban
+                    fekszik a díványon, újságot olvas. Csönd. Majd a konyhaajtó nyílik, és a gangról
+                    egy szennyes „városi”cseléd jön be a színre. Bejön, csípőre teszi a kezét, így
+                    nézi a mélázó Vilmát, aki észre sem veszi érkezését</stage>
+        <sp who="#julcsa">
+          <speaker>JULCSA</speaker>
+          <p>
+            <stage>(ez az a bizonyos cseléd)</stage> Vilma!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(felüti a fejét)</stage> Tessék.</p>
+        </sp>
+        <sp who="#julcsa">
+          <speaker>JULCSA</speaker>
+          <p>Van zsemlyeprézlijök?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Van.</p>
+        </sp>
+        <sp who="#julcsa">
+          <speaker>JULCSA</speaker>
+          <p>Adjon kölcsön egy csipetnyit. Megadjuk hónap.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(fölkel a ládáról, odamegy a konyhakredenchez, kivesz egy
+                            papírstaniclit, átnyújtja)</stage> Itt van.</p>
+        </sp>
+        <sp who="#julcsa">
+          <speaker>JULCSA</speaker>
+          <p>Köszönöm. <stage>(Elmegy a sparherd mellett)</stage> Né, mekkora főzés van
+                        itten máma.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Születésnapja van a kisasszonynak. Valami vendég is lesz. Egy tányérral
+                        többre kell teríteni. <stage>(Ásít, ütögeti a száját)</stage> Hogy éppen
+                        máma járjon itt vendég. Lessem, mikor mén el? Biztosan feketekávét is kell
+                        főzni neki. <stage>(Ásít, nyújtózkodik)</stage> Amikor olyan álmos vagyok.
+                        Odaadnám érte a fülbevalómat, ha most kinyithatnám ezt az ágyat,
+                        beléfekhetnék, aztán alhatnék benne reggelig.</p>
+        </sp>
+        <sp who="#julcsa">
+          <speaker>JULCSA</speaker>
+          <p>Persze hogy fáradt. Hát minek strapálja magát? <stage>(Irigyen)</stage>
+                        Láttam, reggel ment el magátul a katona.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Attúl mén el, akihez felgyön. Mondja, minek szól bele? Az az én dógom
+                        egyedül.</p>
+        </sp>
+        <sp who="#julcsa">
+          <speaker>JULCSA</speaker>
+          <p>Énnekem nem kéne katonaszerető. Mire megszokná az ember valamelyiket, már
+                        látja is csukaszürkébe öltöztetve, virágos csákóba, amint viszik ki a
+                        marssal az állomáshoz.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Nézze, maga halálmadár, ne kuvikoljon itten. Vigye mán el a
+                        zsemleprézlijét.</p>
+        </sp>
+        <sp who="#julcsa">
+          <speaker>JULCSA</speaker>
+          <p>Mondja, aztán legalább milyen? Csinos? Először volt itt?</p>
+          <p>
+            <stage>Vilma nem felel, odamegy a sparherdhez, félrehúzza a lábasokat a
+                            tűzhely szélire</stage>
+          </p>
+          <p>Szereti?</p>
+          <p>
+            <stage>Vilma erre sem felel. Sóhajt. Kinyitja a rert, megigazítja benne a
+                            tepsit</stage>
+          </p>
+          <p>No, látom már, hogy áll maga, szegény szerencsétlen teremtés!
+                            <stage>(Gonoszul kacagva kimegy a gangra)</stage>
+          </p>
+        </sp>
+        <stage>Vilma megint leül a kis ládára, a tenyerébe hajtja a homlokát... mereng vagy
+                    szundít</stage>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(megmozdul a díványon, földre dobja az újságot, feltápászkodik,
+                            odamegy unalmában a zongorához. Egy ujjal ütögetni kezdi a billentyűket,
+                            szótagolva énekli)</stage> Bo-ci, bo-ci tar-ka, se fü-le se far-ka, o-da
+                        rne-gyünk lak-ni, a-hol szép lányt kap-ni...</p>
+        </sp>
+        <stage>Egy mezítelen leánykar nyúlik ki a jobb oldali ajtón</stage>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(hangja)</stage> Kérlek szépen, add ide a kredencről azt a
+                        citromot!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(föláll, megteszi, amit kérnek)</stage> Siessetek! Éhes vagyok.
+                            <stage>(Visszaül a zongorához, egy ismert opera indulójának ütemére
+                            játszani és énekelni kezd)</stage> Éhes vagyok! Éhes vagyok! Éhees,
+                        éheees, ééhees vagyok!...</p>
+        </sp>
+        <stage>Kint csöngetés. Egy pillanatban kelnek föl: Vilma a ládáról, Pali a zongora
+                    mellől. Az előszobában össze is találkoznak</stage>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(nyájasan)</stage> Hagyja csak, fiam, majd kinyitom én.</p>
+        </sp>
+        <stage>Vilma visszahúzódik a konyhába, Pali kinyitja az ajtót, amelyen bedugja a
+                    fejét Laci</stage>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(halkan)</stage> Szervusz.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Gyere, gyere. Mitől félsz?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(bejön)</stage> Elkéstem? <stage>(Most civilben van, elegáns, világos
+                            nyári ruhában, talán egy kicsit túlságosán is ki van csípve)</stage>
+          </p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Nem. Anyám és Piri csinosítják magukat. Apa még haza sem jött.</p>
+        </sp>
+        <stage>Bemennek az ebédlőbe</stage>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(fojtott izgalommal)</stage> Beszélhetek én teveled őszintén?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Boldogan. De nincs egy vasam sem.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Nem arról van szó... Inkább én adok neked, ha kell... Csak...</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Ojjé! Szóval, valami disznóságot csináltál?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Óriásit. Nekem nem is lett volna szabad idejönni ma este.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Ne mondd!! Miért?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(dadog)</stage> Mer én... mert nekem... mert ha engem meglát itt
+                        valaki... <stage>(A konyha felé bök)</stage> Mondd, amikor vacsoráztok,
+                        mindig bejön a lány?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(bámulva)</stage> A Vilma?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Az.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Persze hogy bejön. Behozza az ételt. Tányért vált...</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Ajjé! <stage>(Megvakarja a fejét)</stage> Akkor én szököm innen...</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Megőrültél?! <stage>(Megfogja a barátja karját)</stage>
+          </p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Nem őrültem meg. De engem ez a lány nem láthat meg itt. Mert én...
+                            <stage>(Körülnéz, halkabban)</stage> mert én... tegnap egész éjszaka...
+                            <stage>(Odahajlik Pali füléhez, súg valamit)</stage>
+          </p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Óriási pofa vagy! Psszz! Micsoda tészta!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(szomorúan)</stage> Most föl vagy háborodva, mi? Hogy a húgod
+                        vőlegénye ilyet csináljon?! <stage>(Kétségbeesett gesztussal)</stage> Az
+                        ember nincsen fából!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Az ember nincsen fából, ez igaz! De te durranógázból vagy, fiam! Ujjé!
+                        Micsoda tészta!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Haragszol rám?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Középszerűen.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Elárulsz?</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(fölháborodva)</stage> Mit gondolsz rólam. <stage>(Irigyen)</stage> Te
+                        disznó!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Amikor elmentem innen tegnap, akkor találkoztunk. Bakának nézett. Hát én
+                        hagytam. Tudod, izgatott a dolog, hogy mi lesz belőle?
+                            <stage>(Elkeseredve)</stage> Hát ez lett. Szépen nézek ki. (Mozdul) Én
+                        megyek.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(megfogja a karját)</stage> Azt akarod, hogy örökre összevesszen veled
+                        az egész famíliám? Ülj le nyugodtan. Mi történhet?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Ez a lány nem tudja, ki vagyok én. Nem volt szívem megmondani. Ha meglát így
+                        civilben, megüti a guta.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Dehogy üti meg. Megszokta már biztosan az ilyesmit.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(hevesen)</stage> Ez?! Ez nem olyan lány. Ez majdnem tiszta.
+                        Becsületemre. Lehet, hogy szerelmes lett belém. Olyan fogása volt...</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(izgatott kíváncsisággal)</stage> Milyen?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Te, barátom, ez úgy megfogta a nyakamat a karjával, majd megfulladtam... Én
+                        nem tudom, barátom, valami olyan sűrű dolog volt velünk... nem tudom, hogy
+                        mondjam... Majdnem szerelem... <stage>(Meleg visszaemlékezéssel)</stage>
+                        ...Ez olyan derék lány... Eleinte azt hittem, hogy semminek veszi az
+                        egészet, mert ez nem nyavalygott egy csöppet... és azt hittem, hogy én is
+                        könnyen veszem... hogy semmi... cselédkaland... Aztán most... Nem haragszol,
+                        ha bevallok valamit?... Nem is Piri miatt van lelkifurdalásom. Miatta.
+                        Megfájdítottam a szívét.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(lenézőn)</stage> Ezért? Egy ilyenét?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(ingerülten)</stage> Mi az, hogy „egy ilyenét"? Te is tudhatod, hogy
+                        ez nem olyan lány. Te is próbáltál vele.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(méltóságteljes tiltakozással)</stage> Én? <stage>(A mellére teszi a
+                            kezét)</stage> Één?!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Te.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(bizonytalanabbul)</stage> Én?!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Láttam a gangról.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(leveszi a tenyerét a melléről)</stage> Az más. Ha úgy kapásból jön,
+                        az más. De te egész délután főzted. Főzőcskét játszottál vele. Disznó.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(nagy belső izgatottsággal)</stage> Nekem most muszáj volt idejönni a
+                        Piri születésnapi vacsorájára. Muszáj. De mintha két lelkem volna, a másik
+                        lelkem azt mondja, hogy ez gonoszság...</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Na, itt a két lélek. Újból csak azt mondhatom: te disznó. Mese a kétlelkű
+                        disznóról...</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(fölveszi a zongoráról a kalapját)</stage> Hát én mégis elmegyek.
+                        Találj ki valamit. Mondd, hogy megfájdult a fogam...</p>
+        </sp>
+        <stage>Piri és Bodroginé belépnek jobbról</stage>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(kiveszi Laci kezéből a kalapot)</stage> Mit ugrálsz? Mondd, mit
+                        ugrálsz annyit?!</p>
+        </sp>
+        <stage>Általános üdvözlések. Laci kezel Pirivel, kezet csókol Bodroginénak</stage>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(kis virágcsokrot is hozott magával, fölveszi a zongoráról, nyújtja
+                            Pirinek)</stage>Engedje meg, Piri, hogy huszadik születésnapjára...</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(kedvesen)</stage> Köszönöm. Jó estét.</p>
+          <p>
+            <stage>Kezét csókolja Laci</stage>
+          </p>
+          <p>Új ruhája van?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(keservesen)</stage> Új.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(megnézi a szövetet)</stage> Burberry... Mutassa hátul.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(megfordul. Fájdalmasan)</stage> Nem túlságosan svájfolt?</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(szakértelemmel)</stage> Nyakba szűk.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(röhög)</stage> Igen. Szorítja egy kicsit a nyakát.</p>
+        </sp>
+        <stage>Kint csöngetnek</stage>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Ez apátok lesz. Mindjárt tálalhat is a lány. <stage>(Kiszól az előszobába,
+                            ahová a konyhából most lépett be Vilma, hogy ajtót nyisson)</stage>
+                        Tálaljon, Vilma. <stage>(Visszajön a szobába)</stage>
+          </p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(odamegy az előszobaajtóhoz, bebocsátja a ház urát)</stage> Kezit
+                        csókolom.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(bejön, felakasztja a kalapját a fogasra. Édesen)</stage> Szervusz,
+                        fiacskám. <stage>(Megcsípi a lány állát, Megfogja a karját,
+                            gusztálja)</stage> Mondanék én magának valamit, Vilma.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(ártatlanul)</stage> Tessék, nagyságos úr.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>Azt mondanám... <stage>(Hirtelen lekonyul, rezignáltan)</stage> ...inkább nem
+                        mondok semmit. <stage>(Bemegy az ebédlőbe)</stage>
+          </p>
+        </sp>
+        <stage>Vilma visszamegy a konyhába, tálal. szobában általános örömmel köszöntik a
+                    családapát, aki megcsókolja a lánya arcát</stage>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Mi újság, Józsi bácsi?</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>Semmi. Reimsbe bevonultak a németek. Ötezer halott. <stage>(Pirihez)</stage>
+                        Darvasnál megvettem azt az őszi ruhakelmét. Hazahozhatod. <stage>(A
+                            feleségéhez)</stage> Rémes, hogy megy fölfelé mindennek az ára.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Az ember megbolondul a piacon. Már nincs is hatos. A koronánál kezdődik a
+                        pénz. <stage>(Leül az asztalfőre, megnyomja a csengőt, amelynek a
+                            berregésére Vilma gyorsabban kezd mozogni a konyhában)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(szintén leül)</stage> Mit eszünk? <stage>(A nyakába köti a
+                            szalvétát)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Rakott karfiol. Töltött csirke. Csöregefánk. <stage>(Lacihoz)</stage> Üljön
+                        le, Laci!</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Igen, miért nem ül le? Egyáltalán, mit izegmozog annyit? Mi baja van magának
+                        máma? Meg van maga bolondulva? Maga most fésülködik?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Érdekes. Ha így középen választanám el a hajamat, ugye, abszolúte nem
+                        hasonlítanék magamhoz, mi? <stage>(Kis fésűt vesz elő a zsebéből, azzal
+                            fésülködik)</stage>
+          </p>
+        </sp>
+        <stage>Pali röhög</stage>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Utálom a középválasztékot. <stage>(Kiveszi Laci kezéből a fésűt, és
+                            visszaállítja a fiú rendes frizuráját. Nézi a művét)</stage> Így a
+                        legsikkesebb.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Üljetek már le.</p>
+        </sp>
+        <stage>Laci leül Piri mellé, felköti a szalvétát, még az állát beléköti, behúzza a
+                    nyakát, szinte az asztal alá bújik</stage>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Mondom, hogy maga megőrült. <stage>(Lehúzza Laci nyakából a
+                            szalvétát)</stage>
+          </p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(keservesen)</stage> Új nyakkendőm van, nem akarom lecsöpögtetni.
+                            <stage>(Pali felé ingerülten)</stage> Mit röhögsz, mondd, mit
+                        röhögsz?</p>
+        </sp>
+        <stage>Vilma bejön az ebédlőbe, a kezében a nagy tál étel. Egy-két lépést tesz
+                    előre, önkéntelenül végignéz az asztalon. Meglátja és megismeri Lacit. Nem
+                    csinál semmi nagy játékot, csak egy pillanatig mozdulatlan marad, mintha
+                    megmeredt volna</stage>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Mi van magával? Mért nem jön ide azzal a tállal? <stage>(Nagy
+                        csend)</stage>
+          </p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(erőt vesz magán, csak a hangja reszket meg könnyedén)</stage> Igenis,
+                        nagysága. <stage>(Engedelmesen odamegy hozzá, kínálja a tálat)</stage>
+          </p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(aki élesen figyelt, Lacihoz, megnyugtatóan)</stage> Na látod.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(kotnyelesen)</stage> Mi az, „na látod”? Mit lásson? <stage>(A kezét
+                            ráteszi Laci karjára, aki nagy kínban ül)</stage>
+          </p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>Semmit. Azt, hogy itt a karfiol.</p>
+        </sp>
+        <stage>Vilma az asztal körüli sétájában most odaért Lacihoz. Neki is odakínálja a
+                    tálat. Persze, ez nem megy egészen simán, de azért botrány nélkül történik a
+                    dolog. Azt lehet hinni, hogy ügyetlenségből rezzen meg a lány karján a
+                    tál</stage>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(Vilmához)</stage> Vigyázzon, elejti. Rémes, milyen ügyetlen.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(gépiesen vesz az ételből. Látja a lány néma szenvedését, nem bírja
+                            szó nélkül, fölülkerekedik benne valami becsületérzés. Köszön,
+                            halkan)</stage> Jó estét.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(tompán)</stage> Jó estét. <stage>(Erőszakkal másfelé néz, továbbmegy
+                            a tállal Bodrogihoz)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(gyanútlanul Lacihoz)</stage> Maguk ismerik egymást?</p>
+        </sp>
+        <stage>Laci nem tud rendesen felelni, dadog valamit, lesüti a szemét a
+                    tányérjára</stage>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(élesen)</stage> Biztosan. Valami bakabálról.</p>
+        </sp>
+        <stage>Pali nevetni kezd</stage>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(ingerülten)</stage> Mit röhögsz? Mondd, mit röhögsz megint, mint a
+                        fakutya?!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(menteni próbálja a helyzetet)</stage> A bakabálon.
+                            <stage>(Zsidózva)</stage> Erről nekem eszembe jotja egy történet...
+                            <stage>(Elhallgat, mert senki sem figyel rá, mindenki Vilmát nézi, aki
+                            szánalmasan evickél az asztal körül)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Már állott ez a víz. Hozzon frisset, Vilma. <stage>(Odanyújtja a
+                            kancsót)</stage>
+          </p>
+        </sp>
+        <stage>Vilma elveszi a kancsót is, teli van a keze edénnyel. A könyökével nyomja le
+                    a kilincset, úgy nyitja ki az ajtót. Amikor kimegy a szobából, erőt vesz rajta a
+                    fájdalom. Bent még vigyázott, tartotta magát. Most aléltan, szédülten
+                    támaszkodik neki az előszoba falának. A kezében reszket az edény. Valamennyire
+                    magához tér. Lassan kimegy a konyhába. Leteszi a tálat, a kancsót a konyhaasztal
+                    közepére, maga is leereszkedik csöndesen egy hokedlire. Pillanatig meredten néz
+                    maga elé, aztán lassan az asztalra borul, a két karja közé rejti az arcát. Így
+                    ül mozdulatlanul, amíg az ebédlőben folyik a dialóg</stage>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(minden rosszindulat nélkül)</stage> Bámulatos. Mi történt ezzel a
+                        lánnyal?! Úgy vettem észre, mintha rosszul lett volna.</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Én nem tudom. <stage>(Éllel Laci felé)</stage> Maga talán többet tud róla,
+                        Laci?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(gyáván, zavartan)</stage> Én? Miért éppen én?...</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(mentegetően)</stage> Blaumontág. Ma hétfő. Biztosan fáradt.
+                        Kilumpolta magát vasárnap.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Az lehet. De nekem nem fog odacsatangolni egész vasárnapokat. Mert én úgy
+                        kidobom ezt a lányt!</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(csillapítón)</stage> Na, fiam, na! Emberek vagyunk. Mindenkinek dukál
+                        egy kis szórakozás... Kár volna elküldeni. Jó ránézni, olyan
+                            appetitlich*<note type="critic">* Étvágygerjesztő. (német)</note> ez a
+                        lány.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(vészjóslón néz az urára)</stage> Appetitlich! Az igen. De a vizet még
+                        mindig nem hozza.</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(megmozdul)</stage> Majd én kimegyek, mama.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(energikusan)</stage> Maradj! <stage>(Fölnyúl a kiskörtéhez,
+                            csenget)</stage>
+          </p>
+        </sp>
+        <stage>Vilma a csöngetésre megmozdul. Fölemeli a fejét. Olyan, mint egy beteg állat.
+                    Menne ő, végezné ő a dolgát, ha nem lenne nála hatalmasabb erő, ami ólommá
+                    változtatja a tagjait. Felül, aztán összeroskad, visszafekteti az asztal lapjára
+                    az arcát, miközben a csengő követelőn berreg</stage>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>Hihetetlen.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>Ugyan, mit csináltok ilyen vásárt? Nem fújhatja föl azt a vizet. Biztosan
+                        csorgatja a csapot.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Csorgassa. De ha én egyszer csöngetek neki, akkor jöjjön be. <stage>(Megint
+                            csönget)</stage>
+          </p>
+        </sp>
+        <stage>Vilma most a fejét sem emeli föl. Csak a válla rázkódik meg, mintha az idegét
+                    érintette volna a csöngetés</stage>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(türelmét vesztve föláll, kimegy a konyhába, meglátja a lányt, egy
+                            kicsit megijed)</stage> Mi az? Rosszul lett maga, Vilma?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(föltápászkodik, megdörzsöli a homlokát, mintha álomból
+                            ébredne)</stage> Nem, nagysága, kérem.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(bámulva és méltatlankodva)</stage> Nahát! <stage>(Néhány pillanatig
+                            fixírozza a lányt, aki úgy áll előtte, ijedten, a mellén keresztbe tett
+                            két karjával, mintha láztól borzongana)</stage> A vízért
+                        csöngettünk.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(letörve)</stage> Igenis, kérem. <stage>(Megfogja a kancsó fülét,
+                            aztán elereszti. Hirtelen elszántsággal, halkan, de nagy belső
+                            borzadással)</stage> Nem megyek odabe, nagysága! <stage>(Irtózva
+                            hátrál)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(elképedve, a polgári gőg tetőpontján)</stage> Mit beszél?!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(halálraszántan, de nem drámázva)</stage> Nem teszem oda be a lábamat,
+                        nagysága.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(ömlik belőle a hideg, fojtott düh)</stage> Miért? Kivel van odabent
+                        baja? Megbolondult?! Kidobom! Elmehet innen. Mars! Mars!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(odamegy a kisládájához, kinyitja. Kivesz egy zsebkendőt. Görcs van a
+                            zsebkendőn, amit kibogoz a fogával, reszkető kezével. Papírbankó kerül
+                            elő a kendőből, az asztalra teszi)</stage> Húsz korona foglalót kaptam.
+                        Az egészet visszaadom. Elmegyek innen tüstént.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>El! Hát persze hogy el. De reggel. Majd ha kapok a helyibe mást! Hanem
+                        ameddig itt van, addig rendesen viselkedjen, érti?! Itt én parancsolok, és
+                        maga engedelmeskedik, érti?!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(rendíthetetlen erővel)</stage> Nem megyek odabe, nagysága kérem. Itt
+                        tízszer felsikálom reggelig ezt a konyhát. De odabe nem megyek, nagysága
+                        kérem.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(fúriában)</stage> Nem? Nem?! Hát majd rendőrt hozatok, hogyha
+                        nem!</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Hozathat, nagysága, kérem. De én akkor ledobom magam az emeletről, nagysága,
+                        kérem. <stage>(Már fogja is a konyha gangra nyíló ajtajának a
+                            kilincsét)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(nem talál szavakat, hápog a haragtól)</stage> Nahát ez... ez...!
+                            <stage>(Berohan az ebédlőbe az urához)</stage> József, kérem, menjen ki
+                        maga! Én nem bírok ezzel a lánnyal, ez tisztára megőrült. Most rögtön el
+                        akar menni! A rendőrrel is megfenyegettem. Azt mondta, leugrik az emeletről.
+                        Mi van ezzel? Miért nem akar ez ide bejönni? Csinált ezzel valaki valamit?!
+                            <stage>(Megfenyegeti Palit)</stage> Te csirkefogó! Te!</p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(indignálódva)</stage> Én, mama? Nekem bizony isten füstöm sincs az
+                        egész dologról.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(Laci felé)</stage> Vagy maga, szép maszk? Talán maga?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(dadogva a két nő szemének kereszttüzében)</stage> Érthetetlen.
+                        Komolyan mondom, érthetetlen...</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(föláll, a szalvétával a nyakában kimegy a konyhába. Tekintélyesen, de
+                            nem szigorúan)</stage> Vilma.</p>
+        </sp>
+        <stage>Vilma, amikor Bodroginé kirohant a konyhából, lázasan pakolni kezdett.
+                    Kinyitotta a kisládáját, rakta belé a cókmókját. A kendőjét már a vállára is
+                    terítette. A megszólításra föláll</stage>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(bizonyos részvéttel)</stage> Maga csakugyan el akar menni, fiam?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>El, nagyságos úr. Engedjenek el. Mer én leugrom itt a gangról.
+                            <stage>(Mutatja a ládáját)</stage> Tessék nézni, nem viszek én el innen
+                        semmit...</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(int, hogy nem kíváncsi a ládára)</stage> ...De hát miért? Bántotta
+                        valaki? Van panasza valaki ellen?</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Nincs nekem semmi. Csak nem megyek oda be többet. Inkább elpusztítom magamat,
+                        nagyságos úr.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(kis gondolkozás után vállat vonva)</stage> Hát menjen, fiam. Nem
+                        akarja itt senki lenyúzni a bőtét. <stage>(Az asztal felé int)</stage> Azt a
+                        pénzt is tegye el. Megszolgálta.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(a pénztől is iszonyodik)</stage> Nem kell a nekem, nagyságos úr.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(szánalommal)</stage> Na, isten áldja. <stage>(Megcsóválja a fejét,
+                            bemegy az ebédlőbe, ahol feszülten figyeltek, várakoztak az egész idő
+                            alatt az ajtó felé, visszaül a székére komoran)</stage> Nem lehet
+                        visszatartani. Elengedtem.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Skandalum.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(gesztussal)</stage> Ez titok. A legőrületesebb titok.</p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(szárazon)</stage> És én ennek külön konyhakulcsot adtam. El kell
+                        venni tőle a kulcsot. Meg kell nézni a ládáját.</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>
+            <stage>(irtózatos méregbe jön)</stage> Nem kell megnézni! Micsoda tempó!
+                            <stage>(A felesége és a leánya felé)</stage> Le fog törni a kezetek, ha
+                        egyszer magatok hozzátok be azt a nyavalyás kis ételt!</p>
+        </sp>
+        <stage>Vérfagyasztó csönd</stage>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Elment már?</p>
+        </sp>
+        <sp who="#bodrogi">
+          <speaker>BODROGI</speaker>
+          <p>Most szedi össze a holmiját.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(föláll)</stage> Bocsánatot kérek! <stage>(Az asztalra dobja a
+                            szalvétáját, kimegy a konyhába)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>
+            <stage>(megérti a dolgot)</stage> Hallatlan!</p>
+        </sp>
+        <sp who="#piri">
+          <speaker>PIRI</speaker>
+          <p>
+            <stage>(elpityeredik)</stage> A huszadik születésnapomon! <stage>(Fölpattan,
+                            és a zsebkendőjével a szemén, mint aki szégyell a többiek előtt sírni,
+                            berohan a szomszéd szobába)</stage>
+          </p>
+        </sp>
+        <sp who="#bodrogine">
+          <speaker>BODROGINÉ</speaker>
+          <p>Pirikém! <stage>(Utánasiet a gyermekének, hogy vigasztalja)</stage>
+          </p>
+        </sp>
+        <stage>Bodrogi is megy a csibéje után, a nyakában a szalvétával. Az ebédlőben csak
+                    Pali marad, és fülel a konyha felé. Laci közben kiért a konyhába, és Vilma elé
+                    áll, aki éppen indulni készül a kisládájával. Lehet köztük egy rövid némajáték,
+                    amíg a família kivonulhat az ebédlőből, hogy a jelenlétük ne vonja el erről a
+                    világról a néző figyelmét</stage>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(harag nélkül)</stage> Tessék hagyni engem.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Maradjon, Vilma. Bizony isten úgy sajnálom, majd megszakad a szívem.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(keményen)</stage> Engem ne sajnáljon. Úgy köll nekem. Pórul jártam,
+                        oszt vége. <stage>(Mert a fiú ott dadog, makog előtte, szelídebben,
+                            megbocsátóan)</stage> Na, menjen vissza szépen. Várják. Kihűl az
+                        étele.</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Ha akarja, később maga után szököm. Találkozhatunk.</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>Micsoda?</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>
+            <stage>(megfogja a lány kezét, súgva)</stage> Találkozhatunk titokban. Tudja,
+                        nekem nincs sok pénzem. De azért ha magának szüksége lesz valamire...</p>
+        </sp>
+        <sp who="#vilma">
+          <speaker>VILMA</speaker>
+          <p>
+            <stage>(kiszabadítja a kezét. Vérig sértve)</stage> Pénzt kínál nekem?!
+                        Mifélének néz engem?! <stage>(Mint akivel örökre végzett, végignézi a fiút.
+                            Ellentmondást nem tűrő erővel)</stage> Menjen az utamból a fiatalúr!
+                            <stage>(Büszkén fölemelve a fejét, kimegy, otthagyja Lacit)</stage>
+          </p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(kimegy a konyhába, figyelmeztetőn)</stage> A Piri meg odabent
+                        bőg!</p>
+        </sp>
+        <sp who="#laci">
+          <speaker>LACI</speaker>
+          <p>Hát bőgjön! <stage>(Egy türelmetlen gesztust tesz, majd hirtelen
+                            elhatározással az ajtóhoz lép, megy a lány után)</stage>
+          </p>
+        </sp>
+        <sp who="#pali">
+          <speaker>PALI</speaker>
+          <p>
+            <stage>(pofon üti saját magát)</stage> Micsoda tészta!</p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

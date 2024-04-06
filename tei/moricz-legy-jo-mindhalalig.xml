@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000028">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000028" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -66,14 +64,13 @@
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        <pubPlace> Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          <p> CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
           </p>
         </availability>
       </publicationStmt>
@@ -165,7 +162,7 @@
           <person sex="MALE" xml:id="andrasi">
             <persName>Andrási</persName>
           </person>
-          <person sex="MALE" xml:id="lisznyai">
+          <person sex="MALE" xml:id="lisznyay">
             <persName>Lisznyay úr</persName>
           </person>
           <person sex="MALE" xml:id="nagy">
@@ -174,7 +171,7 @@
           <person sex="MALE" xml:id="igazgato">
             <persName>Igazgató</persName>
           </person>
-          <person sex="MALE" xml:id="valkai">
+          <person sex="MALE" xml:id="valkay">
             <persName>Valkay</persName>
           </person>
           <person sex="MALE" xml:id="gyeres">
@@ -234,6 +231,9 @@
           <person xml:id="vaszag" sex="MALE">
             <persName>Vaszag fiú</persName>
           </person>
+          <person xml:id="takaritone" sex="FEMALE">
+            <persName>Takarítóné</persName>
+          </person>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -252,7 +252,6 @@
     </listEvent>
   </standOff>
   <text>
-<!-- hiányzik a castList -->
     <front>
       <castList>
         <castGroup>
@@ -288,7 +287,7 @@
             <role><roleName>Andrási</roleName>IV. A)-beli tan.</role>
           </castItem>
           <castItem>
-            <role><roleName>Lisznyay úr </roleName>VIII. o. szobafőnök</role>
+            <role><roleName>Lisznyay úr</roleName>VIII. o. szobafőnök</role>
           </castItem>
           <castItem>
             <role><roleName>Nagy úr, VIII. o.</roleName></role>
@@ -368,23 +367,19 @@
         <head type="title">ELSŐ FELVONÁS.</head>
         <div type="scene">
           <head type="title">I. KÉP.</head>
-          <p>
-            <stage>(Nyüzsgő kollégiumi udvar. Tízperc, tizenegy és tizenkét óra közt.
+          <stage>(Nyüzsgő kollégiumi udvar. Tízperc, tizenegy és tizenkét óra közt.
                             Őszi szép napsütés. Az épület régi, boltíves árkádjai látszanak.
                             Felettük még sima kaszárnya ablakok. Misi a bal sarokban áll, elől.
                             Kezében könyv s tanul.)</stage>
-          </p>
         </div>
         <div type="scene">
           <head type="title">1. jelenet.</head>
-          <p>
-            <stage>(Böszörményi, Tök Marci, Csicsó, Andrási, Sándor Mihály, Misi, majd
+          <stage>(Böszörményi, Tök Marci, Csicsó, Andrási, Sándor Mihály, Misi, majd
                             Orczy, Gimesi s igen sokan más fiúk. Nagy diákok is
                             jönnek-mennek.)</stage>
-            <stage>A társaság két csoportra oszlik, de
+          <stage>A társaság két csoportra oszlik, de
                             nincsenek megszervezve, inkább csak felvetődik a háború gondolata. Az
                             egyik rész azt kiabálja:</stage>
-          </p>
           <sp who="#boszormenyi #tok_marci #csicso #gimesi">
             <speaker>1. CSAPAT:</speaker>
             <p>Pugnáre.</p>
@@ -943,13 +938,11 @@
         </div>
         <div type="scene">
           <head type="title">II. KÉP.</head>
-          <p>
-            <stage>(Az osztály. Első padban ülnek: Orczy, Nyilas, Gimesi, K. Sánta civis
+          <stage>(Az osztály. Első padban ülnek: Orczy, Nyilas, Gimesi, K. Sánta civis
                         gyerek. Csizmás. Az osztályban számosan vannak csizmásak. A fekete táblára
                         van akasztva Franciaországnak egy régi, de színezett nagy térképe. Hegy és
                         vízrajzi. Nagy zsibongás, fiúk a padok tetején ülnek, áthajolnak,
                         vitatkoznak.)</stage>
-          </p>
           <sp who="#boszormenyi">
             <speaker>BÖSZÖRMÉNYI:</speaker>
             <p>Ma nem is lesz óra. Tanári konferencia van.</p>
@@ -1711,12 +1704,10 @@
         </div>
         <div type="scene">
           <head type="title">III. KÉP.</head>
-          <p>
-            <stage>(A coetus. Internátusi lakószoba. Rendkívül egyszerű. Mint a régi
+          <stage>(A coetus. Internátusi lakószoba. Rendkívül egyszerű. Mint a régi
                             kaszárnyák. Vaságyak, gondosan megvetve. Kis diákládák. A falon egy-két
                             függő polc. Középen faasztal, egyenes lábú. Ugyanolyan
                             faszékek.)</stage>
-          </p>
           <sp who="#boszormenyi">
             <speaker>BÖSZÖRMÉNYI</speaker>
             <stage>(bontja a csomagot az asztalon, elvágja a spárgát):</stage>
@@ -2210,11 +2201,9 @@
         <head type="title">MÁSODIK FELVONÁS.</head>
         <div type="scene">
           <head type="title">I. KÉP.</head>
-          <p>
-            <stage>(Török néni szobája. Biedermeier bútorok s berendezkedés. Középen
+          <stage>(Török néni szobája. Biedermeier bútorok s berendezkedés. Középen
                             asztal, csipketerítővel letakarva. Az asztal mellett ül Ilonka, ettől
                             balra nagy fotelban Török néni. Ajtó jobbra, balra.)</stage>
-          </p>
           <sp who="#torok_neni">
             <speaker>TÖRÖK NÉNI</speaker>
             <stage>(kedves, kövér öreg néni. Szeretne aludni, de a lánya folyton
@@ -3090,13 +3079,11 @@
         </div>
         <div type="scene">
           <head type="title">II. KÉP.</head>
-          <p>
-            <stage>(Doroghyék lakása. A régi nagyúri élet nyomait mutatják az egyes
+          <stage>(Doroghyék lakása. A régi nagyúri élet nyomait mutatják az egyes
                         bútordarabok, de közben egészen egyszerű parasztholmik is vannak. Egyik szék
                         aranyozott s töröttlábú, a másik barna faszék. A finom ovális asztal egyik
                         lába léccel van pótolva. A szekrény egyik lába hiányzik, alatta tégla van.
                         Hátul két kis ablak. Jobbról balról parasztajtó.)</stage>
-          </p>
           <sp who="#nyilas_misi">
             <speaker>MISI</speaker>
             <stage>(az asztal mellett ül belől, Sanyika jobbról. Gyorsan, kicsit
@@ -3105,7 +3092,7 @@
                             nagyon jól tudta már. Hogy képezzük a disco ige perfectumát?
                             reduplikációval, azaz kettőzéssel, tehát?...</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Dis cici.</p>
           </sp>
@@ -3113,7 +3100,7 @@
             <speaker>MISI:</speaker>
             <p>Didi ci.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Ilyen marha nyelv.</p>
           </sp>
@@ -3123,7 +3110,7 @@
             <p>A latin nyelv nagyon szép nyelv. Elmeképző. Aki latinul tud, mindent tud,
                             azaz... a latin az életben is nagyon fontos.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Az is latinul van, hogy ambó?</p>
           </sp>
@@ -3131,7 +3118,7 @@
             <speaker>MISI:</speaker>
             <p>Kettő, mindakettő, azt jelenti.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>És ternó?</p>
           </sp>
@@ -3139,7 +3126,7 @@
             <speaker>MISI:</speaker>
             <p>Három, hármas, háromszoros.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Kvaternó, kvinternó, tegnap megvolt a húzás.</p>
           </sp>
@@ -3148,7 +3135,7 @@
             <stage>(jön balról s átmegy a szobán):</stage>
             <p>Tanulnak, drágaságom, tanulnak?</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Igen mutikám, jól van?</p>
           </sp>
@@ -3165,7 +3152,7 @@
                                 van a kezében.)</stage>
             </p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Biztosan Bella elhányta, mutikám.</p>
           </sp>
@@ -3214,7 +3201,7 @@
             <stage>(kijön a baloldali ajtón. Könyv van a kezében, leül az asztal
                             mellett, s olvas is, de inkább figyeli a tanítást).</stage>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <stage>(elhallgat s laposakat néz Bellára).</stage>
           </sp>
@@ -3230,7 +3217,7 @@
                             úgy, hogy hozzá tesszük a tum szum képzőt... tehát az amáre prézensz
                             töve?</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Ama.</p>
           </sp>
@@ -3238,7 +3225,7 @@
             <speaker>MISI:</speaker>
             <p>Helyes. Perfektum tő?</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Ama.</p>
           </sp>
@@ -3246,7 +3233,7 @@
             <speaker>MISI:</speaker>
             <p>- vi... amávi... Igen. Szupinum tő?</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Nincs.</p>
           </sp>
@@ -3254,7 +3241,7 @@
             <speaker>Misi:</speaker>
             <p>Hogy hogy nincs?</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Rendszerint nincs, például diszkó.</p>
           </sp>
@@ -3264,7 +3251,7 @@
                             szupinum tőt, minek a hozzáadásával?... a tum szum hozzáadásával... á-
                             má- tum... Igen?</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <stage>(berregteti a kést):</stage>
             <p>Igen.</p>
@@ -3273,7 +3260,7 @@
             <speaker>MISI:</speaker>
             <p>Tehát hogy képezzük?</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Szabályszerint.</p>
           </sp>
@@ -3282,7 +3269,7 @@
             <p>Nahát, ennél a Sanyinál szemtelenebb és butább kölyköt még nem
                             láttam.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Te csak fogd be a szád. Mit értesz te ehhez.</p>
           </sp>
@@ -3303,7 +3290,7 @@
             <p>Pótolni kell neki az elemit. Nahát én nem tudnék tanítani az biztos. Én
                             egy ilyen butát megölnék.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>De japán legyezőt venni tudsz, úgye?</p>
           </sp>
@@ -3322,7 +3309,7 @@
                             bezzeg tudja... Majd maga is megtanulja egy pár esztendő mulva, hogy mi
                             a Dóci-féle felső lányiskola. No deklináljunk, deklináljunk.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Köprá, köpré, köprám, köprád...<stage>(Ráköp).</stage>
             </p>
@@ -3331,7 +3318,7 @@
             <speaker>BELLA:</speaker>
             <p>Fúj, disznó, szégyeld magad, majd megmondalak apának.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Majd megmondalak én, mennyit kokettálsz a Török úrral.</p>
           </sp>
@@ -3339,7 +3326,7 @@
             <speaker>BELLA:</speaker>
             <p>Erre nem buta a kis szemtelen.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Most is itt sétál az utcán. Minden percben benéz, alig várja, hogy vége
                             legyen az órának.</p>
@@ -3348,7 +3335,7 @@
             <speaker>BELLA:</speaker>
             <p>No még csak az van hátra, hogy a pockok is kritizáljanak.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Úgyse adnak hozzá egy ilyen senkihez, akit kicsaptak a Kollégiumból.</p>
           </sp>
@@ -3375,7 +3362,7 @@
             <speaker>VIOLA:</speaker>
             <p>Te mért vagy itt?</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Nem hagynak tanulni. Minek kell nekik idejönni, mikor tanulás van.</p>
           </sp>
@@ -3384,7 +3371,7 @@
             <p>Légy szíves eredj be kérlek, elég szerencsétlenség, hogy csupán ez a két
                             kis szobánk van.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Mindig belebeszél a tanulásba.</p>
           </sp>
@@ -3398,7 +3385,7 @@
             <p>Kérem szépen, Viola kisasszony, még sose szólt bele a Bella
                             kisasszony.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Most is.</p>
           </sp>
@@ -3407,7 +3394,7 @@
             <p>Nem kell olyan érzékenynek lenni, Sanyikám. Te csak tanulj, hogy jó
                             legyen a bizonyítványka.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Ha nem hagynak.</p>
           </sp>
@@ -3420,7 +3407,7 @@
             <speaker>BELLA:</speaker>
             <p>Szemtelen kölyök, még hogy én nem hagyom tanulni.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Szemtelen vagy te.</p>
           </sp>
@@ -3433,7 +3420,7 @@
             <speaker>VIOLA:</speaker>
             <p>Avval nem fogja jobban tudni, ha valaki mérgesíti.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Mindig belebeszél.</p>
           </sp>
@@ -3484,7 +3471,7 @@
                                 átadja.)</stage>
             </p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Cukor!</p>
           </sp>
@@ -3497,7 +3484,7 @@
             <p>Nahát ez igazán kedves, nagyon kedves, nagyon szépen köszönjük tanár úr,
                             de hogy jut eszébe.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <stage>(elkapja a kezéből s bontja a papírt):</stage>
             <p>Füge!</p>
@@ -3507,7 +3494,7 @@
             <stage>(kétségbe van esve):</stage>
             <p>De Sanyika.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <stage>(visszaül a helyére):</stage>
             <p>Valkay bácsi mindig hoz valamit.</p>
@@ -3531,7 +3518,7 @@
                             cukrot, fügét. Akkor nem lehetett, most meg már nem lehet, mind a
                             fogamba mászik...</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <stage>(megkínálja Misit, aki nem fogadja el).</stage>
           </sp>
@@ -3581,7 +3568,7 @@
             <stage>(túlzottan diszkrét):</stage>
             <p>Gyerünk Sanyika tanulni.</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <stage>(eszi a fügét):</stage>
             <p>Most dolgom van.</p>
@@ -3969,7 +3956,7 @@
             <speaker>BELLA:</speaker>
             <p>Hét év... hét év...</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <stage>(feláll s kimegy):</stage>
             <p>Mingyár jövök.</p>
@@ -3978,7 +3965,7 @@
             <speaker>BELLA:</speaker>
             <p>Te hová mégy?</p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <p>Nahát, kimegyek, na<stage>(el).</stage>
             </p>
@@ -4098,12 +4085,10 @@
         </div>
         <div type="scene">
           <head type="title">III. KÉP.</head>
-          <p>
-            <stage>(A trafik előtt. Ez a trafik a debreceni nagy
+          <stage>(A trafik előtt. Ez a trafik a debreceni nagy
                             piactéren volt s jobbról, szerény kis földszintes házban. A teret
                             elfoglalja a Nagytemplom gigantikus képe. Ez a kéttornyú templom nem
                             hagyandó el.)</stage>
-          </p>
           <sp who="#nyilas_misi">
             <speaker>MISI</speaker>
             <stage>(bátran jön, akkor oly izgalom tör ki benne, hogy pillanatokig nem
@@ -4160,13 +4145,11 @@
         </div>
         <div type="scene">
           <head type="title">IV. KÉP.</head>
-          <p>
-            <stage>(A vak öregúrnál. Zöldernyős lámpa fentről
+          <stage>(A vak öregúrnál. Zöldernyős lámpa fentről
                             szórja a világosságot. Titokzatos szoba, nem igen látni a bútorokat, a
                             kandallót, az állóórát. Középen asztal, amellett ül Pósalaky. Fehér, de
                             kemény agg. Fel van dúlva, de uralkodik magán. Nem visel semmi
                             ellenzőt.)</stage>
-          </p>
           <sp who="#posalaky">
             <speaker>PÓSALAKY:</speaker>
             <p>No, nincs itt senki?<stage>(A keze tétováz az asztalon. Az ujságokat
@@ -4555,9 +4538,7 @@
         </div>
         <div type="scene">
           <head type="title">V. KÉP.</head>
-          <p>
-            <stage>(Doroghyéknál.)</stage>
-          </p>
+          <stage>(Doroghyéknál.)</stage>
           <sp who="#janos">
             <speaker>JÁNOS:</speaker>
             <stage>(télikabátja vállára vetve, Bellát sürgeti. Bella az asztalnál ül
@@ -4801,7 +4782,7 @@
                                 elrohan.)</stage>
             </p>
           </sp>
-          <sp who="#sanyi">
+          <sp who="#sanyika">
             <speaker>SANYI:</speaker>
             <stage>(jön jobbról. Most nagyon halk, meg van ijedve):</stage>
             <p>Bella hova ment? Bella hova ment?</p>
@@ -4821,13 +4802,11 @@
       </div>
       <div type="act">
         <head>HARMADIK FELVONÁS.</head>
-        <p>
-          <stage>(Kollégiumi igazgatói iroda. Balra íróasztal, mögötte karszék, előtte
+        <stage>(Kollégiumi igazgatói iroda. Balra íróasztal, mögötte karszék, előtte
                         szék a feleknek. Jobbra hosszú, zöld posztóval leterített asztal székekkel.
                         Középen főajtó, jobbra két nagy ablak, balra ajtó a tanári szobába. A falon
                         régi csoportképek, könyvszekrényen Homéros- és Zeus-fej gipszből.
                         Órarendek.)</stage>
-        </p>
         <sp who="#igazgato">
           <speaker>IGAZGATÓ</speaker>
           <stage>(az asztalnál ül s az asztal előtt álló rendőrtiszthez beszél.
@@ -4872,7 +4851,7 @@
           <stage>(ül az íróasztala mellett, beszéd közben feláll s előre jön):</stage>
           <p>No te peniperda. Mi ez? Te béka, te pondró. Micsoda szégyent hoztál te a
                         fejünkre? Széttéplek, te silány!<stage>(a baloldali ajtón
-                        kikiált):</stage>
+                        	kikiált):</stage>
           </p>
           <p>Gyéres tanár urat...<stage>(bezárja az ajtót.)</stage>
           </p>
@@ -4897,7 +4876,7 @@
           <speaker>IGAZGATÓ</speaker>
           <p>Fogalma sincs róla. Fogalma sincs. Mi az, hogy fogalom?... Tudja vagy nem
                         tudja?... Modern nevelés. Tanári nevelés<stage>(tigris
-                            nyájassággal):</stage>
+                        	nyájassággal):</stage>
           </p>
           <p>Hát mondjál el fiam mindent, mert a tanár úrnak fogalma sincs róla... Na.
                         Szépen, értelmesen. Hangosan!</p>
@@ -5105,7 +5084,7 @@
         <sp who="#igazgato">
           <speaker>IGAZGATÓ</speaker>
           <p>Nyilas Mihály?...<stage>(Gyéresre néz, aki int, hogy nem tudja miről van
-                            szó.)</stage>
+						szó.)</stage>
           </p>
         </sp>
         <sp who="#viola">
@@ -5164,7 +5143,7 @@
           <speaker>VIOLA</speaker>
           <p>Igen, Misi kedves, ne haragudjék, az éjjel levelet kaptunk, vasuti hordár
                         hozta az állomásról, hogy Bella húgom,<stage>(előveszi a
-                        levelet)</stage>
+                        	levelet)</stage>
           </p>
           <p>Bellácska írja, hogy elutazott Török úrral és hogy maga tudja, hogy
                         elutazott... Tudta, hogy elutazott?</p>
@@ -5267,11 +5246,11 @@
         <sp who="#pedellus">
           <speaker>PEDELLUS</speaker>
           <p>Igenis, egy asszonyság várakozik.<stage>(Az ajtó nyílik s Törökné már jön is
-                            be.)</stage>
+						be.)</stage>
           </p>
           <p>Nem lehet, kérem, asszonyság...</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <stage>(nagy lamentációval, sírva betör):</stage>
           <p>Jónapot kívánok, Török Pálné vagyok, ha még megismer a Nagytiszteletű
@@ -5282,7 +5261,7 @@
           <stage>(a helyén ül):</stage>
           <p>Kérem, a fia már nem tartozik a Kollégium kötelékébe...</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <p>Elég bánat az nekem, Igazgató úr.</p>
         </sp>
@@ -5291,7 +5270,7 @@
           <p>No de kérem, elég bajom volt vele, míg idetartozott. Már énfelőlem csinálhat,
                         amit akar, nem vagyok köteles tudomásul venni a dolgait.</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <p>Nagytiszteletű Igazgató úr, annyi jósággal volt hozzám, míg a fiam a
                         Kollégium gyermeke volt...</p>
@@ -5300,7 +5279,7 @@
           <speaker>IGAZGATÓ</speaker>
           <p>Nono, nono, kérem.</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <p>Nagytiszteletű Igazgató úr, szánjon meg egy boldogtalan anyát...</p>
         </sp>
@@ -5309,7 +5288,7 @@
           <p>Mit tehetek én? Ha mind a kilencszáz diák anyja folyton a nyakamra járna, még
                         akkor is, ha a fiát már kicsaptuk, a...</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <p>Nyilas Mihály nevű kisdiák miatt vagyok itt, nagytiszteletű Igazgató
                         úr...</p>
@@ -5326,7 +5305,7 @@
           <stage>(aki megnémulva hallgatta, most felordít.)</stage>
           <p>Suskust?</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <p>A fiamtól ma levelet kaptam, ebben a percben...</p>
         </sp>
@@ -5334,7 +5313,7 @@
           <speaker>IGAZGATÓ</speaker>
           <p>Ne tessék annyit sírni.</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <p>Ne sírjak? Egyebem sincs, csak a könny.</p>
         </sp>
@@ -5342,7 +5321,7 @@
           <speaker>IGAZGATÓ</speaker>
           <p>Ha ennyit sír, nem értem a beszédét.</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <p>Akinek gyermeke van, sírhat az az édesanya.</p>
         </sp>
@@ -5353,7 +5332,7 @@
                         meg: tessék jó gyerekeket hozni, azokból jó polgárokat nevelünk. De a
                         csirkefogókból...</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <stage>(ugyanakkor):</stage>
           <p>Senki más nem segít, csak a nagytiszteletű Igazgató úr. Nagytiszteletű
@@ -5370,7 +5349,7 @@
           <speaker>MISI</speaker>
           <stage>(megtántorodik).</stage>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <p>A fiam írta, a fiam megírta! Itt a levele!<stage>(Nincs rajta a szemüveg,
                             ezért rövidlátóan nézi az írást.)</stage>
@@ -5392,11 +5371,11 @@
                         rögtön kezdődik az ülése. Tessék megvárni, míg a tanár urak kihallgatják a
                         diákot.</p>
         </sp>
-        <sp who="#torokne">
+        <sp who="#torok_neni">
           <speaker>TÖRÖKNÉ:</speaker>
           <p>A Tiszának mentem volna, ha ebben is benne marad a fiam, de legyen hála a
                         jóistennek, ebbe nincs benne a fiam. Ebbe nincs benne a fiam...<stage>(El
-                            balra.)</stage>
+                        	balra.)</stage>
           </p>
         </sp>
         <sp who="#igazgato">
@@ -5475,7 +5454,7 @@
           <stage>(súgva bátorítja, nagy jóakarattal):</stage>
           <p>Osztán beszélni kell... mindent, ami a szívünkben van. Néma gyermeknek anyja
                         sem érti szavát... No, üjjünk ide...<stage>(A bal ajtó mellett áll egy szék,
-                            ahhoz vezeti s leülteti.)</stage>
+                        	ahhoz vezeti s leülteti.)</stage>
           </p>
         </sp>
         <sp who="#nyilas_misi">
@@ -5541,10 +5520,10 @@
         <sp who="#igazgato">
           <speaker>IGAZGATÓ</speaker>
           <p>Éppen ezt akarjuk megtudni.<stage>(El balra.)</stage>
-          </p>
-          <stage>(A tanárok leülnek. A hosszú zöld asztal közepén ül le Sarkadi tanár.
+            <stage>(A tanárok leülnek. A hosszú zöld asztal közepén ül le Sarkadi tanár.
                         Jobbról mellette Juhász, balról Bagoly. Valkay az asztal végén ül. Gyéres a
                         Valkay balján.)</stage>
+          </p>
         </sp>
         <sp who="#sarkadi">
           <speaker>SARKADI:</speaker>
@@ -5745,7 +5724,7 @@
                         elvetemedett volna, már régen porban fetrengene az önök lába előtt. És kérné
                         a bocsánatot nyakrafőre. De én látom a szeméből, hogy igaza van. Tessék őtet
                         rendesen kikérdezni, tessék alkalmat adni rá, hogy mindent
-                            elmondhasson.<stage>(Elönti a szemét a könny.)</stage>
+                        elmondhasson.<stage>(Elönti a szemét a könny.)</stage>
           </p>
         </sp>
         <sp who="#sarkadi">
@@ -5835,7 +5814,7 @@
                         gyerekek közt élni! nem akarok többet a felnőttek közt élni! Én nem akarok
                         többet debreceni diák lenni!<stage>(Dobbant.)</stage>
                     Édesanyám nekem azt mondta: »Légy jó fiam, légy jó mindhalálig«... én meg
-                        akarok halni...<stage>(elesik)</stage>
+                    akarok halni...<stage>(elesik)</stage>
           </p>
         </sp>
         <sp who="#valkay #gyeres">
@@ -5853,7 +5832,7 @@
           <stage>(beront, a pedellus nem akarja engedni):</stage>
           <p>Misi, Misi, megjött a távirat és ezer forint... Bocsánat, igazgató úr, a
                         húgom táviratozott, megérkezett a nénémhez, a hercegnéhez és minden rendben
-                            van.<stage>(Olvassa.)</stage>
+                        van.<stage>(Olvassa.)</stage>
           </p>
           <p>»Misi ártatlan, Török mindent bevallott, ő csempészte a Misi zsebébe a
                         tízforintost. Fizessétek ki Török lopását...« Misi, megváltó
@@ -5878,8 +5857,8 @@
         <sp who="#valkay">
           <speaker>VALKAY:</speaker>
           <p>Úgy legyen, ámen.</p>
-          <stage>FÜGGÖNY.</stage>
         </sp>
+        <stage>FÜGGÖNY.</stage>
       </div>
     </body>
   </text>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000035">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000035" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,12 +66,11 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
           </p>
         </availability>
       </publicationStmt>
@@ -164,23 +161,28 @@
           <person sex="MALE" xml:id="szolgalo_kanyainal">
             <persName>Szolgáló Kányainál</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="nep">
-            <persName>Nép</persName>
-          </person>
-          <person sex="UNKNOWN" xml:id="tancosok">
-            <persName>Táncosok</persName>
-          </person>
+          <personGrp sex="UNKNOWN" xml:id="nep">
+            <name>Nép</name>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="tancosok">
+            <name>Táncosok</name>
+          </personGrp>
           <person sex="MALE" xml:id="schwartz">
             <persName>Schwartz</persName>
           </person>
-          <person sex="MALE" xml:id="ket_perszekutor">
-            <persName>Két perzekútor</persName>
-          </person>
+          <personGrp sex="MALE" xml:id="ket_perszekutor">
+            <name>Két perzekútor</name>
+          </personGrp>
           <person sex="MALE" xml:id="legeny">
             <persName>Legény</persName>
           </person>
         </listPerson>
       </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <standOff>
@@ -195,6 +197,11 @@
         <desc/>
       </event>
     </listEvent>
+    <listRelation>
+      <relation name="wikidata"
+                   active="https://dracor.org/entity/hun000035"
+                   passive="http://www.wikidata.org/entity/"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
@@ -285,17 +292,13 @@
     <body>
       <div type="act">
         <head type="title">ELSŐ FELVONÁS</head>
-        <p>
-          <stage>(Két szoba, egyik Kamilláé, másik Liliomfié. Mindkét szobában hátul ablak,
-                        oldalajtók bejárásul. A válaszfalon zárt ajtó. Kamillánál az ablak mellett
-                        varróasztalka, zongora.)</stage>
-        </p>
+        <stage>(Két szoba, egyik Kamilláé, másik Liliomfié. Mindkét szobában hátul
+						ablak, oldalajtók bejárásul. A válaszfalon zárt ajtó. Kamillánál az ablak
+						mellett varróasztalka, zongora.)</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
-          <p>
-            <stage>(Kamillánál)</stage>
-            <stage>Szilvai, Kamilla (jőnek oldalt)</stage>
-          </p>
+          <stage>(Kamillánál)</stage>
+          <stage>Szilvai, Kamilla (jőnek oldalt)</stage>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Végre színről színre tisztelhetem professzor urat.</p>
@@ -307,7 +310,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>S miért nem szállt ide? Igaz - istállónk nincs... De mit látok?
-                            Professzor úr gyászt visel kalapján? Engem nem is tudósít.</p>
+							Professzor úr gyászt visel kalapján? Engem nem is tudósít.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -349,9 +352,9 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Házasodni? Hogy megijeszt! Isten mentsen! Abszolváltam a házasság
-                            iskoláját, örökös vakációt tartok. Mariskáért jövök; magammal viszem. De
-                            hol van? Képzelem, megnőtt nyolc év alatt, mióta nem láthatám. Ugyan,
-                            hívja elő.</p>
+							iskoláját, örökös vakációt tartok. Mariskáért jövök; magammal viszem. De
+							hol van? Képzelem, megnőtt nyolc év alatt, mióta nem láthatám. Ugyan,
+							hívja elő.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -388,7 +391,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Csak műkedvelő. A darab jótékony célra adatik, s Mariska Katalin szerepét
-                            vállalta el.</p>
+							vállalta el.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -398,7 +401,7 @@
             <speaker>KAMILLA</speaker>
             <stage>(jelentőséggel)</stage>
             <p>Majd találkozik más, tán ügyesebb e szerepre. De professzor úr, most azon
-                            ponton állunk, hol növendékemtől válnom kell.</p>
+							ponton állunk, hol növendékemtől válnom kell.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -407,7 +410,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Vannak kilátások, melyek Kolozsvárhoz láncolnak; s vannak láncok, melyek
-                            által örömest leláncoltatjuk magunkat.</p>
+							által örömest leláncoltatjuk magunkat.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -429,7 +432,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Mit... a kisasszony?<stage>(Pápaszemét fölteszi, megnézi)</stage>Ah,
-                            lehetetlen!</p>
+							lehetetlen!</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -451,7 +454,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Professzor úr?! Ő csak huszonhárom éves.<stage>(Félre)</stage>Feleségének
-                            mindig igaza volt, ez az ember szenvedhetetlen!</p>
+							mindig igaza volt, ez az ember szenvedhetetlen!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -461,8 +464,8 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>De a dologra, professzor úr! Miután Mariskától - barátnőmtől válnom kell,
-                            tudni akarom jövendőjét. Ön nyolc éve fizet érte - ez mind szép, de
-                            gyanús.</p>
+							tudni akarom jövendőjét. Ön nyolc éve fizet érte - ez mind szép, de
+							gyanús.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -472,8 +475,8 @@
             <speaker>KAMILLA</speaker>
             <stage>(félre)</stage>
             <p>Várj csak - én is tudok szekánt lenni! Gyanús, mert hátha az atyáskodás
-                            álarca alatt csábító lappang - szóval, uram, tudnom kell, mi köze ez
-                            árvához.</p>
+							álarca alatt csábító lappang - szóval, uram, tudnom kell, mi köze ez
+							árvához.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -482,7 +485,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>De mért titokban fogadott! Mért kelle felesége előtt rejtenie ez árvát?
-                            Mindent kell tudnom - lelkiismeretem kívánja.</p>
+							Mindent kell tudnom - lelkiismeretem kívánja.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -495,12 +498,12 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Jó; úgyis özvegy vagyok, most már mindent tudhat. Bárkai, a Mariska
-                            atyja, gyermekkori barátom volt. Midőn katedrámat elfoglalandó, Váradra
-                            utaztam, már akkor a Mariska anyja nem élt többé, s az én Bárkai barátom
-                            ismét frigyre lépett Ámorral. Új kedvese Emerencia volt. Bárkai barátom
-                            eléggé vigyázatlan volt engem Emerenciának prezentálni. Amit előre
-                            képzelhet magának, megtörtént. Emerencia látott engem, én láttam
-                            Emerenciát, s mindketten odalettünk.</p>
+							atyja, gyermekkori barátom volt. Midőn katedrámat elfoglalandó, Váradra
+							utaztam, már akkor a Mariska anyja nem élt többé, s az én Bárkai barátom
+							ismét frigyre lépett Ámorral. Új kedvese Emerencia volt. Bárkai barátom
+							eléggé vigyázatlan volt engem Emerenciának prezentálni. Amit előre
+							képzelhet magának, megtörtént. Emerencia látott engem, én láttam
+							Emerenciát, s mindketten odalettünk.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -510,7 +513,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Kérem alássan, én akkor sem voltam rútabb - s akkor még a hajam szőke
-                            volt.</p>
+							volt.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -519,7 +522,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Mert Emerencia elhitette velem, hogy arcomhoz jobban áll a fekete
-                            paróka.</p>
+							paróka.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -528,16 +531,16 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Oh, a nagylelkű barát lemondott Emerenciáról, s én elvettem őt. Oh, bár
-                            én lettem volna az a nagylelkű! Barátom sírt, midőn lemondott, s én
-                            örültem; de nemsokára én sírtam, s ő majd kibújt örömében a bőréből. Az
-                            esküvő előtt angyali, isteni Emerencia, esküvő után valódi furibunda
-                            fúria lett. Küzdöttem ellene nemesen; de a győztes Emerencia lett s a
-                            papucskormány. Ő rajtam önté ki szeszélyeit, s én tanítványaimon - csupa
-                            terciát adtam. Eleinte nekem kelle őt féltenem, mert szép volt, s ez
-                            borzasztóan fájt; de nemsokára a kíméletlen himlő felszántotta arcát, s
-                            ekkor ő féltett engem, s ez még borzasztóbb vala. Azelőtt ő emlegetett
-                            válást, s én kétségbe estem; ezután én emlegettem válást, de ekkor már ő
-                            hallani sem akart róla.</p>
+							én lettem volna az a nagylelkű! Barátom sírt, midőn lemondott, s én
+							örültem; de nemsokára én sírtam, s ő majd kibújt örömében a bőréből. Az
+							esküvő előtt angyali, isteni Emerencia, esküvő után valódi furibunda
+							fúria lett. Küzdöttem ellene nemesen; de a győztes Emerencia lett s a
+							papucskormány. Ő rajtam önté ki szeszélyeit, s én tanítványaimon - csupa
+							terciát adtam. Eleinte nekem kelle őt féltenem, mert szép volt, s ez
+							borzasztóan fájt; de nemsokára a kíméletlen himlő felszántotta arcát, s
+							ekkor ő féltett engem, s ez még borzasztóbb vala. Azelőtt ő emlegetett
+							válást, s én kétségbe estem; ezután én emlegettem válást, de ekkor már ő
+							hallani sem akart róla.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -546,13 +549,13 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>A lelkiismeret még most is furdal érte: innen magyarázható meg, hogy
-                            barátom halálos ágyánál esküvel fogadtam, hogy Mariskát sohasem hagyom
-                            el. Házamba vezettem az elhagyott szegény árva gyereket; de oh sors! -
-                            otthon Emerencia ezt mondá: vagy én, tudniillik én megyek ki a házból,
-                            vagy a gyermek, de ő semmi esetre sem. Hogy tehát saját házamban
-                            maradhassak, Mariskát titkon kelle neveltetnem. Magamat kelle meglopnom;
-                            a titkos ajándékokat eldugnom, hogy neveltethessem. No de most özvegy
-                            vagyok, Mariskát boldoggá teszem, s férjhez adom.</p>
+							barátom halálos ágyánál esküvel fogadtam, hogy Mariskát sohasem hagyom
+							el. Házamba vezettem az elhagyott szegény árva gyereket; de oh sors! -
+							otthon Emerencia ezt mondá: vagy én, tudniillik én megyek ki a házból,
+							vagy a gyermek, de ő semmi esetre sem. Hogy tehát saját házamban
+							maradhassak, Mariskát titkon kelle neveltetnem. Magamat kelle meglopnom;
+							a titkos ajándékokat eldugnom, hogy neveltethessem. No de most özvegy
+							vagyok, Mariskát boldoggá teszem, s férjhez adom.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -561,7 +564,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Unokaöcsémhez, kire ősi javaim szállnak a törvény szerint; hogy tehát
-                            mindkettőjükre szálljanak, egy párrá kell lenniük.</p>
+							mindkettőjükre szálljanak, egy párrá kell lenniük.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -570,8 +573,8 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Ne is szeressék; a szerelem, ahol nincs, házasság után megjő; ahol pedig
-                            van, elpárolog. Exempli gratia, itt vagyok én. Öcsémnek már írtam
-                            Pestre, ő eddig útban van - majd összeszoknak.</p>
+							van, elpárolog. Exempli gratia, itt vagyok én. Öcsémnek már írtam
+							Pestre, ő eddig útban van - majd összeszoknak.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -580,9 +583,9 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Ráijesztek a fiúra - azt mondom: ha nem kell a lány, megházasodom,
-                            gyermekeim lesznek, s az örökségtől elcseppen. De most megyek,
-                            meglátogatom Kenderesi professzor barátomat. Azalatt készítse el
-                            Mariskát az útra.<stage>(A választóajtónak megy)</stage>
+							gyermekeim lesznek, s az örökségtől elcseppen. De most megyek,
+							meglátogatom Kenderesi professzor barátomat. Azalatt készítse el
+							Mariskát az útra.<stage>(A választóajtónak megy)</stage>
             </p>
           </sp>
           <sp who="#kamilla_kisasszony">
@@ -604,7 +607,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Oh, nem, ő szerelmes színész; hát nem hallá hírét Liliomfinak? Lángész,
-                            alig féléves színész, s máris jobb a többinél.</p>
+							alig féléves színész, s máris jobb a többinél.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -626,16 +629,14 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Alászolgája!<stage>(Félre)</stage>Szegény liliom, neked is lesz
-                                Emerenciád!<stage>(El, Kamilla kikíséri)</stage>
+								Emerenciád!<stage>(El, Kamilla kikíséri)</stage>
             </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>(Liliomfinál)</stage>
-            <stage>Liliomfi, Szellemfi.</stage>
-          </p>
+          <stage>(Liliomfinál)</stage>
+          <stage>Liliomfi, Szellemfi.</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(sietve bevezeti)</stage>
@@ -683,31 +684,31 @@
             <speaker>LILIOMFI</speaker>
             <stage>(hirtelen felbontja)</stage>
             <p>Tán pénz rejlik benne - adsza!<stage>(Megnézi)</stage>Hah
-                                üres!<stage>(Feltöri, olvassa)</stage>"Tisztelt Liliomfi úr! Elég
-                            soká voltam bolondja. A 17 forint 19 krajcárt mégsem küldte meg. Már
-                            most ne is küldje. (Oh, ne félj, engedelmeskedem.) Ne is küldje Egerbe!
-                            (Vagy úgy.) Mert útban vagyok Kolozsvárra. (Odavagyok.) Készítse el
-                            addig pénzemet! (Mintha én bankócsináló volnék.) Haragszom az úrra! -
-                            Gyuri, a pincér." Haragszik rám?<stage>(A másikat nézi)</stage>Hah! Ez
-                            bátyám keze! Ezt Gáspár barátom küldi Pestről.<stage>(Felbontja, belőle
-                                egy másik levélkét vesz ki, s ezt olvassa)</stage>"Pajtás, Gyula!
-                            Bátyád levelét küldöm. Itt senki sem tudja még, hol kószálsz. Hitelezőid
-                            éppen kurrentáltatni akartak, midőn bátyád levele érkezett, melyből
-                            láthatod, hogy ettől nincs mit félned, s egész bátorságban áldozhatsz
-                            Tháliának." Hohó, itt pénzről van szó; lássuk a bácsi levelét.
-                                <stage>(Szilvai modorában olvassa)</stage>"Öcsém! Fájdalmasan
-                            értesültem leveledből, hogy szabad szárnyra kelvén, tüstént adósságba
-                            verted magadat. A leckét majd itthon meghallod. Kövesdi nagykereskedőnek
-                            írtam, adósságaidat kifizeti. Tüstént ülj szekérre, és siess haza.
-                            Itthon már kijelöltem számodra jövendőbeli élettársadat, kit okvetlenül
-                            el kell venned; különben tudd meg, az örökséget veszted el, mert nehogy
-                            a Szilvai család kihaljon, magam házasodom" (Mi ez? Itt reszketett keze
-                            - alig bírta e szót leírni. De hát Emerencia?) "Emerencia meghalt.
-                            Engedelmeskedjél, semmirekellő gazember, én pedig, a te bátyád és
-                            gyámod, Szilvai Tódor, juris utrisque nec non philosophiae et artium
-                            liberalium doctor, et professor publicus ordinarius." Hazamenni? Hohó!
-                            Nem úgy, bácsi! Elég volt tíz évig csücsülnöm otthon, bezárva! Lemondjak
-                            ezen felséges életről, hol király, herceg vagyok?</p>
+								üres!<stage>(Feltöri, olvassa)</stage>"Tisztelt Liliomfi úr! Elég
+							soká voltam bolondja. A 17 forint 19 krajcárt mégsem küldte meg. Már
+							most ne is küldje. (Oh, ne félj, engedelmeskedem.) Ne is küldje Egerbe!
+							(Vagy úgy.) Mert útban vagyok Kolozsvárra. (Odavagyok.) Készítse el
+							addig pénzemet! (Mintha én bankócsináló volnék.) Haragszom az úrra! -
+							Gyuri, a pincér." Haragszik rám?<stage>(A másikat nézi)</stage>Hah! Ez
+							bátyám keze! Ezt Gáspár barátom küldi Pestről.<stage>(Felbontja, belőle
+								egy másik levélkét vesz ki, s ezt olvassa)</stage>"Pajtás, Gyula!
+							Bátyád levelét küldöm. Itt senki sem tudja még, hol kószálsz. Hitelezőid
+							éppen kurrentáltatni akartak, midőn bátyád levele érkezett, melyből
+							láthatod, hogy ettől nincs mit félned, s egész bátorságban áldozhatsz
+							Tháliának." Hohó, itt pénzről van szó; lássuk a bácsi levelét.
+								<stage>(Szilvai modorában olvassa)</stage>"Öcsém! Fájdalmasan
+							értesültem leveledből, hogy szabad szárnyra kelvén, tüstént adósságba
+							verted magadat. A leckét majd itthon meghallod. Kövesdi nagykereskedőnek
+							írtam, adósságaidat kifizeti. Tüstént ülj szekérre, és siess haza.
+							Itthon már kijelöltem számodra jövendőbeli élettársadat, kit okvetlenül
+							el kell venned; különben tudd meg, az örökséget veszted el, mert nehogy
+							a Szilvai család kihaljon, magam házasodom" (Mi ez? Itt reszketett keze
+							- alig bírta e szót leírni. De hát Emerencia?) "Emerencia meghalt.
+							Engedelmeskedjél, semmirekellő gazember, én pedig, a te bátyád és
+							gyámod, Szilvai Tódor, juris utrisque nec non philosophiae et artium
+							liberalium doctor, et professor publicus ordinarius." Hazamenni? Hohó!
+							Nem úgy, bácsi! Elég volt tíz évig csücsülnöm otthon, bezárva! Lemondjak
+							ezen felséges életről, hol király, herceg vagyok?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -724,7 +725,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Házasodni, mikor igazi szerelmes vagyok, s éppen azon töröm fejemet, mint
-                            szöktessem el. De igaz, előbb tudnom kell, ha szeret-e?</p>
+							szöktessem el. De igaz, előbb tudnom kell, ha szeret-e?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -741,7 +742,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>De hát ha az öreg csakugyan megházasodik? Ha fia lesz, s én elesem az
-                            örökségtől?</p>
+							örökségtől?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -758,8 +759,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>De mit is töröm fejemet azon, ami még oly messze van, midőn a boldogságot
-                            itt közel csak egy ajtó választja el tőlem? De ez ajtónak hogy jussak
-                            kulcsához?</p>
+							itt közel csak egy ajtó választja el tőlem? De ez ajtónak hogy jussak
+							kulcsához?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -789,30 +790,27 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENET</head>
-          <p>
-            <stage>(Kamillánál)</stage>
-            <stage>Kamilla, Liliomfi</stage>
-          </p>
+          <stage>(Kamillánál)</stage>
+          <stage>Kamilla, Liliomfi</stage>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Igen bátortalan; pedig szeret, bizonyosan szeret; a színpadról mindig rám
-                            nézett.</p>
+							nézett.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Hogy adjam tudtára, hogy szeretem; a színpadról gyakran néztem rá; de ő
-                            lesüté szemeit, természetesen, mert a mámi is mellette ült.</p>
+							lesüté szemeit, természetesen, mert a mámi is mellette ült.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
-            <p>Vajon itthon van-e? Senki sem lát.<stage>(Az ajtóhoz
-                            közeledik)</stage>
+            <p>Vajon itthon van-e? Senki sem lát.<stage>(Az ajtóhoz közeledik)</stage>
             </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Megnézem, vajon ő-e az?<stage>(Az ajtóhoz megy, mindketten egyszerre
-                                teszik szemeiket a kulcslyukhoz)</stage>
+								teszik szemeiket a kulcslyukhoz)</stage>
             </p>
           </sp>
           <sp who="#kamilla_kisasszony">
@@ -861,9 +859,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Mariska (jő, Kamillánál), előbbiek</stage>
-          </p>
+          <stage>Mariska (jő, Kamillánál), előbbiek</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(haragosan)</stage>
@@ -881,12 +877,12 @@
             <speaker>KAMILLA</speaker>
             <stage>(hirtelen méltóságos állásba teszi magát)</stage>
             <p>Ah! Tehát megérkeztél már? Vége a próbának? Remélem, az ifjakat kellő
-                            korlátban tartottad?</p>
+							korlátban tartottad?</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Ej, kellenek is nekem, hiszen oly rosszul, de oly rosszul játszanak,
-                            nénike!</p>
+							nénike!</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -916,7 +912,7 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>így is figyelhetek.<stage>(Félre)</stage>Bárcsak kinézne, mint
-                            tegnap.</p>
+							tegnap.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -955,7 +951,7 @@
             <speaker>KAMILLA</speaker>
             <stage>(az ablakhoz fut, félre)</stage>
             <p>Tán ő.<stage>(Kinéz, Liliomfi visszakapja fejét)</stage>Hisz itt senki
-                            sincs!</p>
+							sincs!</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -964,7 +960,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Már mondtam, az afféléknek elég fejedet biccentened. Mire az a rendkívüli
-                            nyájasság? De a dologra! Tudd meg, válnunk kell!</p>
+							nyájasság? De a dologra! Tudd meg, válnunk kell!</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -978,26 +974,26 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Árva vagy, szülőidet gyermekkorodban elvesztéd; de atyád barátja, kit ma
-                            megismersz...<stage>(Liliomfi szavát hallván, elhallgat)</stage>
+								megismersz...<stage>(Liliomfi szavát hallván, elhallgat)</stage>
             </p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(szaval)</stage>
             <p>Marim, szeretlek, megszabadítlak, bár az a vén boszorkány árgus szemekkel
-                            őrizzen; elszöktetlek, s utol nem érhet ő, bár pemetén és seprőn lovagol
-                            utánunk - Mari, te az enyém vagy!</p>
+							őrizzen; elszöktetlek, s utol nem érhet ő, bár pemetén és seprőn lovagol
+							utánunk - Mari, te az enyém vagy!</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <stage>(félre)</stage>
             <p>A vigyázatlan! Kedves néni, végre szabad jótevőmet ismernem, hálámat
-                            elmondanom...</p>
+							elmondanom...</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Csitt, csitt ne háborgassuk Liliomfi urat, szerepét tanulja, s ha belesül
-                            ma este...<stage>(Félre)</stage>Mily elmés ötlet, oh, ő lángész!</p>
+							ma este...<stage>(Félre)</stage>Mily elmés ötlet, oh, ő lángész!</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1008,7 +1004,7 @@
             <speaker>LILIOMFI</speaker>
             <stage>(szaval)</stage>
             <p>Oh, ha szeretsz, Mari, adj jelt, tudasd velem... Oh, hát hiába várok? Meg
-                            akarsz ölni? Kétségbeessem? Oh, úgy Isten veled örökre - örökre!</p>
+							akarsz ölni? Kétségbeessem? Oh, úgy Isten veled örökre - örökre!</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1048,19 +1044,19 @@
             <speaker>KAMILLA</speaker>
             <stage>(félre)</stage>
             <p>Ablakhoz? Mily szorult, nehéz itt a levegő!<stage>(Ablakhoz megy)</stage>
-                            Mi az? Hiszen nem néz ki.<stage>(Eljő)</stage>
+							Mi az? Hiszen nem néz ki.<stage>(Eljő)</stage>
             </p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Nem ám, mert nem én nézek ki. De hát folytassa, édes néni - el kell
-                                válnunk.<stage>(Az ablakhoz visszaül)</stage>
+								válnunk.<stage>(Az ablakhoz visszaül)</stage>
             </p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Hiszen már mindent elmondtam.<stage>(Félre)</stage>Hogy küldjem
-                                el?<stage>(Fenn)</stage>Hoztál-e pamutot?</p>
+								el?<stage>(Fenn)</stage>Hoztál-e pamutot?</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1069,7 +1065,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(az ívet mutatja, rajta felül lángoló szív, s alá e szók írva: "Ha
-                            szeretsz, ints igent")</stage>
+							szeretsz, ints igent")</stage>
             <p>Most eldől a kocka.<stage>(Az ablakhoz megy)</stage>
             </p>
           </sp>
@@ -1099,13 +1095,13 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ő szeret - oh, boldogság! Hogy menjek által? Hol is késik a
-                            zártszékekkel?</p>
+							zártszékekkel?</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <stage>(félre)</stage>
             <p>Ah, megvan! Mari! Ez a szerep bizonyosan rosszul van írva, Katalin nem
-                            mondhatja Rodolfónak: szeretlek! per te s tu - az nem lehet!</p>
+							mondhatja Rodolfónak: szeretlek! per te s tu - az nem lehet!</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1118,7 +1114,7 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Éppen ellenkezőleg! Katalin a férjét mindig magázza - mert nem
-                            szereti.</p>
+							szereti.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1131,12 +1127,12 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>S én fogadni mernék... de hiszen legjobban tudja Liliomfi úr; áthívom,
-                            tőle megkérdezhetjük.</p>
+							tőle megkérdezhetjük.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Igen, most jut eszembe, csakugyan Rodolfót is magázza, azaz, nem tudom
-                            bizonyosan, de Liliomfi úr megmondhatná!</p>
+							bizonyosan, de Liliomfi úr megmondhatná!</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1176,9 +1172,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Szellemfi (Liliomfinál), előbbiek</stage>
-          </p>
+          <stage>Szellemfi (Liliomfinál), előbbiek</stage>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Itt a két zártszék.</p>
@@ -1187,7 +1181,7 @@
             <speaker>LILIOMFI</speaker>
             <stage>(kissé igazgatja öltözetét, haját)</stage>
             <p>Nem kell többé zártszék, mert ím, nyitott ajtó
-                                van.<stage>(Átmegy)</stage>
+								van.<stage>(Átmegy)</stage>
             </p>
           </sp>
           <sp who="#szellemfi">
@@ -1206,7 +1200,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Elutazik? Lehetetlen! S hová?<stage>(félre)</stage>Követem a világ végére
-                            is!</p>
+							is!</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1215,12 +1209,12 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Nagyváradra?<stage>(Félre)</stage>De már oda nem! Majd adna a
-                            nagybátyám!</p>
+							nagybátyám!</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>A műkedvelők előadásában én vállalom majd el Mariska helyett Bragadini
-                            Katalint.</p>
+							Katalint.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -1245,13 +1239,13 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>De nem tudok kiokosodni belőle; Rodolfónak azt mondja-e: szeretlek vagy
-                            szeretem?!</p>
+							szeretem?!</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(szemei Mariskán)</stage>
             <p>Ó mindenesetre, előbb szeretem, aztán szeretlek, aztán szeretjük egymást!
-                            Ugye, kisasszony?</p>
+							Ugye, kisasszony?</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1268,7 +1262,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Kedves Liliomfi úr, én ellenállhatatlan szenvedélyt érzek a
-                            színészethez...</p>
+							színészethez...</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -1281,13 +1275,13 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>A kisasszonyt senki sem kérdezte. Őt más hivatás várja. Már rég színésznő
-                            lettem volna, de hölgynek egyedül, oltalom nélkül, igen veszélyes ez a
-                            pálya, főképp ha szép s fiatal.</p>
+							lettem volna, de hölgynek egyedül, oltalom nélkül, igen veszélyes ez a
+							pálya, főképp ha szép s fiatal.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Oh, a nagysád erényei assecurálva vannak. Eszerint nagysád nincs
-                            előítélettel irántunk?</p>
+							előítélettel irántunk?</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1312,7 +1306,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Nem? Ej, ej! Pedig nagysád a vénasszonyokat oly jól játszaná, még
-                            ráncokat sem kellene festenie.</p>
+							ráncokat sem kellene festenie.</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1321,8 +1315,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Egy szó mint száz, nagysád, én őszinte fickó vagyok. Mari kisasszonyból
-                            felséges színésznő válnék, s én ezennel jobbjáért könyörgök - adja ránk
-                            anyai áldását!</p>
+							felséges színésznő válnék, s én ezennel jobbjáért könyörgök - adja ránk
+							anyai áldását!</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1343,7 +1337,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Mondám, hogy nem szenvedhetem a színészeket. De hogy mert ide jőni? Mily
-                            impertinencia!</p>
+							impertinencia!</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -1364,8 +1358,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Hát azt hiszi, nagysád, nem vettem észre, hányat ütött az óra? Rococo!
-                            Mari kisasszony, én szeretem önt, s ön szeret engem; meglátom, ki áll
-                            utunkban!</p>
+							Mari kisasszony, én szeretem önt, s ön szeret engem; meglátom, ki áll
+							utunkban!</p>
           </sp>
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
@@ -1382,7 +1376,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Utána utazom! Mariskám, mondd, szeretsz-e? Hadd tudja meg az egész
-                            világ.</p>
+							világ.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1460,9 +1454,7 @@
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
-          <p>
-            <stage>Szilvai, voltak</stage>
-          </p>
+          <stage>Szilvai, voltak</stage>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Micsoda lárma van itt?</p>
@@ -1470,7 +1462,7 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Ah, éppen jókor, professzor úr! Képzelje! Irtóztató! Alig szólhatok!
-                            Mariska szerelmes - és kibe?</p>
+							Mariska szerelmes - és kibe?</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -1527,11 +1519,11 @@
           <sp who="#kamilla_kisasszony">
             <speaker>KAMILLA</speaker>
             <p>Micsoda? - Mari tud franciául, táncol, varr, zongoráz, énekel. Mit akar
-                            többet? Mert mást szeret? Én feleljek? Mért nem szebb, fiatalabb ön?
-                            Akkor majd önt szeretné, drága professzor úr! Csak tessék elvinni. Én
-                            leveszem róla kezeimet! Őrizze, vegye feleségül, adja feleségül, ahhoz
-                            semmi közöm. De engem feleletre vonni?! Egy óra múlva, reménylem, nem
-                            találom itt, drága szerelmes gerlicepár! Adieu.<stage>(El)</stage>
+							többet? Mert mást szeret? Én feleljek? Mért nem szebb, fiatalabb ön?
+							Akkor majd önt szeretné, drága professzor úr! Csak tessék elvinni. Én
+							leveszem róla kezeimet! Őrizze, vegye feleségül, adja feleségül, ahhoz
+							semmi közöm. De engem feleletre vonni?! Egy óra múlva, reménylem, nem
+							találom itt, drága szerelmes gerlicepár! Adieu.<stage>(El)</stage>
             </p>
           </sp>
           <sp who="#liliomfi">
@@ -1541,10 +1533,10 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Oh, fúria! Oh, Emerencia! Midőn ajánlották, azt mondák, istenfélő,
-                            nevelt, a világról lemondott vénkisasszony! S ím! Mariska, gyermekem!
-                            Jer közelebb! Hát nem ismersz? Én vagyok a Szilvai professzor. Én
-                            neveltettelek - boldoggá akartalak tenni. De hát, Mariskám, az isten
-                            szerelmire kérdelek, hát csakugyan szerelmes vagy?</p>
+							nevelt, a világról lemondott vénkisasszony! S ím! Mariska, gyermekem!
+							Jer közelebb! Hát nem ismersz? Én vagyok a Szilvai professzor. Én
+							neveltettelek - boldoggá akartalak tenni. De hát, Mariskám, az isten
+							szerelmire kérdelek, hát csakugyan szerelmes vagy?</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1553,7 +1545,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Oh, a szív - ne higgy annak. Mondj le arról a jöttmentről, én... én
-                            foglak boldoggá tenni!</p>
+							foglak boldoggá tenni!</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1567,7 +1559,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Ki kacag itt? Ah, az a jómadár! Tehát itthon van! Mariska, még egyszer
-                            kérdelek, lemondasz te erről a liliomról?</p>
+							kérdelek, lemondasz te erről a liliomról?</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1576,12 +1568,12 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Így vagyunk. Urambátyám házasodni akar, engem az örökségtől elütni, s
-                            éppen kedvesem által - hohó!</p>
+							éppen kedvesem által - hohó!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Tehát nem? Most tehát parancsolom, érted, parancsolom. Velem kell
-                            utaznod.</p>
+							utaznod.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1590,7 +1582,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Színésznő?! Dii immortales! - színésznő! De szólnom kell azon
-                            mákvirággal. Majd ráijesztek én auctoritásommal!</p>
+							mákvirággal. Majd ráijesztek én auctoritásommal!</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -1604,7 +1596,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Most mit tegyek? Ah, megvan? Szellemfi, te fogadod el Liliomfi képében, s
-                            mondj le a lányról - érted?</p>
+							mondj le a lányról - érted?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -1668,13 +1660,13 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Alázatos szolgája! <stage>(Igen udvariasan)</stage>Bocsánat! Liliomfi
-                            úrhoz van szerencsém?</p>
+							úrhoz van szerencsém?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Van szerencséje!</p>
           </sp>
-          <sp who="szilvai_todor#">
+          <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <stage>(mindinkább bámulva nézi őt)</stage>
             <p>Liliomfi úrhoz?</p>
@@ -1704,15 +1696,15 @@
             <speaker>SZILVAI</speaker>
             <stage>(félre)</stage>
             <p>Ez a figura?! Mit tudnak ezen szeretni a lányok! Termet - járás -
-                                tartás?<stage>(Szemüvegét fölteszi)</stage> Lássuk közelről.
-                                <stage>(Közel megy hozzá)</stage>
+								tartás?<stage>(Szemüvegét fölteszi)</stage> Lássuk közelről.
+								<stage>(Közel megy hozzá)</stage>
             </p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <stage>(félre)</stage>
             <p>Bizonyosan ismer!<stage>(Büszkén)</stage>No, de ki ne ismerné
-                            Szellemfit!?</p>
+							Szellemfit!?</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -1749,7 +1741,7 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Istenem, minő kezekbe juték? Ennek a vén professzornak felesége legyek!
-                            Csupa hálából?</p>
+							Csupa hálából?</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -1762,29 +1754,29 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Tudja meg, önt nem szeretheti Mariska igazán; s ezt így demonstrálom: Ha
-                            az ön orrára néz - azon a borvirágot látja, s ez nem a szerelem rózsája,
-                            ergo önt semmi esetre sem szeretheti. Probo majorem: nézzen a tükörbe;
-                            probo minorem: a veres orr rendesen a részegség jele, részeges ember
-                            pedig nem szeretetre méltó - ergo, mihelyt egyszer részegen látja önt
-                            Mariska, vége az illúziónak, vége a szerelemnek: ergo mondjon le.</p>
+							az ön orrára néz - azon a borvirágot látja, s ez nem a szerelem rózsája,
+							ergo önt semmi esetre sem szeretheti. Probo majorem: nézzen a tükörbe;
+							probo minorem: a veres orr rendesen a részegség jele, részeges ember
+							pedig nem szeretetre méltó - ergo, mihelyt egyszer részegen látja önt
+							Mariska, vége az illúziónak, vége a szerelemnek: ergo mondjon le.</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>S én azt mondom az úrnak: a bor és szerelem elválhatatlan két testvér;
-                            mert már <hi rend="italic">Báthori Máriá</hi>-ban is azt éneklik: éljen
-                            a bor, szerelem! De a <hi rend="italic">Zampá</hi>-ban is: igyál, igyál,
-                            igyál! Sőt a <hi rend="italic">Fra Diavoló</hi>-ban is: Bort pohárba
-                            töltsünk! Ergo - az én veres orrom szeretetre méltó!</p>
+							mert már <hi rend="italic">Báthori Máriá</hi>-ban is azt éneklik: éljen
+							a bor, szerelem! De a <hi rend="italic">Zampá</hi>-ban is: igyál, igyál,
+							igyál! Sőt a <hi rend="italic">Fra Diavoló</hi>-ban is: Bort pohárba
+							töltsünk! Ergo - az én veres orrom szeretetre méltó!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Kérem, tagadom a majort, a minort átengedem, a consequentiát negálom - s
-                            ön nem fog szerettetni, édes Liliomfi úr!</p>
+							ön nem fog szerettetni, édes Liliomfi úr!</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Ej, uram! Nem az orromért szeretnek engem! Nézze ezt az állást, ezt a
-                            mosolyt, ezt a kacsintást - s dictum factum, elszöktetem Mariskát.</p>
+							mosolyt, ezt a kacsintást - s dictum factum, elszöktetem Mariskát.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -1821,17 +1813,17 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Veres orra? Hiszen a veres szín a legszebb; a rózsa is veres; s a rózsa a
-                            szerelem színe; ergo az úr veres orra szeretetre méltó. Aztán az úr orra
-                            valódi antik: mert a pisze orr régibb a rómainál, quod sic demonstro: a
-                            fehérek is a szerecsen fajból lettek, tudniillik különféle vegyület
-                            által a feketéből előbb réz, aztán sárga, aztán fehérebb, végre egészen
-                            fehér emberek lettek, s a szerecsenek rendesen piszék, ergo a pisze orr
-                            a legantikabb, s az antik orr a legszebb.</p>
+							szerelem színe; ergo az úr veres orra szeretetre méltó. Aztán az úr orra
+							valódi antik: mert a pisze orr régibb a rómainál, quod sic demonstro: a
+							fehérek is a szerecsen fajból lettek, tudniillik különféle vegyület
+							által a feketéből előbb réz, aztán sárga, aztán fehérebb, végre egészen
+							fehér emberek lettek, s a szerecsenek rendesen piszék, ergo a pisze orr
+							a legantikabb, s az antik orr a legszebb.</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Tudja mit? Fizessen útiköltségül ötven pengőt, aztán adja ki filozófiai
-                            rendszerét előfizetés mellett, s én ígérem, hogy el nem olvasom.</p>
+							rendszerét előfizetés mellett, s én ígérem, hogy el nem olvasom.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -1869,16 +1861,14 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Kérem, kérem!<stage>(székre nyomja)</stage>No, ha másképp nem
-                                lehet.<stage>(Sóhajtva pénzt ad, Szellemfi írja, mit Szilvai
-                                mond)</stage>
+								lehet.<stage>(Sóhajtva pénzt ad, Szellemfi írja, mit Szilvai
+								mond)</stage>
             </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>Liliomfi, voltak (Mariskánál)</stage>
-          </p>
+          <stage>Liliomfi, voltak (Mariskánál)</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(kopog az ablakon)</stage>
@@ -1892,10 +1882,10 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Be nem mehetek; a nevelőné az első szobában duzzog. De tudd meg, édes
-                            Marim, az öregúr nem gyámod, hanem férjed akar lenni. De kövesd őt
-                            Váradra, én megszabadítlak, mihelyt pénzem lesz, mert pénz nélkül szökni
-                            nem lehet. Fogsz-e követni? Természetesen előbb összeesküszünk - mint
-                            illik.</p>
+							Marim, az öregúr nem gyámod, hanem férjed akar lenni. De kövesd őt
+							Váradra, én megszabadítlak, mihelyt pénzem lesz, mert pénz nélkül szökni
+							nem lehet. Fogsz-e követni? Természetesen előbb összeesküszünk - mint
+							illik.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -1915,18 +1905,18 @@
             <speaker>SZILVAI</speaker>
             <stage>(olvassa)</stage>
             <p>"Alulírt nyilvánítom, hogy Bárkai Marit nem szerettem, csak bolonddá
-                            akartam tenni, s feleségül venni eszem ágában sem volt." Szörnyű
-                            ortographia!</p>
+							akartam tenni, s feleségül venni eszem ágában sem volt." Szörnyű
+							ortographia!</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Adjon még tíz pengőt, azt is odaírom, hogy házas vagyok - mert tudja meg,
-                            uram, én házas vagyok, ház és feleség nélkül.</p>
+							uram, én házas vagyok, ház és feleség nélkül.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Írja oda, itt a tíz pengő.<stage>(Félre)</stage>Ez bizonyosan használni
-                            fog.</p>
+							fog.</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -1939,7 +1929,7 @@
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Egyenesen Konstantinápolyba; a szultántól úgyis meghívást kaptam, néhány
-                                vendégszerepre.<stage>(Az iratot átadja)</stage>
+								vendégszerepre.<stage>(Az iratot átadja)</stage>
             </p>
           </sp>
           <sp who="#szilvai_todor">
@@ -1961,16 +1951,14 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Alászolgája!<stage>(átmegy)</stage>Itt van, itt van, Mariska! Olvasd és
-                            pirulj! De hogy is tudtad szeretni? Hova tetted szemeidet? Ismerd meg a
-                            hálátlant.</p>
+							pirulj! De hogy is tudtad szeretni? Hova tetted szemeidet? Ismerd meg a
+							hálátlant.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>(Liliomfinál)</stage>
-            <stage>Liliomfi (jő), előbbiek</stage>
-          </p>
+          <stage>(Liliomfinál)</stage>
+          <stage>Liliomfi (jő), előbbiek</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ruhatáramat bemálháztad?</p>
@@ -2032,7 +2020,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Mindjárt meglátod!<stage>(Az ajtóhoz megy, kopogtat)</stage>Liliomfi
-                            úr!</p>
+							úr!</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -2117,12 +2105,12 @@
             <speaker>MIND</speaker>
             <p>Hahahaha!</p>
             <p>Ugyan kérem, miért nevet? <stage>(Állás: Szellemfi, Mariska, Szilvai,
-                                Liliomfi)</stage>
+								Liliomfi)</stage>
             </p>
             <p>E levélnek az íróját</p>
             <p>Nem szerettem én soha szerette ő Mit is képzel, önt szeretném, őt
-                            szeretné, Nevetséges figura?!<stage>(Liliomfi átnyúl, megfogja Mariska
-                                kezét)</stage>
+							szeretné, Nevetséges figura?!<stage>(Liliomfi átnyúl, megfogja Mariska
+								kezét)</stage>
             </p>
 <!--Ez még kérdés, hogy lehetne megoldani!  -->
           </sp>
@@ -2172,15 +2160,11 @@
       </div>
       <div type="act">
         <head type="title">MÁSODIK FELVONÁS</head>
-        <p>
-          <stage>(Ivószoba Kányai fogadójában, hátul bormérő ketreccel)</stage>
-        </p>
+        <stage>(Ivószoba Kányai fogadójában, hátul bormérő ketreccel)</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
-          <p>
-            <stage>Mindenféle vendégek. Gyuri (szolgál), uracs, legény (mindjárt)
-                            Erzsi</stage>
-          </p>
+          <stage>Mindenféle vendégek. Gyuri (szolgál), uracs, legény (mindjárt)
+						Erzsi</stage>
           <sp who="#nep #tancosok">
             <speaker>KAR</speaker>
             <lg>
@@ -2195,13 +2179,12 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <stage>(gazdaasszonyosan öltözve, kulcsokkal, fehér köténnyel stb.; jő
-                            jobbról)</stage>
+							jobbról)</stage>
           </sp>
           <sp who="#legeny">
             <speaker>LEGÉNY</speaker>
             <p>Megállj, cigány!... Eszem a szemét, Erzsike, beh szép maga!... Hadd
-                            forgassam meg amúgy magyarmiskásan!<stage>(Át akarja
-                            karolni)</stage>
+							forgassam meg amúgy magyarmiskásan!<stage>(Át akarja karolni)</stage>
             </p>
           </sp>
           <sp who="#erzsi">
@@ -2221,9 +2204,9 @@
           <sp who="#legeny">
             <speaker>LEGÉNY</speaker>
             <p>Hm, beh kényes no!... Magam is nemeslegény volnék, vagy mi; van is mit
-                            aprítanom a tejbe... De semmi no!... Hejh fiúk, menjünk a Bárányba...
-                            Ott nem néznek ránk ily görbe szemmel... Előre, no!... Húzd
-                                rá!<stage>(Dúdolva)</stage>
+							aprítanom a tejbe... De semmi no!... Hejh fiúk, menjünk a Bárányba...
+							Ott nem néznek ránk ily görbe szemmel... Előre, no!... Húzd
+								rá!<stage>(Dúdolva)</stage>
             </p>
           </sp>
           <sp who="#nep #tancosok">
@@ -2241,7 +2224,7 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Jobb is. Arra az út, merre a kerékvágás. Úgyis több üveget törnek össze,
-                            mint kiisznak. Gyuri!</p>
+							mint kiisznak. Gyuri!</p>
           </sp>
           <sp who="#uracs">
             <speaker>URACS</speaker>
@@ -2286,13 +2269,13 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Te bohó.<stage>(Fenn)</stage>A numero egybe két személyre kell teríteni,
-                            érti?<stage>(Halkan)</stage>Miért nem jöttél a konyhába jó reggelt
-                            mondani, he?</p>
+								érti?<stage>(Halkan)</stage>Miért nem jöttél a konyhába jó reggelt
+							mondani, he?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Apád a tornácon pipázott!<stage>(Fenn)</stage>Értem, négy személyre a
-                            numero négybe.</p>
+							numero négybe.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2302,9 +2285,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>Szolgáló (az egyik ajtón bedugja a fejét), előbbiek</stage>
-          </p>
+          <stage>Szolgáló (az egyik ajtón bedugja a fejét), előbbiek</stage>
           <sp who="#szolgalo_kanyainal">
             <speaker>SZOLGÁLÓ</speaker>
             <stage>(jobbról)</stage>
@@ -2314,10 +2295,10 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Mindjárt no! Az ember nem is rendelkezhetik. Két icce érmellékit is kell
-                                vinni.<stage>(Halkan)</stage>Édesapám tegnap este azt mondá: Leány,
-                            készülj! Férjhez kell menned. De kihez? Mondá: Majd megtudod. S most
-                            félek, nem azt tudom meg, amit szeretnék. Tudod, ő mindig és mindenben
-                            titkolózik.</p>
+								vinni.<stage>(Halkan)</stage>Édesapám tegnap este azt mondá: Leány,
+							készülj! Férjhez kell menned. De kihez? Mondá: Majd megtudod. S most
+							félek, nem azt tudom meg, amit szeretnék. Tudod, ő mindig és mindenben
+							titkolózik.</p>
           </sp>
           <sp who="#uracs">
             <speaker>URACS</speaker>
@@ -2326,7 +2307,7 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Mindjárt.<stage>(Halkan)</stage>De én is gondoskodtam ám. Zsebemben van.
-                            Csak tőled függ.</p>
+							Csak tőled függ.</p>
           </sp>
           <sp who="#szolgalo_kanyainal">
             <speaker>SZOLGÁLÓ</speaker>
@@ -2348,14 +2329,12 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENET</head>
-          <p>
-            <stage>Kányai (kalappal, pálcával), előbbiek</stage>
-          </p>
+          <stage>Kányai (kalappal, pálcával), előbbiek</stage>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <stage>(balról)</stage>
             <p>Ezer hordó és kulacs!<stage>(A szolgálóhoz)</stage>Mit leskelődöl itt?
-                            Majd adok a legények után ólálkodni!</p>
+							Majd adok a legények után ólálkodni!</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -2368,7 +2347,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Majd berántalak én! Lódulj! Erzsike, sipirc a konyhába. Nézze meg az
-                            ember! Itt semmi kereseted.</p>
+							ember! Itt semmi kereseted.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2377,11 +2356,11 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Arra semmi gondod. Konyhába! <stage>(Erzsi el; szemeit Gyurin
-                                legelteti)</stage>Ez aztán pincér a talpán! Mintha száz keze volna!
-                            Gyuri szolgám jöszte. Én megyek a vásárra. A búzámat árulják, azután
-                            borjúkat is kell venni. Azalatt, fiam, menj le a pincébe, az ötödik
-                            hordót csapra ütöd, vásárra az is jó. Ha nyolckrajcárost kérnek, abból
-                            adsz.</p>
+								legelteti)</stage>Ez aztán pincér a talpán! Mintha száz keze volna!
+							Gyuri szolgám jöszte. Én megyek a vásárra. A búzámat árulják, azután
+							borjúkat is kell venni. Azalatt, fiam, menj le a pincébe, az ötödik
+							hordót csapra ütöd, vásárra az is jó. Ha nyolckrajcárost kérnek, abból
+							adsz.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -2406,12 +2385,12 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Gyuri fiam, te szorgalmas, becsületes, okos, ügyes, derék pincér vagy, de
-                            nem értesz a dologhoz, nem tudod, mi az a mismás. Most pedig menj a
-                            numero egybe; szolgálj, de úgy, hogy egyik lábad ott, a másik itt
-                            legyen. Ha itt lesz dolgod, hadd azokat ott kiabálni: ha pedig ott lesz
-                            dolgod, hadd ezeket kiabálni.<stage>(Megsimogatja)</stage>Te vagy
-                            egyetlen pincérem... Itt úgyis ritkul a vendég. Egy, kettő... aztán le a
-                            pincébe.</p>
+							nem értesz a dologhoz, nem tudod, mi az a mismás. Most pedig menj a
+							numero egybe; szolgálj, de úgy, hogy egyik lábad ott, a másik itt
+							legyen. Ha itt lesz dolgod, hadd azokat ott kiabálni: ha pedig ott lesz
+							dolgod, hadd ezeket kiabálni.<stage>(Megsimogatja)</stage>Te vagy
+							egyetlen pincérem... Itt úgyis ritkul a vendég. Egy, kettő... aztán le a
+							pincébe.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -2422,15 +2401,13 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Jeles fiú, jobb pincért Párizsból sem kaptam volna. S ami a legfőbb, egy
-                            krajcárig sem csal meg. Vigyáztam rá!<stage>(Menni akar)</stage>
+							krajcárig sem csal meg. Vigyáztam rá!<stage>(Menni akar)</stage>
             </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Szomszédasszony, előbbiek</stage>
-          </p>
+          <stage>Szomszédasszony, előbbiek</stage>
           <sp who="#kanyai_szomszedasszonya_fiaval">
             <speaker>SZOMSZÉDASSZONY</speaker>
             <p>Szomszéd, egy szóra!</p>
@@ -2450,7 +2427,7 @@
           <sp who="#kanyai_szomszedasszonya_fiaval">
             <speaker>SZOMSZÉDASSZONY</speaker>
             <p>Hát csak különb legény az a pincér? Persze, az ily jöttment mindig
-                            kedvesebb, kapósabb!</p>
+							kedvesebb, kapósabb!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -2475,7 +2452,7 @@
           <sp who="#kanyai_szomszedasszonya_fiaval">
             <speaker>SZOMSZÉDASSZONY</speaker>
             <p>Tegnap a kertben voltam. Kakasom átrepült a szomszéd kertjébe; átnézek a
-                            palánk hasadékán... mit kelle látnom?</p>
+							palánk hasadékán... mit kelle látnom?</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -2484,8 +2461,8 @@
           <sp who="#kanyai_szomszedasszonya_fiaval">
             <speaker>SZOMSZÉDASSZONY</speaker>
             <p>Csak magát ne keverje hírbe; mert nem szenvedhetem a pletykát. Én a jó
-                            erkölcs és szomszéd úr iránti barátságból szólok, s amit láttam, arra
-                            csak nem hunyhatok szemet!... Oh, bár tehetném, bár tehetném!</p>
+							erkölcs és szomszéd úr iránti barátságból szólok, s amit láttam, arra
+							csak nem hunyhatok szemet!... Oh, bár tehetném, bár tehetném!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -2494,7 +2471,7 @@
           <sp who="#kanyai_szomszedasszonya_fiaval">
             <speaker>SZOMSZÉDASSZONY</speaker>
             <p>A képem még most is ég a szégyen miatt... Képzelje, a pincér és Erzsike
-                            éppen akkor csókolták meg egymást, éspedig kétszer.</p>
+							éppen akkor csókolták meg egymást, éspedig kétszer.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -2508,25 +2485,23 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Heh, Erzsi, Gyuri! De hiszen mindjárt végire járok én a dolognak. Éppen
-                            jókor!</p>
+							jókor!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Erzsi, Gyuri (ellenkező oldalról jőnek), előbbiek</stage>
-          </p>
+          <stage>Erzsi, Gyuri (ellenkező oldalról jőnek), előbbiek</stage>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Ide csak, tubicám.<stage>(Félre)</stage>Mindjárt megtudom én az igazat!
-                                <stage>(Igen nyájasan suttogva)</stage>Igaz-e az, gyermekeim,
-                            galambocskáim, hogy ti egymást szeretitek? No, csak ki vele! De hát mi
-                            is van abban?</p>
+								<stage>(Igen nyájasan suttogva)</stage>Igaz-e az, gyermekeim,
+							galambocskáim, hogy ti egymást szeretitek? No, csak ki vele! De hát mi
+							is van abban?</p>
           </sp>
           <sp who="#gyuri #erzsi">
             <speaker>GYURI, ERZSI</speaker>
             <stage>(lesütik szemeiket, aztán egymásra néznek kérdőleg, s újra lesütik
-                            szemeiket)</stage>
+							szemeiket)</stage>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -2554,8 +2529,8 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Ugyan úgy?... S te naplopó, semmirekellő, te jöttment pernahajder - te
-                            még Erzsikéig - érted-e, Erzsikéig merted szemeidet emelni? Tudod-e ki ő
-                            - s ki vagy te?</p>
+							még Erzsikéig - érted-e, Erzsikéig merted szemeidet emelni? Tudod-e ki ő
+							- s ki vagy te?</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSIKE</speaker>
@@ -2568,14 +2543,14 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Én is nemesember vagyok; ámbár jó pénzért eladnám szívesen, ha megvennék.
-                            No bizony!</p>
+							No bizony!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>S te még velem szembe mersz szállani?... De... mit vesztegetem rád a
-                            szót. Köszönd, hogy országos vásár van a városban, különben standi pede
-                            elcsapnálak. A vásár alatt szükségem van rád; de ha a konyha felé mersz
-                            nézni, annál inkább menni...</p>
+							szót. Köszönd, hogy országos vásár van a városban, különben standi pede
+							elcsapnálak. A vásár alatt szükségem van rád; de ha a konyha felé mersz
+							nézni, annál inkább menni...</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -2584,12 +2559,12 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Az más! Tudd meg - Erzsike már másé... a híres pesti fogadósnak Schwartz
-                            úrnak reménydús fia még ma, vagy néhány nap múlva megérkezik. Ő Bécsben
-                            volt Domayernél nevelőben. Apja azt írá, most már elvégezte a kurzust.
-                            Tehát értsd meg, leány: ő lesz a férjed. S te tudd meg, nekik Pesten oly
-                            fogadójuk van, hol te még kályhafűtő sem lehetnél. Kétszáz vendégszoba
-                            van ott, érted, Erzsi? Az mind a tiéd! Ez oly szent igaz, mint hogy ma
-                            péntek van! S most a konyhába! A pincébe.<stage>(El)</stage>
+							úrnak reménydús fia még ma, vagy néhány nap múlva megérkezik. Ő Bécsben
+							volt Domayernél nevelőben. Apja azt írá, most már elvégezte a kurzust.
+							Tehát értsd meg, leány: ő lesz a férjed. S te tudd meg, nekik Pesten oly
+							fogadójuk van, hol te még kályhafűtő sem lehetnél. Kétszáz vendégszoba
+							van ott, érted, Erzsi? Az mind a tiéd! Ez oly szent igaz, mint hogy ma
+							péntek van! S most a konyhába! A pincébe.<stage>(El)</stage>
             </p>
           </sp>
           <sp who="#erzsi">
@@ -2599,7 +2574,7 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>No, nekem ugyan megesett. Azt hivém, a lányt kapom, hát kitették a
-                            szűrömet.</p>
+							szűrömet.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2609,7 +2584,7 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>S én sehonnai, én?... ki diák voltam, s csak azért lettem pincér, mert
-                            kicsaptak!</p>
+							kicsaptak!</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2618,9 +2593,9 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Én semmirekellő, ki a vendégeknek legfeljebb húsz krajcárral számolok fel
-                            többet! Én csaló? De hiszen ha mindjárt annyi vizet töltöttem volna a
-                            borba, mint őkelme akarta!... De semmi, most már nem kímélem e zsarnok
-                            apát! Erzsike, szeretsz-e igazán?</p>
+							többet! Én csaló? De hiszen ha mindjárt annyi vizet töltöttem volna a
+							borba, mint őkelme akarta!... De semmi, most már nem kímélem e zsarnok
+							apát! Erzsike, szeretsz-e igazán?</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2638,7 +2613,7 @@
             <speaker>GYURI</speaker>
             <stage>(ünnepélyesen)</stage>
             <p>Itt választanod kell: a gyermeki kötelesség és a szerelem rózsája
-                            közt.</p>
+							közt.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2655,8 +2630,8 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Kétszínű krokodil, ki ha feleségül vesz, megver, ki csak pénzed után
-                            ásítozik; ki megcsal, elárul, ki kártyás, részeges, ki rút, élhetetlen,
-                            valódi kannibál.</p>
+							ásítozik; ki megcsal, elárul, ki kártyás, részeges, ki rút, élhetetlen,
+							valódi kannibál.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2724,16 +2699,16 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Mikor nyilván nem lehet. Ládd felettünk szerencsétlen csillagzat
-                            uralkodik. Én ismerem a világot. Egerben láttam sok darabot, azokban az
-                            apák éppen úgy ellenkeztek, mint a te zsarnok apád: mi történt? Az okos
-                            leány elszökött a szeretőjével. Itt sem lehet másképp; szökjünk!
-                            Zsebemben van az engedelem - titkon kivettem keresztleveledet. Esküdjünk
-                            össze, ha feleségem lettél, aztán ütheti apád bottal a nyomát.</p>
+							uralkodik. Én ismerem a világot. Egerben láttam sok darabot, azokban az
+							apák éppen úgy ellenkeztek, mint a te zsarnok apád: mi történt? Az okos
+							leány elszökött a szeretőjével. Itt sem lehet másképp; szökjünk!
+							Zsebemben van az engedelem - titkon kivettem keresztleveledet. Esküdjünk
+							össze, ha feleségem lettél, aztán ütheti apád bottal a nyomát.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Feltehetsz rólam ilyesmit? Heh, tudd meg te is, én becsületes leány
-                            vagyok, s apámat nem csalom meg! Hogyisne!</p>
+							vagyok, s apámat nem csalom meg! Hogyisne!</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -2747,19 +2722,17 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Mert nem szeretsz igazán, csak orromnál fogva hurcolsz. Mármost mit
-                            tegyek? A leány nem akar szökni. Ennek Telegd városa az oka! Így van ez,
-                            ha nem jár színházba a leány, semmi regényes, semmi költőiség nincs
-                            benne. Annyi vígjátékot láttam Egerben - mert a fogadóban játszottak -,
-                            s most egy becsületes cselszövény sem jut eszembe. Valami grófnak
-                            kellene magamat kiadnom - igen, de ezek a falusi tuskók nem hiszik
-                            el.</p>
+							tegyek? A leány nem akar szökni. Ennek Telegd városa az oka! Így van ez,
+							ha nem jár színházba a leány, semmi regényes, semmi költőiség nincs
+							benne. Annyi vígjátékot láttam Egerben - mert a fogadóban játszottak -,
+							s most egy becsületes cselszövény sem jut eszembe. Valami grófnak
+							kellene magamat kiadnom - igen, de ezek a falusi tuskók nem hiszik
+							el.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
-          <p>
-            <stage>Liliomfi, Szellemfi, előbbi</stage>
-          </p>
+          <stage>Liliomfi, Szellemfi, előbbi</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Pincér!</p>
@@ -2781,7 +2754,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Szellemfi, hozd vissza fülinél fogva; hozzon tüstént öt adag
-                            rostélyost!</p>
+							rostélyost!</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -2790,7 +2763,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Szellemfi, ez szörnyű prózai kérdés; a mi dolgunk enni, a pincéré
-                            megvenni az árát.</p>
+							megvenni az árát.</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -2816,8 +2789,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Szellemfi, micsoda akció ez? Cédula-, szék- és asztalhordó, világosító,
-                            kortinahúzó, garderobszabó s komornyik, a latere! Te nem értesz ahhoz:
-                            ha az ember nem tud fizetni, értsd meg jól, csődöt hirdet és kap.</p>
+							kortinahúzó, garderobszabó s komornyik, a latere! Te nem értesz ahhoz:
+							ha az ember nem tud fizetni, értsd meg jól, csődöt hirdet és kap.</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -2826,7 +2799,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Szellemfi, te nem vagy törvénytudó! Mikor már csődöt hirdetünk, akkor már
-                            semmink sincs. S nincs-e nekem jószágom? Nincs-e ruhatáram?</p>
+							semmink sincs. S nincs-e nekem jószágom? Nincs-e ruhatáram?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -2836,27 +2809,27 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Az, ruhatáram. Nincs-e abban egy szőke paróka, egy pár ritterkesztyű,
-                            cipő és pordupé, mely ha arany volna, testvérek közt is megérne száz
-                            pengőt. Egy tükör, s tudod-e, Szellemfi, hogy a hollandok egy darab
-                            tükörért gyakran nagyobb darab földet vettek meg, mint egész Bihar
-                            vármegye? S nincs-e egy pár harisnyám? S tudod-e, szellemdús
-                            kortinahúzó, hogy voltak királyok, kiknek, midőn követséget fogadtak el,
-                            a harisnyát külön kellett vinniök: tehát nem vagyok-e én gazdagabb
-                            királyoknál. S elfeledted-e feledékeny világosító, hogy a legközelebbi
-                            vígjátékban egy milliót örököltem Indiából?</p>
+							cipő és pordupé, mely ha arany volna, testvérek közt is megérne száz
+							pengőt. Egy tükör, s tudod-e, Szellemfi, hogy a hollandok egy darab
+							tükörért gyakran nagyobb darab földet vettek meg, mint egész Bihar
+							vármegye? S nincs-e egy pár harisnyám? S tudod-e, szellemdús
+							kortinahúzó, hogy voltak királyok, kiknek, midőn követséget fogadtak el,
+							a harisnyát külön kellett vinniök: tehát nem vagyok-e én gazdagabb
+							királyoknál. S elfeledted-e feledékeny világosító, hogy a legközelebbi
+							vígjátékban egy milliót örököltem Indiából?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Már az egészen más! Tehát együnk; ha meg akarnak verni, én legyőzöm őket;
-                            hiszen az utolsó darabban az egész ármádia belőlem állott.</p>
+							hiszen az utolsó darabban az egész ármádia belőlem állott.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Bravó, fiú! Látom, rád bátran támaszkodhatni. Ha szaglásom nem csal, a
-                            konyha erre van. Dugd ki fejedet az ajtón, de méltóságosan, mint gróf
-                            titoknokához illik - mert itt gróf Liliomfi lesz a nevem; és mondd, fiú,
-                            equipage-om hátramaradt, s magunk csupa passzióból gyalog
-                            előresétáltunk.</p>
+							konyha erre van. Dugd ki fejedet az ajtón, de méltóságosan, mint gróf
+							titoknokához illik - mert itt gróf Liliomfi lesz a nevem; és mondd, fiú,
+							equipage-om hátramaradt, s magunk csupa passzióból gyalog
+							előresétáltunk.</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -2865,14 +2838,12 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ne mondj semmit, hanem hozd, amit adnak.<stage>(Erzsi jő)</stage>Leány!
-                            szerencsém meg van alapítva.</p>
+							szerencsém meg van alapítva.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>Erzsi (jobbról), voltak</stage>
-          </p>
+          <stage>Erzsi (jobbról), voltak</stage>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <stage>(félre)</stage>
@@ -2881,8 +2852,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Jó reggelt, angyalkám. A papucskormány által uralkodik-e e fogadóban,
-                            mint szende nő? Vagy talán az atyai hatalom végrehajtója a háznál? Vagy
-                            tán szerződött tagja a nemes konyhaművészetnek?</p>
+							mint szende nő? Vagy talán az atyai hatalom végrehajtója a háznál? Vagy
+							tán szerződött tagja a nemes konyhaművészetnek?</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2908,8 +2879,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ah nem, itt is megjárja. Kocsim eltört a szomszéd falu alatt, most
-                            csinálják; előrejöttem, hallván hírét, hogy e fogadóban gyönyörű szép
-                            fogadósné van.</p>
+							csinálják; előrejöttem, hallván hírét, hogy e fogadóban gyönyörű szép
+							fogadósné van.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2918,7 +2889,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Vagyis hogy e fogadóban a legangyalibb pincérnő van egész
-                            Kőrösvölgyén.</p>
+							Kőrösvölgyén.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2927,12 +2898,12 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Mily szórakozott vagyok... Hogy a fogadósnak gyönyörű szép, bájos lánya
-                            van.</p>
+							van.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Az én vagyok.<stage>(Félre)</stage>Ennek a grófnak csakugyan van ám
-                            esze.</p>
+							esze.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -2945,7 +2916,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ki gondol most reggelire, midőn angyalt lát, midőn nektárt, ambróziát
-                            nyújt maga Hebe?!</p>
+							nyújt maga Hebe?!</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -2954,8 +2925,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>A nektár, édes angyalkám, franciául két icce bor; az ambrózia két adag
-                            rostélyos, egyik vereshagymával, a másik burgonyával, a Hebe pedig ön,
-                            édesem, mert:</p>
+							rostélyos, egyik vereshagymával, a másik burgonyával, a Hebe pedig ön,
+							édesem, mert:</p>
             <lg>
               <l>Nem vagyok én olyan, mint más,</l>
               <l>Kedves étkem a foghagymás,</l>
@@ -2966,9 +2937,7 @@
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>Gyuri (jő), előbbiek</stage>
-          </p>
+          <stage>Gyuri (jő), előbbiek</stage>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Kérem, a nevem Erzsi.</p>
@@ -2976,8 +2945,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Azaz franciául Hebe! Tehát kedves Elisabeth, mihelyt
-                                megláttalak<stage>(kezét megfogja)</stage>, szívem hangos dobbanása
-                            azt mondá...</p>
+								megláttalak<stage>(kezét megfogja)</stage>, szívem hangos dobbanása
+							azt mondá...</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -2988,7 +2957,7 @@
             <speaker>LILIOMFI</speaker>
             <stage>(ijedve elfordul)</stage>
             <p>Jaj, ez Georges! Kinek 17 forint 19 krajcárral maradtam adósa
-                            váltóban.</p>
+							váltóban.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3001,8 +2970,7 @@
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
-            <p>Eh, már ismét! Még úgyis van a rováson, édes úrfi!
-                            <stage>(El)</stage>
+            <p>Eh, már ismét! Még úgyis van a rováson, édes úrfi! <stage>(El)</stage>
             </p>
           </sp>
           <sp who="#gyuri">
@@ -3016,7 +2984,7 @@
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Egy tapodtat sem én. Felingerlette az alvó oroszlánt, most már ennem
-                            kell.</p>
+							kell.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -3038,7 +3006,7 @@
             <speaker>GYURI</speaker>
             <stage>(aki szemügyre vette; útját elállja, Liliomfi elfordul)</stage>
             <p>Ez a frakk - mellény - kalap - nem ismeretlen előttem. Szemüveg nyakában
-                            - haja, szeme. Bocsánat, Sir - nem nézne velem farkasszemet?</p>
+							- haja, szeme. Bocsánat, Sir - nem nézne velem farkasszemet?</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -3061,30 +3029,31 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Semmi Egér, hanem Egerben <stage>(elébe ugrik)</stage> igen jól ismertük
-                            egymást, Liliomfi úr...</p>
+							egymást, Liliomfi úr...</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(félre)</stage>
             <p>Hah! El vagyok árulva! Liliomfi? Nincs szerencsém. Ön bizonyosan téved.
-                            Tán a hasonlat csalja. Két arc hasonlatossága - ön tán ismerni <hi rend="italic">A két alakút</hi>?</p>
+							Tán a hasonlat csalja. Két arc hasonlatossága - ön tán ismerni
+							<hi rend="italic">A két alakút</hi>?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Az úr mindenesetre egyalakú, a Liliomfi alakja, ki minden este nálunk
-                            ebédelt és vacsorált Egerben; s miután mindenét elpezsgőzte...</p>
+							ebédelt és vacsorált Egerben; s miután mindenét elpezsgőzte...</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ah, emlékszem! Ez a színész nekem is panaszkodott, hogy francia pezsgő
-                            helyett mindég magyart adott bizonyos Georges pincér. Tán ön volt
-                            az?</p>
+							helyett mindég magyart adott bizonyos Georges pincér. Tán ön volt
+							az?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Az nem vagyok, hanem azon Georges vagyok, kinek Liliomfi úr 17 forint 19
-                            krajcárral adósa maradt váltóban, s kinek ezen Liliomfi megígérte, hogy
-                            Debrecenből megküldi a pénzt, de nem küldötte meg.</p>
+							krajcárral adósa maradt váltóban, s kinek ezen Liliomfi megígérte, hogy
+							Debrecenből megküldi a pénzt, de nem küldötte meg.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -3097,9 +3066,9 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ah, az más. Tehát tudja meg ön, én vagyok az a bizonyos Liliomfi, ki
-                            ezelőtt egy héttel megküldötte ergo franco recepisse a 17 forint 19
-                            krajcárt váltóban. Hogy ön nem kapta kézhez, vádolja a sorsot, a
-                            csillagzatot, amelyek onnan egy héttel előbb elvezették önt.</p>
+							ezelőtt egy héttel megküldötte ergo franco recepisse a 17 forint 19
+							krajcárt váltóban. Hogy ön nem kapta kézhez, vádolja a sorsot, a
+							csillagzatot, amelyek onnan egy héttel előbb elvezették önt.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -3109,18 +3078,18 @@
             <speaker>LILIOMFI</speaker>
             <stage>(természetes hangon)</stage>
             <p>Hadd el, édes Gyurim, egy batkám sincs nekem. Hanem ott a ruhatár,
-                            sequestráld, s ami felülmarad a licitáció után, küldd utánam.</p>
+							sequestráld, s ami felülmarad a licitáció után, küldd utánam.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Lássa, én jó fiú vagyok; de nem szép ám a szegény legénynek meg nem
-                            fizetni.</p>
+							fizetni.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Oh, édes Gyurikám, a sors üldöz engem. Látod, én gyakran játszom
-                            hercegeket, s ilyenkor csak nem ihatom mást, mint pezsgőt? Most pedig
-                            hitelezz nekem reggelit százhúsz procentre, mert sietek.</p>
+							hercegeket, s ilyenkor csak nem ihatom mást, mint pezsgőt? Most pedig
+							hitelezz nekem reggelit százhúsz procentre, mert sietek.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -3137,9 +3106,9 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Igen. Egy leányt kellett volna Kolozsvártól az első állomáson
-                            elszöktetnem, de lefőztek, egy krajcár nélkül maradtam, s most Miskolcon
-                            vendégszerepeket adok, s ha pénzem lesz, visszatérek Váradra, s kedves
-                            Mariskámat elszöktetem.</p>
+							elszöktetnem, de lefőztek, egy krajcár nélkül maradtam, s most Miskolcon
+							vendégszerepeket adok, s ha pénzem lesz, visszatérek Váradra, s kedves
+							Mariskámat elszöktetem.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -3171,7 +3140,7 @@
               <l>Nem adnád a félvilágért</l>
               <l>Sem senkinek birtokáért.</l>
               <l>Egerből jöttem - ide beszálltam, láttam őt, s mindjárt beálltam
-                                pincérnek.</l>
+								pincérnek.</l>
             </lg>
           </sp>
           <sp who="#liliomfi">
@@ -3225,12 +3194,12 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Csak egy leánya van, s azt is valami Schwartz kapja Pestről, ki Bécsben
-                            Domayernél volt pincér s kinek apja...</p>
+							Domayernél volt pincér s kinek apja...</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Pesten az Arany Sárkány fogadót bírja. Ki ne ismerné őt, ki Pesten
-                            volt?</p>
+							volt?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -3239,7 +3208,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Lassan, fiú, itt tenni kell. Hozd a rostélyost. Én segítek rajtad.
-                            Apropos, ismeri gazdád az ifjú Schwartzot?</p>
+							Apropos, ismeri gazdád az ifjú Schwartzot?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -3248,10 +3217,10 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Dicső! Így minden rendén van. Menj, fiú, hozz két icce bort. Pezsgőt, ha
-                            van. Először is, mi nem ismerjük egymást, érted?... előbb az ifjú
-                            Schwartzot kiugratjuk az apa és leány szívéből, aztán téged segítünk be.
-                            Szellemfi, e perctől fogva te sem ismersz. Vonulj egyik szegletbe, s
-                            vigyázz a jelszóra! Ah, éppen jő. Igaz, hogy hívják a fogadóst?</p>
+							van. Először is, mi nem ismerjük egymást, érted?... előbb az ifjú
+							Schwartzot kiugratjuk az apa és leány szívéből, aztán téged segítünk be.
+							Szellemfi, e perctől fogva te sem ismersz. Vonulj egyik szegletbe, s
+							vigyázz a jelszóra! Ah, éppen jő. Igaz, hogy hívják a fogadóst?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -3264,15 +3233,13 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>Erzsi (két adag rostélyossal), előbbiek</stage>
-          </p>
+          <stage>Erzsi (két adag rostélyossal), előbbiek</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(szemtelen, hányaveti, fitymáló jellemet vált)</stage>
             <p>Ne mondja? Ez a Herr von Kányai fogadója? Ez? Ez a piszkos csárda az én
-                            jövendő apósom fogadója? S talán bizony ez az én jövendő menyasszonyom?
-                            Hahaha!</p>
+							jövendő apósom fogadója? S talán bizony ez az én jövendő menyasszonyom?
+							Hahaha!</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3281,7 +3248,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Gróf? Vajon s magácskának a gróf megtetszett? No az szép! Maga szép
-                            hűségtelen kreatúra, érti?</p>
+							hűségtelen kreatúra, érti?</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3290,8 +3257,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>A szívét akartam próbára tenni - inkognitó akartam kispionírozni. Kiadtam
-                            magamat grófnak, s csak azt mondtam, hogy maga szép, gyönyörű, s maga
-                            majd kibújt a bőréből. Maga még a kezét is meg hagyta fognom.</p>
+							magamat grófnak, s csak azt mondtam, hogy maga szép, gyönyörű, s maga
+							majd kibújt a bőréből. Maga még a kezét is meg hagyta fognom.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -3300,7 +3267,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Hát ön kicsoda? Kicsoda kend? A kend neve Hallgass! S maga tudja meg,
-                            csapodár leányzó, én nem gróf, én Schwartz vagyok Pestről.</p>
+							csapodár leányzó, én nem gróf, én Schwartz vagyok Pestről.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3309,8 +3276,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Igen, az ifjú Schwartz vagyok. Apám ide adresszált, hogy magát feleségül
-                            vegyem. Én jöttem inkognitó, s maga elárulta magát, hogy a grófi
-                            pasasiroktól nem éppen vonakodik.</p>
+							vegyem. Én jöttem inkognitó, s maga elárulta magát, hogy a grófi
+							pasasiroktól nem éppen vonakodik.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3319,7 +3286,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Magának csak velem kellett volna szerelmeskedni; de maga ezenfelül a
-                            pincért is szereti.</p>
+							pincért is szereti.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3329,18 +3296,18 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ugye igaz? A gróf mindent kispionírozott. Érti, maga a Georges-ot
-                            szereti.</p>
+							szereti.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Ha nem tetszik, tegyen róla. Úgy! Legalább tud mindent, úgyis megmondtam
-                            volna.</p>
+							volna.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>S maga, kis ártatlanság, maga tán azt is elhitte, hogy szép, gyönyörű?
-                            Ah, maga szép?! Kis szeme, nagy szája, görbe orra, keskeny homloka - s a
-                            termete? Hiszen maga kemence!</p>
+							Ah, maga szép?! Kis szeme, nagy szája, görbe orra, keskeny homloka - s a
+							termete? Hiszen maga kemence!</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3357,23 +3324,21 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Maga pincér? De én kellner vagyok, érti? S ez oly különbség, mint krágli
-                            és vatermörder! S az én apám engem ide essofiroz egy libáért!</p>
+							és vatermörder! S az én apám engem ide essofiroz egy libáért!</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Én liba? Nem, tovább nem tűröm! Én liba? Jöjjön csak haza apám; ha
-                            satisfactiót nem ad... Én liba?</p>
+							satisfactiót nem ad... Én liba?</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENET</head>
-          <p>
-            <stage>Kányai (jő, kezében csirkék), előbbiek</stage>
-          </p>
+          <stage>Kányai (jő, kezében csirkék), előbbiek</stage>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>No mi ez? Micsoda lárma ez? Mit sírsz, Erzsi? Nesze, fogd a
-                            csirkéket.</p>
+							csirkéket.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3390,7 +3355,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Az ifjú Schwartz? Isten hozta, kedves öcsémuram! Szakasztott az
-                                apja!<stage>(Ölelni akarja)</stage>
+								apja!<stage>(Ölelni akarja)</stage>
             </p>
           </sp>
           <sp who="#liliomfi">
@@ -3401,7 +3366,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Hiszen én vagyok Kányai de eadem - hát nem tudja? Hanem azt megmondom -
-                            nevét Feketére kell változtatnia.</p>
+							nevét Feketére kell változtatnia.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -3418,12 +3383,12 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Szaporán, Erzsi, Gyuri, reggelit Fekete úrnak, mert már én így hívom -
-                            szoknia kell hozzá.</p>
+							szoknia kell hozzá.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Micsoda reggelit? Tud-e maga nekem adni kaviárt, osztrigát, van-e
-                            champagner? - én azzal szoktam élni.</p>
+							champagner? - én azzal szoktam élni.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3440,7 +3405,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Richtig - az apám azt mondta, hogy magának sok pénze van. No jó, ha ez
-                            igaz, elveszem a lányát, pedig nem szép.</p>
+							igaz, elveszem a lányát, pedig nem szép.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3449,7 +3414,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Elveszem, mert sokat vesztettem a coeur dámán. Hát mennyi pénzt ád a
-                            leánnyal, he?</p>
+							leánnyal, he?</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3482,7 +3447,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Tehát Y. Csak hamar, addig nem alkuszom. Aztán ez a ház tulajdona-e vagy
-                            árenda?</p>
+							árenda?</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3503,12 +3468,12 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>No már ez mégis sok! Azt mondta-e az apja, hogy gorombáskodjék velünk,
-                            vagy mi?</p>
+							vagy mi?</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Eh! Ha maga csak egypár ezert ad, az kevés, azt egy blattra is
-                            felteszem.</p>
+							felteszem.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3517,8 +3482,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Azt is megmondom, hogy nekem Bécsben három s Pesten hét szeretőm van. Az
-                            így szokás, az a bon ton - s az én feleségemnek nem szabad eiferozni,
-                            sem engem zsenírozni.</p>
+							így szokás, az a bon ton - s az én feleségemnek nem szabad eiferozni,
+							sem engem zsenírozni.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3527,8 +3492,8 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>De most már vége legyen! Hallja az úrfi, Herr von Schwartz, az én
-                            pénzemet nem blattozza el, sem szeretőkre nem estafirozza - érti maga,
-                            goromba fráter?!</p>
+							pénzemet nem blattozza el, sem szeretőkre nem estafirozza - érti maga,
+							goromba fráter?!</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -3537,8 +3502,8 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>De nem fog itt duellálni, hanem hordja el magát, s mondja meg
-                            édesapjának, kit én nagyra becsülök, ha csak ily fiút tudott nevelni,
-                            jobb lett volna meg sem házasodnia.</p>
+							édesapjának, kit én nagyra becsülök, ha csak ily fiút tudott nevelni,
+							jobb lett volna meg sem házasodnia.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3625,7 +3590,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Vigyen el az ördög! Erzsi, azt mondom, rá ne nézz. Mindennek vége.
-                            Megírom az apjának.</p>
+							Megírom az apjának.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3638,9 +3603,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENEGYEDIK JELENET</head>
-          <p>
-            <stage>Adolf, előbbiek</stage>
-          </p>
+          <stage>Adolf, előbbiek</stage>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
             <stage>(kezében kis útitáska)</stage>
@@ -3661,7 +3624,7 @@
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
             <p>Hát először is apám ezerszer tiszteli, s itt vagyok én, hogy helyette
-                                megöleljem.<stage>(Ölelni akarja)</stage>
+								megöleljem.<stage>(Ölelni akarja)</stage>
             </p>
           </sp>
           <sp who="#kanyai">
@@ -3671,7 +3634,7 @@
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
             <p>Hát nem találja el?... No, de addig nem szólok. Hol van a kedves
-                            Erzsike?</p>
+							Erzsike?</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3680,7 +3643,7 @@
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
             <p>Ez?... Szép! Apámnak igaza volt. Kedves Erzsike, hát az ön szívecskéje
-                            sem sugallja, hogy ki vagyok? Nem dobog-e sebesebben?</p>
+							sem sugallja, hogy ki vagyok? Nem dobog-e sebesebben?</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -3697,14 +3660,14 @@
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
             <p>De várjon csak kissé, édes Erzsikém; ily porosan, útiasan nemigen
-                            tetszhetem, mert éppen most szálltam le a gyorskocsiról: de mindjárt
-                            ruhát váltok... aztán jobban rám fognak ismerni; addig inkognitó
-                            maradok.</p>
+							tetszhetem, mert éppen most szálltam le a gyorskocsiról: de mindjárt
+							ruhát váltok... aztán jobban rám fognak ismerni; addig inkognitó
+							maradok.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Valóban, édes úr, ha bőrét változtatja, sem fogjuk jobban ismerni, mint
-                            most.</p>
+							most.</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -3741,7 +3704,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Már miféle ördög bújt megint beléd, hogy magadat helyettem adod ki? ismét
-                            valami maliciózus intriga, valami komédia!</p>
+							valami maliciózus intriga, valami komédia!</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -3750,8 +3713,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ki nem ismerne téged, jó madár? Te vagy a híres actor Liliomfi, kivel én
-                            tegnap együtt champagníroztam. Hát hol hagytad kísérődet, azt a bolondos
-                            Szellemfit?</p>
+							tegnap együtt champagníroztam. Hát hol hagytad kísérődet, azt a bolondos
+							Szellemfit?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -3766,7 +3729,7 @@
             <speaker>SZELLEMFI</speaker>
             <stage>(hozzá)</stage>
             <p>Jaj, bocsánat, tisztelt principális úr, bizony bakot lőttem; itt van ni,
-                            az egész tervet elárultam.</p>
+							az egész tervet elárultam.</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -3775,8 +3738,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>A hamis, milyen jól játssza szerepét. Tehát tudja meg maga, fogadós,
-                            tegnap együtt mulattunk - aztán kiplanizáltuk, hogy jegyesemet próbára
-                            tesszük.</p>
+							tegnap együtt mulattunk - aztán kiplanizáltuk, hogy jegyesemet próbára
+							tesszük.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3785,12 +3748,12 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>No hát a volt jegyes szívecskéjét tesszük próbára. Ez az úr igen jó
-                            színész, s mi egymás közt elvégeztük, hogy ő az én alakomban, mint az
-                            ifjú Schwartz fog itt megjelenni, s ha a maga Erzsikéje őt megszereti,
-                            hát fuccs, akkor nekem nem kell... Ezt csináltuk ki tegnap; de ma nekem
-                            jobb gondolatom volt, s én mint gróf adtam ki magamat, s én megtudtam
-                            itt, hogy Erzsike a pincért szereti, s azért Schwartznak nem kell Erzsi,
-                            mert a pincért szereti, s az én pajtásom elkésett kissé a tréfával.</p>
+							színész, s mi egymás közt elvégeztük, hogy ő az én alakomban, mint az
+							ifjú Schwartz fog itt megjelenni, s ha a maga Erzsikéje őt megszereti,
+							hát fuccs, akkor nekem nem kell... Ezt csináltuk ki tegnap; de ma nekem
+							jobb gondolatom volt, s én mint gróf adtam ki magamat, s én megtudtam
+							itt, hogy Erzsike a pincért szereti, s azért Schwartznak nem kell Erzsi,
+							mert a pincért szereti, s az én pajtásom elkésett kissé a tréfával.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3831,7 +3794,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Sapperlot, az úr a tréfát messze űzi, már vége a komédiának; itt már
-                            tudják, hogy én vagyok az ifjú Schwartz.</p>
+							tudják, hogy én vagyok az ifjú Schwartz.</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -3849,14 +3812,14 @@
             <speaker>LILIOMFI</speaker>
             <stage>(kézen fogja Adolfot, félhalkan)</stage>
             <p>Tegnap azt mondtad, hogy Egerben egy pincérnek adós maradtál, Liliomfi
-                            barátom - 17 forint 19 krajcárral Schein... Vigyázz, a pincér itt van -
-                            Georges itt van.</p>
+							barátom - 17 forint 19 krajcárral Schein... Vigyázz, a pincér itt van -
+							Georges itt van.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <stage>(rámutat)</stage>
             <p>Nini! Hiszen ez itt Liliomfi!... Csak most ismerek rá. No uram, a 17
-                            forint 19 krajcár váltót megfizeti vagy sem?</p>
+							forint 19 krajcár váltót megfizeti vagy sem?</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -3865,8 +3828,8 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Hogy tetteti magát. Nem itta-e, mint gödény az úr a pezsgőt nálunk
-                            Egerben! Hiszen gazduramnak is elpanaszoltam, hogy adósom maradt... Ugye
-                            gazduram?</p>
+							Egerben! Hiszen gazduramnak is elpanaszoltam, hogy adósom maradt... Ugye
+							gazduram?</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -3879,7 +3842,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Szégyellje magát az úr, egy szegény pincért így megkárosítani akarni!
-                            Most tüstént fizesse meg adósságát, ha becsületes ember!</p>
+							Most tüstént fizesse meg adósságát, ha becsületes ember!</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -3888,15 +3851,15 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Mondhatom, jól játssza szerepét! Hát te <stage>(Szellemfit
-                                megragadja)</stage>, jómadár, mered-e tagadni, hogy ez nem a te
-                            principálisod, Liliomfi?</p>
+								megragadja)</stage>, jómadár, mered-e tagadni, hogy ez nem a te
+							principálisod, Liliomfi?</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
             <p>Bocsásson, mindent kivallok.<stage>(Adolfhoz)</stage>Principális uram,
-                            vége a komédiának, itt hiában tettetjük magunkat, felsültünk, itt
-                            mindent tudnak. Ne ellenkedjék soká, mert végre még engem is
-                            megdöngetnek, szegény szolgáját, kortinahúzóját, garderobszabóját...</p>
+							vége a komédiának, itt hiában tettetjük magunkat, felsültünk, itt
+							mindent tudnak. Ne ellenkedjék soká, mert végre még engem is
+							megdöngetnek, szegény szolgáját, kortinahúzóját, garderobszabóját...</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -3909,10 +3872,10 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Hát nem látja rajta?<stage>(Szellemfi motyóját elkapja)</stage>Hiszen
-                            nézze csak, itt van ni, trikó, festék, ritterkesztyű, pordupé, paróka...
-                            No, pajtás, nem kell tréfálni, nincs rá szükség, a leány úgysem kell
-                            nekem, mert<stage>(hangnyomattal)</stage>a pincért - Georges-ot
-                            szereti!</p>
+							nézze csak, itt van ni, trikó, festék, ritterkesztyű, pordupé, paróka...
+							No, pajtás, nem kell tréfálni, nincs rá szükség, a leány úgysem kell
+							nekem, mert<stage>(hangnyomattal)</stage>a pincért - Georges-ot
+							szereti!</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -3950,7 +3913,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Bolond az úr maga! Itt nem fog bolondítani, komédiázni, édes diátrista
-                            uram.</p>
+							uram.</p>
           </sp>
           <sp who="#szellemfi">
             <speaker>SZELLEMFI</speaker>
@@ -3976,7 +3939,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Takarodjék innen, itt nem kell szemfényvesztés!<stage>(Adolfot kidobják,
-                                Szellemfi vele el)</stage>
+								Szellemfi vele el)</stage>
             </p>
           </sp>
           <sp who="#kanyai">
@@ -3990,12 +3953,12 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Tudom, miért titkolá becsületes nevét, nehogy a 17 forint 19 krajcárt meg
-                            kelljen fizetnie.</p>
+							kelljen fizetnie.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Édesapám, ugyan kérem folytassa csak tovább, dobja ki ráadásul ezt az
-                            igazi Schwartzot is.<stage>(El)</stage>
+							igazi Schwartzot is.<stage>(El)</stage>
             </p>
           </sp>
           <sp who="#liliomfi">
@@ -4005,7 +3968,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Megyek hazulról, mert ha ezt az embert látom... Uram, ha visszatérve itt
-                            lelem, úgy jár, mint Liliomfi.<stage>(El)</stage>
+							lelem, úgy jár, mint Liliomfi.<stage>(El)</stage>
             </p>
           </sp>
           <sp who="#liliomfi">
@@ -4019,7 +3982,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Várj fiú, még ezentúl jő a java, fejem tele tervekkel, de gyomrom
-                                üres.<stage>(Asztalhoz ül)</stage> Azért folytassuk.</p>
+								üres.<stage>(Asztalhoz ül)</stage> Azért folytassuk.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -4030,7 +3993,7 @@
             <p>Nem, a reggelit.<stage>(Kívül kocsizörgés)</stage>
             </p>
           </sp>
-          <sp who="#szilvai">
+          <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <stage>(szava kívül)</stage>
             <p>Fogadós!</p>
@@ -4084,9 +4047,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENET</head>
-          <p>
-            <stage>(Ezalatt jő) Szilvai, Mariska; előbbiek</stage>
-          </p>
+          <stage>(Ezalatt jő) Szilvai, Mariska; előbbiek</stage>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Ön a pincér?</p>
@@ -4215,26 +4176,20 @@
               <l>Közel a szabadulás.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(A többi, mint előbb)</stage>
-          </p>
+          <stage>(A többi, mint előbb)</stage>
         </div>
       </div>
       <div type="act">
         <head type="title">HARMADIK FELVONÁS</head>
-        <p>
-          <stage>(Vendégszoba. Hátul két ajtó, egyik kijárásul, másik mellékszobába vezet.
-                        Ez ajtóval szemközt a mellékszobában még egy másik ajtó is van)</stage>
-        </p>
+        <stage>(Vendégszoba. Hátul két ajtó, egyik kijárásul, másik mellékszobába vezet.
+						Ez ajtóval szemközt a mellékszobában még egy másik ajtó is van)</stage>
         <div type="scene">
           <head type="title">ELSŐ JELENET</head>
-          <p>
-            <stage>Liliomfi, Gyuri</stage>
-          </p>
+          <stage>Liliomfi, Gyuri</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ez ajtó az előszobába vezet. S ez?<stage>(Kinyitja a mellékszoba
-                                ajtaját)</stage>
+								ajtaját)</stage>
             </p>
           </sp>
           <sp who="#gyuri">
@@ -4253,8 +4208,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Tehát érts meg jól. A pincér én leszek e szobában, vagyis a pincér ezen
-                            vendégekre nézve én leszek. Két kijárás van, a róka szerepéhez éppen
-                            alkalmas. Azon ajtónak, ott benn, hol a kulcsa?</p>
+							vendégekre nézve én leszek. Két kijárás van, a róka szerepéhez éppen
+							alkalmas. Azon ajtónak, ott benn, hol a kulcsa?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -4264,7 +4219,7 @@
             <speaker>LILIOMFI</speaker>
             <p>Mit, másik is van?</p>
           </sp>
-          <sp who="gyuri#">
+          <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Nálunk minden ajtónak két kulcsa van, ha takarítani kell...</p>
           </sp>
@@ -4280,16 +4235,14 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Az első személy én vagyok; előbb én, aztán te. Jőnek. Lódulj ez ajtón. Az
-                            étkeket az előszobába hordod, de itt én szolgálok fel. Vigyázz, előttük
-                            ne mutatkozzál. A többiről majd értekezünk koronként.<stage>(A
-                                mellékszobába tolja)</stage>Éppen jókor.</p>
+							étkeket az előszobába hordod, de itt én szolgálok fel. Vigyázz, előttük
+							ne mutatkozzál. A többiről majd értekezünk koronként.<stage>(A
+								mellékszobába tolja)</stage>Éppen jókor.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
-          <p>
-            <stage>Mariska, Szilvai (jőnek), előbbi</stage>
-          </p>
+          <stage>Mariska, Szilvai (jőnek), előbbi</stage>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Pincér!</p>
@@ -4314,10 +4267,10 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Kész.<stage>(Terít)</stage>A ténsúr nagy utat méltóztatott tenni. A
-                            kocsis azt mondá, Kolozsvárról méltóztatott érkezni. Oh, az én szeretőm
-                            szintén Kolozsvárt lakott. Ah, gyönyörű leány az! Ha méltóztatnék
-                            ismerni!? éppen oly idős lehet, mint a kisasszony; sőt szintén barna
-                            haja van - s no, a termete!</p>
+							kocsis azt mondá, Kolozsvárról méltóztatott érkezni. Oh, az én szeretőm
+							szintén Kolozsvárt lakott. Ah, gyönyörű leány az! Ha méltóztatnék
+							ismerni!? éppen oly idős lehet, mint a kisasszony; sőt szintén barna
+							haja van - s no, a termete!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4334,9 +4287,9 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Oh, én hallgatok, csak a ténsurat meg a kisasszonyt akartam mulattatni.
-                            Oh, ha a ténsúr Kolozsvárra méltóztatott volna menni. Én is oda
-                            igyekeztem, hogy kedvesemet megláthassam. Oh, ténsúr nem is képzelheti,
-                            mennyire imádom e leányt.</p>
+							Oh, ha a ténsúr Kolozsvárra méltóztatott volna menni. Én is oda
+							igyekeztem, hogy kedvesemet megláthassam. Oh, ténsúr nem is képzelheti,
+							mennyire imádom e leányt.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -4354,7 +4307,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ah, lehetetlen! Mariska! A kisasszony is Kolozsvárt lakott? Bizonyosan
-                            ismeri őt... hogyne ismerné!</p>
+							ismeri őt... hogyne ismerné!</p>
             <lg>
               <l>Piac utcán jártam én,</l>
               <l>Barna kislányt láttam én,</l>
@@ -4365,17 +4318,17 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>A mi utcánkban? Ah, most már emlékszem, varróleány, ugye? Oh, gyakran
-                            eljött hozzánk, igen jól ismerem e leányt.</p>
+							eljött hozzánk, igen jól ismerem e leányt.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>A levest, fiú! S tudod-e, mi az a nyakleves? Az afféle confidentiát
-                            kikérem.</p>
+							kikérem.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Értem.<stage>(Félre)</stage>De hiszen a leányt mégis elszöktetem, vén
-                                sárkány!<stage>(El)</stage>
+								sárkány!<stage>(El)</stage>
             </p>
           </sp>
           <sp who="#szilvai_todor">
@@ -4389,9 +4342,7 @@
         </div>
         <div type="scene">
           <head type="title">HARMADIK JELENET</head>
-          <p>
-            <stage>Liliomfi (levest hoz), előbbiek</stage>
-          </p>
+          <stage>Liliomfi (levest hoz), előbbiek</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>A leves.</p>
@@ -4429,7 +4380,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Fiú, most utolszor mondom, befogd a szád. Egyáltalában nem szeretem, ha a
-                            cseléd diskurál. A húst! Borsot is!</p>
+							cseléd diskurál. A húst! Borsot is!</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -4440,12 +4391,12 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>S te is, hogy mondtad azt a mondhatatlant?! Alkalmasint megint azt
-                            hitted, annak a lomfinak mondod?</p>
+							hitted, annak a lomfinak mondod?</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Bácsi folyvást pirongat, még szólni sem szabad. Ily bánásmódhoz nem
-                            szoktam!</p>
+							szoktam!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4458,8 +4409,8 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Na, beszélj hát, ha nem állhatod meg. Oh, asszonyok, asszonyok! Még enni
-                            sem tudnak, hacsak szájuk nem jár. Ahol ni, jő - Mariskám, lelkecském,
-                            ne sírj; ne kompromittálj.</p>
+							sem tudnak, hacsak szájuk nem jár. Ahol ni, jő - Mariskám, lelkecském,
+							ne sírj; ne kompromittálj.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -4468,9 +4419,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENET</head>
-          <p>
-            <stage>Liliomfi (húst hoz), előbbiek</stage>
-          </p>
+          <stage>Liliomfi (húst hoz), előbbiek</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>A hús.</p>
@@ -4490,7 +4439,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Oh, ténsúr, ez valódi história. Én ezt Liliomfi-mártásnak kereszteltem, s
-                            nemsokára még a londoni, párizsi hotelekben is így nevezik.</p>
+							nemsokára még a londoni, párizsi hotelekben is így nevezik.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4507,13 +4456,13 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ah! Lehet-e civilizált ember, ki őt nem ismeri?! Oh, én ismerem! Víg,
-                            derék fiú, szeretetre méltó, jószívű, becsületes, nem részeges, nem
-                            kártyás... Oh, ő maga a megtestesült szelídség!</p>
+							derék fiú, szeretetre méltó, jószívű, becsületes, nem részeges, nem
+							kártyás... Oh, ő maga a megtestesült szelídség!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Micsoda? Liliomfi gazember, semmirekellő, veres orrú, részeges, kártyás,
-                            csapodár...</p>
+							csapodár...</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -4551,8 +4500,8 @@
             <speaker>LILIOMFI</speaker>
             <stage>(bánatos hangon).</stage>
             <p>Oh, az mindig a tormát ette - szegény jó lélek! Reggel mézzel a mellfájás
-                            ellen - délben ecettel, este böfalamóddal - azért neveztem én a tormát
-                            Liliomfi-mártásnak.</p>
+							ellen - délben ecettel, este böfalamóddal - azért neveztem én a tormát
+							Liliomfi-mártásnak.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -4567,14 +4516,12 @@
             <speaker>SZILVAI</speaker>
             <stage>(félre)</stage>
             <p>Ha Debrecenbe vagy Váradra ment? S tán éppen itt volt szállva? Meg kell
-                            tudnom.</p>
+							tudnom.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
-          <p>
-            <stage>Liliomfi (rostélyost hoz), előbbiek</stage>
-          </p>
+          <stage>Liliomfi (rostélyost hoz), előbbiek</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Méltóztassék.</p>
@@ -4594,7 +4541,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Oh, az szomorú történet! Egy szép angyali kisasszonyba lett Kolozsvárt
-                            szerelmes.</p>
+							szerelmes.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4611,7 +4558,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>De a kisasszonyt nagybátyja, gyámapja vagy mije elvitte onnan. Mert ez a
-                            nagybátyja valódi szörnyeteg.</p>
+							nagybátyja valódi szörnyeteg.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -4636,12 +4583,12 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>De Liliomfi nem ijed meg az árnyékától, a kisasszonyt elszökteti,
-                            feleségül veszi.</p>
+							feleségül veszi.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>No, édes Mariskám, mit gondolsz? Elszöknék-e azzal a kalandorral az a
-                            bizonyos kisasszony?</p>
+							bizonyos kisasszony?</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -4654,7 +4601,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Hiszen a ténsúr kérdezé a kisasszonyt, s ő tartozik engedelmeskedni
-                            bácsikájának.</p>
+							bácsikájának.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -4693,14 +4640,14 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Azaz majd megkérdem.<stage>(Félre)</stage>Vajon mit
-                                akar?<stage>(El)</stage>
+								akar?<stage>(El)</stage>
             </p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <stage>(feláll)</stage>
             <p>Kedves egészségedre!<stage>(Gúnyolódva)</stage>Akit szeretünk, azért
-                            szeretjük, hogy felesége legyünk.<stage>(Félre)</stage>
+							szeretjük, hogy felesége legyünk.<stage>(Félre)</stage>
             </p>
           </sp>
           <sp who="#mariska">
@@ -4710,21 +4657,19 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Hiszen majd szemmel tartalak én!<stage>(Ásít)</stage>Kissé elkésett az a
-                            jó madár; most lenyugszom, de nem hagyom a kisasszonyt társaság nélkül -
-                            nehogy megunja magát.</p>
+							jó madár; most lenyugszom, de nem hagyom a kisasszonyt társaság nélkül -
+							nehogy megunja magát.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <stage>(félre).</stage>
             <p>Ütött a szabadság órája; ő szokása szerint délutáni álmát alussza, s mi
-                            menekülhetünk.</p>
+							menekülhetünk.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">HATODIK JELENET</head>
-          <p>
-            <stage>Liliomfi, előbbiek</stage>
-          </p>
+          <stage>Liliomfi, előbbiek</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>A leányasszony mindjárt jön.</p>
@@ -4758,9 +4703,7 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <p>
-            <stage>Erzsi, előbbiek</stage>
-          </p>
+          <stage>Erzsi, előbbiek</stage>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>A pincér mondá, hogy nagysád hívat.</p>
@@ -4768,7 +4711,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Kéretem, édes leányasszony. Maradjon itt húgommal, míg kissé leheveredem.
-                            Ha ráér.</p>
+							Ha ráér.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -4778,7 +4721,7 @@
             <speaker>SZILVAI</speaker>
             <stage>(félrevonja)</stage>
             <p>Ígérje meg azt, s gazdagon megajándékozom. Tudja, néha húgomnál nincsenek
-                            otthon. Beteges - ki ne bocsássa, ha ki akar menni, költsön fel.</p>
+							otthon. Beteges - ki ne bocsássa, ha ki akar menni, költsön fel.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -4795,8 +4738,8 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>A leányasszony megígérte, hogy addig mulattatni fog.
-                                <stage>(Ásít)</stage> A szokás szokás! Jó mulatságot!<stage>(El a
-                                mellékszobába, az ajtót félig nyitva hagyja)</stage>
+								<stage>(Ásít)</stage> A szokás szokás! Jó mulatságot!<stage>(El a
+								mellékszobába, az ajtót félig nyitva hagyja)</stage>
             </p>
           </sp>
           <sp who="#mariska">
@@ -4850,13 +4793,13 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Igaz, hiszen paróka. Bizonyosan az előszobában rakosgatta fel. Tudta,
-                            hogy erre jövünk. Tehát több pincér nincs, csak aki nekünk
-                            felszolgált?</p>
+							hogy erre jövünk. Tehát több pincér nincs, csak aki nekünk
+							felszolgált?</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Nincs, édes kisasszony.<stage>(Félre)</stage>Csakugyan eszelős. Szegény
-                            leány! De hát miért kérdezi?</p>
+							leány! De hát miért kérdezi?</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -4865,7 +4808,7 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Csapodár? Oh, dehogy! Ő igen jó, hű fiú, másképp nem is tűrnénk a
-                            háznál.</p>
+							háznál.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -4940,7 +4883,7 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Hiszen hortyog... Tehát a kisasszony tudja titkunkat... de hiszen az már
-                            nem titok.</p>
+							nem titok.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -5010,30 +4953,28 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Tehát szeretik egymást? Oh, szép, igen szép! Nem szégyelli magát?
-                            Elszöktetni!</p>
+							Elszöktetni!</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <stage>(kihátrál)</stage>
             <p>Mindjárt jövök! Apám hí - mindjárt itt termek. De hisz
-                                várhatsz!<stage>(El)</stage>
+								várhatsz!<stage>(El)</stage>
             </p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <stage>(egyedül)</stage>
             <p>S én ez embernek hittem? Erre bíztam volna boldogságomat! Mást is
-                            szeret... E fölfedezés éppen jókor érkezett! Tehát nem értem, nem, hanem
-                            egy szép pincérnő kedvéért pincérkedik itt? S én kába szinte elhittem,
-                            hogy ez nem véletlen találkozás... Megcsalta azt is - engem is! De
-                            merjen szemem elé kerülni!</p>
+							szeret... E fölfedezés éppen jókor érkezett! Tehát nem értem, nem, hanem
+							egy szép pincérnő kedvéért pincérkedik itt? S én kába szinte elhittem,
+							hogy ez nem véletlen találkozás... Megcsalta azt is - engem is! De
+							merjen szemem elé kerülni!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENET</head>
-          <p>
-            <stage>Liliomfi, előbbi</stage>
-          </p>
+          <stage>Liliomfi, előbbi</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(félre)</stage>
@@ -5056,7 +4997,7 @@
             <speaker>LILIOMFI</speaker>
             <stage>(suttogva)</stage>
             <p>Csendesen, az öregúr fel talál ébredni. Ah, annyi mondandóm van...
-                            Szeretsz-e még, édes Marim?</p>
+							Szeretsz-e még, édes Marim?</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -5085,9 +5026,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENET</head>
-          <p>
-            <stage>Szilvai (az ajtónál leskelődve), előbbiek</stage>
-          </p>
+          <stage>Szilvai (az ajtónál leskelődve), előbbiek</stage>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Hiába tetteti magát, végre igazi alakjában mutatkozott.</p>
@@ -5096,7 +5035,7 @@
             <speaker>LILIOMFI</speaker>
             <p>De hát hallgasson meg...</p>
           </sp>
-          <sp who="#szilvai">
+          <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <stage>(félre).</stage>
             <p>Ördög, pokol, ez a Gyula hangja.<stage>(Felteszi szemüvegét)</stage>
@@ -5106,7 +5045,7 @@
             <speaker>MARISKA</speaker>
             <p>Tagadhatja-e? Ide becsempészi magát álarc és álruha és álnév alatt...</p>
           </sp>
-          <sp who="#szilvai">
+          <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Úgy vagyunk?</p>
           </sp>
@@ -5199,8 +5138,8 @@
             <speaker>SZILVAI</speaker>
             <stage>(félre)</stage>
             <p>Csakugyan ő az! Jó, hogy itt vagy, fiú; kávét!<stage>(Félre)</stage> A
-                            hátulsó ajtót bezárom.<stage>(Teszi)</stage>Többé nem menekszel,
-                            jómadár.</p>
+							hátulsó ajtót bezárom.<stage>(Teszi)</stage>Többé nem menekszel,
+							jómadár.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -5210,7 +5149,7 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Mi? Hogy fölfedezem gyámatyámnak. Reszkessen haragjától. Ön megcsalt. Nem
-                            szereti a fogadós leányát?</p>
+							szereti a fogadós leányát?</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -5249,7 +5188,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Igen, a szoba öt forint. Leves három krajcár,
-                                hús...<stage>(Félre)</stage>Vajon mi baja?</p>
+								hús...<stage>(Félre)</stage>Vajon mi baja?</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -5295,7 +5234,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Mindjárt befejezzük a gyámapai számadást...<stage>(Rázárja az
-                                ajtót)</stage>No, gaz kölyök, most kezemben vagy.</p>
+								ajtót)</stage>No, gaz kölyök, most kezemben vagy.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -5336,7 +5275,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Uram, nincs joga velem így bánni - protestálok -, hacsak vasra nem veret,
-                            tüstint elszököm.</p>
+							tüstint elszököm.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -5345,7 +5284,7 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>Mondja meg neki: gyűlölöm; hogy soha, sohase merjen szemeim elé
-                            kerülni...</p>
+							kerülni...</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -5363,7 +5302,7 @@
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
             <p>De én nem akarom többé látni, míg itt lesz, be sem jövök, a kocsiba ülök
-                            - ki nem állhatom, nem szenvedhetem.<stage>(El)</stage>
+							- ki nem állhatom, nem szenvedhetem.<stage>(El)</stage>
             </p>
           </sp>
           <sp who="#liliomfi">
@@ -5393,8 +5332,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Ha az is, de zsarnokom nem lesz. Én nem leszek sem koncipista, sem
-                            kancellista, ingrosszista, exhibista, inhibista, én teátrista leszek; s
-                            meglátom, ki akadályoz.</p>
+							kancellista, ingrosszista, exhibista, inhibista, én teátrista leszek; s
+							meglátom, ki akadályoz.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -5407,9 +5346,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENET</head>
-          <p>
-            <stage>Kányai, előbbi</stage>
-          </p>
+          <stage>Kányai, előbbi</stage>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Mi tetszik, uram?</p>
@@ -5425,7 +5362,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Tehát tudja meg, ő nem pincér, ő az én átöltözködött kalandos, kóricáló
-                            gyámfiam és unokaöcsém.</p>
+							gyámfiam és unokaöcsém.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -5438,7 +5375,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Ah, most értek mindent! Ő az én leányomért állott be pincérnek, hogy
-                            elcsábítsa - úgy van, hiszen ez kézzelfogható!</p>
+							elcsábítsa - úgy van, hiszen ez kézzelfogható!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -5447,28 +5384,28 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>S én oly szamár voltam, hogy mindjárt rá nem ismertem. Soha még csak egy
-                            krajcárig sem csalt meg, sem engem, sem vendégeimet. Hiszen az arcából
-                            is kilátszott, hogy úrnak született. Aztán sohasem akart a bor közé
-                            vizet vegyíteni; oh én gyanítottam, hogy ő nem természetes pincér!</p>
+							krajcárig sem csalt meg, sem engem, sem vendégeimet. Hiszen az arcából
+							is kilátszott, hogy úrnak született. Aztán sohasem akart a bor közé
+							vizet vegyíteni; oh én gyanítottam, hogy ő nem természetes pincér!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Úgy van, ő nem az; de én rajtakaptam. Képzelje átöltözött, előttem szőke
-                            parókával járt, változtatott hangon beszélt, hogy rá ne ismerjek...</p>
+							parókával járt, változtatott hangon beszélt, hogy rá ne ismerjek...</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Szőke parókát tett fejére? Most már arra is emlékszem; valami diatrista
-                            volt itt, annak hánytuk szét holmiját az ivószobában, bizonyosan ott
-                            kaparította kézre. No nézze az ember! Bennünket bolonddá tenni!</p>
+							volt itt, annak hánytuk szét holmiját az ivószobában, bizonyosan ott
+							kaparította kézre. No nézze az ember! Bennünket bolonddá tenni!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>De én kézre kerítettem; ide a mellékszobába zártam. S most arra kérem
-                            kelmedet, szegény megcsalatott atya, kinek leányát el akarta csábítani,
-                            őrizze itt - érti? Én megyek, törvényes asszisztenciát kérek -
-                            elfogatom, vasra veretem -, mert képzelje, szökni akar tőlem, megint
-                            szökni! Teátrista akar lenni!</p>
+							kelmedet, szegény megcsalatott atya, kinek leányát el akarta csábítani,
+							őrizze itt - érti? Én megyek, törvényes asszisztenciát kérek -
+							elfogatom, vasra veretem -, mert képzelje, szökni akar tőlem, megint
+							szökni! Teátrista akar lenni!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -5509,25 +5446,23 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Csak őrizze - meg nem bánja. Várj, rossz fiú! Érezni fogod haragomat!
-                                <stage>(Elmegy)</stage>
+								<stage>(Elmegy)</stage>
             </p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <stage>(egyedül)</stage>
             <p>Ő tehát úrfi, nagy úrfi, gazdag úrfi, földes úrfi? Furcsa! S ő el akarta
-                            csábítani Erzsikémet, hm! - de azt is mondta, feleségül veszi.</p>
+							csábítani Erzsikémet, hm! - de azt is mondta, feleségül veszi.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">TIZENEGYEDIK JELENET</head>
-          <p>
-            <stage>Erzsi (jő), előbbiek</stage>
-          </p>
+          <stage>Erzsi (jő), előbbiek</stage>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Édes atyus, mi lárma van itt? Tán a kisasszonyra megint rájött a
-                            bolondság?</p>
+							bolondság?</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -5556,7 +5491,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Eh, Schwartznak vége; az a goromba kölyök sohasem lesz vőm, soha,
-                            soha!</p>
+							soha!</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -5565,7 +5500,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>De te... tehát nem élhetsz a pincér nélkül, egyáltalában nem - kész vagy
-                            inkább a kútba ugrani? Ugye kész, édes tubicám?</p>
+							inkább a kútba ugrani? Ugye kész, édes tubicám?</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -5578,14 +5513,14 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>No isten neki, hát beleugrom.<stage>(Félre)</stage>Ez tán segít, üssük a
-                            vasat! Igen, atyus, most már fogadom, ha a pincérnek nem ad, holnap nem
-                            isznak a kútból!</p>
+							vasat! Igen, atyus, most már fogadom, ha a pincérnek nem ad, holnap nem
+							isznak a kútból!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Így már atyai kötelesség, leányomat, szegény egyetlen gyermekemet meg
-                            kell mentenem! Ez atyai kötelesség! Keblemre, édes jó leányom - tehát a
-                            pincér a tiéd!</p>
+							kell mentenem! Ez atyai kötelesség! Keblemre, édes jó leányom - tehát a
+							pincér a tiéd!</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -5594,7 +5529,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Jó, jó, csak menj - vele kell végeznem! Menj az előszobába. Ha
-                            szólítalak, jöjj. Siess, az idő múlik.</p>
+							szólítalak, jöjj. Siess, az idő múlik.</p>
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
@@ -5615,12 +5550,12 @@
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Ah, dehogy; azt mondá, az engedelem a zsebében van, s előbb
-                            összeesküszünk s aztán szökünk.</p>
+							összeesküszünk s aztán szökünk.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Zsebében? Annál jobb. Oh, leányom, ha tudnád, ki ez a pincér! De nem
-                            szólok. Várj az előszobában.<stage>(El)</stage>
+							szólok. Várj az előszobában.<stage>(El)</stage>
             </p>
           </sp>
           <sp who="#erzsi">
@@ -5632,17 +5567,15 @@
             <speaker>KÁNYAI</speaker>
             <stage>(egyedül)</stage>
             <p>Most tapogassunk az úrfi szívére. Az öregnek azt fogom mondani, tudtom és
-                            akaratom nélkül esküdtek össze, s ha egyszer megtörtént, ütheti a
-                            nyomát. Aztán ha a gyermekek szeretik egymást, kinek mi köze hozzá?
-                                <stage>(Az ajtót megnyitja)</stage> Gyurikám! lelkem Gyuricám, egy
-                                szóra!<stage>(Félre)</stage>Mintha semmit sem tudnék.</p>
+							akaratom nélkül esküdtek össze, s ha egyszer megtörtént, ütheti a
+							nyomát. Aztán ha a gyermekek szeretik egymást, kinek mi köze hozzá?
+								<stage>(Az ajtót megnyitja)</stage> Gyurikám! lelkem Gyuricám, egy
+								szóra!<stage>(Félre)</stage>Mintha semmit sem tudnék.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENET</head>
-          <p>
-            <stage>Gyuri (fején a szőke paróka), előbbi</stage>
-          </p>
+          <stage>Gyuri (fején a szőke paróka), előbbi</stage>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Mit parancsol, gazduram?</p>
@@ -5651,7 +5584,7 @@
             <speaker>KÁNYAI</speaker>
             <stage>(félre)</stage>
             <p>A szőke paróka is fején. Gonosz csont, az ijedéstől feledte fején. Hát
-                            úrfi, mire való ez a főn? Mit jelent ez?</p>
+							úrfi, mire való ez a főn? Mit jelent ez?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -5661,8 +5594,8 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Csitt! Én mit sem tudok, mit sem akarok tudni. Az úrfit ide bezárták; s
-                            az a dühös ember megesküdött, hogy vason per zsup viteti el, pandúrok
-                            által. Érted-e, per zsup! A szégyen, a gyalázat!</p>
+							az a dühös ember megesküdött, hogy vason per zsup viteti el, pandúrok
+							által. Érted-e, per zsup! A szégyen, a gyalázat!</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -5679,7 +5612,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>De igen, szerencsétlen ifjú, ő parancsol, ő a törvényhez folyamodik, a
-                            szökevényeket pedig a törvény elfogja és per zsup hazaviteti.</p>
+							szökevényeket pedig a törvény elfogja és per zsup hazaviteti.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -5688,7 +5621,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Tudom, gyermekem, éppen ez a baj, hogy árva vagy, s a törvény a gyámapa
-                            körmei közé adott. Hogy hívnak, édes fiam?</p>
+							körmei közé adott. Hogy hívnak, édes fiam?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -5741,12 +5674,12 @@
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
             <p>Igen, jószágaim mind itt vannak.<stage>(Félre)</stage>Mindenem rajtam
-                            van.</p>
+							van.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>De tudja-e, fiatalember, én megesküdtem, hogy nem hagyom elszökni. Okát
-                            tudni fogja. Uram, a megbántott atyától reszkessen!</p>
+							tudni fogja. Uram, a megbántott atyától reszkessen!</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -5755,7 +5688,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Nem akarta-e leányomat, szegény Erzsikémet, egyetlen gyermekemet
-                            elcsábítani?</p>
+							elcsábítani?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -5772,7 +5705,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Igen, de nem az igazi hangon. Erőltetnie kellett volna a dolgot -
-                            erőszakolnia! S mindent meg kellett volna mondania! Érti? Mindent!</p>
+							erőszakolnia! S mindent meg kellett volna mondania! Érti? Mindent!</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -5805,7 +5738,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Milyen szép, ha az ember bátor! De ha el akarná leányomtól
-                            választani?</p>
+							választani?</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -5848,9 +5781,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHARMADIK JELENET</head>
-          <p>
-            <stage>Erzsi, előbbiek</stage>
-          </p>
+          <stage>Erzsi, előbbiek</stage>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
             <p>Kedves atyus!</p>
@@ -5858,10 +5789,10 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Jertek ide. Menjetek a lelkészhez, kérjétek nevemben, hogy eskessen össze
-                            rögtön... Nagy-nagy ok van rá!...<stage>(Gyurihoz
-                            titkon)</stage>Gyurikám, mondj oly okot, milyet akarsz. De esküvés
-                            nélkül vissza ne térjetek, azt mondom, különben mindennek vége. Áldásom
-                            rátok! S most siessetek.</p>
+							rögtön... Nagy-nagy ok van rá!...<stage>(Gyurihoz
+							titkon)</stage>Gyurikám, mondj oly okot, milyet akarsz. De esküvés
+							nélkül vissza ne térjetek, azt mondom, különben mindennek vége. Áldásom
+							rátok! S most siessetek.</p>
           </sp>
           <sp who="#gyuri">
             <speaker>GYURI</speaker>
@@ -5870,19 +5801,17 @@
         </div>
         <div type="scene">
           <head type="title">TIZENNEGYEDIK JELENET</head>
-          <p>
-            <stage>Liliomfi (jő), előbbiek</stage>
-          </p>
+          <stage>Liliomfi (jő), előbbiek</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <stage>(mint Schwartz)</stage>
             <p>Hát ez mi?... Semmi szolgálat? Hol a kellner?... Én aluszom,
-                            szobámban...</p>
+							szobámban...</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Kissé későn kelt fel, édes Schwartz úr! Hogy is mondja? - ifjú
-                            Schwartz.</p>
+							Schwartz.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -5891,7 +5820,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Kellner?... Alászolgája! Ifjú Schwartz, a lánytól - orrod tőlem
-                            fokhagymás!</p>
+							fokhagymás!</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -5915,8 +5844,7 @@
           </sp>
           <sp who="#erzsi">
             <speaker>ERZSI</speaker>
-            <p>No, úgy csak siessünk, Gyuri.<stage>Elmennek<note type="editorial">Lemaradt a színpadi utasítást közrefogó
-                                zárójel.sh.</note></stage>
+            <p>No, úgy csak siessünk, Gyuri.<stage>Elmennek<note type="editorial">Lemaradt a színpadi utasítást közrefogó zárójel.sh.</note></stage>
             </p>
           </sp>
           <sp who="#kanyai">
@@ -5926,9 +5854,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENÖTÖDIK JELENET</head>
-          <p>
-            <stage>Schwartz, Adolf; előbbiek</stage>
-          </p>
+          <stage>Schwartz, Adolf; előbbiek</stage>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Csakhogy itt talállak, lelkem barátom!</p>
@@ -5937,12 +5863,12 @@
             <speaker>LILIOMFI</speaker>
             <stage>(félre)</stage>
             <p>Jaj, ez az öreg Schwartz - emlékszem, kétszer hasítottam fel a
-                            biliárdját!</p>
+							biliárdját!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Kedves barátom, sajnálom, tiszta szívből sajnálom, de hogy fiad magának
-                            tulajdonítsa - én nem tehetek róla.</p>
+							tulajdonítsa - én nem tehetek róla.</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
@@ -5952,7 +5878,7 @@
             <speaker>KÁNYAI</speaker>
             <stage>(Liliomfihoz)</stage>
             <p>No, édes úrfi, majd lefestem most apja előtt. No, ugyan szép nevelést
-                            adtál fiadnak!</p>
+							adtál fiadnak!</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
@@ -5977,7 +5903,7 @@
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Eh, az én fiam a legneveltebb ifjú - de te, te hova tetted eszedet,
-                            fiammal úgy bánni!</p>
+							fiammal úgy bánni!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -5994,8 +5920,8 @@
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Még te neheztelsz? Hát úgy kellett a fiamat fogadnod? Ő, a jó lélek alig
-                            várhatta, hogy lássa menyasszonyát, a gyorskocsin előresiet, s uramfia,
-                            itt - itt kidobják!...</p>
+							várhatta, hogy lássa menyasszonyát, a gyorskocsin előresiet, s uramfia,
+							itt - itt kidobják!...</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6004,12 +5930,12 @@
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Ölelő karokkal, még a frakkját is összetéptétek. Tudja a manó, mit fognak
-                            rá, s kilökdösik; s most meg azt mondják: ölelő karokkal fogadták?!</p>
+							rá, s kilökdösik; s most meg azt mondják: ölelő karokkal fogadták?!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Igen, ölelő karokkal, de ő durváskodik, fitymál, lányomat libának nevezi;
-                            pénzemet kérdi...</p>
+							pénzemet kérdi...</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
@@ -6034,12 +5960,12 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Ki kérdi az urat? Mit keres itt megint? Azt várja, hogy újra
-                            kivessük?</p>
+							kivessük?</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Itt van ni, megint kivetéssel fenyegetőzik! S még azt mondja: tárt
-                            karokkal fogadták!</p>
+							karokkal fogadták!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6056,12 +5982,12 @@
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Hát tagadhatod-e még most is, hogy illetlenül bántál fiammal? Hogy nem
-                            dobtad ki?</p>
+							dobtad ki?</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Ez mégis rettenetes! Én nem dobtam ki fiadat, hiszen ő itt nagy hetykén
-                            utasnak adta ki magát - szobát nyittatott...</p>
+							utasnak adta ki magát - szobát nyittatott...</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -6074,12 +6000,12 @@
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Itt van ni - ez a jó fogadás! Így kell becsületes, művelt emberrel
-                            bánni?</p>
+							bánni?</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Amilyen a mosdó, olyan a törülköző. Ő Schwartznak adta ki magát, egy
-                            rossz komédiás?</p>
+							rossz komédiás?</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
@@ -6088,7 +6014,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Igen, a fiad is komédiás, mert oly bolondosul viseli magát, mint afféle
-                            szeleburdi.</p>
+							szeleburdi.</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
@@ -6101,7 +6027,7 @@
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Kidobni - s ő, a szegény lélek kénytelen rossz fakó szekérre ülni -,
-                            szerencsére az úton megismerte kocsimat...</p>
+							szerencsére az úton megismerte kocsimat...</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6154,7 +6080,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Ehol ni, most már ismerni sem akarja. Barátom, megőrültél? Most már
-                            igazán kérdem. Hát nem fiad ez? Vagy mi?</p>
+							igazán kérdem. Hát nem fiad ez? Vagy mi?</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
@@ -6167,7 +6093,7 @@
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
             <p>Én Liliomfi? Igaz, akkor is e nevet fogták rám, s a lábam sem érte a
-                            földet...</p>
+							földet...</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6180,7 +6106,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Hát nem csinál tiktakot atyai szíved? Atyám! Oh, jó atyám! <stage>(Ölelni
-                                akarja)</stage>
+								akarja)</stage>
             </p>
           </sp>
           <sp who="#schwartz">
@@ -6202,7 +6128,7 @@
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Úgy, úgy, csak bámulj. Tudd meg, meg vagy csalva, mert fiam, Adolfom ez
-                            itt.</p>
+							itt.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -6223,11 +6149,11 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Tehát megtagadja, táti, a természet szent jogát? Kitagad engem? Vérző
-                            szívvel ugyan, lemondok az atyai szeretetről!... Isten veletek, ifjú
-                            álmaim! Menj tehát, zsarnok apa, mert én is a sötét Hekatéra, s a jós
-                            csillagzatok titokzatára esküszöm, ez ember itt nem apám, s én nem
-                            vagyok fia! Keressen magának fiat a vadállatok közt, de én nem leszek
-                            többé!</p>
+							szívvel ugyan, lemondok az atyai szeretetről!... Isten veletek, ifjú
+							álmaim! Menj tehát, zsarnok apa, mert én is a sötét Hekatéra, s a jós
+							csillagzatok titokzatára esküszöm, ez ember itt nem apám, s én nem
+							vagyok fia! Keressen magának fiat a vadállatok közt, de én nem leszek
+							többé!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6237,7 +6163,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Mondottam.<stage>(Schwartzhoz)</stage>Hát az úr meri-e állítani, hogy ez
-                            itt fia?</p>
+							itt fia?</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
@@ -6246,12 +6172,12 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Tehát bátorkodjék megölelni. Jól van. Hagyja rá birtokát, kávéházát,
-                            biliárdját, én lemondottam.</p>
+							biliárdját, én lemondottam.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Püh!... Rosszat gyanítok. Hát hogy merte az úr azt hazudni, hogy
-                            Schwartz?</p>
+							Schwartz?</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -6307,7 +6233,7 @@
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>S most, miután tisztába jöttünk, hol van Erzsike? Tudtam, hogy
-                            félreértés...</p>
+							félreértés...</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6320,7 +6246,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Bocsáss meg, engem is rászedtek; én azt hittem, ez itt fiad, s ő
-                            lemondott Erzsikéről.</p>
+							lemondott Erzsikéről.</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
@@ -6329,9 +6255,9 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>De ördög mennykő, itt aligha pórul nem jártam. Hallja az úr, s talán az
-                            az öregúr is?... Irtóztató volna! Ha rászedtek? Az igazi Schwartzot
-                            kilökték, ha mindnyájan komédiáznak. Uram, most mindjárt elfut a
-                            pulykaméreg. Mondja ki, mit tud a dologból!</p>
+							az öregúr is?... Irtóztató volna! Ha rászedtek? Az igazi Schwartzot
+							kilökték, ha mindnyájan komédiáznak. Uram, most mindjárt elfut a
+							pulykaméreg. Mondja ki, mit tud a dologból!</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
@@ -6345,13 +6271,13 @@
             <speaker>KÁNYAI</speaker>
             <stage>(kérőleg)</stage>
             <p>Nem űztek-e belőlem bolondot? Kérem, vallja meg, nem lesz bántása, bizony
-                            isten, csak az igazat vallja meg!</p>
+							isten, csak az igazat vallja meg!</p>
           </sp>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Tehát tudja meg, azon öregúr hasonlóképpen diátrista; a leány is
-                            diátristáné, a kocsis is, még a lovak sem igaziak; csak azén jöttek ide,
-                            hogy a pincért leányához segítsék, s kiadták magukat mindenféléknek.</p>
+							diátristáné, a kocsis is, még a lovak sem igaziak; csak azén jöttek ide,
+							hogy a pincért leányához segítsék, s kiadták magukat mindenféléknek.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6360,8 +6286,8 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Tessék. De nem én vagyok a főbűnös; az egész komplottot az az öreg úr,
-                            vagyis az az átöltözött öreg úr, mert az a fekete haj sem igazi, hanem
-                            paróka - csak őt vegye az úr kérdőre, mindennek ő az oka.</p>
+							vagyis az az átöltözött öreg úr, mert az a fekete haj sem igazi, hanem
+							paróka - csak őt vegye az úr kérdőre, mindennek ő az oka.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6371,16 +6297,14 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Éppen jő. Csak vonja kérdőre. Ha tagadja, csak hivatkozzék rám, én addig
-                            elbúvok; ő persze tagadni fogja, de nem kell tágítani.<stage>(El a
-                                mellékszobába)</stage>
+							elbúvok; ő persze tagadni fogja, de nem kell tágítani.<stage>(El a
+								mellékszobába)</stage>
             </p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">TIZENHATODIK JELENET</head>
-          <p>
-            <stage>Szilvai, Mariska, pandúrok</stage>
-          </p>
+          <stage>Szilvai, Mariska, pandúrok</stage>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>No, kedves öregem, itt van? Megőrzötte?</p>
@@ -6397,7 +6321,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Mi lelt?<stage>(Sírva)</stage>Ismerlek, jómadár... egy szegény apát
-                            tettetek bolonddá!</p>
+							tettetek bolonddá!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -6406,7 +6330,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>De az úr, az úr ne bolondozzék! Vallja meg, ön megcsalt, ellenem
-                            összeesküdött!</p>
+							összeesküdött!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -6439,7 +6363,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Gyámfia? Tán a pincér is, a kocsis is gyámfia? Sok gyámfia van még az
-                                úrnak?<stage>(Haját megfogja)</stage>
+								úrnak?<stage>(Haját megfogja)</stage>
             </p>
           </sp>
           <sp who="#szilvai_todor">
@@ -6493,7 +6417,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Hallgasson a leányasszony! Nem szégyenli, ily ifjonta, s már komplottba
-                            áll? Tudjuk, a leányasszony is a bandába tartozik.</p>
+							áll? Tudjuk, a leányasszony is a bandába tartozik.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -6510,18 +6434,18 @@
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Mit beszélsz, barátom Kányai, hiszen ez tekintetes Szilvai professzor
-                            úr!?</p>
+							úr!?</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <stage>(növekedő örömmel).</stage>
             <p>Micsoda? Ez Szilvai - tekintetes Szilvai Szilvay Tódor úr -, a gazdag
-                            Szilvay? S az, akit ide zárt a tekintetes úr?</p>
+							Szilvay? S az, akit ide zárt a tekintetes úr?</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Az én korhely gyámfiam, ki pincérnek adta ki magát, hihetőleg
-                            leányáért.</p>
+							leányáért.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6535,7 +6459,7 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Kedvem volna táncolni, ugrálni, a bőrömből kibújni!... S én bolond, annak
-                            a Liliomfinak újra hittem!... Oh, én bolond!... Én hittem... Hahaha!</p>
+							a Liliomfinak újra hittem!... Oh, én bolond!... Én hittem... Hahaha!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -6561,10 +6485,10 @@
             <speaker>KÁNYAI</speaker>
             <stage>(félre)</stage>
             <p>Mit hazudjam? Igen, mert én azt hittem, hogy nem az úr gyámfia; ő
-                            bebizonyította, hogy nem az úr gyámfia, igaz-e, vagy sem? - azt nem
-                            tudom, de nekem bebizonyította. Aztán kitört az ajtón, s minthogy
-                            bebizonyította, hogy csak közönséges pincér; s minthogy a gyermekek
-                            szeretik egymást...</p>
+							bebizonyította, hogy nem az úr gyámfia, igaz-e, vagy sem? - azt nem
+							tudom, de nekem bebizonyította. Aztán kitört az ajtón, s minthogy
+							bebizonyította, hogy csak közönséges pincér; s minthogy a gyermekek
+							szeretik egymást...</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -6573,9 +6497,9 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Igen, minthogy szeretik egymást, s leányomat feleségül akarta venni, azt
-                            gondolám, mit Isten összeadott, az ember ne válassza el - megegyeztem:
-                            de kényszerítve is voltam -, ők eddig férj és feleség!... Én nem tehetek
-                            róla - tulajdonítsák a félreértésnek.</p>
+							gondolám, mit Isten összeadott, az ember ne válassza el - megegyeztem:
+							de kényszerítve is voltam -, ők eddig férj és feleség!... Én nem tehetek
+							róla - tulajdonítsák a félreértésnek.</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -6584,15 +6508,15 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Az a házasság érvénytelen, az akaratom ellen történt; én, gyámapja,
-                            felbontom!</p>
+							felbontom!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>De nem bontja, egyáltalában nem bontják. Ő elvette az én leányomat, kinek
-                            mi köze ahhoz? Mi köze az apáknak - annál kevésbé a gyámapáknak?... Az
-                            úr az oka? Mért bánt vele rosszul - szegény fiú kénytelen volt elszökni.
-                            Én megegyeztem, megáldottam, pedig az igazi apa e részben én, csupán
-                            csak én vagyok - az úr csak afféle gyámapa.</p>
+							mi köze ahhoz? Mi köze az apáknak - annál kevésbé a gyámapáknak?... Az
+							úr az oka? Mért bánt vele rosszul - szegény fiú kénytelen volt elszökni.
+							Én megegyeztem, megáldottam, pedig az igazi apa e részben én, csupán
+							csak én vagyok - az úr csak afféle gyámapa.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -6601,16 +6525,16 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Perelünk - az úr perelhet extra dominium, mint mondani szokás. Mi a
-                            birtokban vagyunk. Én is nemesember vagyok, ármálista. S kikérek minden
-                            megtámadást - úr vagyok házamban?...</p>
+							birtokban vagyunk. Én is nemesember vagyok, ármálista. S kikérek minden
+							megtámadást - úr vagyok házamban?...</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Ez itt fogadó, ez a szoba az enyim - én fizetek érte, tehát itt csak
-                            nekem van jogom gorombáskodni, érti az úr?... Én e házasságot
-                            nullifikálom, s az urat konvinkáltatom, mint olyat, ki a fidei
-                            commissumot ledálta - érti?... Az én gyámfiam húgomat veszi el, s ezzel
-                            punktum!</p>
+							nekem van jogom gorombáskodni, érti az úr?... Én e házasságot
+							nullifikálom, s az urat konvinkáltatom, mint olyat, ki a fidei
+							commissumot ledálta - érti?... Az én gyámfiam húgomat veszi el, s ezzel
+							punktum!</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
@@ -6619,9 +6543,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENHETEDIK JELENET</head>
-          <p>
-            <stage>Erzsi, Gyuri, előbbiek</stage>
-          </p>
+          <stage>Erzsi, Gyuri, előbbiek</stage>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Megtörtént?</p>
@@ -6633,9 +6555,9 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Hála istennek! <stage>(Közé és Szilvai közé veti magát)</stage>Uram, ne
-                            zsarnokoskodjék; én közbevetem magamat, és semmiképp nem engedem, hogy
-                            kezeit ráemelje - én védeni fogom, mint kölykeit védi nőstény oroszlán!
-                            Itt nincs egyéb hátra, mint hogy az úr is áldja meg, ha akarja...</p>
+							zsarnokoskodjék; én közbevetem magamat, és semmiképp nem engedem, hogy
+							kezeit ráemelje - én védeni fogom, mint kölykeit védi nőstény oroszlán!
+							Itt nincs egyéb hátra, mint hogy az úr is áldja meg, ha akarja...</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -6657,9 +6579,9 @@
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>
             <p>Semmi gorombaság! - Jobb lesz az egész dolgot békés úton eligazítani.
-                            Jertek, gyermekeim, könyörögjetek ti is. Jer, fiam, ugye tenjószántadból
-                            vetted el leányomat? Ugye csak vele lész boldog? Ugye csak ásó-kapa
-                            választ el? Kérd kedves aranyos gyámapádat, hogy bocsásson meg!</p>
+							Jertek, gyermekeim, könyörögjetek ti is. Jer, fiam, ugye tenjószántadból
+							vetted el leányomat? Ugye csak vele lész boldog? Ugye csak ásó-kapa
+							választ el? Kérd kedves aranyos gyámapádat, hogy bocsásson meg!</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -6672,7 +6594,7 @@
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
             <p>Pincér lehet, de nem gyámfiam. Nem ismerem; vagy megbolondultak
-                            mindnyájan?</p>
+							mindnyájan?</p>
           </sp>
           <sp who="#mariska">
             <speaker>MARISKA</speaker>
@@ -6759,13 +6681,11 @@
         </div>
         <div type="scene">
           <head type="title">TIZENNYOLCADIK JELENET</head>
-          <p>
-            <stage>Liliomfi, előbbiek</stage>
-          </p>
+          <stage>Liliomfi, előbbiek</stage>
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Igen, Liliomfi én vagyok, s ha gyámatyus Mariskát nekem adja, ismét
-                            Szilvai Gyula leszek.</p>
+							Szilvai Gyula leszek.</p>
           </sp>
           <sp who="#szilvai_todor">
             <speaker>SZILVAI</speaker>
@@ -6778,12 +6698,12 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Hohó, gazduram, maga adta össze őket, megegyezett, megáldotta, mi
-                            mindnyájan tanúk vagyunk.</p>
+							mindnyájan tanúk vagyunk.</p>
           </sp>
           <sp who="#schwartz">
             <speaker>SCHWARTZ</speaker>
             <p>Barátom, itt nincs mit tenni, mint hallgatni. Sajnálom, de ha leányod a
-                            pincért szereti... Hja!</p>
+							pincért szereti... Hja!</p>
           </sp>
           <sp who="#schwartz_adolf">
             <speaker>ADOLF</speaker>
@@ -6796,7 +6716,7 @@
           <sp who="#liliomfi">
             <speaker>LILIOMFI</speaker>
             <p>Hát az úr nem akarta rászedni gyámapámat?... Mi rászedtük az urat, az úr
-                            pedig magát, tehát kvittek vagyunk.</p>
+							pedig magát, tehát kvittek vagyunk.</p>
           </sp>
           <sp who="#kanyai">
             <speaker>KÁNYAI</speaker>

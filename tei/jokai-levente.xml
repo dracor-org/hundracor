@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000019">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000019" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +66,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -258,6 +255,12 @@
           <person sex="MALE" xml:id="bago">
             <persName>Bagó</persName>
           </person>
+          <person sex="MALE" xml:id="szila">
+            <persName>Szila</persName>
+          </person>
+          <person sex="MALE" xml:id="verbulcsu">
+            <persName>Vérbulcsú</persName>
+          </person>
           <person sex="MALE" xml:id="czikas">
             <persName>Czikás</persName>
           </person>
@@ -375,6 +378,18 @@
           <personGrp sex="UNKNOWN" xml:id="kovacsok">
             <name>Kovácsok</name>
           </personGrp>
+          <personGrp xml:id="orszemek" sex="MALE">
+            <name>Őrszemek</name>
+          </personGrp>
+          <personGrp xml:id="vezerek" sex="MALE">
+            <name>Vezérek</name>
+          </personGrp>
+          <personGrp xml:id="siposok" sex="MALE">
+            <name>Síposok</name>
+          </personGrp>
+          <personGrp xml:id="torpek" sex="MALE">
+            <name>Törpék</name>
+          </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -399,34 +414,34 @@
           <role><roleName>Árpád</roleName> fejedelem, Magyarország ura.</role>
         </castItem>
         <castItem>
-          <role><roleName>Regehű</roleName>neje.</role>
+          <role><roleName>Regehű</roleName>, neje.</role>
         </castItem>
         <castGroup>
           <roleDesc>Árpád fiai</roleDesc>
           <castItem>
-            <role><roleName>Levente</roleName>25 éves</role>
+            <role><roleName>Levente</roleName>, 25 éves</role>
           </castItem>
           <castItem>
-            <role><roleName>Jellek</roleName>23 éves</role>
+            <role><roleName>Jellek</roleName>, 23 éves</role>
           </castItem>
           <castItem>
-            <role><roleName>Jutócs</roleName>21 éves</role>
+            <role><roleName>Jutócs</roleName>, 21 éves</role>
           </castItem>
           <castItem>
-            <role><roleName>Tarkócz</roleName>18 éves</role>
+            <role><roleName>Tarkócz</roleName>, 18 éves</role>
           </castItem>
           <castItem>
-            <role><roleName>Zsolt</roleName>4 éves</role>
+            <role><roleName>Zsolt</roleName>, 4 éves</role>
           </castItem>
         </castGroup>
         <castItem>
-          <role><roleName>Jahel</roleName>Jellek neje</role>
+          <role><roleName>Jahel</roleName>, Jellek neje</role>
         </castItem>
         <castItem>
-          <role><roleName>Marót csakán</roleName>Biharország ura, kazár fejedelem</role>
+          <role><roleName>Marót csakán</roleName>, Biharország ura, kazár fejedelem</role>
         </castItem>
         <castItem>
-          <role><roleName>Csombord</roleName>Marót fia</role>
+          <role><roleName>Csombord</roleName>, Marót fia</role>
         </castItem>
         <castGroup>
           <roleDesc>Marót leányai</roleDesc>
@@ -443,17 +458,17 @@
             <role><roleName>Délibáb</roleName></role>
           </castItem>
           <castItem>
-            <role><roleName>Estilla</roleName>4 éves</role>
+            <role><roleName>Estilla</roleName>, 4 éves</role>
           </castItem>
         </castGroup>
         <castItem>
-          <role><roleName>Gönczöl</roleName>kincsúr Árpádnál</role>
+          <role><roleName>Gönczöl</roleName>, kincsúr Árpádnál</role>
         </castItem>
         <castItem>
           <role><roleName>Táltos</roleName></role>
         </castItem>
         <castItem>
-          <role><roleName>Halvaél</roleName>leánya</role>
+          <role><roleName>Halvaél</roleName>, leánya</role>
         </castItem>
         <castGroup>
           <roleDesc>Árpád vezérei</roleDesc>
@@ -477,7 +492,7 @@
           </castItem>
         </castGroup>
         <castItem>
-          <role><roleName>Lehel vezér</roleName>Tas fia</role>
+          <role><roleName>Lehel vezér</roleName>, Tas fia</role>
         </castItem>
         <castGroup>
           <roleDesc>székely rabonbánok</roleDesc>
@@ -513,19 +528,19 @@
           </castItem>
         </castGroup>
         <castItem>
-          <role><roleName>Kusid</roleName>kun követ</role>
+          <role><roleName>Kusid</roleName>, kun követ</role>
         </castItem>
         <castItem>
-          <role><roleName>Tarczal</roleName>követ</role>
+          <role><roleName>Tarczal</roleName>, követ</role>
         </castItem>
         <castItem>
-          <role><roleName>Privina</roleName>Szvatopluk követe</role>
+          <role><roleName>Privina</roleName>, Szvatopluk követe</role>
         </castItem>
         <castItem>
           <role><roleName>Főbokálábrás Marót udvaránál</roleName></role>
         </castItem>
         <castItem>
-          <role><roleName>Kurut</roleName>Marót bohócza</role>
+          <role><roleName>Kurut</roleName>, Marót bohócza</role>
         </castItem>
         <castItem>
           <role><roleName>Tivatulus</roleName></role>
@@ -546,10 +561,8 @@
         <head type="title">ELSŐ FELVONÁS</head>
         <div type="scene">
           <head type="title">ELSŐ SZAKASZ</head>
-          <p>
-            <hi rend="bold">Alirumnák.</hi>
-            <note type="critic">Ipolyi Arnold. Magyar Mythologia.</note>
-          </p>
+          <stage>Alirumnák.</stage>
+          <note type="critic">Ipolyi Arnold. Magyar Mythologia.</note>
           <p>Tájrajz: Szikladöbör. Holdvilágos éjjel, az égből csak egy szakadék látszik,
                         a tele holddal, mely a szűk szikladöbörbe levilágít. Minden oldalról magasra
                         meredő sziklacsompók zárják körül a szakadékot, melynek mélyéből nagy
@@ -562,19 +575,15 @@
         </div>
         <div type="scene">
           <head type="title">I. JELENÉS.</head>
-          <p>
-            <stage>Büvellő, Illangó, Szemőke,
+          <stage>Büvellő, Illangó, Szemőke,
                             Délibáb.</stage>
-          </p>
-          <p>
-            <stage>A négy alirumna jő négy ellenkező oldalról.
+          <stage>A négy alirumna jő négy ellenkező oldalról.
                             Viseletük lenge szövet, rendetlen ránczokba gyűrött. Büvellő derekán öv
                             gyanánt egy hattyú átfonva, elől a nyaka, hátul a szárnyai; Illangó
                             derekán átkötött kigyó; Szemőke öv helyett kantárt visel, Délibáb öv
                             helyett repkényindát. Hajuk szétbontva. Büvellő koszorúja békakorsócska
                             virágjai és tokja (nymphea), Illangóé mákvirág és máktok, Szemőkéé
                             páponyavirág (physalis alkekengi), Délibábé fagyöngy.</stage>
-          </p>
           <sp who="#buvello">
             <speaker>BÜVELLŐ.</speaker>
             <stage>(Futtában repülést mímel.)</stage>
@@ -833,10 +842,8 @@
               <l>Én együtt halok meg véle.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(A morotvából sűrű fehér ködoszlop emelkedik elő, mely a háttért
+          <stage>(A morotvából sűrű fehér ködoszlop emelkedik elő, mely a háttért
                             eltakarja.)</stage>
-          </p>
           <sp who="#illango">
             <speaker>ILLANGÓ</speaker>
             <lg>
@@ -870,15 +877,11 @@
               <l>Engem senki meg ne lásson. (Négy felé elosonnak.)</l>
             </lg>
           </sp>
-          <p>
-            <stage>(A sűrű köd eltakarja a tájat.)</stage>
-          </p>
+          <stage>(A sűrű köd eltakarja a tájat.)</stage>
         </div>
         <div type="scene">
           <head type="title">MÁSODIK SZAKASZ.</head>
-          <p>
-            <hi rend="bold">Az elrejtőzött.</hi>
-          </p>
+          <stage>Az elrejtőzött.</stage>
           <p>Tájrajz: A Kárpátok északi hegylába. A háttérben magas bérczek emberalakú
                         idomokkal, a népmese kővé vált óriásai.[11] Jobbról síkság, tábori
                         sátorokkal, melyek szekérsánczczal vannak elzárva. Elől Árpád vezér biboros
@@ -894,9 +897,7 @@
         </div>
         <div type="scene">
           <head type="title">I. JELENÉS.</head>
-          <p>
-            <stage>Őrök, Asszonyok.</stage>
-          </p>
+          <stage>Őrök, Asszonyok.</stage>
           <stage>1. ÉS 2. ŐR. (Dárdával, paizszsal, oldalán kürt, hátán puzdra és
                             tegez, Árpád sátora előtt gunnyaszt.)</stage>
           <sp who="#magyar_nok">
@@ -926,8 +927,8 @@
         </div>
         <div type="scene">
           <head type="title">II. JELENÉS.</head>
-          <p>Elébbiek, Táltos,
-                            Tivatulus.</p>
+          <stage>Elébbiek, Táltos,
+                            Tivatulus.</stage>
           <sp who="#taltos #tivatulus">
             <speaker>TÁLTOS, TIVATULUS.</speaker>
             <stage>(A szikla mögül előjönnek.)</stage>
@@ -945,13 +946,11 @@
               <l>Tuhudúnok! Tüzet eloltsátok!</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Künn a táborban minden tüzet eloltanak.)<note type="critic">Általános tüzkioltás. Heortokrates. A keresztyénségre áttért
+          <stage>(Künn a táborban minden tüzet eloltanak.)<note type="critic">Általános tüzkioltás. Heortokrates. A keresztyénségre áttért
                                     magyaroknál ez ünnepség «nagy» szombat napján tartatott, a mikor
                                     minden tüzet, még a templomi gyertyákat is kioltották, azután
                                     tűzkővel új tüzet gyújtottak, annak a parazsát
                                     szétosztották.</note></stage>
-          </p>
           <sp who="#magyar_nok">
             <speaker>NŐK.</speaker>
             <stage>(Kardalt énekelnek a kioltott tüzhöz.)</stage>
@@ -973,9 +972,7 @@
               <l>Boldog Isten, adj új tüzet az új áldozatra.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Virrad.)</stage>
-          </p>
+          <stage>(Virrad.)</stage>
           <sp who="#tivatulus">
             <speaker>TIVATULUS.</speaker>
             <stage>(Kürtjébe fú.)</stage>
@@ -993,12 +990,10 @@
         </div>
         <div type="scene">
           <head type="title">III. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, Levente, Jutócs, Tarkócz,
+          <stage>Elébbiek, Levente, Jutócs, Tarkócz,
                                 Szabolcs, Gyula, Kund, Vérbulcsú, Örs, Töhötöm, Tana, Szila, Tahó,
                                 Kerencs, Sudár, vezérfiak, vezérek. (Sátraikból
                                 előjönnek.)</stage>
-          </p>
           <sp who="#levente">
             <speaker>Levente.<note type="editorial">Nem nagykapitális.
                                 sh.</note>
@@ -1041,10 +1036,8 @@
         </div>
         <div type="scene">
           <head type="title">IV. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, Árpád.</stage>
-          </p>
-          <sp who="#arpad">
+          <stage>Elébbiek, Árpád.</stage>
+          <sp who="#arpad_fejedelem">
             <speaker>Árpád.<note type="editorial">Nem nagykapitális.
                                 sh.</note>
             </speaker>
@@ -1060,7 +1053,7 @@
               <l>Itt jő az «Úr!»</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Isten minket.</l>
@@ -1072,7 +1065,7 @@
               <l>Megsegítsen, el ne hagyjon.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Mi jelt láttatok az éjjel?</l>
@@ -1139,7 +1132,7 @@
               <l>A kinek ott fenn a napban már a helye.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Állj félre! Adj helyet a következőknek.</l>
@@ -1280,7 +1273,7 @@
               <l>Meghagyva számodra s négy fiad számára.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Meghallom. Fiaim is hallják meg együtt.</l>
@@ -1300,7 +1293,7 @@
               <l>Laborcz fejdelemnél, magas Ung várában.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Hiják hát a nejét, ő szóljon helyébe.</l>
@@ -1313,9 +1306,7 @@
         </div>
         <div type="scene">
           <head type="title">V. JELENÉS.</head>
-          <p>
-            <stage>Előbbiek, Jahel.</stage>
-          </p>
+          <stage>Előbbiek, Jahel.</stage>
           <sp who="#jahel">
             <speaker>Jahel.<note type="editorial">Nem nagykapitális.
                                 sh.</note>
@@ -1335,7 +1326,7 @@
               <l>Ipam. Te hivattál. Mi kérdésed hozzám?</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Menyem, Jahel asszony, azért hivattalak,</l>
@@ -1353,7 +1344,7 @@
               <l>Vállalom. Add tudnom, miről tanakodtok?</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Sírvermet felnyitunk, halottat felköltünk,</l>
@@ -1473,7 +1464,7 @@
               <l>Ez az én vallásom, s bizony állok érte.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Jól van fiam, jól van. Te, a legidősebb</l>
@@ -1563,7 +1554,7 @@
               <l>Egyik leszakítja, másik eltapossa.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Elbusultan fordul a táltoshoz.)</stage>
             <lg>
@@ -1595,7 +1586,7 @@
               <l>Holvalnak látóját, az elrejtőzöttet.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Fiaim! Vegyétek a követ a sírról!</l>
@@ -1613,9 +1604,7 @@
               <l>Majd én elemelem magamban a követ.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Odamegy a birgejhez s felemeli a szádát eltakaró követ.)</stage>
-          </p>
+          <stage>(Odamegy a birgejhez s felemeli a szádát eltakaró követ.)</stage>
           <sp who="#taltos">
             <speaker>TÁLTOS.</speaker>
             <lg>
@@ -1624,9 +1613,7 @@
               <l>Ha férfiszót hall. Én megyek le érte.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Leszáll a birgej szádán.)</stage>
-          </p>
+          <stage>(Leszáll a birgej szádán.)</stage>
           <sp who="#magyar_nok">
             <speaker>NŐK.</speaker>
             <stage>(Ébresztő dalt énekelnek.)</stage>
@@ -1645,16 +1632,12 @@
               <l>Illatos mező!</l>
             </lg>
           </sp>
-          <p>
-            <stage>(A nők lassan elenyésző kardala közben a Táltos kihozza a
+          <stage>(A nők lassan elenyésző kardala közben a Táltos kihozza a
                                 sziklasírból a leányát, két karjára véve.)</stage>
-          </p>
         </div>
         <div type="scene">
           <head type="title">VI. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, Halvaél.</stage>
-          </p>
+          <stage>Elébbiek, Halvaél.</stage>
           <sp who="#halvael">
             <speaker>HALVAÉL.</speaker>
             <stage>(Termete a táltos karjai közt halottképen megdermedve, fejétől
@@ -1737,9 +1720,7 @@
               <l>Meghallod tőlük, lelkem mit ohajt.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Halvaél fejét kebléhez szorítja.)</stage>
-          </p>
+          <stage>(Halvaél fejét kebléhez szorítja.)</stage>
           <sp who="#halvael">
             <speaker>HALVAÉL.</speaker>
             <lg>
@@ -1847,7 +1828,7 @@
               <l>Nekem fájt jobban az!</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Jellek fiam? Ki békét kötni jár,</l>
@@ -1860,7 +1841,7 @@
               <l>Utána jött Tarkócz.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Miket beszélsz?</l>
@@ -1901,7 +1882,7 @@
               <l>Ezt vállalom.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>A harmadik fiam!</l>
@@ -1929,7 +1910,7 @@
               <l>Ezt én magam is többször álmodám.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Hát mind a négy fiamat láttad ott?</l>
@@ -1956,7 +1937,7 @@
               <l>A sornak végét köd takarta el.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Ki értheti ezt meg? Ha mind a négy fiam</l>
@@ -2017,7 +1998,7 @@
               <l>Isten porbul is tud embert teremteni.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Négy fiamat adjam oda egy hazáért?</l>
@@ -2120,7 +2101,7 @@
               <l>Mint a hogy a halak nem félnek a víztől.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Leventéhez.)</stage>
             <lg>
@@ -2134,16 +2115,14 @@
                                     kezét.)</stage></l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Tehát mind a négyen.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Kürtszó hallatszik távol, egész akkordban.)</stage>
-          </p>
-          <sp who="#arpad">
+          <stage>(Kürtszó hallatszik távol, egész akkordban.)</stage>
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Mi az? Minő kürtszó? Ez a tutúló jel</l>
@@ -2162,20 +2141,18 @@
         </div>
         <div type="scene">
           <head type="title">VII. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, Lehel.</stage>
-          </p>
-          <sp who="#lehet">
+          <stage>Elébbiek, Lehel.</stage>
+          <sp who="#lehel">
             <speaker>LEHEL.</speaker>
             <stage>(Bejön, kezében harczi bárdja, oldalán kürtje.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Lehel! Te vagy? Honnan? Beszélj! Mi hírt hozol?</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Lehel vagyok. Jövök Ungból. Bár az anyám</l>
@@ -2185,28 +2162,26 @@
               <l>Kit a sellyén hoznak, gyolcscsal letakarva.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Fiamat, Jelleket!</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Egyszerre felkiáltva.)</stage>
-          </p>
+          <stage>(Egyszerre felkiáltva.)</stage>
           <sp who="#jahel">
             <speaker>JAHEL.</speaker>
             <lg>
               <l>Férjemet, Jelleket!</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Harczban ejtették el?</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Nem! orozva. Éjjel álmában ölték meg.</l>
@@ -2218,7 +2193,7 @@
               <l>Káprázat! Hisz nála volt talizmán gyűrüm.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Majd azt is elmondom, mi lett a gyürüddel?</l>
@@ -2230,10 +2205,8 @@
         </div>
         <div type="scene">
           <head type="title">VIII. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, 1. és 2.
+          <stage>Elébbiek, 1. és 2.
                             vitéz.</stage>
-          </p>
           <sp who="#vitezek">
             <speaker>1. ÉS 2. VITÉZ.</speaker>
             <stage>(Behozzák a sellyén a halott Jelleket, gyolcscsal letakarva,
@@ -2262,7 +2235,7 @@
               <l>Hát igaza legyen az álomlátónak?</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Árpád úr, fiadat azért hoztam eléd,</l>
@@ -2273,7 +2246,7 @@
               <l>Viszálkodást szerzett békekötés helyett.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Halljam vádolásod. Ti többi vezérek</l>
@@ -2287,7 +2260,7 @@
               <l>Ha férjem vádolják, én megvédelmezem.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Csak aztán magadon ne üss vele sebet.</l>
@@ -2297,7 +2270,7 @@
             <speaker>VEZÉREK MIND A HETEN.</speaker>
             <stage>(Jellek ravatala mögé állnak, kardjukat kihúzva.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l><stage>(Lehelhez.)</stage> Támadj! <stage>(Jahelhez)</stage> vedd
@@ -2308,7 +2281,7 @@
             <speaker>JAHEL.</speaker>
             <stage>(Elvesz egy egyenes kardot Jellek holttestéről.)</stage>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Gyanus volt előttem vezérfia Jellek.</l>
@@ -2325,7 +2298,7 @@
               <l>Izraël szokása.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Azért nem a mienk.</l>
@@ -2341,20 +2314,20 @@
               <l>Szombat nap.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Én nekem mindennap Istené</l>
               <l>S minden éjszakája pihenésre való.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Ne ortályozzatok Istenek dolgáról.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Hisz nagyon jól volna, ha elkerülhetnők.</l>
@@ -2390,7 +2363,7 @@
               <l>A bálvány ott marad csonkán, feje nélkül.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Ez nagy bolond tett volt!</l>
@@ -2409,7 +2382,7 @@
               <l>Azt tette a férjem, mit szent ősapáink.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>De ezzel a népet magára huszítá.</l>
@@ -2424,7 +2397,7 @@
               <l>De sebet nem ütött rajta egy sem!</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Igaz.</l>
@@ -2437,7 +2410,7 @@
               <l>Salamon királynak gyűrűje megóvta.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Én azt is elhiszem. - Nem álltunk vitába</l>
@@ -2454,7 +2427,7 @@
               <l>Az átkozódásban pedig nagy erő van.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Átmentünk a falun: túl rajta, a mezőn</l>
@@ -2495,7 +2468,7 @@
               <l>Ebben is Jehova parancsát követte.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Szólhatsz. Hiszen özvegyasszony már a neved.</l>
@@ -2519,7 +2492,7 @@
               <l>Csillagomnak mondta? Azt csak nekem szokta.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Tán neked nézte el: ámulatból mondta.</l>
@@ -2542,7 +2515,7 @@
               <l>Szent Dávid zsoltárit?</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Nem! A Dávidnéét.</l>
@@ -2573,7 +2546,7 @@
               <l>Azt csak az én szívem átverve tehetnéd.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Halvaélhez.)</stage>
             <lg>
@@ -2592,7 +2565,7 @@
             <speaker>VEZÉREK.</speaker>
             <stage>(Mind hüvelybe taszitják kardjaikat.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>EZ volt az itélet.</l>
@@ -2637,7 +2610,7 @@
               <l>Ki gyermekid a bölcsőbül kirántja</l>
               <l>És az erős kősziklához paskolja.»<note type="critic">Zsoltár.</note></l>
             </lg>
-            <p>(Sátorába elsiet.)</p>
+            <stage>(Sátorába elsiet.)</stage>
           </sp>
           <sp who="#taltos">
             <speaker>TÁLTOS.</speaker>
@@ -2657,9 +2630,7 @@
               <l>Az ég siet felém. Lelkem repül.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Összeroskad.)</stage>
-          </p>
+          <stage>(Összeroskad.)</stage>
           <sp who="#taltos">
             <speaker>TÁLTOS.</speaker>
             <stage>(Karjai közé fogja Halvaélt.)</stage>
@@ -2690,7 +2661,7 @@
             <stage>(Halvaélt beburkolja fátyolába, karjaira emelve leviszi a
                                 birgejbe.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>És most kimondtam az itéletet</l>
@@ -2715,9 +2686,7 @@
         <head type="title">MÁSODIK FELVONÁS</head>
         <div type="scene">
           <head type="title">HARMADIK SZAKASZ.</head>
-          <p>
-            <stage>Munkács.</stage>
-          </p>
+          <stage>Munkács.</stage>
           <p>Tájrajz: Háttérben a hegytetőn az ujonépült Munkács vár, tuskó építmény,
                         körülpalánkolva, oldalt síkság, elől szekérsáncz, a lőcsök végére ökörfejek
                         tűzve. Baloldalon tábori kovácsműhely, jobbon szárazmalom, mögötte <hi rend="italic">dogány.</hi>
@@ -2727,10 +2696,8 @@
         </div>
         <div type="scene">
           <head type="title">I. JELENÉS.</head>
-          <p>
-            <stage>Kovácsok, őrök, rableányok,
+          <stage>Kovácsok, őrök, rableányok,
                                 Gönczöl.</stage>
-          </p>
           <sp who="#kovacsok">
             <speaker>KOVÁCSOK.</speaker>
             <stage>(A műhelynél verik a vasat.)</stage>
@@ -2763,10 +2730,8 @@
         </div>
         <div type="scene">
           <head type="title">II. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Tarkócz,
+          <stage>Elébbiek. Tarkócz,
                             Ijászok.</stage>
-          </p>
           <sp who="#tarkocz">
             <speaker>TARKÓCZ.</speaker>
             <stage>(Baloldalról jő, kezében hegedű, öblös, gerezdes hátu szerszám,
@@ -2787,9 +2752,7 @@
         </div>
         <div type="scene">
           <head type="title">III. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Levente.</stage>
-          </p>
+          <stage>Elébbiek. Levente.</stage>
           <sp who="#levente">
             <speaker>LEVENTE.</speaker>
             <stage>(A sátorok felől jön.)</stage>
@@ -3219,9 +3182,7 @@
         </div>
         <div type="scene">
           <head type="title">III. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Regehű.</stage>
-          </p>
+          <stage>Elébbiek. Regehű.</stage>
           <sp who="#regehu">
             <speaker>REGEHŰ.</speaker>
             <stage>(Feje fátyollal takarva, mely sarkig leér, öltözete ibolyaszín, a
@@ -3357,10 +3318,8 @@
             <stage>(Átöleli, megcsókolja fiát, vállára kapcsolja a hímes
                                 köntöst.)</stage>
           </sp>
-          <p>
-            <stage>(A magasban hattyú repül végig, mélabús hangon kiáltozva alá:
+          <stage>(A magasban hattyú repül végig, mélabús hangon kiáltozva alá:
                                 «várj! várj! várj!»)</stage>
-          </p>
           <sp who="#tarkocz">
             <speaker>TARKÓCZ.</speaker>
             <lg>
@@ -3416,9 +3375,7 @@
               <l>Kinek most a földön ülni volna dolga?<note type="critic">Gyászszertartás a Mózes hitüeknél.</note></l>
             </lg>
           </sp>
-          <p>
-            <stage>(Jahel elé siet, az várja, nézi.)</stage>
-          </p>
+          <stage>(Jahel elé siet, az várja, nézi.)</stage>
           <sp who="#tarkocz">
             <speaker>TARKÓCZ.</speaker>
             <lg>
@@ -3463,11 +3420,8 @@
         </div>
         <div type="scene">
           <head type="title">IV. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, Jahel.</stage>
-          </p>
-          <p>
-            <stage>Jahel. (Viselete: fején kerek ezüst sisak, hátul lefüggő lánczokkal,
+          <stage>Elébbiek, Jahel.</stage>
+          <stage>Jahel. (Viselete: fején kerek ezüst sisak, hátul lefüggő lánczokkal,
                                 melyek haját takarják, derekán feszes szarvasbőr balidó,[83] vállain
                                 hegyes végü csészealakú védők, keblén ezüst pánczél, hasonló domború
                                 védőkkel; csipőjén ezüst öv, melyről az egyenes kard kettős lánczon
@@ -3480,7 +3434,6 @@
                                 magyaros himzésekkel, két oldalt csipőig felhasítva (a lovaglás
                                 végett), a szélek boglárokkal összekapcsolva, lábain piros csizmák,
                                 egyenes sarkantyúkkal.)</stage>
-          </p>
           <sp who="#jahel">
             <speaker>JAHEL.</speaker>
             <stage>(Balról jő sietve.)</stage>
@@ -3841,7 +3794,7 @@
               <l>- Ne féltsd őket! Szépek voltak. Nem vesznek el.</l>
             </lg>
           </sp>
-          <p>(Künn kürt riad.)</p>
+          <stage>(Künn kürt riad.)</stage>
           <sp who="#levente">
             <speaker>LEVENTE.</speaker>
             <lg>
@@ -3853,9 +3806,7 @@
         </div>
         <div type="scene">
           <head type="title">V. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Dancs.</stage>
-          </p>
+          <stage>Elébbiek. Dancs.</stage>
           <sp who="#dancs">
             <speaker>DANCS.</speaker>
             <stage>(Balról bejön.)</stage>
@@ -3886,9 +3837,7 @@
               <l>Most száll le a magyar ősi örökébe.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Kürtösök ősrégi indulót fújnak.)</stage>
-          </p>
+          <stage>(Kürtösök ősrégi indulót fújnak.)</stage>
           <sp who="#tana #zila #taho #kerencs #sudar #dancs #ijaszok">
             <speaker>HADNAGYOK. IJÁSZOK.</speaker>
             <stage>(Kézijjaik húrját pengetik, kiáltozva.)</stage>
@@ -3905,21 +3854,15 @@
         <head type="title">HARMADIK FELVONÁS.</head>
         <div type="scene">
           <head type="title">NEGYEDIK SZAKASZ.</head>
-          <p>
-            <stage>A szer.</stage>
-          </p>
+          <stage>A szer.</stage>
           <p>Tájrajz: Ungvár alatti síkság, háttérben a kettős város, bástyafokos falakkal,
                     két oldalt sátorok, középen nagy fejedelmi sátor, az előtt két íjász.</p>
         </div>
         <div type="scene">
           <head type="title">I. JELENÉS.</head>
-          <p>
-            <stage>Magyar nők, leányok.</stage>
-          </p>
-          <p>
-            <stage>(Locsolják az utat pemetével, söprik nyírágakkal, hintik
+          <stage>Magyar nők, leányok.</stage>
+          <stage>(Locsolják az utat pemetével, söprik nyírágakkal, hintik
                             virágokkal.)</stage>
-          </p>
           <sp who="#leanyok">
             <speaker>LEÁNYOK</speaker>
             <stage>(Dalolnak.)</stage>
@@ -3959,22 +3902,16 @@
         </div>
         <div type="scene">
           <head type="title">II. JELENÉS.</head>
-          <p>
-            <stage>Árpád, vezérek, Levente, Jutócs, Tarkócz,
+          <stage>Árpád, vezérek, Levente, Jutócs, Tarkócz,
                         Jahel, Gönczöl.</stage>
-          </p>
-          <p>
-            <stage>(Lóháton vonulnak keresztül a háttérben, kürt szó mellett, ott
+          <stage>(Lóháton vonulnak keresztül a háttérben, kürt szó mellett, ott
                             lovaikról leszállva jobbrul visszajönnek, Árpád, vezérek fejedelmi
                             sátorba mennek.)</stage>
-          </p>
         </div>
         <div type="scene">
           <head type="title">III. JELENÉS.</head>
-          <p>
-            <stage>Négy kürtös, négy zászlóvivő, Levente,
+          <stage>Négy kürtös, négy zászlóvivő, Levente,
                             Jutócs, Tarkócz, Jahel.</stage>
-          </p>
           <sp who="#kurtosok">
             <speaker>NÉGY KÜRTÖS.</speaker>
             <stage>(Kürtöt fújva jön elől.)</stage>
@@ -3990,10 +3927,8 @@
         </div>
         <div type="scene">
           <head type="title">IV. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Árpád, vezérek,
+          <stage>Elébbiek. Árpád, vezérek,
                             Tivatulus.</stage>
-          </p>
           <sp who="#tivatulus">
             <speaker>TIVATULUS.</speaker>
             <stage>(Kürtjébe fúj.)</stage>
@@ -4006,7 +3941,7 @@
             <speaker>VEZÉREK.</speaker>
             <stage>(Paizsra emelve Árpádot, kihozzák a sátorból.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Kezében kivont kard.)</stage>
           </sp>
@@ -4020,7 +3955,7 @@
               <l>Magyar hazára találj.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Kardjával a hármas napvágást suhintja.)</stage>
           </sp>
@@ -4028,7 +3963,7 @@
             <speaker>VEZÉREK.</speaker>
             <stage>(Térdeikre eresztik a paizst Árpáddal.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Leszáll a paizsról a földre.)</stage>
           </sp>
@@ -4044,7 +3979,7 @@
               <l>Az elfoglalt új hazában.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>S én igérem, hogy megtartom</l>
@@ -4083,7 +4018,7 @@
                                 részesüljünk.</l>
             </lg>
           </sp>
-          <sp who="#tas #szabolcs #gyula #kund #tohotom #arpad">
+          <sp who="#tas #szabolcs #gyula #kund #tohotom #arpad_fejedelem">
             <speaker>VEZÉREK, ÁRPÁD.</speaker>
             <stage>(Egyszerre.)</stage>
             <lg>
@@ -4099,7 +4034,7 @@
                                 tanácsából, ország kormányából.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Esküm állja!</l>
@@ -4128,7 +4063,7 @@
               <l>Ki ezen szert megtörné, örökátok érje fejét.</l>
             </lg>
           </sp>
-          <sp who="#tas #szabolcs #gyula #kund #tohotom #arpad">
+          <sp who="#tas #szabolcs #gyula #kund #tohotom #arpad_fejedelem">
             <speaker>VEZÉREK, ÁRPÁD.</speaker>
             <stage>(Egyszerre.)</stage>
             <lg>
@@ -4143,14 +4078,14 @@
                                 felfegyverkezve: a ki elmaradna, feje ketté hasíttassék.</l>
             </lg>
           </sp>
-          <sp who="#tas #szabolcs #gyula #kund #tohotom #arpad">
+          <sp who="#tas #szabolcs #gyula #kund #tohotom #arpad_fejedelem">
             <speaker>VEZÉREK, ÁRPÁD.</speaker>
             <stage>(Egyszerre.)</stage>
             <lg>
               <l>Esküszünk rá.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Hallottátok? Jól megértettétek?</l>
@@ -4163,7 +4098,7 @@
               <l>Vérünkkel ezt meg is erősitjük.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Hozzátok az áldozatserleget,</l>
@@ -4175,7 +4110,7 @@
             <stage>(Előhozzák az ezüst háromlábút, rajta szerecsendió [kókusz]
                             kehelylyel.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Tőrével karján felül sebet ejt, vérét a serlegbe hullatja.)</stage>
           </sp>
@@ -4198,7 +4133,7 @@
               <l>Mig sziv dobog, nincsen vége.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Gönczöl hivem, most vedd írónádad</l>
@@ -4214,10 +4149,8 @@
         </div>
         <div type="scene">
           <head type="title">V. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, Upolet, Apor,
+          <stage>Elébbiek, Upolet, Apor,
                         Ugron.</stage>
-          </p>
           <sp who="#upolet">
             <speaker>UPOLET.</speaker>
             <stage>(Kezében hosszú egyenes kardot hoz.)</stage>
@@ -4226,7 +4159,7 @@
               <l>Hogy vérünket a ti véretekhez adjuk.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Ki népei vagytok?</l>
@@ -4255,10 +4188,8 @@
               <l>Kivel nagy ükapánk annyi diadalt vett.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Átadja a kardot Árpádnak.)</stage>
-          </p>
-          <sp who="#arpad">
+          <stage>(Átadja a kardot Árpádnak.)</stage>
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Átveszi a kardot.)</stage>
             <lg>
@@ -4282,7 +4213,7 @@
             <speaker>HORKÁZ.</speaker>
             <stage>(Körülhordja a kardot, melyet minden fegyveres megcsókol.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Rabonbánokhoz.)</stage>
             <lg>
@@ -4330,7 +4261,7 @@
               <l>Idegen istenek nem <hi rend="italic">vegyegnek</hi><note type="critic">Kószálnak. Orbán Balázsnál.</note> nálunk.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Téged, Gönczöl hivem, megteszlek «kincs-úr»-nak</l>
@@ -4363,7 +4294,7 @@
               <l><stage>(Árpádhoz.)</stage> Ezen emeltünk fel; ezt emeld magasra!</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Átveszi a czímeres paizst, Kusidkunhoz.)</stage>
             <lg>
@@ -4373,10 +4304,8 @@
         </div>
         <div type="scene">
           <head type="title">VI. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Privina, tót
+          <stage>Elébbiek. Privina, tót
                         követek.</stage>
-          </p>
           <sp who="#privina #tot_kovetek">
             <speaker>PRIVINA ÉS HÁROM TÓT KÖVET.</speaker>
             <stage>(Bejönnek, fejükön hoznak kosarat, vedret, korsót.)</stage>
@@ -4397,7 +4326,7 @@
             <speaker>HÁROM TÓT KÖVET.</speaker>
             <stage>(Lerakja kosarát, csebrét, korsóját Árpád elé.)</stage>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>No hát tudjátok meg, jámbor morva knézek,</l>
@@ -4413,7 +4342,7 @@
               <l>Nyerget, kantárt, zablát dobálunk a Vágba.</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <lg>
               <l>Az nem nekünk lesz baj. A leütött lovon</l>
@@ -4428,7 +4357,7 @@
               <l>Igazság ez aztán, Árpád fejedelem?</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Legyetek nyugodtak, jámbor tót követek.</l>
@@ -4452,7 +4381,7 @@
               <l>A ki szolga, szolga. Král beszél. Te hallgass!</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Nem jöttem én ide, mint Etele ősöm,</l>
@@ -4479,7 +4408,7 @@
               <l>Hej Árpád, csak ezer esztendeig élnél!</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Én a magam népét, száznyolcz nemzetségét</l>
@@ -4533,7 +4462,7 @@
               <l>Tűzhöz ne küldj vizet; mert bizony eloltja.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Tegyük hát ezt félre, egy boldogabb napra.</l>
@@ -4581,7 +4510,7 @@
                                     Orbán B. Ipolyi.</note> magától lusta hüvelyéből.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Csak hagyd hüvelyében. Még nincs itt a napja.</l>
@@ -4633,7 +4562,7 @@
               <l>- Árpád fejedelem, engedj megszólalnom.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Fiamnak özvegye, sorod van a szóhoz.</l>
@@ -4659,10 +4588,8 @@
         </div>
         <div type="scene">
           <head type="title">VII. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Illangó, Szemőke,
+          <stage>Elébbiek. Illangó, Szemőke,
                             Délibáb.</stage>
-          </p>
           <sp who="#delibab #illango #szemoke">
             <speaker>DÉLIBÁB. ILLANGÓ. SZEMŐKE.</speaker>
             <stage>(Bejönnek jobbról. A Délibáb fejét takaró pillangós fátyol által
@@ -4881,7 +4808,7 @@
               <l>Azért jöttünk hozzád, hogy ezt hírül adjuk.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Fiam lett! újszülött! Vezérim! Halljátok?</l>
@@ -4896,7 +4823,7 @@
               <l>Hogy Regehű asszony fiat szűlt Árpádnak.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Nevet a fiamnak!</l>
@@ -4933,7 +4860,7 @@
               <l>Ő a nap-istené!</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Az újszülött fiu bizony az «anyjáé».</l>
@@ -5000,7 +4927,7 @@
               <l>Elmegyek követnek Marót udvarába.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Akkor a kezedbe adom ezt a <hi rend="italic">ratánt</hi><note type="critic">Zászló régi magyar neve. Ipolyi.</note></l>
@@ -5136,7 +5063,7 @@
               <l>Hogy kardot nem húzok a te bátyád ellen.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Jó Levente fiam, én hát elbocsátlak</l>
@@ -5149,7 +5076,7 @@
               <l>Engem is?</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Téged is. Mind e mai napig</l>
@@ -5173,7 +5100,7 @@
               <l>Így szerzé Ábrahám fiának Rebekkát.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Gönczöl apót küldöm melletted násznagyul,</l>
@@ -5222,7 +5149,7 @@
             <stage>(Karjaikat egymáséba öltve, Délibáb fátyolával betakarózva, jobbra
                             eltávoznak.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>ÉS most Lehel vezér fújd meg azt a kürtöt,</l>
@@ -5236,29 +5163,21 @@
               <l><hi rend="italic">Lesz erős a gyermek; minket is az tett meg.</hi><note type="critic">Ipolyinál.</note></l>
             </lg>
           </sp>
-          <p>
-            <stage>(Künn nagy kürtzengés.)</stage>
-          </p>
-          <p>
-            <stage>(Vége a III. felvonásnak, 4. szakasznak.)</stage>
-          </p>
+          <stage>(Künn nagy kürtzengés.)</stage>
+          <stage>(Vége a III. felvonásnak, 4. szakasznak.)</stage>
         </div>
       </div>
       <div type="act">
         <head type="title">NEGYEDIK FELVONÁS.</head>
         <div type="scene">
           <head type="title">ÖTÖDIK SZAKASZ.</head>
-          <p>
-            <stage>Marót udvarában.</stage>
-          </p>
+          <stage>Marót udvarában.</stage>
           <p>Tájrajz: Ungvár alatti síkság, háttérben a kettős város, bástyafokos falakkal,
                     két oldalt sátorok, középen nagy fejedelmi sátor, az előtt két íjász.</p>
         </div>
         <div type="scene">
           <head type="title">I. JELENÉS.</head>
-          <p>
-            <stage>Magyar nők, leányok.</stage>
-          </p>
+          <stage>Magyar nők, leányok.</stage>
           <p>Még most is «Bihar országnak» híják azt a területet, mely fölött Marót, kazár
                         csakán (chagan) uralkodott Árpád magyarjainak bejövetele idejében; de
                         azonkivül kiterjedt a birtoklása Szabolcs, Szathmár vármegyékre, s az egész
@@ -5328,9 +5247,7 @@
         </div>
         <div type="scene">
           <head type="title">I. JELENÉS.</head>
-          <p>
-            <stage>Bagó. Czikás.</stage>
-          </p>
+          <stage>Bagó. Czikás.</stage>
           <sp who="#bago">
             <speaker>BAGÓ.</speaker>
             <stage>(Összegyűrt gubáján ül a földön, dudáját nyekegteti a Czikás
@@ -5382,9 +5299,7 @@
         </div>
         <div type="scene">
           <head type="title">II. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Kurut.</stage>
-          </p>
+          <stage>Elébbiek. Kurut.</stage>
           <sp who="#kurut">
             <speaker>Kurut.</speaker>
             <stage>(Idomtalan alak, elől-hátul púpos, zöld és veres csíkos
@@ -5455,28 +5370,24 @@
           <sp who="#kurut">
             <speaker>KURUT.</speaker>
             <stage>(Kinéz az ablakon.)</stage>
-          </sp>
-          <p>Jönnek már a bagolyrugta czenkek! Hogy a taplóevő dromó ördög tekerje
-                            hátra felé a fejüket! S még nekem kell őket abajgatnom a szarvuknál
-                            fogva. Itt jönnek már. Elől a vezérfiak. Hej micsoda hórihorgas az az
-                            egyik, sarkantyú a lábán, mint a kakasnak, nagy bolond kard az oldalán.
-                            A gúnyája csupa vászon, nagy bolond rókabőr a vállán; soha sem láttam
-                            ekkora rókát; a fején ezüst bogrács lúdtoll seprüvel; az öcscse elkelne
-                            a geinai vásáron leánynak; az meg hegedűt hoz görbe vonóval. Hátul jön a
-                            púpos, utána két csámpás, rézturbát czepelve. Az tele van vassal. A
-                            magyaroknak nincs másféle pénzük: csak a gologányuk.<note type="critic">Őskori négyfilléres. Szinnyei.</note> Annak a púposnak a púpjában
-                            van a többinek az esze. A mint hogy nálunk is úgy van. No szaladjatok
-                            már! Oda kinn tágasabb.</p>
-          <p>
+            <p>Jönnek már a bagolyrugta czenkek! Hogy a taplóevő dromó ördög tekerje
+							hátra felé a fejüket! S még nekem kell őket abajgatnom a szarvuknál
+							fogva. Itt jönnek már. Elől a vezérfiak. Hej micsoda hórihorgas az az
+							egyik, sarkantyú a lábán, mint a kakasnak, nagy bolond kard az oldalán.
+							A gúnyája csupa vászon, nagy bolond rókabőr a vállán; soha sem láttam
+							ekkora rókát; a fején ezüst bogrács lúdtoll seprüvel; az öcscse elkelne
+							a geinai vásáron leánynak; az meg hegedűt hoz görbe vonóval. Hátul jön a
+							púpos, utána két csámpás, rézturbát czepelve. Az tele van vassal. A
+							magyaroknak nincs másféle pénzük: csak a gologányuk.<note type="critic">Őskori négyfilléres. Szinnyei.</note> Annak a púposnak a púpjában
+							van a többinek az esze. A mint hogy nálunk is úgy van. No szaladjatok
+							már! Oda kinn tágasabb.</p>
             <stage>(Csapkodójával kiveri Bagót és Czikást.)</stage>
-          </p>
+          </sp>
         </div>
         <div type="scene">
           <head type="title">III. JELENÉS.</head>
-          <p>
-            <stage>Kurut, Levente, Tarkócz, Gönczöl, két
+          <stage>Kurut, Levente, Tarkócz, Gönczöl, két
                                 csatlós.</stage>
-          </p>
           <sp who="#levente">
             <speaker>LEVENTE.</speaker>
             <stage>(Kuruthoz.)</stage>
@@ -5665,9 +5576,7 @@
               <l>Nem tudod azt hajasan, kopaszon is bajosan.<note type="footnote">Régi szójárás. J. M.</note></l>
             </lg>
           </sp>
-          <p>
-            <stage>(Hátra vonul.)</stage>
-          </p>
+          <stage>(Hátra vonul.)</stage>
           <sp who="#gonczol">
             <speaker>GÖNCZÖL.</speaker>
             <stage>(Leventéhez, Tarkóczhoz.)</stage>
@@ -5696,15 +5605,13 @@
               <l>No de ügyeljetek, kezdik a hajczihőt.</l>
             </lg>
           </sp>
-          <p>(Künn zene szól.)</p>
+          <stage>(Künn zene szól.)</stage>
         </div>
         <div type="scene">
           <head type="title">IV. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, Igreczesek, Kürtösök,
+          <stage>Elébbiek, Igreczesek, Kürtösök,
                                 Czifrák, Geisák, Paszkonczák, garabonczok, tömlősök, őrpaták,
                                 törpék, legyezősök.</stage>
-          </p>
           <sp who="#kurut">
             <speaker>KURUT.</speaker>
             <lg>
@@ -5882,7 +5789,7 @@
               <l>Itt húznak előtte már a legyezősök.</l>
             </lg>
           </sp>
-          <sp who="#legyezosok">
+          <sp who="#legyezok">
             <speaker>LEGYEZŐSÖK.</speaker>
             <stage>(Leányok hosszúnyelű pávafark legyezőkkel.)</stage>
           </sp>
@@ -5902,11 +5809,9 @@
         </div>
         <div type="scene">
           <head type="title">V. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, Marót, Csombord,
+          <stage>Elébbiek, Marót, Csombord,
                                 Czimborák.</stage>
-          </p>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>Marót.<note type="editorial">sh.</note>
             </speaker>
             <stage>(Viselete: öreg ember, hosszú ősz szakállal, mely közé
@@ -5932,11 +5837,11 @@
             <speaker>CZIMBORÁK.</speaker>
             <stage>(Csombordot kisérik. Mind hosszú szoknyát viselnek.)</stage>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Fellép a trón lépcsőin, leül.)</stage>
           </sp>
-          <sp who="#legyezosok">
+          <sp who="#legyezok">
             <speaker>LEGYEZŐSÖK.</speaker>
             <stage>(Két felől a trón mellé állnak.)</stage>
           </sp>
@@ -5977,7 +5882,7 @@
               <l>Istentelenek! A napnak parancsolnak!</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Kuruthoz.)</stage>
             <lg>
@@ -5991,7 +5896,7 @@
               <l>Megtettem.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Feltartja a serleget.)</stage>
             <lg>
@@ -6019,7 +5924,7 @@
             <speaker>CZIMBORÁK.</speaker>
             <stage>(Félrevonulva a jobb oldali tornáczba.)</stage>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Kuruthoz.)</stage>
             <lg>
@@ -6033,7 +5938,7 @@
               <l>A talpukon állnak, ha szembe beszélnek.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>No hát veress nekik a talpukra százat,</l>
@@ -6055,7 +5960,7 @@
               <l>Harmadik, a púpos, a násznagy, a Gönczöl.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Hahhó! Hát te vagy itt daliás Levente?</l>
@@ -6095,7 +6000,7 @@
               <l>Mikor még Etelközt neveztük hazánknak.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Hallottam, Levente, a miket elmondtál.</l>
@@ -6121,7 +6026,7 @@
               <l>Kivel mind a ketten estek szerelembe.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Lányom van nekem négy, mind a négy eladó.</l>
@@ -6136,13 +6041,9 @@
         </div>
         <div type="scene">
           <head type="title">V. JELENÉS</head>
-          <p>
-            <stage><note type="editorial">sh.</note></stage>
-          </p>
-          <p>
-            <stage>Elébbiek. Bűvellő, Illangó, Szemőke,
+          <stage><note type="editorial">sh.</note></stage>
+          <stage>Elébbiek. Bűvellő, Illangó, Szemőke,
                             Délibáb.</stage>
-          </p>
           <sp who="#buvello #illango #szemoke #delibab">
             <speaker>NÉGY KIRÁLYLEÁNY.</speaker>
             <stage>(Bő palástokba burkolva, fejök fátyollal takarva, melynek
@@ -6210,7 +6111,7 @@
             <speaker>IGRECZESEK.</speaker>
             <stage>(Zenebonáznak.)</stage>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>No hát rátaláltál választott arádra.</l>
@@ -6225,7 +6126,7 @@
               <l>Holtigtartó igaz örök hűségemet.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Jajh! vitéz Levente! Ez szófia beszéd!</l>
@@ -6244,7 +6145,7 @@
               <l>Bársonyba ruházom.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Erre mind azt mondjuk:</l>
@@ -6307,7 +6208,7 @@
               <l>Soha el nem hagyom.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Jól van! Ez hát jó lesz mind a menyasszonynak</l>
@@ -6326,7 +6227,7 @@
               <l>Ugyanannyi tevét.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Te ravasz bolond vagy!</l>
@@ -6347,10 +6248,8 @@
         </div>
         <div type="scene">
           <head type="title">VII. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek.
+          <stage>Elébbiek.
                             Bokolábrások.</stage>
-          </p>
           <sp who="#bokolabrasok">
             <speaker>BOKOLÁBRÁSOK.</speaker>
             <stage>(Fehér palástban, simára borotvált kopasz, csupasz fővel,
@@ -6412,7 +6311,7 @@
             <speaker>BOKOLÁBRÁSOK.</speaker>
             <stage>(Hátravonulnak.)</stage>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Hírhozó magyarok, halljátok meg szómat,</l>
@@ -6471,7 +6370,7 @@
               <l>A szemedbe mondott puczér igazságot.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Úgy kaczag, hogy a hasát tartja két kezével.)</stage>
             <lg>
@@ -6489,7 +6388,7 @@
               <l>Maga szántából jön a vőlegényével.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Megállj még egy szóra, te vén bohó Gönczöl!</l>
@@ -6517,7 +6416,7 @@
               <l><stage>(Az ezüst és arany pénzt Marót kezébe teszi.)</stage></l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Ezzel a pupossal nem jó újjat húzni!</l>
@@ -6978,10 +6877,8 @@
               <l>Szádból is kiássa.»</l>
             </lg>
           </sp>
-          <p>
-            <stage>Tömlősök töltögetik a bort az uraknak a kupákba, az igreczeseknek, siposoknak
+          <stage>Tömlősök töltögetik a bort az uraknak a kupákba, az igreczeseknek, siposoknak
                         a kecskebőr tömlő csülökcsapjából egyenesen a szájukba.<note type="footnote">A hogy manapság is teszik a szamarkándi vásáron. J. M.</note></stage>
-          </p>
           <sp who="#levente">
             <speaker>LEVENTE.</speaker>
             <stage>(Feláll a lóczáról, kupát emelve.)</stage>
@@ -7002,14 +6899,14 @@
               <l>Ezt a kupát az én ipam, a nagy Marót csakán egészségére.</l>
             </lg>
           </sp>
-          <sp who="#?">
+          <sp who="#">
             <speaker>FÉRFIAK, LEÁNYOK.</speaker>
             <stage>(Egymással koczintanak.)</stage>
             <lg>
               <l>Hajtsd! hajtsd! Fenékig kihajtsd!</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Feláll székéből, serleggel kezében.)</stage>
             <lg>
@@ -7022,21 +6919,19 @@
               <l>Állok elébe.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Ezt a serleget az én nászom Árpád fejedelem egészségére!</l>
             </lg>
           </sp>
-          <sp who="#?">
+          <sp who="#">
             <speaker>MIND.</speaker>
             <lg>
               <l>Hajtsd, hajtsd, fenékig kihajtsd!</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Igreczesek minden áldomásnál tust húznak.)</stage>
-          </p>
+          <stage>(Igreczesek minden áldomásnál tust húznak.)</stage>
           <sp who="#tarkocz">
             <speaker>TARKÓCZ.</speaker>
             <stage>(Kancsót emelve.)</stage>
@@ -7061,7 +6956,7 @@
               <l>Egy csepp kevés, annyi sem maradt hát benne.</l>
             </lg>
           </sp>
-          <sp who="#?">
+          <sp who="#">
             <speaker>MIND.</speaker>
             <lg>
               <l>Hajtsd, hajtsd, fenékig kihajtsd!</l>
@@ -7074,7 +6969,7 @@
               <l>Apám, Marót csakán, szállok kendnek!</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Haragba jön.)</stage>
             <lg>
@@ -7090,7 +6985,7 @@
               <l>Magyarok virága, Levente javára!</l>
             </lg>
           </sp>
-          <sp who="#?">
+          <sp who="#">
             <speaker>MIND.</speaker>
             <lg>
               <l>Hajtsd, hajtsd, fenékig kihajtsd!</l>
@@ -7170,7 +7065,7 @@
                             módra egymás ellen rontanak, a csörgős csuklyát egymás fejéről
                             letaszítani törekednek.)</stage>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Kaczag a lyükik tréfáján.)</stage>
             <lg>
@@ -7243,7 +7138,7 @@
             <stage>(Lánczra kötött medvét körül tánczoltatja, hosszú czelőkéjét elébe
                             tartva, azon átugratja.)</stage>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Jól van maczkó! Jól ugrottál!</l>
@@ -7262,7 +7157,7 @@
             <stage>(Kikapja a medvés kezéből a husángot s most már azt keringetteti a
                             láncznál fogva maga körül s ugráltatja a fustélyon keresztül.</stage>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Hahotával kaczag.)</stage>
             <lg>
@@ -7417,7 +7312,7 @@
             <lg>
               <l>Fogd be a szád púpos! Eredj a zugolyba!</l>
               <l>Ne irigyeld el a más gyönyörüségét!</l>
-              <l/>
+              <l></l>
             </lg>
           </sp>
           <sp who="#kurut">
@@ -7435,7 +7330,7 @@
               <l><stage>(Marót felé fordul.)</stage></l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Elaludt már, a sellyéről félig ledülve, fejét az egyik, lábait a
                             másik legyezős leány ölébe nyugtatva.)</stage>
@@ -7794,7 +7689,7 @@
                                     húz vele a hegedű húrjain, ugrál, hadar és hegedűl.)</stage></l>
             </lg>
           </sp>
-          <sp who="#?">
+          <sp who="#">
             <speaker>MIND.</speaker>
             <stage>(Futnak ki a teremből.)</stage>
           </sp>
@@ -7867,9 +7762,7 @@
             <speaker>LEVENTE, DÉLIBÁB, TARKÓCZ, GÖNCZÖL.</speaker>
             <stage>(Jobbfelől elsietnek.)</stage>
           </sp>
-          <p>
-            <stage>(Vége a IV. felvonásnak, 5. szakasznak.)</stage>
-          </p>
+          <stage>(Vége a IV. felvonásnak, 5. szakasznak.)</stage>
         </div>
       </div>
       <div type="act">
@@ -7887,10 +7780,8 @@
         </div>
         <div type="scene">
           <head type="title">I. JELENÉS.</head>
-          <p>
-            <stage>Gönczöl, aztán Délibáb, fenn az
+          <stage>Gönczöl, aztán Délibáb, fenn az
                                 őrtoronyban egy kürtös.</stage>
-          </p>
           <sp who="#gonczol">
             <speaker>GÖNCZÖL.</speaker>
             <stage>(Balról bejön, a vadászlak ajtaján bekopogtat.)</stage>
@@ -7934,9 +7825,7 @@
         </div>
         <div type="scene">
           <head type="title">II. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek, dárdások.</stage>
-          </p>
+          <stage>Elébbiek, dárdások.</stage>
           <sp who="#dardasok">
             <speaker>DÁRDÁSOK.</speaker>
             <stage>(Bejönnek, az őrtorony baloldali kapuján bemennek, beviszik
@@ -7958,10 +7847,8 @@
         </div>
         <div type="scene">
           <head type="title">III. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Arató
+          <stage>Elébbiek. Arató
                             leányok.</stage>
-          </p>
           <sp who="#arato_leanyok">
             <speaker>ARATÓ LEÁNYOK.</speaker>
             <stage>(Végig vonulnak, dalolva, vállukon gereblye.)</stage>
@@ -8106,9 +7993,7 @@
         </div>
         <div type="scene">
           <head type="title">IV. JELENÉS.</head>
-          <p>
-            <stage>Délibáb, Jahel.</stage>
-          </p>
+          <stage>Délibáb, Jahel.</stage>
           <sp who="#jahel">
             <speaker>JAHEL.</speaker>
             <stage>(Jön jobbról, karikás ostor kezében.)</stage>
@@ -8249,10 +8134,8 @@
         </div>
         <div type="scene">
           <head type="title">V. JELENÉS.</head>
-          <p>
-            <stage>Délibáb, Jahel, Levente,
+          <stage>Délibáb, Jahel, Levente,
                             Tahó.</stage>
-          </p>
           <sp who="#levente">
             <speaker>LEVENTE.</speaker>
             <stage>(Vadászöltözetben, medvebőr kaczagánynyal, gerely a kezében,
@@ -8911,15 +8794,11 @@
             <speaker>TAHÓ.</speaker>
             <stage>(Balra el.)</stage>
           </sp>
-          <p>
-            <stage>(Künn hármas kürtszó.)</stage>
-          </p>
+          <stage>(Künn hármas kürtszó.)</stage>
         </div>
         <div type="scene">
           <head type="title">VI. JELENÉS.</head>
-          <p>
-            <stage>Délibáb. Jahel.</stage>
-          </p>
+          <stage>Délibáb. Jahel.</stage>
           <sp who="#delibab">
             <speaker>DÉLIBÁB.</speaker>
             <lg>
@@ -8971,10 +8850,8 @@
               <l>Levente nem húzza ki kardját Csombordra.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Egy hattyú repül át a légben, hangos kiáltással! «várj! várj!
+          <stage>(Egy hattyú repül át a légben, hangos kiáltással! «várj! várj!
                                 várj!»)</stage>
-          </p>
           <sp who="#jahel">
             <speaker>JAHEL.</speaker>
             <stage>(Lekapja tegzét válláról, puzdrájából nyilat von elő.)</stage>
@@ -8993,9 +8870,7 @@
         </div>
         <div type="scene">
           <head type="title">VII. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Levente.</stage>
-          </p>
+          <stage>Elébbiek. Levente.</stage>
           <sp who="#levente">
             <speaker>Levente.<note type="editorial">sh.</note>
             </speaker>
@@ -9081,9 +8956,7 @@
         </div>
         <div type="scene">
           <head type="title">VIII. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Csombord.</stage>
-          </p>
+          <stage>Elébbiek. Csombord.</stage>
           <sp who="#csombord">
             <speaker>Csombord.</speaker>
             <stage>(Pikkelyes pánczélban, hegyes sisakkal a fején, melyről két
@@ -9217,16 +9090,12 @@
               <l>«Sirt» annak, ki gyülöl és idegent imád!</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Künn mindig távolabb elhangzó kürtriadó.)</stage>
-          </p>
+          <stage>(Künn mindig távolabb elhangzó kürtriadó.)</stage>
         </div>
         <div type="scene">
           <head type="title">IX. JELENÉS.</head>
-          <p>
-            <stage>Levente, Délibáb, Jahel,
+          <stage>Levente, Délibáb, Jahel,
                                 Büvellő.</stage>
-          </p>
           <sp who="#buvello">
             <speaker>Büvellő.</speaker>
             <stage>(Feljön az őrtorony hátulsó hágcsóján, fején szürke fátyol,
@@ -9490,18 +9359,14 @@
               <l>Rettenetes haza szörnyeteg szerelme!</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Vége a 6. szakasznak.)</stage>
-          </p>
+          <stage>(Vége a 6. szakasznak.)</stage>
         </div>
       </div>
       <div type="act">
         <head type="title">ÖTÖDIK FELVONÁS.</head>
         <div type="scene">
           <head type="title">HETEDIK SZAKASZ.</head>
-          <p>
-            <stage>Zomotor és nász.</stage>
-          </p>
+          <stage>Zomotor és nász.</stage>
           <p>Tájkép: Az alpári síkság, távolban a kanyargó Tisza, fűzzel, fehér nyárfával
                         benőtt partja; közepén egy halom közepébe épített czölöpsír, a minő látható
                         Abauj megyében a hegytetőn. Elől nagy kapuja van, keresztberótt gerendákból,
@@ -9513,10 +9378,8 @@
         </div>
         <div type="scene">
           <head type="title">I. JELENÉS.</head>
-          <p>
-            <stage>Ijászok, leányok, őrök, majd
+          <stage>Ijászok, leányok, őrök, majd
                                 Jahel.</stage>
-          </p>
           <sp who="#gonczol #ijaszok">
             <speaker>Gönczöl, Ijászok.</speaker>
             <stage>(Egész csapattal a czölöpsír balján felállnak, puzdrával,
@@ -9622,11 +9485,9 @@
         </div>
         <div type="scene">
           <head type="title">II. JELENÉS.</head>
-          <p>
-            <stage>Jahel, Marót, Estilla,
+          <stage>Jahel, Marót, Estilla,
                                 Gönczöl.</stage>
-          </p>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>Marót.</speaker>
             <stage>(Szürke öltönyben, fején szürke kalpag, fátyollal, kezében arany
                                 csákányfejü bot, tapogatózva jön, Estilla kezét fogva.)</stage>
@@ -9635,7 +9496,7 @@
             <speaker>ESTILLA.</speaker>
             <stage>(Négy éves lányka, Marótot vezeti.)</stage>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Gönczölhöz.)</stage>
             <lg>
@@ -9648,7 +9509,7 @@
               <l>Árpád udvarában.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Mondd neki, Árpádnak, a fejedelemnek.</l>
@@ -9665,7 +9526,7 @@
               <l>Halottat kisérnek: nagy zomotor készül.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Ugy? ugy! A zomotor! Én is arra jöttem.</l>
@@ -9682,7 +9543,7 @@
               <l>No hát itt egy asszony, a ki nem tud sirni!</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Ki vagy te? Hogy hínak? Magas vagy, azt hallom.</l>
@@ -9710,7 +9571,7 @@
               <l>Míg fiát temetik. Szive ne szakadjon.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <stage>(Jahel kezébe adja Estilla kezét.)</stage>
             <lg>
@@ -9725,9 +9586,7 @@
         </div>
         <div type="scene">
           <head type="title">III. JELENÉS.</head>
-          <p>
-            <stage>A halottas menet.</stage>
-          </p>
+          <stage>A halottas menet.</stage>
           <sp who="#kurtosok">
             <speaker>KÜRTÖSÖK.</speaker>
             <stage>(Jönnek legelől, gyászindulót fújva.)</stage>
@@ -9792,7 +9651,7 @@
             <stage>(Levente pajzsát, kelevézét, tegzét, kürtjét, serlegét hozva
                                 végig vonulnak.)</stage>
           </sp>
-          <p>(Az egész menet a sátorok előtt körül kerüli a czölöpsírt.)</p>
+          <stage>(Az egész menet a sátorok előtt körül kerüli a czölöpsírt.)</stage>
           <sp who="#jahel">
             <speaker>JAHEL.</speaker>
             <stage>(Maróthoz.)</stage>
@@ -9839,7 +9698,7 @@
             <speaker>KÉT CSATLÓS.</speaker>
             <stage>(Vezeti a tokos lovat.)</stage>
           </sp>
-          <sp who="#arpad #tas #szabolcs #gyula #kond #ors #tohotom">
+          <sp who="#arpad_fejedelem #tas #szabolcs #gyula #kond #ors #tohotom">
             <speaker>ÁRPÁD, VEZÉREK.</speaker>
             <stage>(Felvonulnak Levente után, mindegyiknek egy seb látszik a jobb
                                 arczán.)</stage>
@@ -9853,7 +9712,7 @@
               <l>Szálljatok! Szálljatok boldog másvilágba!</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Látom! talán nem is élő szemeimmel.</l>
@@ -9862,19 +9721,19 @@
               <l>Áldásom reátok! Meg ne átkozzatok!</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Ki kiáltoz ottan? Ki az az ősz ember?</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Egy vak koldús, meg egy országtalan király!</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(A vezérekhez.)</stage>
             <lg>
@@ -9928,14 +9787,14 @@
             <stage>(A czölöpsír két oldalán fokossal, buzogánynyal harczjátékot
                                 kezdenek, halottképen elfeküsznek a sír két oldalán.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <stage>(Előre jön.)</stage>
             <lg>
               <l>Ki ez az ősz férfi?</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Nevem Marót csakán.</l>
@@ -9944,25 +9803,25 @@
               <l>A porig leszálltam. Még lejebb is szállok.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Minket nagy csapások tettek egyenlővé.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>A közös gyászfátyol borítja fejünket.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Nekem négy hős fiam halt meg e hazában.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>Nekem négy szép lányom és egyetlen fiam.</l>
@@ -9970,13 +9829,13 @@
               <l>Légy ura Biharnak, váramnak, megyémnek.</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Nem fogadom el már. Meghagylak urának.</l>
             </lg>
           </sp>
-          <sp who="#marot">
+          <sp who="#marot_csakan">
             <speaker>MARÓT.</speaker>
             <lg>
               <l>De majd elfogadod, ha ráadást adok.</l>
@@ -9989,22 +9848,20 @@
         </div>
         <div type="scene">
           <head type="title">IV. JELENÉS.</head>
-          <p>
-            <stage>Elébbiek. Regehű,
+          <stage>Elébbiek. Regehű,
                             Zsolt.</stage>
-          </p>
           <sp who="#estilla #regehu">
             <speaker>ESTILLA, REGEHŰ.</speaker>
             <stage>(Kijő sátorából, Zsoltot jobbján, Estillát balján
                                 vezetve.)</stage>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Hát a mit Halvaél mondott, mind igaz lesz?</l>
             </lg>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <stage>(Árpád elé lép.)</stage>
             <lg>
@@ -10019,7 +9876,7 @@
               <l>S esküszünk, mint neked, ugyanoly hűséget!</l>
             </lg>
           </sp>
-          <sp who="#arpad #tas #szabolcs #gyula #kond #ors #tohotom">
+          <sp who="#arpad_fejedelem #tas #szabolcs #gyula #kond #ors #tohotom">
             <speaker>HÉT VEZÉR.</speaker>
             <stage>(Pajzsra ülteti Zsoltot s feje fölé emeli.)</stage>
             <lg>
@@ -10035,7 +9892,7 @@
               <l>S legyen e nap az eljegyzés napja.</l>
             </lg>
           </sp>
-          <sp who="#arpad #tas #szabolcs #gyula #kond #ors #tohotom">
+          <sp who="#arpad_fejedelem #tas #szabolcs #gyula #kond #ors #tohotom">
             <speaker>HÉT VEZÉR.</speaker>
             <stage>(A pajzst térdeire ereszti alá.)</stage>
           </sp>
@@ -10058,20 +9915,18 @@
               <l>Mikor egy nép örül, anyasziv ne vérezz!</l>
             </lg>
           </sp>
-          <sp who="#arpad #marot">
+          <sp who="#arpad_fejedelem #marot">
             <speaker>ÁRPÁD, MARÓT.</speaker>
             <stage>(Egymás kezét szorítják.)</stage>
           </sp>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <stage>(A kürtösökhöz kiált.)</stage>
             <lg>
               <l>A zomotor után nászdalt kürtöljetek.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Víg kürtharsogás.)</stage>
-          </p>
+          <stage>(Víg kürtharsogás.)</stage>
           <sp who="#leanyok">
             <speaker>LEÁNYOK.</speaker>
             <stage>(Dalolnak.)</stage>
@@ -10083,13 +9938,9 @@
                                     M.</note></l>
             </lg>
           </sp>
-          <p>
-            <stage>Halott táncz.</stage>
-          </p>
-          <p>
-            <stage>Kezdődik a halott táncz. A leányok a sír oldalán fekvő
+          <stage>Halott táncz.</stage>
+          <stage>Kezdődik a halott táncz. A leányok a sír oldalán fekvő
                                 álhalottakat felemelik s körüllejtenek velük.<note type="critic">Ungarischer und dacischer Simplicissimus.</note></stage>
-          </p>
           <sp who="#regehu">
             <speaker>REGEHŰ.</speaker>
             <stage>(A két gyermeket karjaira veszi.)</stage>
@@ -10103,7 +9954,7 @@
               <l>Adj áldást e honra, erre a nemzetre!</l>
             </lg>
           </sp>
-          <sp who="#arpad">
+          <sp who="#arpad_fejedelem">
             <speaker>ÁRPÁD.</speaker>
             <lg>
               <l>Magyarok Istene! Kit mindenütt látunk,</l>
@@ -10118,12 +9969,8 @@
               <l>Uralkodjék benne időtlen időkig.</l>
             </lg>
           </sp>
-          <p>
-            <stage>(Kürtriadó.)</stage>
-          </p>
-          <p>
-            <stage>(Vége.)</stage>
-          </p>
+          <stage>(Kürtriadó.)</stage>
+          <stage>(Vége.)</stage>
         </div>
       </div>
     </body>

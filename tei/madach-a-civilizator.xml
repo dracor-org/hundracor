@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000022">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000022" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,17 +40,20 @@
           <resp>creator</resp>
           <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+          <orgName> Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
-        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        <pubPlace> Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
         <availability>
-          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          <p> CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
           </p>
         </availability>
       </publicationStmt>
@@ -123,38 +124,43 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          <person xml:id="stroom" sex="MALE">
+          <person sex="MALE" xml:id="stroom">
             <persName>STROOM</persName>
           </person>
-          <person xml:id="istvan" sex="MALE">
+          <person sex="MALE" xml:id="istvan">
             <persName>ISTVÁN</persName>
           </person>
-          <person xml:id="jano" sex="MALE">
+          <person sex="MALE" xml:id="jano">
             <persName>JANÓ</persName>
           </person>
-          <person xml:id="uros" sex="MALE">
+          <person sex="MALE" xml:id="uros">
             <persName>UROS</persName>
           </person>
-          <person xml:id="mitrule" sex="MALE">
+          <person sex="MALE" xml:id="mitrule">
             <persName>MITRULE</persName>
           </person>
-          <person xml:id="carlo" sex="MALE">
+          <person sex="MALE" xml:id="carlo">
             <persName>CARLO</persName>
           </person>
-          <person xml:id="miska" sex="MALE">
+          <person sex="MALE" xml:id="miska">
             <persName>MISKA</persName>
           </person>
-          <person xml:id="murzl" sex="FEMALE">
+          <person sex="FEMALE" xml:id="murzl">
             <persName>MÜRZL</persName>
           </person>
-          <person xml:id="cseledek" sex="UNKNOWN">
-            <persName>CSELÉDEK</persName>
-          </person>
-          <person xml:id="kar" sex="UNKNOWN">
-            <persName>KAR</persName>
-          </person>
+          <personGrp sex="UNKNOWN" xml:id="cseledek">
+            <name>CSELÉDEK</name>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="kar">
+            <name>KAR</name>
+          </personGrp>
         </listPerson>
       </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <standOff>
@@ -209,10 +215,8 @@
       </castList>
     </front>
     <body>
-      <div type="scene">
-        <p>
-          <stage>(István bácsi és cselédei mezei munkáról érkeznek.)</stage>
-        </p>
+      <div type="act">
+        <stage>(István bácsi és cselédei mezei munkáról érkeznek.)</stage>
         <sp who="#istvan">
           <speaker>ISTVÁN</speaker>
           <lg>
@@ -512,9 +516,7 @@
             <l>Istállóinkba végzetes lovát.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(Mürzl a fuvarral elmegy, Stroom helyet foglal.)</stage>
-        </sp>
+        <stage>(Mürzl a fuvarral elmegy, Stroom helyet foglal.)</stage>
         <sp who="#stroom">
           <speaker>STROOM</speaker>
           <lg>
@@ -874,9 +876,7 @@
             <l>Jerünk a házba, nézzük a leltárat.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(Mind a házba mennek. István visszatér.)</stage>
-        </sp>
+        <stage>(Mind a házba mennek. István visszatér.)</stage>
         <sp who="#istvan">
           <speaker>ISTVÁN</speaker>
           <lg>
@@ -939,10 +939,8 @@
             <l>Ha jól megy, én csak gondomról tevék le.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(Svábbogarak jőnek hosszú menetben úti málhával, porontyokkal, s ablakon,
+        <stage>(Svábbogarak jőnek hosszú menetben úti málhával, porontyokkal, s ablakon,
                         ajtón a házba mennek.)</stage>
-        </sp>
         <sp who="#kar">
           <speaker>KAR</speaker>
           <lg>
@@ -1005,9 +1003,7 @@
             <l>Ez már nekünk is kezd nem tetszeni.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(Stroom és a cselédek kijőnek a házból.)</stage>
-        </sp>
+        <stage>(Stroom és a cselédek kijőnek a házból.)</stage>
         <sp who="#stroom">
           <speaker>STROOM</speaker>
           <lg>
@@ -1018,10 +1014,8 @@
             <l>Mi az igazság, mit nem ismerétek.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(Az aktákat hozzák s az asztalra halmozzák: Stroom elibek ül és ír. A
+        <stage>(Az aktákat hozzák s az asztalra halmozzák: Stroom elibek ül és ír. A
                         többiek körűle állnak.)</stage>
-        </sp>
         <sp who="#uros">
           <speaker>UROS</speaker>
           <lg>
@@ -1357,7 +1351,7 @@
             <l>De nem jött ingyen - megfizettem érte.</l>
           </lg>
         </sp>
-        <sp who="#mirtule">
+        <sp who="#mitrule">
           <speaker>MIRTULE</speaker>
           <lg>
             <l>Eben gubát cseréltünk, úgy hiszem.</l>
@@ -1877,7 +1871,7 @@
             <l>De még koránt sincs vége.</l>
           </lg>
         </sp>
-        <sp who="#cselédek">
+        <sp who="#cseledek">
           <speaker>CSELÉDEK</speaker>
           <lg>
             <l>Jaj nekünk!</l>
@@ -2003,9 +1997,7 @@
             <l>Hogy lássa e nép, hogy mi a kormányzat.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(A kar el.)</stage>
-        </sp>
+        <stage>(A kar el.)</stage>
         <sp who="#jano">
           <speaker>JANÓ</speaker>
           <lg>
@@ -2043,9 +2035,7 @@
             <l>Nagy terveim már érni kezdenek.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(A kar jő az ökörbőrrel.)</stage>
-        </sp>
+        <stage>(A kar jő az ökörbőrrel.)</stage>
         <sp who="#jano">
           <speaker>JANÓ</speaker>
           <lg>
@@ -2063,9 +2053,7 @@
             <l>Most el, nyugodni ennyi fáradságra!</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(Bemegy a házba a karral.)</stage>
-        </sp>
+        <stage>(Bemegy a házba a karral.)</stage>
         <sp who="#uros">
           <speaker>UROS</speaker>
           <lg>
@@ -2273,9 +2261,7 @@
             <l>Aztán cselekszünk fényes napvilágnál.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(Mind el, kivéve Mürzlt.)</stage>
-        </sp>
+        <stage>(Mind el, kivéve Mürzlt.)</stage>
         <sp who="#murzl">
           <speaker>MÜRZL</speaker>
           <lg>
@@ -2443,9 +2429,7 @@
             <l>A légycsapó legalkalmasb eszköz lesz.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(A házat ostromolják s védik.)</stage>
-        </sp>
+        <stage>(A házat ostromolják s védik.)</stage>
         <sp who="#stroom">
           <speaker>STROOM</speaker>
           <lg>
@@ -2524,10 +2508,8 @@
             <l>Ki hátrál, gyáva, társaim előre.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(István s cselédei bemennek az ablakokon, Stroom és a kar kifut az
+        <stage>(István s cselédei bemennek az ablakokon, Stroom és a kar kifut az
                         ajtón.)</stage>
-        </sp>
         <sp who="#stroom">
           <speaker>STROOM</speaker>
           <lg>
@@ -2545,9 +2527,7 @@
             <l>Ments meg, vagy kamra, pince odavan.</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(István s cselédei is kijőnek.)</stage>
-        </sp>
+        <stage>(István s cselédei is kijőnek.)</stage>
         <sp who="#istvan">
           <speaker>ISTVÁN</speaker>
           <lg>
@@ -2688,7 +2668,7 @@
             <l>Nem úgy, barátim?</l>
           </lg>
         </sp>
-        <sp who="#cselédek">
+        <sp who="#cseledek">
           <speaker>CSELÉDEK</speaker>
           <lg>
             <l>Óh, igen, örökre.</l>
@@ -2722,9 +2702,7 @@
             <l>Ott lesz nékem jobb leni!</l>
           </lg>
         </sp>
-        <sp>
-          <stage>(Függöny.)</stage>
-        </sp>
+        <stage>(Függöny.)</stage>
       </div>
     </body>
   </text>

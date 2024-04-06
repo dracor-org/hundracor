@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000001">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000001" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Szép magyar komédia</title>
-        <title type="sub">Thyrsisnek Angelicával, Sylvanusnak Galateával való szerelmekrül</title>
+        <title type="sub">Thyrsisnek Angelicával, Sylvanusnak Galateával való
+					szerelmekrül</title>
         <author>
           <persName>
             <surname>Balassi</surname>
@@ -68,7 +67,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -184,18 +182,19 @@
           <role><roleName>PROLOGUS</roleName>férfi, az komédiaszerző szólója</role>
         </castItem>
         <castItem>
-          <role><roleName>CREDULUS</roleName>, kinek igazán Thyrsis volna neve, férfiú</role>
+          <role><roleName>CREDULUS</roleName>, kinek igazán Thyrsis volna neve,
+						férfiú</role>
         </castItem>
         <castItem>
-          <role><roleName>JULIA</roleName>, Credulusnak szeretője, kinek igazán Angelica neve,
-            asszony</role>
+          <role><roleName>JULIA</roleName>, Credulusnak szeretője, kinek igazán Angelica
+						neve, asszony</role>
         </castItem>
         <castItem>
           <role><roleName>LICIDA</roleName>, Credulusnak barátja, férfi</role>
         </castItem>
         <castItem>
-          <role><roleName>BRISEIDA</roleName>, Juliának jó barátja, Credulusnak Juliánál szolgálója,
-            asszony</role>
+          <role><roleName>BRISEIDA</roleName>, Juliának jó barátja, Credulusnak Juliánál
+						szolgálója, asszony</role>
         </castItem>
         <castItem>
           <role><roleName>SYLVANUS</roleName>, Credulusnak hitves atyjafia, férfi</role>
@@ -216,184 +215,205 @@
         <head type="title">ELSŐ SZÍN</head>
         <div type="scene">
           <head type="title">ACTUS I. SCENA I.</head>
-          <p>
-            <stage>Credulus szól őmagában az Hajnalnak.</stage>
-          </p>
+          <stage>Credulus szól őmagában az Hajnalnak.</stage>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ó, én veszett fejem! Medgyek immár, ha még piros hajnal is öregbéti, gerjeszti az én
-              keseredett szívemben felgyúlt buzgó nagy szerelmemnek tüzét, midőn reggel az embereket
-              dologra s az barmokat munkára s egyébféle állatokat is s nyájakot az legelő helyekre
-              széllyel fekövő helyekből felserkent s felindít! Ó, szép Hajnal, néked szólok, mert te
-              vagy oka az én fájdalmimnak! Ímé, csak alig setétülnek vala tegnap az odúk, hogy ismét
-              az te világosító piros fényedet kívánom vala látni! De nem tudok mit tenni, mert magam
-              sem tudom, mit kívánjak: az napot avagy étszakát, azmint az szerelem az én búmot
-              öregbéti s enyhéti. Mert éjjel (azmikor már nem látom az én kegyetlen
-              tündérasszonyomnak fene ábrázatját), igaz, hogy nem alhatom akkor, csak
-              nyughatatlankodom, de mindennyi nyughatatlanságomban is ugyan bízom azért, hogy holdá
-              kélve megláthatom az ő áldott személyinek dicsőséges fényét, sőt remélem is, hogy
-              talám immár megelégedvén az én könnyhullatásimmal, kegyesen is fordítja boldogító
-              szemeit reám. Ez ilyen bizodalmomban lévén penig éjjel; azonban reggel, midőn te ismét
-              elérkezel, az csillagokot lassan-lassan elemésztvén, hogy az eget az setétségnek
-              homályából megtisztítod, alig várom, hogy lássam az szép, de igen vad Juliát, az én
-              szívembéli eleven tűznek kegyetlen gyútóját. De látván akkor is, csak szokása szerint
-              néki hozzám kedvetlen voltát s haraggal reám fordult szemeit, nem tudok mit tenni,
-              hanem csak széllyel bujdosom, sírván s fohászkodván, merthogy nyilván látja, hogy noha
-              eléggé epedek s kesergek érette, de mindenképpen megcsalatkozom nappal abban, azmit
-              éjjel felőle remélek. Nincs azért immár semmi reménségem, kivel csak tengethessem s
-              hitegessem is keseredett lelkemet, sőt búm könnyebbségére csak hízelkedni sem tudok
-              immár semminémő gondolattal magamnak, én szegén nyavalyás, mert látom, hogy minden
-              bizodalmom csak héában való, s az én véghetetlen szerelmemnek snincs orvossága,
-              sehonnan, senkitűl semmi jót nem tudok várnom, semmi segítséget. Ó, keserves gonosz
-              szerencse, ó, dicsőült szépség, dühödt kegyetlenség, mely igen nagy szerencsétlen s
-              igen keseredett temiattad az én szarándok árva életem! Ki reméntelen veszélyre jutott
-              igyem! Oda vagyon immár minden örömem, kedvem! Ó, átkozott szerelem, szerelem!</p>
+            <p>Ó, én veszett fejem! Medgyek immár, ha még piros hajnal is öregbéti,
+							gerjeszti az én keseredett szívemben felgyúlt buzgó nagy szerelmemnek
+							tüzét, midőn reggel az embereket dologra s az barmokat munkára s
+							egyébféle állatokat is s nyájakot az legelő helyekre széllyel fekövő
+							helyekből felserkent s felindít! Ó, szép Hajnal, néked szólok, mert te
+							vagy oka az én fájdalmimnak! Ímé, csak alig setétülnek vala tegnap az
+							odúk, hogy ismét az te világosító piros fényedet kívánom vala látni! De
+							nem tudok mit tenni, mert magam sem tudom, mit kívánjak: az napot avagy
+							étszakát, azmint az szerelem az én búmot öregbéti s enyhéti. Mert éjjel
+							(azmikor már nem látom az én kegyetlen tündérasszonyomnak fene
+							ábrázatját), igaz, hogy nem alhatom akkor, csak nyughatatlankodom, de
+							mindennyi nyughatatlanságomban is ugyan bízom azért, hogy holdá kélve
+							megláthatom az ő áldott személyinek dicsőséges fényét, sőt remélem is,
+							hogy talám immár megelégedvén az én könnyhullatásimmal, kegyesen is
+							fordítja boldogító szemeit reám. Ez ilyen bizodalmomban lévén penig
+							éjjel; azonban reggel, midőn te ismét elérkezel, az csillagokot
+							lassan-lassan elemésztvén, hogy az eget az setétségnek homályából
+							megtisztítod, alig várom, hogy lássam az szép, de igen vad Juliát, az én
+							szívembéli eleven tűznek kegyetlen gyútóját. De látván akkor is, csak
+							szokása szerint néki hozzám kedvetlen voltát s haraggal reám fordult
+							szemeit, nem tudok mit tenni, hanem csak széllyel bujdosom, sírván s
+							fohászkodván, merthogy nyilván látja, hogy noha eléggé epedek s kesergek
+							érette, de mindenképpen megcsalatkozom nappal abban, azmit éjjel felőle
+							remélek. Nincs azért immár semmi reménségem, kivel csak tengethessem s
+							hitegessem is keseredett lelkemet, sőt búm könnyebbségére csak
+							hízelkedni sem tudok immár semminémő gondolattal magamnak, én szegén
+							nyavalyás, mert látom, hogy minden bizodalmom csak héában való, s az én
+							véghetetlen szerelmemnek snincs orvossága, sehonnan, senkitűl semmi jót
+							nem tudok várnom, semmi segítséget. Ó, keserves gonosz szerencse, ó,
+							dicsőült szépség, dühödt kegyetlenség, mely igen nagy szerencsétlen s
+							igen keseredett temiattad az én szarándok árva életem! Ki reméntelen
+							veszélyre jutott igyem! Oda vagyon immár minden örömem, kedvem! Ó,
+							átkozott szerelem, szerelem!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS I. SCENA II.</head>
-          <p>
-            <stage>Credulus szól egy barátjával, Licidával.</stage>
-          </p>
+          <stage>Credulus szól egy barátjával, Licidával.</stage>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Mi dolog, társ, Credule, hogy itten keröl mind az te siralmiddal zengenek széllyel az
-              vadon erdők?</p>
+            <p>Mi dolog, társ, Credule, hogy itten keröl mind az te siralmiddal zengenek
+							széllyel az vadon erdők?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Hagyj békét, Istenért kérlek! Ha Isten az te majorságidat minden égiháborútúl
-              megótalmazta, s fejedet sem látta semmi búval-bánattal, kérlek, ne indíts fel az én
-              régi keserőségemet ne kérdd az én siralmimnak okát, mert azzal csak nyitod az én
-              keserőségemnek régi sebeit!</p>
+            <p>Hagyj békét, Istenért kérlek! Ha Isten az te majorságidat minden
+							égiháborútúl megótalmazta, s fejedet sem látta semmi búval-bánattal,
+							kérlek, ne indíts fel az én régi keserőségemet ne kérdd az én
+							siralmimnak okát, mert azzal csak nyitod az én keserőségemnek régi
+							sebeit!</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Sőt annál inkább mondd meg, társ, mert tudod, hogy enheszik embernek bánatja bízott
-              barátival való beszélgetéstől!</p>
+            <p>Sőt annál inkább mondd meg, társ, mert tudod, hogy enheszik embernek
+							bánatja bízott barátival való beszélgetéstől!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ne hidd azt, társ, mert nincs annyi kalász Szent Iván havában, sem Szent Mihály
-              havában annyi szőlőszem, amennyiszer különben tapasztaltam azt én meg énmagamon. De ha
-              ugyan meg akarod érteni az én régi keserves siralmimnak okát, megmondom, azmennyire
-              siralmimtúl s fohászkodásimtúl lehet. Ó, ó, ó, ó, ó!</p>
+            <p>Ne hidd azt, társ, mert nincs annyi kalász Szent Iván havában, sem Szent
+							Mihály havában annyi szőlőszem, amennyiszer különben tapasztaltam azt én
+							meg énmagamon. De ha ugyan meg akarod érteni az én régi keserves
+							siralmimnak okát, megmondom, azmennyire siralmimtúl s fohászkodásimtúl
+							lehet. Ó, ó, ó, ó, ó!</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Ne sírj! Hadd el immár! Beszéld meg, azmiért ilyen igen keseregsz! Ki tudja, talám én
-              is használhatok, szolgálhatok ez mostani nyavalyádban!</p>
+            <p>Ne sírj! Hadd el immár! Beszéld meg, azmiért ilyen igen keseregsz! Ki
+							tudja, talám én is használhatok, szolgálhatok ez mostani
+							nyavalyádban!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ezt értsed előszer, hogy Candia az én hazám, Credulus sem igaz nevem, noha itt az
-              környékben mind ez világ annak hív s tart engemet.</p>
+            <p>Ezt értsed előszer, hogy Candia az én hazám, Credulus sem igaz nevem,
+							noha itt az környékben mind ez világ annak hív s tart engemet.</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Hát micsoda szerencsétlenség űzött ki tégedet édes hazádból, s micsoda kegyetlen
-              csillag készerített Credulus nevire tégedet?</p>
+            <p>Hát micsoda szerencsétlenség űzött ki tégedet édes hazádból, s micsoda
+							kegyetlen csillag készerített Credulus nevire tégedet?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Gyermekkoromban, mikoron volnék tizenharmadfél esztendős, azminémő városban laktam,
-              ottan közel egy kies völgyben egyéb gyermektársaimmal gyakran múlattam
-              gyermekjátékban. Ugyanazon városból abban az völgyben sok leánygyermekek is szoktanak
-              vala egybengyűlni az játék kedveért s múlatságért. Ki koszorút kötett, s ki táncolt, s
-              ki játszott, ki verset éneklett. Egykor azért, midőn egynéhányat külön az többitűl
-              versent énekelni látnék, láték egy szüzet közöttek, ki mind szépséggel s mind
-              gyönyörőséggel, illendő magaviseléssel, ékességgel, kedvességgel az többit naggyal
-              meghaladta volna. Nem tudám, ha természetimből lőn-é vagy az szerelemtűl (mert gyermek
-              szíviben ritkán szokott az szerelem uralkodni), de nem tűrhetém, hanem mindjárt az
-              szép Angelicához menék, s beszélleni kezdék véle s tréfálni: hol szóval s hol
-              egyébképpen. Végezetre versent akarék véle énekelni, ilyen okkal, hogy valamelyikünk
-              jobban énekelne, annak adna az másikunk minden versért egy-egy csókot. Így hol ő
-              csókolt engemet s hol én őtet. Nékem mindegy volt, akár vesztettem s akár nyertem,
-              mert annyi károm volt az nyerésben is, mint az vesztésben.</p>
+            <p>Gyermekkoromban, mikoron volnék tizenharmadfél esztendős, azminémő
+							városban laktam, ottan közel egy kies völgyben egyéb gyermektársaimmal
+							gyakran múlattam gyermekjátékban. Ugyanazon városból abban az völgyben
+							sok leánygyermekek is szoktanak vala egybengyűlni az játék kedveért s
+							múlatságért. Ki koszorút kötett, s ki táncolt, s ki játszott, ki verset
+							éneklett. Egykor azért, midőn egynéhányat külön az többitűl versent
+							énekelni látnék, láték egy szüzet közöttek, ki mind szépséggel s mind
+							gyönyörőséggel, illendő magaviseléssel, ékességgel, kedvességgel az
+							többit naggyal meghaladta volna. Nem tudám, ha természetimből lőn-é vagy
+							az szerelemtűl (mert gyermek szíviben ritkán szokott az szerelem
+							uralkodni), de nem tűrhetém, hanem mindjárt az szép Angelicához menék, s
+							beszélleni kezdék véle s tréfálni: hol szóval s hol egyébképpen.
+							Végezetre versent akarék véle énekelni, ilyen okkal, hogy valamelyikünk
+							jobban énekelne, annak adna az másikunk minden versért egy-egy csókot.
+							Így hol ő csókolt engemet s hol én őtet. Nékem mindegy volt, akár
+							vesztettem s akár nyertem, mert annyi károm volt az nyerésben is, mint
+							az vesztésben.</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Ó, boldog s igen szerencsés ember, ki minden kívánságodban annyi jótételét [vetted]
-              az szerelemnek hozzád!</p>
+            <p>Ó, boldog s igen szerencsés ember, ki minden kívánságodban annyi
+							jótételét [vetted] az szerelemnek hozzád!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Sőt boldogtalan szerencséjőnek mondj inkább, mert kevés ideig tarta az az örvendetes
-              állapat közöttünk, mert az én gonosz szerencsémnek átkozott csillaga az én örvendetes
-              időmnek gyönyörű fényét hamar az nagy búval s véletlen veszéllyel, mint egy sűrő
-              köddel, úgy elteríté! Ó, mely igen közel jár az bánat mindenkor az vigassághoz! De
-              hogy szerencsétlenségemet megértsed, egész esztendeig tartott vala immár az áldott
-              szerelem énközöttem és Angelica között, mely ideig senki nem irigykedett reánk, senki
-              sem igyekezett egymástúl elszakasztani bennünket, hanem végre ugyanazon képtelen
-              szépség, ki engemet rabbá tött vala, más legénnek is eszét veszté. Mely legén, midőn
-              éntőlem Angelicát semmiképpen magához nem hajthatná (mert igen igazán szeretett vala
-              engem Angelica), gyűlölségben es az áruló az Angelicához, jóllehet azt értette, hogy
-              inkább szeretne, mint azelőtt. Irigyelvén azért és szomjúhozván az átkozott az én
-              jómot, kivel örömömben már békével egész esztendőt töltöttem vala, s egy nap, midőn
-              Angelica fáradva s izzadva hazamenne, s egy szép tiszta forrás mellett ülvén innya
-              akarna, addig hazudoza az áruló kerőle, hogy mérges italt áda szegénnek meginnya.</p>
+            <p>Sőt boldogtalan szerencséjőnek mondj inkább, mert kevés ideig tarta az az
+							örvendetes állapat közöttünk, mert az én gonosz szerencsémnek átkozott
+							csillaga az én örvendetes időmnek gyönyörű fényét hamar az nagy búval s
+							véletlen veszéllyel, mint egy sűrő köddel, úgy elteríté! Ó, mely igen
+							közel jár az bánat mindenkor az vigassághoz! De hogy
+							szerencsétlenségemet megértsed, egész esztendeig tartott vala immár az
+							áldott szerelem énközöttem és Angelica között, mely ideig senki nem
+							irigykedett reánk, senki sem igyekezett egymástúl elszakasztani
+							bennünket, hanem végre ugyanazon képtelen szépség, ki engemet rabbá tött
+							vala, más legénnek is eszét veszté. Mely legén, midőn éntőlem Angelicát
+							semmiképpen magához nem hajthatná (mert igen igazán szeretett vala engem
+							Angelica), gyűlölségben es az áruló az Angelicához, jóllehet azt
+							értette, hogy inkább szeretne, mint azelőtt. Irigyelvén azért és
+							szomjúhozván az átkozott az én jómot, kivel örömömben már békével egész
+							esztendőt töltöttem vala, s egy nap, midőn Angelica fáradva s izzadva
+							hazamenne, s egy szép tiszta forrás mellett ülvén innya akarna, addig
+							hazudoza az áruló kerőle, hogy mérges italt áda szegénnek meginnya.</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Ah, nagy kegyetlenség, ó, hitetlen gonosz ember, hogy vehetett ilyen rettenetes
-              vétket lelkére! De mint jára oztán az ital után szegén Angelica?</p>
+            <p>Ah, nagy kegyetlenség, ó, hitetlen gonosz ember, hogy vehetett ilyen
+							rettenetes vétket lelkére! De mint jára oztán az ital után szegén
+							Angelica?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Mint mihelt az dolgot meghallám, ottan hazafutamám, s látván, hogy egyedöl verteng
-              ott az földen, s az ég felé felemelvén kegyes szemeit s kezeit, fullodozva kiáltá,
-              azmint lehete, nevemet; mihelt penig inték ottan, szegén reám emelvén kegyes szemeit,
-              azmint lehete, mondá igen lassan, hogy én magam is csak alég érthettem vala, s mond:
-              Én édes nagy jóm, én immár elhadlak, mert az én szörnyű halálomnak oka csak az irigy
-              Montan: ő áda álnoksággal mérget meginnom. Ezt hallván elkeseredém, és, mint
-              reméntelen, eszeveszett ember, nagy búmban az erdőre futék, s bujdosni indulék.</p>
+            <p>Mint mihelt az dolgot meghallám, ottan hazafutamám, s látván, hogy
+							egyedöl verteng ott az földen, s az ég felé felemelvén kegyes szemeit s
+							kezeit, fullodozva kiáltá, azmint lehete, nevemet; mihelt penig inték
+							ottan, szegén reám emelvén kegyes szemeit, azmint lehete, mondá igen
+							lassan, hogy én magam is csak alég érthettem vala, s mond: Én édes nagy
+							jóm, én immár elhadlak, mert az én szörnyű halálomnak oka csak az irigy
+							Montan: ő áda álnoksággal mérget meginnom. Ezt hallván elkeseredém, és,
+							mint reméntelen, eszeveszett ember, nagy búmban az erdőre futék, s
+							bujdosni indulék.</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Látd-é, hogy végre is az szerelemnek csak kín, bú s keserűség gyümölcse!</p>
+            <p>Látd-é, hogy végre is az szerelemnek csak kín, bú s keserűség
+							gyümölcse!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Hogy penig az szegén vén atyám híre nélkül való eljöttömet ne alítaná arra, hogy vagy
-              vad szaggatott volna el, vagy menny ütett volna meg, annál inkább ne kesergene szegén
-              vén atyám rajtam, egy atyámfiának mindeneket megjelenték. Azulta penig, miolta
-              Angelica ez világból kimúlt, azolta immár tízszer rekesztette bé erős faggyal az szép
-              forrásokot az erős tél, s az jó nyár is megannyiszor szabadította meg folyásokot, de
-              mindennyi ideig is még csak emberjárta ösvént sem láttam, hanem csak itt bujdostam
-              széllyel az erdőken. Mindennyi nyavalyás életemben is penig, noha már tíz esztendeje,
-              azmint mondám, hogy itt bolgok, nyomorgok, sem az rút havasokon való keserves
-              bujdosás, sem édes hazámtól való messze távozás, sem éhség, sem szomjúság, sem hó, sem
-              hideg, sem eső nem felejteté el vélem az én szerelmes egyetlenegy lelkemet.</p>
+            <p>Hogy penig az szegén vén atyám híre nélkül való eljöttömet ne alítaná
+							arra, hogy vagy vad szaggatott volna el, vagy menny ütett volna meg,
+							annál inkább ne kesergene szegén vén atyám rajtam, egy atyámfiának
+							mindeneket megjelenték. Azulta penig, miolta Angelica ez világból
+							kimúlt, azolta immár tízszer rekesztette bé erős faggyal az szép
+							forrásokot az erős tél, s az jó nyár is megannyiszor szabadította meg
+							folyásokot, de mindennyi ideig is még csak emberjárta ösvént sem láttam,
+							hanem csak itt bujdostam széllyel az erdőken. Mindennyi nyavalyás
+							életemben is penig, noha már tíz esztendeje, azmint mondám, hogy itt
+							bolgok, nyomorgok, sem az rút havasokon való keserves bujdosás, sem édes
+							hazámtól való messze távozás, sem éhség, sem szomjúság, sem hó, sem
+							hideg, sem eső nem felejteté el vélem az én szerelmes egyetlenegy
+							lelkemet.</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Bizon, ha sem az nyavalyás élet, sem az messze távozás nem olthatá, sőt meg sem
-              lágyíthatá benned az te nagy buzgó szerelmedet, ennyi sok esztendőknek mégis meg
-              kellett volna enyhíteni, mert tudó dolog, hogy az esztendők még az követ, vasat is
-              elfogyatják.</p>
+            <p>Bizon, ha sem az nyavalyás élet, sem az messze távozás nem olthatá, sőt
+							meg sem lágyíthatá benned az te nagy buzgó szerelmedet, ennyi sok
+							esztendőknek mégis meg kellett volna enyhíteni, mert tudó dolog, hogy az
+							esztendők még az követ, vasat is elfogyatják.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ó, azok sem, egy szálnyéra is, sőt egy mákszemnyire sem mosdolhatták ki az Angelica
-              ábrázatját. Ő maga, az Szerelem, önnen két kezivel lelkemnek kellő közepette metszette
-              vala bennem. Így azért immár, midőn az időnek hosszú voltával sem várnám semmi
-              könnyebbségemet, csak azon járok vala, hogy az Angelicához valamennyire hasonló
-              kegyest találhatnék. Egykor azért, sok héában keresésem után, láték egy vízparton egy
-              igen szép asszont, hogy az tudatlan halakot horogra csalogatná, kinek kegyes személye
-              annyira hasonlónak tetszék az szegén Angelicához, hogy ha bizonnyal nem tudtam volna
-              szegénnek az átkozott méreg miatt való szörnyű halálát, százszor meg mertem volna
-              rajta esküdni, hogy ugyanaz az Angelica.</p>
+            <p>Ó, azok sem, egy szálnyéra is, sőt egy mákszemnyire sem mosdolhatták ki
+							az Angelica ábrázatját. Ő maga, az Szerelem, önnen két kezivel lelkemnek
+							kellő közepette metszette vala bennem. Így azért immár, midőn az időnek
+							hosszú voltával sem várnám semmi könnyebbségemet, csak azon járok vala,
+							hogy az Angelicához valamennyire hasonló kegyest találhatnék. Egykor
+							azért, sok héában keresésem után, láték egy vízparton egy igen szép
+							asszont, hogy az tudatlan halakot horogra csalogatná, kinek kegyes
+							személye annyira hasonlónak tetszék az szegén Angelicához, hogy ha
+							bizonnyal nem tudtam volna szegénnek az átkozott méreg miatt való
+							szörnyű halálát, százszor meg mertem volna rajta esküdni, hogy ugyanaz
+							az Angelica.</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Énnékem úgy tetszik, hogy az oly szerelmes embernek, ki távol vagyon szerelmesétől,
-              nem kétes, könnyebbségére esik, ha másat lát, szeretőjéhez hasonló képet vagy
-              termetet.</p>
+            <p>Énnékem úgy tetszik, hogy az oly szerelmes embernek, ki távol vagyon
+							szerelmesétől, nem kétes, könnyebbségére esik, ha másat lát,
+							szeretőjéhez hasonló képet vagy termetet.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ingyen jól meg sem nézhettem az ő szép, világoskodó szemeit, hogy mindjárt érzém
-              szívemnek erejében hatni az szerelemnek titkos lángját.</p>
+            <p>Ingyen jól meg sem nézhettem az ő szép, világoskodó szemeit, hogy
+							mindjárt érzém szívemnek erejében hatni az szerelemnek titkos
+							lángját.</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
@@ -401,12 +421,13 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Talám tízszer tátottam fel az számot, hogy megjelentsem néki szerelmemet, és
-              mindenszer valami félelem rettente el. Kiben úgyan elhűltem, csak olyan voltam, mint
-              az néma. Csak egyetlenegy szót nem tudék néki mondani, úgy megtartóztatta bennem is az
-              nyelvemet. Az asszony - látván, hogy csak reá ámodtam vala - nagy szemérmetesen
-              elpirola, s az vesszőt is, azkivel horgász vala, elejtvén, lehajtá fejét, s nagy
-              hallgatva egy sűrő bokorban ballaga, s elrejtezék előttem.</p>
+            <p>Talám tízszer tátottam fel az számot, hogy megjelentsem néki szerelmemet,
+							és mindenszer valami félelem rettente el. Kiben úgyan elhűltem, csak
+							olyan voltam, mint az néma. Csak egyetlenegy szót nem tudék néki
+							mondani, úgy megtartóztatta bennem is az nyelvemet. Az asszony - látván,
+							hogy csak reá ámodtam vala - nagy szemérmetesen elpirola, s az vesszőt
+							is, azkivel horgász vala, elejtvén, lehajtá fejét, s nagy hallgatva egy
+							sűrő bokorban ballaga, s elrejtezék előttem.</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
@@ -414,52 +435,55 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Aznapságtúl fogva, noha már kétszer hozta elő az jó nyár az ő gyümelcsét, az tél is
-              annyiszor fosztotta meg az füveket az szép virágoktúl, nemhogy ő énrajtam könyörülne,
-              nemhogy siralmim miá esnék, de még inkább keményül ellenem, s kegyetlenkedik rajtam.
-              Ez azért oka, atyámfa, az én bánatimnak és siralmimnak; annak is, hogy onnan ennél
-              tovább nem bujdostam, hanem itt véletek az erdőben maradtam. Bizony, hogy azt hittem,
-              hogy ha szinte az én esedezésem s könyörgésem meg nem lágyinthatná is hozzám az Julia
-              kemén szívét (mert Julia neve az vízparton láttam szép asszonnak), talám Briseida, az
-              ő hív társa, ki egy igen tudós, okos asszonállat, vagy szép szovával, vagy bölcs
-              tudományával megengesztelhetnéje az ő kemén szüvinek győzhetetlen erejét hozzám. De
-              azmint látom, csak héában fáradunk mindketten is abban, mert nem látom, hogy semmi
-              kélne dolgunkban.</p>
+            <p>Aznapságtúl fogva, noha már kétszer hozta elő az jó nyár az ő gyümelcsét,
+							az tél is annyiszor fosztotta meg az füveket az szép virágoktúl, nemhogy
+							ő énrajtam könyörülne, nemhogy siralmim miá esnék, de még inkább
+							keményül ellenem, s kegyetlenkedik rajtam. Ez azért oka, atyámfa, az én
+							bánatimnak és siralmimnak; annak is, hogy onnan ennél tovább nem
+							bujdostam, hanem itt véletek az erdőben maradtam. Bizony, hogy azt
+							hittem, hogy ha szinte az én esedezésem s könyörgésem meg nem
+							lágyinthatná is hozzám az Julia kemén szívét (mert Julia neve az
+							vízparton láttam szép asszonnak), talám Briseida, az ő hív társa, ki egy
+							igen tudós, okos asszonállat, vagy szép szovával, vagy bölcs
+							tudományával megengesztelhetnéje az ő kemén szüvinek győzhetetlen erejét
+							hozzám. De azmint látom, csak héában fáradunk mindketten is abban, mert
+							nem látom, hogy semmi kélne dolgunkban.</p>
           </sp>
           <sp who="#licida">
             <speaker>LICIDA.</speaker>
-            <p>Hadd járjon, társ, ne essél kétségben, s ne is búsulj felettébb az te szép
-              szerelmesednek kemén természetén. Mi lehet keményebb az márvánkőnél, s mi lehet
-              viszont lágyabb az víznél? Mégis, látd-é, hogy ugyan végre is meglikasztja az kemén
-              márvánkövet az lágy víznek gyakorta való csepegése? Bízzál csak az szerelemben s
-              könyörögj néki, reá felelek, úgy megtanít, mint járj érette s minémő mesterséggel vesd
-              meg az hálót utána, hogy ha az egyikben nem is, de az másikban meg kell esni! Oztán ha
-              ugyan semmi egyéb néked nem használhatna is, csak az idő is, lehetetlen, hogy valamel
-              későre meg nem engesztelné hozzád őtet. Hallottam, hogy idővel ebnek foga kopik, déceg
-              lónak is háta túrosodik. Én is penig valamiben használhatok, parancsolj, és örömest
-              szolgálok. Elmégyek, valami nádat szedek az ház héjára, hogy az eső reám ne
-              csepegjen.</p>
+            <p>Hadd járjon, társ, ne essél kétségben, s ne is búsulj felettébb az te
+							szép szerelmesednek kemén természetén. Mi lehet keményebb az
+							márvánkőnél, s mi lehet viszont lágyabb az víznél? Mégis, látd-é, hogy
+							ugyan végre is meglikasztja az kemén márvánkövet az lágy víznek gyakorta
+							való csepegése? Bízzál csak az szerelemben s könyörögj néki, reá
+							felelek, úgy megtanít, mint járj érette s minémő mesterséggel vesd meg
+							az hálót utána, hogy ha az egyikben nem is, de az másikban meg kell
+							esni! Oztán ha ugyan semmi egyéb néked nem használhatna is, csak az idő
+							is, lehetetlen, hogy valamel későre meg nem engesztelné hozzád őtet.
+							Hallottam, hogy idővel ebnek foga kopik, déceg lónak is háta túrosodik.
+							Én is penig valamiben használhatok, parancsolj, és örömest szolgálok.
+							Elmégyek, valami nádat szedek az ház héjára, hogy az eső reám ne
+							csepegjen.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS I. SCENA III.</head>
-          <p>
-            <stage>Dienes, az Sylvanus juhásza szól Credulussal.</stage>
-          </p>
+          <stage>Dienes, az Sylvanus juhásza szól Credulussal.</stage>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Bestyéje, lám ugyan jő az sok veszél fejemre, mint az sok légy az jungátára. Oly nap
-              nincs, hogy vagy juhaimot, vagy kecskémet el ne lopnák!</p>
+            <p>Bestyéje, lám ugyan jő az sok veszél fejemre, mint az sok légy az
+							jungátára. Oly nap nincs, hogy vagy juhaimot, vagy kecskémet el ne
+							lopnák!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ahon jő Dienes, az társom juhásza, majd megkérdem, ha látta-é ma az én szerelmes
-              Juliámot? Hallád-é, Dienes, láttad-é ma valahol?</p>
+            <p>Ahon jő Dienes, az társom juhásza, majd megkérdem, ha látta-é ma az én
+							szerelmes Juliámot? Hallád-é, Dienes, láttad-é ma valahol?</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Vigyen el, csaknem mondám, mi! Hagyj békét, gondom vagyon most. Egy kecskémet lopák
-              el, azt kell megkeresnem.</p>
+            <p>Vigyen el, csaknem mondám, mi! Hagyj békét, gondom vagyon most. Egy
+							kecskémet lopák el, azt kell megkeresnem.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -487,16 +511,17 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Mondd meg, ha láttad-é valahol az én tündérasszonyomot, azki az én szívemet
-              ellopta?</p>
+            <p>Mondd meg, ha láttad-é valahol az én tündérasszonyomot, azki az én
+							szívemet ellopta?</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Ha eszemben vehettem volna, mikor az szívedet ellopta, egy kis darabot mégis elkértem
-              volna benne az boglocskámnak, mert majd negyednapja, hogy semmit nem ött szegén!
-              Hiszem bolondságot beszéltek ti, kik így szeretkeztek! Bolond ha szíved nem vólna,
-              valyon s szólhatnál-é vagy egy kukkot? Vaj lopták volna el úgy az én kecskémet, azmint
-              az te szívedet, tőlem, nem kellene most semmit fáradnom.</p>
+            <p>Ha eszemben vehettem volna, mikor az szívedet ellopta, egy kis darabot
+							mégis elkértem volna benne az boglocskámnak, mert majd negyednapja, hogy
+							semmit nem ött szegén! Hiszem bolondságot beszéltek ti, kik így
+							szeretkeztek! Bolond ha szíved nem vólna, valyon s szólhatnál-é vagy egy
+							kukkot? Vaj lopták volna el úgy az én kecskémet, azmint az te szívedet,
+							tőlem, nem kellene most semmit fáradnom.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -512,18 +537,19 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Hogy tudom, micsoda az te virágod, ha meg [nem] nevezed? Látod, hogy rakva az mező az
-              sok szép virágszállal, s nevezd meg, melyik az, mert én próféta nem vagyok!</p>
+            <p>Hogy tudom, micsoda az te virágod, ha meg [nem] nevezed? Látod, hogy
+							rakva az mező az sok szép virágszállal, s nevezd meg, melyik az, mert én
+							próféta nem vagyok!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Mégsem tudod-é, ki neve? Én azt hittem hogy azmennyiszer szólottam uraddal felőle,
-              hogy bár meg ne nevezzem is, tudod, mit akarok!</p>
+            <p>Mégsem tudod-é, ki neve? Én azt hittem hogy azmennyiszer szólottam
+							uraddal felőle, hogy bár meg ne nevezzem is, tudod, mit akarok!</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Néma gyermeknek anyja sem érti szavát! Én sem érthetem mondatlan, te mit akarsz. Ha
-              nem tudom, mikor rezet mutatsz, reám köszönnéd azkor.</p>
+            <p>Néma gyermeknek anyja sem érti szavát! Én sem érthetem mondatlan, te mit
+							akarsz. Ha nem tudom, mikor rezet mutatsz, reám köszönnéd azkor.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -531,13 +557,14 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Hohohó! Nem veszett volna néked még el az szemed fénye! Szép simácska ám az! Kövérke,
-              pirosocska, jó űzőcske, mint egy nyúlcímerecske! Oly fejér, mint az én ingem karácson
-              napján! Az melle, mint egy gömbelő retkecske; az orcája, mint egy parlagi rózsa; az
-              ajaka, mint egy kis megért cseresnye; oly fejér az foga, mint egy lisztláng; az orra
-              vékon, hosszúcska, mint egy lyukon hámzott salátatorzsácska; jó szagó penig, mint az
-              [szemei, mint az] én cickémnek az kemencében. De hallád, en az tanács, ellégy anélkül,
-              mert bizony egyben hordjuk az gubát!</p>
+            <p>Hohohó! Nem veszett volna néked még el az szemed fénye! Szép simácska ám
+							az! Kövérke, pirosocska, jó űzőcske, mint egy nyúlcímerecske! Oly fejér,
+							mint az én ingem karácson napján! Az melle, mint egy gömbelő retkecske;
+							az orcája, mint egy parlagi rózsa; az ajaka, mint egy kis megért
+							cseresnye; oly fejér az foga, mint egy lisztláng; az orra vékon,
+							hosszúcska, mint egy lyukon hámzott salátatorzsácska; jó szagó penig,
+							mint az [szemei, mint az] én cickémnek az kemencében. De hallád, en az
+							tanács, ellégy anélkül, mert bizony egyben hordjuk az gubát!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -561,44 +588,45 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Ki vagy szegén? Mindenkor együtt vadtok az gazdámmal, mindéltig egymás nyakán
-              csüggötök, mint az harang az én bakom nyakán, s mégsem tudod?</p>
+            <p>Ki vagy szegén? Mindenkor együtt vadtok az gazdámmal, mindéltig egymás
+							nyakán csüggötök, mint az harang az én bakom nyakán, s mégsem tudod?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Lehetetlen dolog, hogy azki énnékem ilyen meghitt, megpróbált barátom, minden
-              titkomnak tudója, hogy az énnékem ily hamisat tenne!</p>
+            <p>Lehetetlen dolog, hogy azki énnékem ilyen meghitt, megpróbált barátom,
+							minden titkomnak tudója, hogy az énnékem ily hamisat tenne!</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Azt nem tudom, mint vadtok: hamisok-é vagy igazok-é, de ezt jól tudom, hogy Sylvanus
-              inkább szereti Juliát, mint az héja az tikfiat. No, maradj el, énnékem az kecskét kell
-              megkeresnem, mert szolgálatomban tudják, ha meg nem lölem.</p>
+            <p>Azt nem tudom, mint vadtok: hamisok-é vagy igazok-é, de ezt jól tudom,
+							hogy Sylvanus inkább szereti Juliát, mint az héja az tikfiat. No, maradj
+							el, énnékem az kecskét kell megkeresnem, mert szolgálatomban tudják, ha
+							meg nem lölem.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Állj, mondok, várj, édes bátyám, csak egy kevéssé! Hallád, Dienes, Dienes! Elmégyik.
-              Csak kár! Ó, keserves, állhatatlan szerencse, micsoda új bút forralsz ismét fejemre!
-              Kell hinni valyon, hogy Sylvanus ilyen nagy árultatást míveljen valaha rajtam? Azki,
-              úgy tetszett, hogy még az két szeménél is szeret inkább vala engemet, én is mindennémő
-              titkomot megjelentettem őnéki, reá bíztam s reá támaszkodtam s reá hadtam magamot! Nem
-              tudom, mit higgyek, de míg besetétedik, vígére mégyek, s kivészem kétségemet belőle; s
-              ha ugyan igaz lészen az juhász szava, meglátja, hitemre, hogy úgy állom meg bosszúmot,
-              azmint olyan áruló érdemli.</p>
+            <p>Állj, mondok, várj, édes bátyám, csak egy kevéssé! Hallád, Dienes,
+							Dienes! Elmégyik. Csak kár! Ó, keserves, állhatatlan szerencse, micsoda
+							új bút forralsz ismét fejemre! Kell hinni valyon, hogy Sylvanus ilyen
+							nagy árultatást míveljen valaha rajtam? Azki, úgy tetszett, hogy még az
+							két szeménél is szeret inkább vala engemet, én is mindennémő titkomot
+							megjelentettem őnéki, reá bíztam s reá támaszkodtam s reá hadtam
+							magamot! Nem tudom, mit higgyek, de míg besetétedik, vígére mégyek, s
+							kivészem kétségemet belőle; s ha ugyan igaz lészen az juhász szava,
+							meglátja, hitemre, hogy úgy állom meg bosszúmot, azmint olyan áruló
+							érdemli.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS I. SCENA IV.</head>
-          <p>
-            <stage>Sylvanus szól őmagában, nézvén széllyel Juliát.</stage>
-          </p>
+          <stage>Sylvanus szól őmagában, nézvén széllyel Juliát.</stage>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Csak egy ösvényen sem tudom az én szerelmes szép Juliámnak kisded nyomát! Ej, jól
-              juta eszemben, néha amaz völgyen látám, hogy hol léppel, hol kelepcével
-              madarászdogált. Majd azfelé ballagok, s nyugodván az jó szagó füvekben, mégis
-              énekeldegélek, s úgy múlatom el addig az időt, míg valahol megláthatom itt az
-              tengerszakadék mellett:</p>
+            <p>Csak egy ösvényen sem tudom az én szerelmes szép Juliámnak kisded nyomát!
+							Ej, jól juta eszemben, néha amaz völgyen látám, hogy hol léppel, hol
+							kelepcével madarászdogált. Majd azfelé ballagok, s nyugodván az jó szagó
+							füvekben, mégis énekeldegélek, s úgy múlatom el addig az időt, míg
+							valahol megláthatom itt az tengerszakadék mellett:</p>
             <lg>
               <l>Ó, nagy kerek kék ég, dicsőség, fényesség,</l>
               <l>csillagok palotája,</l>
@@ -713,32 +741,31 @@
       <div type="act">
         <div type="scene">
           <head type="title">ACTUS II. SCENA I.</head>
-          <p>
-            <stage>Julia magában szól, elmélkedvén régi szerelméről.</stage>
-          </p>
+          <stage>Julia magában szól, elmélkedvén régi szerelméről.</stage>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Nem hiszem, hogy ég alatt, föld kerekségében asszonyállat énnálamnál nyavalyásb,
-              szerencsétlenb ez világon lehessen senki. Én az én atyám házától, azhol nagy gazdagon,
-              nagy kényemre-kedvemre fölnőttem s nevelkedtem vala, holott szép, lágy puha ágyon
-              háltam, most messze kibujdosván, az kietlenben élek, s gyászot viselek, ágak közé,
-              földen, köven, hol heverek. Bizony, hogy minden hitem ez volt, hogy nemsokára véget
-              érne az én keserves bujdosásomban az nevemnek s állapatomnak elváltozása, hamarébb is
-              megtalálom így az én lelkemtől szakadt Thyrsisemet. De igen megcsala az reménség, mert
-              látom, hogy mégsem elégedett meg az gonosz szerencse az én keserő búmmal. Ó, régi,
-              átkozott s igen gonosz szerencse! Mért ádád, hogyha ilyen hamar akarál tőle
-              megfosztani? Ó, kegyetlen, istentelen irégység! Ha immár minden jómtól megfosztottál,
-              fosztottál volna meg életemtől is; hogyha az én szerelmes Thyrsisem méreg miá alított
-              engem megholtnak lenni, s azon való bújában adta bujdosásra magát, ádtad volna, hitt
-              volna bizon dolgot, s holtam volna meg ugyan valóban, hogy ok nélkül ne bujdosnék
-              miattam nyomorultan ez világ kerekségében gében széllyel, szegén nyavalyás!</p>
+            <p>Nem hiszem, hogy ég alatt, föld kerekségében asszonyállat énnálamnál
+							nyavalyásb, szerencsétlenb ez világon lehessen senki. Én az én atyám
+							házától, azhol nagy gazdagon, nagy kényemre-kedvemre fölnőttem s
+							nevelkedtem vala, holott szép, lágy puha ágyon háltam, most messze
+							kibujdosván, az kietlenben élek, s gyászot viselek, ágak közé, földen,
+							köven, hol heverek. Bizony, hogy minden hitem ez volt, hogy nemsokára
+							véget érne az én keserves bujdosásomban az nevemnek s állapatomnak
+							elváltozása, hamarébb is megtalálom így az én lelkemtől szakadt
+							Thyrsisemet. De igen megcsala az reménség, mert látom, hogy mégsem
+							elégedett meg az gonosz szerencse az én keserő búmmal. Ó, régi, átkozott
+							s igen gonosz szerencse! Mért ádád, hogyha ilyen hamar akarál tőle
+							megfosztani? Ó, kegyetlen, istentelen irégység! Ha immár minden jómtól
+							megfosztottál, fosztottál volna meg életemtől is; hogyha az én szerelmes
+							Thyrsisem méreg miá alított engem megholtnak lenni, s azon való bújában
+							adta bujdosásra magát, ádtad volna, hitt volna bizon dolgot, s holtam
+							volna meg ugyan valóban, hogy ok nélkül ne bujdosnék miattam nyomorultan
+							ez világ kerekségében gében széllyel, szegén nyavalyás!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS II. SCENA II.</head>
-          <p>
-            <stage>Briseida s Julia szól egymással.</stage>
-          </p>
+          <stage>Briseida s Julia szól egymással.</stage>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
             <p>Isten ádjon jó napot, Julia, meg hozzád jüvék!</p>
@@ -753,27 +780,28 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Talám tudom. Fogadjuk, ismét az Credulus szerelmiről akarsz, s egyéb hű szokásod
-              szerént, trécselni vélem s előttem!</p>
-          </sp>
-          <sp who="#briesida">
-            <speaker>BRISEIDA.</speaker>
-            <p>Reá találád. De csak egy kicsin dolgon esedezik szegén, kit ha meg nem engedsz,
-              embernek sem tartlak, hanem kőnek ezután. Csak azon könyörög, nézszed, hogy előttem
-              beszélhessen vagy két szót véled.</p>
-          </sp>
-          <sp who="#julia">
-            <speaker>JULIA.</speaker>
-            <p>Jaj, jó Briseida, mit beszélsz? Lám, azelőtt is sokszor megmondottam, hogy mindketten
-              csak héában halásztok, afelől mást kereshettek. Kérlek, Istenért, mondd meg néki,
-              vesse másban reménségét, mert előbb elfut az oroszlány az szarvas előtt, mint én
-              elváltoztassam az én tökéllett s elvégezett tiszta szándékomot!</p>
+            <p>Talám tudom. Fogadjuk, ismét az Credulus szerelmiről akarsz, s egyéb hű
+							szokásod szerént, trécselni vélem s előttem!</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Ki kemény vagy! Bárcsak ezeredrészét érzenéd is az fájdalomnak, kiket ő szenved
-              éretted, nyavalyás, bizony megszelídülnél s jobban beszélnél! Ha csak azt sem akarod
-              szegénnek megengedni? Nem-é?</p>
+            <p>Reá találád. De csak egy kicsin dolgon esedezik szegén, kit ha meg nem
+							engedsz, embernek sem tartlak, hanem kőnek ezután. Csak azon könyörög,
+							nézszed, hogy előttem beszélhessen vagy két szót véled.</p>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA.</speaker>
+            <p>Jaj, jó Briseida, mit beszélsz? Lám, azelőtt is sokszor megmondottam,
+							hogy mindketten csak héában halásztok, afelől mást kereshettek. Kérlek,
+							Istenért, mondd meg néki, vesse másban reménségét, mert előbb elfut az
+							oroszlány az szarvas előtt, mint én elváltoztassam az én tökéllett s
+							elvégezett tiszta szándékomot!</p>
+          </sp>
+          <sp who="#briseida">
+            <speaker>BRISEIDA.</speaker>
+            <p>Ki kemény vagy! Bárcsak ezeredrészét érzenéd is az fájdalomnak, kiket ő
+							szenved éretted, nyavalyás, bizony megszelídülnél s jobban beszélnél! Ha
+							csak azt sem akarod szegénnek megengedni? Nem-é?</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -781,66 +809,73 @@
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Vaj, esztelen, lészen még oly idő, hogy ez mostani dolgodot bizony megbánod; olykor,
-              mikor nem tehetsz róla, akkor fordítanád meg örömest az szókot, ha lehetne, de késő
-              lész akkor! Ilyen szép s ilyen nevezetes s ilyen jeles legén szeret tégedet, kinek
-              sohol itt az környékben nincsen mása, s mégsem kell néked? Nem olyan ám az, mint
-              némely tejes szájók, kiknek, mint hogy serte snincs az orcájokon, azonképpen okosság
-              snincsen fejekben. Hallod, mely hajlandók s mint nyargalnak s mint változnak té-tova
-              az szerelemben. Akármely szépecskék tekintetre is, de oly könnyen mozdulnak, mint az
-              aszú levél, akármi kis szél előtt is. Talám azt hiszed, hogy rút véle, hogy ilyen
-              szakállos? Hiszem azzal szép az férfi! Mit ér az fa zöld levél nélkül, s az ló is
-              minémö az serén nélkül? Az madarak tollokkal s juhok gyapjakkal ékesek, s az legénnek
-              is az szakálla ád szépséget, tekintetet és becsületet.</p>
+            <p>Vaj, esztelen, lészen még oly idő, hogy ez mostani dolgodot bizony
+							megbánod; olykor, mikor nem tehetsz róla, akkor fordítanád meg örömest
+							az szókot, ha lehetne, de késő lész akkor! Ilyen szép s ilyen nevezetes
+							s ilyen jeles legén szeret tégedet, kinek sohol itt az környékben
+							nincsen mása, s mégsem kell néked? Nem olyan ám az, mint némely tejes
+							szájók, kiknek, mint hogy serte snincs az orcájokon, azonképpen okosság
+							snincsen fejekben. Hallod, mely hajlandók s mint nyargalnak s mint
+							változnak té-tova az szerelemben. Akármely szépecskék tekintetre is, de
+							oly könnyen mozdulnak, mint az aszú levél, akármi kis szél előtt is.
+							Talám azt hiszed, hogy rút véle, hogy ilyen szakállos? Hiszem azzal szép
+							az férfi! Mit ér az fa zöld levél nélkül, s az ló is minémö az serén
+							nélkül? Az madarak tollokkal s juhok gyapjakkal ékesek, s az legénnek is
+							az szakálla ád szépséget, tekintetet és becsületet.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>S no medgyünk néki, ha szakállos? Metszek a szakállal, aggságával s nemzetségével s
-              akár okosságával, ha semmit nem gondolok őmagával?</p>
+            <p>S no medgyünk néki, ha szakállos? Metszek a szakállal, aggságával s
+							nemzetségével s akár okosságával, ha semmit nem gondolok őmagával?</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Ha mindezekkel nem gondolsz, gondolj gazdagságával! Nincs itt sohul nálánál marhásb
-              ember, s ha azzal nem gondolsz, ottan csak az tudományával gondolj! Hiszem tudod,
-              minémő bölcs, hogy csak éneket is különb-különbféle szép nótákra mond. Az erdők is
-              úgyan zöngenek, az madarak repösnek belé, sőt még az szép vadak is örölnek örömekben,
-              de még Echo is, noha tündérasszon, megfelel néha verseire, mikor valamiről szól néki;
-              s ezt nem szereted ám te? Nézhetdsze, talám azt akarnád, hogy felakasztaná magát
-              éretted?</p>
+            <p>Ha mindezekkel nem gondolsz, gondolj gazdagságával! Nincs itt sohul
+							nálánál marhásb ember, s ha azzal nem gondolsz, ottan csak az
+							tudományával gondolj! Hiszem tudod, minémő bölcs, hogy csak éneket is
+							különb-különbféle szép nótákra mond. Az erdők is úgyan zöngenek, az
+							madarak repösnek belé, sőt még az szép vadak is örölnek örömekben, de
+							még Echo is, noha tündérasszon, megfelel néha verseire, mikor valamiről
+							szól néki; s ezt nem szereted ám te? Nézhetdsze, talám azt akarnád, hogy
+							felakasztaná magát éretted?</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Attól nem kell félteni, nem veszti el magát, nem hirtelenkedik véle! Bár ne félts,
-              nem oly berce!</p>
+            <p>Attól nem kell félteni, nem veszti el magát, nem hirtelenkedik véle! Bár
+							ne félts, nem oly berce!</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Miben tetszik meg inkább az halandó természet az kegyesség s nemes erkölcs, mint ha
-              azt szereti ember, azkit tisztességére szeret? Felette bízol, jó leányom,
-              szépségedhez, ifjúságodhoz! Nem tudod-é, hogy szépség kevés ideig tart, s igen
-              múlandó, romlandó jószág az emberben, s oly, kit az idő is, nemcsak az betegség vagy
-              gondviseletlenség vehet el embertől? Ne kételkedjél azért, ha szinte oly fejér vagy
-              is, mint az hó s oly piros, mint az rózsa, mert tudod, az hó is hamar elolvad, s az
-              rózsák is hamar elhullnak.</p>
+            <p>Miben tetszik meg inkább az halandó természet az kegyesség s nemes
+							erkölcs, mint ha azt szereti ember, azkit tisztességére szeret? Felette
+							bízol, jó leányom, szépségedhez, ifjúságodhoz! Nem tudod-é, hogy szépség
+							kevés ideig tart, s igen múlandó, romlandó jószág az emberben, s oly,
+							kit az idő is, nemcsak az betegség vagy gondviseletlenség vehet el
+							embertől? Ne kételkedjél azért, ha szinte oly fejér vagy is, mint az hó
+							s oly piros, mint az rózsa, mert tudod, az hó is hamar elolvad, s az
+							rózsák is hamar elhullnak.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Csak héában, héában hányod az borsót az falra, csak héában hegedölsz az malomban,
-              mert nem szeretem sem most sem ezután; hiszem, érted immár.</p>
+            <p>Csak héában, héában hányod az borsót az falra, csak héában hegedölsz az
+							malomban, mert nem szeretem sem most sem ezután; hiszem, érted
+							immár.</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Nem tudom, mi vagy ez három közül: kegyetlen-é, vagy istentelen, vagy talám az
-              szégyentől rettegsz, s abban nem mersz szerelemben élni? Annak módját leljük! Ez
-              széles világ tudja, hogy még az mennybéli Jupiter is forgott szerelemben. Szeretője
-              kedveért néha bikává s néha aranyesővé s néha emez-amazzá tűnt.</p>
+            <p>Nem tudom, mi vagy ez három közül: kegyetlen-é, vagy istentelen, vagy
+							talám az szégyentől rettegsz, s abban nem mersz szerelemben élni? Annak
+							módját leljük! Ez széles világ tudja, hogy még az mennybéli Jupiter is
+							forgott szerelemben. Szeretője kedveért néha bikává s néha aranyesővé s
+							néha emez-amazzá tűnt.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Ó, lám, ugyan megkeserítel! Te az szerelmet beszéled nékem, én penig tudom régen, mi
-              űző, mert sok ideje immár, hogy sok keserves nyilait hordozom szívemben! Régen esmérem
-              immár súlyos voltát az átkozottnak! Most sem egyébért lakom az erdőben, hanem hogy
-              híven és igazán szeretek, s fogadásomban tökéletesen megállok, míg élek!</p>
+            <p>Ó, lám, ugyan megkeserítel! Te az szerelmet beszéled nékem, én penig
+							tudom régen, mi űző, mert sok ideje immár, hogy sok keserves nyilait
+							hordozom szívemben! Régen esmérem immár súlyos voltát az átkozottnak!
+							Most sem egyébért lakom az erdőben, hanem hogy híven és igazán szeretek,
+							s fogadásomban tökéletesen megállok, míg élek!</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
@@ -852,35 +887,38 @@
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Értem szavából, hogy jól esméri az szerelmet, noha azt tetteti, mintha nem esmérné.
-              Ha azért nem kedveled Credulust, hogy juhászember, az semmi, mert Apollo is őrzett
-              barmot szerelmeért. Adonis azonképpen, de azért sokszor feködt ölében Venusnak. Ha
-              szégyenled, azt gondolod, hogy talám végére is szemedre vetné, s azt mondaná, hogy
-              temagadnak is volt kedved az ő szerelméhez, az semmi. Bár engedett légyen az, hagyd
-              reám, önmagam elhitetem véle, hogy immár te ingyen sem tudtad, hanem én csaltalak meg,
-              s ő is erővel vett reá, s még őmaga is azt fogja mondani, hogy együgyő menyecske
-              lévén, nem állhattál ellene az ő hatalmának is, s az én csalárdságomnak is.</p>
+            <p>Értem szavából, hogy jól esméri az szerelmet, noha azt tetteti, mintha
+							nem esmérné. Ha azért nem kedveled Credulust, hogy juhászember, az
+							semmi, mert Apollo is őrzett barmot szerelmeért. Adonis azonképpen, de
+							azért sokszor feködt ölében Venusnak. Ha szégyenled, azt gondolod, hogy
+							talám végére is szemedre vetné, s azt mondaná, hogy temagadnak is volt
+							kedved az ő szerelméhez, az semmi. Bár engedett légyen az, hagyd reám,
+							önmagam elhitetem véle, hogy immár te ingyen sem tudtad, hanem én
+							csaltalak meg, s ő is erővel vett reá, s még őmaga is azt fogja mondani,
+							hogy együgyő menyecske lévén, nem állhattál ellene az ő hatalmának is, s
+							az én csalárdságomnak is.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>De csak kár, hogy szólasz, mert bizon semmi nem kell benne. Szinte elkésem miattad.
-              Elmégyek Mirtinámhoz, amaz domb megett vár, hogy együtt madarásszunk.</p>
+            <p>De csak kár, hogy szólasz, mert bizon semmi nem kell benne. Szinte
+							elkésem miattad. Elmégyek Mirtinámhoz, amaz domb megett vár, hogy együtt
+							madarásszunk.</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Eredj, eredj! Nem hadlak, míg mégy ezen, mert az sok vágással dől le az nagy fa.
-              Ennél keménebbet is engeszteltem én meg! Hadd csak, el nem mégy, még meglátd,
-              kegyetlenke, ha talám nem tudom, mint kerölnél is!</p>
+            <p>Eredj, eredj! Nem hadlak, míg mégy ezen, mert az sok vágással dől le az
+							nagy fa. Ennél keménebbet is engeszteltem én meg! Hadd csak, el nem
+							mégy, még meglátd, kegyetlenke, ha talám nem tudom, mint kerölnél
+							is!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS II. SCENA III.</head>
-          <p>
-            <stage>Sylvanussal az régi szeretője, Galatea szól.</stage>
-          </p>
+          <stage>Sylvanussal az régi szeretője, Galatea szól.</stage>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Ó, siralmas nap, hogy sohol nem találhatok az én édes, szerelmes Juliámot!</p>
+            <p>Ó, siralmas nap, hogy sohol nem találhatok az én édes, szerelmes
+							Juliámot!</p>
           </sp>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
@@ -892,45 +930,53 @@
           </sp>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
-            <p>Volt az ideje, hogy kellettem, nem űzsz vala így el akkor. Jól tudom, hogy immár
-              elvetettél előled, maga egyszer az én kezeimet mondod vala gyönyörségeseknek, hóhoz,
-              fejér liliomhoz, alabástromhoz, azokhoz hasonlítod vala: az én szememet penig az
-              temagad szemed világának nevezed vala, kikkel bár kedvetlen vagy nem akaratommal
-              tekintettem is reád: boldognak mondottad magadot utána. Ha penig csak hozzád szóltam
-              is fél esztendőben egyszer, nem tudtál örömedben mit tenni. Sőt egyszer valami hitván
-              gombostűmet is kaptad vala el, kivel az fátyolt egyengetém az fejemen; az jut-é
-              eszedben, mint szeretéd, mint böcsüléd? Úgy tartottad, mint egy szűfájás ellen való
-              ereklyét! Ha azért akkor oly igen szerettél, s mindenem oly igen tetszett, most miért
-              gyűlölsz oly igen? Miért űzsz el? Mi okaért futsz éntőlem? Miért nem szólsz vélem?
-              Valyon nem azon haj, kéz avagy száj-é ez most is, azmint azelőtt volt?</p>
+            <p>Volt az ideje, hogy kellettem, nem űzsz vala így el akkor. Jól tudom,
+							hogy immár elvetettél előled, maga egyszer az én kezeimet mondod vala
+							gyönyörségeseknek, hóhoz, fejér liliomhoz, alabástromhoz, azokhoz
+							hasonlítod vala: az én szememet penig az temagad szemed világának
+							nevezed vala, kikkel bár kedvetlen vagy nem akaratommal tekintettem is
+							reád: boldognak mondottad magadot utána. Ha penig csak hozzád szóltam is
+							fél esztendőben egyszer, nem tudtál örömedben mit tenni. Sőt egyszer
+							valami hitván gombostűmet is kaptad vala el, kivel az fátyolt egyengetém
+							az fejemen; az jut-é eszedben, mint szeretéd, mint böcsüléd? Úgy
+							tartottad, mint egy szűfájás ellen való ereklyét! Ha azért akkor oly
+							igen szerettél, s mindenem oly igen tetszett, most miért gyűlölsz oly
+							igen? Miért űzsz el? Mi okaért futsz éntőlem? Miért nem szólsz vélem?
+							Valyon nem azon haj, kéz avagy száj-é ez most is, azmint azelőtt
+							volt?</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Azt nem tagadom. De akaratja egyikünknek sem az most, azki akkor volt. Jut-é
-              eszedben, hogy az bárányfi sem ója jobban magát az farkastúl, mint te óvod vala akkor
-              magadot éntőlem? Akkor, mondok, mikor az édes szerelmesemet érted elhagyván, inkább
-              szeretlek vala téged, mint az gerlice az ő egyetlenegy társát. Én is azért mostan
-              inkább gyűlöllek, mint az kígyó az pávát. Ha te akkor mosolygottál az én siralmimon,
-              méltó, hogy én is vigadjak s nevessek most az tiéden. Azmikor én akartam, te akkor nem
-              akartad. Viszont azért én is nem akarom immár most, azmikor te akarnád, csak ennek
-              okaért, hogy valamit kívántam, szerettem, azt most mind gyűlölem s útálom.</p>
+            <p>Azt nem tagadom. De akaratja egyikünknek sem az most, azki akkor volt.
+							Jut-é eszedben, hogy az bárányfi sem ója jobban magát az farkastúl, mint
+							te óvod vala akkor magadot éntőlem? Akkor, mondok, mikor az édes
+							szerelmesemet érted elhagyván, inkább szeretlek vala téged, mint az
+							gerlice az ő egyetlenegy társát. Én is azért mostan inkább gyűlöllek,
+							mint az kígyó az pávát. Ha te akkor mosolygottál az én siralmimon,
+							méltó, hogy én is vigadjak s nevessek most az tiéden. Azmikor én
+							akartam, te akkor nem akartad. Viszont azért én is nem akarom immár
+							most, azmikor te akarnád, csak ennek okaért, hogy valamit kívántam,
+							szerettem, azt most mind gyűlölem s útálom.</p>
           </sp>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
-            <p>Tudja az igaz Isten, hogy akkor sem gyűlöltelek én tégedet. Ha szinte valami
-              idegennek mutattam is magamot hozzád, azt az emberek nyelvétől való féltemben is
-              míveltem. Főképpen azért, hogy az tökéletességet s töredelmességet akartam benned
-              keresni, s oztán, hogy kevés keserő után jobb űzőven esnék az szerelemnek édes
-              gyümölcse. Ah, Sylvane, Sylvane, ki méltán viseled az neved, tudniillik az vadember
-              nevet, mert nemcsak szódról s dolgaidról, hanem nevedről is megtetszik az te vad
-              természetednek kegyetlen volta! Tudom, jól tudom, hogy Juliára veszett eszed; ki igaz,
-              hogy nálamnál ifjabb, de hozzád bizon sem hívebb, sem tökéletesb, s ha szinte oly ifjú
-              nem vagyok is, mint ő, de rútabbnak ugyan nem tartom azért magamot nálánál én is. Azmi
-              penig igazságot, hívséget s tökéletességet illeti, arra sem őnálánál, sem másnál
-              senkinél ez világon alábbvalónak magamot nem tartom. Sőt ha valami dicséretet vagy
-              jutalmat érdemel ez világon emberek között az tiszta s tökéletes jámborság, én vagyok
-              az, ki bátor szívvel merek azzal kérkedni, hogy egy állat ez föld kerekségében senki
-              nincs, ki annak jutalmát s hasznát igazabban s méltábban megérdemli nálamnál.</p>
+            <p>Tudja az igaz Isten, hogy akkor sem gyűlöltelek én tégedet. Ha szinte
+							valami idegennek mutattam is magamot hozzád, azt az emberek nyelvétől
+							való féltemben is míveltem. Főképpen azért, hogy az tökéletességet s
+							töredelmességet akartam benned keresni, s oztán, hogy kevés keserő után
+							jobb űzőven esnék az szerelemnek édes gyümölcse. Ah, Sylvane, Sylvane,
+							ki méltán viseled az neved, tudniillik az vadember nevet, mert nemcsak
+							szódról s dolgaidról, hanem nevedről is megtetszik az te vad
+							természetednek kegyetlen volta! Tudom, jól tudom, hogy Juliára veszett
+							eszed; ki igaz, hogy nálamnál ifjabb, de hozzád bizon sem hívebb, sem
+							tökéletesb, s ha szinte oly ifjú nem vagyok is, mint ő, de rútabbnak
+							ugyan nem tartom azért magamot nálánál én is. Azmi penig igazságot,
+							hívséget s tökéletességet illeti, arra sem őnálánál, sem másnál senkinél
+							ez világon alábbvalónak magamot nem tartom. Sőt ha valami dicséretet
+							vagy jutalmat érdemel ez világon emberek között az tiszta s tökéletes
+							jámborság, én vagyok az, ki bátor szívvel merek azzal kérkedni, hogy egy
+							állat ez föld kerekségében senki nincs, ki annak jutalmát s hasznát
+							igazabban s méltábban megérdemli nálamnál.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS</speaker>
@@ -938,41 +984,42 @@
           </sp>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
-            <p>Juss, fuss! Nézsze, mint mégyen az kegyetlen! Ó, én keserves szerencsém, mely
-              sanyarúképpen gyötresz engem, hogy azt kell követnem, az után kell fáradnom kedvem
-              ellen is, azki elfut előttem! Ó, te hamis szerelem, miért erőltetsz annak szerelmére,
-              azki ilyen igen gyűlöli szegén fejemet? Mostan vészem eszemben, hogy igaz volt, azmit
-              egyszer beszél vala énnékem Briseida, az szerelemnek igen tudós doktora, hogy azkit
-              ember merésznek, szorgalmatosnak vél az szerelemben, arra igaz, hogy ritkán kell csak
-              jó szemmel is tekinteni, hogy ne hagyjon ember bizodalmat magán venni, ne alítsa
-              embert közmarhává, hanem száján kell viseldegélni jó reménséggel, úgy, hogy az
-              kedvetlen tekéntet is kegyelem gyanánt essék néki, de azért ember oztán ha
-              megtapasztalja tökéletességét, s nyilván látja, hogy nincs mit félni tőle s miért
-              kételkedni hozzá, azkor oztán jó kedved mutasd hozzá néki, hogy az keménség ki ne űzze
-              az szerelmet szívéből; mert igen ritkán szokott az szerelemnek újonnan gyúlt tüze oly
-              sokáig égni, hol reménséget nem raknak reá s bizodalommal nem gerjesztik. Ó, vajha
-              fogadtam volna, s nem kegyetlenkedtem volna azkor ellene, azmikor sok próbálás után
-              nagy szántalan dologban megbizonyította vala tökéletes szerelmét hozzám, most bezzeg
-              nem nyelnék ennyi keserő sok bút!</p>
+            <p>Juss, fuss! Nézsze, mint mégyen az kegyetlen! Ó, én keserves szerencsém,
+							mely sanyarúképpen gyötresz engem, hogy azt kell követnem, az után kell
+							fáradnom kedvem ellen is, azki elfut előttem! Ó, te hamis szerelem,
+							miért erőltetsz annak szerelmére, azki ilyen igen gyűlöli szegén
+							fejemet? Mostan vészem eszemben, hogy igaz volt, azmit egyszer beszél
+							vala énnékem Briseida, az szerelemnek igen tudós doktora, hogy azkit
+							ember merésznek, szorgalmatosnak vél az szerelemben, arra igaz, hogy
+							ritkán kell csak jó szemmel is tekinteni, hogy ne hagyjon ember
+							bizodalmat magán venni, ne alítsa embert közmarhává, hanem száján kell
+							viseldegélni jó reménséggel, úgy, hogy az kedvetlen tekéntet is kegyelem
+							gyanánt essék néki, de azért ember oztán ha megtapasztalja
+							tökéletességét, s nyilván látja, hogy nincs mit félni tőle s miért
+							kételkedni hozzá, azkor oztán jó kedved mutasd hozzá néki, hogy az
+							keménség ki ne űzze az szerelmet szívéből; mert igen ritkán szokott az
+							szerelemnek újonnan gyúlt tüze oly sokáig égni, hol reménséget nem
+							raknak reá s bizodalommal nem gerjesztik. Ó, vajha fogadtam volna, s nem
+							kegyetlenkedtem volna azkor ellene, azmikor sok próbálás után nagy
+							szántalan dologban megbizonyította vala tökéletes szerelmét hozzám, most
+							bezzeg nem nyelnék ennyi keserő sok bút!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS II. SCENA IV.</head>
-          <p>
-            <stage>Briseida szól Credulussal.</stage>
-          </p>
+          <stage>Briseida szól Credulussal.</stage>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Ám lásd, ám, ha ilyen rossz ember hazugságához képest kell kétséget s gyanóságot
-              fejedre venned! Csudálom, eszes ember lévén hogy ezféle bolondságot hiszesz. Egy csepp
-              igazság nincs abban! Hamarébb laknak az halak az száraz homokon, mint az Sylvanus
-              felöl én ezt elhiggyem.</p>
+            <p>Ám lásd, ám, ha ilyen rossz ember hazugságához képest kell kétséget s
+							gyanóságot fejedre venned! Csudálom, eszes ember lévén hogy ezféle
+							bolondságot hiszesz. Egy csepp igazság nincs abban! Hamarébb laknak az
+							halak az száraz homokon, mint az Sylvanus felöl én ezt elhiggyem.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Hát immár mi hasznaért mondta Dienes énnékem, olyan együgyő paraszt ember valván, ha
-              igaz nem volna? Hohó, most vészem eszemben, miért sétál volt gyakorta alá s fel
-              Sylvanus uram az Julia háza előtt!</p>
+            <p>Hát immár mi hasznaért mondta Dienes énnékem, olyan együgyő paraszt ember
+							valván, ha igaz nem volna? Hohó, most vészem eszemben, miért sétál volt
+							gyakorta alá s fel Sylvanus uram az Julia háza előtt!</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
@@ -980,19 +1027,22 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Mi szükség volt valyon szinte olyan gyakorta ballagni alá s fel? Vaj, hogy nem tudod,
-              hogy az horgon vagyon az eledel, kire az halakot csalogatják?</p>
+            <p>Mi szükség volt valyon szinte olyan gyakorta ballagni alá s fel? Vaj,
+							hogy nem tudod, hogy az horgon vagyon az eledel, kire az halakot
+							csalogatják?</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Ott vagyon az icce, csaknem mondám, mi! Felséges Isten, valyon szeretett-é valaha
-              valaki úgy, hogy mástól nem féltette volna szerelmesét, s ki úgyan ne kételkedett s
-              gyanakodott volna szerelmeséhez soha?</p>
+            <p>Ott vagyon az icce, csaknem mondám, mi! Felséges Isten, valyon
+							szeretett-é valaha valaki úgy, hogy mástól nem féltette volna
+							szerelmesét, s ki úgyan ne kételkedett s gyanakodott volna szerelmeséhez
+							soha?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ok nélkül bizon igen bolondság, azki gyanakodik, de azminek ember bizonyos jelét
-              látja, annál is nagyobb bolondság, ha mégsem vészi eszében!</p>
+            <p>Ok nélkül bizon igen bolondság, azki gyanakodik, de azminek ember
+							bizonyos jelét látja, annál is nagyobb bolondság, ha mégsem vészi
+							eszében!</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
@@ -1000,104 +1050,114 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Micsoda nagyobb jel kell annál, ha látom, hogy Julia, ha csak reá tekintek is, ottan
-              lehajtja fejét, elfordolván tőlem, menten mégyen előlem? Kicsoda oly vak, azki okát
-              annak eszében ne végye?</p>
+            <p>Micsoda nagyobb jel kell annál, ha látom, hogy Julia, ha csak reá
+							tekintek is, ottan lehajtja fejét, elfordolván tőlem, menten mégyen
+							előlem? Kicsoda oly vak, azki okát annak eszében ne végye?</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Nyavalyás, ki álmos! Serkenj fel, szegény, s teröld meg szemedet! Nézhetdsze, mivel
-              álmodnak néha őmagokban az szerelmesek! Hallád, uramfia, csak most kezdett-é ily kemén
-              lenni Julia hozzád? Tekintett-é inkább valaha jobb szemmel reád? Valyon hol trécselt s
-              hol nevetkezett kegyelmetek egymással, s ki látta, hogy Sylvanussal nyájaskodott
-              volna? Látd-é, balgatag, mint vagyon a dolog!</p>
+            <p>Nyavalyás, ki álmos! Serkenj fel, szegény, s teröld meg szemedet!
+							Nézhetdsze, mivel álmodnak néha őmagokban az szerelmesek! Hallád,
+							uramfia, csak most kezdett-é ily kemén lenni Julia hozzád? Tekintett-é
+							inkább valaha jobb szemmel reád? Valyon hol trécselt s hol nevetkezett
+							kegyelmetek egymással, s ki látta, hogy Sylvanussal nyájaskodott volna?
+							Látd-é, balgatag, mint vagyon a dolog!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>No, hadd járjon, az nap el nem mégyen s el nem nyugszik addig, hanem nyilván végire
-              mégyek, valamint s valahogy járok; mert azminémő nagy búsulás lelkemre szállott
-              amiatt, lehetetlen dolog, hogy csak egy csepp nyugodalmam is lehessen, valóban míg nem
-              értem az dolgot, mint vagyon.</p>
+            <p>No, hadd járjon, az nap el nem mégyen s el nem nyugszik addig, hanem
+							nyilván végire mégyek, valamint s valahogy járok; mert azminémő nagy
+							búsulás lelkemre szállott amiatt, lehetetlen dolog, hogy csak egy csepp
+							nyugodalmam is lehessen, valóban míg nem értem az dolgot, mint
+							vagyon.</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Ó, dühös gyanóság! Mely igen elfolyja embernek szívét az te halálos mérged! Ím, mely
-              hamar bétölted keserő méreggel az oly szíveket, azkiket az szerelem gyönyörőséggel s
-              édességgel táplál! De te, Credule, énnékem azután békét hagyj, ne kunyorálj utánam, s
-              ne tudakozzál tőlem, ha Julia enheszik-é hozzád vagy nem, se ne supplikálj azon, hogy
-              őtet hozzád hajtsam, hanem fogj máshoz, mert azért, hogy ily hamisat hiszesz felőle!
-              Mert ha ezután melletted szólok bár, ugyan ha talám!</p>
+            <p>Ó, dühös gyanóság! Mely igen elfolyja embernek szívét az te halálos
+							mérged! Ím, mely hamar bétölted keserő méreggel az oly szíveket, azkiket
+							az szerelem gyönyörőséggel s édességgel táplál! De te, Credule, énnékem
+							azután békét hagyj, ne kunyorálj utánam, s ne tudakozzál tőlem, ha Julia
+							enheszik-é hozzád vagy nem, se ne supplikálj azon, hogy őtet hozzád
+							hajtsam, hanem fogj máshoz, mert azért, hogy ily hamisat hiszesz felőle!
+							Mert ha ezután melletted szólok bár, ugyan ha talám!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Látod-é, szép dolog, Istenemre mondom, még ő haragszik, hogy káromon törődöm!
-              Semminek tartod-é te azt hogy ilyen nagy szerelmes jómtól, sőt az éltető lelkemtől
-              fosztják meg szegén fejemet?</p>
+            <p>Látod-é, szép dolog, Istenemre mondom, még ő haragszik, hogy káromon
+							törődöm! Semminek tartod-é te azt hogy ilyen nagy szerelmes jómtól, sőt
+							az éltető lelkemtől fosztják meg szegén fejemet?</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Istenért, ne bolondoskodjál, s vesd ki szívedből ez ok nélkül való hamis gyanóságot,
-              s higgy meg engem is valaha vagy egy dologban, mert én tudom, mit beszélek; s fogadj
-              szót, könyörögj Juliának, ne gondolj véle, ha szinte haragoson tekint is reád. Nem
-              látod-é, az tulok is mit mível, mikor megszélheszik? Mint rúgkapál, öklel, de azért
-              ugyan nemsokára megszelédül, s viseli az igát. Az régi fenyűfa is elég kemén, de azért
-              sok vágással ugyan ledűl, sőt még az erős kősziklákon is megtetszik néhol az
-              hangyanyom is, ahol sok hangyák járnak. Könyörögj csak gyakran, fohászkodjál sírván
-              előtte, tudd, hogy nem ártasz véle.</p>
+            <p>Istenért, ne bolondoskodjál, s vesd ki szívedből ez ok nélkül való hamis
+							gyanóságot, s higgy meg engem is valaha vagy egy dologban, mert én
+							tudom, mit beszélek; s fogadj szót, könyörögj Juliának, ne gondolj véle,
+							ha szinte haragoson tekint is reád. Nem látod-é, az tulok is mit mível,
+							mikor megszélheszik? Mint rúgkapál, öklel, de azért ugyan nemsokára
+							megszelédül, s viseli az igát. Az régi fenyűfa is elég kemén, de azért
+							sok vágással ugyan ledűl, sőt még az erős kősziklákon is megtetszik
+							néhol az hangyanyom is, ahol sok hangyák járnak. Könyörögj csak gyakran,
+							fohászkodjál sírván előtte, tudd, hogy nem ártasz véle.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Veszék! S te nem akarsz-é hát azután mellettem szólni? Nem elég-é, hogy elárula
-              Sylvanus, hogy te is elállasz mellőlem? Azmi az néki való könyörgést illeti, azt én
-              nem tudom, de mondd meg, ha ugyan nem akarsz-é ezután szolgálóm lenni előtte?</p>
+            <p>Veszék! S te nem akarsz-é hát azután mellettem szólni? Nem elég-é, hogy
+							elárula Sylvanus, hogy te is elállasz mellőlem? Azmi az néki való
+							könyörgést illeti, azt én nem tudom, de mondd meg, ha ugyan nem akarsz-é
+							ezután szolgálóm lenni előtte?</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Ne ádja Isten, hogy én megszűnjem valaha tenéked szolgálni! Sőt jó lelkiesméretem
-              szerint mondhatom, hogy sohol senki snincs jobb akaród néked énnálamnál, s ha az erdő
-              szólhatna, azzal bizonyítanám, hogy szántalanszor szólottam melletted Juliának. De
-              hogy azt hagyom, hogy magad szólj s könyörögj néki, azt csak azért mondom, mert nékem
-              úgy tetszik, hogy foganatosb sokkal akármely asszonnak is az szerelmének maga szava,
-              mint izengetése s az írás. De sem az követ, sem az levél nem jelent alázatosságot, sem
-              bocsát szíve szerint oly fohászkodásokot, sem oly keserves könyveket nem hullat, mint
-              az szokott szeretője előtt hullatni, azki az levelet vagy az követet küldette ki.
-              Mikor szeretőjével beszél, úgy tetszik, hogy mindent, azmit szól, Cupido vagy Venus ő
-              maga súgna fülében.</p>
+            <p>Ne ádja Isten, hogy én megszűnjem valaha tenéked szolgálni! Sőt jó
+							lelkiesméretem szerint mondhatom, hogy sohol senki snincs jobb akaród
+							néked énnálamnál, s ha az erdő szólhatna, azzal bizonyítanám, hogy
+							szántalanszor szólottam melletted Juliának. De hogy azt hagyom, hogy
+							magad szólj s könyörögj néki, azt csak azért mondom, mert nékem úgy
+							tetszik, hogy foganatosb sokkal akármely asszonnak is az szerelmének
+							maga szava, mint izengetése s az írás. De sem az követ, sem az levél nem
+							jelent alázatosságot, sem bocsát szíve szerint oly fohászkodásokot, sem
+							oly keserves könyveket nem hullat, mint az szokott szeretője előtt
+							hullatni, azki az levelet vagy az követet küldette ki. Mikor
+							szeretőjével beszél, úgy tetszik, hogy mindent, azmit szól, Cupido vagy
+							Venus ő maga súgna fülében.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Meglehet, hogy talám fog valami végre, ha nem mindjárt is, embernek buzgó könyörgése
-              az olyan asszonnál, azkinek dicsőséges színe az emberi képet meg nem haladta, vagy
-              azki csak oly, ha igen szép is, mint ez világon kivált szépek közül egyik. De nem nagy
-              lehet itt az dolog! Látd-é, minénők ennek az szemei, s mivel szebb akármely
-              tündérasszonnál is, midőn té-tova kegyesen düjtögeti, mely nagy szerelemmel szikráznak
-              széllyel! Kikkel néha, mikor akaratjával vígan tekint reám, tudod; mint az hó az
-              verőfénben, úgy olvadok el az ő szerelmiben. Miképpen hogy az leppentőcske az
-              gyertyalánghoz való örömiben az gyertyalángban akartva üti magát, én is örömest fűtem
-              az ő kedveért nagy szerelemben lelkemet. De viszont ha kedvetlen tekint reám, mint az
-              bálván, csak el nem esém, mint reméntelen ember, ijedtemben csak elhalok s elhűlök
-              előtte, ki miatt minden színem ottan elváltozik. Néha, mint egy néma, csak szólni sem
-              tudok, s annyira vagyok immár, hogy ha az véghetetlen keserőségből valami jótételeddel
-              ki nem mentesz, majd életemnek is vége lészen. Tőled függ azért, édes asszonyom, az én
-              életemnek minden reménsége!</p>
+            <p>Meglehet, hogy talám fog valami végre, ha nem mindjárt is, embernek buzgó
+							könyörgése az olyan asszonnál, azkinek dicsőséges színe az emberi képet
+							meg nem haladta, vagy azki csak oly, ha igen szép is, mint ez világon
+							kivált szépek közül egyik. De nem nagy lehet itt az dolog! Látd-é,
+							minénők ennek az szemei, s mivel szebb akármely tündérasszonnál is,
+							midőn té-tova kegyesen düjtögeti, mely nagy szerelemmel szikráznak
+							széllyel! Kikkel néha, mikor akaratjával vígan tekint reám, tudod; mint
+							az hó az verőfénben, úgy olvadok el az ő szerelmiben. Miképpen hogy az
+							leppentőcske az gyertyalánghoz való örömiben az gyertyalángban akartva
+							üti magát, én is örömest fűtem az ő kedveért nagy szerelemben lelkemet.
+							De viszont ha kedvetlen tekint reám, mint az bálván, csak el nem esém,
+							mint reméntelen ember, ijedtemben csak elhalok s elhűlök előtte, ki
+							miatt minden színem ottan elváltozik. Néha, mint egy néma, csak szólni
+							sem tudok, s annyira vagyok immár, hogy ha az véghetetlen keserőségből
+							valami jótételeddel ki nem mentesz, majd életemnek is vége lészen. Tőled
+							függ azért, édes asszonyom, az én életemnek minden reménsége!</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Ne keseregj! Ím, fogadom, hogy ismét szemben mégyek véle. De ha valahogy ezenben
-              Julia, az te szerelmes ellenséged reád talál, ha szinte meg nem mersz is véle víni, de
-              el ne fuss előle, hanem vess ellene néki, ha vágni nem mersz is hozzá. Ne félj semmit,
-              ha szinte haraggal lőtt reád szemiből az szerelemnek tüzes nyilával, mert gyakorta
-              elöljárója az igaz szerelemnek az keménség s az ellenkedés.</p>
+            <p>Ne keseregj! Ím, fogadom, hogy ismét szemben mégyek véle. De ha valahogy
+							ezenben Julia, az te szerelmes ellenséged reád talál, ha szinte meg nem
+							mersz is véle víni, de el ne fuss előle, hanem vess ellene néki, ha
+							vágni nem mersz is hozzá. Ne félj semmit, ha szinte haraggal lőtt reád
+							szemiből az szerelemnek tüzes nyilával, mert gyakorta elöljárója az igaz
+							szerelemnek az keménség s az ellenkedés.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Azt mívelem, azmit mondasz. Ím, ide kell egy barátomhoz mennem. Isten hozzád. Ajánlom
-              szolgálatomot s az én életemet is.</p>
+            <p>Azt mívelem, azmit mondasz. Ím, ide kell egy barátomhoz mennem. Isten
+							hozzád. Ajánlom szolgálatomot s az én életemet is.</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Nem kell annak ajánlás, azkitől szorgalmatos gondviselés vagyon. Eredj, viseljen
-              Isten s az szerelem jó szerencsével!</p>
+            <p>Nem kell annak ajánlás, azkitől szorgalmatos gondviselés vagyon. Eredj,
+							viseljen Isten s az szerelem jó szerencsével!</p>
           </sp>
         </div>
       </div>
@@ -1106,17 +1166,18 @@
           <head type="title">ACTUS III. SCENA I.</head>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ahol látom távul, hogy az ágak között egy igen szép kegyes jődögél. Úgy tetszik,
-              azmint az képiről esmérem, hogy Julia, ha az szemem meg nem csal, ki Juliánál egyebet
-              sem tud nézni. Ő bizon, ő! Ó, boldog virágocskák, kik viselitek az ő áldott
-              lábacskáinak nyomdokát, ugyan irillem, hogy lábaival illet benneteket. Most ideje
-              immár az én nyavalyám beszélésének és gyógyétásomnak. No, hozzá hát, én nyelvem, s
-              szólj néki, és kegyelmet kérvén nyerj segedelmet tőle! Mit félsz? Hiszem lám, ő maga,
-              az Szerelem bátorít s tanít, mit kellessék szólnod! Ó, te felséges szép Venus asszon,
-              ádj, kérlek, oly erőt s oly hatalmat most énnékem, nagy keserves szolgádnak, hogy
-              gerjeszthessen fel ennek szívében siralmas könyörgésemmel az kegyességet s
-              kegyelmességet! Szép virágok közt járó szép virág, Isten töltse bé minden
-              kívánságodot!</p>
+            <p>Ahol látom távul, hogy az ágak között egy igen szép kegyes jődögél. Úgy
+							tetszik, azmint az képiről esmérem, hogy Julia, ha az szemem meg nem
+							csal, ki Juliánál egyebet sem tud nézni. Ő bizon, ő! Ó, boldog
+							virágocskák, kik viselitek az ő áldott lábacskáinak nyomdokát, ugyan
+							irillem, hogy lábaival illet benneteket. Most ideje immár az én
+							nyavalyám beszélésének és gyógyétásomnak. No, hozzá hát, én nyelvem, s
+							szólj néki, és kegyelmet kérvén nyerj segedelmet tőle! Mit félsz? Hiszem
+							lám, ő maga, az Szerelem bátorít s tanít, mit kellessék szólnod! Ó, te
+							felséges szép Venus asszon, ádj, kérlek, oly erőt s oly hatalmat most
+							énnékem, nagy keserves szolgádnak, hogy gerjeszthessen fel ennek
+							szívében siralmas könyörgésemmel az kegyességet s kegyelmességet! Szép
+							virágok közt járó szép virág, Isten töltse bé minden kívánságodot!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -1124,110 +1185,116 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ha valaha csak egy mákszemnyire megestél valaki könyörgésén, állj, az élő Istenért,
-              ne siess ilyen igen el tőlem! Érzed-é, hogy az verőfény is mely héven süt mostan?
-              Nincs semmi, látd, sem madár, ki most az árnyékon nem nyugodnék, vagy csergő pataknál
-              az jószagú füvekben vagy zöld ágak között fán, az hűvesben! Állj, kérlek, egy kevéssé,
-              s ne tilts el siralmas szemeimet az te régen kívánt szép szemeidnek nézésétől! Vedd
-              hozzád az én esedezésemet, s engedjed hallgatnom az te szódnak gyönyörű édes beszédét!
-              Nem vétek bizon könyörgésemmel semmit teellened, és majd ugyan elmehetsz oztán, mert
-              még igen fönn az nap!</p>
+            <p>Ha valaha csak egy mákszemnyire megestél valaki könyörgésén, állj, az élő
+							Istenért, ne siess ilyen igen el tőlem! Érzed-é, hogy az verőfény is
+							mely héven süt mostan? Nincs semmi, látd, sem madár, ki most az árnyékon
+							nem nyugodnék, vagy csergő pataknál az jószagú füvekben vagy zöld ágak
+							között fán, az hűvesben! Állj, kérlek, egy kevéssé, s ne tilts el
+							siralmas szemeimet az te régen kívánt szép szemeidnek nézésétől! Vedd
+							hozzád az én esedezésemet, s engedjed hallgatnom az te szódnak gyönyörű
+							édes beszédét! Nem vétek bizon könyörgésemmel semmit teellened, és majd
+							ugyan elmehetsz oztán, mert még igen fönn az nap!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Mondd el hát gyorsan versed, ím, meghallgatom. De mi hasznod benne, ha tudod, hogy
-              csak kár, hogy beszélsz?</p>
+            <p>Mondd el hát gyorsan versed, ím, meghallgatom. De mi hasznod benne, ha
+							tudod, hogy csak kár, hogy beszélsz?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Tudod, szerelmes édes egyetlenegy lelkem, hogy azulta immár kétszer ruházta zöldben
-              az kedves tavasz az széles földet, megadván az füveknek is az szép virágokat, az
-              fáknak is különb-különbféle szép gyümölcsöket, azmiulta szerelmedre felgerjedvén szép
-              szemeidnek mennyei világosságával szívemet, édesem, eltolvajlottad. Azulta magad vagy
-              bizonságom, hogy mind csak az utánad való keserves kiáltásim zöngöttek az vadon erdők
-              között. Hovatovább mind csak kegyetlenkedtél rajtam.</p>
+            <p>Tudod, szerelmes édes egyetlenegy lelkem, hogy azulta immár kétszer
+							ruházta zöldben az kedves tavasz az széles földet, megadván az füveknek
+							is az szép virágokat, az fáknak is különb-különbféle szép gyümölcsöket,
+							azmiulta szerelmedre felgerjedvén szép szemeidnek mennyei világosságával
+							szívemet, édesem, eltolvajlottad. Azulta magad vagy bizonságom, hogy
+							mind csak az utánad való keserves kiáltásim zöngöttek az vadon erdők
+							között. Hovatovább mind csak kegyetlenkedtél rajtam.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Azmikor az emberek az juhokot az farkasra bízzák, s azmikor az fülemilék az tengerben
-              szólanak, akkor lészek én is kegyes s szerelmes hozzád.</p>
+            <p>Azmikor az emberek az juhokot az farkasra bízzák, s azmikor az fülemilék
+							az tengerben szólanak, akkor lészek én is kegyes s szerelmes hozzád.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ki hinné, fölséges Isten, hogy ilyen angyali szépségben, efféle kegyesnek szívében
-              ilyen nagy istentelenség és szörnyű kegyetlenség uralkodjék? Talám imez repedezett
-              kőszikláktúl születtél? Vagy Carthago határiban termett oroszlán tejét ittad? Vagy az
-              armeniai párduszok csöcseit szoptad, azminémö kegyetlen vagy? Az szép Diana, az
-              vadászásnak istenasszonya gyakran elhadta múlatságát, s figyelmetesen hallgatta az én
-              verseimnek siralmát. Sőt még az erdők, hegyek, völgyek, berkek, kövek is, hallván az
-              én keserves énekimet, mellettem keservesen megzöngöttek. Csak te egyedül, szép Julia,
-              hogy istentelenképpen nem könyörülsz rajtam, sőt látom, hogy szinte úgy élsz kínommal
-              s könnyhullatásimmal, mint egy kedves eledellel!</p>
+            <p>Ki hinné, fölséges Isten, hogy ilyen angyali szépségben, efféle kegyesnek
+							szívében ilyen nagy istentelenség és szörnyű kegyetlenség uralkodjék?
+							Talám imez repedezett kőszikláktúl születtél? Vagy Carthago határiban
+							termett oroszlán tejét ittad? Vagy az armeniai párduszok csöcseit
+							szoptad, azminémö kegyetlen vagy? Az szép Diana, az vadászásnak
+							istenasszonya gyakran elhadta múlatságát, s figyelmetesen hallgatta az
+							én verseimnek siralmát. Sőt még az erdők, hegyek, völgyek, berkek, kövek
+							is, hallván az én keserves énekimet, mellettem keservesen megzöngöttek.
+							Csak te egyedül, szép Julia, hogy istentelenképpen nem könyörülsz
+							rajtam, sőt látom, hogy szinte úgy élsz kínommal s könnyhullatásimmal,
+							mint egy kedves eledellel!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Tisztes kis eledel bátor! Nem veszed-é eszedben, szegény, hogy inkább idegenítesz,
-              mint édesítesz magadhoz effélével engem? Ha nyilván látod, hogy semmit nem használsz
-              énnálam az sok sírásoddal, miért sírsz minduntalan előttem? Mint vetekedel, mint
-              gyötred magadot?</p>
+            <p>Tisztes kis eledel bátor! Nem veszed-é eszedben, szegény, hogy inkább
+							idegenítesz, mint édesítesz magadhoz effélével engem? Ha nyilván látod,
+							hogy semmit nem használsz énnálam az sok sírásoddal, miért sírsz
+							minduntalan előttem? Mint vetekedel, mint gyötred magadot?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Kételen vagyok véle, mert az nagy szerelem és az te szépségedtűl megbírt eszem s
-              felgerjedett kívánságom erőltet reá. Szólnom kell azért s sírnom, nem hallgathatok
-              akaratom ellen is, azért az szerelmet szidjad bennem, kegyetlen, s ne engemet;
-              jóllehet én sem képtelen, sem tiszteletlen, sem lehetetlen dolgot nem kívánok, hanem
-              csak azon könyörgök, hogy ne légyen ellened, hanem légyen szabad bátran szép szemeidre
-              néznem.</p>
+            <p>Kételen vagyok véle, mert az nagy szerelem és az te szépségedtűl megbírt
+							eszem s felgerjedett kívánságom erőltet reá. Szólnom kell azért s
+							sírnom, nem hallgathatok akaratom ellen is, azért az szerelmet szidjad
+							bennem, kegyetlen, s ne engemet; jóllehet én sem képtelen, sem
+							tiszteletlen, sem lehetetlen dolgot nem kívánok, hanem csak azon
+							könyörgök, hogy ne légyen ellened, hanem légyen szabad bátran szép
+							szemeidre néznem.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Bizon szánom, veszett, nyavalyádot, s bánom, hogy az igaz szerelem miatt vallasz
-              ennyi sok bút, s bánom azt is, szívem szerint, hogy ha akarnám is, nem segíthetlek, s
-              nem könnyebbíthetlek semmivel. Azért lássad, mert engemet csak héában igyekezel hozzád
-              hajtani.</p>
+            <p>Bizon szánom, veszett, nyavalyádot, s bánom, hogy az igaz szerelem miatt
+							vallasz ennyi sok bút, s bánom azt is, szívem szerint, hogy ha akarnám
+							is, nem segíthetlek, s nem könnyebbíthetlek semmivel. Azért lássad, mert
+							engemet csak héában igyekezel hozzád hajtani.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ha az Isten mind az mennyei s földi szépségeket épen s dicsőségesképpen teremtette,
-              mi dolog, hogy szívedet az kegyességben részetlenné tötte? Nem tudod-é, hogy oly
-              szinte az szépség az kegyesség nélkül, mint az jó kút az forrás nélkül s mint az szép
-              fiatal zöld ág gyümölcs nélkül? Ha azt tartod, hogy nem érdemlem az te szerelmedet,
-              ámbár ne szeress engem, csak engedd azt, hogy én szeresselek tégedet, s ha szinte nem
-              kedveled s nem becsüled is, mégis, csak ne útáld teljességgel az én szerelmemet, s ha
-              szerelmesed nem lehetek is, légyek ottan csak rabod, míg élek.</p>
+            <p>Ha az Isten mind az mennyei s földi szépségeket épen s dicsőségesképpen
+							teremtette, mi dolog, hogy szívedet az kegyességben részetlenné tötte?
+							Nem tudod-é, hogy oly szinte az szépség az kegyesség nélkül, mint az jó
+							kút az forrás nélkül s mint az szép fiatal zöld ág gyümölcs nélkül? Ha
+							azt tartod, hogy nem érdemlem az te szerelmedet, ámbár ne szeress engem,
+							csak engedd azt, hogy én szeresselek tégedet, s ha szinte nem kedveled s
+							nem becsüled is, mégis, csak ne útáld teljességgel az én szerelmemet, s
+							ha szerelmesed nem lehetek is, légyek ottan csak rabod, míg élek.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Nem kell sem szerelmed, sem szolgálatod, sem rabságod, akárki szeretője, szolgája,
-              rabja légy, csak nékem hagyj békét! Én elmégyek.</p>
+            <p>Nem kell sem szerelmed, sem szolgálatod, sem rabságod, akárki szeretője,
+							szolgája, rabja légy, csak nékem hagyj békét! Én elmégyek.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
             <p>Ne siess, én édes fényes napom, mert ha te elmégy, én majd úgy maradok az
-              keserőségben, mint az nap nélkül való setétségben. Úristen, mit vétettem oly nagyot
-              ellened, hogy hozzám nem engeszteled? Ó, Szerelem, Szerelem, mikor szegtem meg az te
-              törvényedet, hogy ellenem így keményíted? Lám, senkit nem gyűlöl énnálamnál inkább ez
-              világon! De mit panaszolkodom héában, ha mind csak Sylvanus ennek az oka. Háladatlan,
-              tökéletlen rossz ember, tetőled reménlettem segítséget, tetőled vártam minden jót,
-              néked jelentettem meg minden szerelmes kívánságimot, igaznak alítván téged, áruló, s
-              nézhetdsze, mint árulsz el! De bár reméntelenül haljak meg, ha magam két kezivel nem
-              állom bosszúmot meg rajtad!</p>
+							keserőségben, mint az nap nélkül való setétségben. Úristen, mit vétettem
+							oly nagyot ellened, hogy hozzám nem engeszteled? Ó, Szerelem, Szerelem,
+							mikor szegtem meg az te törvényedet, hogy ellenem így keményíted? Lám,
+							senkit nem gyűlöl énnálamnál inkább ez világon! De mit panaszolkodom
+							héában, ha mind csak Sylvanus ennek az oka. Háladatlan, tökéletlen rossz
+							ember, tetőled reménlettem segítséget, tetőled vártam minden jót, néked
+							jelentettem meg minden szerelmes kívánságimot, igaznak alítván téged,
+							áruló, s nézhetdsze, mint árulsz el! De bár reméntelenül haljak meg, ha
+							magam két kezivel nem állom bosszúmot meg rajtad!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS III. SCENA II.</head>
-          <p>
-            <stage>Sylvanus énekelve beszél az tündérasszonnal, Echóval.</stage>
-          </p>
+          <stage>Sylvanus énekelve beszél az tündérasszonnal, Echóval.</stage>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Nappal vagyon az féléken nyulaknak az agarak, vizslák miatt bántások, s az halaknak
-              is nappal vetik meg az hálókot s horgot, s az szántó barom is akkor viseli az igát. De
-              éjjelre kélve, midőn az fejér hold felterjeszti világát, mind nyulak, halak, barmok
-              békével nyugosznak. Csak egyedül nékem, hogy sem éjjel, sem nappal nincs semmi
-              nyugodalmom, mert mind éjjel-nappal csak az szerelem tüziben égek. De majd ez
-              kőszálnak panaszolkodom énekemmel:</p>
+            <p>Nappal vagyon az féléken nyulaknak az agarak, vizslák miatt bántások, s
+							az halaknak is nappal vetik meg az hálókot s horgot, s az szántó barom
+							is akkor viseli az igát. De éjjelre kélve, midőn az fejér hold
+							felterjeszti világát, mind nyulak, halak, barmok békével nyugosznak.
+							Csak egyedül nékem, hogy sem éjjel, sem nappal nincs semmi nyugodalmom,
+							mert mind éjjel-nappal csak az szerelem tüziben égek. De majd ez
+							kőszálnak panaszolkodom énekemmel:</p>
             <lg>
               <l>Ó, magas kősziklák, kietlenben nőtt fák,</l>
               <l>kik nagy szerelmem tüzén</l>
@@ -1438,75 +1505,75 @@
         </div>
         <div type="scene">
           <head type="title">ACTUS III. SCENA III.</head>
-          <p>
-            <stage>Briseida szól Sylvanussal.</stage>
-          </p>
+          <stage>Briseida szól Sylvanussal.</stage>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Azmint Juliátúl értem, nem ok nélkül panaszolkodott azért az szegén Credulus, mert
-              azt mondja Julia, hogy úgy jár utána Sylvanus, és oly szakadatlan tőle, mint az galamb
-              édes felétől.</p>
+            <p>Azmint Juliátúl értem, nem ok nélkül panaszolkodott azért az szegén
+							Credulus, mert azt mondja Julia, hogy úgy jár utána Sylvanus, és oly
+							szakadatlan tőle, mint az galamb édes felétől.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Ihon jő Briseida! Immár nem kérdezkedhetem többet Echótól magam felül.</p>
+            <p>Ihon jő Briseida! Immár nem kérdezkedhetem többet Echótól magam
+							felül.</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Ihon vagyon az áruló Sylvanus! Ezt kelle Credulussal mívelned? Soha nem hittem, hogy
-              ilyen hamis légy néki!</p>
+            <p>Ihon vagyon az áruló Sylvanus! Ezt kelle Credulussal mívelned? Soha nem
+							hittem, hogy ilyen hamis légy néki!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS</speaker>
-            <p>Sem ujja, sem galléra, eb végye magára. Kérlek, ha lehet, ne korpázz, jó asszonyom,
-              mert nem állhatja az fejem az hév lúgot! De mi bolondságot hiszen Credulus is el
-              felőlem?</p>
+            <p>Sem ujja, sem galléra, eb végye magára. Kérlek, ha lehet, ne korpázz, jó
+							asszonyom, mert nem állhatja az fejem az hév lúgot! De mi bolondságot
+							hiszen Credulus is el felőlem?</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Imhol, még tagadja! Mit tagadod, ha még az ágak, fák, kövek is tudják minden
-              álnokságidot? Ha máson cselekedted volna, soha nem bánnám, sem csudálnám, sőt
-              mentenélek, mert én is tudtam ifjú koromban, micsoda az szerelem; ki semmi nem egyéb,
-              hanem egy vak, csalárd gyermek. De Credulust elárulnod bizony nagy bűn, nagy szégyen!
-              Bizon igen bánom, magadért is!</p>
+            <p>Imhol, még tagadja! Mit tagadod, ha még az ágak, fák, kövek is tudják
+							minden álnokságidot? Ha máson cselekedted volna, soha nem bánnám, sem
+							csudálnám, sőt mentenélek, mert én is tudtam ifjú koromban, micsoda az
+							szerelem; ki semmi nem egyéb, hanem egy vak, csalárd gyermek. De
+							Credulust elárulnod bizony nagy bűn, nagy szégyen! Bizon igen bánom,
+							magadért is!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Briseida, megbocsáss! Én Credulust el nem árultam, s te ugyan árultatásnak nevezted
-              dolgomot! Bizonyítom az erdőkkel, kik az én tudománytételemet halljátok, hogy nem én
-              vétkem.</p>
+            <p>Briseida, megbocsáss! Én Credulust el nem árultam, s te ugyan
+							árultatásnak nevezted dolgomot! Bizonyítom az erdőkkel, kik az én
+							tudománytételemet halljátok, hogy nem én vétkem.</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Nincs s nem is lehet semmi igaz mentséged! Magadtúl is meg kellene pirulnod Juliát
-              szerettedben, mert nemcsak egyféle árultatást mívelsz ám azzal, hanem kétfélét
-              egyszersmind, mert az te igaz barátodnak, Credulusnak árulója vagy, s az Galateának is
-              azonképpen, kinek vidám szemeit, jut-é eszedben, hogy egyszer az magad szemeinél is
-              inkább szeretted vala? Ez-é az igazság? Ez-é az tökéletesség? Ha egyet nem néznék
-              talám ez szemnél.</p>
+            <p>Nincs s nem is lehet semmi igaz mentséged! Magadtúl is meg kellene
+							pirulnod Juliát szerettedben, mert nemcsak egyféle árultatást mívelsz ám
+							azzal, hanem kétfélét egyszersmind, mert az te igaz barátodnak,
+							Credulusnak árulója vagy, s az Galateának is azonképpen, kinek vidám
+							szemeit, jut-é eszedben, hogy egyszer az magad szemeinél is inkább
+							szeretted vala? Ez-é az igazság? Ez-é az tökéletesség? Ha egyet nem
+							néznék talám ez szemnél.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS</speaker>
-            <p>Azmint látom, még az füvek s virágok is kikiáltják az én nagy szerelmemet. Látom
-              bizon én magam is, hogy ez szerelemmel én oly nagyot vétek, hogy méltó, ki-ki
-              gyűlöljön érte. Vallom s nem tagadom én magam is! De te, Szerelem, magadra hagyom,
-              hogy nem én vétkem, hanem tiéd, mert azminémő hálót ennek előtte az Galateá
-              ábrázatjára énnékem vontál volt, ugyanazont vontad most Julia személyére. De ennek fő
-              oka azért csak az Galatea tűrhetetlensége, ki miatt midőn reméntelenségben estem
-              volna, s mint egy baba, úgy járnék az mezőn széllyel, akarám az Julia szépségével az
-              Galatea miatt való búmot elvernem, úgy, mint szeggel szeget, de így is csak nyavalyára
-              jutottam, noha bú előtt futottam.</p>
+            <p>Azmint látom, még az füvek s virágok is kikiáltják az én nagy
+							szerelmemet. Látom bizon én magam is, hogy ez szerelemmel én oly nagyot
+							vétek, hogy méltó, ki-ki gyűlöljön érte. Vallom s nem tagadom én magam
+							is! De te, Szerelem, magadra hagyom, hogy nem én vétkem, hanem tiéd,
+							mert azminémő hálót ennek előtte az Galateá ábrázatjára énnékem vontál
+							volt, ugyanazont vontad most Julia személyére. De ennek fő oka azért
+							csak az Galatea tűrhetetlensége, ki miatt midőn reméntelenségben estem
+							volna, s mint egy baba, úgy járnék az mezőn széllyel, akarám az Julia
+							szépségével az Galatea miatt való búmot elvernem, úgy, mint szeggel
+							szeget, de így is csak nyavalyára jutottam, noha bú előtt futottam.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS III. SCENA IV.</head>
-          <p>
-            <stage>Dienes szól Galateával.</stage>
-          </p>
+          <stage>Dienes szól Galateával.</stage>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
-            <p>Hála Istennek, hogy mégis könnyebb, hogy noha éntőlem fut, de azért ugyan nem
-              utál!</p>
+            <p>Hála Istennek, hogy mégis könnyebb, hogy noha éntőlem fut, de azért ugyan
+							nem utál!</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
@@ -1518,8 +1585,8 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES</speaker>
-            <p>Haha, mint haragszik! Lám, mondom, hogy nem mívelem egy kérődet, hanem tízet. Csak
-              parancsolj, megalkoszunk mi, édes vérem.</p>
+            <p>Haha, mint haragszik! Lám, mondom, hogy nem mívelem egy kérődet, hanem
+							tízet. Csak parancsolj, megalkoszunk mi, édes vérem.</p>
           </sp>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
@@ -1535,14 +1602,14 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES</speaker>
-            <p>Egy tengeliccel. Csi, csi, csi! Nézsze, mint jő az szómra; ha lépem volna, majd
-              megfoghatnám.</p>
+            <p>Egy tengeliccel. Csi, csi, csi! Nézsze, mint jő az szómra; ha lépem
+							volna, majd megfoghatnám.</p>
           </sp>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
-            <p>Meg az ebet! Hagyj békét annak! Ihon látd-é az szép inget? Néked ádom én ezt, ha imez
-              kosárka eperjet elvétetnéd éntőlem az uraddal. Bizony csak ezennel szedtem énmagam két
-              kezivel!</p>
+            <p>Meg az ebet! Hagyj békét annak! Ihon látd-é az szép inget? Néked ádom én
+							ezt, ha imez kosárka eperjet elvétetnéd éntőlem az uraddal. Bizony csak
+							ezennel szedtem énmagam két kezivel!</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES</speaker>
@@ -1582,21 +1649,20 @@
           </sp>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
-            <p>Bátor valamely órában kéred, odaádom ottan, csak végye el Sylvanus az eperjet!</p>
+            <p>Bátor valamely órában kéred, odaádom ottan, csak végye el Sylvanus az
+							eperjet!</p>
           </sp>
         </div>
       </div>
       <div type="act">
         <div type="scene">
           <head type="title">ACTUS IV. SCENA I.</head>
-          <p>
-            <stage>Credulus beszél Sylvanussal.</stage>
-          </p>
+          <stage>Credulus beszél Sylvanussal.</stage>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Csak kár, nem mesterkedhettél úgy, Sylvane, hogy dolgodot elfedezhetted volna
-              előttem. Nincs oly vékony sodrott fonal, ki valaha az verőfénre ne kéljen, titok
-              snincs olyan, ki valaha ki ne jelenjen.</p>
+            <p>Csak kár, nem mesterkedhettél úgy, Sylvane, hogy dolgodot elfedezhetted
+							volna előttem. Nincs oly vékony sodrott fonal, ki valaha az verőfénre ne
+							kéljen, titok snincs olyan, ki valaha ki ne jelenjen.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
@@ -1604,117 +1670,128 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Nemcsak garázdálkodom az te hitetlen voltodért, hanem ugyan eszvehordjuk ma az
-              marhát!</p>
+            <p>Nemcsak garázdálkodom az te hitetlen voltodért, hanem ugyan eszvehordjuk
+							ma az marhát!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Valamiért? Valyon mi hamisad volt valaha éntőlem, jámbor, hogy így pártolkodol?</p>
+            <p>Valamiért? Valyon mi hamisad volt valaha éntőlem, jámbor, hogy így
+							pártolkodol?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Mi hamisam? Még azt kérded? Tehozzád én úgy bíztam, mint magamhoz, s ahhoz képest
-              tanácsot is kérdettem tőled, mint meghitt barátomtúl, dicsérvén hol szemét, hol kezét,
-              hol szavát, hol homlokát Juliának előtted, azt alítván, hogy orvoslanál inkább,
-              hogysem elárulnál nyavalyámban. S ha tekintem, hát nem barátom, hanem halálos
-              ellenségem voltál énnékem, mert sok esztendeig való szolgálatomnak minden bérét,
-              érdemét elvesztetted tőlem! Hogy mívelhettél ilyen árultatást rajtam? Tudod, hogy
-              engemet, ilyen jó társodot s barátodot árulsz véle! Engem, mondok, kinek mindenkoron
-              ajánlottad szolgálatodot! Ez-é az igaz barátság s tökéletes jámborság?</p>
+            <p>Mi hamisam? Még azt kérded? Tehozzád én úgy bíztam, mint magamhoz, s
+							ahhoz képest tanácsot is kérdettem tőled, mint meghitt barátomtúl,
+							dicsérvén hol szemét, hol kezét, hol szavát, hol homlokát Juliának
+							előtted, azt alítván, hogy orvoslanál inkább, hogysem elárulnál
+							nyavalyámban. S ha tekintem, hát nem barátom, hanem halálos ellenségem
+							voltál énnékem, mert sok esztendeig való szolgálatomnak minden bérét,
+							érdemét elvesztetted tőlem! Hogy mívelhettél ilyen árultatást rajtam?
+							Tudod, hogy engemet, ilyen jó társodot s barátodot árulsz véle! Engem,
+							mondok, kinek mindenkoron ajánlottad szolgálatodot! Ez-é az igaz
+							barátság s tökéletes jámborság?</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Halljad, ím megmondom, azután tégy magad ítéletet benne, ha érdemlek-é böcsületet
-              vagy nem. Egykor Dametával ballagunk vala az olajfa-völgyön, s egy dombnak az
-              árnyékában találánk egymás mellett fekünni Juliát Mirtinával, hogy ott nyugodnának az
-              jószagó füvekben, az jó madarászás után. Vala valami eledel is mellettek. Mihelt
-              megláttak bennünket, Mirtina ottan felkele, s nagy emberséggel kezde étellel és
-              itallal kínálni bennünket, s mi is melléjek ülénk. S hogy ott ennénk s innánk immár,
-              történék, hogy az beszéd közben Julia, csak történet szerint fordítá reám szemeit, s
-              én is penig titkon eszemben vettem vala az ő tekintetit. Jó idő múlván szomorúan
-              fölemeltem vala szemöldökömet, nagy szomorúan reája tekinték, úgy, hogy egymás
-              tekintetünk egyben találának, s ugyanott mindjárt az Szerelem (kinek az ő személyét
-              lesben állatta vala ellenem) egy nyilával gyógyíthatatlan sebet ejte szívemen. Csak
-              esék énrajtam, hogy ottan elvésze eszem, s halálos veríték üte ki homlokomon, ki miatt
-              csak elhalék s elnémulék; s mint az leángyermek álmában megrettenvén s felserkenvén,
-              ijedtében édes anyját kiáltja.</p>
+            <p>Halljad, ím megmondom, azután tégy magad ítéletet benne, ha érdemlek-é
+							böcsületet vagy nem. Egykor Dametával ballagunk vala az olajfa-völgyön,
+							s egy dombnak az árnyékában találánk egymás mellett fekünni Juliát
+							Mirtinával, hogy ott nyugodnának az jószagó füvekben, az jó madarászás
+							után. Vala valami eledel is mellettek. Mihelt megláttak bennünket,
+							Mirtina ottan felkele, s nagy emberséggel kezde étellel és itallal
+							kínálni bennünket, s mi is melléjek ülénk. S hogy ott ennénk s innánk
+							immár, történék, hogy az beszéd közben Julia, csak történet szerint
+							fordítá reám szemeit, s én is penig titkon eszemben vettem vala az ő
+							tekintetit. Jó idő múlván szomorúan fölemeltem vala szemöldökömet, nagy
+							szomorúan reája tekinték, úgy, hogy egymás tekintetünk egyben találának,
+							s ugyanott mindjárt az Szerelem (kinek az ő személyét lesben állatta
+							vala ellenem) egy nyilával gyógyíthatatlan sebet ejte szívemen. Csak
+							esék énrajtam, hogy ottan elvésze eszem, s halálos veríték üte ki
+							homlokomon, ki miatt csak elhalék s elnémulék; s mint az leángyermek
+							álmában megrettenvén s felserkenvén, ijedtében édes anyját kiáltja.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Miért nem tekintettél máshová? Miért néztél reá? Mit ámodtál csudául az ő mennyei
-              ábrázatjára?</p>
+            <p>Miért nem tekintettél máshová? Miért néztél reá? Mit ámodtál csudául az ő
+							mennyei ábrázatjára?</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Bizon egynéhányszor akartam s igyekeztem, de soha erővel sem fordíthatám el szememet
-              róla, mert az ő hihetetlen szép volta akaratom ellen is maga csudájára húzza vala
-              szívemet.</p>
+            <p>Bizon egynéhányszor akartam s igyekeztem, de soha erővel sem fordíthatám
+							el szememet róla, mert az ő hihetetlen szép volta akaratom ellen is maga
+							csudájára húzza vala szívemet.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Nem az, nem, nem az ő szépsége, hanem az magad tökéletlensége s hitetlensége ennek az
-              oka. Tudod, hogy nem cselekedtem én azt tevéled, mikor Galateában égsz vala!</p>
+            <p>Nem az, nem, nem az ő szépsége, hanem az magad tökéletlensége s
+							hitetlensége ennek az oka. Tudod, hogy nem cselekedtem én azt tevéled,
+							mikor Galateában égsz vala!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Bizonyára, ha az Szerelem rabja vagy, azminthogy tagadhatatlan dolog, hogy az vagy,
-              tehát tudnod kell, haszontalan őelőtte mind az elfutás, s mind az elrejtezés, s mind
-              penig az ellenkezés, mert ő mind lőni, s mind repülni, s mind gyútani jól tud, s ha
-              szinte néha valamely embernek az szíve kemén volta miatt nyilván nem árthat is, ugyan
-              nem nyert ember azért azzal, mert kinek szívét nyilával meg nem hatja, azt tűzzel
-              gyútja, s úgy meglágyítja. S ott még az gyútó tüzet is, ha meg akarná oltani valaki az
-              tiszta szemérmetességnek nedvességével, úgy sem fog semmit. Mert azhová ember lábán
-              igyekezik, oda hamarébb elérkezik szárnyon, s előtte viszen, mert repülve mégyen.</p>
+            <p>Bizonyára, ha az Szerelem rabja vagy, azminthogy tagadhatatlan dolog,
+							hogy az vagy, tehát tudnod kell, haszontalan őelőtte mind az elfutás, s
+							mind az elrejtezés, s mind penig az ellenkezés, mert ő mind lőni, s mind
+							repülni, s mind gyútani jól tud, s ha szinte néha valamely embernek az
+							szíve kemén volta miatt nyilván nem árthat is, ugyan nem nyert ember
+							azért azzal, mert kinek szívét nyilával meg nem hatja, azt tűzzel
+							gyútja, s úgy meglágyítja. S ott még az gyútó tüzet is, ha meg akarná
+							oltani valaki az tiszta szemérmetességnek nedvességével, úgy sem fog
+							semmit. Mert azhová ember lábán igyekezik, oda hamarébb elérkezik
+							szárnyon, s előtte viszen, mert repülve mégyen.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Semmi mentség ez! Csak árultatásodnak s tökéletlen hamis voltodnak undokságát (kiben
-              ellenem fértetél) forgattad volna is szemed előtt, szabadon mert ember lehettél volna
-              az Szerelemnek nyilaitúl, szárnyától, lángjától!</p>
+            <p>Semmi mentség ez! Csak árultatásodnak s tökéletlen hamis voltodnak
+							undokságát (kiben ellenem fértetél) forgattad volna is szemed előtt,
+							szabadon mert ember lehettél volna az Szerelemnek nyilaitúl, szárnyától,
+							lángjától!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Nám, mondom, hogy nem én vétkem, hanem az Szerelemé, kit magad is jól tudsz, hogy
-              vak, s azt is vakká tészi, azkinek szívét felgerjeszti, hogy az vétket sem esméri, s
-              az barátságot sem tekinti, s az atyafiúságot sem böcsüli.</p>
+            <p>Nám, mondom, hogy nem én vétkem, hanem az Szerelemé, kit magad is jól
+							tudsz, hogy vak, s azt is vakká tészi, azkinek szívét felgerjeszti, hogy
+							az vétket sem esméri, s az barátságot sem tekinti, s az atyafiúságot sem
+							böcsüli.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Azmint látom, nem csak nyertességgel, hanem ugyan erővel is akarod tennenmagadot
-              igazétani. No, ám légyen helye mentségednek, noha nem igaz, s ámbátor légyen úgy, hogy
-              az Szerelemnek erőltetésiből szereted te Juliát, énellenem semmit nem vétesz. De itt
-              mit mondasz arra, hogy nem elégedtél azzal, hogy szeretni merted Juliát, hanem annak
-              felette éntőlem el akartad veszteni, hogy énnálam nélkül, csak egyedül örvendezhess
-              nékie, kivel az éltető lelkemtől akartál engemet megfosztani! Nem hamisság-é ez? Nem
-              gonoszság-é? Azmely gonoszságod napról napra mindaddig öregbel, míg meg nem szűnnél
-              tőle.</p>
+            <p>Azmint látom, nem csak nyertességgel, hanem ugyan erővel is akarod
+							tennenmagadot igazétani. No, ám légyen helye mentségednek, noha nem
+							igaz, s ámbátor légyen úgy, hogy az Szerelemnek erőltetésiből szereted
+							te Juliát, énellenem semmit nem vétesz. De itt mit mondasz arra, hogy
+							nem elégedtél azzal, hogy szeretni merted Juliát, hanem annak felette
+							éntőlem el akartad veszteni, hogy énnálam nélkül, csak egyedül
+							örvendezhess nékie, kivel az éltető lelkemtől akartál engemet
+							megfosztani! Nem hamisság-é ez? Nem gonoszság-é? Azmely gonoszságod
+							napról napra mindaddig öregbel, míg meg nem szűnnél tőle.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Bizonságom az menny és az föld, hogy azelőtt is szántalanszor próbáltam, s most is
-              mindennap azon vagyok, hogy kivessem szememből, de nem enged az Szerelem, sőt akaratom
-              ellen tartóztat engem. Hanem könyergjünk mindketten néki, hogy ilyen méltó
-              kívánságunknak ne légyen ellene, hanem ótsa meg az rút tüzet bennem, s mentse ki
-              teelőtted is ártatlan fejemet. Isten hozzád!</p>
+            <p>Bizonságom az menny és az föld, hogy azelőtt is szántalanszor próbáltam,
+							s most is mindennap azon vagyok, hogy kivessem szememből, de nem enged
+							az Szerelem, sőt akaratom ellen tartóztat engem. Hanem könyergjünk
+							mindketten néki, hogy ilyen méltó kívánságunknak ne légyen ellene, hanem
+							ótsa meg az rút tüzet bennem, s mentse ki teelőtted is ártatlan fejemet.
+							Isten hozzád!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ó, áruló Szerelem, mire juttatál engemet? Ó, hogy bánom, hogy meg nem kérdém
-              Sylvanust, ha szánja-é őtet Julia? Ha örömest hallja-é, mikor szól, vagy penig csak
-              ővéle is így bánik, mint szinte énvélem, hogy még örül gyötrelmemen? De ihon szinte az
-              kegyetlen Julia, mint beszél Briseidával! Majd félfelé vonszom magamot, s meghallom,
-              ha engem szán-é inkább vagy Sylvanust?</p>
+            <p>Ó, áruló Szerelem, mire juttatál engemet? Ó, hogy bánom, hogy meg nem
+							kérdém Sylvanust, ha szánja-é őtet Julia? Ha örömest hallja-é, mikor
+							szól, vagy penig csak ővéle is így bánik, mint szinte énvélem, hogy még
+							örül gyötrelmemen? De ihon szinte az kegyetlen Julia, mint beszél
+							Briseidával! Majd félfelé vonszom magamot, s meghallom, ha engem szán-é
+							inkább vagy Sylvanust?</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS IV. SCENA II.</head>
-          <p>
-            <stage>Briseida szól Juliával, Credulus egy bokor megett hallgatja.</stage>
-          </p>
+          <stage>Briseida szól Juliával, Credulus egy bokor megett hallgatja.</stage>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Nagy ok ádja tennem, hogy ismét megpróbáljam, micsoda akarattal vagy az szegén
-              Credulushoz.</p>
+            <p>Nagy ok ádja tennem, hogy ismét megpróbáljam, micsoda akarattal vagy az
+							szegén Credulushoz.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -1722,63 +1799,64 @@
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Azt akarod-é, hogy mindholtig csak búban, szomorúságban viselje életét, s mindenkoron
-              csak keserő könyveket hullasson, nyavalyás? Szánd meg szegént, te vad állat, s térj
-              hozzá már valaha egyszer!</p>
+            <p>Azt akarod-é, hogy mindholtig csak búban, szomorúságban viselje életét, s
+							mindenkoron csak keserő könyveket hullasson, nyavalyás? Szánd meg
+							szegént, te vad állat, s térj hozzá már valaha egyszer!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ha sokat késel az én életem segedelmével, én keveset késem az veszedelmével!</p>
+            <p>Ha sokat késel az én életem segedelmével, én keveset késem az
+							veszedelmével!</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Az hevült, megszomjúhozott útonjárónak sem édesebb az tiszta forrásvíz, s az
-              aratóknak sem kedvesb az árnyék s hűves szellő, sem az nyájnak az zöld pázsitfű hegye,
-              kit az reggeli piros hajnal gyenge harmattal béhinteget, mint Credulusnak az te
-              szemeid tekinteti.</p>
+            <p>Az hevült, megszomjúhozott útonjárónak sem édesebb az tiszta forrásvíz, s
+							az aratóknak sem kedvesb az árnyék s hűves szellő, sem az nyájnak az
+							zöld pázsitfű hegye, kit az reggeli piros hajnal gyenge harmattal
+							béhinteget, mint Credulusnak az te szemeid tekinteti.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Az dühös farkas is nem nagyobb ellensége az juhoknak és barmoknak, s az kőeső sem
-              nagyobb az éretlen gyümölcsnek, s az száraz dér sem az új plántáknak, mint nékem
-              szerelme Credulusnak.</p>
+            <p>Az dühös farkas is nem nagyobb ellensége az juhoknak és barmoknak, s az
+							kőeső sem nagyobb az éretlen gyümölcsnek, s az száraz dér sem az új
+							plántáknak, mint nékem szerelme Credulusnak.</p>
           </sp>
           <sp who="#briseida">
             <speaker>BRISEIDA.</speaker>
-            <p>Hadd el az kegyetlenséget, s tekints kegyelmesen, mondok, szegénre! Meglásd, ne
-              haragéts magadra az Szerelmet, mert tudod, nem fog semmi poenitentia Cupidónál. Valyon
-              nem esméred-é az ő nyilának hegyes voltát?</p>
+            <p>Hadd el az kegyetlenséget, s tekints kegyelmesen, mondok, szegénre!
+							Meglásd, ne haragéts magadra az Szerelmet, mert tudod, nem fog semmi
+							poenitentia Cupidónál. Valyon nem esméred-é az ő nyilának hegyes
+							voltát?</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Haragudjék bár, lője szinte annyi nyilát reám, mennyit akar, mit árthat annál többet,
-              azmit ez ideig ártott? De talám azt akarnád, hogy néked jelenteném én azt meg, azkit
-              ez ideig soha senkinek nem mondottam? De ne várd, mert minthogy ekkoráig senkinek sem
-              jelentettem, ezután sem senkinek, míg élek. Hanem ezt bizonnyal elhiggyed azért bátor
-              felőlem, hogy én ezután soha senki szerelméhez magam nem kötöm, mert sok esztendeje
-              vagyon már, azmiulta egy ifjú vitéz szerelmében ádtam magamot válhatatlanképpen, kitől
-              soha el nem szakadok.</p>
+            <p>Haragudjék bár, lője szinte annyi nyilát reám, mennyit akar, mit árthat
+							annál többet, azmit ez ideig ártott? De talám azt akarnád, hogy néked
+							jelenteném én azt meg, azkit ez ideig soha senkinek nem mondottam? De ne
+							várd, mert minthogy ekkoráig senkinek sem jelentettem, ezután sem
+							senkinek, míg élek. Hanem ezt bizonnyal elhiggyed azért bátor felőlem,
+							hogy én ezután soha senki szerelméhez magam nem kötöm, mert sok
+							esztendeje vagyon már, azmiulta egy ifjú vitéz szerelmében ádtam magamot
+							válhatatlanképpen, kitől soha el nem szakadok.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS IV. SCENA III.</head>
-          <p>
-            <stage>Dienes szól Sylvanussal.</stage>
-          </p>
+          <stage>Dienes szól Sylvanussal.</stage>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Vedd el, uram! Végye el uraságod, ha egyébért nem is, ottan csak azért, hadd légyen
-              enyim az hímes ing, kit Galatea ígért.</p>
+            <p>Vedd el, uram! Végye el uraságod, ha egyébért nem is, ottan csak azért,
+							hadd légyen enyim az hímes ing, kit Galatea ígért.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Nem csuda, hogy oktalan voltodra így búsítasz. Hagyj békét, menj inkább az juhokhoz,
-              mert valami farkasordítást hallok mind az völgyen!</p>
+            <p>Nem csuda, hogy oktalan voltodra így búsítasz. Hagyj békét, menj inkább
+							az juhokhoz, mert valami farkasordítást hallok mind az völgyen!</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Patvar marja mind farkast, medvét, rókát! Majd elmégyek, csak vedd el az eperjet, ne
-              vesszen el az hímes ing tőlem.</p>
+            <p>Patvar marja mind farkast, medvét, rókát! Majd elmégyek, csak vedd el az
+							eperjet, ne vesszen el az hímes ing tőlem.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
@@ -1794,8 +1872,8 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Miért nem kóstolod meg? Talám azt hiszed, hogy valamit adnak megenned? Ím én is
-              eszem.</p>
+            <p>Miért nem kóstolod meg? Talám azt hiszed, hogy valamit adnak megenned? Ím
+							én is eszem.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
@@ -1803,8 +1881,8 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Miért adnám? Magad is megehetnéd azért, ha eszed volna! Miért adnám az szamárkának?
-              Nem tudod-é, hogy nem jó szamárnak eperj?</p>
+            <p>Miért adnám? Magad is megehetnéd azért, ha eszed volna! Miért adnám az
+							szamárkának? Nem tudod-é, hogy nem jó szamárnak eperj?</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
@@ -1812,13 +1890,14 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Ne mondd azt, uram! Nem bolond az szamárka! Látod-é, hogy mind vizet, fát ő hord
-              szegén az konhához?</p>
+            <p>Ne mondd azt, uram! Nem bolond az szamárka! Látod-é, hogy mind vizet, fát
+							ő hord szegén az konhához?</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Mondom én, mint vagyon. Azki mivel társakodik, olyanná lészen. Ha szamárral,
-              szamárrá. Immár ő mind elpöngetné az aggnő szót! Hadd el, s eredj az juhhoz!</p>
+            <p>Mondom én, mint vagyon. Azki mivel társakodik, olyanná lészen. Ha
+							szamárral, szamárrá. Immár ő mind elpöngetné az aggnő szót! Hadd el, s
+							eredj az juhhoz!</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
@@ -1834,63 +1913,69 @@
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Nem vagyok olyan kegyetlen, mint Galatea érdemlené, kiért egész esztendeig
-              sívék-rívék; könyörgék néki, úgy, hogy még az madarak is, úgy tetszett, keserültenek.
-              Kiért csak szemét sem vetette reám, szómot, izenetimet csak hallani sem akarta,
-              levelemet sem olvasta, ajándékimot penig nemhogy elvette volna, de ingyen sem illette.
-              Azért senkire ne vessen, ha olyan magot arat, azminémőt is vetett. Hadd csak, hadd,
-              jóllehet ha valaha megfizetem az kölcsönt, talám nem lesz ilyen kegyetlen hozzám. De
-              itt mit vársz te? Hogy nem mégy el? Hogy nem látsz az juhokhoz? Meglásd, hogy ím,
-              estvére kélve az kosárba rekesszed őket, egy héja se légyen, mert bizon elhidd, te
-              ádod meg az árát, hallod-é? Nyilván szólok, érted-é?</p>
+            <p>Nem vagyok olyan kegyetlen, mint Galatea érdemlené, kiért egész
+							esztendeig sívék-rívék; könyörgék néki, úgy, hogy még az madarak is, úgy
+							tetszett, keserültenek. Kiért csak szemét sem vetette reám, szómot,
+							izenetimet csak hallani sem akarta, levelemet sem olvasta, ajándékimot
+							penig nemhogy elvette volna, de ingyen sem illette. Azért senkire ne
+							vessen, ha olyan magot arat, azminémőt is vetett. Hadd csak, hadd,
+							jóllehet ha valaha megfizetem az kölcsönt, talám nem lesz ilyen
+							kegyetlen hozzám. De itt mit vársz te? Hogy nem mégy el? Hogy nem látsz
+							az juhokhoz? Meglásd, hogy ím, estvére kélve az kosárba rekesszed őket,
+							egy héja se légyen, mert bizon elhidd, te ádod meg az árát, hallod-é?
+							Nyilván szólok, érted-é?</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Vagyon héja, csaknem mondám, az egyik kos szarvának! Ím, mint veszti el tőlem az
-              hímes inget! Csak veszi vala el az eperjet, ollyá tartom vala, mintha rajtam volt
-              volna immár!</p>
+            <p>Vagyon héja, csaknem mondám, az egyik kos szarvának! Ím, mint veszti el
+							tőlem az hímes inget! Csak veszi vala el az eperjet, ollyá tartom vala,
+							mintha rajtam volt volna immár!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS IV. SCENA IV.</head>
-          <p>
-            <stage>Credulus, mint reméntelen, elbúsult ember, magában szól egyedül, meg akarván
-              bújában magát ölni.</stage>
-          </p>
+          <stage>Credulus, mint reméntelen, elbúsult ember, magában szól egyedül, meg
+						akarván bújában magát ölni.</stage>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Mi szükség énnékem (tudván, hogy Julia mást szeret) tovább ez világban vajúdnom? Csak
-              mint egy kába, eszeveszett ember, lecsüggött fővel az emberek között széllyel
-              bolognom? Mi jót kell várnom, ha fülemmel hallom, ő maga Julia mit beszél? Az
-              szerencsét szidjam-é, ha látom, hogy nem az vétke, hanem Sylvanusé, hogy hová fenébb s
-              kegyetlenb Julia hozzám. No, hadd járjon, sem az szerelem, sem hosszú idő orvosolhatja
-              meg az én lelkem fájdalmát. Orvosolja az halál, ki mindennémő búban s nyavalyában
-              hamar véget szokott érni.</p>
-            <p>Medgyek? Imez kősziklárúl szakasszam-é le nyakamot? Ha azt mívelem, csak foltonkint
-              szakadozik az én testem, senki nem fogja tudni, hová lettem, elszöktem-é vagy miben
-              vesztem. Bizon, senki hírt nem tud mondani halálomról! Nem azt tehát, hanem azt
-              mívelem: Ó, ti magas fák, kik sokszor hallottátok az én keserves sírásimot, kiken az
-              én gyilkosom, Julia, csak mosolyogott, ti légyetek mostan is az én testámentumosim, s
-              ti tégyetek bizonságot mind őelötte s mind más előtt az én szörnyű halálomról, mely
-              halálomnak keserves okát, ím, fel is jegyzem egy fiatalra, hogy mennél nagyobb időre
-              nő, annál inkább kiterjessze magán az jegyzetemet, mely jegyzésről végyen ki-ki
-              példát, mint űzze az szerelmet, s mást is tanítson reá. Ó, istentelen s igen kemény
-              szép Julia, ki mindétig fene s néma lől hozzám, ím, meghalok immár. Ezután [nem] búsít
-              az én siralmas kiáltásom tégedet! Talám valaha ezután, ha jó szerencsére reátalálsz az
-              miattad veszett testemre, látván szörnyű halálomot, sokat is gondolkodván magadban,
-              kezdesz akkor megesni, s emlékezetért talám valami csontom darabját is kezedben
-              vészed, sőt talám csókodot sem tiltod akkor meg, kit éltemben megtagadtál tőlem. Ha
-              penig Isten azt akarta, hogy ugyanez gonosz szerencse miatt ez holtom után való jó se
-              teljék rajtam, s holt testemre se találj, hanem valamely ember ásta sír vagy valami
-              vad gyomra légyen az én koporsóm, mégis talám valaha reátalálsz az jegyzésre, kit az
-              fiatalra metszek fel, s megértvén abból, hogy temiattad, kegyetlen, adtam az halálra
-              magamat, talám megszánsz s könyvezve fohászkodol (noha későn) utánam héában akkor. Te
-              is penig, hitetlen Sylvane, engemet elárult, hamis barátom, elégedjél meg immár az én
-              Juliámmal!</p>
-            <p>Ó, veszett s nyomorult fejem, bezzeg igen megcsalatkozám! Ó, szép Juliám, immár nem
-              halljátok az szegény Credulusnak szózatját, sem az ő keserves énekét! De mit beszélek
-              héában, nyavalyás, ha csak az hegyek-völgyek hallgatják szómot! No, hadd messem fel
-              előszer okát halálomnak az fiatalra, s azután hadd múljak ki ez világból:</p>
+            <p>Mi szükség énnékem (tudván, hogy Julia mást szeret) tovább ez világban
+							vajúdnom? Csak mint egy kába, eszeveszett ember, lecsüggött fővel az
+							emberek között széllyel bolognom? Mi jót kell várnom, ha fülemmel
+							hallom, ő maga Julia mit beszél? Az szerencsét szidjam-é, ha látom, hogy
+							nem az vétke, hanem Sylvanusé, hogy hová fenébb s kegyetlenb Julia
+							hozzám. No, hadd járjon, sem az szerelem, sem hosszú idő orvosolhatja
+							meg az én lelkem fájdalmát. Orvosolja az halál, ki mindennémő búban s
+							nyavalyában hamar véget szokott érni.</p>
+            <p>Medgyek? Imez kősziklárúl szakasszam-é le nyakamot? Ha azt mívelem, csak
+							foltonkint szakadozik az én testem, senki nem fogja tudni, hová lettem,
+							elszöktem-é vagy miben vesztem. Bizon, senki hírt nem tud mondani
+							halálomról! Nem azt tehát, hanem azt mívelem: Ó, ti magas fák, kik
+							sokszor hallottátok az én keserves sírásimot, kiken az én gyilkosom,
+							Julia, csak mosolyogott, ti légyetek mostan is az én testámentumosim, s
+							ti tégyetek bizonságot mind őelötte s mind más előtt az én szörnyű
+							halálomról, mely halálomnak keserves okát, ím, fel is jegyzem egy
+							fiatalra, hogy mennél nagyobb időre nő, annál inkább kiterjessze magán
+							az jegyzetemet, mely jegyzésről végyen ki-ki példát, mint űzze az
+							szerelmet, s mást is tanítson reá. Ó, istentelen s igen kemény szép
+							Julia, ki mindétig fene s néma lől hozzám, ím, meghalok immár. Ezután
+							[nem] búsít az én siralmas kiáltásom tégedet! Talám valaha ezután, ha jó
+							szerencsére reátalálsz az miattad veszett testemre, látván szörnyű
+							halálomot, sokat is gondolkodván magadban, kezdesz akkor megesni, s
+							emlékezetért talám valami csontom darabját is kezedben vészed, sőt talám
+							csókodot sem tiltod akkor meg, kit éltemben megtagadtál tőlem. Ha penig
+							Isten azt akarta, hogy ugyanez gonosz szerencse miatt ez holtom után
+							való jó se teljék rajtam, s holt testemre se találj, hanem valamely
+							ember ásta sír vagy valami vad gyomra légyen az én koporsóm, mégis talám
+							valaha reátalálsz az jegyzésre, kit az fiatalra metszek fel, s megértvén
+							abból, hogy temiattad, kegyetlen, adtam az halálra magamat, talám
+							megszánsz s könyvezve fohászkodol (noha későn) utánam héában akkor. Te
+							is penig, hitetlen Sylvane, engemet elárult, hamis barátom, elégedjél
+							meg immár az én Juliámmal!</p>
+            <p>Ó, veszett s nyomorult fejem, bezzeg igen megcsalatkozám! Ó, szép Juliám,
+							immár nem halljátok az szegény Credulusnak szózatját, sem az ő keserves
+							énekét! De mit beszélek héában, nyavalyás, ha csak az hegyek-völgyek
+							hallgatják szómot! No, hadd messem fel előszer okát halálomnak az
+							fiatalra, s azután hadd múljak ki ez világból:</p>
             <lg>
               <l>Credulus bújában, itt ez nagy pusztában</l>
               <l>azért ölé meg magát,</l>
@@ -1905,19 +1990,18 @@
       <div type="act">
         <div type="scene">
           <head type="title">ACTUS V. SCENA I.</head>
-          <p>
-            <stage>Sylvanus szól Credulussal, megragadván az kést kezében, hogy meg ne ölje
-              magát.</stage>
-          </p>
+          <stage>Sylvanus szól Credulussal, megragadván az kést kezében, hogy meg ne ölje
+						magát.</stage>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Mi dolog, mit csinálsz? Ereszd az kést! Bocsásd, mondok, felséges Istenért, kell-é
-              mívelned? Hogy nem tekinted az lelkedet, miért míveled azt?</p>
+            <p>Mi dolog, mit csinálsz? Ereszd az kést! Bocsásd, mondok, felséges
+							Istenért, kell-é mívelned? Hogy nem tekinted az lelkedet, miért míveled
+							azt?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
             <p>Az te hitetlen voltodért. Ereszd, hagyj békét, bocsásd az kést, hadd érje
-              nyavalyámnak végét!</p>
+							nyavalyámnak végét!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS</speaker>
@@ -1925,87 +2009,94 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Mi közed hozzám, miért nem hágysz meghalnom? Hiszem néked is jobb lészen, ha csak
-              egyedül s más társ nélkül örülsz az Julia szerelminek.</p>
+            <p>Mi közed hozzám, miért nem hágysz meghalnom? Hiszem néked is jobb lészen,
+							ha csak egyedül s más társ nélkül örülsz az Julia szerelminek.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Ma üssön meg inkább az menny engemet, mint az, soha! Légyen tiéd az szép Julia, csak
-              egyedül temagad is érdemled őtet. Soha csak reá sem tekintek ezután! Az fejében, ha ez
-              ideig az mi barátságunk ellen árulójul gyönyörködtem ellened az ő szépségében,
-              megbocsáss, az Istenért kérlek, mert bánom, azután nem is mívelem!</p>
+            <p>Ma üssön meg inkább az menny engemet, mint az, soha! Légyen tiéd az szép
+							Julia, csak egyedül temagad is érdemled őtet. Soha csak reá sem tekintek
+							ezután! Az fejében, ha ez ideig az mi barátságunk ellen árulójul
+							gyönyörködtem ellened az ő szépségében, megbocsáss, az Istenért kérlek,
+							mert bánom, azután nem is mívelem!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Hohohó! Késő immár sütve! Azelőtt kellett volna jómra gondolnod! Ereszd az kést, s
-              tarts dolgodot!</p>
+            <p>Hohohó! Késő immár sütve! Azelőtt kellett volna jómra gondolnod! Ereszd
+							az kést, s tarts dolgodot!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Nem adom, hitemre, csak kár, hanem inkább könyörgök az Julia szemecskéjének lebbegő
-              fényeért, sőt az ő szerelmére készerítlek, hogy bocsásd az kést! Látod, hogy aznélkül
-              is kitekerem kezedből, ha megsértlek is! Valyon ha itt halva látna Julia, mit
-              gondolna? Bizony csak nevetne halálodon, s bolondnak mondana érette! Nem tudod-é, hogy
-              ez világon semmi nincs nagyobb örömek s gyönyörűségek az szép asszonyoknak s
-              leányoknak, mint ha azokot látják halni-vészni azkik szerelmekre felgerjednek</p>
+            <p>Nem adom, hitemre, csak kár, hanem inkább könyörgök az Julia
+							szemecskéjének lebbegő fényeért, sőt az ő szerelmére készerítlek, hogy
+							bocsásd az kést! Látod, hogy aznélkül is kitekerem kezedből, ha
+							megsértlek is! Valyon ha itt halva látna Julia, mit gondolna? Bizony
+							csak nevetne halálodon, s bolondnak mondana érette! Nem tudod-é, hogy ez
+							világon semmi nincs nagyobb örömek s gyönyörűségek az szép asszonyoknak
+							s leányoknak, mint ha azokot látják halni-vészni azkik szerelmekre
+							felgerjednek</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Tehát az nyakamnak végeszakadtát is irigyled, áruló? No, hadd járjon! Tudom, hogy
-              valaha eltávozol tőlem azkor is elég idő s módom lészen dolgomban.</p>
+            <p>Tehát az nyakamnak végeszakadtát is irigyled, áruló? No, hadd járjon!
+							Tudom, hogy valaha eltávozol tőlem azkor is elég idő s módom lészen
+							dolgomban.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Jer oda inkább hozzám; talám kimégyen az istentelen szándék szívedből, ugyanis eszes
-              ember, azki gonosz szándékját jóra fordítja.</p>
+            <p>Jer oda inkább hozzám; talám kimégyen az istentelen szándék szívedből,
+							ugyanis eszes ember, azki gonosz szándékját jóra fordítja.</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS V. SCENA lI.</head>
-          <p>
-            <stage>Julia szól magában, látván az Credulus nagy kését, kivel magát meg akarta ölni,
-              s az fiatalon is az jegyzést elolvasván, kit Credulus felmetszett.</stage>
-          </p>
+          <stage>Julia szól magában, látván az Credulus nagy kését, kivel magát meg akarta
+						ölni, s az fiatalon is az jegyzést elolvasván, kit Credulus
+						felmetszett.</stage>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Micsoda nagy kés amaz, azkit ahol az fa mellett látok? Micsoda jegyzés imez fiatalon?
-              Valyon ki jegyzette reá? "Credulus bújában, itt az pusztában, azért ölé meg magát"
-              Hazudsz benne, hitván ember, hogy én volnék oka istentelen halálodnak, s abban is,
-              hogy én Sylvanust szeretem! De erre téged csak az magad hamis gyanósága s tökéletlen
-              kételkedő volta s bolondsága vitt. Bizonságom az szerelem, hogy nem Sylvanust, hanem
-              Thyrsist óhajtom az én fohászkodásimban, kihez még gyermekkoromban fölgerjedtem!
-              Thyrsist keresem sok esztendőtől fogva, Thyrsis csak egyedül az én szerelmes lelkem,
-              kin soha senkit el nem cserélek, s kinek nevét, szerelmét soha semmi idő el nem
-              felejteti vélem. De kicsoda az, ki ez jegyzést elolvasván azt ne alítsa, hogy igaz az,
-              mit reám írt, s el ne higgye az hamisságot felőlem? Majd mind ez egész világnál
-              tökéletlen nevem kél s lészen! Hanem hadd metéljem ki inkább ez fiatal héjából, hogy
-              senki meg ne olvashassa, hogy ne szálljon, ártatlan voltomra, örökké való szidalom
-              fejemre! De azhol valami pór jő az bokrok között! Ha valahogy itt kap, hogy
-              metélgetek, majd meg akarja tudni, mit mívelek, mert ezféle értetlen pórok mindennek
-              végére akarnak menni, s ha csak reátekintek is, mind-mind ez egész félfelé, míg
-              elhalad ezen!</p>
+            <p>Micsoda nagy kés amaz, azkit ahol az fa mellett látok? Micsoda jegyzés
+							imez fiatalon? Valyon ki jegyzette reá? "Credulus bújában, itt az
+							pusztában, azért ölé meg magát" Hazudsz benne, hitván ember, hogy én
+							volnék oka istentelen halálodnak, s abban is, hogy én Sylvanust
+							szeretem! De erre téged csak az magad hamis gyanósága s tökéletlen
+							kételkedő volta s bolondsága vitt. Bizonságom az szerelem, hogy nem
+							Sylvanust, hanem Thyrsist óhajtom az én fohászkodásimban, kihez még
+							gyermekkoromban fölgerjedtem! Thyrsist keresem sok esztendőtől fogva,
+							Thyrsis csak egyedül az én szerelmes lelkem, kin soha senkit el nem
+							cserélek, s kinek nevét, szerelmét soha semmi idő el nem felejteti
+							vélem. De kicsoda az, ki ez jegyzést elolvasván azt ne alítsa, hogy igaz
+							az, mit reám írt, s el ne higgye az hamisságot felőlem? Majd mind ez
+							egész világnál tökéletlen nevem kél s lészen! Hanem hadd metéljem ki
+							inkább ez fiatal héjából, hogy senki meg ne olvashassa, hogy ne
+							szálljon, ártatlan voltomra, örökké való szidalom fejemre! De azhol
+							valami pór jő az bokrok között! Ha valahogy itt kap, hogy metélgetek,
+							majd meg akarja tudni, mit mívelek, mert ezféle értetlen pórok mindennek
+							végére akarnak menni, s ha csak reátekintek is, mind-mind ez egész
+							félfelé, míg elhalad ezen!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS V. SCENA III.</head>
-          <p>
-            <stage>Dienes magában szól.</stage>
-          </p>
+          <stage>Dienes magában szól.</stage>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Nincsen annyi hajszál az uramon, azmennyi szitkot, átkot szólok az rossz bestyére, ha
-              az hímes inget elveszti tőlem! Nám, soha nem eshetik szíve szerint! Ím, most szinte
-              úgy vagyon dolgom, mint az ebnek, kinek torkán akadott az csont: el sem nyelheti s ki
-              sem vetheti. Valamit hagyott volt Galatea, hogy uramnak megmondjam, s azmi választ
-              tészen reá, hogy azt is megmondjam néki, s ím, szinte odamégyek most az ingért. Tudom,
-              hogy menten megkérdi, ha megmondtam-é az követségit, s uram is hogy mit szólott reá. S
-              az a bestyeség, hogy meg nem tudom mondani, mert jobb része mind kicsúszott az
-              fejemből. Maga míg ide jüttem, mind azt beszéllettem magamban, hogy el ne felejtsem.
-              Ó, hogy nem jut eszemben! Oda lészen az ing! Dienes szól Sylvanussal.</p>
+            <p>Nincsen annyi hajszál az uramon, azmennyi szitkot, átkot szólok az rossz
+							bestyére, ha az hímes inget elveszti tőlem! Nám, soha nem eshetik szíve
+							szerint! Ím, most szinte úgy vagyon dolgom, mint az ebnek, kinek torkán
+							akadott az csont: el sem nyelheti s ki sem vetheti. Valamit hagyott volt
+							Galatea, hogy uramnak megmondjam, s azmi választ tészen reá, hogy azt is
+							megmondjam néki, s ím, szinte odamégyek most az ingért. Tudom, hogy
+							menten megkérdi, ha megmondtam-é az követségit, s uram is hogy mit
+							szólott reá. S az a bestyeség, hogy meg nem tudom mondani, mert jobb
+							része mind kicsúszott az fejemből. Maga míg ide jüttem, mind azt
+							beszéllettem magamban, hogy el ne felejtsem. Ó, hogy nem jut eszemben!
+							Oda lészen az ing! Dienes szól Sylvanussal.</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Ahol jő Sylvanus, az gazdám! Jó szerencsével, uram, szinte te kellesz vala!</p>
+            <p>Ahol jő Sylvanus, az gazdám! Jó szerencsével, uram, szinte te kellesz
+							vala!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
@@ -2013,9 +2104,9 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Az a kár, igen találád, valami káposztácskáért mentem vala az kertben, hogy vacsorára
-              megfőzzem. Hallám, hogy Galatea monda Friskának, hogy ott az sövénhez támaszkodván
-              beszélnek vala egymással</p>
+            <p>Az a kár, igen találád, valami káposztácskáért mentem vala az kertben,
+							hogy vacsorára megfőzzem. Hallám, hogy Galatea monda Friskának, hogy ott
+							az sövénhez támaszkodván beszélnek vala egymással</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
@@ -2031,8 +2122,8 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Eredj, mond, édes vérem, keresd meg az legént, mert én ezután senki után nem járok
-              többet!</p>
+            <p>Eredj, mond, édes vérem, keresd meg az legént, mert én ezután senki után
+							nem járok többet!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
@@ -2096,8 +2187,8 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Mondd meg az Alfesibeónak, hogy jöjjön elém, ím, itt megvárom. Végye el immár hasznát
-              az régi szerelemnek!</p>
+            <p>Mondd meg az Alfesibeónak, hogy jöjjön elém, ím, itt megvárom. Végye el
+							immár hasznát az régi szerelemnek!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
@@ -2105,52 +2196,54 @@
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>El. Mindjárt, mint nyakaszakadtában elfuta, azonban hátrafordola Galatea, hogy engem
-              megláta, monda: Mondd meg, úgymond, uradnak, hogy ha szinte értetlen is, ugyan nem
-              lészek azért világa vesztett, ugyan lészen azért szép szeretőm, ki ne csak ő kéresse
-              magát, hanem ő könyörögjön utánam. Nem kötöm, ne féljen ezután az jámbor, nyakára
-              magamot, mert látom, hogy úgy fut előttem, mint egy pestis előtt. Addig bé nem
-              setétedik, míg én egy szép ifjú legénnek ölébe lészek, ki meg fogja becsülleni, nem
-              úgy, mint ő, az én szépségemet.</p>
+            <p>El. Mindjárt, mint nyakaszakadtában elfuta, azonban hátrafordola Galatea,
+							hogy engem megláta, monda: Mondd meg, úgymond, uradnak, hogy ha szinte
+							értetlen is, ugyan nem lészek azért világa vesztett, ugyan lészen azért
+							szép szeretőm, ki ne csak ő kéresse magát, hanem ő könyörögjön utánam.
+							Nem kötöm, ne féljen ezután az jámbor, nyakára magamot, mert látom, hogy
+							úgy fut előttem, mint egy pestis előtt. Addig bé nem setétedik, míg én
+							egy szép ifjú legénnek ölébe lészek, ki meg fogja becsülleni, nem úgy,
+							mint ő, az én szépségemet.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Alfesibeo? Megcsalja bizony az reménség az jámbort! Mert míg én élek, bizony abban
-              semmi nem kél soha! Sem ő, sem más, nemhogy férje, de még szeretője sem lészen senki
-              Galateának énnálamnál! Mert ha szinte az reménség arra vitt is, hogy Juliához
-              hajoljak, az én keserő nagy fájdalmomnak könnyebbségeért, kinek csak az Galatea
-              tűrhetetlen hozzám való kegyetlensége volt oka, ugyan nem gyűlöltem azért én annyi
-              elhagyásomban is Galateát soha, sőt szerettem azkor is, szeretem ezután is, míg az
-              lélek bennem marad. Most penig, annál inkább, hogy Juliát Credulusnak engedtem, kinek
-              igaz barátságának ne engedje Isten, hogy soha ezután vétsek, sem hogy árulója légyek,
-              csak engemet illet azért egyedül Galatea, senkit nem egyebet. De jer azfelé, ha
-              valahogy elhozta addig Briseida Alfélsibeót, őkegyelmét! Reá felelek, hogy az kurva
-              anyja csecsiből szopott tej is keserő méreggel forr az torkára!</p>
+            <p>Alfesibeo? Megcsalja bizony az reménség az jámbort! Mert míg én élek,
+							bizony abban semmi nem kél soha! Sem ő, sem más, nemhogy férje, de még
+							szeretője sem lészen senki Galateának énnálamnál! Mert ha szinte az
+							reménség arra vitt is, hogy Juliához hajoljak, az én keserő nagy
+							fájdalmomnak könnyebbségeért, kinek csak az Galatea tűrhetetlen hozzám
+							való kegyetlensége volt oka, ugyan nem gyűlöltem azért én annyi
+							elhagyásomban is Galateát soha, sőt szerettem azkor is, szeretem ezután
+							is, míg az lélek bennem marad. Most penig, annál inkább, hogy Juliát
+							Credulusnak engedtem, kinek igaz barátságának ne engedje Isten, hogy
+							soha ezután vétsek, sem hogy árulója légyek, csak engemet illet azért
+							egyedül Galatea, senkit nem egyebet. De jer azfelé, ha valahogy elhozta
+							addig Briseida Alfélsibeót, őkegyelmét! Reá felelek, hogy az kurva anyja
+							csecsiből szopott tej is keserő méreggel forr az torkára!</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Jere, ím megmutatom, hol láttam Galateát, oztán a juhhoz mégyek, mert estve vagyon
-              immár, bé kell rekesztenem őket. Ó, szép ingem, hímes ingem, majd kezemben
-              lészesz!</p>
+            <p>Jere, ím megmutatom, hol láttam Galateát, oztán a juhhoz mégyek, mert
+							estve vagyon immár, bé kell rekesztenem őket. Ó, szép ingem, hímes
+							ingem, majd kezemben lészesz!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS V. SCENA IV.</head>
-          <p>
-            <stage>Julia szól Credulussal.</stage>
-          </p>
+          <stage>Julia szól Credulussal.</stage>
           <sp who="#julia">
             <speaker>JULIA</speaker>
-            <p>Elhalad az pór, immár senki nem lát, hanem majd én is kimetélem ez hamis írást az
-              fiatalból.</p>
+            <p>Elhalad az pór, immár senki nem lát, hanem majd én is kimetélem ez hamis
+							írást az fiatalból.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Penig elszakadhaték az hitetlen Sylvanustúl. Ne, immár nincs ki megtilthasson az én
-              életemnek veszedelmét elvégezésétől. Nem nehéz meghalnom, de az nehéz, hogy halálom
-              óráján nincs jelen az én istenasszonyom, s nem nézi, mint ölöm meg magam őmiatta.</p>
-            <p>Fogadjuk, ő az, ki ama fa mellett áll! Ő, hitemre! Ó, áldott nap, kin kedvem szerént
-              végezem el életemet!</p>
+            <p>Penig elszakadhaték az hitetlen Sylvanustúl. Ne, immár nincs ki
+							megtilthasson az én életemnek veszedelmét elvégezésétől. Nem nehéz
+							meghalnom, de az nehéz, hogy halálom óráján nincs jelen az én
+							istenasszonyom, s nem nézi, mint ölöm meg magam őmiatta.</p>
+            <p>Fogadjuk, ő az, ki ama fa mellett áll! Ő, hitemre! Ó, áldott nap, kin
+							kedvem szerént végezem el életemet!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -2158,8 +2251,8 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Azmit annak az jegyzésnek kellett volna mondani, azt az temagad nyelve mondhatja meg
-              ezután.</p>
+            <p>Azmit annak az jegyzésnek kellett volna mondani, azt az temagad nyelve
+							mondhatja meg ezután.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -2171,15 +2264,17 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Hogy élsz, nem bánom. De azt, hogy gonosz híremben akarsz ejteni, azt bizony bánom.
-              Igaz-é az, hogy az fiatalon azt metszéd fel, hogy Sylvanus szerelmében ádtam magamot?
-              Micsoda bizonságod vagyon arról, ha tudja az Isten, hogy senki nem mondhatja igazán,
-              hogy soha csak reá is tekintettem volna?</p>
+            <p>Hogy élsz, nem bánom. De azt, hogy gonosz híremben akarsz ejteni, azt
+							bizony bánom. Igaz-é az, hogy az fiatalon azt metszéd fel, hogy Sylvanus
+							szerelmében ádtam magamot? Micsoda bizonságod vagyon arról, ha tudja az
+							Isten, hogy senki nem mondhatja igazán, hogy soha csak reá is
+							tekintettem volna?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Az gonoszság vakított volt meg, s magam sem vettem eszemben, mit írtam. Ne siess, az
-              Istenért! Kérlek, tedd el az kést! Csak egyért könyörgök!</p>
+            <p>Az gonoszság vakított volt meg, s magam sem vettem eszemben, mit írtam.
+							Ne siess, az Istenért! Kérlek, tedd el az kést! Csak egyért
+							könyörgök!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -2187,26 +2282,29 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ha az te kegyetlenséged s az én gonosz szerencsém így hozta, hogy az én régi
-              szolgálatom ne légyen kellemetes előtted, elégedjél meg egy halálommal, s ne hagyj
-              mindennap ezerszer halált kóstolnom! Ez éles késedet üsd az én mellemben, s vedd ki
-              szívemet, ki téged igazán szeretett, s bocsásd ki az sok keserőségből, mint egy mély
-              tömlöcből, az fájdalmas lelkemet. Nem vétkezel semmit véle, mert ha valaki szerelmes
-              ember valaha kedve szerint végezte életét ez világban, én lészek az másik, ha az én
-              édes szerelmesem keze miatt lészen itt elesésem, mely nem halál, hanem új élet gyanánt
-              esik énnékem; miérthogy azt mondják, jó annak az halál, azki búnak éri végét
-              azzal.</p>
+            <p>Ha az te kegyetlenséged s az én gonosz szerencsém így hozta, hogy az én
+							régi szolgálatom ne légyen kellemetes előtted, elégedjél meg egy
+							halálommal, s ne hagyj mindennap ezerszer halált kóstolnom! Ez éles
+							késedet üsd az én mellemben, s vedd ki szívemet, ki téged igazán
+							szeretett, s bocsásd ki az sok keserőségből, mint egy mély tömlöcből, az
+							fájdalmas lelkemet. Nem vétkezel semmit véle, mert ha valaki szerelmes
+							ember valaha kedve szerint végezte életét ez világban, én lészek az
+							másik, ha az én édes szerelmesem keze miatt lészen itt elesésem, mely
+							nem halál, hanem új élet gyanánt esik énnékem; miérthogy azt mondják, jó
+							annak az halál, azki búnak éri végét azzal.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Isten őrizz! Vesd ki ez rettenetes dolgot szívedből, ím, az én hitemre ugyan
-              megszánom bizony, azmint azelőtt is megmondtam: ha segíthetnélek, örömest segítenélek,
-              de nem szeghetem meg hitemet. Bizonságom az Isten és az Szerelem.</p>
+            <p>Isten őrizz! Vesd ki ez rettenetes dolgot szívedből, ím, az én hitemre
+							ugyan megszánom bizony, azmint azelőtt is megmondtam: ha segíthetnélek,
+							örömest segítenélek, de nem szeghetem meg hitemet. Bizonságom az Isten
+							és az Szerelem.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Átkozott légyen az Szerelem, az is, azki hiszen néki! Ó, kedves sebem helye, ó, én
-              édes jelem, kire sokat nézek napestig az szegény Angelica emlékezetire!</p>
+            <p>Átkozott légyen az Szerelem, az is, azki hiszen néki! Ó, kedves sebem
+							helye, ó, én édes jelem, kire sokat nézek napestig az szegény Angelica
+							emlékezetire!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -2214,15 +2312,16 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Mely nehéz most, hogy akkor meg nem holtam, azmikor egy kígyó ez sebet rajtam ejtette
-              vala! Ó, én édes Angelicám, az temagad kezivel gyógyítál meg akkor, mely jótétellel
-              csak ez mostani veszélyre juttattál, mert ha akkor meg hadtál volna halnom, most ez
-              nagy bút nem szenvedném, sőt az te áldott öledben múltam volna ki ez világból!</p>
+            <p>Mely nehéz most, hogy akkor meg nem holtam, azmikor egy kígyó ez sebet
+							rajtam ejtette vala! Ó, én édes Angelicám, az temagad kezivel gyógyítál
+							meg akkor, mely jótétellel csak ez mostani veszélyre juttattál, mert ha
+							akkor meg hadtál volna halnom, most ez nagy bút nem szenvedném, sőt az
+							te áldott öledben múltam volna ki ez világból!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Ha valaha valamiben énnékem kedvemet igyekezted tölteni, bizonyíts meg ezzel, hogy
-              mondd meg, kicsoda az az Angelica, azkit emlegetsz?</p>
+            <p>Ha valaha valamiben énnékem kedvemet igyekezted tölteni, bizonyíts meg
+							ezzel, hogy mondd meg, kicsoda az az Angelica, azkit emlegetsz?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -2234,9 +2333,9 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ha életemet teéretted fogyatom meg, miért titkolnám azt előtted? Az Angelica egy igen
-              szép leány vala, kinek szerelmire Candiában (ki mindkettőnknek hazája vala)
-              fölgerjedtem vala.</p>
+            <p>Ha életemet teéretted fogyatom meg, miért titkolnám azt előtted? Az
+							Angelica egy igen szép leány vala, kinek szerelmire Candiában (ki
+							mindkettőnknek hazája vala) fölgerjedtem vala.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -2248,23 +2347,25 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Hát nem csuda, hogy gyötör az szerelem, s ennyi kívánságodban nem ád jó szerencsét,
-              mert azki igazán szeret, egyet szeret!</p>
+            <p>Hát nem csuda, hogy gyötör az szerelem, s ennyi kívánságodban nem ád jó
+							szerencsét, mert azki igazán szeret, egyet szeret!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Mert megholt ám! Vaj, ha élne, nem volnék ez veszélyben! Mert bizony tereád sem
-              egyébért gerjedt fel az én lelkem, hanem hogy csuda hasonló vagy hozzá!</p>
+            <p>Mert megholt ám! Vaj, ha élne, nem volnék ez veszélyben! Mert bizony
+							tereád sem egyébért gerjedt fel az én lelkem, hanem hogy csuda hasonló
+							vagy hozzá!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Bizony elég kegyetlen halál volt, hogy így fosztott meg egymástól benneteket! De mit
-              tehetsz róla? Tűrni kell, mert az halál senkinek nem kedvez.</p>
+            <p>Bizony elég kegyetlen halál volt, hogy így fosztott meg egymástól
+							benneteket! De mit tehetsz róla? Tűrni kell, mert az halál senkinek nem
+							kedvez.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Az halál nem szinte oly keserves, mint az halálnak oka s módja, kiről könyvhullatás
-              nélkül nem emlékezhetem soha.</p>
+            <p>Az halál nem szinte oly keserves, mint az halálnak oka s módja, kiről
+							könyvhullatás nélkül nem emlékezhetem soha.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -2272,8 +2373,8 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Egy társom búsoltában, hogy hozzá nem akart hajolni, mérget adott szegénnek meginnya,
-              azmit magátúl értém, hogy ölemben vonyog vala.</p>
+            <p>Egy társom búsoltában, hogy hozzá nem akart hajolni, mérget adott
+							szegénnek meginnya, azmit magátúl értém, hogy ölemben vonyog vala.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -2285,8 +2386,8 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Mit hallok? Montant emlegetsz? Veszék! Álmomban vagy ébredten hallom ezt? Néked pedig
-              ki neved? Ugyan Credulus-é igaz neved?</p>
+            <p>Mit hallok? Montant emlegetsz? Veszék! Álmomban vagy ébredten hallom ezt?
+							Néked pedig ki neved? Ugyan Credulus-é igaz neved?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -2294,8 +2395,8 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Mondd meg csak, ha vagyon-é más neved! Azután parancsolj, s azt mívelem, azmit
-              mondasz!</p>
+            <p>Mondd meg csak, ha vagyon-é más neved! Azután parancsolj, s azt mívelem,
+							azmit mondasz!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -2307,13 +2408,14 @@
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Julia, Julia! Ó, átkozott szerencse! Elájula vagy ugyan meghala? Ím mint fejéredik,
-              hidegedik! Bizony megholt, mert semmit nem pih! Ó, rettenetes történet! Ím, midőn én
-              kérem azon, hogy az ő keze miatt haljak meg, ő hal meg az én kezemben! Ez-é az dolog,
-              átkozott Szerelem! Így adod-é kezemben az én szerelmesemet? Mi jót várhassak immár
-              tőled, ha megölted őtet? Az fejében bár meg se adtad volna! De ha életében nem
-              engedted meg csókolgatnom, meghalva is megcsókolom! Magam ajakammal szedem el az ő
-              édes ajakirúl az hervadt piros rózsát.</p>
+            <p>Julia, Julia! Ó, átkozott szerencse! Elájula vagy ugyan meghala? Ím mint
+							fejéredik, hidegedik! Bizony megholt, mert semmit nem pih! Ó, rettenetes
+							történet! Ím, midőn én kérem azon, hogy az ő keze miatt haljak meg, ő
+							hal meg az én kezemben! Ez-é az dolog, átkozott Szerelem! Így adod-é
+							kezemben az én szerelmesemet? Mi jót várhassak immár tőled, ha megölted
+							őtet? Az fejében bár meg se adtad volna! De ha életében nem engedted meg
+							csókolgatnom, meghalva is megcsókolom! Magam ajakammal szedem el az ő
+							édes ajakirúl az hervadt piros rózsát.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
@@ -2325,49 +2427,53 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Sem nem egyéb, hanem az te szerelmes csókod, én édes Thyrsisem, téríte ismét életre
-              az halálbúl!</p>
+            <p>Sem nem egyéb, hanem az te szerelmes csókod, én édes Thyrsisem, téríte
+							ismét életre az halálbúl!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Engemet hiszel-é most Thyrsisednek, kit csak imént is úgy gyűlölsz vala, mint az
-              szörnyű halált? S most édesnek mondod az én csókomot, maga imént csak az tekintetem is
-              ellened vala? Valyon mitűl lágyult meg ilyen hirtelen az te kemén szíved? Én hiszem,
-              hogy csak valami új csalárdsága ez az Szerelemnek! De mondd meg, ha Istent szereted,
-              mi változtatott ilyen hamar téged, s mi fordította kegyetlenségedet jókedvire s
-              kegyelmire?</p>
+            <p>Engemet hiszel-é most Thyrsisednek, kit csak imént is úgy gyűlölsz vala,
+							mint az szörnyű halált? S most édesnek mondod az én csókomot, maga imént
+							csak az tekintetem is ellened vala? Valyon mitűl lágyult meg ilyen
+							hirtelen az te kemén szíved? Én hiszem, hogy csak valami új csalárdsága
+							ez az Szerelemnek! De mondd meg, ha Istent szereted, mi változtatott
+							ilyen hamar téged, s mi fordította kegyetlenségedet jókedvire s
+							kegyelmire?</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Míg te Credulus voltál s én Julia, addig kegyetlen s kedvetlen voltam hozzád, de
-              mihelt te is Thyrsissé lettél s én is Angelicává, ottan kegyes szerelmes lettem
-              hozzád.</p>
+            <p>Míg te Credulus voltál s én Julia, addig kegyetlen s kedvetlen voltam
+							hozzád, de mihelt te is Thyrsissé lettél s én is Angelicává, ottan
+							kegyes szerelmes lettem hozzád.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Igaz bizon, édes lelkem, hogy mind képpel s mind termettel igen hasonló vagy
-              Angelicához, de hogy ugyanő volnál, az hihetetlen dolog, mert az magam két szemével
-              látám meg ennekelőtte, hogy szinte meghal vala.</p>
+            <p>Igaz bizon, édes lelkem, hogy mind képpel s mind termettel igen hasonló
+							vagy Angelicához, de hogy ugyanő volnál, az hihetetlen dolog, mert az
+							magam két szemével látám meg ennekelőtte, hogy szinte meghal vala.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Hiszem én mondtam vala azt tenéked, mert én magam is azt tudtam, hogy méreg volt az
-              ital, azkit Montan adott vala meginnom. Ó, én hamis beszédem, mely nagy bút s nagy
-              kárt szerzett volt mindkettőnknek! Nem méreg volt, nem az, az Istenért, hanem csak
-              valami oly ital, ki után ember egy napestig mind aludt.</p>
+            <p>Hiszem én mondtam vala azt tenéked, mert én magam is azt tudtam, hogy
+							méreg volt az ital, azkit Montan adott vala meginnom. Ó, én hamis
+							beszédem, mely nagy bút s nagy kárt szerzett volt mindkettőnknek! Nem
+							méreg volt, nem az, az Istenért, hanem csak valami oly ital, ki után
+							ember egy napestig mind aludt.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Nem tudom, mit higgyek, mert lehetetlen dolognak tetszik, hogy ily hamar kegyelmiben
-              vett volna az Szerelem, s hogy ilyen nagy jómra tartott volna meg engem ez ideig.</p>
+            <p>Nem tudom, mit higgyek, mert lehetetlen dolognak tetszik, hogy ily hamar
+							kegyelmiben vett volna az Szerelem, s hogy ilyen nagy jómra tartott
+							volna meg engem ez ideig.</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Úristen! Micsoda bizonsággal mutathassam én meg néked az igazat, s miképpen
-              hitethessem el véled? Hála Istennek, eszembe juta! Látod-é ez unicornis szarva hegyit,
-              kit ilyen módon aranyban foglalván magad ádtál vala otthon Candiában, hogy az te
-              emlékezetedre nyakamon viseljem? Nézsze, esméred-é? Mi kell ennél nagyobb bizonság? Én
-              vagyok az te Angelicád! Én vagyok az, kit te megholtnak hittél lenni!</p>
+            <p>Úristen! Micsoda bizonsággal mutathassam én meg néked az igazat, s
+							miképpen hitethessem el véled? Hála Istennek, eszembe juta! Látod-é ez
+							unicornis szarva hegyit, kit ilyen módon aranyban foglalván magad ádtál
+							vala otthon Candiában, hogy az te emlékezetedre nyakamon viseljem?
+							Nézsze, esméred-é? Mi kell ennél nagyobb bizonság? Én vagyok az te
+							Angelicád! Én vagyok az, kit te megholtnak hittél lenni!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -2375,39 +2481,44 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Miért sírsz, édes Thyrsisem? Talám teljességgel elfeledkeztél rólam, az te
-              Angelicádról? Azt bánod, hogy ismét megtaláltalak? Úgy-é? Szólj, lelkem!</p>
+            <p>Miért sírsz, édes Thyrsisem? Talám teljességgel elfeledkeztél rólam, az
+							te Angelicádról? Azt bánod, hogy ismét megtaláltalak? Úgy-é? Szólj,
+							lelkem!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Örömemben nem szólhatok vala. Nem feledkeztem el még rólad, én édes Angelicám! Nem
-              lehetne az soha, mert kicsoda az, ki elfelejthesse az ő éltető lelkét, édes Angelicám?
-              Ó, két szemem világa, nem tett soha ennyi gonoszt vélem az szerencse, azmennyi jót
-              most vélem tészen! Hát ugyan te vagy az én édes Angelicám! Ím, noha látlak, hallak, de
-              alig hiszem még magam szemeimnek is, füleimnek is!</p>
+            <p>Örömemben nem szólhatok vala. Nem feledkeztem el még rólad, én édes
+							Angelicám! Nem lehetne az soha, mert kicsoda az, ki elfelejthesse az ő
+							éltető lelkét, édes Angelicám? Ó, két szemem világa, nem tett soha ennyi
+							gonoszt vélem az szerencse, azmennyi jót most vélem tészen! Hát ugyan te
+							vagy az én édes Angelicám! Ím, noha látlak, hallak, de alig hiszem még
+							magam szemeimnek is, füleimnek is!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Én szinte azonképpen, én édes Thyrsisem, miérthogy tizenkét esztendeig való
-              keresésimben sohul semmi hírt nem hallottam felőled, s immár most véletlenképpen ilyen
-              hamar egybenhoza Isten bennönket! Noha látlak, de alig hiszek enmagamnak is! Jól
-              esmérem az szép helyt, azkirűl emlékezel, mikor amaz árnyékon együtt aluszunk vala, s
-              én meg valami fűvel gyógyítálak meg.</p>
+            <p>Én szinte azonképpen, én édes Thyrsisem, miérthogy tizenkét esztendeig
+							való keresésimben sohul semmi hírt nem hallottam felőled, s immár most
+							véletlenképpen ilyen hamar egybenhoza Isten bennönket! Noha látlak, de
+							alig hiszek enmagamnak is! Jól esmérem az szép helyt, azkirűl emlékezel,
+							mikor amaz árnyékon együtt aluszunk vala, s én meg valami fűvel
+							gyógyítálak meg.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Ó, áldott szerencse! Ó, boldog s örvendetes nap, ki ez időt adtad érnem! De micsoda
-              gonosz gondolat volt az a Montantól, hogy téged elalusson?</p>
+            <p>Ó, áldott szerencse! Ó, boldog s örvendetes nap, ki ez időt adtad érnem!
+							De micsoda gonosz gondolat volt az a Montantól, hogy téged
+							elalusson?</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Érts meg! Azután, hogy ám az földre esém, nem csak te, hanem egyéb is minden azt
-              hitte, hogy megholtam. Látván ezt Montan, menten az atyámhoz jutott, s mondotta néki,
-              hogy ő valami fűvel föl tud támasztani engem; ha megelevenedném, néki adjon az atyám
-              házastársul. Atyám, mint keserves ember, néki ígért mindjárt, s Montan is ottan
-              megorvoslott engem. De megcsalta az latrot az reménség, mert mihelt megértém ez
-              csalárdságát, hogy mint vagyon az dolog, azonnal elszökém, s azulta csak téged
-              kereslek erdőkről erdőkre, én édes Thyrsisem.</p>
+            <p>Érts meg! Azután, hogy ám az földre esém, nem csak te, hanem egyéb is
+							minden azt hitte, hogy megholtam. Látván ezt Montan, menten az atyámhoz
+							jutott, s mondotta néki, hogy ő valami fűvel föl tud támasztani engem;
+							ha megelevenedném, néki adjon az atyám házastársul. Atyám, mint keserves
+							ember, néki ígért mindjárt, s Montan is ottan megorvoslott engem. De
+							megcsalta az latrot az reménség, mert mihelt megértém ez csalárdságát,
+							hogy mint vagyon az dolog, azonnal elszökém, s azulta csak téged
+							kereslek erdőkről erdőkre, én édes Thyrsisem.</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -2415,7 +2526,8 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Hát te, édes lelkem, miért nem nevezted magad Thyrsisnek, hanem Credulusnak?</p>
+            <p>Hát te, édes lelkem, miért nem nevezted magad Thyrsisnek, hanem
+							Credulusnak?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -2423,70 +2535,74 @@
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Én is szinte azért. De mint éltél te is azulta, hogy onnan hazul eljöttél?</p>
+            <p>Én is szinte azért. De mint éltél te is azulta, hogy onnan hazul
+							eljöttél?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Menjünk az én szállásomra, s ott beszéljük egymásnak minden nyavalyáinkot, kiről
-              örömmel emlékezhetünk immár most, hála Istennek! De valyon ki jő távol, ahon? Mintha
-              Sylvanus volna Galateával! Nézsze, mint beszélnek s nevetnek! Én hiszem,
-              megkönyörültek egymáson. Jer, vonjuk félfelé egy kevéssé magunkot, halljuk, mit
-              beszélnek!</p>
+            <p>Menjünk az én szállásomra, s ott beszéljük egymásnak minden
+							nyavalyáinkot, kiről örömmel emlékezhetünk immár most, hála Istennek! De
+							valyon ki jő távol, ahon? Mintha Sylvanus volna Galateával! Nézsze, mint
+							beszélnek s nevetnek! Én hiszem, megkönyörültek egymáson. Jer, vonjuk
+							félfelé egy kevéssé magunkot, halljuk, mit beszélnek!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">ACTUS V. SCENA V.</head>
-          <p>
-            <stage>Sylvanus, Credulus, Galatea, Julia.</stage>
-          </p>
+          <stage>Sylvanus, Credulus, Galatea, Julia.</stage>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Bocsásd meg, lelkem, hogy azt tettettem, mint hamis, hogy ezt szerettem volna inkább
-              náladnál; s mentsen előtted az nagy bosszúság, ki az te régi kemén voltodbúl szállott
-              vala szívemre, mely kegyetlenséggel reméntelenségben ejtettél vala felőled, hogy azt
-              hittem, hogy soha nem vészesz bé szerelmedbe. Tiéd mind lelkem s mind szívem, eszem,
-              fejem, gondolatom, mindenem. Ezután sem szépség, sem egyéb semmi el nem szakaszthat
-              tőled engem!</p>
+            <p>Bocsásd meg, lelkem, hogy azt tettettem, mint hamis, hogy ezt szerettem
+							volna inkább náladnál; s mentsen előtted az nagy bosszúság, ki az te
+							régi kemén voltodbúl szállott vala szívemre, mely kegyetlenséggel
+							reméntelenségben ejtettél vala felőled, hogy azt hittem, hogy soha nem
+							vészesz bé szerelmedbe. Tiéd mind lelkem s mind szívem, eszem, fejem,
+							gondolatom, mindenem. Ezután sem szépség, sem egyéb semmi el nem
+							szakaszthat tőled engem!</p>
           </sp>
           <sp who="#galatea">
             <speaker>GALATEA.</speaker>
-            <p>Inkább te bocsáss énnékem, ha mindjárt, azmely nap engem szeretni kezdtél, nem
-              becsültem az te szerelmedet, azmint érdemletted volna tőlem!</p>
+            <p>Inkább te bocsáss énnékem, ha mindjárt, azmely nap engem szeretni
+							kezdtél, nem becsültem az te szerelmedet, azmint érdemletted volna
+							tőlem!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Isten hozott minden jóval, édes társom, Credule! Lám, együtt látlak Juliával; talám
-              az Szerelem ő maga szerzett eszve benneteket?</p>
+            <p>Isten hozott minden jóval, édes társom, Credule! Lám, együtt látlak
+							Juliával; talám az Szerelem ő maga szerzett eszve benneteket?</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
-            <p>Az bezzeg, s ezután halálnál egyéb sem választhat el bennünket egymástúl!</p>
+            <p>Az bezzeg, s ezután halálnál egyéb sem választhat el bennünket
+							egymástúl!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Hála az Úristennek, nem tudok mit tennem örömemben! Ím, minket is együvé köte az
-              Szerelem fölbomolhatatlan kötelességgel, mely kötelességünk, igaz, hogy azelőtt
-              megtágult volt, de azért fel nem bomlott, fel nem szakadott soha az csomója!</p>
+            <p>Hála az Úristennek, nem tudok mit tennem örömemben! Ím, minket is együvé
+							köte az Szerelem fölbomolhatatlan kötelességgel, mely kötelességünk,
+							igaz, hogy azelőtt megtágult volt, de azért fel nem bomlott, fel nem
+							szakadott soha az csomója!</p>
           </sp>
           <sp who="#julia">
             <speaker>JULIA.</speaker>
-            <p>Lám, mondám én azelőtt is, hogy nem tarthat az harag sokáig közöttetek, mert azok,
-              azkik bizonyában s valóban szeretik egymást, ha valami tisztességben járó dologban nem
-              vésznek öszve, semmiért egyébért úgy meg nem haraghatnak, hogy ismét meg ne
-              békéljenek. Mert az első szerelem az, azki embernek szívét égeti s főzi, noha második
-              is nem hűvíti azért!</p>
+            <p>Lám, mondám én azelőtt is, hogy nem tarthat az harag sokáig közöttetek,
+							mert azok, azkik bizonyában s valóban szeretik egymást, ha valami
+							tisztességben járó dologban nem vésznek öszve, semmiért egyébért úgy meg
+							nem haraghatnak, hogy ismét meg ne békéljenek. Mert az első szerelem az,
+							azki embernek szívét égeti s főzi, noha második is nem hűvíti azért!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
             <p>Ó, áldott Úristen, ki mindnyájunkhoz ilyen kegyelmes vagy! Ezelőtt itt az
-              hegyeken-völgyeken mind csak síttam-ríttam, de légyen hála Istennek, ezután kiáltok,
-              szólok s nevetek!<stage>Dienes közikben szól.</stage>
+							hegyeken-völgyeken mind csak síttam-ríttam, de légyen hála Istennek,
+							ezután kiáltok, szólok s nevetek!<stage>Dienes közikben szól.</stage>
             </p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Isten ádjon jó estvélyt, uram, jó hírt mondok! Ez estve ellék egyik juh kettőt. Oly
-              nagy mindkettő, hogy ha szarvok volna, mindeniket egy-egy kosnak alítanád.</p>
+            <p>Isten ádjon jó estvélyt, uram, jó hírt mondok! Ez estve ellék egyik juh
+							kettőt. Oly nagy mindkettő, hogy ha szarvok volna, mindeniket egy-egy
+							kosnak alítanád.</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
@@ -2506,7 +2622,8 @@
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Jer az én szállásumra, Credule! Jere, Julia, te is! Együtt együk meg az vacsorát!</p>
+            <p>Jer az én szállásumra, Credule! Jere, Julia, te is! Együtt együk meg az
+							vacsorát!</p>
           </sp>
           <sp who="#credulus">
             <speaker>CREDULUS.</speaker>
@@ -2522,35 +2639,33 @@
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Eredj elöl, Dienes, öljük meg az borjút, ki ma egy hete, hogy lett. Készíts jó
-              vacsorát!</p>
+            <p>Eredj elöl, Dienes, öljük meg az borjút, ki ma egy hete, hogy lett.
+							Készíts jó vacsorát!</p>
           </sp>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Ihon mégyek! Nézsze, mint nyúl, ím, máris az nyálam, mintha hangyák járnának az
-              számban, hogy az jó lakást érzem! Elvetem, ördeg vigye el, az sült répát!</p>
+            <p>Ihon mégyek! Nézsze, mint nyúl, ím, máris az nyálam, mintha hangyák
+							járnának az számban, hogy az jó lakást érzem! Elvetem, ördeg vigye el,
+							az sült répát!</p>
           </sp>
           <sp who="#sylvanus">
             <speaker>SYLVANUS.</speaker>
-            <p>Hozsza az kezed, Galatea; fogd kézen Juliát te is, Credule, s menjünk úgy vígan az
-              szállásra!</p>
+            <p>Hozsza az kezed, Galatea; fogd kézen Juliát te is, Credule, s menjünk úgy
+							vígan az szállásra!</p>
           </sp>
         </div>
         <div type="scene">
           <head type="title">CONCLUSIO</head>
-          <p>
-            <stage>Dienes szól az komédiahallgatóknak.</stage>
-          </p>
+          <stage>Dienes szól az komédiahallgatóknak.</stage>
           <sp who="#dienes">
             <speaker>DIENES.</speaker>
-            <p>Halljátok, jó uraim, örömest vacsorára hínálak titeket is, ha az vacsorálóház igen
-              kicsiny nem volna. De nem fértek bé, mert igen szoros. Ti is penig, szép asszonyok,
-              itt bár az bokrok közt ne várakozzatok az vacsorára, mert együld estvére kélve
-              megragad benneteket valami kétlábú farkas vagy medve!</p>
-            <p>
-              <stage>FINIS</stage>
-            </p>
+            <p>Halljátok, jó uraim, örömest vacsorára hínálak titeket is, ha az
+							vacsorálóház igen kicsiny nem volna. De nem fértek bé, mert igen szoros.
+							Ti is penig, szép asszonyok, itt bár az bokrok közt ne várakozzatok az
+							vacsorára, mert együld estvére kélve megragad benneteket valami kétlábú
+							farkas vagy medve!</p>
           </sp>
+          <stage>FINIS</stage>
         </div>
       </div>
     </body>

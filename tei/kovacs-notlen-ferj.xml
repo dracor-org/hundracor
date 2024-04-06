@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000069" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Nőtlen férj</title>
+        <title type="sub">Vígjáték egy fölvonásban</title>
+        <author>
+          <persName>
+            <surname>Kovács</surname>
+            <forename>Pál</forename>
+          </persName>
+          <idno type="wikidata">Q197614</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Bajzát</surname>
+            <forename>Tímea</forename>
+          </persName>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Dióssy</surname>
+            <forename>Anna Laura</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0 <ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main"/>
+          <title type="sub"/>
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+          <ref target="http://mek.oszk.hu/"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">Honderű</title>
+          <title type="sub">Szépirodalmi és divatlap</title>
+          <author>
+            <persName>
+              <surname>Kovács</surname>
+              <forename>Pál</forename>
+            </persName>
+            <idno type="wikidata">Q197614</idno>
+          </author>
+          <respStmt>
+            <resp>editor</resp>
+            <persName>
+              <surname>Petrichevich Horváth</surname>
+              <forename>Lázár</forename>
+            </persName>
+          </respStmt>
+          <date when="1843">1843</date>
+          <pubPlace>Buda</pubPlace>
+          <publisher>Magyar Királyi Egyetem nyomdája</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+            <idno type="wikidata"/>
+          </author>
+          <title type="main"/>
+          <title type="sub"/>
+          <pubPlace/>
+          <publisher/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="grof" sex="MALE">
+            <persName>Gróf</persName>
+          </person>
+          <person xml:id="grofne" sex="FEMALE">
+            <persName>Grófnő</persName>
+          </person>
+          <person xml:id="mogori" sex="MALE">
+            <persName>Mogori</persName>
+          </person>
+          <person xml:id="andor" sex="MALE">
+            <persName>Andor</persName>
+          </person>
+          <person xml:id="ida" sex="FEMALE">
+            <persName>Ida</persName>
+          </person>
+          <person xml:id="biro" sex="MALE">
+            <persName>Biró</persName>
+          </person>
+          <person xml:id="kantor" sex="MALE">
+            <persName>Kántor</persName>
+          </person>
+          <person xml:id="inas" sex="MALE">
+            <persName>Inas</persName>
+          </person>
+          <personGrp xml:id="eloljarok" sex="MALE">
+            <name>Falu elöljárói</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head type="title">
+          <hi rend="underline">Személyek.</hi>
+        </head>
+        <castItem>
+          <role><roleName>GRÓF</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>GRÓFNŐ</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>MOGORI</roleName> tiszttartó</role>
+        </castItem>
+        <castItem>
+          <role><roleName>ANDOR</roleName> irnok</role>
+        </castItem>
+        <castItem>
+          <role><roleName>IDA</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>BIRÓ</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>KÁNTOR</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>INAS</roleName></role>
+        </castItem>
+        <castItem>
+          <role><roleName>Falu elöljárói</roleName></role>
+        </castItem>
+      </castList>
+      <p>
+        <stage>Történet helye: a gróf falusi jószága</stage>
+      </p>
+    </front>
+    <body>
+      <div type="act">
+        <head type="title">ELSŐ JELENET.</head>
+        <stage>Egy tiszta falusi lak.</stage>
+        <stage>MOGORI. ANDOR. (elvégzett ebéd után terített asztalnál)</stage>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Biz' amice! Fiatal ember’ sorsa nehéz; sokat kell tűrnie, fáradnia, mig
+                        valamihez juthat.</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Lássa tiszttartó ur, már hat éve irnokoskodom józanul, jámboran és
+                        szorgalommal, a nélkül hogy kitűzött czélomat csak messziről is
+                        sejthetném.</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Tudja-e azt öcsém uram, hogy én 12 évig tettem hasonló szolgálatot a
+                        gazdaságban?</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Igen, de tiszttartó urnak e kivül tán más czélja nem is volt?</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Az ördögben is! tán csak én sem akartam holtomig irnok maradni?</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Nem igy gondolám, tessék engem megérteni. Ön, miként eddigi élete mutatja,
+                        nem számított másra, mint árván és egyedül futni meg világi pályáját, — s
+                        ehhez semmi szóm, mert az izlés sokféle. Csak azt vagyok bátor megjegyezni,
+                        miszerint illy helyezetben önállásra vergődni nem is kivánatos : sokkal
+                        kényelmesb levén a mások' gyámsága alatti lét.</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Biz' én még ebből sem sokat értek domine!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Tüstént világosabb leszek. Vegyünk egészen megfordított viszonyt; lennék én
+                        tiszttartó – s ön irnokom....</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Ah! vagy ugy? humillimus servus!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Kérem, kérem! Nekem volna szép kis nőm, áldott, gondos háziasszony, ki
+                        egyuttal önnek is minden szükségeiről aggódnék: vajjon nem lenne-e igy önnek
+                        könnyebb, gondtalanabb élete, mint most? midön félideje öreg azdasszonyávali
+                        zsörtösködés-, másik fele szigoru számitgatásokbul áll; nem csalatik-e mégis
+                        meg általa? Reggel az ebéd pár tálételét kell megrendelnie, ma fél vagy
+                        egész font hus legyen-e? kiszabnia, s mind a mellett ha néha
+                        elszórottságában csütörtökre tökre babot, péntekre savanyu káposztát talált
+                        rendelni : még egy gonosz vénasszony álnok gúnykaczajának is kitéve van! —-
+                        Hát a fehérneműk' rendbentartasa! mosás, szapulás, baromfidög! hisz ezek
+                        mind megannyi sátánai a komoly férfiu' philosepiliai nyugalmának!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Értem! Tehat uramöcsém’ végczélja e szerint nem egyéb mint a – szoknya?!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Ám vegyük hát ezt, tartalma helyett, s a házi boldogság eszméjének
+                        kifejezésére legyen elég a szoknya, ha az elaggott szív, ön' éveiben, magasb
+                        fogalomra nem emelkedhetik! Egyébiránt biztosithatom önt , hogy az általam
+                        némileg rajzolt viszonyban , illy szennyes abroszul, mindjárt a hét' második
+                        napján csakugyan nem ennénk, – sem kozmás ízét a rántásnak estig szánkban
+                        hordoznunk nem kellene!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <stage>(némi bántódással)</stage>
+          <p>Domine! abroszszal, mellyről tiszttartója eszik, az irnok mindig
+                        megelégedhetik, s a rántásnak bármelly franczia szakács sem adhat
+                        rózsaiilatot!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Jó, jó, kedves tiszttartó uram; de jónal mindig van jobb is. Legyen kis
+                        türelemmel! Én csak szivem' állapotját akarám most ön előtt rajzolni, s e
+                        szívnek van egy imádottja, angyaljó leány, ki által a fönebb mondottak mind
+                        teljesülésben volnának menendők: de én szegény irnok s ő? semmivel sem
+                        gazdagabb árva hajadon....</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Hallja! ezen beszédnek vége utóbb is gonosz lesz. Ön egészen oda látszik
+                        vágyait irányozni, hogy én itt rögtön egy irgalmas gutával hagyjam magamat
+                        kedveért megüttetni, s igy helyembe léphessen. Domine! ez istentelen
+                        kivánság; ha mindjárt egy angyaljó leány' kedveért kellene is megtörténnie –
+                        hallja!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Isten mentsen az illy kivánságától, kedves tiszttartó ur! Az én czélom'
+                        elérésére van ennél szelidebb, keresztényibb mód is....</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Példának okáért...?</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Ön, kedves tiszttartó ur, mar törödött, aggott ember, – nyugalomba
+                        léphelne.</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Igen? köszönöm az ollyan nyugalmat, mellyben aztán állkapczáimnak sem lenne
+                        majd semmi tennivalója; s legalább is éhen kellene csupa kényelemből
+                        elvesznem!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Oh, azon lehetne segíteni ; iliő nyugpénz....</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Hiszen csak ez volna! majd vesződném is én tovabb a gazdasággal! De maga
+                        tudja öcsém uram , boldogult grófunk egész ha haláláig mindig igért –</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Hja! az nekem is igért ezeló'tt mar három évvel ispánságot. De most tudja
+                        tiszttartó ur, hogy új grófunk lesz, tán holnap már meg is érkezik : mit
+                        gondol? ha mi összevetett vállakkal egymás' boldogságát elősegitenők. Ön
+                        resignálni fog s engem helyébe ajánl; én régi hasznos szolgálatait fogom
+                        emlegetni, hogy értök a kivánt nyugpénzt biztosítsam számára!
+                            <stage>(fölkel)</stage>. Tehát csak ebben maradjunk! Egésségére kivánom
+                        az ebédet! De egymás' ügyét aztán ne felejtsük új grófunknál minél
+                        hathatósban támogatni. Csak engem legalább ispánságra segitsen tiszttartó
+                        ur, remélem számára sem fog a nyugpénz elmaradnil Ajánlom magamat!
+                            <stage>(el)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">MÁSODIK JELENET.</head>
+        <stage>MOGORI (egyedül).</stage>
+        <sp who="#mogori">
+          <speaker>MOGORI</speaker>
+          <p>Jó fiu! bizzál te csak a nagy urak' kegyelmében! lgen ám, ha kutyapeczér vagy
+                        lócsiszár volnál; de ki csak szántasz és vetsz számukra s élelmöket szerzed
+                        meg hiu gyönyörök helyett: vajmi soká kell előléptetésre vagy nyugpénzre
+                        várnod! — Наnem ez az én irnokom mégis okos dolgokat feszegetett. Az a
+                        gondos háziasszony, ki az ember' minden szükségeiről híven aggódnék — nem
+                        utósó gondolat! tán még a nyugpénznél is jobb volna; de mi haszna? illy
+                        boldogságtól már én rég elestem! <stage>(álmosodik)</stage> Ha csak ugy néha
+                        – álmomban.... <stage>(ásít)</stage> …. bizony pedig nem utósó gondolat ….
+                        olly szép, takaros kis menyecske a háznál …. teringettét
+                            <stage>(elalszik)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">HARMADIK JELENET.</head>
+        <stage>(sietve jó s mintha valakitől üldöztetnék, visszatekintget) MOGORI
+                        (székében alszik)</stage>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Hála Isten! megelőzhetém e szemtelen tolakodót, s itt ugy látszik kedvező
+                        körülmények fogadnak. Csak ez állításom szabadíthata tőle, hogy már nő
+                        vagyok; s ime! hevenyészett férjem uram itt e kényelmes karszékben
+                        bóbiskolja déli álmát. Dicső ötlet! - Ha épen eddig vakmerősködnék azon
+                        piperkőcz utánam, ki délutáni magányos sétámat illy gonoszul megzavará; jó:
+                        innét, férjem mellől szégyenitve utasítandom vissza őt, kába merényével
+                        együtt. Ezen jó öreg ur addig csöndesen alunni fog, s mire ébredend, ugy
+                        hiszem nőtlenül fogja magát találni a jámbor.<stage>(Kinéz az
+                            ablakon)</stage> Ah! lelkemre ő! páratlan vakmerőség! már bizonyosan
+                        utánam jő! –Most hevenyében honossá kell magamat ez ismeretlen lakban tennem
+                            <stage>(kalapját, napernyöjét leteszi)</stage> – csak valami női munka
+                        volna Aha.! itt egy vén varróvánkos, ben egy nagy tű, – s amott a fogason
+                        egy ócska kabát. Bizonyosan feslett lesz; azt veszem munkába!<stage>(а
+                            kabátot leveszi)</stage> Igen, ugy van, mint gondolám.<stage>(egy kis
+                            asztal mellé ül s elkezd varrni)</stage> Hiszen mi a férfiakon mindig
+                        lelünk valami foltozni valót!<stage>(szorgalommal mindig tovább
+                            varr).</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">NEGYEDIK JELENET.</head>
+        <stage>GRÓF. (kandikálva jő) IDA. (vissza nem nézve varr), MOGORI. (folyvást
+                        jóizűn alszik).</stage>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(az ajtóban)</stage>Csakugyan itt van, s milly kedves háziasan
+                        dolgozik! Az amott а karszékben szundikáló lesz bizonyosan a férj, de hiszen
+                        ki illy szép kis nő' mellett olly buta közönynyel alhatik: ugy tartom egy
+                        ügyes szerelemcsempésznek nem leend nagyon veszedelmes. Bemegyek.
+                            <stage>(közelebb lép Idához)</stage> Isten velünk szép tündér!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>
+            <stage>(meglepetést szinlelve)</stage> Hah! s ön bátorkodék?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Те karjaim közül kisikamlál előbb, de én követélek édenedbe –</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Nagyon csodálom hogy bebocsáttaték, holott tudva van, mikép rosz lelkek
+                        tiltvák a menny’ kapujától!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(mellé ül)</stage> En rosz lélek? Kis gonosz! Hisz Ádámot csak vétke
+                        után parancsolák ki édenből, s avvagy vétkes volnék-e én már az által, hogy
+                        bájaidnak hódolok, angyal?</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>
+            <stage>(az alvó Mogorira mutat)</stage>Oda nézzen!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Értem! ön mint nő, szép asszony, tisztesb hangu társalgást igényel!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>S mindenek fölött távozást olly teremből, mellyben egy hivatlan vendég'
+                        haszontalan fecsegése a legjobb férj’ boldog álmait zavarhatná.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(halkabb hangon)</stage> Hiszen ha ő álmaiban boldog, nem vesszük el
+                        ebbeli ártatlan örömét; de engedje ön, gyönyörü hölgyecske, nekünk itt az
+                        ébrenlét’ élveit izlelni.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>
+            <stage>(bántódva fölkél mellőle)</stage> Uram! bárki legyen is ön, illynemü
+                        társalgást tisztcs nö férje’ szobájában nem türhet.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Azért jobb lett volna a mezőn maradnunk – lám!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Ön' vakmerősége utóbb a házi békét készül fölzavarni, uram.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Isten mentsen, hisz önmaga mondá előbb, hogy ő boldog álmaiban!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Hagyja hát ön legalább nyugalomban а nőt is.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(rá s Mogorira mutatva)</stage> Illy ellentét – nyájas lavasz s
+                        mogorva tél – olly erős rokonszenvet csak nem szülhet, melly önt, férjey
+                        kedveért, most szinte alunni parancsolja?</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Ön szemtelen kezd lenni uram.…</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Kit meg ne vakítnának ennyi kellemek?</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>De mit remél ön botor viseletével?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Csak egy szelid tekintete, egy nyájas szava után sovárgok.… <stage>(ölelésre
+                            indul)</stage>
+          </p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>
+            <stage>(keményen)</stage> Vissza, esztelen! Különben házicselédimet csődítem
+                            össze.<stage>(félre)</stage> Ha ugyan vannak, – magam sem tudom!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Az Istenért! ne zavarjuk kedves férje' boldog álmait — ő ébredni fog.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Azt kívánom is, mert látom már egyébkép nem menekülhetek. <stage>(az alvó
+                            Mogori mellé vonul)</stage>
+          </p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>De miként lakhatik illy könyörtelen szív szelid nőkebelben?</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>
+            <stage>(félre)</stage> Istenem! ha e jó ur ébredni fog? elül tűz, hátul
+                        víz!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(félre)</stage> Nem foszthatom meg magamat a gyönyörtül,hogy egy
+                        csókjában ne részesüljek a makranczos szépnek! <stage>(fön)</stage>
+                        asszonyom, kössünk békét.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Egy föltét alatt.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>S az volna ...?</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Ön tüstént elhagyandja а házat —</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>És .…?</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Többé ez életben szemem elé nem kerülend!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Oh! ez borzasztó föltét, szép hölgyecském! Azonban, ám legyen ma
+                        fegyvernyugvás közöttünk , nyujtsa szép kezét a frigyre –</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>S ön távozni fog?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>E pillanatban!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <stage>(kezet nyujt)</stage>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <stage>(kezénél fogva sebesen magához rántja s egy csókot oroz le
+                        ajkairól)</stage>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <stage>(fölsikolt, s visszarántva magát, az alvó Mogori1 ölébe dől , ki erre
+                        ébredez)</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">ÖTÖDIK JELENET.</head>
+        <stage>GRÓF. IDA. MOGORI.</stage>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(néhány lépést hátrál s észrevétlenül távozni akar, de meggondolva
+                            hirtelen magát az ajtónál megáll; félre)</stage> Ej! gyáván megfutamodni
+                        a csatatérről fél győzelem után — ezt nem teszem! Hisz ez tiszttartóm, mint
+                        látom,itt én honn vagyok – végét várom а tréfának.</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>
+            <stage>(fölébredvén s ölében idegen nőt lelve, а gróf magánbeszéde alatti kis
+                            szünetet a meglepetésnek különféle néma kifejezéseivel tölti ki)</stage>
+                        Hol vagyok én? – mit látok? – álom-e ez avvagy való?</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Kedves férjem!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>
+            <stage>(bámulva)</stage> Férjem? – Igen? – – én illyesmit álmodtam épen.…</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>O, milly drágalátos szerelem, milly gyöngéd figyelem rejlik ez álom alatt?
+                        Álmodád ugy-e kedvesem, hogy szeretett nőd, hű Idád nagy veszélyben forgott,
+                        s ez lám igaz is –</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Igaz! és csakugyan nem álom? én valóban még most is álmok' országaban
+                        képzelem magamat.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Semmikép sem, angyalom! tekints csak hatra, ott áll a legmegtestesültebb
+                        való.</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>
+            <stage>(а grófot megpillantva)</stage> A gutában! az én csaladom egy álom
+                        alatt reménytelenül megszaporodott! De már édes angyalom meg követem, hanem
+                        illy appendix-sel nekem nő nem kell.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>O isten! s te eltaszíthatnál engem, mielőtt kihallgatál?</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Nőt in compagni – megvallom senkivel sincs kedvem tartani.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Nagy ég! e gyalázat! <stage>(а grófhoz)</stage> s ennek mind ön az oka, csúf
+                        ember! Nézze most, mint rombolá össze egy boldog házaspár' csöndes nyugalmát
+                        istentelen merénylete!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(előre lép)</stage> Uram –</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Nekem hiába beszél, illy nyügöt én nyakamra nem vállalhatok. Csak vigye
+                        Isten' nevében ezt a szép tündért, s végezze vele, mint bonyolítá, a
+                        dolgot.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Én önt ismerem....</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Ugyan? örülök rajta! nekem megvallom nincs szerencsém....</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Remélem , rövid időn közelebbrői fogunk megismerkedni.</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Még közelebbről? lsten mentsen meg! hohó!!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>De engedd édesem, hogy szólhassak én is....</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Hát még többet akar beszélni? hisz ennek sem értem egyharmadát, mit eddig
+                        hallék!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Én ártatlan vagyok –</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Meghiszem, édes ifiasszonykám, de nekem illynemü portéka még ártatlanul sem
+                        kell. Illy ártatlanság az embernek könnyen megárthatna!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Jőjön hát ama benyilóba, föl kell önt világosítanom....</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Már azt csakugyan magam is szeretném.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>Menjünk hát, menjünk. <stage>(egypár lépésre erőlteti az ajtó
+                        felé)</stage>
+          </p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>
+            <stage>(rögtön, mintegy új eszmétől kapatva meg, visszaugrik)</stage> Nem
+                        megyek, – dehogy megyek, – a világ’ minden kincseért sem megyek egy tapodtat
+                        sem. Hohó! önök itt egyetértö czinkosok lehetnek, nagyvárosi kitanult
+                        gonosztevők, – s mig e csalárd nő engem ottben betanult komédiájával ámít, e
+                        czimborája itt minden vagyonomtul meg foszt.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Uram! ez vakmerő megbántás, mellyért önt keserves szám adásra vonhatnám.</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Irgalom! még tán pisztollal fog kényszeríteni?</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA</speaker>
+          <p>
+            <stage>(sugva)</stage> Ne féljen semmitől, mikor mondom, – igen fontos
+                        közlendőm van – jőjön! <stage>(félre)</stage> Meg kell neki mindent
+                        vallanom, különben nem szabadulhatok e kelepczéből.</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>De ön jót áll életével ez emberért, kit itt hagyunk! <stage>(menés
+                            közben)</stage> Uram teremtőm! hogy’ kerülhettem én egy boldog álom
+                        közben illy istentelen kezek közé?! <stage>(el ldával a
+                        benyilóba)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">HATODIK JELENET.</head>
+        <stage>GRÓF, maga.</stage>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Hahaha! milly különös kaland! Az embert még rablóul nézik önbirtokában! Igy
+                        járunk aztán, ha az igaz utról kissé le találtunk lépin teni! Jó leczke
+                        legalább illy új házasnak mint én vagyok! – Két hónapja már, hogy
+                        kirekesztőleg s szüntelen csak nőm’ társaságában élek. Most rést kapva, pár
+                        nappal megelőzöm őt, hogy fris levegőt szívhassak falusi jószágomon. Eszembe
+                        jutnak itt magányomban ifjukori szabadságom' arany álmai, sétálás közben
+                        találkozom e csinos falusi hölgyecskével, – az újság ingerrel hat rám,
+                        néhány csapodár szavakat sugok fülébe, – ő megfutamodik, én üldözöm őt, – s
+                        ime! vén tiszttarlómnál kelepczébe jutok! Hahaha! Dicső tréfa! mellynek
+                        végét már csak azért is bevárom, hogy hasonló kalandocskák’ gyakorlatából
+                        végkép ki ne jőjek. Ki tudja? nem szorul-e még utóbb illyenekre az
+                        ember?!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">HETEDIK JELENET.</head>
+        <stage>ANDOR. GRÓF.</stage>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>
+            <stage>(lázadt indulattal jö; körillnéz; magában)</stage> Csak maga van!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(félre)</stage> Nono! ez ismét egy új praetendens lesz talán?</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>
+            <stage>(közelebb lép)</stage> Uram! én kevéssel ezelőtt egy fiatal nő
+                        személyt láttam e házba betérni.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(közönynyel)</stage> Nagyon lehetséges, bizonysága egyszersmind. hogy
+                        önnek, barátocskám, türhető éles látása van.</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Olly éles, uram, miszerint tisztán kivehetém, hogy kevéssel az említett hölgy
+                        után, ide egy férfi is belappanga.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Ha tán szemeinek próbáját akará az ur ez alkalommal letenni, ugy bizonyossá
+                        tehetem önt, hogy azoknak jó karban létéről meggyőződve lehet, annyival
+                        inkább, mivel jó messziről kelle e fontos földezést tennie : miután ez
+                        egyszerü esemény egy óranegyeddel történt már előbb.</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Nem valék olly messze, mint ön gondolja jó uram; itt leskődöm én már egy jó
+                        óranegyed óta a ház körül, idegen lakba boszúmmal betörni nem akaró; de
+                        immár türelmem elhagya, be kelle jőnöm.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Nagyon helyesen tevé türelmetlen barátom, – kérem, tessék leülni.</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>
+            <stage>(némi gúnykifejezéssel)</stage> Köszönöm, köszönöm!
+                            <stage>(keményen)</stage> De tudja meg ön, hogy engem gyáván szinlett
+                        egykedvüsége meg nem szelidít; én azon ide betért fiatal leánykát öntül
+                        követelem.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Hogyan? lehetséges-e?</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Igen, igen uram! no s?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Bizony nagyon sajnálom, de vele most e pillanatban nem szolgálhatok.</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Ön még tréfát akar üzni? De én előbb dicsért szemeimmel igen tisztán láttam,
+                        hogy azon nő után ide senki más be nem tért, mint ön uram.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Hiszen szemei ellen, mint előbb is mondám, semmi kifogásom, jó ember, azok
+                        mindent igen világosan és jól láttak.</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>S ön mégis vonakodnék?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Azon igen egyszerü okbul ––</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Miszerint?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Miszerint azon kérdésben levő hölgyecske sem enyém. sem öné, hanem egy
+                        harmadiknak jogszerü birtokában van.</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>O, hogy nyelve el nem némul ez álnok mesén! Hisz én jól tudom, hogy
+                        tiszttartó ur itt nőtelen.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Nőtelen - lehet, a mennyiben tán neje mást boldogít szerelmével; de férj
+                        mindenesetre: mert most tartanak együtt e benyilóban titkos conferencziát
+                        magánügyeik fölött.</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Uram, ez lehetlen, — s nem más mint hevenyészett koholmánya egy megszorult
+                        nőcsábítónak.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Barátocskám, önnek nyelve szemeinek élességével vetélkedik; vigyázzon, hogy
+                        egyiket vagy másikat – türelmünk minket is elhagyva -—meg ne tompítsuk!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>
+            <stage>(hévvel)</stage> És én ismétlem uram.... vagy....</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Kicsoda ön, hogy velem illy hangon merészel beszélni?</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Én a tiszttartó ur' irnoka vagyok, okom ninos magam' eltitkolására.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(félre)</stage> Tehát ez ismét embereim' egyike ; valóban ezek ma jól
+                        megleczkéztetik uraságukat. <stage>(fön)</stage> Ha irnok az ur, ugy vessen
+                        számot tiszttartójával ; íme épen jő a nőtlen férj, kedves párjával.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">NYOLCZADIK JELENET.</head>
+        <stage>MOGORI. IDA. ELŐBBIEK.</stage>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>
+            <stage>(Andort megpillantva, félijedten, félre)</stage> Istenem — Andor!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Tiszttartó uram! micsoda komédia ez?</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Komédia? Megesnék bele, ha minden férj, ki hű párocskájával sétál —komédìát
+                        játszanék!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Férj? hű párocska? Jóságos Isten, még eszemet vesztem köztük! Hisz e
+                        hölgy....</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Neje! nem mondtam?</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Hát perse<note type="editorial">sh.</note> hogy nőm, hisz ez ur is mondja,
+                        nem hallja?</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>S mióta, ha merem kérdeni?</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Mióta? hja barátom, ez nagy kérdés, nem is tudnék rá hirlelen felelni!
+                        Szóval, ez olly bonyolodott, összevissza szőttfont história, hogy rajta
+                        öcsém uram ugysem igazodhatnék el. Elég, hogy ez bizony frissiben sült
+                        menyecske, s evvel punctum! Most domine, menjen a szántókhoz!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>De nem hagyjuk magunkat illy könnyen elámíttatni, kedves tiszttartó ur. Én
+                        itt egy idegen embert látok е teremben, ki ezen leányka után tért ide be, s
+                        ki önt vétkes czimborájává tevé, lalacsony tettével....</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(komolyan)</stage> Fiatal ember, már előbb emlékeztetém önt, hogy
+                        szavait jobban megválogassa ellenem, mellyek utóbb még torkára
+                        forrhatandnak!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Igen uram, a mennykőbe is! Kimélőbb szavakkal éljek, midön е hölgyben itt
+                        éltem’ üdvét, keblem’ szerelmét látom álutakon tőlem elidegeníttetni? –
+                        Tudják meg önök,hogy e leányka itt az én mátkám!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Igen, de ha ő már asszony s én erről nem tehetek!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Jó, feleljen hát róla az, kit a dolog állítólag legközelbről érdekel. — Értse
+                        meg tiszttartó uram jól: ez azon angyaljó leány, kit én, mihelyt ispán
+                        leszek, magamévá tenni szándékoztam, kiben hű nőt, gondos háziasszonyt
+                        reméltem nyerhetni. – Ezen kincsemtől fosztott meg ön most engem; azért
+                        nekem elégtétellel tartozik. Arról bizonyossá tehetem, hogy élve nem
+                        birandja őt, mert én golyót röpítendek keresztül száraz koponyáján: azért
+                        álljon ki, mi víni fogunk!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Domine! az Istenért, ne bolondozzék! Gyilkos akar lenni? milly exaltalt
+                        eszmék ezek! – Menjena szántókhoz öcsém uram, menjen!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Én uram nem tágítok; egyikünknek meg kell halni!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Hagyja abba amice! inkább lemondok róla. Ha eddig nem tettem, öreg napjaimban
+                        ugyan nőt életemen nem vásárlok.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Tiszttartó ur, önnek hű nejét védenie kell, mert a nő nem olly haszontalan
+                        portéka, mit minden szóra magunktól eldobhatunk. Én önöket pártfogásom alá
+                        veszem –</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Szép pártfogás, mondhatom. Hogy is ne! egy élemedett férj, kinek szép fiatal
+                        neje van, ezt valóban meg is érdemli. - De én szavamtól el nem állok, önnek
+                        tiszttartó ur, vínia kell, én tüstént a pisztolyokat hozom. <stage>(menni
+                            akar)</stage>
+          </p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>
+            <stage>(föltartóztatja)</stage> Amice! várjon no! hadd szóljak én is egy okos
+                        szót! <stage>(titkosan)</stage> Hiszen miattam vegye az istenadtát, nekem
+                        nem nőm;csak annak adta ki magát,ezen idegen ur miatt. – No s?
+                        megelégszik?</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Ugy-e? hiszen tudtam én ezt? <stage>(grófhoz)</stage> Tehát ezen városi
+                        uracsnak kelle férjet improvisálni a játékhoz nemde? hogy e mellé
+                        rejtőzhessék a vetélytárs' igazságos boszúja elől? De legyen bárki uram, –
+                        hisz’ látszik hogy amollyan nagyuri fajta, de még egyszer mondom: volna ön
+                        bár maga tulajdon grófom....</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">KILENCZEDIK JELENET.</head>
+        <stage>INAS. ELŐBBIEK.</stage>
+        <sp who="#inas">
+          <speaker>INAS.</speaker>
+          <p>
+            <stage>(sebtén)</stage> Méltóságos uram! grófné ő méltósága e pillanatban
+                        érkezett.</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>
+            <stage>(egyszerre)</stage> A gróf? oda vagyok! <stage>(térdre
+                        esik)</stage>
+          </p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>
+            <stage>(egyszerre)</stage> Mit? a méltóságos uraság?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(egyszerre)</stage> Ezer mennykő! még ez hiányzott, hogy nőm e
+                        regényes jelenetben lepjen meg! <stage>(inashoz)</stage> Tüstént
+                        kézcsókolásra leszek! <stage>(Inas el.)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">TIZEDIK JELENET.</head>
+        <stage>GRÓF. MOGORI. ANDOR. IDA.</stage>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>Méltóságos ur, én jövök először bocsánatot kérni, az udvaritlan bántalmakért
+                        – <stage>(meghajol előtte)</stage>
+          </p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Kérem, kérem, – nekem volna okom önt megkövetni —</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>És én ostobal mit miveltem? rablónak merém tekinteni ő nagyméltóságát, –
+                            <stage>(térdre esik)</stage> kegyelem!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>
+            <stage>(térden eléje csúsz)</stage> És én! szólni sem merek; tudom kenyeremet
+                        vesztem gorombaságimért. Irgalom, méltóságos uram! <stage>(mind hárman
+                            körülvették a grófot)</stage>
+          </p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Ereszszenek az Istenért! Én mindent megbocsátok, hallották, hogy а grófné
+                        érkezett? még ide jöhetne! Felejtslink kölcsönösen mindent – hisz'
+                        mindnyájan gyarló emberek vagyunk! Isten önökkell <stage>(menni
+                            akar)</stage> Hah! már keső!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">TIZENEGYEDIK JELENET.</head>
+        <stage>GRÓFNÉ uti köntösben. ELŐBBIEK.</stage>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Adolf!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Matild!<stage>(egymás' karjaiba dőlnek. A többi személyzet tiszlelettel
+                            hátravonul)</stage>
+          </p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Milly kedves meglepés, angyalom!</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Már a kocsiban utánad kérdeztem, s hallván egy inastól, ki betérni látott,
+                        ittlétedet, siettem ölelésedre, hogy meglepjelek! Hiszen csak egy kis ugrás
+                        kastélyunktól e tiszti lak.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Milly jó vagy, Matild! <stage>(kezet csókol)</stage>
+          </p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>
+            <stage>(körülnéz)</stage> Nos? itt bizonynyal egy pásztori jelenelnek valék
+                        akaratlan megzavarója?<stage>(Idát meglátva)</stage> Ida, te is itt?</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>Méltóságos asszonyom!<stage>(kezet csókol)</stage>
+          </p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(félre)</stage> Meg ismeri is! Oda vagyok, ha е leány nem kivétel
+                            neméből.<stage>(fön)</stage> És ti ismeritek egymást, Matild?</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Igen, atyám' házànál majd mindennapos volt e jó leány, az ottani lelkész'
+                        gyermeke. Mondhatom mi szinte együtt leánykodtunk.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>Méltóságod mindig olly kegyes volt irántam –</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>No s? mi hoz most itt össze bennünket illy reménytelen?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(félre)</stage> Mindjárt végem lesz!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>Testvérem' látogatásán vagyok itt, ki szinte lelkészné e faluban.</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Különös mégis, hogy épen itt jövunk össze; holott ez nem a paplak.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Tudod kedvesem , e fiatal leányka – vagy nő — nem is tudom – azaz hogy — az
+                        egész dolog - olly rejtvény.…</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>Mellyet engedelmökbül, én tüstént meg fogok fejteni —</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(félre)</stage> Elvesztem, ha szól!</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Halljuk hát édesem, kiváncsivá teszesz....</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>Ezen ifju itt, nagyságtok’ urodalmi irnoka – jegyesem; de ő szegény velem
+                        együtt, s még csak irnok! Itt sétáltunkban megláttuk ő méllóságát a
+                        tiszttartó urhoz betérrni, – s olly bátrak valánk — bizodalmunkkal –
+                        alkalmatlankodni –</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(félre, örömmel)</stage> Dicső! e leány angyal, — én mentve
+                        vagyok!</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Ah – most már gyanítom; s mielőtt a részleteket hallanám: engedd meg kedves
+                        Adolf, hogy én legyek első, ki е fiatal párért nálad magát közbeveti!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Igen —te angyal vagy Matild! ki tagadhatna meg valamit ott, hol te kérsz! Ugy
+                        van, mi is már épen ez ügyben fáradozánk előbb, és én most kértedre, е
+                        becsületes ifju embert udvari kasznárommá nevezem, a kastélyban fogja kapni
+                        lakását. Nekem szelid magaviselete, finom udvari bánása nagyon tetszik, ha
+                        megelégszel édesem, nászát én fogom kitartani ez ifju párnak.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>
+            <stage>(kezetcsókolva)</stage> Oh, e kegyesség!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>
+            <stage>(kezetcsókolva)</stage> Е határtalan nagylelküség!</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Egy kis módosítást. mégis engedni fogsz, kedves férjem?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Parancsolj szolgáddal!</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Atyámnak egy öreg kasznárja halt meg e napokban , jó tisztre volna szüksége.
+                        Nem volna-e jobb ez ifju embert annak helyébe küldeni somogyi
+                        jószágunkra?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>A te akaratod az enyém is! <stage>(félre)</stage> Szagolna valamit?! Azonban
+                        csakugyan jobb is lesz távolabb lenniök. <stage>(fön)</stage> На ugyan - ez
+                        ifju embernek is tetszeni fog?</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Méltóságtok' akarata nekem parancs.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>S most tán hazatérhetnénk édesem?</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Egy pillanatnyi kihallgatásért esedezem.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(félre)</stage> Ez is avatva van titkomba; nem lesz-e áruló?
+                            <stage>(fön)</stage> Tessék, öreg ur, tessék, kihallgatandjuk önt!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Méltóságtok olly nagylelküek első beléptükkel, hogy nem tartóztathatom
+                        magamat, egy kérelemmel járulni kegyes színök elé! Mint látja méltóságod, én
+                        már öreg legény vagyok. Nagyságod' boldogult uraatyja hű szolgálatimért
+                        gyakran biztata engem kis nyugpénz zel. Bocsássa most méltóságod nyugalomra
+                        öreg szolgáját, ki élte' jobb napjait e méltóságos család' javainak
+                        áldozá!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Csak ennyiből áll? rendelkezni fogok, hogy ön egész fizetése' megtartásával
+                        nyugalomba tétessék!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Oh, e kegyelem, méltóságos uram – <stage>(kezet akar csókolni)</stage> –
+                        kivált előbbi viseletem után....</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Hagyja el, hagyja; teljesen meg vagyok elégedve. S most menjünk.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">TIZENKETTEDIK JELENET.</head>
+        <stage>BIRÓ néhány előljáróival a falunkak. ELŐBBIEK.</stage>
+        <sp who="#biro">
+          <speaker>BIRÓ.</speaker>
+          <p>Éljen a mi méltóságos ifju grófunk!</p>
+        </sp>
+        <sp who="#eloljarok">
+          <speaker>ELŐLJÁRÓK.</speaker>
+          <p>Éljen! éljen!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Köszönöm fiaim, köszönöm! Igen szép tőletek e tisztelgés, de itt, ugy hiszem,
+                        nincs helye. Jöttetek volna hozzám a kastélyba.</p>
+        </sp>
+        <sp who="#biro">
+          <speaker>BIRÓ.</speaker>
+          <p>Már megkövetem egész alázatossággal, hiszen tudnók mi a dolog' ceremoniáját:
+                        de tudjuk boldogult öreg grófunk' idejéből még azt is, milly nehéz
+                        becsületes uri lakába jutni attól a sok komondortul.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Az egész kastélyban nem találtok egy angol vizslánál egyebet, az pedig nem
+                        harap.</p>
+        </sp>
+        <sp who="#biro">
+          <speaker>BIRÓ.</speaker>
+          <p>Ej no! hiszen nem is olly bozontos négylábu állatot értünk mi, méltóságos
+                        uram: de azok a franczia születésü főkamarások –</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Ah! tehát a komomikok? No nekem fiaim csak egy van, ez is magyar. Jöhettek
+                        holnap.</p>
+        </sp>
+        <sp who="#biro">
+          <speaker>BIRÓ.</speaker>
+          <p>De már megkövetem, illy jó alkalmunk tudom sohsem lesz! Egy pascum van itt,
+                        épen a mellyen előbb méltóságod ezen fiatal le ány személylyel....</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Jó, jó fiaim! tehát az a pascum?</p>
+        </sp>
+        <sp who="#biro">
+          <speaker>BIRÓ.</speaker>
+          <p>A faluéhoz kérnők, méltóságos uram, mert kevés a legelőnk.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Meglesz fiaim, holnap mindjárt rendelést teszek iránta.</p>
+        </sp>
+        <sp who="#eloljarok">
+          <speaker>ELŐLJÁRÓK.</speaker>
+          <p>Köszönjük atyai kegyességét; az Isten tartsa meg jó földesurunkat!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>
+            <stage>(grófnéhoz)</stage> S most, ha ugy tetszik ....?<stage>(menni
+                            akar)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">TIZENHARMADIK JELENET</head>
+        <stage>KÁNTOR. ELŐBBIEK.</stage>
+        <sp who="#kantor">
+          <speaker>KÁNTOR.</speaker>
+          <p>
+            <stage>(sietve)</stage> Jól hallottam-e? Ugy van, lám itt a fényes deputatio.
+                            <stage>(összeszedi magát)</stage> Nagyméltóságu gróf, kegyelmes
+                        patronusom!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Jól van, már mindent tudok.</p>
+        </sp>
+        <sp who="#kantor">
+          <speaker>KÁNTOR.</speaker>
+          <p>Azt is, hogy a mesterház rongyos?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>No már azt majd csak holnap nézzük meg.</p>
+        </sp>
+        <sp who="#kantor">
+          <speaker>KÁNTOR.</speaker>
+          <p>Lehetetlen, méltóságos uram, e jó alkalmat el nem mulaszthatom; hogy uri
+                        protectióját ne kérjem, azon connexionál fogva, melly engem ezen fiatal
+                        leányasszonynyal ‚ lelkésznénk’ testvérével, ki nekem mostoha hugom, s a
+                        ki....</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Értem értem, hagyja connexióit. Rendelés lesz téve, hogy a mesterház új tetőt
+                        nyerjen, még e nyáron.</p>
+        </sp>
+        <sp who="#kantor">
+          <speaker>KÁNTOR.</speaker>
+          <p>O, hála és köszönet, nagylelkü Mecoenas! – De emellé mondhatom fizetésem is
+                        olly csekély, s a stolát olly kevesektől kaphatom be! –</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Javítva leend ezen is!</p>
+        </sp>
+        <sp who="#kantor">
+          <speaker>KÁNTOR.</speaker>
+          <p>Aszerencse' bőségszarva ékesitse méltóságod' uri homlokát!</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>De most már csakugyan mehetünk.</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Kedves férjem! első föllépted alattvalóid között olly nagylelkün szíves, hogy
+                        én is bátorságot veszek magamnak egy őszinte kérelemmel előállni.</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>S ez volna?</p>
+        </sp>
+        <sp who="#grofne">
+          <speaker>GRÓFNÉ.</speaker>
+          <p>Hogy nekem ezen magában véve minden esetre igen dicséretes nagylelküségről
+                        honn – számolni fogsz?</p>
+        </sp>
+        <sp who="#grof">
+          <speaker>GRÓF.</speaker>
+          <p>Honn — minden bizonynyal, angyalom, pedig a legőszintébben!
+                            <stage>(félre)</stage> Magamban pedig fogadást teszek , soha nőmet,
+                        legalább 10 évig, csak egy napra is – el nem hagyni! <stage>(el a
+                            grófnéval)</stage>
+          </p>
+        </sp>
+        <sp who="#kantor #eloljarok #biro #mogori #andor #ida">
+          <speaker>MINDNYÁJAN.</speaker>
+          <p>Éljen а méltóságos graf, éljen!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">TIZENNEGYEDIK JELENET.</head>
+        <stage>MOGORI. ANDOR. IDA. BIRÓ. KÁNTOR. ELŐLJÁRÓK.</stage>
+        <sp who="#biro">
+          <speaker>BIRÓ.</speaker>
+          <p>Áldott egy jó ur, mondhatom. Lássák kelmetek, az öreg gróftul 10 esztendeig
+                        kértük a pascumo! hiába, s ime a fia’most egy szavunkra átengedé!</p>
+        </sp>
+        <sp who="#kantor">
+          <speaker>KÁNTOR.</speaker>
+          <p>Hát a mesterház, mióta rongyos már? s ihol la! az ifju gróf ur még
+                        fizetésemet is megjavítja. Hej! az a connexio, illy szép fiatal személyekkel
+                        kivált, csak sohasem árt, az igaz!</p>
+        </sp>
+        <sp who="#biro">
+          <speaker>BIRÓ.</speaker>
+          <p>No, áldást, békességet, tiszttartó uram!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Isten' hírével járjanaki <stage>(biró, kántor előljárók el!)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">TIZENÖTÖDIK JELENET.</head>
+        <stage>MOGORI. ANDOR. IDA.</stage>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>Én alig tudok ámultombul magamhoz térni ez események fölött. Idám, légy
+                        szives nekünk megmagyarázni e rejtvényt, mellynek kulcsát, ugy látszik,
+                        egyedül birod.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>Röviden, ebből| áll az egész: én ma ebéd után egy kis sétálást tevék a
+                        fáczános felé. Utközben egy ismeretlen uracscsal találkozám, ki szerelmi
+                        mézszavaìval kezde terhemre lenni. Szorultomban azt mondám neki, hogy én már
+                        nő vagyok, s megfuték előle, e lakban keresve menhelyet. Az idegen uracs a
+                        még eddig mindegyikünk előtt ismeretlen ifju gróf volt, – a többi ezekből
+                        világos!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Ah! értem! Tehát én nyugpénzemet egyedül önnek köszönhetem, szép kisasszony,
+                        valamint öcsém uram a somogyi kasznárságot, a falu pascumát, s kántor uram
+                        háza' födelét!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>S én fölül rá, e szép nőt!</p>
+        </sp>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Mondhatom, ifju grófunknak nagylelküségére elég hamis oka volt; ön szép
+                        gyermek!</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>Mindegy, csakhogy mindnyájunkat boldogít!</p>
+        </sp>
+        <sp who="#andor">
+          <speaker>ANDOR.</speaker>
+          <p>De most jer kedvesem, haza kisérlek; nehogy utközben még egyszer nővé válni
+                        légy kénytelen, melly másodszori asszonyságod roszabbul üthetne ki, mint az
+                        első.</p>
+        </sp>
+        <sp who="#ida">
+          <speaker>IDA.</speaker>
+          <p>S én ugy hiszem, a második ennél sokkal boldogabb leend! <stage>(el
+                            Andorral)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head type="title">UTOLSÓ JELENET.</head>
+        <stage>MOGORI (egyedül; föl s alá jár a szobában).</stage>
+        <sp who="#mogori">
+          <speaker>MOGORI.</speaker>
+          <p>Ecce! ecce! pár óra alatt mi nem történhetik az emberrel! Én nőtlen férj
+                        valék, – nőm, min tszappanbuborék, légbe tünz‚ s mi maradt fön számomra
+                        általa? a rég ohajtott nyugpénz! –</p>
+          <p>De mit látok? Illy magas vendégek előtt szobám milly rendetlen volt, az
+                        asztal most is szedetlen! Horrendum! Hja! csak igy van a nőtlen férj’ dolga!
+                            <stage>(kikiált)</stage> Не]! Panni te! szedjétek föl az asztalt!
+                            <stage>(а kárpit legördül)</stage>
+          </p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

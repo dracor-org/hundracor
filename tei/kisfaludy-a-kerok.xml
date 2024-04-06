@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000021">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000021" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +66,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -168,6 +165,11 @@
           </personGrp>
         </listPerson>
       </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <standOff>
@@ -179,6 +181,11 @@
         <label>1819-09-24</label>
       </event>
     </listEvent>
+    <listRelation>
+      <relation name="wikidata"
+                   active="https://dracor.org/entity/hun000021"
+                   passive="http://www.wikidata.org/entity/"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
@@ -603,20 +610,18 @@
             <p>Hiában mented magadat, hasztalan integetsz! megmutatom, mit ítélsz
                             mirólunk. Máli! csak hallgasd; előbb bemegyek szobájába, és ezen töredék
                             dal az asztalán fekszik.</p>
-          </sp>
-          <sp>
             <stage>Elővesz egy papirost és olvas.</stage>
+            <lg>
+              <l>"Szép az asszony! de könnyen változik,</l>
+              <l>És egyedül kényének áldozik; -</l>
+              <l>A szíve ritkán jó.</l>
+              <l>Csalárd és kártékony,</l>
+              <l>Soha nem állandó;</l>
+              <l>Erkölcse botlékony,</l>
+              <l>Ereje romlékony" -</l>
+            </lg>
+            <p>és a többi. Mely fekete leírás! Mit tudsz mentségedre szólni?</p>
           </sp>
-          <lg>
-            <l>"Szép az asszony! de könnyen változik,</l>
-            <l>És egyedül kényének áldozik; -</l>
-            <l>A szíve ritkán jó.</l>
-            <l>Csalárd és kártékony,</l>
-            <l>Soha nem állandó;</l>
-            <l>Erkölcse botlékony,</l>
-            <l>Ereje romlékony" -</l>
-          </lg>
-          <p>és a többi. Mely fekete leírás! Mit tudsz mentségedre szólni?</p>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
             <p>Egy komor kedvnek szülöttje - ne figyelmezz reá.</p>
@@ -1448,11 +1453,11 @@
             <speaker>BALTAFY.</speaker>
             <p>Tessék!</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Kérem -</p>
           </sp>
-          <sp who="#perföldy">
+          <sp who="#perfoldy">
             <speaker>PERFÖLDY.</speaker>
             <p>Rogo humillime -</p>
           </sp>
@@ -1460,13 +1465,13 @@
             <speaker>BALTAFY.</speaker>
             <p>Menjenek az urak!</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>
               <stage>keresztülfutva a szobán, vizsgálja mind őket.</stage> Bon jour!
                             örvendek, hogy szerencsém vagyon tisztelni ezen úri famíliát.</p>
           </sp>
-          <sp who="#perföldy">
+          <sp who="#perfoldy">
             <speaker>PERFÖLDY.</speaker>
             <p>Különös szerencsémnek tartom megismerkedni ily érdemes úri házzal.</p>
           </sp>
@@ -1519,12 +1524,12 @@
                             Tessék házamat úgy tekinteni, mint önnön magukét és mindenben kényök
                             szerint élni.</p>
           </sp>
-          <sp who="#perföldy">
+          <sp who="#perfoldy">
             <speaker>PERFÖLDY.</speaker>
             <p>Agnoszkálom gráciáját spektábilis úrnak és mindjárt is azután
                             cselekszem.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Vous me pardonnez, monsieur!</p>
           </sp>
@@ -1533,7 +1538,7 @@
             <p>Tessék velem magyarul szólani, én eleget küszködtem a franciákkal, de
                             nyelvöket nem tudom.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Sok nyelveket tudok, nem akarva is kiejtem az idegen szókat.</p>
           </sp>
@@ -1547,13 +1552,13 @@
             <p>Szép és dicséretes az idegen nyelvek tanulása, de tudja előbb az ember
                             hazai nyelvét.</p>
           </sp>
-          <sp who="#perföldy">
+          <sp who="#perfoldy">
             <speaker>PERFÖLDY.</speaker>
             <p>Azt én is affirmálom, mert mely ember az idegen nyelvet kultiválja és
                             negligálja a magáét, az hasonló azon kertészhez, ki tulajdon gyümölcsét
                             elrothasztja és az idegentől drága pénzen a rosszabbat megveszi.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Igaz! de a nagy világ úgy akarja.</p>
           </sp>
@@ -1561,11 +1566,11 @@
             <speaker>BALTAFY.</speaker>
             <p>A magyarnak világa a haza!</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>A bonton úgy hozza magával - már magyarul nem is szól az ember!</p>
           </sp>
-          <sp who="#perföldy">
+          <sp who="#perfoldy">
             <speaker>PERFÖLDY.</speaker>
             <p>Nyelv teszi a nemzetet; ki uzuálja szabad jussát, húzza termékeny
                             földjének hasznát, az tudja honi nyelvét is - sat est - -</p>
@@ -1576,11 +1581,11 @@
                             törvényünk, nemzetünk megmaradt jó királyunk alatt. Elég erről - ha
                             tetszik, menjünk a kertbe -</p>
           </sp>
-          <sp who="#perföldy">
+          <sp who="#perfoldy">
             <speaker>PERFÖLDY.</speaker>
             <p>Miként parancsolja</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>
               <stage>félre.</stage> Ach! mely hátra vagyunk!</p>
@@ -1740,7 +1745,7 @@
           <sp>
             <stage>Vilhelm, Ferenc.</stage>
           </sp>
-          <sp who="#vilehlm">
+          <sp who="#vilhelm">
             <speaker>VILHELM.</speaker>
             <p>Huszár! háj kell -</p>
           </sp>
@@ -1748,7 +1753,7 @@
             <speaker>FERENC.</speaker>
             <p>A kulcsárnétól kérj.</p>
           </sp>
-          <sp who="#vilehlm">
+          <sp who="#vilhelm">
             <speaker>VILHELM.</speaker>
             <p>Mi rossz eszik -</p>
           </sp>
@@ -1756,7 +1761,7 @@
             <speaker>FERENC.</speaker>
             <p>Ha rossz, nem tehetek róla.</p>
           </sp>
-          <sp who="#vilehlm">
+          <sp who="#vilhelm">
             <speaker>VILHELM.</speaker>
             <p>Ah! nem érteni - szenet -</p>
           </sp>
@@ -1783,7 +1788,7 @@
                             barátom! Mi újság van a városban? Micsoda ember a kend ura? hogy bírja
                             magát? mi a hivatala? mikor megy? hová megy?</p>
           </sp>
-          <sp who="#vilehlm">
+          <sp who="#vilhelm">
             <speaker>VILHELM.</speaker>
             <p>vállat vonít. Nem tud -</p>
           </sp>
@@ -1792,7 +1797,7 @@
             <p>Nem tudja kend? hát kend hová való? régen szolgálja urát? kik voltak
                             szülei? micsoda vallást tart?</p>
           </sp>
-          <sp who="#vilehlm">
+          <sp who="#vilhelm">
             <speaker>VILHELM.</speaker>
             <p>Magyar peszit, nehez emper. <stage>El.</stage>
             </p>
@@ -1946,7 +1951,7 @@
         <div type="scene">
           <head type="title">ÖTÖDIK JELENÉS</head>
           <stage>Szélházy, az előbbiek.</stage>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>
               <stage>magában.</stage> Hahaha! csak igaz! a szép embernek mindenkor
@@ -1960,7 +1965,7 @@
             <p>
               <stage>titkon Málihoz.</stage> Ez Lidi munkája.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>A másik jobban tetszik, de nekem pénz kell, sok pénz kell.</p>
           </sp>
@@ -1968,7 +1973,7 @@
             <speaker>MÁLI.</speaker>
             <p>Mely szerencse!</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Haha! mely aventure! meglát, belém szeret és megvallja, hogy a kapitány
                             leánya, de nem is csodálom. <stage>Kihúz egy tükröt zsebéből.</stage>
@@ -1981,7 +1986,7 @@
             <speaker>MÁLI.</speaker>
             <p>Örvendek, hogy szerencsém van?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Részemről. Mint áll a szív környéke? sajnálom, hogy ily szomorúságot
                             okozok a kisasszonynak, komor tekintete nyilván elárulja csendes
@@ -1999,7 +2004,7 @@
               <stage>félre.</stage> Maga sem érti ez magát. Óh, párducos Árpád! ha
                             ilyen az unokád!</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Ne is értsen, nem is akarom, óh, szegény kisasszony, ne is értsen. Nem
                             vagyok én barbár, nem tirannus, hagyok kis reményt, egyszerre
@@ -2011,7 +2016,7 @@
             <speaker>MÁLI.</speaker>
             <p>Az atyám? szobájában leszen.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>
               <stage>hirtelen.</stage> Az atyja! <stage>Félre.</stage> Szegény! erővel
@@ -2022,7 +2027,7 @@
             <speaker>MÁLI.</speaker>
             <p>Várhalmai Károly atyánkfia, jó barátunk, Lidi testvérbátyja.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>
               <stage>félre.</stage> Tulajdon bátyja! ezt is megtagadja.
@@ -2035,7 +2040,7 @@
             <p>Az atyám csenget, nekem mennem kell. <stage>Mentében titkon
                                 Károlyhoz.</stage> Légy nyugodt! én változhatatlan maradok.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Ez is bizonyosan egyetért az öreggel.</p>
           </sp>
@@ -2043,7 +2048,7 @@
             <speaker>KÁROLY.</speaker>
             <p>Mely kevélyen tekint reám a képzelt magasságról.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Apropos! Én hasonló képet láttam valahol a világban.</p>
           </sp>
@@ -2051,7 +2056,7 @@
             <speaker>KÁROLY.</speaker>
             <p>Nem lehetetlen.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Nem volt az úr külföldön?</p>
           </sp>
@@ -2059,7 +2064,7 @@
             <speaker>KÁROLY.</speaker>
             <p>Nem, hazámat kívántam előbb megismerni.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Pauvre diable! kár, nagy kár; csak az utazás adja meg az embernek igaz
                             érdemét.</p>
@@ -2070,7 +2075,7 @@
                             hogy a kevés jót is elhagyta, mit kivitt magával. Talán báró úr is sokat
                             járt?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Igen. Öszvejártam Olaszországot és Franciaország nagyobb részét.</p>
           </sp>
@@ -2078,7 +2083,7 @@
             <speaker>KÁROLY.</speaker>
             <p>Így szép tapasztalásokat tetszett hozni magával?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Mely kérdés!</p>
           </sp>
@@ -2086,7 +2091,7 @@
             <speaker>KÁROLY.</speaker>
             <p>Ezáltal hazánkban a szépmesterségek új ápolót nyertek.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Én kedvelem a szépet és értek is hozzá.</p>
           </sp>
@@ -2095,7 +2100,7 @@
             <p>Azt az első pillantat mutatja. Mely szerencse, annyi szép s nagyot látni,
                             csudálni. Nem lehetnék oly szerencsés valamit hallani?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Ahhoz napok kellenek. Ach! sok fátum ért engem; de a nagy lélek nem
                             retteg.</p>
@@ -2104,7 +2109,7 @@
             <speaker>KÁROLY.</speaker>
             <p>Példának okáért?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Kocsim felfordult, eltörött és nekem egy egész félóráig gyalogolnom
                             kellett.</p>
@@ -2114,7 +2119,7 @@
             <p>Ezt a tapasztalást magyar utakon is igen könnyű megtenni; különben mely
                             városokban tetszett mulatni?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Velencében, Rómában, Párizsban - sokat, sokat láttam.</p>
           </sp>
@@ -2122,7 +2127,7 @@
             <speaker>KÁROLY.</speaker>
             <p>Mely ritkaság ébreszté leginkább figyelmét?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Velencében egy gyönyörű leányt láttam! ach! egészen elbájolt; azután egy
                             Pierrót a teátrumon, uram -</p>
@@ -2134,7 +2139,7 @@
                             is a régi világ urát nyilván hirdetik, nemde égi gyönyörűség lehet az
                             ott való lakás?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Szép, szép! emlékezem, hogy igen jól mulattam magam, kivált igen édesen
                             aludtam.</p>
@@ -2143,7 +2148,7 @@
             <speaker>KÁROLY.</speaker>
             <p>Kár volt a költségért, aludni otthon is lehet. És Párizsban?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Oly ebédet sehol sem ettem.</p>
           </sp>
@@ -2151,7 +2156,7 @@
             <speaker>KÁROLY.</speaker>
             <p>A magyar élelemért nem megy külföldre.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Mely vad gondolkodás! a jobb ízlés mindenkor az ebédnél kezdődik, az a
                             világosodásnak legelső lépcsője; barátom! ott én oly étkeket láttam;
@@ -2162,7 +2167,7 @@
             <p>Bár abban maradtunk volna hátra! de alig hiszem; a hívságban versenyt
                             futunk minden nemzettel. Ki hasának él, ritkán él nemzetének.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Szívesen tanítanám az urat, de mennem kell, egy lehajló ág minden
                             fürteimet lerontá. Nem, nem, kedves úr! nem mulathatok tovább, azt maga
@@ -2558,7 +2563,7 @@
                             urokhoz való hűségöket demonstrálni akarván, egymást aggrediálták et sic
                             porro.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Az én emberem hív, meghal értem, érzékeny jó lélek.</p>
           </sp>
@@ -2579,7 +2584,7 @@
                             prefáció nélkül azon objektumra inviálom, mely engem úri házába
                             hozott.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>
               <stage>félre.</stage> Még szólani mer, holott tudja szándékomat.
@@ -2596,7 +2601,7 @@
             <p>Sine dubio! egyik parsnak hátra kell állni, már azt a kisasszony
                             decidálja; nekem már van securitásom et sic porro.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Nyugodtan várom.</p>
           </sp>
@@ -2605,7 +2610,7 @@
             <p>Ha úgy tetszik. <stage>Perföldyvel el.</stage>
             </p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>
               <stage>Lidihez.</stage> Nemsokára üt az óra, mely szerencsémet zengi.
@@ -2798,7 +2803,7 @@
           <sp>
             <stage>Szélházy, az előbbiek.</stage>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Mely kellemetes társaság!</p>
           </sp>
@@ -2812,7 +2817,7 @@
               <stage>félre.</stage> Így megmenekszem. <stage>El.</stage>
             </p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Én jövök -</p>
           </sp>
@@ -2824,7 +2829,7 @@
                             urat, sajnálom - Máli! gonosz leány. <stage>El.</stage>
             </p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Tehát nemsokára a szerencse beszáll ezen házba.</p>
           </sp>
@@ -2833,7 +2838,7 @@
             <p>
               <stage>ásítozva.</stage> Mely boldogság!</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Ezen édes ajaktól kívánnám hallani a szív vallását. Ah kedves! az én
                             szívem mint ver, mint rugdalódzik!</p>
@@ -2842,7 +2847,7 @@
             <speaker>LIDI.</speaker>
             <p>Ach! <stage>félre</stage> az enyém hallgat.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Értem ezen kívánatos sóhajtást, óh! értem ezen bájos ömledezést, látom
                             szép szemének égi mosolygását, engem az idvességre ragad. Ach! miért nem
@@ -2853,7 +2858,7 @@
             <speaker>LIDI.</speaker>
             <p>Én hív szerelmet óhajtanék, nem üres szavakat.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Hívség, hívség, mely közönséges szó; én az vagyok, az leszek, még a síron
                             túl sem nézek másra.</p>
@@ -2863,7 +2868,7 @@
             <p>Valóban, egészen el vagyok ragadtatva. <stage>Ásítozik.</stage>
             </p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>És méltán, mert kérkedés nélkül szólván, és nagy ember vagyok,
                             személyemet nem is említem.</p>
@@ -2872,7 +2877,7 @@
             <speaker>LIDI.</speaker>
             <p>Hogy érti azt, báró úr, mit tart nagynak?</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Mely kérdés, nemhiába nem ismeri a nagyvilágot. Kinek van szebb lova?
                             kocsija -</p>
@@ -2881,7 +2886,7 @@
             <speaker>LIDI.</speaker>
             <p>Akkor csak az erszény nagy.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Nálam forr az ember; játék, öröm uralkodik a házamban.</p>
           </sp>
@@ -2890,7 +2895,7 @@
             <p>Minden szép, de tudom szebb tulajdonságok ékesítik báró urat,
                             nagylelkűség, hazafiúság, -</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Megavult szó! tempi passati.</p>
           </sp>
@@ -2899,7 +2904,7 @@
             <p>Tudom, hogy egy részét annak, mit a szerencse adott, nemzete dicsőségére,
                             méltóságára fordítja.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Szóljunk szerelmünkről.</p>
           </sp>
@@ -2907,7 +2912,7 @@
             <speaker>LIDI.</speaker>
             <p>Kivált én nagy mértékben érzem -</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Én az érzés tengerében úszom, melyben elmerülnék, ha a kisasszony szívébe
                             nem kapaszkodhatnám. Hah! mellem csatázik, fejem tétováz, elmém
@@ -2928,7 +2933,7 @@
               <stage>az ajtónál megáll.</stage> Mit látok! mit hallok! levátát tartanak
                             -</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Alkalmatlan ember!</p>
           </sp>
@@ -2945,7 +2950,7 @@
             <speaker>PERFÖLDY.</speaker>
             <p>Protestálok, vagy más törvényszékhez relegálom.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Itt a kisasszony bíró; közöttünk, úgy vélem, a választás nem nehéz.</p>
           </sp>
@@ -2975,7 +2980,7 @@
             <speaker>PERFÖLDY.</speaker>
             <p>Mely peremptoria exceptio! szívem perplexitásba jön.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>
               <stage>félre.</stage> Nem érti: nem kell a leánynak.
@@ -2989,7 +2994,7 @@
             <speaker>LIDI.</speaker>
             <p>Mindenesetre azt előrebocsátom, hogy nem magam dolgát viseltem.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Már ez kosár, valóságos kosár!</p>
           </sp>
@@ -3015,7 +3020,7 @@
             <speaker>LIDI.</speaker>
             <p>Jövünk.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Sietve jön már a szerencsés idő, szívem már azt mélyen érzi, hogy nem
                             vagyok ember, hanem az ég lakosa, már fel-, fel-, felemelkedem.</p>
@@ -3030,7 +3035,7 @@
             <p>
               <stage>Méltóztassék.</stage> Elvezeti Lidit.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Óh, mely édes az a gondolat! az ég nyitva áll, hol a karja, kedves?
                                 <stage>Megfogja az inas karját.</stage> Ott, ott, látod? látod?</p>
@@ -3039,7 +3044,7 @@
             <speaker>JÁNOS.</speaker>
             <p>Semmit sem látok.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Hah! engem elragad, jer karjaimba! mely szép kezecske! <stage>Amint
                                 szájához viszi János kezét, megfordul.</stage> Parbleu! mi volt ez?
@@ -3254,7 +3259,7 @@
                             neki szabad választást engedtem, azért, ha egyik hátramarad, harag ne
                             legyen köztünk.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>
               <stage>félre.</stage> Jól játszik az öreg, de okosabb emberekre
@@ -3267,7 +3272,7 @@
                             leányomra száll. Így tehát a kérőké az első szó, tessék kinyilatkozni
                             magokat.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Megvallom, ez a kisasszony a tökéletesség remeke, de szívem máshoz
                             vonszon. <stage>Lidire mutat.</stage> Itt áll, akit választék.</p>
@@ -3276,7 +3281,7 @@
             <speaker>BALTAFY.</speaker>
             <p>Jól van, jól, Lidi is az én leányom, örvendek.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Triumph!</p>
           </sp>
@@ -3345,7 +3350,7 @@
             <speaker>PERFÖLDY.</speaker>
             <p>Jól allegál!</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Szörnyű fátum!</p>
           </sp>
@@ -3376,7 +3381,7 @@
                             Jancsi nézd meg. <stage>Jancsi el.</stage>
             </p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Könyörgök! kit mondottam én csak?</p>
           </sp>
@@ -3384,7 +3389,7 @@
             <speaker>BALTAFY.</speaker>
             <p>Lidi húgomat.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Hát igen rosszul mondottam. Máli kisasszonyt értettem.</p>
           </sp>
@@ -3392,7 +3397,7 @@
             <speaker>BALTAFY.</speaker>
             <p>Sajnálom! már késő; tessék máshol házasodni.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY</speaker>
             <p>
               <stage>félre.</stage> Hah! keserű sors!</p>
@@ -3511,7 +3516,7 @@
             <speaker>PERFÖLDY</speaker>
             <p>Öcsémuram, gratulálok!</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY</speaker>
             <p>
               <stage>félre.</stage> Mely unalmas érzékenységek!
@@ -3521,7 +3526,7 @@
             <speaker>BALTAFY.</speaker>
             <p>Nincs mit.</p>
           </sp>
-          <sp who="#szelhazy">
+          <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY</speaker>
             <p>Ach! mely hátra vagyunk. <stage>El.</stage>
             </p>

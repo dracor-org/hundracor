@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000007">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000007" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +66,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -81,9 +78,8 @@
         <bibl type="digitalSource">
           <title type="main">A varázsló halála</title>
           <title type="sub"/>
-          <publisher>Magyar Elektronikus Könyvtárért
-                                                  Egyesület</publisher>
-          <ref target="https://mek.oszk.hu/04300/04347"/>
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+          <ref target="https://mek.oszk.hu/04300/04347/04347.htm#44"/>
           <date when="2006-12-11">2006-12-11</date>
           <respStmt>
             <resp>Original Electronic Edition</resp>
@@ -428,23 +424,15 @@
     </front>
     <body>
       <div type="act">
-        <p>
-          <stage>Egy vendéglő elegáns különszobája. Az
-                                                  asztalok mellett, gyertyák világánál 13 úr és 8
-                                                  hölgy ül. Az asztalok tele vannak üvegekkel,
-                                                  poharakkal. Sűrű dohányfüst. Két-három úr az
-                                                  asztalra borulva alszik. Egy a földön fekve
-                                                  horkol. A társaság énekel. Összevissza, lelkes
-                                                  ének. Olykor unisonóba kerül az egész kompánia.
-                                                  Majd belebődül az énekbe egy basszus hang
-                                                  alaktalan kiabálása. A hölgyek sikoltoznak, és
-                                                  hahotázva vagy zokogásszerűen elaprózzák a
-                                                  ritmusokat. A szövegből csak egyes szavak
-                                                  hallatszanak. Mintha két különböző verset
-                                                  énekelnének ugyanarra a dallamra. Egy részük
-                                                  megismétli a dal másik felét, a többiek újra
-                                                  kezdik:</stage>
-        </p>
+        <stage>Egy vendéglő elegáns különszobája. Az asztalok mellett, gyertyák
+						világánál 13 úr és 8 hölgy ül. Az asztalok tele vannak üvegekkel,
+						poharakkal. Sűrű dohányfüst. Két-három úr az asztalra borulva alszik. Egy a
+						földön fekve horkol. A társaság énekel. Összevissza, lelkes ének. Olykor
+						unisonóba kerül az egész kompánia. Majd belebődül az énekbe egy basszus hang
+						alaktalan kiabálása. A hölgyek sikoltoznak, és hahotázva vagy zokogásszerűen
+						elaprózzák a ritmusokat. A szövegből csak egyes szavak hallatszanak. Mintha
+						két különböző verset énekelnének ugyanarra a dallamra. Egy részük megismétli
+						a dal másik felét, a többiek újra kezdik:</stage>
         <stage><lg>
             <l>Végigmentem az ormódi temetőn,</l>
             <l>Elvesztettem, elvesztettem,</l>
@@ -453,30 +441,24 @@
             <l>Csak a régi, csak a régi,</l>
             <l>Csak a régi szeretőmet sajnálom...</l>
           </lg></stage>
-        <p>
-          <stage>Koccintanak. Ölelkeznek. Pincérek ételeket
-                                                  hordanak fel. Egy apró Pierrette felugrik az
-                                                  asztalra.</stage>
-        </p>
+        <stage>Koccintanak. Ölelkeznek. Pincérek ételeket hordanak fel. Egy apró
+						Pierrette felugrik az asztalra.</stage>
         <sp who="#pierrette">
           <speaker>PIERRETTE</speaker>
-          <p>Kedves barátaim, nem hallottuk még szólóban énekelni a tanácsost!<stage>Leül az Abbé
-       ölébe.</stage>
+          <p>Kedves barátaim, nem hallottuk még szólóban énekelni a tanácsost!<stage>Leül
+							az Abbé ölébe.</stage>
           </p>
         </sp>
         <sp who="#a_tarsasag">
           <speaker>A TÁRSASÁG</speaker>
           <p>Még nem hallottuk! Kedves tanácsos úr, énekelj! Légy szíves, énekelj nekünk
-            valamit!</p>
+						valamit!</p>
           <p>
-            <stage>Egyesek ordítanak.</stage>Énekelni! Énekelni!<stage>Mások belekezdenek a
-              nótába.</stage>Halljuk! Halljuk!</p>
+            <stage>Egyesek ordítanak.</stage>Énekelni! Énekelni!<stage>Mások
+							belekezdenek a nótába.</stage>Halljuk! Halljuk!</p>
         </sp>
-        <p>
-          <stage>A zsivaj elcsendesedik, a tanácsos
-                                                  megköszörüli a torkát. Kövér, kopasz ember, nagy
-                                                  bajusszal. Az asztalfőn ül.</stage>
-        </p>
+        <stage>A zsivaj elcsendesedik, a tanácsos megköszörüli a torkát. Kövér, kopasz
+						ember, nagy bajusszal. Az asztalfőn ül.</stage>
         <sp who="#a_tanacsos">
           <speaker>A TANÁCSOS</speaker>
           <p>"Isten veled, szavadra válnom kellett..."</p>
@@ -491,23 +473,23 @@
         </sp>
         <sp who="#a_tanacsos">
           <speaker>A TANÁCSOS</speaker>
-          <p>"Én elmegyek, úgy akarta az ég..."<stage>Lassan az egész társaság vele énekel. Sokan sírnak,
-       isznak, poharakat vagdosnak a földhöz, ütik az asztalt.</stage>"Könyörtelen szavaid
-      tovaűznek. Tudom, hogy vissza..."<stage>Ebben a pillanatban óraütések. Az ének abbamarad. Az
-       Abbé az ablakhoz tántorog, és félrehúzza a függönyt. Kék téli szürkület.</stage>
+          <p>"Én elmegyek, úgy akarta az ég..."<stage>Lassan az egész társaság vele
+							énekel. Sokan sírnak, isznak, poharakat vagdosnak a földhöz, ütik az
+							asztalt.</stage>"Könyörtelen szavaid tovaűznek. Tudom, hogy
+							vissza..."<stage>Ebben a pillanatban óraütések. Az ének abbamarad. Az
+							Abbé az ablakhoz tántorog, és félrehúzza a függönyt. Kék téli
+							szürkület.</stage>
           </p>
         </sp>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
           <p>
-            <stage>az egyházi énekek stílusát utánozva, de tréfálkozás nélkül</stage>Hölgyeim és uraim!
-      Szerda reggel van. Hintsetek hamut a fejetekre, és menjetek az Úr házába. Ámen.</p>
+            <stage>az egyházi énekek stílusát utánozva, de tréfálkozás
+						nélkül</stage>Hölgyeim és uraim! Szerda reggel van. Hintsetek hamut a
+						fejetekre, és menjetek az Úr házába. Ámen.</p>
         </sp>
-        <p>
-          <stage>Megdöbbenés. Mindannyian az ablakra néznek,
-                                                  mintha nem hinnék, hogy valóban reggel
-                                                  van.</stage>
-        </p>
+        <stage>Megdöbbenés. Mindannyian az ablakra néznek, mintha nem hinnék, hogy
+						valóban reggel van.</stage>
         <sp who="#egy_hang">
           <speaker>EGY HANG</speaker>
           <p>Gyújtsátok már fel a lámpákat!<stage>A csillár kigyullad.</stage>
@@ -515,57 +497,53 @@
         </sp>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
-          <p>Itt a bűnbánat ideje. A hölgyek távozzanak körünkből! Menjetek, leányaim, Isten
-      békéjével!</p>
+          <p>Itt a bűnbánat ideje. A hölgyek távozzanak körünkből! Menjetek, leányaim,
+						Isten békéjével!</p>
         </sp>
         <sp who="#pierrette">
           <speaker>PIERRETTE</speaker>
           <p>
-            <stage>az Abbé nyakába csimpaszkodik</stage>Én csak veled megyek! Elkísérlek a
-      parókiáig.</p>
+            <stage>az Abbé nyakába csimpaszkodik</stage>Én csak veled megyek! Elkísérlek
+						a parókiáig.</p>
         </sp>
-        <sp who="#egy_holgy #a_masik_holgy">
+        <sp who="#egy_holgy #egy_masik_holgy">
           <speaker>A HÖLGYEK</speaker>
           <p>Nem, nem! Még csak az kéne! Mi is veletek fogunk menni a templomba!</p>
         </sp>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
           <p>
-            <stage>fenyegetően</stage>Leányaim, hagyjátok el a termet, mert miként Jézus a kalmárokat,
-      korbáccsal kergetlek ki benneteket!<stage>Fölveszi a kabátját, amelyet egy pincér segít föl
-       rá, cilindert rak a fejére, és botjával hadonászik.</stage>
+            <stage>fenyegetően</stage>Leányaim, hagyjátok el a termet, mert miként Jézus
+						a kalmárokat, korbáccsal kergetlek ki benneteket!<stage>Fölveszi a kabátját,
+							amelyet egy pincér segít föl rá, cilindert rak a fejére, és botjával
+							hadonászik.</stage>
           </p>
         </sp>
-        <p>
-          <stage>PIERRETTE sír.</stage>
-        </p>
+        <stage>PIERRETTE sír.</stage>
         <sp who="#a_fiatal_kolto">
           <speaker>A FIATAL KÖLTŐ</speaker>
-          <p>Ti nők sohase tudjátok megérteni, hogy a férfiaknak olykor nélkülözniük kell a
-      társaságotokat!</p>
+          <p>Ti nők sohase tudjátok megérteni, hogy a férfiaknak olykor nélkülözniük kell
+						a társaságotokat!</p>
         </sp>
         <sp who="#egy_ur">
           <speaker>EGY ÚR</speaker>
           <p>
-            <stage>kiabálva</stage>Hozzátok a hölgyek bundáit! Magunk akarunk maradni!</p>
+            <stage>kiabálva</stage>Hozzátok a hölgyek bundáit! Magunk akarunk
+						maradni!</p>
         </sp>
         <sp who="#az_abbe #egy_ur #a_fiatal_kolto #a_tanacsos">
           <speaker>A FÉRFIAK</speaker>
           <p>Úgy van! Magunk akarunk maradni!</p>
         </sp>
-        <p>
-          <stage>A pincérek női bundákat, sárcipőket, karmantyúkat, kalapokat hoznak.</stage>
-        </p>
+        <stage>A pincérek női bundákat, sárcipőket, karmantyúkat, kalapokat
+						hoznak.</stage>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
           <p>
             <stage>kifütyül az ablakon</stage>Ide jöjjenek!</p>
         </sp>
-        <p>
-          <stage>Kocsirobogás hallatszik. A hölgyek
-                                                  duzzogva, szemüket törölgetve öltöznek. A férfiak
-                                                  nem törődnek velük.</stage>
-        </p>
+        <stage>Kocsirobogás hallatszik. A hölgyek duzzogva, szemüket törölgetve
+						öltöznek. A férfiak nem törődnek velük.</stage>
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
           <p>Menjetek! Menjetek!</p>
@@ -583,9 +561,8 @@
           <speaker>AZ ELŐBBI ÚR</speaker>
           <p>Indulás! Indulás! Szervusztok!</p>
         </sp>
-        <p>
-          <stage>A hölgyek kelletlenül köszönnek: "Pá! Pá! Agyő!" Az urak egy ideig szótlanul ülnek. Két pincér az ajtóból némán nézi a társaságot.</stage>
-        </p>
+        <stage>A hölgyek kelletlenül köszönnek: "Pá! Pá! Agyő!" Az urak egy ideig
+						szótlanul ülnek. Két pincér az ajtóból némán nézi a társaságot.</stage>
         <sp who="#egy_hang">
           <speaker>EGY HANG</speaker>
           <p>
@@ -599,10 +576,10 @@
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
           <p>
-            <stage>szertartásosan</stage> Uraim! Búcsút hirdetek minden vezekelőnek. A Szent Margit
-      Egyházban most kezdődik a hamvazás. Aki ájtatosan számot vet magával, és elimádkozza az Úr
-      imádságát, annak megbocsátatnak a bűnei. Én fogom a hamut hinteni vén, boros, kótyagos, gaz
-      fejetekre!</p>
+            <stage>szertartásosan</stage> Uraim! Búcsút hirdetek minden vezekelőnek. A
+						Szent Margit Egyházban most kezdődik a hamvazás. Aki ájtatosan számot vet
+						magával, és elimádkozza az Úr imádságát, annak megbocsátatnak a bűnei. Én
+						fogom a hamut hinteni vén, boros, kótyagos, gaz fejetekre!</p>
         </sp>
         <sp who="#a_tarsasag">
           <speaker>A TÁRSASÁG</speaker>
@@ -611,14 +588,12 @@
         <sp who="#az_abbe">
           <speaker>AZ ABBÉ</speaker>
           <p>
-            <stage>felöltözködik, s mint a keresztet, feltartja a botját</stage> Indulás!</p>
+            <stage>felöltözködik, s mint a keresztet, feltartja a botját</stage>
+						Indulás!</p>
         </sp>
-        <p>
-          <stage>Az urak sebtében fizetnek, a pincérek
-                                                  kitárják az ajtót, a társaság kivonul. Az
-                                                  asztalnál egyedül az Utolsó Vendég. Maga elé
-                                                  bámul, majd felkel és csenget.</stage>
-        </p>
+        <stage>Az urak sebtében fizetnek, a pincérek kitárják az ajtót, a társaság
+						kivonul. Az asztalnál egyedül az Utolsó Vendég. Maga elé bámul, majd felkel
+						és csenget.</stage>
         <sp who="#a_borfiu">
           <speaker>BORFIÚ</speaker>
           <p>Parancsol, nagyságos úr?</p>
@@ -653,23 +628,25 @@
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>
-            <stage>végigmegy a szobán, azután halálos fáradtsággal leül. A tükör megérkezik. Átveszi.
-       Int a pincérnek, hogy elmehet. Kinéz az ajtón, hogy nem lesik-e. A szoba közepére
-       jön:</stage> Csakugyan igaz, hogy most már meg kell halnom?<stage>Lassan felemeli a tükröt,
-       és sokáig belenéz. Megdöbbenve, elszomorodva és bizonyos csüggedt elhatározással csenget.
-       Szünet. A főpincér belép.</stage>Kedves Béla, adjon egy jó szivart. Egy kitűnő szivart! A
-      legjobbat! Mert ez lesz az utolsó. Meg fogok halni. Nincs már semmi értelme az életemnek.
-      Fáradt vagyok, és nem tudok aludni, nem tudok megöregedni! Nem akarok! Inkább meghalok. Nézzen
-      ide, nézze ezeket a ráncokat az arcomon. Pedig csak huszonnyolc éves vagyok. Ha nem lenne
-      szégyen, esetleg sírnék maga előtt, Béla! De már úgy rendeztem be az életemet, hogy sohase
-      sírjak. Nem volna illendő, hogy magamat megsirassam. Egyszerűen lefekszem, és kivonulok az
-       életből.<stage>Rágyújt, fizet.</stage>
+            <stage>végigmegy a szobán, azután halálos fáradtsággal leül. A tükör
+							megérkezik. Átveszi. Int a pincérnek, hogy elmehet. Kinéz az ajtón, hogy
+							nem lesik-e. A szoba közepére jön:</stage> Csakugyan igaz, hogy most már
+						meg kell halnom?<stage>Lassan felemeli a tükröt, és sokáig belenéz.
+							Megdöbbenve, elszomorodva és bizonyos csüggedt elhatározással csenget.
+							Szünet. A főpincér belép.</stage>Kedves Béla, adjon egy jó szivart. Egy
+						kitűnő szivart! A legjobbat! Mert ez lesz az utolsó. Meg fogok halni. Nincs
+						már semmi értelme az életemnek. Fáradt vagyok, és nem tudok aludni, nem
+						tudok megöregedni! Nem akarok! Inkább meghalok. Nézzen ide, nézze ezeket a
+						ráncokat az arcomon. Pedig csak huszonnyolc éves vagyok. Ha nem lenne
+						szégyen, esetleg sírnék maga előtt, Béla! De már úgy rendeztem be az
+						életemet, hogy sohase sírjak. Nem volna illendő, hogy magamat megsirassam.
+						Egyszerűen lefekszem, és kivonulok az életből.<stage>Rágyújt, fizet.</stage>
           </p>
         </sp>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
-          <p>Ne búsuljon, nagyságos úr, majd kocsit hozatok, és hazamegy szépen. Jó lesz? Majd kocsit
-      hozatok.</p>
+          <p>Ne búsuljon, nagyságos úr, majd kocsit hozatok, és hazamegy szépen. Jó lesz?
+						Majd kocsit hozatok.</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
@@ -681,11 +658,11 @@
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p>Tőlem akkor már jöhet.<stage>Megrázkódik, eldobja a szivart. Hangosan, mintegy
-       megijedve.</stage>Úri módon fogom itthagyni az árnyékvilágot. Halkan kilopódzom belőle.
-      Lábujjhegyen. Elég volt!<stage>Lassan lefekszik az asztal mögé a pamlagra. Csak a hangja
-       hallatszik.</stage>Elég! Végigfarsangoltam az életemet. Hamvazószerdára takarodnom kell...
-      Béla!</p>
+          <p>Tőlem akkor már jöhet.<stage>Megrázkódik, eldobja a szivart. Hangosan,
+							mintegy megijedve.</stage>Úri módon fogom itthagyni az árnyékvilágot.
+						Halkan kilopódzom belőle. Lábujjhegyen. Elég volt!<stage>Lassan lefekszik az
+							asztal mögé a pamlagra. Csak a hangja hallatszik.</stage>Elég!
+						Végigfarsangoltam az életemet. Hamvazószerdára takarodnom kell... Béla!</p>
         </sp>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
@@ -694,26 +671,23 @@
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>
-            <stage>felül</stage>Telefonáljon egy koporsóért! Hozzák ide! Abban vigyenek el.</p>
+            <stage>felül</stage>Telefonáljon egy koporsóért! Hozzák ide! Abban vigyenek
+						el.</p>
         </sp>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
           <p>
             <stage>fejét csóválja, nevetve</stage>Igenis, igenis, nagyságos
-      úr!<stage>Lefekteti.</stage>
+							úr!<stage>Lefekteti.</stage>
           </p>
         </sp>
-        <p>
-          <stage>Csend. A Főpincér kioson. A
-                                                  színen a világítás lassan kékessé változik. A
-                                                  Főpincér kívülről kinyitja a szemben levő ajtót.
-                                                  Valaki áll ott.</stage>
-        </p>
+        <stage>Csend. A Főpincér kioson. A színen a világítás lassan kékessé változik. A
+						Főpincér kívülről kinyitja a szemben levő ajtót. Valaki áll ott.</stage>
         <sp who="#az_apa">
           <speaker>AZ APA</speaker>
           <p>
-            <stage>erős, széles vállú ember, szakállas, magyar bajsza van. Téli bunda, sétapálca.
-       Erélyes mozdulatok. Köszön:</stage>Jó napot!</p>
+            <stage>erős, széles vállú ember, szakállas, magyar bajsza van. Téli bunda,
+							sétapálca. Erélyes mozdulatok. Köszön:</stage>Jó napot!</p>
         </sp>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
@@ -737,15 +711,18 @@
         </sp>
         <sp who="#az_apa">
           <speaker>AZ APA</speaker>
-          <p>Nagyon szerencsétlen vagyok ezzel a fiammal. Beljebb kerül. Kedves, jó fiú volt. Azután
-      mintha elvarázsolta volna valaki. Egyszerre nem ismertem rá. Csak magának élt. Borzasztó ember
-      lett. Én tudtam, hogy nem jó vége lesz ennek. Megmondtam neki. Az életet nem lehet becsapni.
-      Zsebkendővel megtörli a szemüvegét. Hol van?<stage>A Főpincér a pamlagra mutat. Az Apa odaáll
-       az Utolsó Vendég fejéhez.</stage>Megmondtam, fiam, hogy az az átkozott ópium tönkre fog
-      tenni. Nézz meg engem. Ötvenéves vagyok, de másképp is éltem. Szomorúan. Egészen
-       másképp.<stage>Körüljár. Kinyit egy ablakot. Lecsavarja az egyik gázlángot. Eközben hirtelen
-       ott terem a szobában egy alacsony, kövér, fekete ember. A temetkezési vállalkozó. Köszön az
-       Apának. Meghajlik. Az Apa nem veszi észre. Sóhajt. A Vállalkozó némán áll.</stage>
+          <p>Nagyon szerencsétlen vagyok ezzel a fiammal. Beljebb kerül. Kedves, jó fiú
+						volt. Azután mintha elvarázsolta volna valaki. Egyszerre nem ismertem rá.
+						Csak magának élt. Borzasztó ember lett. Én tudtam, hogy nem jó vége lesz
+						ennek. Megmondtam neki. Az életet nem lehet becsapni. Zsebkendővel megtörli
+						a szemüvegét. Hol van?<stage>A Főpincér a pamlagra mutat. Az Apa odaáll az
+							Utolsó Vendég fejéhez.</stage>Megmondtam, fiam, hogy az az átkozott
+						ópium tönkre fog tenni. Nézz meg engem. Ötvenéves vagyok, de másképp is
+						éltem. Szomorúan. Egészen másképp.<stage>Körüljár. Kinyit egy ablakot.
+							Lecsavarja az egyik gázlángot. Eközben hirtelen ott terem a szobában egy
+							alacsony, kövér, fekete ember. A temetkezési vállalkozó. Köszön az
+							Apának. Meghajlik. Az Apa nem veszi észre. Sóhajt. A Vállalkozó némán
+							áll.</stage>
           </p>
         </sp>
         <sp who="#az_apa">
@@ -756,8 +733,9 @@
         <sp who="#a_vallalkozo">
           <speaker>A VÁLLALKOZÓ</speaker>
           <p>
-            <stage>kézmozdulattal jelzi, hogy menjenek messzebb a haldoklótól. Elvonulnak egy
-       sarokba:</stage> Érckoporsót parancsol a nagyságos úr?</p>
+            <stage>kézmozdulattal jelzi, hogy menjenek messzebb a haldoklótól.
+							Elvonulnak egy sarokba:</stage> Érckoporsót parancsol a nagyságos
+						úr?</p>
         </sp>
         <sp who="#az_apa">
           <speaker>AZ APA</speaker>
@@ -766,7 +744,8 @@
         <sp who="#a_vallalkozo">
           <speaker>A VÁLLALKOZÓ</speaker>
           <p>Mérsékelt árban számítom: 250, 300 és 350 forint. Egyszerűbb és igen díszes
-       kivitelben.<stage>Árjegyzéket vesz elő.</stage> Méltóztassék megtekinteni.</p>
+							kivitelben.<stage>Árjegyzéket vesz elő.</stage> Méltóztassék
+						megtekinteni.</p>
         </sp>
         <sp who="#az_apa">
           <speaker>AZ APA</speaker>
@@ -789,40 +768,39 @@
           <p>Várjon, megnézem mégis.<stage>Balra elmennek.</stage>
           </p>
         </sp>
-        <p>
-          <stage>Most az Utolsó Vendég anyja
-                                                  jön. Halotti ruhában, koszorúval a fején.
-                                                  Csipkekendőt tart a szeméhez. Lassan, szögletesen
-                                                  lépdel, mint aki elszokott a járástól.</stage>
-        </p>
+        <stage>Most az Utolsó Vendég anyja jön. Halotti ruhában, koszorúval a fején.
+						Csipkekendőt tart a szeméhez. Lassan, szögletesen lépdel, mint aki elszokott
+						a járástól.</stage>
         <sp who="#az_anya">
           <speaker>AZ ANYA</speaker>
           <p>
-            <stage>mereven megáll, és bal kezét a fia homlokára teszi:</stage>Eljöttem, fiam!</p>
+            <stage>mereven megáll, és bal kezét a fia homlokára teszi:</stage>Eljöttem,
+						fiam!</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>
-            <stage>hízelegve simogatja a kezét:</stage>Anyácskám! Amikor temettünk, éreztem, hogy látni
-      foglak még.</p>
+            <stage>hízelegve simogatja a kezét:</stage>Anyácskám! Amikor temettünk,
+						éreztem, hogy látni foglak még.</p>
         </sp>
         <sp who="#az_anya">
           <speaker>AZ ANYA</speaker>
-          <p>Miért nem akartál, fiam, rendesen élni? Megházasodni? Most úgy pusztulsz el, mint valami
-      kóbor kutya! A feleséged befogná a szemeidet. De én nem tehetem, mert halott vagyok. Hol van
-      most az a sok nő, akik szerettek?</p>
+          <p>Miért nem akartál, fiam, rendesen élni? Megházasodni? Most úgy pusztulsz el,
+						mint valami kóbor kutya! A feleséged befogná a szemeidet. De én nem tehetem,
+						mert halott vagyok. Hol van most az a sok nő, akik szerettek?</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>
-            <stage>átöleli:</stage>Én nem szerettem egyiküket sem. Különben is csak az kellene még, hogy
-      előttük haldokoljak.</p>
+            <stage>átöleli:</stage>Én nem szerettem egyiküket sem. Különben is csak az
+						kellene még, hogy előttük haldokoljak.</p>
         </sp>
         <sp who="#az_anya">
           <speaker>AZ ANYA</speaker>
-          <p>Ne beszélj így, fiam. Ne beszélj így! Én most már tudom, hogy milyen komoly dolog az élet.
-      Azt akartam, hogy élj, hogy a véremet átadd a gyermekeidnek, bíztam benned. De vége lett
-      minden reményemnek.<stage>Zokog.</stage>És nincs senki, aki befogja a szemedet.</p>
+          <p>Ne beszélj így, fiam. Ne beszélj így! Én most már tudom, hogy milyen komoly
+						dolog az élet. Azt akartam, hogy élj, hogy a véremet átadd a gyermekeidnek,
+						bíztam benned. De vége lett minden reményemnek.<stage>Zokog.</stage>És nincs
+						senki, aki befogja a szemedet.</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
@@ -830,9 +808,10 @@
         </sp>
         <sp who="#az_anya">
           <speaker>AZ ANYA</speaker>
-          <p>Nem tudtad megbecsülni a jó lányokat, fiam. Pedig ilyen nők tudnak gyermeket nevelni és
-      életet adni. Benned másodszor és utoljára meghalok.<stage>Künn kakaskukorékolás.</stage>
-      Viszontlátásra, fiacskám!<stage>Megcsókolja.</stage>
+          <p>Nem tudtad megbecsülni a jó lányokat, fiam. Pedig ilyen nők tudnak gyermeket
+						nevelni és életet adni. Benned másodszor és utoljára meghalok.<stage>Künn
+							kakaskukorékolás.</stage> Viszontlátásra,
+							fiacskám!<stage>Megcsókolja.</stage>
           </p>
         </sp>
         <sp who="#az_utolso_vendeg">
@@ -841,30 +820,31 @@
         </sp>
         <sp who="#az_anya">
           <speaker>AZ ANYA</speaker>
-          <p>Mennem kell.<stage>Némán int. Elvonul, mint egy árnyék. Künn kakaskukorékolás.</stage>
+          <p>Mennem kell.<stage>Némán int. Elvonul, mint egy árnyék. Künn
+							kakaskukorékolás.</stage>
           </p>
         </sp>
-        <p>
-          <stage>A NAGYMAMA jobbról jön, kanárikalitka a kezében. Leteszi a kanárit, és
-                                                  egyszerre sírni kezd. Csendes, öreg sírás.</stage>
-        </p>
+        <stage>A NAGYMAMA jobbról jön, kanárikalitka a kezében. Leteszi a kanárit, és
+						egyszerre sírni kezd. Csendes, öreg sírás.</stage>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p>Hát bizony, nagymama, most nem segít se a mustárliszt, se a mályvatea, se a meleg fedő.</p>
+          <p>Hát bizony, nagymama, most nem segít se a mustárliszt, se a mályvatea, se a
+						meleg fedő.</p>
         </sp>
         <sp who="#a_nagymama">
           <speaker>A NAGYMAMA</speaker>
-          <p>Istenem, ilyen fiatalon meghalni! Nem igazság! Én, nyolcvanéves öregasszony, szívesen
-      meghalnék már, s legkedvesebb unokámnak kell elpusztulnia. Ó! Miért nem veszel el engem,
-      Istenem?</p>
+          <p>Istenem, ilyen fiatalon meghalni! Nem igazság! Én, nyolcvanéves öregasszony,
+						szívesen meghalnék már, s legkedvesebb unokámnak kell elpusztulnia. Ó! Miért
+						nem veszel el engem, Istenem?</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p>Bocsáss meg, nagymama, én sokkal többet éltem, mint te. Szívtál már ópiumot? Nohát, aki azt
-      szív, egy nap alatt tíz esztendőt él. Én jelenleg húszezer éves vagyok. Emellett te még csak
-      nyolcvan évet éltél. Roppant fiatal vagy, kedves nagymama.<stage>Hízelkedve kezet csókol.
-       Kiveszi a Nagymama köténye zsebéből a kötést.</stage>Mi ez? <stage>Kibontja.</stage>
-      Harisnya! No lám, már az egyik fele kész, és a másikból is alig hiányzik.</p>
+          <p>Bocsáss meg, nagymama, én sokkal többet éltem, mint te. Szívtál már ópiumot?
+						Nohát, aki azt szív, egy nap alatt tíz esztendőt él. Én jelenleg húszezer
+						éves vagyok. Emellett te még csak nyolcvan évet éltél. Roppant fiatal vagy,
+						kedves nagymama.<stage>Hízelkedve kezet csókol. Kiveszi a Nagymama köténye
+							zsebéből a kötést.</stage>Mi ez? <stage>Kibontja.</stage> Harisnya! No
+						lám, már az egyik fele kész, és a másikból is alig hiányzik.</p>
         </sp>
         <sp who="#a_nagymama">
           <speaker>A NAGYMAMA</speaker>
@@ -876,29 +856,30 @@
         </sp>
         <sp who="#a_nagymama">
           <speaker>A NAGYMAMA</speaker>
-          <p>Én magam foglak megfürdetni. Akkor is én fürdettelek, mikor születtél. Milyen szép, erős
-      kisgyerek voltál!</p>
+          <p>Én magam foglak megfürdetni. Akkor is én fürdettelek, mikor születtél. Milyen
+						szép, erős kisgyerek voltál!</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>
-            <stage>észreveszi, hogy nők lopódznak a szobába. Magasak, alacsonyak, szőkék, barnák,
-       vörösek. Úrilányok, cselédek, kokottok, a legkülönbözőbb toalettben</stage>De sietned kell
-      ám, kedves nagymama, a harisnyával. Nagyon kell sietned.<stage>Tessékeli.</stage>Mert kevés
-      idő van már hátra. Ugye, nyugodt lehetek?</p>
+            <stage>észreveszi, hogy nők lopódznak a szobába. Magasak, alacsonyak,
+							szőkék, barnák, vörösek. Úrilányok, cselédek, kokottok, a legkülönbözőbb
+							toalettben</stage>De sietned kell ám, kedves nagymama, a harisnyával.
+						Nagyon kell sietned.<stage>Tessékeli.</stage>Mert kevés idő van már hátra.
+						Ugye, nyugodt lehetek?</p>
         </sp>
         <sp who="#a_nagymama">
           <speaker>A NAGYMAMA</speaker>
           <p>Igen, fiam, a harisnya kész lesz.<stage>Megcsókolja, felszedi a kalitkát és
-      eltopog.</stage>
+							eltopog.</stage>
           </p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>
-            <stage>csenget. A Főpincér megjelenik</stage>Kérem, hozasson nekem tiszta gallért és
-      kézelőket. Ilyeneket. De várjon! Pont ilyenek legyenek.<stage>Lekapcsolja a kézelőit, és pénzt
-       ad.</stage>
+            <stage>csenget. A Főpincér megjelenik</stage>Kérem, hozasson nekem tiszta
+						gallért és kézelőket. Ilyeneket. De várjon! Pont ilyenek
+							legyenek.<stage>Lekapcsolja a kézelőit, és pénzt ad.</stage>
           </p>
         </sp>
         <sp who="#a_fopincer">
@@ -906,12 +887,9 @@
           <p>Igenis.<stage>El.</stage>
           </p>
         </sp>
-        <p>
-          <stage>Az Utolsó Vendég a középre ül, és maga
-                                                  elé néz, mintha a nőkről nem akarna tudomást
-                                                  venni. A nők körülfogják, és lábujjhegyen járva
-                                                  nézegetik.</stage>
-        </p>
+        <stage>Az Utolsó Vendég a középre ül, és maga elé néz, mintha a nőkről nem
+						akarna tudomást venni. A nők körülfogják, és lábujjhegyen járva
+						nézegetik.</stage>
         <sp who="#elso_no">
           <speaker>ELSŐ NŐ</speaker>
           <p>Szegénynek nemsokára üveges lesz a kék szeme!</p>
@@ -938,7 +916,8 @@
         </sp>
         <sp who="#hetedik_no">
           <speaker>HETEDIK NŐ</speaker>
-          <p>Olyan biztos és kényelmes volt az ölében, hogy akár napokig elüldögéltem volna benne.</p>
+          <p>Olyan biztos és kényelmes volt az ölében, hogy akár napokig elüldögéltem
+						volna benne.</p>
         </sp>
         <sp who="#nyolcadik_no">
           <speaker>NYOLCADIK NŐ</speaker>
@@ -950,59 +929,56 @@
         </sp>
         <sp who="#tizedik_no">
           <speaker>TIZEDIK NŐ</speaker>
-          <p>Nagysád téved. Kedves és szíves beszédű férfi volt. Soha hangos szót nem hallottam tőle.</p>
+          <p>Nagysád téved. Kedves és szíves beszédű férfi volt. Soha hangos szót nem
+						hallottam tőle.</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>
-            <stage>indulatosan:</stage> Menjetek innen! <stage>Lecsendesülve.</stage>Legyetek szívesek
-      elmenni. Öreg az arcotok.</p>
-          <p>
-            <stage>A nők lassan kitakarodnak. Néhányan meg vannak sértve. Sokan csókkal szeretnének
-       búcsúzni, és az Utolsó Vendég felé hajolnak. Két munkásforma ember a koporsót hozza. A pincér
-       mutatja, hogy hová tegyék. Az Utolsó Vendég feláll.</stage>
-          </p>
+            <stage>indulatosan:</stage> Menjetek innen!
+						<stage>Lecsendesülve.</stage>Legyetek szívesek elmenni. Öreg az arcotok.</p>
+          <stage>A nők lassan kitakarodnak. Néhányan meg vannak sértve. Sokan csókkal
+							szeretnének búcsúzni, és az Utolsó Vendég felé hajolnak. Két munkásforma
+							ember a koporsót hozza. A pincér mutatja, hogy hová tegyék. Az Utolsó
+							Vendég feláll.</stage>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>Nem oda! Ide!<stage>Más helyet mutat.</stage>Jól van.<stage>Pénzt ad a
-      munkásoknak.</stage>De miért nem hozták el a födelét is?</p>
+							munkásoknak.</stage>De miért nem hozták el a födelét is?</p>
         </sp>
         <sp who="#munkasok">
           <speaker>AZ EGYIK MUNKÁS</speaker>
-          <p>Most festik rá, kérem, a nevét. Mihelyst kész lesz, hozzuk.<stage>A munkások el.</stage>
+          <p>Most festik rá, kérem, a nevét. Mihelyst kész lesz, hozzuk.<stage>A munkások
+							el.</stage>
           </p>
         </sp>
-        <p>
-          <stage>Az Utolsó Vendég lehajol,
-                                                  körülnézi, megvizsgálja, megkopogtatja a koporsót.
-                                                  Azután műértőleg megtapogatja a selyem szemfödél
-                                                  anyagát és a vánkost. Kiveszi a zsebkését, és
-                                                  lefejti az ezüst csipkedíszt.</stage>
-        </p>
+        <stage>Az Utolsó Vendég lehajol, körülnézi, megvizsgálja, megkopogtatja a
+						koporsót. Azután műértőleg megtapogatja a selyem szemfödél anyagát és a
+						vánkost. Kiveszi a zsebkését, és lefejti az ezüst csipkedíszt.</stage>
         <sp who="#a_borfiu">
           <speaker>A BORFIÚ</speaker>
           <p>
-            <stage>sietve jön jobbról:</stage>Tessék, nagyságos úr.<stage>Csomagot ad át.</stage>
+            <stage>sietve jön jobbról:</stage>Tessék, nagyságos úr.<stage>Csomagot ad
+							át.</stage>
           </p>
         </sp>
-        <p>
-          <stage>AZ UTOLSÓ VENDÉG kibontja
-                                                  az új kézelőket, a gallért, és mindjárt toalettet
-                                                  csinál. A Borfiú segít neki.</stage>
-        </p>
+        <stage>AZ UTOLSÓ VENDÉG kibontja az új kézelőket, a gallért, és mindjárt
+						toalettet csinál. A Borfiú segít neki.</stage>
         <sp who="#a_borfiu">
           <speaker>A BORFIÚ</speaker>
           <p>Miért fejtette le ezt a szép díszt a nagyságos úr?</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p>Mert nem szép, fiam, ízléstelen. Ilyennel nem takarózom... Jól van, most elmehet.<stage>A
-       Borfiú el. Az Utolsó Vendég egy pillanatig habozva néz maga elé, azután az előtérbe jön, és
-       belép a koporsóba. A lakomai dal egy töredékét fütyüli. Rákönyököl a vánkosra, és mielőtt
-       berakná a karjait, igazgatja a szemfedőt. E pillanatban jobbról, kis kendőben, futva,
-       kipirulva, fiatal leány érkezik. Félrövid szoknya. Egyszerű hajviselet.</stage>Végre! Egy
-      fiatal nő. Legalább halálom előtt még egy szép fiatal lányt láthatok.</p>
+          <p>Mert nem szép, fiam, ízléstelen. Ilyennel nem takarózom... Jól van, most
+							elmehet.<stage>A Borfiú el. Az Utolsó Vendég egy pillanatig habozva néz
+							maga elé, azután az előtérbe jön, és belép a koporsóba. A lakomai dal
+							egy töredékét fütyüli. Rákönyököl a vánkosra, és mielőtt berakná a
+							karjait, igazgatja a szemfedőt. E pillanatban jobbról, kis kendőben,
+							futva, kipirulva, fiatal leány érkezik. Félrövid szoknya. Egyszerű
+							hajviselet.</stage>Végre! Egy fiatal nő. Legalább halálom előtt még egy
+						szép fiatal lányt láthatok.</p>
         </sp>
         <sp who="#a_leanyka">
           <speaker>A LEÁNYKA</speaker>
@@ -1010,43 +986,46 @@
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p>Elég kényelmesen fekszem itt, és ez nem mindennapi dolog. Nézd az új ágyamat. Az apám vette
-      háromszáz forintért.</p>
+          <p>Elég kényelmesen fekszem itt, és ez nem mindennapi dolog. Nézd az új ágyamat.
+						Az apám vette háromszáz forintért.</p>
         </sp>
         <sp who="#a_leanyka">
           <speaker>A LEÁNYKA</speaker>
-          <p>Keljen föl! Istenem, Istenem, keljen föl mindjárt.<stage>Megöleli egy pillanatra.</stage>Nem
-      tűröm, hogy tovább is itt feküdjék!</p>
+          <p>Keljen föl! Istenem, Istenem, keljen föl mindjárt.<stage>Megöleli egy
+							pillanatra.</stage>Nem tűröm, hogy tovább is itt feküdjék!</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p>Jó, jó, te kedves lány, hanem most már menj haza. Odakint igen derék férfiak vannak. Komoly,
-      őszinte, becsületes emberek, akik jobban meg fogják becsülni a szerelmedet, mint én.</p>
+          <p>Jó, jó, te kedves lány, hanem most már menj haza. Odakint igen derék férfiak
+						vannak. Komoly, őszinte, becsületes emberek, akik jobban meg fogják becsülni
+						a szerelmedet, mint én.</p>
         </sp>
         <sp who="#a_leanyka">
           <speaker>A LEÁNYKA</speaker>
-          <p>Keljen föl, az ég szerelmére! Jöjjön velem. Annyi ideje szeretem magát... Annyi ideje...
-      Álmatlan, nehéz éjszakáim voltak, és sírtam is sokat. Higgye el, megérdemlem, hogy egy kis
-      szerelmet adjon cserébe. Jöjjön, jöjjön!</p>
+          <p>Keljen föl, az ég szerelmére! Jöjjön velem. Annyi ideje szeretem magát...
+						Annyi ideje... Álmatlan, nehéz éjszakáim voltak, és sírtam is sokat. Higgye
+						el, megérdemlem, hogy egy kis szerelmet adjon cserébe. Jöjjön, jöjjön!</p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>
-            <stage>nem figyel rá:</stage>Belátom, hogy a sok rossz csók helyett jobb lett volna téged
-      feleségül venni. <stage>Erőltetetten mosolyog.</stage> Meg is tenném, ha a koporsóm nem volna
-      már kifizetve.</p>
+            <stage>nem figyel rá:</stage>Belátom, hogy a sok rossz csók helyett jobb
+						lett volna téged feleségül venni. <stage>Erőltetetten mosolyog.</stage> Meg
+						is tenném, ha a koporsóm nem volna már kifizetve.</p>
         </sp>
         <sp who="#a_leanyka">
           <speaker>A LEÁNYKA</speaker>
-          <p>Indulni kell! Érti?<stage>Lerántja a szemfedőt az Utolsó Vendégről, kihúzza feje alól a
-       párnát, és kifordítja a koporsóból. Azután fel akarja emelni, de nem tudja.</stage>
+          <p>Indulni kell! Érti?<stage>Lerántja a szemfedőt az Utolsó Vendégről, kihúzza
+							feje alól a párnát, és kifordítja a koporsóból. Azután fel akarja
+							emelni, de nem tudja.</stage>
           </p>
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p>Én már szívesen fel is kelnék. De meg kell halnom. Magam vagyok az oka. Pedig most már
-      tudom, hogy egyedül téged szerettelek egész életemben. Most már mernék bízni ebben az
-      érzésben, mint eddig soha. Nézz a szemembe. Ugye, látod?</p>
+          <p>Én már szívesen fel is kelnék. De meg kell halnom. Magam vagyok az oka. Pedig
+						most már tudom, hogy egyedül téged szerettelek egész életemben. Most már
+						mernék bízni ebben az érzésben, mint eddig soha. Nézz a szemembe. Ugye,
+						látod?</p>
         </sp>
         <sp who="#a_leanyka">
           <speaker>A LEÁNYKA</speaker>
@@ -1055,18 +1034,18 @@
         </sp>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
-          <p>És most segíts visszafeküdni.<stage>A Leányka besegíti a koporsóba.</stage>Takarj le a
-       szemfedővel.<stage>Megtörténik.</stage>Tedd a fejem alá a
-      párnát.<stage>Megtörténik.</stage>Figyelj majd rá, ha hozzák a fedelet, hogy rendesen csukják
-      le. Kis aranykulcsa pedig maradjon nálad.</p>
+          <p>És most segíts visszafeküdni.<stage>A Leányka besegíti a
+						koporsóba.</stage>Takarj le a szemfedővel.<stage>Megtörténik.</stage>Tedd a
+						fejem alá a párnát.<stage>Megtörténik.</stage>Figyelj majd rá, ha hozzák a
+						fedelet, hogy rendesen csukják le. Kis aranykulcsa pedig maradjon nálad.</p>
         </sp>
-        <p>
-          <stage>A két munkás hozza a fedelet. A Leányka könyörögve rájuk néz. Az Utolsó Vendég már
-                                                     lehunyta a szemét. A Leányka megsimogatja az arcát. Az Utolsó Vendég nem mozdul. Már halott. A
-                                                     födelet a munkások ráteszik a koporsóra. Az egyik átadja a Leánykának a kulcsot. A lány
-                                                     leguggol, eligazítja a szemfedőt, és bezárja a koporsót. A kulcsot a köténye zsebébe rejti.
-                                                     Egy mozdulattal elküldi a munkásokat. Egyedül van, keresztet vet. Kívül zaj.</stage>
-        </p>
+        <stage>A két munkás hozza a fedelet. A Leányka könyörögve rájuk néz. Az Utolsó
+						Vendég már lehunyta a szemét. A Leányka megsimogatja az arcát. Az Utolsó
+						Vendég nem mozdul. Már halott. A födelet a munkások ráteszik a koporsóra. Az
+						egyik átadja a Leánykának a kulcsot. A lány leguggol, eligazítja a
+						szemfedőt, és bezárja a koporsót. A kulcsot a köténye zsebébe rejti. Egy
+						mozdulattal elküldi a munkásokat. Egyedül van, keresztet vet. Kívül
+						zaj.</stage>
         <sp who="#a_fopincer">
           <speaker>A FŐPINCÉR</speaker>
           <p>
@@ -1076,51 +1055,40 @@
           <speaker>A LEÁNYKA</speaker>
           <p>Jöhetnek.</p>
         </sp>
-        <p>
-          <stage>A szoba megtelik emberekkel. Négy barna
-                                                  csuklyás barát lép ki a tömegből. A Leányka
-                                                  várakozón körülnéz. A barátok megfogják a
-                                                  koporsót. A Főpincér rendezi, csoportosítja a
-                                                  gyászolókat. Elindulnak. A lány elöl. Azután
-                                                  bizonyos távolságban a többiek. A szereplők
-                                                  lépései lassúak, bizonytalanok. Sorban jönnek. Az
-                                                  Apa, a Nagymama, a rokonok, részben gyászba
-                                                  öltözve, részben nem. Mintegy észrevétlenül: a
-                                                  halott Anya, piros sapkás hordárok öten-hatan, a
-                                                  nők, pincérek, néhány feketébe öltözött pierrette,
-                                                  a bevezető farsangi jelenet szereplői.
-                                                  Kéményseprők, munkások, egy vasba öltözött lovag,
-                                                  egy pocakos, parókás bíró XVII. századi francia
-                                                  ruhában. Egy öreg pap föveggel és
-                                                  imádságoskönyvvel. Fiatal kántor, nagy
-                                                  ádámcsutkás, sovány ember, köpenyben, égő
-                                                  gyertyával énekel: Laudate pueri dominum, laudate
-                                                  nomen domini... A szereplők kivonulnak. Az ajtó
-                                                  becsukódik. Kívülről kántor éneke hallatszik. A
-                                                  szín egy ideig üres. Künn reggeli zaj. A kékfény
-                                                  lassan eltűnik, hó világít a háztetőkről a
-                                                  szobába.</stage>
-        </p>
+        <stage>A szoba megtelik emberekkel. Négy barna csuklyás barát lép ki a tömegből.
+						A Leányka várakozón körülnéz. A barátok megfogják a koporsót. A Főpincér
+						rendezi, csoportosítja a gyászolókat. Elindulnak. A lány elöl. Azután
+						bizonyos távolságban a többiek. A szereplők lépései lassúak, bizonytalanok.
+						Sorban jönnek. Az Apa, a Nagymama, a rokonok, részben gyászba öltözve,
+						részben nem. Mintegy észrevétlenül: a halott Anya, piros sapkás hordárok
+						öten-hatan, a nők, pincérek, néhány feketébe öltözött pierrette, a bevezető
+						farsangi jelenet szereplői. Kéményseprők, munkások, egy vasba öltözött
+						lovag, egy pocakos, parókás bíró XVII. századi francia ruhában. Egy öreg pap
+						föveggel és imádságoskönyvvel. Fiatal kántor, nagy ádámcsutkás, sovány
+						ember, köpenyben, égő gyertyával énekel: Laudate pueri dominum, laudate
+						nomen domini... A szereplők kivonulnak. Az ajtó becsukódik. Kívülről kántor
+						éneke hallatszik. A szín egy ideig üres. Künn reggeli zaj. A kékfény lassan
+						eltűnik, hó világít a háztetőkről a szobába.</stage>
         <sp who="#a_takaritono">
           <speaker>A TAKARÍTÓNŐ</speaker>
           <p>
-            <stage>balról jön, télikabát, színes szoknya, öreg arc. Csukott szájjal dúdol. Kezében
-       lapát, seprő. Kinyitja az ablakot, söpörni kezd. Egyszerre leteszi a seprőt, és
-       lehajol:</stage>No, ez itt maradt!<stage>Lehúzza az asztalról az abroszt, és költögeti az
-       alvó vendéget.</stage>
+            <stage>balról jön, télikabát, színes szoknya, öreg arc. Csukott szájjal
+							dúdol. Kezében lapát, seprő. Kinyitja az ablakot, söpörni kezd.
+							Egyszerre leteszi a seprőt, és lehajol:</stage>No, ez itt
+							maradt!<stage>Lehúzza az asztalról az abroszt, és költögeti az alvó
+							vendéget.</stage>
           </p>
-          <p>Kérem szépen, tessék felkelni. Reggel van. Meg tetszik fázni. Pista, Pista!</p>
+          <p>Kérem szépen, tessék felkelni. Reggel van. Meg tetszik fázni. Pista,
+						Pista!</p>
         </sp>
-        <p>
-          <stage>A BORFIÚ belép.</stage>
-        </p>
+        <stage>A BORFIÚ belép.</stage>
         <sp who="#az_utolso_vendeg">
           <speaker>AZ UTOLSÓ VENDÉG</speaker>
           <p>
             <stage>feltápászkodik, bambán néz maga elé:</stage>Az ám, elaludtam egy
-       kicsit...<stage>Tapogatja a derekát. Az asszony segíti a fölkelésben, egy kefével
-       letisztítja. A Borfiú hozza a télikabátot, és feladja rá.</stage>Köszönöm,
-       köszönöm...<stage>Borravalókat ad.</stage>
+							kicsit...<stage>Tapogatja a derekát. Az asszony segíti a fölkelésben,
+							egy kefével letisztítja. A Borfiú hozza a télikabátot, és feladja
+							rá.</stage>Köszönöm, köszönöm...<stage>Borravalókat ad.</stage>
           </p>
         </sp>
         <sp who="#a_takaritono">
@@ -1136,11 +1104,9 @@
           <speaker>A TAKARÍTÓNŐ</speaker>
           <p>
             <stage>nevet, kinyitja a nagy ablakot, és a beözönlő napfényben kitárja a
-      karjait:</stage>Jaj de szép idő van!</p>
+							karjait:</stage>Jaj de szép idő van!</p>
         </sp>
-        <p>
-          <stage>Függöny</stage>
-        </p>
+        <stage>Függöny</stage>
       </div>
     </body>
   </text>

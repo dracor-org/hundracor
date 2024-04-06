@@ -1,0 +1,2630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000042" xml:lang="hun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">A literátor</title>
+        <title type="sub">Érzékenyjáték egy felvonásban</title>
+        <author>
+          <persName>
+            <surname>Babits</surname>
+            <forename>Mihály</forename>
+          </persName>
+          <idno type="wikidata">Q332482</idno>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>digital edition</edition>
+        <respStmt>
+          <resp>project director</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-control</resp>
+          <persName>
+            <surname>Bajzát</surname>
+            <forename>Tímea</forename>
+          </persName>
+          <persName>
+            <surname>Vida</surname>
+            <forename>Bence</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>project coordinator</resp>
+          <persName>
+            <surname>Szemes</surname>
+            <forename>Botond</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>NLP expert</resp>
+          <persName>
+            <surname>Horváth</surname>
+            <forename>Péter</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Hegedüs</surname>
+            <forename>Fanni</forename>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>Digitális Bölcsészet Tanszék <ref type="url">https://elte-dh.hu/</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
+        </publisher>
+        <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
+        </pubPlace>
+        <date>2021</date>
+        <availability>
+          <p>CC BY-SA 4.0<ref type="url">https://creativecommons.org/licenses/by-sa/4.0/</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main">A literátor</title>
+          <title type="sub">Érzékenyjáték egy felvonásban</title>
+          <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+          <ref target="https://epa.oszk.hu/00000/00022/00212/06476.htm"/>
+          <respStmt>
+            <resp>Original Electronic Edition</resp>
+            <persName>
+              <surname/>Király <forename/>Péter </persName>
+            <persName>
+              <surname/>Gehardt <forename/>Norbert</persName>
+            <persName>
+              <surname/>Szűcs <forename/>József </persName>
+            <persName>
+              <surname/>Csáki <forename/>Zoltán </persName>
+          </respStmt>
+        </bibl>
+        <bibl type="originalSource">
+          <title type="main">Nyugat</title>
+          <title type="sub">IX. Évfolyam</title>
+          <author>
+            <persName>
+              <surname>Babits</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q332482</idno>
+          </author>
+          <date when="1916">1916</date>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Nyugat</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <author>
+            <persName>
+              <surname>Babits</surname>
+              <forename>Mihály</forename>
+            </persName>
+            <idno type="wikidata">Q332482</idno>
+          </author>
+          <title type="main">A literátor</title>
+          <title type="sub">Érzékenyjáték egy felvonásban</title>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Nyugat</publisher>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu"/>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="nagyasszony" sex="FEMALE">
+            <persName>A Nagyasszony</persName>
+          </person>
+          <person xml:id="ferenc" sex="MALE">
+            <persName>Ferenc</persName>
+          </person>
+          <person xml:id="jozsef" sex="MALE">
+            <persName>József</persName>
+          </person>
+          <person xml:id="laszlo" sex="MALE">
+            <persName>László</persName>
+          </person>
+          <person xml:id="ilosvay_laszlo" sex="MALE">
+            <persName>Ilosvay László</persName>
+          </person>
+          <person xml:id="krisztina" sex="FEMALE">
+            <persName>Krisztina</persName>
+          </person>
+          <person xml:id="grof_torok_shopie" sex="FEMALE">
+            <persName>gróf Török Sophie</persName>
+          </person>
+          <person xml:id="grof_torok_marie" sex="FEMALE">
+            <persName>gróf Török Marie</persName>
+          </person>
+          <person xml:id="szentgyorgyi_jozsef" sex="MALE">
+            <persName>Szentgyörgyi József</persName>
+          </person>
+          <person xml:id="dome_karoly" sex="MALE">
+            <persName>Döme Károly</persName>
+          </person>
+          <person xml:id="maris" sex="FEMALE">
+            <persName>Maris</persName>
+          </person>
+          <person xml:id="jani" sex="MALE">
+            <persName>Jani</persName>
+          </person>
+          <personGrp xml:id="ket_hajdu" sex="MALE">
+            <name>két hajdú</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1916">
+        <label>1916. december 16.</label>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head type="title">
+          <hi rend="underline">Babits Mihály: A
+                            literátor<title/>
+            <title>Érzékenyjáték egy
+                        felvonásban</title>
+          </hi>
+          <stage>A játék az érsemlyéni kúriát
+                        színeli.</stage>
+          <stage>Minden tárva van, s a tornác oszlopai mögött gyönyörű
+                        magyar tájkép láttatik.</stage>
+          <stage>Idő, több mint száz éve,
+                    1803.</stage>
+        </head>
+        <castItem>
+          <role><roleName>A Nagyasszony:</roleName>özv. Kazinczy Józsefné Bossányi
+                        Susánna;</role>
+        </castItem>
+        <castGroup>
+          <roleDesc>fiai</roleDesc>
+          <castItem>
+            <role><roleName>Ferenc</roleName></role>
+          </castItem>
+          <castItem>
+            <role><roleName>József</roleName></role>
+          </castItem>
+          <castItem>
+            <role><roleName>László</roleName></role>
+          </castItem>
+        </castGroup>
+        <castItem>
+          <role><roleName>Ilosvay László</roleName>, öreg vicispán;</role>
+        </castItem>
+        <castItem>
+          <role>a lánya, <roleName>Krisztina</roleName>, egy vidám özvegy, özv. Sárosy
+                        Andrásné;</role>
+        </castItem>
+        <castItem>
+          <role><roleName>gróf Török Sophie</roleName>;</role>
+        </castItem>
+        <castItem>
+          <role><roleName>gróf Török Marie</roleName>;</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Szentgyörgyi József</roleName>, Debrecen város főorvosa;</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Döme Károly</roleName>, fiatal plébános;</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Maris</roleName>, szobalány;</role>
+        </castItem>
+        <castItem>
+          <role><roleName>Jani</roleName>, Ferenc inasa és</role>
+        </castItem>
+        <castItem>
+          <role><roleName>két hajdú</roleName>.</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head type="title">ELSŐ SZÍN</head>
+        <stage>Szentgyörgyi s Maris a tornácajtóban.</stage>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Nem merek ám én bemenni.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>S miért nem?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>A Nagyasszony -<stage>(A belső szobák felől zörgés hallatszik. Maris ijedten
+                            eltűnik a tornácon.)</stage>
+          </p>
+        </sp>
+        <stage>A nagyasszony belép.</stage>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>A Nagyasszony hivatott. Szolgálatára itt vagyok.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Itt van az a személy?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>A Nagyasszony házbeli cselédje? Igenis magammal hoztam a kocsimon. Jó
+                        lélekkel mondhatom hogy már egészséges.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Csak mondja kegyelmed amit akar. Nem volt annak soha semmi baja. Nem olyan
+                        könnyen esik ágynak az ilyen, ha nem gyerekágynak. Hol van az a magáról
+                        megfeledkezett?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Kinn maradt a pitvarban. Kívánja a Nagyasszony, hogy ideszólítsam? Nagyon fél
+                        szegény.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Félhet is. Van is oka félni. Ugyan most mondja kegyelmed, hát meglett, úri
+                        ember létére, hogy árthatja ilyenekbe magát? Ekkora szakállas komoly férfi,
+                        Debrecen város főfizikusa, akinek már adnak a szavára, nem restell ilyet
+                        csinálni?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Mit csináltam én a Nagyasszonynak?</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Nem röstelli még a szemembe nézni? Hiszen kiégne az orcám! Hogy foghatja föl
+                        még azt az elvetemedett személyt? Okos embernek mondják, és még pártját
+                        fogja ellenem a Franci rigolyáinak.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Én azt teszem amit kötelességem és hivatásom parancsol. Az orvos nem űzheti
+                        el a beteget ki gyógyításért hozzá megy. Most, hogy már meggyógyult,
+                        visszahoztam a Nagyasszony kezébe. Beszólítsam?</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Nem, nem, látni sem akarom. Pusztuljon házamból! Az én házam nem arra való,
+                        hogy ilyen személyeknek fedélül szolgáljon - mint egynémely városi
+                        főfizikusé.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Tekintetes asszony!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Csak ne édesítsük a körülállást, főfizikus uram! Nem kegyelmed adott tanyát a
+                        kószáló szerelmeseknek, s korához és rangjához nem méltó alacsonyságra
+                        vetemedett? A Francin éppen nem csodálkozom, aki hiszen mindig éretlen volt,
+                        és egyebet sem tud csak firkálni s édeskedni, de hogy ilyen öreg ember
+                        akinek már az orrában is őszül -</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Megbocsásson a tekintetes asszony de én semmiféle szerelmeseknek sem adtam
+                        tanyát. Franci hozzám küldte a beteg leányt, hogy gyógyítsam, és ezt nem
+                        lehetett denegálni - de énnálam senki sem találkozott, és még csak nem is
+                        látták egymást.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Nem! Hát akkor miért szaladt utána Debrecenbe? Ahelyett, hogy magához való
+                        asszony után nézne - hiszen ingyen él itt a nyakamon, még az enni valóját
+                        sem tudja megkeresni, nem ártana egy jómódú feleség aki ráncba is szedné egy
+                        kicsit, de ahelyett ő cselédekkel cimborál, mindenféle lotyóval szűri össze
+                        a levet itt a szemem előtt és egyszer még utánuk futkos, engedelmem
+                        ellen.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>De Nagyasszonyom! Franci nem gyerek már, innen-onnan negyvenöt esztendőket
+                        számlál és már joga van szabadon járni a dolgai után.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Nem gyerek? Hát ugyan mondja kegyelmed ki volna a gyerek ha még ő sem? Nem
+                        gyerekebb ő mint öccsei? Hiszen még jóravaló foglalkozása sincs, ellátása
+                        sincs, volt neki tisztességes hivatala, azt a maga oktalansága miatt
+                        deperdálta, most egész nap hiábavalóságokkal rontja magát -</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Én nem egyezhetem meg erről a Nagyasszonnyal, a Nagyasszony fia literátor és
+                        szentelt hazafi és amit tesz a magyar Hazának fölvirágoztatására
+                        cselekszi.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Jobb volna ha maga Famíliájának fölvirágoztatására gondolna! - Literátor! Azt
+                        mondja az úr? Elég bajom volt nekem az ő literátorságából, nézhetne már
+                        hasznosabb és tisztelethozóbb mesterség iránt, mert bizony anyai szívem majd
+                        megszakadt, mikor a fiam a tömlöcben ült.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>A Nagyasszony fia sokat bűnhődött, nem csoda hát ha természetes érzékenysége,
+                        melynél fogva minden indulatot a közönségesnél mindig erősebben érzett,
+                        valósággal beteggé teszi őt, azért engedni kellene szívednek olykor
+                        asszonyom, és nem az amúgy is háborgó tüzet haragod olajával még
+                        mérgesíteni.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Gondold meg uram mit vethetek én a magam szemére? Ki mindig készséggel
+                        istápoltam gyámoltalanságát, pénzzel és egyéb küldeményeimmel tilalom
+                        ellenére is segítettem amíg a tömlöcben ült s haragvó öccsével onnét hét
+                        esztendő után kiváltottam -</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>De asszonyom! S végre most nem tudsz-e könyörületes lenni avval aki annyit
+                        szenvedett s hét esztendeig láncot viselt? -</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Minden törődésemnek s szívszaggató vesződségeimnek díja most az a szégyen,
+                        hogy íme láncot viselt embernek vagyok már az anyja -</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Csitt! asszonyom. Franci hangját hallom - s itt van-e ő?</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Itt ám, mert nyomába küldtem Debrecenbe.</p>
+        </sp>
+        <stage>Előbbiek, Ferenc.</stage>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Kisztihand édes Anyám! Isten hozott Barátom! - s hogy van a beteg?</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Hallja-e kegyelmed, kire most is első gondolata - hallja? Vagy nem restelled
+                        anyád füle hallatára azért a személyért interresszálni magadat? Sokat
+                        törődsz énvelem!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Engedelmet instálok! - nem tudtam, hogy ez együgyű kérdés ingerli Anyámat. Az
+                        igen, hogy nem kedveli a szegény teremtést, pedig a derék leány Anyámnak
+                        legkisebb szolgálója.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Azért szalad ellenem városba.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Én küldtem orvoshoz, mert nem nézhettem szegényke fogyását. Már negyed hete,
+                        hogy köhögött és sápadt, s ha csak szolgáló is, de nemes leány, és apja
+                        gondviselésedre bízta.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Most még leckézteted anyád, nézzenek oda, leckézteti! Jobb volna bizony, ha
+                        nem törődnél már annyit a szolgálókkal. Ilyen nagy ember, hallod? Inkább úri
+                        barátnői között nézne szét fiamuram, van-e közöttük egy jómódú feleségnek
+                        való? hogy ember lenne már egyszer belőlem és ne ülnék itt mindig az anyám
+                        szoknyáján.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám! - én nem mondhatok semmit Anyámnak, ki engem úgy ápolt és gyámolított
+                        a kalamitásban, de Anyám tudja mint szeretném részemet megkapni Bányátskán s
+                        magam kezére gazdálkodni benne -</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Gazdálkodni, no hiszen éppen te tudnál gazdálkodni! Poéta! - ki magad
+                        dolgaival is ugyan sáfárkodtál! Vagy hova tetted szép hivatalodat? Hova
+                        tetted becsületes neved? Nekem birtokomban még nem gazdálkodott láncot
+                        viselt ember.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám!</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Az ég szerelmére kérem a Nagyasszonyt, ne ingerelje őt! Látja, mint
+                        elhalványult, a dadogás rájön ismét. Menjen át most a Nagyasszony maga
+                        szobájába, és ha majd elméjük meghiggad és háborgó szívük lecsöndesedik,
+                        akkor beszéljenek.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Köszönd barátodnak, hogy csúnyábban nem mondom mondandómat rólad. Embernyi
+                        ember létedre oktalan! érdemes vagy-e, hogy veled
+                            vitázzak?<stage>(El.)</stage>
+          </p>
+        </sp>
+        <stage>Ferenc, Szentgyörgyi.</stage>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Mindig ilyen velem Anyám, mint egy oktalan kamasszal, de hagyján! Maris
+                        beteg?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Ügyelned kell rá Barátom, mert hajlandósága van a hektikára, s erősen
+                        meghűlt, immár azonban magához tért. - S te Barátom, te nem vagy-e beteg,
+                        mert fogyni láttalak, csontjaid előjöttek, s arcodról nem akar letűnni a
+                        tömlöc halványsága.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Beteg, Józsefem! - s miként ne volnék az, mikor tömlöcből-tömlöcbe jártam?
+                        Látod, rab sorsom megtanított engem örökké lihegni szabadságért. S való, mit
+                        nékem mindez kies táj, gazdag holdmezők, mit e szent ligetek, mit születésem
+                        és gyermekéveim kedves honában laknom, ha test rabságáért lélek rabságát
+                        kellett megcserélnem? Naponta fonnyadok már, Debrecent vágyom, Debrecent
+                        áhítom! S barátaimnak új könyveiket látni, barátnőim pianofortéit
+                        hallani!</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>S anyád utánad küldött?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám, szegény! Jó asszony, de ha tudnád, Barátom, milyen kínos negyvenöt
+                        esztendős koromban ismét gyermeknek lenni, a gyermekség minden rabságával, s
+                        magamegállhatatlanságával, annak örömei s könnyűsége nélkül, és alamuszi
+                        suhancként tekinteni azoktól, akik szívünk s szerencsénk jogos birtokosai,
+                        szánnád barátodat. Ó édes Józsefem! - ha én még egyszer magam lehetnék, ki
+                        szabadon jár és akit senki sem korholhat -</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Anyád korholásait nem kellene olyan nagyon a szívedre venned.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>És kiét, ha az övét nem? De mindenki rossz szemmel néz rám, s öccseim mint
+                        tehetetlen embert és ingyenélőt szemlélnek - és igaz! Nem ingyen élek itt?
+                        Értek valami hasznos dologhoz? Minden szerencsétlenségemnek nem
+                        oktalanságaim voltak okai? Ó Barátom! Minek élek én és miért
+                        teremtettem?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>És csüggedsz-e Ferencem? Szabad csüggedned? Ki literatúránk istápolója vagy
+                        és árva nyelvünk reménysége?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Mondd inkább, megrontója annak, s bennem, ki minden erőmmel javítására török,
+                        immár cégéres ellenségét tekinti a Haza, - és nem korholsz te is gyakorta
+                        Barátom, hogy az újdonságok korcs szeretete elragadott s édes nyelvünket a
+                        Vendég maszlagával betegítem?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Mindnyájan hibázunk Ferenc! - De nagyobb dolgoknak harcosa vagy te, s az
+                        ideák s igaz Humanitás kívánják hosszú életedet.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Dolgoztam, és mit értem el vele? Tárgyam a józan gondolkodás volt, Barátom, s
+                        a nyelvek megoldása, melyek az ész kapui. Hittem, hogy nem chimaerai szándék
+                        a megtévelyedetteket igazabb út felé vezetni, s a bolondságnak elibe tükröt
+                        vetni, s hogy okosság ezért becsülettel állni a bornírt eleveállatások
+                        minden Sturmjait, a halálveszedelmet s a hosszas börtön szenvedéseit. És
+                        mire jutottam vele? annyiunk nyögéseivel és annyi szentek halálával ment
+                        valamit előbbre az Erkölcs? Nem áradnak több vértől, mint egykor a Babona
+                        förtelmes oltári és nem olyan vagyok, mikor a világot okosítani akarom, mint
+                        a gyermek, ki fakardjával a vihar ellen hadakozik? Ezért érzik ösztönösen,
+                        milyen haszontalan s tipornivaló férge vagyok én e világnak, aki annak
+                        rendes sodrával menni és szokása szerint cselekedni nem tud, pedig menni
+                        kíván és cselekedni e lélek minden erejével!</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Már értelek Ferenc, cselekvésre született lelkedet betegíti meg a
+                        cselekvéstelen és mozgástalan anyád-házában-élés, jussodat kellene elkérni,
+                        hogy már magad embere legyél, és megnyomott akaratod felegyenesedjék -</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ó Barátom, imént is hallottad, hogy kértem azt!</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Kérésedet nem tudod törvények virtusával konfirmálni?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám másodszor adta életemet, mikor a tömlöcből kiváltott, nem sürgethetem,
+                        amit ő nem akar. De igazságuk is van, akik engem a gazdaságban tudatlannak
+                        tartanak, miként kívánhatnám, hogy anyámasszony fölbuzgó kisded vagyonkáját
+                        gyámoltalan kezeimre bízza? És így Józsefem - a halál és szeretet megfojtja
+                        minden vágyakozásaimat, szívem zörgése láncnak zörgésévé válik és
+                        reménységeimre az én akaratom tesz bilincset.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Oldd meg Barátom, oldd meg, és ereszd szabadon reménységedet! Akik szabadon
+                        szálltak, mikor gazdájuk nehéz fogságban sínylődött, okos-e azokat most
+                        kedvetlen érzések miatt gúzsba kötni? Én értem kedvetlenséged, mert oly
+                        közel vagy még a parton a kőszálakhoz, ahol hajótörést szenvedtél, a
+                        nyeldeső habokkal küszködtél, nem merheted magadat kimentettnek érezni, de
+                        csak nézz körül s valld meg, tömlöc ez? Ni! - a természet kibeszélhetetlen
+                        vidámsággal leheli ki a megelégedést! Ni! - a csöndes ég hogy tekinget alá a
+                        könnyű fáknak társaságos gallyain keresztül! Minden csak örömet kiált s
+                        vígságra hív.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>De hogy adhasson nekem örömet anyám gyönyörűséges kertjeiben élnem, mikor az
+                        ő bosszúságára s kedvének rontására élek ott?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>De miért élsz bosszúságára, s miért nem óvakodsz kedvét viseleteddel folyvást
+                        ingerelni?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Én ingerlem?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>S miért fogod föl ellene ama lányt? - kinél különb asszonyt kapnál a
+                        faluba.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Barátom! Amikor Anyám Regmecre költözött, és én nyavalyába estem, Maris volt
+                        az ápolóm, és ő fölolvasta nekem könyveimet, ő írta le amit neki diktáltam.
+                        Senkim sem volt, és hideg gyanakodó tekintetek között felfrissítette
+                        elhagyott lelkemet nyájas és naiv szeme! Okos leány, bár csak paraszti vér,
+                        s kedvelem őt Barátom! Mint kedvelem az együgyűeket, akikben a természetnek
+                        saját színét, s a szívnek erejét nevelés és társalkodás hipokrízise meg nem
+                        rontotta. És most hagytam volna el, nyavalyásan?! - de nem tudtam hogy anyám
+                        annyira szívére veszi. Mikor fog kiveszni, a jókból legalább, a hiú úri gőg
+                        és a társaságok Aberglaubéi? - De hagyjuk Barátom! - köszönöm neked, hogy
+                        egészségben meghoztad, s hol hagytad őt? Maris! - Érzem, hogy mindenkinek
+                        terhére vagyok, csak őneki nem.</p>
+        </sp>
+        <stage>Előbbiek, Maris.</stage>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Szólított az úr?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>No, barátom, én megyek keresni anyádat, még találkozunk!</p>
+        </sp>
+        <stage>Maris, Ferenc.</stage>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Maradj itt Maris! Örömmel hallom egészségedet, s vigyázz rá ezentúl.</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Köszönöm a Tekintetes Úrnak nagy jóságát hozzám.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Maradj még! Beszélni akarok veled, nincs neked testvéred Bagaméron?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Nincs, uram.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Mikor Debrecenből jöttem, egy tizennégy esztendős legény szekerem mellett
+                        ment el, feketefürtös gubácskájában, és mezítláb, mert az eső csepegett, s
+                        vállán vitte fékjeit. Olyan volt, mintha testvéred lett volna, Maris!
+                        Gyönyörködve néztem a gyermek könnyű járását és a tömött, inas lábikrákat.
+                        Bagaméri születésűnek mondta magát. "Te tehát oláh vagy?" - kérdeztem tőle.
+                        "Oláh vagyok?" - felelte, elrettenve feltevésemtől. - "Nem én uram, mert én
+                        igaz kálvinista." Beszéde tiszteletét mutatta, s az a szép csendes mosolygás
+                        szabad lelkét, és hogy ön becsét ismeri. Lovaihoz ment, melyek a mezőn
+                        legeltek.</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>A tekintetes úr jól tudja, hogy én nem Bagamérból jöttem.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Tudom Maris, és mégis testvéred volt az a fiú. Testvérek vagytok
+                        valamennyien, bátor és szabad nép! És én magam vagyok a rossz testvér. De
+                        hagyjuk, te nem érted ezt, és jó, hogy nem érted, különben nem lennél-e te
+                        is ellenségem?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Ugyan már hogy mondhat ilyet a Tekintetes Úr?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Mind ellenségeim, Maris! - nem veszed észre, milyen vasvilla szemekkel néznek
+                        rám? Haszontalan egy ember vagyok én!</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Megmondanám a Tekintetes Úrnak, miért gondolja ezt.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S te tudnád azt, lányom?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>De nem fog rám megneheztelni a Tekintetes Úr? - mert huncut dolog, amit
+                        mondani akarok.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Csak mondjad bátran, mert ismered, mennyire szeretlek.</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>A Tekintetes Úr mindig jó volt hozzám, méltatlan leányzóhoz -</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>No csak mondjad s mondjad!</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Házasodjon meg az úr! - mert hogy senkije sincsen, az okozza kedvetlenségét,
+                        s azért lát mindent oly sötétben.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Jó lány vagy, s eljönnél hozzám feleségnek?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Ugyan menjen már az úr! - mivel érdemlem, hogy velem, szegény leánnyal,
+                        incselkedik?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Én nem tréfálok véled, Maris! De kit vehetnék el, aki szívlelne? Nem te vagy
+                        az egyetlen?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Találhat az úr magához valót is, nem jó szemmel tekingeti a
+                        grófkisasszony?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Sophie? A szegény, derék leány, de láttad, hogy annak vőlegénye van. Ne is
+                        beszéljünk erről Marisom, mert én csak téged veszlek el, s hozzám
+                        jössz-e?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Egyre tréfál az úr, de nekem is van ám vőlegényem.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>És kicsoda az?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Jani, az úr inasa, és ő hozzám való! De hadd menjek már.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Várj csak még Maris, igazán a vőlegényed?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Igazán uram, bár lenne az úrnak magához való menyasszonya, mindjárt te sem
+                        keseregnél annyit.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Jóságos lány - te magad boldogságában másokéra gondolsz, és ez engem, kit
+                        jótevődnek képzelsz, szintén boldognak óhajtanál látni. De hagyjál engem
+                        egyedül, minden szív társat talál és boldog lesz, én pedig, aki talán más
+                        klímából vagyok, nemhogy itt gyökeret verhetnék, fonnyadjak özvegyen. Így
+                        hal meg az Isten veteményes kertjében egy fa, s helyette tíz nevekedik föl,
+                        hogy virágra fakadjon, és gyümölcsöt teremjen.</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Elereszt már az úr? - mert nem maradhatnék tovább.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>És miért akarnál menni Marisom?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Itt talál a Nagyasszony, és a Tekintetes Úr tudja, milyen mérges
+                        természetű.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ne - ne hagyjál most itt, szükségem van rád, egyszer ugye írtad
+                        leveleimet?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Akkor beteg volt a Tekintetes Úr.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Beteg vagyok most is Marisom! No - ülj le csak és írjál.</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <stage>(Leül.)</stage>
+          <p>Nem kellene ezt most, Uram! A Nagyasszony -</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Az most a Matematikus úrral traktál, - írjad ám nyugodtan, megállj csak, a
+                        tipográfusnak kell levél először.</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Szeret ám a Tekintetes Úr leveleket írni.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>A rabok mind szeretnek - de nem érted ezt Maris!</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Sajnálom a Tekintetes Urat, ki annyi ideig börtönben sínylődött, és nem tudja
+                        abbahagyni a rávaló gondolkodást.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Más az Maris! - és te nem érted azt, de mondjad: meghívtok a
+                        lakodalmadra?</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Hogyne, ha az uraság megalázza magát? - de felejteni tetszik a levelet!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ó Marisom! - hiányozni fogsz ha elmész tőlünk, de neked jobb lesz az. Tehát a
+                        levelet, s lássuk a tipográfusnak akarok először -</p>
+        </sp>
+        <stage>A Nagyasszony benyit.</stage>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Tessék, nem együtt kapom őket megint! Jöjjön csak, jöjjön kegyelmed, íme mint
+                        turbékolnak a jó madarak! Micsoda szerelmes levelet ír a nemes kisasszony? A
+                        fiamuramnak bezzeg más dolga sincs, mint céda fehérnéppel dugni össze a
+                        fejit ilyen haszontalan árkusok fölött! S ilyen ringyót fogadtam én a
+                        házamba!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Asszonyám!</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Nagyasszony!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Ilyen utolsó személyt! Aki ám alighogy beteszi a lábát, szalad a vén úrfival
+                        összeszűrni a levet. Teremtőm! Micsoda erkölcsök ezek! Pellengérre vitték az
+                        ilyet mikor én lány voltam.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám! - ezt kikérem, anyám egy becsületes lányt bántalmaz.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>No, csak te hallgass, csak éppen te hallgass a ritterkedő frázisaiddal! Még
+                        neki áll feljebb, lásd, még merészel a szemembe beszélni, aki anyád házából
+                        amolyan házat csinálsz! Vagy nem veszed utóbb feleségül, úri famíliádnak
+                        szégyenére?</p>
+          <stage>(Kocsizörgés.)</stage>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani</speaker>
+          <stage>(jő):</stage>
+          <p>A Nagyasszonyhoz vendégek érkeztek.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Nézze, nézze, mit mondtam, ugye mit mondtam az imént kegyelmednek? Nem veszi
+                        utóbb feleségül? De hiszen azt meg nem éred itt az én portámon! - csúffá
+                        teszem én az ilyen teremtést!</p>
+          <stage>(Jani ijedten el.)</stage>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <p>Megkövetem a Nagyasszonyt, de velem így ne tessék beszélni, mert nemes ember
+                        ám az én apám is!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Megbúbollak ám, gyalázatos, még te is föl mered emelni a szavadat? Nesze! Ezt
+                            neked!<stage>(Tépi, üti.)</stage>
+          </p>
+          <p>Hogy a szobámba meri még tenni lábát az ilyen utolsó.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám!</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Minek is hoztad a szobába?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S hol van helyem, ahol egy levelet diktáljak? Üldözött vad módjára bújok
+                        én!</p>
+        </sp>
+        <sp who="#maris">
+          <speaker>Maris:</speaker>
+          <stage>(Felemeli kezét.)</stage>
+          <p>Engem ne tépjen, hallja az asszonyság? Mert én nem vagyok az asszonyság
+                        rongya.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>De majd én segítek a bajodon! Majd, ne félj! Nem fogsz te itt az én portámon
+                        szabadon kószálni, hogy a legényfiam fejét elcsavargasd! Hé hajdúk! Hajdúk!
+                        Vigyétek a kamrába!</p>
+          <stage>(Hajdúk jönnek.)</stage>
+          <p>Ide vigyétek, ide a kamrába! Be kell őt lakatolni! Kötözzétek meg hogyha
+                        kapálódzik! Kössétek be száját hogy nyughasson! Be kell zárni,
+                        diszciplínára, csak kenyérre, vízre!</p>
+          <stage>(Hajdúk beviszik a síró lányt.)</stage>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani</speaker>
+          <stage>(jő):</stage>
+          <p>A vendégek itt vannak már, hova vezethetem őket?<stage>(Ijedten hallgat el és
+                            körülnéz.)</stage>
+          </p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>De Anyám! Az Istenre kérem Anyámat! Ez emberkínzás! Ez hatalmaskodás, ez
+                        kriminális vétség! Anyám megbánja, s hátha panaszt tesznek? Nem vétett az a
+                        lány semmit!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>No csak te hallgass, fiamuram hallgass, engem nem tanít a törvényre láncot
+                        viselt ember!</p>
+          <stage>(Ferenc mintegy leforrázva félretántorog.)</stage>
+        </sp>
+        <stage>Ilosvay s Krisztina a Kazinczy-fiúk kíséretében jönnek.</stage>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Pola téti, édes húgomasszony! - s lányostul jövünk ám. - Adj Isten öcsém!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Isten hozta az urambátyámat.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>A lányom hozott, öcsém, a lányom sürgetett, fiatal özvegynek szíve-lába a
+                        fias ház felé húz.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Papa csak ne delaissálja paraszti tréfáit.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Talán már nem igazat beszélek? Nem te akartál kirándulni ma csiribiri
+                        Kupferstich iránt?</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Igen, igen, mivelhogy a Franci Bécsben mulat, s onnan nekem a Bacsányi
+                        arcképit meghozatja.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>S ki az a Bacsányi?</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Ugyan papa, megint divulgálja járatlanságát. Bacsányi minden polirt
+                        szellemektől ismert belletrista, szép könyveit olvashatni.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Hagyd el már leány! Nem szeretem én ezeket a ti édeskedő újmódi poétáitokat,
+                        és nem is ismerem, vén vagyok én már ahhoz.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Ezt mégis ismered papa, mert találkoztunk vele a bálba, kassai szálába.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Á, tudom már, Bacsányi, ama gőgös kancellista, s lányomasszony ilyen urak
+                        arcképeit kívángatja?</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>Kazinczy József:</speaker>
+          <p>S Franci is ilyenekért szalad akkor Bécsbe, csupa piktúrát, Kupferstichet
+                        hozott, csupa haszontalan lim-lomot, még maga magát is lefesteti.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>S mennyi drága pénzbe kerül - holott csak nemrég fizettem ki tömlöce
+                        költségeit.</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>Kazinczy László</speaker>
+          <stage>(császári kapitány):</stage>
+          <p>Az a Bacsányi is Kufsteinban ül, holmi rebellis aufklärista ő is. Ilyenekkel
+                        barátkozik.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Én nem barátkozom Bacsányival, még Kassán, a Múzeum publikálása közben
+                        összevesztünk.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Jöjjön már, Franci, jöjjön már, hagyjuk az érzéketlenek világi csevegését,
+                        meneküljünk a széptudományok ártatlan berkeibe, mutasd azon új
+                        Kupfersticheket, venez, venez!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Egy minutába, hanem -<stage>(a kamra felé fülelve)</stage>
+          </p>
+          <p>- nem kerülnének beljebb az urambátyámék?</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Hogyisne öcsém, ilyen szép időben, inkább még kisétáljunk később a lugasok
+                        felé.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Mutassad, mutassad, montrez-émoi, égek már látni.</p>
+          <stage>(Ferenc szó nélkül előszedi Kupferstichjeit.)</stage>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>E dib-dáb poétaságokkal tölti életét.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Már abban approbálom a húgomasszony opinióját, nőszemélyhez még csak való az
+                        ilyen, de férfiembernek más gondja lehetne.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>De, instálom vicispán uram, nyelvünk csinosodása és nemzetünk okosodása -</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Ah! - hagyja az úr nyelvünket! Nem szorult az ingyenélők istápolására... Mi
+                        volt ez?</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Egy rebellis cseléd bőg a kamrában, oda
+                        csukattam.<stage>(Hajdúkhoz.)</stage>
+          </p>
+          <p>Nem mondtam, hogy tömjétek be a száját?</p>
+          <stage>(Ferenc fájdalmasa ugrik fel, de anyjának egy intésére
+                        elhallgat.)</stage>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Jani! Küldjétek be Janit... inasomat...</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Én magam kedvében csak Gyöngyösi verseit szoktam olvasni, kinél különb poétát
+                        még nem szült magyar anya.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Való igaz! - de kihaljon-e ifjak elméikből a Virtus és nóbel igyekezet?</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Már higgye meg, barátomuram! - én öreg ember vagyok, de én szégyellem
+                        magamat, mikor árva nyelvünket ilyen éhenkórász neumódik által napról-napra
+                        jobban rontatni látom. Maradjon az a Gellért meg Lessing a németnek, és mi
+                        tartsunk ki apáink tisztes nyelve mellett. Ki nem állhatom e finomkodó,
+                        nyálas poétákat, akik nyelvünk ősi szép szólásai helyett a selyp idegent
+                        majmolják. Tűzre vetném az ilyen Bacsányikat.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ugyan kérem, urambátyám, hagyjuk ezt, Bacsányi nekem nem barátom, de jó
+                        költő, s Lessing és Gellért szentek és nagyok.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Én tisztelem-becsülöm az uramöcsémet, úgyis mint húgomasszony fiát, úgyis
+                        mint egy közbecsülésben álló régi família sarját, de megengedi uramöcsém, ha
+                        öreg ember létemre mondok valamit. Én nem nézhetem, hogy uramöcsém azok közé
+                        keveredik, akik nyelvünk rontásában mindennapi gyönyörűségüket lelik, s akik
+                        minden szent és régi dolgok felforgatására prédikálnak.</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Sok bűnhődéséből okulhatott volna, de ilyen már ez.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Ah! - milyen szép ember ez a Goethe, s Batsányi is szép! Most is ilyen sűrűen
+                        hordja kravátliját? S mondják hogy felesége legszebb asszony Bécsben! - Van
+                        valami képe kegyelmednek az újabb módiról?</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Itt van ez a könyvecske asszonyom, officier barátaim hozták, magnifik munka
+                        ez, le vannak írva benne a fő új komplimentek.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Ach, ach! Igazán? S minő komplimentek azok? Mutassa! Mutassa!</p>
+          <stage>(Kocsizörgés.)</stage>
+        </sp>
+        <sp who="#ket_hajdu">
+          <speaker>Egy hajdú:</speaker>
+          <p>A Török kisasszonyok jöttek.</p>
+        </sp>
+        <stage>Előbbiek, gróf Török Sophie és Marie.</stage>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Ach, a grófkisasszonyok, s átrándultak Kázmérból? S apjukuruk mint van?
+                        Nézzék, nézzék, voyez, milyen könyvet kapott a Kazinczy László úr bécsi
+                        kamerádjaitól.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>S micsoda képek ezek?</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Ezek táncok és komplimentumok, itt van éppen azon komplimentum, mellyel én
+                        kívántam imént nagyságtoknak udvarolni.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Én másként néztem azt, úgy gondoltam, hogy ez egy szánalomra méltó embert
+                        mutat, kit a köszvény húzott össze, vagy legalább, ha ép ember, Kaukler
+                        zsidónak mondtam volna.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <stage>(Lászlóhoz halkan:)</stage>
+          <p>Ach, szegény lány! Szánom őt, hogy elméje nem méltó rangjához. - Ugye mutat
+                        még több ilyen könyveket a kapitány úr, mert én igen szeretem a
+                        könyveket.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Az üdvözlések alatt izgatottan a kamraajtóban hallgatózik.)</stage>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>S menjünk, sétáljunk már a lugasok felé, tetszik a társaságnak?</p>
+        </sp>
+        <sp who="#grof_torok_marie">
+          <speaker>Marie:</speaker>
+          <p>Igen, igen, menjünk!</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <stage>(Sophiehoz:)</stage>
+          <p>S mint van a grófkisasszony Bräutigamja, ama francia vicomte?</p>
+          <stage>(Elmennek. Ferenc visszatartja Szentgyörgyit.)</stage>
+        </sp>
+        <stage>Ferenc, Szentgyörgyi.</stage>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Az Istenért, Barátom, keresd meg és küldd ide Janit, inasomat. - Menj, menj,
+                        engem vigyáznak! Küldd Janit, ha netán Marison segíthetnék.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>S konspirálni akarsz a lánnyal?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem nézhetem többé e miattam-eredt asszonyi krudélitást, nem hallod
+                        szegénynek sírását? Eredj, eredj, küldd inasomat!</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Megteszem, Barátom! De egy kondícióm vagyon.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S micsoda kondíció?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Fogadd paroládra, hogy nincs eszedben oltárhoz vinni a szolgálót, mert abban
+                        én nem segítenék.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ó jaj József! Mit mondtam az előbb, mind gyanakodva néztek már rám, s micsoda
+                        ember vagyok én ki minden tisztelt és közeli körülállóimmal így meg tudtam
+                        utáltatni magamat?</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Megutáltatni? Hogy mondhatsz ilyet édes jó Ferencem? Kit mindenek tisztelnek
+                        s szeretnek.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem, nem, utáltak ideáim s minden törekvéseim, nem hallod az imént is,
+                        Ilosvay bátyám, kinek bölcs korát fiúként tisztelem? Ach, ez a lélekbeli
+                        számkivetettség rosszabb Kaufsteinnál!</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Te képzelődsz, Ferencem! S nem szeret az ifjúság s a szépnem? A schwärmerisch
+                        özvegy is majdhogy föl nem fal.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ki Bacsányival, vagy László öcsémmel éppúgy koquettiroz - ah, mit fecsegünk
+                        itt össze-vissza, s a szegény lány -</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Mi mind azt hittük, elveszed Sárosynét, aki esztendeig horda rabbilincsein, s
+                        pedig meg kellene házasodnod Barátom, hogy tisztelő s szerető család körébe
+                        bizalmad visszakapd - és ő hozzád menne.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ne hidd azt Józsefem! És én is megunnám a grimaszaiért és tudományos szép
+                        asszonyt, aki minden új gondolkodása mellett is -</p>
+        </sp>
+        <stage>A nagyasszony és József.</stage>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Ach, de itt van öcséd, és éppen házasítani akarnám Ferencet.</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>Házasítani! S van olyan emberséges ember aki a maga gyermekét őhozzá adni nem
+                        szégyellené?!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Panni! Erzsi! Gyertek, terítsetek uzsonnára a lugasban, addig az uraságok itt
+                        fognak mulatni.<stage>(A cselédekkel el.)</stage>
+          </p>
+        </sp>
+        <stage>Ilosvay, Krisztina, s a Török kisasszonyok Kazinczy Lászlóval.</stage>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Indítsunk valami mulatságot.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Sohasem lesz szebb mulatság, mintha Bátsmegyeit olvassuk, Franci fölolvassa.
+                        Franci nem szeret mesélni a fogságról, pedig az olyan interressant! De
+                        nosza! Olvassuk inkább a románt!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Megkövetem az asszonyságot, az én torkom márma enroué.</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Annak se volt esze aki azokat a pityergős románokat először koholta,
+                        játsszunk inkább valamit.</p>
+        </sp>
+        <sp who="#grof_torok_marie">
+          <speaker>Marie:</speaker>
+          <p>Ó igen fáin lesz, de mit játszunk?</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>Filkót.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Az úr egészen beleszeretett abba a filkóba.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Játsszunk zálogosdit, hadd poémázzam meg ezt a kapitányt.</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Visszaadnám a kölcsönt.</p>
+        </sp>
+        <sp who="#szentgyorgyi_jozsef">
+          <speaker>Szentgyörgyi:</speaker>
+          <p>Talán szebb volna ha sakkot játszanának nagyságotok, van itt kettő is.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Ohó! Az urak netán szökni akarnának?</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>De bizony most gondoltam egyet.<stage>(Székeket rak sorjába.)</stage>
+          </p>
+          <p>Szégyenpadot játszunk.</p>
+          <stage>(Szentgyörgyi, néhány szót súgva Ferenccel, távozik.)</stage>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ah! Az igen alacsony neme a mulatságnak, én azt nem szeretek játszani.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Tenez! Tenez! A menyasszony nem szeret szégyenpadot ülni.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>S miért nem kisasszony? Társaság kedvéért nem szégyen az.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>De László bácsi is játszani fog.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo #krisztina #laszlo">
+          <speaker>Mindnyájan:</speaker>
+          <p>Méltóztasson nagyságod.</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>Hivalkodó ifjak, a ti kedveteket nem szegem meg, közétek ülök, de én ne
+                        legyek részes semmibe is.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>De hát már ki lesz a király?</p>
+        </sp>
+        <sp who="#grof_torok_sophie #ilosvay_laszlo #laszlo">
+          <speaker>Mindnyájan:</speaker>
+          <p>Mindig aki kérdi.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>No, kánya csípje, hát leszek egyszer én is a király. - Hát referendárius ki
+                        lesz?</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <stage>(Mosolygó komplimenttel.)</stage>
+          <p>Én most magam önkényt fölvállalom. Ha úgy méltóztatnak nagyságtok
+                            parancsolni.<stage>(Feláll, meghajtja magát.)</stage>
+          </p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Ej, most nincs méltóztatás, nagysád, parancsolás. Induljon el. Kezdjük el.
+                        Sophie súg először is.</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <stage>(Oda hajlik. Sophie súg.)</stage>
+          <p>Hahaha! Mindjárt kireped az oldalam! Hahaha! Mi a tatár!<stage>(Sorjába jár,
+                            a személyekhez hajlik, azok súgnak. Ilosvayhoz fordul.)</stage>
+          </p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <stage>(Egy székbe nagyságosan ül, pipázik, csak maga gondolataira
+                        figyelmezve.)</stage>
+          <p>Csak menjen kegyelmed tovább, én nem sugdolódzok bizony.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina, s mások:</speaker>
+          <p>Urambátyám! Papa! Nagyságos uram!</p>
+        </sp>
+        <sp who="#ilosvay_laszlo">
+          <speaker>Ilosvay:</speaker>
+          <p>No eb az országa játékára, már csak ráveritek az
+                        embert.<stage>(Súg.)</stage>
+          </p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <stage>(Elébe áll a szégyenpadon ülő Krisztinának.)</stage>
+          <p>Felséges király!</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <stage>(Játékos kevélységgel.)</stage>
+          <p>Magam az!</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Én Ungot Berket feljártam, és igen is sok panasz van felségedre.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Mondja kend!</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Egyik azt mondja, szégyen a királynak, hogy olyan compódi nemes asszony
+                        formára ül, másik azt mondja, szégyen hogy mindig vigyorog, harmadik azt
+                        mondja, szégyen hogy - koctausend! Hogy eszembe sem jut. Ejnye! No mi az
+                            ördög!<stage>(Ismét végig járja)</stage>
+          </p>
+          <p>- hogy a leányágra szállt a királyság, ötödik azt mondja, szégyen hogy sok
+                        szívet sebet, keveset gyógyít. - Eddig van.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Aki az én szívemet vádolja, üljön ide.</p>
+          <stage>(Ferenc szótlan elfoglalja a szégyenpadot. Krisztina végigjár, súgnak,
+                        nevetnek stb.)</stage>
+        </sp>
+        <sp who="#grof_torok_marie">
+          <speaker>Marie:</speaker>
+          <p>Tudtam, hogy Franci az, ő minden hölgyeknek ezt szokta mondani.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <stage>(Megáll Ferenc előtt.)</stage>
+          <p>Felséges király! Sok a szégyen, sok!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Szórakozottan.)</stage>
+          <p>Mi lehet?</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Másik azt mondja hogy -</p>
+        </sp>
+        <sp who="#grof_torok_marie">
+          <speaker>Marie:</speaker>
+          <p>Hiszen még egyik sem volt.<stage>(Mindnyájan kacagnak.)</stage>
+          </p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>No, csípje kánya, egyik azt mondja, szégyen a királynak hogy olyan németes,
+                        másik azt mondja, szégyen, hogy nincs bajusza, harmadik, szégyen, hogy vén
+                        legény létére még mindig nem kapott feleséget, negyedik, szégyen hogy a szép
+                        cselédek után jár -</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>Haha! Ki mondta ezt?</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Azt nem szabad megmondani. Ötödik, szégyen, hogy annyi haszontalan leveleket
+                        ír.</p>
+        </sp>
+        <stage>Jön a kertből a Nagyasszony egy postáslegénnyel.</stage>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Mintegy mindenről elfeledkezve, fölugrik.)</stage>
+          <p>Postám van! Leveleim jöttek!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Derék postája van a fiamuramnak, mondhatom. Már megint költség, már megint
+                        fizetség. Még csak minap fizettem ezer forinton túl fogsága tartásdíját, s
+                        íme már újra itt a hosszú levél!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Lesújtva szemléli az írást.)</stage>
+          <p>Vitiosus vala az számvetés.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Négyszázkilencvenhat forint 4 krajcárt deposcálnak ismét a fiscustól. Pedig
+                        ugyan mindig magaméból élt a fiamuram.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ez csak a fuvar, Budáról Brünnig, onnét Kufsteinig s Munkácsig. Arról kérdés
+                        sincs, terminusra desolválni muszáj, hogy mulasztásomat vétek gyanánt ne
+                        vehessék.</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <stage>(Belenéz.)</stage>
+          <p>Nem kellett volna hivatalunktól depriváltatni magunkat s revolucionális
+                        plánumokat készíteni.</p>
+          <stage>(Közben az egész társaság kertbe megy az uzsonnára.)</stage>
+        </sp>
+        <stage>(Ferenc a tornácon kikémlel, aztán a kamraajtóba megy és ott
+                    hallgatódzik.)</stage>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Súgva.)</stage>
+          <p>Maris! Marios!</p>
+          <stage>(Csend. Ferenc a kanapéra hajtja le fejét, érzékeny
+                        Werther-pózba.)</stage>
+        </sp>
+        <stage>Sophie csöndben visszalopakodik.</stage>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ferenc! Láttam imént rossz Stimmungodat, s mondd, mi nyomja szíved? Avagy
+                        csúfoltatásodon apprehendálsz? Lásd, társasági Unform az, melyet a társaság
+                        föl sem vesz.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ó Sophie, kedves lány, kit kora gyermekségedtől fogva szeretek s tisztelek, s
+                        jössz-e vigasztalni? Menj, menj tőlem kérlek, hagyj el engemet, menj
+                        ártatlan mulatozásaid közé s ne ismerd bajaimat!</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>De mégis, Ferenc, nem megígértük egymásnak, hogy egymást mindenben
+                        vigasztalni fogjuk?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem, nem, menj most! Itt jön inasom - hagyj kérlek! Menj vissza a
+                        társasághoz.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>S elküldesz, Ferenc?</p>
+        </sp>
+        <stage>Jani bejön.</stage>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Menjél most, menjél!<stage>(Sophie el.)</stage>
+          </p>
+          <p>- Jani, anyámasszony kamrába csukta Marist, s ő neked szeretőd?</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Hát - ha már úgyis tudja az úr, szüret után akarnánk esküdni.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Néhány sort ír.)</stage>
+          <p>Menj, add be neki ezt a levelet, engem vigyáznak, menj csak, add be ablakon.
+                        Megírtam neki, hogy bátorodjék, mert kihozom onnan. - Menj, és azután - de
+                        tudod hol lakik az apja?</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>A Marisnak az apja faluba?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Igen, de - megállj! Anyámasszony ellen elhívjam?</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Igaz, nézd, nézd, hogy el nem feledtem, valami író legény kérdezte az
+                        úrfit.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Író legény, s hol vagyon?</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>A kis kapunál hagytam, mert nem akart bejönni. Amolyan nyurga legény, kicsi
+                        bajuszkával, a dolmányáról mind leszakadozott már a zsinór, - no, amolyan
+                        csavargó formája van.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Te szamár, hívjad azonnal be, - vagy megállj csak, mégse -</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>A Nagyasszony majd ismét haragudni fog.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Megállj csak, majd én kimegyek hozzá magam. Te addig maradj, add be a levelet
+                        Marisnak, vigyázz!</p>
+        </sp>
+        <stage>Jani egyedül.</stage>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <stage>(A kamrához megy, próbálja az ajtót, halkan zörög.)</stage>
+          <p>Maris! Maris!<stage>(Felmászik a kis világítóablakig, benéz,
+                            bekocol.)</stage>
+          </p>
+          <p>Maris!</p>
+          <stage>(Sárosyné Krisztina, lihegve jön a kertből. Jani hirtelen bedobja a
+                        lyukon a levelet, s leugrik, haptákba vágva magát, mintha semmi sem történt
+                        volna.)</stage>
+        </sp>
+        <stage>Jani, Krisztina.</stage>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>S igaz, hogy itt van? Merre van? A hajdúk beszélték, hogy itt van. Vezessenek
+                        hozzá!</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Kicsodát keres az asszonyság?</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>A poétát! A híres poétát! Ama csintalant! S beszélj már ember, hol van ő?</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Van egy csavargóképű legény a kapunál.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Ő az! zweifellos ő! Vezess hozzá! Ach, milyen interressant! S látszik rajta
+                        Bacchus öröme? Mondják hogy igen csintalan szokott lenni a hölgyekkel.
+                        Vezess hozzá!</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <stage>(Gorombán.)</stage>
+          <p>Sose vezetem én legényekhez az asszonyságot. Csak menjen magába, hogyha nem
+                        restelli utánuk járkálni.</p>
+        </sp>
+        <sp who="#krisztina">
+          <speaker>Krisztina:</speaker>
+          <p>Megállj, durva fickó, műveletlen paraszt, megállj, megjelentem a
+                        Nagyasszonynak milyen gorombán beszélsz velem!<stage>(El.)</stage>
+          </p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Csak jelentse amint kedve hozza, már nagyon is a gyomromon volt ez az úri
+                            szajha!<stage>(Megint a kamra felé ácsorog.)</stage>
+          </p>
+        </sp>
+        <stage>Azonban Döme jő.</stage>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Tekintetes Kazinczy Ferenc urat keresem.</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Bejön az úrfi azonnal.</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Úrfi?</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Úrfi az még, mert máig sincs annak felesége.</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>S ezek itt a könyvei? Gessner, Sztella, Muzárion... s ez itt az asztala! Ach,
+                        szent a hely, ahol a dicső férfiú dolgozni szokott, s ahol ihlett órái
+                        lefolynak. Et heic sunt dii!</p>
+        </sp>
+        <stage>Ferenc jön sebtiben, kezében papírt lobogtatva.</stage>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Barátom! Szentelt Hazafi! Üdvözlégy! S miként tiszteljelek, midőn az
+                        ausztriai börtön dohosságából kijövet, először láthatlak. Csak aki úgy
+                        tisztel mint én tisztellek, érezheti mértékét gyönyörködésemnek, érezheti
+                        miként kevélykedem!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S te vagy Dömém? Ah mint tudnám kibeszélni boldogságomat! Hát fölkerestek
+                        mind ti áldott lelkek?! - s világ truccára nem hagytok el ínségem
+                        örvényében! Jer, jer kebelemre, te hű baráti szív!</p>
+          <stage>(Hosszasan átölelik egymást és könnyek között összecsókolódznak.)</stage>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Ach, Barátom! Mikor feledhetem e pillanatot! S mikor nem fogom boldog
+                        gyönyörködéssel érezni, engem Kazinczy ismert, - szeretetére méltóztatott, -
+                        Barátom volt!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S ha ilyen szíveket érzek, Dömém! Akkor tudom, hogy még sem volt hiában
+                        életem, s lesznek még akik fölfogják szavamat. Ami a testnek a börtön,
+                        Barátom, az a szellemnek a szörnyű némaság, de hála! - engem barátokkal s
+                        tisztelőkkel áldott meg az Isten. S tudod, ki volt csak imént is nálam? S e
+                        verset hozá? Ama debreceni poéta, Csokonai.</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>S elment már?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem akar bejönni... azaz hogy... De hallgasd csak, milyen természetes
+                        ömledése az érzésnek? S milyen üdítő képek, mint biztat az egész, hogy
+                        poétánk, parasztos modorát, s erőltetett zsenialitását levetkőzve, már
+                        magasabb Parnasszusok felé csatáz! Halljad csak, Barátom!</p>
+          <stage>Kazinczyhoz, mikor kiszabadult:</stage>
+          <lg>
+            <l>Hogy Orpheus, kit a halál fiának,</l>
+            <l>Az őrebtől felfaltnak gondolának</l>
+            <l>S barlangjaikba jajgatának</l>
+            <l>Hebrus szelid leányai,</l>
+            <l>Véletlen a kies Haemus hegyére</l>
+            <l>A poklok félelmes torkábul,</l>
+            <l>Plutónak zordon országábul</l>
+            <l>Mennybéli lantjával kiére:</l>
+            <l>Örültek a folyamatok -</l>
+            <l>Döme.</l>
+          </lg>
+          <stage>(Az írás fölé hajlik és folytatja.)</stage>
+          <lg>
+            <l>Örültek a folyamatok,</l>
+            <l>Örült minden part és sziget,</l>
+            <l>Örült a hegy, mező, liget,</l>
+            <l>Örültek a vad állatok!</l>
+            <l>Főként Eumolpus, a tanitvány,</l>
+            <l>Bus hurjait feligazitván,</l>
+            <l>Zengette őtet énekén</l>
+            <l>És úgy örült, mint Néked - én!</l>
+          </lg>
+          <p>Ach, Barátom! Milyen dicső is nyelvünk! És tehozzád szól ez, ki valóban
+                        Hazánk Orpheusa vagy. Milyen boldog is lehetsz te, Barátom, aki a szent
+                        tüzet lehoztad minékünk, s kinek szavára már a durva állatok, s hazánk hideg
+                        kövei is reszketni kezdtek. Még nem metélte szakállamat a kés, s már
+                        megtanultam nevedet tisztelni, s e tiszteletet osztja mindenki. Milyen
+                        boldog is vagy te, s kivált most még, hogy kiszabadulva a sárkány torkából,
+                        látod, mint örvend néked az egész Ország.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Te jó vagy Dömém, s előttem még a kép, midőn először láttalak, s a pozsonyi
+                        szeminárium kertjében először ragyogott rám kedves, ifjonti szemed. Te
+                        változatlanul jó vagy irántam, nemes szív! S mint örülök orcádat újra és
+                        újra látni! De ne gondoljad, hogy mindenki úgy örvend kiszabadulásomnak,
+                        mint te képzeled.</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Mi lelt, Barátom? Szemed tétováz és szavad elakad! Változásod van?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem, nem, semmi az, a börtönben szereztem ezt a dadogást, ne törődj vele.</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>De ki ne örülne Kazinczy szabadságának? S mondd, ki lenne azon
+                        érzéketlen?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S kicsoda, jó Dömém? Némely legjobb barátaim elhagynak, még kezet sem mernek
+                        szorítani velem. Én az vagyok, aki voltam, képzeled milyen keserves ezen
+                        érzésekkel azt látni, hogy némely gyáva fő vagy megváltozott, vagy nem mer a
+                        maga alakjában megjelenni. S ama fő urak! A keszthelyi gróf, ki nagyon is
+                        alávaló írókat segít, s megvendégel, engem elutasít. S a Széchenyi Ferenc
+                        sem meri ajkaira venni nevemet. Ach, Barátom, úgy érzem már magam, mint a
+                        bélyeges, vagy falkából kivert vad.</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Szégyellni fogják a posteritás előtt, akik szent nevedet megtagadták, mint
+                        Péter szégyenli Krisztus tagadását; a Kazinczy név szenvedéseid által van
+                        adva a halhatatlanságnak, ezt mondta amaz ateista Fekete is, s én ebben pap
+                        létemre együtt gondolkodom a kőművessel, mert lehet-e közöttünk különbség,
+                        hol a közös Erkölcs, s a Nemzet csinosodása vannak szóban? Horváth küldi
+                        általam forró köszöntését, tisztel téged Barátom, minden igaz Hazafi, s
+                        várakozó nézéssel tekinti képedet.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Várakozó nézéssel?</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Édes nyelvünk várakozva néz terád, s hálával fohászkodik, hogy munkád ereje
+                        visszaadatott.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Lassan, töredezve:)</stage>
+          <p>Az - én munkám - ereje -</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>S mely erő a tiéd! Ki a tömlöcben annyi szenvedésektől meg nem törtél, s a
+                        legnyomóbb halálfélelmek közepette, melyek társaidat asszonyi siránkozásokig
+                        s alélásokig alázzák, írni s olvasni értél rá, s szellemedet lankadatlanul
+                        ápolni el nem mulasztod -</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Mikor halálos végzést megkaptam, erőltetve táncoltam cellámban, s Klopstockot
+                        szavaltam, hogy a fájdalomnak helyet ne engedjek.</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>S veszedelmes tilalmak truccára könyveket csempésztél -</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ó Dömém! Nem adtak tintát és nem kalamust, s mikor falat ónom elfogyott,
+                        tűvel írtam s véremmel szemetke papirosokra a Gessner munkáit, melyeket
+                        memóriából fordítottam!</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>S ha ilyen energiát mutatsz nyelvünk gazdagítására a sors minden csapásai
+                        között, mit kell várnia tőled a Hazának akkor, amikor korod és erőd teljében
+                        a munkának és az édes szabadságnak visszaadattál? Későszázadok fogják
+                        bámulni írásaidnak volumeneit...</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ah, igen, írni, írni, fordítani, árkusokat! Volumeneket! Bibliotékákat! Igen!
+                        Halálig!</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>S meg fognak aláztatni a sötétben cammogók, akik édes nyelvünket a szokottság
+                        avult posványaiba szeretnék rekeszteni. Ó én már látom, nyiladoznak már a
+                        szellemek! Kazinczy dolgozik!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Dolgozik!</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Kazinczy dolgozik, s a munka nem vész el.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Mindig tudtam én, mindig éreztem, hogy nem lehet haszontalan. Ha többeket
+                        sikerül felgyújtani... ha mindenki dolgozik... A tévedés vitájával csak
+                        konfirmálja az igazságot.</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Kazinczy dolgozik, s ez minden. Ó mutassad nekem újabb dolgozásaidat,
+                        mutassad írásaid, fiókodat, mutassad belső dolgozóhelyed!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Belső dolgozóhelyet?</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Már megint a dadogás... a határozatlan tekintet... engedelmet... te valamitől
+                        félni látszol, s mint a tolvaj gyermek, ki rajtakapástól reszket, tekingetsz
+                        jobbra-balra.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem, tévedsz... csupán... féltem, hogy a társaság idejön... Talán
+                        alkalmatlan...</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Menjünk tehát belső dolgozószobádba.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ach, Barátom, zsellér vagyok én anyámnak házában, nincs itt egy rendes
+                        dolgozóhelyem - minek kerülgessem? - bolyongok én itt szobáról-szobára,
+                        könyveimmel, mint az üldözött - létai erdőben bolyongok egyszer napokig - de
+                        mit panaszkodom? Rosszabb volt a tömlöcben. De, amikor lehet, itt szoktam
+                        írni leveleimet, hova a tárt tornácról behallatszik a méhnek zsongása, nézd
+                        itt vannak könyveim, képeim, e ládikába eldugva a Kupferstichek, nézd itt
+                        Gessner van, ez Goethe, itt Ráday...</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Magad arcképeit mutasd!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Itt van, Barátom, s a Kininger alkotá meg ezt, hogy legutóbb Bécset
+                        megjártam. - Vigyázz!<stage>(Az ajtó felé néz, s önkénytelen mozdulattal a
+                            mappa alá rejti a képet.)</stage>
+          </p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Mi az?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ach! - Semmi! Azt hittem, hogy jön valaki, de ha jönne is! Nézzed, s azt
+                        mondják, találva van!</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Ach, tisztelt Mesterem, mint ki vannak nyomva e képen karaktereid, nemdenem
+                        megsejti a művész arcodnak nóbel élében világ emberinek fölöttük
+                        állóságodat, s szájának szögletében az akarat vonását s azon lélekerőt
+                        mellyel a földnek nyomorult görnyesztéseit megveted.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Az akarat vonását?</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Igen, Kazinczym! S emlékszel mit írtál a tömlöcből Fábchichnak - emlékszel
+                        Fábchichra?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ach, Fábchich! Lelkes öreg barát! S mit csinál ő?</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Most, Barátom! Pindárt fordítja, s Alcéust, s Zaffót s a többi lírikusokat,
+                        akik nemsokára kijönnek Győrben, szavat szóval, sort sorral fordít ő, s
+                        bízik a kegyelmes második isthmiai Mecénások segítségében, sokat mulatok a
+                        distikhonon, amit könyvének címlapjára kitett.</p>
+          <lg>
+            <l>Hogy magyar könyvére találsz, jó légyen, akár rossz,</l>
+            <l>Megvegyed, ámbátor olvasod azt sohasem.</l>
+          </lg>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ach a derék Fábchich! Az kilenc Szüzek zordon citerát adnak neki. De hagyján,
+                        nem egyenlő bájt hint mindeneknek Sváda. Nyelvünket kedveli, s buzog érte,
+                        neve tisztelt lesz. Ach, buzognak, buzognak, Barátom! És én maradjak-e el? S
+                        mit akartál mondani?</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Eszembe jutott, mit írtál a tömlöcből Fábchichnak, mert mind olvastuk
+                        leveledet, s bátorságot s erőt merítettünk belőle ügyünkre. Hogyisne! Olyan
+                        fölrázó volt az, hogy némely passzusait ma is könyv nélkül tudom: "Illő" -
+                        azt írod - "hogy ha Isten szabaddá tesz, ennyi szenvedés és megmocskolás
+                        után, nevemet a jóknál becsessé igyekezzem tenni..." Ó Ferencem! Mint
+                        bámultunk ezért a levélért! De most már mennem kell, kocsisom vár s az idő
+                        rövid.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S hová mennél, barátom, ilyenkor? Késő este lesz mire elérhetsz Debrecenbe, -
+                        de bizony nálunk maradsz... nálam maradsz... és... és holnap együtt fogunk
+                        bemenni, úgyis szaladva jöttem onnét vissza ma.</p>
+        </sp>
+        <sp who="#dome_karoly">
+          <speaker>Döme:</speaker>
+          <p>Köszönöm szívességedet, de nem leszek itt alkalmatlan?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Az én vendégem leszel, Barátom, végtére is... végtére is... jussom van
+                        vendégeimet látni, s örüljön az a ház mely Dömét láthatja vendégül. -
+                            Jani!<stage>(Kiáll a tornácra, s hangos és fölszabadult kiáltással
+                            szólítja Janit.)</stage>
+          </p>
+        </sp>
+        <stage>Jani jön.</stage>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Szólított az úrfi?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Jani, a tisztelendő úr nálam marad, vezessed a vendégszobába.</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <stage>(Zavartan és tétován tekinget.)</stage>
+          <p>Igenis... igenis...<stage>(Nem mozdul.)</stage>
+          </p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nos? Mit állsz itt? Vezessed a vendégszobába!</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Igen... de... a Nagyasszony... Ám hiszen jöjjön a tisztelendő úr!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem hallod? Nem tudod szó nélkül tenni parancsomat? - Ne ügyelj rá, bolondos
+                        szolga ez. - S jól gondozd az urat, hallod? - A viszontlátásig, barátom, nem
+                        soká, s fogunk tenni egy sétát a kertben.<stage>(Kikíséri őket, aztán, mint
+                            akinek valami eszébe jutott.)</stage>
+          </p>
+          <p>Jani, ha elvezetted az urat, visszajössz ide, megérted?</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Igenis, tekintetes úr.</p>
+        </sp>
+        <stage>Sophie, Ferenc.</stage>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>S mit csinálsz itt, Franci? S miért nem jössz közénk? Az egész társaság a
+                        kertbe mulat.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ó Sophie, vendégem van! Literátor-vendégem túl-a-Dunáról! s tisztel és
+                        szeret! Milyen boldog vagyok! Ó Sophie! Beszélhetnek már énnékem akármit!
+                        Most mindjárt megírom a levelet a... a... tipográfusnak.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ó Franci! Én értelek! De mi az? Miért halványul el egyszerre az orcád? Miért
+                        reszket a tekinteted, amint az íróasztal felé tekintesz?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Sophie! S elmondjam-e neked? De hiszen azelőtt sem szoktunk mi egymásnak
+                        titkot tartani.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Nem, Ferenc, Kassán sem - emlékszel? Én még gyermeklány voltam, s már sokban
+                        meghitted - emlékszel-e?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S miként ne emlékezném! Midőn szökdelve hágdosám veletek, ti két szép
+                        testvérek, a rom halmait, s együtt nevetgélünk, lengenyéket gyűjtve a
+                        pataknál.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Lengenyéket?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nemde, édes rezgése van füledbe e szónak? Én alkottam a paraszti gyöngyvirág
+                        helyett. - Ó Sophie! Légy hát ismét sekretairem, s halljad, anyám gyanúba
+                        hozott hogy egy szobalányt akarok asszonyomnak venni, s szegény leányt, ki
+                        mindenben született ártatlan, szemem előtt ütleggel bántalmazta, s kamrába
+                        csukatta.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>S itt van?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Itt, és nyögése csak azért nem hallatszik, mert száját hajdúkkal
+                        betapasztja.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>S nem szabadítod ki?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S tehetem anyámnak ellenére?</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Mégis meg kellett volna tenned Ferenc, de most rajta, vigyük ki azonnal: a
+                        szegény teremtés!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem lehet, Sophie, mert a kulcsot Anyám magához vette, és ablaka a kamrának
+                        magas és kicsi. De akarok írni a leány apjának, aki nemes ember, és közel
+                        lakik a faluban.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>S nem írtál?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Még nem, Sophie.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Most írjál azonnal, s ki fogja elvinni?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Írva.)</stage>
+          <p>Jön éppen Jani s elviszi ő.</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Haragudni fog ám a Nagyasszony, úrfi! Mert literátor ez is, s hozzá pápista
+                        pap.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem mondom hogy hallgass? S elviszed ezt a levelet a Maris apjának.</p>
+        </sp>
+        <sp who="#jani">
+          <speaker>Jani:</speaker>
+          <p>Igenis, tekintetes úr.<stage>(El.)</stage>
+          </p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem tudtam előbb megtenni Sophie, de nem gyávaság ez, ne higgyed azt, hanem
+                        bénaság.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Bénaság?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Magammal tehetetlen vagyok, érted? Nyaka szakadt minden reménységeimnek,
+                        sötétség környékezett, s kétkedem jussaimban. Hála! Fölszabadultam immár, s
+                        most jöttem ki tömlöcből igazán, nem akkor amikor a porkoláb fölnyitotta az
+                        ajtómat. Értesz? S most fogok írni a tipográfusnak.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Sötétség környékezett?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ó Sophie! Nem írtam leveleket, tudod, mi az? És nem is kapok már. Nem tudtam,
+                        van kívül világ, s itt minden megvetett. Égtem magamé lenni, érezni, hogy
+                        magamtól függök, hogy végtére igazán szabad ember vagyok, de immár ezt sosem
+                        hiszem. S ha hallottad volna mint bánt velem anyám, olyan irtóztató
+                        keménységgel, amelyet képzelni sem lehet, s én szegény vagyok és ő etet
+                        engem. Ízenkint zsibbad el minden érzésem, de immár fölenged. Csak egy meleg
+                        szellő kell, s már fölenged. Ó Sophie! Érted ezt?</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>S hogyne érteném, Ferenc? Ki magam is ama sötétségben szenvedek, amelyet
+                        beszélsz - de hogyan szóljak én magamról, ki lány vagyok, s az illedelem
+                        parancsolja hallgatásomat.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem, nem, csak beszélj, kedves lány, s avass be te is csekély titkaidba,
+                        méltóztassál engem barátoddá, kinél igazabb s téged szeretőbb szívet sohasem
+                        fogsz lelni e föld sivatagján.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ó Ferenc, s nem vagyok én is rab és elhagyott? S elhagyottabb nálad, mert
+                        csak lány? Ha férfiú volnék, nem volna előttem akadály, mert keresztülvágnék
+                        mindenen, s nem törődnék a közömbösökkel és csúfolkodókkal -</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ha férfiú -</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>De csak lány vagyok, s kétszeresen érzem árvaságomat s tehetetlenségem.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Árvaságodat, édes lány? S nem áldott meg a Természet olyan apával, ki
+                        üdvözült anyádat is pótolni bírja? Kinek szíve melegségét én is érzem, mert
+                        ifjan már és senki létemre családjába fogadni s szeretetével elhalmozni nem
+                        átallott...</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Apámuram mind csak betegeskedik, most is hol rázza szegényt a negyednapos
+                        hideg, - s aztán, ha egészséges is, nem törődik ő mással, mint a Cagliostrók
+                        kuruzsolásaival, a filozófusok könyveivel, s alkímiás üvegcséivel, s ki
+                        törődik énvelem?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>De nem vagy menyasszony, Sophie? Bocsáss meg hogy erről beszélek, de mindenek
+                        beszélik -</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ó Ferenc! Nem tudom milyen érzés parancsolja, hogy mindent elmondjak neked,
+                        de hiszen mások is tudják már, s nem hallod miként csúfolkodott már énrajtam
+                        az özvegy? Mert ama vőlegény ki egy francia gróf -</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Tudom Sophie, s még mindig Párizsban van?</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Már félesztendeje nem tudunk róla semmit -</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Ach! S ez a sötétség, melyet emlegettél - ach szegény Sophiem! Mint szánlak!
+                        Szeretni s nem hallani híreket szeretteinkről.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Nem szerettem őt soha, Ferenc, hiszen alig ismerem! Atyám kívánságát
+                        teljesítem, mikor kérését meghallgattam, de ő katonatiszt, s tartozásai
+                        vannak s talán meggondolta már, hogy szegény lányt venne feleségül, de elég
+                        annyi, hogy apámuram már lemondott erről a parthierul.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Hála az Istennek! S miként is lenne az én kedves barátném valakié, akit nem
+                        szeret? Halálos vétek volna ez, de mondd csak Sophie -</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Bocsáss most Ferenc! Hallom már hogy búcsúznak a kertben! Krisztináék
+                        hazautaznak, s oda kell mennem nekem is, mert mit gondol majd anyádasszony,
+                        hogy így elmaradok?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>De ti nem utaztok haza, Zsófikám? Hogyisne! Messze innét Kázmér! De mondjad,
+                        Sophie, visszajössz ide?</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>Anyáddal, Ferenc, - s addig írd meg a levelet a tipográfusnak.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Te nevetsz rajtam, Sophie, de ha tudnád micsoda az nekem, a szabadság, s hogy
+                        leveleim elszállnak legalább, ha már én nem utazhatom innét.</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <p>S nem utazhatsz? Én ha férfi volnék -<stage>(Hirtelen elsurran.)</stage>
+          </p>
+        </sp>
+        <stage>Ferenc egymaga.</stage>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Kedves lány!<stage>(Hosszan utána néz, azután lassan visszatér az íróasztal
+                            felé, de útközben megáll a kamra előtt. Egy darabig tétovázik, aztán a
+                            fali órára pillant,)</stage>
+          </p>
+          <p>Már jönni kell<stage>(mormolja, végtére mégis leül az íróasztal mellé.
+                            Kalamust hegyez, elgondolkodik, s aztán gyorsan és szép-folyékonyan írni
+                            kezd.)</stage>
+          </p>
+        </sp>
+        <stage>Nagyasszony, József, László jönnek.</stage>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>S te ismét itt firkálsz, ahelyett, hogy a vendégeket kikísérted volna!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Fölpillant.)</stage>
+          <p>S elmentek? A Török lányok is elmentek?</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>S mit törődsz te velük? Ők faluvégig kocsiznak Krisztinával, s te még ki sem
+                        jössz velük a kertbe.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Ismét ír.)</stage>
+          <p>S öcsém uraim miért nem akkompanyírozák tovább?</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>Nem férünk a kocsiba, de hagyja már, édes Asszonyom! Úgyis csak hiába
+                        beszélsz te ennek!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Már az igaz hogy hiába! Most is nézd! Mint firkál! Minden pénzét a levelekre
+                        költi.</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Ugyan kicsodának is firkálhat mindig? Ha még legalább szerelmes levelek
+                            volnának!<stage>(Megnézi a kopertát,)</stage>
+          </p>
+          <p>Tisztelt Junker tipográfus úrnak - no ez egy amolyan Kupfertisch-csináló!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Csak már azokat a haszontalan Kupfersticheket ne látnám, nem szégyelled
+                        magad? Mert nem komoly férfinak való az!</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>No hisz aki még saját magát sem átallja lefestetni a bécsi piktorral, de nem
+                        is magyar ember lett már ebből, mert magyar nem lehet ilyen
+                        elasszonyosodott.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>De hallja csak, kedves fiamuram! Micsoda pápista papot rejteget kegyelmed a
+                        vendégszobában? Mert hallottam ám róla!</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Az is megint valami olyan literátor lesz.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Az Döme Károly plébános úr, énnekem barátom, s kérem Anyámat, fogadja mint az
+                        én vendégemet.</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>S nem átallod minden kóválygó literátort anyád házába csődíteni?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S ez a magyaroknak ismert vendégszeretetük, híres magyar öcsém?</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>Ej de nagyra van bátyám uram a korával, csak már esze is lenne ahhoz való!
+                        Hiszen nem tesszük mi ki a szűrét a bátyámuram vendégeinek, noha ugyan
+                        haszontalan népséget szeret itt traktálni.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>S még hozzá pápista papot is.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>S hogy örült Anyám, mikor első gyermeki könyvecskémet néki ajánlottam! S maga
+                        költségein kinyomtatta, noha azt meg nem érdemelte, s most meg hogy
+                        haragszik hacsak a literátor nevet hallja is.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Örültem gyermeki próbáidon, mert gyermekekhez illendő tanulni, s magukat a
+                        betűvetésben erősíteni, de aki vén létére is mindig deák marad, s ilyen vén
+                        diákokkal barátkozik, nem ember az olyan!</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>S aztán ha csak a költséget nézzük is, amibe az ilyen ingyenélők traktálása
+                        kerül -</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>A vendégem plébános és nem ingyenélő.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>S azt véled, arra való az én csekély vagyonkám, hogy pápista papokat
+                        etessek?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>De nem is Anyám költségein fog menni! De mindent fizessek én a magaméból!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Nézze meg az ember! S mi van teneked?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Még fogságba esésem előtt juttatott nekem Anyám földet, rétet és jószágot, 9
+                        lovam, 14 marhám, 3 bivalyom van, sertésfalkámból 30 darabot adtam el, s meg
+                        se látszott rajta.</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>Most csak kezdjed itt mind elsorolni, s számon kérni tőlünk, mi úgyis Anyámé
+                        volt, mert az Anyám pénzén vettem, de ha szinte nem úgy lett volna is, nem
+                        adtál-e mindent énnekem? Nem írtad többször is Kufsteinbul hogy lovaidra
+                        tegyem rá kezemet, s hogy mindent, még ha saját pénzedből volna is, örömest
+                        átadsz énnekem?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Akkor nem gondoltam, hogy kiszabadulok, hanem...</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Ki az? Ki jön ott?</p>
+          <stage>(Ferenc fölugrik, kiszalad a tornácra, aztán rögtön
+                            visszajön.)</stage>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám! Kinn van Marisnak az atyja, s nem akarom behívni, hogy ne ingereljük
+                        Anyámat, hanem adja kegyelmed hamar a kamrakulcsot, hogy Marist
+                        kibocsássam.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>S mi az? Istentelen! S te merészeltél volna?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Muszáj volt, Anyám! Mert látja, hogy másként ki nem bocsátotta volna, hanem
+                        adja már hamar azt a kamrakulcsot!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Soha! Soha! Te Istentelen elvetemedett, ki nem is fiam vagy, hanem kicserélt!
+                        Hát halálomat kívánod, te anyád gyilkosa?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Az istenért, Anyám, ne beszéljen már így, hiszen maga érdekében teszem, hogy
+                        elhívattam, mert ha szép szerén ki nem adjuk, híre megy a bántalmazásnak s
+                        atyja a vármegyéhez fut vagy éppen a Palatinushoz -</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Hát te becstelen fiú! Kriminálprocesszust kezdenél szülőanyád ellen, s nem
+                        elég, hogy magad tömlöcével szégyent hoztál a fejemre, még vén anyádat is
+                        bíró elé akarnád állítani?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>De Anyám, értsen meg, én ezt nem akarom, sőt azért instálom Anyámat, adná ki
+                        a kulcsot, hogy ez meg ne essék.</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>De valóban, Anyám, jó lesz kiadni, mert nagy baj lehet.</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>De valóban, én is azt gondolom.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>No hát itt van a kulcs, pokol fajzatai, nem gondoltam, hogy a magam házában
+                        sem vagyok úr többé, s micsoda törvény az? De régen nem bántak így a nemes
+                        asszonnyal!</p>
+          <stage>(Ferenc kinyitja a kamrát, s föloldván Marist kötelékeiből,
+                            kivezeti.)</stage>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>S hát te becstelen személy! Itt vagy? S össze-szakadoztak a cifra ruháid,
+                        ugye? S felejted-e már, hogy kell az urak fejit elcsavarni? Bőgni, azt
+                        tudsz! Nesze! Hogy legyen miért! Nesze!</p>
+          <stage>(Ferenc gyöngéden kiszabadítja Marist a Nagyasszony kezeiből, s a síró
+                            leányt csitítgatva kitámogatja.)</stage>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>No, most megvan a kedved, gyalázatos! Most futhatsz vele paphoz! Kinek mindig
+                        ilyen bolond házasságon sétált az eszed. Ó én bolond! Hogy kiadtam neki!
+                        Mostan még elveszi!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>De Anyám! Legyen már egy kis esze! Ha el akarnám venni, azt Anyám úgysem
+                        tudná meggátolni, de énnékem eszem ágába se volt az.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Nem ám, te pernahajder! S minek kéred mindegyre jussodat? Avagy itt anyánk
+                        szoknyáján ülünk mindörökké, s kicsiny udvarát literátorainkkal, s pápista
+                        papjainkkal kényelmesen fölesszük? No azt várd csak! Ki sír szélén való vén
+                        szüleiddel...</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Nem, Anyám, most már hallgasson meg, hadd mondom el én is egyszer a
+                        mondókámat, az első lesz s egyben az utolsó! Én nem akarok Anyámtól semmit
+                        juss szerint deposkálni, mert a természet fölriad az ellen, hogy a fiú
+                        anyját törvény elibe idézze, és eltakarni való gyarlóságait idegen szemekkel
+                        láttassa. De most már nem tudom ezt tűrni tovább, s nem is fogom tűrni, mert
+                        egyre bántanak, magamat s barátaimat, s én sem születtem arra, hogy a
+                        famíliának csihésse legyek. Én vagyok a legöregebb fiú, s azért elhatároztam
+                        imént, és most hangosan mondom, kérem a jussomat! S azután elmegyek, hogy
+                        többet akár ne is lásson anyám, ha nem akar látni, az Isten velünk!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>S ugyan ugye? Pénz kéne hát, csak pénz?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Vagy a birtok Bányátskán.</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Nézze meg az ember.</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>És mi bántottuk? Mindegyre bántottuk?</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Nem elég jóság tőlünk, hogy láncot viselt emberrel egy fedél alatt élni nem
+                        átallunk?</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>És még talán ő restell itt mivelünk lakni!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Már édes öccseim, volt, ahogy volt, én nem kriminális dolgok miatt ültem. De
+                        ne hánytorgassuk ezt, mert evvel bántotok leginkább, egyszóval, én öregebb
+                        vagyok, s a jussomat kérem -</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>S még birtokot az ügyetlen kezére!</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>S hogy talán egy szolgálót vigyen a kastélyba!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>A jussomat kérem, és ki kell adnotok, és nektek semmi közötök ahhoz, hogy kit
+                        viszek magamnak, én azt viszem és azt fogom vinni, akit akarok, és ha
+                        szolgálót is!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Ó te sírásóm, hát csakugyan sírba akarod vinni az anyádat
+                            -<stage>(Elfullad.)</stage>
+          </p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>Anyám!</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Csakugyan megérdemled a tömlöcöt, te ateista! Konspirátor! Hazaáruló!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Egy szót se mondj többet, mert, -</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Ó Istenem! Mit vétettem én neked, hogy ilyen fiat szültem, ki a Káin öklét
+                        emeli testvérére? S miért nem ütötték le a fejedet Budán, mert az jobb lett
+                        volna!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám! A mindenható Isten tudja, hogy szánom Anyámat ezen szó miatt, de az
+                        nekem nem fáj. Bocsássad meg neki, nem tudja, mit cselekszik. - Anyám, még
+                        egyszer kérdem, ki akarja-e szép szerével adni a jussomat?</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Majd ha hozzád illővel összeházasodtál, kiadom.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám! -</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>S ne mondjál egy szót sem, mert káromlás és istenkísértés és nékem éles tőr
+                        minden ige szádban.</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Anyám!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Menj! Nem vagy fiam! Nem foglak meghallgatni!</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>Édes Anyám! Minthogy csöndesen szólnom nem enged Anyám, kénytelen vagyok
+                        elhadarni, - én megházasodom, elveszem Török Sophiet! S ajánlom őt is,
+                        magamat is Anyámnak gráciájába -</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>Török Sophiet!</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>Egy szegény lányt!</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>S úgy véled, gróf létére hozzád jön?</p>
+        </sp>
+        <stage>Sophie, Marie jönnek a kertből.</stage>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <p>De íme itt van.<stage>(Elébe megy és kézenfogja Sophiet)</stage>
+          </p>
+          <p>Sophie, én az imént mondom anyámnak, hogy elveszlek feleségül! Tudod, ki
+                        vagyok, elmondtam, mi van, hogy semmim sincs, s hogyan bántanak, tömlöcöt is
+                        viseltem, most mondjad, hozzám jössz?</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <stage>(Ijedten és zavarodva néz körül.)</stage>
+          <p>De Ferenc!<stage>(Kiszabadítja magát, s elszalad a virágok mögé.)</stage>
+          </p>
+          <stage>(Nagy csönd. Ferenc az asztal mellé rogy, s kezeibe temeti
+                            arcát.)</stage>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>S grófkisasszony kéne neki, grófkisasszony!</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <p>És pápista lány.</p>
+        </sp>
+        <sp who="#jozsef">
+          <speaker>József:</speaker>
+          <p>És koldus lány, tiszta koldus lány! De még a koldus lánynak se kellesz
+                        te!</p>
+        </sp>
+        <sp who="#laszlo">
+          <speaker>László:</speaker>
+          <p>Ugye megmondtam én, hogy nincsen tisztességes hajadon, aki hozzámenne?</p>
+        </sp>
+        <sp who="#grof_torok_sophie">
+          <speaker>Sophie:</speaker>
+          <stage>(Lassan visszajön, Ferenchez megy és megfogja a kezét.)</stage>
+          <p>Hát Ferenc, hol fogunk lakni?</p>
+        </sp>
+        <sp who="#ferenc">
+          <speaker>Ferenc:</speaker>
+          <stage>(Összecsókolja.)</stage>
+          <p>Angyal! Megmentő, pokolból kihozó angyalom! - Bányátskán fogunk lakni - nem,
+                        nem Bányátskán! Széphalmon, mert ez lesz a neve! Jussom az, és Anyám kiadja.
+                        Nekem a Természet minden zugolyái közt ez nevet leginkább. Itt fogják
+                        életemet vidítani a csöndes Eráto és a te szemed. Nem fogok a világgal
+                        törődni, de édes Hazánknak és nyelvünknek törekszem használni magamban, úgy
+                        ahogy én gondolom üdvüket, nem hallgatva senkire, mert férfi vagyok, és
+                        szabad, s poéta! S hiszem, hogy áldani fog még a maradék. Anyám! Adja
+                        áldását fiára s leányára, mert nem akarnak ők rosszat.</p>
+        </sp>
+        <sp who="#nagyasszony">
+          <speaker>Nagyasszony:</speaker>
+          <stage>(Ellágyulva.)</stage>
+          <p>Hiszen én mindig szerettem a Zsófit!</p>
+        </sp>
+        <stage>(Függöny.)</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

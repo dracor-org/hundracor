@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000004">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000004" xml:lang="hun">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -69,7 +67,6 @@
         <publisher>
           <orgName>Digitális Bölcsészet Tanszék<ref type="url">https://elte-dh.hu/</ref></orgName>
         </publisher>
-        <idno type="URL">https://dracor.org</idno>
         <pubPlace>Budapest<ref type="url">"http://www.geonames.org/3054643</ref>
         </pubPlace>
         <date>2021</date>
@@ -157,7 +154,7 @@
           <person sex="MALE" xml:id="chrisothemis">
             <persName>CHRISOTHEMIS</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="chorus">
+          <person sex="FEMALE" xml:id="chorus">
             <persName>CHORUS</persName>
           </person>
           <person sex="MALE" xml:id="orestes">
@@ -182,6 +179,11 @@
         <desc/>
       </event>
     </listEvent>
+    <listRelation>
+      <relation name="wikidata"
+                   active="https://dracor.org/entity/hun000004"
+                   passive="http://www.wikidata.org/entity/"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
@@ -244,9 +246,7 @@
         <head type="title">ACTUS PRIMI</head>
         <div type="scene">
           <head type="title">SCENA PRIMA</head>
-          <p>
-            <stage>Aegistus, Parasitus.</stage>
-          </p>
+          <stage>Aegistus, Parasitus.</stage>
           <sp who="#aegistus">
             <speaker>AEGISTUS.</speaker>
             <p>Kicsoda hitte volna, hogy Agamemnonnak gazdag királysága ily hirtelen
@@ -284,9 +284,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA SECUNDA</head>
-          <p>
-            <stage>Clitemnestra.</stage>
-          </p>
+          <stage>Clitemnestra.</stage>
           <sp who="#clitemnestra">
             <speaker>CLITEMNESTRA.</speaker>
             <p>Legyen Istennek hála penig, megmenekedhettem az Agamemnontúl, az
@@ -318,9 +316,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA TERTIA</head>
-          <p>
-            <stage>Clitemnestra, Aegistus.</stage>
-          </p>
+          <stage>Clitemnestra, Aegistus.</stage>
           <sp who="#clitemnestra">
             <speaker>CLITEMNESTRA.</speaker>
             <p>Kévánom felségednek jó szerencséjét és egészségét látnom.</p>
@@ -376,9 +372,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA QUARTA</head>
-          <p>
-            <stage>Parasitus.</stage>
-          </p>
+          <stage>Parasitus.</stage>
           <sp who="#parasitus">
             <speaker>PARASITUS.</speaker>
             <p>Haja, haja, jóllakom ma, víg uram, víg az szolgája is!
@@ -394,9 +388,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA QUINTA</head>
-          <p>
-            <stage>Chorus, Electra.</stage>
-          </p>
+          <stage>Chorus, Electra.</stage>
           <sp who="#chorus">
             <speaker>CHORUS.</speaker>
             <p>Ím, hatalmas Isten, az királyné asszony,
@@ -534,9 +526,7 @@
         <head>ACTUS SECUNDI</head>
         <div type="scene">
           <head type="title">SCENA PRIMA</head>
-          <p>
-            <stage>Mester, Orestes.</stage>
-          </p>
+          <stage>Mester, Orestes.</stage>
           <sp who="#mester">
             <speaker>MESTER.</speaker>
             <p>Az Úristennek, édes fiam, Orestes, te nagy hálaadással tartozol, hogy
@@ -656,9 +646,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA SECUNDA</head>
-          <p>
-            <stage>Orestes.</stage>
-          </p>
+          <stage>Orestes.</stage>
           <sp who="#orestes">
             <speaker>ORESTES.</speaker>
             <p>Ugyan érzem szívembe, hogy az Úristen jól adja az mi
@@ -677,9 +665,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA TERTIA</head>
-          <p>
-            <stage>Clitemnestra, Chrisothemis.</stage>
-          </p>
+          <stage>Clitemnestra, Chrisothemis.</stage>
           <sp who="#clitemnestra">
             <speaker>CLITEMNESTRA.</speaker>
             <p>Immár húsz esztendeje, hogy bánat az én szívembe nem esett
@@ -709,9 +695,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA QUARTA</head>
-          <p>
-            <stage>Chorus, Chrisothemis, Electra.</stage>
-          </p>
+          <stage>Chorus, Chrisothemis, Electra.</stage>
           <sp who="#chorus">
             <speaker>CHORUS.</speaker>
             <p>Úristen, könyörülj az szegín nyomorult leányon, hallgasd
@@ -881,9 +865,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA QUINTA</head>
-          <p>
-            <stage>Aegistus, Parasitus.</stage>
-          </p>
+          <stage>Aegistus, Parasitus.</stage>
           <sp who="#aegistus">
             <speaker>AEGISTUS.</speaker>
             <p>Nyergeljenek lovat, hallod-e, Parasite!</p>
@@ -909,9 +891,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA SEXTA</head>
-          <p>
-            <stage>Chorus, Chrisothemis, Electra.</stage>
-          </p>
+          <stage>Chorus, Chrisothemis, Electra.</stage>
           <sp who="#chorus">
             <speaker>CHORUS.</speaker>
             <p>Ez átkozott ember bizony az szegín leány
@@ -1039,9 +1019,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA SEPTIMA</head>
-          <p>
-            <stage>Chorus.</stage>
-          </p>
+          <stage>Chorus.</stage>
           <sp who="#chorus">
             <speaker>CHORUS.</speaker>
             <p>Lám, nem feledékeny volt az Isten, látom, immár
@@ -1066,9 +1044,7 @@
         <head type="title">ACTUS TERTII</head>
         <div type="scene">
           <head type="title">SCENA PRIMA</head>
-          <p>
-            <stage>Electra, Clitemnestra.</stage>
-          </p>
+          <stage>Electra, Clitemnestra.</stage>
           <sp who="#electra">
             <speaker>ELECTRA.</speaker>
             <p>Legyen hála az Úristennek, ugyan megkönnyebbülék szívemben, hogy ez
@@ -1209,9 +1185,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA SECUNDA</head>
-          <p>
-            <stage>Mester, Clitemnestra, Chorus.</stage>
-          </p>
+          <stage>Mester, Clitemnestra, Chorus.</stage>
           <sp who="#mester">
             <speaker>MESTER.</speaker>
             <p>Halljátok-e szép leányok, az Agamemnon király házát tudjátok-e
@@ -1413,9 +1387,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA TERTIA</head>
-          <p>
-            <stage>Chorus, Electra.</stage>
-          </p>
+          <stage>Chorus, Electra.</stage>
           <sp who="#chorus">
             <speaker>CHORUS.</speaker>
             <p>Vajh, álnok asszonyi állat, ím, mint tettei vala az idegen
@@ -1505,9 +1477,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA QUARTA</head>
-          <p>
-            <stage>Clitemnestra, Mester.</stage>
-          </p>
+          <stage>Clitemnestra, Mester.</stage>
           <sp who="#clitemnestra">
             <speaker>CLITEMNESTRA.</speaker>
             <p>Leány, nesze ez levél, vidd az porkolábnak, igen hamar
@@ -1568,9 +1538,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA QUINTA</head>
-          <p>
-            <stage>Mester, Chorus, Electra.</stage>
-          </p>
+          <stage>Mester, Chorus, Electra.</stage>
           <sp who="#mester">
             <speaker>MESTER.</speaker>
             <p>Az Úristen jól adja itt az mi járásunkat. Ez gonosz
@@ -1641,9 +1609,7 @@
         <head type="title">ACTUS QUARTI</head>
         <div type="scene">
           <head type="title">SCENA PRIMA</head>
-          <p>
-            <stage>Chorus, Electra, Chrisothemis.</stage>
-          </p>
+          <stage>Chorus, Electra, Chrisothemis.</stage>
           <sp who="#chorus">
             <speaker>CHORUS.</speaker>
             <p>Nem tarthatom az szegín leányt, elgyötri magát, hol asztalra borul,
@@ -1741,9 +1707,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA SECUNDA</head>
-          <p>
-            <stage>Chrisothemis, Electra, Chorus.</stage>
-          </p>
+          <stage>Chrisothemis, Electra, Chorus.</stage>
           <sp who="#chrisothemis">
             <speaker>CHRISOTHEMIS.</speaker>
             <p>Ha, ha, ha, örömömbe mind futottam. Semmit, édes néném, ne
@@ -2023,9 +1987,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA TERTIA</head>
-          <p>
-            <stage>Electra.</stage>
-          </p>
+          <stage>Electra.</stage>
           <sp who="#electra">
             <speaker>ELECTRA.</speaker>
             <p>Ó, nyomorult ember, kicsoda boldogtalanb énnálamnál, kinek sehol
@@ -2047,9 +2009,7 @@
         <head type="title">ACTUS QUINTI</head>
         <div type="scene">
           <head type="title">SCENA PRIMA</head>
-          <p>
-            <stage>Chorus.</stage>
-          </p>
+          <stage>Chorus.</stage>
           <sp who="#chorus">
             <speaker>CHORUS.</speaker>
             <p>Nagy dolog, hatalmas Isten, még az oktalan állat is sokban
@@ -2071,9 +2031,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA SECUNDA</head>
-          <p>
-            <stage>Orestes, Chorus, Electra.</stage>
-          </p>
+          <stage>Orestes, Chorus, Electra.</stage>
           <sp who="#orestes">
             <speaker>ORESTES.</speaker>
             <p>Vajon jó helyre találkoztunk-e mi, asszonyok?</p>
@@ -2502,9 +2460,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA TERTIA</head>
-          <p>
-            <stage>Mester, Orestes, Electra.</stage>
-          </p>
+          <stage>Mester, Orestes, Electra.</stage>
           <sp who="#mester">
             <speaker>MESTER.</speaker>
             <p>Vajh, bolond emberek, csak Isten oltalmazott, hogy el nem
@@ -2579,9 +2535,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA QUARTA</head>
-          <p>
-            <stage>Electra, Chorus, Clitemnestra.</stage>
-          </p>
+          <stage>Electra, Chorus, Clitemnestra.</stage>
           <sp who="#electra">
             <speaker>ELECTRA.</speaker>
             <p>Hatalmas Isten, könyörgök teneked, ez mai nap mutasd meg
@@ -2732,9 +2686,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA QUINTA</head>
-          <p>
-            <stage>Aegistus, Electra, Orestes, Parasitus.</stage>
-          </p>
+          <stage>Aegistus, Electra, Orestes, Parasitus.</stage>
           <sp who="#aegistus">
             <speaker>AEGISTUS.</speaker>
             <p>Hol vagynak az Phoceus-beli követek, kik az Orestes
@@ -2948,9 +2900,7 @@
         </div>
         <div type="scene">
           <head type="title">SCENA SEXTA</head>
-          <p>
-            <stage>Mester.</stage>
-          </p>
+          <stage>Mester.</stage>
           <sp who="#mester">
             <speaker>MESTER.</speaker>
             <p>Az szegény árvát, im, behozám jószágába, igaz,
@@ -3013,9 +2963,7 @@
                                                   Úristen vigye kigyelmeteket haza nagy békességgel.
                                                   És tartsa meg kigyelmeteket nagy sok esztendeig jó
                                                   életben, örökkévaló idvességtekre.</p>
-          <p>
-            <stage>AZ JÁTÉKNAK VÉGE</stage>
-          </p>
+          <stage>AZ JÁTÉKNAK VÉGE</stage>
         </div>
       </div>
     </body>
