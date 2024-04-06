@@ -218,7 +218,7 @@
     <listRelation>
       <relation name="wikidata"
                    active="https://dracor.org/entity/hun000012"
-                   passive="http://www.wikidata.org/entity/"/>
+                   passive="http://www.wikidata.org/entity/Q1317957"/>
     </listRelation>
   </standOff>
   <text>

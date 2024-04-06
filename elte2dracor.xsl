@@ -118,23 +118,20 @@
             </xsl:for-each>
           </listEvent>
         </xsl:if>
-        <xsl:if test="$meta/@wikidata">
-          <xsl:call-template name="list-relation">
-            <xsl:with-param name="wd-id" select="$wd-idno/text()"/>
-          </xsl:call-template>
-        </xsl:if>
+        <xsl:call-template name="list-relation"/>
       </standOff>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="list-relation">
-    <xsl:param name="wd-id"/>
-    <listRelation>
-      <relation
-        name="wikidata"
-        active="https://dracor.org/entity/{$meta/@id}"
-        passive="http://www.wikidata.org/entity/{$wd-id}"/>
-    </listRelation>
+    <xsl:if test="$meta/@wikidata">
+      <listRelation>
+        <relation
+          name="wikidata"
+          active="https://dracor.org/entity/{$meta/@id}"
+          passive="http://www.wikidata.org/entity/{$meta/@wikidata}"/>
+      </listRelation>
+    </xsl:if>
   </xsl:template>
 
   <!-- strip old elements  -->
