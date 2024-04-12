@@ -272,6 +272,9 @@
           <person xml:id="elso_kozlegeny" sex="MALE">
             <persName>Első közlegény</persName>
           </person>
+          <person xml:id="komorna" sex="FEMALE">
+            <persName>Komorna</persName>
+          </person>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -665,7 +668,7 @@
         <div type="scene">
           <head type="title">ÖTÖDIK JELENET</head>
           <stage>Korpádiné (a konyhából egy szakasztó kosárral), Gergely</stage>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <p>Mit ólálkodol itt?</p>
           </sp>
@@ -673,7 +676,7 @@
             <speaker>GERGELY.</speaker>
             <p>Én nem...</p>
           </sp>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <p>Most kell kibújni az ágyból?</p>
           </sp>
@@ -681,7 +684,7 @@
             <speaker>GERGELY.</speaker>
             <p>Már a mezőn is voltam.</p>
           </sp>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <p>S mért nem a pörölynél?</p>
           </sp>
@@ -689,7 +692,7 @@
             <speaker>GERGELY.</speaker>
             <p>De ha nincs munka.</p>
           </sp>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <p>Csinálj patkószegeket.</p>
           </sp>
@@ -697,7 +700,7 @@
             <speaker>GERGELY.</speaker>
             <p>De ha nincs vas.</p>
           </sp>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <p>Hát a szőlőben nincs munka?</p>
           </sp>
@@ -705,7 +708,7 @@
             <speaker>GERGELY.</speaker>
             <p>Tegnap elvégeztem a kötést.</p>
           </sp>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <stage>(félre)</stage>
             <p>Ma éppen nem találok gáncsolni valót. - Fogd, szórd az aprómarhának;
@@ -715,7 +718,7 @@
             <speaker>GERGELY.</speaker>
             <p>Mindent örömest, csak ne bosszankodjék -</p>
           </sp>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <p>No bizony! Ha ezeket az úrfiakat nem hagyjuk délig nyújtózni -
                                 mindjárt haragszunk, mindjárt felhúzzuk az orrt -</p>
@@ -725,7 +728,7 @@
             <p>Igen, de Lajos öcsém néha délig is alszik, s anyám mégsem pirongatja:
                                 engem pedig, ki kovács, gazda, vincellér, kocsis, favágó -</p>
           </sp>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <p>Kukta, szakács, kulcsár vagy, nemde? - No, csak hánytorgasd fel, mi
                                 vagy még, he?</p>
@@ -734,11 +737,11 @@
             <speaker>GERGELY.</speaker>
             <p>Nem azért mondtam.</p>
           </sp>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <p>Hát a szőlőben nincs munka?</p>
           </sp>
-          <sp who="#korpádiné">
+          <sp who="#korpadine">
             <speaker>KORPÁDINÉ.</speaker>
             <p>Én pedig azt mondom, Lajosra semmi gondod, ő alhatik, mert szabó, te
                                 pedig kovács vagy; eközt, úgy hiszem, ég és föld a distellancia,
@@ -1641,7 +1644,7 @@
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENET</head>
           <stage>Inas, voltak</stage>
-          <sp who="#inas">
+          <sp who="#monti_inasa">
             <speaker>INAS.</speaker>
             <stage>(jő)</stage>
             <p>Kovács lakik itt?</p>
@@ -1650,7 +1653,7 @@
             <speaker>KORPÁDINÉ.</speaker>
             <p>Igenis.</p>
           </sp>
-          <sp who="#inas">
+          <sp who="#monti_inasa">
             <speaker>INAS.</speaker>
             <p>Uraságom kocsija itt áll az út közepén, egyik lónak patkója le akar
                                 esni.</p>
@@ -1664,7 +1667,7 @@
         <div type="scene">
           <head type="title">TIZENHARMADIK JELENET</head>
           <stage>Monti, Kamilla, előbbiek</stage>
-          <sp who="#inas">
+          <sp who="#monti_inasa">
             <speaker>INAS.</speaker>
             <p>Uraságom kiszállt a kocsiból.</p>
           </sp>
@@ -1672,7 +1675,7 @@
             <speaker>MONTI.</speaker>
             <p>Egy pohár vizet!</p>
           </sp>
-          <sp who="#inas">
+          <sp who="#monti_inasa">
             <speaker>INAS.</speaker>
             <p>Kérek poharakat, ifjasszony.</p>
           </sp>
@@ -1918,7 +1921,7 @@
         <div type="scene">
           <head type="title">TIZENÖTÖDIK JELENET</head>
           <stage>Gergely (a vasalószéket hozva), előbbiek</stage>
-          <sp who="#inas">
+          <sp who="#monti_inasa">
             <speaker>INAS.</speaker>
             <stage>(Gergelyhez).</stage>
             <p>Készen vagyunk?</p>
@@ -2312,7 +2315,7 @@
           <stage>Monti (sárga, veres szegélyű dominóban, fehér, veres tollas
                         kalappal), Roberto (fekete dominóban). Körültekintve, leveszik
                         álarcaikat.</stage>
-          <sp who="roberto">
+          <sp who="#roberto">
             <speaker>ROBERTO.</speaker>
             <p>Hány órára rendeljem ide nagyságod kocsiját?</p>
           </sp>
@@ -2514,7 +2517,7 @@
             <speaker>S. GERAN.</speaker>
             <p>Lehetetlen! - Est-ceque vous ne parlez pas hongrois?</p>
           </sp>
-          <sp who="#parti #gr_tengeri">
+          <sp who="#baro_parti #gr_tengeri">
             <speaker>TENGERI, PARTI.</speaker>
             <p>Non.<stage>(S. Geran tárcát vesz.)</stage>
             </p>
@@ -3098,7 +3101,7 @@
             <speaker>MISKA.</speaker>
             <p>Ej, dehogy kapok.</p>
           </sp>
-          <sp who="#kozlegeny">
+          <sp who="#egy_kozlegeny">
             <speaker>KÖZLEGÉNY.</speaker>
             <p>Mert tudok én már esetet, ecsém, hogy éppen akkor érkezett meg a
                             pardon, mikor már felakasztották.</p>
@@ -3584,7 +3587,7 @@
             <stage>(katonaruhában).</stage>
             <p>Átadtad a levelet?</p>
           </sp>
-          <sp who="#inas">
+          <sp who="#volgyi_inasa">
             <speaker>INAS.</speaker>
             <p>Igen.</p>
           </sp>
@@ -3592,7 +3595,7 @@
             <speaker>VÖLGYI.</speaker>
             <p>Magának a grófnénak?</p>
           </sp>
-          <sp who="#inas">
+          <sp who="#volgyi_inasa">
             <speaker>INAS.</speaker>
             <p>Nem lehetett hozzájutni, a társalkodóné vette át.</p>
           </sp>
@@ -3600,7 +3603,7 @@
             <speaker>VÖLGYI.</speaker>
             <p>Mondád, hogy sietős, hogy egyedül a grófnét illeti?</p>
           </sp>
-          <sp who="#inas">
+          <sp who="#volgyi_inasa">
             <speaker>INAS.</speaker>
             <p>Mondtam.</p>
           </sp>
@@ -3608,7 +3611,7 @@
             <speaker>VÖLGYI.</speaker>
             <p>Ki van odakünn?</p>
           </sp>
-          <sp who="#inas">
+          <sp who="#volgyi_inasa">
             <speaker>INAS.</speaker>
             <p>Két közember.</p>
           </sp>
@@ -3886,7 +3889,7 @@
         <div type="scene">
           <head type="title">TIZENHATODIK JELENET</head>
           <stage>Segéd, előbbiek, majd Gergely</stage>
-          <sp who="#seged">
+          <sp who="#volgyi_segedje">
             <speaker>SEGÉD.</speaker>
             <p>Ezredes úr, a kegyelem egyikre nézve későn érkezett.</p>
           </sp>
@@ -3894,7 +3897,7 @@
             <speaker>VÖLGYI.</speaker>
             <p>Vezesse ide a megszabadultat.</p>
           </sp>
-          <sp who="#seged">
+          <sp who="#volgyi_segedje">
             <speaker>SEGÉD.</speaker>
             <p>Ő itt van, nagyságod kegyelmét megköszönni.</p>
           </sp>
@@ -4646,7 +4649,7 @@
             <stage>(kívül)</stage>
             <p>Komisszárius!</p>
           </sp>
-          <sp who="#jean #a legrongyosabb_ember #gergely">
+          <sp who="#jean #a_legrongyosabb_ember #gergely">
             <speaker>MIND.</speaker>
             <p>Komisszárius?</p>
             <stage>(Néhányan felugrálnak, s az udvar felőli ajtón s ablakon

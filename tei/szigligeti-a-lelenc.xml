@@ -158,7 +158,7 @@
           <person sex="FEMALE" xml:id="toncsi">
             <persName>TONCSI</persName>
           </person>
-          <person sex="MALE" xml:id="beregi_ferenc">
+          <person sex="MALE" xml:id="feri">
             <persName>BEREGI FERENC</persName>
           </person>
           <person sex="MALE" xml:id="bokori">
@@ -4327,7 +4327,7 @@
             <speaker>NAGY</speaker>
             <p>Én atyád? Atyád neked?</p>
           </sp>
-          <sp who="#sara #erzsike #feri">
+          <sp who="#sara #erzsi #feri">
             <speaker>MIND</speaker>
             <p>Mi történt? Magánkívül van</p>
           </sp>

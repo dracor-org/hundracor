@@ -117,7 +117,6 @@
               <forename>Lázár</forename>
             </persName>
           </respStmt>
-          <date when="1843">1843</date>
           <pubPlace>Buda</pubPlace>
           <publisher>Magyar Királyi Egyetem nyomdája</publisher>
         </bibl>
@@ -178,6 +177,13 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1843">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>

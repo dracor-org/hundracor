@@ -390,6 +390,9 @@
           <personGrp xml:id="torpek" sex="MALE">
             <name>Törpék</name>
           </personGrp>
+          <personGrp xml:id="torlok" sex="MALE">
+            <name>Torlók</name>
+          </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -6275,7 +6278,7 @@
               <l>A mit Marót csakán Árpádnak ád vissza.</l>
             </lg>
           </sp>
-          <sp who="#fobokolabras">
+          <sp who="#fobokarablas">
             <speaker>FŐBOKOLÁBRÁS.</speaker>
             <stage>(Két kezében egy arany szekrénykét emelve, Marót elé
                                 járul.)</stage>
@@ -9591,7 +9594,7 @@
             <speaker>KÜRTÖSÖK.</speaker>
             <stage>(Jönnek legelől, gyászindulót fújva.)</stage>
           </sp>
-          <sp who="#hegedusok">
+          <sp who="#hegedosok">
             <speaker>HEGEDŐSÖK.</speaker>
             <stage>(A kürtösök dalát kisérik hangszereiken.)</stage>
           </sp>
@@ -9698,7 +9701,7 @@
             <speaker>KÉT CSATLÓS.</speaker>
             <stage>(Vezeti a tokos lovat.)</stage>
           </sp>
-          <sp who="#arpad_fejedelem #tas #szabolcs #gyula #kond #ors #tohotom">
+          <sp who="#arpad_fejedelem #tas #szabolcs #gyula #kund #ors #tohotom">
             <speaker>ÁRPÁD, VEZÉREK.</speaker>
             <stage>(Felvonulnak Levente után, mindegyiknek egy seb látszik a jobb
                                 arczán.)</stage>
@@ -9876,7 +9879,7 @@
               <l>S esküszünk, mint neked, ugyanoly hűséget!</l>
             </lg>
           </sp>
-          <sp who="#arpad_fejedelem #tas #szabolcs #gyula #kond #ors #tohotom">
+          <sp who="#arpad_fejedelem #tas #szabolcs #gyula #kund #ors #tohotom">
             <speaker>HÉT VEZÉR.</speaker>
             <stage>(Pajzsra ülteti Zsoltot s feje fölé emeli.)</stage>
             <lg>
@@ -9892,7 +9895,7 @@
               <l>S legyen e nap az eljegyzés napja.</l>
             </lg>
           </sp>
-          <sp who="#arpad_fejedelem #tas #szabolcs #gyula #kond #ors #tohotom">
+          <sp who="#arpad_fejedelem #tas #szabolcs #gyula #kund #ors #tohotom">
             <speaker>HÉT VEZÉR.</speaker>
             <stage>(A pajzst térdeire ereszti alá.)</stage>
           </sp>

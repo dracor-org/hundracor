@@ -219,7 +219,7 @@
 							tsevegő társaságnak haszontalan lármájában fejem szédül, tagjaim
 							fáradnak —<stage>le-ül.</stage>Lucinda hozz egy könyvet</p>
           </sp>
-          <sp who="#lucinda">
+          <sp who="#lutzinda">
             <speaker>LUCINDA</speaker>
             <p>Mitsoda könyvet parantsol a’ kis-asszony?</p>
           </sp>
@@ -229,7 +229,7 @@
 							mihaszna olvasok — főzess herba-tejet inkáb’, a’ gyomrom rosszúl
 							van.</p>
           </sp>
-          <sp who="#lucinda">
+          <sp who="#lutzinda">
             <speaker>LUCINDA</speaker>
             <p>Mitsodást parantsol a’ kis-asszony?</p>
           </sp>
@@ -240,7 +240,7 @@
 							hé, Lucinda, nem kell herbatéj — maradj — nem láttad Bereniszt? haza
 							ment-é már a’ társaságbúl?</p>
           </sp>
-          <sp who="#lucinda">
+          <sp who="#lutzinda">
             <speaker>LUCINDA</speaker>
             <p>Berenisz nem hagyta még-el a’ társaságot, mert tud mind az
 							alkalmatossággal, mind magával élni, nem éteti magát az unalommal, mint
@@ -257,7 +257,7 @@
 							van eszed — mit tsinálnál te az ésszel, a’ mi nékünk is annyi bajunkra
 							van?</p>
           </sp>
-          <sp who="#lucinda">
+          <sp who="#lutzinda">
             <speaker>LUCINDA</speaker>
             <p>Mert én az ollyan észért, mint a’ kis-asszonyéknak van, nem adnék egy
 							gombos tüt. Okosság-é magát gyötörni valakinek, mikor semmi baja
@@ -268,7 +268,7 @@
             <p>Ha, ha ha, a’ te együgyüséged nékem tetszik — te nevettséges állat
 							vagy.</p>
           </sp>
-          <sp who="#lucinda">
+          <sp who="#lutzinda">
             <speaker>LUCINDA</speaker>
             <p>Mint a’ kis-asszony nekem.</p>
           </sp>
@@ -313,7 +313,7 @@
 							való igazságokat mond, a’ szivét látnád minden szavával ajakain
 							ki-tsordúlni.</p>
           </sp>
-          <sp who="#lucinda">
+          <sp who="#lutzinda">
             <speaker>LUCINDA</speaker>
             <p>Van most módom benne úri szeretetet hallani — meg-ölne benne az
 							unalom.</p>
@@ -322,7 +322,7 @@
             <speaker>BERENISZ</speaker>
             <p>Mit mondasz Lucinda? talám irigységre hoz sorsom?</p>
           </sp>
-          <sp who="#lucinda">
+          <sp who="#lutzinda">
             <speaker>LUCINDA</speaker>
             <p>Nem kivánom a’ kis-asszony sorsát, nem kívánok én magam ollyan szerelmet,
 							melyben tsak sóhajtással s’ szép beszédekkel kell élni. Óh! nékem sokkal
@@ -332,7 +332,7 @@
             <speaker>SZIDALISZ</speaker>
             <p>Nevettséges állat, te tsak kívánsz, de szeretni nem tudsz.</p>
           </sp>
-          <sp who="#lucinda">
+          <sp who="#lutzinda">
             <speaker>LUCINDA</speaker>
             <p>Hát a’ ki szeret nem kíván semmit?</p>
           </sp>
@@ -341,7 +341,7 @@
             <p>Hid’-el nékem Lucinda, hogy soha szeretet sóhajtás nélkül édes nem
 							lehet.</p>
           </sp>
-          <sp who="#lucinda">
+          <sp who="#lutzinda">
             <speaker>LUCINDA</speaker>
             <p>No én a’ szerelemben ásítok tsak, de soha nem sóhajthatok, és úgy hiszem,
 							hogy e’ kettő mind egy</p>
@@ -1643,7 +1643,7 @@
             <speaker>PONTYI</speaker>
             <p>Mit beszélsz hé? rósz volna a’ nékünk — ennye s’ eb ugattát.</p>
           </sp>
-          <sp who="#titzus">
+          <sp who="#titzius">
             <speaker>TITZUS</speaker>
             <p>No azt mondják, és a’ mi nagyob, egész Amérikaig mind hidat tsináltatott
 							a’ tengeren</p>
@@ -2439,7 +2439,7 @@
         <head type="title">NEGYEDIK JÁTÉK</head>
         <div type="scene">
           <head type="title">ELSŐ jelenés</head>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>
               <stage>egyedül</stage>Vége van, puntom, nem szeretek, oda van Lutzinda,
@@ -2474,7 +2474,7 @@
             <p>Hó, hó, Lidás, itt vagy egyedül? hát mint vagyok még a’ szivedbe, édes
 							Lidásom?</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>
               <stage>félre fordúl</stage>Uh! reá nem nézek híjába.</p>
@@ -2483,7 +2483,7 @@
             <speaker>LUTZINDA</speaker>
             <p>No, hát el-fordúlsz? reám se nézel? — meg-útáltál már.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Ne engedj, Lidás ötsém, viseld magad, most jön már a kisértés,
 							uh!egek.</p>
@@ -2496,7 +2496,7 @@
 							eztet; mások utánnamjárnak, nem menek.<stage>zokog — magában.</stage>
             </p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Uh! Filósófia, Sokrátes, Argélius, Markalf, Stilfrid, Káriklia, Nyul
 							históriája, Álmos-könyv, Trója veszedelme, Tódi Miklós, filosófusok,
@@ -2509,7 +2509,7 @@
 							magammal. — Én el-menek, ha meg-halok is.<stage>el-indúl lassan.</stage>
             </p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>
               <stage>utánna néz.</stage>Lutzinda, ne izélj no, hová mégy mán?
@@ -2520,7 +2520,7 @@
             <p>Biz el-menek én, engem soha sem látsz többet, el-hagyom a szógálatomat,
 							a’ falúbúl-is ki menek, hogy soha se lássalak.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Ne bolondozz no. sir. Mert én a’ vízbe ugróm, ha el-mégy, hiszem tsak
 							tréfálóztam, mert én szeretlek, gyere vissza, hiszem lád’, mikor nem
@@ -2535,7 +2535,7 @@
             <speaker>LUTZINDA</speaker>
             <p>Hát mit tsúfolodzol, hogy ha jövök rám se nézel.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>De bizony szintúgy meg-rúgkapálta magát bennem a’ szívem, tsak
 							szégyenlettem néked még akkor mondani la.</p>
@@ -2544,7 +2544,7 @@
             <speaker>LUTZINDA</speaker>
             <p>Hát mért nem szollasz jókor?</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Hiszem szóllok, tsak el-felejtettem volt. No hiszem vár a filosófia</p>
           </sp>
@@ -2552,7 +2552,7 @@
             <speaker>LUTZINDA</speaker>
             <p>Talám filósofiád van hé?</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Mi tagadás benne; a’ zsebemben van.</p>
           </sp>
@@ -2561,7 +2561,7 @@
             <p>Ki a’ kóság adta azt neked, hogy el-vesszék az eszed? hiszem el-viszen
 							a’, ne búsúlj, Bergengótzia felé.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Miért? talám ólján a’ mint a’ piritus, a’ fegyver ellen való?</p>
           </sp>
@@ -2569,7 +2569,7 @@
             <speaker>LUTZINDA</speaker>
             <p>De annál is kóságosabb.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Jaj hé, ved’-ki, húzd-ki a’ zsebembül, égesd meg, ebben van né.</p>
           </sp>
@@ -2579,7 +2579,7 @@
               <stage>ki húzza a’ zsíroskönyvet, el-hajittya.</stage>Hajitsd-el,
 							ördögbe.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Oh! be meg-könnyebbedtem, szinte úgy elevenedem belöl. Oh be-szeretlek,
 							édes Lutzindám</p>
@@ -2588,7 +2588,7 @@
             <speaker>LUTZINDA</speaker>
             <p>De ne végy többet ólján kóság filosofiát.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>De hogy veszek, ne félj, de hogy — ha, ha — valaki jön — szaladj,
 							szaladj, itt ne kapjanak.</p>
@@ -3583,7 +3583,7 @@
 								Lidás!<stage>Lidás érkezik</stage>
             </p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Mit parantsol az úr?</p>
           </sp>
@@ -3595,7 +3595,7 @@
             <speaker>ANGYÉLIKA</speaker>
             <p>Eridj hamar, az urad szerelmes levelet akar irni.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Oh je! hát oda a’ filosofia?<stage>mindent hoz, Párménió ir.</stage>
             </p>
@@ -3604,7 +3604,7 @@
             <speaker>ANGYÉLIKA</speaker>
             <p>Te paraszt, szeretsz-é még?</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>
               <stage>félre inti</stage>De bizony mondja-meg a’ kis asszony, ha az uram
@@ -3614,7 +3614,7 @@
             <speaker>ANGYÉLIKA</speaker>
             <p>Hát idétlen, abba kételkedsz? szerelmes, és nagyon pedig.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>De hát nem búsúlok, mert én is a’ vagyok, el-hánytam a’ filósofiát; de
 							ólján jól esik az a’ szeretni, hogy mód nélkül, szinte úgy meg-járja az
@@ -3624,7 +3624,7 @@
             <speaker>ANGYÉLIKA</speaker>
             <p>Ha, ha, ha. Kit szeretsz te? engem?</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>Nem biz én, mert Lutzindát, eszem a’ Lutzinda lelkét. Ólján jó leány az
 							kis-asszony, hogy mód-nélkül; ha nevet, nekem is nevetni kell mindjárr,
@@ -3639,7 +3639,7 @@
             <speaker>ANGYÉLIKA</speaker>
             <p>Hát a gyomrod nem fáj soha?</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>De bizony emelyeg néha, de akkor tsak nyeldesek, osztán el-múlik.</p>
           </sp>
@@ -3656,7 +3656,7 @@
             <speaker>ANGYÉLIKA</speaker>
             <p>Reményiem, nem Szokratesbül, Plátóbúl írtál belé, hanem a’ szivedbül.</p>
           </sp>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>
               <stage>félre</stage>Uh! ti kegyetlen piritusok, nyúl históriák,
@@ -3982,7 +3982,7 @@
         </div>
         <div type="scene">
           <head type="title">Hetedik jelenés</head>
-          <sp who="lidas">
+          <sp who="#lidas">
             <speaker>LIDÁS</speaker>
             <p>
               <stage>magába</stage>Öm, senki sintsen itt — mi ez? — tenta, penna,

@@ -233,6 +233,9 @@
           <person xml:id="ur" sex="MALE">
             <persName>Magyar úr</persName>
           </person>
+          <person xml:id="jorger" sex="MALE">
+            <persName>Jörger</persName>
+          </person>
           <person xml:id="lengyel" sex="MALE">
             <persName>Lengyel követ</persName>
           </person>
@@ -1313,7 +1316,7 @@
         <div type="scene">
           <head type="title">MÁSODIK JELENET</head>
           <stage>Előbbi, inas, (mindjárt) Knittelius</stage>
-          <sp who="#inas">
+          <sp who="#elso_inas">
             <speaker>INAS.</speaker>
             <p>
               <stage>(jelenti)</stage>Páter Knittelius.</p>
@@ -3272,7 +3275,7 @@
             <p>Vajha jobb szolgálatot tehettem volna!<stage>(El.)</stage>
             </p>
           </sp>
-          <sp who="#boldizsár">
+          <sp who="#boldizsar">
             <speaker>BOLDIZSÁR.</speaker>
             <p>
               <stage>(örömmel).</stage>Visszahoztak a sírboltba, már éjjeledik.</p>
@@ -4650,7 +4653,7 @@
             <p>
               <stage>(a középajtót feltépi).</stage>Ki ment itt el?</p>
           </sp>
-          <sp who="#masodik or">
+          <sp who="#masodik_or">
             <speaker>MÁSODIK ŐR.</speaker>
             <p>A kapitány úr öcscse és szolgája.</p>
           </sp>
@@ -4749,7 +4752,7 @@
             <speaker>BÁLINT.</speaker>
             <p>Tüzes tatár, hát mit akarnak most?</p>
           </sp>
-          <sp who="#kristóf">
+          <sp who="#kristof">
             <speaker>KRISTÓF.</speaker>
             <p>Hát csak az ágyúkat tisztogatják, s minthogy hetedhét országon bevették a várakat,
               hát Tokajt is lefülelik.</p>
@@ -4762,7 +4765,7 @@
         <div type="scene">
           <head type="title">HARMADIK JELENET</head>
           <stage>Voltak, nótárius</stage>
-          <sp who="#notraius">
+          <sp who="#notarius">
             <speaker>NÓTÁRIUS.</speaker>
             <p>Mi baj, Bálint gazda?</p>
           </sp>

@@ -160,8 +160,11 @@
           <person xml:id="borsosne" sex="FEMALE">
             <persName>Borsosné</persName>
           </person>
-          <person xml:id="inasok" sex="UNKNOWN">
-            <persName>Inasok</persName>
+          <person xml:id="inas" sex="MALE">
+            <persName>Inas</persName>
+          </person>
+          <person xml:id="szobaleany" sex="FEMALE">
+            <persName>Szobaleány</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -4976,7 +4979,7 @@
               <l>Még nem nyilatkozám; s ez nem helyes. </l>
             </lg>
           </sp>
-          <sp who="#rejetei">
+          <sp who="#rejtei">
             <speaker>REJTEI</speaker>
             <lg>
               <l>Félsz, hogy el nem fogadja kezedet? </l>
@@ -5070,7 +5073,7 @@
               <l> A tanács fölötte jó! </l>
             </lg>
           </sp>
-          <sp who="#rejeti">
+          <sp who="#rejtei">
             <speaker>REJTEI</speaker>
             <lg>
               <l>És megfordítva is használható. </l>
@@ -5527,7 +5530,7 @@
               <l>S a tábla más számot mutat kivül. </l>
             </lg>
           </sp>
-          <sp who="gizella">
+          <sp who="#gizella">
             <speaker>GIZELLA</speaker>
             <lg>
               <l>Ez a sok aggály s kétely azt mutatja, </l>
@@ -6739,7 +6742,7 @@
               <l> Megszólt a hátad megett. </l>
             </lg>
           </sp>
-          <sp who="#klra">
+          <sp who="#klara">
             <speaker>KLÁRA</speaker>
             <lg>
               <l>A többiek velünk szuttyongaták - </l>

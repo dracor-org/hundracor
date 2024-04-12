@@ -111,7 +111,6 @@
             </persName>
             <idno type="wikidata">Q794046</idno>
           </author>
-          <date/>
           <pubPlace/>
           <publisher/>
         </bibl>
@@ -170,6 +169,16 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" notBefore="1772" notAfter="1810">
+        <desc/>
+      </event>
+      <event type="print" when="1899">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
   <text>
     <front>
       <castList>
@@ -208,7 +217,7 @@
         <div type="scene">
           <head type="title">ELSŐ eset</head>
           <stage>LAIS, KOLUMBINA.</stage>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Gyöngy dolog ifian ragyogni szépséggel,</l>
@@ -220,7 +229,7 @@
               <l>Tudod, Kolumbina, hogy ma vendégem lesz?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Bánja a ’kutya, ha rakással mind el vesz.</l>
@@ -242,7 +251,7 @@
               <l>Felyül rá kínunkban szépen megkövettük.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Hogy paraszt ’s szegény vagy, tsak vagyonról gondolsz</l>
@@ -274,13 +283,13 @@
               <l>Meg fizet a’ vendég kedves barátsággal.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Igen; megszóllással és gorombasággal.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Hagyd el; a’ beszéd köztt tsak magok’ múlatják,</l>
@@ -311,7 +320,7 @@
               <l>Szépet ne szeressünk, rútat ne utáljunk.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Azt sem tudjuk néha, mellyiket szeressük.</l>
@@ -324,7 +333,7 @@
               <l>’S hízelkedő szókkal szárad-el torkunk, szánk.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Hol találtad ezt fel a’ mély okosságon</l>
@@ -333,7 +342,7 @@
               <l>A’ többi világnak, ’s mindentől meg szünjünk?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>A’ törvény azt mondja: Eggyet kell szeretni,</l>
@@ -342,7 +351,7 @@
               <l>Késő lesz, míg minket valaki meg kéret.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Hagyd-el; már ez benned tsupa eggyügyűség! —</l>
@@ -353,7 +362,7 @@
               <l>Egyűgyűségedet rajta minek hányod?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>De mi hát a’ vén lyány a’ fényes világon?</l>
@@ -364,7 +373,7 @@
               <l>Senki meg nem lelte, ’s magában ott rothadt.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Ha a’ legénynek nem szégyen meg őszülni,</l>
@@ -377,7 +386,7 @@
               <l>’S szüljünk a’ világnak eggy új bolondságot.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Né! a’ hívjavallás!... de magának tartsa,</l>
@@ -394,7 +403,7 @@
         <div type="scene">
           <head type="title">Második eset</head>
           <stage>LAIS, KOLUMBINA, KUKULINI.</stage>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <stage>Idétlen maga-viselettel, mint Deák gyermek; kurta mentéjének
 							szűk ráncza, hátúl felkuczorodva áll: rövid ujjaibóla’ mezítelen
@@ -416,31 +425,31 @@
               <l>Tészem-le hivségem’ arany szarvaira.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Jaj szép szarvas állat! Mákvirág!</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Ne nevezz!</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Ha-ha-ha! — mitsoda kisértet forma ez?</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Mindennek kell lenni tudod a’ Világban</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Arany szájú Tudós, az igaz, magában.</l>
@@ -450,13 +459,13 @@
               <l>’S e’ meredt termetet öbleibe zárta?</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Alázatoson él, hiv szolgálatára.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Illyen é, mint az Úr hát, gyöngy állatjára?</l>
@@ -465,7 +474,7 @@
               <l>Egész csudává lesz, ha igy marad feje.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Elhiszem, hogy csuda. Én az Oskolában</l>
@@ -478,14 +487,14 @@
               <l>Hijában nincs teste, és kiszúrja szemét.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Mi vonczolta ide az Úr tudós létét,</l>
               <l>’S mitsoda zivatar kergeti életét?</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Engem a’ szerentse hány vét itt fel ’s alá,</l>
@@ -498,7 +507,7 @@
               <l>A vízben szárazon állna árbóczfája.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Ho, hó, — nagyon méllyen mégyen értelmében</l>
@@ -508,7 +517,7 @@
               <l>Kár az Ifiaknak hamar párosodni.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>’S a' hasonlitással úgy meg-okosodni.</l>
@@ -518,7 +527,7 @@
               <l>Gödény torokkal kell alá nyeldekleni.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Sok, magát hiteti csak hogy igen tanúit,</l>
@@ -531,7 +540,7 @@
               <l>És a’ beszéd zajjal füleit megnyuzzák.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Tehát okosodni vissza térhetek még?</l>
@@ -539,13 +548,13 @@
               <l>Alázatossággal görbülök —<stage>elmégyen.</stage></l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Elmehet.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Ezzel a’ kis asszony már boldoggá lehet.</l>
@@ -555,7 +564,7 @@
               <l>Sok Ifju, tanúivá emberből lidértz lett.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Együgyűségben is találkozik jóság,</l>
@@ -566,7 +575,7 @@
               <l>Felesége olly mint gyermek ’s egyéb állat.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Ó nintsen férjfiban erő aszszony ellen!</l>
@@ -600,7 +609,7 @@
         <div type="scene">
           <head type="title">Harmadik eset</head>
           <stage>LAIS és HIPPODON.</stage>
-          <sp who="#hippoddon">
+          <sp who="#hippodon">
             <speaker>HIPPODDON</speaker>
             <lg>
               <l>Foglalatosságim közzül szabadúlva</l>
@@ -609,7 +618,7 @@
               <l>Habon hányattatik, ’s félek fenekre űl.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Hát, a’ szerentsének nyájas kebelében</l>
@@ -624,7 +633,7 @@
               <l>És a’ szerencsének szárnyain hirelik?</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Ne hidd, hogy én vólnék itt legértelmesebb,</l>
@@ -649,7 +658,7 @@
               <l>’S Irigyi eszik-ki kenyerét szájából.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Ó, nem elméje az a’ fejedelemnek,</l>
@@ -666,14 +675,14 @@
               <l>Tsak olly gyenge mint más, elrejtve magábann.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Aszszony, gyermek, nagy Ur, eggyforma hagyások,</l>
               <l>Kevélyek, makacsok, ’s ezer a’ vágyások</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <stage>magát meghajtva</stage>
@@ -681,7 +690,7 @@
               <l>Az igaz, sokat ér. Megtartom magamnak.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <stage>habozva</stage>
@@ -708,13 +717,13 @@
               <l>Tudom, méltóságot ’s kincset nem keresel.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Elmém tsupán abban boldogságot nem lel.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Hát csak személyemet vévén tekintetbe</l>
@@ -723,7 +732,7 @@
               <l>És Elysiumot csinálj a’ szivemből.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>llly kérdésre nehéz jőni feleletnek.</l>
@@ -743,7 +752,7 @@
         <div type="scene">
           <head type="title">Negyedik eset</head>
           <stage>XENOXIS, HIPPODON.</stage>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Védelmező Angyal jön benned, Barátom</l>
@@ -752,14 +761,14 @@
               <l>Olly puszta a’ szívem</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <stage>hideg vérrel</stage>
               <l>Miből áll hát a’ kár?</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Láis, mint isméred, társaságunk fénye,</l>
@@ -788,7 +797,7 @@
               <l>Ha érzésed üres, vagy könyvez belőlről?</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Akármint hangoztasd erköltsi beszéded’</l>
@@ -826,7 +835,7 @@
               <l>Egy Ministernének mitsoda tér-mező?</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Minden asszony jól tész mikor védelmező.</l>
@@ -846,7 +855,7 @@
         <div type="scene">
           <head type="title">Ötödik eset</head>
           <stage>HIPPODON, XENOXIS, KOLUMBINA.</stage>
-          <sp who="#hippoddon">
+          <sp who="#hippodon">
             <speaker>HIPPODDON</speaker>
             <lg>
               <l>Érkezel, szép Leány! hát Láist hol hagytad?</l>
@@ -856,7 +865,7 @@
               <l>Meg állithatom-é aszszonyod’ elméjét?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Istenem! sok mi ’s más fúrja annak fejét.</l>
@@ -876,7 +885,7 @@
               <l>Ha csak Nagysád nem tud lőni a’ szivére.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <stage>nevetve.</stage>
@@ -894,7 +903,7 @@
               <l>’S ha viszsza vernéd is, tőled el nem marad.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Minden aszszony szeret, igaz, ’s férjfi nélkül,</l>
@@ -914,14 +923,14 @@
               <l>Az illyen dologban bár más Hertzeg legyen.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Egy gazdagi Ifiú, neve Kukulíni,</l>
               <l>Kéri. Itt forog most; elő lehet híni.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Szolgád hát, Minister? itt hagylak bajoddal,</l>
@@ -930,7 +939,7 @@
               <l>Szél támadt hajódra, ’s nehezen evezel.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Ne hagyj-el, Xenoxis: inkább eggyütt legyünk</l>
@@ -950,7 +959,7 @@
         </div>
         <div type="scene">
           <head type="title">Hatodik eset</head>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <stage>egyedül</stage>
@@ -984,7 +993,7 @@
         <head type="title">MÁSODIK JÁTÉK</head>
         <div type="scene">
           <head type="title">ELSŐ eset</head>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Ministert szolgálni fél pokol, fél halál.</l>
@@ -1021,19 +1030,19 @@
         <div type="scene">
           <head type="title">Második eset</head>
           <stage>TULIPÁN, POMONÉ.</stage>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Uram! látható-é ma itt a’ Minister?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>A’hogy dolga fordúl. — Nem tudja az ember.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Esedezésem van, ’s ha hozzá férhetek</l>
@@ -1044,7 +1053,7 @@
               <l>Lehet személyjéhez bizodalmát venni?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>A’ szemét sem nyitja-fel énnálam nélkül,</l>
@@ -1065,13 +1074,13 @@
               <l>Ész, munka, mind enyém; a’ dicsőség övé.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>’S még az ollyakban is szolgája szólgálja?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Hogyha értelmesnek ’s tanúknak tanálja.</l>
@@ -1081,21 +1090,21 @@
               <l>Ki telik-é tőlünk, hogy módját találjuk?</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Uram! Uraságot akarnék szerezni,</l>
               <l>Nem kívánván magam vargák közt cserezni.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>De ehhez érdem kell, különbenn nem lehet,</l>
               <l>Ha az ember hozzá okokat nem tehet.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Mi hát az az érdem? Lehet érdemesebb</l>
@@ -1104,7 +1113,7 @@
               <l>’S a’ hol az érdemes van, véle ott lészek.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Van benne valami; hanem a’ vázának</l>
@@ -1113,7 +1122,7 @@
               <l>’S félre lehet osztán az embert inteni</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>De mi nagyobb érdem, mint az arany, ezüst?</l>
@@ -1128,7 +1137,7 @@
               <l>Meglelem én abban minden igazságom.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Meg van nagyobb részben az Aszszony’ érdeme,</l>
@@ -1136,7 +1145,7 @@
               <l>Betsületes neve jó paraszt Férjének?</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Sirba kellett szálni már szegény fejének.</l>
@@ -1144,7 +1153,7 @@
               <l>Nints férjfi körűlttem, ’s megunom életem.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Aszszonyban nem terem érdem Nemességre,</l>
@@ -1158,7 +1167,7 @@
               <l>Csak férjfi nemesít.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>De ha megfizetem,</l>
@@ -1179,7 +1188,7 @@
               <l>Akárhogy itéljük-meg az értelmekben.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Nem lehet a’ Törvény ellen okoskodni,</l>
@@ -1188,7 +1197,7 @@
               <l>Földhöz üt, és vele küszködni bolondság.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Akármibe kerül, ezt megigazítom</l>
@@ -1197,20 +1206,20 @@
               <l>Ellenben a’ Lyánya mind paraszt vérbe vesz?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Ahá! van hát Fia?</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Élő gyönyörűség,</l>
               <l>Mondom, Kukulíni, ’s hozzám tsupa hűség.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>De hát minden megvan; már Urakká leszünk,</l>
@@ -1225,7 +1234,7 @@
               <l>Úgy, mint a’ Levelén, és pengő pénzében.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Minek a’ Nemesség agya velejében,</l>
@@ -1246,7 +1255,7 @@
               <l>’S a’ tsokoládéba mint Dáma harapva.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Helyesen!, igazán! és így a’ böltsesség</l>
@@ -1257,7 +1266,7 @@
               <l>A’ Nemesi karba bizonyoson béűl.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Ne felejtse hát el a’ kétszáz aranyat...</l>
@@ -1279,7 +1288,7 @@
               <l>Boldog, és a’ többi világot neveti.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Nem üt oda éppen. A’ világ felettünk</l>
@@ -1323,7 +1332,7 @@
               <l>Tárgyamnak ismérlek, ’s szüntelen’ imádlak.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Keserves fogadás! Elhiszem: úgy érzed,</l>
@@ -1345,7 +1354,7 @@
         <div type="scene">
           <head type="title">Negyedik eset</head>
           <stage>KOLUMBINA, LAIS, PELÓZIS.</stage>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Kifutom belőlem a’ lehelletemet,</l>
@@ -1354,14 +1363,14 @@
               <l>’S a’ miben fáradok hamar kimondhassam.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Lássuk hát: mutasd, a’ Világ’ fordulását,</l>
               <l>Miben változtattad-meg régi állását.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Ó, nem vágom olly nagy fába a’ fejszémet,</l>
@@ -1395,7 +1404,7 @@
               <l>Magát felemelve engem is jutalmaz.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Beszéded különös és okos, az igaz.</l>
@@ -1413,7 +1422,7 @@
               <l>A’ rang hízelkedik.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Az, a’ miért nem kell.</l>
@@ -1440,7 +1449,7 @@
               <l>’S az igaz, tudod, nem szemtelenkedhetik.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Illyen alatsonyon rólam hogy itéltél?</l>
@@ -1454,7 +1463,7 @@
               <l>Tudom, személyedre hogy érdemes lenne.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Érdem, a’ hol a’ Természet választa,</l>
@@ -1471,7 +1480,7 @@
               <l>Boldogabbúl élni, és füstit nevetni.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Mitsoda? ’s a’ nagy Ur ha kis sorsút vészén</l>
@@ -1498,7 +1507,7 @@
               <l>Valakit szeretnek, ne féltse hatalmát.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>A’ férjhez-menésről soká kell beszéllni</l>
@@ -1534,7 +1543,7 @@
         </div>
         <div type="scene">
           <head type="title">Ötödik eset</head>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <stage>egyedül</stage>
@@ -1552,7 +1561,7 @@
         <div type="scene">
           <head type="title">Hatodik eset</head>
           <stage>HIPPODON, KOLUMBINA.</stage>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Van-é vitorlámnak czéljára várt szele</l>
@@ -1561,7 +1570,7 @@
               <l>Hadd lássam sorsomat; hadd halljam szavadat.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <stage>vállat vonit</stage>
@@ -1581,7 +1590,7 @@
               <l>A’ Nagyok illyeket bíznak az emberre.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <stage>fére fordúlva.</stage>
@@ -1595,7 +1604,7 @@
               <l>Vedd-el, szép leányzó, ezt a’ tsekélységet!</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Ez segítse tehát a’ jó reménységet?</l>
@@ -1603,7 +1612,7 @@
               <l>A’ végezés’ könyvét kellene nézetni.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Eredj, kérlek, hadd-el: dűlő félen van már,</l>
@@ -1614,7 +1623,7 @@
         </div>
         <div type="scene">
           <head type="title">Hetedik eset</head>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <stage>egyedül</stage>
@@ -1657,7 +1666,7 @@
         <div type="scene">
           <head type="title">Nyolcadik eset</head>
           <stage>HIPPODON, TULIPÁN.</stage>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Nagyságos Uram! én eggy újságot hozok,</l>
@@ -1678,7 +1687,7 @@
               <l>Mit itél Nagyságod? mint szólgája, kérdem.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Hát a’ Napszámosok, a’ kik e világnak</l>
@@ -1688,13 +1697,13 @@
               <l>A’ seres kádaknál nem szükségesebbek?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>De a’ summa-pénznél csak nem Nemesebbek.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Országnak szólgája, valaki dolgozik,</l>
@@ -1713,7 +1722,7 @@
               <l>’S malátával derék szegényt meg nem előz.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Hadd szórja-el pénzét; most ládára zárva</l>
@@ -1744,7 +1753,7 @@
         <div type="scene">
           <head type="title">Kilencedik eset</head>
           <stage>HIPPODON, TULIPÁN, POMONÉ, KUKULINI.</stage>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <stage>magát a ’ leguggolásig hajtja meg; Kukulinipedig merevedést
@@ -1763,7 +1772,7 @@
               <l>Rangnak, pénznek, tudom e’ szűz is meghódol.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>A’ Nemesség árnyék a’ szép érdem körűl...</l>
@@ -1774,7 +1783,7 @@
               <l>Az ember a’ renden túl soha sem megyen.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Az Érdem ha magán pénzzel nem segíthet,</l>
@@ -1807,7 +1816,7 @@
               <l>Hogy a’ nagy Urak köztt mélyen hazudozik.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Megértettem Kedet: most csak elmehetnek,</l>
@@ -1818,7 +1827,7 @@
         <div type="scene">
           <head type="title">Tizedik eset</head>
           <stage>HIPPODON, TULIPÁN.</stage>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>E’ paraszt Asszonyság együgyűségében</l>
@@ -1838,7 +1847,7 @@
         </div>
         <div type="scene">
           <head type="title">Tizen-egyedik eset</head>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Pomoné születve, élve parasztságban</l>
@@ -1881,7 +1890,7 @@
         <div type="scene">
           <head type="title">ELSŐ eset</head>
           <stage>HIPPODON, LÁIS.</stage>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Ifiú szép Láis! tekintsd fájdalmomat,</l>
@@ -1892,7 +1901,7 @@
               <l>’S csak test szűlhet testnek itt gyönyörűséget.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Hippodon rangjátúl kiválva itt kedves</l>
@@ -1903,7 +1912,7 @@
               <l>Nehezen lesz velem mint Társ eggyességben.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Szeretnem, tsudálnom kell makacsságodat</l>
@@ -1914,7 +1923,7 @@
               <l>’S mint Nagyságos Aszszony eszeddel úgy tenni?</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>A’ Nagyságos Aszszonyt itt a’ férjfi teszi</l>
@@ -1923,7 +1932,7 @@
               <l>Szolgálóvá lenni, jaj a’ feleségnek.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Ha paraszthoz mégy is, rajtad mindég túl lesz</l>
@@ -1936,7 +1945,7 @@
               <l>’S rangomban fitymálva csalod-meg magadat.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Ha távol esünk is az illy méltósághoz.</l>
@@ -1945,7 +1954,7 @@
               <l>’S még a’ bőltsesség is nem mindég rangon ül.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Nem is ellensége, — ’s Felső Méltóságban</l>
@@ -1964,7 +1973,7 @@
               <l>Hogy sorsát irigyli, véle tsak azt vallja.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Akár igy, akár úgy; nagy Úrné nem leszek</l>
@@ -1974,7 +1983,7 @@
         </div>
         <div type="scene">
           <head type="title">Második eset</head>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Nem tudja sok ember, hogy miben értetlen</l>
@@ -2005,7 +2014,7 @@
         <div type="scene">
           <head type="title">Harmadik eset</head>
           <stage>HIPPODON. XENOXIS.</stage>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Érkezel, Xenoxis! jó hogy ölelhetlek</l>
@@ -2038,7 +2047,7 @@
               <l>A’ Ministerséget; és Láist el-veszem.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Tehát a’ fejedhez illy okoskodás fért,</l>
@@ -2079,7 +2088,7 @@
               <l>’S a’ kinek nincs dóiga unalom köztt vénűl.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Maradnak barátim, kik éltem’ táplálják,</l>
@@ -2088,7 +2097,7 @@
               <l>Nincsen barát nélkül az igaz, ’s jó élet.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Igaz ismérőji a’ Fő Ministernek,</l>
@@ -2113,7 +2122,7 @@
               <l>De illy nagy hivatal eggy van a’ Hazában.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Bár hogy okoskodol, itt a’ szív parantsol,</l>
@@ -2154,7 +2163,7 @@
         <div type="scene">
           <head type="title">Ötödik eset</head>
           <stage>TULIPÁN, KOLUMBINA.</stage>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>A házasság mind jó, hanem kenyér is kell.</l>
@@ -2165,20 +2174,20 @@
               <l>Éhséggel legalább a’ baját nem toldja.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <stage>, eggy tele erszényt mutat.</stage>
               <l>Itt a’jövedelem: emelgessed; nézzed.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Hip, hup morgondia! e’ mind a’ te pénzed.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Nincs egyéb jószágom az Ur’ bolondságnál</l>
@@ -2207,7 +2216,7 @@
               <l>Komondor hivséget mutass; ’s ne félj soha.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Én, a’ Grófom előtt tsak bölcset mutatok:</l>
@@ -2228,7 +2237,7 @@
               <l>Két száz arany lenne jutalmam, sőt több is.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Láisnak kell húzni szerencsénk szekerét...</l>
@@ -2237,7 +2246,7 @@
               <l>’S jó lész azt a' kétszáz aranyat el-hálni.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Pénz, feleség nélkül minden has tsak korog,</l>
@@ -2247,7 +2256,7 @@
               <l>Csit... jön a’ Minister — furcsa tárgyam maradj,</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Állapodj-meg, ne félj, ne rebegj, ne szaladj.
@@ -2258,14 +2267,14 @@
         <div type="scene">
           <head type="title">Hatodik eset</head>
           <stage>HIPPODON, KOLUMBINA.</stage>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Szólottái Láissal? szép Leány! biztathatsz?</l>
               <l>Örömöt, víg kedvet, reménységet adhatsz?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Új eset! változás kavarodott közénk</l>
@@ -2280,7 +2289,7 @@
               <l>Hogy ha fel-fedezem szeget üt agyában.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Kedves Kolumbinám! micsoda dördűlés.</l>
@@ -2293,7 +2302,7 @@
               <l>’S felső-rang ’s hatalom magához nem térit?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Fél Filosofusnak hirdetteti magát,</l>
@@ -2311,7 +2320,7 @@
               <l>De ha nincs ajánlás fel se is fedezem.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Ha az igazsággal, emberséggel egyez</l>
@@ -2319,7 +2328,7 @@
 								nevezz.<stage>felemeli</stage></l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Pomoné a’ fiját meg-nemesitené,</l>
@@ -2338,7 +2347,7 @@
               <l>Gyermekségeiben ’s képzelt javaiban.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>De van a’ Világnak elkészült kaptája,</l>
@@ -2351,7 +2360,7 @@
               <l>’S szívemből Aszszonyod áldozatot nem tesz.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Mindenre fogadom, a’ mi e' Világon</l>
@@ -2360,7 +2369,7 @@
               <l>És e’ kevély szívet végre meghóditom.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Eszedre bízom hát egész esetemet...</l>
@@ -2371,7 +2380,7 @@
         </div>
         <div type="scene">
           <head type="title">Hetedik eset</head>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Akárhogy’ elsüllyed a’ szekér, kiviszem,</l>
@@ -2401,7 +2410,7 @@
               <l>Fedezd-fel, ’s töröld-el szivemnek félelmét.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Uram! eggy Minister olly állat nemében</l>
@@ -2427,7 +2436,7 @@
               <l>Hogy titkát a’ Világ észre ne vehesse.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>A’ Minister, tudd-meg, örökké úgy tettet,</l>
@@ -2442,7 +2451,7 @@
               <l>’S csak setétben szorít ez az elrejtett kéz.</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Uram! mind úgy élünk; Egész Világ tettet...</l>
@@ -2453,14 +2462,14 @@
               <l>Hogy ki miben fárad, és ritkán hibázunk.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Miben állott meg hát50 az a’ fontos dolog,</l>
               <l>A’ mi most közöttünk ennyi szóban forog?</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Igaz- é, hogy Láist el akarja venni,</l>
@@ -2469,7 +2478,7 @@
               <l>De elvontathatok ha Hippodon kérte.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <stage>nevet</stage>
@@ -2493,7 +2502,7 @@
               <l>És a'mint hirdeti, szavában meg hiszed</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Az embert mindenkor csak a’ természetben</l>
@@ -2516,7 +2525,7 @@
         <div type="scene">
           <head type="title">Második eset</head>
           <stage>XENOXIS, LAIS, PELOSIS.</stage>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Érkezel, szép Lais: Te forgassz fejünkben,</l>
@@ -2529,7 +2538,7 @@
               <l>’S hogy rangját letegye érted, arra kérted.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Rangja, szive, keze, kincse, nincs kérdésben</l>
@@ -2540,7 +2549,7 @@
               <l>Pelózis is ember, mint más az életben.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Hogy hangzik, szép Láis! hogy a’ Fő Minister</l>
@@ -2573,7 +2582,7 @@
               <l>Olly mint szép palota, a' melly üresen áll.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Uram! mindég elég az érdem, hasznának</l>
@@ -2596,7 +2605,7 @@
               <l>Igazán vak; ’s szive szájjal nem hazudtat.</l>
             </lg>
           </sp>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Mondj-le Hippodonról, ha ez az értelmed,</l>
@@ -2617,7 +2626,7 @@
               <l>Zárd-el életedet,’s a’ hol tetszik, maradgy.</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>O! bóldog tanácsiás! — Lais, vedd szivedbe</l>
@@ -2628,7 +2637,7 @@
               <l>’S ismérd meg végtére örökös hivedet.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Jól van! A’ Minister helyén hadd maradgyon</l>
@@ -2639,7 +2648,7 @@
         </div>
         <div type="scene">
           <head type="title">Harmadik eset</head>
-          <sp who="xenoxis">
+          <sp who="#xenoxis">
             <speaker>XENOXIS</speaker>
             <lg>
               <l>Mikor a’ szokásból ki-hág az értelem,</l>
@@ -2655,14 +2664,14 @@
         <div type="scene">
           <head type="title">Negyedik eset</head>
           <stage>TULIPÁN, POMONÉ, KOLUMBINA, KUKULINI.</stage>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Meg van a’ Nemesség .... Tulipán szerzetté.</l>
               <l>Eszét, agyvelején mind addig élezte.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Elhiszem! Fáradtság nem volt illy keserves.</l>
@@ -2673,13 +2682,13 @@
               <l>’S az orrát ellenem örökre feldúzta.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Hát a’ Nagy Urak is duzzák az orrokat?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Még ezek viselnek szép, nagy horgasokat</l>
@@ -2689,21 +2698,21 @@
               <l>’S elapadt szemeket mutat a tanúlt agy.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>A’ Tudománynak is van hát füle, ’s farka?</l>
               <l>És orral, homlokkal, ábrázatja tarka?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Elhiszem, hogy tarka; ’s farka úgy elnyúlik</l>
               <l>Hogy míg megmérhetjük, a’ Világ el-múlik.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Hordja-el a’ lidértz... Nem kell itt tudomány</l>
@@ -2713,34 +2722,34 @@
               <l>Esztendeig való bérét elvesztette.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>De ezt ugyan tőlem mind vissza szerzette.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Háromszáz forinttal kevesebb magammal</l>
               <l>Vagyok, Nagy Aszszonyom! ’s egész Asztalommal.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Ó, Aszszonyom Anyám! már ezt kifizetjük...</l>
               <l>Hiszen a’ disznóból meg’ helyre tehetjük.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Két száz arany is volt külön, ígéretben...</l>
               <l>Tsak így kell vesződni e' földön, a' testben.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Uram! a’ kinek van, meg fizet kedvéért,</l>
@@ -2748,13 +2757,13 @@
               <l>Ha a’ Nemes-levél valóbann bizonyos?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Meg van; mellyel boldog, minden, ki vagyonos.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <stage>egy zsatskót nyújtzsebjéből.</stage>
@@ -2762,7 +2771,7 @@
               <l>Nyugszik öszvekötve más kis rongyotskában.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <stage>elveszi, ’s elteszi:</stage>
@@ -2772,19 +2781,19 @@
               <l>Vagyok, és sok Urnák szóiga hatalmassa.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>O! Tulipán Bácsi! hogy hijjam már magam’?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Spectabilis, Tess Ur.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Lám! Nemes lett ágam.</l>
@@ -2792,7 +2801,7 @@
               <l>Spectabile domné a’ szülöttem Urfim.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <stage>nevet és szökdös.</stage>
@@ -2803,7 +2812,7 @@
               <l>A’ széles Világra hírét széllyel fújják.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <stage>köröskörül nézegetve az Ifiat.</stage>
@@ -2817,7 +2826,7 @@
               <l>Mint a’ Lengyel pudli. Szemét sem láthatom.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Aszszonyom! én igen nagy módit viselek</l>
@@ -2826,7 +2835,7 @@
               <l>Vagy a’ nagy piaczon, és vásárban állok.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Mondhatom, hogy inkább bolondot mutatnék</l>
@@ -2840,7 +2849,7 @@
               <l>Hát az ujjaiban petsétnyomót tenni?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>De már <hi>Téntes</hi> Urfi czimernek kell lenni,</l>
@@ -2852,7 +2861,7 @@
               <l>Melly által Úrrá lett, ’s honnan jött tudhassa.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Aha! most értem már. Mi mindég sert főztünk.</l>
@@ -2863,14 +2872,14 @@
               <l>’S szépen rá mettszetni a’ nagy petsétünkre.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>De, hogy fényes legyen, a’ hold világot is</l>
               <l>A’ két ártány közzé tegyük, ’s a’ napot is.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>A’ kád óldalára jobb ha helyheztetjük</l>
@@ -2885,7 +2894,7 @@
               <l>Hogy ne légyen illyen tzimer az országban.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Nincs illyen, fogadom, a’ széles világban.</l>
@@ -2899,7 +2908,7 @@
         <div type="scene">
           <head type="title">Ötödik eset</head>
           <stage>HYPPODON, ÉS AZ ELÉBBENIEK.</stage>
-          <sp who="#hyppodon">
+          <sp who="#hippodon">
             <speaker>HYPPODON</speaker>
             <lg>
               <l>Örvendem, Aszszonyom! mert Urunk kegyelmes,</l>
@@ -2917,7 +2926,7 @@
               <l>S ha nincs közben járó, nincs reánk figyelem.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Nagyságod kegyelmét olly nagyon köszönöm</l>
@@ -2926,7 +2935,7 @@
               <l>És Uri székemet pompáson meg ülöm.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Vezessed, Tulipán, őket a' Tanácshoz</l>
@@ -2937,14 +2946,14 @@
         <div type="scene">
           <head type="title">Hatodik eset</head>
           <stage>HIPPODON, KOLUMBINA.</stage>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Hol vagyok? hogy tegyek? mi legyek? mondd-meg már</l>
               <l>Veszteség, nyereség; hadd tudjam, rám mi vár?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Szűntelen hánykódik: tsak okaiba vész...</l>
@@ -2965,7 +2974,7 @@
               <l>Igy Filosofussá a’ leány nem lehet.</l>
             </lg>
           </sp>
-          <sp who="hippodon">
+          <sp who="#hippodon">
             <speaker>HIPPODON</speaker>
             <lg>
               <l>Egész Görög ország’ minden Tudósai</l>
@@ -2993,7 +3002,7 @@
 								elmegyen.</stage></l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <stage>kaczag</stage>
@@ -3027,7 +3036,7 @@
         <div type="scene">
           <head type="title">ELSŐ eset</head>
           <stage>LAIS, KOLUMBINA.</stage>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Ifiú szépséggel és ésszel meglehet</l>
@@ -3050,7 +3059,7 @@
               <l>’S a’ kinek asszonya nincsen, a’ gályán űl!</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>De a’ sok játék közt az ember elmarad;</l>
@@ -3061,7 +3070,7 @@
               <l>És mi nálunk nélkűl, bóldogok lehetnek.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Nem isméred még a’ férfji természetet...</l>
@@ -3082,7 +3091,7 @@
               <l>És Isten Aszszonnyá tészi személyedet.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Mitsoda boldogság, hogy tsak ujja’ hegyit</l>
@@ -3100,13 +3109,13 @@
               <l>Ne játszunk. Hippodon választ vár ma tőlem.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Tőled értekezik tehát így felőlem?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Reá vagyon kötve testemre lelkemre...</l>
@@ -3115,7 +3124,7 @@
               <l>’S játékot, örömöt, szerencsét öszveront</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Hidd-el, Kolumbina, magamat sem tudom</l>
@@ -3158,7 +3167,7 @@
               <l>Van, a’ jó ember is a’ hív Feleséggel.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Zajgás után édes az öszvebékéllés...</l>
@@ -3171,7 +3180,7 @@
               <l>’S házasságban jó, ha az ember néha vak.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Hagyd-el — Az okosság örökké szomorú,</l>
@@ -3182,7 +3191,7 @@
         <div type="scene">
           <head type="title">Második eset</head>
           <stage>LAIS, KOLUMBINA, KUKULINI.</stage>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Imhol, itt érkezik a’ pompás szerencse...</l>
@@ -3191,14 +3200,14 @@
               <l>Bátran lehet élni kedvben, nyájasságban.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Ki tudja, nem jobb é a’ Fő Méltóságnál</l>
               <l>Pompás Herczegeknél és makacs Uraknál.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Nagyságos Kisasszony! én már Úrfi vagyok,</l>
@@ -3207,7 +3216,7 @@
               <l>Jelentem magamat; s’ egyébaránt vagyok...</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Hagyjuk-el: szélvész lesz, vagy Égi háború...</l>
@@ -3218,7 +3227,7 @@
               <l>Kell venni, ’s le vetni a’ paraszt félelmet.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>De nem tudom még ezt mind, hogy hol árúlják</l>
@@ -3228,7 +3237,7 @@
               <l>Köböl számra veszem.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>O! én kádra mérem,</l>
@@ -3253,7 +3262,7 @@
               <l>Magát, és még e’ négy darabot meg hagyta.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Ezek nem kellenek a’ maníerok közzül...</l>
@@ -3264,33 +3273,33 @@
               <l>’S feleségem’ is, ha így tész, megverem</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Soha sem is hiszik-el, hogy Úri ember.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>De vad állat is az valaki Aszszonyt ver.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>A’ ki feleséghez és kísérlethez üt,</l>
               <l>A’ sullya magára fordúl fel mindenütt.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Hát azt mondjam néki, hogy azért szeretem?</l>
               <l>De én nem hazudok, ’s magam nem tettetem.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>A’ hazugság szükség; és tettetés nélkül</l>
@@ -3303,13 +3312,13 @@
               <l>Mint a’ csendes erkölcs s’ kedvetlen igazság.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Minek az igazság hát az emberek köztt?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Takaródzó; és csak úgy nézik, mint eszközt,</l>
@@ -3317,7 +3326,7 @@
               <l>A’ felemelkedés, haszon és veszteség.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Lehet é az ember illyen maníer nélkül?</l>
@@ -3326,7 +3335,7 @@
               <l>Hogy élnék igazság nélkül csak őrdögűl?</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>A’ hol igazság van, vagyon hamisság is,</l>
@@ -3343,7 +3352,7 @@
         <div type="scene">
           <head type="title">Harmadik eset</head>
           <stage>PELÓZIS, és az előbbiek.</stage>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Leveretve jövök, sorsom roszszra dűlve,</l>
@@ -3364,7 +3373,7 @@
               <l>Mit tehettél róla ... hordozod az igát!</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Ez a’ szűkségtelen kinos bölcselkedés</l>
@@ -3375,7 +3384,7 @@
               <l>’S ha lehet verjük-le bennünk a’ félelmet!</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Többet sorsom ellen soha nem küszködöm</l>
@@ -3394,7 +3403,7 @@
               <l>Örökre bútsúzom tőled, és már többé —</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Lehetetlen lenni már eszetlenebbé!</l>
@@ -3410,14 +3419,14 @@
               <l>’S okosságod benned ne csináld inségnek.</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Lehet é, hogy érttem Hippodont meg vessed</l>
               <l>’S Erkőlcs-kevélységből ezt így tettethessed?</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Méltóságnak, rangnak rabjává nem lettem,</l>
@@ -3428,21 +3437,21 @@
               <l>Vessd-el kétségedet, ragadj életemhez.</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Igy tehát, bölcs Lais! bár ha kevélységből</l>
               <l>Jöszsz is; a’ szívemre ezer boldogság gyűl?</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Kevélység, boszszúlás, szeretet ’s más legyen,</l>
               <l>Tsak hogy magával az emberszépen tegyen.</l>
             </lg>
           </sp>
-          <sp who="kukulini">
+          <sp who="#kukulini">
             <speaker>KUKULÍNI</speaker>
             <lg>
               <l>Hajótörést szenved, látom, reménységem:</l>
@@ -3455,13 +3464,13 @@
               <l>Tehát szépségétől minden más szaladjon</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Kisértet é ez, a’ látás határában?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Rigmussal van tele majd minden szavában,</l>
@@ -3471,7 +3480,7 @@
               <l>Külömben meglehet, tsak esze ne legyen...</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LÁIS</speaker>
             <lg>
               <l>Nincs a’ vágyódásnak a’ szivben határa,</l>
@@ -3496,7 +3505,7 @@
         <div type="scene">
           <head type="title">Negyedik eset</head>
           <stage>POMONÉ, és az előbbiek.</stage>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <stage>felszóval:</stage>
@@ -3524,14 +3533,14 @@
               <l>Nem jó a’ paraszt sor, a’ Manó megenné!</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>De csak mától fogva van a’ Familia,</l>
               <l>’S nincs még Nemzetségből ez az Aszszony fija.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>Nagy adót fizetett a’ Kukulini had;</l>
@@ -3556,14 +3565,14 @@
               <l>Nemes Vér, azért hogy csak a’ porban hever.</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Nem szűkség már erről tovább okoskodni,</l>
               <l>’S jobb az illyenekben látva vakoskodni.</l>
             </lg>
           </sp>
-          <sp who="pomone">
+          <sp who="#pomone">
             <speaker>POMONÉ</speaker>
             <lg>
               <l>No hát a’ Kisasszonyt kérem a’ fiamnak</l>
@@ -3571,13 +3580,13 @@
               <l>Százezer forintra üt fel az értéke.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>Az illyen szűlének szép a’ verejtéke.</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <stage>félre</stage>
@@ -3587,13 +3596,13 @@
               <l>És pénzzel fontolják csekély érdememet.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Látod Kukulinit?</l>
             </lg>
           </sp>
-          <sp who="pelozis">
+          <sp who="#pelozis">
             <speaker>PELÓZIS</speaker>
             <lg>
               <l>Semmi, mert pénze van,</l>
@@ -3610,20 +3619,20 @@
         <div type="scene">
           <head type="title">Ötödik eset</head>
           <stage>TULIPÁN, ’s a’ többi.</stage>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Micsoda szép sereg? ki ügyét folytatták?</l>
               <l>’S az Országnak mellyik rúdját igazgatják?</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <l>A’ te tanácsodra vár itt talán két Szűz.</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>Jól van — hiszen rajtam még a' Minister büz.</l>
@@ -3645,7 +3654,7 @@
               <l>’S végre levágom, ha meg telik a’ rovás.</l>
             </lg>
           </sp>
-          <sp who="kolumbina">
+          <sp who="#kolumbina">
             <speaker>KOLUMBINA</speaker>
             <lg>
               <stage>kezet csapva</stage>
@@ -3657,7 +3666,7 @@
               <l>És több kárt vallanak, mint mi, e szélvészszel.</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Hagyd-el, itt az idő; nincsen több halasztás</l>
@@ -3666,7 +3675,7 @@
               <l>Nagyobb boldogságot hol lehessen hinni?</l>
             </lg>
           </sp>
-          <sp who="tulipan">
+          <sp who="#tulipan">
             <speaker>TULIPÁN</speaker>
             <lg>
               <l>A’ ki élni kíván tellyes szabadságban</l>
@@ -3677,7 +3686,7 @@
               <l>De pénzzel, vagyonnal kitsinyt bóldogithat</l>
             </lg>
           </sp>
-          <sp who="lais">
+          <sp who="#lais">
             <speaker>LAIS</speaker>
             <lg>
               <l>Már én ezt választom ... Mint példa hadd legyen</l>

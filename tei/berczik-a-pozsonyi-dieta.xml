@@ -179,7 +179,7 @@
           <person xml:id="szebeni" sex="MALE">
             <persName>Szebeni Károly</persName>
           </person>
-          <person xml:id="patayné" sex="FEMALE">
+          <person xml:id="patayne" sex="FEMALE">
             <persName>Patay Sámuelné</persName>
           </person>
           <person xml:id="ilonka" sex="FEMALE">
@@ -188,11 +188,14 @@
           <person xml:id="budayne" sex="FEMALE">
             <persName>Buday Istvánné</persName>
           </person>
-          <person xml:id="szentiványine" sex="FEMALE">
+          <person xml:id="szentivanyine" sex="FEMALE">
             <persName>Szentiványi Györgyné</persName>
           </person>
           <person xml:id="koroskenyi" sex="MALE">
             <persName>Köröskényi Dani</persName>
+          </person>
+          <person xml:id="mihaly" sex="MALE">
+            <persName>Mihály</persName>
           </person>
           <person xml:id="jaszai" sex="MALE">
             <persName>Jászai Gábor</persName>
@@ -1899,7 +1902,7 @@
                             mintegy neki kedveskedve),</stage>
             <p>Leider — leider.</p>
           </sp>
-          <sp who="#budayné">
+          <sp who="#budayne">
             <speaker>Budayné</speaker>
             <stage>(magyarosan ejtve ki a németet. Krisztinának kedveskedve).</stage>
             <p>A bizony, hogy lájder!</p>
@@ -4411,7 +4414,7 @@
             <speaker>Okolicsányi.</speaker>
             <p>A kolostorban?<stage>(Huszár hozza az ételeket. Hárman előbb keresztet
                                 vetnek s halkan asztali áldást mondanak. Azután leülnek. Köröskényi
-                                és Mihály kiszolgálják. csak Szebeni eszik. — Magda és Okolicsányi
+                                és Mihály kiszolgálják. Csak Szebeni eszik. — Magda és Okolicsányi
                                 csókolóznak.)</stage>
             </p>
           </sp>

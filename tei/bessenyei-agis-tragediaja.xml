@@ -345,7 +345,7 @@
               <l>Látom, fél Hazámnak terhe lett életem.</l>
             </lg>
           </sp>
-          <sp who="#amares">
+          <sp who="#amfares">
             <speaker>ÁMARES</speaker>
             <lg>
               <l>A’ tudatlan község, jól-lehet újságol</l>
@@ -1454,7 +1454,7 @@
               <l>Ki méltán gerjedhet hitetlen fatyjára.</l>
             </lg>
           </sp>
-          <sp who="#kleomrotes">
+          <sp who="#kleombrotes">
             <speaker>KLEOMROTES</speaker>
             <lg>
               <l>A’melly Király elég az úralkodásra,</l>
@@ -2589,7 +2589,7 @@
         <div type="scene">
           <head type="title">ELSŐ jelenés</head>
           <stage>ÁGIS, ÁGISTRAT.</stage>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>Ágis, tudod-é hát, mi lett életedből?</l>
@@ -2609,7 +2609,7 @@
               <l>Nem lehet nagy terhe továbbá dolgunknak.</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>Míg lántzon van egy vad, mérge a’dig enged;</l>
@@ -2633,7 +2633,7 @@
               <l>Fija’ életéért könnyen lesz félelme.</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l><stage>keservesen</stage></l>
@@ -2670,7 +2670,7 @@
               <l>Ne rettegj magad is.</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>Mit tegyek szívemmel?</l>
@@ -2696,7 +2696,7 @@
               <l>Érettem helyesen úgy nem bánkódhattál.</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>Halgass valaki jő; talám a’ Király ez,</l>
@@ -2729,7 +2729,7 @@
               <l>Ne szorongasd tőlem hoszszasan titkodat.</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>Fejedelem, nehéz nálam hitelt nyerni,</l>
@@ -2800,7 +2800,7 @@
               <l>A’ Lelkűnknek rendelt örök jutalomra.</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>A ’nagy Isteneknek kerüld haragjokat,</l>
@@ -2888,7 +2888,7 @@
               <l>Bár nékem lehetne kétséget viselnem!</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>Magyarázd Télónis férjednek titkodat,</l>
@@ -2941,7 +2941,7 @@
               <l>Ah m’ért nem süllyed-el egy illy romlott Haza!</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>Mi haszna, fárasztjuk gyötrelmünkkel szívünk'?</l>
@@ -2986,7 +2986,7 @@
               <l>Parantsolj véremmel.</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>Ágis, hová indúlsz?</l>
@@ -3800,7 +3800,7 @@
               <l>Vagy nem engedhet még tetszésünknek szívek.</l>
             </lg>
           </sp>
-          <sp who="#kleombrtoes">
+          <sp who="#kleombrotes">
             <speaker>KLEOMBRTOES</speaker>
             <lg>
               <l>Tiszta életemmel nem kárhoztathatom,</l>
@@ -4003,7 +4003,7 @@
               <l>Ágis!<stage>az urára dül.</stage></l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l>Örökös gyötrelem!</l>
@@ -4047,7 +4047,7 @@
               <l>kegyetlenek!</l>
             </lg>
           </sp>
-          <sp who="#agistrat">
+          <sp who="#agisztrat">
             <speaker>ÁGISTRAT</speaker>
             <lg>
               <l><stage>fúldokolva</stage></l>
