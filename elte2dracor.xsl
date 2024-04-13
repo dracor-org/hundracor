@@ -50,26 +50,6 @@
     </TEI>
   </xsl:template>
 
-  <xsl:template match="tei:teiHeaderXXX">
-    <xsl:copy/>
-    <standOff>
-      <xsl:if test="$meta/@wikidata">
-        <listRelation>
-          <relation name="wikidata">
-            <xsl:attribute name="active">
-              <xsl:text>https://dracor.org/entity/</xsl:text>
-              <xsl:value-of select="$meta/@id"/>
-            </xsl:attribute>
-            <xsl:attribute name="passive">
-              <xsl:text>http://www.wikidata.org/entity/</xsl:text>
-              <xsl:value-of select="$meta/@wikidata"/>
-            </xsl:attribute>
-          </relation>
-        </listRelation>
-      </xsl:if>
-    </standOff>
-  </xsl:template>
-
   <xsl:template match="tei:teiHeader">
     <xsl:variable name="dates" select="
       /tei:TEI/tei:teiHeader//tei:sourceDesc//tei:bibl
@@ -121,6 +101,17 @@
         <xsl:call-template name="list-relation"/>
       </standOff>
     </xsl:if>
+  </xsl:template>
+
+  <!--
+    insert Wikidata ID into existing standOff element not having a wikidata
+    listRelation
+  -->
+  <xsl:template match="tei:standOff[not(tei:listRelation[@name='wikidata'])]">
+    <standOff>
+      <xsl:apply-templates/>
+      <xsl:call-template name="list-relation"/>
+    </standOff>
   </xsl:template>
 
   <xsl:template name="list-relation">
