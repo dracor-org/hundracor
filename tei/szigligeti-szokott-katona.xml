@@ -87,13 +87,13 @@
           <respStmt>
             <resp>Original Electronic Edition</resp>
             <persName>
-              <surname/>Szever 
-                            <forename/>Pál 
-                        </persName>
+              <surname>Szever</surname>
+              <forename>Pál</forename>
+            </persName>
             <persName>
-              <surname/>Csige
-                            <forename/>Mónika
-                        </persName>
+              <surname>Csige</surname>
+              <forename>Mónika</forename>
+            </persName>
           </respStmt>
         </bibl>
         <bibl type="originalSource">
@@ -280,7 +280,7 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
+    <listEveßnt>
       <event type="print" when="1843">
         <label>1843. november 25.</label>
       </event>
@@ -290,7 +290,7 @@
       <event type="written" when="1843">
         <desc/>
       </event>
-    </listEvent>
+    </listEveßnt>
   </standOff>
   <text>
     <front>
