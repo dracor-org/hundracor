@@ -2145,7 +2145,7 @@
         <div type="scene">
           <head type="title">VII. JELENÉS.</head>
           <stage>Elébbiek, Lehel.</stage>
-          <sp who="#lehel">
+          <sp who="#lehel_vezer">
             <speaker>LEHEL.</speaker>
             <stage>(Bejön, kezében harczi bárdja, oldalán kürtje.)</stage>
           </sp>
@@ -2269,7 +2269,7 @@
               <l>Csak aztán magadon ne üss vele sebet.</l>
             </lg>
           </sp>
-          <sp who="#tas #szabolcs #gyula #kund #ors #tohotom #lehel">
+          <sp who="#tas #szabolcs #gyula #kund #ors #tohotom #lehel_vezer">
             <speaker>VEZÉREK MIND A HETEN.</speaker>
             <stage>(Jellek ravatala mögé állnak, kardjukat kihúzva.)</stage>
           </sp>
@@ -9918,7 +9918,7 @@
               <l>Mikor egy nép örül, anyasziv ne vérezz!</l>
             </lg>
           </sp>
-          <sp who="#arpad_fejedelem #marot">
+          <sp who="#arpad_fejedelem #marot_csakan">
             <speaker>ÁRPÁD, MARÓT.</speaker>
             <stage>(Egymás kezét szorítják.)</stage>
           </sp>

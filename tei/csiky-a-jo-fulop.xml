@@ -752,7 +752,7 @@
             <speaker>MATILD:</speaker>
             <p>Miért? Azt hiszem, így is elég jól vagyok.</p>
           </sp>
-          <sp who="#fulop">
+          <sp who="#hernadi_fulop">
             <speaker>FÜLÖP</speaker>
             <stage>(nem fordulva hátra, komor, tompa hangon):</stage>
             <p>Úgy van! Várdai Ottó számára így is elég jól vagyunk.</p>
@@ -773,7 +773,7 @@
             <p>Talán ideje sem volt öltözni... nagyon érdekes beszéde lehetett
                             Fülöppel.</p>
           </sp>
-          <sp who="#fulop">
+          <sp who="#hernadi_fulop">
             <speaker>FÜLÖP</speaker>
             <stage>(hirtelen visszafordul):</stage>
             <p>Velem? Ugyan mi lett volna? Egy szót sem beszéltünk egymással. Matild
@@ -785,7 +785,7 @@
             <stage>(nevetve):</stage>
             <p>Ejnye, be szabadkozol!</p>
           </sp>
-          <sp who="#fulop">
+          <sp who="#hernadi_fulop">
             <speaker>FÜLÖP:</speaker>
             <p>Az égre, csak nem fogsz rám gyanakodni, legjobb barátodra?!</p>
           </sp>
@@ -800,7 +800,7 @@
                             csak akkor kerülj elő, mikor a vendégek már itt lesznek. Ügyesen játszd
                             szerepedet, mintha akkor érkeznél a városból!</p>
           </sp>
-          <sp who="#fulop">
+          <sp who="#hernadi_fulop">
             <speaker>FÜLÖP:</speaker>
             <p>Bízzék ügyességemben!<stage>(Menet közben, halkan Matildhoz.)</stage>
             </p>

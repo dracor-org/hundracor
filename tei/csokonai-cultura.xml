@@ -948,7 +948,7 @@
         <div type="scene">
           <head type="title">HARMADIK JELENÉS</head>
           <stage>Conrad és Firkász.</stage>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Carsamadiner.</p>
           </sp>
@@ -956,7 +956,7 @@
             <speaker>FIRKÁSZ.</speaker>
             <p>Salveat Conrad, salveat. - Hát hol jár, Conrad, hol, hol?</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Eben asz örek ur az Knediger her.</p>
           </sp>
@@ -964,7 +964,7 @@
             <speaker>FIRKÁSZ.</speaker>
             <p>Ugy a Dominus Spectabilisnál?</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Ja frajlic od, od.</p>
           </sp>
@@ -972,7 +972,7 @@
             <speaker>FIRKÁSZ.</speaker>
             <p>Et cui bono?</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Asz piszon nem tutom tessék szúr.</p>
           </sp>
@@ -980,7 +980,7 @@
             <speaker>FIRKÁSZ.</speaker>
             <p>Miért volt ottan, miért?</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Ha mierd? A Ludvig Zaszlaki az én Batron diszdeli a Knediger her mindjárt
                             el lesz jönni kicsin vizitre.</p>
@@ -989,7 +989,7 @@
             <speaker>FIRKÁSZ.</speaker>
             <p>Ugyan úgy-é?</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Ja frajlig - Asszolgaja.</p>
           </sp>
@@ -1152,7 +1152,7 @@
                             környéke csínos és együgyű, pedig a magyar minden dolgába vagy ronda,
                             vagy buja, és amiatt vagy paraszt oeconomus, vagy pankrót gavallér.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Sziszt var, asz ikkasz.</p>
           </sp>
@@ -1162,7 +1162,7 @@
                             értelmes ember vagy amint Marheze Buonarokka szokta mondani che szad'zo,
                             che discreto.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Sziszt var, asz ikkasz.</p>
           </sp>
@@ -1172,7 +1172,7 @@
                             mondhatni, hogy ő maga a gyenge érzékenység, vagy igazabban di
                             certlikkajt la tandres.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Sziszt var, aszikkasz.</p>
           </sp>
@@ -1648,7 +1648,7 @@
             <speaker>FENEKES.</speaker>
             <p>Jó estét adgyon Isten!</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Szíp jó este!</p>
           </sp>
@@ -1666,7 +1666,7 @@
             <p>Ezzel a Conrad sógorral beszélgetnék, vagy mi; de az Isten álgyon meg
                             bennünket ollatén állapotba, nem igen tudunk elmenni egymás nyelvén.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Sziszt var, asz ikhasz.</p>
           </sp>
@@ -1686,7 +1686,7 @@
             <p>Hozzon, édes Pofók bácsim egy kis tüzet onnan a konyháról; de szépet,
                             menyecske szeműt.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Ah, ne pipázzon maga Fenekes, absajlic, csúnya pides az a dohánfüst,
                             korcsmába való.</p>
@@ -1695,7 +1695,7 @@
             <speaker>FENEKES.</speaker>
             <p>Ebalelkét, hát maga nem dohánzik?</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Ah! nem, csak én kicsin snuf tabak <stage>Pattogtatja a
                             pixisét.</stage>
@@ -1708,7 +1708,7 @@
                             le az ágyról,<stage>ezt nátháson mondja</stage> ollyan nagy lesz tőlle
                             az óra, mint a sós ugorka, osztán verhenyeges mint a vergánya.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Ah, mit beszél maga, Fenekes az a tubák a szemet tisztígya az órát
                             tisztígya, szárogatja.</p>
@@ -1720,7 +1720,7 @@
                             soha a tubákos embernek sohasem lát jobb szemmel az apja is, mint aki
                             még ki se tudja mondani a tubák nevét.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Látja, Fenekes! ha az ember kicsin alhatnám, csak veszi, mindjárt nincs
                             van úgy alhatnám.</p>
@@ -1731,7 +1731,7 @@
                             mindig tömné az órát, hogy el ne alugyék. Ho-ho, a' hát csak szunyató
                             rest embernek való.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Jaj, láttya Fenekes, az nem is illik minden paraszt ember pebelnek az
                             csak csinalik csinos ember, úri, okos, galant.</p>
@@ -1747,7 +1747,7 @@
             <speaker>FENEKES.</speaker>
             <p>Ah, édes Bácsim, - már ennek annyi haszna van, mint ördög.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Az bizon, mint zörtök pujik hát bele.</p>
           </sp>
@@ -1760,7 +1760,7 @@
                             a pajtásság, osztán mikor az embernek egyéb dolga nincs, pipára gyújt,
                             hogy az ördög hivalkodva ne találja.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Asz piszon, mint zördök pujék ked bele.</p>
           </sp>
@@ -1770,7 +1770,7 @@
                             pipát vesz a szájába, a bajusszát kétfelé törlénti, meglehet, nem lehet,
                             látja Ked, sógor, mingyár millyen figuriás gyerek lesz belőle.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Az pizoni csak kinesség, az picsiletes ember az nem szereti a dohánfist,
                             a dáma is nem megszereti; a szoba pites, mint pokol, ember részeg, övé
@@ -2032,7 +2032,7 @@
                             magyarnak sem volt szerencséje, nagy tudósokkal, doctorokkal,
                             professorokkal, sőt hofratokkal barátkoztam.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Sist var, asz ikkasz.</p>
           </sp>
@@ -2043,7 +2043,7 @@
                             diplomáimat? ki tudna ott engemet az én csatos cipőkömért, saxoniai
                             strimflieimért méltóképpen tisztelni.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Sist var, asz ikkasz.</p>
           </sp>
@@ -2054,7 +2054,7 @@
                             amellyekhez én külső országon hozzászoktam, hol kapna azok között ottan
                             az ember az originalis magyarok között.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Sist var, asz ikkasz.</p>
           </sp>
@@ -2071,7 +2071,7 @@
                             tanítványa, Blutarm ajándékozta, azonnal akárhol is nagyobb szerencsét
                             is kaphatok a pallérozatlan Magyarországba.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Sist var, asz ikkasz.</p>
           </sp>
@@ -2084,7 +2084,7 @@
                             el az öreg Tisztesnek; mert nekem az őkeme domidoctus magyaros házára
                             nézni is derogál.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Klaik Klaik, mingyárt, mingyárt, aszolgája Her patron.</p>
           </sp>
@@ -2097,7 +2097,7 @@
         <div type="scene">
           <head type="title">HARMADIK JELENÉS</head>
           <stage>Tisztes és Conrad.</stage>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Asszolgája, knediger her.</p>
           </sp>
@@ -2105,7 +2105,7 @@
             <speaker>TISZTES.</speaker>
             <p>No - mi kell?</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Az én patron, her Szazlaki fan Ludvig diszteli a knediger her, küldi ez a
                             kis cettel.</p>
@@ -2114,7 +2114,7 @@
             <speaker>TISZTES.</speaker>
             <p>Addide, hadd lássam a cédulátokat, ördög szánkázzon meg.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Idd van, knediger her.</p>
           </sp>
@@ -2132,7 +2132,7 @@
                             indulóba is vagyok. Csak tessék, arra az út, merre a kerékvágás. Maradok
                             a Tekintetes Úrnak s a többi. Már hát visz az ördög benneteket.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Ah nem, Knediger her, szertig nem fisz, csak 4 jó ló, fáin
                             posztilion.</p>
@@ -2141,7 +2141,7 @@
             <speaker>TISZTES.</speaker>
             <p>No hát csak vesszetek ördögbe.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Hát parancsol szén szur valami írni, vagy mondani a Knediger, her?</p>
           </sp>
@@ -2149,7 +2149,7 @@
             <speaker>TISZTES.</speaker>
             <p>Szóval is megmondhatod, hogy csak vigyen az ördög benneteket.</p>
           </sp>
-          <sp who="#conrad">
+          <sp who="#conrad_szelepurdi">
             <speaker>CONRAD.</speaker>
             <p>Asszolgája.<stage>Magába menvén.</stage>Figye ked szerteg tigedet fin
                             polond, az nekünk nem figyen.</p>

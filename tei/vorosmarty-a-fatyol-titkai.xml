@@ -145,9 +145,6 @@
           <person sex="UNKWON" xml:id="nep">
             <persName>NÉP</persName>
           </person>
-          <person sex="UNKWON" xml:id="kivul">
-            <persName>KÍVÜL</persName>
-          </person>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -161,8 +158,8 @@
         <label>1836. március 27.</label>
       </event>
       <event notBefore="1833-03" notAfter="1834-08-15" type="written">
-				1833. márciusa után, 1834. augusztus 15. előtt
-			</event>
+        <label>1833. márciusa után, 1834. augusztus 15. előtt</label>
+      </event>
     </listEvent>
   </standOff>
   <text>
@@ -2967,9 +2964,8 @@
         <sp who="#lidi">
           <speaker>LIDI</speaker>
           <p>No, nekem elmaradhatsz ilyen finomságokkal.</p>
-          <stage>KÍVÜL KIÁLTÁS</stage>
-          <p>Péter!</p>
         </sp>
+        <stage>Kívül kiáltás: <hi rend="italic">Péter!</hi></stage>
         <sp who="#csiszar">
           <speaker>CSÍSZÁR</speaker>
           <p>Hallom, de nem megyek.</p>
@@ -2982,10 +2978,7 @@
           <speaker>CSÍSZÁR</speaker>
           <p>Hát Lidikém! én bizony csak egy kis csókért esedez- ném.</p>
         </sp>
-        <sp who="#kivul">
-          <speaker>KÍVÜL</speaker>
-          <p>Péter!</p>
-        </sp>
+        <stage>Kívül: <hi rend="italic">Péter!</hi></stage>
         <sp who="#csiszar">
           <speaker>CSÍSZÁR</speaker>
           <p>Mordózom! már nem maradhatok. No ’s Lidikém, kapok?</p>
@@ -3010,13 +3003,7 @@
           <p>Én árulnálak el? mit gondolsz! De már most nem állhatom, hogy meg ne
 						csókoljalak. </p>
         </sp>
-        <stage>(<?oxy_comment_start author="User" timestamp="20181120T124314+0100" comment="ezt így?? 
-"?>Kív<?oxy_comment_end?>ül közel</stage>
-        <sp who="#kivul">
-          <speaker>KIÁLTÁS</speaker>
-          <stage>hallik)</stage>
-          <p>Péter!</p>
-        </sp>
+        <stage>Kívül közel: <hi rend="italic">Péter!</hi></stage>
         <sp who="#csiszar">
           <speaker>CSÍSZÁR</speaker>
           <p>Üvölts, üvölts! hogy megfakadj belé! Már menni kell. Lidikém, holnapig isten

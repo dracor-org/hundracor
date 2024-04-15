@@ -158,8 +158,86 @@
           <person xml:id="masodik_udvarholgy" sex="FEMALE">
             <persName>A MÁSODIK UDVARHÖLGY</persName>
           </person>
+          <person xml:id="harmadik_udvarholgy" sex="FEMALE">
+            <persName>A HARMADIK UDVARHÖLGY</persName>
+          </person>
+          <person xml:id="negyedik_udvarholgy" sex="FEMALE">
+            <persName>A NEGYEDIK UDVARHÖLGY</persName>
+          </person>
+          <person xml:id="otodik_udvarholgy" sex="FEMALE">
+            <persName>A ÖTÖDIK UDVARHÖLGY</persName>
+          </person>
+          <person xml:id="hatodik_udvarholgy" sex="FEMALE">
+            <persName>A HATODIK UDVARHÖLGY</persName>
+          </person>
+          <person xml:id="hetedik_udvarholgy" sex="FEMALE">
+            <persName>A HETEDIK UDVARHÖLGY</persName>
+          </person>
           <person xml:id="fiatal_udvarholgy" sex="FEMALE">
             <persName>FIATAL UDVARHÖLGY</persName>
+          </person>
+          <person xml:id="egyik_paraszt" sex="MALE">
+            <persName>EGYIK PARASZT</persName>
+          </person>
+          <person xml:id="masik_paraszt" sex="MALE">
+            <persName>MASIK PARASZT</persName>
+          </person>
+          <person xml:id="elso_muvesz" sex="MALE">
+            <persName>ELSŐ MŰVÉSZ</persName>
+          </person>
+          <person xml:id="masodik_muvesz" sex="MALE">
+            <persName>MÁSODIK MŰVÉSZ</persName>
+          </person>
+          <person xml:id="harmadik_muvesz" sex="MALE">
+            <persName>HARMADIK MŰVÉSZ</persName>
+          </person>
+          <person xml:id="negyedik_muvesz" sex="MALE">
+            <persName>NEGYEDIK MŰVÉSZ</persName>
+          </person>
+          <person xml:id="otodik_muvesz" sex="MALE">
+            <persName>ÖTÖDIK MŰVÉSZ</persName>
+          </person>
+          <person xml:id="hatodik_muvesz" sex="MALE">
+            <persName>HATODIK MŰVÉSZ</persName>
+          </person>
+          <person xml:id="kikialto" sex="MALE">
+            <persName>A KIKIÁLTÓ</persName>
+          </person>
+          <person xml:id="oreg" sex="MALE">
+            <persName>EGY ÖREG</persName>
+          </person>
+          <person xml:id="fiatal" sex="MALE">
+            <persName>EGY FIATAL</persName>
+          </person>
+          <person xml:id="elobbi" sex="UNKNOWN">
+            <persName>AZ ELŐBBI</persName>
+          </person>
+          <person xml:id="suttogas" sex="UNKNOWN">
+            <persName>SUTTOGÁS</persName>
+          </person>
+          <person xml:id="legeny" sex="MALE">
+            <persName>LEGÉNY</persName>
+          </person>
+          <person xml:id="masik_legeny" sex="MALE">
+            <persName>MÁSIK LEGÉNY</persName>
+          </person>
+          <person xml:id="harmadik_legeny" sex="FEMALE">
+            <persName>HARMADIK LEGÉNY</persName>
+          </person>
+          <person xml:id="asszony" sex="MALE">
+            <persName>ASSZONY</persName>
+          </person>
+          <person xml:id="masik_asszony" sex="FEMALE">
+            <persName>MÁSIK ASSZONY</persName>
+          </person>
+          <person xml:id="francia_kovet" sex="MALE">
+            <persName>FRANCIA KÖVET</persName>
+          </person>
+          <person xml:id="masodik_francia" sex="MALE">
+            <persName>MÁSODIK FRANCIA KÖVET</persName>
+          </person>
+          <person xml:id="egy_torok_kovet" sex="MALE">
+            <persName>EGY TÖRÖK KÖVET</persName>
           </person>
           <person xml:id="bojtar" sex="MALE">
             <persName>A BOJTÁR</persName>
@@ -175,6 +253,12 @@
           </person>
           <person xml:id="masik_udvaronc" sex="MALE">
             <persName>EGY MÁSIK UDVARONC</persName>
+          </person>
+          <person xml:id="kover_udvaronc" sex="MALE">
+            <persName>EGY KÖVÉR UDVARONC</persName>
+          </person>
+          <person xml:id="harmadik_udvaronc" sex="MALE">
+            <persName>EGY HARMADIK UDVARONC</persName>
           </person>
           <person xml:id="fiatal_lany" sex="FEMALE">
             <persName>EGY FIATAL LÁNY</persName>
@@ -200,8 +284,20 @@
           <person xml:id="dajka" sex="FEMALE">
             <persName>A DAJKA</persName>
           </person>
-          <person xml:id="orvos" sex="MALE">
+          <person xml:id="elso_orvos" sex="MALE">
             <persName>AZ ORVOS</persName>
+          </person>
+          <person xml:id="masodik_orvos" sex="MALE">
+            <persName>MÁSODIK ORVOS</persName>
+          </person>
+          <person xml:id="harmadik_orvos" sex="MALE">
+            <persName>HARMADIK ORVOS</persName>
+          </person>
+          <person xml:id="negyedik_orvos" sex="MALE">
+            <persName>NEGYEDIK ORVOS</persName>
+          </person>
+          <person xml:id="otodik_orvos" sex="MALE">
+            <persName>ÖTÖDIK ORVOS</persName>
           </person>
           <person xml:id="foorvos" sex="MALE">
             <persName>FŐORVOS</persName>
@@ -230,11 +326,29 @@
           <person xml:id="masik_muvesz" sex="MALE">
             <persName>MÁSIK MŰVÉSZ</persName>
           </person>
-          <person xml:id="hang" sex="UNKNOWN">
+          <person xml:id="elso_hang" sex="UNKNOWN">
             <persName>A HANG</persName>
           </person>
-          <person xml:id="masik" sex="UNKNOWN">
-            <persName>MÁSIK</persName>
+          <person xml:id="masodik_hang" sex="UNKNOWN">
+            <persName>MÁSOSDIK HANG</persName>
+          </person>
+          <person xml:id="harmadik_hang" sex="UNKNOWN">
+            <persName>HARMADIK HANG</persName>
+          </person>
+          <person xml:id="negyedik_hang" sex="UNKNOWN">
+            <persName>NEGYEDIK HANG</persName>
+          </person>
+          <person xml:id="otodik_hang" sex="UNKNOWN">
+            <persName>ÖTÖDIK HANG</persName>
+          </person>
+          <person xml:id="mas_hang" sex="UNKNOWN">
+            <persName>MÁS HANG</persName>
+          </person>
+          <person xml:id="egy_noi_hang" sex="FEMALE">
+            <persName>EGY NŐI HANG</persName>
+          </person>
+          <person xml:id="egy_masik_noi_hang" sex="FEMALE">
+            <persName>EGY MÁSIK NŐI HANG</persName>
           </person>
           <person xml:id="udvari_kolto" sex="MALE">
             <persName>UDVARI KÖLTŐ</persName>
@@ -275,11 +389,11 @@
           <person xml:id="papagaly" sex="MALE">
             <persName>A PAPAGÁLY</persName>
           </person>
-          <person xml:id="guriga" sex="UNKNOWN">
-            <persName>Don Guriga</persName>
+          <person xml:id="don_guriga" sex="UNKNOWN">
+            <persName>DON GURIGA</persName>
           </person>
           <person xml:id="turpi" sex="UNKNOWN">
-            <persName>Turpi</persName>
+            <persName>TURPI</persName>
           </person>
           <person xml:id="uj_don" sex="MALE">
             <persName>ÚJ DON</persName>
@@ -293,8 +407,14 @@
           <person xml:id="kertesz" sex="MALE">
             <persName>A KERTÉSZ</persName>
           </person>
+          <personGrp xml:id="hajoslegenyek" sex="MALE">
+            <name>HAJÓSLEGÉNYEK</name>
+          </personGrp>
+          <personGrp xml:id="hajosok" sex="MALE">
+            <name>HAJÓSOK</name>
+          </personGrp>
           <person xml:id="hajos" sex="MALE">
-            <persName>HAJÓSLEGÉNYEK</persName>
+            <name>HAJÓS</name>
           </person>
           <person xml:id="kerteszinas" sex="MALE">
             <persName>A KERTÉSZINAS</persName>
@@ -302,32 +422,41 @@
           <person xml:id="hab" sex="UNKNOWN">
             <persName>A BALATON HABJAI</persName>
           </person>
-          <person xml:id="masodik" sex="UNKNOWN">
-            <persName>MÁSODIK</persName>
-          </person>
-          <person xml:id="harmadik" sex="UNKNOWN">
-            <persName>HARMADIK</persName>
-          </person>
-          <person xml:id="negyedik" sex="MALE">
-            <persName>NEGYEDIK</persName>
-          </person>
-          <person xml:id="otodik" sex="UNKNOWN">
-            <persName>ÖTÖDIK</persName>
-          </person>
-          <person xml:id="kecske" sex="UNKNOWN">
+          <personGrp xml:id="kecskek" sex="UNKNOWN">
             <persName>KECSKÉK</persName>
-          </person>
-          <person xml:id="beka" sex="UNKNOWN">
+          </personGrp>
+          <personGrp xml:id="bekak" sex="UNKNOWN">
             <persName>BÉKÁK</persName>
-          </person>
-          <person xml:id="tucskok" sex="UNKNOWN">
+          </personGrp>
+          <personGrp xml:id="tucskok" sex="UNKNOWN">
             <persName>TÜCSKÖK</persName>
+          </personGrp>
+          <personGrp xml:id="halaszok" sex="MALE">
+            <persName>HALÁSZOK</persName>
+          </personGrp>
+          <person xml:id="halasz" sex="MALE">
+            <persName>HALÁSZ</persName>
           </person>
+          <person xml:id="masik_halasz" sex="MALE">
+            <persName>MÁSIK HALÁSZ</persName>
+          </person>
+          <person xml:id="harmadik_halasz" sex="MALE">
+            <persName>HARMADIK HALÁSZ</persName>
+          </person>
+          <person xml:id="kolomp" sex="MALE">
+            <persName>A KOLOMP</persName>
+          </person>
+          <person xml:id="valaki" sex="MALE">
+            <persName>VALAKI</persName>
+          </person>
+          <person xml:id="masik" sex="MALE">
+            <persName>MÁSIK</persName>
+          </person>
+          <personGrp xml:id="butorok" sex="UNKNOWN">
+            <persName>BÚTOROK</persName>
+          </personGrp>
           <person xml:id="szu" sex="UNKNOWN">
             <persName>SZÚ A FALBAN</persName>
-          </person>
-          <person xml:id="butor" sex="UNKNOWN">
-            <persName>BÚTOROK</persName>
           </person>
           <person xml:id="ora" sex="UNKNOWN">
             <persName>ÓRA</persName>
@@ -335,6 +464,21 @@
           <person xml:id="gyonyoru_holgy" sex="FEMALE">
             <persName>EGY GYÖNYÖRŰ HÖLGY</persName>
           </person>
+          <person xml:id="foudvarmesterno" sex="FEMALE">
+            <persName>FŐUDVARMESTERNŐ</persName>
+          </person>
+          <personGrp xml:id="lanyok" sex="FEMALE">
+            <name>LÁNYOK</name>
+          </personGrp>
+          <personGrp xml:id="asszonyok" sex="FEMALE">
+            <name>ASSZONYOK</name>
+          </personGrp>
+          <personGrp xml:id="parasztasszonyok" sex="FEMALE">
+            <name>PARASZTASSZONYOK</name>
+          </personGrp>
+          <personGrp xml:id="masok" sex="FEMALE">
+            <name>MÁSOK</name>
+          </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -474,7 +618,7 @@
             <l>de tudom...</l>
           </lg>
         </sp>
-        <sp who="#masik_udvarholgy">
+        <sp who="#masodik_udvarholgy">
           <speaker>MÁSIK UDVARHÖLGY</speaker>
           <lg>
             <l>Ni egy kos!</l>
@@ -505,7 +649,7 @@
             <l>Fogadj Isten, öreg!</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>AZ UDVARONC</speaker>
           <stage>(kezdve)</stage>
           <lg>
@@ -519,7 +663,7 @@
             <l>Hogy ityeg a fityeg?</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>AZ UDVARONC</speaker>
           <lg>
             <l>Nincs a szerelemnek határozott tárgya</l>
@@ -529,7 +673,7 @@
             <l>Szerelmes a fiú, de nem tudja, kibe.</l>
           </lg>
         </sp>
-        <sp who="#elso_udvarholgy">
+        <sp who="#udvarholgy">
           <speaker>ELSŐ UDVARHÖLGY</speaker>
           <lg>
             <l>Ni virág!</l>
@@ -587,7 +731,7 @@
             <l>Ahun hajt a Bodri!</l>
           </lg>
         </sp>
-        <sp who="#egy_udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>EGY UDVARONC</speaker>
           <lg>
             <l>Hát Tihany merre van?</l>
@@ -618,7 +762,7 @@
             <l>Húsz, húszon...</l>
           </lg>
         </sp>
-        <sp who="#masik_udvarholgy">
+        <sp who="#masodik_udvarholgy">
           <speaker>MÁSIK UDVARHÖLGY</speaker>
           <lg>
             <l>Hallga, a nád suhog!</l>
@@ -631,7 +775,7 @@
             <l>Erre ment a felség?</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>UDVARONC</speaker>
           <lg>
             <l>Nem erre ment; mégsem...</l>
@@ -643,7 +787,7 @@
             <l>A szememmel láttam.</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>UDVARONC</speaker>
           <lg>
             <l>Óh az a nagy kék szem!</l>
@@ -668,7 +812,7 @@
             <l>Mily különös ötlet... így egyedül járni.</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>UDVARONC</speaker>
           <lg>
             <l>Mennyi felelősség!</l>
@@ -680,13 +824,13 @@
             <l>Történjen akármi...</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_udvaronc">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Mi vagyunk hibásak.</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>ELSŐ UDVARONC</speaker>
           <lg>
             <l>Tán kérdeni kéne.</l>
@@ -700,7 +844,7 @@
             <l>Járt utánam hét falu legénye.</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>A LEGELSŐ UDVARONC</speaker>
           <lg>
             <l>Ilyesmi sem eshet, csak Meseországban.</l>
@@ -818,7 +962,7 @@
             <l>Nem láttam.</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>UDVARONC</speaker>
           <lg>
             <l>Azonban</l>
@@ -866,7 +1010,7 @@
             <l>Nem beteg az épen.</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>UDVARONC</speaker>
           <lg>
             <l>Csak ideges, gyenge.</l>
@@ -878,7 +1022,7 @@
             <l>És bú a világtól.</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_udvaronc">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Kit se bocsát szembe.</l>
@@ -890,7 +1034,7 @@
             <l>Semmi etikétnek nem tartja szabályát.</l>
           </lg>
         </sp>
-        <sp who="#orvos">
+        <sp who="#elso_orvos">
           <speaker>ORVOS</speaker>
           <lg>
             <l>Kincsért sem akarja elhagyni szobáját.</l>
@@ -902,7 +1046,7 @@
             <l>Hol a szőnyegekbe léptek belehalnak.</l>
           </lg>
         </sp>
-        <sp who="#masik_udvarholgy">
+        <sp who="#masodik_udvarholgy">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Nagy kárpitok ontják bársonyuk a falnak.</l>
@@ -945,7 +1089,7 @@
             <l>Hosszú neki a nap, az éjszaka hosszú.</l>
           </lg>
         </sp>
-        <sp who="#udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>UDVARONC</speaker>
           <lg>
             <l>Nem szól soha szót sem.</l>
@@ -1078,7 +1222,7 @@
             <l>hanem a világra... a messze világra...</l>
           </lg>
         </sp>
-        <sp who="#paraszt">
+        <sp who="#egyik_paraszt">
           <speaker>EGY PARASZT</speaker>
           <lg>
             <l>Jó lesz hazamenni: a falu van messze.</l>
@@ -1090,7 +1234,7 @@
             <l>Gém bömböl a nádban.</l>
           </lg>
         </sp>
-        <sp who="#paraszt">
+        <sp who="#egyik_paraszt">
           <speaker>ELSŐ</speaker>
           <lg>
             <l>Mindjárt jön az este.</l>
@@ -1575,7 +1719,7 @@
             <l>Kling, klang.</l>
           </lg>
         </sp>
-        <sp who="#kecskes">
+        <sp who="#kecskek">
           <speaker>KECSKÉK</speaker>
           <stage>(messziről)</stage>
           <lg>
@@ -1752,7 +1896,7 @@
             <l>De hisz ajka széle sem volt a poháron.</l>
           </lg>
         </sp>
-        <sp who="#orvos">
+        <sp who="#elso_orvos">
           <speaker>ORVOS</speaker>
           <lg>
             <l>Receptet.<stage>(Az írnokhoz)</stage>ön írja, amíg én diktálom</l>
@@ -1797,7 +1941,7 @@
             <l>A saját kezemmel puhítom az ágyát.</l>
           </lg>
         </sp>
-        <sp who="#egy_orvos">
+        <sp who="#elso_orvos">
           <speaker>EGY ORVOS</speaker>
           <stage>(ujját feltartva, nagy tekintéllyel):</stage>
           <lg>
@@ -1841,7 +1985,7 @@
             <l>Királyi betegünk állapota váltó...</l>
           </lg>
         </sp>
-        <sp who="#masik_orvos">
+        <sp who="#masodik_orvos">
           <speaker>MÁSIK ORVOS</speaker>
           <lg>
             <l>De hisz éppígy írjuk...</l>
@@ -1853,7 +1997,7 @@
             <l>... zatlannak találta...</l>
           </lg>
         </sp>
-        <sp who="#masik_orvos">
+        <sp who="#masodik_orvos">
           <speaker>MÁSIK ORVOS</speaker>
           <lg>
             <l>... egy hete már.</l>
@@ -1975,7 +2119,7 @@
             <l>nem mint a gyereknek a henye játékra.</l>
           </lg>
         </sp>
-        <sp who="#egy_orvos">
+        <sp who="#elso_orvos">
           <speaker>EGY ORVOS</speaker>
           <lg>
             <l>Csakhogy ugyan eddig uraim nem sok a</l>
@@ -1995,7 +2139,7 @@
             <l>De uram...</l>
           </lg>
         </sp>
-        <sp who="#masik_orvos">
+        <sp who="#masodik_orvos">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Mit mond ön?</l>
@@ -2020,7 +2164,7 @@
             <l>hanem a kontárság...</l>
           </lg>
         </sp>
-        <sp who="#masik_orvos">
+        <sp who="#masodik_orvos">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>... a felületesség...</l>
@@ -2033,26 +2177,26 @@
             <l>a művészi érzék.</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_orvos">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>A sok álművészet...</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_orvos">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Félremek...</l>
           </lg>
         </sp>
-        <sp who="#negyedik">
+        <sp who="#negyedik_orvos">
           <speaker>NEGYEDIK</speaker>
           <lg>
             <l>Amelytől a valódit, készet</l>
             <l>nem ismeri jól meg, aki nem ért hozzá.</l>
           </lg>
         </sp>
-        <sp who="#otodik">
+        <sp who="#otodik_orvos">
           <speaker>ÖTÖDIK</speaker>
           <lg>
             <l>Az utánzó, ki a nyelvet modorossá...</l>
@@ -2100,7 +2244,7 @@
             <l>Lágy, pongyola forma.</l>
           </lg>
         </sp>
-        <sp who="#idealita">
+        <sp who="#idealista">
           <speaker>IDEÁLISTA</speaker>
           <lg>
             <l>Turkálás a szennyben.</l>
@@ -2130,7 +2274,7 @@
             <l>Szóval nagy a szükség erős kritikára.</l>
           </lg>
         </sp>
-        <sp who="#lartpourlart #modern #lirikus #idealista # muveszies #konzervativ">
+        <sp who="#lartpourlart #modern #lirikus #idealista #muveszies #konzervativ">
           <speaker>MIND</speaker>
           <lg>
             <l>Ügy van.</l>
@@ -2153,19 +2297,19 @@
             <l>Hát ez ki?</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_muvesz">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Ügyetlen.</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_muvesz">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>öltözete céda.</l>
           </lg>
         </sp>
-        <sp who="#negyedik">
+        <sp who="#negyedik_muvesz">
           <speaker>NEGYEDIK</speaker>
           <lg>
             <l>Egy tipikus félszeg vidéki poéta.</l>
@@ -2174,14 +2318,14 @@
         <stage>(A fehér kéz újra megjelenik és a fekete kárpit széthúzódik. A király felmegy
                     a lépcsőn, homlokon csókolja leányát és leül egy arany trónra. Az udvaroncok
                     nézőkül elhelyezkednek.)</stage>
-        <sp who="#muvesz">
+        <sp who="#otodik_muvesz">
           <speaker>ÖTÖDIK MŰVÉSZ</speaker>
           <stage>(még mindig a pásztort szólja):</stage>
           <lg>
             <l>Süvege báránybőr.</l>
           </lg>
         </sp>
-        <sp who="#hatodik">
+        <sp who="#hatodik_muvesz">
           <speaker>HATODIK</speaker>
           <lg>
             <l>Csizmája barombőr.</l>
@@ -2221,13 +2365,13 @@
             <l>körbe kavarodva guri-gurigálom.</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#elso_hang">
           <speaker>HANG A KÖZÖNSÉGBŐL</speaker>
           <lg>
             <l>Ez igazi művész!</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_hang">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Neki lelki élmény...</l>
@@ -2279,7 +2423,7 @@
             <l>Milyen kedves!</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_hang">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Mily kicsi!</l>
@@ -2328,7 +2472,7 @@
             <l>Szubtilisen hintált.</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_hang">
           <speaker>EGY MÁSIK</speaker>
           <stage>(a modern műveltségűhöz):</stage>
           <lg>
@@ -2349,13 +2493,13 @@
             <l>A nagy filozófus.</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#mas_hang">
           <speaker>MÁS HANG</speaker>
           <lg>
             <l>A modern próféta.</l>
           </lg>
         </sp>
-        <sp who="#zeta_theta">
+        <sp who="#zeta_es_theta">
           <speaker>ZÉTA ÉS THÉTA</speaker>
           <stage>(Hegyes süveg, bő fekete öltöny, planétajeles szalagokkal, mint a
                             százesztendős jövendőmondó.)</stage>
@@ -2381,7 +2525,7 @@
             <l>ezt hirdeti Krisztus s tanította Buddha.</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#elso_hang">
           <speaker>EGY HANG</speaker>
           <lg>
             <l>Magas elme!</l>
@@ -2393,13 +2537,13 @@
             <l>Szép! szép!</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#mas_hang">
           <speaker>MÁS HANG</speaker>
           <lg>
             <l>Alapja monista.</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#harmadik_hang">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Bár determinista...</l>
@@ -2412,20 +2556,20 @@
             <l>Hosszú még a lista?</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#harmadik_hang">
           <speaker>HARMADIK HANG</speaker>
           <stage>(folytatva):</stage>
           <lg>
             <l>... vallja a transzcedens Kanti szabadságot.</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#negyedik_hang">
           <speaker>NEGYEDIK</speaker>
           <lg>
             <l>A jövő vallása...</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#otodik_hang">
           <speaker>ÖTÖDIK</speaker>
           <lg>
             <l>E beteg világot...</l>
@@ -2456,19 +2600,19 @@
             <l>Szelleme is kaucsuk.</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_hang">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>ő a modern szkepszis.</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_hang">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Csontja csodavékony.</l>
           </lg>
         </sp>
-        <sp who="#negyedik">
+        <sp who="#negyedik_hang">
           <speaker>NEGYEDIK</speaker>
           <lg>
             <l>Valamennyi stilre s eszmére hajlékony.</l>
@@ -2480,26 +2624,26 @@
             <l>A sebmutogató!</l>
           </lg>
         </sp>
-        <sp who="#elso">
+        <sp who="#elso_hang">
           <speaker>ELSŐ</speaker>
           <lg>
             <l>összeszurkáltatja</l>
             <l>magát és sebeit világgá mutatja.</l>
           </lg>
         </sp>
-        <sp who="#masodik">
+        <sp who="#masodik_hang">
           <speaker>MÁSODIK</speaker>
           <lg>
             <l>Minden pici tücske mély sebet üt bőrén.</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_hang">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Csupa seb a teste...</l>
           </lg>
         </sp>
-        <sp who="#negyedik">
+        <sp who="#negyedik_hang">
           <speaker>NEGYEDIK</speaker>
           <lg>
             <l>s mutogatja pőrén.</l>
@@ -2511,20 +2655,20 @@
             <l>A tágbőrű!</l>
           </lg>
         </sp>
-        <sp who="#elso">
+        <sp who="#elso_hang">
           <speaker>ELSŐ</speaker>
           <lg>
             <l>Bőrét addig huzigálja,</l>
             <l>amíg a mellén lesz vörös seb a szája.</l>
           </lg>
         </sp>
-        <sp who="#masodik">
+        <sp who="#masodik_hang">
           <speaker>MÁSODIK</speaker>
           <lg>
             <l>Ez az igaz líra, ahol az ajk egy seb.</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_hang">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Seb a szíven.</l>
@@ -2548,31 +2692,31 @@
             <l>Szebb!szebb!</l>
           </lg>
         </sp>
-        <sp who="#elso">
+        <sp who="#elso_hang">
           <speaker>ELSŐ</speaker>
           <lg>
             <l>ő az aki hangot ad a halott tárgynak.</l>
           </lg>
         </sp>
-        <sp who="#masodik">
+        <sp who="#masodik_hang">
           <speaker>MÁSODIK</speaker>
           <lg>
             <l>Fekete anyagnak.</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_hang">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Vak fekete vágynak.</l>
           </lg>
         </sp>
-        <sp who="#negyedik">
+        <sp who="#negyedik_hang">
           <speaker>NEGYEDIK</speaker>
           <lg>
             <l>És az anyag lelke lelked előtt megnyil.</l>
           </lg>
         </sp>
-        <sp who="#otodik">
+        <sp who="#otodik_hang">
           <speaker>ÖTÖDIK</speaker>
           <lg>
             <l>Sun t lacrima e rerum , dalolá már Vergil.</l>
@@ -2584,7 +2728,7 @@
             <l>Magyar mulattató!</l>
           </lg>
         </sp>
-        <sp who="#elso">
+        <sp who="#elso_hang">
           <speaker>ELSŐ</speaker>
           <lg>
             <l>Régi magyar humor!</l>
@@ -2630,7 +2774,7 @@
           </lg>
         </sp>
         <stage>(Nagy mozgás, ideges suttogások.)</stage>
-        <sp who="#muvesz">
+        <sp who="#elso_muvesz">
           <speaker>EGY MŰVÉSZ</speaker>
           <lg>
             <l>Milyen megalázás!</l>
@@ -2649,13 +2793,13 @@
             <l>Csak módi!...</l>
           </lg>
         </sp>
-        <sp who="#muvesz">
+        <sp who="#elso_muvesz">
           <speaker>A MŰVÉSZ</speaker>
           <lg>
             <l>A javát mellőzik!</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_muvesz">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Csőcselék</l>
@@ -2670,7 +2814,7 @@
           </lg>
         </sp>
         <stage>(Nagy mozgás.)</stage>
-        <sp who="#hang">
+        <sp who="#elso_hang">
           <speaker>EGY HANG</speaker>
           <lg>
             <l>Milyen tréfa!</l>
@@ -2687,44 +2831,44 @@
           </lg>
         </sp>
         <stage>(Konsternáció.)</stage>
-        <sp who="#hang">
+        <sp who="#elso_hang">
           <speaker>EGY HANG</speaker>
           <lg>
             <l>Terror!</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_hang">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Megalázás!</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_hang">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>önbecsülő szellem</l>
             <l>nem tehet ilyesmit.</l>
           </lg>
         </sp>
-        <sp who="#negyedik">
+        <sp who="#negyedik_hang">
           <speaker>NEGYEDIK</speaker>
           <lg>
             <l>Az ilyesmi ellen...</l>
           </lg>
         </sp>
-        <sp who="#otodik">
+        <sp who="#otodik_hang">
           <speaker>ÖTÖDIK</speaker>
           <lg>
             <l>A művészi érték nem függ a hatástól.</l>
           </lg>
         </sp>
-        <sp who="#hatodik">
+        <sp who="#hatodik_hang">
           <speaker>HATODIK</speaker>
           <lg>
             <l>Nem is akad senki!</l>
           </lg>
         </sp>
-        <sp who="#hetedik">
+        <sp who="#hetedik_hang">
           <speaker>HETEDIK</speaker>
           <lg>
             <l>Hirdetheti százszor!</l>
@@ -2746,13 +2890,13 @@
             <l>Nincs benne önérzet?</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_hang">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Ki lehet az?</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_hang">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Botrány!</l>
@@ -2829,13 +2973,13 @@
           </lg>
         </sp>
         <stage>(A lámpák hirtelen elsötétednek.)</stage>
-        <sp who="#hang">
+        <sp who="#egy_noi_hang">
           <speaker>EGY NŐI HANG</speaker>
           <lg>
             <l>Iszonyú!</l>
           </lg>
         </sp>
-        <sp who="#masik_hang">
+        <sp who="#egy_masik_noi_hang">
           <speaker>EGY MÁSIK NŐI HANG</speaker>
           <lg>
             <l>Miféle vörös ember áll itt?</l>
@@ -2856,7 +3000,7 @@
             <l>fekete fészekben ébred az életre...</l>
           </lg>
         </sp>
-        <sp who="#kolto">
+        <sp who="#udvari_kolto">
           <speaker>AZ UDVARI KÖLTŐ</speaker>
           <lg>
             <l>Fekete fészekben...</l>
@@ -3772,7 +3916,7 @@
             <l>Hol az a hölgy?</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_francia">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Eltűnt!</l>
@@ -4862,19 +5006,19 @@
             <l>töltik meg a termet.</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_udvarholgy">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Légy szárnya se rezzen.</l>
           </lg>
         </sp>
-        <sp who="#harmadik">
+        <sp who="#harmadik_udvarholgy">
           <speaker>HARMADIK</speaker>
           <lg>
             <l>Selyemsuhogás sincs.</l>
           </lg>
         </sp>
-        <sp who="#negyedik">
+        <sp who="#negyedik_udvarholgy">
           <speaker>NEGYEDIK</speaker>
           <lg>
             <l>Ha hallgatod innét,</l>
@@ -5057,20 +5201,20 @@
             <l>Lányom!</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#elso_hang">
           <speaker>EGY HANG</speaker>
           <stage>(az emeletről kihajolnak az ablakon fáklyával):</stage>
           <lg>
             <l>Hol a király?</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_hang">
           <speaker>MÁS HANG</speaker>
           <lg>
             <l>Eltűnt!</l>
           </lg>
         </sp>
-        <sp who="#muvesz">
+        <sp who="#elso_muvesz">
           <speaker>EGY MŰVÉSZ HANGJA</speaker>
           <lg>
             <l>Kimerült egészen.</l>
@@ -5082,7 +5226,7 @@
             <l>Tán beteg.</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_muvesz">
           <speaker>MÁSIK MŰVÉSZ</speaker>
           <lg>
             <l>A végzet!</l>
@@ -5094,7 +5238,7 @@
             <l>Nem a királyoknak való a művészet.</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_hang">
           <speaker>MÁS HANG</speaker>
           <lg>
             <l>Hogy zúg a tó!</l>
@@ -5106,7 +5250,7 @@
             <l>Lányom!</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#negyedik_hang">
           <speaker>NEGYEDIK HANG</speaker>
           <lg>
             <l>Vihar jön az éjre.</l>
@@ -5132,7 +5276,7 @@
           </lg>
         </sp>
         <stage>(A kertet fáklyákkal járják át.)</stage>
-        <sp who="#hang">
+        <sp who="#elso_hang">
           <speaker>HANG</speaker>
           <lg>
             <l>Felség!</l>
@@ -5144,13 +5288,13 @@
             <l>A leányom.</l>
           </lg>
         </sp>
-        <sp who="#hang">
+        <sp who="#elso_hang">
           <speaker>HANG</speaker>
           <lg>
             <l>Nincs.</l>
           </lg>
         </sp>
-        <sp who="#masik">
+        <sp who="#masodik_hang">
           <speaker>MÁSIK</speaker>
           <lg>
             <l>Nincsen a kertben.</l>

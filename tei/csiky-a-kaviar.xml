@@ -140,8 +140,11 @@
           <person sex="FEMALE" xml:id="miranda">
             <persName>Miranda</persName>
           </person>
-          <person sex="MALE" xml:id="mariska">
+          <person sex="FEMALE" xml:id="mariska">
             <persName>Mariska</persName>
+          </person>
+          <person sex="FEMALE" xml:id="marika">
+            <persName>Marika</persName>
           </person>
           <person sex="MALE" xml:id="tivadar">
             <persName>Poroszkay Tivadar</persName>

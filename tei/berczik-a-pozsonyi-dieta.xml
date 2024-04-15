@@ -212,9 +212,6 @@
           <personGrp xml:id="kovetek" sex="UNKNOWN">
             <name>Követek</name>
           </personGrp>
-          <person xml:id="kunn" sex="UNKNOWN">
-            <persName>Künn</persName>
-          </person>
           <personGrp xml:id="mind" sex="UNKNOWN">
             <name>Mind</name>
           </personGrp>
@@ -3608,11 +3605,8 @@
                                 ad.)</stage>
             </p>
           </sp>
-          <sp who="#kunn">
-            <speaker>Künn</speaker>
-            <stage>(kiabálót).</stage>
-            <p>Pereat! Pereat!</p>
-          </sp>
+          <stage>Künn (kiabálót).
+						<hi rend="italic">Pereat! Pereat!</hi></stage>
           <sp who="#grassalkovics">
             <speaker>Grassalkovics.</speaker>
             <p>Mi ez? Betörnek a házba... gyalázat...</p>

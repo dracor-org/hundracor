@@ -134,7 +134,7 @@
       <particDesc>
         <listPerson>
           <person xml:id="iv_laszlo" sex="MALE">
-            <persName>IV.dik LÁSZLÓ</persName>
+            <persName>IV. LÁSZLÓ</persName>
           </person>
           <person xml:id="gara_laszlo" sex="MALE">
             <persName>GARA LÁSZLÓ</persName>
@@ -161,7 +161,7 @@
             <persName>EGY-NEHÁNY PALOTÁSOK</persName>
           </person>
           <person xml:id="hadvezerek" sex="MALE">
-            <persName>’s HADI VEZÉREK.</persName>
+            <persName>HADI VEZÉREK</persName>
           </person>
         </listPerson>
       </particDesc>
