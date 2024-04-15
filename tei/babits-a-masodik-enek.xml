@@ -236,9 +236,6 @@
           <person xml:id="masodik_francia" sex="MALE">
             <persName>MÁSODIK FRANCIA KÖVET</persName>
           </person>
-          <person xml:id="egy_torok_kovet" sex="MALE">
-            <persName>EGY TÖRÖK KÖVET</persName>
-          </person>
           <person xml:id="bojtar" sex="MALE">
             <persName>A BOJTÁR</persName>
           </person>
@@ -340,6 +337,15 @@
           </person>
           <person xml:id="otodik_hang" sex="UNKNOWN">
             <persName>ÖTÖDIK HANG</persName>
+          </person>
+          <person xml:id="hatodik_hang" sex="UNKNOWN">
+            <persName>HATODIK HANG</persName>
+          </person>
+          <person xml:id="hetedik_hang" sex="UNKNOWN">
+            <persName>HETEDIK HANG</persName>
+          </person>
+          <person xml:id="kepzelt_hang" sex="UNKNOWN">
+            <persName>KÉPZELT HANG</persName>
           </person>
           <person xml:id="mas_hang" sex="UNKNOWN">
             <persName>MÁS HANG</persName>
@@ -449,6 +455,12 @@
           <person xml:id="valaki" sex="MALE">
             <persName>VALAKI</persName>
           </person>
+          <person xml:id="mas" sex="UNKWOWN">
+            <persName>MÁS</persName>
+          </person>
+          <person xml:id="szinesz" sex="MALE">
+            <persName>SZÍNÉSZ</persName>
+          </person>
           <person xml:id="masik" sex="MALE">
             <persName>MÁSIK</persName>
           </person>
@@ -475,6 +487,9 @@
           </personGrp>
           <personGrp xml:id="parasztasszonyok" sex="FEMALE">
             <name>PARASZTASSZONYOK</name>
+          </personGrp>
+          <personGrp xml:id="apolok" sex="FEMALE">
+            <name>ÁPOLÓK</name>
           </personGrp>
           <personGrp xml:id="masok" sex="FEMALE">
             <name>MÁSOK</name>
@@ -1580,7 +1595,7 @@
             <l>Jer, fiú, sajnálnám, ha a halál várna.<stage>(Elvezeti.)</stage></l>
           </lg>
         </sp>
-        <sp who="#egy_udvaronc">
+        <sp who="#elso_udvaronc">
           <speaker>EGY UDVARONC</speaker>
           <stage>(a másik oldalon felbukkanj:</stage>
           <lg>
@@ -3901,7 +3916,7 @@
             <l>Felség!</l>
           </lg>
         </sp>
-        <sp who="#egyik_torok_kovet">
+        <sp who="#torok_kovet">
           <speaker>AZ EGYIK TÖRÖK KÖVET</speaker>
           <stage>(a másikhoz):</stage>
           <lg>
