@@ -162,9 +162,11 @@
       <event type="premiere" when="1834-09-16">
         <label>1834. szeptember 16.</label>
       </event>
-      <event notBefore="1831-12" notAfter="1832" type="written">
-				1831. decembere és 1832. ősze között
-			</event>
+      <event type="written" notBefore="1831-12" notAfter="1832">
+        <label>
+						1831. decembere és 1832. ősze között
+					</label>
+      </event>
     </listEvent>
   </standOff>
   <text>

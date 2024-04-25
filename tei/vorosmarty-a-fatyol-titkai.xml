@@ -157,8 +157,11 @@
       <event type="premiere" when="1836-03-27">
         <label>1836. március 27.</label>
       </event>
-      <event notBefore="1833-03" notAfter="1834-08-15" type="written">
-        <label>1833. márciusa után, 1834. augusztus 15. előtt</label>
+      <event type="written" notBefore="1833-03" notAfter="1834-08-15">
+        <label>
+						1833. márciusa után,
+						1834. augusztus 15. előtt
+					</label>
       </event>
     </listEvent>
   </standOff>
