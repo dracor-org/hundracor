@@ -227,9 +227,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata"
-                   active="https://dracor.org/entity/hun000058"
-                   passive="http://www.wikidata.org/entity/Q466857"/>
+      <relation name="wikidata" active="https://dracor.org/entity/hun000058" passive="http://www.wikidata.org/entity/Q466857"/>
     </listRelation>
   </standOff>
   <text>
