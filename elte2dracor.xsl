@@ -45,7 +45,7 @@
   </xsl:template>
 
   <xsl:template match="tei:TEI">
-    <TEI xml:id="{$meta/@id}" xml:lang="hun">
+    <TEI type="dracor" xml:id="{$meta/@id}" xml:lang="hu">
       <xsl:apply-templates/>
     </TEI>
   </xsl:template>
@@ -124,6 +124,12 @@
       </listRelation>
     </xsl:if>
   </xsl:template>
+
+  <!-- remove type="main" from title -->
+  <xsl:template match="tei:titleStmt/tei:title[@type='main']/@type"></xsl:template>
+
+  <!-- remove empty elements -->
+  <xsl:template match="(tei:l)[normalize-space() = '']"></xsl:template>
 
   <!-- strip old elements  -->
   <xsl:template match="
