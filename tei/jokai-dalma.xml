@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000065" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000065" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Dalma</title>
+        <title>Dalma</title>
         <title type="sub">Eredeti szomorujáték négy felvonásban</title>
         <author>
           <persName>

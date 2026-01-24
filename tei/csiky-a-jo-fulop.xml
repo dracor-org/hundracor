@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000054" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000054" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A jó Fülöp</title>
+        <title>A jó Fülöp</title>
         <title type="sub">Vígjáték három felvonásban</title>
         <author>
           <persName>
@@ -2029,7 +2029,7 @@
           <head type="title">ELSŐ JELENET</head>
           <stage>ADOLF, MAROSA</stage>
           <stage>(Kívül hosszas, erős csengetés.)</stage>
-          <sp who="#">
+          <sp who="#adolf">
             <speaker>ADOLF</speaker>
             <stage>(a pamlagon hever, kezében hírlap, az asztalon
                                 kávésfindzsa):</stage>
@@ -3982,7 +3982,7 @@
           <head type="title">ELSŐ JELENET</head>
           <stage>KLÁRA zongora előtt. BÉLA a terem legvégső szögletén, egészen a
                         hírlapokba temetve arcát. Később DÉRI</stage>
-          <sp who="#">
+          <sp who="#klara">
             <speaker>KLÁRA</speaker>
             <stage>(egy darab végső akkordjait játssza. Megáll, leereszti
                                 karjait):</stage>

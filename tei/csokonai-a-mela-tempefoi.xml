@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000012" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000012" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A méla Tempefői azaz: az is bolond, aki poétává lesz Magyarországban</title>
+        <title>A méla Tempefői azaz: az is bolond, aki poétává lesz Magyarországban</title>
         <title type="sub">Nemzeti nemes játék 5 felvonásban</title>
         <author>
           <persName>

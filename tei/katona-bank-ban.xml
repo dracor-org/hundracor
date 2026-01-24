@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000020" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000020" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Bánk bán</title>
+        <title>Bánk bán</title>
         <title type="sub"/>
         <author>
           <persName>

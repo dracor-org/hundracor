@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000074" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000074" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">II. Rákóczi Ferenc fogsága</title>
+        <title>II. Rákóczi Ferenc fogsága</title>
         <title type="sub">Történelmi dráma</title>
         <author>
           <persName>

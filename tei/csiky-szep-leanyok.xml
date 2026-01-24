@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000056" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000056" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Szép leányok</title>
+        <title>Szép leányok</title>
         <title type="sub">Színmű három felvonásban</title>
         <author>
           <persName>
@@ -2446,7 +2446,7 @@
             <speaker>MARI:</speaker>
             <p>Szörnyűség!</p>
           </sp>
-          <sp>
+          <sp who="#schmeks_gyula">
             <speaker>SCHMEKS:</speaker>
             <p>Szörnyűség!</p>
           </sp>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000052" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000052" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Hunyadi László tragédiája.</title>
+        <title>Hunyadi László tragédiája.</title>
         <title type="sub">Három játékban, és versekben. Besenyei György által.</title>
         <author>
           <persName>

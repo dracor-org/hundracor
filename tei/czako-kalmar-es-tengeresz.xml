@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000014" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000014" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Kalmár és tengerész</title>
+        <title>Kalmár és tengerész</title>
         <title type="sub">Eredeti dráma négy felvonásban</title>
         <author>
           <persName>
@@ -3426,14 +3426,12 @@
         </div>
         <div type="scene">
           <head type="title">HETEDIK JELENET</head>
-          <sp>
-            <stage>Hermina hálóterme oldalajtókkal - a
+          <stage>Hermina hálóterme oldalajtókkal - a
                                                     fenékfalon lebocsájtott kárpitok, oldalról a
                                                     kárpit előtt egy pamlag. Elöl asztal, rajta
                                                     gyertya, csöngettyű sat. Kívül a felvonás végéig
                                                     rendre növekedő vihar. Egy óra tizenkettőt
                                                     üt.</stage>
-          </sp>
           <sp who="#hermina">
             <speaker>HERMINA</speaker>
             <stage>oldalról jön.</stage>

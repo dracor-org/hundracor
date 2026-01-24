@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000046" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000046" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A kékszakállu herceg vára</title>
+        <title>A kékszakállu herceg vára</title>
         <title type="sub">Opera 1 felvonásban</title>
         <author>
           <persName>

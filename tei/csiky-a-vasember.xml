@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000010" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000010" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A vasember</title>
+        <title>A vasember</title>
         <title type="sub"/>
         <author>
           <persName>
@@ -410,9 +410,7 @@
               <l>Menj, gyermekem, fogadd vendégedet.</l>
             </lg>
           </sp>
-          <sp who="#edith">
-            <stage>(némán meghajtja fejét s el).</stage>
-          </sp>
+          <stage>EDITH (némán meghajtja fejét s el).</stage>
         </div>
         <div type="scene">
           <head type="title">Harmadik jelenet.</head>

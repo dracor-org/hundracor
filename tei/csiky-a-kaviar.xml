@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000055" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000055" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A kaviár</title>
+        <title>A kaviár</title>
         <title type="sub">Bohózat három felvonásban</title>
         <author>
           <persName>
@@ -4743,9 +4743,7 @@
             <stage>(összesug.)</stage>
             <p>Kaviárt emleget.</p>
           </sp>
-          <sp who="#brigitta #martha #miranda">
-            <stage>(Lábujjhegyen az ágy felé közelednek.) </stage>
-          </sp>
+          <stage>(Lábujjhegyen az ágy felé közelednek.) </stage>
           <sp who="#achilles">
             <speaker>ACHILLES</speaker>
             <p>Majd adok én neked kaviárt! Zsivány! </p>

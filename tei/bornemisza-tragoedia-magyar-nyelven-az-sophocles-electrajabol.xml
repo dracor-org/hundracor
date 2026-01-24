@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000004" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000004" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Tragoedia magyar nyelven, az Sophocles Electrájából</title>
+        <title>Tragoedia magyar nyelven, az Sophocles Electrájából</title>
         <title type="sub">Nagyobb részre fordíttatott, és az keresztényeknek erkölcsöknek
                     jobbításokra például szépen játéknak módja szerint rendeltetett</title>
         <author>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000062" xml:lang="hun">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000062" xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Kártyázó asszonyok</title>
+        <title>Kártyázó asszonyok</title>
         <title type="sub">Színjáték három felvonásban (Hét képben)</title>
         <author>
           <persName>
