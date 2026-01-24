@@ -7,7 +7,6 @@ Transform ELTE-DH source file(s) to DraCor TEI.
 Usage: $0 source-file [source-file ...]
 
 OPTIONS:
-  -D, --dracor    use dracor-org fork and branch
   -h, --help      show this message
 
 EOF
@@ -17,21 +16,13 @@ EOF
 # https://medium.com/@Drew_Stokes/bash-argument-parsing-54f3b81a6a8f
 
 PARAMS=""
-SOURCE_REPO="https://github.com/ELTE-DH/drama-corpus.git"
-SOURCE_BRANCH="main"
-SOURCE_DIR="source-repo"
+SOURCE_DIR="ELTE-drama-corpus"
 
 while (( "$#" )); do
   case "$1" in
     -h|--help)
       usage
       exit 0
-      ;;
-    -D|--dracor)
-      SOURCE_REPO="https://github.com/dracor-org/ELTE-drama-corpus.git"
-      SOURCE_BRANCH="dracor"
-      SOURCE_DIR="source-repo-dracor"
-      shift
       ;;
     -v|--verbose)
       VERBOSE=yes
@@ -57,15 +48,6 @@ OUT="tei"
 FILES=$@
 
 if [ $# -eq 0 ]; then
-  echo "Source repo: $SOURCE_REPO $SOURCE_BRANCH"
-  if [ ! -d $SOURCE_DIR ]; then
-    git clone $SOURCE_REPO $SOURCE_DIR
-  fi
-  cd $SOURCE_DIR
-  git config pull.rebase true
-  git checkout $SOURCE_BRANCH
-  git pull origin $SOURCE_BRANCH
-  cd -
   FILES=$SOURCE_DIR/level1/*.xml
 fi
 

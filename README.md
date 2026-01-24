@@ -35,20 +35,12 @@ script from the root directory of this repo:
 ./elte2dracor
 ```
 
-This clones the
-[ELTE-DH/drama-corpus](https://github.com/ELTE-DH/drama-corpus) repo and
-runs the transformation for each file in its `level1` directory.
-
-Alternatively the files can be imported from the
-[dracor-org fork](https://github.com/dracor-org/ELTE-drama-corpus) of the ELTE
-repo by using the `--dracor` switch:
-
-```sh
-./elte2dracor --dracor
-```
+This runs the transformation for each file in the `level1` directory of the
+[ELTE-DH/drama-corpus](ELTE-drama-corpus/level1) which is included as a
+submodule.
 
 You can also update individual files, for instance:
 
 ```sh
-./elte2dracor ./source-repo/level1/Madach_ACivilizator.xml
+./elte2dracor ./ELTE-drama-corpus/level1/Madach_ACivilizator.xml
 ```
