@@ -1,3 +1,3 @@
 [submodule "ELTE-drama-corpus"]
 	path = ELTE-drama-corpus
-	url = git@github.com:ELTE-DH/drama-corpus.git
+	url = git@github.com:dracor-org/ELTE-drama-corpus.git
