@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000044" xml:lang="hu">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="dracor"
+     xml:id="hun000044"
+     xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -190,6 +193,9 @@
   <standOff>
     <listEvent>
       <event type="print" when="1978">
+        <desc/>
+      </event>
+      <event type="written" when="1906">
         <desc/>
       </event>
     </listEvent>

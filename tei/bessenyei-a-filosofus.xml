@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000049" xml:lang="hu">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="dracor"
+     xml:id="hun000049"
+     xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -4022,7 +4025,6 @@
               <l>„Igazán mágnes kö a' te tekinteted.</l>
               <l>Tsókra termett képed, ép minden termeted,</l>
               <l>Meljért sok láb fárad, árad, várad, nyárad.</l>
-              <l/>
             </lg>
             <p>Oh! eztet éppen Váradnál irták, nyári időbe pedig, árvízkor. — Száz
 							hatvan négy levél isjegyes, lássuk: „Tsak téged szeretlek, mig e’ földön

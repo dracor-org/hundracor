@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000038" xml:lang="hu">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="dracor"
+     xml:id="hun000038"
+     xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -158,10 +161,7 @@
         <label>1836. március 27.</label>
       </event>
       <event type="written" notBefore="1833-03" notAfter="1834-08-15">
-        <label>
-						1833. márciusa után,
-						1834. augusztus 15. előtt
-					</label>
+        <label>1833. márciusa után, 1834. augusztus 15. előtt</label>
       </event>
     </listEvent>
   </standOff>
@@ -3422,7 +3422,6 @@
           <speaker>HANGAI</speaker>
           <lg>
             <l>Ne mondja, oh, csak azt ne mondja ön!</l>
-            <l/>
             <l>Ha már kegyes volt szánni szenvedőt,</l>
             <l>’S részvéttel szóra bátorítani,</l>
             <l>Ne tégye pártütővé ellene</l>
@@ -4906,7 +4905,6 @@
             <l>’S tündérkedem, hogy vissza csaljam őt.</l>
             <l>’S ha végre Vilma nyer, ’s a’ fátyolos lány</l>
             <l>Ismét feledve? Az sem veszteség</l>
-            <l/>
             <l>Akkor megint csak birtokomba jő.</l>
             <l>De nem! ha Vilmához tér újolag,</l>
             <l>’S kétélü nyelve szenvedélyt hazud,</l>

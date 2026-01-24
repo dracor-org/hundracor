@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000052" xml:lang="hu">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="dracor"
+     xml:id="hun000052"
+     xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1664,7 +1667,6 @@
               <l><stage>ismét szorgalmatos tekintet-el.</stage></l>
               <l>Mibe merűltél-el Gara? mit gondolhatsz!</l>
               <l>Talám dolgainkba hibákat találhatsz?</l>
-              <l/>
             </lg>
             <stage>E’-kor Gara Bánfira tekint, kit darab ide-ig tsak szó
                                         nélkül néz, végre a’ dühösség lassan lassan, tekintetére
@@ -1692,7 +1694,6 @@
               <l><stage>fel szóval.</stage></l>
               <l>Hé — hé — sijessetek hozzánk segítségre,</l>
               <l>Hogy juttotunk illyen hamar ez ínségre!</l>
-              <l/>
             </lg>
             <stage>A ’ kiáltásra sok szolgáló férjfijak rohannak elő, kik
                                         Garát el-alélásába fel-vévén, ki-viszik</stage>
@@ -1886,7 +1887,6 @@
             <lg>
               <stage>Hunyadi Lászlóhoz</stage>
               <l>Ah kedves barátom! hol talállak itt-fel.</l>
-              <l/>
             </lg>
             <stage>Hunyadi L. hozzá szalad, ’s meg-öleli keservesen</stage>
           </sp>

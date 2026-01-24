@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000060" xml:lang="hu">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="dracor"
+     xml:id="hun000060"
+     xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -223,7 +226,9 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/hun000060" passive="http://www.wikidata.org/entity/Q998708"/>
+      <relation name="wikidata"
+                   active="https://dracor.org/entity/hun000060"
+                   passive="http://www.wikidata.org/entity/Q998708"/>
     </listRelation>
   </standOff>
   <text>

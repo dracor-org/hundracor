@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000019" xml:lang="hu">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="dracor"
+     xml:id="hun000019"
+     xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -7315,7 +7318,6 @@
             <lg>
               <l>Fogd be a szád púpos! Eredj a zugolyba!</l>
               <l>Ne irigyeld el a más gyönyörüségét!</l>
-              <l/>
             </lg>
           </sp>
           <sp who="#kurut">

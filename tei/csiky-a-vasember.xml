@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun000010" xml:lang="hu">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="dracor"
+     xml:id="hun000010"
+     xml:lang="hu">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -4353,7 +4356,6 @@
             <lg>
               <l>Én tudom...</l>
               <l>Fiam meghal, te léssz a gyilkosa.</l>
-              <l/>
             </lg>
           </sp>
           <sp who="#bardi">
