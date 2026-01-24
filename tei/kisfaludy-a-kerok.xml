@@ -1266,9 +1266,7 @@
             <p>Mennydörgő-rázta! nem tudja az urad, hogy a magyarnál mindig nyitva a
                             kapu; az annyit tesz, hogy szívesen lát vendéget. Jancsi, járasd be.</p>
           </sp>
-          <sp>
-            <stage>János, Tamás el.</stage>
-          </sp>
+          <stage>János, Tamás el.</stage>
           <sp who="#lidi">
             <speaker>LIDI.</speaker>
             <p>Lesz zűrzavar a háznál!</p>
@@ -1588,9 +1586,7 @@
             <p>
               <stage>félre.</stage> Ach! mely hátra vagyunk!</p>
           </sp>
-          <sp>
-            <stage>El mindnyájan.</stage>
-          </sp>
+          <stage>El mindnyájan.</stage>
         </div>
       </div>
       <div type="act">
@@ -1740,9 +1736,7 @@
         </div>
         <div type="scene">
           <head type="title">MÁSODIK JELENÉS</head>
-          <sp>
-            <stage>Vilhelm, Ferenc.</stage>
-          </sp>
+          <stage>Vilhelm, Ferenc.</stage>
           <sp who="#vilhelm">
             <speaker>VILHELM.</speaker>
             <p>Huszár! háj kell -</p>
@@ -2388,9 +2382,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENÉS</head>
-          <sp>
-            <stage>Károly, az előbbiek.</stage>
-          </sp>
+          <stage>Károly, az előbbiek.</stage>
           <sp who="#karoly">
             <speaker>KÁROLY.</speaker>
             <p>Édes kedves húgom! mit végeztél?</p>
@@ -2410,9 +2402,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZEDIK JELENÉS</head>
-          <sp>
-            <stage>Ferenc, az előbbiek.</stage>
-          </sp>
+          <stage>Ferenc, az előbbiek.</stage>
           <sp who="#ferenc">
             <speaker>FERENC.</speaker>
             <p>Csak igaz marad, egy leány több zavart okoz a háznál, mint száz
@@ -2452,9 +2442,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENEGYEDIK JELENÉS</head>
-          <sp>
-            <stage>Baltafy, az előbbiek.</stage>
-          </sp>
+          <stage>Baltafy, az előbbiek.</stage>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
             <p>Alig várom, hogy megmenekedjem. Máli! fogadom, nem lesz többé kérőd.</p>
@@ -2513,9 +2501,7 @@
         </div>
         <div type="scene">
           <head type="title">TIZENKETTEDIK JELENÉS</head>
-          <sp>
-            <stage>Margit, az előbbiek.</stage>
-          </sp>
+          <stage>Margit, az előbbiek.</stage>
           <sp who="#margit">
             <speaker>MARGIT.</speaker>
             <p>Az istenért! tudjátok-e már? csata volt a háznál! emberhalál történt! az
@@ -2798,9 +2784,7 @@
         </div>
         <div type="scene">
           <head type="title">NEGYEDIK JELENÉS</head>
-          <sp>
-            <stage>Szélházy, az előbbiek.</stage>
-          </sp>
+          <stage>Szélházy, az előbbiek.</stage>
           <sp who="#baro_szelhazy">
             <speaker>SZÉLHÁZY.</speaker>
             <p>Mely kellemetes társaság!</p>
@@ -2922,9 +2906,7 @@
         </div>
         <div type="scene">
           <head type="title">ÖTÖDIK JELENÉS</head>
-          <sp>
-            <stage>Perföldy, az előbbiek.</stage>
-          </sp>
+          <stage>Perföldy, az előbbiek.</stage>
           <sp who="#perfoldy">
             <speaker>PERFÖLDI</speaker>
             <p>
@@ -3095,9 +3077,7 @@
             <p>
               <stage>a kertészekhez.</stage> Ti most elmehettek.</p>
           </sp>
-          <sp>
-            <stage>Kertészek el.</stage>
-          </sp>
+          <stage>Kertészek el.</stage>
         </div>
         <div type="scene">
           <head type="title">NYOLCADIK JELENÉS</head>
@@ -3237,9 +3217,7 @@
         </div>
         <div type="scene">
           <head type="title">KILENCEDIK JELENÉS</head>
-          <sp>
-            <stage>Lidi, Szélházy, Perföldy, János, az előbbiek.</stage>
-          </sp>
+          <stage>Lidi, Szélházy, Perföldy, János, az előbbiek.</stage>
           <sp who="#baltafy">
             <speaker>BALTAFY.</speaker>
             <p>Köszöntöm az urakat.</p>

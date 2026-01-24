@@ -410,9 +410,7 @@
               <l>Menj, gyermekem, fogadd vendégedet.</l>
             </lg>
           </sp>
-          <sp who="#edith">
-            <stage>(némán meghajtja fejét s el).</stage>
-          </sp>
+          <stage>EDITH (némán meghajtja fejét s el).</stage>
         </div>
         <div type="scene">
           <head type="title">Harmadik jelenet.</head>
